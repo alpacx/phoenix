@@ -1,0 +1,1 @@
+idf_component_register(SRCS "main.c" "gateway.c" "admin.c" "vpn.c" INCLUDE_DIRS "." PRIV_REQUIRES esp_eth esp_netif esp_event nvs_flash esp_timer esp_app_format app_update phoenix_core espressif__esp_tinyusb lwip esp_http_server mbedtls json wireguard bootloader_support)

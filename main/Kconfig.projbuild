@@ -1,0 +1,12 @@
+menu "Phoenix"
+config PHOENIX_USB_LAB
+ bool "Enable USB device after electrical fixture verification"
+ default n
+ help
+  Requires verified isolation of board VBUS source from host VBUS and
+  a suitable VBUS sensing circuit. See docs/HARDWARE.md.
+config PHOENIX_VBUS_GPIO
+ int "Verified host VBUS sense GPIO (-1 = not wired)"
+ range -1 54
+ default -1
+endmenu
