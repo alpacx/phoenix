@@ -4,7 +4,7 @@ Firmware sperimentale, non ancora un prodotto validato. Touch escluso su richies
 
 Implementati: Ethernet IP101/RMII con DHCP, USB HS CDC-NCM con DHCP/NAT IPv4,
 firewall L3/L4, API amministrativa locale e pannello, importatore WireGuard IPv4
-full tunnel e blocco in uscita. La presenza del codice e una build riuscita non
+full tunnel e blocco in uscita, gestione C6 STA/AP e aggiornamento firmato in software. La presenza del codice e una build riuscita non
 provano il funzionamento sul banco: consultare PROGRESS.md.
 
 ## Build
@@ -20,9 +20,11 @@ IDF_PATH e IDF_PYTHON_ENV_PATH sono sovrascrivibili.
 ./tools/build.sh -B build-rev3 -D SDKCONFIG=build-rev3/sdkconfig \
   -D 'SDKCONFIG_DEFAULTS=sdkconfig.defaults;sdkconfig.rev3'
 # Solo compilazione del percorso USB, NON certifica il cablaggio:
-./tools/build.sh -B build-lab -D SDKCONFIG=build-lab/sdkconfig \
-  -D 'SDKCONFIG_DEFAULTS=sdkconfig.defaults;sdkconfig.lab'
+./tools/build.sh -B build-usb-rev3 -D SDKCONFIG=build-usb-rev3/sdkconfig \
+  -D 'SDKCONFIG_DEFAULTS=sdkconfig.defaults;sdkconfig.rev3;sdkconfig.lab;sdkconfig.signed'
 ```
+
+La variante firmata richiede prima la chiave descritta in [OTA](docs/OTA.md).
 
 Il default sdkconfig.defaults supporta P4 v1.x; non caricarlo sulla v3.1.
 Per una build USB di banco v3.x aggiungere sdkconfig.lab DOPO sdkconfig.rev3

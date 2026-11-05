@@ -9,4 +9,7 @@ config PHOENIX_VBUS_GPIO
  int "Verified host VBUS sense GPIO (-1 = not wired)"
  range -1 54
  default -1
+config PHOENIX_C6_PROBE
+ bool "Probe C6 firmware and scan Wi-Fi once (no connection)"
+ default n
 endmenu

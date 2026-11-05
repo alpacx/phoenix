@@ -38,3 +38,11 @@ config, alimentazione, silicon revision, MAC OS, endpoint locale, MTU, direzione
 stream, durata, throughput utile, RTT mediana/p95, heap minimo/finale, CPU e reset.
 Ripetere 3 volte e almeno un soak di 8 ore. Tutti questi risultati sono MANCANTI.
 Test OTA interruzione alimentazione da eseguire solo quando OTA firmata è implementata.
+
+
+Regressione USB host: `tools/test.sh` estrae le due funzioni sync effettive
+dall'override e le compila con uno scheduler deterministico. Copre callback
+ritardate dopo timeout, completamenti obsoleti e backpressure; non simula bus,
+interrupt o prestazioni. Firma: `tools/test_signatures.py` su Python ESP-IDF
+verifica originale/alterazione/chiave estranea. La firma dell'immagine corrente
+è stata inoltre verificata dalla P4 prima dell'avvio dei servizi.
