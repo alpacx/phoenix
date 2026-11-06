@@ -32,6 +32,7 @@ void ph_vpn_stop(void) {
     netif_remove(ph_wg);
     wireguardif_fini(ph_wg);
     ph_wg = NULL;
+    ph_gateway_refresh_maps();
     memset(&wg, 0, sizeof wg);
 }
 bool ph_vpn_start(const ph_wg_profile *p) {
@@ -77,8 +78,10 @@ bool ph_vpn_start(const ph_wg_profile *p) {
     endpoint = lwip_ntohl(ip4_addr_get_u32(ip_2_ip4(&peer.endpoint_ip)));
     endpoint_port = p->port;
     memset(psk, 0, sizeof psk);
-    if (wireguardif_connect(&wg, peer_id) == ERR_OK)
+    if (wireguardif_connect(&wg, peer_id) == ERR_OK) {
+        ph_gateway_refresh_maps();
         return true;
+    }
 fail:
     memset(psk, 0, sizeof psk);
     ph_vpn_stop();

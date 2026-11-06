@@ -3,6 +3,8 @@
 #include "esp_log.h"
 #include "esp_mac.h"
 #include "esp_netif_net_stack.h"
+#include "freertos/FreeRTOS.h"
+#include "freertos/semphr.h"
 #include "lwip/etharp.h"
 #include "lwip/ip.h"
 #include "lwip/ip4_addr.h"
@@ -10,6 +12,7 @@
 #include "lwip/netif.h"
 #include "lwip/pbuf.h"
 #include "lwip/tcpip.h"
+#include "nvs.h"
 #include "sdkconfig.h"
 #include "tinyusb.h"
 #include "tinyusb_default_config.h"
@@ -23,6 +26,20 @@
 #endif
 esp_netif_t *ph_usb, *ph_eth, *ph_sta, *ph_ap, *ph_selected;
 static ph_firewall fw;
+static ph_policy policy = {.schema = 1, .revision = 1, .default_allow = true};
+static SemaphoreHandle_t policy_mutex;
+static bool maps_active[PH_PORT_FORWARDS];
+static ph_port_forward installed[PH_PORT_FORWARDS];
+static uint32_t control_ip, control_dns;
+/* Only board-originated control traffic. Forwarded clients still pass the
+ * mandatory VPN gate before NAT and cannot reach these exceptions in clear. */
+void ph_gateway_control(uint32_t ip, uint32_t dns) {
+    LOCK_TCPIP_CORE();
+    control_ip = ip;
+    control_dns = dns;
+    UNLOCK_TCPIP_CORE();
+}
+
 static uint8_t scratch[1514]; /* only accessed under lwIP core lock */
 void ph_gateway_snapshot(ph_firewall *out) {
     LOCK_TCPIP_CORE();
@@ -58,7 +75,7 @@ static bool same(struct netif *n, esp_netif_t *e) {
     return e && n == esp_netif_get_netif_impl(e);
 }
 static bool client_addr(uint32_t addr) {
-    return (addr & 0xffffff00) == 0xc0a80700 || (addr & 0xffffff00) == 0xc0a80800;
+    return (addr & 0xffffff00) == 0xc0a80700 || (addr & 0xffffff00) == 0xc0a80900;
 }
 static void flush_nat(void) {
     esp_netif_t *uplinks[] = {ph_eth, ph_sta};
@@ -79,12 +96,89 @@ static void flush_nat(void) {
                 ip_napt_enable_no(n->num, 1);
         }
 }
+void ph_gateway_refresh_maps(void) {
+    for (unsigned i = 0; i < PH_PORT_FORWARDS; i++) {
+        uint32_t a, b;
+        uint16_t port;
+        if (maps_active[i] &&
+            ip_portmap_get(installed[i].protocol, installed[i].external_port, &a, &b, &port))
+            ip_portmap_remove(installed[i].protocol, installed[i].external_port);
+        maps_active[i] = false;
+    }
+    struct netif *external =
+        fw.direct_enabled ? (ph_selected ? esp_netif_get_netif_impl(ph_selected) : NULL) : ph_wg;
+    if (!external || !fw.uplink_ready || !netif_is_up(external))
+        return;
+    for (size_t i = 0; i < policy.forward_count; i++) {
+        const ph_port_forward *f = &policy.forwards[i];
+        if (!f->enabled || f->vpn == fw.direct_enabled)
+            continue;
+        esp_netif_t *target = (f->target & 0xffffff00) == 0xc0a80900 ? ph_ap : ph_usb;
+        if (!target)
+            continue;
+        struct netif *n = esp_netif_get_netif_impl(target);
+        if (!netif_is_up(n) || !n->napt)
+            continue;
+        maps_active[i] =
+            ip_portmap_add(f->protocol, netif_ip4_addr(external)->addr, f->external_port,
+                           lwip_htonl(f->target), f->internal_port) != 0;
+        if (maps_active[i])
+            installed[i] = *f;
+    }
+}
+/* A configured map always owns its incoming port, including source denials. */
+static int mapped_input(const ph_packet *pkt, bool vpn) {
+    for (size_t i = 0; i < policy.forward_count; i++) {
+        const ph_port_forward *f = &policy.forwards[i];
+        if (f->enabled && f->vpn == vpn && f->protocol == pkt->protocol &&
+            f->external_port == pkt->dport)
+            return maps_active[i] && ph_forward_source_allowed(f, pkt->src) ? 1 : 0;
+    }
+    return -1;
+}
+void ph_gateway_policy_get(ph_policy *out, bool active[PH_PORT_FORWARDS]) {
+    LOCK_TCPIP_CORE();
+    *out = policy;
+    if (active)
+        memcpy(active, maps_active, sizeof maps_active);
+    UNLOCK_TCPIP_CORE();
+}
+esp_err_t ph_gateway_policy_set(const ph_policy *p, uint32_t expected) {
+    if (!ph_policy_valid(p))
+        return ESP_ERR_INVALID_ARG;
+    xSemaphoreTake(policy_mutex, portMAX_DELAY);
+    if (expected != policy.revision || expected == UINT32_MAX) {
+        xSemaphoreGive(policy_mutex);
+        return ESP_ERR_INVALID_STATE;
+    }
+    ph_policy next = *p;
+    next.revision = expected + 1;
+    nvs_handle_t nv;
+    esp_err_t e = nvs_open("phoenix", NVS_READWRITE, &nv);
+    if (e == ESP_OK) {
+        e = nvs_set_blob(nv, "policy", &next, sizeof next);
+        if (e == ESP_OK)
+            e = nvs_commit(nv);
+        nvs_close(nv);
+    }
+    if (e == ESP_OK) {
+        LOCK_TCPIP_CORE();
+        policy = next;
+        ph_policy_compile(&policy, &fw);
+        flush_nat();
+        ph_gateway_refresh_maps();
+        UNLOCK_TCPIP_CORE();
+    }
+    xSemaphoreGive(policy_mutex);
+    return e;
+}
 void ph_gateway_direct(bool enabled) {
     LOCK_TCPIP_CORE();
     fw.direct_enabled = false;
     ph_vpn_stop();
     flush_nat();
     fw.direct_enabled = enabled;
+    ph_gateway_refresh_maps();
     UNLOCK_TCPIP_CORE();
 }
 void ph_gateway_network_event(esp_netif_t *net, bool ready) {
@@ -96,6 +190,7 @@ void ph_gateway_network_event(esp_netif_t *net, bool ready) {
             flush_nat();
         }
     }
+    ph_gateway_refresh_maps();
     UNLOCK_TCPIP_CORE();
 }
 void ph_gateway_uplink(bool ready) {
@@ -115,14 +210,18 @@ esp_err_t ph_gateway_select(bool wifi) {
     uint32_t mask = lwip_ntohl(netif_ip4_netmask(n)->addr),
              ip = lwip_ntohl(netif_ip4_addr(n)->addr);
     fw.uplink_ready = netif_is_up(n) && netif_is_link_up(n) && ip &&
-                      ((ip & mask) != (0xc0a80701 & mask)) && ((ip & mask) != (0xc0a80801 & mask));
+                      ((ip & mask) != (0xc0a80701 & mask)) && ((ip & mask) != (0xc0a80901 & mask));
     UNLOCK_TCPIP_CORE();
     return esp_netif_set_default_netif(selected);
 }
 /* Runs in tcpip thread before NAT/local delivery; an unrecognized interface fails closed. */
 int ph_ip4_input(struct pbuf *p, struct netif *n) {
+    /* ip4_input sets ip_data.current_input_netif only for LOCAL delivery,
+     * after the forwarding branch. Store actual ingress on this packet;
+     * also overwrites the outer context for decrypted WireGuard packets. */
+    p->if_idx = netif_get_index(n);
     ph_packet pkt;
-    bool ok = false;
+    bool ok = false, counted_drop = false;
     if (p->tot_len > sizeof scratch)
         goto drop;
     pbuf_copy_partial(p, scratch, p->tot_len, 0);
@@ -130,10 +229,14 @@ int ph_ip4_input(struct pbuf *p, struct netif *n) {
         fw.malformed++;
         goto drop;
     }
+    /* The internal UART bridge reaches the authenticated HTTP server on the
+     * actual loopback interface. Spoofed loopback source on Ethernet/AP cannot match. */
+    if (n->name[0] == 'l' && n->name[1] == 'o' && pkt.src == 0x7f000001 && pkt.dst == 0x7f000001)
+        return 0;
     fw.tunnel_ready = ph_vpn_up();
     if (same(n, ph_usb) || same(n, ph_ap)) {
         bool usb = same(n, ph_usb);
-        uint32_t network = usb ? 0xc0a80700 : 0xc0a80800;
+        uint32_t network = usb ? 0xc0a80700 : 0xc0a80900;
         ph_iface ingress = usb ? PH_USB : PH_AP;
         bool dhcp = pkt.protocol == 17 && pkt.sport == 68 && pkt.dport == 67 &&
                     (pkt.dst == 0xffffffff || pkt.dst == network + 1);
@@ -151,6 +254,7 @@ int ph_ip4_input(struct pbuf *p, struct netif *n) {
                           fw.direct_enabled ? (ph_selected == ph_sta ? PH_WIFI : PH_ETH) : PH_WG,
                           PH_FORWARD);
         }
+        counted_drop = !ok;
     } else if (same(n, ph_eth) || same(n, ph_sta)) {
         bool dhcp = pkt.protocol == 17 && pkt.sport == 67 && pkt.dport == 68;
         if (dhcp)
@@ -159,13 +263,27 @@ int ph_ip4_input(struct pbuf *p, struct netif *n) {
             goto drop;
         if (pkt.protocol == 17 && ph_vpn_outer(pkt.src, pkt.sport, pkt.dport))
             return 0;
+        if ((pkt.protocol == 6 && control_ip && pkt.src == control_ip && pkt.sport == 443 &&
+             pkt.dport >= 1024) ||
+            (pkt.protocol == 17 && control_dns && pkt.src == control_dns && pkt.sport == 53 &&
+             pkt.dport >= 1024))
+            return 0;
+        int mapping = mapped_input(&pkt, false);
+        if (mapping >= 0) {
+            ok = mapping && fw.direct_enabled && fw.uplink_ready;
+            goto checked;
+        }
         ok = fw.direct_enabled && fw.uplink_ready &&
              (((pkt.protocol == 6 || pkt.protocol == 17) && pkt.dport >= 1024) ||
               (pkt.protocol == 1 && scratch[20] == 0));
     } else if (n == ph_wg) {
         ok = !fw.direct_enabled && fw.uplink_ready && fw.tunnel_ready &&
              pkt.dst == lwip_ntohl(netif_ip4_addr(n)->addr);
+        int mapping = mapped_input(&pkt, true);
+        if (mapping >= 0)
+            ok = ok && mapping;
     }
+checked:
     if (ok) {
         if (!fw.direct_enabled && ph_wg && pkt.protocol == 6) {
             if (!ph_tcp_clamp_mss(scratch, p->tot_len, ph_wg->mtu))
@@ -176,7 +294,8 @@ int ph_ip4_input(struct pbuf *p, struct netif *n) {
         return 0;
     }
 drop:
-    fw.blocked++;
+    if (!counted_drop)
+        fw.blocked++;
     pbuf_free(p);
     return 1;
 }
@@ -195,7 +314,12 @@ static err_t guarded_eth_output(struct netif *n, struct pbuf *p) {
             bool dhcp = pkt.protocol == 17 && pkt.sport == 68 && pkt.dport == 67;
             bool encrypted = same(n, ph_selected) && pkt.protocol == 17 &&
                              ph_vpn_outer_tx(pkt.dst, pkt.sport, pkt.dport);
-            if (!dhcp && !encrypted) {
+            bool own = pkt.src == lwip_ntohl(netif_ip4_addr(n)->addr);
+            bool control =
+                own && same(n, ph_selected) &&
+                ((pkt.protocol == 6 && control_ip && pkt.dst == control_ip && pkt.dport == 443) ||
+                 (pkt.protocol == 17 && control_dns && pkt.dst == control_dns && pkt.dport == 53));
+            if (!dhcp && !encrypted && !control) {
                 fw.blocked++;
                 return ERR_IF;
             }
@@ -209,7 +333,7 @@ struct netif *ph_route(const ip4_addr_t *src, const ip4_addr_t *dst) {
     uint32_t dest = lwip_ntohl(dst->addr);
     if (ph_usb && (dest & 0xffffff00) == 0xc0a80700)
         return esp_netif_get_netif_impl(ph_usb);
-    if (ph_ap && (dest & 0xffffff00) == 0xc0a80800)
+    if (ph_ap && (dest & 0xffffff00) == 0xc0a80900)
         return esp_netif_get_netif_impl(ph_ap);
     if (src && client_addr(lwip_ntohl(src->addr))) {
         if (!fw.direct_enabled && ph_wg)
@@ -219,7 +343,7 @@ struct netif *ph_route(const ip4_addr_t *src, const ip4_addr_t *dst) {
     return NULL;
 }
 int ph_canforward(struct pbuf *p, unsigned long address) {
-    struct netif *in = ip_current_input_netif();
+    struct netif *in = netif_get_by_index(p->if_idx);
     if (!fw.uplink_ready)
         return 0;
     if (same(in, ph_usb) || same(in, ph_ap)) {
@@ -253,6 +377,7 @@ void ph_gateway_guard_sta(void) {
 void ph_gateway_ap_started(void) {
     LOCK_TCPIP_CORE();
     flush_nat();
+    ph_gateway_refresh_maps();
     UNLOCK_TCPIP_CORE();
 }
 static void free_rx(void *h, void *p) {
@@ -308,15 +433,18 @@ static const char *usb_strings[] = {
     "\x09\x04", "Phoenix Lab", "Phoenix NCM", usb_serial, "USB network", "", NULL};
 void ph_gateway_start(void) {
     ph_selected = ph_eth;
-    fw.rules[0] = (ph_rule){.ingress = PH_USB,
-                            .direction = PH_LOCAL,
-                            .protocol = 6,
-                            .port_first = 80,
-                            .port_last = 80,
-                            .allow = true};
-    fw.rules[1] = (ph_rule){.ingress = PH_USB, .direction = PH_FORWARD, .allow = true};
-    fw.rules[2] = (ph_rule){.ingress = PH_AP, .direction = PH_FORWARD, .allow = true};
-    fw.rule_count = 3;
+    policy_mutex = xSemaphoreCreateMutex();
+    configASSERT(policy_mutex);
+    nvs_handle_t nv;
+    if (nvs_open("phoenix", NVS_READONLY, &nv) == ESP_OK) {
+        ph_policy saved;
+        size_t len = sizeof saved;
+        if (nvs_get_blob(nv, "policy", &saved, &len) == ESP_OK && len == sizeof saved &&
+            ph_policy_valid(&saved))
+            policy = saved;
+        nvs_close(nv);
+    }
+    ph_policy_compile(&policy, &fw);
     if (!CONFIG_PHOENIX_USB_LAB) {
         ESP_LOGW("gateway", "USB held off: electrical fixture not approved");
         return;

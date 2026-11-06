@@ -334,7 +334,8 @@ static void wireguardif_process_data_message(struct wireguard_device *device, st
 							// Also check packet length!
 #if LWIP_IPV4
 							if (IPH_V(iphdr) == 4) {
-								ip_addr_copy_from_ip4(dest, iphdr->dest);
+								/* AllowedIPs validates the decrypted SOURCE, not our destination. */
+								ip_addr_copy_from_ip4(dest, iphdr->src);
 								for (x=0; x < WIREGUARD_MAX_SRC_IPS; x++) {
 									if (peer->allowed_source_ips[x].valid) {
 										if (ip_addr_netcmp(&dest, &peer->allowed_source_ips[x].ip, ip_2_ip4(&peer->allowed_source_ips[x].mask))) {
@@ -956,6 +957,12 @@ static void wireguardif_tmr(void *arg) {
 	}
 }
 
+
+/* ESP-IDF 5.5 otherwise assumes every raw netif->state is an esp_netif_t.
+ * PPP support enables separate esp_netif client data; no PPP link is created. */
+#if defined(ESP_PLATFORM) && !LWIP_ESP_NETIF_DATA
+#error "WireGuard requires separate ESP netif client data: enable CONFIG_LWIP_PPP_SUPPORT"
+#endif
 
 err_t wireguardif_init(struct netif *netif) {
 	err_t result;

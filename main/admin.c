@@ -14,6 +14,7 @@
 #include "mbedtls/sha256.h"
 #include "nvs.h"
 #include "vpn.h"
+#include "vpn_manager.h"
 #include "wifi_manager.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -22,28 +23,9 @@
 static uint8_t digest[32];
 static bool paired;
 static SemaphoreHandle_t mutex;
-static const char page[] =
-    "<!doctype html><html lang=it><meta charset=utf-8><meta name=viewport "
-    "content='width=device-width,initial-scale=1'><title>Phoenix</title>"
-    "<style>body{font:17px system-ui;max-width:48rem;margin:5vh "
-    "auto;padding:1rem;background:#102029;color:#e2f4ed}button,input{font:inherit;padding:.7rem;"
-    "margin:.4rem "
-    "0;max-width:95%}button{cursor:pointer}pre{white-space:pre-wrap;background:#20343e;padding:"
-    "1rem}label{display:block}</style>"
-    "<h1>Phoenix · laboratorio</h1><p>Il dispositivo controlla solo il traffico che lo attraversa. "
-    "IPv6 bloccato. WireGuard sperimentale; Wi-Fi STA/AP sperimentale.</p>"
-    "<label>Token amministrativo <input id=t type=password autocomplete=off "
-    "size=50></label><button id=s>Leggi stato</button> <button id=b>Blocca inoltro</button> "
-    "<button id=d>Abilita Internet diretto</button><pre id=o>Pairing tramite seriale nei primi 120 "
-    "secondi dall’avvio.</pre>"
-    "<script>async function call(path,body){try{let r=await "
-    "fetch('/api/v1/'+path,{method:body?'POST':'GET',headers:{Authorization:'Bearer "
-    "'+t.value,'Content-Type':'application/"
-    "json'},body:body&&JSON.stringify(body)});o.textContent=JSON.stringify(await "
-    "r.json(),null,2)}catch(e){o.textContent='Richiesta "
-    "fallita'}}s.onclick=()=>call('status');b.onclick=()=>call('mode',{direct:false});d.onclick=()="
-    ">{if(confirm('Consenti traffico senza VPN? Le sessioni possono "
-    "interrompersi.'))call('mode',{direct:true})}</script></html>";
+extern const char page_start[] asm("_binary_index_html_start"), page_end[] asm(
+                                                                    "_binary_index_html_end");
+static bool local_origin(httpd_req_t *r);
 static esp_err_t reply(httpd_req_t *r, const char *status, const char *body) {
     httpd_resp_set_status(r, status);
     httpd_resp_set_type(r, "application/json");
@@ -71,7 +53,11 @@ static esp_err_t index_page(httpd_req_t *r) {
     httpd_resp_set_type(r, "text/html");
     httpd_resp_set_hdr(r, "Cache-Control", "no-store");
     httpd_resp_set_hdr(r, "X-Frame-Options", "DENY");
-    return httpd_resp_sendstr(r, page);
+    httpd_resp_set_hdr(
+        r, "Content-Security-Policy",
+        "default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src "
+        "'self' data:; frame-ancestors 'none'; base-uri 'none'; form-action 'self'");
+    return httpd_resp_send(r, page_start, page_end - page_start);
 }
 static esp_err_t status(httpd_req_t *r) {
     if (!auth(r))
@@ -100,11 +86,7 @@ static esp_err_t status(httpd_req_t *r) {
 static esp_err_t mode(httpd_req_t *r) {
     if (!auth(r))
         return reply(r, "401 Unauthorized", "{\"error\":\"authentication_required\"}");
-    char origin[64];
-    size_t ol = httpd_req_get_hdr_value_len(r, "Origin");
-    if (ol && (ol >= sizeof origin ||
-               httpd_req_get_hdr_value_str(r, "Origin", origin, sizeof origin) != ESP_OK ||
-               strcmp(origin, "http://192.168.7.1")))
+    if (!local_origin(r))
         return reply(r, "403 Forbidden", "{\"error\":\"origin\"}");
     if (r->content_len < 2 || r->content_len > 64)
         return reply(r, "400 Bad Request", "{\"error\":\"size\"}");
@@ -124,60 +106,24 @@ static esp_err_t mode(httpd_req_t *r) {
         cJSON_Delete(obj);
         return reply(r, "400 Bad Request", "{\"error\":\"expected_direct_boolean\"}");
     }
-    ph_gateway_direct(cJSON_IsTrue(d));
+    cJSON *command = cJSON_CreateObject();
+    cJSON_AddStringToObject(command, "action", cJSON_IsTrue(d) ? "direct" : "disconnect");
+    esp_err_t e = ph_vpn_manager_command(command);
+    cJSON_Delete(command);
+    if (e != ESP_OK) {
+        cJSON_Delete(obj);
+        return reply(r, "409 Conflict", "{\"error\":\"command_in_progress\"}");
+    }
     cJSON_Delete(obj);
     return reply(r, "200 OK", "{\"ok\":true}");
-}
-static esp_err_t vpn_import(httpd_req_t *r) {
-    if (!auth(r))
-        return reply(r, "401 Unauthorized", "{\"error\":\"authentication_required\"}");
-    if (httpd_req_get_hdr_value_len(r, "Origin"))
-        return reply(r, "403 Forbidden", "{\"error\":\"use_local_client\"}");
-    if (r->content_len < 1 || r->content_len > 4096)
-        return reply(r, "400 Bad Request", "{\"error\":\"size\"}");
-    char *body = calloc(1, r->content_len + 1);
-    if (!body)
-        return ESP_ERR_NO_MEM;
-    size_t have = 0;
-    while (have < r->content_len) {
-        int n = httpd_req_recv(r, body + have, r->content_len - have);
-        if (n <= 0) {
-            memset(body, 0, r->content_len);
-            free(body);
-            return ESP_FAIL;
-        }
-        have += n;
-    }
-    ph_wg_profile profile;
-    bool valid = ph_wg_parse(body, have, &profile);
-    memset(body, 0, have);
-    free(body);
-    if (!valid)
-        return reply(r, "400 Bad Request", "{\"error\":\"unsupported_or_malformed_profile\"}");
-    ph_gateway_direct(false);
-    LOCK_TCPIP_CORE();
-    bool started = ph_vpn_start(&profile);
-    UNLOCK_TCPIP_CORE();
-    if (started && (ph_usb || ph_ap)) {
-        esp_netif_dns_info_t dns = {0};
-        dns.ip.type = ESP_IPADDR_TYPE_V4;
-        esp_netif_str_to_ip4(profile.dns, &dns.ip.u_addr.ip4);
-        if (ph_usb)
-            esp_netif_set_dns_info(ph_usb, ESP_NETIF_DNS_MAIN, &dns);
-        if (ph_ap)
-            esp_netif_set_dns_info(ph_ap, ESP_NETIF_DNS_MAIN, &dns);
-    }
-    memset(&profile, 0, sizeof profile);
-    return reply(r, started ? "202 Accepted" : "409 Conflict",
-                 started ? "{\"state\":\"connecting\",\"renew_dhcp\":true}"
-                         : "{\"error\":\"clock_uplink_or_vpn_init\",\"forwarding\":\"blocked\"}");
 }
 static bool local_origin(httpd_req_t *r) {
     char origin[64];
     size_t n = httpd_req_get_hdr_value_len(r, "Origin");
     return !n || (n < sizeof origin &&
                   httpd_req_get_hdr_value_str(r, "Origin", origin, sizeof origin) == ESP_OK &&
-                  !strcmp(origin, "http://192.168.7.1"));
+                  (!strcmp(origin, "http://192.168.7.1") || !strcmp(origin, "http://192.168.9.1") ||
+                   !strcmp(origin, "http://10.77.0.2")));
 }
 static cJSON *small_json(httpd_req_t *r) {
     if (r->content_len < 2 || r->content_len > 256)
@@ -350,12 +296,43 @@ static esp_err_t wifi_configure(httpd_req_t *r) {
                  e == ESP_OK ? "{\"ok\":true,\"forwarding\":\"blocked\",\"ap_max_clients\":1}"
                              : "{\"error\":\"wifi_configuration_failed\"}");
 }
+bool ph_admin_pair(const char *token) {
+    if (esp_timer_get_time() > 120000000 || strlen(token) != 64)
+        return false;
+    for (unsigned i = 0; i < 64; i++)
+        if (!((token[i] >= '0' && token[i] <= '9') || (token[i] >= 'a' && token[i] <= 'f')))
+            return false;
+    uint8_t h[32];
+    mbedtls_sha256((const uint8_t *)token, 64, h, 0);
+    nvs_handle_t nv;
+    esp_err_t e = nvs_open("phoenix", NVS_READWRITE, &nv);
+    if (e == ESP_OK) {
+        e = nvs_set_blob(nv, "admin", h, 32);
+        if (e == ESP_OK)
+            e = nvs_set_u32(nv, "version", 1);
+        if (e == ESP_OK)
+            e = nvs_commit(nv);
+        nvs_close(nv);
+    }
+    if (e == ESP_OK) {
+        xSemaphoreTake(mutex, portMAX_DELAY);
+        memcpy(digest, h, 32);
+        paired = true;
+        xSemaphoreGive(mutex);
+        puts("Pairing saved");
+    }
+    memset(h, 0, sizeof h);
+    return e == ESP_OK;
+}
+#include "admin_api.inc"
 /* Provision over local UART only. No token is printed, echoed or accepted over the uplink. */
+#if !CONFIG_PHOENIX_GATEWAY_BENCH
 static void serial_pair(void *arg) {
-    char line[80];
+    char *line = calloc(1, 16385);
+    configASSERT(line);
     size_t n = 0;
     bool overflow = false;
-    while (esp_timer_get_time() < 120000000) {
+    for (;;) {
         uint8_t byte;
         if (uart_read_bytes(CONFIG_ESP_CONSOLE_UART_NUM, &byte, 1, pdMS_TO_TICKS(20)) != 1)
             continue;
@@ -376,44 +353,26 @@ static void serial_pair(void *arg) {
                     }
                 }
             }
-            if (!overflow && n == 69 && !memcmp(line, "pair ", 5)) {
-                bool valid = true;
-                for (size_t i = 5; i < 69; i++)
-                    if (!((line[i] >= '0' && line[i] <= '9') || (line[i] >= 'a' && line[i] <= 'f')))
-                        valid = false;
-                if (valid) {
-                    uint8_t h[32];
-                    mbedtls_sha256((uint8_t *)line + 5, 64, h, 0);
-                    nvs_handle_t nv;
-                    if (nvs_open("phoenix", NVS_READWRITE, &nv) == ESP_OK) {
-                        esp_err_t e = nvs_set_blob(nv, "admin", h, 32);
-                        if (e == ESP_OK)
-                            e = nvs_set_u32(nv, "version", 1);
-                        if (e == ESP_OK)
-                            e = nvs_commit(nv);
-                        nvs_close(nv);
-                        if (e == ESP_OK) {
-                            xSemaphoreTake(mutex, portMAX_DELAY);
-                            memcpy(digest, h, 32);
-                            paired = true;
-                            xSemaphoreGive(mutex);
-                            puts("Pairing saved");
-                        }
-                    }
-                    memset(h, 0, sizeof h);
-                }
+            if (!overflow && n > 6 && !memcmp(line, "admin ", 6)) {
+                line[n] = 0;
+                ph_admin_serial(line + 6);
             }
-            memset(line, 0, sizeof line);
+            if (!overflow && n == 69 && !memcmp(line, "pair ", 5)) {
+                line[69] = 0;
+                ph_admin_pair(line + 5);
+            }
+            memset(line, 0, 16385);
             n = 0;
             overflow = false;
-        } else if (n < sizeof line)
+        } else if (n < 16384)
             n++, line[n - 1] = (char)ch;
         else
             overflow = true;
     }
-    memset(line, 0, sizeof line);
+    memset(line, 0, 16385);
     vTaskDelete(NULL);
 }
+#endif
 void ph_admin_start(void) {
     mutex = xSemaphoreCreateMutex();
     configASSERT(mutex);
@@ -427,14 +386,15 @@ void ph_admin_start(void) {
         nvs_close(nv);
     }
     ESP_LOGI("admin", "paired=%s schema=1", paired ? "yes" : "no");
+    ph_vpn_manager_init();
+#if !CONFIG_PHOENIX_GATEWAY_BENCH
     if (!uart_is_driver_installed(CONFIG_ESP_CONSOLE_UART_NUM))
         ESP_ERROR_CHECK(uart_driver_install(CONFIG_ESP_CONSOLE_UART_NUM, 1024, 0, 0, NULL, 0));
     configASSERT(xTaskCreate(serial_pair, "pair", 4096, NULL, 3, NULL) == pdPASS);
-    if (!ph_usb)
-        return;
+#endif
     httpd_config_t c = HTTPD_DEFAULT_CONFIG();
-    c.max_uri_handlers = 8;
-    c.stack_size = 8192;
+    c.max_uri_handlers = 20;
+    c.stack_size = 16384;
     c.recv_wait_timeout = 3;
     c.send_wait_timeout = 3;
     httpd_handle_t server;
@@ -443,7 +403,14 @@ void ph_admin_start(void) {
         {.uri = "/", .method = HTTP_GET, .handler = index_page},
         {.uri = "/api/v1/status", .method = HTTP_GET, .handler = status},
         {.uri = "/api/v1/mode", .method = HTTP_POST, .handler = mode},
-        {.uri = "/api/v1/vpn", .method = HTTP_POST, .handler = vpn_import},
+        {.uri = "/api/v1/vpn", .method = HTTP_POST, .handler = vpn_command},
+        {.uri = "/api/v1/vpn", .method = HTTP_GET, .handler = vpn_get},
+        {.uri = "/api/v1/vpn/history", .method = HTTP_GET, .handler = history_get},
+        {.uri = "/api/v1/policy", .method = HTTP_GET, .handler = policy_get},
+        {.uri = "/api/v1/policy", .method = HTTP_POST, .handler = policy_post},
+        {.uri = "/app.css", .method = HTTP_GET, .handler = asset},
+        {.uri = "/app.js", .method = HTTP_GET, .handler = asset},
+        {.uri = "/countries.json", .method = HTTP_GET, .handler = asset},
         {.uri = "/api/v1/uplink", .method = HTTP_POST, .handler = uplink},
         {.uri = "/api/v1/wifi", .method = HTTP_POST, .handler = wifi_configure},
         {.uri = "/api/v1/firmware", .method = HTTP_POST, .handler = ota_upload},

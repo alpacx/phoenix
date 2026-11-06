@@ -18,3 +18,9 @@ Path('build-host/usb_sync_under_test.inc').write_text(a + b)
 PY
 clang -O1 -std=c11 -Wall -Wextra -Werror -fsanitize=undefined -g -Ibuild-host tests/test_usb_sync.c -o build-host/test_usb_sync
 ./build-host/test_usb_sync
+
+clang -O1 -std=c11 -Wall -Wextra -Werror -fsanitize=undefined -g -Icomponents/phoenix_core/include components/phoenix_core/vpn_rotation.c tests/test_vpn_rotation.c -o build-host/test_vpn_rotation
+./build-host/test_vpn_rotation
+
+clang -O1 -std=c11 -Wall -Wextra -Werror -fsanitize=undefined -g -Icomponents/phoenix_core/include components/phoenix_core/policy.c tests/test_policy.c -o build-host/test_policy
+./build-host/test_policy

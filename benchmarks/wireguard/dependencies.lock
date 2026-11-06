@@ -1,0 +1,16 @@
+dependencies:
+  esphome/libsodium:
+    dependencies: []
+    source:
+      path: /Users/alessandrolaplaca/Documents/Phoenix/managed_components/esphome__libsodium
+      type: local
+    version: 1.10021.12
+  idf:
+    source:
+      type: idf
+    version: 5.5.4
+direct_dependencies:
+- esphome/libsodium
+manifest_hash: 44971632153ccff6b2f42b313fcc787519ff3ea4de35dc1afc76d466c854fdba
+target: esp32p4
+version: 2.0.0

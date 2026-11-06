@@ -1,0 +1,3 @@
+# More complete Ethernet frames can wait while crypto consumes CPU.
+CONFIG_ETH_DMA_BUFFER_SIZE=1536
+CONFIG_ETH_DMA_RX_BUFFER_NUM=30

@@ -34,7 +34,7 @@ static void event(void *arg, esp_event_base_t base, int32_t id, void *data) {
         uint32_t mask = e->ip_info.netmask.addr;
         esp_ip4_addr_t usb, ap;
         esp_netif_str_to_ip4("192.168.7.1", &usb);
-        esp_netif_str_to_ip4("192.168.8.1", &ap);
+        esp_netif_str_to_ip4("192.168.9.1", &ap);
         bool overlap = (e->ip_info.ip.addr & mask) == (usb.addr & mask) ||
                        (e->ip_info.ip.addr & mask) == (ap.addr & mask);
         ph_gateway_uplink(!overlap);
@@ -92,6 +92,10 @@ void app_main(void) {
     ESP_ERROR_CHECK(esp_event_handler_register(IP_EVENT, ESP_EVENT_ANY_ID, event, NULL));
     ESP_ERROR_CHECK(esp_eth_start(eth));
     ph_wifi_probe_start();
+#if CONFIG_PHOENIX_GATEWAY_BENCH
+    extern void ph_gateway_bench_start(void);
+    ph_gateway_bench_start();
+#endif
     for (;;) {
         ESP_LOGI(TAG, "free heap=%lu", (unsigned long)esp_get_free_heap_size());
         vTaskDelay(pdMS_TO_TICKS(30000));

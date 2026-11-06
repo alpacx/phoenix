@@ -20,3 +20,12 @@ typedef struct {
     bool selected_wifi;
 } ph_network_status;
 void ph_gateway_network_status(ph_network_status *out);
+
+#include "policy.h"
+void ph_gateway_policy_get(ph_policy *out, bool active[PH_PORT_FORWARDS]);
+esp_err_t ph_gateway_policy_set(const ph_policy *policy, uint32_t expected_revision);
+/* Caller holds lwIP core lock. */
+void ph_gateway_refresh_maps(void);
+
+/* Temporary allowlist for board-originated NordVPN HTTPS and bootstrap DNS. */
+void ph_gateway_control(uint32_t ipv4, uint32_t dns_ipv4);

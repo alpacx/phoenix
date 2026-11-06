@@ -41,7 +41,7 @@ UI e pairing sono task separati; nessun interprete di codice arbitrario.
 C6: SDIO a 20 MHz, GPIO verificati sullo schema. Inizializzazione su richiesta;
 scansione automatica solo nella build probe. STA e AP sono alternativi. Gestione
 Wi-Fi serializzata; cinque retry, niente riconnessione al boot tramite credenziali
-salvate senza comando esplicito. AP NAT su 192.168.8.1/24, un solo client. Il cambio
+salvate senza comando esplicito. AP NAT su 192.168.9.1/24, un solo client. Il cambio
 uplink/configurazione blocca e svuota gli stati, senza fallback diretto implicito.
 Subreti uplink sovrapposte a USB o AP sono rifiutate. Il C6 di fabbrica accetta
 le API di base provate; mancano metadati di versione e compatibilità estesa.

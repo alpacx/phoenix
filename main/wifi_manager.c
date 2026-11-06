@@ -43,7 +43,7 @@ static void wifi_event(void *arg, esp_event_base_t base, int32_t id, void *data)
         uint32_t m = e->ip_info.netmask.addr;
         esp_ip4_addr_t a, b;
         esp_netif_str_to_ip4("192.168.7.1", &a);
-        esp_netif_str_to_ip4("192.168.8.1", &b);
+        esp_netif_str_to_ip4("192.168.9.1", &b);
         bool conflict =
             (e->ip_info.ip.addr & m) == (a.addr & m) || (e->ip_info.ip.addr & m) == (b.addr & m);
         ph_gateway_network_event(ph_sta, !conflict);
@@ -86,7 +86,7 @@ static esp_err_t initialize(void) {
     ph_ap = ap;
     UNLOCK_TCPIP_CORE();
     esp_netif_ip_info_t ip = {0};
-    esp_netif_str_to_ip4("192.168.8.1", &ip.ip);
+    esp_netif_str_to_ip4("192.168.9.1", &ip.ip);
     ip.gw = ip.ip;
     esp_netif_str_to_ip4("255.255.255.0", &ip.netmask);
     esp_netif_dhcps_stop(ap);

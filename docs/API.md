@@ -1,6 +1,6 @@
 # API v1
 
-Trasporto attuale HTTP sulla sola LAN USB; token Bearer di 64 caratteri hex.
+Trasporto HTTP sulle interfacce locali abilitate (AP/USB), oppure bridge UART locale; token Bearer di 64 caratteri hex.
 Non usare su una LAN condivisa/non fidata: TLS locale/pinning è ancora da implementare.
 Il firewall blocca HTTP sull'uplink prima di NAT e consegna locale.
 Nessuna CORS permissiva; POST mode accetta solo Origin locale o client senza Origin.
@@ -15,10 +15,12 @@ Le risposte API non contengono chiavi.
 | GET /api/v1/wifi/scan | Bearer | Fino a 16 reti; 503 se AP attivo/errore |
 | POST /api/v1/wifi | JSON descritto sotto, max 256 byte | 202 configurato; non prova connettività Internet |
 | POST /api/v1/firmware | immagine firmata binaria, 4 KiB..6 MiB | 202 verificata, reboot; 400 rifiutata; 503 build non firmata |
-| POST /api/v1/vpn | testo wg-quick, max 4096 byte | 202 connecting, 400 formato, 409 avvio fallito e blocco attivo |
+| GET /api/v1/vpn | Bearer | Stato, paese, rotazione, countdown, account configurato; nessuna chiave |
+| POST /api/v1/vpn | JSON action, descritto sotto | 202 accodato, 400 configurazione, 409 comando in corso |
+| GET /api/v1/policy | Bearer | Regole, forwarding e revisione |
+| POST /api/v1/policy | Policy completa con revisione attesa | 200 salvata, 409 conflitto, 400 validazione |
 
-401 senza token valido, 403 per Origin non ammessa. VPN importabile dal client
-locale; chiamate browser con Origin sono rifiutate per questo endpoint.
+401 senza token valido, 403 per Origin non ammessa. Chiamate browser ammesse solo dalle origini locali autorizzate.
 Lo stato `vpn_up` indica sessione crittografica valida, non accessibilità Internet.
 `ethernet_link`/`wifi_link` descrivono link netif, i campi `_ip` la presenza
 di IPv4; non provano accesso Internet. `ap_active` indica netif AP attiva.
@@ -33,22 +35,38 @@ AllowedIPs esattamente 0.0.0.0/0, MTU 1280..1420 (default 1380),
 PersistentKeepalive 0..65535 (default 0). Commenti # ammessi.
 Duplicati, sezioni multiple, hostname, IPv6, liste, script PostUp/PostDown,
 ListenPort e altre direttive sono rifiutati, mai ignorati silenziosamente.
-Importazione solo in RAM; nessuna chiave di esempio operativa nel repository.
+Importazione persistente in NVS; nessuna chiave di esempio operativa nel repository.
 Rinnovare DHCP sul client dopo un cambio DNS. Il cambio server interrompe sessioni.
 
-[NordVPN ufficiale](https://nordvpn.com/blog/nordvpn-config-files/) documenta
-il download di configurazioni WireGuard manuali dall'account. Non sono state
-fornite credenziali/profili: interoperabilità non provata; nessuna promessa
-NordLynx o delle protezioni proprietarie. Un file con direttive fuori dal
-sottoinsieme viene rifiutato anche se valido per wg-quick.
+## Comandi VPN e persistenza
 
-## Persistenza
+`POST /api/v1/vpn` riceve JSON con `action`:
 
-NVS namespace phoenix, schema versione 1, hash token `admin`. Versioni sconosciute
-non vengono interpretate e NVS non viene cancellata automaticamente. Pairing
-fisico via UART può sostituire il token. Mode direct non persiste: reboot chiuso.
-Migrazioni per schemi successivi, salvataggio profili VPN e reset autenticato
-sono attività aperte, non endpoint simulati.
+- `wireguard`: `profile` contiene il testo wg-quick supportato.
+- `nordvpn`: `token` facoltativo se la chiave è già configurata, `country`
+  codice ISO oppure stringa vuota, `rotation` booleano, `interval` 30–86400.
+- `connect`, `disconnect`, `direct`, `forget`, `rotate`, `catalog_test`, `verify_exit`.
+
+202 indica accettazione, non successo della connessione: consultare GET vpn.
+Il controllo IP usa solo il tunnel e non effettua fallback sull'uplink.
+`next_rotation_seconds` è zero quando il timer non è attivo; controllare anche
+`rotation`, `enabled` e `state`. Il timer parte dal tunnel connesso.
+
+NVS conserva profilo VPN, chiave NordVPN, modalità diretta e preferenze di
+rotazione. Il token NordVPN viene scartato dopo lo scambio HTTPS. Namespace
+`phoenix` conserva hash del token admin e policy; `vpn_manager` il profilo.
+Il pairing fisico può sostituire il token amministrativo. Flash encryption
+non è abilitata nella build di sviluppo.
+
+## Policy firewall
+
+Fino a 20 regole ordinate e 8 inoltri porte. GET restituisce il formato completo
+usato da POST; `revision` evita sovrascritture concorrenti. Le regole locali
+obbligatorie di amministrazione restano attive. Le mappature hanno protocollo,
+porta esterna/interna, destinazione AP/USB, CIDR sorgente e modalità VPN/diretta.
+Le porte riservate e le mappature ambigue sono rifiutate. `active` distingue
+una mappatura installata da una soltanto configurata. Le risposte ai forwarding
+restano soggette alle regole firewall di uscita.
 
 ## Wi-Fi e selezione uplink
 
@@ -60,13 +78,13 @@ Le credenziali salvate sono **in chiaro in NVS**, perché flash encryption non �
 usare save solo accettando questo limite del banco di sviluppo.
 
 `{"mode":"ap","ssid":"...","password":"..."}` configura un hotspot NAT
-192.168.8.1/24, WPA2, canale 6, massimo un client. Il limite evita di promettere
+192.168.9.1/24, WPA2, canale 6, massimo un client. Il limite evita di promettere
 isolamento L2 multi-client non verificato. STA+AP simultanei e persistenza AP
 non implementati. La scansione non interrompe un AP attivo: restituisce errore.
 
 Ogni configurazione Wi-Fi e cambio uplink chiude VPN/NAT e blocca inoltro.
 Selezionare esplicitamente l'uplink, poi importare VPN oppure richiedere direct.
-L'amministrazione resta disponibile solo sulla USB LAN, non sull'hotspot.
+L’amministrazione è disponibile su AP e USB LAN se abilitate, oltre al bridge UART.
 DNS DHCP viene aggiornato su USB/AP all'importazione VPN: rinnovare i lease.
 
 ## Aggiornamento
@@ -77,3 +95,18 @@ Il dispositivo scrive lo slot inattivo, verifica con ESP-IDF firma/integrità
 contro la chiave dell'app in esecuzione e controlla project_name=phoenix.
 Solo dopo seleziona lo slot e si riavvia. Timeout totale 120 secondi; ogni
 fallimento lascia l'inoltro bloccato. Vedere [OTA](OTA.md) per limiti e prove.
+
+## Storico VPN
+
+`GET /api/v1/vpn/history?before=<id>` restituisce fino a 32 connessioni NordVPN
+riuscite, in ordine inverso, limitate alle ultime 8 ore. `next_before=0` indica
+fine pagina. Ogni voce contiene `id`, `connected_at` Unix, `country` e `server`.
+`persistent` segnala lo stato del salvataggio. Journal dedicato da 128 KiB,
+1344 record, CRC e recupero dopo scritture interrotte; nessuna credenziale.
+La finestra di 8 ore è garantita alla cadenza minima automatica di 30 secondi;
+un numero eccezionale di cambi manuali può saturare il limite di record.
+La scadenza filtra l’accesso; i settori flash vengono cancellati al riutilizzo.
+
+La UI mostra una sola voce VPN con sezioni NordVPN e VPN WireGuard. Il countdown
+avanza localmente ogni secondo e si riallinea allo stato ogni 5 secondi; dopo
+20 secondi senza aggiornamenti mostra dati non disponibili.

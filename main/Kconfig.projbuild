@@ -12,4 +12,7 @@ config PHOENIX_VBUS_GPIO
 config PHOENIX_C6_PROBE
  bool "Probe C6 firmware and scan Wi-Fi once (no connection)"
  default n
+config PHOENIX_GATEWAY_BENCH
+ bool "Enable isolated gateway bench (private local credentials required)"
+ default n
 endmenu
