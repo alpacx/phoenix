@@ -2,6 +2,14 @@
 #include <assert.h>
 #include <stdio.h>
 int main(void) {
+    const char *blocked[] = {"CN", "RU", "BY", "TR", "IQ", "AE", "OM", "IN",
+                             "IR", "EG", "TM", "KP", "UG", "MM", "SA", "VE"};
+    for (size_t i = 0; i < sizeof blocked / sizeof *blocked; i++)
+        assert(ph_vpn_country_restricted(blocked[i]));
+    assert(!ph_vpn_country_restricted("IT"));
+    assert(!ph_vpn_country_restricted(""));
+    assert(!ph_vpn_country_restricted(NULL));
+
     assert(ph_vpn_next_country(0, 0, 0) == SIZE_MAX);
     assert(ph_vpn_next_country(1, 0, UINT32_MAX) == 0);
     assert(ph_vpn_next_country(150, SIZE_MAX, UINT32_MAX) == 149);

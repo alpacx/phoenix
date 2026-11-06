@@ -27,12 +27,12 @@
 typedef struct {
     uint32_t version;
     char provider[12], country[3];
-    bool enabled, rotation, direct;
+    bool enabled, rotation, direct, exclude_restricted;
     uint32_t interval;
     ph_wg_profile profile;
     char nord_key[45];
 } settings;
-static settings cfg = {.version = 1, .interval = 300};
+static settings cfg = {.version = 2, .interval = 300};
 static SemaphoreHandle_t mutex;
 static QueueHandle_t commands;
 static char state[32] = "idle", error[64], server_name[64], server_country[3];
@@ -198,12 +198,23 @@ static bool nord_profile(const settings *s, ph_wg_profile *p) {
     unsigned cid;
     char country[3];
     if (*s->country) {
-        if (!country_id(s->country, &cid))
+        if ((s->exclude_restricted && ph_vpn_country_restricted(s->country)) ||
+            !country_id(s->country, &cid))
             return false;
         memcpy(country, s->country, 3);
     } else {
-        size_t i = ph_vpn_next_country(sizeof nord_countries / sizeof *nord_countries,
-                                       previous_country, esp_random());
+        size_t eligible[sizeof nord_countries / sizeof *nord_countries], count = 0,
+                                                                         previous = SIZE_MAX;
+        for (size_t j = 0; j < sizeof nord_countries / sizeof *nord_countries; j++) {
+            if (s->exclude_restricted && ph_vpn_country_restricted(nord_countries[j].code))
+                continue;
+            if (j == previous_country)
+                previous = count;
+            eligible[count++] = j;
+        }
+        if (!count)
+            return false;
+        size_t i = eligible[ph_vpn_next_country(count, previous, esp_random())];
         cid = nord_countries[i].id;
         memcpy(country, nord_countries[i].code, 3);
     }
@@ -426,6 +437,13 @@ static void command_run(cJSON *o) {
         strcpy(s.country, str(o, "country"));
         s.interval = cJSON_GetObjectItemCaseSensitive(o, "interval")->valueint;
         s.rotation = cJSON_IsTrue(cJSON_GetObjectItemCaseSensitive(o, "rotation"));
+        cJSON *exclusion = cJSON_GetObjectItemCaseSensitive(o, "exclude_restricted");
+        if (exclusion)
+            s.exclude_restricted = cJSON_IsTrue(exclusion);
+        if (s.exclude_restricted && ph_vpn_country_restricted(s.country)) {
+            status_set("error", "country_excluded");
+            goto done;
+        }
         s.enabled = true;
         s.direct = false;
         reconnect = true;
@@ -445,7 +463,7 @@ static void command_run(cJSON *o) {
         s.direct = true;
     } else if (!strcmp(action, "forget")) {
         wipe(&s, sizeof s);
-        s.version = 1;
+        s.version = 2;
         s.interval = 300;
     } else if (!strcmp(action, "rotate")) {
         change = false;
@@ -549,10 +567,14 @@ void ph_vpn_manager_init(void) {
         settings s;
         size_t size = sizeof s;
         if (nvs_get_blob(n, "vpn_manager", &s, &size) == ESP_OK && size == sizeof s &&
-            s.version == 1 && s.provider[11] == 0 && s.country[2] == 0 && s.nord_key[44] == 0 &&
-            s.interval >= 30 && s.interval <= 86400 &&
-            (!strcmp(s.provider, "wireguard") || !strcmp(s.provider, "nordvpn") || !*s.provider))
+            (s.version == 1 || s.version == 2) && s.provider[11] == 0 && s.country[2] == 0 &&
+            s.nord_key[44] == 0 && s.interval >= 30 && s.interval <= 86400 &&
+            (!strcmp(s.provider, "wireguard") || !strcmp(s.provider, "nordvpn") || !*s.provider)) {
+            if (s.version == 1)
+                s.exclude_restricted = false;
+            s.version = 2;
             cfg = s;
+        }
         wipe(&s, sizeof s);
         nvs_close(n);
     }
@@ -582,6 +604,14 @@ esp_err_t ph_vpn_manager_command(const cJSON *o) {
         return ESP_ERR_INVALID_ARG;
     const char *a = str(o, "action");
     if (!strcmp(a, "nordvpn")) {
+        cJSON *exclusion = cJSON_GetObjectItemCaseSensitive(o, "exclude_restricted");
+        if (exclusion && !cJSON_IsBool(exclusion))
+            return ESP_ERR_INVALID_ARG;
+        xSemaphoreTake(mutex, portMAX_DELAY);
+        bool excluded = exclusion ? cJSON_IsTrue(exclusion) : cfg.exclude_restricted;
+        xSemaphoreGive(mutex);
+        if (excluded && ph_vpn_country_restricted(str(o, "country")))
+            return ESP_ERR_INVALID_ARG;
         cJSON *i = cJSON_GetObjectItemCaseSensitive(o, "interval"),
               *r = cJSON_GetObjectItemCaseSensitive(o, "rotation");
         unsigned cid;
@@ -639,6 +669,7 @@ cJSON *ph_vpn_manager_status(void) {
     cJSON_AddBoolToObject(o, "account_configured", *cfg.nord_key != 0);
     cJSON_AddStringToObject(o, "country", cfg.country);
     cJSON_AddBoolToObject(o, "rotation", cfg.rotation);
+    cJSON_AddBoolToObject(o, "exclude_restricted", cfg.exclude_restricted);
     cJSON_AddNumberToObject(o, "interval", cfg.interval);
     cJSON_AddStringToObject(o, "server", server_name);
     cJSON_AddStringToObject(o, "server_country", server_country);

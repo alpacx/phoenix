@@ -9,3 +9,5 @@
 
 .vpn-tabs{display:flex;gap:8px;margin-bottom:28px;border-bottom:1px solid var(--line);padding-bottom:12px}.vpn-tabs a{padding:11px 18px;border-radius:9px;color:var(--muted)}.vpn-tabs a[aria-current]{background:var(--lime-dark);color:var(--lime)}.history-card{margin-top:24px}.history-row{display:grid;grid-template-columns:130px 1fr auto;gap:18px;align-items:center;padding:17px 0;border-top:1px solid var(--line)}.history-row time{font-variant-numeric:tabular-nums;color:var(--muted);font-size:12px}.history-row small{display:block;color:var(--muted);margin-top:5px}.history-list{margin:20px 0}.countdown{font-variant-numeric:tabular-nums}@media(max-width:600px){.history-row{grid-template-columns:86px 1fr;gap:10px}.history-row>.badge{display:none}.vpn-tabs a{padding:10px 12px}}
 #page-vpn .card-heading{flex-wrap:wrap}#page-vpn .card-heading p{order:3;flex-basis:100%;margin:0}
+
+.country-exclusions{margin:0 0 22px;color:var(--muted);font-size:12px;line-height:1.7}.country-exclusions summary{cursor:pointer;color:var(--lime)}

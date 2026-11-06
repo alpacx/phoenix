@@ -52,3 +52,14 @@ size_t ph_vpn_next_country(size_t count, size_t previous, uint32_t random) {
     size_t index = ((uint64_t)random * (count - exclude)) >> 32;
     return exclude && index >= previous ? index + 1 : index;
 }
+
+bool ph_vpn_country_restricted(const char *country) {
+    static const char codes[][3] = {"CN", "RU", "BY", "TR", "IQ", "AE", "OM", "IN",
+                                    "IR", "EG", "TM", "KP", "UG", "MM", "SA", "VE"};
+    if (!ph_vpn_country_valid(country, false))
+        return false;
+    for (size_t i = 0; i < sizeof codes / sizeof *codes; i++)
+        if (!strcmp(country, codes[i]))
+            return true;
+    return false;
+}

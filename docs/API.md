@@ -110,3 +110,11 @@ La scadenza filtra l’accesso; i settori flash vengono cancellati al riutilizzo
 La UI mostra una sola voce VPN con sezioni NordVPN e VPN WireGuard. Il countdown
 avanza localmente ogni secondo e si riallinea allo stato ogni 5 secondi; dopo
 20 secondi senza aggiornamenti mostra dati non disponibili.
+
+### Filtro geografico NordVPN
+
+Il comando `nordvpn` accetta `exclude_restricted` booleano facoltativo. Se omesso
+conserva il valore salvato; GET vpn lo restituisce. `true` filtra il preset
+descritto in NORDVPN-P4.md prima della selezione casuale. Una richiesta con
+paese fisso escluso riceve 400 senza cambiare configurazione; nessun fallback
+geografico. Impostazioni NVS migrate dalla versione 1 alla 2 preservando chiavi.

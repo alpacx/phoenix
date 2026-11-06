@@ -17,3 +17,7 @@ bool ph_vpn_country_valid(const char *country, bool empty_allowed);
 
 /* Uniform index excluding previous when alternatives exist. */
 size_t ph_vpn_next_country(size_t count, size_t previous, uint32_t random);
+
+/* Phoenix exclusion preset based on NordVPN restrictions article, 2026-11-06.
+ * This is not a provider rating of server security. */
+bool ph_vpn_country_restricted(const char *country);

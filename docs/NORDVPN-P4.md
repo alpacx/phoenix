@@ -41,3 +41,20 @@ su 150 destinazioni e 100000 valori casuali, policy e validazione WireGuard.
 Handshake NordVPN reale e persistenza delle credenziali attraverso il riavvio
 verificati. I risultati della prova di rotazione sono nel file locale
 `results/gatewaybench/rotation-live.log`; non contiene credenziali.
+
+## Filtro facoltativo dei paesi
+
+`exclude_restricted` abilita un preset Phoenix ricavato dalla tabella NordVPN
+[Are VPNs legal?](https://nordvpn.com/blog/are-vpns-legal/), verificata il
+6 novembre 2026. Esclude CN, RU, BY, TR, IQ, AE, OM, IN, IR, EG, TM, KP, UG,
+MM, SA, VE: paesi descritti con divieti, restrizioni o limitazioni locali.
+Non è una lista NordVPN di server pericolosi, né una garanzia di sicurezza
+delle destinazioni rimanenti. Le località virtuali possono avere infrastruttura
+fisica altrove. L’elenco è visibile nella UI e aggiornato col software.
+
+Il filtro si applica prima della selezione casuale, anche alle rotazioni
+manuali e ai tentativi successivi. Una destinazione fissa esclusa è rifiutata;
+non si cambia silenziosamente paese. Un pool vuoto blocca la connessione.
+La preferenza persiste in NVS, versione 2. Il formato 1 è letto senza cambiare
+le credenziali; il nuovo flag nasce disattivato per le configurazioni precedenti.
+Omettendo il campo nelle chiamate API si conserva la preferenza salvata.

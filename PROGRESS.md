@@ -1,3 +1,16 @@
+# Filtro paesi NordVPN — 2026-11-06
+
+Aggiunta opzione exclude_restricted, preset Phoenix da tabella NordVPN
+https://nordvpn.com/blog/are-vpns-legal/ verificata oggi. NON classificazione di
+server pericolosi. Elenco: CN RU BY TR IQ AE OM IN IR EG TM KP UG MM SA VE.
+Filtro su pool casuale e scelte fisse, nessun fallback geografico. UI mostra
+lista, fonte e data; flag in NVS schema2 con migrazione1 che preserva credenziali.
+Abilitato sulla configurazione utente, rotazione casuale 300s invariata.
+La cronologia Git resta invariata per istruzione esplicita dell’utente.
+Il filtro viene pubblicato dopo 62efe05, con autore alpacx.
+
+---
+
 # Storico e navigazione VPN — 2026-11-06
 
 UI: singola voce VPN, schede NordVPN e VPN WireGuard, spiegazione VPN/profilo.
