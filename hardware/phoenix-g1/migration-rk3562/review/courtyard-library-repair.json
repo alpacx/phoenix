@@ -1,0 +1,358 @@
+{
+  "status": "APPLIED; REGENERATE PCB AND RUN DRC",
+  "source": "https://klc.kicad.org/footprint/f5/f5.3/",
+  "libraries": [
+    {
+      "library_id": "Import_C113281:TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL",
+      "references": [
+        "U21"
+      ],
+      "minimum_pad_margin_mm": 0.25,
+      "courtyard_centerline_bounds_mm": [
+        -3.4,
+        -4.03,
+        3.4,
+        4.03
+      ],
+      "before_sha256": "f27f77cd446bc7341c22349ecf7290e2170fb540895a9d5cc32534d96f4f5782",
+      "after_sha256": "61c0ba3b67b88edef99deb48a55715748daa6bda4838c1c322f1a2f00840ad4a",
+      "original_before_any_repair_sha256": "788154b1aef5a8833033712e7560624cbbcb5153e3b630b554bde7414a142492",
+      "pad_geometry_preserved_by_load_compare": true
+    },
+    {
+      "library_id": "Import_C113520:SC-70-5_L2.1-W1.3-P0.65-LS2.1-BR",
+      "references": [
+        "U14"
+      ],
+      "minimum_pad_margin_mm": 0.25,
+      "courtyard_centerline_bounds_mm": [
+        -1.83,
+        -1.14,
+        1.83,
+        1.14
+      ],
+      "before_sha256": "91a170947b5065f0399a3e2a631375e9498dd5d235872e8358ebe54401f3abb9",
+      "after_sha256": "75519af149050b1caa4c7db8b944c5d584d8b50a198d24d4a4ecc21efbd415a5",
+      "original_before_any_repair_sha256": "10a6d0fdda6b3af231c3c1388700f0e3119478a350334e85ec1efb3bbbd8680c",
+      "pad_geometry_preserved_by_load_compare": true
+    },
+    {
+      "library_id": "Import_C20526:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+      "references": [
+        "Q1"
+      ],
+      "minimum_pad_margin_mm": 0.25,
+      "courtyard_centerline_bounds_mm": [
+        -1.78,
+        -1.56,
+        1.78,
+        1.56
+      ],
+      "before_sha256": "15066d9b128998557014ca3c2824c662197e15180bc38c7cb18e628056cc13ba",
+      "after_sha256": "710243c3a5563e394a649446dcd7f8b3bd985803495c3796494ed409500d7bec",
+      "original_before_any_repair_sha256": "5e04f9a0bc03804e7ea120d01eb3871ed7a762103be4e2476e215b132c9e948c",
+      "pad_geometry_preserved_by_load_compare": true
+    },
+    {
+      "library_id": "Import_C2155674:WSON-8_L2.0-W2.0-P0.50-TL-EP",
+      "references": [
+        "U15"
+      ],
+      "minimum_pad_margin_mm": 0.25,
+      "courtyard_centerline_bounds_mm": [
+        -1.5,
+        -1.16,
+        1.5,
+        1.16
+      ],
+      "before_sha256": "70ad38073e29acc3213aef2a17b415e95769943f48dbbf7ddd7dfa81d6a64c79",
+      "after_sha256": "e3a6d4cb94dd53dc1c6efd3dfd2d9755115628ed949dfb2bc164927e50027735",
+      "original_before_any_repair_sha256": "d727b78492e0945afcc5c56828a934eaaee488bf0f12939e64f50faee670cfd8",
+      "pad_geometry_preserved_by_load_compare": true
+    },
+    {
+      "library_id": "Import_C2653873:WQFN-20_L4.0-W3.0-P0.50-BL-EP",
+      "references": [
+        "U24"
+      ],
+      "minimum_pad_margin_mm": 0.25,
+      "courtyard_centerline_bounds_mm": [
+        -2.73,
+        -2.24,
+        2.73,
+        2.24
+      ],
+      "before_sha256": "2c4eb4def3c5c4d62388dff43e43eaaddf594f702174c9a97cfd2be748c8fab8",
+      "after_sha256": "8d5223aa17227dc86bdd0d346b71cab5bb3cadd6bea4a321499433a3023ebf68",
+      "original_before_any_repair_sha256": "38ce21eaf865d1179615702245cb04b5e67cbcb7a47de13e50dd2892d2afd4c1",
+      "pad_geometry_preserved_by_load_compare": true
+    },
+    {
+      "library_id": "Import_C3975193:HDR-SMD_PZ127-2-10-S",
+      "references": [
+        "J3"
+      ],
+      "minimum_pad_margin_mm": 0.5,
+      "courtyard_centerline_bounds_mm": [
+        -6.61,
+        -3.78,
+        6.62,
+        3.78
+      ],
+      "before_sha256": "2b4294179e10eb1a938a6c6775a0087f0a75d007a32f625552cf8ac07128ed94",
+      "after_sha256": "49ddc5d56e4359949fb634b02ad13e776b7fe982215c35589b794e98fc15fc40",
+      "original_before_any_repair_sha256": "db0c351d2ca99d38ec791e2a81a542b2b7899488b0ca5b8865233ffe073d3906",
+      "pad_geometry_preserved_by_load_compare": true
+    },
+    {
+      "library_id": "Import_C404027:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+      "references": [
+        "U11"
+      ],
+      "minimum_pad_margin_mm": 0.25,
+      "courtyard_centerline_bounds_mm": [
+        -2.13,
+        -1.53,
+        2.13,
+        1.53
+      ],
+      "before_sha256": "acffc4cd399af6d800abeb43ae6d51cab4687d564302c9974db7d460d74d38f8",
+      "after_sha256": "265cb9a2459043d9d0da07977c8505b4299315255845b753af9978dc94daacfd",
+      "original_before_any_repair_sha256": "5a64242ede854dd6104416078497a365c6c3836036457dc750417dc771b438fd",
+      "pad_geometry_preserved_by_load_compare": true
+    },
+    {
+      "library_id": "Import_C43698:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR",
+      "references": [
+        "U12"
+      ],
+      "minimum_pad_margin_mm": 0.25,
+      "courtyard_centerline_bounds_mm": [
+        -2.18,
+        -1.53,
+        2.18,
+        1.53
+      ],
+      "before_sha256": "330a0c1c1499cba9e290068bb707388b3006b1a420cbdd13163c4d5acfd5c09d",
+      "after_sha256": "31081ea599beb572c5e59246b686d81f0bf16efd0ea403b78c1ba4ce0aa09918",
+      "original_before_any_repair_sha256": "69730c1dafd0cd02435a6e7044269fe54d6602d246788d8c8e940b9afb4faf46",
+      "pad_geometry_preserved_by_load_compare": true
+    },
+    {
+      "library_id": "Import_C7666:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+      "references": [
+        "U19"
+      ],
+      "minimum_pad_margin_mm": 0.25,
+      "courtyard_centerline_bounds_mm": [
+        -2.13,
+        -1.53,
+        2.13,
+        1.53
+      ],
+      "before_sha256": "a199923dc0912eeca9fff537a462606422fc40dffd5fa6ee58a9c63806a89ea6",
+      "after_sha256": "18438c70f6831a66ee25725b9dcc3810f40ffb18c8aa8dfc9019be29c5eb3422",
+      "original_before_any_repair_sha256": "1654acce418bbfe47e9ae9960d7a699d912bc9cd4b6d36025d612cac9dae54b4",
+      "pad_geometry_preserved_by_load_compare": true
+    },
+    {
+      "library_id": "Import_C7827:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+      "references": [
+        "U13",
+        "U16"
+      ],
+      "minimum_pad_margin_mm": 0.25,
+      "courtyard_centerline_bounds_mm": [
+        -2.13,
+        -1.53,
+        2.13,
+        1.53
+      ],
+      "before_sha256": "514e6829a4253a1f5d01300b0aa546c7e5bf3848e806ec0f0285515d6f506e6a",
+      "after_sha256": "c753ff8c637ebcd98c1caa7b829300b260b3983448f253d20bab0145e6071264",
+      "original_before_any_repair_sha256": "32fe6ffd86d8d8272bef276a3984fce52a2c9caf6fcadbf5dea3c44404a30889",
+      "pad_geometry_preserved_by_load_compare": true
+    },
+    {
+      "library_id": "Import_C81563:VQFN-16_L3.0-W3.0-P0.50-TL-EP",
+      "references": [
+        "U17",
+        "U26"
+      ],
+      "minimum_pad_margin_mm": 0.25,
+      "courtyard_centerline_bounds_mm": [
+        -2.08,
+        -2.08,
+        2.08,
+        2.08
+      ],
+      "before_sha256": "575e5485b2b18802a56ec03d1efa891c2a82c9f22bc1d62bafdb4be91c676294",
+      "after_sha256": "221cde68334994aeff658e1a801dee0ebb89ad0d66872bb7031bd687f9d48af0",
+      "original_before_any_repair_sha256": "b35058af9dac7345fed90634032449b70354d01d593546d8511e93ac5702a94b",
+      "pad_geometry_preserved_by_load_compare": true
+    },
+    {
+      "library_id": "Import_C963429:TSOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR",
+      "references": [
+        "U20"
+      ],
+      "minimum_pad_margin_mm": 0.25,
+      "courtyard_centerline_bounds_mm": [
+        -1.98,
+        -1.53,
+        1.98,
+        1.53
+      ],
+      "before_sha256": "a60e598b5ba1c34a38fce6f9baae9fbe9f5bfbcfd78dd1c937c3eb633652a4bc",
+      "after_sha256": "4aad90f7c488cf547b79eb8725d5eb64ea70178b2ac6561f41567380bcec992f",
+      "original_before_any_repair_sha256": "dec6c7c2f4cd363ecad0f69054d9e50e75bba598dfa8329e04928181ff534175",
+      "pad_geometry_preserved_by_load_compare": true
+    },
+    {
+      "library_id": "Phoenix_Candidates:IND-SMD_L5.0-W5.0-PRS5020-330MT",
+      "references": [
+        "L1001"
+      ],
+      "minimum_pad_margin_mm": 0.25,
+      "courtyard_centerline_bounds_mm": [
+        -3.58,
+        -2.56,
+        3.58,
+        2.56
+      ],
+      "before_sha256": "2d1b4627525b6122e4162e2afe3c084b0368d650e0786556a77139f977b0ab82",
+      "after_sha256": "bcb4d76da39c4b84398eced2e80e9883f800376913566d48a9113bc388841516",
+      "original_before_any_repair_sha256": "71ef4960ff09ad4ca066cc8fc12aac27f0286c6e31fd77da0375e0735c13498f",
+      "pad_geometry_preserved_by_load_compare": true
+    },
+    {
+      "library_id": "Phoenix_Candidates:USON-10_L2.5-W1.0-P0.50-BL",
+      "references": [
+        "U7",
+        "U23",
+        "U9",
+        "U8",
+        "U22"
+      ],
+      "minimum_pad_margin_mm": 0.25,
+      "courtyard_centerline_bounds_mm": [
+        -1.38,
+        -0.97,
+        1.38,
+        0.97
+      ],
+      "before_sha256": "781e0fdb48e178d1f724ded99443143158f81adf058e26ec965fac4f0be2123c",
+      "after_sha256": "857b22fb9387f66e7493cdd874958fd05f8f1945c32fab69d8a41ab40ad85884",
+      "original_before_any_repair_sha256": "fcb767153b5aab2cacc899a3772fbd7ae3ab420411b0cd2c0edb434098b9ebed",
+      "pad_geometry_preserved_by_load_compare": true
+    },
+    {
+      "library_id": "Phoenix_Candidates:WQFN-40_L5.0-W5.0-P0.4-BL-EP",
+      "references": [
+        "U5"
+      ],
+      "minimum_pad_margin_mm": 0.25,
+      "courtyard_centerline_bounds_mm": [
+        -2.98,
+        -2.98,
+        2.98,
+        2.98
+      ],
+      "before_sha256": "ecddf1f86f58ab16cf4f59aa9a36962b53bb73b57b23cdfb2c0337cfb7a71402",
+      "after_sha256": "452e549806e2f711e78d06fe3beede2dd624a004788929c0ef7837dbf0f6bc77",
+      "original_before_any_repair_sha256": "a0bd2c9ac9324d07dad7edebf1592def3cb9d7111161c1394c48b493715782b0",
+      "pad_geometry_preserved_by_load_compare": true
+    },
+    {
+      "library_id": "Phoenix_Reviewed:QFN-68_L7.0-W7.0-P0.35-BL-EP5.5",
+      "references": [
+        "U4"
+      ],
+      "minimum_pad_margin_mm": 0.25,
+      "courtyard_centerline_bounds_mm": [
+        -4.06,
+        -4.06,
+        4.06,
+        4.06
+      ],
+      "before_sha256": "7e086170067e3ecd9b6b2be83008484a5ed4b326456f1d7e0f63a08884c74239",
+      "after_sha256": "73330d387dad216bcbf1221018f48d127915e624997fd4b8f648b52720264ab6",
+      "original_before_any_repair_sha256": "9b5365e320904bbec893e005b4900ce5f103efd24bf8515c4d71a8a2024bddc9",
+      "pad_geometry_preserved_by_load_compare": true
+    },
+    {
+      "library_id": "Phoenix_Reviewed:RJ45-TH_HR911130A",
+      "references": [
+        "J2"
+      ],
+      "minimum_pad_margin_mm": 0.5,
+      "courtyard_centerline_bounds_mm": [
+        -9.35,
+        -12.96,
+        9.35,
+        8.46
+      ],
+      "before_sha256": "430a8e4bca08610b2565ad0bda5e68fa657de168c0e043cc6720ff614d665238",
+      "after_sha256": "66500479dd9075f9d32d9814f1494c5eb172a5637f43709d3607767a8e67986d",
+      "original_before_any_repair_sha256": "55562fb7c7bda986429e6f43105a47da71bb96f4b14b120648a65328f9434f26",
+      "pad_geometry_preserved_by_load_compare": true
+    },
+    {
+      "library_id": "Phoenix_Reviewed:WQFN-30_L4.5-W2.5-P0.4-BL-EP",
+      "references": [
+        "U6"
+      ],
+      "minimum_pad_margin_mm": 0.25,
+      "courtyard_centerline_bounds_mm": [
+        -2.74,
+        -1.74,
+        2.74,
+        1.74
+      ],
+      "before_sha256": "250d543d473d6fbefb7fdd7c5919045fcfde251ba493f2703bd05d7e0cb6f562",
+      "after_sha256": "98de9179d470aeef2ed6f22bced1e7d9ca0daa09f1c5c406f2943b3170b7047d",
+      "original_before_any_repair_sha256": "85548196b31ca3aa22c09bd5f4508ae81c7b468289faf7bd5a0c005a7d3a8ca5",
+      "pad_geometry_preserved_by_load_compare": true
+    },
+    {
+      "library_id": "Phoenix_Reviewed:WSON-8_L8.0-W6.10-P1.27-BL-EP",
+      "references": [
+        "U18"
+      ],
+      "minimum_pad_margin_mm": 0.25,
+      "courtyard_centerline_bounds_mm": [
+        -3.06,
+        -5.02,
+        3.06,
+        5.02
+      ],
+      "before_sha256": "c247a33e33e4313fb1c6c303e6028dd5e411fdc82a59b794cd8d73b41ba7ea30",
+      "after_sha256": "2f29d63d9885e8d64879d22d355204ee8e6fe73c7b879e9684b8cd1d0eae9761",
+      "original_before_any_repair_sha256": "7a9dbb79354c31086a55e6fc0aa7a38be2e3f307f5a756839e0f70063c4c0cca",
+      "pad_geometry_preserved_by_load_compare": true
+    },
+    {
+      "library_id": "Phoenix_WifiImports:CRYSTAL-SMD_4P-L3.2-W2.5-BL",
+      "references": [
+        "Y2002"
+      ],
+      "minimum_pad_margin_mm": 0.5,
+      "courtyard_centerline_bounds_mm": [
+        -2.33,
+        -1.98,
+        2.33,
+        1.98
+      ],
+      "before_sha256": "1efa552de235bb230dce7d5e49e539690c719cb4dbab6f9e5149f3d19563a48a",
+      "after_sha256": "c02da613a2c8c1b8d36fdff01d4f5ef45e4e8a400fb1b200127a9c97147b7851",
+      "original_before_any_repair_sha256": "22a734d152b5464b60f059c116384275c2ca6608f5fd87bc1dae7caf09ad0641",
+      "pad_geometry_preserved_by_load_compare": true
+    }
+  ],
+  "limitations": [
+    "Repairs basic pad enclosure in active copied libraries only.",
+    "Preserves existing body envelope but does not independently establish package maximum dimensions, assembly process, connector mating space or full KLC conformance.",
+    "Placement and routing must be regenerated and all mechanical/electrical regressions resolved."
+  ],
+  "production_ready": false
+}

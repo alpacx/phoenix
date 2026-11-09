@@ -1,0 +1,718 @@
+{
+  "status": "PARTIAL USB CONTROL ROUTING; RUN DRC BEFORE ACCEPTING",
+  "nets": [
+    {
+      "net": "USB_CC_ENABLE_N",
+      "length_mm": 8.342,
+      "segments": 10,
+      "vias_xy_mm": [
+        [
+          16.7,
+          25.05
+        ],
+        [
+          14.0,
+          20.900000000000002
+        ]
+      ],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "U13.4",
+        "U6.29"
+      ]
+    },
+    {
+      "net": "CC_VBUS_SENSE",
+      "length_mm": 13.6011,
+      "segments": 9,
+      "vias_xy_mm": [
+        [
+          16.8,
+          21.900000000000002
+        ],
+        [
+          10.8,
+          29.5
+        ]
+      ],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "U6.5",
+        "R606.2"
+      ]
+    },
+    {
+      "net": "CC_VBUS_SERIES_2",
+      "length_mm": 10.7684,
+      "segments": 10,
+      "vias_xy_mm": [],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "R605.2",
+        "R606.1"
+      ]
+    },
+    {
+      "net": "CC_VBUS_SERIES_1",
+      "length_mm": 5.0441,
+      "segments": 5,
+      "vias_xy_mm": [],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "R605.1",
+        "R601.2"
+      ]
+    },
+    {
+      "net": "USB_CC2",
+      "length_mm": 12.0162,
+      "segments": 11,
+      "vias_xy_mm": [
+        [
+          7.050000000000001,
+          20.55
+        ],
+        [
+          13.8,
+          18.6
+        ]
+      ],
+      "via_land_drill_mm": [
+        0.45,
+        0.2
+      ],
+      "endpoints": [
+        "J1.B5",
+        "U9.5"
+      ]
+    },
+    {
+      "net": "USB_CC2",
+      "length_mm": 10.7012,
+      "segments": 15,
+      "vias_xy_mm": [
+        [
+          13.8,
+          18.6
+        ],
+        [
+          14.100000000000001,
+          19.200000000000003
+        ]
+      ],
+      "via_land_drill_mm": [
+        0.45,
+        0.2
+      ],
+      "endpoints": [
+        "U9.5",
+        "U6.1"
+      ]
+    },
+    {
+      "net": "USB_CC1",
+      "length_mm": 3.8328,
+      "segments": 8,
+      "vias_xy_mm": [],
+      "via_land_drill_mm": [
+        0.45,
+        0.2
+      ],
+      "endpoints": [
+        "J1.A5",
+        "U9.4"
+      ]
+    },
+    {
+      "net": "USB_CC1",
+      "length_mm": 20.3246,
+      "segments": 18,
+      "vias_xy_mm": [
+        [
+          9.3,
+          17.0
+        ],
+        [
+          15.700000000000001,
+          21.900000000000002
+        ]
+      ],
+      "via_land_drill_mm": [
+        0.45,
+        0.2
+      ],
+      "endpoints": [
+        "U9.4",
+        "U6.2"
+      ]
+    }
+  ],
+  "initial_fanout": [
+    {
+      "pin": "R1901.1",
+      "net": "VBUS_RAW",
+      "via_xy_mm": [
+        1.25,
+        3.5
+      ],
+      "length_mm": 0.9249999999999998,
+      "segment_uuids": [
+        "4b7bb202-1caa-4845-8b35-d2752260ac35",
+        "60301819-28a0-414f-9e4b-2522f4ed94e4"
+      ]
+    },
+    {
+      "pin": "R1903.1",
+      "net": "VBUS_RAW",
+      "via_xy_mm": [
+        3.25,
+        12.0
+      ],
+      "length_mm": 0.9249999999999998,
+      "segment_uuids": [
+        "924abf7d-ad81-4cdf-a85b-3563b46cdff1",
+        "3499fe9c-1836-46e4-bb91-bd841a9ceb48"
+      ]
+    },
+    {
+      "pin": "TP2.1",
+      "net": "VBUS_RAW",
+      "via_xy_mm": [
+        14.5,
+        1.5
+      ],
+      "length_mm": 1.0,
+      "segment_uuids": [
+        "d8e74454-8922-4343-83ef-be2068385a08"
+      ]
+    },
+    {
+      "pin": "U12.3",
+      "net": "+3V3_AON",
+      "via_xy_mm": [
+        8.35,
+        1.75
+      ],
+      "length_mm": 0.8000000000000003,
+      "segment_uuids": [
+        "b920799a-91e2-45a3-917b-ea043eb8d432"
+      ]
+    },
+    {
+      "pin": "R603.1",
+      "net": "+3V3_AON",
+      "via_xy_mm": [
+        9.200000000000001,
+        24.0
+      ],
+      "length_mm": 0.8099999999999987,
+      "segment_uuids": [
+        "bb33af60-11a8-4712-80f8-5f94cbd661cd",
+        "8a877f7b-a2ee-49be-a7dc-bf675cf60fc8"
+      ]
+    },
+    {
+      "pin": "R602.1",
+      "net": "+3V3_AON",
+      "via_xy_mm": [
+        9.200000000000001,
+        23.1
+      ],
+      "length_mm": 1.0585281374238569,
+      "segment_uuids": [
+        "b907c653-273f-4e24-9bd1-c12911825106",
+        "a3998631-408d-4751-af86-b70380bc8f40",
+        "f45a68f0-b927-4ad0-b20d-31d800b271f2"
+      ]
+    },
+    {
+      "pin": "R604.1",
+      "net": "+3V3_AON",
+      "via_xy_mm": [
+        9.200000000000001,
+        14.5
+      ],
+      "length_mm": 0.8099999999999987,
+      "segment_uuids": [
+        "f41dc977-f915-4313-a444-275380ba6c79",
+        "b9d1de2e-982a-485e-aeef-b2146190ba09"
+      ]
+    },
+    {
+      "pin": "R1101.1",
+      "net": "+3V3_AON",
+      "via_xy_mm": [
+        2.2,
+        10.0
+      ],
+      "length_mm": 0.8099999999999996,
+      "segment_uuids": [
+        "74da3cbf-e2c8-4983-8ce1-a24edac9af1d",
+        "ff8e6145-be9b-49ec-8d71-cc8985688f2c"
+      ]
+    },
+    {
+      "pin": "R1202.2",
+      "net": "+3V3_AON",
+      "via_xy_mm": [
+        3.8000000000000003,
+        30.0
+      ],
+      "length_mm": 0.81,
+      "segment_uuids": [
+        "85afcbbb-5883-4e50-b58e-8587c46d4d30",
+        "ed6a1178-aada-4181-839b-fb4f3b6d2805"
+      ]
+    },
+    {
+      "pin": "U9.4",
+      "net": "USB_CC1",
+      "via_xy_mm": [
+        9.3,
+        17.0
+      ],
+      "length_mm": 1.5071067811865482,
+      "segment_uuids": [
+        "503daf26-02ae-4346-85a7-d1279a9c3a3b",
+        "08daf95e-0617-49e2-9db1-844d5c65e15f"
+      ]
+    },
+    {
+      "pin": "U9.5",
+      "net": "USB_CC2",
+      "via_xy_mm": [
+        13.8,
+        18.6
+      ],
+      "length_mm": 3.5656854249492396,
+      "segment_uuids": [
+        "b77aa3d0-a3e9-4ba5-b9fc-566330b115ed",
+        "bb1fd51d-ebdd-45fe-9e8d-3367bdcc648a",
+        "8f4c8fa1-a531-41ed-96c8-360b25c081b1",
+        "b9281060-5c8b-4838-aaa5-c6415eff04a4"
+      ]
+    },
+    {
+      "pin": "U11.2",
+      "net": "GND",
+      "via_xy_mm": [
+        8.3,
+        28.0
+      ],
+      "length_mm": 1.0,
+      "segment_uuids": [
+        "947ef771-5989-4c65-98ee-dc881fb2ec29"
+      ]
+    },
+    {
+      "pin": "C1902.2",
+      "net": "GND",
+      "via_xy_mm": [
+        8.25,
+        14.0
+      ],
+      "length_mm": 1.0,
+      "segment_uuids": [
+        "b21b53e9-1521-496e-b4df-8fe8bdebd1a1"
+      ]
+    },
+    {
+      "pin": "C605.1",
+      "net": "VBUS_PROTECTED",
+      "via_xy_mm": [
+        14.600000000000001,
+        22.8
+      ],
+      "length_mm": 0.8200000000000021,
+      "segment_uuids": [
+        "e2ab685f-6377-46d2-be25-e105b2ae6266",
+        "c4c80d8c-13ec-4c89-8352-8ce4224694eb"
+      ]
+    },
+    {
+      "pin": "C605.2",
+      "net": "GND",
+      "via_xy_mm": [
+        13.700000000000001,
+        22.0
+      ],
+      "length_mm": 1.3978174593052026,
+      "segment_uuids": [
+        "39c3a6f4-b80d-4e00-ba2a-dec8076a974d",
+        "68728f11-4f87-4c7e-9b48-dbff4ffc16e8",
+        "9bbe4ba9-f227-4159-8138-16e237fdcd52",
+        "5dcc9b5b-a657-41f3-a4b1-594050c50fdc",
+        "c99c7aff-3d9e-460c-ab17-97e445c4ed0c"
+      ]
+    },
+    {
+      "pin": "C1203.2",
+      "net": "GND",
+      "via_xy_mm": [
+        9.0,
+        31.950000000000003
+      ],
+      "length_mm": 0.8199999999999967,
+      "segment_uuids": [
+        "9b9c9b96-12d1-466e-8470-77dce75e7129",
+        "0891b404-9aaf-4b04-86a2-a3db92af9253"
+      ]
+    },
+    {
+      "pin": "U14.3",
+      "net": "GND",
+      "via_xy_mm": [
+        15.100000000000001,
+        13.65
+      ],
+      "length_mm": 0.7000000000000011,
+      "segment_uuids": [
+        "520905b5-77f3-4a95-bb42-df11a122ca19"
+      ]
+    },
+    {
+      "pin": "U15.2",
+      "net": "USB_MAIN_ENABLE",
+      "via_xy_mm": [
+        4.25,
+        31.25
+      ],
+      "length_mm": 0.8000000000000007,
+      "segment_uuids": [
+        "13b5b832-15d8-438b-81a9-db7cf85175de"
+      ]
+    },
+    {
+      "pin": "U15.1",
+      "net": "USB_DVDT",
+      "via_xy_mm": [
+        5.050000000000001,
+        30.05
+      ],
+      "length_mm": 0.6999999999999993,
+      "segment_uuids": [
+        "b7aa3a4b-97a4-40e8-94fd-c5c3f8ed4c8f"
+      ]
+    },
+    {
+      "pin": "U15.7",
+      "net": "USB_ILIM",
+      "via_xy_mm": [
+        8.15,
+        30.75
+      ],
+      "length_mm": 1.4071067811865476,
+      "segment_uuids": [
+        "e41e336e-6c5e-4d4c-92db-7dbbaffda558",
+        "da00d2ca-1c8a-402c-87a5-3d2383d0be52"
+      ]
+    },
+    {
+      "pin": "U15.6",
+      "net": "USB_POWER_FAULT_N",
+      "via_xy_mm": [
+        8.25,
+        31.75
+      ],
+      "length_mm": 1.2999999999999998,
+      "segment_uuids": [
+        "9bc3ebd0-d6a4-45fa-9f41-cbb79cc5d9c5"
+      ]
+    },
+    {
+      "pin": "U24.14",
+      "net": "VBUS_UVLO",
+      "via_xy_mm": [
+        7.25,
+        4.2
+      ],
+      "length_mm": 2.3,
+      "segment_uuids": [
+        "783382e1-ac50-4810-b889-fa5fffa329f5"
+      ]
+    },
+    {
+      "pin": "U24.15",
+      "net": "VBUS_OVP",
+      "via_xy_mm": [
+        6.75,
+        3.5
+      ],
+      "length_mm": 3.0828427124746183,
+      "segment_uuids": [
+        "4ceb9415-3a4f-4a88-8397-1e3e442a3174",
+        "15994232-5fc3-4744-b981-fd7d4e1f385a",
+        "d2e5e91a-872d-4e8a-8228-bb07060dbc30",
+        "cc0b63c6-dc90-43b4-8f7b-d1af2248e20e"
+      ]
+    },
+    {
+      "pin": "U24.17",
+      "net": "VBUS_GUARD_ILIM",
+      "via_xy_mm": [
+        2.7,
+        7.15
+      ],
+      "length_mm": 2.841421356237309,
+      "segment_uuids": [
+        "5b116883-c91d-4733-af53-6db5135d5aac",
+        "73bb0f8b-c1c5-4053-abb8-19388399a4b5"
+      ]
+    },
+    {
+      "pin": "U24.18",
+      "net": "VBUS_GUARD_DVDT",
+      "via_xy_mm": [
+        3.2,
+        8.85
+      ],
+      "length_mm": 2.7556349186104043,
+      "segment_uuids": [
+        "2a9f9d3e-0e18-4b06-b092-e40974d7a3b3",
+        "67e0c45a-f21b-493f-9a31-9fcb6016c090"
+      ]
+    },
+    {
+      "pin": "U6.30",
+      "net": "VBUS_PROTECTED",
+      "via_xy_mm": [
+        14.600000000000001,
+        21.400000000000002
+      ],
+      "length_mm": 0.6828427124746201,
+      "segment_uuids": [
+        "544c8c6d-2d76-4750-96b2-f5cc49c7e244",
+        "ac25f041-c255-41a6-b13f-91e58c288f16"
+      ]
+    },
+    {
+      "pin": "U6.29",
+      "net": "USB_CC_ENABLE_N",
+      "via_xy_mm": [
+        14.0,
+        20.900000000000002
+      ],
+      "length_mm": 1.1535533905932744,
+      "segment_uuids": [
+        "24f7a14d-f5fc-4841-931b-199db76345a0",
+        "0e1f7964-037f-4de8-9fb2-00827e9e6505",
+        "5aafb001-1d97-46ac-9aeb-8afd74556403"
+      ]
+    },
+    {
+      "pin": "U6.26",
+      "net": "CC_OUT2_N",
+      "via_xy_mm": [
+        14.600000000000001,
+        18.6
+      ],
+      "length_mm": 0.6828427124746201,
+      "segment_uuids": [
+        "08986d89-95fd-49b1-b5a0-60ea4e223c2d",
+        "9652a50d-e6a3-4709-bf06-61dcd94c06f0"
+      ]
+    },
+    {
+      "pin": "U6.25",
+      "net": "CC_OUT1_N",
+      "via_xy_mm": [
+        15.200000000000001,
+        18.0
+      ],
+      "length_mm": 0.8000000000000007,
+      "segment_uuids": [
+        "21510641-ef76-4f3f-a4c9-8fa172968bfd"
+      ]
+    },
+    {
+      "pin": "U6.1",
+      "net": "USB_CC2",
+      "via_xy_mm": [
+        14.8,
+        22.1
+      ],
+      "length_mm": 1.0656854249492373,
+      "segment_uuids": [
+        "1cca9436-4e7f-49c7-a80c-b3e1ddc21d6a",
+        "0179165a-acc8-4fb3-9b25-4b1065b1f0f8"
+      ]
+    },
+    {
+      "pin": "U6.2",
+      "net": "USB_CC1",
+      "via_xy_mm": [
+        15.700000000000001,
+        21.900000000000002
+      ],
+      "length_mm": 0.7414213562373081,
+      "segment_uuids": [
+        "80d2ff70-7c3c-493a-87f3-ab27995b8c66",
+        "3e3b5077-b402-46b9-bda1-d4032ca35510"
+      ]
+    },
+    {
+      "pin": "U6.5",
+      "net": "CC_VBUS_SENSE",
+      "via_xy_mm": [
+        16.8,
+        21.900000000000002
+      ],
+      "length_mm": 0.6999999999999993,
+      "segment_uuids": [
+        "d6976cf5-ab73-4f2b-886e-d38a2fb3827a"
+      ]
+    },
+    {
+      "pin": "R1902.2",
+      "net": "GND",
+      "via_xy_mm": [
+        2.9000000000000004,
+        4.4
+      ],
+      "length_mm": 1.71208152801713,
+      "segment_uuids": [
+        "ed684f9a-8839-479e-86e2-09ddb388a8e7",
+        "045c8168-7397-4457-8172-b0f8bb943e4a",
+        "bde763ac-c323-42c4-83a8-2d2b609559f0",
+        "7fb58713-7cf1-47d7-82e3-52b079e6c72b",
+        "e08dc950-1a07-4317-bf30-92ed4d68e626"
+      ]
+    },
+    {
+      "pin": "R1905.2",
+      "net": "GND",
+      "via_xy_mm": [
+        11.0,
+        8.0
+      ],
+      "length_mm": 0.8249999999999993,
+      "segment_uuids": [
+        "aa88812e-69a5-457f-bb7a-766d1e4e1048",
+        "cb096ef9-9fc8-47e2-bca0-c90526804540"
+      ]
+    },
+    {
+      "pin": "C1103.2",
+      "net": "GND",
+      "via_xy_mm": [
+        2.5,
+        2.0
+      ],
+      "length_mm": 0.7200000000000002,
+      "segment_uuids": [
+        "bba88e2d-3866-4749-aebb-722ad28d5e0f",
+        "7b9ff191-063a-47ee-87ab-f8ce1589a150"
+      ]
+    },
+    {
+      "pin": "C1104.2",
+      "net": "GND",
+      "via_xy_mm": [
+        15.3,
+        22.55
+      ],
+      "length_mm": 0.8028427124746176,
+      "segment_uuids": [
+        "289e9608-4a1e-40a8-8ab7-fe9c2feea0f3",
+        "cebcbd43-2b42-4583-a5cc-471c94cff63b",
+        "4d44c257-0292-44f7-b807-39b4cbddb7fe"
+      ]
+    },
+    {
+      "pin": "C1105.2",
+      "net": "GND",
+      "via_xy_mm": [
+        13.8,
+        17.75
+      ],
+      "length_mm": 0.8200000000000003,
+      "segment_uuids": [
+        "45d7a613-ec9c-4331-b4ff-296d0320d71f",
+        "2e5cd078-d18d-4d93-a53e-23328722b238"
+      ]
+    },
+    {
+      "pin": "C1106.2",
+      "net": "GND",
+      "via_xy_mm": [
+        23.1,
+        20.0
+      ],
+      "length_mm": 0.7199999999999989,
+      "segment_uuids": [
+        "a10f6522-81c3-47c7-add9-0cd678d1ba26",
+        "8e974ba6-6ce2-4464-8d2a-26c7b05145a9"
+      ]
+    },
+    {
+      "pin": "C1107.2",
+      "net": "GND",
+      "via_xy_mm": [
+        17.75,
+        16.95
+      ],
+      "length_mm": 0.8200000000000003,
+      "segment_uuids": [
+        "325b2f4f-e25e-432d-ba64-32804b144650",
+        "b8098636-9b6f-488c-8380-3dd618925c43"
+      ]
+    },
+    {
+      "pin": "C606.2",
+      "net": "GND",
+      "via_xy_mm": [
+        19.8,
+        22.8
+      ],
+      "length_mm": 0.8442640687119313,
+      "segment_uuids": [
+        "ac04356f-b69a-4963-81f5-589f4b0c16b0",
+        "72cf2410-0eda-4b5f-b328-d16c802aac77",
+        "7d4df164-d422-4194-8bb1-4827cb5d5608"
+      ]
+    },
+    {
+      "pin": "U16.3",
+      "net": "GND",
+      "via_xy_mm": [
+        29.8,
+        18.05
+      ],
+      "length_mm": 1.0,
+      "segment_uuids": [
+        "4d331f49-fdfd-468f-a13f-53911129f255"
+      ]
+    }
+  ],
+  "failed_branches": [],
+  "track_width_mm": 0.2,
+  "search_clearance_mm": 0.2,
+  "via_land_drill_mm": [
+    0.6,
+    0.3
+  ],
+  "cc_via_land_drill_mm": [
+    0.45,
+    0.2
+  ],
+  "track_and_via_items": 303,
+  "unconnected_ratsnest_edges": 1266,
+  "limitations": [
+    "Only the reported USB controls and explicit supply branches are routed. Full board routing, USB data, remaining power rails and qualification remain unresolved.",
+    "Candidate SoC footprint, stackup, ESD return paths, PI, decoupling and mechanics unqualified.",
+    "CC detours need optimization; DRC alone does not establish electrical performance."
+  ],
+  "production_ready": false
+}

@@ -1,0 +1,63 @@
+{
+  "status": "CATALOG CANDIDATES - circuit qualification remains open",
+  "choices": [
+    {
+      "jlc": "C705762",
+      "refs": [
+        "R601",
+        "R605",
+        "R606"
+      ],
+      "evidence": "sourcing/public/C705762.json",
+      "schematic_value": "300k 0.1% 25ppm",
+      "actual_tolerance_percent": 0.1,
+      "actual_tcr_ppm_max": 25
+    },
+    {
+      "jlc": "C190095",
+      "refs": [
+        "R1902",
+        "R1904"
+      ],
+      "evidence": "sourcing/public/C190095.json",
+      "schematic_value": "10k 0.1% 25ppm",
+      "actual_tolerance_percent": 0.1,
+      "actual_tcr_ppm_max": 25
+    },
+    {
+      "jlc": "C861344",
+      "refs": [
+        "R1901"
+      ],
+      "evidence": "sourcing/public/C861344.json",
+      "schematic_value": "35.7k 0.1% 25ppm",
+      "actual_tolerance_percent": 0.1,
+      "actual_tcr_ppm_max": 25
+    },
+    {
+      "jlc": "C136962",
+      "refs": [
+        "R1903"
+      ],
+      "evidence": "sourcing/public/C136962.json",
+      "schematic_value": "47.5k 0.1% 25ppm",
+      "actual_tolerance_percent": 0.1,
+      "actual_tcr_ppm_max": 25
+    },
+    {
+      "jlc": "C861567",
+      "refs": [
+        "R1201"
+      ],
+      "evidence": "sourcing/public/C861567.json",
+      "schematic_value": "806R 1%",
+      "actual_tolerance_percent": 0.1,
+      "actual_tcr_ppm_max": 25
+    }
+  ],
+  "limits": [
+    "Catalog stock is not reserved assembly inventory.",
+    "Tolerance, temperature drift and divider leakage must be included in rail bounds.",
+    "R1201 retains conservative 1% circuit analysis; selected candidate is 0.1%."
+  ]
+}

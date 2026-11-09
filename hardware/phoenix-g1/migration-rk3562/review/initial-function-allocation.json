@@ -1,0 +1,1217 @@
+{
+  "status": "DRAFT FROM MANUFACTURER PIN TABLE; IO VOLTAGE AND SUPPORT CIRCUITS NOT QUALIFIED",
+  "ram_mib": 512,
+  "bus_bits": 32,
+  "signals": [
+    {
+      "net": "DDR3_A0",
+      "soc_ball": "C10",
+      "function": "DDR3_A0",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "N3"
+        },
+        {
+          "ref": "U3",
+          "pin": "N3"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_A1",
+      "soc_ball": "C18",
+      "function": "DDR3_A1",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "P7"
+        },
+        {
+          "ref": "U3",
+          "pin": "P7"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_A10",
+      "soc_ball": "C16",
+      "function": "DDR3_A10",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "L7"
+        },
+        {
+          "ref": "U3",
+          "pin": "L7"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_A11",
+      "soc_ball": "1A8",
+      "function": "DDR3_A11",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "R7"
+        },
+        {
+          "ref": "U3",
+          "pin": "R7"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_A12",
+      "soc_ball": "1A9",
+      "function": "DDR3_A12",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "N7"
+        },
+        {
+          "ref": "U3",
+          "pin": "N7"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_A13",
+      "soc_ball": "B15",
+      "function": "DDR3_A13",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "T3"
+        },
+        {
+          "ref": "U3",
+          "pin": "T3"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_A2",
+      "soc_ball": "1B6",
+      "function": "DDR3_A2",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "P3"
+        },
+        {
+          "ref": "U3",
+          "pin": "P3"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_A3",
+      "soc_ball": "B12",
+      "function": "DDR3_A3",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "N2"
+        },
+        {
+          "ref": "U3",
+          "pin": "N2"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_A4",
+      "soc_ball": "A10",
+      "function": "DDR3_A4",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "P8"
+        },
+        {
+          "ref": "U3",
+          "pin": "P8"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_A5",
+      "soc_ball": "B18",
+      "function": "DDR3_A5",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "P2"
+        },
+        {
+          "ref": "U3",
+          "pin": "P2"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_A6",
+      "soc_ball": "B10",
+      "function": "DDR3_A6",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "R8"
+        },
+        {
+          "ref": "U3",
+          "pin": "R8"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_A7",
+      "soc_ball": "B9",
+      "function": "DDR3_A7",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "R2"
+        },
+        {
+          "ref": "U3",
+          "pin": "R2"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_A8",
+      "soc_ball": "B19",
+      "function": "DDR3_A8",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "T8"
+        },
+        {
+          "ref": "U3",
+          "pin": "T8"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_A9",
+      "soc_ball": "A15",
+      "function": "DDR3_A9",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "R3"
+        },
+        {
+          "ref": "U3",
+          "pin": "R3"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_BA0",
+      "soc_ball": "1A6",
+      "function": "DDR3_BA0",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "M2"
+        },
+        {
+          "ref": "U3",
+          "pin": "M2"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_BA1",
+      "soc_ball": "1A10",
+      "function": "DDR3_BA1",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "N8"
+        },
+        {
+          "ref": "U3",
+          "pin": "N8"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_BA2",
+      "soc_ball": "1B7",
+      "function": "DDR3_BA2",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "M3"
+        },
+        {
+          "ref": "U3",
+          "pin": "M3"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_CASN",
+      "soc_ball": "B16",
+      "function": "DDR3_CASN",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "K3"
+        },
+        {
+          "ref": "U3",
+          "pin": "K3"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_CKE",
+      "soc_ball": "C12",
+      "function": "DDR3_CKE",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "K9"
+        },
+        {
+          "ref": "U3",
+          "pin": "K9"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_CLKN",
+      "soc_ball": "B13",
+      "function": "DDR3_CLKN",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "K7"
+        },
+        {
+          "ref": "U3",
+          "pin": "K7"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_CLKP",
+      "soc_ball": "A13",
+      "function": "DDR3_CLKP",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "J7"
+        },
+        {
+          "ref": "U3",
+          "pin": "J7"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_CS0N",
+      "soc_ball": "B17",
+      "function": "DDR3_CS0N",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "L2"
+        },
+        {
+          "ref": "U3",
+          "pin": "L2"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DM0",
+      "soc_ball": "B7",
+      "function": "DDR3_DM0",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "E7"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DM1",
+      "soc_ball": "A2",
+      "function": "DDR3_DM1",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "D3"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DM2",
+      "soc_ball": "B21",
+      "function": "DDR3_DM2",
+      "ram_endpoints": [
+        {
+          "ref": "U3",
+          "pin": "E7"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DM3",
+      "soc_ball": "A26",
+      "function": "DDR3_DM3",
+      "ram_endpoints": [
+        {
+          "ref": "U3",
+          "pin": "D3"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ0",
+      "soc_ball": "B6",
+      "function": "DDR3_DQ0",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "E3"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ1",
+      "soc_ball": "C5",
+      "function": "DDR3_DQ1",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "F7"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ10",
+      "soc_ball": "C1",
+      "function": "DDR3_DQ10",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "C8"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ11",
+      "soc_ball": "A3",
+      "function": "DDR3_DQ11",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "C2"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ12",
+      "soc_ball": "B1",
+      "function": "DDR3_DQ12",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "A7"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ13",
+      "soc_ball": "A4",
+      "function": "DDR3_DQ13",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "A2"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ14",
+      "soc_ball": "C2",
+      "function": "DDR3_DQ14",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "B8"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ15",
+      "soc_ball": "B4",
+      "function": "DDR3_DQ15",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "A3"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ16",
+      "soc_ball": "B22",
+      "function": "DDR3_DQ16",
+      "ram_endpoints": [
+        {
+          "ref": "U3",
+          "pin": "E3"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ17",
+      "soc_ball": "A22",
+      "function": "DDR3_DQ17",
+      "ram_endpoints": [
+        {
+          "ref": "U3",
+          "pin": "F7"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ18",
+      "soc_ball": "C20",
+      "function": "DDR3_DQ18",
+      "ram_endpoints": [
+        {
+          "ref": "U3",
+          "pin": "F2"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ19",
+      "soc_ball": "C22",
+      "function": "DDR3_DQ19",
+      "ram_endpoints": [
+        {
+          "ref": "U3",
+          "pin": "F8"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ2",
+      "soc_ball": "A8",
+      "function": "DDR3_DQ2",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "F2"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ20",
+      "soc_ball": "B20",
+      "function": "DDR3_DQ20",
+      "ram_endpoints": [
+        {
+          "ref": "U3",
+          "pin": "H3"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ21",
+      "soc_ball": "C23",
+      "function": "DDR3_DQ21",
+      "ram_endpoints": [
+        {
+          "ref": "U3",
+          "pin": "H8"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ22",
+      "soc_ball": "A20",
+      "function": "DDR3_DQ22",
+      "ram_endpoints": [
+        {
+          "ref": "U3",
+          "pin": "G2"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ23",
+      "soc_ball": "B23",
+      "function": "DDR3_DQ23",
+      "ram_endpoints": [
+        {
+          "ref": "U3",
+          "pin": "H7"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ24",
+      "soc_ball": "B26",
+      "function": "DDR3_DQ24",
+      "ram_endpoints": [
+        {
+          "ref": "U3",
+          "pin": "D7"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ25",
+      "soc_ball": "A24",
+      "function": "DDR3_DQ25",
+      "ram_endpoints": [
+        {
+          "ref": "U3",
+          "pin": "C3"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ26",
+      "soc_ball": "C26",
+      "function": "DDR3_DQ26",
+      "ram_endpoints": [
+        {
+          "ref": "U3",
+          "pin": "C8"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ27",
+      "soc_ball": "A25",
+      "function": "DDR3_DQ27",
+      "ram_endpoints": [
+        {
+          "ref": "U3",
+          "pin": "C2"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ28",
+      "soc_ball": "B27",
+      "function": "DDR3_DQ28",
+      "ram_endpoints": [
+        {
+          "ref": "U3",
+          "pin": "A7"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ29",
+      "soc_ball": "B25",
+      "function": "DDR3_DQ29",
+      "ram_endpoints": [
+        {
+          "ref": "U3",
+          "pin": "A2"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ3",
+      "soc_ball": "B5",
+      "function": "DDR3_DQ3",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "F8"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ30",
+      "soc_ball": "C27",
+      "function": "DDR3_DQ30",
+      "ram_endpoints": [
+        {
+          "ref": "U3",
+          "pin": "B8"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ31",
+      "soc_ball": "B24",
+      "function": "DDR3_DQ31",
+      "ram_endpoints": [
+        {
+          "ref": "U3",
+          "pin": "A3"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ4",
+      "soc_ball": "B8",
+      "function": "DDR3_DQ4",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "H3"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ5",
+      "soc_ball": "C6",
+      "function": "DDR3_DQ5",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "H8"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ6",
+      "soc_ball": "C8",
+      "function": "DDR3_DQ6",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "G2"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ7",
+      "soc_ball": "A6",
+      "function": "DDR3_DQ7",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "H7"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ8",
+      "soc_ball": "B2",
+      "function": "DDR3_DQ8",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "D7"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQ9",
+      "soc_ball": "B3",
+      "function": "DDR3_DQ9",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "C3"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQS0N",
+      "soc_ball": "1B3",
+      "function": "DDR3_DQS0N",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "G3"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQS0P",
+      "soc_ball": "1A3",
+      "function": "DDR3_DQS0P",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "F3"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQS1N",
+      "soc_ball": "1B1",
+      "function": "DDR3_DQS1N",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "B7"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQS1P",
+      "soc_ball": "1A1",
+      "function": "DDR3_DQS1P",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "C7"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQS2N",
+      "soc_ball": "1B13",
+      "function": "DDR3_DQS2N",
+      "ram_endpoints": [
+        {
+          "ref": "U3",
+          "pin": "G3"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQS2P",
+      "soc_ball": "1A13",
+      "function": "DDR3_DQS2P",
+      "ram_endpoints": [
+        {
+          "ref": "U3",
+          "pin": "F3"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQS3N",
+      "soc_ball": "1B15",
+      "function": "DDR3_DQS3N",
+      "ram_endpoints": [
+        {
+          "ref": "U3",
+          "pin": "B7"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_DQS3P",
+      "soc_ball": "1A15",
+      "function": "DDR3_DQS3P",
+      "ram_endpoints": [
+        {
+          "ref": "U3",
+          "pin": "C7"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_ODT0",
+      "soc_ball": "C17",
+      "function": "DDR3_ODT0",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "K1"
+        },
+        {
+          "ref": "U3",
+          "pin": "K1"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_RASN",
+      "soc_ball": "1A7",
+      "function": "DDR3_RASN",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "J3"
+        },
+        {
+          "ref": "U3",
+          "pin": "J3"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_RESETN",
+      "soc_ball": "1B11",
+      "function": "DDR3_RESETN",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "T2"
+        },
+        {
+          "ref": "U3",
+          "pin": "T2"
+        }
+      ]
+    },
+    {
+      "net": "DDR3_WEN",
+      "soc_ball": "1B10",
+      "function": "DDR3_WEN",
+      "ram_endpoints": [
+        {
+          "ref": "U2",
+          "pin": "L3"
+        },
+        {
+          "ref": "U3",
+          "pin": "L3"
+        }
+      ]
+    },
+    {
+      "net": "SOC_USB_RX_P",
+      "soc_ball": "AB26",
+      "function": "USB30_OTG0_SSRXP"
+    },
+    {
+      "net": "SOC_USB_RX_N",
+      "soc_ball": "AB27",
+      "function": "USB30_OTG0_SSRXN"
+    },
+    {
+      "net": "SOC_USB_TX_P",
+      "soc_ball": "AD26",
+      "function": "USB30_OTG0_SSTXP"
+    },
+    {
+      "net": "SOC_USB_TX_N",
+      "soc_ball": "AD27",
+      "function": "USB30_OTG0_SSTXN"
+    },
+    {
+      "net": "USB_DP",
+      "soc_ball": "AF27",
+      "function": "USB30_OTG0_DP"
+    },
+    {
+      "net": "USB_DM",
+      "soc_ball": "AF26",
+      "function": "USB30_OTG0_DM"
+    },
+    {
+      "net": "SOC_VBUS_DET",
+      "soc_ball": "1P14",
+      "function": "USB30_OTG0_VBUSDET"
+    },
+    {
+      "net": "XIN24M",
+      "soc_ball": "AG25",
+      "function": "OSC_SOC_XIN"
+    },
+    {
+      "net": "XOUT24M",
+      "soc_ball": "AF25",
+      "function": "OSC_SOC_XOUT"
+    },
+    {
+      "net": "I2C0_SCL",
+      "soc_ball": "AG23",
+      "function": "I2C0_SCL"
+    },
+    {
+      "net": "I2C0_SDA",
+      "soc_ball": "AE23",
+      "function": "I2C0_SDA"
+    },
+    {
+      "net": "ETH_TXD0",
+      "soc_ball": "AA1",
+      "function": "RGMII_TXD0_M0"
+    },
+    {
+      "net": "ETH_TXD1",
+      "soc_ball": "AA2",
+      "function": "RGMII_TXD1_M0"
+    },
+    {
+      "net": "ETH_TXD2",
+      "soc_ball": "AB3",
+      "function": "RGMII_TXD2_M0"
+    },
+    {
+      "net": "ETH_TXD3",
+      "soc_ball": "AB2",
+      "function": "RGMII_TXD3_M0"
+    },
+    {
+      "net": "ETH_TXEN",
+      "soc_ball": "AA3",
+      "function": "RGMII_TXEN_M0"
+    },
+    {
+      "net": "ETH_TXCLK",
+      "soc_ball": "Y2",
+      "function": "RGMII_TXCLK_M0"
+    },
+    {
+      "net": "ETH_RXD0",
+      "soc_ball": "W3",
+      "function": "RGMII_RXD0_M0"
+    },
+    {
+      "net": "ETH_RXD1",
+      "soc_ball": "W1",
+      "function": "RGMII_RXD1_M0"
+    },
+    {
+      "net": "ETH_RXD2",
+      "soc_ball": "W2",
+      "function": "RGMII_RXD2_M0"
+    },
+    {
+      "net": "ETH_RXD3",
+      "soc_ball": "Y3",
+      "function": "RGMII_RXD3_M0"
+    },
+    {
+      "net": "ETH_RXCLK",
+      "soc_ball": "U2",
+      "function": "RGMII_RXCLK_M0"
+    },
+    {
+      "net": "ETH_RXDV_CRS",
+      "soc_ball": "V2",
+      "function": "RGMII_RXDV_M0"
+    },
+    {
+      "net": "ETH_MDC",
+      "soc_ball": "AC1",
+      "function": "RGMII_MDC_M0"
+    },
+    {
+      "net": "ETH_MDIO",
+      "soc_ball": "AC2",
+      "function": "RGMII_MDIO_M0"
+    },
+    {
+      "net": "WIFI_D0",
+      "soc_ball": "U26",
+      "function": "SDMMC1_D0"
+    },
+    {
+      "net": "WIFI_D1",
+      "soc_ball": "V25",
+      "function": "SDMMC1_D1"
+    },
+    {
+      "net": "WIFI_D2",
+      "soc_ball": "T25",
+      "function": "SDMMC1_D2"
+    },
+    {
+      "net": "WIFI_D3",
+      "soc_ball": "T26",
+      "function": "SDMMC1_D3"
+    },
+    {
+      "net": "WIFI_CMD",
+      "soc_ball": "T27",
+      "function": "SDMMC1_CMD"
+    },
+    {
+      "net": "WIFI_CLK",
+      "soc_ball": "U25",
+      "function": "SDMMC1_CLK"
+    },
+    {
+      "net": "FSPI_D0",
+      "soc_ball": "J25",
+      "function": "FSPI_D0"
+    },
+    {
+      "net": "FSPI_D1",
+      "soc_ball": "J26",
+      "function": "FSPI_D1"
+    },
+    {
+      "net": "FSPI_D2",
+      "soc_ball": "H25",
+      "function": "FSPI_D2"
+    },
+    {
+      "net": "FSPI_D3",
+      "soc_ball": "K27",
+      "function": "FSPI_D3"
+    },
+    {
+      "net": "FSPI_CLK",
+      "soc_ball": "M25",
+      "function": "FSPI_CLK"
+    },
+    {
+      "net": "FSPI_CS_N",
+      "soc_ball": "M26",
+      "function": "FSPI_CSN0"
+    },
+    {
+      "net": "LCD_MOSI",
+      "soc_ball": "T3",
+      "function": "SPI2_MOSI_M0"
+    },
+    {
+      "net": "LCD_SCLK",
+      "soc_ball": "N3",
+      "function": "SPI2_CLK_M0"
+    },
+    {
+      "net": "LCD_CS_N",
+      "soc_ball": "M3",
+      "function": "SPI2_CSN0_M0"
+    },
+    {
+      "net": "RESET_N",
+      "soc_ball": "1P12",
+      "function": "nPOR"
+    },
+    {
+      "net": "RECOVERY_ADC",
+      "soc_ball": "D26",
+      "function": "SARADC0_BOOT"
+    },
+    {
+      "net": "DEBUG_TX",
+      "soc_ball": "AE20",
+      "function": "UART0_TX_M0"
+    },
+    {
+      "net": "DEBUG_RX",
+      "soc_ball": "AF20",
+      "function": "UART0_RX_M0"
+    },
+    {
+      "net": "THERMAL_SHUTDOWN",
+      "soc_ball": "1R13",
+      "function": "TSADC_SHUT_M0"
+    },
+    {
+      "net": "EXP_SPI_CLK",
+      "soc_ball": "AE16",
+      "function": "SPI0_CLK_M0"
+    },
+    {
+      "net": "EXP_SPI_MOSI",
+      "soc_ball": "AG19",
+      "function": "SPI0_MOSI_M0"
+    },
+    {
+      "net": "EXP_SPI_MISO",
+      "soc_ball": "AE18",
+      "function": "SPI0_MISO_M0"
+    },
+    {
+      "net": "EXP_SPI_CS0_N",
+      "soc_ball": "AG17",
+      "function": "SPI0_CSN0_M0"
+    },
+    {
+      "net": "EXP_SPI_CS1_N",
+      "soc_ball": "AF15",
+      "function": "SPI0_CSN1_M0"
+    },
+    {
+      "net": "EXP_I2C_SCL",
+      "soc_ball": "AF16",
+      "function": "I2C2_SCL_M0"
+    },
+    {
+      "net": "EXP_I2C_SDA",
+      "soc_ball": "AE15",
+      "function": "I2C2_SDA_M0"
+    },
+    {
+      "net": "EXP_UART_TX",
+      "soc_ball": "Y26",
+      "function": "UART1_TX_M0"
+    },
+    {
+      "net": "EXP_UART_RX",
+      "soc_ball": "Y25",
+      "function": "UART1_RX_M0"
+    },
+    {
+      "net": "LCD_DC",
+      "soc_ball": "N1",
+      "function": "GPIO3_C4_d"
+    },
+    {
+      "net": "LCD_RESET_N",
+      "soc_ball": "N2",
+      "function": "GPIO3_C5_d"
+    },
+    {
+      "net": "LCD_BL_PWM",
+      "soc_ball": "L1",
+      "function": "PWM8_M0"
+    },
+    {
+      "net": "WIFI_REG_ON",
+      "soc_ball": "1J14",
+      "function": "GPIO1_C7_d"
+    },
+    {
+      "net": "WIFI_HOST_WAKE",
+      "soc_ball": "V26",
+      "function": "GPIO1_D0_d"
+    },
+    {
+      "net": "ETH_RESET_GPIO_N",
+      "soc_ball": "T2",
+      "function": "GPIO4_B1_d"
+    },
+    {
+      "net": "EXP_GPIO0",
+      "soc_ball": "K2",
+      "function": "GPIO3_A2_d"
+    },
+    {
+      "net": "EXP_GPIO1",
+      "soc_ball": "L3",
+      "function": "GPIO3_A3_d"
+    },
+    {
+      "net": "EXP_GPIO2",
+      "soc_ball": "K3",
+      "function": "GPIO3_A5_d"
+    },
+    {
+      "net": "EXP_GPIO3",
+      "soc_ball": "L2",
+      "function": "GPIO3_A7_d"
+    },
+    {
+      "net": "PMIC_SLEEP",
+      "soc_ball": "AF23",
+      "function": "PWR_CTRL0"
+    },
+    {
+      "net": "PMIC_INT_N",
+      "soc_ball": "AF22",
+      "function": "GPIO0_A3_u"
+    }
+  ],
+  "mux_rationale": "RGMII M0 avoids SDMMC1 Wi-Fi conflict on RGMII M1; display SPI2 M0 avoids RGMII M0 pins shared with SPI1 M0.",
+  "holds": [
+    "IO-bank voltage audit remains required",
+    "GPIO controls, expansion, reset, supplies, strap behavior and unused interfaces not yet allocated",
+    "NOR boot support and DDR loader not validated"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS KICAD LOAD/SAVE AND GENERATOR TRANSCRIPTION ONLY",
+  "pads": 478,
+  "independent_package_coordinate_audit": false,
+  "manufacturing_qualified": false,
+  "geometry_screen": {
+    "outer_pitch_mm": 0.5,
+    "candidate_land_mm": 0.25,
+    "candidate_via_land_drill_mm": [
+      0.25,
+      0.15
+    ],
+    "center_via_clearance_mm": 0.103553,
+    "required_bga_clearance_mm": 0.09,
+    "trace_between_adjacent_lands_margin_mm": -0.0062,
+    "finding": "Cell-center small via clears nominal geometry. A 3mil trace between adjacent 0.25mm lands does NOT meet 0.09mm pad-to-trace clearance. No completed escape or routing implied."
+  },
+  "production_ready": false
+}

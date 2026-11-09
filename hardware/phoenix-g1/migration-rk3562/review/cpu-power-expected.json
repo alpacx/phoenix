@@ -1,0 +1,242 @@
+[
+  {
+    "ref": "U10",
+    "pin": "A1",
+    "pin_name": "VSEL",
+    "net": "PMIC_SLEEP"
+  },
+  {
+    "ref": "U10",
+    "pin": "A2",
+    "pin_name": "EN",
+    "net": "CPU_BUCK_EN"
+  },
+  {
+    "ref": "U10",
+    "pin": "A3",
+    "pin_name": "SCL",
+    "net": "I2C0_SCL"
+  },
+  {
+    "ref": "U10",
+    "pin": "A4",
+    "pin_name": "VOUT",
+    "net": "CPU_FB_SENSE"
+  },
+  {
+    "ref": "U10",
+    "pin": "B1",
+    "pin_name": "SDA",
+    "net": "I2C0_SDA"
+  },
+  {
+    "ref": "U10",
+    "pin": "B2",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "U10",
+    "pin": "B3",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "U10",
+    "pin": "B4",
+    "pin_name": "AGND",
+    "net": "GND"
+  },
+  {
+    "ref": "U10",
+    "pin": "C1",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "U10",
+    "pin": "C2",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "U10",
+    "pin": "C3",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "U10",
+    "pin": "C4",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "U10",
+    "pin": "D1",
+    "pin_name": "VIN",
+    "net": "+5V_MAIN"
+  },
+  {
+    "ref": "U10",
+    "pin": "D2",
+    "pin_name": "VIN",
+    "net": "+5V_MAIN"
+  },
+  {
+    "ref": "U10",
+    "pin": "D3",
+    "pin_name": "LX",
+    "net": "CPU_SW"
+  },
+  {
+    "ref": "U10",
+    "pin": "D4",
+    "pin_name": "LX",
+    "net": "CPU_SW"
+  },
+  {
+    "ref": "U10",
+    "pin": "E1",
+    "pin_name": "VIN",
+    "net": "+5V_MAIN"
+  },
+  {
+    "ref": "U10",
+    "pin": "E2",
+    "pin_name": "VIN",
+    "net": "+5V_MAIN"
+  },
+  {
+    "ref": "U10",
+    "pin": "E3",
+    "pin_name": "LX",
+    "net": "CPU_SW"
+  },
+  {
+    "ref": "U10",
+    "pin": "E4",
+    "pin_name": "LX",
+    "net": "CPU_SW"
+  },
+  {
+    "ref": "L1001",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "VDD_CPU"
+  },
+  {
+    "ref": "L1001",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "CPU_SW"
+  },
+  {
+    "ref": "C1001",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+5V_MAIN"
+  },
+  {
+    "ref": "C1001",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C1002",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+5V_MAIN"
+  },
+  {
+    "ref": "C1002",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C1011",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VDD_CPU"
+  },
+  {
+    "ref": "C1011",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C1012",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VDD_CPU"
+  },
+  {
+    "ref": "C1012",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C1013",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VDD_CPU"
+  },
+  {
+    "ref": "C1013",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C1014",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VDD_CPU"
+  },
+  {
+    "ref": "C1014",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "R1001",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VDD_CPU"
+  },
+  {
+    "ref": "R1001",
+    "pin": "2",
+    "pin_name": "",
+    "net": "CPU_FB_SENSE"
+  },
+  {
+    "ref": "C1020",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VDD_CPU"
+  },
+  {
+    "ref": "C1020",
+    "pin": "2",
+    "pin_name": "",
+    "net": "CPU_FB_SENSE"
+  },
+  {
+    "ref": "R1002",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V3_PMU"
+  },
+  {
+    "ref": "R1002",
+    "pin": "2",
+    "pin_name": "",
+    "net": "CPU_BUCK_EN"
+  }
+]

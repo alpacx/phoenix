@@ -1,0 +1,401 @@
+{
+  "status": "DC TOPOLOGY SCREEN ONLY",
+  "rails": [
+    {
+      "rail": "+1V0_PHY",
+      "path": {
+        "source_net": "PHY_SW",
+        "source": "U5.30",
+        "series_components": [
+          "L501"
+        ]
+      },
+      "result": "TOPOLOGY_PATH_FOUND"
+    },
+    {
+      "rail": "+1V5_DDR",
+      "path": {
+        "source_net": "PMIC_SW3",
+        "source": "U4.25",
+        "series_components": [
+          "L403"
+        ]
+      },
+      "result": "TOPOLOGY_PATH_FOUND"
+    },
+    {
+      "rail": "+3V0_LCD",
+      "path": {
+        "source_net": "+3V0_LCD",
+        "source": "U20.5",
+        "series_components": []
+      },
+      "result": "TOPOLOGY_PATH_FOUND"
+    },
+    {
+      "rail": "+3V3_AON",
+      "path": {
+        "source_net": "+3V3_AON",
+        "source": "U11.5",
+        "series_components": []
+      },
+      "result": "TOPOLOGY_PATH_FOUND"
+    },
+    {
+      "rail": "+3V3_IO",
+      "path": {
+        "source_net": "+3V3_IO",
+        "source": "U4.55",
+        "series_components": []
+      },
+      "result": "TOPOLOGY_PATH_FOUND"
+    },
+    {
+      "rail": "+3V3_PHY",
+      "path": {
+        "source_net": "+3V3_IO",
+        "source": "U4.55",
+        "series_components": [
+          "R530"
+        ]
+      },
+      "result": "TOPOLOGY_PATH_FOUND"
+    },
+    {
+      "rail": "+3V3_PMU",
+      "path": {
+        "source_net": "+3V3_PMU",
+        "source": "U4.31",
+        "series_components": []
+      },
+      "result": "TOPOLOGY_PATH_FOUND"
+    },
+    {
+      "rail": "+3V3_SYS",
+      "path": {
+        "source_net": "SYS_SW",
+        "source": "U17.1",
+        "series_components": [
+          "L1301"
+        ]
+      },
+      "result": "TOPOLOGY_PATH_FOUND"
+    },
+    {
+      "rail": "+5V_MAIN",
+      "path": {
+        "source_net": "+5V_MAIN",
+        "source": "U15.5",
+        "series_components": []
+      },
+      "result": "TOPOLOGY_PATH_FOUND"
+    },
+    {
+      "rail": "GND",
+      "path": {
+        "source_net": "GND",
+        "source": "J1 return",
+        "series_components": []
+      },
+      "result": "TOPOLOGY_PATH_FOUND"
+    },
+    {
+      "rail": "USB_AVDD_0V9",
+      "path": {
+        "source_net": "VDDA_0V9",
+        "source": "U4.21",
+        "series_components": [
+          "R1601"
+        ]
+      },
+      "result": "TOPOLOGY_PATH_FOUND"
+    },
+    {
+      "rail": "USB_AVDD_1V8",
+      "path": {
+        "source_net": "VCCA_1V8",
+        "source": "U4.3",
+        "series_components": [
+          "R1602"
+        ]
+      },
+      "result": "TOPOLOGY_PATH_FOUND"
+    },
+    {
+      "rail": "VBUS_PROTECTED",
+      "path": {
+        "source_net": "VBUS_PROTECTED",
+        "source": "U24.4",
+        "series_components": []
+      },
+      "result": "TOPOLOGY_PATH_FOUND"
+    },
+    {
+      "rail": "VBUS_RAW",
+      "path": {
+        "source_net": "VBUS_RAW",
+        "source": "J1 external USB supply, conditional on source capability",
+        "series_components": []
+      },
+      "result": "TOPOLOGY_PATH_FOUND"
+    },
+    {
+      "rail": "VCCA1V8_IMAGE",
+      "path": {
+        "source_net": "VCCA1V8_IMAGE",
+        "source": "U4.6",
+        "series_components": []
+      },
+      "result": "TOPOLOGY_PATH_FOUND"
+    },
+    {
+      "rail": "VCCA1V8_PMU",
+      "path": {
+        "source_net": "VCCA1V8_PMU",
+        "source": "U4.5",
+        "series_components": []
+      },
+      "result": "TOPOLOGY_PATH_FOUND"
+    },
+    {
+      "rail": "VCCA_1V8",
+      "path": {
+        "source_net": "VCCA_1V8",
+        "source": "U4.3",
+        "series_components": []
+      },
+      "result": "TOPOLOGY_PATH_FOUND"
+    },
+    {
+      "rail": "VDDA0V9_IMAGE",
+      "path": {
+        "source_net": "VDDA0V9_IMAGE",
+        "source": "U4.23",
+        "series_components": []
+      },
+      "result": "TOPOLOGY_PATH_FOUND"
+    },
+    {
+      "rail": "VDDA0V9_PMU",
+      "path": {
+        "source_net": "VDDA0V9_PMU",
+        "source": "U4.20",
+        "series_components": []
+      },
+      "result": "TOPOLOGY_PATH_FOUND"
+    },
+    {
+      "rail": "VDDA_0V9",
+      "path": {
+        "source_net": "VDDA_0V9",
+        "source": "U4.21",
+        "series_components": []
+      },
+      "result": "TOPOLOGY_PATH_FOUND"
+    },
+    {
+      "rail": "VDD_CPU",
+      "path": {
+        "source_net": "CPU_SW",
+        "source": "U10.D3",
+        "series_components": [
+          "L1001"
+        ]
+      },
+      "result": "TOPOLOGY_PATH_FOUND"
+    },
+    {
+      "rail": "VDD_GPU",
+      "path": {
+        "source_net": "PMIC_SW2",
+        "source": "U4.9",
+        "series_components": [
+          "L402"
+        ]
+      },
+      "result": "TOPOLOGY_PATH_FOUND"
+    },
+    {
+      "rail": "VDD_LOGIC",
+      "path": {
+        "source_net": "PMIC_SW1",
+        "source": "U4.12",
+        "series_components": [
+          "L401"
+        ]
+      },
+      "result": "TOPOLOGY_PATH_FOUND"
+    },
+    {
+      "rail": "VDD_NPU",
+      "path": {
+        "source_net": "PMIC_SW4",
+        "source": "U4.65",
+        "series_components": [
+          "L404"
+        ]
+      },
+      "result": "TOPOLOGY_PATH_FOUND"
+    },
+    {
+      "rail": "WIFI_BUCK_OUT",
+      "path": {
+        "source_net": "WIFI_BUCK_SW",
+        "source": "U25.21",
+        "series_components": [
+          "L2001"
+        ]
+      },
+      "result": "TOPOLOGY_PATH_FOUND"
+    },
+    {
+      "rail": "WIFI_VBAT",
+      "path": {
+        "source_net": "WIFI_VBAT_SW",
+        "source": "U26.1",
+        "series_components": [
+          "FB2001",
+          "L2201"
+        ]
+      },
+      "result": "TOPOLOGY_PATH_FOUND"
+    }
+  ],
+  "allowed_series_edges": [
+    {
+      "ref": "L501",
+      "value": "2.2uH DCR39m max",
+      "nets": [
+        "PHY_SW",
+        "+1V0_PHY"
+      ]
+    },
+    {
+      "ref": "L403",
+      "value": "470nH",
+      "nets": [
+        "PMIC_SW3",
+        "+1V5_DDR"
+      ]
+    },
+    {
+      "ref": "L405",
+      "value": "470nH",
+      "nets": [
+        "PMIC_SW5",
+        "+1V8_SYS"
+      ]
+    },
+    {
+      "ref": "R530",
+      "value": "0R - power link",
+      "nets": [
+        "+3V3_IO",
+        "+3V3_PHY"
+      ]
+    },
+    {
+      "ref": "L1301",
+      "value": "2.2uH DCR35m max",
+      "nets": [
+        "SYS_SW",
+        "+3V3_SYS"
+      ]
+    },
+    {
+      "ref": "FB2001",
+      "value": "100R @100MHz / 4A",
+      "nets": [
+        "+3V58_WIFI",
+        "WIFI_VBAT"
+      ]
+    },
+    {
+      "ref": "L2201",
+      "value": "2.2uH DCR35m max",
+      "nets": [
+        "WIFI_VBAT_SW",
+        "+3V58_WIFI"
+      ]
+    },
+    {
+      "ref": "L1001",
+      "value": "240nH - candidate",
+      "nets": [
+        "CPU_SW",
+        "VDD_CPU"
+      ]
+    },
+    {
+      "ref": "L401",
+      "value": "470nH",
+      "nets": [
+        "PMIC_SW1",
+        "VDD_LOGIC"
+      ]
+    },
+    {
+      "ref": "L402",
+      "value": "470nH",
+      "nets": [
+        "PMIC_SW2",
+        "VDD_GPU"
+      ]
+    },
+    {
+      "ref": "L404",
+      "value": "470nH",
+      "nets": [
+        "PMIC_SW4",
+        "VDD_NPU"
+      ]
+    },
+    {
+      "ref": "R1507",
+      "value": "0R",
+      "nets": [
+        "THERMAL_SHUTDOWN",
+        "RESET_N"
+      ]
+    },
+    {
+      "ref": "R1601",
+      "value": "0R supply link",
+      "nets": [
+        "VDDA_0V9",
+        "USB_AVDD_0V9"
+      ]
+    },
+    {
+      "ref": "R1602",
+      "value": "0R supply link",
+      "nets": [
+        "VCCA_1V8",
+        "USB_AVDD_1V8"
+      ]
+    },
+    {
+      "ref": "R2001",
+      "value": "0R RF tuning",
+      "nets": [
+        "WIFI_RF",
+        "WIFI_ANT"
+      ]
+    },
+    {
+      "ref": "L2001",
+      "value": "2.2uH / 2.4A Isat at 20C",
+      "nets": [
+        "WIFI_BUCK_SW",
+        "WIFI_BUCK_OUT"
+      ]
+    }
+  ],
+  "missing_paths": [],
+  "limits": [
+    "Switch nodes count as conditional sources through output inductors; regulation and default voltage are not validated.",
+    "No assumptions about high-value resistors, capacitors, MOSFET channels or unpowered IC pass-through.",
+    "Current capacity, inductive transients, input headroom, enable logic and sequencing require separate review.",
+    "No PWR_FLAG or ERC suppression added."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "status": "EXTERNAL TECHNICAL EVIDENCE REQUIRED BEFORE FABRICATION RELEASE",
+  "not_sent_to_suppliers": true,
+  "items": [
+    {
+      "id": "DISPLAY_ATTACHMENT",
+      "question": "Confirm intended solder/hot-bar assembly process and PCB lands for N096-1608TBBIG11-H13 flex,13contacts0.7mm pitch, and clarify how VDDIO is supplied with the13-pin interface. Provide allowed fold radius and assembly thermal limits.",
+      "current_evidence": [
+        "reference/display-C2890616.pdf"
+      ],
+      "impact": "Cannot qualify a PCB attachment footprint or mechanical stack from the flex drawing alone."
+    },
+    {
+      "id": "MAGNETICS",
+      "question": "Confirm RTL8211F-CG use with HR911130A whose four chip-side center taps share P1, capacitively tied to ground. Confirm exact PHY reference requirements and selected magnetics qualification.",
+      "impact": "Could require a different jack footprint and termination before placement is finalized."
+    },
+    {
+      "id": "THERMAL_PACKAGE_LOAD",
+      "question": "Confirm allowable static package-top contact load, TIM compression and mechanical retention limits for the exact RK3568 package; qualify the selected display flex bend radius and its temperature limit in the enclosure.",
+      "impact": "Cannot release a clamped passive spreader or final display stack from nominal package dimensions alone."
+    }
+  ],
+  "independent_work_still_incomplete": [
+    "Electrical and assembly qualification of all selected candidates (nominal MPN selection complete)",
+    "Full simultaneous load, USB headroom, startup/shutdown and thermal budget",
+    "High-speed physical placement and routing",
+    "BSP/DDR boot and32MiB image budget",
+    "Mechanical display/heatsink/enclosure fit",
+    "SI/PI validation and prototype tests"
+  ],
+  "resolved_prior_items": [
+    {
+      "ids": [
+        "USB_STACKUP",
+        "USB_NPTH"
+      ],
+      "resolution": "Switched draft to stocked Molex2012670005/1.6mm, noNPTH. Exact dielectric stackup and current drawing reconciliation remain engineering work."
+    }
+  ]
+}

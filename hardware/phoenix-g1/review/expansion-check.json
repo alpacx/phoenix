@@ -1,0 +1,104 @@
+{
+  "status": "PASS PIN ALLOCATION AND NET TRANSCRIPTION ONLY",
+  "signals": [
+    {
+      "pin": 3,
+      "function": "I2C2_SDA_M1",
+      "ball": "V6",
+      "net": "EXP_I2C_SDA",
+      "power_domain": "VCCIO6"
+    },
+    {
+      "pin": 5,
+      "function": "I2C2_SCL_M1",
+      "ball": "V5",
+      "net": "EXP_I2C_SCL",
+      "power_domain": "VCCIO6"
+    },
+    {
+      "pin": 7,
+      "function": "SPI0_CLK_M0",
+      "ball": "AC22",
+      "net": "EXP_SPI_CLK",
+      "power_domain": "PMUIO2"
+    },
+    {
+      "pin": 9,
+      "function": "SPI0_MOSI_M0",
+      "ball": "AA20",
+      "net": "EXP_SPI_MOSI",
+      "power_domain": "PMUIO2"
+    },
+    {
+      "pin": 11,
+      "function": "SPI0_MISO_M0",
+      "ball": "AC21",
+      "net": "EXP_SPI_MISO",
+      "power_domain": "PMUIO2"
+    },
+    {
+      "pin": 13,
+      "function": "SPI0_CS0_M0",
+      "ball": "AD20",
+      "net": "EXP_SPI_CS0_N",
+      "power_domain": "PMUIO2"
+    },
+    {
+      "pin": 15,
+      "function": "SPI0_CS1_M0",
+      "ball": "AD21",
+      "net": "EXP_SPI_CS1_N",
+      "power_domain": "PMUIO2"
+    },
+    {
+      "pin": 17,
+      "function": "UART1_TX_M0",
+      "ball": "G27",
+      "net": "EXP_UART_TX",
+      "power_domain": "VCCIO4"
+    },
+    {
+      "pin": 19,
+      "function": "UART1_RX_M0",
+      "ball": "F28",
+      "net": "EXP_UART_RX",
+      "power_domain": "VCCIO4"
+    },
+    {
+      "pin": 12,
+      "function": "GPIO2_B6_u",
+      "ball": "F27",
+      "net": "EXP_GPIO0",
+      "power_domain": "VCCIO4"
+    },
+    {
+      "pin": 14,
+      "function": "GPIO4_C1_d",
+      "ball": "U2",
+      "net": "EXP_GPIO1",
+      "power_domain": "VCCIO6"
+    },
+    {
+      "pin": 16,
+      "function": "GPIO4_B2_d",
+      "ball": "V4",
+      "net": "EXP_GPIO2",
+      "power_domain": "VCCIO6"
+    },
+    {
+      "pin": 18,
+      "function": "GPIO4_B3_d",
+      "ball": "V1",
+      "net": "EXP_GPIO3",
+      "power_domain": "VCCIO6"
+    }
+  ],
+  "connector_pins_checked": 20,
+  "holds": [
+    "Exact mating header and stack height",
+    "No GPIO back-power during sequencing",
+    "Power current allocation/protection for actual addon",
+    "Signal integrity and ESD for the chosen enclosure"
+  ],
+  "limitation": "No electrical loading, rise-time, power budget, mechanical fit or functional validation."
+}

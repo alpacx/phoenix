@@ -1,0 +1,52 @@
+{
+  "status": "USER APPROVED REQUIREMENTS; IMPLEMENTATION INCOMPLETE",
+  "memory": "Baseline: 512MiB DDR3, two x16 devices, 32-bit bus; alternative memory studies retained but not selected.",
+  "external_ports": [
+    "One USB-C:5V sink, RK3568 USB3 device/network and ROM programming/recovery",
+    "One1GbE RJ45"
+  ],
+  "internal": [
+    "Included non-touch color display on top face; removable internal connection preferred for assembly and service, not a separately sold optional accessory.",
+    "Internal 2x10 1.27mm header: SPI0, I2C2, UART1 and four GPIO; custom Phoenix pinout, no HAT compatibility.",
+    "Integrated Wi-Fi with external antenna; SDIO module candidate under electrical, sourcing and Linux AP-mode review."
+  ],
+  "not_requested": [
+    "ROCK3A HDMI, audio, extra USB host or M.2 ports"
+  ],
+  "expansion_constraints": [
+    "Reserve power/current budget, ground returns and3.3V IO domain.",
+    "Do not claim Raspberry Pi HAT compatibility from mechanical pin count alone.",
+    "Select I2C/SPI/UART/GPIO only after checking display, boot, DDR, Ethernet and USB conflicts.",
+    "Do not route an RF stub or fit an antenna connector without a defined radio-side RF design."
+  ],
+  "cellular": "5G/eSIM exploratory only; excluded from current implementation",
+  "mechanical": {
+    "pcb_envelope_mm": [
+      90,
+      40
+    ],
+    "status": "User retained 90x40; 100x30 study cancelled before changing board.",
+    "enclosure_height_estimate_mm": [
+      18,
+      22
+    ],
+    "height_status": "Unverified estimate; display, RJ45, heatsink and enclosure stack-up pending",
+    "appearance_reference": "User supplied Belkin Ethernet dongle image: elongated rounded enclosure, display on broad upper face where logo appears; detachable cable through existing USB-C receptacle. Reference image does not establish dimensions.",
+    "cooling_target": "Passive cooling through metal base/sides, thermally independent from display lid; not validated.",
+    "pcb_thickness_candidate_mm": 1.6,
+    "cooling_evidence": "review/passive-thermal-screen.json; hypothetical sensitivity only, no guaranteed fanless throughput"
+  },
+  "display": {
+    "status": "Display included in base product by user request; removable attachment implementation pending",
+    "proposed_architecture": "Keep existing main-board LCD supply, buffer and backlight circuit; qualify removable panel connection. Separate display electronics board is not currently required.",
+    "installation": "Install or remove with power disconnected; hot-plug operation is not designed.",
+    "base_device": "Display included; web administration remains available.",
+    "expansion": "Keep future expansion connector available; propose dedicated display connection using existing allocated LCD signals.",
+    "qualification_pending": [
+      "Select exact connector and cable, verify JLCPCB availability and cost.",
+      "Current panel has 13 contacts at 0.7 mm pitch; do not assume compatibility with a standard 0.5 mm FFC connector. Qualify panel attachment or choose a suitable replacement.",
+      "Verify enclosure, display window, cable bend, heatsink clearance and thermal behavior."
+    ],
+    "implemented_in_schematic": false
+  }
+}

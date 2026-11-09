@@ -1,0 +1,33 @@
+{
+  "release_ready": false,
+  "gerbers_generated": false,
+  "parts_estimate_usd": 76.0362,
+  "physical_components_in_netlist": 355,
+  "unqualified_or_unannotated_mpn_count": 0,
+  "unqualified_or_unannotated_mpns": [],
+  "missing_footprints": [
+    "DS1"
+  ],
+  "drc_categories": {
+    "unconnected_items": 499
+  },
+  "gates": {
+    "schematic_erc": "REVIEW: inspect ERC report",
+    "pin_transcription": "PASS",
+    "pcb_routing": "FAIL: 0 tracks; 1354 unconnected ratsnest edges; DRC displays 499 items (can be capped)",
+    "pcb_drc": "HOLD: no geometric violations with current rules; board remains unrouted and unqualified",
+    "usb_connector": "HOLD: Molex2012670005/1.6mm selected; thickness conflict resolved; current drawing reconciliation, assembly and launch SI remain open",
+    "fabrication_drills": "PASS LIMITED DRILL SCREEN: see fabrication-screen.json",
+    "bom": "HOLD: all present positions have candidates; electrical, footprint and assembly qualification incomplete",
+    "display": "FAIL: FPC footprint/attachment and internal VDDIO relationship unresolved",
+    "magnetics": "FAIL: shared-center-tap configuration for exact RTL8211F/BSP not qualified",
+    "protection": "FAIL: PHY-side ESD clamps added; chassis bonding, VBUS transient/discharge and system surge review incomplete",
+    "power_integrity": "FAIL: effective MLCC capacitance, load budget, startup/brownout and thermal behavior unqualified",
+    "signal_integrity": "FAIL: exact dielectric stackup, impedance, BGA escape and DDR/USB/RGMII routing not designed",
+    "software_boot": "HOLD: DDR loader documentation checked in boot-software-check.json; binary configuration, boot ROM compatibility, 32MiB image budget and recovery untested",
+    "wifi": "HOLD: connectivity checked; dedicated3.584V VBAT static screen includes feedback leakage and resistor temperature drift, before other losses; RF, oscillator, firmware and AP mode unqualified; see wifi-power-check.json",
+    "cost": "FAIL: 50 EUR assembled target not established; selected subtotal includes assigned Wi-Fi parts but excludes qualification-driven additions, PCB, assembly and enclosure",
+    "thermal": "HOLD: fanless is mandatory; passive-thermal-screen.json is hypothetical sensitivity, not measured board power or qualified enclosure",
+    "prototype": "NOT RUN: no custom hardware manufactured"
+  }
+}

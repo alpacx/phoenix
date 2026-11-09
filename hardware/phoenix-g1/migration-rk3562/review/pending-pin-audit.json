@@ -1,0 +1,805 @@
+{
+  "status": "UNALLOCATED BALLS CLASSIFIED; UNUSED SIGNALS HAVE EXPLICIT NC/GND DISPOSITIONS; SUPPLIES AND REQUIRED SUPPORT REMAIN OPEN",
+  "counts": {
+    "UNUSED_DDR_ADDRESS_OR_RANK": 4,
+    "REQUIRED_DDR_SUPPORT": 2,
+    "UNUSED_MULTIPLEXED_GPIO": 53,
+    "UNUSED_HIGH_SPEED_INTERFACE": 38,
+    "UNUSED_ANALOG_INPUT": 15,
+    "DEVICE_ROLE_CONTROL": 1
+  },
+  "pins": [
+    {
+      "ball": "1B8",
+      "name": "AC14/DDR4_A14_WEN/LPDDR4_A4_A/DDR3_A15",
+      "category": "UNUSED_DDR_ADDRESS_OR_RANK",
+      "action": "Two x16 2Gbit devices share one rank; H5TQ2G63GFR Rev1.2 addressing table requires A0..A13 for x16, so A14/A15 are unused; CS1/ODT1 have no second-rank loads. Leave these outputs unconnected and configure loader for one 32-bit rank.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "1C9",
+      "name": "DDR_VREFOUT",
+      "category": "REQUIRED_DDR_SUPPORT",
+      "action": "Obtain DDR3-specific connection prescription. Existing DDR3 support net is deliberately not assumed valid for RK3562.",
+      "schematic_disposition": "PENDING; unchanged"
+    },
+    {
+      "ball": "AA25",
+      "name": "UART1_RTSN_M0/RGMII_TXEN_M1/I2S0_SDI2_M1/PWM6_M1/RMII_TXEN/GPIO1_D3_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AC26",
+      "name": "PCIE20_REFCLKP",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AC27",
+      "name": "PCIE20_REFCLKN",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AD1",
+      "name": "MIPI_CSI_RX1_D3P",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AD2",
+      "name": "MIPI_CSI_RX1_D3N",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AE1",
+      "name": "MIPI_CSI_RX1_D2P",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AE17",
+      "name": "I2C1_SCL_M0/GPIO0_B3_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AE19",
+      "name": "UART6_RX_M0/GPIO0_C7_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AE22",
+      "name": "SDMMC0_PWREN/I2C4_SCL_M1/PMU_DEBUG/GPIO0_A5_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AE24",
+      "name": "REF_CLK_OUT/GPIO0_A0_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AE26",
+      "name": "USB20_HOST1_DM",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AE27",
+      "name": "USB20_HOST1_DP",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AF1",
+      "name": "MIPI_CSI_RX1_D2N",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AF10",
+      "name": "MIPI_DSI_TX_D3N/LVDS_TX_D3N",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AF11",
+      "name": "MIPI_DSI_TX_D2P/LVDS_TX_D2P",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AF12",
+      "name": "MIPI_DSI_TX_CLKN/LVDS_TX_CLKN",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "1D4",
+      "name": "DDR_RZQ",
+      "category": "REQUIRED_DDR_SUPPORT",
+      "action": "Obtain DDR3-specific connection prescription. Existing DDR3 support net is deliberately not assumed valid for RK3562.",
+      "schematic_disposition": "PENDING; unchanged"
+    },
+    {
+      "ball": "1E1",
+      "name": "SARADC1_IN7",
+      "category": "UNUSED_ANALOG_INPUT",
+      "action": "Tie dedicated unused SARADC inputs to GND so they cannot float. These balls have no alternate function in the manufacturer pin table; boot ADC is separately allocated and excluded.",
+      "schematic_disposition": "GND_BY_DESIGN"
+    },
+    {
+      "ball": "1F1",
+      "name": "SARADC1_IN0",
+      "category": "UNUSED_ANALOG_INPUT",
+      "action": "Tie dedicated unused SARADC inputs to GND so they cannot float. These balls have no alternate function in the manufacturer pin table; boot ADC is separately allocated and excluded.",
+      "schematic_disposition": "GND_BY_DESIGN"
+    },
+    {
+      "ball": "1F2",
+      "name": "SARADC1_IN2",
+      "category": "UNUSED_ANALOG_INPUT",
+      "action": "Tie dedicated unused SARADC inputs to GND so they cannot float. These balls have no alternate function in the manufacturer pin table; boot ADC is separately allocated and excluded.",
+      "schematic_disposition": "GND_BY_DESIGN"
+    },
+    {
+      "ball": "1H1",
+      "name": "SARADC1_IN4",
+      "category": "UNUSED_ANALOG_INPUT",
+      "action": "Tie dedicated unused SARADC inputs to GND so they cannot float. These balls have no alternate function in the manufacturer pin table; boot ADC is separately allocated and excluded.",
+      "schematic_disposition": "GND_BY_DESIGN"
+    },
+    {
+      "ball": "1H15",
+      "name": "I2S2_SDO_M0/RGMII_RXD1_M1/UART4_RTSN_M1/SPI2_MOSI_M1/PWM14_M1/RMII_RXD1/GPIO1_D7_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AF13",
+      "name": "MIPI_DSI_TX_D1P/LVDS_TX_D1P",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AF14",
+      "name": "MIPI_DSI_TX_D0N/LVDS_TX_D0N",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AF17",
+      "name": "UART2_TX_M0/PWM7_M0/GPU_AVS/GPIO0_C0_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AF18",
+      "name": "I2C1_SDA_M0/GPIO0_B4_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AF19",
+      "name": "UART6_TX_M0/GPIO0_C6_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AF2",
+      "name": "MIPI_CSI_RX1_CLK0P",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AF21",
+      "name": "CLK_32K_IN/CLK0_32K_OUT/PCIE20_BUTTONRSTN/GPIO0_B0_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AF3",
+      "name": "MIPI_CSI_RX1_D1P",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AF4",
+      "name": "MIPI_CSI_RX1_D0P",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AF5",
+      "name": "MIPI_CSI_RX0_D3P",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AF6",
+      "name": "MIPI_CSI_RX0_D2P",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AF7",
+      "name": "MIPI_CSI_RX0_CLK0P",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AF8",
+      "name": "MIPI_CSI_RX0_D1P",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AF9",
+      "name": "MIPI_CSI_RX0_D0P",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AG10",
+      "name": "MIPI_DSI_TX_D3P/LVDS_TX_D3P",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AG11",
+      "name": "MIPI_DSI_TX_D2N/LVDS_TX_D2N",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AG12",
+      "name": "MIPI_DSI_TX_CLKP/LVDS_TX_CLKP",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AG13",
+      "name": "MIPI_DSI_TX_D1N/LVDS_TX_D1N",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AG14",
+      "name": "MIPI_DSI_TX_D0P/LVDS_TX_D0P",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AG2",
+      "name": "MIPI_CSI_RX1_CLK0N",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AG21",
+      "name": "PWM3_M0/GPIO0_A7_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AG24",
+      "name": "PCIE20_CLKREQN_M0/GPIO0_A6_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AG3",
+      "name": "MIPI_CSI_RX1_D1N",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AG4",
+      "name": "MIPI_CSI_RX1_D0N",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AG5",
+      "name": "MIPI_CSI_RX0_D3N",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AG6",
+      "name": "MIPI_CSI_RX0_D2N",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AG7",
+      "name": "MIPI_CSI_RX0_CLK0N",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AG8",
+      "name": "MIPI_CSI_RX0_D1N",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "AG9",
+      "name": "MIPI_CSI_RX0_D0N",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "B11",
+      "name": "AC3/DDR4_A3/LPDDR4_CS0N_A/DDR3_ODT1/LPDDR3_ODT0",
+      "category": "UNUSED_DDR_ADDRESS_OR_RANK",
+      "action": "Two x16 2Gbit devices share one rank; H5TQ2G63GFR Rev1.2 addressing table requires A0..A13 for x16, so A14/A15 are unused; CS1/ODT1 have no second-rank loads. Leave these outputs unconnected and configure loader for one 32-bit rank.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "1J1",
+      "name": "SARADC1_IN1",
+      "category": "UNUSED_ANALOG_INPUT",
+      "action": "Tie dedicated unused SARADC inputs to GND so they cannot float. These balls have no alternate function in the manufacturer pin table; boot ADC is separately allocated and excluded.",
+      "schematic_disposition": "GND_BY_DESIGN"
+    },
+    {
+      "ball": "1J15",
+      "name": "I2S2_SDI_M0/RGMII_RXER_M1/UART4_CTSN_M1/SPI2_MISO_M1/PWM15_M1/RMII_RXER/GPIO2_A0_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "1J2",
+      "name": "SARADC1_IN3",
+      "category": "UNUSED_ANALOG_INPUT",
+      "action": "Tie dedicated unused SARADC inputs to GND so they cannot float. These balls have no alternate function in the manufacturer pin table; boot ADC is separately allocated and excluded.",
+      "schematic_disposition": "GND_BY_DESIGN"
+    },
+    {
+      "ball": "1K1",
+      "name": "SARADC1_IN6",
+      "category": "UNUSED_ANALOG_INPUT",
+      "action": "Tie dedicated unused SARADC inputs to GND so they cannot float. These balls have no alternate function in the manufacturer pin table; boot ADC is separately allocated and excluded.",
+      "schematic_disposition": "GND_BY_DESIGN"
+    },
+    {
+      "ball": "1L1",
+      "name": "I2C3_SDA_M0/UART2_RX_M1/SPDIF_TX_M0/UART5_RTSN_M1/GPIO3_A1_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "1L2",
+      "name": "SARADC1_IN5",
+      "category": "UNUSED_ANALOG_INPUT",
+      "action": "Tie dedicated unused SARADC inputs to GND so they cannot float. These balls have no alternate function in the manufacturer pin table; boot ADC is separately allocated and excluded.",
+      "schematic_disposition": "GND_BY_DESIGN"
+    },
+    {
+      "ball": "C11",
+      "name": "AC26/DDR4_CS1N/LPDDR4_CS1N_A/DDR3_CS1N/LPDDR3_A5",
+      "category": "UNUSED_DDR_ADDRESS_OR_RANK",
+      "action": "Two x16 2Gbit devices share one rank; H5TQ2G63GFR Rev1.2 addressing table requires A0..A13 for x16, so A14/A15 are unused; CS1/ODT1 have no second-rank loads. Leave these outputs unconnected and configure loader for one 32-bit rank.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "D1",
+      "name": "I2S1_SDO0_M1/CAM_CLK3_OUT/UART8_RTSN_M0/SPI0_CLK_M1/PWM13_M1/GPIO3_B5_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "D25",
+      "name": "SARADC0_IN4",
+      "category": "UNUSED_ANALOG_INPUT",
+      "action": "Tie dedicated unused SARADC inputs to GND so they cannot float. These balls have no alternate function in the manufacturer pin table; boot ADC is separately allocated and excluded.",
+      "schematic_disposition": "GND_BY_DESIGN"
+    },
+    {
+      "ball": "D3",
+      "name": "I2C5_SDA_M0/ISP_FLASH_TRIGOUT/UART9_RX_M1/GPIO3_C3_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "E1",
+      "name": "I2C5_SCL_M0/ISP_PRELIGHT_TRIGOUT/UART9_TX_M1/GPIO3_C2_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "1M1",
+      "name": "I2C3_SCL_M0/UART2_TX_M1/PDM_SDI3_M0/UART5_CTSN_M1/GPIO3_A0_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "1M2",
+      "name": "I2S0_SDO3_M0/I2S0_SDI1_M0/PDM_SDI1_M0/PCIE20_PERSTN_M1/GPIO3_B0_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "1P15",
+      "name": "USB30_OTG0_ID",
+      "category": "DEVICE_ROLE_CONTROL",
+      "action": "NC by design for fixed UFP/device role. RK3562 TRM Part1 PDFp391 GRF_USBPHY_CON0: ID pull-up reset=1; IDDIG override is available. Firmware must select peripheral role, retain ID bias and never enable host VBUS. Boot-ROM/device enumeration remains a bench test.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "1P3",
+      "name": "MIPI_CSI_RX1_CLK1P",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "1P7",
+      "name": "MIPI_CSI_RX0_CLK1P",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "1R11",
+      "name": "UART2_RX_M0/PWM6_M0/NPU_AVS/GPIO0_C1_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "E2",
+      "name": "I2S1_SDI0_M1/ISP_FLASH_TRIGIN/UART3_RTSN_M1/GPIO3_C1_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "E25",
+      "name": "SARADC0_IN2",
+      "category": "UNUSED_ANALOG_INPUT",
+      "action": "Tie dedicated unused SARADC inputs to GND so they cannot float. These balls have no alternate function in the manufacturer pin table; boot ADC is separately allocated and excluded.",
+      "schematic_disposition": "GND_BY_DESIGN"
+    },
+    {
+      "ball": "E26",
+      "name": "SARADC0_IN5",
+      "category": "UNUSED_ANALOG_INPUT",
+      "action": "Tie dedicated unused SARADC inputs to GND so they cannot float. These balls have no alternate function in the manufacturer pin table; boot ADC is separately allocated and excluded.",
+      "schematic_disposition": "GND_BY_DESIGN"
+    },
+    {
+      "ball": "E27",
+      "name": "SARADC0_IN6",
+      "category": "UNUSED_ANALOG_INPUT",
+      "action": "Tie dedicated unused SARADC inputs to GND so they cannot float. These balls have no alternate function in the manufacturer pin table; boot ADC is separately allocated and excluded.",
+      "schematic_disposition": "GND_BY_DESIGN"
+    },
+    {
+      "ball": "F2",
+      "name": "I2S1_LRCK_M1/CAM_CLK2_OUT/UART8_CTSN_M0/SPI0_MOSI_M1/PWM12_M1/GPIO3_B4_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "F25",
+      "name": "SARADC0_IN7",
+      "category": "UNUSED_ANALOG_INPUT",
+      "action": "Tie dedicated unused SARADC inputs to GND so they cannot float. These balls have no alternate function in the manufacturer pin table; boot ADC is separately allocated and excluded.",
+      "schematic_disposition": "GND_BY_DESIGN"
+    },
+    {
+      "ball": "F26",
+      "name": "SARADC0_IN1",
+      "category": "UNUSED_ANALOG_INPUT",
+      "action": "Tie dedicated unused SARADC inputs to GND so they cannot float. These balls have no alternate function in the manufacturer pin table; boot ADC is separately allocated and excluded.",
+      "schematic_disposition": "GND_BY_DESIGN"
+    },
+    {
+      "ball": "G1",
+      "name": "I2S1_SCLK_M1/CAM_CLK1_OUT_M0/UART8_RX_M0/GPIO3_B3_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "G2",
+      "name": "I2S1_SDO2_M1/I2S1_SDI2_M1/UART3_TX_M1/SPI0_CSN0_M1/I2C4_SDA_M0/GPIO3_B7_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "G26",
+      "name": "SARADC0_IN3",
+      "category": "UNUSED_ANALOG_INPUT",
+      "action": "Tie dedicated unused SARADC inputs to GND so they cannot float. These balls have no alternate function in the manufacturer pin table; boot ADC is separately allocated and excluded.",
+      "schematic_disposition": "GND_BY_DESIGN"
+    },
+    {
+      "ball": "G3",
+      "name": "I2S1_SDO1_M1/I2S1_SDI3_M1/UART3_CTSN_M1/SPI0_CSN1_M1/I2C4_SCL_M0/GPIO3_B6_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "H2",
+      "name": "I2S1_SDO3_M1/I2S1_SDI1_M1/UART3_RX_M1/SPI0_MISO_M1/GPIO3_C0_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "H26",
+      "name": "EMMC_D6/GPIO1_A6_u",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "H27",
+      "name": "EMMC_D7/GPIO1_A7_u",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "H3",
+      "name": "I2S1_MCLK_M1/CAM_CLK0_OUT_M0/UART8_TX_M0/GPIO3_B2_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "J1",
+      "name": "I2S0_SDO1_M0/I2S0_SDI3_M0/PDM_CLK0_M0/PCIE20_CLKREQN_M1/UART5_TX_M1/GPIO3_A6_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "J2",
+      "name": "I2S0_SDI0_M0/PDM_SDI0_M0/GPIO3_B1_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "K25",
+      "name": "EMMC_D5/GPIO1_A5_u",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "K26",
+      "name": "EMMC_D4/GPIO1_A4_u",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "L26",
+      "name": "EMMC_STRB/FSPI_CSN1/GPIO1_B2_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "M2",
+      "name": "VO_LCDC_HSYNC/I2S1_SDO1_M0/UART9_CTSN_M0/SPI2_CSN1_M0/I2C1_SCL_M1/UART3_TX_M0/GPIO4_B4_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "N25",
+      "name": "SDMMC0_D2/JTAG_CPU_MCU_TCK_M1/UART5_CTSN_M0/SPI1_CSN1_M1/PWM10_M0/DSM_AUD_RP/GPIO1_B5_u",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "N26",
+      "name": "SDMMC0_D3/JTAG_CPU_MCU_TMS_M1/UART5_RTSN_M0/SPI1_CSN0_M1/PWM11_M0/DSM_AUD_RN/GPIO1_B6_u",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "P2",
+      "name": "VO_LCDC_D6/I2S1_SDO0_M0/UART7_RX_M0/GPIO3_C7_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "P25",
+      "name": "SDMMC0_CMD/SPDIF_TX_M2/UART5_RX_M0/GPIO1_B7_u",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "P27",
+      "name": "SDMMC0_CLK/TEST_CLK_OUT/UART5_TX_M0/SPI1_CLK_M1/GPIO1_C0_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "P3",
+      "name": "VO_LCDC_D5/I2S1_LRCK_M0/UART4_RTSN_M0/PWM15_M0/GPIO3_C6_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "R1",
+      "name": "VO_LCDC_D10/I2S1_SDI1_M0/UART4_RX_M0/UART3_RTSN_M0/GPIO3_D1_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "R2",
+      "name": "VO_LCDC_D11/I2S1_SDI2_M0/UART7_CTSN_M0/SPI2_MISO_M0/I2C2_SCL_M1/GPIO3_D2_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "R25",
+      "name": "SDMMC0_D0/UART0_RX_M1/UART7_RX_M1/SPI1_MOSI_M1/DSM_AUD_LP/GPIO1_B3_u",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "1R15",
+      "name": "SDMMC0_DETN/I2C4_SDA_M1/GPIO0_A4_u",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "1R3",
+      "name": "MIPI_CSI_RX1_CLK1N",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "1R7",
+      "name": "MIPI_CSI_RX0_CLK1N",
+      "category": "UNUSED_HIGH_SPEED_INTERFACE",
+      "action": "Interface has no external connection in Phoenix: leave signal balls NC and disable the unused receiver/transmitter in firmware. Analog supplies are handled separately and are NOT assumed removable.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "A18",
+      "name": "AC6/DDR4_A6/LPDDR4_A1_B/DDR3_A14/LPDDR3_A1",
+      "category": "UNUSED_DDR_ADDRESS_OR_RANK",
+      "action": "Two x16 2Gbit devices share one rank; H5TQ2G63GFR Rev1.2 addressing table requires A0..A13 for x16, so A14/A15 are unused; CS1/ODT1 have no second-rank loads. Leave these outputs unconnected and configure loader for one 32-bit rank.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "R26",
+      "name": "SDMMC0_D1/UART0_TX_M1/UART7_TX_M1/SPI1_MISO_M1/DSM_AUD_LN/GPIO1_B4_u",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "R3",
+      "name": "VO_LCDC_D7/I2S1_SDI0_M0/UART4_TX_M0/GPIO3_D0_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "U1",
+      "name": "VO_LCDC_CLK/RGMII_CLK_M0/CAM_CLK1_OUT_M1/PDM_CLK0_M1/GPIO4_B7_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "V27",
+      "name": "I2S2_LRCK_M0/RGMII_RXDV_M1/UART4_TX_M1/SPI2_CSN0_M1/RMII_RXDV_CRS/GPIO1_D6_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "V3",
+      "name": "VO_LCDC_D16/RGMII_RXER_M0/UART1_CTSN_M1/PDM_SDI1_M1/UART6_RX_M1/GPIO4_B0_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "W25",
+      "name": "I2S2_MCLK_M0/ETH_CLK_25M_OUT_M1/CLK1_32K_OUT/SPI2_CLK_M1/I2S0_SDO3_M1/GPIO2_A1_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "W26",
+      "name": "I2S2_SCLK_M0/RGMII_CLK_M1/UART4_RX_M1/SPI2_CSN1_M1/RMII_CLK/GPIO1_D5_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    },
+    {
+      "ball": "Y27",
+      "name": "UART1_CTSN_M0/RGMII_RXD0_M1/I2S0_SDI3_M1/PWM7_M1/RMII_RXD0/GPIO1_D4_d",
+      "category": "UNUSED_MULTIPLEXED_GPIO",
+      "action": "No selected interface uses this ball. Unconnected externally by design. Firmware must keep this unused pad in a safe input/bias state; reset defaults and boot behavior still require bring-up verification. No external function or voltage strap is assigned.",
+      "schematic_disposition": "NC_BY_DESIGN"
+    }
+  ],
+  "production_ready": false
+}

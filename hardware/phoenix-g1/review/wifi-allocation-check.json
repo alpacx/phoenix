@@ -1,0 +1,84 @@
+{
+  "status": "PASS INTEGRATED SDIO CONNECTIVITY; NOT FUNCTIONALLY QUALIFIED",
+  "connections": [
+    {
+      "soc_function": "SDMMC1_D0",
+      "soc_ball": "E27",
+      "module_pin": "18",
+      "planned_net": "WIFI_D0",
+      "existing_net": "WIFI_D0"
+    },
+    {
+      "soc_function": "SDMMC1_D1",
+      "soc_ball": "E28",
+      "module_pin": "19",
+      "planned_net": "WIFI_D1",
+      "existing_net": "WIFI_D1"
+    },
+    {
+      "soc_function": "SDMMC1_D2",
+      "soc_ball": "B28",
+      "module_pin": "14",
+      "planned_net": "WIFI_D2",
+      "existing_net": "WIFI_D2"
+    },
+    {
+      "soc_function": "SDMMC1_D3",
+      "soc_ball": "C27",
+      "module_pin": "15",
+      "planned_net": "WIFI_D3",
+      "existing_net": "WIFI_D3"
+    },
+    {
+      "soc_function": "SDMMC1_CMD",
+      "soc_ball": "C28",
+      "module_pin": "16",
+      "planned_net": "WIFI_CMD",
+      "existing_net": "WIFI_CMD"
+    },
+    {
+      "soc_function": "SDMMC1_CLK",
+      "soc_ball": "D27",
+      "module_pin": "17",
+      "planned_net": "WIFI_CLK",
+      "existing_net": "WIFI_CLK"
+    },
+    {
+      "soc_function": "SDMMC1_PWREN",
+      "soc_ball": "D26",
+      "module_pin": "12",
+      "planned_net": "WIFI_REG_ON",
+      "existing_net": "WIFI_REG_ON"
+    },
+    {
+      "soc_function": "SDMMC1_DET",
+      "soc_ball": "E25",
+      "module_pin": "13",
+      "planned_net": "WIFI_HOST_WAKE",
+      "existing_net": "WIFI_HOST_WAKE"
+    }
+  ],
+  "io_voltage_V": 3.3,
+  "module_SDIO_VSEL_pin29": "GND for 3.3V IO, per module datasheet",
+  "module_BT_REG_ON_pin34": "Must be driven low when Bluetooth disabled; not floating",
+  "clock": {
+    "module_pin": "24",
+    "frequency_Hz": 32768,
+    "required_accuracy_ppm": 30,
+    "candidate_jlc": "C5274152",
+    "status": "Stock checked; exact oscillator total accuracy, jitter, footprint and supply range not qualified",
+    "existing_PMIC_clock": "RK809 CLK32K currently NC, external crystal absent; RC clock not accepted without accuracy evidence"
+  },
+  "power": {
+    "module_VBAT_peak_A": 1,
+    "nominal_voltage_V": 3.584,
+    "additional_peak_USB_input_A_at_5V_90pct_efficiency": 0.796,
+    "note": "Illustrative conversion only, not a complete USB load budget; module IO and converter tolerances excluded"
+  },
+  "integration_holds": [
+    "Oscillator load/drive, internal-buck component ratings and assembly land-pattern qualification",
+    "Dedicated3.584V regulator current/transient and sequencing validation",
+    "Linux firmware/NVRAM and hotspot mode",
+    "Antenna RF routing and exact land pattern"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "status": "PASS RELATIVE LATTICE",
+  "source": "RK3568_PinOut_V1.1 worksheet04.Ball Map; 19x19mm_0.65pitch_636Balls",
+  "footprint": "kicad/Phoenix_Reviewed.pretty/BGA-636_L19.0-W19.0-P0.65-BL.kicad_mod",
+  "checked_balls": 636,
+  "best_transform_from_spreadsheet_xy": {
+    "rotation_deg": 270,
+    "mirrored": false,
+    "max_position_error_mm": 1.2560739669470201e-15
+  },
+  "pad_sizes_mm": [
+    [
+      0.35,
+      0.35
+    ]
+  ],
+  "geometry_screen": {
+    "pitch_mm": 0.65,
+    "land_diameter_mm": 0.35,
+    "between_lands_gap_mm": 0.30000000000000004,
+    "one_90um_trace_with_two_90um_clearances_mm": 0.27,
+    "one_trace_remaining_margin_mm": 0.03,
+    "candidate_via_land_drill_mm": [
+      0.4,
+      0.2
+    ],
+    "alternative_via_land_drill_mm": [
+      0.35,
+      0.2
+    ],
+    "alternative_clearance_mm": 0.109619,
+    "via_at_four_ball_cell_center_clearance_mm": 0.084619,
+    "finding": "0.4mm via land between four0.35mm balls leaves about0.0846mm clearance, below0.09mm target. Do not use a generic0.4/0.2 dogbone in every cell."
+  },
+  "holds": [
+    "Orientation cross-checked against datasheetV1.0 pp20-22; see bga-footprint-repair.json. Reconcile package revision before production.",
+    "Active reviewed footprint uses exact0.65mm lattice; original rounded import retained for provenance.",
+    "Pad diameter, NSMD mask/stencil and package ball size require manufacturer package drawing review.",
+    "Escape layer count, via geometry, routing clearance and impedance remain to be designed; local arithmetic is not completed routing."
+  ]
+}

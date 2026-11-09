@@ -1,0 +1,2493 @@
+{
+  "status": "UNROUTED FEASIBILITY STUDY",
+  "envelope_mm": [
+    90,
+    40
+  ],
+  "copper_layers_provisional": 6,
+  "placed_footprints": 353,
+  "missing_footprints": [
+    {
+      "ref": "DS1",
+      "value": "N096-1608TBBIG11-H13",
+      "reason": "No qualified footprint"
+    }
+  ],
+  "placement_failures": [
+    {
+      "ref": "J3",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "R432",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C454",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "U24",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C1101",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "L403",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C1401",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C451",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "R1404",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C422",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C1402",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "R1402",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "R414",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "R606",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "U13",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C421",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C531",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C1102",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "R1902",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "Y501",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C1901",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "U8",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "R402",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C1812",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "U20",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "R1804",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "R1801",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "R1202",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "R1103",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "U26",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C423",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "R604",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "U16",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "L401",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "U12",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "R1904",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "R422",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "Q1",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C425",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "L402",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C1002",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C434",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "Y2002",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "R510",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "R1802",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "U19",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "R1301",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "L404",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "R1403",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "R1401",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C1011",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "R605",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C1013",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C402",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "U14",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "R515",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "R1101",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C481",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C1104",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C485",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C1201",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C606",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C1107",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C483",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C1302",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C1106",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C484",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "TP13",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C1105",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C1203",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C482",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "C1103",
+      "reason": "fixed component bounding-box overlap"
+    },
+    {
+      "ref": "TP2",
+      "reason": "fixed component bounding-box overlap"
+    }
+  ],
+  "missing_pads": [],
+  "tracks": 0,
+  "placement": {
+    "J1": {
+      "x": 7.13,
+      "y": 20.0,
+      "side": "front",
+      "orientation": -90.0
+    },
+    "U6": {
+      "x": 17.0,
+      "y": 20.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "U1": {
+      "x": 43.0,
+      "y": 20.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "U2": {
+      "x": 25.0,
+      "y": 10.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "U3": {
+      "x": 25.0,
+      "y": 28.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "U4": {
+      "x": 60.0,
+      "y": 9.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "U5": {
+      "x": 63.0,
+      "y": 31.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "J2": {
+      "x": 76.7,
+      "y": 20.0,
+      "side": "front",
+      "orientation": -90.0
+    },
+    "U10": {
+      "x": 60.0,
+      "y": 22.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "U17": {
+      "x": 14.0,
+      "y": 30.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "L1301": {
+      "x": 14.0,
+      "y": 36.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "L1001": {
+      "x": 60.0,
+      "y": 17.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "U18": {
+      "x": 14.5,
+      "y": 8.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "U9": {
+      "x": 11.0,
+      "y": 17.0,
+      "side": "front",
+      "orientation": -90.0
+    },
+    "R2013": {
+      "x": 25.5,
+      "y": 36.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R530": {
+      "x": 53.0,
+      "y": 27.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C413": {
+      "x": 84.0,
+      "y": 36.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "J3": {
+      "x": 45.0,
+      "y": 8.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R2102": {
+      "x": 51.0,
+      "y": 35.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R523": {
+      "x": 69.0,
+      "y": 37.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C435": {
+      "x": 72.0,
+      "y": 3.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R401": {
+      "x": 30.5,
+      "y": 26.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R432": {
+      "x": 73.0,
+      "y": 30.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C1014": {
+      "x": 62.0,
+      "y": 36.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R416": {
+      "x": 78.5,
+      "y": 31.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R424": {
+      "x": 87.0,
+      "y": 7.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C454": {
+      "x": 86.0,
+      "y": 30.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C1001": {
+      "x": 63.5,
+      "y": 22.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "U11": {
+      "x": 6.0,
+      "y": 28.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C1902": {
+      "x": 8.25,
+      "y": 12.05,
+      "side": "front",
+      "orientation": 270
+    },
+    "U24": {
+      "x": 7.5,
+      "y": 8.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C1012": {
+      "x": 52.0,
+      "y": 33.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R507": {
+      "x": 63.0,
+      "y": 27.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R506": {
+      "x": 34.0,
+      "y": 19.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R417": {
+      "x": 75.0,
+      "y": 34.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1507": {
+      "x": 35.5,
+      "y": 37.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1813": {
+      "x": 53.5,
+      "y": 9.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C1020": {
+      "x": 74.0,
+      "y": 36.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C1101": {
+      "x": 9.2,
+      "y": 29.9,
+      "side": "front",
+      "orientation": 0
+    },
+    "R514": {
+      "x": 63.0,
+      "y": 38.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R502": {
+      "x": 34.0,
+      "y": 22.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C2001": {
+      "x": 34.0,
+      "y": 29.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C521": {
+      "x": 81.5,
+      "y": 37.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C2204": {
+      "x": 34.0,
+      "y": 32.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "Y2001": {
+      "x": 45.0,
+      "y": 30.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1201": {
+      "x": 4.5,
+      "y": 34.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R2004": {
+      "x": 30.5,
+      "y": 32.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1901": {
+      "x": 3.0,
+      "y": 3.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R201": {
+      "x": 21.5,
+      "y": 20.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R2010": {
+      "x": 30.5,
+      "y": 37.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R2203": {
+      "x": 23.0,
+      "y": 36.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1814": {
+      "x": 53.5,
+      "y": 10.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1504": {
+      "x": 38.0,
+      "y": 37.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R501": {
+      "x": 34.0,
+      "y": 23.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1506": {
+      "x": 35.0,
+      "y": 34.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "L403": {
+      "x": 65.5,
+      "y": 18.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C1401": {
+      "x": 19.0,
+      "y": 3.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C514": {
+      "x": 79.0,
+      "y": 36.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C1802": {
+      "x": 21.0,
+      "y": 2.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C519": {
+      "x": 81.5,
+      "y": 36.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C451": {
+      "x": 83.5,
+      "y": 30.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1404": {
+      "x": 19.0,
+      "y": 5.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R526": {
+      "x": 71.5,
+      "y": 36.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C452": {
+      "x": 83.5,
+      "y": 31.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C1503": {
+      "x": 19.0,
+      "y": 32.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C422": {
+      "x": 56.0,
+      "y": 3.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1903": {
+      "x": 5.0,
+      "y": 12.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C463": {
+      "x": 9.0,
+      "y": 36.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R601": {
+      "x": 14.0,
+      "y": 24.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C464": {
+      "x": 9.0,
+      "y": 38.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "J2001": {
+      "x": 53.0,
+      "y": 17.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R301": {
+      "x": 31.0,
+      "y": 20.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "U21": {
+      "x": 34.0,
+      "y": 6.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R503": {
+      "x": 34.0,
+      "y": 25.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R2201": {
+      "x": 25.5,
+      "y": 37.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R504": {
+      "x": 34.0,
+      "y": 26.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C2201": {
+      "x": 38.5,
+      "y": 33.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R2002": {
+      "x": 33.0,
+      "y": 37.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C1402": {
+      "x": 18.0,
+      "y": 2.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1503": {
+      "x": 40.5,
+      "y": 37.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1402": {
+      "x": 19.0,
+      "y": 6.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R414": {
+      "x": 78.5,
+      "y": 30.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R606": {
+      "x": 10.0,
+      "y": 28.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R529": {
+      "x": 71.5,
+      "y": 37.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C445": {
+      "x": 80.0,
+      "y": 6.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C515": {
+      "x": 80.0,
+      "y": 33.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "U15": {
+      "x": 6.0,
+      "y": 31.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "U13": {
+      "x": 18.0,
+      "y": 25.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C469": {
+      "x": 4.0,
+      "y": 36.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C421": {
+      "x": 60.0,
+      "y": 3.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C432": {
+      "x": 70.5,
+      "y": 9.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C531": {
+      "x": 81.0,
+      "y": 30.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R602": {
+      "x": 10.5,
+      "y": 22.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C433": {
+      "x": 72.0,
+      "y": 6.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "U22": {
+      "x": 66.0,
+      "y": 36.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C1102": {
+      "x": 2.9,
+      "y": 28.8,
+      "side": "front",
+      "orientation": 180
+    },
+    "C1502": {
+      "x": 19.0,
+      "y": 34.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "L501": {
+      "x": 57.0,
+      "y": 31.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1902": {
+      "x": 3.5,
+      "y": 5.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "Y501": {
+      "x": 68.5,
+      "y": 33.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C1501": {
+      "x": 23.0,
+      "y": 37.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1811": {
+      "x": 53.5,
+      "y": 6.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "FB2001": {
+      "x": 47.5,
+      "y": 36.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C461": {
+      "x": 86.5,
+      "y": 36.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R509": {
+      "x": 64.0,
+      "y": 25.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C424": {
+      "x": 66.5,
+      "y": 6.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1102": {
+      "x": 10.5,
+      "y": 1.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R413": {
+      "x": 87.0,
+      "y": 3.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C480": {
+      "x": 4.0,
+      "y": 37.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C518": {
+      "x": 81.0,
+      "y": 31.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R2103": {
+      "x": 30.5,
+      "y": 29.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R2003": {
+      "x": 30.5,
+      "y": 31.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R415": {
+      "x": 75.0,
+      "y": 33.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C444": {
+      "x": 78.5,
+      "y": 9.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C1901": {
+      "x": 10.2,
+      "y": 3.95,
+      "side": "front",
+      "orientation": 90
+    },
+    "U8": {
+      "x": 11.0,
+      "y": 26.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R521": {
+      "x": 69.0,
+      "y": 36.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1601": {
+      "x": 34.0,
+      "y": 35.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R402": {
+      "x": 19.0,
+      "y": 12.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1812": {
+      "x": 53.5,
+      "y": 7.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C1812": {
+      "x": 2.5,
+      "y": 27.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R524": {
+      "x": 54.5,
+      "y": 35.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "U20": {
+      "x": 33.0,
+      "y": 12.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C410": {
+      "x": 86.0,
+      "y": 31.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1804": {
+      "x": 36.5,
+      "y": 11.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "L2201": {
+      "x": 54.5,
+      "y": 23.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C520": {
+      "x": 82.5,
+      "y": 33.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R2011": {
+      "x": 28.0,
+      "y": 36.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C442": {
+      "x": 76.0,
+      "y": 6.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "Y1": {
+      "x": 43.0,
+      "y": 34.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C466": {
+      "x": 2.5,
+      "y": 26.8,
+      "side": "back",
+      "orientation": 180
+    },
+    "R1801": {
+      "x": 39.0,
+      "y": 4.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1202": {
+      "x": 2.5,
+      "y": 30.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C460": {
+      "x": 87.5,
+      "y": 34.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1001": {
+      "x": 62.5,
+      "y": 24.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C470": {
+      "x": 80.0,
+      "y": 3.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R522": {
+      "x": 55.5,
+      "y": 27.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C1801": {
+      "x": 23.5,
+      "y": 2.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C401": {
+      "x": 19.0,
+      "y": 30.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1905": {
+      "x": 11,
+      "y": 8,
+      "side": "back",
+      "orientation": 180
+    },
+    "C415": {
+      "x": 84.0,
+      "y": 37.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C465": {
+      "x": 6.5,
+      "y": 36.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R2001": {
+      "x": 31.5,
+      "y": 35.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1103": {
+      "x": 13.0,
+      "y": 2.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1502": {
+      "x": 39.0,
+      "y": 35.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C522": {
+      "x": 82.5,
+      "y": 34.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C411": {
+      "x": 85.0,
+      "y": 33.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "U26": {
+      "x": 50.5,
+      "y": 30.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C423": {
+      "x": 64.0,
+      "y": 3.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C441": {
+      "x": 74.5,
+      "y": 9.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C412": {
+      "x": 85.0,
+      "y": 34.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C1811": {
+      "x": 77.5,
+      "y": 33.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R508": {
+      "x": 65.5,
+      "y": 27.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R604": {
+      "x": 10.5,
+      "y": 14.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "U16": {
+      "x": 27.5,
+      "y": 19.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "L401": {
+      "x": 66.0,
+      "y": 12.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "U12": {
+      "x": 7.0,
+      "y": 3.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1904": {
+      "x": 6.5,
+      "y": 1.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R422": {
+      "x": 76.0,
+      "y": 30.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R2202": {
+      "x": 31.0,
+      "y": 24.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R527": {
+      "x": 72.5,
+      "y": 34.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R412": {
+      "x": 76.0,
+      "y": 31.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1505": {
+      "x": 36.5,
+      "y": 35.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R511": {
+      "x": 60.5,
+      "y": 27.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C517": {
+      "x": 80.0,
+      "y": 34.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "U23": {
+      "x": 58.0,
+      "y": 37.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C468": {
+      "x": 2.5,
+      "y": 34,
+      "side": "back",
+      "orientation": 180
+    },
+    "R431": {
+      "x": 84.0,
+      "y": 3.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C1301": {
+      "x": 11,
+      "y": 31.5,
+      "side": "back",
+      "orientation": 180
+    },
+    "C501": {
+      "x": 74.0,
+      "y": 37.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "Q1": {
+      "x": 42.0,
+      "y": 3.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "L2001": {
+      "x": 33.0,
+      "y": 16.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C1305": {
+      "x": 19.5,
+      "y": 36.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R516": {
+      "x": 65.0,
+      "y": 24.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C425": {
+      "x": 52.0,
+      "y": 3.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1815": {
+      "x": 28.5,
+      "y": 2.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "L402": {
+      "x": 65.5,
+      "y": 15.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C1002": {
+      "x": 53.0,
+      "y": 13.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R421": {
+      "x": 85.5,
+      "y": 9.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C513": {
+      "x": 76.5,
+      "y": 37.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C434": {
+      "x": 48.0,
+      "y": 3.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C467": {
+      "x": 6.5,
+      "y": 38.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C516": {
+      "x": 79.0,
+      "y": 37.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R2012": {
+      "x": 28.0,
+      "y": 37.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "Y2002": {
+      "x": 39.0,
+      "y": 30.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R510": {
+      "x": 67.5,
+      "y": 30.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1802": {
+      "x": 39.0,
+      "y": 2.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C1304": {
+      "x": 8.5,
+      "y": 34.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "U19": {
+      "x": 18.0,
+      "y": 15.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1501": {
+      "x": 43.0,
+      "y": 37.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R528": {
+      "x": 55.0,
+      "y": 37.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1002": {
+      "x": 58.0,
+      "y": 27.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R2014": {
+      "x": 26.0,
+      "y": 2.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1803": {
+      "x": 31.0,
+      "y": 22.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1301": {
+      "x": 14.0,
+      "y": 27.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C2003": {
+      "x": 47.5,
+      "y": 34.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "L404": {
+      "x": 82.5,
+      "y": 9.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C511": {
+      "x": 76.5,
+      "y": 36.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C512": {
+      "x": 77.5,
+      "y": 34.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R512": {
+      "x": 61.5,
+      "y": 25.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1602": {
+      "x": 32.5,
+      "y": 34.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1403": {
+      "x": 19.0,
+      "y": 9.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1401": {
+      "x": 19.0,
+      "y": 8.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C414": {
+      "x": 87.5,
+      "y": 33.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "U7": {
+      "x": 11.0,
+      "y": 20.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R513": {
+      "x": 66.5,
+      "y": 25.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C1011": {
+      "x": 58.0,
+      "y": 35.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R410": {
+      "x": 87.0,
+      "y": 6.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R603": {
+      "x": 10.5,
+      "y": 24.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R605": {
+      "x": 18.0,
+      "y": 28.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R505": {
+      "x": 34.0,
+      "y": 20.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R525": {
+      "x": 72.5,
+      "y": 32.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C1013": {
+      "x": 66.5,
+      "y": 9.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R2101": {
+      "x": 30.5,
+      "y": 28.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C443": {
+      "x": 76.0,
+      "y": 3.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "L405": {
+      "x": 84.0,
+      "y": 6.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C431": {
+      "x": 68.0,
+      "y": 3.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R411": {
+      "x": 87.0,
+      "y": 4.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C402": {
+      "x": 14.5,
+      "y": 26.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "U14": {
+      "x": 14.0,
+      "y": 15.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R2104": {
+      "x": 51.0,
+      "y": 37.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R515": {
+      "x": 70.0,
+      "y": 30.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C462": {
+      "x": 86.5,
+      "y": 37.5,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "R1101": {
+      "x": 3.5,
+      "y": 10.0,
+      "side": "front",
+      "orientation": 0.0
+    },
+    "C481": {
+      "x": 60.0,
+      "y": 4.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1661": {
+      "x": 27.5,
+      "y": 15.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "TP9": {
+      "x": 39.0,
+      "y": 34.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1104": {
+      "x": 16.5,
+      "y": 22.75,
+      "side": "front",
+      "orientation": 180
+    },
+    "C603": {
+      "x": 10.5,
+      "y": 21.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "TP4": {
+      "x": 48.0,
+      "y": 37.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1605": {
+      "x": 36.0,
+      "y": 23.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1672": {
+      "x": 27.5,
+      "y": 13.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C485": {
+      "x": 57.5,
+      "y": 14.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1201": {
+      "x": 3.5,
+      "y": 32.25,
+      "side": "front",
+      "orientation": 180
+    },
+    "C1621": {
+      "x": 35.5,
+      "y": 12.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1624": {
+      "x": 32.0,
+      "y": 23.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C606": {
+      "x": 18.6,
+      "y": 22.5,
+      "side": "front",
+      "orientation": 0
+    },
+    "TP10": {
+      "x": 51.0,
+      "y": 34.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1667": {
+      "x": 25.0,
+      "y": 26.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1617": {
+      "x": 45.5,
+      "y": 30.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1678": {
+      "x": 25.0,
+      "y": 23.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "TP11": {
+      "x": 50.5,
+      "y": 31.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1608": {
+      "x": 36.0,
+      "y": 14.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1666": {
+      "x": 25.0,
+      "y": 13.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1636": {
+      "x": 53.0,
+      "y": 13.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1625": {
+      "x": 35.5,
+      "y": 28.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1662": {
+      "x": 27.5,
+      "y": 25.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "TP8": {
+      "x": 51.0,
+      "y": 37.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1604": {
+      "x": 36.0,
+      "y": 17.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1644": {
+      "x": 45.5,
+      "y": 8.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1627": {
+      "x": 50.5,
+      "y": 28.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1677": {
+      "x": 20.0,
+      "y": 26.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1681": {
+      "x": 33.0,
+      "y": 30.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1609": {
+      "x": 43.0,
+      "y": 9.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "TP5": {
+      "x": 42.0,
+      "y": 34.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1657": {
+      "x": 25.0,
+      "y": 15.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1107": {
+      "x": 17.25,
+      "y": 17.75,
+      "side": "front",
+      "orientation": 0
+    },
+    "C1682": {
+      "x": 53.0,
+      "y": 30.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1633": {
+      "x": 32.5,
+      "y": 25.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1631": {
+      "x": 40.5,
+      "y": 31.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C483": {
+      "x": 65.5,
+      "y": 9.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1679": {
+      "x": 35.5,
+      "y": 31.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1302": {
+      "x": 14.0,
+      "y": 31.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1640": {
+      "x": 38.0,
+      "y": 31.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1622": {
+      "x": 54.0,
+      "y": 20.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1645": {
+      "x": 32.5,
+      "y": 13.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1635": {
+      "x": 48.0,
+      "y": 30.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C2006": {
+      "x": 55.5,
+      "y": 25.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1106": {
+      "x": 24.3,
+      "y": 20.0,
+      "side": "front",
+      "orientation": 180
+    },
+    "C1601": {
+      "x": 53.0,
+      "y": 18.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1903": {
+      "x": 4.0,
+      "y": 7.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1643": {
+      "x": 50.5,
+      "y": 10.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1613": {
+      "x": 36.0,
+      "y": 26.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1652": {
+      "x": 28.5,
+      "y": 21.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1656": {
+      "x": 28.5,
+      "y": 23.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1629": {
+      "x": 53.0,
+      "y": 25.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C605": {
+      "x": 13.3,
+      "y": 22.8,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "TP7": {
+      "x": 39.0,
+      "y": 37.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "TP3": {
+      "x": 45.0,
+      "y": 34.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1646": {
+      "x": 21.5,
+      "y": 20.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1619": {
+      "x": 39.0,
+      "y": 29.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1655": {
+      "x": 28.5,
+      "y": 17.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1606": {
+      "x": 43.0,
+      "y": 11.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1649": {
+      "x": 21.5,
+      "y": 21.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1602": {
+      "x": 53.0,
+      "y": 22.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1638": {
+      "x": 43.0,
+      "y": 8.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1615": {
+      "x": 47.0,
+      "y": 28.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1680": {
+      "x": 33.5,
+      "y": 32.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C602": {
+      "x": 10.5,
+      "y": 18.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1654": {
+      "x": 21.5,
+      "y": 23.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1675": {
+      "x": 30.0,
+      "y": 25.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1641": {
+      "x": 35.5,
+      "y": 10.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1614": {
+      "x": 47.0,
+      "y": 11.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1664": {
+      "x": 25.0,
+      "y": 17.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C2008": {
+      "x": 55.5,
+      "y": 22.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1663": {
+      "x": 19.0,
+      "y": 18.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1639": {
+      "x": 38.0,
+      "y": 9.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C604": {
+      "x": 13.0,
+      "y": 20.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1610": {
+      "x": 43.0,
+      "y": 30.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C484": {
+      "x": 57.5,
+      "y": 4.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C2203": {
+      "x": 55.5,
+      "y": 26.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C2007": {
+      "x": 55.5,
+      "y": 18.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1673": {
+      "x": 27.5,
+      "y": 26.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1642": {
+      "x": 35.5,
+      "y": 29.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "TP13": {
+      "x": 10.5,
+      "y": 33.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1630": {
+      "x": 40.5,
+      "y": 9.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1623": {
+      "x": 32.0,
+      "y": 17.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C2004": {
+      "x": 53.0,
+      "y": 12.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C2009": {
+      "x": 55.5,
+      "y": 16.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1105": {
+      "x": 13.0,
+      "y": 17.25,
+      "side": "front",
+      "orientation": 270
+    },
+    "C601": {
+      "x": 10.5,
+      "y": 20.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1620": {
+      "x": 32.0,
+      "y": 20.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1203": {
+      "x": 8.5,
+      "y": 32.75,
+      "side": "front",
+      "orientation": 0
+    },
+    "C1651": {
+      "x": 28.5,
+      "y": 18.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1650": {
+      "x": 25.0,
+      "y": 20.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1632": {
+      "x": 32.5,
+      "y": 15.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1648": {
+      "x": 21.5,
+      "y": 18.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1659": {
+      "x": 22.5,
+      "y": 15.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1676": {
+      "x": 20.0,
+      "y": 14.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C2002": {
+      "x": 55.5,
+      "y": 23.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C2202": {
+      "x": 50.5,
+      "y": 9.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1618": {
+      "x": 39.0,
+      "y": 11.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1303": {
+      "x": 14.0,
+      "y": 29.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1603": {
+      "x": 36.0,
+      "y": 20.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1660": {
+      "x": 22.5,
+      "y": 25.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C482": {
+      "x": 60.0,
+      "y": 14.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1616": {
+      "x": 45.5,
+      "y": 9.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1671": {
+      "x": 22.5,
+      "y": 26.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1647": {
+      "x": 28.5,
+      "y": 20.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1658": {
+      "x": 25.0,
+      "y": 25.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1637": {
+      "x": 53.0,
+      "y": 26.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1607": {
+      "x": 43.0,
+      "y": 28.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1683": {
+      "x": 33.0,
+      "y": 28.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1653": {
+      "x": 21.5,
+      "y": 17.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "TP6": {
+      "x": 48.0,
+      "y": 34.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1634": {
+      "x": 48.0,
+      "y": 9.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1674": {
+      "x": 30.0,
+      "y": 15.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1202": {
+      "x": 7.0,
+      "y": 28.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1669": {
+      "x": 20.0,
+      "y": 24.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1670": {
+      "x": 22.5,
+      "y": 13.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1103": {
+      "x": 3.7,
+      "y": 2.0,
+      "side": "front",
+      "orientation": 180
+    },
+    "U25": {
+      "x": 45.0,
+      "y": 20.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1626": {
+      "x": 50.5,
+      "y": 12.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1612": {
+      "x": 53.0,
+      "y": 23.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "TP14": {
+      "x": 36.0,
+      "y": 34.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1611": {
+      "x": 53.0,
+      "y": 16.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "TP2": {
+      "x": 15.5,
+      "y": 1.5,
+      "side": "front",
+      "orientation": 0
+    },
+    "C1668": {
+      "x": 20.0,
+      "y": 15.5,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1628": {
+      "x": 53.0,
+      "y": 15.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C1665": {
+      "x": 19.0,
+      "y": 22.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "TP1": {
+      "x": 45.0,
+      "y": 37.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "TP12": {
+      "x": 36.0,
+      "y": 37.0,
+      "side": "back",
+      "orientation": 180.0
+    },
+    "C2005": {
+      "x": 53.0,
+      "y": 28.0,
+      "side": "back",
+      "orientation": 180.0
+    }
+  },
+  "placement_keepouts": [
+    {
+      "side": 1,
+      "rect_mm": [
+        5.8,
+        6.8,
+        9.2,
+        9.2
+      ],
+      "reason": "U24 thermal via assembly clearance"
+    },
+    {
+      "side": 1,
+      "rect_mm": [
+        15.3,
+        19.1,
+        18.7,
+        20.9
+      ],
+      "reason": "U6 thermal via assembly clearance"
+    }
+  ],
+  "limitations": [
+    "No signal/power routing, no stackup or impedance qualification.",
+    "Automated placement is a packing estimate, not final layout.",
+    "Display body/flex, heatsink and enclosure not included in the fit claim.",
+    "Footprint body boxes do not prove courtyard, drill, BGA escape or assembly compliance.",
+    "DRC report may cap displayed unconnected items; full connectivity count is recorded separately."
+  ],
+  "unqualified_footprint_overrides": {
+    "U1": "Phoenix_RK3562_Candidates:RK3562_FCCSP478_13.9mm_MIXED_PITCH_CANDIDATE"
+  },
+  "source_termination_target_refs": [
+    "C1101",
+    "C1102",
+    "C1903",
+    "R1901",
+    "R1902",
+    "R501",
+    "R502",
+    "R503",
+    "R504",
+    "R505",
+    "R506",
+    "R507",
+    "R508",
+    "R509",
+    "R510",
+    "R511",
+    "R512",
+    "R601",
+    "R605",
+    "R606",
+    "U13",
+    "U14",
+    "U19",
+    "U7",
+    "U8",
+    "U9"
+  ],
+  "unconnected_ratsnest_edges": 1301
+}

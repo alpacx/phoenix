@@ -1,0 +1,506 @@
+{
+  "status": "DOCUMENTED DRAFT; BOOT AND IO VOLTAGE CONFIGURATION NOT VALIDATED",
+  "signals": [
+    {
+      "net": "I2C0_SCL",
+      "ball": "AG23",
+      "domain": "PMUIO0",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_PMU",
+      "reference_page": 6,
+      "function_match": true
+    },
+    {
+      "net": "I2C0_SDA",
+      "ball": "AE23",
+      "domain": "PMUIO0",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_PMU",
+      "reference_page": 6,
+      "function_match": true
+    },
+    {
+      "net": "ETH_TXD0",
+      "ball": "AA1",
+      "domain": "VCCIO6",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 11,
+      "function_match": true
+    },
+    {
+      "net": "ETH_TXD1",
+      "ball": "AA2",
+      "domain": "VCCIO6",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 11,
+      "function_match": true
+    },
+    {
+      "net": "ETH_TXD2",
+      "ball": "AB3",
+      "domain": "VCCIO6",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 11,
+      "function_match": true
+    },
+    {
+      "net": "ETH_TXD3",
+      "ball": "AB2",
+      "domain": "VCCIO6",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 11,
+      "function_match": true
+    },
+    {
+      "net": "ETH_TXEN",
+      "ball": "AA3",
+      "domain": "VCCIO6",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 11,
+      "function_match": true
+    },
+    {
+      "net": "ETH_TXCLK",
+      "ball": "Y2",
+      "domain": "VCCIO6",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 11,
+      "function_match": true
+    },
+    {
+      "net": "ETH_RXD0",
+      "ball": "W3",
+      "domain": "VCCIO6",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 11,
+      "function_match": true
+    },
+    {
+      "net": "ETH_RXD1",
+      "ball": "W1",
+      "domain": "VCCIO6",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 11,
+      "function_match": true
+    },
+    {
+      "net": "ETH_RXD2",
+      "ball": "W2",
+      "domain": "VCCIO6",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 11,
+      "function_match": true
+    },
+    {
+      "net": "ETH_RXD3",
+      "ball": "Y3",
+      "domain": "VCCIO6",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 11,
+      "function_match": true
+    },
+    {
+      "net": "ETH_RXCLK",
+      "ball": "U2",
+      "domain": "VCCIO6",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 11,
+      "function_match": true
+    },
+    {
+      "net": "ETH_RXDV_CRS",
+      "ball": "V2",
+      "domain": "VCCIO6",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 11,
+      "function_match": true
+    },
+    {
+      "net": "ETH_MDC",
+      "ball": "AC1",
+      "domain": "VCCIO6",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 11,
+      "function_match": true
+    },
+    {
+      "net": "ETH_MDIO",
+      "ball": "AC2",
+      "domain": "VCCIO6",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 11,
+      "function_match": true
+    },
+    {
+      "net": "WIFI_D0",
+      "ball": "U26",
+      "domain": "VCCIO4",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 9,
+      "function_match": true
+    },
+    {
+      "net": "WIFI_D1",
+      "ball": "V25",
+      "domain": "VCCIO4",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 9,
+      "function_match": true
+    },
+    {
+      "net": "WIFI_D2",
+      "ball": "T25",
+      "domain": "VCCIO4",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 9,
+      "function_match": true
+    },
+    {
+      "net": "WIFI_D3",
+      "ball": "T26",
+      "domain": "VCCIO4",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 9,
+      "function_match": true
+    },
+    {
+      "net": "WIFI_CMD",
+      "ball": "T27",
+      "domain": "VCCIO4",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 9,
+      "function_match": true
+    },
+    {
+      "net": "WIFI_CLK",
+      "ball": "U25",
+      "domain": "VCCIO4",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 9,
+      "function_match": true
+    },
+    {
+      "net": "FSPI_D0",
+      "ball": "J25",
+      "domain": "VCCIO2",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 8,
+      "function_match": true
+    },
+    {
+      "net": "FSPI_D1",
+      "ball": "J26",
+      "domain": "VCCIO2",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 8,
+      "function_match": true
+    },
+    {
+      "net": "FSPI_D2",
+      "ball": "H25",
+      "domain": "VCCIO2",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 8,
+      "function_match": true
+    },
+    {
+      "net": "FSPI_D3",
+      "ball": "K27",
+      "domain": "VCCIO2",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 8,
+      "function_match": true
+    },
+    {
+      "net": "FSPI_CLK",
+      "ball": "M25",
+      "domain": "VCCIO2",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 8,
+      "function_match": true
+    },
+    {
+      "net": "FSPI_CS_N",
+      "ball": "M26",
+      "domain": "VCCIO2",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 8,
+      "function_match": true
+    },
+    {
+      "net": "LCD_MOSI",
+      "ball": "T3",
+      "domain": "VCCIO6",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 11,
+      "function_match": true
+    },
+    {
+      "net": "LCD_SCLK",
+      "ball": "N3",
+      "domain": "VCCIO6",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 11,
+      "function_match": true
+    },
+    {
+      "net": "LCD_CS_N",
+      "ball": "M3",
+      "domain": "VCCIO6",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 11,
+      "function_match": true
+    },
+    {
+      "net": "DEBUG_TX",
+      "ball": "AE20",
+      "domain": "PMUIO1",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_PMU",
+      "reference_page": 6,
+      "function_match": true
+    },
+    {
+      "net": "DEBUG_RX",
+      "ball": "AF20",
+      "domain": "PMUIO1",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_PMU",
+      "reference_page": 6,
+      "function_match": true
+    },
+    {
+      "net": "THERMAL_SHUTDOWN",
+      "ball": "1R13",
+      "domain": "PMUIO0",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_PMU",
+      "reference_page": 6,
+      "function_match": true
+    },
+    {
+      "net": "EXP_SPI_CLK",
+      "ball": "AE16",
+      "domain": "PMUIO1",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_PMU",
+      "reference_page": 6,
+      "function_match": true
+    },
+    {
+      "net": "EXP_SPI_MOSI",
+      "ball": "AG19",
+      "domain": "PMUIO1",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_PMU",
+      "reference_page": 6,
+      "function_match": true
+    },
+    {
+      "net": "EXP_SPI_MISO",
+      "ball": "AE18",
+      "domain": "PMUIO1",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_PMU",
+      "reference_page": 6,
+      "function_match": true
+    },
+    {
+      "net": "EXP_SPI_CS0_N",
+      "ball": "AG17",
+      "domain": "PMUIO1",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_PMU",
+      "reference_page": 6,
+      "function_match": true
+    },
+    {
+      "net": "EXP_SPI_CS1_N",
+      "ball": "AF15",
+      "domain": "PMUIO1",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_PMU",
+      "reference_page": 6,
+      "function_match": true
+    },
+    {
+      "net": "EXP_I2C_SCL",
+      "ball": "AF16",
+      "domain": "PMUIO1",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_PMU",
+      "reference_page": 6,
+      "function_match": true
+    },
+    {
+      "net": "EXP_I2C_SDA",
+      "ball": "AE15",
+      "domain": "PMUIO1",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_PMU",
+      "reference_page": 6,
+      "function_match": true
+    },
+    {
+      "net": "EXP_UART_TX",
+      "ball": "Y26",
+      "domain": "VCCIO4",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 9,
+      "function_match": true
+    },
+    {
+      "net": "EXP_UART_RX",
+      "ball": "Y25",
+      "domain": "VCCIO4",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 9,
+      "function_match": true
+    },
+    {
+      "net": "LCD_DC",
+      "ball": "N1",
+      "domain": "VCCIO6",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 11,
+      "function_match": true
+    },
+    {
+      "net": "LCD_RESET_N",
+      "ball": "N2",
+      "domain": "VCCIO6",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 11,
+      "function_match": true
+    },
+    {
+      "net": "LCD_BL_PWM",
+      "ball": "L1",
+      "domain": "VCCIO1",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 7,
+      "function_match": true
+    },
+    {
+      "net": "WIFI_REG_ON",
+      "ball": "1J14",
+      "domain": "VCCIO4",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 9,
+      "function_match": true
+    },
+    {
+      "net": "WIFI_HOST_WAKE",
+      "ball": "V26",
+      "domain": "VCCIO4",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 9,
+      "function_match": true
+    },
+    {
+      "net": "ETH_RESET_GPIO_N",
+      "ball": "T2",
+      "domain": "VCCIO6",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 11,
+      "function_match": true
+    },
+    {
+      "net": "EXP_GPIO0",
+      "ball": "K2",
+      "domain": "VCCIO1",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 7,
+      "function_match": true
+    },
+    {
+      "net": "EXP_GPIO1",
+      "ball": "L3",
+      "domain": "VCCIO1",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 7,
+      "function_match": true
+    },
+    {
+      "net": "EXP_GPIO2",
+      "ball": "K3",
+      "domain": "VCCIO1",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 7,
+      "function_match": true
+    },
+    {
+      "net": "EXP_GPIO3",
+      "ball": "L2",
+      "domain": "VCCIO1",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_IO",
+      "reference_page": 7,
+      "function_match": true
+    },
+    {
+      "net": "PMIC_SLEEP",
+      "ball": "AF23",
+      "domain": "PMUIO0",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_PMU",
+      "reference_page": 6,
+      "function_match": true
+    },
+    {
+      "net": "PMIC_INT_N",
+      "ball": "AF22",
+      "domain": "PMUIO0",
+      "design_voltage_v": 3.3,
+      "design_rail": "+3V3_PMU",
+      "reference_page": 6,
+      "function_match": true
+    }
+  ],
+  "requirements": [
+    "PMUIO0 is fixed 3.3V; PMUIO1 and VCCIO banks must be configured consistently with actual supplies.",
+    "Preserve voltage-compatible states during boot, suspend and power-off; inspect external pull-ups for back-power.",
+    "Pinmux and IO voltage registers/device tree must be updated for RK3562, not inherited from RK3568."
+  ],
+  "scope": "PMUIO split from GPIO0_A0..B2 versus GPIO0_B3..D1 in designer reference p6; VCCIO assignment from extracted symbol groups p7..11. Not independent manufacturer bank qualification."
+}

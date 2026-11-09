@@ -1,0 +1,60 @@
+{
+  "status": "DESIGN REQUIREMENT AND PRELIMINARY ARCHITECTURE; NOT THERMALLY QUALIFIED",
+  "cooling": {
+    "fan_allowed": false,
+    "forced_air_required": false,
+    "basis": "User explicitly requires passive cooling; do not add a fan as a fallback."
+  },
+  "retained_requirements": {
+    "pcb_mm": [
+      90,
+      40
+    ],
+    "processor": "RK3568",
+    "display": "included, color, non-touch",
+    "cable": "detachable USB-C",
+    "sustained_vpn_target": "approach 1 Gbit/s; not measured or guaranteed"
+  },
+  "thermal_architecture": [
+    "Use a metal heat spreader with a compliant electrically insulating TIM on the processor package top.",
+    "Conduct heat to a metal enclosure panel with a designed contact path; do not rely only on heat transfer through FR4.",
+    "Keep display glass, flex and adhesive outside the primary processor heat-transfer/contact-pressure path.",
+    "Provide separate mechanical support for the display and controlled TIM compression; no clamp load on LCD glass or small PCB components.",
+    "Keep RF antenna feed and external antenna isolated from heat-spreader short circuits and mechanically clear."
+  ],
+  "processor_documentation": {
+    "source": "reference/RK3568-datasheet-v1.0-radxa.pdf",
+    "section": "Chapter 4, printed page 62",
+    "theta_jc_typ_k_per_w": 0.487,
+    "theta_jb_typ_k_per_w": 10.813,
+    "theta_ja_typ_k_per_w": 15.925,
+    "absolute_max_tj_c": 125,
+    "source_limit": "Manufacturer calls thermal data simulation for reference only; test board is 114.3x101.6mm, four layers, 1.6mm at ambient25C. ThetaJA must not be transplanted to this closed enclosure.",
+    "design_note": "125C is an absolute limit, not a sustained operating target or approved firmware trip.",
+    "visual_check": "Chapter4 page62 visually inspected,2026-11-08"
+  },
+  "software_requirements": [
+    "Enable verified RK3568 thermal sensor calibration and active-low external shutdown path through R1507.",
+    "Use CPU DVFS and runtime power management; unused GPU/NPU/video blocks should not run workloads.",
+    "Establish throttle/shutdown thresholds from all component operating limits and measured case/display temperatures; not from SoC absolute maximum alone.",
+    "Measure throughput during thermal steady state; report any throttling as a performance limitation, not a gigabit pass.",
+    "No fan controller or fan fallback."
+  ],
+  "release_conditions": [
+    "Measure total power under Ethernet forwarding, encrypted tunnel, Wi-Fi plus VPN, full display backlight and any supported expansion load.",
+    "Close the actual enclosure and test intended ambient range, orientation, blocked bottom face and prolonged operation.",
+    "Verify SoC, PMIC, DDR, PHY, Wi-Fi, MLCC body, display, adhesive and connector temperatures against their respective limits.",
+    "Verify case surface temperature using an appropriate product touch-temperature criterion; the current55C screen is not certification.",
+    "If passive enclosure and throughput cannot both be met, revise area/fin geometry or power architecture before requesting a requirement tradeoff."
+  ],
+  "not_yet_defined": [
+    "Final enclosure drawing and dimensions",
+    "TIM MPN, thickness and pressure range",
+    "Enclosure finish/emissivity",
+    "Thermal resistance of contacts/spreading",
+    "Actual power budget and temperature map",
+    "Approved ambient range and sustained-performance envelope"
+  ],
+  "production_ready": false,
+  "sizing_study": "review/thermal-path-sizing.json"
+}

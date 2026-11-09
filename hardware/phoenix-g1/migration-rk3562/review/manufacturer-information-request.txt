@@ -1,0 +1,33 @@
+Phoenix / RK3562 — technical information required before PCB release
+DRAFT ONLY. Not sent to any supplier. No order or purchase authorized.
+
+Target configuration:
+RK3562; 512 MiB DDR3 using two H5TQ2G63GFR x16 devices, one 32-bit rank;
+RK809-5 PMIC; RK860 CPU supply; 5 V USB-C power; USB 3 peripheral;
+Gigabit RGMII Ethernet; AP6256 SDIO Wi-Fi; SPI color display.
+PCB outline 90 x 40 mm. Passive cooling required.
+
+Please provide the RK3562-specific Hardware Design Guide, high-speed PCB
+layout guide, DDR3 reference schematic and package/assembly drawing,
+with revision and applicable silicon/PMIC variants.
+
+Specific unanswered points:
+1. DDR_RZQ ball 1D4: resistor value, tolerance, connection rail/ground,
+   placement requirements and supported DDR3 initialization settings.
+2. DDR_VREFOUT ball 1C9: required DDR3 VREFDQ/VREFCA topology,
+   output loading, decoupling and sequencing. The current schematic
+   intentionally leaves this ball unresolved, rather than assuming RK3568 rules.
+3. Required power-up/down sequence, reset timing, default RK809-5 rail
+   settings and treatment of unused CSI/DSI/OTP analog domains.
+4. FCCSP478 mixed 0.5/0.65 mm pitch: recommended copper lands,
+   solder-mask openings, stencil apertures/thickness and assembly limits.
+5. Qualified escape examples: layer count, via land/drill, blind/microvia
+   requirements, permitted via-in-pad process and impedance stackup.
+6. RK3562 DDR3 routing limits: topology, byte/lane matching, clock/address
+   matching, impedance, skew, return paths and maximum operating rate.
+7. Supported boot/training binary for this exact DDR3 geometry and SPI NOR boot.
+
+Available evidence is insufficient for release: RK3562 datasheet/TRM,
+Hynix device datasheet and a third-party RK3562 LPDDR4 schematic do not
+answer the DDR3/package/sequence questions above. No hardware prototype
+of this custom PCB has been assembled or tested.

@@ -1,0 +1,18 @@
+{
+  "target_processor": "RK3562",
+  "migration_authorized": true,
+  "ram_mib": 512,
+  "ram_bus_bits": 32,
+  "required_features": [
+    "Gigabit Ethernet",
+    "USB3 device and5V power via detachable USB-C",
+    "AP6256 Wi-Fi external antenna",
+    "color non-touch display",
+    "expansion connector",
+    "passive cooling only"
+  ],
+  "baseline_archive": "archive/rk3568-before-rk3562-migration.tar.gz",
+  "current_work": "migration-rk3562",
+  "status": "MIGRATION IN PROGRESS; old integrated schematic is RK3568 baseline, not new target",
+  "production_ready": false
+}

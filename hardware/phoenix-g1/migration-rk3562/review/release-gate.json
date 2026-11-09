@@ -1,0 +1,34 @@
+{
+  "status": "BLOCKED FOR FABRICATION",
+  "pcb_sha256": "f50547ffec81b5f555ee4fde4fde5caf679819d2181682155f5267a468e23765",
+  "checks": {
+    "courtyard_pad_enclosure": true,
+    "geometric_drc": true,
+    "pad_net_transcription": true,
+    "usb_18_signal_nets": true,
+    "usb_local_ground_escapes": true,
+    "usb_source_ground_continuity": true,
+    "usb_bypass_continuity": true,
+    "usb_vbus_source_to_guard": true,
+    "usb_aon_supply": true,
+    "usb_guard_to_main": true,
+    "usb_input_power_chain": true,
+    "all_board_connections": false,
+    "all_physical_pads_present": false,
+    "all_soc_pin_decisions": false
+  },
+  "unverified_required_items": [
+    "RK3562 DDR3 RZQ/VREF connection and timing/layout prescriptions",
+    "RK3562 supply sequence and PMIC defaults",
+    "FCCSP478 lands, stencil and escape process",
+    "Power distribution, bypass loop impedance and current/temperature margins",
+    "Display attachment and footprint",
+    "High-speed routing and SI/PI",
+    "Passive enclosure thermal/mechanical qualification",
+    "Via filling/plugging and stencil process; assembly quotation"
+  ],
+  "required_external_input": "RK3562-specific manufacturer design/layout/package documents or written supplier confirmation. See manufacturer-information-request.txt.",
+  "unconnected_ratsnest_edges": 1178,
+  "production_ready": false,
+  "gerbers_released": false
+}

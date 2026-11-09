@@ -1,0 +1,161 @@
+{
+  "status": "CANDIDATES SELECTED - NOT QUALIFIED",
+  "sources": [
+    "sourcing/public/C25744.json",
+    "sourcing/public/C25741.json",
+    "sourcing/public/C25792.json",
+    "sourcing/public/C25900.json",
+    "sourcing/public/C25092.json",
+    "sourcing/public/C26083.json",
+    "sourcing/public/C11702.json",
+    "sourcing/public/C25076.json",
+    "sourcing/public/C25764.json",
+    "sourcing/public/C25079.json",
+    "sourcing/public/C25794.json",
+    "sourcing/public/C25879.json",
+    "sourcing/public/C145071.json",
+    "sourcing/public/C2906402.json",
+    "sourcing/public/C114755.json",
+    "sourcing/public/C163481.json"
+  ],
+  "assigned_this_run": [
+    {
+      "ref": "R201",
+      "value": "240R 1%",
+      "jlc": "C114755"
+    },
+    {
+      "ref": "R301",
+      "value": "240R 1%",
+      "jlc": "C114755"
+    },
+    {
+      "ref": "R514",
+      "value": "1.8k",
+      "jlc": "C163481"
+    }
+  ],
+  "all_selected_standard_refs": {
+    "C25744": [
+      "R1402",
+      "R1403",
+      "R1404",
+      "R1405",
+      "R1504",
+      "R516",
+      "R412",
+      "R413",
+      "R2002"
+    ],
+    "C25741": [
+      "R1505",
+      "R1804",
+      "R411",
+      "R1301",
+      "R1202",
+      "R1101",
+      "R1103",
+      "R2201",
+      "R2203"
+    ],
+    "C25792": [
+      "R1802",
+      "R1811",
+      "R1812",
+      "R1813",
+      "R1814",
+      "R1815",
+      "R2103",
+      "R2104",
+      "R1102",
+      "R2010",
+      "R2011",
+      "R2012",
+      "R2013",
+      "R2014"
+    ],
+    "C25900": [
+      "R521",
+      "R522",
+      "R523",
+      "R524",
+      "R525",
+      "R526",
+      "R527",
+      "R528",
+      "R529",
+      "R2101",
+      "R2102"
+    ],
+    "C25092": [
+      "R1401",
+      "R1501",
+      "R501",
+      "R502",
+      "R503",
+      "R504",
+      "R505",
+      "R506",
+      "R507",
+      "R508",
+      "R509",
+      "R510",
+      "R511",
+      "R512",
+      "R515",
+      "R414",
+      "R415",
+      "R2003"
+    ],
+    "C26083": [
+      "R1502",
+      "R1506"
+    ],
+    "C11702": [
+      "R401",
+      "R402",
+      "R1801"
+    ],
+    "C25076": [
+      "R1001",
+      "R421",
+      "R422",
+      "R424",
+      "R2004"
+    ],
+    "C25764": [
+      "R602",
+      "R603",
+      "R604"
+    ],
+    "C25079": [
+      "R1503"
+    ],
+    "C25794": [
+      "R1002"
+    ],
+    "C25879": [
+      "R416",
+      "R417"
+    ],
+    "C145071": [
+      "R513"
+    ],
+    "C2906402": [
+      "R410"
+    ],
+    "C114755": [
+      "R201",
+      "R301"
+    ],
+    "C163481": [
+      "R514"
+    ]
+  },
+  "limits": [
+    "50V and62.5mW catalog rating are not operating-temperature derated limits.",
+    "100ppm/C candidates do not satisfy0.1%/25ppm requests; precision positions are excluded.",
+    "Divider drift, pulse load, high-frequency behavior and resistor operating power still require review.",
+    "No zero-ohm power links or RF matching components selected by this script."
+  ]
+}

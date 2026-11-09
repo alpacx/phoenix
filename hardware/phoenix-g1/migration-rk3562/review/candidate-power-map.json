@@ -1,0 +1,1386 @@
+{
+  "status": "CANDIDATE CONNECTIONS; NOT POWER SEQUENCE/PI QUALIFICATION",
+  "reference_crosscheck": "reference/rk3562-oomwoo-reference.pdf page6 visually reviewed for nPOR/PMUIO/PLL; independent hobby reference, not manufacturer approval",
+  "pins": [
+    {
+      "ball": "1A11",
+      "name": "VSS_1A11",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1A12",
+      "name": "VSS_1A12",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1A14",
+      "name": "VSS_1A14",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1A2",
+      "name": "VSS_1A2",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1A4",
+      "name": "VSS_1A4",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1A5",
+      "name": "VSS_1A5",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1B12",
+      "name": "VSS_1B12",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1B14",
+      "name": "VSS_1B14",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1B2",
+      "name": "VSS_1B2",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1B4",
+      "name": "VSS_1B4",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1B5",
+      "name": "VSS_1B5",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1B9",
+      "name": "VSS_1B9",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1C1",
+      "name": "VSS_1C1",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1C10",
+      "name": "VSS_1C10",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1C11",
+      "name": "VSS_1C11",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1C12",
+      "name": "VSS_1C12",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1C13",
+      "name": "VSS_1C13",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1C14",
+      "name": "VSS_1C14",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1C15",
+      "name": "VSS_1C15",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1C2",
+      "name": "VSS_1C2",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1C3",
+      "name": "VSS_1C3",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1C4",
+      "name": "VSS_1C4",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1C5",
+      "name": "VSS_1C5",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1C6",
+      "name": "VSS_1C6",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1C7",
+      "name": "VSS_1C7",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1D1",
+      "name": "VSS_1D1",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1D10",
+      "name": "VSS_1D10",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1D11",
+      "name": "DDRPHY_VDDQ_6",
+      "net": "+1V5_DDR",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1D12",
+      "name": "VSS_1D12",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1D13",
+      "name": "VSS_1D13",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1D14",
+      "name": "VSS_1D14",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1D15",
+      "name": "VSS_1D15",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1D2",
+      "name": "VSS_1D2",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1D3",
+      "name": "VSS_1D3",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "AA26",
+      "name": "AVSS2_AA26",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "AA27",
+      "name": "VSS_AA27",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "AB25",
+      "name": "AVSS2_AB25",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "AC3",
+      "name": "AVSS1_AC3",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "AD25",
+      "name": "AVSS2_AD25",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "AD3",
+      "name": "AVSS1_AD3",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "AE10",
+      "name": "AVSS1_AE10",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "AE11",
+      "name": "AVSS1_AE11",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "AE12",
+      "name": "AVSS1_AE12",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "AE13",
+      "name": "AVSS1_AE13",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "AE14",
+      "name": "AVSS1_AE14",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "AE2",
+      "name": "AVSS1_AE2",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "AE21",
+      "name": "VSS_AE21",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "AE25",
+      "name": "VSS_AE25",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "AE3",
+      "name": "AVSS1_AE3",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "AE4",
+      "name": "AVSS1_AE4",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "AE5",
+      "name": "AVSS1_AE5",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "AE6",
+      "name": "AVSS1_AE6",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "AE7",
+      "name": "AVSS1_AE7",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "AE8",
+      "name": "AVSS1_AE8",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "AE9",
+      "name": "AVSS1_AE9",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1D6",
+      "name": "DDRPHY_VDDQ_3",
+      "net": "+1V5_DDR",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1D7",
+      "name": "VSS_1D7",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1D8",
+      "name": "VSS_1D8",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1D9",
+      "name": "VSS_1D9",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1E10",
+      "name": "DDRPHY_VDDQL_4",
+      "net": "+1V5_DDR",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1E11",
+      "name": "VSS_1E11",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1E12",
+      "name": "VDD_GPU_1",
+      "net": "VDD_GPU",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1E13",
+      "name": "VSS_1E13",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1E14",
+      "name": "SARADC0_AVDD_1V8",
+      "net": "VCCA_1V8",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1E15",
+      "name": "OTP_VCC_1V8",
+      "net": "VCCA_1V8",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1E2",
+      "name": "VSS_1E2",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1E3",
+      "name": "DDRPHY_VDDQ_1",
+      "net": "+1V5_DDR",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1E4",
+      "name": "DDRPHY_VDDQL_1",
+      "net": "+1V5_DDR",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1E5",
+      "name": "DDRPHY_VDDQ_2",
+      "net": "+1V5_DDR",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1E6",
+      "name": "DDRPHY_VDDQL_2",
+      "net": "+1V5_DDR",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1E7",
+      "name": "DDRPHY_VDDQ_4",
+      "net": "+1V5_DDR",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1E8",
+      "name": "DDRPHY_VDDQL_3",
+      "net": "+1V5_DDR",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1E9",
+      "name": "DDRPHY_VDDQ_5",
+      "net": "+1V5_DDR",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1F10",
+      "name": "VSS_1F10",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1F11",
+      "name": "VDD_GPU_2",
+      "net": "VDD_GPU",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1F12",
+      "name": "VDD_GPU_3",
+      "net": "VDD_GPU",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1F13",
+      "name": "VDD_GPU_4",
+      "net": "VDD_GPU",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1F14",
+      "name": "VCCIO2",
+      "net": "+3V3_IO",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1F15",
+      "name": "VSS_1F15",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1F3",
+      "name": "VSS_1F3",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1F4",
+      "name": "VSS_1F4",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1F5",
+      "name": "VSS_1F5",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1F7",
+      "name": "VSS_1F7",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1F9",
+      "name": "VSS_1F9",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1G1",
+      "name": "SYSPLL_AVDD_1V8",
+      "net": "VCCA_1V8",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1G10",
+      "name": "VDD_LOGIC_1",
+      "net": "VDD_LOGIC",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1G11",
+      "name": "VDD_GPU_5",
+      "net": "VDD_GPU",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1G12",
+      "name": "VDD_GPU_6",
+      "net": "VDD_GPU",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1G13",
+      "name": "VSS_1G13",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1G14",
+      "name": "VSS_1G14",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1G15",
+      "name": "VCCIO3",
+      "net": "+3V3_IO",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1G2",
+      "name": "VSS_1G2",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1G3",
+      "name": "VDD_NPU_1",
+      "net": "VDD_NPU",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1G4",
+      "name": "VDD_NPU_2",
+      "net": "VDD_NPU",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1G5",
+      "name": "VDD_NPU_3",
+      "net": "VDD_NPU",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1G6",
+      "name": "VSS_1G6",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1G7",
+      "name": "VSS_1G7",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1G8",
+      "name": "VDD_CPU_1",
+      "net": "VDD_CPU",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1G9",
+      "name": "VSS_1G9",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1H10",
+      "name": "VDD_LOGIC_2",
+      "net": "VDD_LOGIC",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1H11",
+      "name": "VDD_LOGIC_MEM",
+      "net": "VDD_LOGIC",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1H12",
+      "name": "VSS_1H12",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1H13",
+      "name": "VSS_1H13",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1H14",
+      "name": "VCCIO4",
+      "net": "+3V3_IO",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1H2",
+      "name": "VSS_1H2",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1H3",
+      "name": "VDD_NPU_4",
+      "net": "VDD_NPU",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1H4",
+      "name": "VDD_NPU_5",
+      "net": "VDD_NPU",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "AF24",
+      "name": "VSS_AF24",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "AG1",
+      "name": "AVSS1_AG1",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "AG15",
+      "name": "VSS_AG15",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "AG26",
+      "name": "VSS_AG26",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "AG27",
+      "name": "AVSS2_AG27",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "B14",
+      "name": "VSS_B14",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1H5",
+      "name": "VSS_1H5",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1H6",
+      "name": "VDD_CPU_2",
+      "net": "VDD_CPU",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1H7",
+      "name": "VDD_CPU_3",
+      "net": "VDD_CPU",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1H8",
+      "name": "VDD_CPU_4",
+      "net": "VDD_CPU",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1H9",
+      "name": "VSS_1H9",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1J10",
+      "name": "VDD_LOGIC_3",
+      "net": "VDD_LOGIC",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1J11",
+      "name": "VDD_LOGIC_4",
+      "net": "VDD_LOGIC",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1J12",
+      "name": "VDD_LOGIC_5",
+      "net": "VDD_LOGIC",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1J13",
+      "name": "VSS_1J13",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1J3",
+      "name": "VSS_1J3",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1J4",
+      "name": "VSS_1J4",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1J5",
+      "name": "VSS_1J5",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1J6",
+      "name": "VDD_CPU_5",
+      "net": "VDD_CPU",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1J7",
+      "name": "VDD_CPU_6",
+      "net": "VDD_CPU",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1J8",
+      "name": "VSS_1J8",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1J9",
+      "name": "VSS_1J9",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1K10",
+      "name": "VDD_LOGIC_6",
+      "net": "VDD_LOGIC",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1K11",
+      "name": "VSS_1K11",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1K12",
+      "name": "VSS_1K12",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1K13",
+      "name": "VSS_1K13",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1K14",
+      "name": "MULTI_PHY_AVDD_0V9",
+      "net": "VDDA_0V9",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1K15",
+      "name": "MULTI_PHY_AVDD_1V8",
+      "net": "VCCA_1V8",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1K2",
+      "name": "SARADC1_AVDD_1V8",
+      "net": "VCCA_1V8",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1K3",
+      "name": "VCCIO5",
+      "net": "+3V3_IO",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1K4",
+      "name": "VSS_1K4",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1K5",
+      "name": "VSS_1K5",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1K6",
+      "name": "VSS_1K6",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1K7",
+      "name": "VSS_1K7",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1K8",
+      "name": "VSS_1K8",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1K9",
+      "name": "VSS_1K9",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1L10",
+      "name": "VSS_1L10",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1L11",
+      "name": "PMUIO1",
+      "net": "+3V3_PMU",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1L12",
+      "name": "PMUIO0",
+      "net": "+3V3_PMU",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1L13",
+      "name": "PMUPLL_AVDD_1V8",
+      "net": "VCCA1V8_PMU",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1L14",
+      "name": "USB_AVDD_0V9",
+      "net": "USB_AVDD_0V9",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1L15",
+      "name": "AVSS2_1L15",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1L3",
+      "name": "VCCIO1",
+      "net": "+3V3_IO",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1L4",
+      "name": "VSS_1L4",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1L5",
+      "name": "VCCIO6_2",
+      "net": "+3V3_IO",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1L6",
+      "name": "MIPI_CSI_RX1_AVDD_0V9",
+      "net": "VDDA0V9_IMAGE",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1L7",
+      "name": "AVSS1_1L7",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "C13",
+      "name": "VSS_C13",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "C14",
+      "name": "VSS_C14",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "C15",
+      "name": "VSS_C15",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "C19",
+      "name": "VSS_C19",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "C21",
+      "name": "VSS_C21",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "C24",
+      "name": "VSS_C24",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "C25",
+      "name": "VSS_C25",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "C3",
+      "name": "VSS_C3",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "C4",
+      "name": "VSS_C4",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "C7",
+      "name": "VSS_C7",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "C9",
+      "name": "VSS_C9",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "D2",
+      "name": "VSS_D2",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1L8",
+      "name": "MIPI_CSI_RX0_AVDD_0V9",
+      "net": "VDDA0V9_IMAGE",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1L9",
+      "name": "AVSS1_1L9",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1M10",
+      "name": "SYSPLL_AVDD_0V9",
+      "net": "VDDA_0V9",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1M11",
+      "name": "PMU_VDD_LOGIC_0V9",
+      "net": "VDDA0V9_PMU",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1M12",
+      "name": "PMUPLL_AVSS",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1M13",
+      "name": "PMUPLL_AVDD_0V9",
+      "net": "VDDA0V9_PMU",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1M14",
+      "name": "USB_AVDD_3V3",
+      "net": "+3V3_IO",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1M15",
+      "name": "USB_AVDD_1V8",
+      "net": "USB_AVDD_1V8",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1M3",
+      "name": "VSS_1M3",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1M4",
+      "name": "VCCIO6_1",
+      "net": "+3V3_IO",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1M5",
+      "name": "VSS_1M5",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1M6",
+      "name": "AVSS1_1M6",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1M7",
+      "name": "MIPI_CSI_RX1_AVDD_1V8",
+      "net": "VCCA1V8_IMAGE",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1M8",
+      "name": "MIPI_CSI_RX0_AVDD_1V8",
+      "net": "VCCA1V8_IMAGE",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1M9",
+      "name": "MIPI_DSI_TX/LVDS_TX_AVDD_0V9",
+      "net": "VDDA0V9_IMAGE",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1N1",
+      "name": "VSS_1N1",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1N10",
+      "name": "AVSS1_1N10",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1N11",
+      "name": "VSS_1N11",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1N12",
+      "name": "VSS_1N12",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1N13",
+      "name": "TVSS",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1N14",
+      "name": "AVSS2_1N14",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1N15",
+      "name": "AVSS2_1N15",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1N2",
+      "name": "VSS_1N2",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1N3",
+      "name": "VSS_1N3",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1N4",
+      "name": "VSS_1N4",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1N5",
+      "name": "AVSS1_1N5",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1N6",
+      "name": "AVSS1_1N6",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1N7",
+      "name": "AVSS1_1N7",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1N8",
+      "name": "AVSS1_1N8",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1N9",
+      "name": "MIPI_DSI_TX/LVDS_TX_AVDD_1V8",
+      "net": "VCCA1V8_IMAGE",
+      "basis": "Datasheet Rev1.2 pin table and recommended voltage ranges; source/sequence not qualified"
+    },
+    {
+      "ball": "1P1",
+      "name": "AVSS1_1P1",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1P10",
+      "name": "AVSS1_1P10",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1P11",
+      "name": "VSS_1P11",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1P13",
+      "name": "VSS_1P13",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1P2",
+      "name": "AVSS1_1P2",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1P4",
+      "name": "AVSS1_1P4",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1P5",
+      "name": "AVSS1_1P5",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1P6",
+      "name": "AVSS1_1P6",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1P8",
+      "name": "AVSS1_1P8",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1P9",
+      "name": "AVSS1_1P9",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1R1",
+      "name": "AVSS1_1R1",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1R10",
+      "name": "AVSS1_1R10",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1R12",
+      "name": "VSS_1R12",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1R14",
+      "name": "VSS_1R14",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "E3",
+      "name": "VSS_E3",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "F3",
+      "name": "VSS_F3",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "G25",
+      "name": "VSS_G25",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "G27",
+      "name": "VSS_G27",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "J3",
+      "name": "VSS_J3",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "L25",
+      "name": "VSS_L25",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "M27",
+      "name": "VSS_M27",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "P26",
+      "name": "VSS_P26",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1R2",
+      "name": "AVSS1_1R2",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1R4",
+      "name": "AVSS1_1R4",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1R5",
+      "name": "AVSS1_1R5",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1R6",
+      "name": "AVSS1_1R6",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1R8",
+      "name": "AVSS1_1R8",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "1R9",
+      "name": "AVSS1_1R9",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "A1",
+      "name": "VSS_A1",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "A12",
+      "name": "VSS_A12",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "A16",
+      "name": "VSS_A16",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "A27",
+      "name": "VSS_A27",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    },
+    {
+      "ball": "U3",
+      "name": "VSS_U3",
+      "net": "GND",
+      "basis": "Explicit ground pin name in manufacturer table"
+    }
+  ],
+  "holds": [
+    "PMIC startup values and timing, rail grouping and filter/decoupling migration",
+    "IO bank membership and voltage programming",
+    "Unused analog blocks remain supplied; LDO enable, load and sequence still require qualification",
+    "USB headroom and sustained current/power budget"
+  ]
+}

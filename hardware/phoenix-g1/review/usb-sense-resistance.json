@@ -1,0 +1,30 @@
+{
+  "status": "PASS TOPOLOGY AND RESISTANCE SCREEN ONLY",
+  "source": "reference/hd3ss3220.pdf recommended external R(VBUS)880..910kohm",
+  "series_references": [
+    "R601",
+    "R605",
+    "R606"
+  ],
+  "nominal_ohm": 900000,
+  "initial_tolerance_fraction": 0.001,
+  "tcr_ppm_per_k": 25,
+  "temperature_interval_c": [
+    -40,
+    125
+  ],
+  "max_delta_from_25c_k": 100,
+  "computed_resistance_bounds_ohm": [
+    896852.25,
+    903152.2499999999
+  ],
+  "permitted_resistance_bounds_ohm": [
+    880000,
+    910000
+  ],
+  "limits": [
+    "Temperature range screens resistors, not system operating range.",
+    "Board contamination/leakage, solder shifts, lifetime drift and transients excluded.",
+    "No protection against arbitrary high voltage is implied by the sense-resistor network."
+  ]
+}

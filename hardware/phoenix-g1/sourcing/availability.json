@@ -1,0 +1,227 @@
+{
+  "checked_date": "2026-11-06",
+  "source": "JLCONE desktop / JLCPCB Assembly Parts Library, live search results",
+  "currency": "USD",
+  "price_basis": "displayed 1+ price; tax, shipping, attrition and assembly excluded",
+  "status": "Candidate shortlist, NOT an assembly BOM. Stock is not reserved. Recheck before schematic freeze and before purchase.",
+  "parts": [
+    {
+      "role": "SoC",
+      "mpn": "RK3576",
+      "jlc": "C42388007",
+      "stock": 666,
+      "unit_price": 22.5832,
+      "qty_estimate": 1,
+      "url": "https://jlcpcb.com/partdetail/Rockchip-RK3576/C42388007",
+      "qualification": "698-ball pinout, escape and BSP still to qualify"
+    },
+    {
+      "role": "PMIC",
+      "mpn": "RK806S-5",
+      "jlc": "C49174044",
+      "stock": 748,
+      "unit_price": 2.5506,
+      "qty_estimate": 1,
+      "url": "https://jlcpcb.com/partdetail/Rockchip-RK806S5/C49174044",
+      "qualification": "variant used in Radxa CM4 reference; LPDDR4 rail defaults need verification"
+    },
+    {
+      "role": "RAM 1GB LPDDR4",
+      "mpn": "H9HCNNN8KUMLHR-NME",
+      "jlc": "C2912103",
+      "stock": 166,
+      "unit_price": 26.5858,
+      "qty_estimate": 1,
+      "url": "https://jlcpcb.com/partdetail/SKHYNIX-H9HCNNN8KUMLHRNME/C2912103",
+      "qualification": "LPDDR4, NOT LPDDR4X; VDDQ 1.1V; boot DDR training compatibility not established"
+    },
+    {
+      "role": "eMMC 8GB",
+      "mpn": "KLM8G1GETF-B041",
+      "jlc": "C499918",
+      "stock": 1176,
+      "unit_price": 22.3704,
+      "qty_estimate": 1,
+      "url": "https://jlcpcb.com/partdetail/Samsung-KLM8G1GETFB041/C499918",
+      "qualification": "verify package pinout, VCCQ and boot software before assignment"
+    },
+    {
+      "role": "Gigabit PHY",
+      "mpn": "RTL8211F-CG",
+      "jlc": "C187932",
+      "stock": 55260,
+      "unit_price": 1.1787,
+      "qty_estimate": 1,
+      "url": "https://jlcpcb.com/partdetail/RealtekSemicon-RTL8211FCG/C187932",
+      "qualification": "do not copy RTL8211FS pinout from CM4; strap/RGMII timing and power require own datasheet"
+    },
+    {
+      "role": "RJ45 with magnetics",
+      "mpn": "HR911130A",
+      "jlc": "C54408",
+      "stock": 20314,
+      "unit_price": 2.5457,
+      "qty_estimate": 1,
+      "url": "https://jlcpcb.com/partdetail/55426-HR911130A/C54408",
+      "qualification": "verify magnetics/PHY pairing, center taps, isolation and through-hole assembly"
+    },
+    {
+      "role": "USB-C receptacle candidate",
+      "mpn": "TYPE-C 24P QT",
+      "jlc": "C2681555",
+      "stock": 78321,
+      "unit_price": 0.5403,
+      "qty_estimate": 1,
+      "url": "https://jlcpcb.com/partdetail/C2681555",
+      "qualification": "24 contacts; exact pin numbering, footprint and SuperSpeed signal integrity qualification pending"
+    },
+    {
+      "role": "USB-C PD sink candidate",
+      "mpn": "STUSB4500QTR",
+      "jlc": "C2678061",
+      "stock": 4043,
+      "unit_price": 2.8256,
+      "qty_estimate": 1,
+      "url": "https://jlcpcb.com/partdetail/STMicroelectronics-STUSB4500QTR/C2678061",
+      "qualification": "5V-only NVM profile and hardware power-path/overvoltage gating pending"
+    },
+    {
+      "role": "USB SuperSpeed ESD candidate",
+      "mpn": "TPD4EUSB30DQAR",
+      "jlc": "C90627",
+      "stock": 14435,
+      "unit_price": 0.4568,
+      "qty_estimate": 2,
+      "url": "https://jlcpcb.com/partdetail/TexasInstruments-TPD4EUSB30DQAR/C90627",
+      "qualification": "two four-channel devices provisioned for eight SS conductors; USB2 and VBUS protection additional"
+    }
+  ],
+  "rejected_examples": [
+    {
+      "jlc": "C9900282668",
+      "reason": "RK3568 named JLCPCB Assembly item is not proof of stocked Rockchip silicon; package does not match bare SoC"
+    },
+    {
+      "jlc": "C3029818",
+      "mpn": "ZDEMMC08GA",
+      "stock": 0,
+      "reason": "pre-order, not available stock"
+    },
+    {
+      "jlc": "C5330484",
+      "mpn": "MT53E256M32D2FW-046 IT:B",
+      "stock": 0,
+      "reason": "pre-order, not available stock"
+    }
+  ],
+  "budget_target_eur": 50,
+  "current_direction": "RK3568 with 512 MiB DDR3 x32, non-touch colour display. Budget not closed; not an assembly BOM.",
+  "alternatives": [
+    {
+      "role": "Lower-cost SoC candidate",
+      "mpn": "RK3568",
+      "jlc": "C2938930",
+      "stock": 195,
+      "unit_price": 20.4747,
+      "checked_date": "2026-11-06",
+      "url": "https://jlcpcb.com/partdetail/Rockchip-RK3568/C2938930",
+      "qualification": "No full cheaper RAM/PMIC/storage configuration qualified yet; not interchangeable with RK3576"
+    },
+    {
+      "role": "PMIC for RK3568",
+      "mpn": "RK809-5",
+      "jlc": "C2939628",
+      "stock": 51,
+      "unit_price": 2.4753,
+      "qty_estimate": 1,
+      "checked_date": "2026-11-06",
+      "qualification": "Fixed sequence specific to -5 variant; power circuit not yet implemented.",
+      "source": "JLCONE live search"
+    },
+    {
+      "role": "DDR3 2 Gbit x16",
+      "mpn": "H5TQ2G63GFR-TEC",
+      "jlc": "C2909894",
+      "stock": 19,
+      "unit_price": 7.1867,
+      "qty_estimate": 2,
+      "checked_date": "2026-11-06",
+      "qualification": "1.5V DDR3, not DDR3L. 2 chips = 512 MiB. Pin names audited against Hynix Rev1.2; training untested.",
+      "source": "JLCONE live search"
+    },
+    {
+      "role": "USB-C CC and SS mux",
+      "mpn": "HD3SS3220IRNHR",
+      "jlc": "C701817",
+      "stock": 306,
+      "unit_price": 1.7108,
+      "qty_estimate": 1,
+      "checked_date": "2026-11-06",
+      "qualification": "GPIO UFP mode proposed; 3A detection requires OUT1=0 AND OUT2=0. Power sequencing unresolved.",
+      "source": "JLCONE live search"
+    },
+    {
+      "role": "CPU DVFS buck",
+      "mpn": "RK860-0",
+      "jlc": "C19188628",
+      "stock": 3549,
+      "unit_price": 0.9192,
+      "qty_estimate": 1,
+      "checked_date": "2026-11-07",
+      "qualification": "6A, I2C 0x40, default1.0V. Not pin/software interchangeable with -2/-3 without review.",
+      "source": "JLCONE live search"
+    },
+    {
+      "role": "SPI NAND alternative",
+      "mpn": "W25N01GVZEIG",
+      "jlc": "C88868",
+      "stock": 5,
+      "unit_price": 9.2522,
+      "qty_estimate": 1,
+      "checked_date": "2026-11-06",
+      "qualification": "128MiB; not selected, BootROM/loader support and availability insufficiently qualified.",
+      "source": "JLCONE live search"
+    },
+    {
+      "role": "CPU inductor candidate",
+      "mpn": "FNR5020SR24NT",
+      "jlc": "C167915",
+      "stock": 2411,
+      "unit_price": 0.0586,
+      "qty_estimate": 1,
+      "checked_date": "2026-11-07",
+      "source": "JLCONE live search",
+      "qualification": "0.24uH +/-30%, DCR max11mOhm. Datasheet p11: Isat Max-column8A/Typ10A; Irms Max-column5.3A/Typ6A. Not qualified for 6A continuous output; thermal/fault review pending."
+    }
+  ],
+  "display_candidates": [
+    {
+      "mpn": "N096-1608TBBIG11-H13",
+      "jlc": "C2890616",
+      "stock": 418,
+      "unit_price": 1.8368,
+      "checked_date": "2026-11-06",
+      "url": "https://jlcpcb.com/partdetail/Newvisio-N096_1608TBBIG11H13/C2890616",
+      "status": "preferred candidate; FPC attachment and assembly cost unresolved",
+      "touch": false,
+      "resolution": [
+        80,
+        160
+      ],
+      "outline_mm": [
+        13.5,
+        27.95,
+        1.5
+      ],
+      "controller": "ST7735S"
+    },
+    {
+      "mpn": "HS096T01H13",
+      "jlc": "C18198246",
+      "stock": 973,
+      "unit_price": 1.6371,
+      "checked_date": "2026-11-06",
+      "status": "alternative only; pinout not qualified"
+    }
+  ]
+}

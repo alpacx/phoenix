@@ -1,0 +1,42 @@
+{
+  "status": "HISTORICAL REJECTED TRIALS; SUBSEQUENT COORDINATED REWORK ACCEPTED AS PARTIAL DRAFT",
+  "trials": [
+    {
+      "approach": "Add bypass connections after existing controls",
+      "result": "Only C1201 could connect; 8.523 mm route with two vias. Rejected as unsuitable bypass layout."
+    },
+    {
+      "approach": "Reserve all USB power escapes before signal escapes",
+      "result": "No safe preliminary escape for U24.14."
+    },
+    {
+      "approach": "Reserve signal escapes before USB power escapes",
+      "result": "No safe preliminary escape for U15.5."
+    },
+    {
+      "approach": "Prioritize U15 power escapes",
+      "result": "Preliminary escape stage failed; rejected."
+    },
+    {
+      "approach": "Move C1201/C1203 locally on back; signals before U15 power escapes",
+      "result": "No safe preliminary escape for U15.5; reverted."
+    },
+    {
+      "approach": "Move C1201/C1203 locally on back; U15 power escapes first",
+      "result": "No safe preliminary escape for U15.7; reverted."
+    }
+  ],
+  "conclusion": "The earlier trials remain rejected. Coordinated placement and early reservations subsequently closed the selected bypasses and both USB input supply nets without relaxing clearances. This does not complete USB data or all board power routing.",
+  "production_ready": false,
+  "accepted_rework": {
+    "pcb_sha256": "f50547ffec81b5f555ee4fde4fde5caf679819d2181682155f5267a468e23765",
+    "bypass_count": 13,
+    "ground_pads_checked": 48,
+    "raw_and_protected_input_nets_connected": true,
+    "method": "Same-side local bypass placement, reserved power backbones on In2.Cu, explicit signal escapes and ground returns; complete regeneration and physical continuity/DRC checks.",
+    "qualification": "Geometric only; current, thermal, impedance, transient and full board completion remain open.",
+    "auxiliary_3v3_all_pins_connected": true,
+    "all_four_usb_sheet_ground_dispositions_covered": true,
+    "courtyard_envelopes_repaired_instances": 26
+  }
+}

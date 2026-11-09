@@ -1,0 +1,179 @@
+{
+  "status": "PARTIAL USB CONTROL ROUTING; RUN DRC BEFORE ACCEPTING",
+  "nets": [
+    {
+      "net": "VBUS_RAW",
+      "length_mm": 27.0171,
+      "segments": 13,
+      "vias_xy_mm": [
+        [
+          1.25,
+          3.5
+        ],
+        [
+          10.200000000000001,
+          5.9
+        ]
+      ],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "R1901.1",
+        "C1901.1"
+      ]
+    },
+    {
+      "net": "VBUS_RAW",
+      "already_connected": true,
+      "length_mm": 0,
+      "segments": 0,
+      "vias_xy_mm": [],
+      "endpoints": [
+        "R1903.1",
+        "C1901.1"
+      ]
+    },
+    {
+      "net": "VBUS_RAW",
+      "length_mm": 10.1225,
+      "segments": 4,
+      "vias_xy_mm": [
+        [
+          16.5,
+          1.5
+        ],
+        [
+          10.200000000000001,
+          5.9
+        ]
+      ],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "TP2.1",
+        "C1901.1"
+      ]
+    },
+    {
+      "net": "VBUS_PROTECTED",
+      "length_mm": 3.1899,
+      "segments": 5,
+      "vias_xy_mm": [],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "U11.3",
+        "U11.1"
+      ]
+    },
+    {
+      "net": "VBUS_PROTECTED",
+      "length_mm": 9.9891,
+      "segments": 9,
+      "vias_xy_mm": [],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "C1101.1",
+        "C1201.1"
+      ]
+    },
+    {
+      "net": "VBUS_PROTECTED",
+      "length_mm": 39.8628,
+      "segments": 18,
+      "vias_xy_mm": [
+        [
+          14.600000000000001,
+          21.400000000000002
+        ],
+        [
+          7.0,
+          10.600000000000001
+        ]
+      ],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "U6.30",
+        "C1902.1"
+      ]
+    },
+    {
+      "net": "VBUS_PROTECTED",
+      "length_mm": 44.092,
+      "segments": 20,
+      "vias_xy_mm": [
+        [
+          13.200000000000001,
+          25.0
+        ],
+        [
+          7.0,
+          10.600000000000001
+        ]
+      ],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "R601.1",
+        "C1902.1"
+      ]
+    },
+    {
+      "net": "VBUS_PROTECTED",
+      "length_mm": 41.6314,
+      "segments": 20,
+      "vias_xy_mm": [
+        [
+          14.600000000000001,
+          22.8
+        ],
+        [
+          7.0,
+          10.600000000000001
+        ]
+      ],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "C605.1",
+        "C1902.1"
+      ]
+    }
+  ],
+  "initial_fanout": [],
+  "failed_branches": [],
+  "track_width_mm": 0.2,
+  "search_clearance_mm": 0.2,
+  "via_land_drill_mm": [
+    0.6,
+    0.3
+  ],
+  "cc_via_land_drill_mm": [
+    0.45,
+    0.2
+  ],
+  "track_and_via_items": 582,
+  "unconnected_ratsnest_edges": 1238,
+  "limitations": [
+    "Only the reported USB controls and explicit supply branches are routed. Full board routing, USB data, remaining power rails and qualification remain unresolved.",
+    "Candidate SoC footprint, stackup, ESD return paths, PI, decoupling and mechanics unqualified.",
+    "CC detours need optimization; DRC alone does not establish electrical performance."
+  ],
+  "production_ready": false
+}

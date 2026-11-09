@@ -1,0 +1,19 @@
+{
+  "status": "PIN INVENTORY ONLY; NOT an ERC, DRC or design approval",
+  "source": "Rockchip RK3568 PinOut V1.1 20210202 worksheet 05.PinOut List",
+  "manufacturer_count": 636,
+  "symbol_pin_count": 636,
+  "footprint_pad_count": 636,
+  "missing_symbol_balls": [],
+  "extra_symbol_balls": [],
+  "missing_footprint_balls": [],
+  "extra_footprint_balls": [],
+  "duplicate_symbol_balls": [],
+  "duplicate_footprint_balls": [],
+  "name_differences_for_review": [],
+  "limitations": [
+    "Power domain merged cells are filled downward only inside a part group.",
+    "reference_net is Rockchip's reference design, NOT a Phoenix net assignment.",
+    "Footprint coordinates, pad diameter, orientation and mask are NOT validated here."
+  ]
+}

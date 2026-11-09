@@ -1,0 +1,962 @@
+{
+  "status": "LOGICAL ERC MODEL; NOT ELECTRICAL CHARACTERISTICS OR RESET-STATE QUALIFICATION",
+  "pins": [
+    {
+      "ball": "C10",
+      "net": "DDR3_A0",
+      "function": "DDR3_A0",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "C18",
+      "net": "DDR3_A1",
+      "function": "DDR3_A1",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "C16",
+      "net": "DDR3_A10",
+      "function": "DDR3_A10",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "1A8",
+      "net": "DDR3_A11",
+      "function": "DDR3_A11",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "1A9",
+      "net": "DDR3_A12",
+      "function": "DDR3_A12",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "B15",
+      "net": "DDR3_A13",
+      "function": "DDR3_A13",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "1B6",
+      "net": "DDR3_A2",
+      "function": "DDR3_A2",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "B12",
+      "net": "DDR3_A3",
+      "function": "DDR3_A3",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "A10",
+      "net": "DDR3_A4",
+      "function": "DDR3_A4",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "B18",
+      "net": "DDR3_A5",
+      "function": "DDR3_A5",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "B10",
+      "net": "DDR3_A6",
+      "function": "DDR3_A6",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "B9",
+      "net": "DDR3_A7",
+      "function": "DDR3_A7",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "B19",
+      "net": "DDR3_A8",
+      "function": "DDR3_A8",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "A15",
+      "net": "DDR3_A9",
+      "function": "DDR3_A9",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "1A6",
+      "net": "DDR3_BA0",
+      "function": "DDR3_BA0",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "1A10",
+      "net": "DDR3_BA1",
+      "function": "DDR3_BA1",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "1B7",
+      "net": "DDR3_BA2",
+      "function": "DDR3_BA2",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "B16",
+      "net": "DDR3_CASN",
+      "function": "DDR3_CASN",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "C12",
+      "net": "DDR3_CKE",
+      "function": "DDR3_CKE",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "B13",
+      "net": "DDR3_CLKN",
+      "function": "DDR3_CLKN",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "A13",
+      "net": "DDR3_CLKP",
+      "function": "DDR3_CLKP",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "B17",
+      "net": "DDR3_CS0N",
+      "function": "DDR3_CS0N",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "B7",
+      "net": "DDR3_DM0",
+      "function": "DDR3_DM0",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "A2",
+      "net": "DDR3_DM1",
+      "function": "DDR3_DM1",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "B21",
+      "net": "DDR3_DM2",
+      "function": "DDR3_DM2",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "A26",
+      "net": "DDR3_DM3",
+      "function": "DDR3_DM3",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "B6",
+      "net": "DDR3_DQ0",
+      "function": "DDR3_DQ0",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "C5",
+      "net": "DDR3_DQ1",
+      "function": "DDR3_DQ1",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "C1",
+      "net": "DDR3_DQ10",
+      "function": "DDR3_DQ10",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "A3",
+      "net": "DDR3_DQ11",
+      "function": "DDR3_DQ11",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "B1",
+      "net": "DDR3_DQ12",
+      "function": "DDR3_DQ12",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "A4",
+      "net": "DDR3_DQ13",
+      "function": "DDR3_DQ13",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "C2",
+      "net": "DDR3_DQ14",
+      "function": "DDR3_DQ14",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "B4",
+      "net": "DDR3_DQ15",
+      "function": "DDR3_DQ15",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "B22",
+      "net": "DDR3_DQ16",
+      "function": "DDR3_DQ16",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "A22",
+      "net": "DDR3_DQ17",
+      "function": "DDR3_DQ17",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "C20",
+      "net": "DDR3_DQ18",
+      "function": "DDR3_DQ18",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "C22",
+      "net": "DDR3_DQ19",
+      "function": "DDR3_DQ19",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "A8",
+      "net": "DDR3_DQ2",
+      "function": "DDR3_DQ2",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "B20",
+      "net": "DDR3_DQ20",
+      "function": "DDR3_DQ20",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "C23",
+      "net": "DDR3_DQ21",
+      "function": "DDR3_DQ21",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "A20",
+      "net": "DDR3_DQ22",
+      "function": "DDR3_DQ22",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "B23",
+      "net": "DDR3_DQ23",
+      "function": "DDR3_DQ23",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "B26",
+      "net": "DDR3_DQ24",
+      "function": "DDR3_DQ24",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "A24",
+      "net": "DDR3_DQ25",
+      "function": "DDR3_DQ25",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "C26",
+      "net": "DDR3_DQ26",
+      "function": "DDR3_DQ26",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "A25",
+      "net": "DDR3_DQ27",
+      "function": "DDR3_DQ27",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "B27",
+      "net": "DDR3_DQ28",
+      "function": "DDR3_DQ28",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "B25",
+      "net": "DDR3_DQ29",
+      "function": "DDR3_DQ29",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "B5",
+      "net": "DDR3_DQ3",
+      "function": "DDR3_DQ3",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "C27",
+      "net": "DDR3_DQ30",
+      "function": "DDR3_DQ30",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "B24",
+      "net": "DDR3_DQ31",
+      "function": "DDR3_DQ31",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "B8",
+      "net": "DDR3_DQ4",
+      "function": "DDR3_DQ4",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "C6",
+      "net": "DDR3_DQ5",
+      "function": "DDR3_DQ5",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "C8",
+      "net": "DDR3_DQ6",
+      "function": "DDR3_DQ6",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "A6",
+      "net": "DDR3_DQ7",
+      "function": "DDR3_DQ7",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "B2",
+      "net": "DDR3_DQ8",
+      "function": "DDR3_DQ8",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "B3",
+      "net": "DDR3_DQ9",
+      "function": "DDR3_DQ9",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "1B3",
+      "net": "DDR3_DQS0N",
+      "function": "DDR3_DQS0N",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "1A3",
+      "net": "DDR3_DQS0P",
+      "function": "DDR3_DQS0P",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "1B1",
+      "net": "DDR3_DQS1N",
+      "function": "DDR3_DQS1N",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "1A1",
+      "net": "DDR3_DQS1P",
+      "function": "DDR3_DQS1P",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "1B13",
+      "net": "DDR3_DQS2N",
+      "function": "DDR3_DQS2N",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "1A13",
+      "net": "DDR3_DQS2P",
+      "function": "DDR3_DQS2P",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "1B15",
+      "net": "DDR3_DQS3N",
+      "function": "DDR3_DQS3N",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "1A15",
+      "net": "DDR3_DQS3P",
+      "function": "DDR3_DQS3P",
+      "erc_type": "bidirectional",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "C17",
+      "net": "DDR3_ODT0",
+      "function": "DDR3_ODT0",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "1A7",
+      "net": "DDR3_RASN",
+      "function": "DDR3_RASN",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "1B11",
+      "net": "DDR3_RESETN",
+      "function": "DDR3_RESETN",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "1B10",
+      "net": "DDR3_WEN",
+      "function": "DDR3_WEN",
+      "erc_type": "output",
+      "basis": "DDR3 controller role: DQ/DQS read/write; address, control, clock and DM driven by controller."
+    },
+    {
+      "ball": "AB26",
+      "net": "SOC_USB_RX_P",
+      "function": "USB30_OTG0_SSRXP",
+      "erc_type": "input",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "AB27",
+      "net": "SOC_USB_RX_N",
+      "function": "USB30_OTG0_SSRXN",
+      "erc_type": "input",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "AD26",
+      "net": "SOC_USB_TX_P",
+      "function": "USB30_OTG0_SSTXP",
+      "erc_type": "output",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "AD27",
+      "net": "SOC_USB_TX_N",
+      "function": "USB30_OTG0_SSTXN",
+      "erc_type": "output",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "AF27",
+      "net": "USB_DP",
+      "function": "USB30_OTG0_DP",
+      "erc_type": "bidirectional",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "AF26",
+      "net": "USB_DM",
+      "function": "USB30_OTG0_DM",
+      "erc_type": "bidirectional",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "1P14",
+      "net": "SOC_VBUS_DET",
+      "function": "USB30_OTG0_VBUSDET",
+      "erc_type": "input",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "AG25",
+      "net": "XIN24M",
+      "function": "OSC_SOC_XIN",
+      "erc_type": "input",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "AF25",
+      "net": "XOUT24M",
+      "function": "OSC_SOC_XOUT",
+      "erc_type": "output",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "AG23",
+      "net": "I2C0_SCL",
+      "function": "I2C0_SCL",
+      "erc_type": "bidirectional",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "AE23",
+      "net": "I2C0_SDA",
+      "function": "I2C0_SDA",
+      "erc_type": "bidirectional",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "AA1",
+      "net": "ETH_TXD0",
+      "function": "RGMII_TXD0_M0",
+      "erc_type": "output",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "AA2",
+      "net": "ETH_TXD1",
+      "function": "RGMII_TXD1_M0",
+      "erc_type": "output",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "AB3",
+      "net": "ETH_TXD2",
+      "function": "RGMII_TXD2_M0",
+      "erc_type": "output",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "AB2",
+      "net": "ETH_TXD3",
+      "function": "RGMII_TXD3_M0",
+      "erc_type": "output",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "AA3",
+      "net": "ETH_TXEN",
+      "function": "RGMII_TXEN_M0",
+      "erc_type": "output",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "Y2",
+      "net": "ETH_TXCLK",
+      "function": "RGMII_TXCLK_M0",
+      "erc_type": "output",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "W3",
+      "net": "ETH_RXD0",
+      "function": "RGMII_RXD0_M0",
+      "erc_type": "input",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "W1",
+      "net": "ETH_RXD1",
+      "function": "RGMII_RXD1_M0",
+      "erc_type": "input",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "W2",
+      "net": "ETH_RXD2",
+      "function": "RGMII_RXD2_M0",
+      "erc_type": "input",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "Y3",
+      "net": "ETH_RXD3",
+      "function": "RGMII_RXD3_M0",
+      "erc_type": "input",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "U2",
+      "net": "ETH_RXCLK",
+      "function": "RGMII_RXCLK_M0",
+      "erc_type": "input",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "V2",
+      "net": "ETH_RXDV_CRS",
+      "function": "RGMII_RXDV_M0",
+      "erc_type": "input",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "AC1",
+      "net": "ETH_MDC",
+      "function": "RGMII_MDC_M0",
+      "erc_type": "output",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "AC2",
+      "net": "ETH_MDIO",
+      "function": "RGMII_MDIO_M0",
+      "erc_type": "bidirectional",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "U26",
+      "net": "WIFI_D0",
+      "function": "SDMMC1_D0",
+      "erc_type": "bidirectional",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "V25",
+      "net": "WIFI_D1",
+      "function": "SDMMC1_D1",
+      "erc_type": "bidirectional",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "T25",
+      "net": "WIFI_D2",
+      "function": "SDMMC1_D2",
+      "erc_type": "bidirectional",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "T26",
+      "net": "WIFI_D3",
+      "function": "SDMMC1_D3",
+      "erc_type": "bidirectional",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "T27",
+      "net": "WIFI_CMD",
+      "function": "SDMMC1_CMD",
+      "erc_type": "bidirectional",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "U25",
+      "net": "WIFI_CLK",
+      "function": "SDMMC1_CLK",
+      "erc_type": "output",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "J25",
+      "net": "FSPI_D0",
+      "function": "FSPI_D0",
+      "erc_type": "bidirectional",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "J26",
+      "net": "FSPI_D1",
+      "function": "FSPI_D1",
+      "erc_type": "bidirectional",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "H25",
+      "net": "FSPI_D2",
+      "function": "FSPI_D2",
+      "erc_type": "bidirectional",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "K27",
+      "net": "FSPI_D3",
+      "function": "FSPI_D3",
+      "erc_type": "bidirectional",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "M25",
+      "net": "FSPI_CLK",
+      "function": "FSPI_CLK",
+      "erc_type": "output",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "M26",
+      "net": "FSPI_CS_N",
+      "function": "FSPI_CSN0",
+      "erc_type": "output",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "T3",
+      "net": "LCD_MOSI",
+      "function": "SPI2_MOSI_M0",
+      "erc_type": "output",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "N3",
+      "net": "LCD_SCLK",
+      "function": "SPI2_CLK_M0",
+      "erc_type": "output",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "M3",
+      "net": "LCD_CS_N",
+      "function": "SPI2_CSN0_M0",
+      "erc_type": "output",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "1P12",
+      "net": "RESET_N",
+      "function": "nPOR",
+      "erc_type": "input",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "D26",
+      "net": "RECOVERY_ADC",
+      "function": "SARADC0_BOOT",
+      "erc_type": "input",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "AE20",
+      "net": "DEBUG_TX",
+      "function": "UART0_TX_M0",
+      "erc_type": "output",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "AF20",
+      "net": "DEBUG_RX",
+      "function": "UART0_RX_M0",
+      "erc_type": "input",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "1R13",
+      "net": "THERMAL_SHUTDOWN",
+      "function": "TSADC_SHUT_M0",
+      "erc_type": "output",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "AE16",
+      "net": "EXP_SPI_CLK",
+      "function": "SPI0_CLK_M0",
+      "erc_type": "output",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "AG19",
+      "net": "EXP_SPI_MOSI",
+      "function": "SPI0_MOSI_M0",
+      "erc_type": "output",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "AE18",
+      "net": "EXP_SPI_MISO",
+      "function": "SPI0_MISO_M0",
+      "erc_type": "input",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "AG17",
+      "net": "EXP_SPI_CS0_N",
+      "function": "SPI0_CSN0_M0",
+      "erc_type": "output",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "AF15",
+      "net": "EXP_SPI_CS1_N",
+      "function": "SPI0_CSN1_M0",
+      "erc_type": "output",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "AF16",
+      "net": "EXP_I2C_SCL",
+      "function": "I2C2_SCL_M0",
+      "erc_type": "bidirectional",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "AE15",
+      "net": "EXP_I2C_SDA",
+      "function": "I2C2_SDA_M0",
+      "erc_type": "bidirectional",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "Y26",
+      "net": "EXP_UART_TX",
+      "function": "UART1_TX_M0",
+      "erc_type": "output",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "Y25",
+      "net": "EXP_UART_RX",
+      "function": "UART1_RX_M0",
+      "erc_type": "input",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "N1",
+      "net": "LCD_DC",
+      "function": "GPIO3_C4_d",
+      "erc_type": "output",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "N2",
+      "net": "LCD_RESET_N",
+      "function": "GPIO3_C5_d",
+      "erc_type": "output",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "L1",
+      "net": "LCD_BL_PWM",
+      "function": "PWM8_M0",
+      "erc_type": "output",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "1J14",
+      "net": "WIFI_REG_ON",
+      "function": "GPIO1_C7_d",
+      "erc_type": "output",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "V26",
+      "net": "WIFI_HOST_WAKE",
+      "function": "GPIO1_D0_d",
+      "erc_type": "input",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "T2",
+      "net": "ETH_RESET_GPIO_N",
+      "function": "GPIO4_B1_d",
+      "erc_type": "output",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "K2",
+      "net": "EXP_GPIO0",
+      "function": "GPIO3_A2_d",
+      "erc_type": "bidirectional",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "L3",
+      "net": "EXP_GPIO1",
+      "function": "GPIO3_A3_d",
+      "erc_type": "bidirectional",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "K3",
+      "net": "EXP_GPIO2",
+      "function": "GPIO3_A5_d",
+      "erc_type": "bidirectional",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "L2",
+      "net": "EXP_GPIO3",
+      "function": "GPIO3_A7_d",
+      "erc_type": "bidirectional",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "AF23",
+      "net": "PMIC_SLEEP",
+      "function": "PWR_CTRL0",
+      "erc_type": "output",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    },
+    {
+      "ball": "AF22",
+      "net": "PMIC_INT_N",
+      "function": "GPIO0_A3_u",
+      "erc_type": "input",
+      "basis": "Selected function direction; pinmux must select this function before enabling output."
+    }
+  ],
+  "counts": {
+    "output": 59,
+    "bidirectional": 60,
+    "input": 17
+  }
+}

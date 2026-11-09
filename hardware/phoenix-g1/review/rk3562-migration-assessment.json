@@ -1,0 +1,82 @@
+{
+  "status": "EVALUATION ONLY; ACTIVE RK3568 DESIGN UNCHANGED",
+  "retained": {
+    "ram_mib": 512,
+    "ram_bus_bits": 32,
+    "wifi": true,
+    "display": true,
+    "expansion": true,
+    "fan": false,
+    "pcb_mm": [
+      90,
+      40
+    ]
+  },
+  "candidate": "RK3562",
+  "price_observed_usd": 11.8702,
+  "baseline_soc_usd": 20.4547,
+  "soc_only_saving_usd": 8.5845,
+  "hypothetical_bom_with_only_soc_price_changed_usd": 67.4517,
+  "not_a_revised_bom": true,
+  "datasheet": "reference/rk3562-cost-study.pdf",
+  "documented_features": [
+    "USB3 static device and dual role, section1.2 p12",
+    "RGMII10/100/1000,section1.2 p12",
+    "DDR3 32bit two ranks,section1.2 p7",
+    "FCCSP47813.9x13.9mm mixed0.5/0.65mm pitch,p13 and16"
+  ],
+  "package_visual_review": "Bottom view p16 checked; outer0.5mm/inner0.65mm geometry is not RK3568 footprint compatible",
+  "geometry_screen": [
+    {
+      "pitch_mm": 0.5,
+      "hypothetical_land_mm": 0.25,
+      "trace_width_mm": 0.09,
+      "clearance_mm": 0.09,
+      "single_trace_channel_margin_mm": -0.02,
+      "via_land_mm": 0.35,
+      "cell_center_clearance_mm": 0.05355
+    },
+    {
+      "pitch_mm": 0.5,
+      "hypothetical_land_mm": 0.3,
+      "trace_width_mm": 0.09,
+      "clearance_mm": 0.09,
+      "single_trace_channel_margin_mm": -0.07,
+      "via_land_mm": 0.35,
+      "cell_center_clearance_mm": 0.02855
+    },
+    {
+      "pitch_mm": 0.65,
+      "hypothetical_land_mm": 0.25,
+      "trace_width_mm": 0.09,
+      "clearance_mm": 0.09,
+      "single_trace_channel_margin_mm": 0.13,
+      "via_land_mm": 0.35,
+      "cell_center_clearance_mm": 0.15962
+    },
+    {
+      "pitch_mm": 0.65,
+      "hypothetical_land_mm": 0.3,
+      "trace_width_mm": 0.09,
+      "clearance_mm": 0.09,
+      "single_trace_channel_margin_mm": 0.08,
+      "via_land_mm": 0.35,
+      "cell_center_clearance_mm": 0.13462
+    }
+  ],
+  "geometry_limits": [
+    "Land diameters are hypothetical screening values, not approved footprints.",
+    "Negative channel margin rejects that simple geometry only; it does not prove HDI is necessary.",
+    "Actual ball-function map and escape routing required before choosing layer/via process."
+  ],
+  "software_source": "https://github.com/rockchip-linux/rkbin/blob/master/doc/release/RK3562_EN.md",
+  "software_status": "Vendor release notes available; no boot or USB network driver qualification on Phoenix",
+  "migration_gates": [
+    "Match exact pin functions and IO bank voltages for simultaneous DDR3, RGMII, USB3 device, SDIO, SPI display and expansion.",
+    "Reconcile PMIC variant, reset and complete sequencing against RK3562 reference hardware.",
+    "Prove manufacturable escape with selected JLC stackup; include board/assembly delta in net savings.",
+    "Validate chosen DDR chips in vendor loader and configure Ethernet, USB gadget, Wi-Fi and thermal controls.",
+    "Measure sustained VPN and closed-case passive temperatures; no guaranteed gigabit inferred from ports."
+  ],
+  "decision": "Retain512MiB and existing active schematic. RK3562 remains migration candidate pending gates; do not route processor-dependent region against an unapproved alternative."
+}

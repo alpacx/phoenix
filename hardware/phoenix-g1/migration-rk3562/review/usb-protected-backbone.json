@@ -1,0 +1,63 @@
+{
+  "status": "CANDIDATE; DRC AND CURRENT/TEMPERATURE QUALIFICATION REQUIRED",
+  "paths": [
+    {
+      "start_mm": [
+        10.15,
+        10.7
+      ],
+      "end_mm": [
+        12.5,
+        11.0
+      ],
+      "length_mm": 2.4742640687119275,
+      "width_mm": 1.5,
+      "layer": "In2.Cu"
+    },
+    {
+      "start_mm": [
+        12.5,
+        11.0
+      ],
+      "end_mm": [
+        12.5,
+        36.0
+      ],
+      "length_mm": 25.0,
+      "width_mm": 1.5,
+      "layer": "In2.Cu"
+    },
+    {
+      "start_mm": [
+        12.5,
+        36.0
+      ],
+      "end_mm": [
+        5.35,
+        36.0
+      ],
+      "length_mm": 7.1499999999999995,
+      "width_mm": 1.5,
+      "layer": "In2.Cu"
+    },
+    {
+      "start_mm": [
+        5.35,
+        36.0
+      ],
+      "end_mm": [
+        5.35,
+        32.95
+      ],
+      "length_mm": 3.049999999999997,
+      "width_mm": 1.5,
+      "layer": "In2.Cu"
+    }
+  ],
+  "via_land_drill_mm": [
+    0.6,
+    0.3
+  ],
+  "via_count": 4,
+  "production_ready": false
+}

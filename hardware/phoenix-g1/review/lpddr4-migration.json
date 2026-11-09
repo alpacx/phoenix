@@ -1,0 +1,503 @@
+{
+  "status": "MIGRATION PREPARATION - RAM MPN/ballout not selected; active schematic still DDR3",
+  "target": "512MiB minimum, 1GiB optional; prefer one package with 32bit aggregate across two 16bit channels; exact ranks and loader support pending part selection",
+  "selection_status": "No affordable stocked 512MiB candidate identified in checked JLC records; stocked 1GiB Samsung candidate exceeds memory budget expectations and is not selected",
+  "capacity_policy": {
+    "minimum_MiB": 512,
+    "optional_MiB": 1024,
+    "capacity_is_not_throughput_guarantee": true,
+    "x16_requires_separate_controller_and_loader_validation": true
+  },
+  "signals": [
+    {
+      "soc_ball": "F2",
+      "function": "LPDDR4_DQ0_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "E1",
+      "function": "LPDDR4_DQ1_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "E2",
+      "function": "LPDDR4_DQ2_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "D1",
+      "function": "LPDDR4_DQ3_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "J1",
+      "function": "LPDDR4_DQ4_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "J2",
+      "function": "LPDDR4_DQ5_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "H1",
+      "function": "LPDDR4_DQ6_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "H4",
+      "function": "LPDDR4_DQ7_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "H5",
+      "function": "LPDDR4_DM0_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "G1",
+      "function": "LPDDR4_DQS0P_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "G2",
+      "function": "LPDDR4_DQS0N_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "M1",
+      "function": "LPDDR4_DQ8_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "N2",
+      "function": "LPDDR4_DQ9_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "L7",
+      "function": "LPDDR4_DQ10_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "L6",
+      "function": "LPDDR4_DQ11_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "K2",
+      "function": "LPDDR4_DQ12_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "J6",
+      "function": "LPDDR4_DQ13_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "J7",
+      "function": "LPDDR4_DQ14_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "L4",
+      "function": "LPDDR4_DQ15_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "J4",
+      "function": "LPDDR4_DM1_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "L2",
+      "function": "LPDDR4_DQS1P_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "L1",
+      "function": "LPDDR4_DQS1N_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "B10",
+      "function": "LPDDR4_DQ0_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "A9",
+      "function": "LPDDR4_DQ1_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "D12",
+      "function": "LPDDR4_DQ2_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "E12",
+      "function": "LPDDR4_DQ3_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "A12",
+      "function": "LPDDR4_DQ4_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "D15",
+      "function": "LPDDR4_DQ5_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "E15",
+      "function": "LPDDR4_DQ6_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "E14",
+      "function": "LPDDR4_DQ7_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "D14",
+      "function": "LPDDR4_DM0_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "A11",
+      "function": "LPDDR4_DQS0P_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "B11",
+      "function": "LPDDR4_DQS0N_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "A16",
+      "function": "LPDDR4_DQ8_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "B17",
+      "function": "LPDDR4_DQ9_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "A17",
+      "function": "LPDDR4_DQ10_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "B18",
+      "function": "LPDDR4_DQ11_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "B13",
+      "function": "LPDDR4_DQ12_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "A13",
+      "function": "LPDDR4_DQ13_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "D17",
+      "function": "LPDDR4_DQ14_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "B14",
+      "function": "LPDDR4_DQ15_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "E17",
+      "function": "LPDDR4_DM1_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "B15",
+      "function": "LPDDR4_DQS1P_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "A15",
+      "function": "LPDDR4_DQS1N_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "B6",
+      "function": "LPDDR4_CLKP_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "B1",
+      "function": "LPDDR4_A1_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "F4",
+      "function": "LPDDR4_CKE1_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "D9",
+      "function": "LPDDR4_A3_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "B7",
+      "function": "LPDDR4_A5_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "A7",
+      "function": "LPDDR4_A1_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "A8",
+      "function": "LPDDR4_ODT0_CA_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "C1",
+      "function": "LPDDR4_ODT0_CA_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "A5",
+      "function": "LPDDR4_CLKN_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "D6",
+      "function": "LPDDR4_CKE0_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "C2",
+      "function": "LPDDR4_A0_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "C4",
+      "function": "LPDDR4_A3_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "B8",
+      "function": "LPDDR4_A0_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "C5",
+      "function": "LPDDR4_A4_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "E4",
+      "function": "LPDDR4_A2_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "D5",
+      "function": "LPDDR4_A5_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "E6",
+      "function": "LPDDR4_CKE1_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "E11",
+      "function": "LPDDR4_A2_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "E9",
+      "function": "LPDDR4_A4_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "F8",
+      "function": "LPDDR4_ODT1_CA_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "F7",
+      "function": "LPDDR4_ODT1_CA_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "B3",
+      "function": "LPDDR4_CKE0_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "B4",
+      "function": "LPDDR4_CLKP_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "A4",
+      "function": "LPDDR4_CLKN_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "A2",
+      "function": "LPDDR4_CS0N_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "B2",
+      "function": "LPDDR4_CS1N_A",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "E8",
+      "function": "LPDDR4_CS1N_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "D8",
+      "function": "LPDDR4_CS0N_B",
+      "ram_ball": null
+    },
+    {
+      "soc_ball": "F11",
+      "function": "LPDDR4_RESETN",
+      "ram_ball": null
+    }
+  ],
+  "single_rank_required_signal_check": "PASS",
+  "references": {
+    "soc": "RK3568 vendor PinOut V1.1",
+    "rock3a": "https://dl.radxa.com/rock3/docs/hw/3a/radxa_rock_3a_v1310_schematic.pdf",
+    "zero3e": "https://dl.radxa.com/zero3/docs/hw/3e/radxa_zero_3e_v1200_schematic.pdf"
+  },
+  "important_differences": [
+    "ROCK3A sheet15 is LPDDR4X: VDDQ0.6V; do not copy that rail into LPDDR4 requiring1.1V.",
+    "ZERO3E uses RK3566; do not transfer its processor ball numbers to RK3568.",
+    "Radxa drawings use generic memory symbols; they do not establish the exact stocked chip/loader combination."
+  ],
+  "candidates": [
+    {
+      "componentCode": "C2803257",
+      "componentModelEn": "K4F8E304HB-MGCJ",
+      "canPresaleNumber": 0,
+      "initialPrice": 5.5655,
+      "retrieved_utc": "2026-11-07T17:18:42.275190+00:00",
+      "source_url": "https://jlcpcb.com/partdetail/Samsung-K4F8E304HBMGCJ/C2803257"
+    },
+    {
+      "componentCode": "C2920231",
+      "componentModelEn": "K4F8E3S4HD-MGCL",
+      "canPresaleNumber": 63,
+      "initialPrice": 32.3069,
+      "retrieved_utc": "2026-11-07T17:26:34.635142+00:00",
+      "source_url": "https://jlcpcb.com/partdetail/C2920231"
+    },
+    {
+      "componentCode": "C21177800",
+      "componentModelEn": "MT53E256M32D1KS-046 WT:L",
+      "canPresaleNumber": 1,
+      "initialPrice": 93.594,
+      "retrieved_utc": "2026-11-07T17:19:02.025025+00:00",
+      "source_url": "https://jlcpcb.com/partdetail/C21177800"
+    },
+    {
+      "componentCode": "C27300677",
+      "componentModelEn": "D0811PM2FDGUK-U",
+      "canPresaleNumber": 0,
+      "initialPrice": 8.542,
+      "retrieved_utc": "2026-11-07T17:19:01.683478+00:00",
+      "source_url": "https://jlcpcb.com/partdetail/C27300677"
+    },
+    {
+      "componentCode": "C5330500",
+      "componentModelEn": "MT53E512M32D1ZW-046 WT:B",
+      "canPresaleNumber": 34,
+      "initialPrice": 148.9527,
+      "retrieved_utc": "2026-11-07T17:20:53.812046+00:00",
+      "source_url": "https://jlcpcb.com/partdetail/C5330500"
+    },
+    {
+      "componentCode": "C2980378",
+      "componentModelEn": "IMH512M32H2D2ENA",
+      "canPresaleNumber": 0,
+      "initialPrice": 8.4586,
+      "retrieved_utc": "2026-11-07T17:20:52.879351+00:00",
+      "source_url": "https://jlcpcb.com/partdetail/C2980378"
+    },
+    {
+      "componentCode": "C31863237",
+      "componentModelEn": "D1621PM4CDGUI-U",
+      "canPresaleNumber": 0,
+      "initialPrice": 18.9387,
+      "retrieved_utc": "2026-11-07T17:20:52.618264+00:00",
+      "source_url": "https://jlcpcb.com/partdetail/C31863237"
+    },
+    {
+      "componentCode": "C46681827",
+      "componentModelEn": "W66DP2RQQAGJ",
+      "canPresaleNumber": 0,
+      "initialPrice": 36.0128,
+      "retrieved_utc": "2026-11-07T17:20:52.809220+00:00",
+      "source_url": "https://jlcpcb.com/partdetail/C46681827"
+    },
+    {
+      "componentCode": "C2840158",
+      "componentModelEn": "RS512M32LM4D2BDS-53BT",
+      "canPresaleNumber": 0,
+      "initialPrice": 13.3241,
+      "retrieved_utc": "2026-11-07T17:20:53.122742+00:00",
+      "source_url": "https://jlcpcb.com/partdetail/C2840158"
+    },
+    {
+      "componentCode": "C20452602",
+      "componentModelEn": "MT53E128M32D2FW-046 AUT:A",
+      "canPresaleNumber": 0,
+      "initialPrice": 25.2793,
+      "retrieved_utc": "2026-11-07T17:23:50.606589+00:00",
+      "source_url": "https://jlcpcb.com/partdetail/C20452602"
+    },
+    {
+      "componentCode": "C2920216",
+      "componentModelEn": "K4F4E3S4HF-GHCJ",
+      "canPresaleNumber": 0,
+      "initialPrice": 4.2555,
+      "retrieved_utc": "2026-11-07T17:23:50.260179+00:00",
+      "source_url": "https://jlcpcb.com/partdetail/C2920216"
+    },
+    {
+      "componentCode": "C20553875",
+      "componentModelEn": "MT53E128M32D2DS-046 AUT:A TR",
+      "canPresaleNumber": 0,
+      "initialPrice": 24.2212,
+      "retrieved_utc": "2026-11-07T17:23:50.233459+00:00",
+      "source_url": "https://jlcpcb.com/partdetail/C20553875"
+    },
+    {
+      "componentCode": "C2920229",
+      "componentModelEn": "K4F8E3S4HD-GHCL",
+      "canPresaleNumber": 8,
+      "initialPrice": 33.5139,
+      "retrieved_utc": "2026-11-07T17:26:31.661995+00:00",
+      "source_url": "https://jlcpcb.com/partdetail/C2920229"
+    }
+  ],
+  "required_changes": [
+    "Replace two DDR3 packages with selected200-ball package after checking actual datasheet.",
+    "Change PMIC DDR1.5V rail to required1.1V; add/qualify1.8V VDD1 and correct VDDQ.",
+    "Rebuild byte lanes, channel CA/CK/CS/CKE, reset and ZQ networks from actual ballout.",
+    "Replace DDR3 VREF/termination and bypass according to LPDDR4 requirements.",
+    "Revalidate loader geometry/training and power sequencing.",
+    "Regenerate schematic, BOM, placement and independent pin checks only after complete mapping."
+  ]
+}

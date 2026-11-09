@@ -1,0 +1,246 @@
+{
+  "status": "PARTIAL USB CONTROL ROUTING; RUN DRC BEFORE ACCEPTING",
+  "nets": [
+    {
+      "net": "VBUS_UVLO",
+      "length_mm": 5.0321,
+      "segments": 8,
+      "vias_xy_mm": [],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "R1901.2",
+        "R1902.1"
+      ]
+    },
+    {
+      "net": "VBUS_UVLO",
+      "length_mm": 9.0985,
+      "segments": 5,
+      "vias_xy_mm": [
+        [
+          2.0,
+          5.5
+        ],
+        [
+          7.25,
+          4.2
+        ]
+      ],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "R1902.1",
+        "U24.14"
+      ]
+    },
+    {
+      "net": "VBUS_OVP",
+      "length_mm": 15.6126,
+      "segments": 14,
+      "vias_xy_mm": [
+        [
+          6.300000000000001,
+          13.0
+        ],
+        [
+          6.75,
+          3.5
+        ]
+      ],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "R1903.2",
+        "U24.15"
+      ]
+    },
+    {
+      "net": "VBUS_OVP",
+      "length_mm": 7.3177,
+      "segments": 8,
+      "vias_xy_mm": [
+        [
+          6.75,
+          3.5
+        ],
+        [
+          5.0,
+          1.0
+        ]
+      ],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "U24.15",
+        "R1904.1"
+      ]
+    },
+    {
+      "net": "VBUS_GUARD_ILIM",
+      "length_mm": 18.5887,
+      "segments": 14,
+      "vias_xy_mm": [
+        [
+          11.3,
+          9.0
+        ],
+        [
+          3.0,
+          8.0
+        ]
+      ],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "R1905.1",
+        "U24.17"
+      ]
+    },
+    {
+      "net": "VBUS_GUARD_DVDT",
+      "length_mm": 5.1641,
+      "segments": 6,
+      "vias_xy_mm": [
+        [
+          3.2,
+          8.85
+        ],
+        [
+          3.2,
+          8.85
+        ]
+      ],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "C1903.1",
+        "U24.18"
+      ]
+    },
+    {
+      "net": "USB_DVDT",
+      "length_mm": 4.3978,
+      "segments": 6,
+      "vias_xy_mm": [
+        [
+          7.25,
+          29.75
+        ],
+        [
+          5.050000000000001,
+          30.05
+        ]
+      ],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "C1202.1",
+        "U15.1"
+      ]
+    },
+    {
+      "net": "USB_ILIM",
+      "length_mm": 9.0733,
+      "segments": 9,
+      "vias_xy_mm": [
+        [
+          3.6500000000000004,
+          35.0
+        ],
+        [
+          8.15,
+          30.75
+        ]
+      ],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "R1201.1",
+        "U15.7"
+      ]
+    },
+    {
+      "net": "USB_POWER_FAULT_N",
+      "length_mm": 12.1677,
+      "segments": 11,
+      "vias_xy_mm": [
+        [
+          1.0,
+          30.0
+        ],
+        [
+          8.25,
+          31.75
+        ]
+      ],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "R1202.1",
+        "U15.6"
+      ]
+    },
+    {
+      "net": "USB_POWER_FAULT_N",
+      "length_mm": 10.9213,
+      "segments": 6,
+      "vias_xy_mm": [
+        [
+          8.25,
+          31.75
+        ],
+        [
+          16.0,
+          33.5
+        ]
+      ],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "U15.6",
+        "TP13.1"
+      ]
+    }
+  ],
+  "initial_fanout": [],
+  "failed_branches": [],
+  "track_width_mm": 0.2,
+  "search_clearance_mm": 0.2,
+  "via_land_drill_mm": [
+    0.6,
+    0.3
+  ],
+  "cc_via_land_drill_mm": [
+    0.45,
+    0.2
+  ],
+  "track_and_via_items": 489,
+  "unconnected_ratsnest_edges": 1246,
+  "limitations": [
+    "Only the reported USB controls and explicit supply branches are routed. Full board routing, USB data, remaining power rails and qualification remain unresolved.",
+    "Candidate SoC footprint, stackup, ESD return paths, PI, decoupling and mechanics unqualified.",
+    "CC detours need optimization; DRC alone does not establish electrical performance."
+  ],
+  "production_ready": false
+}

@@ -1,0 +1,23 @@
+{
+  "part": "1054500101",
+  "jlc": "C134092",
+  "footprint": "Phoenix_Reviewed:USB_C_Receptacle_Molex_105450-0101",
+  "source_library": "KiCad10.0.7 Connector_USB; copied without geometry modifications",
+  "drawing": "Molex SD-105450-001, sheet2, release2017-04-24; manufacturer drawing mirrored at https://studfile.net/preview/18657138/",
+  "manufacturer_current_series": "https://www.molex.com/en-us/products/series-chart/105450",
+  "verified": [
+    "24 signal contacts plus four common shield pads",
+    "No NPTH holes",
+    "Four plated slots width0.6mm, length1.6/2.1mm",
+    "Row contact lands0.7mm long",
+    "Local clearance0.15mm per JLC pad-to-pad minimum; no exclusions",
+    "Top-layer restricted area retained"
+  ],
+  "board_edge_local_y_mm": 4.325,
+  "provisional_board_thickness_mm": 0.8,
+  "limitations": [
+    "Board stackup not qualified; manufacturer recommends0.8mm PCB for this variant.",
+    "Legacy drawing mirror used because official PDF download unavailable; current drawing must be reconciled before release.",
+    "Assembly hole/tail tolerances and solder process unqualified."
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "status": "SOURCE TERMINATION PLACEMENT TOPOLOGY ONLY; NO RK3562 TIMING OR IMPEDANCE QUALIFICATION",
+  "rgmii_paths": [
+    {
+      "signal": "TXD0",
+      "group": "TX",
+      "net_segments": [
+        "ETH_TXD0",
+        "PHY_TXD0"
+      ],
+      "series": {
+        "component": "R501",
+        "value": "22R"
+      },
+      "source_ref": "U1",
+      "receiver_ref": "U5",
+      "match_reference": "TXCLK",
+      "branches": [],
+      "source_termination_placement": "Place 22R near source; RX source is U5, TX source is U1."
+    },
+    {
+      "signal": "TXD1",
+      "group": "TX",
+      "net_segments": [
+        "ETH_TXD1",
+        "PHY_TXD1"
+      ],
+      "series": {
+        "component": "R502",
+        "value": "22R"
+      },
+      "source_ref": "U1",
+      "receiver_ref": "U5",
+      "match_reference": "TXCLK",
+      "branches": [],
+      "source_termination_placement": "Place 22R near source; RX source is U5, TX source is U1."
+    },
+    {
+      "signal": "TXD2",
+      "group": "TX",
+      "net_segments": [
+        "ETH_TXD2",
+        "PHY_TXD2"
+      ],
+      "series": {
+        "component": "R503",
+        "value": "22R"
+      },
+      "source_ref": "U1",
+      "receiver_ref": "U5",
+      "match_reference": "TXCLK",
+      "branches": [],
+      "source_termination_placement": "Place 22R near source; RX source is U5, TX source is U1."
+    },
+    {
+      "signal": "TXD3",
+      "group": "TX",
+      "net_segments": [
+        "ETH_TXD3",
+        "PHY_TXD3"
+      ],
+      "series": {
+        "component": "R504",
+        "value": "22R"
+      },
+      "source_ref": "U1",
+      "receiver_ref": "U5",
+      "match_reference": "TXCLK",
+      "branches": [],
+      "source_termination_placement": "Place 22R near source; RX source is U5, TX source is U1."
+    },
+    {
+      "signal": "TXEN",
+      "group": "TX",
+      "net_segments": [
+        "ETH_TXEN",
+        "PHY_TXEN"
+      ],
+      "series": {
+        "component": "R505",
+        "value": "22R"
+      },
+      "source_ref": "U1",
+      "receiver_ref": "U5",
+      "match_reference": "TXCLK",
+      "branches": [],
+      "source_termination_placement": "Place 22R near source; RX source is U5, TX source is U1."
+    },
+    {
+      "signal": "TXCLK",
+      "group": "TX",
+      "net_segments": [
+        "ETH_TXCLK",
+        "PHY_TXCLK"
+      ],
+      "series": {
+        "component": "R506",
+        "value": "22R"
+      },
+      "source_ref": "U1",
+      "receiver_ref": "U5",
+      "match_reference": "TXCLK",
+      "branches": [],
+      "source_termination_placement": "Place 22R near source; RX source is U5, TX source is U1."
+    },
+    {
+      "signal": "RXD0",
+      "group": "RX",
+      "net_segments": [
+        "ETH_RXD0",
+        "PHY_RXD0"
+      ],
+      "series": {
+        "component": "R507",
+        "value": "22R"
+      },
+      "source_ref": "U5",
+      "receiver_ref": "U1",
+      "match_reference": "RXCLK",
+      "branches": [
+        {
+          "ref": "R526",
+          "pin": "1"
+        }
+      ],
+      "source_termination_placement": "Place 22R near source; RX source is U5, TX source is U1."
+    },
+    {
+      "signal": "RXD1",
+      "group": "RX",
+      "net_segments": [
+        "ETH_RXD1",
+        "PHY_RXD1"
+      ],
+      "series": {
+        "component": "R508",
+        "value": "22R"
+      },
+      "source_ref": "U5",
+      "receiver_ref": "U1",
+      "match_reference": "RXCLK",
+      "branches": [
+        {
+          "ref": "R525",
+          "pin": "1"
+        }
+      ],
+      "source_termination_placement": "Place 22R near source; RX source is U5, TX source is U1."
+    },
+    {
+      "signal": "RXD2",
+      "group": "RX",
+      "net_segments": [
+        "ETH_RXD2",
+        "PHY_RXD2"
+      ],
+      "series": {
+        "component": "R509",
+        "value": "22R"
+      },
+      "source_ref": "U5",
+      "receiver_ref": "U1",
+      "match_reference": "RXCLK",
+      "branches": [
+        {
+          "ref": "R524",
+          "pin": "1"
+        }
+      ],
+      "source_termination_placement": "Place 22R near source; RX source is U5, TX source is U1."
+    },
+    {
+      "signal": "RXD3",
+      "group": "RX",
+      "net_segments": [
+        "ETH_RXD3",
+        "PHY_RXD3"
+      ],
+      "series": {
+        "component": "R510",
+        "value": "22R"
+      },
+      "source_ref": "U5",
+      "receiver_ref": "U1",
+      "match_reference": "RXCLK",
+      "branches": [
+        {
+          "ref": "R521",
+          "pin": "1"
+        }
+      ],
+      "source_termination_placement": "Place 22R near source; RX source is U5, TX source is U1."
+    },
+    {
+      "signal": "RXDV_CRS",
+      "group": "RX",
+      "net_segments": [
+        "ETH_RXDV_CRS",
+        "PHY_RXDV_CRS"
+      ],
+      "series": {
+        "component": "R511",
+        "value": "22R"
+      },
+      "source_ref": "U5",
+      "receiver_ref": "U1",
+      "match_reference": "RXCLK",
+      "branches": [
+        {
+          "ref": "R523",
+          "pin": "1"
+        }
+      ],
+      "source_termination_placement": "Place 22R near source; RX source is U5, TX source is U1."
+    },
+    {
+      "signal": "RXCLK",
+      "group": "RX",
+      "net_segments": [
+        "ETH_RXCLK",
+        "PHY_RXCLK"
+      ],
+      "series": {
+        "component": "R512",
+        "value": "22R"
+      },
+      "source_ref": "U5",
+      "receiver_ref": "U1",
+      "match_reference": "RXCLK",
+      "branches": [
+        {
+          "ref": "R522",
+          "pin": "1"
+        }
+      ],
+      "source_termination_placement": "Place 22R near source; RX source is U5, TX source is U1."
+    }
+  ],
+  "provenance": "Baseline topology, same Ethernet net names; ball positions come from new RK3562 footprint."
+}

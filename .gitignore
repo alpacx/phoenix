@@ -8,3 +8,10 @@
 *.key
 *.conf
 __pycache__/
+
+# Local component cache and KiCad session files
+/.easyeda_cache/
+*.kicad_prl
+*.lck
+~*.kicad_*
+.DS_Store

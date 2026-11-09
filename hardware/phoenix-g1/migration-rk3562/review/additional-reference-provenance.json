@@ -1,0 +1,22 @@
+{
+  "sources": [
+    {
+      "file": "reference/rk3562-trm-part1.pdf",
+      "url": "https://rockchip.fr/Rockchip%20RK3562%20TRM%20V1.0%20Part1.pdf",
+      "sha256": "c35bacb6be7d6dd62627faeb456f114e202c361f1ee5932e6b9b68f03c728c37",
+      "scope": "Rockchip technical reference manual via public mirror; registers, not board design qualification"
+    },
+    {
+      "file": "reference/rk3562-oomwoo-reference.pdf",
+      "url": "https://github.com/makerspet/oomwoo-pcb/blob/346d30e84f622e32db1f6d4276131fb18d2b9770/etc/Altium/OutputFiles/PDF/Controller-RK3562.PDF",
+      "sha256": "06b8eed8220c8cf35bc3f3a4b24485d0db3526cc1a4ef8b7d0c0f0df7f721cfa",
+      "scope": "Third-party designer original schematic, LPDDR4 reference, not manufacturer approval or evidence of working hardware"
+    },
+    {
+      "file": "reference/rk3562-datasheet-v2.1.pdf",
+      "url": "https://rockchip.fr/RK3562%20datasheet%20V2.1.pdf",
+      "sha256": "3e449a57fddebab7645095e380f8abefc56098ddfb8796f98e7a92cff0cd4d17",
+      "scope": "Manufacturer datasheet via public mirror, Rev2.1 dated2025-09-24; revision history lists CAN clarification. Does not supply DDR3 board connection/layout or power-sequence guide."
+    }
+  ]
+}

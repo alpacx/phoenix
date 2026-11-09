@@ -1,0 +1,853 @@
+{
+  "status": "ROUTING CONSTRAINT PLAN ONLY - NOT IMPLEMENTED OR MEASURED",
+  "source": {
+    "file": "reference/Rockchip_RK3568_High_Speed_PCB_Design_Guide_V10_EN_2021-4-12.pdf",
+    "revision": "V1.0, 2021-04-12",
+    "visually_reviewed_pages": [
+      13,
+      22
+    ]
+  },
+  "rules": {
+    "usb3": {
+      "differential_impedance_ohm": 90,
+      "tolerance_percent": 10,
+      "intra_pair_mismatch_mm_strictly_less_than": 0.3048,
+      "trace_length_mm_strictly_less_than": 152.4,
+      "recommended_max_vias": 2,
+      "pair_to_pair_clearance_multiple_of_width_min": 4,
+      "other_signal_clearance_multiple_of_width_min": 4,
+      "coupling_capacitance_nf": 100,
+      "coupling_tolerance_percent_max": 20,
+      "preferred_cap_package": "0201; existing 0402 must be assessed for discontinuity"
+    },
+    "rgmii": {
+      "single_ended_impedance_ohm": 50,
+      "tolerance_percent": 10,
+      "data_control_to_group_clock_mismatch_mm_strictly_less_than": 3.048,
+      "trace_length_mm_strictly_less_than": 127,
+      "within_group_clearance_multiple_of_width_min": 2,
+      "other_signal_clearance_multiple_of_width_min": 2,
+      "other_signal_clearance_multiple_of_width_recommended": 3
+    }
+  },
+  "usb3_paths": [
+    {
+      "path": "TX_orientation_1",
+      "polarities": {
+        "P": {
+          "net_segments": [
+            "SOC_USB_TX_P",
+            "MUX_TX1_P",
+            "USB_TX1_P"
+          ],
+          "series": [
+            {
+              "component": "C601",
+              "value": "100n / 16V X7R"
+            }
+          ]
+        },
+        "N": {
+          "net_segments": [
+            "SOC_USB_TX_N",
+            "MUX_TX1_N",
+            "USB_TX1_N"
+          ],
+          "series": [
+            {
+              "component": "C602",
+              "value": "100n / 16V X7R"
+            }
+          ]
+        }
+      },
+      "switch": "U6",
+      "note": "Alternative orientations are mutually exclusive; include switch/package delay in SI. Do not sum both branches as one active path."
+    },
+    {
+      "path": "TX_orientation_2",
+      "polarities": {
+        "P": {
+          "net_segments": [
+            "SOC_USB_TX_P",
+            "MUX_TX2_P",
+            "USB_TX2_P"
+          ],
+          "series": [
+            {
+              "component": "C603",
+              "value": "100n / 16V X7R"
+            }
+          ]
+        },
+        "N": {
+          "net_segments": [
+            "SOC_USB_TX_N",
+            "MUX_TX2_N",
+            "USB_TX2_N"
+          ],
+          "series": [
+            {
+              "component": "C604",
+              "value": "100n / 16V X7R"
+            }
+          ]
+        }
+      },
+      "switch": "U6",
+      "note": "Alternative orientations are mutually exclusive; include switch/package delay in SI. Do not sum both branches as one active path."
+    },
+    {
+      "path": "RX_orientation_1",
+      "polarities": {
+        "P": {
+          "net_segments": [
+            "SOC_USB_RX_P",
+            "USB_RX1_P"
+          ],
+          "series": []
+        },
+        "N": {
+          "net_segments": [
+            "SOC_USB_RX_N",
+            "USB_RX1_N"
+          ],
+          "series": []
+        }
+      },
+      "switch": "U6",
+      "note": "Alternative orientations are mutually exclusive; include switch/package delay in SI. Do not sum both branches as one active path."
+    },
+    {
+      "path": "RX_orientation_2",
+      "polarities": {
+        "P": {
+          "net_segments": [
+            "SOC_USB_RX_P",
+            "USB_RX2_P"
+          ],
+          "series": []
+        },
+        "N": {
+          "net_segments": [
+            "SOC_USB_RX_N",
+            "USB_RX2_N"
+          ],
+          "series": []
+        }
+      },
+      "switch": "U6",
+      "note": "Alternative orientations are mutually exclusive; include switch/package delay in SI. Do not sum both branches as one active path."
+    }
+  ],
+  "rgmii_paths": [
+    {
+      "signal": "TXD0",
+      "group": "TX",
+      "net_segments": [
+        "ETH_TXD0",
+        "PHY_TXD0"
+      ],
+      "series": {
+        "component": "R501",
+        "value": "22R"
+      },
+      "source_ref": "U1",
+      "receiver_ref": "U5",
+      "match_reference": "TXCLK",
+      "branches": [],
+      "source_termination_placement": "Place 22R near source; RX source is U5, TX source is U1."
+    },
+    {
+      "signal": "TXD1",
+      "group": "TX",
+      "net_segments": [
+        "ETH_TXD1",
+        "PHY_TXD1"
+      ],
+      "series": {
+        "component": "R502",
+        "value": "22R"
+      },
+      "source_ref": "U1",
+      "receiver_ref": "U5",
+      "match_reference": "TXCLK",
+      "branches": [],
+      "source_termination_placement": "Place 22R near source; RX source is U5, TX source is U1."
+    },
+    {
+      "signal": "TXD2",
+      "group": "TX",
+      "net_segments": [
+        "ETH_TXD2",
+        "PHY_TXD2"
+      ],
+      "series": {
+        "component": "R503",
+        "value": "22R"
+      },
+      "source_ref": "U1",
+      "receiver_ref": "U5",
+      "match_reference": "TXCLK",
+      "branches": [],
+      "source_termination_placement": "Place 22R near source; RX source is U5, TX source is U1."
+    },
+    {
+      "signal": "TXD3",
+      "group": "TX",
+      "net_segments": [
+        "ETH_TXD3",
+        "PHY_TXD3"
+      ],
+      "series": {
+        "component": "R504",
+        "value": "22R"
+      },
+      "source_ref": "U1",
+      "receiver_ref": "U5",
+      "match_reference": "TXCLK",
+      "branches": [],
+      "source_termination_placement": "Place 22R near source; RX source is U5, TX source is U1."
+    },
+    {
+      "signal": "TXEN",
+      "group": "TX",
+      "net_segments": [
+        "ETH_TXEN",
+        "PHY_TXEN"
+      ],
+      "series": {
+        "component": "R505",
+        "value": "22R"
+      },
+      "source_ref": "U1",
+      "receiver_ref": "U5",
+      "match_reference": "TXCLK",
+      "branches": [],
+      "source_termination_placement": "Place 22R near source; RX source is U5, TX source is U1."
+    },
+    {
+      "signal": "TXCLK",
+      "group": "TX",
+      "net_segments": [
+        "ETH_TXCLK",
+        "PHY_TXCLK"
+      ],
+      "series": {
+        "component": "R506",
+        "value": "22R"
+      },
+      "source_ref": "U1",
+      "receiver_ref": "U5",
+      "match_reference": "TXCLK",
+      "branches": [],
+      "source_termination_placement": "Place 22R near source; RX source is U5, TX source is U1."
+    },
+    {
+      "signal": "RXD0",
+      "group": "RX",
+      "net_segments": [
+        "ETH_RXD0",
+        "PHY_RXD0"
+      ],
+      "series": {
+        "component": "R507",
+        "value": "22R"
+      },
+      "source_ref": "U5",
+      "receiver_ref": "U1",
+      "match_reference": "RXCLK",
+      "branches": [
+        {
+          "ref": "R526",
+          "pin": "1"
+        }
+      ],
+      "source_termination_placement": "Place 22R near source; RX source is U5, TX source is U1."
+    },
+    {
+      "signal": "RXD1",
+      "group": "RX",
+      "net_segments": [
+        "ETH_RXD1",
+        "PHY_RXD1"
+      ],
+      "series": {
+        "component": "R508",
+        "value": "22R"
+      },
+      "source_ref": "U5",
+      "receiver_ref": "U1",
+      "match_reference": "RXCLK",
+      "branches": [
+        {
+          "ref": "R525",
+          "pin": "1"
+        }
+      ],
+      "source_termination_placement": "Place 22R near source; RX source is U5, TX source is U1."
+    },
+    {
+      "signal": "RXD2",
+      "group": "RX",
+      "net_segments": [
+        "ETH_RXD2",
+        "PHY_RXD2"
+      ],
+      "series": {
+        "component": "R509",
+        "value": "22R"
+      },
+      "source_ref": "U5",
+      "receiver_ref": "U1",
+      "match_reference": "RXCLK",
+      "branches": [
+        {
+          "ref": "R524",
+          "pin": "1"
+        }
+      ],
+      "source_termination_placement": "Place 22R near source; RX source is U5, TX source is U1."
+    },
+    {
+      "signal": "RXD3",
+      "group": "RX",
+      "net_segments": [
+        "ETH_RXD3",
+        "PHY_RXD3"
+      ],
+      "series": {
+        "component": "R510",
+        "value": "22R"
+      },
+      "source_ref": "U5",
+      "receiver_ref": "U1",
+      "match_reference": "RXCLK",
+      "branches": [
+        {
+          "ref": "R521",
+          "pin": "1"
+        }
+      ],
+      "source_termination_placement": "Place 22R near source; RX source is U5, TX source is U1."
+    },
+    {
+      "signal": "RXDV_CRS",
+      "group": "RX",
+      "net_segments": [
+        "ETH_RXDV_CRS",
+        "PHY_RXDV_CRS"
+      ],
+      "series": {
+        "component": "R511",
+        "value": "22R"
+      },
+      "source_ref": "U5",
+      "receiver_ref": "U1",
+      "match_reference": "RXCLK",
+      "branches": [
+        {
+          "ref": "R523",
+          "pin": "1"
+        }
+      ],
+      "source_termination_placement": "Place 22R near source; RX source is U5, TX source is U1."
+    },
+    {
+      "signal": "RXCLK",
+      "group": "RX",
+      "net_segments": [
+        "ETH_RXCLK",
+        "PHY_RXCLK"
+      ],
+      "series": {
+        "component": "R512",
+        "value": "22R"
+      },
+      "source_ref": "U5",
+      "receiver_ref": "U1",
+      "match_reference": "RXCLK",
+      "branches": [
+        {
+          "ref": "R522",
+          "pin": "1"
+        }
+      ],
+      "source_termination_placement": "Place 22R near source; RX source is U5, TX source is U1."
+    }
+  ],
+  "net_endpoints": {
+    "ETH_RXCLK": [
+      {
+        "ref": "R512",
+        "pin": "1"
+      },
+      {
+        "ref": "U1",
+        "pin": "Y3"
+      }
+    ],
+    "ETH_RXD0": [
+      {
+        "ref": "R507",
+        "pin": "1"
+      },
+      {
+        "ref": "U1",
+        "pin": "W1"
+      }
+    ],
+    "ETH_RXD1": [
+      {
+        "ref": "R508",
+        "pin": "1"
+      },
+      {
+        "ref": "U1",
+        "pin": "V7"
+      }
+    ],
+    "ETH_RXD2": [
+      {
+        "ref": "R509",
+        "pin": "1"
+      },
+      {
+        "ref": "U1",
+        "pin": "AA2"
+      }
+    ],
+    "ETH_RXD3": [
+      {
+        "ref": "R510",
+        "pin": "1"
+      },
+      {
+        "ref": "U1",
+        "pin": "Y4"
+      }
+    ],
+    "ETH_RXDV_CRS": [
+      {
+        "ref": "R511",
+        "pin": "1"
+      },
+      {
+        "ref": "U1",
+        "pin": "V2"
+      }
+    ],
+    "ETH_TXCLK": [
+      {
+        "ref": "R506",
+        "pin": "1"
+      },
+      {
+        "ref": "U1",
+        "pin": "AA3"
+      }
+    ],
+    "ETH_TXD0": [
+      {
+        "ref": "R501",
+        "pin": "1"
+      },
+      {
+        "ref": "U1",
+        "pin": "Y2"
+      }
+    ],
+    "ETH_TXD1": [
+      {
+        "ref": "R502",
+        "pin": "1"
+      },
+      {
+        "ref": "U1",
+        "pin": "Y1"
+      }
+    ],
+    "ETH_TXD2": [
+      {
+        "ref": "R503",
+        "pin": "1"
+      },
+      {
+        "ref": "U1",
+        "pin": "Y6"
+      }
+    ],
+    "ETH_TXD3": [
+      {
+        "ref": "R504",
+        "pin": "1"
+      },
+      {
+        "ref": "U1",
+        "pin": "Y5"
+      }
+    ],
+    "ETH_TXEN": [
+      {
+        "ref": "R505",
+        "pin": "1"
+      },
+      {
+        "ref": "U1",
+        "pin": "W2"
+      }
+    ],
+    "MUX_TX1_N": [
+      {
+        "ref": "C602",
+        "pin": "1"
+      },
+      {
+        "ref": "U6",
+        "pin": "16"
+      }
+    ],
+    "MUX_TX1_P": [
+      {
+        "ref": "C601",
+        "pin": "1"
+      },
+      {
+        "ref": "U6",
+        "pin": "17"
+      }
+    ],
+    "MUX_TX2_N": [
+      {
+        "ref": "C604",
+        "pin": "1"
+      },
+      {
+        "ref": "U6",
+        "pin": "20"
+      }
+    ],
+    "MUX_TX2_P": [
+      {
+        "ref": "C603",
+        "pin": "1"
+      },
+      {
+        "ref": "U6",
+        "pin": "21"
+      }
+    ],
+    "PHY_RXCLK": [
+      {
+        "ref": "R512",
+        "pin": "2"
+      },
+      {
+        "ref": "R522",
+        "pin": "1"
+      },
+      {
+        "ref": "U5",
+        "pin": "27"
+      }
+    ],
+    "PHY_RXD0": [
+      {
+        "ref": "R507",
+        "pin": "2"
+      },
+      {
+        "ref": "R526",
+        "pin": "1"
+      },
+      {
+        "ref": "U5",
+        "pin": "25"
+      }
+    ],
+    "PHY_RXD1": [
+      {
+        "ref": "R508",
+        "pin": "2"
+      },
+      {
+        "ref": "R525",
+        "pin": "1"
+      },
+      {
+        "ref": "U5",
+        "pin": "24"
+      }
+    ],
+    "PHY_RXD2": [
+      {
+        "ref": "R509",
+        "pin": "2"
+      },
+      {
+        "ref": "R524",
+        "pin": "1"
+      },
+      {
+        "ref": "U5",
+        "pin": "23"
+      }
+    ],
+    "PHY_RXD3": [
+      {
+        "ref": "R510",
+        "pin": "2"
+      },
+      {
+        "ref": "R521",
+        "pin": "1"
+      },
+      {
+        "ref": "U5",
+        "pin": "22"
+      }
+    ],
+    "PHY_RXDV_CRS": [
+      {
+        "ref": "R511",
+        "pin": "2"
+      },
+      {
+        "ref": "R523",
+        "pin": "1"
+      },
+      {
+        "ref": "U5",
+        "pin": "26"
+      }
+    ],
+    "PHY_TXCLK": [
+      {
+        "ref": "R506",
+        "pin": "2"
+      },
+      {
+        "ref": "U5",
+        "pin": "20"
+      }
+    ],
+    "PHY_TXD0": [
+      {
+        "ref": "R501",
+        "pin": "2"
+      },
+      {
+        "ref": "U5",
+        "pin": "18"
+      }
+    ],
+    "PHY_TXD1": [
+      {
+        "ref": "R502",
+        "pin": "2"
+      },
+      {
+        "ref": "U5",
+        "pin": "17"
+      }
+    ],
+    "PHY_TXD2": [
+      {
+        "ref": "R503",
+        "pin": "2"
+      },
+      {
+        "ref": "U5",
+        "pin": "16"
+      }
+    ],
+    "PHY_TXD3": [
+      {
+        "ref": "R504",
+        "pin": "2"
+      },
+      {
+        "ref": "U5",
+        "pin": "15"
+      }
+    ],
+    "PHY_TXEN": [
+      {
+        "ref": "R505",
+        "pin": "2"
+      },
+      {
+        "ref": "U5",
+        "pin": "19"
+      }
+    ],
+    "SOC_USB_RX_N": [
+      {
+        "ref": "U1",
+        "pin": "R27"
+      },
+      {
+        "ref": "U6",
+        "pin": "10"
+      }
+    ],
+    "SOC_USB_RX_P": [
+      {
+        "ref": "U1",
+        "pin": "R28"
+      },
+      {
+        "ref": "U6",
+        "pin": "9"
+      }
+    ],
+    "SOC_USB_TX_N": [
+      {
+        "ref": "U1",
+        "pin": "T27"
+      },
+      {
+        "ref": "U6",
+        "pin": "7"
+      }
+    ],
+    "SOC_USB_TX_P": [
+      {
+        "ref": "U1",
+        "pin": "T28"
+      },
+      {
+        "ref": "U6",
+        "pin": "6"
+      }
+    ],
+    "USB_RX1_N": [
+      {
+        "ref": "J1",
+        "pin": "B10"
+      },
+      {
+        "ref": "U6",
+        "pin": "14"
+      },
+      {
+        "ref": "U7",
+        "pin": "5"
+      }
+    ],
+    "USB_RX1_P": [
+      {
+        "ref": "J1",
+        "pin": "B11"
+      },
+      {
+        "ref": "U6",
+        "pin": "15"
+      },
+      {
+        "ref": "U7",
+        "pin": "4"
+      }
+    ],
+    "USB_RX2_N": [
+      {
+        "ref": "J1",
+        "pin": "A10"
+      },
+      {
+        "ref": "U6",
+        "pin": "18"
+      },
+      {
+        "ref": "U8",
+        "pin": "5"
+      }
+    ],
+    "USB_RX2_P": [
+      {
+        "ref": "J1",
+        "pin": "A11"
+      },
+      {
+        "ref": "U6",
+        "pin": "19"
+      },
+      {
+        "ref": "U8",
+        "pin": "4"
+      }
+    ],
+    "USB_TX1_N": [
+      {
+        "ref": "C602",
+        "pin": "2"
+      },
+      {
+        "ref": "J1",
+        "pin": "A3"
+      },
+      {
+        "ref": "U7",
+        "pin": "2"
+      }
+    ],
+    "USB_TX1_P": [
+      {
+        "ref": "C601",
+        "pin": "2"
+      },
+      {
+        "ref": "J1",
+        "pin": "A2"
+      },
+      {
+        "ref": "U7",
+        "pin": "1"
+      }
+    ],
+    "USB_TX2_N": [
+      {
+        "ref": "C604",
+        "pin": "2"
+      },
+      {
+        "ref": "J1",
+        "pin": "B3"
+      },
+      {
+        "ref": "U8",
+        "pin": "2"
+      }
+    ],
+    "USB_TX2_P": [
+      {
+        "ref": "C603",
+        "pin": "2"
+      },
+      {
+        "ref": "J1",
+        "pin": "B2"
+      },
+      {
+        "ref": "U8",
+        "pin": "1"
+      }
+    ]
+  },
+  "verification": {
+    "schematic_paths": "PASS connectivity assertions",
+    "routed_lengths": "NOT CHECKED",
+    "impedance": "NOT CALCULATED",
+    "timing": "NOT SIMULATED"
+  },
+  "holds": [
+    "Do not apply full-path length limits independently to each net segment.",
+    "PCB dielectric stackup and copper thickness must determine widths and pair gaps; none are invented here.",
+    "Vias, return path discontinuities, ESD branches, switch and package delay require SI review.",
+    "Copper-length matching is insufficient if segments use layers with different propagation speeds.",
+    "DDR and Ethernet MDI constraints are not covered by this manifest.",
+    "RGMII PHY and MAC delay configuration must agree with timing model.",
+    "No production release or completed placement follows from these assertions."
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "status": "CATALOG CANDIDATES ONLY",
+  "choices": [
+    {
+      "jlc": "C3849295",
+      "refs": [
+        "C2008",
+        "C2009"
+      ],
+      "catalog_specs": [
+        "8pF",
+        "50V",
+        "C0G"
+      ],
+      "evidence": "sourcing/public/C3849295.json"
+    },
+    {
+      "jlc": "C1779",
+      "refs": [
+        "C2003"
+      ],
+      "catalog_specs": [
+        "4.7uF",
+        "25V",
+        "X5R",
+        "\u00b110%"
+      ],
+      "evidence": "sourcing/public/C1779.json"
+    },
+    {
+      "jlc": "C376925",
+      "refs": [
+        "C1901",
+        "C1902"
+      ],
+      "catalog_specs": [
+        "1uF",
+        "25V",
+        "X7R",
+        "\u00b110%"
+      ],
+      "evidence": "sourcing/public/C376925.json"
+    },
+    {
+      "jlc": "C1554",
+      "refs": [
+        "C1501",
+        "C1502",
+        "C520",
+        "C521"
+      ],
+      "catalog_specs": [
+        "20pF",
+        "50V",
+        "C0G",
+        "\u00b15%"
+      ],
+      "evidence": "sourcing/public/C1554.json"
+    },
+    {
+      "jlc": "C1523",
+      "refs": [
+        "C2203"
+      ],
+      "catalog_specs": [
+        "1nF",
+        "50V",
+        "X7R",
+        "\u00b110%"
+      ],
+      "evidence": "sourcing/public/C1523.json"
+    },
+    {
+      "jlc": "C15195",
+      "refs": [
+        "C1303"
+      ],
+      "catalog_specs": [
+        "10nF",
+        "50V",
+        "X7R",
+        "\u00b110%"
+      ],
+      "evidence": "sourcing/public/C15195.json"
+    },
+    {
+      "jlc": "C1532",
+      "refs": [
+        "C1202"
+      ],
+      "catalog_specs": [
+        "22nF",
+        "50V",
+        "X7R",
+        "\u00b110%"
+      ],
+      "evidence": "sourcing/public/C1532.json"
+    },
+    {
+      "jlc": "C326606",
+      "refs": [
+        "C1802",
+        "C1102"
+      ],
+      "catalog_specs": [
+        "2.2uF",
+        "10V",
+        "X5R",
+        "\u00b110%"
+      ],
+      "evidence": "sourcing/public/C326606.json"
+    },
+    {
+      "jlc": "C53547",
+      "refs": [
+        "C401",
+        "C402",
+        "C1903"
+      ],
+      "catalog_specs": [
+        "1nF",
+        "50V",
+        "C0G",
+        "\u00b15%"
+      ],
+      "evidence": "sourcing/public/C53547.json"
+    }
+  ],
+  "holds": [
+    "X5R effective capacitance at bias and temperature must meet regulator requirements.",
+    "Timing capacitor tolerance must be propagated into startup analysis.",
+    "Crystal capacitors are initial tuning candidates; stray capacitance, frequency error and oscillator startup remain unqualified.",
+    "CQ0402 A tolerance code requires manufacturer guide reconciliation; catalog selection establishes nominal8pF/50V/C0G only.",
+    "Catalog quantity is not reserved assembly stock."
+  ]
+}

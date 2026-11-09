@@ -1,0 +1,39 @@
+{
+  "component": "C1102",
+  "mpn": "CC0402KRX5R6BB225",
+  "nominal_uF": 2.2,
+  "regulator": "TLV75533PDBVR",
+  "output_V": 3.3,
+  "minimum_effective_uF": 0.47,
+  "sources": [
+    {
+      "url": "https://yageogroup.com/download/specsheet/CC0402KRX5R6BB225",
+      "local": "reference/yageo-CC0402KRX5R6BB225.pdf",
+      "evidence": "Page 2 manufacturer simulation plot: approximately 50\u201360% capacitance loss near 3.3 V; typical, not guaranteed."
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/tlv755p.pdf",
+      "local": "reference/tlv755p.pdf",
+      "evidence": "Effective input/output capacitance must exceed 0.47 uF."
+    }
+  ],
+  "screening_assumptions": {
+    "dc_bias_retained_fraction": 0.4,
+    "tolerance_retained_fraction": 0.9,
+    "temperature_retained_fraction": 0.85,
+    "note": "Conservative visual rounding of typical bias curve; multiplication is an engineering screen, not a manufacturer worst-case guarantee. Aging and AC amplitude excluded."
+  },
+  "screened_effective_uF": 0.6732000000000001,
+  "screened_margin_uF": 0.20320000000000016,
+  "decision": "Retain selected component provisionally; verify effective capacitance across actual bias, temperature, aging and ripple before release. Generic 50% derating alone is insufficient qualification.",
+  "physical_test": false,
+  "production_ready": false,
+  "input_capacitor_followup": {
+    "component": "C1101",
+    "mpn": "CL05A105KA5NQNC",
+    "rated_V": 25,
+    "nominal_uF": 1,
+    "source": "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A105KA5NQNC.pdf",
+    "status": "Nominal rating confirmed in manufacturer reference sheet hosted by distributor. Effective capacitance at 5 V including bias, temperature and aging still requires verification; do not infer it from voltage rating."
+  }
+}

@@ -1,0 +1,36 @@
+ERC report (2026-11-07T09:03:28, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(116.84 mm, 45.72 mm): Symbol U10 Pin A1 [VSEL, Ingresso, Linea]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(116.84 mm, 50.80 mm): Symbol U10 Pin A3 [SCL, Ingresso, Linea]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(116.84 mm, 58.42 mm): Symbol U10 Pin B2 [GND, Ingresso potenza, Linea]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(137.16 mm, 63.50 mm): Symbol U10 Pin D1 [VIN, Ingresso potenza, Linea]
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(111.76 mm, 45.72 mm): Etichetta "PMIC_SLEEP"
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(111.76 mm, 50.80 mm): Etichetta "I2C0_SCL"
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(111.76 mm, 55.88 mm): Etichetta "I2C0_SDA"
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(139.70 mm, 168.91 mm): Etichetta "+3V3_PMU"
+
+ ** ERC messages: 8  Errors 4  Warnings 4
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

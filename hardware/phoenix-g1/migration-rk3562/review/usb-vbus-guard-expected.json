@@ -1,0 +1,224 @@
+[
+  {
+    "ref": "U24",
+    "pin": "1",
+    "pin_name": "DEVSLP",
+    "net": "GND"
+  },
+  {
+    "ref": "U24",
+    "pin": "2",
+    "pin_name": "PGOOD",
+    "net": null
+  },
+  {
+    "ref": "U24",
+    "pin": "3",
+    "pin_name": "PGTH",
+    "net": "GND"
+  },
+  {
+    "ref": "U24",
+    "pin": "4",
+    "pin_name": "OUT",
+    "net": "VBUS_PROTECTED"
+  },
+  {
+    "ref": "U24",
+    "pin": "5",
+    "pin_name": "OUT",
+    "net": "VBUS_PROTECTED"
+  },
+  {
+    "ref": "U24",
+    "pin": "6",
+    "pin_name": "OUT",
+    "net": "VBUS_PROTECTED"
+  },
+  {
+    "ref": "U24",
+    "pin": "7",
+    "pin_name": "OUT",
+    "net": "VBUS_PROTECTED"
+  },
+  {
+    "ref": "U24",
+    "pin": "8",
+    "pin_name": "OUT",
+    "net": "VBUS_PROTECTED"
+  },
+  {
+    "ref": "U24",
+    "pin": "9",
+    "pin_name": "IN",
+    "net": "VBUS_RAW"
+  },
+  {
+    "ref": "U24",
+    "pin": "10",
+    "pin_name": "IN",
+    "net": "VBUS_RAW"
+  },
+  {
+    "ref": "U24",
+    "pin": "11",
+    "pin_name": "IN",
+    "net": "VBUS_RAW"
+  },
+  {
+    "ref": "U24",
+    "pin": "12",
+    "pin_name": "IN",
+    "net": "VBUS_RAW"
+  },
+  {
+    "ref": "U24",
+    "pin": "13",
+    "pin_name": "IN",
+    "net": "VBUS_RAW"
+  },
+  {
+    "ref": "U24",
+    "pin": "14",
+    "pin_name": "EN",
+    "net": "VBUS_UVLO"
+  },
+  {
+    "ref": "U24",
+    "pin": "15",
+    "pin_name": "OVP",
+    "net": "VBUS_OVP"
+  },
+  {
+    "ref": "U24",
+    "pin": "16",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "U24",
+    "pin": "17",
+    "pin_name": "ILIM",
+    "net": "VBUS_GUARD_ILIM"
+  },
+  {
+    "ref": "U24",
+    "pin": "18",
+    "pin_name": "dVdT",
+    "net": "VBUS_GUARD_DVDT"
+  },
+  {
+    "ref": "U24",
+    "pin": "19",
+    "pin_name": "IMON",
+    "net": null
+  },
+  {
+    "ref": "U24",
+    "pin": "20",
+    "pin_name": "~{FLT}",
+    "net": null
+  },
+  {
+    "ref": "U24",
+    "pin": "21",
+    "pin_name": "EP",
+    "net": "GND"
+  },
+  {
+    "ref": "R1901",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VBUS_RAW"
+  },
+  {
+    "ref": "R1901",
+    "pin": "2",
+    "pin_name": "",
+    "net": "VBUS_UVLO"
+  },
+  {
+    "ref": "R1902",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VBUS_UVLO"
+  },
+  {
+    "ref": "R1902",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "R1903",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VBUS_RAW"
+  },
+  {
+    "ref": "R1903",
+    "pin": "2",
+    "pin_name": "",
+    "net": "VBUS_OVP"
+  },
+  {
+    "ref": "R1904",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VBUS_OVP"
+  },
+  {
+    "ref": "R1904",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "R1905",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VBUS_GUARD_ILIM"
+  },
+  {
+    "ref": "R1905",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C1901",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VBUS_RAW"
+  },
+  {
+    "ref": "C1901",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C1902",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VBUS_PROTECTED"
+  },
+  {
+    "ref": "C1902",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C1903",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VBUS_GUARD_DVDT"
+  },
+  {
+    "ref": "C1903",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  }
+]

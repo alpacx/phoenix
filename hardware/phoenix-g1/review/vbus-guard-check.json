@@ -1,0 +1,43 @@
+{
+  "status": "PASS TOPOLOGY AND STATIC THRESHOLD SCREEN ONLY",
+  "raw_consumers": [
+    "C1901",
+    "J1",
+    "R1901",
+    "R1903",
+    "TP2",
+    "U24"
+  ],
+  "resistor_requirement": "0.1% initial, maximum25ppm/K; candidates selected, qualification pending",
+  "temperature_screen_c": [
+    -40,
+    125
+  ],
+  "drift_span_from_25c_k": 100,
+  "ovp_rising": {
+    "min_v": 5.540626615034878,
+    "max_v": 5.845967076580532
+  },
+  "ovp_recovery_falling": {
+    "min_v": 5.140445997197309,
+    "max_v": 5.441131401718515
+  },
+  "uvlo_rising": {
+    "min_v": 4.405186740142003,
+    "max_v": 4.644611044924737
+  },
+  "uvlo_falling": {
+    "min_v": 4.087029938946189,
+    "max_v": 4.322955600870547
+  },
+  "ovp_margin_below_6v_absolute_max_v": 0.15403292341946795,
+  "source": "TI SLVSCF3A electrical characteristics",
+  "limits": [
+    "Static trip window only; response delay/overshoot can exceed this voltage.",
+    "6V is absolute maximum of USB controller/AON LDO, not an operating target.",
+    "Not all downstream component absolute maximum ratings have been closed.",
+    "Rail discharge, fast transient TVS, temperature, load budget and startup require further work.",
+    "UVLO falling threshold is below HD3SS3220 recommended4.5V; brownout sequencing remains unqualified.",
+    "No guaranteed fault selectivity between the two eFuses."
+  ]
+}

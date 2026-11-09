@@ -1,0 +1,185 @@
+{
+  "status": "CANDIDATE ONLY; not added to schematic or selected BOM",
+  "module": "AP6256",
+  "jlc": "C5248079",
+  "sourcing": {
+    "componentCode": "C5248079",
+    "componentModelEn": "AP6256",
+    "componentBrandEn": "AMPAK Tech",
+    "componentSpecificationEn": "SMD",
+    "describe": "-30\u2103~+85\u2103 -96dBm 17dBm 3.2V~4.8V 5GHz BCM43456 IEEE802.11b/g/n\u3001Bluetooth5.2 UART\u3001SDIO\u3001GPIO\u3001PCM QFN-44(12x12) WiFi Modules ROHS",
+    "canPresaleNumber": 6477,
+    "overseasStockCount": 6488,
+    "initialPrice": 8.2755,
+    "prices": [
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C5248079",
+        "startNumber": 1,
+        "endNumber": 9,
+        "productPrice": 8.2755,
+        "erpComponentPriceKeyId": 347219828,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C5248079",
+        "startNumber": 10,
+        "endNumber": 29,
+        "productPrice": 7.3073,
+        "erpComponentPriceKeyId": 347219824,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C5248079",
+        "startNumber": 30,
+        "endNumber": 99,
+        "productPrice": 5.9171,
+        "erpComponentPriceKeyId": 347219827,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C5248079",
+        "startNumber": 100,
+        "endNumber": 101,
+        "productPrice": 5.3186,
+        "erpComponentPriceKeyId": 347219825,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C5248079",
+        "startNumber": 102,
+        "endNumber": 103,
+        "productPrice": 5.3186,
+        "erpComponentPriceKeyId": 347219826,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C5248079",
+        "startNumber": 104,
+        "endNumber": -1,
+        "productPrice": 5.3186,
+        "erpComponentPriceKeyId": 347219829,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      }
+    ],
+    "leastPatchNumber": 0,
+    "preMinPurchaseNum": 2,
+    "assemblyComponentFlag": false,
+    "componentLibraryType": "expand",
+    "retrieved_utc": "2026-11-07T18:43:44.158519+00:00",
+    "source_url": "https://jlcpcb.com/partdetail/C5248079",
+    "inventory_note": "Raw public site fields. Overseas/presale numbers are not independently verified immediate assembly stock."
+  },
+  "interface": "4-bit SDIO; Bluetooth not required",
+  "signals": [
+    {
+      "function": "SDMMC1_D0",
+      "soc_ball": "E27",
+      "power_domain": "VCCIO4",
+      "current_net": "unconnected-(U1M-SDMMC1_D0-PadE27)"
+    },
+    {
+      "function": "SDMMC1_D1",
+      "soc_ball": "E28",
+      "power_domain": "VCCIO4",
+      "current_net": "unconnected-(U1M-SDMMC1_D1-PadE28)"
+    },
+    {
+      "function": "SDMMC1_D2",
+      "soc_ball": "B28",
+      "power_domain": "VCCIO4",
+      "current_net": "unconnected-(U1M-SDMMC1_D2-PadB28)"
+    },
+    {
+      "function": "SDMMC1_D3",
+      "soc_ball": "C27",
+      "power_domain": "VCCIO4",
+      "current_net": "unconnected-(U1M-SDMMC1_D3-PadC27)"
+    },
+    {
+      "function": "SDMMC1_CMD",
+      "soc_ball": "C28",
+      "power_domain": "VCCIO4",
+      "current_net": "unconnected-(U1M-SDMMC1_CMD-PadC28)"
+    },
+    {
+      "function": "SDMMC1_CLK",
+      "soc_ball": "D27",
+      "power_domain": "VCCIO4",
+      "current_net": "unconnected-(U1M-SDMMC1_CLK-PadD27)"
+    },
+    {
+      "function": "SDMMC1_PWREN",
+      "soc_ball": "D26",
+      "power_domain": "VCCIO4",
+      "current_net": "unconnected-(U1M-SDMMC1_PWREN-PadD26)"
+    },
+    {
+      "function": "SDMMC1_DET",
+      "soc_ball": "E25",
+      "power_domain": "VCCIO4",
+      "current_net": "unconnected-(U1M-SDMMC1_DET-PadE25)"
+    }
+  ],
+  "power": {
+    "VBAT_nominal_V": 3.3,
+    "VBAT_peak_A": 1,
+    "peak_rail_power_W": 3.3,
+    "VDDIO_options_V": [
+      1.8,
+      3.3
+    ],
+    "note": "Peak is not average consumption; converter losses and other module rails still require accounting."
+  },
+  "open_checks": [
+    "Exact module pinout and footprint including NC test pads",
+    "Match VCCIO4 and VDDIO voltage; qualify regulator transient headroom",
+    "Clock, enable/reset and wake sequencing",
+    "Linux driver, redistributable firmware/NVRAM and AP mode for exact module revision",
+    "50-ohm RF path, matching provision, antenna connector and placement keepout",
+    "Update whole-board USB power budget; no 5V/3A feasibility guarantee yet"
+  ],
+  "datasheet": "reference/wifi-ap6256.pdf",
+  "implementation_update": {
+    "date": "2026-11-07",
+    "VBAT_source": "U26 TPS62130RGTR dedicated3.584V output throughFB2001",
+    "old_3V3_shared_supply": "Superseded in active schematic",
+    "sequencing": "VBAT PG enables U17; shutdown/fault sequencing not qualified",
+    "report": "wifi-power-check.json"
+  }
+}

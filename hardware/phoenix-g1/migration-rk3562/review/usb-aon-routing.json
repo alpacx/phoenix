@@ -1,0 +1,302 @@
+{
+  "status": "PARTIAL USB CONTROL ROUTING; RUN DRC BEFORE ACCEPTING",
+  "nets": [
+    {
+      "net": "+3V3_AON",
+      "length_mm": 1.3957,
+      "segments": 4,
+      "vias_xy_mm": [],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "C1102.1",
+        "R1202.2"
+      ]
+    },
+    {
+      "net": "+3V3_AON",
+      "already_connected": true,
+      "length_mm": 0,
+      "segments": 0,
+      "vias_xy_mm": [],
+      "endpoints": [
+        "C1102.1",
+        "U11.5"
+      ]
+    },
+    {
+      "net": "+3V3_AON",
+      "length_mm": 8.0047,
+      "segments": 9,
+      "vias_xy_mm": [],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "U11.5",
+        "R603.1"
+      ]
+    },
+    {
+      "net": "+3V3_AON",
+      "length_mm": 1.52,
+      "segments": 3,
+      "vias_xy_mm": [],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "R603.1",
+        "R602.1"
+      ]
+    },
+    {
+      "net": "+3V3_AON",
+      "length_mm": 15.0369,
+      "segments": 12,
+      "vias_xy_mm": [
+        [
+          9.200000000000001,
+          23.1
+        ],
+        [
+          9.200000000000001,
+          14.5
+        ]
+      ],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "R602.1",
+        "C1105.1"
+      ]
+    },
+    {
+      "net": "+3V3_AON",
+      "already_connected": true,
+      "length_mm": 0,
+      "segments": 0,
+      "vias_xy_mm": [],
+      "endpoints": [
+        "C1105.1",
+        "U14.5"
+      ]
+    },
+    {
+      "net": "+3V3_AON",
+      "already_connected": true,
+      "length_mm": 0,
+      "segments": 0,
+      "vias_xy_mm": [],
+      "endpoints": [
+        "U14.5",
+        "R604.1"
+      ]
+    },
+    {
+      "net": "+3V3_AON",
+      "length_mm": 4.0514,
+      "segments": 5,
+      "vias_xy_mm": [],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "C1105.1",
+        "U19.5"
+      ]
+    },
+    {
+      "net": "+3V3_AON",
+      "already_connected": true,
+      "length_mm": 0,
+      "segments": 0,
+      "vias_xy_mm": [],
+      "endpoints": [
+        "U19.5",
+        "C1107.1"
+      ]
+    },
+    {
+      "net": "+3V3_AON",
+      "length_mm": 32.7659,
+      "segments": 17,
+      "vias_xy_mm": [
+        [
+          9.200000000000001,
+          14.5
+        ],
+        [
+          18.0,
+          23.450000000000003
+        ]
+      ],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "C1107.1",
+        "U6.8"
+      ]
+    },
+    {
+      "net": "+3V3_AON",
+      "already_connected": true,
+      "length_mm": 0,
+      "segments": 0,
+      "vias_xy_mm": [],
+      "endpoints": [
+        "U6.8",
+        "C606.1"
+      ]
+    },
+    {
+      "net": "+3V3_AON",
+      "already_connected": true,
+      "length_mm": 0,
+      "segments": 0,
+      "vias_xy_mm": [],
+      "endpoints": [
+        "C606.1",
+        "C1104.1"
+      ]
+    },
+    {
+      "net": "+3V3_AON",
+      "already_connected": true,
+      "length_mm": 0,
+      "segments": 0,
+      "vias_xy_mm": [],
+      "endpoints": [
+        "C1104.1",
+        "U13.5"
+      ]
+    },
+    {
+      "net": "+3V3_AON",
+      "length_mm": 12.2668,
+      "segments": 5,
+      "vias_xy_mm": [
+        [
+          18.0,
+          23.450000000000003
+        ],
+        [
+          24.8,
+          18.75
+        ]
+      ],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "U6.8",
+        "C1106.1"
+      ]
+    },
+    {
+      "net": "+3V3_AON",
+      "already_connected": true,
+      "length_mm": 0,
+      "segments": 0,
+      "vias_xy_mm": [],
+      "endpoints": [
+        "C1106.1",
+        "U16.5"
+      ]
+    },
+    {
+      "net": "+3V3_AON",
+      "length_mm": 9.8919,
+      "segments": 11,
+      "vias_xy_mm": [],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "R604.1",
+        "R1101.1"
+      ]
+    },
+    {
+      "net": "+3V3_AON",
+      "length_mm": 8.8384,
+      "segments": 8,
+      "vias_xy_mm": [],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "R1101.1",
+        "U12.6"
+      ]
+    },
+    {
+      "net": "+3V3_AON",
+      "already_connected": true,
+      "length_mm": 0,
+      "segments": 0,
+      "vias_xy_mm": [],
+      "endpoints": [
+        "U12.6",
+        "U12.5"
+      ]
+    },
+    {
+      "net": "+3V3_AON",
+      "already_connected": true,
+      "length_mm": 0,
+      "segments": 0,
+      "vias_xy_mm": [],
+      "endpoints": [
+        "U12.5",
+        "C1103.1"
+      ]
+    },
+    {
+      "net": "+3V3_AON",
+      "length_mm": 5.9935,
+      "segments": 5,
+      "vias_xy_mm": [],
+      "via_land_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "endpoints": [
+        "U12.5",
+        "U12.3"
+      ]
+    }
+  ],
+  "initial_fanout": [],
+  "failed_branches": [],
+  "track_width_mm": 0.2,
+  "search_clearance_mm": 0.2,
+  "via_land_drill_mm": [
+    0.6,
+    0.3
+  ],
+  "cc_via_land_drill_mm": [
+    0.45,
+    0.2
+  ],
+  "track_and_via_items": 663,
+  "unconnected_ratsnest_edges": 1226,
+  "limitations": [
+    "Only the reported USB controls and explicit supply branches are routed. Full board routing, USB data, remaining power rails and qualification remain unresolved.",
+    "Candidate SoC footprint, stackup, ESD return paths, PI, decoupling and mechanics unqualified.",
+    "CC detours need optimization; DRC alone does not establish electrical performance."
+  ],
+  "production_ready": false
+}

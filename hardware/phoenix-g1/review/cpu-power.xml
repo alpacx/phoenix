@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/kicad/cpu-power.kicad_sch</source>
+    <date>2026-11-07T09:03:27</date>
+    <tool>Eeschema 10.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Phoenix G1 - CPU DVFS supply</title>
+        <company/>
+        <rev>DRAFT</rev>
+        <date/>
+        <source>cpu-power.kicad_sch</source>
+        <comment number="1" value="Not for fabrication"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1001">
+      <value>22u / 10V X5R</value>
+      <footprint>Phoenix_Passives:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Qualification">DRAFT; passive MPNs and transient response not qualified</field>
+        <field name="Footprint">Phoenix_Passives:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_Power" part="C" description="Unpolarized capacitor"/>
+      <property name="Qualification" value="DRAFT; passive MPNs and transient response not qualified"/>
+      <property name="Sheetname" value="cpu-power"/>
+      <property name="Sheetfile" value="cpu-power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ea5ad1a-47ae-5de7-a750-49ea5ac14ec9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C1002">
+      <value>22u / 10V X5R</value>
+      <footprint>Phoenix_Passives:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Qualification">DRAFT; passive MPNs and transient response not qualified</field>
+        <field name="Footprint">Phoenix_Passives:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_Power" part="C" description="Unpolarized capacitor"/>
+      <property name="Qualification" value="DRAFT; passive MPNs and transient response not qualified"/>
+      <property name="Sheetname" value="cpu-power"/>
+      <property name="Sheetfile" value="cpu-power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7cdb7544-0bd2-5d81-ad24-8a5d46c5ab63</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C1011">
+      <value>22u / 10V X5R</value>
+      <footprint>Phoenix_Passives:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Qualification">DRAFT; passive MPNs and transient response not qualified</field>
+        <field name="Footprint">Phoenix_Passives:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_Power" part="C" description="Unpolarized capacitor"/>
+      <property name="Qualification" value="DRAFT; passive MPNs and transient response not qualified"/>
+      <property name="Sheetname" value="cpu-power"/>
+      <property name="Sheetfile" value="cpu-power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a754fcb8-4c24-5e42-b881-5f7ed86c7874</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C1012">
+      <value>22u / 10V X5R</value>
+      <footprint>Phoenix_Passives:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Qualification">DRAFT; passive MPNs and transient response not qualified</field>
+        <field name="Footprint">Phoenix_Passives:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_Power" part="C" description="Unpolarized capacitor"/>
+      <property name="Qualification" value="DRAFT; passive MPNs and transient response not qualified"/>
+      <property name="Sheetname" value="cpu-power"/>
+      <property name="Sheetfile" value="cpu-power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>819fb19e-3ad7-59ae-b20b-0edbc6fefd77</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C1013">
+      <value>22u / 10V X5R</value>
+      <footprint>Phoenix_Passives:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Qualification">DRAFT; passive MPNs and transient response not qualified</field>
+        <field name="Footprint">Phoenix_Passives:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_Power" part="C" description="Unpolarized capacitor"/>
+      <property name="Qualification" value="DRAFT; passive MPNs and transient response not qualified"/>
+      <property name="Sheetname" value="cpu-power"/>
+      <property name="Sheetfile" value="cpu-power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46baf1a4-d4cc-55c2-952c-234f85eb7e09</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C1014">
+      <value>22u / 10V X5R</value>
+      <footprint>Phoenix_Passives:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Qualification">DRAFT; passive MPNs and transient response not qualified</field>
+        <field name="Footprint">Phoenix_Passives:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_Power" part="C" description="Unpolarized capacitor"/>
+      <property name="Qualification" value="DRAFT; passive MPNs and transient response not qualified"/>
+      <property name="Sheetname" value="cpu-power"/>
+      <property name="Sheetfile" value="cpu-power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>973ccd1a-7e6a-5f62-940d-958584eec0c4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C1020">
+      <value>1u / 10V X5R</value>
+      <footprint>Phoenix_Passives:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Qualification">DRAFT; passive MPNs and transient response not qualified</field>
+        <field name="Footprint">Phoenix_Passives:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_Power" part="C" description="Unpolarized capacitor"/>
+      <property name="Qualification" value="DRAFT; passive MPNs and transient response not qualified"/>
+      <property name="Sheetname" value="cpu-power"/>
+      <property name="Sheetfile" value="cpu-power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be709941-4bec-57ce-afd7-17c091bbb5c5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L1001">
+      <value>240nH - candidate</value>
+      <footprint>Phoenix_Candidates:IND-SMD_L5.0-W5.0-PRS5020-330MT</footprint>
+      <fields>
+        <field name="Qualification">DRAFT; passive MPNs and transient response not qualified</field>
+        <field name="Footprint">Phoenix_Candidates:IND-SMD_L5.0-W5.0-PRS5020-330MT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_Power" part="FNR5020SR24NT" description=""/>
+      <property name="Qualification" value="DRAFT; passive MPNs and transient response not qualified"/>
+      <property name="Sheetname" value="cpu-power"/>
+      <property name="Sheetfile" value="cpu-power.kicad_sch"/>
+      <property name="ki_keywords" value="Power Inductors"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d19f337-269c-5aa9-aa84-35a1eb52b100</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1001">
+      <value>100R 1%</value>
+      <footprint>Phoenix_Passives:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Qualification">DRAFT; passive MPNs and transient response not qualified</field>
+        <field name="Footprint">Phoenix_Passives:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_Power" part="R" description="Resistor"/>
+      <property name="Qualification" value="DRAFT; passive MPNs and transient response not qualified"/>
+      <property name="Sheetname" value="cpu-power"/>
+      <property name="Sheetfile" value="cpu-power.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c36673c-a567-546a-b213-8c3026c1b5ae</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1002">
+      <value>51k 1%</value>
+      <footprint>Phoenix_Passives:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Qualification">DRAFT; passive MPNs and transient response not qualified</field>
+        <field name="Footprint">Phoenix_Passives:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_Power" part="R" description="Resistor"/>
+      <property name="Qualification" value="DRAFT; passive MPNs and transient response not qualified"/>
+      <property name="Sheetname" value="cpu-power"/>
+      <property name="Sheetfile" value="cpu-power.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>afc58976-232a-557f-b8a5-1aeb3478e56b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U10">
+      <value>RK860-0</value>
+      <footprint>Phoenix_Candidates:WLCSP-20_L2.0-W1.6-R5-C4-P0.40-TL</footprint>
+      <fields>
+        <field name="Qualification">DRAFT; passive MPNs and transient response not qualified</field>
+        <field name="Footprint">Phoenix_Candidates:WLCSP-20_L2.0-W1.6-R5-C4-P0.40-TL</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_Power" part="RK860-0" description=""/>
+      <property name="Qualification" value="DRAFT; passive MPNs and transient response not qualified"/>
+      <property name="Sheetname" value="cpu-power"/>
+      <property name="Sheetfile" value="cpu-power.kicad_sch"/>
+      <property name="ki_keywords" value="DC-DC Converters"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c243d060-8071-5672-a404-b283ecc2a715</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="A1"/>
+            <pin num="A2"/>
+            <pin num="A3"/>
+            <pin num="A4"/>
+            <pin num="B1"/>
+            <pin num="B2"/>
+            <pin num="B3"/>
+            <pin num="B4"/>
+            <pin num="C1"/>
+            <pin num="C2"/>
+            <pin num="E4"/>
+            <pin num="E3"/>
+            <pin num="E2"/>
+            <pin num="E1"/>
+            <pin num="D4"/>
+            <pin num="D3"/>
+            <pin num="D2"/>
+            <pin num="D1"/>
+            <pin num="C4"/>
+            <pin num="C3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Phoenix_Power" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phoenix_Power" part="FNR5020SR24NT">
+      <docs>https://lcsc.com/product-detail/Power-Inductors_240uH-30_C167915.html</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">FNR5020SR24NT</field>
+        <field name="Footprint">Phoenix_Candidates:IND-SMD_L5.0-W5.0-PRS5020-330MT</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/Power-Inductors_240uH-30_C167915.html</field>
+        <field name="Description"/>
+        <field name="Manufacturer">cjiang(长江微电)</field>
+        <field name="MPN">FNR5020SR24NT</field>
+        <field name="LCSC Part">C167915</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phoenix_Power" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phoenix_Power" part="RK860-0">
+      <docs>https://www.lcsc.com/datasheet/C19188628.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RK860-0</field>
+        <field name="Footprint">Phoenix_Candidates:WLCSP-20_L2.0-W1.6-R5-C4-P0.40-TL</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C19188628.pdf</field>
+        <field name="Description"/>
+        <field name="Manufacturer">Rockchip(瑞芯微)</field>
+        <field name="MPN">RK860-0</field>
+        <field name="LCSC Part">C19188628</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="VSEL" type="input"/>
+        <pin num="A2" name="EN" type="input"/>
+        <pin num="A3" name="SCL" type="input"/>
+        <pin num="A4" name="VOUT" type="input"/>
+        <pin num="B1" name="SDA" type="bidirectional"/>
+        <pin num="B2" name="GND" type="power_in"/>
+        <pin num="B3" name="GND" type="power_in"/>
+        <pin num="B4" name="AGND" type="power_in"/>
+        <pin num="C1" name="GND" type="power_in"/>
+        <pin num="C2" name="GND" type="power_in"/>
+        <pin num="C3" name="GND" type="power_in"/>
+        <pin num="C4" name="GND" type="power_in"/>
+        <pin num="D1" name="VIN" type="power_in"/>
+        <pin num="D2" name="VIN" type="power_in"/>
+        <pin num="D3" name="LX" type="power_out"/>
+        <pin num="D4" name="LX" type="passive"/>
+        <pin num="E1" name="VIN" type="power_in"/>
+        <pin num="E2" name="VIN" type="power_in"/>
+        <pin num="E3" name="LX" type="passive"/>
+        <pin num="E4" name="LX" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Phoenix_Power">
+      <uri>${KIPRJMOD}/Phoenix_Power.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+3V3_PMU" class="Default">
+      <node ref="R1002" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/+5V_MAIN" class="Default">
+      <node ref="C1001" pin="1" pintype="passive"/>
+      <node ref="C1002" pin="1" pintype="passive"/>
+      <node ref="U10" pin="D1" pinfunction="VIN_D1" pintype="power_in"/>
+      <node ref="U10" pin="D2" pinfunction="VIN_D2" pintype="power_in"/>
+      <node ref="U10" pin="E1" pinfunction="VIN_E1" pintype="power_in"/>
+      <node ref="U10" pin="E2" pinfunction="VIN_E2" pintype="power_in"/>
+    </net>
+    <net code="3" name="/CPU_BUCK_EN" class="Default">
+      <node ref="R1002" pin="2" pintype="passive"/>
+      <node ref="U10" pin="A2" pinfunction="EN_A2" pintype="input"/>
+    </net>
+    <net code="4" name="/CPU_SW" class="Default">
+      <node ref="L1001" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U10" pin="D3" pinfunction="LX_D3" pintype="power_out"/>
+      <node ref="U10" pin="D4" pinfunction="LX_D4" pintype="passive"/>
+      <node ref="U10" pin="E3" pinfunction="LX_E3" pintype="passive"/>
+      <node ref="U10" pin="E4" pinfunction="LX_E4" pintype="passive"/>
+    </net>
+    <net code="5" name="/GND" class="Default">
+      <node ref="C1001" pin="2" pintype="passive"/>
+      <node ref="C1002" pin="2" pintype="passive"/>
+      <node ref="C1011" pin="2" pintype="passive"/>
+      <node ref="C1012" pin="2" pintype="passive"/>
+      <node ref="C1013" pin="2" pintype="passive"/>
+      <node ref="C1014" pin="2" pintype="passive"/>
+      <node ref="U10" pin="B2" pinfunction="GND_B2" pintype="power_in"/>
+      <node ref="U10" pin="B3" pinfunction="GND_B3" pintype="power_in"/>
+      <node ref="U10" pin="B4" pinfunction="AGND_B4" pintype="power_in"/>
+      <node ref="U10" pin="C1" pinfunction="GND_C1" pintype="power_in"/>
+      <node ref="U10" pin="C2" pinfunction="GND_C2" pintype="power_in"/>
+      <node ref="U10" pin="C3" pinfunction="GND_C3" pintype="power_in"/>
+      <node ref="U10" pin="C4" pinfunction="GND_C4" pintype="power_in"/>
+    </net>
+    <net code="6" name="/I2C0_SCL" class="Default">
+      <node ref="U10" pin="A3" pinfunction="SCL_A3" pintype="input"/>
+    </net>
+    <net code="7" name="/I2C0_SDA" class="Default">
+      <node ref="U10" pin="B1" pinfunction="SDA_B1" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/PMIC_SLEEP" class="Default">
+      <node ref="U10" pin="A1" pinfunction="VSEL_A1" pintype="input"/>
+    </net>
+    <net code="9" name="/VDD_CPU" class="Default">
+      <node ref="C1011" pin="1" pintype="passive"/>
+      <node ref="C1012" pin="1" pintype="passive"/>
+      <node ref="C1013" pin="1" pintype="passive"/>
+      <node ref="C1014" pin="1" pintype="passive"/>
+      <node ref="C1020" pin="1" pintype="passive"/>
+      <node ref="L1001" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R1001" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="/VDD_CPU_COM" class="Default">
+      <node ref="C1020" pin="2" pintype="passive"/>
+      <node ref="R1001" pin="2" pintype="passive"/>
+      <node ref="U10" pin="A4" pinfunction="VOUT_A4" pintype="input"/>
+    </net>
+  </nets>
+</export>

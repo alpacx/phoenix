@@ -1,0 +1,146 @@
+[
+  {
+    "ref": "Y1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "XIN24M"
+  },
+  {
+    "ref": "Y1",
+    "pin": "2",
+    "pin_name": "G",
+    "net": "GND"
+  },
+  {
+    "ref": "Y1",
+    "pin": "3",
+    "pin_name": "3",
+    "net": "XTAL24_DRIVE"
+  },
+  {
+    "ref": "Y1",
+    "pin": "4",
+    "pin_name": "G",
+    "net": "GND"
+  },
+  {
+    "ref": "R1501",
+    "pin": "1",
+    "pin_name": "",
+    "net": "XOUT24M"
+  },
+  {
+    "ref": "R1501",
+    "pin": "2",
+    "pin_name": "",
+    "net": "XTAL24_DRIVE"
+  },
+  {
+    "ref": "R1502",
+    "pin": "1",
+    "pin_name": "",
+    "net": "XOUT24M"
+  },
+  {
+    "ref": "R1502",
+    "pin": "2",
+    "pin_name": "",
+    "net": "XIN24M"
+  },
+  {
+    "ref": "C1501",
+    "pin": "1",
+    "pin_name": "",
+    "net": "XIN24M"
+  },
+  {
+    "ref": "C1501",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C1502",
+    "pin": "1",
+    "pin_name": "",
+    "net": "XTAL24_DRIVE"
+  },
+  {
+    "ref": "C1502",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "R1503",
+    "pin": "1",
+    "pin_name": "",
+    "net": "DDR_RZQ"
+  },
+  {
+    "ref": "R1503",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "R1504",
+    "pin": "1",
+    "pin_name": "",
+    "net": "RECOVERY_ADC"
+  },
+  {
+    "ref": "R1504",
+    "pin": "2",
+    "pin_name": "",
+    "net": "VCCA_1V8"
+  },
+  {
+    "ref": "R1505",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V3_IO"
+  },
+  {
+    "ref": "R1505",
+    "pin": "2",
+    "pin_name": "",
+    "net": "SOC_VBUS_DET"
+  },
+  {
+    "ref": "R1506",
+    "pin": "1",
+    "pin_name": "",
+    "net": "SOC_VBUS_DET"
+  },
+  {
+    "ref": "R1506",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C1503",
+    "pin": "1",
+    "pin_name": "",
+    "net": "SOC_VBUS_DET"
+  },
+  {
+    "ref": "C1503",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "R1507",
+    "pin": "1",
+    "pin_name": "",
+    "net": "THERMAL_SHUTDOWN"
+  },
+  {
+    "ref": "R1507",
+    "pin": "2",
+    "pin_name": "",
+    "net": "RESET_N"
+  }
+]

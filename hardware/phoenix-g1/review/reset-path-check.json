@@ -1,0 +1,12 @@
+{
+  "status": "PASS DOCUMENTED RESET TOPOLOGY; not functional validation",
+  "source": "reference/Rockchip_RK3568_Hardware_Design_Guide_EN_V1.2_20220126_.pdf PDFp25-26, printed6-7",
+  "path": "RK3568 AG26 -> R1507 0R -> RESET_N -> RK3568 AH27 and RK809 pin67",
+  "reset_filter": "C411 100nF; pull-up R412 10k to matching PMUIO1 supply",
+  "firmware_holds": [
+    "Configure TSADC_SHUT_M0 and active-low polarity; never use AG26 as arbitrary GPIO.",
+    "Configure external GPIO shutdown path, thresholds and watchdog reset as required by chosen BSP.",
+    "Test PMIC restart sequencing and reset pulse >=100 main-clock periods.",
+    "Thermal shutdown is a last resort; heatsink and cooling remain unqualified."
+  ]
+}

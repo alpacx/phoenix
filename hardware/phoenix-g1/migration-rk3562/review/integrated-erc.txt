@@ -1,0 +1,148 @@
+ERC report (2026-11-08T13:07:43, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(223.52 mm, 128.27 mm): Etichetta globale 'DDR_RZQ'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(54.61 mm, 36.83 mm): Etichetta globale 'USB_SHIELD'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(139.70 mm, 93.98 mm): Etichetta globale 'PENDING_1C9'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(241.30 mm, 101.60 mm): Etichetta globale 'PENDING_1D4'
+
+***** Sheet /boot-flash/
+
+***** Sheet /core-boot-support/
+
+***** Sheet /cpu-power/
+
+***** Sheet /ddr-bypass/
+
+***** Sheet /ddr3-memory/
+
+***** Sheet /display-power/
+
+***** Sheet /display-signals/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(261.62 mm, 73.66 mm): Symbol DS1 Pin 8 [GND, Ingresso potenza, Linea]
+
+***** Sheet /ethernet-esd/
+
+***** Sheet /ethernet-magnetics/
+
+***** Sheet /ethernet-phy/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(64.77 mm, 58.42 mm): Symbol U5 Pin 3 [AVDD10, Ingresso potenza, Linea]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(64.77 mm, 78.74 mm): Symbol U5 Pin 11 [AVDD33, Ingresso potenza, Linea]
+
+***** Sheet /ethernet-support/
+
+***** Sheet /expansion/
+
+***** Sheet /pmic-bucks/
+
+***** Sheet /pmic-control/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(92.71 mm, 53.34 mm): Symbol U4 Pin 4 [VCC7, Ingresso potenza, Linea]
+
+***** Sheet /pmic-ldos/
+
+***** Sheet /rk3562-pins-01/
+
+***** Sheet /rk3562-pins-02/
+
+***** Sheet /rk3562-pins-03/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(236.22 mm, 104.14 mm): Symbol U1 Pin 1D6 [+1V5_DDR, Ingresso potenza, Linea]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(236.22 mm, 121.92 mm): Symbol U1 Pin 1E12 [VDD_GPU, Ingresso potenza, Linea]
+
+***** Sheet /rk3562-pins-04/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(236.22 mm, 86.36 mm): Symbol U1 Pin 1G10 [VDD_LOGIC, Ingresso potenza, Linea]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(236.22 mm, 104.14 mm): Symbol U1 Pin 1G3 [VDD_NPU, Ingresso potenza, Linea]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(236.22 mm, 116.84 mm): Symbol U1 Pin 1G8 [VDD_CPU, Ingresso potenza, Linea]
+
+***** Sheet /rk3562-pins-05/
+
+***** Sheet /rk3562-pins-06/
+
+***** Sheet /rk3562-pins-07/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(236.22 mm, 91.44 mm): Symbol U1 Pin 1L14 [USB_AVDD_0V9, Ingresso potenza, Linea]
+
+***** Sheet /rk3562-pins-08/
+
+***** Sheet /rk3562-pins-09/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(144.78 mm, 101.60 mm): Symbol U1 Pin 1M15 [USB_AVDD_1V8, Ingresso potenza, Linea]
+
+***** Sheet /rk3562-pins-10/
+
+***** Sheet /rk3562-pins-11/
+
+***** Sheet /rk3562-pins-12/
+
+***** Sheet /soc-core-bypass/
+
+***** Sheet /soc-io-bypass/
+
+***** Sheet /system-3v3/
+
+***** Sheet /test-access/
+
+***** Sheet /usb-analog-bypass/
+
+***** Sheet /usb-c-frontend/
+
+***** Sheet /usb-input-protection/
+
+***** Sheet /usb-power-control/
+
+***** Sheet /usb-vbus-guard/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(78.74 mm, 86.36 mm): Symbol U24 Pin 9 [IN, Ingresso potenza, Linea]
+
+***** Sheet /wifi-clocks/
+
+***** Sheet /wifi-module/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(77.47 mm, 97.79 mm): Symbol U25 Pin 9 [VBAT, Ingresso potenza, Linea]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(77.47 mm, 133.35 mm): Symbol U25 Pin 23 [VIN_LDO, Ingresso potenza, Linea]
+
+***** Sheet /wifi-power/
+
+***** Sheet /wifi-sdio-pulls/
+
+***** Sheet /wifi-vbat-converter/
+
+ ** ERC messages: 18  Errors 14  Warnings 4
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

@@ -1,0 +1,50 @@
+{
+  "status": "PARTIAL MIGRATION; NOT COMPLETE BOARD",
+  "total_pins": 478,
+  "mapped_signals": 136,
+  "mapped_ground_supply_pins": 229,
+  "mapped_pins_total": 380,
+  "pending_pins": 2,
+  "electrical_types_reviewed": false,
+  "footprint_qualified": false,
+  "assembly_ready": false,
+  "integrated_sheets": 41,
+  "signal_reference_matches": 134,
+  "signal_reference_not_extracted": 2,
+  "io_domain_assignments": 55,
+  "erc_messages": 18,
+  "routing_complete": false,
+  "gerbers_released": false,
+  "physical_validation": false,
+  "blocking_evidence": [
+    "RK3562-specific DDR3 RZQ/VREF and routing requirements",
+    "RK3562 power sequencing/default voltages and unused analog supply treatment",
+    "Qualified FCCSP478 land/stencil and escape process"
+  ],
+  "other_unfinished_work": [
+    "CPU feedback renamed CPU_FB_SENSE; capacitor-side sense documented, inherited RC loop stability remains unqualified",
+    "All SoC balls have explicit dispositions except DDR_RZQ and DDR_VREFOUT; verify reset/pinmux and NC policies during bring-up",
+    "Requalify decoupling and power components",
+    "Display attachment/footprint and passive thermal/mechanical qualification",
+    "Complete placement/routing, SI/PI checks and manufacturing review",
+    "Bootloader/NOR image and firmware pinmux validation"
+  ],
+  "checked_pin_dispositions": 1775,
+  "active_signal_directions_modelled": 136,
+  "power_nets_with_dc_path": 26,
+  "pins_nc_by_design": 96,
+  "unused_analog_inputs_grounded": 15,
+  "physical_draft": {
+    "board": "kicad/pcb/phoenix-g1.kicad_pcb",
+    "pcb_sha256": "f50547ffec81b5f555ee4fde4fde5caf679819d2181682155f5267a468e23765",
+    "footprints": 353,
+    "tracks": 679,
+    "vias": 99,
+    "ground_zones": 2,
+    "unconnected_ratsnest_edges": 1178,
+    "geometric_drc_violations": 0,
+    "missing_display_footprint": true,
+    "production_ready": false,
+    "unrouted_usb_control_branches": []
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "status": "PRELIMINARY PLACEMENT; DRC REQUIRED",
+  "moves": [
+    {
+      "ref": "R1904",
+      "target_pin": "U24.15",
+      "old_xy_mm": [
+        6.5,
+        1.0
+      ],
+      "new_xy_mm": [
+        6.5,
+        1.0
+      ],
+      "old_center_to_pin_mm": 5.506,
+      "new_center_to_pin_mm": 5.506
+    },
+    {
+      "ref": "TP13",
+      "target_pin": "U15.6",
+      "old_xy_mm": [
+        10.5,
+        33.5
+      ],
+      "new_xy_mm": [
+        16.0,
+        34.5
+      ],
+      "old_center_to_pin_mm": 3.958,
+      "new_center_to_pin_mm": 9.459
+    }
+  ],
+  "limitations": [
+    "Distances are component-center to controller-pin distances, not copper lengths.",
+    "Divider ground returns, analog routing and interference remain unqualified."
+  ],
+  "production_ready": false
+}

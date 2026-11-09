@@ -1,0 +1,48 @@
+{
+  "status": "INTEGRATION DRAFT; NOT ELECTRICALLY APPROVED",
+  "reused_sheets": [
+    "soc-io-bypass",
+    "wifi-module",
+    "test-access",
+    "boot-flash",
+    "ethernet-esd",
+    "expansion",
+    "display-power",
+    "usb-vbus-guard",
+    "cpu-power",
+    "soc-core-bypass",
+    "core-boot-support",
+    "pmic-control",
+    "ethernet-support",
+    "usb-analog-bypass",
+    "wifi-sdio-pulls",
+    "ethernet-phy",
+    "wifi-power",
+    "ethernet-magnetics",
+    "pmic-bucks",
+    "display-signals",
+    "wifi-vbat-converter",
+    "usb-power-control",
+    "ddr3-memory",
+    "ddr-bypass",
+    "wifi-clocks",
+    "pmic-ldos",
+    "system-3v3",
+    "usb-input-protection",
+    "usb-c-frontend"
+  ],
+  "excluded": "Old SoC and old artificial power-source model",
+  "removed_legacy_components": [
+    "R1405 FLASH_VOL_SEL; no equivalent RK3562 strap inferred"
+  ],
+  "cost_note": "Quantities follow migrated reference inventory; prices are catalog snapshots, not an assembly quote.",
+  "mandatory_review": [
+    "All original RK3568-specific notes, pin functions and firmware labels",
+    "PMIC variant, defaults, sequence and analog supplies",
+    "DDR reference, calibration and clock circuits",
+    "Expansion IO bank voltages and pullup supply",
+    "Boot flash voltage strap: no corresponding RK3562 strap assumed",
+    "Decoupling must be redesigned for new ball map",
+    "Thermal shutdown polarity and reset thresholds"
+  ]
+}

@@ -1,0 +1,1380 @@
+{
+  "status": "SIGNAL ALLOCATION ONLY - clock termination, power and decoupling NOT implemented",
+  "configuration": {
+    "ram_mpn": "H5TQ2G63GFR-TEC",
+    "ram_count": 2,
+    "capacity_bytes": 536870912,
+    "bus_width_bits": 32,
+    "ranks": 1,
+    "ecc": false,
+    "vdd_vddq_v": 1.5,
+    "initial_target_clock_mhz": 533,
+    "initial_target_data_rate_mt_s": 1066,
+    "frequency_status": "Design target only; loader configuration and memory training untested"
+  },
+  "sources": [
+    "Hynix Rev 1.2 Oct 2015 pp 3-6",
+    "Rockchip RK3568 PinOut V1.1",
+    "Rockchip Hardware Design Guide V1.2 pp 12-17"
+  ],
+  "mandatory_circuits": [
+    "RK3568 H7 DDR_RZQ: 120 ohm 1% to GND",
+    "Each RAM L8 ZQ: separate 240 ohm 1% to GND",
+    "VREFCA: two 1k 1% divider from +1V5_DDR; vendor-specified 1nF filtering",
+    "VREFDQ: SoC P8, 1nF filtering per vendor reference",
+    "PMIC BUCK3 feedback configured for 1.5V before first DDR initialization",
+    "DDR power sequence, all decoupling and clock matching must be implemented before routing"
+  ],
+  "unresolved": [
+    "Two-device DDR3 topology must be qualified; available Rockchip DDR3 template is four-device/two-rank.",
+    "Do not copy DDR4 address mapping: RK3568 AC pins have different DDR3 functions.",
+    "No byte swapping is applied in this allocation. Any PCB swap must update loader configuration.",
+    "No 1.35V substitution: selected H5TQ part specifies 1.425-1.575V."
+  ],
+  "signals": [
+    {
+      "ram_ref": "U2",
+      "ram_ball": "A1",
+      "ram_pin": "VDDQ",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "A2",
+      "ram_pin": "DQU5",
+      "logical_net": "DDR3_DQ13",
+      "soc_ball": "J6"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "A3",
+      "ram_pin": "DQU7",
+      "logical_net": "DDR3_DQ15",
+      "soc_ball": "L4"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "A7",
+      "ram_pin": "DQU4",
+      "logical_net": "DDR3_DQ12",
+      "soc_ball": "K2"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "A8",
+      "ram_pin": "VDDQ",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "A9",
+      "ram_pin": "VSS",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "B1",
+      "ram_pin": "VSSQ",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "B2",
+      "ram_pin": "VDD",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "B3",
+      "ram_pin": "VSS",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "B7",
+      "ram_pin": "~{DQSU}",
+      "logical_net": "DDR3_DQS1N",
+      "soc_ball": "L1"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "B8",
+      "ram_pin": "DQU6",
+      "logical_net": "DDR3_DQ14",
+      "soc_ball": "J7"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "B9",
+      "ram_pin": "VSSQ",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "C1",
+      "ram_pin": "VDDQ",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "C2",
+      "ram_pin": "DQU3",
+      "logical_net": "DDR3_DQ11",
+      "soc_ball": "L6"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "C3",
+      "ram_pin": "DQU1",
+      "logical_net": "DDR3_DQ9",
+      "soc_ball": "N2"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "C7",
+      "ram_pin": "DQSU",
+      "logical_net": "DDR3_DQS1P",
+      "soc_ball": "L2"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "C8",
+      "ram_pin": "DQU2",
+      "logical_net": "DDR3_DQ10",
+      "soc_ball": "L7"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "C9",
+      "ram_pin": "VDDQ",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "D1",
+      "ram_pin": "VSSQ",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "D2",
+      "ram_pin": "VDDQ",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "D3",
+      "ram_pin": "DMU",
+      "logical_net": "DDR3_DM1",
+      "soc_ball": "J4"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "D7",
+      "ram_pin": "DQU0",
+      "logical_net": "DDR3_DQ8",
+      "soc_ball": "M1"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "D8",
+      "ram_pin": "VSSQ",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "D9",
+      "ram_pin": "VDD",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "E1",
+      "ram_pin": "VSS",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "E2",
+      "ram_pin": "VSSQ",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "E3",
+      "ram_pin": "DQL0",
+      "logical_net": "DDR3_DQ0",
+      "soc_ball": "F2"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "E7",
+      "ram_pin": "DML",
+      "logical_net": "DDR3_DM0",
+      "soc_ball": "H5"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "E8",
+      "ram_pin": "VSSQ",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "E9",
+      "ram_pin": "VDDQ",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "F1",
+      "ram_pin": "VDDQ",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "F2",
+      "ram_pin": "DQL2",
+      "logical_net": "DDR3_DQ2",
+      "soc_ball": "E2"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "F3",
+      "ram_pin": "DQSL",
+      "logical_net": "DDR3_DQS0P",
+      "soc_ball": "G1"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "F7",
+      "ram_pin": "DQL1",
+      "logical_net": "DDR3_DQ1",
+      "soc_ball": "E1"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "F8",
+      "ram_pin": "DQL3",
+      "logical_net": "DDR3_DQ3",
+      "soc_ball": "D1"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "F9",
+      "ram_pin": "VSSQ",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "G1",
+      "ram_pin": "VSSQ",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "G2",
+      "ram_pin": "DQL6",
+      "logical_net": "DDR3_DQ6",
+      "soc_ball": "H1"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "G3",
+      "ram_pin": "~{DQSL}",
+      "logical_net": "DDR3_DQS0N",
+      "soc_ball": "G2"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "G7",
+      "ram_pin": "VDD",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "G8",
+      "ram_pin": "VSS",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "G9",
+      "ram_pin": "VSSQ",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "H1",
+      "ram_pin": "VREFDQ",
+      "logical_net": "DDR_VREFDQ",
+      "soc_ball": "P8"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "H2",
+      "ram_pin": "VDDQ",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "H3",
+      "ram_pin": "DQL4",
+      "logical_net": "DDR3_DQ4",
+      "soc_ball": "J1"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "H7",
+      "ram_pin": "DQL7",
+      "logical_net": "DDR3_DQ7",
+      "soc_ball": "H4"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "H8",
+      "ram_pin": "DQL5",
+      "logical_net": "DDR3_DQ5",
+      "soc_ball": "J2"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "H9",
+      "ram_pin": "VDDQ",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "J1",
+      "ram_pin": "NC",
+      "logical_net": null,
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "J2",
+      "ram_pin": "VSS",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "J3",
+      "ram_pin": "~{RAS}",
+      "logical_net": "DDR3_RASN",
+      "soc_ball": "D5"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "J7",
+      "ram_pin": "CK",
+      "logical_net": "DDR3_CLKP",
+      "soc_ball": "B4"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "J8",
+      "ram_pin": "VSS",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "J9",
+      "ram_pin": "NC",
+      "logical_net": null,
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "K1",
+      "ram_pin": "ODT",
+      "logical_net": "DDR3_ODT0",
+      "soc_ball": "E8"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "K2",
+      "ram_pin": "VDD",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "K3",
+      "ram_pin": "~{CAS}",
+      "logical_net": "DDR3_CASN",
+      "soc_ball": "E6"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "K7",
+      "ram_pin": "~{CK}",
+      "logical_net": "DDR3_CLKN",
+      "soc_ball": "A4"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "K8",
+      "ram_pin": "VDD",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "K9",
+      "ram_pin": "CKE",
+      "logical_net": "DDR3_CKE",
+      "soc_ball": "B3"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "L1",
+      "ram_pin": "NC",
+      "logical_net": null,
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "L2",
+      "ram_pin": "~{CS}",
+      "logical_net": "DDR3_CS0N",
+      "soc_ball": "D8"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "L3",
+      "ram_pin": "~{WE}",
+      "logical_net": "DDR3_WEN",
+      "soc_ball": "F8"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "L7",
+      "ram_pin": "A10/AP",
+      "logical_net": "DDR3_A10",
+      "soc_ball": "D6"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "L8",
+      "ram_pin": "ZQ",
+      "logical_net": "U2_ZQ_240R_TO_GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "L9",
+      "ram_pin": "NC",
+      "logical_net": null,
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "M1",
+      "ram_pin": "VSS",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "M2",
+      "ram_pin": "BA0",
+      "logical_net": "DDR3_BA0",
+      "soc_ball": "F7"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "M3",
+      "ram_pin": "BA2",
+      "logical_net": "DDR3_BA2",
+      "soc_ball": "C4"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "M7",
+      "ram_pin": "NC",
+      "logical_net": null,
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "M8",
+      "ram_pin": "VREFCA",
+      "logical_net": "DDR_VREFCA",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "M9",
+      "ram_pin": "VSS",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "N1",
+      "ram_pin": "VDD",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "N2",
+      "ram_pin": "A3",
+      "logical_net": "DDR3_A3",
+      "soc_ball": "F4"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "N3",
+      "ram_pin": "A0",
+      "logical_net": "DDR3_A0",
+      "soc_ball": "E4"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "N7",
+      "ram_pin": "A12/~{BC}",
+      "logical_net": "DDR3_A12",
+      "soc_ball": "E9"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "N8",
+      "ram_pin": "BA1",
+      "logical_net": "DDR3_BA1",
+      "soc_ball": "D9"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "N9",
+      "ram_pin": "VDD",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "P1",
+      "ram_pin": "VSS",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "P2",
+      "ram_pin": "A5",
+      "logical_net": "DDR3_A5",
+      "soc_ball": "A5"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "P3",
+      "ram_pin": "A2",
+      "logical_net": "DDR3_A2",
+      "soc_ball": "F5"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "P7",
+      "ram_pin": "A1",
+      "logical_net": "DDR3_A1",
+      "soc_ball": "E11"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "P8",
+      "ram_pin": "A4",
+      "logical_net": "DDR3_A4",
+      "soc_ball": "B1"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "P9",
+      "ram_pin": "VSS",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "R1",
+      "ram_pin": "VDD",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "R2",
+      "ram_pin": "A7",
+      "logical_net": "DDR3_A7",
+      "soc_ball": "C2"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "R3",
+      "ram_pin": "A9",
+      "logical_net": "DDR3_A9",
+      "soc_ball": "B6"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "R7",
+      "ram_pin": "A11",
+      "logical_net": "DDR3_A11",
+      "soc_ball": "B7"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "R8",
+      "ram_pin": "A6",
+      "logical_net": "DDR3_A6",
+      "soc_ball": "C1"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "R9",
+      "ram_pin": "VDD",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "T1",
+      "ram_pin": "VSS",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "T2",
+      "ram_pin": "~{RESET}",
+      "logical_net": "DDR3_RESETN",
+      "soc_ball": "F11"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "T3",
+      "ram_pin": "A13",
+      "logical_net": "DDR3_A13",
+      "soc_ball": "A7"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "T7",
+      "ram_pin": "NC",
+      "logical_net": null,
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "T8",
+      "ram_pin": "A8",
+      "logical_net": "DDR3_A8",
+      "soc_ball": "A8"
+    },
+    {
+      "ram_ref": "U2",
+      "ram_ball": "T9",
+      "ram_pin": "VSS",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "A1",
+      "ram_pin": "VDDQ",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "A2",
+      "ram_pin": "DQU5",
+      "logical_net": "DDR3_DQ29",
+      "soc_ball": "A13"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "A3",
+      "ram_pin": "DQU7",
+      "logical_net": "DDR3_DQ31",
+      "soc_ball": "B14"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "A7",
+      "ram_pin": "DQU4",
+      "logical_net": "DDR3_DQ28",
+      "soc_ball": "B13"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "A8",
+      "ram_pin": "VDDQ",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "A9",
+      "ram_pin": "VSS",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "B1",
+      "ram_pin": "VSSQ",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "B2",
+      "ram_pin": "VDD",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "B3",
+      "ram_pin": "VSS",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "B7",
+      "ram_pin": "~{DQSU}",
+      "logical_net": "DDR3_DQS3N",
+      "soc_ball": "A15"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "B8",
+      "ram_pin": "DQU6",
+      "logical_net": "DDR3_DQ30",
+      "soc_ball": "D17"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "B9",
+      "ram_pin": "VSSQ",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "C1",
+      "ram_pin": "VDDQ",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "C2",
+      "ram_pin": "DQU3",
+      "logical_net": "DDR3_DQ27",
+      "soc_ball": "B18"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "C3",
+      "ram_pin": "DQU1",
+      "logical_net": "DDR3_DQ25",
+      "soc_ball": "B17"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "C7",
+      "ram_pin": "DQSU",
+      "logical_net": "DDR3_DQS3P",
+      "soc_ball": "B15"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "C8",
+      "ram_pin": "DQU2",
+      "logical_net": "DDR3_DQ26",
+      "soc_ball": "A17"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "C9",
+      "ram_pin": "VDDQ",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "D1",
+      "ram_pin": "VSSQ",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "D2",
+      "ram_pin": "VDDQ",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "D3",
+      "ram_pin": "DMU",
+      "logical_net": "DDR3_DM3",
+      "soc_ball": "E17"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "D7",
+      "ram_pin": "DQU0",
+      "logical_net": "DDR3_DQ24",
+      "soc_ball": "A16"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "D8",
+      "ram_pin": "VSSQ",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "D9",
+      "ram_pin": "VDD",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "E1",
+      "ram_pin": "VSS",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "E2",
+      "ram_pin": "VSSQ",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "E3",
+      "ram_pin": "DQL0",
+      "logical_net": "DDR3_DQ16",
+      "soc_ball": "B10"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "E7",
+      "ram_pin": "DML",
+      "logical_net": "DDR3_DM2",
+      "soc_ball": "D14"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "E8",
+      "ram_pin": "VSSQ",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "E9",
+      "ram_pin": "VDDQ",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "F1",
+      "ram_pin": "VDDQ",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "F2",
+      "ram_pin": "DQL2",
+      "logical_net": "DDR3_DQ18",
+      "soc_ball": "D12"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "F3",
+      "ram_pin": "DQSL",
+      "logical_net": "DDR3_DQS2P",
+      "soc_ball": "A11"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "F7",
+      "ram_pin": "DQL1",
+      "logical_net": "DDR3_DQ17",
+      "soc_ball": "A9"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "F8",
+      "ram_pin": "DQL3",
+      "logical_net": "DDR3_DQ19",
+      "soc_ball": "E12"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "F9",
+      "ram_pin": "VSSQ",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "G1",
+      "ram_pin": "VSSQ",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "G2",
+      "ram_pin": "DQL6",
+      "logical_net": "DDR3_DQ22",
+      "soc_ball": "E15"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "G3",
+      "ram_pin": "~{DQSL}",
+      "logical_net": "DDR3_DQS2N",
+      "soc_ball": "B11"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "G7",
+      "ram_pin": "VDD",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "G8",
+      "ram_pin": "VSS",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "G9",
+      "ram_pin": "VSSQ",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "H1",
+      "ram_pin": "VREFDQ",
+      "logical_net": "DDR_VREFDQ",
+      "soc_ball": "P8"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "H2",
+      "ram_pin": "VDDQ",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "H3",
+      "ram_pin": "DQL4",
+      "logical_net": "DDR3_DQ20",
+      "soc_ball": "A12"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "H7",
+      "ram_pin": "DQL7",
+      "logical_net": "DDR3_DQ23",
+      "soc_ball": "E14"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "H8",
+      "ram_pin": "DQL5",
+      "logical_net": "DDR3_DQ21",
+      "soc_ball": "D15"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "H9",
+      "ram_pin": "VDDQ",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "J1",
+      "ram_pin": "NC",
+      "logical_net": null,
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "J2",
+      "ram_pin": "VSS",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "J3",
+      "ram_pin": "~{RAS}",
+      "logical_net": "DDR3_RASN",
+      "soc_ball": "D5"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "J7",
+      "ram_pin": "CK",
+      "logical_net": "DDR3_CLKP",
+      "soc_ball": "B4"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "J8",
+      "ram_pin": "VSS",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "J9",
+      "ram_pin": "NC",
+      "logical_net": null,
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "K1",
+      "ram_pin": "ODT",
+      "logical_net": "DDR3_ODT0",
+      "soc_ball": "E8"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "K2",
+      "ram_pin": "VDD",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "K3",
+      "ram_pin": "~{CAS}",
+      "logical_net": "DDR3_CASN",
+      "soc_ball": "E6"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "K7",
+      "ram_pin": "~{CK}",
+      "logical_net": "DDR3_CLKN",
+      "soc_ball": "A4"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "K8",
+      "ram_pin": "VDD",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "K9",
+      "ram_pin": "CKE",
+      "logical_net": "DDR3_CKE",
+      "soc_ball": "B3"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "L1",
+      "ram_pin": "NC",
+      "logical_net": null,
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "L2",
+      "ram_pin": "~{CS}",
+      "logical_net": "DDR3_CS0N",
+      "soc_ball": "D8"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "L3",
+      "ram_pin": "~{WE}",
+      "logical_net": "DDR3_WEN",
+      "soc_ball": "F8"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "L7",
+      "ram_pin": "A10/AP",
+      "logical_net": "DDR3_A10",
+      "soc_ball": "D6"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "L8",
+      "ram_pin": "ZQ",
+      "logical_net": "U3_ZQ_240R_TO_GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "L9",
+      "ram_pin": "NC",
+      "logical_net": null,
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "M1",
+      "ram_pin": "VSS",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "M2",
+      "ram_pin": "BA0",
+      "logical_net": "DDR3_BA0",
+      "soc_ball": "F7"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "M3",
+      "ram_pin": "BA2",
+      "logical_net": "DDR3_BA2",
+      "soc_ball": "C4"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "M7",
+      "ram_pin": "NC",
+      "logical_net": null,
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "M8",
+      "ram_pin": "VREFCA",
+      "logical_net": "DDR_VREFCA",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "M9",
+      "ram_pin": "VSS",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "N1",
+      "ram_pin": "VDD",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "N2",
+      "ram_pin": "A3",
+      "logical_net": "DDR3_A3",
+      "soc_ball": "F4"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "N3",
+      "ram_pin": "A0",
+      "logical_net": "DDR3_A0",
+      "soc_ball": "E4"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "N7",
+      "ram_pin": "A12/~{BC}",
+      "logical_net": "DDR3_A12",
+      "soc_ball": "E9"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "N8",
+      "ram_pin": "BA1",
+      "logical_net": "DDR3_BA1",
+      "soc_ball": "D9"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "N9",
+      "ram_pin": "VDD",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "P1",
+      "ram_pin": "VSS",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "P2",
+      "ram_pin": "A5",
+      "logical_net": "DDR3_A5",
+      "soc_ball": "A5"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "P3",
+      "ram_pin": "A2",
+      "logical_net": "DDR3_A2",
+      "soc_ball": "F5"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "P7",
+      "ram_pin": "A1",
+      "logical_net": "DDR3_A1",
+      "soc_ball": "E11"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "P8",
+      "ram_pin": "A4",
+      "logical_net": "DDR3_A4",
+      "soc_ball": "B1"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "P9",
+      "ram_pin": "VSS",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "R1",
+      "ram_pin": "VDD",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "R2",
+      "ram_pin": "A7",
+      "logical_net": "DDR3_A7",
+      "soc_ball": "C2"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "R3",
+      "ram_pin": "A9",
+      "logical_net": "DDR3_A9",
+      "soc_ball": "B6"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "R7",
+      "ram_pin": "A11",
+      "logical_net": "DDR3_A11",
+      "soc_ball": "B7"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "R8",
+      "ram_pin": "A6",
+      "logical_net": "DDR3_A6",
+      "soc_ball": "C1"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "R9",
+      "ram_pin": "VDD",
+      "logical_net": "+1V5_DDR",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "T1",
+      "ram_pin": "VSS",
+      "logical_net": "GND",
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "T2",
+      "ram_pin": "~{RESET}",
+      "logical_net": "DDR3_RESETN",
+      "soc_ball": "F11"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "T3",
+      "ram_pin": "A13",
+      "logical_net": "DDR3_A13",
+      "soc_ball": "A7"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "T7",
+      "ram_pin": "NC",
+      "logical_net": null,
+      "soc_ball": null
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "T8",
+      "ram_pin": "A8",
+      "logical_net": "DDR3_A8",
+      "soc_ball": "A8"
+    },
+    {
+      "ram_ref": "U3",
+      "ram_ball": "T9",
+      "ram_pin": "VSS",
+      "logical_net": "GND",
+      "soc_ball": null
+    }
+  ]
+}

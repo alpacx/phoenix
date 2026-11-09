@@ -1,0 +1,368 @@
+[
+  {
+    "ref": "U1",
+    "pin": "AD18",
+    "pin_name": "MIPI_DSI_TX1_D0P",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AE18",
+    "pin_name": "MIPI_DSI_TX1_D0N",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AD17",
+    "pin_name": "MIPI_DSI_TX1_D1P",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AC17",
+    "pin_name": "MIPI_DSI_TX1_D1N",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AD14",
+    "pin_name": "MIPI_DSI_TX1_D2P",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AC14",
+    "pin_name": "MIPI_DSI_TX1_D2N",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AD12",
+    "pin_name": "MIPI_DSI_TX1_D3P",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AE12",
+    "pin_name": "MIPI_DSI_TX1_D3N",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AD15",
+    "pin_name": "MIPI_DSI_TX1_CLKP",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AE15",
+    "pin_name": "MIPI_DSI_TX1_CLKN",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "W15",
+    "pin_name": "MIPI_DSI_TX1_AVDD_0V9",
+    "net": "GND"
+  },
+  {
+    "ref": "U1",
+    "pin": "Y15",
+    "pin_name": "MIPI_DSI_TX1_AVDD_1V8",
+    "net": "GND"
+  },
+  {
+    "ref": "U1",
+    "pin": "J28",
+    "pin_name": "EDP_TX_D0P",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "K27",
+    "pin_name": "EDP_TX_D0N",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "K28",
+    "pin_name": "EDP_TX_D1P",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "L27",
+    "pin_name": "EDP_TX_D1N",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "L28",
+    "pin_name": "EDP_TX_D2P",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "M27",
+    "pin_name": "EDP_TX_D2N",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "M28",
+    "pin_name": "EDP_TX_D3P",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "N27",
+    "pin_name": "EDP_TX_D3N",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "L25",
+    "pin_name": "EDP_TX_AUXP",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "M25",
+    "pin_name": "EDP_TX_AUXN",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "M20",
+    "pin_name": "EDP_TX_AVDD_0V9",
+    "net": "GND"
+  },
+  {
+    "ref": "U1",
+    "pin": "M22",
+    "pin_name": "EDP_TX_AVDD_1V8",
+    "net": "GND"
+  },
+  {
+    "ref": "U1",
+    "pin": "P27",
+    "pin_name": "USB3_OTG0_DP",
+    "net": "USB_DP"
+  },
+  {
+    "ref": "U1",
+    "pin": "P28",
+    "pin_name": "USB3_OTG0_DM",
+    "net": "USB_DM"
+  },
+  {
+    "ref": "U1",
+    "pin": "M24",
+    "pin_name": "USB3_OTG0_VBUSDET",
+    "net": "SOC_VBUS_DET"
+  },
+  {
+    "ref": "U1",
+    "pin": "L23",
+    "pin_name": "USB3_OTG0_ID",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "P24",
+    "pin_name": "USB3_HOST1_DP",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "P25",
+    "pin_name": "USB3_HOST1_DM",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "P22",
+    "pin_name": "USB3_AVDD_0V9",
+    "net": "USB_AVDD_0V9"
+  },
+  {
+    "ref": "U1",
+    "pin": "P23",
+    "pin_name": "USB3_AVDD_1V8",
+    "net": "USB_AVDD_1V8"
+  },
+  {
+    "ref": "U1",
+    "pin": "M23",
+    "pin_name": "USB3_AVDD_3V3",
+    "net": "+3V3_IO"
+  },
+  {
+    "ref": "U1",
+    "pin": "T28",
+    "pin_name": "USB3_OTG0_SSTXP",
+    "net": "SOC_USB_TX_P"
+  },
+  {
+    "ref": "U1",
+    "pin": "T27",
+    "pin_name": "USB3_OTG0_SSTXN",
+    "net": "SOC_USB_TX_N"
+  },
+  {
+    "ref": "U1",
+    "pin": "R28",
+    "pin_name": "USB3_OTG0_SSRXP",
+    "net": "SOC_USB_RX_P"
+  },
+  {
+    "ref": "U1",
+    "pin": "R27",
+    "pin_name": "USB3_OTG0_SSRXN",
+    "net": "SOC_USB_RX_N"
+  },
+  {
+    "ref": "U1",
+    "pin": "V28",
+    "pin_name": "USB3_HOST1_SSTXP",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "V27",
+    "pin_name": "USB3_HOST1_SSTXN",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "U28",
+    "pin_name": "USB3_HOST1_SSRXP",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "U27",
+    "pin_name": "USB3_HOST1_SSRXN",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "W27",
+    "pin_name": "PCIE20_TXP",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "W28",
+    "pin_name": "PCIE20_TXN",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "Y27",
+    "pin_name": "PCIE20_RXP",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "Y28",
+    "pin_name": "PCIE20_RXN",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "V24",
+    "pin_name": "PCIE20_REFCLKP",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "V25",
+    "pin_name": "PCIE20_REFCLKN",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "R24",
+    "pin_name": "MULTI_PHY0_REFCLKP",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "R25",
+    "pin_name": "MULTI_PHY0_REFCLKN",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "U25",
+    "pin_name": "MULTI_PHY1_REFCLKP",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "U24",
+    "pin_name": "MULTI_PHY1_REFCLKN",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "R20",
+    "pin_name": "MULTI_PHY_AVDD_0V9_1",
+    "net": "VDDA_0V9"
+  },
+  {
+    "ref": "U1",
+    "pin": "R21",
+    "pin_name": "MULTI_PHY_AVDD_0V9_2",
+    "net": "VDDA_0V9"
+  },
+  {
+    "ref": "U1",
+    "pin": "R22",
+    "pin_name": "MULTI_PHY_AVDD_1V8",
+    "net": "VCCA_1V8"
+  },
+  {
+    "ref": "U1",
+    "pin": "R2",
+    "pin_name": "USB2_HOST2_DP",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "R1",
+    "pin_name": "USB2_HOST2_DM",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "T2",
+    "pin_name": "USB2_HOST3_DP",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "T1",
+    "pin_name": "USB2_HOST3_DM",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "R8",
+    "pin_name": "USB2_AVDD_0V9",
+    "net": "GND"
+  },
+  {
+    "ref": "U1",
+    "pin": "P9",
+    "pin_name": "USB2_AVDD_1V8",
+    "net": "GND"
+  },
+  {
+    "ref": "U1",
+    "pin": "P10",
+    "pin_name": "USB2_AVDD_3V3",
+    "net": "GND"
+  }
+]

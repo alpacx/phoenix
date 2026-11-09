@@ -1,0 +1,1102 @@
+{
+  "status": "USB POWER/RETURN LAYOUT INCOMPLETE",
+  "pcb_sha256": "f50547ffec81b5f555ee4fde4fde5caf679819d2181682155f5267a468e23765",
+  "bypass_placement": [
+    {
+      "capacitor": "C605",
+      "target": "U6",
+      "rail": "VBUS_PROTECTED",
+      "minimum_pad_distance_mm": 2.245,
+      "same_copper_layer": false,
+      "physically_connected_to_target": true,
+      "target_pins": [
+        "30"
+      ],
+      "all_target_pins_connected": true,
+      "direct_cap_to_ic_tracks": []
+    },
+    {
+      "capacitor": "C1103",
+      "target": "U12",
+      "rail": "+3V3_AON",
+      "minimum_pad_distance_mm": 2.1,
+      "same_copper_layer": true,
+      "physically_connected_to_target": true,
+      "target_pins": [
+        "3",
+        "5",
+        "6"
+      ],
+      "all_target_pins_connected": true,
+      "direct_cap_to_ic_tracks": []
+    },
+    {
+      "capacitor": "C1104",
+      "target": "U13",
+      "rail": "+3V3_AON",
+      "minimum_pad_distance_mm": 3.212,
+      "same_copper_layer": true,
+      "physically_connected_to_target": true,
+      "target_pins": [
+        "5"
+      ],
+      "all_target_pins_connected": true,
+      "direct_cap_to_ic_tracks": []
+    },
+    {
+      "capacitor": "C1105",
+      "target": "U14",
+      "rail": "+3V3_AON",
+      "minimum_pad_distance_mm": 1.124,
+      "same_copper_layer": true,
+      "physically_connected_to_target": true,
+      "target_pins": [
+        "5"
+      ],
+      "all_target_pins_connected": true,
+      "direct_cap_to_ic_tracks": []
+    },
+    {
+      "capacitor": "C1106",
+      "target": "U16",
+      "rail": "+3V3_AON",
+      "minimum_pad_distance_mm": 1.421,
+      "same_copper_layer": true,
+      "physically_connected_to_target": true,
+      "target_pins": [
+        "5"
+      ],
+      "all_target_pins_connected": true,
+      "direct_cap_to_ic_tracks": []
+    },
+    {
+      "capacitor": "C1107",
+      "target": "U19",
+      "rail": "+3V3_AON",
+      "minimum_pad_distance_mm": 1.302,
+      "same_copper_layer": true,
+      "physically_connected_to_target": true,
+      "target_pins": [
+        "5"
+      ],
+      "all_target_pins_connected": true,
+      "direct_cap_to_ic_tracks": []
+    },
+    {
+      "capacitor": "C606",
+      "target": "U6",
+      "rail": "+3V3_AON",
+      "minimum_pad_distance_mm": 1.306,
+      "same_copper_layer": true,
+      "physically_connected_to_target": true,
+      "target_pins": [
+        "8"
+      ],
+      "all_target_pins_connected": true,
+      "direct_cap_to_ic_tracks": []
+    },
+    {
+      "capacitor": "C1101",
+      "target": "U11",
+      "rail": "VBUS_PROTECTED",
+      "minimum_pad_distance_mm": 1.708,
+      "same_copper_layer": true,
+      "physically_connected_to_target": true,
+      "target_pins": [
+        "1",
+        "3"
+      ],
+      "all_target_pins_connected": true,
+      "direct_cap_to_ic_tracks": [
+        {
+          "length_mm": 1.7085,
+          "width_mm": 0.25,
+          "layer": "F.Cu"
+        }
+      ]
+    },
+    {
+      "capacitor": "C1102",
+      "target": "U11",
+      "rail": "+3V3_AON",
+      "minimum_pad_distance_mm": 1.328,
+      "same_copper_layer": true,
+      "physically_connected_to_target": true,
+      "target_pins": [
+        "5"
+      ],
+      "all_target_pins_connected": true,
+      "direct_cap_to_ic_tracks": [
+        {
+          "length_mm": 1.3285,
+          "width_mm": 0.25,
+          "layer": "F.Cu"
+        }
+      ]
+    },
+    {
+      "capacitor": "C1201",
+      "target": "U15",
+      "rail": "VBUS_PROTECTED",
+      "minimum_pad_distance_mm": 1.07,
+      "same_copper_layer": true,
+      "physically_connected_to_target": true,
+      "target_pins": [
+        "3",
+        "4"
+      ],
+      "all_target_pins_connected": true,
+      "direct_cap_to_ic_tracks": [
+        {
+          "length_mm": 1.07,
+          "width_mm": 0.5,
+          "layer": "F.Cu"
+        }
+      ]
+    },
+    {
+      "capacitor": "C1203",
+      "target": "U15",
+      "rail": "+5V_MAIN",
+      "minimum_pad_distance_mm": 1.181,
+      "same_copper_layer": true,
+      "physically_connected_to_target": true,
+      "target_pins": [
+        "5"
+      ],
+      "all_target_pins_connected": true,
+      "direct_cap_to_ic_tracks": [
+        {
+          "length_mm": 1.1811,
+          "width_mm": 0.25,
+          "layer": "F.Cu"
+        }
+      ]
+    },
+    {
+      "capacitor": "C1901",
+      "target": "U24",
+      "rail": "VBUS_RAW",
+      "minimum_pad_distance_mm": 2.159,
+      "same_copper_layer": true,
+      "physically_connected_to_target": true,
+      "target_pins": [
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "all_target_pins_connected": true,
+      "direct_cap_to_ic_tracks": [
+        {
+          "length_mm": 2.1593,
+          "width_mm": 0.5,
+          "layer": "F.Cu"
+        }
+      ]
+    },
+    {
+      "capacitor": "C1902",
+      "target": "U24",
+      "rail": "VBUS_PROTECTED",
+      "minimum_pad_distance_mm": 1.6,
+      "same_copper_layer": true,
+      "physically_connected_to_target": true,
+      "target_pins": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "all_target_pins_connected": true,
+      "direct_cap_to_ic_tracks": [
+        {
+          "length_mm": 1.6,
+          "width_mm": 0.5,
+          "layer": "F.Cu"
+        }
+      ]
+    }
+  ],
+  "usb_input_power_chain": [
+    {
+      "net": "VBUS_RAW",
+      "endpoints": [
+        "C1901.1",
+        "J1.A4",
+        "J1.A9",
+        "J1.B4",
+        "J1.B9",
+        "R1901.1",
+        "R1903.1",
+        "TP2.1",
+        "U24.10",
+        "U24.11",
+        "U24.12",
+        "U24.13",
+        "U24.9"
+      ],
+      "unreachable_from_first_endpoint": [],
+      "connected": true
+    },
+    {
+      "net": "VBUS_PROTECTED",
+      "endpoints": [
+        "C1101.1",
+        "C1201.1",
+        "C1902.1",
+        "C605.1",
+        "R601.1",
+        "U11.1",
+        "U11.3",
+        "U15.3",
+        "U15.4",
+        "U24.4",
+        "U24.5",
+        "U24.6",
+        "U24.7",
+        "U24.8",
+        "U6.30"
+      ],
+      "unreachable_from_first_endpoint": [],
+      "connected": true
+    }
+  ],
+  "usb_vbus_source_to_guard": {
+    "endpoints": [
+      "C1901.1",
+      "J1.A4",
+      "J1.A9",
+      "J1.B4",
+      "J1.B9",
+      "U24.10",
+      "U24.11",
+      "U24.12",
+      "U24.13",
+      "U24.9"
+    ],
+    "unreachable_from_first_endpoint": [],
+    "connected": true
+  },
+  "usb_guard_to_main": {
+    "endpoints": [
+      "C1201.1",
+      "C1902.1",
+      "U15.3",
+      "U15.4",
+      "U24.4",
+      "U24.5",
+      "U24.6",
+      "U24.7",
+      "U24.8"
+    ],
+    "unreachable_from_first_endpoint": [],
+    "connected": true
+  },
+  "usb_aon_supply": {
+    "endpoints": [
+      "C1102.1",
+      "C1103.1",
+      "C1104.1",
+      "C1105.1",
+      "C1106.1",
+      "C1107.1",
+      "C606.1",
+      "R1101.1",
+      "R1202.2",
+      "R602.1",
+      "R603.1",
+      "R604.1",
+      "U11.5",
+      "U12.3",
+      "U12.5",
+      "U12.6",
+      "U13.5",
+      "U14.5",
+      "U16.5",
+      "U19.5",
+      "U6.8"
+    ],
+    "unreachable_from_regulator": [],
+    "connected": true
+  },
+  "ground_returns": [
+    {
+      "pin": "J1.A1",
+      "connected_ground_pads": [
+        "J1.A1",
+        "J1.B12"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "J1.A12",
+      "connected_ground_pads": [
+        "J1.A12",
+        "J1.B1"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "J1.B1",
+      "connected_ground_pads": [
+        "J1.A12",
+        "J1.B1"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "J1.B12",
+      "connected_ground_pads": [
+        "J1.A1",
+        "J1.B12"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "U6.3",
+      "connected_ground_pads": [
+        "U6.13",
+        "U6.28",
+        "U6.3",
+        "U6.31",
+        "U6.4"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "U6.4",
+      "connected_ground_pads": [
+        "U6.13",
+        "U6.28",
+        "U6.3",
+        "U6.31",
+        "U6.4"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "U6.13",
+      "connected_ground_pads": [
+        "U6.13",
+        "U6.28",
+        "U6.3",
+        "U6.31",
+        "U6.4"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "U6.28",
+      "connected_ground_pads": [
+        "U6.13",
+        "U6.28",
+        "U6.3",
+        "U6.31",
+        "U6.4"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "U6.31",
+      "connected_ground_pads": [
+        "U6.13",
+        "U6.28",
+        "U6.3",
+        "U6.31",
+        "U6.4"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "U7.3",
+      "connected_ground_pads": [
+        "U7.3",
+        "U7.8"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "U7.8",
+      "connected_ground_pads": [
+        "U7.3",
+        "U7.8"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "U8.3",
+      "connected_ground_pads": [
+        "U8.3"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "U8.8",
+      "connected_ground_pads": [
+        "U8.8"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "R1102.2",
+      "connected_ground_pads": [
+        "R1102.2"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "R1103.2",
+      "connected_ground_pads": [
+        "R1103.2"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "U9.3",
+      "connected_ground_pads": [
+        "C1105.2",
+        "U9.3",
+        "U9.8"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "U9.8",
+      "connected_ground_pads": [
+        "C1105.2",
+        "U9.3",
+        "U9.8"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "U11.2",
+      "connected_ground_pads": [
+        "U11.2"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "U12.2",
+      "connected_ground_pads": [
+        "U12.2"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "U13.3",
+      "connected_ground_pads": [
+        "U13.3"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "U14.3",
+      "connected_ground_pads": [
+        "U14.3"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "U15.8",
+      "connected_ground_pads": [
+        "U15.8",
+        "U15.9"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "U15.9",
+      "connected_ground_pads": [
+        "U15.8",
+        "U15.9"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "U19.3",
+      "connected_ground_pads": [
+        "U19.3"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "U24.1",
+      "connected_ground_pads": [
+        "U24.1",
+        "U24.16",
+        "U24.21",
+        "U24.3"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "U24.3",
+      "connected_ground_pads": [
+        "U24.1",
+        "U24.16",
+        "U24.21",
+        "U24.3"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "U24.16",
+      "connected_ground_pads": [
+        "U24.1",
+        "U24.16",
+        "U24.21",
+        "U24.3"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "U24.21",
+      "connected_ground_pads": [
+        "U24.1",
+        "U24.16",
+        "U24.21",
+        "U24.3"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "C1103.2",
+      "connected_ground_pads": [
+        "C1103.2"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "C1104.2",
+      "connected_ground_pads": [
+        "C1104.2"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "C1105.2",
+      "connected_ground_pads": [
+        "C1105.2",
+        "U9.3",
+        "U9.8"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "C1106.2",
+      "connected_ground_pads": [
+        "C1106.2"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "C1107.2",
+      "connected_ground_pads": [
+        "C1107.2"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "C606.2",
+      "connected_ground_pads": [
+        "C606.2"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "U16.3",
+      "connected_ground_pads": [
+        "U16.3"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "C605.2",
+      "connected_ground_pads": [
+        "C605.2"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "C1101.2",
+      "connected_ground_pads": [
+        "C1101.2"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "C1102.2",
+      "connected_ground_pads": [
+        "C1102.2"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "C1201.2",
+      "connected_ground_pads": [
+        "C1201.2"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "C1202.2",
+      "connected_ground_pads": [
+        "C1202.2"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "C1203.2",
+      "connected_ground_pads": [
+        "C1203.2"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "C1901.2",
+      "connected_ground_pads": [
+        "C1901.2"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "C1902.2",
+      "connected_ground_pads": [
+        "C1902.2"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "C1903.2",
+      "connected_ground_pads": [
+        "C1903.2"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "R1201.2",
+      "connected_ground_pads": [
+        "R1201.2"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "R1902.2",
+      "connected_ground_pads": [
+        "R1902.2"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "R1904.2",
+      "connected_ground_pads": [
+        "R1904.2"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    },
+    {
+      "pin": "R1905.2",
+      "connected_ground_pads": [
+        "R1905.2"
+      ],
+      "has_copper_escape": true,
+      "usb_source_ground_pads_in_copper_cluster": [
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ],
+      "connected_to_usb_source_ground": true
+    }
+  ],
+  "expected_ground_dispositions": [
+    "C1101.2",
+    "C1102.2",
+    "C1103.2",
+    "C1104.2",
+    "C1105.2",
+    "C1106.2",
+    "C1107.2",
+    "C1201.2",
+    "C1202.2",
+    "C1203.2",
+    "C1901.2",
+    "C1902.2",
+    "C1903.2",
+    "C605.2",
+    "C606.2",
+    "J1.A1",
+    "J1.A12",
+    "J1.B1",
+    "J1.B12",
+    "R1102.2",
+    "R1103.2",
+    "R1201.2",
+    "R1902.2",
+    "R1904.2",
+    "R1905.2",
+    "U11.2",
+    "U12.2",
+    "U13.3",
+    "U14.3",
+    "U15.8",
+    "U15.9",
+    "U16.3",
+    "U19.3",
+    "U24.1",
+    "U24.16",
+    "U24.21",
+    "U24.3",
+    "U6.13",
+    "U6.28",
+    "U6.3",
+    "U6.31",
+    "U6.4",
+    "U7.3",
+    "U7.8",
+    "U8.3",
+    "U8.8",
+    "U9.3",
+    "U9.8"
+  ],
+  "ground_zones": 2,
+  "limitations": [
+    "Pad distances are geometric screening, not loop length or inductance.",
+    "Source-ground connectivity uses KiCad GetConnectedItems including filled-zone connectivity; this is geometric continuity, not impedance or current-capacity qualification. Supply copper is still required before any circuit functionality claim.",
+    "No PI, ESD, thermal or physical validation has been performed."
+  ],
+  "production_ready": false
+}

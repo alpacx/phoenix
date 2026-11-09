@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/kicad/ddr3-memory.kicad_sch</source>
+    <date>2026-11-07T09:03:27</date>
+    <tool>Eeschema 10.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Phoenix G1 - 512 MiB DDR3 memory</title>
+        <company/>
+        <rev>DRAFT</rev>
+        <date/>
+        <source>ddr3-memory.kicad_sch</source>
+        <comment number="1" value="Not for fabrication"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C401">
+      <value>1n / C0G</value>
+      <footprint>Phoenix_Passives:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Qualification">DRAFT; passive MPNs, topology and layout not qualified</field>
+        <field name="Footprint">Phoenix_Passives:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_Memory" part="C" description="Unpolarized capacitor"/>
+      <property name="Qualification" value="DRAFT; passive MPNs, topology and layout not qualified"/>
+      <property name="Sheetname" value="ddr3-memory"/>
+      <property name="Sheetfile" value="ddr3-memory.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1af56c61-b55f-51ed-9586-49466800c240</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C402">
+      <value>1n / C0G</value>
+      <footprint>Phoenix_Passives:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Qualification">DRAFT; passive MPNs, topology and layout not qualified</field>
+        <field name="Footprint">Phoenix_Passives:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_Memory" part="C" description="Unpolarized capacitor"/>
+      <property name="Qualification" value="DRAFT; passive MPNs, topology and layout not qualified"/>
+      <property name="Sheetname" value="ddr3-memory"/>
+      <property name="Sheetfile" value="ddr3-memory.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb562376-bfc9-5121-8015-1d9c3570d671</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R201">
+      <value>240R 1%</value>
+      <footprint>Phoenix_Passives:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Qualification">DRAFT; passive MPNs, topology and layout not qualified</field>
+        <field name="Footprint">Phoenix_Passives:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_Memory" part="R" description="Resistor"/>
+      <property name="Qualification" value="DRAFT; passive MPNs, topology and layout not qualified"/>
+      <property name="Sheetname" value="ddr3-memory"/>
+      <property name="Sheetfile" value="ddr3-memory.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3eccbbf-43c8-5bf9-a919-39e04ff40834</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R301">
+      <value>240R 1%</value>
+      <footprint>Phoenix_Passives:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Qualification">DRAFT; passive MPNs, topology and layout not qualified</field>
+        <field name="Footprint">Phoenix_Passives:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_Memory" part="R" description="Resistor"/>
+      <property name="Qualification" value="DRAFT; passive MPNs, topology and layout not qualified"/>
+      <property name="Sheetname" value="ddr3-memory"/>
+      <property name="Sheetfile" value="ddr3-memory.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e382f797-35a8-5652-9e41-d72987fe972e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R401">
+      <value>1k 1%</value>
+      <footprint>Phoenix_Passives:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Qualification">DRAFT; passive MPNs, topology and layout not qualified</field>
+        <field name="Footprint">Phoenix_Passives:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_Memory" part="R" description="Resistor"/>
+      <property name="Qualification" value="DRAFT; passive MPNs, topology and layout not qualified"/>
+      <property name="Sheetname" value="ddr3-memory"/>
+      <property name="Sheetfile" value="ddr3-memory.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55216eb5-6f56-5252-bb68-6a4c9be97b2f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R402">
+      <value>1k 1%</value>
+      <footprint>Phoenix_Passives:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Qualification">DRAFT; passive MPNs, topology and layout not qualified</field>
+        <field name="Footprint">Phoenix_Passives:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_Memory" part="R" description="Resistor"/>
+      <property name="Qualification" value="DRAFT; passive MPNs, topology and layout not qualified"/>
+      <property name="Sheetname" value="ddr3-memory"/>
+      <property name="Sheetfile" value="ddr3-memory.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7ec9843-ca50-5aa6-a424-ed3d1d7285e7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>H5TQ2G63GFR-TEC</value>
+      <footprint>Phoenix_Candidates:TFBGA-96_L13.0-W7.5-R16-C6-P0.80-TL</footprint>
+      <fields>
+        <field name="Qualification">DRAFT; passive MPNs, topology and layout not qualified</field>
+        <field name="Footprint">Phoenix_Candidates:TFBGA-96_L13.0-W7.5-R16-C6-P0.80-TL</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_Memory" part="H5TQ2G63GFR-TEC" description=""/>
+      <property name="Qualification" value="DRAFT; passive MPNs, topology and layout not qualified"/>
+      <property name="Sheetname" value="ddr3-memory"/>
+      <property name="Sheetfile" value="ddr3-memory.kicad_sch"/>
+      <property name="ki_keywords" value="DDR SDRAM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10ec3639-f263-57b3-89e4-3abf546ba787</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="A1"/>
+            <pin num="A2"/>
+            <pin num="A3"/>
+            <pin num="A7"/>
+            <pin num="A8"/>
+            <pin num="A9"/>
+            <pin num="B1"/>
+            <pin num="B2"/>
+            <pin num="B3"/>
+            <pin num="B7"/>
+            <pin num="B8"/>
+            <pin num="B9"/>
+            <pin num="C1"/>
+            <pin num="C2"/>
+            <pin num="C3"/>
+            <pin num="C7"/>
+            <pin num="C8"/>
+            <pin num="C9"/>
+            <pin num="D1"/>
+            <pin num="D2"/>
+            <pin num="D3"/>
+            <pin num="D7"/>
+            <pin num="D8"/>
+            <pin num="D9"/>
+            <pin num="E1"/>
+            <pin num="E2"/>
+            <pin num="E3"/>
+            <pin num="E7"/>
+            <pin num="E8"/>
+            <pin num="E9"/>
+            <pin num="F1"/>
+            <pin num="F2"/>
+            <pin num="F3"/>
+            <pin num="F7"/>
+            <pin num="F8"/>
+            <pin num="F9"/>
+            <pin num="G1"/>
+            <pin num="G2"/>
+            <pin num="G3"/>
+            <pin num="G7"/>
+            <pin num="G8"/>
+            <pin num="G9"/>
+            <pin num="H1"/>
+            <pin num="H2"/>
+            <pin num="H3"/>
+            <pin num="H7"/>
+            <pin num="H8"/>
+            <pin num="H9"/>
+            <pin num="T9"/>
+            <pin num="T8"/>
+            <pin num="T7"/>
+            <pin num="T3"/>
+            <pin num="T2"/>
+            <pin num="T1"/>
+            <pin num="R9"/>
+            <pin num="R8"/>
+            <pin num="R7"/>
+            <pin num="R3"/>
+            <pin num="R2"/>
+            <pin num="R1"/>
+            <pin num="P9"/>
+            <pin num="P8"/>
+            <pin num="P7"/>
+            <pin num="P3"/>
+            <pin num="P2"/>
+            <pin num="P1"/>
+            <pin num="N9"/>
+            <pin num="N8"/>
+            <pin num="N7"/>
+            <pin num="N3"/>
+            <pin num="N2"/>
+            <pin num="N1"/>
+            <pin num="M9"/>
+            <pin num="M8"/>
+            <pin num="M7"/>
+            <pin num="M3"/>
+            <pin num="M2"/>
+            <pin num="M1"/>
+            <pin num="L9"/>
+            <pin num="L8"/>
+            <pin num="L7"/>
+            <pin num="L3"/>
+            <pin num="L2"/>
+            <pin num="L1"/>
+            <pin num="K9"/>
+            <pin num="K8"/>
+            <pin num="K7"/>
+            <pin num="K3"/>
+            <pin num="K2"/>
+            <pin num="K1"/>
+            <pin num="J9"/>
+            <pin num="J8"/>
+            <pin num="J7"/>
+            <pin num="J3"/>
+            <pin num="J2"/>
+            <pin num="J1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>H5TQ2G63GFR-TEC</value>
+      <footprint>Phoenix_Candidates:TFBGA-96_L13.0-W7.5-R16-C6-P0.80-TL</footprint>
+      <fields>
+        <field name="Qualification">DRAFT; passive MPNs, topology and layout not qualified</field>
+        <field name="Footprint">Phoenix_Candidates:TFBGA-96_L13.0-W7.5-R16-C6-P0.80-TL</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_Memory" part="H5TQ2G63GFR-TEC" description=""/>
+      <property name="Qualification" value="DRAFT; passive MPNs, topology and layout not qualified"/>
+      <property name="Sheetname" value="ddr3-memory"/>
+      <property name="Sheetfile" value="ddr3-memory.kicad_sch"/>
+      <property name="ki_keywords" value="DDR SDRAM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a721481-2e63-5900-989f-59d94d800d14</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="A1"/>
+            <pin num="A2"/>
+            <pin num="A3"/>
+            <pin num="A7"/>
+            <pin num="A8"/>
+            <pin num="A9"/>
+            <pin num="B1"/>
+            <pin num="B2"/>
+            <pin num="B3"/>
+            <pin num="B7"/>
+            <pin num="B8"/>
+            <pin num="B9"/>
+            <pin num="C1"/>
+            <pin num="C2"/>
+            <pin num="C3"/>
+            <pin num="C7"/>
+            <pin num="C8"/>
+            <pin num="C9"/>
+            <pin num="D1"/>
+            <pin num="D2"/>
+            <pin num="D3"/>
+            <pin num="D7"/>
+            <pin num="D8"/>
+            <pin num="D9"/>
+            <pin num="E1"/>
+            <pin num="E2"/>
+            <pin num="E3"/>
+            <pin num="E7"/>
+            <pin num="E8"/>
+            <pin num="E9"/>
+            <pin num="F1"/>
+            <pin num="F2"/>
+            <pin num="F3"/>
+            <pin num="F7"/>
+            <pin num="F8"/>
+            <pin num="F9"/>
+            <pin num="G1"/>
+            <pin num="G2"/>
+            <pin num="G3"/>
+            <pin num="G7"/>
+            <pin num="G8"/>
+            <pin num="G9"/>
+            <pin num="H1"/>
+            <pin num="H2"/>
+            <pin num="H3"/>
+            <pin num="H7"/>
+            <pin num="H8"/>
+            <pin num="H9"/>
+            <pin num="T9"/>
+            <pin num="T8"/>
+            <pin num="T7"/>
+            <pin num="T3"/>
+            <pin num="T2"/>
+            <pin num="T1"/>
+            <pin num="R9"/>
+            <pin num="R8"/>
+            <pin num="R7"/>
+            <pin num="R3"/>
+            <pin num="R2"/>
+            <pin num="R1"/>
+            <pin num="P9"/>
+            <pin num="P8"/>
+            <pin num="P7"/>
+            <pin num="P3"/>
+            <pin num="P2"/>
+            <pin num="P1"/>
+            <pin num="N9"/>
+            <pin num="N8"/>
+            <pin num="N7"/>
+            <pin num="N3"/>
+            <pin num="N2"/>
+            <pin num="N1"/>
+            <pin num="M9"/>
+            <pin num="M8"/>
+            <pin num="M7"/>
+            <pin num="M3"/>
+            <pin num="M2"/>
+            <pin num="M1"/>
+            <pin num="L9"/>
+            <pin num="L8"/>
+            <pin num="L7"/>
+            <pin num="L3"/>
+            <pin num="L2"/>
+            <pin num="L1"/>
+            <pin num="K9"/>
+            <pin num="K8"/>
+            <pin num="K7"/>
+            <pin num="K3"/>
+            <pin num="K2"/>
+            <pin num="K1"/>
+            <pin num="J9"/>
+            <pin num="J8"/>
+            <pin num="J7"/>
+            <pin num="J3"/>
+            <pin num="J2"/>
+            <pin num="J1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Phoenix_Memory" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phoenix_Memory" part="H5TQ2G63GFR-TEC">
+      <docs>https://www.lcsc.com/datasheet/C2909894.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">H5TQ2G63GFR-TEC</field>
+        <field name="Footprint">Phoenix_Candidates:TFBGA-96_L13.0-W7.5-R16-C6-P0.80-TL</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C2909894.pdf</field>
+        <field name="Description"/>
+        <field name="Manufacturer">HYNIX(海力士)</field>
+        <field name="MPN">H5TQ2G63GFR-TEC</field>
+        <field name="LCSC Part">C2909894</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="VDDQ" type="power_in"/>
+        <pin num="A2" name="DQU5" type="bidirectional"/>
+        <pin num="A3" name="DQU7" type="bidirectional"/>
+        <pin num="A7" name="DQU4" type="bidirectional"/>
+        <pin num="A8" name="VDDQ" type="power_in"/>
+        <pin num="A9" name="VSS" type="power_in"/>
+        <pin num="B1" name="VSSQ" type="power_in"/>
+        <pin num="B2" name="VDD" type="power_in"/>
+        <pin num="B3" name="VSS" type="power_in"/>
+        <pin num="B7" name="~{DQSU}" type="bidirectional"/>
+        <pin num="B8" name="DQU6" type="bidirectional"/>
+        <pin num="B9" name="VSSQ" type="power_in"/>
+        <pin num="C1" name="VDDQ" type="power_in"/>
+        <pin num="C2" name="DQU3" type="bidirectional"/>
+        <pin num="C3" name="DQU1" type="bidirectional"/>
+        <pin num="C7" name="DQSU" type="bidirectional"/>
+        <pin num="C8" name="DQU2" type="bidirectional"/>
+        <pin num="C9" name="VDDQ" type="power_in"/>
+        <pin num="D1" name="VSSQ" type="power_in"/>
+        <pin num="D2" name="VDDQ" type="power_in"/>
+        <pin num="D3" name="DMU" type="input"/>
+        <pin num="D7" name="DQU0" type="bidirectional"/>
+        <pin num="D8" name="VSSQ" type="power_in"/>
+        <pin num="D9" name="VDD" type="power_in"/>
+        <pin num="E1" name="VSS" type="power_in"/>
+        <pin num="E2" name="VSSQ" type="power_in"/>
+        <pin num="E3" name="DQL0" type="bidirectional"/>
+        <pin num="E7" name="DML" type="input"/>
+        <pin num="E8" name="VSSQ" type="power_in"/>
+        <pin num="E9" name="VDDQ" type="power_in"/>
+        <pin num="F1" name="VDDQ" type="power_in"/>
+        <pin num="F2" name="DQL2" type="bidirectional"/>
+        <pin num="F3" name="DQSL" type="bidirectional"/>
+        <pin num="F7" name="DQL1" type="bidirectional"/>
+        <pin num="F8" name="DQL3" type="bidirectional"/>
+        <pin num="F9" name="VSSQ" type="power_in"/>
+        <pin num="G1" name="VSSQ" type="power_in"/>
+        <pin num="G2" name="DQL6" type="bidirectional"/>
+        <pin num="G3" name="~{DQSL}" type="bidirectional"/>
+        <pin num="G7" name="VDD" type="power_in"/>
+        <pin num="G8" name="VSS" type="power_in"/>
+        <pin num="G9" name="VSSQ" type="power_in"/>
+        <pin num="H1" name="VREFDQ" type="input"/>
+        <pin num="H2" name="VDDQ" type="power_in"/>
+        <pin num="H3" name="DQL4" type="bidirectional"/>
+        <pin num="H7" name="DQL7" type="bidirectional"/>
+        <pin num="H8" name="DQL5" type="bidirectional"/>
+        <pin num="H9" name="VDDQ" type="power_in"/>
+        <pin num="J1" name="NC" type="no_connect"/>
+        <pin num="J2" name="VSS" type="power_in"/>
+        <pin num="J3" name="~{RAS}" type="input"/>
+        <pin num="J7" name="CK" type="input"/>
+        <pin num="J8" name="VSS" type="power_in"/>
+        <pin num="J9" name="NC" type="no_connect"/>
+        <pin num="K1" name="ODT" type="input"/>
+        <pin num="K2" name="VDD" type="power_in"/>
+        <pin num="K3" name="~{CAS}" type="input"/>
+        <pin num="K7" name="~{CK}" type="input"/>
+        <pin num="K8" name="VDD" type="power_in"/>
+        <pin num="K9" name="CKE" type="input"/>
+        <pin num="L1" name="NC" type="no_connect"/>
+        <pin num="L2" name="~{CS}" type="input"/>
+        <pin num="L3" name="~{WE}" type="input"/>
+        <pin num="L7" name="A10/AP" type="input"/>
+        <pin num="L8" name="ZQ" type="passive"/>
+        <pin num="L9" name="NC" type="no_connect"/>
+        <pin num="M1" name="VSS" type="power_in"/>
+        <pin num="M2" name="BA0" type="input"/>
+        <pin num="M3" name="BA2" type="input"/>
+        <pin num="M7" name="NC" type="no_connect"/>
+        <pin num="M8" name="VREFCA" type="input"/>
+        <pin num="M9" name="VSS" type="power_in"/>
+        <pin num="N1" name="VDD" type="power_in"/>
+        <pin num="N2" name="A3" type="input"/>
+        <pin num="N3" name="A0" type="input"/>
+        <pin num="N7" name="A12/~{BC}" type="input"/>
+        <pin num="N8" name="BA1" type="input"/>
+        <pin num="N9" name="VDD" type="power_in"/>
+        <pin num="P1" name="VSS" type="power_in"/>
+        <pin num="P2" name="A5" type="input"/>
+        <pin num="P3" name="A2" type="input"/>
+        <pin num="P7" name="A1" type="input"/>
+        <pin num="P8" name="A4" type="input"/>
+        <pin num="P9" name="VSS" type="power_in"/>
+        <pin num="R1" name="VDD" type="power_in"/>
+        <pin num="R2" name="A7" type="input"/>
+        <pin num="R3" name="A9" type="input"/>
+        <pin num="R7" name="A11" type="input"/>
+        <pin num="R8" name="A6" type="input"/>
+        <pin num="R9" name="VDD" type="power_in"/>
+        <pin num="T1" name="VSS" type="power_in"/>
+        <pin num="T2" name="~{RESET}" type="input"/>
+        <pin num="T3" name="A13" type="input"/>
+        <pin num="T7" name="NC" type="no_connect"/>
+        <pin num="T8" name="A8" type="input"/>
+        <pin num="T9" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phoenix_Memory" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Phoenix_Memory">
+      <uri>${KIPRJMOD}/Phoenix_Memory.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+1V5_DDR" class="Default">
+      <node ref="R401" pin="1" pintype="passive"/>
+      <node ref="U2" pin="A1" pinfunction="VDDQ_A1" pintype="power_in"/>
+      <node ref="U2" pin="A8" pinfunction="VDDQ_A8" pintype="power_in"/>
+      <node ref="U2" pin="B2" pinfunction="VDD_B2" pintype="power_in"/>
+      <node ref="U2" pin="C1" pinfunction="VDDQ_C1" pintype="power_in"/>
+      <node ref="U2" pin="C9" pinfunction="VDDQ_C9" pintype="power_in"/>
+      <node ref="U2" pin="D2" pinfunction="VDDQ_D2" pintype="power_in"/>
+      <node ref="U2" pin="D9" pinfunction="VDD_D9" pintype="power_in"/>
+      <node ref="U2" pin="E9" pinfunction="VDDQ_E9" pintype="power_in"/>
+      <node ref="U2" pin="F1" pinfunction="VDDQ_F1" pintype="power_in"/>
+      <node ref="U2" pin="G7" pinfunction="VDD_G7" pintype="power_in"/>
+      <node ref="U2" pin="H2" pinfunction="VDDQ_H2" pintype="power_in"/>
+      <node ref="U2" pin="H9" pinfunction="VDDQ_H9" pintype="power_in"/>
+      <node ref="U2" pin="K2" pinfunction="VDD_K2" pintype="power_in"/>
+      <node ref="U2" pin="K8" pinfunction="VDD_K8" pintype="power_in"/>
+      <node ref="U2" pin="N1" pinfunction="VDD_N1" pintype="power_in"/>
+      <node ref="U2" pin="N9" pinfunction="VDD_N9" pintype="power_in"/>
+      <node ref="U2" pin="R1" pinfunction="VDD_R1" pintype="power_in"/>
+      <node ref="U2" pin="R9" pinfunction="VDD_R9" pintype="power_in"/>
+      <node ref="U3" pin="A1" pinfunction="VDDQ_A1" pintype="power_in"/>
+      <node ref="U3" pin="A8" pinfunction="VDDQ_A8" pintype="power_in"/>
+      <node ref="U3" pin="B2" pinfunction="VDD_B2" pintype="power_in"/>
+      <node ref="U3" pin="C1" pinfunction="VDDQ_C1" pintype="power_in"/>
+      <node ref="U3" pin="C9" pinfunction="VDDQ_C9" pintype="power_in"/>
+      <node ref="U3" pin="D2" pinfunction="VDDQ_D2" pintype="power_in"/>
+      <node ref="U3" pin="D9" pinfunction="VDD_D9" pintype="power_in"/>
+      <node ref="U3" pin="E9" pinfunction="VDDQ_E9" pintype="power_in"/>
+      <node ref="U3" pin="F1" pinfunction="VDDQ_F1" pintype="power_in"/>
+      <node ref="U3" pin="G7" pinfunction="VDD_G7" pintype="power_in"/>
+      <node ref="U3" pin="H2" pinfunction="VDDQ_H2" pintype="power_in"/>
+      <node ref="U3" pin="H9" pinfunction="VDDQ_H9" pintype="power_in"/>
+      <node ref="U3" pin="K2" pinfunction="VDD_K2" pintype="power_in"/>
+      <node ref="U3" pin="K8" pinfunction="VDD_K8" pintype="power_in"/>
+      <node ref="U3" pin="N1" pinfunction="VDD_N1" pintype="power_in"/>
+      <node ref="U3" pin="N9" pinfunction="VDD_N9" pintype="power_in"/>
+      <node ref="U3" pin="R1" pinfunction="VDD_R1" pintype="power_in"/>
+      <node ref="U3" pin="R9" pinfunction="VDD_R9" pintype="power_in"/>
+    </net>
+    <net code="2" name="/DDR3_A0" class="Default">
+      <node ref="U2" pin="N3" pinfunction="A0_N3" pintype="input"/>
+      <node ref="U3" pin="N3" pinfunction="A0_N3" pintype="input"/>
+    </net>
+    <net code="3" name="/DDR3_A1" class="Default">
+      <node ref="U2" pin="P7" pinfunction="A1_P7" pintype="input"/>
+      <node ref="U3" pin="P7" pinfunction="A1_P7" pintype="input"/>
+    </net>
+    <net code="4" name="/DDR3_A2" class="Default">
+      <node ref="U2" pin="P3" pinfunction="A2_P3" pintype="input"/>
+      <node ref="U3" pin="P3" pinfunction="A2_P3" pintype="input"/>
+    </net>
+    <net code="5" name="/DDR3_A3" class="Default">
+      <node ref="U2" pin="N2" pinfunction="A3_N2" pintype="input"/>
+      <node ref="U3" pin="N2" pinfunction="A3_N2" pintype="input"/>
+    </net>
+    <net code="6" name="/DDR3_A4" class="Default">
+      <node ref="U2" pin="P8" pinfunction="A4_P8" pintype="input"/>
+      <node ref="U3" pin="P8" pinfunction="A4_P8" pintype="input"/>
+    </net>
+    <net code="7" name="/DDR3_A5" class="Default">
+      <node ref="U2" pin="P2" pinfunction="A5_P2" pintype="input"/>
+      <node ref="U3" pin="P2" pinfunction="A5_P2" pintype="input"/>
+    </net>
+    <net code="8" name="/DDR3_A6" class="Default">
+      <node ref="U2" pin="R8" pinfunction="A6_R8" pintype="input"/>
+      <node ref="U3" pin="R8" pinfunction="A6_R8" pintype="input"/>
+    </net>
+    <net code="9" name="/DDR3_A7" class="Default">
+      <node ref="U2" pin="R2" pinfunction="A7_R2" pintype="input"/>
+      <node ref="U3" pin="R2" pinfunction="A7_R2" pintype="input"/>
+    </net>
+    <net code="10" name="/DDR3_A8" class="Default">
+      <node ref="U2" pin="T8" pinfunction="A8_T8" pintype="input"/>
+      <node ref="U3" pin="T8" pinfunction="A8_T8" pintype="input"/>
+    </net>
+    <net code="11" name="/DDR3_A9" class="Default">
+      <node ref="U2" pin="R3" pinfunction="A9_R3" pintype="input"/>
+      <node ref="U3" pin="R3" pinfunction="A9_R3" pintype="input"/>
+    </net>
+    <net code="12" name="/DDR3_A10" class="Default">
+      <node ref="U2" pin="L7" pinfunction="A10/AP_L7" pintype="input"/>
+      <node ref="U3" pin="L7" pinfunction="A10/AP_L7" pintype="input"/>
+    </net>
+    <net code="13" name="/DDR3_A11" class="Default">
+      <node ref="U2" pin="R7" pinfunction="A11_R7" pintype="input"/>
+      <node ref="U3" pin="R7" pinfunction="A11_R7" pintype="input"/>
+    </net>
+    <net code="14" name="/DDR3_A12" class="Default">
+      <node ref="U2" pin="N7" pinfunction="A12/~{BC}_N7" pintype="input"/>
+      <node ref="U3" pin="N7" pinfunction="A12/~{BC}_N7" pintype="input"/>
+    </net>
+    <net code="15" name="/DDR3_A13" class="Default">
+      <node ref="U2" pin="T3" pinfunction="A13_T3" pintype="input"/>
+      <node ref="U3" pin="T3" pinfunction="A13_T3" pintype="input"/>
+    </net>
+    <net code="16" name="/DDR3_BA0" class="Default">
+      <node ref="U2" pin="M2" pinfunction="BA0_M2" pintype="input"/>
+      <node ref="U3" pin="M2" pinfunction="BA0_M2" pintype="input"/>
+    </net>
+    <net code="17" name="/DDR3_BA1" class="Default">
+      <node ref="U2" pin="N8" pinfunction="BA1_N8" pintype="input"/>
+      <node ref="U3" pin="N8" pinfunction="BA1_N8" pintype="input"/>
+    </net>
+    <net code="18" name="/DDR3_BA2" class="Default">
+      <node ref="U2" pin="M3" pinfunction="BA2_M3" pintype="input"/>
+      <node ref="U3" pin="M3" pinfunction="BA2_M3" pintype="input"/>
+    </net>
+    <net code="19" name="/DDR3_CASN" class="Default">
+      <node ref="U2" pin="K3" pinfunction="~{CAS}_K3" pintype="input"/>
+      <node ref="U3" pin="K3" pinfunction="~{CAS}_K3" pintype="input"/>
+    </net>
+    <net code="20" name="/DDR3_CKE" class="Default">
+      <node ref="U2" pin="K9" pinfunction="CKE_K9" pintype="input"/>
+      <node ref="U3" pin="K9" pinfunction="CKE_K9" pintype="input"/>
+    </net>
+    <net code="21" name="/DDR3_CLKN" class="Default">
+      <node ref="U2" pin="K7" pinfunction="~{CK}_K7" pintype="input"/>
+      <node ref="U3" pin="K7" pinfunction="~{CK}_K7" pintype="input"/>
+    </net>
+    <net code="22" name="/DDR3_CLKP" class="Default">
+      <node ref="U2" pin="J7" pinfunction="CK_J7" pintype="input"/>
+      <node ref="U3" pin="J7" pinfunction="CK_J7" pintype="input"/>
+    </net>
+    <net code="23" name="/DDR3_CS0N" class="Default">
+      <node ref="U2" pin="L2" pinfunction="~{CS}_L2" pintype="input"/>
+      <node ref="U3" pin="L2" pinfunction="~{CS}_L2" pintype="input"/>
+    </net>
+    <net code="24" name="/DDR3_DM0" class="Default">
+      <node ref="U2" pin="E7" pinfunction="DML_E7" pintype="input"/>
+    </net>
+    <net code="25" name="/DDR3_DM1" class="Default">
+      <node ref="U2" pin="D3" pinfunction="DMU_D3" pintype="input"/>
+    </net>
+    <net code="26" name="/DDR3_DM2" class="Default">
+      <node ref="U3" pin="E7" pinfunction="DML_E7" pintype="input"/>
+    </net>
+    <net code="27" name="/DDR3_DM3" class="Default">
+      <node ref="U3" pin="D3" pinfunction="DMU_D3" pintype="input"/>
+    </net>
+    <net code="28" name="/DDR3_DQ0" class="Default">
+      <node ref="U2" pin="E3" pinfunction="DQL0_E3" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/DDR3_DQ1" class="Default">
+      <node ref="U2" pin="F7" pinfunction="DQL1_F7" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/DDR3_DQ2" class="Default">
+      <node ref="U2" pin="F2" pinfunction="DQL2_F2" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="/DDR3_DQ3" class="Default">
+      <node ref="U2" pin="F8" pinfunction="DQL3_F8" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/DDR3_DQ4" class="Default">
+      <node ref="U2" pin="H3" pinfunction="DQL4_H3" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="/DDR3_DQ5" class="Default">
+      <node ref="U2" pin="H8" pinfunction="DQL5_H8" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/DDR3_DQ6" class="Default">
+      <node ref="U2" pin="G2" pinfunction="DQL6_G2" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="/DDR3_DQ7" class="Default">
+      <node ref="U2" pin="H7" pinfunction="DQL7_H7" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/DDR3_DQ8" class="Default">
+      <node ref="U2" pin="D7" pinfunction="DQU0_D7" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/DDR3_DQ9" class="Default">
+      <node ref="U2" pin="C3" pinfunction="DQU1_C3" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="/DDR3_DQ10" class="Default">
+      <node ref="U2" pin="C8" pinfunction="DQU2_C8" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="/DDR3_DQ11" class="Default">
+      <node ref="U2" pin="C2" pinfunction="DQU3_C2" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="/DDR3_DQ12" class="Default">
+      <node ref="U2" pin="A7" pinfunction="DQU4_A7" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="/DDR3_DQ13" class="Default">
+      <node ref="U2" pin="A2" pinfunction="DQU5_A2" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="/DDR3_DQ14" class="Default">
+      <node ref="U2" pin="B8" pinfunction="DQU6_B8" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="/DDR3_DQ15" class="Default">
+      <node ref="U2" pin="A3" pinfunction="DQU7_A3" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="/DDR3_DQ16" class="Default">
+      <node ref="U3" pin="E3" pinfunction="DQL0_E3" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="/DDR3_DQ17" class="Default">
+      <node ref="U3" pin="F7" pinfunction="DQL1_F7" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="/DDR3_DQ18" class="Default">
+      <node ref="U3" pin="F2" pinfunction="DQL2_F2" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="/DDR3_DQ19" class="Default">
+      <node ref="U3" pin="F8" pinfunction="DQL3_F8" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="/DDR3_DQ20" class="Default">
+      <node ref="U3" pin="H3" pinfunction="DQL4_H3" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="/DDR3_DQ21" class="Default">
+      <node ref="U3" pin="H8" pinfunction="DQL5_H8" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="/DDR3_DQ22" class="Default">
+      <node ref="U3" pin="G2" pinfunction="DQL6_G2" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="/DDR3_DQ23" class="Default">
+      <node ref="U3" pin="H7" pinfunction="DQL7_H7" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="/DDR3_DQ24" class="Default">
+      <node ref="U3" pin="D7" pinfunction="DQU0_D7" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="/DDR3_DQ25" class="Default">
+      <node ref="U3" pin="C3" pinfunction="DQU1_C3" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="/DDR3_DQ26" class="Default">
+      <node ref="U3" pin="C8" pinfunction="DQU2_C8" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="/DDR3_DQ27" class="Default">
+      <node ref="U3" pin="C2" pinfunction="DQU3_C2" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="/DDR3_DQ28" class="Default">
+      <node ref="U3" pin="A7" pinfunction="DQU4_A7" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="/DDR3_DQ29" class="Default">
+      <node ref="U3" pin="A2" pinfunction="DQU5_A2" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="/DDR3_DQ30" class="Default">
+      <node ref="U3" pin="B8" pinfunction="DQU6_B8" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="/DDR3_DQ31" class="Default">
+      <node ref="U3" pin="A3" pinfunction="DQU7_A3" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="/DDR3_DQS0N" class="Default">
+      <node ref="U2" pin="G3" pinfunction="~{DQSL}_G3" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="/DDR3_DQS0P" class="Default">
+      <node ref="U2" pin="F3" pinfunction="DQSL_F3" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="/DDR3_DQS1N" class="Default">
+      <node ref="U2" pin="B7" pinfunction="~{DQSU}_B7" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="/DDR3_DQS1P" class="Default">
+      <node ref="U2" pin="C7" pinfunction="DQSU_C7" pintype="bidirectional"/>
+    </net>
+    <net code="64" name="/DDR3_DQS2N" class="Default">
+      <node ref="U3" pin="G3" pinfunction="~{DQSL}_G3" pintype="bidirectional"/>
+    </net>
+    <net code="65" name="/DDR3_DQS2P" class="Default">
+      <node ref="U3" pin="F3" pinfunction="DQSL_F3" pintype="bidirectional"/>
+    </net>
+    <net code="66" name="/DDR3_DQS3N" class="Default">
+      <node ref="U3" pin="B7" pinfunction="~{DQSU}_B7" pintype="bidirectional"/>
+    </net>
+    <net code="67" name="/DDR3_DQS3P" class="Default">
+      <node ref="U3" pin="C7" pinfunction="DQSU_C7" pintype="bidirectional"/>
+    </net>
+    <net code="68" name="/DDR3_ODT0" class="Default">
+      <node ref="U2" pin="K1" pinfunction="ODT_K1" pintype="input"/>
+      <node ref="U3" pin="K1" pinfunction="ODT_K1" pintype="input"/>
+    </net>
+    <net code="69" name="/DDR3_RASN" class="Default">
+      <node ref="U2" pin="J3" pinfunction="~{RAS}_J3" pintype="input"/>
+      <node ref="U3" pin="J3" pinfunction="~{RAS}_J3" pintype="input"/>
+    </net>
+    <net code="70" name="/DDR3_RESETN" class="Default">
+      <node ref="U2" pin="T2" pinfunction="~{RESET}_T2" pintype="input"/>
+      <node ref="U3" pin="T2" pinfunction="~{RESET}_T2" pintype="input"/>
+    </net>
+    <net code="71" name="/DDR3_WEN" class="Default">
+      <node ref="U2" pin="L3" pinfunction="~{WE}_L3" pintype="input"/>
+      <node ref="U3" pin="L3" pinfunction="~{WE}_L3" pintype="input"/>
+    </net>
+    <net code="72" name="/DDR_VREFCA" class="Default">
+      <node ref="C401" pin="1" pintype="passive"/>
+      <node ref="R401" pin="2" pintype="passive"/>
+      <node ref="R402" pin="1" pintype="passive"/>
+      <node ref="U2" pin="M8" pinfunction="VREFCA_M8" pintype="input"/>
+      <node ref="U3" pin="M8" pinfunction="VREFCA_M8" pintype="input"/>
+    </net>
+    <net code="73" name="/DDR_VREFDQ" class="Default">
+      <node ref="C402" pin="1" pintype="passive"/>
+      <node ref="U2" pin="H1" pinfunction="VREFDQ_H1" pintype="input"/>
+      <node ref="U3" pin="H1" pinfunction="VREFDQ_H1" pintype="input"/>
+    </net>
+    <net code="74" name="/GND" class="Default">
+      <node ref="C401" pin="2" pintype="passive"/>
+      <node ref="C402" pin="2" pintype="passive"/>
+      <node ref="R201" pin="2" pintype="passive"/>
+      <node ref="R301" pin="2" pintype="passive"/>
+      <node ref="R402" pin="2" pintype="passive"/>
+      <node ref="U2" pin="A9" pinfunction="VSS_A9" pintype="power_in"/>
+      <node ref="U2" pin="B1" pinfunction="VSSQ_B1" pintype="power_in"/>
+      <node ref="U2" pin="B3" pinfunction="VSS_B3" pintype="power_in"/>
+      <node ref="U2" pin="B9" pinfunction="VSSQ_B9" pintype="power_in"/>
+      <node ref="U2" pin="D1" pinfunction="VSSQ_D1" pintype="power_in"/>
+      <node ref="U2" pin="D8" pinfunction="VSSQ_D8" pintype="power_in"/>
+      <node ref="U2" pin="E1" pinfunction="VSS_E1" pintype="power_in"/>
+      <node ref="U2" pin="E2" pinfunction="VSSQ_E2" pintype="power_in"/>
+      <node ref="U2" pin="E8" pinfunction="VSSQ_E8" pintype="power_in"/>
+      <node ref="U2" pin="F9" pinfunction="VSSQ_F9" pintype="power_in"/>
+      <node ref="U2" pin="G1" pinfunction="VSSQ_G1" pintype="power_in"/>
+      <node ref="U2" pin="G8" pinfunction="VSS_G8" pintype="power_in"/>
+      <node ref="U2" pin="G9" pinfunction="VSSQ_G9" pintype="power_in"/>
+      <node ref="U2" pin="J2" pinfunction="VSS_J2" pintype="power_in"/>
+      <node ref="U2" pin="J8" pinfunction="VSS_J8" pintype="power_in"/>
+      <node ref="U2" pin="M1" pinfunction="VSS_M1" pintype="power_in"/>
+      <node ref="U2" pin="M9" pinfunction="VSS_M9" pintype="power_in"/>
+      <node ref="U2" pin="P1" pinfunction="VSS_P1" pintype="power_in"/>
+      <node ref="U2" pin="P9" pinfunction="VSS_P9" pintype="power_in"/>
+      <node ref="U2" pin="T1" pinfunction="VSS_T1" pintype="power_in"/>
+      <node ref="U2" pin="T9" pinfunction="VSS_T9" pintype="power_in"/>
+      <node ref="U3" pin="A9" pinfunction="VSS_A9" pintype="power_in"/>
+      <node ref="U3" pin="B1" pinfunction="VSSQ_B1" pintype="power_in"/>
+      <node ref="U3" pin="B3" pinfunction="VSS_B3" pintype="power_in"/>
+      <node ref="U3" pin="B9" pinfunction="VSSQ_B9" pintype="power_in"/>
+      <node ref="U3" pin="D1" pinfunction="VSSQ_D1" pintype="power_in"/>
+      <node ref="U3" pin="D8" pinfunction="VSSQ_D8" pintype="power_in"/>
+      <node ref="U3" pin="E1" pinfunction="VSS_E1" pintype="power_in"/>
+      <node ref="U3" pin="E2" pinfunction="VSSQ_E2" pintype="power_in"/>
+      <node ref="U3" pin="E8" pinfunction="VSSQ_E8" pintype="power_in"/>
+      <node ref="U3" pin="F9" pinfunction="VSSQ_F9" pintype="power_in"/>
+      <node ref="U3" pin="G1" pinfunction="VSSQ_G1" pintype="power_in"/>
+      <node ref="U3" pin="G8" pinfunction="VSS_G8" pintype="power_in"/>
+      <node ref="U3" pin="G9" pinfunction="VSSQ_G9" pintype="power_in"/>
+      <node ref="U3" pin="J2" pinfunction="VSS_J2" pintype="power_in"/>
+      <node ref="U3" pin="J8" pinfunction="VSS_J8" pintype="power_in"/>
+      <node ref="U3" pin="M1" pinfunction="VSS_M1" pintype="power_in"/>
+      <node ref="U3" pin="M9" pinfunction="VSS_M9" pintype="power_in"/>
+      <node ref="U3" pin="P1" pinfunction="VSS_P1" pintype="power_in"/>
+      <node ref="U3" pin="P9" pinfunction="VSS_P9" pintype="power_in"/>
+      <node ref="U3" pin="T1" pinfunction="VSS_T1" pintype="power_in"/>
+      <node ref="U3" pin="T9" pinfunction="VSS_T9" pintype="power_in"/>
+    </net>
+    <net code="75" name="/U2_ZQ_240R_TO_GND" class="Default">
+      <node ref="R201" pin="1" pintype="passive"/>
+      <node ref="U2" pin="L8" pinfunction="ZQ_L8" pintype="passive"/>
+    </net>
+    <net code="76" name="/U3_ZQ_240R_TO_GND" class="Default">
+      <node ref="R301" pin="1" pintype="passive"/>
+      <node ref="U3" pin="L8" pinfunction="ZQ_L8" pintype="passive"/>
+    </net>
+    <net code="77" name="unconnected-(U2-NC-PadJ1)" class="Default">
+      <node ref="U2" pin="J1" pinfunction="NC_J1" pintype="no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U2-NC-PadJ9)" class="Default">
+      <node ref="U2" pin="J9" pinfunction="NC_J9" pintype="no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U2-NC-PadL1)" class="Default">
+      <node ref="U2" pin="L1" pinfunction="NC_L1" pintype="no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U2-NC-PadL9)" class="Default">
+      <node ref="U2" pin="L9" pinfunction="NC_L9" pintype="no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U2-NC-PadM7)" class="Default">
+      <node ref="U2" pin="M7" pinfunction="NC_M7" pintype="no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U2-NC-PadT7)" class="Default">
+      <node ref="U2" pin="T7" pinfunction="NC_T7" pintype="no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U3-NC-PadJ1)" class="Default">
+      <node ref="U3" pin="J1" pinfunction="NC_J1" pintype="no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U3-NC-PadJ9)" class="Default">
+      <node ref="U3" pin="J9" pinfunction="NC_J9" pintype="no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U3-NC-PadL1)" class="Default">
+      <node ref="U3" pin="L1" pinfunction="NC_L1" pintype="no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U3-NC-PadL9)" class="Default">
+      <node ref="U3" pin="L9" pinfunction="NC_L9" pintype="no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U3-NC-PadM7)" class="Default">
+      <node ref="U3" pin="M7" pinfunction="NC_M7" pintype="no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U3-NC-PadT7)" class="Default">
+      <node ref="U3" pin="T7" pinfunction="NC_T7" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/kicad/usb-c-frontend.kicad_sch</source>
+    <date>2026-11-08T11:41:59</date>
+    <tool>Eeschema 10.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Phoenix G1 - USB-C data frontend</title>
+        <company/>
+        <rev>DRAFT</rev>
+        <date/>
+        <source>usb-c-frontend.kicad_sch</source>
+        <comment number="1" value="Incomplete system - not for manufacture"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C601">
+      <value>100n / 16V X7R</value>
+      <footprint>Phoenix_Passives:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Qualification">DRAFT - not released</field>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint">Phoenix_Passives:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_USB" part="C" description="Unpolarized capacitor"/>
+      <property name="Qualification" value="DRAFT - not released"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="usb-c-frontend"/>
+      <property name="Sheetfile" value="usb-c-frontend.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c35c84e3-b8b8-52da-8a0b-722f911dd469</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C602">
+      <value>100n / 16V X7R</value>
+      <footprint>Phoenix_Passives:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Qualification">DRAFT - not released</field>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint">Phoenix_Passives:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_USB" part="C" description="Unpolarized capacitor"/>
+      <property name="Qualification" value="DRAFT - not released"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="usb-c-frontend"/>
+      <property name="Sheetfile" value="usb-c-frontend.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80334ac8-ca15-5f56-b4b9-d849a1cd56b3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C603">
+      <value>100n / 16V X7R</value>
+      <footprint>Phoenix_Passives:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Qualification">DRAFT - not released</field>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint">Phoenix_Passives:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_USB" part="C" description="Unpolarized capacitor"/>
+      <property name="Qualification" value="DRAFT - not released"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="usb-c-frontend"/>
+      <property name="Sheetfile" value="usb-c-frontend.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a86a64d4-2175-542d-8e4a-2ad78fd9e18a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C604">
+      <value>100n / 16V X7R</value>
+      <footprint>Phoenix_Passives:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Qualification">DRAFT - not released</field>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint">Phoenix_Passives:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_USB" part="C" description="Unpolarized capacitor"/>
+      <property name="Qualification" value="DRAFT - not released"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="usb-c-frontend"/>
+      <property name="Sheetfile" value="usb-c-frontend.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7dbd95bf-7db9-54d9-9d5c-156992de3b15</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C605">
+      <value>100n / 16V X7R</value>
+      <footprint>Phoenix_Passives:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Qualification">DRAFT - not released</field>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint">Phoenix_Passives:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_USB" part="C" description="Unpolarized capacitor"/>
+      <property name="Qualification" value="DRAFT - not released"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="usb-c-frontend"/>
+      <property name="Sheetfile" value="usb-c-frontend.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86b5af67-34d6-514c-9acb-5adb0d8e77fe</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C606">
+      <value>100n / 10V X7R</value>
+      <footprint>Phoenix_Passives:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Qualification">DRAFT - not released</field>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint">Phoenix_Passives:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_USB" part="C" description="Unpolarized capacitor"/>
+      <property name="Qualification" value="DRAFT - not released"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="usb-c-frontend"/>
+      <property name="Sheetfile" value="usb-c-frontend.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>518dc8d0-6e36-5306-8008-01fe6376c702</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>2012670005</value>
+      <footprint>Phoenix_Reviewed:USB_C_Molex_2012670005</footprint>
+      <fields>
+        <field name="Qualification">DRAFT - not released</field>
+        <field name="MPN">2012670005</field>
+        <field name="Footprint">Phoenix_Reviewed:USB_C_Molex_2012670005</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_USB" part="2012670005" description=""/>
+      <property name="Qualification" value="DRAFT - not released"/>
+      <property name="MPN" value="2012670005"/>
+      <property name="Sheetname" value="usb-c-frontend"/>
+      <property name="Sheetfile" value="usb-c-frontend.kicad_sch"/>
+      <property name="ki_keywords" value="USB Connectors"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ca514f4-5a61-507a-8e52-7b303920362c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="A1"/>
+            <pin num="A2"/>
+            <pin num="A3"/>
+            <pin num="A4"/>
+            <pin num="A5"/>
+            <pin num="A6"/>
+            <pin num="A7"/>
+            <pin num="A8"/>
+            <pin num="A9"/>
+            <pin num="A10"/>
+            <pin num="A11"/>
+            <pin num="A12"/>
+            <pin num="SH"/>
+            <pin num="B12"/>
+            <pin num="B11"/>
+            <pin num="B10"/>
+            <pin num="B9"/>
+            <pin num="B8"/>
+            <pin num="B7"/>
+            <pin num="B6"/>
+            <pin num="B5"/>
+            <pin num="B4"/>
+            <pin num="B3"/>
+            <pin num="B2"/>
+            <pin num="B1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R601">
+      <value>300k 0.1% 25ppm</value>
+      <footprint>Phoenix_Passives:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Qualification">DRAFT - not released</field>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint">Phoenix_Passives:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_USB" part="R" description="Resistor"/>
+      <property name="Qualification" value="DRAFT - not released"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="usb-c-frontend"/>
+      <property name="Sheetfile" value="usb-c-frontend.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba7bb4ed-3d6b-5e25-aa38-2fb2921f11a6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R602">
+      <value>200k 1%</value>
+      <footprint>Phoenix_Passives:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Qualification">DRAFT - not released</field>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint">Phoenix_Passives:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_USB" part="R" description="Resistor"/>
+      <property name="Qualification" value="DRAFT - not released"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="usb-c-frontend"/>
+      <property name="Sheetfile" value="usb-c-frontend.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b42e9762-4892-5c99-ab8c-b7b84dbc23a3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R603">
+      <value>200k 1%</value>
+      <footprint>Phoenix_Passives:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Qualification">DRAFT - not released</field>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint">Phoenix_Passives:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_USB" part="R" description="Resistor"/>
+      <property name="Qualification" value="DRAFT - not released"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="usb-c-frontend"/>
+      <property name="Sheetfile" value="usb-c-frontend.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0af7db89-cb25-565a-8075-8ff7f4184e30</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R604">
+      <value>200k 1%</value>
+      <footprint>Phoenix_Passives:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Qualification">DRAFT - not released</field>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint">Phoenix_Passives:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_USB" part="R" description="Resistor"/>
+      <property name="Qualification" value="DRAFT - not released"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="usb-c-frontend"/>
+      <property name="Sheetfile" value="usb-c-frontend.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5310283b-b693-59ee-b105-86c4068f41f0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R605">
+      <value>300k 0.1% 25ppm</value>
+      <footprint>Phoenix_Passives:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Qualification">DRAFT - not released</field>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint">Phoenix_Passives:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_USB" part="R" description="Resistor"/>
+      <property name="Qualification" value="DRAFT - not released"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="usb-c-frontend"/>
+      <property name="Sheetfile" value="usb-c-frontend.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c58d058-eb5d-5f04-a664-027a554f2c92</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R606">
+      <value>300k 0.1% 25ppm</value>
+      <footprint>Phoenix_Passives:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Qualification">DRAFT - not released</field>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint">Phoenix_Passives:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_USB" part="R" description="Resistor"/>
+      <property name="Qualification" value="DRAFT - not released"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="usb-c-frontend"/>
+      <property name="Sheetfile" value="usb-c-frontend.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9fee1189-6889-5658-958d-de844430f4ba</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U6">
+      <value>HD3SS3220IRNHR</value>
+      <footprint>Phoenix_Candidates:WQFN-30_L4.5-W2.5-P0.4-BL-EP</footprint>
+      <fields>
+        <field name="Qualification">DRAFT - not released</field>
+        <field name="MPN">HD3SS3220IRNHR</field>
+        <field name="Footprint">Phoenix_Candidates:WQFN-30_L4.5-W2.5-P0.4-BL-EP</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_USB" part="HD3SS3220IRNHR" description=""/>
+      <property name="Qualification" value="DRAFT - not released"/>
+      <property name="MPN" value="HD3SS3220IRNHR"/>
+      <property name="Sheetname" value="usb-c-frontend"/>
+      <property name="Sheetfile" value="usb-c-frontend.kicad_sch"/>
+      <property name="ki_keywords" value="USB ICs"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d3365eb-18bb-5361-994a-0d7d8623e77b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="31"/>
+            <pin num="30"/>
+            <pin num="29"/>
+            <pin num="28"/>
+            <pin num="27"/>
+            <pin num="26"/>
+            <pin num="25"/>
+            <pin num="24"/>
+            <pin num="23"/>
+            <pin num="22"/>
+            <pin num="21"/>
+            <pin num="20"/>
+            <pin num="19"/>
+            <pin num="18"/>
+            <pin num="17"/>
+            <pin num="16"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U7">
+      <value>TPD4EUSB30DQAR</value>
+      <footprint>Phoenix_Candidates:USON-10_L2.5-W1.0-P0.50-BL</footprint>
+      <fields>
+        <field name="Qualification">DRAFT - not released</field>
+        <field name="MPN">TPD4EUSB30DQAR</field>
+        <field name="Footprint">Phoenix_Candidates:USON-10_L2.5-W1.0-P0.50-BL</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_USB" part="TPD4EUSB30DQAR" description=""/>
+      <property name="Qualification" value="DRAFT - not released"/>
+      <property name="MPN" value="TPD4EUSB30DQAR"/>
+      <property name="Sheetname" value="usb-c-frontend"/>
+      <property name="Sheetfile" value="usb-c-frontend.kicad_sch"/>
+      <property name="ki_keywords" value="ESD Protection Devices"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe096235-1438-5924-8edd-e63ac95f3d20</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U8">
+      <value>TPD4EUSB30DQAR</value>
+      <footprint>Phoenix_Candidates:USON-10_L2.5-W1.0-P0.50-BL</footprint>
+      <fields>
+        <field name="Qualification">DRAFT - not released</field>
+        <field name="MPN">TPD4EUSB30DQAR</field>
+        <field name="Footprint">Phoenix_Candidates:USON-10_L2.5-W1.0-P0.50-BL</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_USB" part="TPD4EUSB30DQAR" description=""/>
+      <property name="Qualification" value="DRAFT - not released"/>
+      <property name="MPN" value="TPD4EUSB30DQAR"/>
+      <property name="Sheetname" value="usb-c-frontend"/>
+      <property name="Sheetfile" value="usb-c-frontend.kicad_sch"/>
+      <property name="ki_keywords" value="ESD Protection Devices"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f6dfffc-936e-5409-90ac-e872f5f3d3f9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U9">
+      <value>TPD4EUSB30DQAR</value>
+      <footprint>Phoenix_Candidates:USON-10_L2.5-W1.0-P0.50-BL</footprint>
+      <fields>
+        <field name="Qualification">DRAFT - not released</field>
+        <field name="MPN">TPD4EUSB30DQAR</field>
+        <field name="Footprint">Phoenix_Candidates:USON-10_L2.5-W1.0-P0.50-BL</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_USB" part="TPD4EUSB30DQAR" description=""/>
+      <property name="Qualification" value="DRAFT - not released"/>
+      <property name="MPN" value="TPD4EUSB30DQAR"/>
+      <property name="Sheetname" value="usb-c-frontend"/>
+      <property name="Sheetfile" value="usb-c-frontend.kicad_sch"/>
+      <property name="ki_keywords" value="ESD Protection Devices"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6c4d3a1-ce0c-58a3-a88a-081cdf7ef658</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Phoenix_USB" part="2012670005">
+      <docs>https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/201/201267/2012670005_sd.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">2012670005</field>
+        <field name="Footprint">Phoenix_Reviewed:USB_C_Molex_2012670005</field>
+        <field name="Datasheet">https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/201/201267/2012670005_sd.pdf</field>
+        <field name="Description"/>
+        <field name="Manufacturer">Amphenol</field>
+        <field name="MPN">12401598E4#2A</field>
+        <field name="LCSC Part">C3197666</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A2" name="TX1+" type="passive"/>
+        <pin num="A3" name="TX1-" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="passive"/>
+        <pin num="A6" name="D+" type="passive"/>
+        <pin num="A7" name="D-" type="passive"/>
+        <pin num="A8" name="SBU1" type="passive"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A10" name="RX2-" type="passive"/>
+        <pin num="A11" name="RX2+" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B2" name="TX2+" type="passive"/>
+        <pin num="B3" name="TX2-" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="passive"/>
+        <pin num="B6" name="D+" type="passive"/>
+        <pin num="B7" name="D-" type="passive"/>
+        <pin num="B8" name="SBU2" type="passive"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B10" name="RX1-" type="passive"/>
+        <pin num="B11" name="RX1+" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="SH" name="EH" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phoenix_USB" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phoenix_USB" part="HD3SS3220IRNHR">
+      <docs>https://www.lcsc.com/datasheet/C701817.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HD3SS3220IRNHR</field>
+        <field name="Footprint">Phoenix_Candidates:WQFN-30_L4.5-W2.5-P0.4-BL-EP</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C701817.pdf</field>
+        <field name="Description"/>
+        <field name="Manufacturer">TI(德州仪器)</field>
+        <field name="MPN">HD3SS3220IRNHR</field>
+        <field name="LCSC Part">C701817</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CC2" type="bidirectional"/>
+        <pin num="2" name="CC1" type="bidirectional"/>
+        <pin num="3" name="CURRENT_MODE" type="input"/>
+        <pin num="4" name="PORT" type="input"/>
+        <pin num="5" name="VBUS_DET" type="input"/>
+        <pin num="6" name="TXp" type="passive"/>
+        <pin num="7" name="TXn" type="passive"/>
+        <pin num="8" name="VCC33" type="power_in"/>
+        <pin num="9" name="RXp" type="passive"/>
+        <pin num="10" name="RXn" type="passive"/>
+        <pin num="11" name="DIR" type="open_collector"/>
+        <pin num="12" name="ENn_MUX" type="input"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="RX1n" type="passive"/>
+        <pin num="15" name="RX1p" type="passive"/>
+        <pin num="16" name="TX1n" type="passive"/>
+        <pin num="17" name="TX1p" type="passive"/>
+        <pin num="18" name="RX2n" type="passive"/>
+        <pin num="19" name="RX2p" type="passive"/>
+        <pin num="20" name="TX2n" type="passive"/>
+        <pin num="21" name="TX2p" type="passive"/>
+        <pin num="22" name="ADDR" type="input"/>
+        <pin num="23" name="INT_N/OUT3" type="open_collector"/>
+        <pin num="24" name="VCONN_FAULT_N" type="open_collector"/>
+        <pin num="25" name="SDA/OUT1" type="open_collector"/>
+        <pin num="26" name="SCL/OUT2" type="open_collector"/>
+        <pin num="27" name="ID" type="open_collector"/>
+        <pin num="28" name="GND" type="power_in"/>
+        <pin num="29" name="ENn_CC" type="input"/>
+        <pin num="30" name="VDD5" type="power_in"/>
+        <pin num="31" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phoenix_USB" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phoenix_USB" part="TPD4EUSB30DQAR">
+      <docs>https://lcsc.com/product-detail/USB_TI_TPD4EUSB30DQAR_TPD4EUSB30DQAR_C90627.html</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPD4EUSB30DQAR</field>
+        <field name="Footprint">Phoenix_Candidates:USON-10_L2.5-W1.0-P0.50-BL</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/USB_TI_TPD4EUSB30DQAR_TPD4EUSB30DQAR_C90627.html</field>
+        <field name="Description"/>
+        <field name="Manufacturer">TI(德州仪器)</field>
+        <field name="MPN">TPD4EUSB30DQAR</field>
+        <field name="LCSC Part">C90627</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1+" type="passive"/>
+        <pin num="2" name="D1-" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="D2+" type="passive"/>
+        <pin num="5" name="D2-" type="passive"/>
+        <pin num="6" name="N.C." type="no_connect"/>
+        <pin num="7" name="N.C." type="no_connect"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="N.C." type="no_connect"/>
+        <pin num="10" name="N.C." type="no_connect"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Phoenix_USB">
+      <uri>${KIPRJMOD}/Phoenix_USB.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+3V3_AON" class="Default">
+      <node ref="C606" pin="1" pintype="passive"/>
+      <node ref="R602" pin="1" pintype="passive"/>
+      <node ref="R603" pin="1" pintype="passive"/>
+      <node ref="R604" pin="1" pintype="passive"/>
+      <node ref="U6" pin="8" pinfunction="VCC33_8" pintype="power_in"/>
+    </net>
+    <net code="2" name="/CC_OUT1_N" class="Default">
+      <node ref="R603" pin="2" pintype="passive"/>
+      <node ref="U6" pin="25" pinfunction="SDA/OUT1_25" pintype="open_collector"/>
+    </net>
+    <net code="3" name="/CC_OUT2_N" class="Default">
+      <node ref="R604" pin="2" pintype="passive"/>
+      <node ref="U6" pin="26" pinfunction="SCL/OUT2_26" pintype="open_collector"/>
+    </net>
+    <net code="4" name="/CC_VBUS_SENSE" class="Default">
+      <node ref="R606" pin="2" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="VBUS_DET_5" pintype="input"/>
+    </net>
+    <net code="5" name="/CC_VBUS_SERIES_1" class="Default">
+      <node ref="R601" pin="2" pintype="passive"/>
+      <node ref="R605" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="/CC_VBUS_SERIES_2" class="Default">
+      <node ref="R605" pin="2" pintype="passive"/>
+      <node ref="R606" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/GND" class="Default">
+      <node ref="C605" pin="2" pintype="passive"/>
+      <node ref="C606" pin="2" pintype="passive"/>
+      <node ref="J1" pin="A1" pinfunction="GND_A1" pintype="passive"/>
+      <node ref="J1" pin="A12" pinfunction="GND_A12" pintype="passive"/>
+      <node ref="J1" pin="B1" pinfunction="GND_B1" pintype="passive"/>
+      <node ref="J1" pin="B12" pinfunction="GND_B12" pintype="passive"/>
+      <node ref="U6" pin="13" pinfunction="GND_13" pintype="power_in"/>
+      <node ref="U6" pin="28" pinfunction="GND_28" pintype="power_in"/>
+      <node ref="U6" pin="3" pinfunction="CURRENT_MODE_3" pintype="input"/>
+      <node ref="U6" pin="31" pinfunction="EP_31" pintype="power_in"/>
+      <node ref="U6" pin="4" pinfunction="PORT_4" pintype="input"/>
+      <node ref="U7" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="U7" pin="8" pinfunction="GND_8" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="U8" pin="8" pinfunction="GND_8" pintype="passive"/>
+      <node ref="U9" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="U9" pin="8" pinfunction="GND_8" pintype="passive"/>
+    </net>
+    <net code="8" name="/MUX_TX1_N" class="Default">
+      <node ref="C602" pin="1" pintype="passive"/>
+      <node ref="U6" pin="16" pinfunction="TX1n_16" pintype="passive"/>
+    </net>
+    <net code="9" name="/MUX_TX1_P" class="Default">
+      <node ref="C601" pin="1" pintype="passive"/>
+      <node ref="U6" pin="17" pinfunction="TX1p_17" pintype="passive"/>
+    </net>
+    <net code="10" name="/MUX_TX2_N" class="Default">
+      <node ref="C604" pin="1" pintype="passive"/>
+      <node ref="U6" pin="20" pinfunction="TX2n_20" pintype="passive"/>
+    </net>
+    <net code="11" name="/MUX_TX2_P" class="Default">
+      <node ref="C603" pin="1" pintype="passive"/>
+      <node ref="U6" pin="21" pinfunction="TX2p_21" pintype="passive"/>
+    </net>
+    <net code="12" name="/SOC_USB_RX_N" class="Default">
+      <node ref="U6" pin="10" pinfunction="RXn_10" pintype="passive"/>
+    </net>
+    <net code="13" name="/SOC_USB_RX_P" class="Default">
+      <node ref="U6" pin="9" pinfunction="RXp_9" pintype="passive"/>
+    </net>
+    <net code="14" name="/SOC_USB_TX_N" class="Default">
+      <node ref="U6" pin="7" pinfunction="TXn_7" pintype="passive"/>
+    </net>
+    <net code="15" name="/SOC_USB_TX_P" class="Default">
+      <node ref="U6" pin="6" pinfunction="TXp_6" pintype="passive"/>
+    </net>
+    <net code="16" name="/USB_CC1" class="Default">
+      <node ref="J1" pin="A5" pinfunction="CC1_A5" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="CC1_2" pintype="bidirectional"/>
+      <node ref="U9" pin="4" pinfunction="D2+_4" pintype="passive"/>
+    </net>
+    <net code="17" name="/USB_CC2" class="Default">
+      <node ref="J1" pin="B5" pinfunction="CC2_B5" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="CC2_1" pintype="bidirectional"/>
+      <node ref="U9" pin="5" pinfunction="D2-_5" pintype="passive"/>
+    </net>
+    <net code="18" name="/USB_CC_ENABLE_N" class="Default">
+      <node ref="U6" pin="29" pinfunction="ENn_CC_29" pintype="input"/>
+    </net>
+    <net code="19" name="/USB_DM" class="Default">
+      <node ref="J1" pin="A7" pinfunction="D-_A7" pintype="passive"/>
+      <node ref="J1" pin="B7" pinfunction="D-_B7" pintype="passive"/>
+      <node ref="U9" pin="2" pinfunction="D1-_2" pintype="passive"/>
+    </net>
+    <net code="20" name="/USB_DP" class="Default">
+      <node ref="J1" pin="A6" pinfunction="D+_A6" pintype="passive"/>
+      <node ref="J1" pin="B6" pinfunction="D+_B6" pintype="passive"/>
+      <node ref="U9" pin="1" pinfunction="D1+_1" pintype="passive"/>
+    </net>
+    <net code="21" name="/USB_MUX_ENABLE_N" class="Default">
+      <node ref="U6" pin="12" pinfunction="ENn_MUX_12" pintype="input"/>
+    </net>
+    <net code="22" name="/USB_ORIENTATION" class="Default">
+      <node ref="R602" pin="2" pintype="passive"/>
+      <node ref="U6" pin="11" pinfunction="DIR_11" pintype="open_collector"/>
+    </net>
+    <net code="23" name="/USB_RX1_N" class="Default">
+      <node ref="J1" pin="B10" pinfunction="RX1-_B10" pintype="passive"/>
+      <node ref="U6" pin="14" pinfunction="RX1n_14" pintype="passive"/>
+      <node ref="U7" pin="5" pinfunction="D2-_5" pintype="passive"/>
+    </net>
+    <net code="24" name="/USB_RX1_P" class="Default">
+      <node ref="J1" pin="B11" pinfunction="RX1+_B11" pintype="passive"/>
+      <node ref="U6" pin="15" pinfunction="RX1p_15" pintype="passive"/>
+      <node ref="U7" pin="4" pinfunction="D2+_4" pintype="passive"/>
+    </net>
+    <net code="25" name="/USB_RX2_N" class="Default">
+      <node ref="J1" pin="A10" pinfunction="RX2-_A10" pintype="passive"/>
+      <node ref="U6" pin="18" pinfunction="RX2n_18" pintype="passive"/>
+      <node ref="U8" pin="5" pinfunction="D2-_5" pintype="passive"/>
+    </net>
+    <net code="26" name="/USB_RX2_P" class="Default">
+      <node ref="J1" pin="A11" pinfunction="RX2+_A11" pintype="passive"/>
+      <node ref="U6" pin="19" pinfunction="RX2p_19" pintype="passive"/>
+      <node ref="U8" pin="4" pinfunction="D2+_4" pintype="passive"/>
+    </net>
+    <net code="27" name="/USB_SHIELD" class="Default">
+      <node ref="J1" pin="SH" pinfunction="EH_SH" pintype="passive"/>
+    </net>
+    <net code="28" name="/USB_TX1_N" class="Default">
+      <node ref="C602" pin="2" pintype="passive"/>
+      <node ref="J1" pin="A3" pinfunction="TX1-_A3" pintype="passive"/>
+      <node ref="U7" pin="2" pinfunction="D1-_2" pintype="passive"/>
+    </net>
+    <net code="29" name="/USB_TX1_P" class="Default">
+      <node ref="C601" pin="2" pintype="passive"/>
+      <node ref="J1" pin="A2" pinfunction="TX1+_A2" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="D1+_1" pintype="passive"/>
+    </net>
+    <net code="30" name="/USB_TX2_N" class="Default">
+      <node ref="C604" pin="2" pintype="passive"/>
+      <node ref="J1" pin="B3" pinfunction="TX2-_B3" pintype="passive"/>
+      <node ref="U8" pin="2" pinfunction="D1-_2" pintype="passive"/>
+    </net>
+    <net code="31" name="/USB_TX2_P" class="Default">
+      <node ref="C603" pin="2" pintype="passive"/>
+      <node ref="J1" pin="B2" pinfunction="TX2+_B2" pintype="passive"/>
+      <node ref="U8" pin="1" pinfunction="D1+_1" pintype="passive"/>
+    </net>
+    <net code="32" name="/VBUS_PROTECTED" class="Default">
+      <node ref="C605" pin="1" pintype="passive"/>
+      <node ref="R601" pin="1" pintype="passive"/>
+      <node ref="U6" pin="30" pinfunction="VDD5_30" pintype="power_in"/>
+    </net>
+    <net code="33" name="/VBUS_RAW" class="Default">
+      <node ref="J1" pin="A4" pinfunction="VBUS_A4" pintype="passive"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS_A9" pintype="passive"/>
+      <node ref="J1" pin="B4" pinfunction="VBUS_B4" pintype="passive"/>
+      <node ref="J1" pin="B9" pinfunction="VBUS_B9" pintype="passive"/>
+    </net>
+    <net code="34" name="unconnected-(J1-SBU1-PadA8)" class="Default">
+      <node ref="J1" pin="A8" pinfunction="SBU1_A8" pintype="passive+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(J1-SBU2-PadB8)" class="Default">
+      <node ref="J1" pin="B8" pinfunction="SBU2_B8" pintype="passive+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U6-ADDR-Pad22)" class="Default">
+      <node ref="U6" pin="22" pinfunction="ADDR_22" pintype="input+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U6-ID-Pad27)" class="Default">
+      <node ref="U6" pin="27" pinfunction="ID_27" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U6-INT_N/OUT3-Pad23)" class="Default">
+      <node ref="U6" pin="23" pinfunction="INT_N/OUT3_23" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U6-VCONN_FAULT_N-Pad24)" class="Default">
+      <node ref="U6" pin="24" pinfunction="VCONN_FAULT_N_24" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U7-N.C.-Pad6)" class="Default">
+      <node ref="U7" pin="6" pinfunction="N.C._6" pintype="no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U7-N.C.-Pad7)" class="Default">
+      <node ref="U7" pin="7" pinfunction="N.C._7" pintype="no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U7-N.C.-Pad9)" class="Default">
+      <node ref="U7" pin="9" pinfunction="N.C._9" pintype="no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U7-N.C.-Pad10)" class="Default">
+      <node ref="U7" pin="10" pinfunction="N.C._10" pintype="no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U8-N.C.-Pad6)" class="Default">
+      <node ref="U8" pin="6" pinfunction="N.C._6" pintype="no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U8-N.C.-Pad7)" class="Default">
+      <node ref="U8" pin="7" pinfunction="N.C._7" pintype="no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U8-N.C.-Pad9)" class="Default">
+      <node ref="U8" pin="9" pinfunction="N.C._9" pintype="no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U8-N.C.-Pad10)" class="Default">
+      <node ref="U8" pin="10" pinfunction="N.C._10" pintype="no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U9-N.C.-Pad6)" class="Default">
+      <node ref="U9" pin="6" pinfunction="N.C._6" pintype="no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U9-N.C.-Pad7)" class="Default">
+      <node ref="U9" pin="7" pinfunction="N.C._7" pintype="no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U9-N.C.-Pad9)" class="Default">
+      <node ref="U9" pin="9" pinfunction="N.C._9" pintype="no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U9-N.C.-Pad10)" class="Default">
+      <node ref="U9" pin="10" pinfunction="N.C._10" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

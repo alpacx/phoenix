@@ -1,0 +1,2322 @@
+{
+  "status": "DOCUMENT CROSSCHECK ONLY",
+  "source_url": "https://github.com/makerspet/oomwoo-pcb/blob/346d30e84f622e32db1f6d4276131fb18d2b9770/etc/Altium/OutputFiles/PDF/Controller-RK3562.PDF",
+  "sha256": "06b8eed8220c8cf35bc3f3a4b24485d0db3526cc1a4ef8b7d0c0f0df7f721cfa",
+  "source_limit": "Third-party designer schematic; not proof of working hardware or manufacturer approval. Text extraction needs visual follow-up for ambiguous rows.",
+  "counts": {
+    "MATCH": 134,
+    "REVIEW": 0,
+    "NOT_EXTRACTED": 2
+  },
+  "checks": [
+    {
+      "net": "DDR3_A0",
+      "ball": "C10",
+      "function": "DDR3_A0",
+      "reference": {
+        "functions": [
+          "LPDDR3_A7",
+          "DDR3_A0",
+          "LPDDR4_A2_A",
+          "DDR4_A15_CASN",
+          "AC15"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_A1",
+      "ball": "C18",
+      "function": "DDR3_A1",
+      "reference": {
+        "functions": [
+          "LPDDR3_A3",
+          "DDR3_A1",
+          "LPDDR4_A2_B",
+          "DDR4_BA0",
+          "AC18"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_A10",
+      "ball": "C16",
+      "function": "DDR3_A10",
+      "reference": {
+        "functions": [
+          "LPDDR3_CS0N",
+          "DDR3_A10",
+          "LPDDR4_CKE0_B",
+          "DDR4_A10",
+          "AC10"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_A11",
+      "ball": "1A8",
+      "function": "DDR3_A11",
+      "reference": {
+        "functions": [
+          "--",
+          "DDR3_A11",
+          "LPDDR4_A5_B",
+          "DDR4_A5",
+          "AC5"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_A12",
+      "ball": "1A9",
+      "function": "DDR3_A12",
+      "reference": {
+        "functions": [
+          "--",
+          "DDR3_A12",
+          "LPDDR4_A4_B",
+          "DDR4_BA1",
+          "AC19"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_A13",
+      "ball": "B15",
+      "function": "DDR3_A13",
+      "reference": {
+        "functions": [
+          "--",
+          "DDR3_A13",
+          "LPDDR4_CLKP_B",
+          "DDR4_A9",
+          "AC9"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_A2",
+      "ball": "1B6",
+      "function": "DDR3_A2",
+      "reference": {
+        "functions": [
+          "--",
+          "DDR3_A2",
+          "--",
+          "DDR4_A1",
+          "AC1"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_A3",
+      "ball": "B12",
+      "function": "DDR3_A3",
+      "reference": {
+        "functions": [
+          "--",
+          "DDR3_A3",
+          "LPDDR4_CKE1_A",
+          "DDR4_CS0N",
+          "AC25"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_A4",
+      "ball": "A10",
+      "function": "DDR3_A4",
+      "reference": {
+        "functions": [
+          "LPDDR3_A6",
+          "DDR3_A4",
+          "LPDDR4_A1_A",
+          "DDR4_A2",
+          "AC2"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_A5",
+      "ball": "B18",
+      "function": "DDR3_A5",
+      "reference": {
+        "functions": [
+          "LPDDR3_A0",
+          "DDR3_A5",
+          "LPDDR4_A0_B",
+          "DDR4_A7",
+          "AC7"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_A6",
+      "ball": "B10",
+      "function": "DDR3_A6",
+      "reference": {
+        "functions": [
+          "LPDDR3_A8",
+          "DDR3_A6",
+          "LPDDR4_A0_A",
+          "DDR4_A11",
+          "AC11"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_A7",
+      "ball": "B9",
+      "function": "DDR3_A7",
+      "reference": {
+        "functions": [
+          "LPDDR3_A9",
+          "DDR3_A7",
+          "LPDDR4_ODT0_CA_A",
+          "DDR4_A8",
+          "AC8"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_A8",
+      "ball": "B19",
+      "function": "DDR3_A8",
+      "reference": {
+        "functions": [
+          "LPDDR3_ODT1",
+          "DDR3_A8",
+          "LPDDR4_ODT0_CA_B",
+          "DDR4_A13",
+          "AC13"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_A9",
+      "ball": "A15",
+      "function": "DDR3_A9",
+      "reference": {
+        "functions": [
+          "--",
+          "DDR3_A9",
+          "LPDDR4_CLKN_B",
+          "DDR4_A0",
+          "AC0"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_BA0",
+      "ball": "1A6",
+      "function": "DDR3_BA0",
+      "reference": {
+        "functions": [
+          "--",
+          "DDR3_BA0",
+          "LPDDR4_A3_A",
+          "DDR4_A12",
+          "AC12"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_BA1",
+      "ball": "1A10",
+      "function": "DDR3_BA1",
+      "reference": {
+        "functions": [
+          "--",
+          "DDR3_BA1",
+          "LPDDR4_A3_B",
+          "DDR4_A4",
+          "AC4"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_BA2",
+      "ball": "1B7",
+      "function": "DDR3_BA2",
+      "reference": {
+        "functions": [
+          "--",
+          "DDR3_BA2",
+          "LPDDR4_ODT1_CA_A",
+          "DDR4_BG1",
+          "AC21"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_CASN",
+      "ball": "B16",
+      "function": "DDR3_CASN",
+      "reference": {
+        "functions": [
+          "LPDDR3_CS1N",
+          "DDR3_CASN",
+          "LPDDR4_CKE1_B",
+          "DDR4_ACTN",
+          "AC17"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_CKE",
+      "ball": "C12",
+      "function": "DDR3_CKE",
+      "reference": {
+        "functions": [
+          "LPDDR3_CKE",
+          "DDR3_CKE",
+          "LPDDR4_CKE0_A",
+          "DDR4_CKE0",
+          "AC22"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_CLKN",
+      "ball": "B13",
+      "function": "DDR3_CLKN",
+      "reference": {
+        "functions": [
+          "LPDDR3_CLKN",
+          "DDR3_CLKN",
+          "LPDDR4_CLKP_A",
+          "DDR4_CLK0N",
+          "AC24"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_CLKP",
+      "ball": "A13",
+      "function": "DDR3_CLKP",
+      "reference": {
+        "functions": [
+          "LPDDR3_CLKP",
+          "DDR3_CLKP",
+          "LPDDR4_CLKN_A",
+          "DDR4_CLK0P",
+          "AC23"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_CS0N",
+      "ball": "B17",
+      "function": "DDR3_CS0N",
+      "reference": {
+        "functions": [
+          "LPDDR3_A2",
+          "DDR3_CS0N",
+          "LPDDR4_CS0N_B",
+          "DDR4_ODT1",
+          "AC28"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DM0",
+      "ball": "B7",
+      "function": "DDR3_DM0",
+      "reference": {
+        "functions": [
+          "DDR_DM0_A",
+          "DDR4_DML_A",
+          "LPDDR4_DM0_A",
+          "DDR3_DM0",
+          "LPDDR3_DM3"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DM1",
+      "ball": "A2",
+      "function": "DDR3_DM1",
+      "reference": {
+        "functions": [
+          "DDR_DM1_A",
+          "DDR4_DMU_A",
+          "LPDDR4_DM1_A",
+          "DDR3_DM1",
+          "LPDDR3_DM1"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DM2",
+      "ball": "B21",
+      "function": "DDR3_DM2",
+      "reference": {
+        "functions": [
+          "DDR_DM0_B",
+          "DDR4_DMU_B",
+          "LPDDR4_DM0_B",
+          "DDR3_DM2",
+          "LPDDR3_DM2"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DM3",
+      "ball": "A26",
+      "function": "DDR3_DM3",
+      "reference": {
+        "functions": [
+          "DDR_DM1_B",
+          "DDR4_DML_B",
+          "LPDDR4_DM1_B",
+          "DDR3_DM3",
+          "LPDDR3_DM0"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ0",
+      "ball": "B6",
+      "function": "DDR3_DQ0",
+      "reference": {
+        "functions": [
+          "DDR_DQ0_A",
+          "DDR4_DQL6_A",
+          "LPDDR4_DQ0_A",
+          "DDR3_DQ0",
+          "LPDDR3_DQ30"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ1",
+      "ball": "C5",
+      "function": "DDR3_DQ1",
+      "reference": {
+        "functions": [
+          "DDR_DQ4_A",
+          "DDR4_DQL5_A",
+          "LPDDR4_DQ4_A",
+          "DDR3_DQ1",
+          "LPDDR3_DQ24"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ10",
+      "ball": "C1",
+      "function": "DDR3_DQ10",
+      "reference": {
+        "functions": [
+          "DDR_DQ9_A",
+          "DDR4_DQU5_A",
+          "LPDDR4_DQ9_A",
+          "DDR3_DQ10",
+          "LPDDR3_DQ13"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ11",
+      "ball": "A3",
+      "function": "DDR3_DQ11",
+      "reference": {
+        "functions": [
+          "DDR_DQ14_A",
+          "DDR4_DQU2_A",
+          "LPDDR4_DQ14_A",
+          "DDR3_DQ11",
+          "LPDDR3_DQ11"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ12",
+      "ball": "B1",
+      "function": "DDR3_DQ12",
+      "reference": {
+        "functions": [
+          "DDR_DQ10_A",
+          "DDR4_DQU3_A",
+          "LPDDR4_DQ10_A",
+          "DDR3_DQ12",
+          "LPDDR3_DQ15"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ13",
+      "ball": "A4",
+      "function": "DDR3_DQ13",
+      "reference": {
+        "functions": [
+          "DDR_DQ12_A",
+          "DDR4_DQU0_A",
+          "LPDDR4_DQ12_A",
+          "DDR3_DQ13",
+          "LPDDR3_DQ12"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ14",
+      "ball": "C2",
+      "function": "DDR3_DQ14",
+      "reference": {
+        "functions": [
+          "DDR_DQ8_A",
+          "DDR4_DQU1_A",
+          "LPDDR4_DQ8_A",
+          "DDR3_DQ14",
+          "LPDDR3_DQ9"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ15",
+      "ball": "B4",
+      "function": "DDR3_DQ15",
+      "reference": {
+        "functions": [
+          "DDR_DQ13_A",
+          "DDR4_DQU4_A",
+          "LPDDR4_DQ13_A",
+          "DDR3_DQ15",
+          "LPDDR3_DQ8"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ16",
+      "ball": "B22",
+      "function": "DDR3_DQ16",
+      "reference": {
+        "functions": [
+          "DDR_DQ0_B",
+          "DDR4_DQU7_B",
+          "LPDDR4_DQ0_B",
+          "DDR3_DQ16",
+          "LPDDR3_DQ17"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ17",
+      "ball": "A22",
+      "function": "DDR3_DQ17",
+      "reference": {
+        "functions": [
+          "DDR_DQ7_B",
+          "DDR4_DQU6_B",
+          "LPDDR4_DQ7_B",
+          "DDR3_DQ17",
+          "LPDDR3_DQ22"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ18",
+      "ball": "C20",
+      "function": "DDR3_DQ18",
+      "reference": {
+        "functions": [
+          "DDR_DQ3_B",
+          "DDR4_DQU5_B",
+          "LPDDR4_DQ3_B",
+          "DDR3_DQ18",
+          "LPDDR3_DQ20"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ19",
+      "ball": "C22",
+      "function": "DDR3_DQ19",
+      "reference": {
+        "functions": [
+          "DDR_DQ6_B",
+          "DDR4_DQU2_B",
+          "LPDDR4_DQ6_B",
+          "DDR3_DQ19",
+          "LPDDR3_DQ18"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ2",
+      "ball": "A8",
+      "function": "DDR3_DQ2",
+      "reference": {
+        "functions": [
+          "DDR_DQ2_A",
+          "DDR4_DQL0_A",
+          "LPDDR4_DQ2_A",
+          "DDR3_DQ2",
+          "LPDDR3_DQ31"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ20",
+      "ball": "B20",
+      "function": "DDR3_DQ20",
+      "reference": {
+        "functions": [
+          "DDR_DQ1_B",
+          "DDR4_DQU3_B",
+          "LPDDR4_DQ1_B",
+          "DDR3_DQ20",
+          "LPDDR3_DQ21"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ21",
+      "ball": "C23",
+      "function": "DDR3_DQ21",
+      "reference": {
+        "functions": [
+          "DDR_DQ4_B",
+          "DDR4_DQU0_B",
+          "LPDDR4_DQ4_B",
+          "DDR3_DQ21",
+          "LPDDR3_DQ23"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ22",
+      "ball": "A20",
+      "function": "DDR3_DQ22",
+      "reference": {
+        "functions": [
+          "DDR_DQ2_B",
+          "DDR4_DQU1_B",
+          "LPDDR4_DQ2_B",
+          "DDR3_DQ22",
+          "LPDDR3_DQ16"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ23",
+      "ball": "B23",
+      "function": "DDR3_DQ23",
+      "reference": {
+        "functions": [
+          "DDR_DQ5_B",
+          "DDR4_DQU4_B",
+          "LPDDR4_DQ5_B",
+          "DDR3_DQ23",
+          "LPDDR3_DQ19"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ24",
+      "ball": "B26",
+      "function": "DDR3_DQ24",
+      "reference": {
+        "functions": [
+          "DDR_DQ11_B",
+          "DDR4_DQL6_B",
+          "LPDDR4_DQ11_B",
+          "DDR3_DQ24",
+          "LPDDR3_DQ6"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ25",
+      "ball": "A24",
+      "function": "DDR3_DQ25",
+      "reference": {
+        "functions": [
+          "DDR_DQ12_B",
+          "DDR4_DQL5_B",
+          "LPDDR4_DQ12_B",
+          "DDR3_DQ25",
+          "LPDDR3_DQ3"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ26",
+      "ball": "C26",
+      "function": "DDR3_DQ26",
+      "reference": {
+        "functions": [
+          "DDR_DQ8_B",
+          "DDR4_DQL0_B",
+          "LPDDR4_DQ8_B",
+          "DDR3_DQ26",
+          "LPDDR3_DQ0"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ27",
+      "ball": "A25",
+      "function": "DDR3_DQ27",
+      "reference": {
+        "functions": [
+          "DDR_DQ14_B",
+          "DDR4_DQL1_B",
+          "LPDDR4_DQ14_B",
+          "DDR3_DQ27",
+          "LPDDR3_DQ4"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ28",
+      "ball": "B27",
+      "function": "DDR3_DQ28",
+      "reference": {
+        "functions": [
+          "DDR_DQ10_B",
+          "DDR4_DQL2_B",
+          "LPDDR4_DQ10_B",
+          "DDR3_DQ28",
+          "LPDDR3_DQ2"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ29",
+      "ball": "B25",
+      "function": "DDR3_DQ29",
+      "reference": {
+        "functions": [
+          "DDR_DQ15_B",
+          "DDR4_DQL3_B",
+          "LPDDR4_DQ15_B",
+          "DDR3_DQ29",
+          "LPDDR3_DQ7"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ3",
+      "ball": "B5",
+      "function": "DDR3_DQ3",
+      "reference": {
+        "functions": [
+          "DDR_DQ5_A",
+          "DDR4_DQL1_A",
+          "LPDDR4_DQ5_A",
+          "DDR3_DQ3",
+          "LPDDR3_DQ28"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ30",
+      "ball": "C27",
+      "function": "DDR3_DQ30",
+      "reference": {
+        "functions": [
+          "DDR_DQ9_B",
+          "DDR4_DQL4_B",
+          "LPDDR4_DQ9_B",
+          "DDR3_DQ30",
+          "LPDDR3_DQ1"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ31",
+      "ball": "B24",
+      "function": "DDR3_DQ31",
+      "reference": {
+        "functions": [
+          "DDR_DQ13_B",
+          "DDR4_DQL7_B",
+          "LPDDR4_DQ13_B",
+          "DDR3_DQ31",
+          "LPDDR3_DQ5"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ4",
+      "ball": "B8",
+      "function": "DDR3_DQ4",
+      "reference": {
+        "functions": [
+          "DDR_DQ1_A",
+          "DDR4_DQL2_A",
+          "LPDDR4_DQ1_A",
+          "DDR3_DQ4",
+          "LPDDR3_DQ26"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ5",
+      "ball": "C6",
+      "function": "DDR3_DQ5",
+      "reference": {
+        "functions": [
+          "DDR_DQ7_A",
+          "DDR4_DQL3_A",
+          "LPDDR4_DQ7_A",
+          "DDR3_DQ5",
+          "LPDDR3_DQ29"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ6",
+      "ball": "C8",
+      "function": "DDR3_DQ6",
+      "reference": {
+        "functions": [
+          "DDR_DQ3_A",
+          "DDR4_DQL4_A",
+          "LPDDR4_DQ3_A",
+          "DDR3_DQ6",
+          "LPDDR3_DQ27"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ7",
+      "ball": "A6",
+      "function": "DDR3_DQ7",
+      "reference": {
+        "functions": [
+          "DDR_DQ6_A",
+          "DDR4_DQL7_A",
+          "LPDDR4_DQ6_A",
+          "DDR3_DQ7",
+          "LPDDR3_DQ25"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ8",
+      "ball": "B2",
+      "function": "DDR3_DQ8",
+      "reference": {
+        "functions": [
+          "DDR_DQ11_A",
+          "DDR4_DQU7_A",
+          "LPDDR4_DQ11_A",
+          "DDR3_DQ8",
+          "LPDDR3_DQ14"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQ9",
+      "ball": "B3",
+      "function": "DDR3_DQ9",
+      "reference": {
+        "functions": [
+          "DDR_DQ15_A",
+          "DDR4_DQU6_A",
+          "LPDDR4_DQ15_A",
+          "DDR3_DQ9",
+          "LPDDR3_DQ10"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQS0N",
+      "ball": "1B3",
+      "function": "DDR3_DQS0N",
+      "reference": {
+        "functions": [
+          "DDR_DQS0N_A",
+          "DDR4_DQSL_N_A",
+          "LPDDR4_DQS0N_A",
+          "DDR3_DQS0N",
+          "LPDDR3_DQS3N"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQS0P",
+      "ball": "1A3",
+      "function": "DDR3_DQS0P",
+      "reference": {
+        "functions": [
+          "DDR_DQS0P_A",
+          "DDR4_DQSL_P_A",
+          "LPDDR4_DQS0P_A",
+          "DDR3_DQS0P",
+          "LPDDR3_DQS3P"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQS1N",
+      "ball": "1B1",
+      "function": "DDR3_DQS1N",
+      "reference": {
+        "functions": [
+          "DDR_DQS1N_A",
+          "DDR4_DQSU_N_A",
+          "LPDDR4_DQS1N_A",
+          "DDR3_DQS1N",
+          "LPDDR3_DQS1N"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQS1P",
+      "ball": "1A1",
+      "function": "DDR3_DQS1P",
+      "reference": {
+        "functions": [
+          "DDR_DQS1P_A",
+          "DDR4_DQSU_P_A",
+          "LPDDR4_DQS1P_A",
+          "DDR3_DQS1P",
+          "LPDDR3_DQS1P"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQS2N",
+      "ball": "1B13",
+      "function": "DDR3_DQS2N",
+      "reference": {
+        "functions": [
+          "DDR_DQS0N_B",
+          "DDR4_DQSU_N_B",
+          "LPDDR4_DQS0N_B",
+          "DDR3_DQS2N",
+          "LPDDR3_DQS2N"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQS2P",
+      "ball": "1A13",
+      "function": "DDR3_DQS2P",
+      "reference": {
+        "functions": [
+          "DDR_DQS0P_B",
+          "DDR4_DQSU_P_B",
+          "LPDDR4_DQS0P_B",
+          "DDR3_DQS2P",
+          "LPDDR3_DQS2P"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQS3N",
+      "ball": "1B15",
+      "function": "DDR3_DQS3N",
+      "reference": {
+        "functions": [
+          "DDR_DQS1N_B",
+          "DDR4_DQSL_N_B",
+          "LPDDR4_DQS1N_B",
+          "DDR3_DQS3N",
+          "LPDDR3_DQS0N"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_DQS3P",
+      "ball": "1A15",
+      "function": "DDR3_DQS3P",
+      "reference": {
+        "functions": [
+          "DDR_DQS1P_B",
+          "DDR4_DQSL_P_B",
+          "LPDDR4_DQS1P_B",
+          "DDR3_DQS3P",
+          "LPDDR3_DQS0P"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_ODT0",
+      "ball": "C17",
+      "function": "DDR3_ODT0",
+      "reference": {
+        "functions": [
+          "LPDDR3_A4",
+          "DDR3_ODT0",
+          "LPDDR4_CS1N_B",
+          "DDR4_ODT0",
+          "AC27"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_RASN",
+      "ball": "1A7",
+      "function": "DDR3_RASN",
+      "reference": {
+        "functions": [
+          "--",
+          "DDR3_RASN",
+          "LPDDR4_A5_A",
+          "DDR4_A16_RASN",
+          "AC16"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_RESETN",
+      "ball": "1B11",
+      "function": "DDR3_RESETN",
+      "reference": {
+        "functions": [
+          "--",
+          "DDR3_RESETN",
+          "LPDDR4_RESETN",
+          "DDR4_RESETN",
+          "AC29"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DDR3_WEN",
+      "ball": "1B10",
+      "function": "DDR3_WEN",
+      "reference": {
+        "functions": [
+          "--",
+          "DDR3_WEN",
+          "LPDDR4_ODT1_CA_B",
+          "DDR4_BG0",
+          "AC20"
+        ],
+        "domain": "DDRPHY",
+        "pdf_page": 5
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "SOC_USB_RX_P",
+      "ball": "AB26",
+      "function": "USB30_OTG0_SSRXP",
+      "reference": {
+        "functions": [
+          "USB30_OTG0_SSRXP",
+          "PCIE20_RXDP"
+        ],
+        "domain": "USB/PCIe",
+        "pdf_page": 12
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "SOC_USB_RX_N",
+      "ball": "AB27",
+      "function": "USB30_OTG0_SSRXN",
+      "reference": {
+        "functions": [
+          "USB30_OTG0_SSRXN",
+          "PCIE20_RXDN"
+        ],
+        "domain": "USB/PCIe",
+        "pdf_page": 12
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "SOC_USB_TX_P",
+      "ball": "AD26",
+      "function": "USB30_OTG0_SSTXP",
+      "reference": {
+        "functions": [
+          "USB30_OTG0_SSTXP",
+          "PCIE20_TXDP"
+        ],
+        "domain": "USB/PCIe",
+        "pdf_page": 12
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "SOC_USB_TX_N",
+      "ball": "AD27",
+      "function": "USB30_OTG0_SSTXN",
+      "reference": {
+        "functions": [
+          "USB30_OTG0_SSTXN",
+          "PCIE20_TXDN"
+        ],
+        "domain": "USB/PCIe",
+        "pdf_page": 12
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "USB_DP",
+      "ball": "AF27",
+      "function": "USB30_OTG0_DP",
+      "reference": {
+        "functions": [
+          "USB30_OTG0_DP"
+        ],
+        "domain": "USB/PCIe",
+        "pdf_page": 12
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "USB_DM",
+      "ball": "AF26",
+      "function": "USB30_OTG0_DM",
+      "reference": {
+        "functions": [
+          "USB30_OTG0_DM"
+        ],
+        "domain": "USB/PCIe",
+        "pdf_page": 12
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "SOC_VBUS_DET",
+      "ball": "1P14",
+      "function": "USB30_OTG0_VBUSDET",
+      "reference": {
+        "functions": [
+          "USB30_OTG0_VBUSDET"
+        ],
+        "domain": "USB/PCIe",
+        "pdf_page": 12
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "XIN24M",
+      "ball": "AG25",
+      "function": "OSC_SOC_XIN",
+      "reference": null,
+      "result": "NOT_EXTRACTED"
+    },
+    {
+      "net": "XOUT24M",
+      "ball": "AF25",
+      "function": "OSC_SOC_XOUT",
+      "reference": null,
+      "result": "NOT_EXTRACTED"
+    },
+    {
+      "net": "I2C0_SCL",
+      "ball": "AG23",
+      "function": "I2C0_SCL",
+      "reference": {
+        "functions": [
+          "--",
+          "--",
+          "I2C0_SCL",
+          "GPIO0_B1_d"
+        ],
+        "domain": "PMUIO/OSC/PLL",
+        "pdf_page": 6
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "I2C0_SDA",
+      "ball": "AE23",
+      "function": "I2C0_SDA",
+      "reference": {
+        "functions": [
+          "--",
+          "--",
+          "I2C0_SDA",
+          "GPIO0_B2_d"
+        ],
+        "domain": "PMUIO/OSC/PLL",
+        "pdf_page": 6
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "ETH_TXD0",
+      "ball": "AA1",
+      "function": "RGMII_TXD0_M0",
+      "reference": {
+        "functions": [
+          "UART6_CTSN_M1",
+          "--",
+          "SPI1_MOSI_M0",
+          "--",
+          "RGMII_TXD0_M0",
+          "VO_LCDC_D22",
+          "GPIO4_A2_d"
+        ],
+        "domain": "VCCIO6 Domain",
+        "pdf_page": 11
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "ETH_TXD1",
+      "ball": "AA2",
+      "function": "RGMII_TXD1_M0",
+      "reference": {
+        "functions": [
+          "UART6_RTSN_M1",
+          "--",
+          "SPI1_MISO_M0",
+          "--",
+          "RGMII_TXD1_M0",
+          "VO_LCDC_D23",
+          "GPIO4_A3_d"
+        ],
+        "domain": "VCCIO6 Domain",
+        "pdf_page": 11
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "ETH_TXD2",
+      "ball": "AB3",
+      "function": "RGMII_TXD2_M0",
+      "reference": {
+        "functions": [
+          "I2S2_SDI_M1",
+          "--",
+          "--",
+          "UART8_TX_M1",
+          "RGMII_TXD2_M0",
+          "VO_LCDC_D13",
+          "GPIO3_D4_d"
+        ],
+        "domain": "VCCIO6 Domain",
+        "pdf_page": 11
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "ETH_TXD3",
+      "ball": "AB2",
+      "function": "RGMII_TXD3_M0",
+      "reference": {
+        "functions": [
+          "I2S2_SDO_M1",
+          "--",
+          "--",
+          "UART8_RX_M1",
+          "RGMII_TXD3_M0",
+          "VO_LCDC_D14",
+          "GPIO3_D5_d"
+        ],
+        "domain": "VCCIO6 Domain",
+        "pdf_page": 11
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "ETH_TXEN",
+      "ball": "AA3",
+      "function": "RGMII_TXEN_M0",
+      "reference": {
+        "functions": [
+          "--",
+          "PWM13_M0",
+          "--",
+          "--",
+          "RGMII_TXEN_M0",
+          "VO_LCDC_D0",
+          "GPIO4_A4_d"
+        ],
+        "domain": "VCCIO6 Domain",
+        "pdf_page": 11
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "ETH_TXCLK",
+      "ball": "Y2",
+      "function": "RGMII_TXCLK_M0",
+      "reference": {
+        "functions": [
+          "I2S2_MCLK_M1",
+          "--",
+          "SPI1_CLK_M0",
+          "--",
+          "RGMII_TXCLK_M0",
+          "VO_LCDC_D15",
+          "GPIO3_D6_d"
+        ],
+        "domain": "VCCIO6 Domain",
+        "pdf_page": 11
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "ETH_RXD0",
+      "ball": "W3",
+      "function": "RGMII_RXD0_M0",
+      "reference": {
+        "functions": [
+          "--",
+          "I2C3_SCL_M1",
+          "PDM_SDI2_M1",
+          "UART1_TX_M1",
+          "RGMII_RXD0_M0",
+          "VO_LCDC_D1",
+          "GPIO4_A5_d"
+        ],
+        "domain": "VCCIO6 Domain",
+        "pdf_page": 11
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "ETH_RXD1",
+      "ball": "W1",
+      "function": "RGMII_RXD1_M0",
+      "reference": {
+        "functions": [
+          "--",
+          "I2C3_SDA_M1",
+          "PDM_SDI3_M1",
+          "UART1_RX_M1",
+          "RGMII_RXD1_M0",
+          "VO_LCDC_D8",
+          "GPIO4_A6_d"
+        ],
+        "domain": "VCCIO6 Domain",
+        "pdf_page": 11
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "ETH_RXD2",
+      "ball": "W2",
+      "function": "RGMII_RXD2_M0",
+      "reference": {
+        "functions": [
+          "--",
+          "--",
+          "SPI1_CSN0_M0",
+          "UART8_CTSN_M1",
+          "RGMII_RXD2_M0",
+          "VO_LCDC_D19",
+          "GPIO3_D7_d"
+        ],
+        "domain": "VCCIO6 Domain",
+        "pdf_page": 11
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "ETH_RXD3",
+      "ball": "Y3",
+      "function": "RGMII_RXD3_M0",
+      "reference": {
+        "functions": [
+          "--",
+          "--",
+          "SPI1_CSN1_M0",
+          "UART8_RTSN_M1",
+          "RGMII_RXD3_M0",
+          "VO_LCDC_D20",
+          "GPIO4_A0_d"
+        ],
+        "domain": "VCCIO6 Domain",
+        "pdf_page": 11
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "ETH_RXCLK",
+      "ball": "U2",
+      "function": "RGMII_RXCLK_M0",
+      "reference": {
+        "functions": [
+          "I2S2_LRCK_M1",
+          "PWM12_M0",
+          "--",
+          "--",
+          "RGMII_RXCLK_M0",
+          "VO_LCDC_D21",
+          "GPIO4_A1_d"
+        ],
+        "domain": "VCCIO6 Domain",
+        "pdf_page": 11
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "ETH_RXDV_CRS",
+      "ball": "V2",
+      "function": "RGMII_RXDV_M0",
+      "reference": {
+        "functions": [
+          "UART6_TX_M1",
+          "--",
+          "PDM_SDI0_M1",
+          "UART1_RTSN_M1",
+          "RGMII_RXDV_M0",
+          "VO_LCDC_D9",
+          "GPIO4_A7_d"
+        ],
+        "domain": "VCCIO6 Domain",
+        "pdf_page": 11
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "ETH_MDC",
+      "ball": "AC1",
+      "function": "RGMII_MDC_M0",
+      "reference": {
+        "functions": [
+          "--",
+          "--",
+          "--",
+          "UART9_TX_M0",
+          "RGMII_MDC_M0",
+          "VO_LCDC_D2",
+          "GPIO4_B2_d"
+        ],
+        "domain": "VCCIO6 Domain",
+        "pdf_page": 11
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "ETH_MDIO",
+      "ball": "AC2",
+      "function": "RGMII_MDIO_M0",
+      "reference": {
+        "functions": [
+          "--",
+          "--",
+          "--",
+          "UART9_RX_M0",
+          "RGMII_MDIO_M0",
+          "VO_LCDC_D18",
+          "GPIO4_B3_d"
+        ],
+        "domain": "VCCIO6 Domain",
+        "pdf_page": 11
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "WIFI_D0",
+      "ball": "U26",
+      "function": "SDMMC1_D0",
+      "reference": {
+        "functions": [
+          "--",
+          "PWM8_M1",
+          "--",
+          "I2S0_SDI0_M1",
+          "RGMII_TXD2_M1",
+          "SDMMC1_D0",
+          "GPIO1_C1_d"
+        ],
+        "domain": "VCCIO4 Domain",
+        "pdf_page": 9
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "WIFI_D1",
+      "ball": "V25",
+      "function": "SDMMC1_D1",
+      "reference": {
+        "functions": [
+          "--",
+          "PWM9_M1",
+          "--",
+          "I2S0_SDI1_M1",
+          "RGMII_TXD3_M1",
+          "SDMMC1_D1",
+          "GPIO1_C2_d"
+        ],
+        "domain": "VCCIO4 Domain",
+        "pdf_page": 9
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "WIFI_D2",
+      "ball": "T25",
+      "function": "SDMMC1_D2",
+      "reference": {
+        "functions": [
+          "--",
+          "PWM10_M1",
+          "--",
+          "I2S0_SDO0_M1",
+          "RGMII_TXCLK_M1",
+          "SDMMC1_D2",
+          "GPIO1_C3_d"
+        ],
+        "domain": "VCCIO4 Domain",
+        "pdf_page": 9
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "WIFI_D3",
+      "ball": "T26",
+      "function": "SDMMC1_D3",
+      "reference": {
+        "functions": [
+          "--",
+          "PWM11_M1",
+          "--",
+          "I2S0_LRCK_M1",
+          "RGMII_RXD2_M1",
+          "SDMMC1_D3",
+          "GPIO1_C4_d"
+        ],
+        "domain": "VCCIO4 Domain",
+        "pdf_page": 9
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "WIFI_CMD",
+      "ball": "T27",
+      "function": "SDMMC1_CMD",
+      "reference": {
+        "functions": [
+          "--",
+          "PWM0_M1",
+          "--",
+          "I2S0_SCLK_M1",
+          "RGMII_RXD3_M1",
+          "SDMMC1_CMD",
+          "GPIO1_C5_d"
+        ],
+        "domain": "VCCIO4 Domain",
+        "pdf_page": 9
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "WIFI_CLK",
+      "ball": "U25",
+      "function": "SDMMC1_CLK",
+      "reference": {
+        "functions": [
+          "--",
+          "PWM1_M1",
+          "--",
+          "I2S0_MCLK_M1",
+          "RGMII_RXCLK_M1",
+          "SDMMC1_CLK",
+          "GPIO1_C6_d"
+        ],
+        "domain": "VCCIO4 Domain",
+        "pdf_page": 9
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "FSPI_D0",
+      "ball": "J25",
+      "function": "FSPI_D0",
+      "reference": {
+        "functions": [
+          "FSPI_D0",
+          "EMMC_D0",
+          "GPIO1_A0_u"
+        ],
+        "domain": "VCCIO2 Domain",
+        "pdf_page": 8
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "FSPI_D1",
+      "ball": "J26",
+      "function": "FSPI_D1",
+      "reference": {
+        "functions": [
+          "FSPI_D1",
+          "EMMC_D1",
+          "GPIO1_A1_u"
+        ],
+        "domain": "VCCIO2 Domain",
+        "pdf_page": 8
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "FSPI_D2",
+      "ball": "H25",
+      "function": "FSPI_D2",
+      "reference": {
+        "functions": [
+          "FSPI_D2",
+          "EMMC_D2",
+          "GPIO1_A2_u"
+        ],
+        "domain": "VCCIO2 Domain",
+        "pdf_page": 8
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "FSPI_D3",
+      "ball": "K27",
+      "function": "FSPI_D3",
+      "reference": {
+        "functions": [
+          "FSPI_D3",
+          "EMMC_D3",
+          "GPIO1_A3_u"
+        ],
+        "domain": "VCCIO2 Domain",
+        "pdf_page": 8
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "FSPI_CLK",
+      "ball": "M25",
+      "function": "FSPI_CLK",
+      "reference": {
+        "functions": [
+          "FSPI_CLK",
+          "EMMC_CLK",
+          "GPIO1_B1_d"
+        ],
+        "domain": "VCCIO2 Domain",
+        "pdf_page": 8
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "FSPI_CS_N",
+      "ball": "M26",
+      "function": "FSPI_CSN0",
+      "reference": {
+        "functions": [
+          "FSPI_CSN0",
+          "EMMC_CMD",
+          "GPIO1_B0_u"
+        ],
+        "domain": "VCCIO2 Domain",
+        "pdf_page": 8
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "LCD_MOSI",
+      "ball": "T3",
+      "function": "SPI2_MOSI_M0",
+      "reference": {
+        "functions": [
+          "--",
+          "I2C2_SDA_M1",
+          "SPI2_MOSI_M0",
+          "UART7_RTSN_M0",
+          "I2S1_SDI3_M0",
+          "VO_LCDC_D12",
+          "GPIO3_D3_d"
+        ],
+        "domain": "VCCIO6 Domain",
+        "pdf_page": 11
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "LCD_SCLK",
+      "ball": "N3",
+      "function": "SPI2_CLK_M0",
+      "reference": {
+        "functions": [
+          "UART3_CTSN_M0",
+          "--",
+          "SPI2_CLK_M0",
+          "--",
+          "I2S1_SDO3_M0",
+          "VO_LCDC_DEN",
+          "GPIO4_B6_d"
+        ],
+        "domain": "VCCIO6 Domain",
+        "pdf_page": 11
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "LCD_CS_N",
+      "ball": "M3",
+      "function": "SPI2_CSN0_M0",
+      "reference": {
+        "functions": [
+          "UART3_RX_M0",
+          "I2C1_SDA_M1",
+          "SPI2_CSN0_M0",
+          "UART9_RTSN_M0",
+          "I2S1_SDO2_M0",
+          "VO_LCDC_VSYNC",
+          "GPIO4_B5_d"
+        ],
+        "domain": "VCCIO6 Domain",
+        "pdf_page": 11
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "RESET_N",
+      "ball": "1P12",
+      "function": "nPOR",
+      "reference": {
+        "functions": [
+          "nPOR"
+        ],
+        "domain": "PMUIO/OSC/PLL",
+        "pdf_page": 6
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "RECOVERY_ADC",
+      "ball": "D26",
+      "function": "SARADC0_BOOT",
+      "reference": {
+        "functions": [
+          "SARADC0_BOOT"
+        ],
+        "domain": "SARADC/OTP",
+        "pdf_page": 9
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DEBUG_TX",
+      "ball": "AE20",
+      "function": "UART0_TX_M0",
+      "reference": {
+        "functions": [
+          "--",
+          "--",
+          "JTAG_CPU_MCU_TCK_M0",
+          "UART0_TX_M0",
+          "GPIO0_D1_u"
+        ],
+        "domain": "PMUIO/OSC/PLL",
+        "pdf_page": 6
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "DEBUG_RX",
+      "ball": "AF20",
+      "function": "UART0_RX_M0",
+      "reference": {
+        "functions": [
+          "--",
+          "--",
+          "JTAG_CPU_MCU_TMS_M0",
+          "UART0_RX_M0",
+          "GPIO0_D0_u"
+        ],
+        "domain": "PMUIO/OSC/PLL",
+        "pdf_page": 6
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "THERMAL_SHUTDOWN",
+      "ball": "1R13",
+      "function": "TSADC_SHUT_M0",
+      "reference": {
+        "functions": [
+          "--",
+          "TSADC_SHUT_ORG",
+          "TSADC_SHUT_M0",
+          "GPIO0_A1_z"
+        ],
+        "domain": "PMUIO/OSC/PLL",
+        "pdf_page": 6
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "EXP_SPI_CLK",
+      "ball": "AE16",
+      "function": "SPI0_CLK_M0",
+      "reference": {
+        "functions": [
+          "--",
+          "SPI0_CLK_M0",
+          "PWM0_M0",
+          "UART2_RTSN_M0",
+          "GPIO0_C3_d"
+        ],
+        "domain": "PMUIO/OSC/PLL",
+        "pdf_page": 6
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "EXP_SPI_MOSI",
+      "ball": "AG19",
+      "function": "SPI0_MOSI_M0",
+      "reference": {
+        "functions": [
+          "--",
+          "SPI0_MOSI_M0",
+          "PWM1_M0",
+          "UART6_CTSN_M0",
+          "GPIO0_C4_d"
+        ],
+        "domain": "PMUIO/OSC/PLL",
+        "pdf_page": 6
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "EXP_SPI_MISO",
+      "ball": "AE18",
+      "function": "SPI0_MISO_M0",
+      "reference": {
+        "functions": [
+          "--",
+          "SPI0_MISO_M0",
+          "PWM2_M0",
+          "UART6_RTSN_M0",
+          "GPIO0_C5_d"
+        ],
+        "domain": "PMUIO/OSC/PLL",
+        "pdf_page": 6
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "EXP_SPI_CS0_N",
+      "ball": "AG17",
+      "function": "SPI0_CSN0_M0",
+      "reference": {
+        "functions": [
+          "--",
+          "SPI0_CSN0_M0",
+          "PWM5_M0",
+          "UART2_CTSN_M0",
+          "GPIO0_C2_d"
+        ],
+        "domain": "PMUIO/OSC/PLL",
+        "pdf_page": 6
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "EXP_SPI_CS1_N",
+      "ball": "AF15",
+      "function": "SPI0_CSN1_M0",
+      "reference": {
+        "functions": [
+          "SPDIF_TX_M1",
+          "CPU_AVS",
+          "PWM4_M0",
+          "SPI0_CSN1_M0",
+          "GPIO0_B7_d"
+        ],
+        "domain": "PMUIO/OSC/PLL",
+        "pdf_page": 6
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "EXP_I2C_SCL",
+      "ball": "AF16",
+      "function": "I2C2_SCL_M0",
+      "reference": {
+        "functions": [
+          "--",
+          "--",
+          "PCIE20_PERSTN_M0",
+          "I2C2_SCL_M0",
+          "GPIO0_B5_d"
+        ],
+        "domain": "PMUIO/OSC/PLL",
+        "pdf_page": 6
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "EXP_I2C_SDA",
+      "ball": "AE15",
+      "function": "I2C2_SDA_M0",
+      "reference": {
+        "functions": [
+          "--",
+          "--",
+          "PCIE20_WAKEN_M0",
+          "I2C2_SDA_M0",
+          "GPIO0_B6_d"
+        ],
+        "domain": "PMUIO/OSC/PLL",
+        "pdf_page": 6
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "EXP_UART_TX",
+      "ball": "Y26",
+      "function": "UART1_TX_M0",
+      "reference": {
+        "functions": [
+          "RMII_TXD1",
+          "PWM5_M1",
+          "--",
+          "I2S0_SDO2_M1",
+          "RGMII_TXD1_M1",
+          "UART1_TX_M0",
+          "GPIO1_D2_d"
+        ],
+        "domain": "VCCIO4 Domain",
+        "pdf_page": 9
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "EXP_UART_RX",
+      "ball": "Y25",
+      "function": "UART1_RX_M0",
+      "reference": {
+        "functions": [
+          "RMII_TXD0",
+          "PWM4_M1",
+          "--",
+          "I2S0_SDO1_M1",
+          "RGMII_TXD0_M1",
+          "UART1_RX_M0",
+          "GPIO1_D1_d"
+        ],
+        "domain": "VCCIO4 Domain",
+        "pdf_page": 9
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "LCD_DC",
+      "ball": "N1",
+      "function": "GPIO3_C4_d",
+      "reference": {
+        "functions": [
+          "--",
+          "--",
+          "--",
+          "UART7_TX_M0",
+          "I2S1_MCLK_M0",
+          "VO_LCDC_D3",
+          "GPIO3_C4_d"
+        ],
+        "domain": "VCCIO6 Domain",
+        "pdf_page": 11
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "LCD_RESET_N",
+      "ball": "N2",
+      "function": "GPIO3_C5_d",
+      "reference": {
+        "functions": [
+          "--",
+          "PWM14_M0",
+          "--",
+          "UART4_CTSN_M0",
+          "I2S1_SCLK_M0",
+          "VO_LCDC_D4",
+          "GPIO3_C5_d"
+        ],
+        "domain": "VCCIO6 Domain",
+        "pdf_page": 11
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "LCD_BL_PWM",
+      "ball": "L1",
+      "function": "PWM8_M0",
+      "reference": {
+        "functions": [
+          "--",
+          "PWM8_M0",
+          "--",
+          "--",
+          "I2S0_LRCK_M0",
+          "GPIO3_A4_d"
+        ],
+        "domain": "VCCIO1 Domain",
+        "pdf_page": 7
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "WIFI_REG_ON",
+      "ball": "1J14",
+      "function": "GPIO1_C7_d",
+      "reference": {
+        "functions": [
+          "RMII_MDC",
+          "PWM2_M1",
+          "I2C5_SCL_M1",
+          "--",
+          "RGMII_MDC_M1",
+          "SDMMC1_PWREN",
+          "GPIO1_C7_d"
+        ],
+        "domain": "VCCIO4 Domain",
+        "pdf_page": 9
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "WIFI_HOST_WAKE",
+      "ball": "V26",
+      "function": "GPIO1_D0_d",
+      "reference": {
+        "functions": [
+          "RMII_MDIO",
+          "PWM3_M1",
+          "I2C5_SDA_M1",
+          "--",
+          "RGMII_MDIO_M1",
+          "SDMMC1_DETN",
+          "GPIO1_D0_d"
+        ],
+        "domain": "VCCIO4 Domain",
+        "pdf_page": 9
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "ETH_RESET_GPIO_N",
+      "ball": "T2",
+      "function": "GPIO4_B1_d",
+      "reference": {
+        "functions": [
+          "I2S2_SCLK_M1",
+          "CAM_CLK0_OUT_M1",
+          "PDM_CLK1_M1",
+          "--",
+          "ETH_CLK_25M_OUT_M0",
+          "VO_LCDC_D17",
+          "GPIO4_B1_d"
+        ],
+        "domain": "VCCIO6 Domain",
+        "pdf_page": 11
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "EXP_GPIO0",
+      "ball": "K2",
+      "function": "GPIO3_A2_d",
+      "reference": {
+        "functions": [
+          "--",
+          "--",
+          "PDM_CLK1_M0",
+          "UART2_CTSN_M1",
+          "I2S0_MCLK_M0",
+          "GPIO3_A2_d"
+        ],
+        "domain": "VCCIO1 Domain",
+        "pdf_page": 7
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "EXP_GPIO1",
+      "ball": "L3",
+      "function": "GPIO3_A3_d",
+      "reference": {
+        "functions": [
+          "--",
+          "--",
+          "--",
+          "UART2_RTSN_M1",
+          "I2S0_SCLK_M0",
+          "GPIO3_A3_d"
+        ],
+        "domain": "VCCIO1 Domain",
+        "pdf_page": 7
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "EXP_GPIO2",
+      "ball": "K3",
+      "function": "GPIO3_A5_d",
+      "reference": {
+        "functions": [
+          "--",
+          "PWM9_M0",
+          "--",
+          "--",
+          "I2S0_SDO0_M0",
+          "GPIO3_A5_d"
+        ],
+        "domain": "VCCIO1 Domain",
+        "pdf_page": 7
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "EXP_GPIO3",
+      "ball": "L2",
+      "function": "GPIO3_A7_d",
+      "reference": {
+        "functions": [
+          "PCIE20_WAKEN_M1",
+          "UART5_RX_M1",
+          "PDM_SDI2_M0",
+          "I2S0_SDI2_M0",
+          "I2S0_SDO2_M0",
+          "GPIO3_A7_d"
+        ],
+        "domain": "VCCIO1 Domain",
+        "pdf_page": 7
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "PMIC_SLEEP",
+      "ball": "AF23",
+      "function": "PWR_CTRL0",
+      "reference": {
+        "functions": [
+          "--",
+          "TSADC_SHUT_M1",
+          "PWR_CTRL0",
+          "GPIO0_A2_d"
+        ],
+        "domain": "PMUIO/OSC/PLL",
+        "pdf_page": 6
+      },
+      "result": "MATCH"
+    },
+    {
+      "net": "PMIC_INT_N",
+      "ball": "AF22",
+      "function": "GPIO0_A3_u",
+      "reference": {
+        "functions": [
+          "--",
+          "--",
+          "PWR_CTRL1",
+          "GPIO0_A3_u"
+        ],
+        "domain": "PMUIO/OSC/PLL",
+        "pdf_page": 6
+      },
+      "result": "MATCH"
+    }
+  ],
+  "production_ready": false
+}

@@ -1,0 +1,89 @@
+ERC report (2026-11-08T11:39:36, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(54.61 mm, 36.83 mm): Etichetta globale 'USB_SHIELD'
+
+***** Sheet /boot-flash/
+
+***** Sheet /core-boot-support/
+
+***** Sheet /cpu-power/
+
+***** Sheet /ddr-bypass/
+
+***** Sheet /ddr3-memory/
+
+***** Sheet /display-power/
+
+***** Sheet /display-signals/
+
+***** Sheet /ethernet-esd/
+
+***** Sheet /ethernet-magnetics/
+
+***** Sheet /ethernet-phy/
+
+***** Sheet /ethernet-support/
+
+***** Sheet /expansion/
+
+***** Sheet /pmic-bucks/
+
+***** Sheet /pmic-control/
+
+***** Sheet /pmic-ldos/
+
+***** Sheet /power-source-model/
+
+***** Sheet /soc-01/
+
+***** Sheet /soc-02/
+
+***** Sheet /soc-03/
+
+***** Sheet /soc-04/
+
+***** Sheet /soc-05/
+
+***** Sheet /soc-06/
+
+***** Sheet /soc-07/
+
+***** Sheet /soc-core-bypass/
+
+***** Sheet /soc-io-bypass/
+
+***** Sheet /system-3v3/
+
+***** Sheet /test-access/
+
+***** Sheet /usb-analog-bypass/
+
+***** Sheet /usb-c-frontend/
+
+***** Sheet /usb-input-protection/
+
+***** Sheet /usb-power-control/
+
+***** Sheet /usb-vbus-guard/
+
+***** Sheet /wifi-clocks/
+
+***** Sheet /wifi-module/
+
+***** Sheet /wifi-power/
+
+***** Sheet /wifi-sdio-pulls/
+
+***** Sheet /wifi-vbat-converter/
+
+ ** ERC messages: 1  Errors 0  Warnings 1
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

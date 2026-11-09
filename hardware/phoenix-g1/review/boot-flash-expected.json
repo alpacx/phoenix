@@ -1,0 +1,140 @@
+[
+  {
+    "ref": "U18",
+    "pin": "1",
+    "pin_name": "~{CS}",
+    "net": "FSPI_CS_N"
+  },
+  {
+    "ref": "U18",
+    "pin": "2",
+    "pin_name": "DO(IO1)",
+    "net": "FSPI_D1"
+  },
+  {
+    "ref": "U18",
+    "pin": "3",
+    "pin_name": "WP#(IO2)",
+    "net": "FSPI_D2"
+  },
+  {
+    "ref": "U18",
+    "pin": "4",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "U18",
+    "pin": "5",
+    "pin_name": "DI(IO0)",
+    "net": "FSPI_D0"
+  },
+  {
+    "ref": "U18",
+    "pin": "6",
+    "pin_name": "CLK",
+    "net": "FLASH_CLK"
+  },
+  {
+    "ref": "U18",
+    "pin": "7",
+    "pin_name": "HOLD#orRESET#(IO3)",
+    "net": "FSPI_D3"
+  },
+  {
+    "ref": "U18",
+    "pin": "8",
+    "pin_name": "VCC",
+    "net": "+3V3_IO"
+  },
+  {
+    "ref": "U18",
+    "pin": "9",
+    "pin_name": "EP",
+    "net": "GND"
+  },
+  {
+    "ref": "R1401",
+    "pin": "1",
+    "pin_name": "",
+    "net": "FSPI_CLK"
+  },
+  {
+    "ref": "R1401",
+    "pin": "2",
+    "pin_name": "",
+    "net": "FLASH_CLK"
+  },
+  {
+    "ref": "R1402",
+    "pin": "1",
+    "pin_name": "",
+    "net": "FSPI_CS_N"
+  },
+  {
+    "ref": "R1402",
+    "pin": "2",
+    "pin_name": "",
+    "net": "+3V3_IO"
+  },
+  {
+    "ref": "R1403",
+    "pin": "1",
+    "pin_name": "",
+    "net": "FSPI_D2"
+  },
+  {
+    "ref": "R1403",
+    "pin": "2",
+    "pin_name": "",
+    "net": "+3V3_IO"
+  },
+  {
+    "ref": "R1404",
+    "pin": "1",
+    "pin_name": "",
+    "net": "FSPI_D3"
+  },
+  {
+    "ref": "R1404",
+    "pin": "2",
+    "pin_name": "",
+    "net": "+3V3_IO"
+  },
+  {
+    "ref": "C1401",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V3_IO"
+  },
+  {
+    "ref": "C1401",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C1402",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V3_IO"
+  },
+  {
+    "ref": "C1402",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "R1405",
+    "pin": "1",
+    "pin_name": "",
+    "net": "FLASH_VOL_SEL"
+  },
+  {
+    "ref": "R1405",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  }
+]

@@ -1,0 +1,1189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/kicad/rk3562-pins-09.kicad_sch</source>
+    <date>2026-11-08T12:11:58</date>
+    <tool>Eeschema 10.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Phoenix - RK3562 MIGRATION, incomplete</title>
+        <company/>
+        <rev>DRAFT</rev>
+        <date/>
+        <source>rk3562-pins-09.kicad_sch</source>
+        <comment number="1" value="Not for fabrication"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>RK3562</value>
+      <fields>
+        <field name="MPN">RK3562</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_RK3562" part="RK3562_MIGRATION" description=""/>
+      <property name="MPN" value="RK3562"/>
+      <property name="Sheetname" value="rk3562-pins-09"/>
+      <property name="Sheetfile" value="rk3562-pins-09.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a7c7bcf-63a1-57c4-b7ac-a11fee01f29a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1A1"/>
+            <pin num="1A10"/>
+            <pin num="1A11"/>
+            <pin num="1A12"/>
+            <pin num="1A13"/>
+            <pin num="1A14"/>
+            <pin num="1A15"/>
+            <pin num="1A2"/>
+            <pin num="1A3"/>
+            <pin num="1A4"/>
+            <pin num="1A5"/>
+            <pin num="1A6"/>
+            <pin num="1A7"/>
+            <pin num="1A8"/>
+            <pin num="1A9"/>
+            <pin num="1B1"/>
+            <pin num="1B10"/>
+            <pin num="1B11"/>
+            <pin num="1B12"/>
+            <pin num="1B13"/>
+            <pin num="1B14"/>
+            <pin num="1B15"/>
+            <pin num="1B2"/>
+            <pin num="1B3"/>
+            <pin num="1B4"/>
+            <pin num="1B5"/>
+            <pin num="1B6"/>
+            <pin num="1B7"/>
+            <pin num="1B8"/>
+            <pin num="1B9"/>
+            <pin num="1C1"/>
+            <pin num="1C10"/>
+            <pin num="1C11"/>
+            <pin num="1C12"/>
+            <pin num="1C13"/>
+            <pin num="1C14"/>
+            <pin num="1C15"/>
+            <pin num="1C2"/>
+            <pin num="1C3"/>
+            <pin num="1C4"/>
+          </pins>
+        </unit>
+        <unit name="B">
+          <pins>
+            <pin num="1C5"/>
+            <pin num="1C6"/>
+            <pin num="1C7"/>
+            <pin num="1C9"/>
+            <pin num="1D1"/>
+            <pin num="1D10"/>
+            <pin num="1D11"/>
+            <pin num="1D12"/>
+            <pin num="1D13"/>
+            <pin num="1D14"/>
+            <pin num="1D15"/>
+            <pin num="1D2"/>
+            <pin num="1D3"/>
+            <pin num="AA1"/>
+            <pin num="AA2"/>
+            <pin num="AA25"/>
+            <pin num="AA26"/>
+            <pin num="AA27"/>
+            <pin num="AA3"/>
+            <pin num="AB2"/>
+            <pin num="AB25"/>
+            <pin num="AB26"/>
+            <pin num="AB27"/>
+            <pin num="AB3"/>
+            <pin num="AC1"/>
+            <pin num="AC2"/>
+            <pin num="AC26"/>
+            <pin num="AC27"/>
+            <pin num="AC3"/>
+            <pin num="AD1"/>
+            <pin num="AD2"/>
+            <pin num="AD25"/>
+            <pin num="AD26"/>
+            <pin num="AD27"/>
+            <pin num="AD3"/>
+            <pin num="AE1"/>
+            <pin num="AE10"/>
+            <pin num="AE11"/>
+            <pin num="AE12"/>
+            <pin num="AE13"/>
+          </pins>
+        </unit>
+        <unit name="C">
+          <pins>
+            <pin num="AE14"/>
+            <pin num="AE15"/>
+            <pin num="AE16"/>
+            <pin num="AE17"/>
+            <pin num="AE18"/>
+            <pin num="AE19"/>
+            <pin num="AE2"/>
+            <pin num="AE20"/>
+            <pin num="AE21"/>
+            <pin num="AE22"/>
+            <pin num="AE23"/>
+            <pin num="AE24"/>
+            <pin num="AE25"/>
+            <pin num="AE26"/>
+            <pin num="AE27"/>
+            <pin num="AE3"/>
+            <pin num="AE4"/>
+            <pin num="AE5"/>
+            <pin num="AE6"/>
+            <pin num="AE7"/>
+            <pin num="AE8"/>
+            <pin num="AE9"/>
+            <pin num="AF1"/>
+            <pin num="AF10"/>
+            <pin num="AF11"/>
+            <pin num="AF12"/>
+            <pin num="1D4"/>
+            <pin num="1D6"/>
+            <pin num="1D7"/>
+            <pin num="1D8"/>
+            <pin num="1D9"/>
+            <pin num="1E1"/>
+            <pin num="1E10"/>
+            <pin num="1E11"/>
+            <pin num="1E12"/>
+            <pin num="1E13"/>
+            <pin num="1E14"/>
+            <pin num="1E15"/>
+            <pin num="1E2"/>
+            <pin num="1E3"/>
+          </pins>
+        </unit>
+        <unit name="D">
+          <pins>
+            <pin num="1E4"/>
+            <pin num="1E5"/>
+            <pin num="1E6"/>
+            <pin num="1E7"/>
+            <pin num="1E8"/>
+            <pin num="1E9"/>
+            <pin num="1F1"/>
+            <pin num="1F10"/>
+            <pin num="1F11"/>
+            <pin num="1F12"/>
+            <pin num="1F13"/>
+            <pin num="1F14"/>
+            <pin num="1F15"/>
+            <pin num="1F2"/>
+            <pin num="1F3"/>
+            <pin num="1F4"/>
+            <pin num="1F5"/>
+            <pin num="1F7"/>
+            <pin num="1F9"/>
+            <pin num="1G1"/>
+            <pin num="1G10"/>
+            <pin num="1G11"/>
+            <pin num="1G12"/>
+            <pin num="1G13"/>
+            <pin num="1G14"/>
+            <pin num="1G15"/>
+            <pin num="1G2"/>
+            <pin num="1G3"/>
+            <pin num="1G4"/>
+            <pin num="1G5"/>
+            <pin num="1G6"/>
+            <pin num="1G7"/>
+            <pin num="1G8"/>
+            <pin num="1G9"/>
+            <pin num="1H1"/>
+            <pin num="1H10"/>
+            <pin num="1H11"/>
+            <pin num="1H12"/>
+            <pin num="1H13"/>
+            <pin num="1H14"/>
+          </pins>
+        </unit>
+        <unit name="E">
+          <pins>
+            <pin num="1H15"/>
+            <pin num="1H2"/>
+            <pin num="1H3"/>
+            <pin num="1H4"/>
+            <pin num="AF13"/>
+            <pin num="AF14"/>
+            <pin num="AF15"/>
+            <pin num="AF16"/>
+            <pin num="AF17"/>
+            <pin num="AF18"/>
+            <pin num="AF19"/>
+            <pin num="AF2"/>
+            <pin num="AF20"/>
+            <pin num="AF21"/>
+            <pin num="AF22"/>
+            <pin num="AF23"/>
+            <pin num="AF24"/>
+            <pin num="AF25"/>
+            <pin num="AF26"/>
+            <pin num="AF27"/>
+            <pin num="AF3"/>
+            <pin num="AF4"/>
+            <pin num="AF5"/>
+            <pin num="AF6"/>
+            <pin num="AF7"/>
+            <pin num="AF8"/>
+            <pin num="AF9"/>
+            <pin num="AG1"/>
+            <pin num="AG10"/>
+            <pin num="AG11"/>
+            <pin num="AG12"/>
+            <pin num="AG13"/>
+            <pin num="AG14"/>
+            <pin num="AG15"/>
+            <pin num="AG17"/>
+            <pin num="AG19"/>
+            <pin num="AG2"/>
+            <pin num="AG21"/>
+            <pin num="AG23"/>
+            <pin num="AG24"/>
+          </pins>
+        </unit>
+        <unit name="F">
+          <pins>
+            <pin num="AG25"/>
+            <pin num="AG26"/>
+            <pin num="AG27"/>
+            <pin num="AG3"/>
+            <pin num="AG4"/>
+            <pin num="AG5"/>
+            <pin num="AG6"/>
+            <pin num="AG7"/>
+            <pin num="AG8"/>
+            <pin num="AG9"/>
+            <pin num="B1"/>
+            <pin num="B10"/>
+            <pin num="B11"/>
+            <pin num="B12"/>
+            <pin num="B13"/>
+            <pin num="B14"/>
+            <pin num="B15"/>
+            <pin num="B16"/>
+            <pin num="B17"/>
+            <pin num="B18"/>
+            <pin num="B19"/>
+            <pin num="B2"/>
+            <pin num="1H5"/>
+            <pin num="1H6"/>
+            <pin num="1H7"/>
+            <pin num="1H8"/>
+            <pin num="1H9"/>
+            <pin num="1J1"/>
+            <pin num="1J10"/>
+            <pin num="1J11"/>
+            <pin num="1J12"/>
+            <pin num="1J13"/>
+            <pin num="1J14"/>
+            <pin num="1J15"/>
+            <pin num="1J2"/>
+            <pin num="1J3"/>
+            <pin num="1J4"/>
+            <pin num="1J5"/>
+            <pin num="1J6"/>
+            <pin num="1J7"/>
+          </pins>
+        </unit>
+        <unit name="G">
+          <pins>
+            <pin num="1J8"/>
+            <pin num="1J9"/>
+            <pin num="1K1"/>
+            <pin num="1K10"/>
+            <pin num="1K11"/>
+            <pin num="1K12"/>
+            <pin num="1K13"/>
+            <pin num="1K14"/>
+            <pin num="1K15"/>
+            <pin num="1K2"/>
+            <pin num="1K3"/>
+            <pin num="1K4"/>
+            <pin num="1K5"/>
+            <pin num="1K6"/>
+            <pin num="1K7"/>
+            <pin num="1K8"/>
+            <pin num="1K9"/>
+            <pin num="1L1"/>
+            <pin num="1L10"/>
+            <pin num="1L11"/>
+            <pin num="1L12"/>
+            <pin num="1L13"/>
+            <pin num="1L14"/>
+            <pin num="1L15"/>
+            <pin num="1L2"/>
+            <pin num="1L3"/>
+            <pin num="1L4"/>
+            <pin num="1L5"/>
+            <pin num="1L6"/>
+            <pin num="1L7"/>
+            <pin num="B20"/>
+            <pin num="B21"/>
+            <pin num="B22"/>
+            <pin num="B23"/>
+            <pin num="B24"/>
+            <pin num="B25"/>
+            <pin num="B26"/>
+            <pin num="B27"/>
+            <pin num="B3"/>
+            <pin num="B4"/>
+          </pins>
+        </unit>
+        <unit name="H">
+          <pins>
+            <pin num="B5"/>
+            <pin num="B6"/>
+            <pin num="B7"/>
+            <pin num="B8"/>
+            <pin num="B9"/>
+            <pin num="C1"/>
+            <pin num="C10"/>
+            <pin num="C11"/>
+            <pin num="C12"/>
+            <pin num="C13"/>
+            <pin num="C14"/>
+            <pin num="C15"/>
+            <pin num="C16"/>
+            <pin num="C17"/>
+            <pin num="C18"/>
+            <pin num="C19"/>
+            <pin num="C2"/>
+            <pin num="C20"/>
+            <pin num="C21"/>
+            <pin num="C22"/>
+            <pin num="C23"/>
+            <pin num="C24"/>
+            <pin num="C25"/>
+            <pin num="C26"/>
+            <pin num="C27"/>
+            <pin num="C3"/>
+            <pin num="C4"/>
+            <pin num="C5"/>
+            <pin num="C6"/>
+            <pin num="C7"/>
+            <pin num="C8"/>
+            <pin num="C9"/>
+            <pin num="D1"/>
+            <pin num="D2"/>
+            <pin num="D25"/>
+            <pin num="D26"/>
+            <pin num="D3"/>
+            <pin num="E1"/>
+            <pin num="1L8"/>
+            <pin num="1L9"/>
+          </pins>
+        </unit>
+        <unit name="I">
+          <pins>
+            <pin num="1M1"/>
+            <pin num="1M10"/>
+            <pin num="1M11"/>
+            <pin num="1M12"/>
+            <pin num="1M13"/>
+            <pin num="1M14"/>
+            <pin num="1M15"/>
+            <pin num="1M2"/>
+            <pin num="1M3"/>
+            <pin num="1M4"/>
+            <pin num="1M5"/>
+            <pin num="1M6"/>
+            <pin num="1M7"/>
+            <pin num="1M8"/>
+            <pin num="1M9"/>
+            <pin num="1N1"/>
+            <pin num="1N10"/>
+            <pin num="1N11"/>
+            <pin num="1N12"/>
+            <pin num="1N13"/>
+            <pin num="1N14"/>
+            <pin num="1N15"/>
+            <pin num="1N2"/>
+            <pin num="1N3"/>
+            <pin num="1N4"/>
+            <pin num="1N5"/>
+            <pin num="1N6"/>
+            <pin num="1N7"/>
+            <pin num="1N8"/>
+            <pin num="1N9"/>
+            <pin num="1P1"/>
+            <pin num="1P10"/>
+            <pin num="1P11"/>
+            <pin num="1P12"/>
+            <pin num="1P13"/>
+            <pin num="1P14"/>
+            <pin num="1P15"/>
+            <pin num="1P2"/>
+            <pin num="1P3"/>
+            <pin num="1P4"/>
+          </pins>
+        </unit>
+        <unit name="J">
+          <pins>
+            <pin num="1P5"/>
+            <pin num="1P6"/>
+            <pin num="1P7"/>
+            <pin num="1P8"/>
+            <pin num="1P9"/>
+            <pin num="1R1"/>
+            <pin num="1R10"/>
+            <pin num="1R11"/>
+            <pin num="1R12"/>
+            <pin num="1R13"/>
+            <pin num="1R14"/>
+            <pin num="E2"/>
+            <pin num="E25"/>
+            <pin num="E26"/>
+            <pin num="E27"/>
+            <pin num="E3"/>
+            <pin num="F2"/>
+            <pin num="F25"/>
+            <pin num="F26"/>
+            <pin num="F3"/>
+            <pin num="G1"/>
+            <pin num="G2"/>
+            <pin num="G25"/>
+            <pin num="G26"/>
+            <pin num="G27"/>
+            <pin num="G3"/>
+            <pin num="H2"/>
+            <pin num="H25"/>
+            <pin num="H26"/>
+            <pin num="H27"/>
+            <pin num="H3"/>
+            <pin num="J1"/>
+            <pin num="J2"/>
+            <pin num="J25"/>
+            <pin num="J26"/>
+            <pin num="J3"/>
+            <pin num="K2"/>
+            <pin num="K25"/>
+            <pin num="K26"/>
+            <pin num="K27"/>
+          </pins>
+        </unit>
+        <unit name="K">
+          <pins>
+            <pin num="K3"/>
+            <pin num="L1"/>
+            <pin num="L2"/>
+            <pin num="L25"/>
+            <pin num="L26"/>
+            <pin num="L3"/>
+            <pin num="M2"/>
+            <pin num="M25"/>
+            <pin num="M26"/>
+            <pin num="M27"/>
+            <pin num="M3"/>
+            <pin num="N1"/>
+            <pin num="N2"/>
+            <pin num="N25"/>
+            <pin num="N26"/>
+            <pin num="N3"/>
+            <pin num="P2"/>
+            <pin num="P25"/>
+            <pin num="P26"/>
+            <pin num="P27"/>
+            <pin num="P3"/>
+            <pin num="R1"/>
+            <pin num="R2"/>
+            <pin num="R25"/>
+            <pin num="1R15"/>
+            <pin num="1R2"/>
+            <pin num="1R3"/>
+            <pin num="1R4"/>
+            <pin num="1R5"/>
+            <pin num="1R6"/>
+            <pin num="1R7"/>
+            <pin num="1R8"/>
+            <pin num="1R9"/>
+            <pin num="A1"/>
+            <pin num="A10"/>
+            <pin num="A12"/>
+            <pin num="A13"/>
+            <pin num="A15"/>
+            <pin num="A16"/>
+            <pin num="A18"/>
+          </pins>
+        </unit>
+        <unit name="L">
+          <pins>
+            <pin num="A2"/>
+            <pin num="A20"/>
+            <pin num="A22"/>
+            <pin num="A24"/>
+            <pin num="A25"/>
+            <pin num="A26"/>
+            <pin num="A27"/>
+            <pin num="A3"/>
+            <pin num="A4"/>
+            <pin num="A6"/>
+            <pin num="A8"/>
+            <pin num="R26"/>
+            <pin num="R3"/>
+            <pin num="T2"/>
+            <pin num="T25"/>
+            <pin num="T26"/>
+            <pin num="T27"/>
+            <pin num="T3"/>
+            <pin num="U1"/>
+            <pin num="U2"/>
+            <pin num="U25"/>
+            <pin num="U26"/>
+            <pin num="U3"/>
+            <pin num="V2"/>
+            <pin num="V25"/>
+            <pin num="V26"/>
+            <pin num="V27"/>
+            <pin num="V3"/>
+            <pin num="W1"/>
+            <pin num="W2"/>
+            <pin num="W25"/>
+            <pin num="W26"/>
+            <pin num="W3"/>
+            <pin num="Y2"/>
+            <pin num="Y25"/>
+            <pin num="Y26"/>
+            <pin num="Y27"/>
+            <pin num="Y3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Phoenix_RK3562" part="RK3562_MIGRATION">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RK3562</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1A1" name="DDR3_DQS1P" type="passive"/>
+        <pin num="1A2" name="VSS_1A2" type="passive"/>
+        <pin num="1A3" name="DDR3_DQS0P" type="passive"/>
+        <pin num="1A4" name="VSS_1A4" type="passive"/>
+        <pin num="1A5" name="VSS_1A5" type="passive"/>
+        <pin num="1A6" name="DDR3_BA0" type="passive"/>
+        <pin num="1A7" name="DDR3_RASN" type="passive"/>
+        <pin num="1A8" name="DDR3_A11" type="passive"/>
+        <pin num="1A9" name="DDR3_A12" type="passive"/>
+        <pin num="1A10" name="DDR3_BA1" type="passive"/>
+        <pin num="1A11" name="VSS_1A11" type="passive"/>
+        <pin num="1A12" name="VSS_1A12" type="passive"/>
+        <pin num="1A13" name="DDR3_DQS2P" type="passive"/>
+        <pin num="1A14" name="VSS_1A14" type="passive"/>
+        <pin num="1A15" name="DDR3_DQS3P" type="passive"/>
+        <pin num="1B1" name="DDR3_DQS1N" type="passive"/>
+        <pin num="1B2" name="VSS_1B2" type="passive"/>
+        <pin num="1B3" name="DDR3_DQS0N" type="passive"/>
+        <pin num="1B4" name="VSS_1B4" type="passive"/>
+        <pin num="1B5" name="VSS_1B5" type="passive"/>
+        <pin num="1B6" name="DDR3_A2" type="passive"/>
+        <pin num="1B7" name="DDR3_BA2" type="passive"/>
+        <pin num="1B8" name="AC14" type="passive"/>
+        <pin num="1B9" name="VSS_1B9" type="passive"/>
+        <pin num="1B10" name="DDR3_WEN" type="passive"/>
+        <pin num="1B11" name="DDR3_RESETN" type="passive"/>
+        <pin num="1B12" name="VSS_1B12" type="passive"/>
+        <pin num="1B13" name="DDR3_DQS2N" type="passive"/>
+        <pin num="1B14" name="VSS_1B14" type="passive"/>
+        <pin num="1B15" name="DDR3_DQS3N" type="passive"/>
+        <pin num="1C1" name="VSS_1C1" type="passive"/>
+        <pin num="1C2" name="VSS_1C2" type="passive"/>
+        <pin num="1C3" name="VSS_1C3" type="passive"/>
+        <pin num="1C4" name="VSS_1C4" type="passive"/>
+        <pin num="1C5" name="VSS_1C5" type="passive"/>
+        <pin num="1C6" name="VSS_1C6" type="passive"/>
+        <pin num="1C7" name="VSS_1C7" type="passive"/>
+        <pin num="1C9" name="DDR_VREFOUT" type="passive"/>
+        <pin num="1C10" name="VSS_1C10" type="passive"/>
+        <pin num="1C11" name="VSS_1C11" type="passive"/>
+        <pin num="1C12" name="VSS_1C12" type="passive"/>
+        <pin num="1C13" name="VSS_1C13" type="passive"/>
+        <pin num="1C14" name="VSS_1C14" type="passive"/>
+        <pin num="1C15" name="VSS_1C15" type="passive"/>
+        <pin num="1D1" name="VSS_1D1" type="passive"/>
+        <pin num="1D2" name="VSS_1D2" type="passive"/>
+        <pin num="1D3" name="VSS_1D3" type="passive"/>
+        <pin num="1D4" name="DDR_RZQ" type="passive"/>
+        <pin num="1D6" name="DDRPHY_VDDQ_3" type="passive"/>
+        <pin num="1D7" name="VSS_1D7" type="passive"/>
+        <pin num="1D8" name="VSS_1D8" type="passive"/>
+        <pin num="1D9" name="VSS_1D9" type="passive"/>
+        <pin num="1D10" name="VSS_1D10" type="passive"/>
+        <pin num="1D11" name="DDRPHY_VDDQ_6" type="passive"/>
+        <pin num="1D12" name="VSS_1D12" type="passive"/>
+        <pin num="1D13" name="VSS_1D13" type="passive"/>
+        <pin num="1D14" name="VSS_1D14" type="passive"/>
+        <pin num="1D15" name="VSS_1D15" type="passive"/>
+        <pin num="1E1" name="SARADC1_IN7" type="passive"/>
+        <pin num="1E2" name="VSS_1E2" type="passive"/>
+        <pin num="1E3" name="DDRPHY_VDDQ_1" type="passive"/>
+        <pin num="1E4" name="DDRPHY_VDDQL_1" type="passive"/>
+        <pin num="1E5" name="DDRPHY_VDDQ_2" type="passive"/>
+        <pin num="1E6" name="DDRPHY_VDDQL_2" type="passive"/>
+        <pin num="1E7" name="DDRPHY_VDDQ_4" type="passive"/>
+        <pin num="1E8" name="DDRPHY_VDDQL_3" type="passive"/>
+        <pin num="1E9" name="DDRPHY_VDDQ_5" type="passive"/>
+        <pin num="1E10" name="DDRPHY_VDDQL_4" type="passive"/>
+        <pin num="1E11" name="VSS_1E11" type="passive"/>
+        <pin num="1E12" name="VDD_GPU_1" type="passive"/>
+        <pin num="1E13" name="VSS_1E13" type="passive"/>
+        <pin num="1E14" name="SARADC0_AVDD_1V8" type="passive"/>
+        <pin num="1E15" name="OTP_VCC_1V8" type="passive"/>
+        <pin num="1F1" name="SARADC1_IN0" type="passive"/>
+        <pin num="1F2" name="SARADC1_IN2" type="passive"/>
+        <pin num="1F3" name="VSS_1F3" type="passive"/>
+        <pin num="1F4" name="VSS_1F4" type="passive"/>
+        <pin num="1F5" name="VSS_1F5" type="passive"/>
+        <pin num="1F7" name="VSS_1F7" type="passive"/>
+        <pin num="1F9" name="VSS_1F9" type="passive"/>
+        <pin num="1F10" name="VSS_1F10" type="passive"/>
+        <pin num="1F11" name="VDD_GPU_2" type="passive"/>
+        <pin num="1F12" name="VDD_GPU_3" type="passive"/>
+        <pin num="1F13" name="VDD_GPU_4" type="passive"/>
+        <pin num="1F14" name="VCCIO2" type="passive"/>
+        <pin num="1F15" name="VSS_1F15" type="passive"/>
+        <pin num="1G1" name="SYSPLL_AVDD_1V8" type="passive"/>
+        <pin num="1G2" name="VSS_1G2" type="passive"/>
+        <pin num="1G3" name="VDD_NPU_1" type="passive"/>
+        <pin num="1G4" name="VDD_NPU_2" type="passive"/>
+        <pin num="1G5" name="VDD_NPU_3" type="passive"/>
+        <pin num="1G6" name="VSS_1G6" type="passive"/>
+        <pin num="1G7" name="VSS_1G7" type="passive"/>
+        <pin num="1G8" name="VDD_CPU_1" type="passive"/>
+        <pin num="1G9" name="VSS_1G9" type="passive"/>
+        <pin num="1G10" name="VDD_LOGIC_1" type="passive"/>
+        <pin num="1G11" name="VDD_GPU_5" type="passive"/>
+        <pin num="1G12" name="VDD_GPU_6" type="passive"/>
+        <pin num="1G13" name="VSS_1G13" type="passive"/>
+        <pin num="1G14" name="VSS_1G14" type="passive"/>
+        <pin num="1G15" name="VCCIO3" type="passive"/>
+        <pin num="1H1" name="SARADC1_IN4" type="passive"/>
+        <pin num="1H2" name="VSS_1H2" type="passive"/>
+        <pin num="1H3" name="VDD_NPU_4" type="passive"/>
+        <pin num="1H4" name="VDD_NPU_5" type="passive"/>
+        <pin num="1H5" name="VSS_1H5" type="passive"/>
+        <pin num="1H6" name="VDD_CPU_2" type="passive"/>
+        <pin num="1H7" name="VDD_CPU_3" type="passive"/>
+        <pin num="1H8" name="VDD_CPU_4" type="passive"/>
+        <pin num="1H9" name="VSS_1H9" type="passive"/>
+        <pin num="1H10" name="VDD_LOGIC_2" type="passive"/>
+        <pin num="1H11" name="VDD_LOGIC_MEM" type="passive"/>
+        <pin num="1H12" name="VSS_1H12" type="passive"/>
+        <pin num="1H13" name="VSS_1H13" type="passive"/>
+        <pin num="1H14" name="VCCIO4" type="passive"/>
+        <pin num="1H15" name="I2S2_SDO_M0" type="passive"/>
+        <pin num="1J1" name="SARADC1_IN1" type="passive"/>
+        <pin num="1J2" name="SARADC1_IN3" type="passive"/>
+        <pin num="1J3" name="VSS_1J3" type="passive"/>
+        <pin num="1J4" name="VSS_1J4" type="passive"/>
+        <pin num="1J5" name="VSS_1J5" type="passive"/>
+        <pin num="1J6" name="VDD_CPU_5" type="passive"/>
+        <pin num="1J7" name="VDD_CPU_6" type="passive"/>
+        <pin num="1J8" name="VSS_1J8" type="passive"/>
+        <pin num="1J9" name="VSS_1J9" type="passive"/>
+        <pin num="1J10" name="VDD_LOGIC_3" type="passive"/>
+        <pin num="1J11" name="VDD_LOGIC_4" type="passive"/>
+        <pin num="1J12" name="VDD_LOGIC_5" type="passive"/>
+        <pin num="1J13" name="VSS_1J13" type="passive"/>
+        <pin num="1J14" name="SDMMC1_PWREN" type="passive"/>
+        <pin num="1J15" name="I2S2_SDI_M0" type="passive"/>
+        <pin num="1K1" name="SARADC1_IN6" type="passive"/>
+        <pin num="1K2" name="SARADC1_AVDD_1V8" type="passive"/>
+        <pin num="1K3" name="VCCIO5" type="passive"/>
+        <pin num="1K4" name="VSS_1K4" type="passive"/>
+        <pin num="1K5" name="VSS_1K5" type="passive"/>
+        <pin num="1K6" name="VSS_1K6" type="passive"/>
+        <pin num="1K7" name="VSS_1K7" type="passive"/>
+        <pin num="1K8" name="VSS_1K8" type="passive"/>
+        <pin num="1K9" name="VSS_1K9" type="passive"/>
+        <pin num="1K10" name="VDD_LOGIC_6" type="passive"/>
+        <pin num="1K11" name="VSS_1K11" type="passive"/>
+        <pin num="1K12" name="VSS_1K12" type="passive"/>
+        <pin num="1K13" name="VSS_1K13" type="passive"/>
+        <pin num="1K14" name="MULTI_PHY_AVDD_0V9" type="passive"/>
+        <pin num="1K15" name="MULTI_PHY_AVDD_1V8" type="passive"/>
+        <pin num="1L1" name="I2C3_SDA_M0" type="passive"/>
+        <pin num="1L2" name="SARADC1_IN5" type="passive"/>
+        <pin num="1L3" name="VCCIO1" type="passive"/>
+        <pin num="1L4" name="VSS_1L4" type="passive"/>
+        <pin num="1L5" name="VCCIO6_2" type="passive"/>
+        <pin num="1L6" name="MIPI_CSI_RX1_AVDD_0V9" type="passive"/>
+        <pin num="1L7" name="AVSS1_1L7" type="passive"/>
+        <pin num="1L8" name="MIPI_CSI_RX0_AVDD_0V9" type="passive"/>
+        <pin num="1L9" name="AVSS1_1L9" type="passive"/>
+        <pin num="1L10" name="VSS_1L10" type="passive"/>
+        <pin num="1L11" name="PMUIO1" type="passive"/>
+        <pin num="1L12" name="PMUIO0" type="passive"/>
+        <pin num="1L13" name="PMUPLL_AVDD_1V8" type="passive"/>
+        <pin num="1L14" name="USB_AVDD_0V9" type="passive"/>
+        <pin num="1L15" name="AVSS2_1L15" type="passive"/>
+        <pin num="1M1" name="I2C3_SCL_M0" type="passive"/>
+        <pin num="1M2" name="I2S0_SDO3_M0" type="passive"/>
+        <pin num="1M3" name="VSS_1M3" type="passive"/>
+        <pin num="1M4" name="VCCIO6_1" type="passive"/>
+        <pin num="1M5" name="VSS_1M5" type="passive"/>
+        <pin num="1M6" name="AVSS1_1M6" type="passive"/>
+        <pin num="1M7" name="MIPI_CSI_RX1_AVDD_1V8" type="passive"/>
+        <pin num="1M8" name="MIPI_CSI_RX0_AVDD_1V8" type="passive"/>
+        <pin num="1M9" name="MIPI_DSI_TX" type="passive"/>
+        <pin num="1M10" name="SYSPLL_AVDD_0V9" type="passive"/>
+        <pin num="1M11" name="PMU_VDD_LOGIC_0V9" type="passive"/>
+        <pin num="1M12" name="PMUPLL_AVSS" type="passive"/>
+        <pin num="1M13" name="PMUPLL_AVDD_0V9" type="passive"/>
+        <pin num="1M14" name="USB_AVDD_3V3" type="passive"/>
+        <pin num="1M15" name="USB_AVDD_1V8" type="passive"/>
+        <pin num="1N1" name="VSS_1N1" type="passive"/>
+        <pin num="1N2" name="VSS_1N2" type="passive"/>
+        <pin num="1N3" name="VSS_1N3" type="passive"/>
+        <pin num="1N4" name="VSS_1N4" type="passive"/>
+        <pin num="1N5" name="AVSS1_1N5" type="passive"/>
+        <pin num="1N6" name="AVSS1_1N6" type="passive"/>
+        <pin num="1N7" name="AVSS1_1N7" type="passive"/>
+        <pin num="1N8" name="AVSS1_1N8" type="passive"/>
+        <pin num="1N9" name="MIPI_DSI_TX" type="passive"/>
+        <pin num="1N10" name="AVSS1_1N10" type="passive"/>
+        <pin num="1N11" name="VSS_1N11" type="passive"/>
+        <pin num="1N12" name="VSS_1N12" type="passive"/>
+        <pin num="1N13" name="TVSS" type="passive"/>
+        <pin num="1N14" name="AVSS2_1N14" type="passive"/>
+        <pin num="1N15" name="AVSS2_1N15" type="passive"/>
+        <pin num="1P1" name="AVSS1_1P1" type="passive"/>
+        <pin num="1P2" name="AVSS1_1P2" type="passive"/>
+        <pin num="1P3" name="MIPI_CSI_RX1_CLK1P" type="passive"/>
+        <pin num="1P4" name="AVSS1_1P4" type="passive"/>
+        <pin num="1P5" name="AVSS1_1P5" type="passive"/>
+        <pin num="1P6" name="AVSS1_1P6" type="passive"/>
+        <pin num="1P7" name="MIPI_CSI_RX0_CLK1P" type="passive"/>
+        <pin num="1P8" name="AVSS1_1P8" type="passive"/>
+        <pin num="1P9" name="AVSS1_1P9" type="passive"/>
+        <pin num="1P10" name="AVSS1_1P10" type="passive"/>
+        <pin num="1P11" name="VSS_1P11" type="passive"/>
+        <pin num="1P12" name="nPOR" type="passive"/>
+        <pin num="1P13" name="VSS_1P13" type="passive"/>
+        <pin num="1P14" name="SOC_VBUS_DET" type="passive"/>
+        <pin num="1P15" name="USB30_OTG0_ID" type="passive"/>
+        <pin num="1R1" name="AVSS1_1R1" type="passive"/>
+        <pin num="1R2" name="AVSS1_1R2" type="passive"/>
+        <pin num="1R3" name="MIPI_CSI_RX1_CLK1N" type="passive"/>
+        <pin num="1R4" name="AVSS1_1R4" type="passive"/>
+        <pin num="1R5" name="AVSS1_1R5" type="passive"/>
+        <pin num="1R6" name="AVSS1_1R6" type="passive"/>
+        <pin num="1R7" name="MIPI_CSI_RX0_CLK1N" type="passive"/>
+        <pin num="1R8" name="AVSS1_1R8" type="passive"/>
+        <pin num="1R9" name="AVSS1_1R9" type="passive"/>
+        <pin num="1R10" name="AVSS1_1R10" type="passive"/>
+        <pin num="1R11" name="UART2_RX_M0" type="passive"/>
+        <pin num="1R12" name="VSS_1R12" type="passive"/>
+        <pin num="1R13" name="TSADC_SHUT_M0" type="passive"/>
+        <pin num="1R14" name="VSS_1R14" type="passive"/>
+        <pin num="1R15" name="SDMMC0_DETN" type="passive"/>
+        <pin num="A1" name="VSS_A1" type="passive"/>
+        <pin num="A2" name="DDR3_DM1" type="passive"/>
+        <pin num="A3" name="DDR3_DQ11" type="passive"/>
+        <pin num="A4" name="DDR3_DQ13" type="passive"/>
+        <pin num="A6" name="DDR3_DQ7" type="passive"/>
+        <pin num="A8" name="DDR3_DQ2" type="passive"/>
+        <pin num="A10" name="DDR3_A4" type="passive"/>
+        <pin num="A12" name="VSS_A12" type="passive"/>
+        <pin num="A13" name="DDR3_CLKP" type="passive"/>
+        <pin num="A15" name="DDR3_A9" type="passive"/>
+        <pin num="A16" name="VSS_A16" type="passive"/>
+        <pin num="A18" name="AC6" type="passive"/>
+        <pin num="A20" name="DDR3_DQ22" type="passive"/>
+        <pin num="A22" name="DDR3_DQ17" type="passive"/>
+        <pin num="A24" name="DDR3_DQ25" type="passive"/>
+        <pin num="A25" name="DDR3_DQ27" type="passive"/>
+        <pin num="A26" name="DDR3_DM3" type="passive"/>
+        <pin num="A27" name="VSS_A27" type="passive"/>
+        <pin num="AA1" name="ETH_TXD0" type="passive"/>
+        <pin num="AA2" name="ETH_TXD1" type="passive"/>
+        <pin num="AA3" name="ETH_TXEN" type="passive"/>
+        <pin num="AA25" name="UART1_RTSN_M0" type="passive"/>
+        <pin num="AA26" name="AVSS2_AA26" type="passive"/>
+        <pin num="AA27" name="VSS_AA27" type="passive"/>
+        <pin num="AB2" name="ETH_TXD3" type="passive"/>
+        <pin num="AB3" name="ETH_TXD2" type="passive"/>
+        <pin num="AB25" name="AVSS2_AB25" type="passive"/>
+        <pin num="AB26" name="SOC_USB_RX_P" type="passive"/>
+        <pin num="AB27" name="SOC_USB_RX_N" type="passive"/>
+        <pin num="AC1" name="ETH_MDC" type="passive"/>
+        <pin num="AC2" name="ETH_MDIO" type="passive"/>
+        <pin num="AC3" name="AVSS1_AC3" type="passive"/>
+        <pin num="AC26" name="PCIE20_REFCLKP" type="passive"/>
+        <pin num="AC27" name="PCIE20_REFCLKN" type="passive"/>
+        <pin num="AD1" name="MIPI_CSI_RX1_D3P" type="passive"/>
+        <pin num="AD2" name="MIPI_CSI_RX1_D3N" type="passive"/>
+        <pin num="AD3" name="AVSS1_AD3" type="passive"/>
+        <pin num="AD25" name="AVSS2_AD25" type="passive"/>
+        <pin num="AD26" name="SOC_USB_TX_P" type="passive"/>
+        <pin num="AD27" name="SOC_USB_TX_N" type="passive"/>
+        <pin num="AE1" name="MIPI_CSI_RX1_D2P" type="passive"/>
+        <pin num="AE2" name="AVSS1_AE2" type="passive"/>
+        <pin num="AE3" name="AVSS1_AE3" type="passive"/>
+        <pin num="AE4" name="AVSS1_AE4" type="passive"/>
+        <pin num="AE5" name="AVSS1_AE5" type="passive"/>
+        <pin num="AE6" name="AVSS1_AE6" type="passive"/>
+        <pin num="AE7" name="AVSS1_AE7" type="passive"/>
+        <pin num="AE8" name="AVSS1_AE8" type="passive"/>
+        <pin num="AE9" name="AVSS1_AE9" type="passive"/>
+        <pin num="AE10" name="AVSS1_AE10" type="passive"/>
+        <pin num="AE11" name="AVSS1_AE11" type="passive"/>
+        <pin num="AE12" name="AVSS1_AE12" type="passive"/>
+        <pin num="AE13" name="AVSS1_AE13" type="passive"/>
+        <pin num="AE14" name="AVSS1_AE14" type="passive"/>
+        <pin num="AE15" name="I2C2_SDA_M0" type="passive"/>
+        <pin num="AE16" name="UART2_RTSN_M0" type="passive"/>
+        <pin num="AE17" name="I2C1_SCL_M0" type="passive"/>
+        <pin num="AE18" name="UART6_RTSN_M0" type="passive"/>
+        <pin num="AE19" name="UART6_RX_M0" type="passive"/>
+        <pin num="AE20" name="UART0_TX_M0" type="passive"/>
+        <pin num="AE21" name="VSS_AE21" type="passive"/>
+        <pin num="AE22" name="SDMMC0_PWREN" type="passive"/>
+        <pin num="AE23" name="I2C0_SDA" type="passive"/>
+        <pin num="AE24" name="REF_CLK_OUT" type="passive"/>
+        <pin num="AE25" name="VSS_AE25" type="passive"/>
+        <pin num="AE26" name="USB20_HOST1_DM" type="passive"/>
+        <pin num="AE27" name="USB20_HOST1_DP" type="passive"/>
+        <pin num="AF1" name="MIPI_CSI_RX1_D2N" type="passive"/>
+        <pin num="AF2" name="MIPI_CSI_RX1_CLK0P" type="passive"/>
+        <pin num="AF3" name="MIPI_CSI_RX1_D1P" type="passive"/>
+        <pin num="AF4" name="MIPI_CSI_RX1_D0P" type="passive"/>
+        <pin num="AF5" name="MIPI_CSI_RX0_D3P" type="passive"/>
+        <pin num="AF6" name="MIPI_CSI_RX0_D2P" type="passive"/>
+        <pin num="AF7" name="MIPI_CSI_RX0_CLK0P" type="passive"/>
+        <pin num="AF8" name="MIPI_CSI_RX0_D1P" type="passive"/>
+        <pin num="AF9" name="MIPI_CSI_RX0_D0P" type="passive"/>
+        <pin num="AF10" name="MIPI_DSI_TX_D3N" type="passive"/>
+        <pin num="AF11" name="MIPI_DSI_TX_D2P" type="passive"/>
+        <pin num="AF12" name="MIPI_DSI_TX_CLKN" type="passive"/>
+        <pin num="AF13" name="MIPI_DSI_TX_D1P" type="passive"/>
+        <pin num="AF14" name="MIPI_DSI_TX_D0N" type="passive"/>
+        <pin num="AF15" name="SPI0_CSN1_M0" type="passive"/>
+        <pin num="AF16" name="I2C2_SCL_M0" type="passive"/>
+        <pin num="AF17" name="UART2_TX_M0" type="passive"/>
+        <pin num="AF18" name="I2C1_SDA_M0" type="passive"/>
+        <pin num="AF19" name="UART6_TX_M0" type="passive"/>
+        <pin num="AF20" name="UART0_RX_M0" type="passive"/>
+        <pin num="AF21" name="CLK_32K_IN" type="passive"/>
+        <pin num="AF22" name="PWR_CTRL1" type="passive"/>
+        <pin num="AF23" name="PWR_CTRL0" type="passive"/>
+        <pin num="AF24" name="VSS_AF24" type="passive"/>
+        <pin num="AF25" name="XOUT24M" type="passive"/>
+        <pin num="AF26" name="USB_DM" type="passive"/>
+        <pin num="AF27" name="USB_DP" type="passive"/>
+        <pin num="AG1" name="AVSS1_AG1" type="passive"/>
+        <pin num="AG2" name="MIPI_CSI_RX1_CLK0N" type="passive"/>
+        <pin num="AG3" name="MIPI_CSI_RX1_D1N" type="passive"/>
+        <pin num="AG4" name="MIPI_CSI_RX1_D0N" type="passive"/>
+        <pin num="AG5" name="MIPI_CSI_RX0_D3N" type="passive"/>
+        <pin num="AG6" name="MIPI_CSI_RX0_D2N" type="passive"/>
+        <pin num="AG7" name="MIPI_CSI_RX0_CLK0N" type="passive"/>
+        <pin num="AG8" name="MIPI_CSI_RX0_D1N" type="passive"/>
+        <pin num="AG9" name="MIPI_CSI_RX0_D0N" type="passive"/>
+        <pin num="AG10" name="MIPI_DSI_TX_D3P" type="passive"/>
+        <pin num="AG11" name="MIPI_DSI_TX_D2N" type="passive"/>
+        <pin num="AG12" name="MIPI_DSI_TX_CLKP" type="passive"/>
+        <pin num="AG13" name="MIPI_DSI_TX_D1N" type="passive"/>
+        <pin num="AG14" name="MIPI_DSI_TX_D0P" type="passive"/>
+        <pin num="AG15" name="VSS_AG15" type="passive"/>
+        <pin num="AG17" name="UART2_CTSN_M0" type="passive"/>
+        <pin num="AG19" name="UART6_CTSN_M0" type="passive"/>
+        <pin num="AG21" name="PWM3_M0" type="passive"/>
+        <pin num="AG23" name="I2C0_SCL" type="passive"/>
+        <pin num="AG24" name="PCIE20_CLKREQN_M0" type="passive"/>
+        <pin num="AG25" name="XIN24M" type="passive"/>
+        <pin num="AG26" name="VSS_AG26" type="passive"/>
+        <pin num="AG27" name="AVSS2_AG27" type="passive"/>
+        <pin num="B1" name="DDR3_DQ12" type="passive"/>
+        <pin num="B2" name="DDR3_DQ8" type="passive"/>
+        <pin num="B3" name="DDR3_DQ9" type="passive"/>
+        <pin num="B4" name="DDR3_DQ15" type="passive"/>
+        <pin num="B5" name="DDR3_DQ3" type="passive"/>
+        <pin num="B6" name="DDR3_DQ0" type="passive"/>
+        <pin num="B7" name="DDR3_DM0" type="passive"/>
+        <pin num="B8" name="DDR3_DQ4" type="passive"/>
+        <pin num="B9" name="DDR3_A7" type="passive"/>
+        <pin num="B10" name="DDR3_A6" type="passive"/>
+        <pin num="B11" name="AC3" type="passive"/>
+        <pin num="B12" name="DDR3_A3" type="passive"/>
+        <pin num="B13" name="DDR3_CLKN" type="passive"/>
+        <pin num="B14" name="VSS_B14" type="passive"/>
+        <pin num="B15" name="DDR3_A13" type="passive"/>
+        <pin num="B16" name="DDR3_CASN" type="passive"/>
+        <pin num="B17" name="DDR3_CS0N" type="passive"/>
+        <pin num="B18" name="DDR3_A5" type="passive"/>
+        <pin num="B19" name="DDR3_A8" type="passive"/>
+        <pin num="B20" name="DDR3_DQ20" type="passive"/>
+        <pin num="B21" name="DDR3_DM2" type="passive"/>
+        <pin num="B22" name="DDR3_DQ16" type="passive"/>
+        <pin num="B23" name="DDR3_DQ23" type="passive"/>
+        <pin num="B24" name="DDR3_DQ31" type="passive"/>
+        <pin num="B25" name="DDR3_DQ29" type="passive"/>
+        <pin num="B26" name="DDR3_DQ24" type="passive"/>
+        <pin num="B27" name="DDR3_DQ28" type="passive"/>
+        <pin num="C1" name="DDR3_DQ10" type="passive"/>
+        <pin num="C2" name="DDR3_DQ14" type="passive"/>
+        <pin num="C3" name="VSS_C3" type="passive"/>
+        <pin num="C4" name="VSS_C4" type="passive"/>
+        <pin num="C5" name="DDR3_DQ1" type="passive"/>
+        <pin num="C6" name="DDR3_DQ5" type="passive"/>
+        <pin num="C7" name="VSS_C7" type="passive"/>
+        <pin num="C8" name="DDR3_DQ6" type="passive"/>
+        <pin num="C9" name="VSS_C9" type="passive"/>
+        <pin num="C10" name="DDR3_A0" type="passive"/>
+        <pin num="C11" name="AC26" type="passive"/>
+        <pin num="C12" name="DDR3_CKE" type="passive"/>
+        <pin num="C13" name="VSS_C13" type="passive"/>
+        <pin num="C14" name="VSS_C14" type="passive"/>
+        <pin num="C15" name="VSS_C15" type="passive"/>
+        <pin num="C16" name="DDR3_A10" type="passive"/>
+        <pin num="C17" name="DDR3_ODT0" type="passive"/>
+        <pin num="C18" name="DDR3_A1" type="passive"/>
+        <pin num="C19" name="VSS_C19" type="passive"/>
+        <pin num="C20" name="DDR3_DQ18" type="passive"/>
+        <pin num="C21" name="VSS_C21" type="passive"/>
+        <pin num="C22" name="DDR3_DQ19" type="passive"/>
+        <pin num="C23" name="DDR3_DQ21" type="passive"/>
+        <pin num="C24" name="VSS_C24" type="passive"/>
+        <pin num="C25" name="VSS_C25" type="passive"/>
+        <pin num="C26" name="DDR3_DQ26" type="passive"/>
+        <pin num="C27" name="DDR3_DQ30" type="passive"/>
+        <pin num="D1" name="I2S1_SDO0_M1" type="passive"/>
+        <pin num="D2" name="VSS_D2" type="passive"/>
+        <pin num="D3" name="I2C5_SDA_M0" type="passive"/>
+        <pin num="D25" name="SARADC0_IN4" type="passive"/>
+        <pin num="D26" name="SARADC0_BOOT" type="passive"/>
+        <pin num="E1" name="I2C5_SCL_M0" type="passive"/>
+        <pin num="E2" name="I2S1_SDI0_M1" type="passive"/>
+        <pin num="E3" name="VSS_E3" type="passive"/>
+        <pin num="E25" name="SARADC0_IN2" type="passive"/>
+        <pin num="E26" name="SARADC0_IN5" type="passive"/>
+        <pin num="E27" name="SARADC0_IN6" type="passive"/>
+        <pin num="F2" name="I2S1_LRCK_M1" type="passive"/>
+        <pin num="F3" name="VSS_F3" type="passive"/>
+        <pin num="F25" name="SARADC0_IN7" type="passive"/>
+        <pin num="F26" name="SARADC0_IN1" type="passive"/>
+        <pin num="G1" name="I2S1_SCLK_M1" type="passive"/>
+        <pin num="G2" name="I2S1_SDO2_M1" type="passive"/>
+        <pin num="G3" name="I2S1_SDO1_M1" type="passive"/>
+        <pin num="G25" name="VSS_G25" type="passive"/>
+        <pin num="G26" name="SARADC0_IN3" type="passive"/>
+        <pin num="G27" name="VSS_G27" type="passive"/>
+        <pin num="H2" name="I2S1_SDO3_M1" type="passive"/>
+        <pin num="H3" name="I2S1_MCLK_M1" type="passive"/>
+        <pin num="H25" name="FSPI_D2" type="passive"/>
+        <pin num="H26" name="EMMC_D6" type="passive"/>
+        <pin num="H27" name="EMMC_D7" type="passive"/>
+        <pin num="J1" name="I2S0_SDO1_M0" type="passive"/>
+        <pin num="J2" name="I2S0_SDI0_M0" type="passive"/>
+        <pin num="J3" name="VSS_J3" type="passive"/>
+        <pin num="J25" name="FSPI_D0" type="passive"/>
+        <pin num="J26" name="FSPI_D1" type="passive"/>
+        <pin num="K2" name="I2S0_MCLK_M0" type="passive"/>
+        <pin num="K3" name="I2S0_SDO0_M0" type="passive"/>
+        <pin num="K25" name="EMMC_D5" type="passive"/>
+        <pin num="K26" name="EMMC_D4" type="passive"/>
+        <pin num="K27" name="FSPI_D3" type="passive"/>
+        <pin num="L1" name="I2S0_LRCK_M0" type="passive"/>
+        <pin num="L2" name="I2S0_SDO2_M0" type="passive"/>
+        <pin num="L3" name="I2S0_SCLK_M0" type="passive"/>
+        <pin num="L25" name="VSS_L25" type="passive"/>
+        <pin num="L26" name="EMMC_STRB" type="passive"/>
+        <pin num="M2" name="VO_LCDC_HSYNC" type="passive"/>
+        <pin num="M3" name="LCD_CS_N" type="passive"/>
+        <pin num="M25" name="FSPI_CLK" type="passive"/>
+        <pin num="M26" name="FSPI_CS_N" type="passive"/>
+        <pin num="M27" name="VSS_M27" type="passive"/>
+        <pin num="N1" name="VO_LCDC_D3" type="passive"/>
+        <pin num="N2" name="VO_LCDC_D4" type="passive"/>
+        <pin num="N3" name="LCD_SCLK" type="passive"/>
+        <pin num="N25" name="SDMMC0_D2" type="passive"/>
+        <pin num="N26" name="SDMMC0_D3" type="passive"/>
+        <pin num="P2" name="VO_LCDC_D6" type="passive"/>
+        <pin num="P3" name="VO_LCDC_D5" type="passive"/>
+        <pin num="P25" name="SDMMC0_CMD" type="passive"/>
+        <pin num="P26" name="VSS_P26" type="passive"/>
+        <pin num="P27" name="SDMMC0_CLK" type="passive"/>
+        <pin num="R1" name="VO_LCDC_D10" type="passive"/>
+        <pin num="R2" name="VO_LCDC_D11" type="passive"/>
+        <pin num="R3" name="VO_LCDC_D7" type="passive"/>
+        <pin num="R25" name="SDMMC0_D0" type="passive"/>
+        <pin num="R26" name="SDMMC0_D1" type="passive"/>
+        <pin num="T2" name="VO_LCDC_D17" type="passive"/>
+        <pin num="T3" name="LCD_MOSI" type="passive"/>
+        <pin num="T25" name="WIFI_D2" type="passive"/>
+        <pin num="T26" name="WIFI_D3" type="passive"/>
+        <pin num="T27" name="WIFI_CMD" type="passive"/>
+        <pin num="U1" name="VO_LCDC_CLK" type="passive"/>
+        <pin num="U2" name="ETH_RXCLK" type="passive"/>
+        <pin num="U3" name="VSS_U3" type="passive"/>
+        <pin num="U25" name="WIFI_CLK" type="passive"/>
+        <pin num="U26" name="WIFI_D0" type="passive"/>
+        <pin num="V2" name="ETH_RXDV_CRS" type="passive"/>
+        <pin num="V3" name="VO_LCDC_D16" type="passive"/>
+        <pin num="V25" name="WIFI_D1" type="passive"/>
+        <pin num="V26" name="SDMMC1_DETN" type="passive"/>
+        <pin num="V27" name="I2S2_LRCK_M0" type="passive"/>
+        <pin num="W1" name="ETH_RXD1" type="passive"/>
+        <pin num="W2" name="ETH_RXD2" type="passive"/>
+        <pin num="W3" name="ETH_RXD0" type="passive"/>
+        <pin num="W25" name="I2S2_MCLK_M0" type="passive"/>
+        <pin num="W26" name="I2S2_SCLK_M0" type="passive"/>
+        <pin num="Y2" name="ETH_TXCLK" type="passive"/>
+        <pin num="Y3" name="ETH_RXD3" type="passive"/>
+        <pin num="Y25" name="UART1_RX_M0" type="passive"/>
+        <pin num="Y26" name="UART1_TX_M0" type="passive"/>
+        <pin num="Y27" name="UART1_CTSN_M0" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Phoenix_RK3562">
+      <uri>${KIPRJMOD}/Phoenix_RK3562.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/PENDING_1M1" class="Default">
+      <node ref="U1" pin="1M1" pinfunction="I2C3_SCL_M0_1M1" pintype="passive"/>
+    </net>
+    <net code="2" name="/PENDING_1M2" class="Default">
+      <node ref="U1" pin="1M2" pinfunction="I2S0_SDO3_M0_1M2" pintype="passive"/>
+    </net>
+    <net code="3" name="/PENDING_1M3" class="Default">
+      <node ref="U1" pin="1M3" pinfunction="VSS_1M3_1M3" pintype="passive"/>
+    </net>
+    <net code="4" name="/PENDING_1M4" class="Default">
+      <node ref="U1" pin="1M4" pinfunction="VCCIO6_1_1M4" pintype="passive"/>
+    </net>
+    <net code="5" name="/PENDING_1M5" class="Default">
+      <node ref="U1" pin="1M5" pinfunction="VSS_1M5_1M5" pintype="passive"/>
+    </net>
+    <net code="6" name="/PENDING_1M6" class="Default">
+      <node ref="U1" pin="1M6" pinfunction="AVSS1_1M6_1M6" pintype="passive"/>
+    </net>
+    <net code="7" name="/PENDING_1M7" class="Default">
+      <node ref="U1" pin="1M7" pinfunction="MIPI_CSI_RX1_AVDD_1V8_1M7" pintype="passive"/>
+    </net>
+    <net code="8" name="/PENDING_1M8" class="Default">
+      <node ref="U1" pin="1M8" pinfunction="MIPI_CSI_RX0_AVDD_1V8_1M8" pintype="passive"/>
+    </net>
+    <net code="9" name="/PENDING_1M9" class="Default">
+      <node ref="U1" pin="1M9" pinfunction="MIPI_DSI_TX_1M9" pintype="passive"/>
+    </net>
+    <net code="10" name="/PENDING_1M10" class="Default">
+      <node ref="U1" pin="1M10" pinfunction="SYSPLL_AVDD_0V9_1M10" pintype="passive"/>
+    </net>
+    <net code="11" name="/PENDING_1M11" class="Default">
+      <node ref="U1" pin="1M11" pinfunction="PMU_VDD_LOGIC_0V9_1M11" pintype="passive"/>
+    </net>
+    <net code="12" name="/PENDING_1M12" class="Default">
+      <node ref="U1" pin="1M12" pinfunction="PMUPLL_AVSS_1M12" pintype="passive"/>
+    </net>
+    <net code="13" name="/PENDING_1M13" class="Default">
+      <node ref="U1" pin="1M13" pinfunction="PMUPLL_AVDD_0V9_1M13" pintype="passive"/>
+    </net>
+    <net code="14" name="/PENDING_1M14" class="Default">
+      <node ref="U1" pin="1M14" pinfunction="USB_AVDD_3V3_1M14" pintype="passive"/>
+    </net>
+    <net code="15" name="/PENDING_1M15" class="Default">
+      <node ref="U1" pin="1M15" pinfunction="USB_AVDD_1V8_1M15" pintype="passive"/>
+    </net>
+    <net code="16" name="/PENDING_1N1" class="Default">
+      <node ref="U1" pin="1N1" pinfunction="VSS_1N1_1N1" pintype="passive"/>
+    </net>
+    <net code="17" name="/PENDING_1N2" class="Default">
+      <node ref="U1" pin="1N2" pinfunction="VSS_1N2_1N2" pintype="passive"/>
+    </net>
+    <net code="18" name="/PENDING_1N3" class="Default">
+      <node ref="U1" pin="1N3" pinfunction="VSS_1N3_1N3" pintype="passive"/>
+    </net>
+    <net code="19" name="/PENDING_1N4" class="Default">
+      <node ref="U1" pin="1N4" pinfunction="VSS_1N4_1N4" pintype="passive"/>
+    </net>
+    <net code="20" name="/PENDING_1N5" class="Default">
+      <node ref="U1" pin="1N5" pinfunction="AVSS1_1N5_1N5" pintype="passive"/>
+    </net>
+    <net code="21" name="/PENDING_1N6" class="Default">
+      <node ref="U1" pin="1N6" pinfunction="AVSS1_1N6_1N6" pintype="passive"/>
+    </net>
+    <net code="22" name="/PENDING_1N7" class="Default">
+      <node ref="U1" pin="1N7" pinfunction="AVSS1_1N7_1N7" pintype="passive"/>
+    </net>
+    <net code="23" name="/PENDING_1N8" class="Default">
+      <node ref="U1" pin="1N8" pinfunction="AVSS1_1N8_1N8" pintype="passive"/>
+    </net>
+    <net code="24" name="/PENDING_1N9" class="Default">
+      <node ref="U1" pin="1N9" pinfunction="MIPI_DSI_TX_1N9" pintype="passive"/>
+    </net>
+    <net code="25" name="/PENDING_1N10" class="Default">
+      <node ref="U1" pin="1N10" pinfunction="AVSS1_1N10_1N10" pintype="passive"/>
+    </net>
+    <net code="26" name="/PENDING_1N11" class="Default">
+      <node ref="U1" pin="1N11" pinfunction="VSS_1N11_1N11" pintype="passive"/>
+    </net>
+    <net code="27" name="/PENDING_1N12" class="Default">
+      <node ref="U1" pin="1N12" pinfunction="VSS_1N12_1N12" pintype="passive"/>
+    </net>
+    <net code="28" name="/PENDING_1N13" class="Default">
+      <node ref="U1" pin="1N13" pinfunction="TVSS_1N13" pintype="passive"/>
+    </net>
+    <net code="29" name="/PENDING_1N14" class="Default">
+      <node ref="U1" pin="1N14" pinfunction="AVSS2_1N14_1N14" pintype="passive"/>
+    </net>
+    <net code="30" name="/PENDING_1N15" class="Default">
+      <node ref="U1" pin="1N15" pinfunction="AVSS2_1N15_1N15" pintype="passive"/>
+    </net>
+    <net code="31" name="/PENDING_1P1" class="Default">
+      <node ref="U1" pin="1P1" pinfunction="AVSS1_1P1_1P1" pintype="passive"/>
+    </net>
+    <net code="32" name="/PENDING_1P2" class="Default">
+      <node ref="U1" pin="1P2" pinfunction="AVSS1_1P2_1P2" pintype="passive"/>
+    </net>
+    <net code="33" name="/PENDING_1P3" class="Default">
+      <node ref="U1" pin="1P3" pinfunction="MIPI_CSI_RX1_CLK1P_1P3" pintype="passive"/>
+    </net>
+    <net code="34" name="/PENDING_1P4" class="Default">
+      <node ref="U1" pin="1P4" pinfunction="AVSS1_1P4_1P4" pintype="passive"/>
+    </net>
+    <net code="35" name="/PENDING_1P10" class="Default">
+      <node ref="U1" pin="1P10" pinfunction="AVSS1_1P10_1P10" pintype="passive"/>
+    </net>
+    <net code="36" name="/PENDING_1P11" class="Default">
+      <node ref="U1" pin="1P11" pinfunction="VSS_1P11_1P11" pintype="passive"/>
+    </net>
+    <net code="37" name="/PENDING_1P12" class="Default">
+      <node ref="U1" pin="1P12" pinfunction="nPOR_1P12" pintype="passive"/>
+    </net>
+    <net code="38" name="/PENDING_1P13" class="Default">
+      <node ref="U1" pin="1P13" pinfunction="VSS_1P13_1P13" pintype="passive"/>
+    </net>
+    <net code="39" name="/PENDING_1P15" class="Default">
+      <node ref="U1" pin="1P15" pinfunction="USB30_OTG0_ID_1P15" pintype="passive"/>
+    </net>
+    <net code="40" name="/SOC_VBUS_DET" class="Default">
+      <node ref="U1" pin="1P14" pinfunction="SOC_VBUS_DET_1P14" pintype="passive"/>
+    </net>
+  </nets>
+</export>
