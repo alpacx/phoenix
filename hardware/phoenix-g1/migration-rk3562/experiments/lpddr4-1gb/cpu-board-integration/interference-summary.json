@@ -1,0 +1,343 @@
+{
+  "status": "FAILED_FULL_BOARD_INTEGRATION_NOT_FOR_MANUFACTURE",
+  "board_sha256": "a63633cebdb592387016442829e0dfaf576a08a757bc69811dec7b10ca1e3453",
+  "drc_sha256": "8cf462fd5062388b60f3dd5565c3ccebbff4718d10f1f0eceb9a67c14ac67b63",
+  "source_candidate_unchanged": true,
+  "counts": {
+    "clearance": 18,
+    "shorting_items": 38,
+    "hole_clearance": 33,
+    "track_width": 1,
+    "solder_mask_bridge": 19,
+    "via_dangling": 101,
+    "silk_edge_clearance": 1,
+    "hole_to_hole": 2,
+    "silk_overlap": 3,
+    "silk_over_copper": 10
+  },
+  "critical_interference_count": 91,
+  "involved_references": {
+    "U25": 44,
+    "C1608": 8,
+    "C1604": 2
+  },
+  "involved_nets": {
+    "GND": 43,
+    "<no net>": 32,
+    "LPDDR4_DQ11_B": 9,
+    "+3V3_IO": 8,
+    "VDD_CPU": 8,
+    "LPDDR4_DQ15_B": 7,
+    "LPDDR4_CLKN_A": 6,
+    "LPDDR4_DQ10_B": 5,
+    "LPDDR4_DQ9_B": 4,
+    "LPDDR4_CKE0_A": 3,
+    "LPDDR4_A2_A": 3,
+    "LPDDR4_DQ0_B": 3,
+    "LPDDR4_A0_A": 3,
+    "LPDDR4_DQS1N_B": 3,
+    "LPDDR4_DQS0N_A": 3,
+    "LPDDR4_DQ3_B": 2,
+    "LPDDR4_DQ4_B": 2,
+    "LPDDR4_A2_B": 2,
+    "LPDDR4_DQ6_B": 2,
+    "LPDDR4_DQ3_A": 2,
+    "LPDDR4_CKE0_B": 2,
+    "LPDDR4_DQ8_A": 2,
+    "LPDDR4_DQ9_A": 2,
+    "LPDDR4_DQ5_B": 2,
+    "LPDDR4_DM0_B": 2,
+    "LPDDR4_DQ1_B": 2,
+    "LPDDR4_CLKP_B": 2,
+    "LPDDR4_CS0N_A": 2,
+    "LPDDR4_DQ5_A": 2,
+    "LPDDR4_DQ15_A": 2,
+    "LPDDR4_A1_B": 2,
+    "LPDDR4_CLKN_B": 2,
+    "LPDDR4_DM1_A": 2,
+    "LPDDR4_DQS0N_B": 2,
+    "LPDDR4_DQS0P_A": 2,
+    "LPDDR4_DQS1P_B": 1,
+    "LPDDR4_DQ13_B": 1
+  },
+  "first_findings": [
+    {
+      "description": "Violazione clearance (regola 'Experimental DDR copper spacing' clearance 0.0762 mm; reale 0.0565 mm)",
+      "items": [
+        {
+          "description": "Pista [+3V3_IO] su In2.Cu, lung. 1.8000 mm",
+          "pos": {
+            "x": 51.8,
+            "y": 13.6
+          },
+          "uuid": "2e8f8a13-0d79-402b-9a6e-83e41b10abb8"
+        },
+        {
+          "description": "Via [LPDDR4_DQ10_B] su F.Cu - B.Cu",
+          "pos": {
+            "x": 49.649999,
+            "y": 14.0
+          },
+          "uuid": "4955cb6d-3d5e-46ea-b819-99d642960cdd"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll LPDDR4_DQ9_B e GND)",
+      "items": [
+        {
+          "description": "Via [LPDDR4_DQ9_B] su F.Cu - B.Cu",
+          "pos": {
+            "x": 49.5,
+            "y": 14.65
+          },
+          "uuid": "921aa8eb-4469-4f3c-860f-9d0aa4a4e794"
+        },
+        {
+          "description": "Piazzola 44 [GND] di U25 su B.Cu",
+          "pos": {
+            "x": 49.5,
+            "y": 14.3125
+          },
+          "uuid": "c05d2920-2df0-408c-8774-c61742bc28d3"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll LPDDR4_DQ3_B e <no connessione>)",
+      "items": [
+        {
+          "description": "Via [LPDDR4_DQ3_B] su F.Cu - B.Cu",
+          "pos": {
+            "x": 46.0,
+            "y": 14.65
+          },
+          "uuid": "2c1effc3-44a0-4840-a1b6-960607e5ae7b"
+        },
+        {
+          "description": "Piazzola 40 [<no net>] di U25 su B.Cu",
+          "pos": {
+            "x": 45.9,
+            "y": 14.3125
+          },
+          "uuid": "573446cf-194d-4fb8-81cb-6ec15b031768"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (regola 'Experimental DDR copper spacing' clearance 0.0762 mm; reale 0.0200 mm)",
+      "items": [
+        {
+          "description": "Via [LPDDR4_DQ9_B] su F.Cu - B.Cu",
+          "pos": {
+            "x": 49.5,
+            "y": 14.65
+          },
+          "uuid": "921aa8eb-4469-4f3c-860f-9d0aa4a4e794"
+        },
+        {
+          "description": "Pista [+3V3_IO] su In2.Cu, lung. 11.3844 mm",
+          "pos": {
+            "x": 49.7,
+            "y": 13.75
+          },
+          "uuid": "c36e0223-3b1d-4fe5-8d7b-0ada2cbc5856"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll LPDDR4_DQ4_B e <no connessione>)",
+      "items": [
+        {
+          "description": "Via [LPDDR4_DQ4_B] su F.Cu - B.Cu",
+          "pos": {
+            "x": 47.5,
+            "y": 14.65
+          },
+          "uuid": "a3e3ad84-ea28-43ca-b684-afcc51fb5d47"
+        },
+        {
+          "description": "Piazzola 42 [<no net>] di U25 su B.Cu",
+          "pos": {
+            "x": 47.7,
+            "y": 14.3125
+          },
+          "uuid": "cbd74ea4-42ae-4265-a320-6e9ca1e17b1c"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll <no connessione> e LPDDR4_A2_B)",
+      "items": [
+        {
+          "description": "Piazzola 39 [<no net>] di U25 su B.Cu",
+          "pos": {
+            "x": 45.0,
+            "y": 14.3125
+          },
+          "uuid": "011953c7-c7fb-449b-82ec-51b1bfd9184c"
+        },
+        {
+          "description": "Via [LPDDR4_A2_B] su F.Cu - B.Cu",
+          "pos": {
+            "x": 45.0,
+            "y": 14.65
+          },
+          "uuid": "ba5b446f-f630-416f-888c-4940d8b7165c"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll <no connessione> e LPDDR4_DQ6_B)",
+      "items": [
+        {
+          "description": "Piazzola 41 [<no net>] di U25 su B.Cu",
+          "pos": {
+            "x": 46.8,
+            "y": 14.3125
+          },
+          "uuid": "0ecf0412-e28b-4cbe-9901-5967a94b6010"
+        },
+        {
+          "description": "Via [LPDDR4_DQ6_B] su F.Cu - B.Cu",
+          "pos": {
+            "x": 46.9,
+            "y": 14.8
+          },
+          "uuid": "10028d8a-713b-43fc-aef3-793c62d460cb"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance foro (vincoli impostazioni scheda fori clearance 0.2500 mm; reale 0.2016 mm)",
+      "items": [
+        {
+          "description": "Pista [GND] su B.Cu, lung. 0.0125 mm",
+          "pos": {
+            "x": 42.3,
+            "y": 14.3125
+          },
+          "uuid": "dbd0b858-c5d0-457f-9991-bca74850dbad"
+        },
+        {
+          "description": "Via [LPDDR4_CKE0_A] su F.Cu - B.Cu",
+          "pos": {
+            "x": 42.0,
+            "y": 14.65
+          },
+          "uuid": "975adc18-d7ed-4650-8f9e-b29882e40101"
+        }
+      ],
+      "severity": "error",
+      "type": "hole_clearance"
+    },
+    {
+      "description": "Violazione clearance (regola 'Experimental DDR copper spacing' clearance 0.0762 mm; reale 0.0250 mm)",
+      "items": [
+        {
+          "description": "Via [LPDDR4_A2_A] su F.Cu - B.Cu",
+          "pos": {
+            "x": 41.0,
+            "y": 14.65
+          },
+          "uuid": "8657692b-f4dd-46eb-91a1-a99605921984"
+        },
+        {
+          "description": "Piazzola 34 [GND] di U25 su B.Cu",
+          "pos": {
+            "x": 40.5,
+            "y": 14.3125
+          },
+          "uuid": "f489023f-ff9e-4423-85a7-9882244f1704"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (regola 'Experimental DDR copper spacing' clearance 0.0762 mm; reale 0.0250 mm)",
+      "items": [
+        {
+          "description": "Via [LPDDR4_DQ3_A] su F.Cu - B.Cu",
+          "pos": {
+            "x": 40.0,
+            "y": 14.65
+          },
+          "uuid": "504457f2-bf5e-4fd8-92b1-527639d648b4"
+        },
+        {
+          "description": "Piazzola 34 [GND] di U25 su B.Cu",
+          "pos": {
+            "x": 40.5,
+            "y": 14.3125
+          },
+          "uuid": "f489023f-ff9e-4423-85a7-9882244f1704"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll LPDDR4_CKE0_B e <no connessione>)",
+      "items": [
+        {
+          "description": "Via [LPDDR4_CKE0_B] su F.Cu - B.Cu",
+          "pos": {
+            "x": 44.0,
+            "y": 14.65
+          },
+          "uuid": "14592b0e-a25a-43c5-9703-f67002ffba34"
+        },
+        {
+          "description": "Piazzola 38 [<no net>] di U25 su B.Cu",
+          "pos": {
+            "x": 44.1,
+            "y": 14.3125
+          },
+          "uuid": "b011fb62-e505-472b-8e22-6820a495eb96"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e LPDDR4_DQ8_A)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di C1608 su B.Cu",
+          "pos": {
+            "x": 35.05,
+            "y": 14.0
+          },
+          "uuid": "05ba1a7b-2109-4070-8362-27e977506936"
+        },
+        {
+          "description": "Via [LPDDR4_DQ8_A] su F.Cu - B.Cu",
+          "pos": {
+            "x": 35.7,
+            "y": 14.25
+          },
+          "uuid": "a293b651-5092-4ed0-aaaa-406046f58b50"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    }
+  ],
+  "next_design_constraint": "Reserve CPU DDR through-via escape volume on both faces and all copper layers before relocating the routed Wi-Fi island or CPU/RAM group. Do not merge this diagnostic board.",
+  "manufacturing_ready": false
+}

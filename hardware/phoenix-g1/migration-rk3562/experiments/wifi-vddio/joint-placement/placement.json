@@ -1,0 +1,123 @@
+{
+  "status": "LOCAL VDDIO PLACEMENT CANDIDATE; DRC AND ROUTING REQUIRED",
+  "source": "Existing AP6256 circuit: reference/wifi-ap6256.pdf and ROCK 3C sheet22; electrical layout qualification remains open",
+  "input_sha256": "ae2c3669257f512f3df43813de25eaaf73359c23774c1af9be822e4194bf42b9",
+  "output_sha256": "d6334e3155bba1d681c27e68a661eaa40142bdab906a96635cb51d72b2b8be62",
+  "changes": {
+    "C2005": {
+      "before": {
+        "x": 53.0,
+        "y": 28.0,
+        "orientation": 180.0,
+        "side": "back"
+      },
+      "after": {
+        "x": 37.25,
+        "y": 27.0,
+        "orientation": 180.0,
+        "side": "back"
+      }
+    },
+    "C1613": {
+      "before": {
+        "x": 36.0,
+        "y": 26.0,
+        "orientation": 180.0,
+        "side": "back"
+      },
+      "after": {
+        "x": 30.75,
+        "y": 31.5,
+        "orientation": 180.0,
+        "side": "back"
+      }
+    },
+    "C2006": {
+      "before": {
+        "x": 55.5,
+        "y": 25.0,
+        "orientation": 180.0,
+        "side": "back"
+      },
+      "after": {
+        "x": 40.5,
+        "y": 27.6,
+        "orientation": -90.0,
+        "side": "back"
+      }
+    },
+    "C2004": {
+      "before": {
+        "x": 53.0,
+        "y": 12.0,
+        "orientation": 180.0,
+        "side": "back"
+      },
+      "after": {
+        "x": 37.25,
+        "y": 28.2,
+        "orientation": 180.0,
+        "side": "back"
+      }
+    },
+    "L2001": {
+      "before": {
+        "x": 40.5,
+        "y": 28.3,
+        "orientation": 180.0,
+        "side": "back"
+      },
+      "after": {
+        "x": 42.8,
+        "y": 28.4,
+        "orientation": 180.0,
+        "side": "back"
+      }
+    },
+    "C1605": {
+      "before": {
+        "x": 36.0,
+        "y": 23.0,
+        "orientation": 180.0,
+        "side": "back"
+      },
+      "after": {
+        "x": 33.25,
+        "y": 34.0,
+        "orientation": 180.0,
+        "side": "back"
+      }
+    },
+    "C2003": {
+      "before": {
+        "x": 37.0,
+        "y": 28.0,
+        "orientation": 180.0,
+        "side": "back"
+      },
+      "after": {
+        "x": 36.5,
+        "y": 24.5,
+        "orientation": 180.0,
+        "side": "back"
+      }
+    }
+  },
+  "group": [
+    "C2003",
+    "C2004",
+    "C2005",
+    "C2006",
+    "L2001"
+  ],
+  "displaced_unrouted_refs": [
+    "C1605",
+    "C1613"
+  ],
+  "limitations": [
+    "Placement only, not loop inductance or stability qualification.",
+    "Displaced unrouted components still require their own local layout review.",
+    "No MPN, schematic net or component value has changed."
+  ],
+  "production_ready": false
+}

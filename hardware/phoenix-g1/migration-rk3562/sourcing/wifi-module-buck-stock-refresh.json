@@ -1,0 +1,108 @@
+{
+  "status": "PUBLIC STOCK OBSERVATION; NOT RESERVED OR PCBA ORDER CONFIRMATION",
+  "currency": "USD",
+  "parts": [
+    {
+      "jlc": "C1779",
+      "refs": [
+        "C2003"
+      ],
+      "mpn": "CL21A475KAQNNNE",
+      "source": "https://jlcpcb.com/partdetail/C1779",
+      "checked_utc": "2026-11-09T16:36:50.101267+00:00",
+      "page_sha256": "614386aeb6534091d9545ee4825a8b6783a7abc989ecb8576a309f652a7cbf89",
+      "available_order_qty": 1558422,
+      "displayed_stock": 1966025,
+      "pre_min_purchase_qty": 341,
+      "unit_usd_1plus": 0.0342,
+      "price_breaks": [
+        {
+          "min_qty": 1,
+          "max_qty": 199,
+          "unit_usd": 0.0342
+        },
+        {
+          "min_qty": 200,
+          "max_qty": 599,
+          "unit_usd": 0.0265
+        },
+        {
+          "min_qty": 600,
+          "max_qty": 1999,
+          "unit_usd": 0.0226
+        },
+        {
+          "min_qty": 2000,
+          "max_qty": 9999,
+          "unit_usd": 0.0154
+        },
+        {
+          "min_qty": 10000,
+          "max_qty": 19999,
+          "unit_usd": 0.0142
+        },
+        {
+          "min_qty": 20000,
+          "max_qty": -1,
+          "unit_usd": 0.0135
+        }
+      ],
+      "no_buy_reason": null
+    },
+    {
+      "jlc": "C337891",
+      "refs": [
+        "L2001"
+      ],
+      "mpn": "DFE201610E-2R2M=P2",
+      "source": "https://jlcpcb.com/partdetail/C337891",
+      "checked_utc": "2026-11-09T16:36:50.071986+00:00",
+      "page_sha256": "ba2a69c605c32f59848357c2c21c3b9c4127e13d766e1d237154afb57e72645c",
+      "available_order_qty": 5260,
+      "displayed_stock": 5431,
+      "pre_min_purchase_qty": 80,
+      "unit_usd_1plus": 0.1378,
+      "price_breaks": [
+        {
+          "min_qty": 1,
+          "max_qty": 49,
+          "unit_usd": 0.1378
+        },
+        {
+          "min_qty": 50,
+          "max_qty": 149,
+          "unit_usd": 0.1134
+        },
+        {
+          "min_qty": 150,
+          "max_qty": 499,
+          "unit_usd": 0.1013
+        },
+        {
+          "min_qty": 500,
+          "max_qty": 2999,
+          "unit_usd": 0.0921
+        },
+        {
+          "min_qty": 3000,
+          "max_qty": 5999,
+          "unit_usd": 0.0848
+        },
+        {
+          "min_qty": 6000,
+          "max_qty": -1,
+          "unit_usd": 0.0812
+        }
+      ],
+      "no_buy_reason": null
+    }
+  ],
+  "local_group_qty": 2,
+  "local_group_1plus_subtotal": 0.172,
+  "all_observed_order_quantities_positive": true,
+  "limitations": [
+    "Observed public presale and displayed stock are separate fields, not guaranteed assembly availability.",
+    "1+ prices do not include minimum purchase quantities, assembly, attrition, PCB, freight or taxes.",
+    "Only the requested reference group was refreshed; other board part dates remain unchanged."
+  ]
+}

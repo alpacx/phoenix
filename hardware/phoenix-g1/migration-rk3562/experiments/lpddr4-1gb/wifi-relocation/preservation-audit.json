@@ -1,0 +1,25 @@
+{
+  "status": "SOURCE_PRESERVATION_AND_WIFI_COPPER_VERIFIED_NOT_RELEASE",
+  "source_sha256": "3f0aee938e21e1961453ef378948a655425727ef0fedd261bce8d10de1eb2e41",
+  "board_sha256": "d2939e2595ba1699a65dabea04603424908e31fe735bb3c073c9d6e4e8bb8ae3",
+  "pad_assignments_preserved": 1792,
+  "source_copper_items_preserved": 1227,
+  "explicitly_replaced_source_copper_items": 611,
+  "unique_PMIC_neck_127um": true,
+  "all_wifi_continuity_flags": true,
+  "critical_DRC_findings": 0,
+  "intentional_DDR_dangling_vias": 125,
+  "DRC_counts": {
+    "via_dangling": 125,
+    "silk_edge_clearance": 1,
+    "silk_overlap": 3,
+    "silk_over_copper": 10
+  },
+  "assembly_ready": false,
+  "limits": [
+    "Wi-Fi continuity is not an operational RF/boot test",
+    "CPU and DDR routing incomplete",
+    "Source/SoC decoupling and power integrity require review",
+    "Stackup, impedance, timing, thermal and fabrication qualifications remain open"
+  ]
+}

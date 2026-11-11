@@ -1,0 +1,58 @@
+{
+  "status": "CANDIDATE LOCAL BUCK COPPER; DRC AND INDEPENDENT AUDIT REQUIRED",
+  "pcb_sha256": "ece6f283894c981acc28c4e47566a4b086a90b9d6ec1bc591824551674b5b763",
+  "branches": [
+    {
+      "from": "U25.21",
+      "to": "L2001.1",
+      "net": "WIFI_BUCK_SW",
+      "width_mm": 0.5,
+      "length_mm": 4.2681,
+      "layer": "B.Cu"
+    },
+    {
+      "from": "U25.23",
+      "to": "C2003.1",
+      "net": "WIFI_BUCK_OUT",
+      "width_mm": 0.5,
+      "length_mm": 1.8625,
+      "layer": "B.Cu"
+    },
+    {
+      "from": "L2001.2",
+      "to": "C2003.1",
+      "net": "WIFI_BUCK_OUT",
+      "lengths_mm": [
+        1.6242640687119263,
+        7.548275605729696,
+        2.343502884254443
+      ],
+      "via_xy_mm": [
+        [
+          41.7,
+          29.900000000000002
+        ],
+        [
+          35.85,
+          25.8
+        ]
+      ],
+      "experimental": true
+    }
+  ],
+  "ground_escape": {
+    "via_xy_mm": [
+      35.550000000000004,
+      23.200000000000003
+    ],
+    "reused": false,
+    "width_mm": 0.5,
+    "length_mm": 1.3
+  },
+  "limitations": [
+    "No electrical simulation or hardware test.",
+    "Inductor saturation, effective capacitance, ripple, stability and return impedance remain unqualified.",
+    "Displaced SoC decoupling requires later local placement review."
+  ],
+  "production_ready": false
+}

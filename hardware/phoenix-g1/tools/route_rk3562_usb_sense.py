@@ -146,6 +146,16 @@ if not resume:
   length,count=add_tracks(route,p.In2_Cu,net);protected_paths.append({'start_mm':start,'end_mm':goal,'length_mm':length,'width_mm':width,'layer':'In2.Cu'})
  width=.2
  (R/'review/usb-protected-backbone.json').write_text(json.dumps({'status':'CANDIDATE; DRC AND CURRENT/TEMPERATURE QUALIFICATION REQUIRED','paths':protected_paths,'via_land_drill_mm':[.6,.3],'via_count':4,'production_ready':False},indent=2)+'\n')
+# Reserve the main output fanout before control routing can fence it in.
+if not resume:
+ name='+5V_MAIN';net=next(a.GetNetCode() for a in pads if a.GetNetname()==name)
+ width=.5
+ add_tracks([pad_xy('C1203','1'),(7.9,33.8),(8.6,34.4)],p.F_Cu,net)
+ for x,y in [(7.9,33.8),(8.6,34.4)]:
+  via=p.PCB_VIA(b);via.SetPosition(point((x,y)));via.SetWidth(p.FromMM(.6));via.SetDrill(p.FromMM(.3));via.SetViaType(p.VIATYPE_THROUGH);via.SetLayerPair(p.F_Cu,p.B_Cu);via.SetNetCode(net);b.Add(via)
+ width=1.5;add_tracks([(7.9,33.8),(8.6,34.4)],p.In3_Cu,net)
+ width=.2
+
 if returns:
  refs={'J1','U6','U7','U8','R1102','R1103','U9','U11','U12','U13','U14','U15','U19','U24','C1103','C1104','C1105','C1106','C1107','C606','U16','C605','C1101','C1102','C1201','C1202','C1203','C1901','C1902','C1903','R1201','R1902','R1904','R1905'}
  results=[];failed=[];thermal=json.loads((R/'review/usb-thermal-vias.json').read_text())['vias']

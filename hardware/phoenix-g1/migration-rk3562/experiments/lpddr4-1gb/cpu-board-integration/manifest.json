@@ -1,0 +1,28 @@
+{
+  "status": "FULL_BOARD_INTERFERENCE_EXPERIMENT_NOT_RELEASE",
+  "source_sha256": "3f0aee938e21e1961453ef378948a655425727ef0fedd261bce8d10de1eb2e41",
+  "coupon_sha256": "7d99b0110479e05451a247c1b84054f283594daf7eb4396f8c29a563839aca2a",
+  "relocations": [
+    {
+      "ref": "U1",
+      "old_xy_mm": [
+        43,
+        20
+      ],
+      "xy_mm": [
+        43,
+        20
+      ],
+      "reason": "Original position retained for interference diagnosis; bounded relocation search failed"
+    }
+  ],
+  "added_copper_items": 460,
+  "cpu_escapes": 60,
+  "source_unchanged": true,
+  "assembly_ready": false,
+  "limits": [
+    "Exploratory DDR clearance rules require process qualification and final scoping",
+    "No end-to-end DDR routing",
+    "No impedance or timing qualification"
+  ]
+}

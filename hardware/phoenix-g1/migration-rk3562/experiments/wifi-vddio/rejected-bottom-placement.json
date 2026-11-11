@@ -1,0 +1,63 @@
+{
+  "input_sha256": "d9ee0cf571069f3ddca815ddc6324ac7f7f641c2b45a483d765e0bb8d1d5b518",
+  "changes": {
+    "C2004": {
+      "before": {
+        "x": 53.0,
+        "y": 12.0,
+        "orientation": 180.0,
+        "side": "back"
+      },
+      "after": {
+        "x": 43.0,
+        "y": 28.25,
+        "orientation": 0.0,
+        "side": "back"
+      }
+    },
+    "L2001": {
+      "before": {
+        "x": 40.5,
+        "y": 28.3,
+        "orientation": 180.0,
+        "side": "back"
+      },
+      "after": {
+        "x": 40.5,
+        "y": 29.0,
+        "orientation": 180.0,
+        "side": "back"
+      }
+    },
+    "C2006": {
+      "before": {
+        "x": 55.5,
+        "y": 25.0,
+        "orientation": 180.0,
+        "side": "back"
+      },
+      "after": {
+        "x": 40.5,
+        "y": 27.1,
+        "orientation": 180.0,
+        "side": "back"
+      }
+    },
+    "C2005": {
+      "before": {
+        "x": 53.0,
+        "y": 28.0,
+        "orientation": 180.0,
+        "side": "back"
+      },
+      "after": {
+        "x": 43,
+        "y": 27.1,
+        "orientation": 0.0,
+        "side": "back"
+      }
+    }
+  },
+  "note": "Candidate inspection removed buck switch/output copper and local module-ground copper; adopted only as placement seed for a full rebuild. Not an accepted PCB.",
+  "status": "REJECTED: FULL BUILD COULD NOT ROUTE MODULE GROUND PIN20; PLACEMENT SEED RESTORED"
+}

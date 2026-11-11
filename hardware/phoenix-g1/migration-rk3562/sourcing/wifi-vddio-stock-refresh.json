@@ -1,0 +1,155 @@
+{
+  "status": "PUBLIC STOCK OBSERVATION; NOT RESERVED OR PCBA ORDER CONFIRMATION",
+  "currency": "USD",
+  "parts": [
+    {
+      "jlc": "C1525",
+      "refs": [
+        "C2006"
+      ],
+      "mpn": "CL05B104KO5NNNC",
+      "source": "https://jlcpcb.com/partdetail/C1525",
+      "checked_utc": "2026-11-09T17:00:02.911146+00:00",
+      "page_sha256": "aef1ff7ab9d967bf89564aa61776633d305e6e687810b7e4a5e5eb4118d35c46",
+      "available_order_qty": 25511531,
+      "displayed_stock": 33559439,
+      "pre_min_purchase_qty": 4512,
+      "unit_usd_1plus": 0.0031,
+      "price_breaks": [
+        {
+          "min_qty": 1,
+          "max_qty": 999,
+          "unit_usd": 0.0031
+        },
+        {
+          "min_qty": 1000,
+          "max_qty": 2999,
+          "unit_usd": 0.0023
+        },
+        {
+          "min_qty": 3000,
+          "max_qty": 9999,
+          "unit_usd": 0.002
+        },
+        {
+          "min_qty": 10000,
+          "max_qty": 49999,
+          "unit_usd": 0.0017
+        },
+        {
+          "min_qty": 50000,
+          "max_qty": 50199,
+          "unit_usd": 0.0016
+        },
+        {
+          "min_qty": 50200,
+          "max_qty": -1,
+          "unit_usd": 0.0016
+        }
+      ],
+      "no_buy_reason": null
+    },
+    {
+      "jlc": "C23733",
+      "refs": [
+        "C2004"
+      ],
+      "mpn": "CL05A475MP5NRNC",
+      "source": "https://jlcpcb.com/partdetail/C23733",
+      "checked_utc": "2026-11-09T17:00:02.884234+00:00",
+      "page_sha256": "a93aa5d389d900f964c70cc8f69aa8862788780823bf2add3a8dedd03278fbb8",
+      "available_order_qty": 331900,
+      "displayed_stock": 920495,
+      "pre_min_purchase_qty": 981,
+      "unit_usd_1plus": 0.0118,
+      "price_breaks": [
+        {
+          "min_qty": 1,
+          "max_qty": 499,
+          "unit_usd": 0.0118
+        },
+        {
+          "min_qty": 500,
+          "max_qty": 1499,
+          "unit_usd": 0.0092
+        },
+        {
+          "min_qty": 1500,
+          "max_qty": 9999,
+          "unit_usd": 0.008
+        },
+        {
+          "min_qty": 10000,
+          "max_qty": 19999,
+          "unit_usd": 0.0072
+        },
+        {
+          "min_qty": 20000,
+          "max_qty": 49999,
+          "unit_usd": 0.0068
+        },
+        {
+          "min_qty": 50000,
+          "max_qty": -1,
+          "unit_usd": 0.0066
+        }
+      ],
+      "no_buy_reason": null
+    },
+    {
+      "jlc": "C52923",
+      "refs": [
+        "C2005"
+      ],
+      "mpn": "CL05A105KA5NQNC",
+      "source": "https://jlcpcb.com/partdetail/C52923",
+      "checked_utc": "2026-11-09T17:00:02.810729+00:00",
+      "page_sha256": "901956deefb119a6dedfed3591fc6d95c2f5ccacfcb175d8d5d926f3c5908a72",
+      "available_order_qty": 9188158,
+      "displayed_stock": 11434561,
+      "pre_min_purchase_qty": 2051,
+      "unit_usd_1plus": 0.0058,
+      "price_breaks": [
+        {
+          "min_qty": 1,
+          "max_qty": 999,
+          "unit_usd": 0.0058
+        },
+        {
+          "min_qty": 1000,
+          "max_qty": 2999,
+          "unit_usd": 0.0044
+        },
+        {
+          "min_qty": 3000,
+          "max_qty": 9999,
+          "unit_usd": 0.0038
+        },
+        {
+          "min_qty": 10000,
+          "max_qty": 49999,
+          "unit_usd": 0.0034
+        },
+        {
+          "min_qty": 50000,
+          "max_qty": 99999,
+          "unit_usd": 0.0032
+        },
+        {
+          "min_qty": 100000,
+          "max_qty": -1,
+          "unit_usd": 0.0031
+        }
+      ],
+      "no_buy_reason": null
+    }
+  ],
+  "local_group_qty": 3,
+  "local_group_1plus_subtotal": 0.0207,
+  "all_observed_order_quantities_positive": true,
+  "limitations": [
+    "Observed public presale and displayed stock are separate fields, not guaranteed assembly availability.",
+    "1+ prices do not include minimum purchase quantities, assembly, attrition, PCB, freight or taxes.",
+    "Only the requested reference group was refreshed; other board part dates remain unchanged."
+  ]
+}

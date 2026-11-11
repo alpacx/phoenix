@@ -1,0 +1,16 @@
+{
+  "candidate_count": 0,
+  "grid_mm": 0.5,
+  "search_center_x_mm": [
+    10,
+    79.5
+  ],
+  "search_center_y_mm": [
+    9,
+    31.5
+  ],
+  "guard_mm": 0.1,
+  "protects": "Existing routed circuits, connectors, crystals, RAM; conservative top-copper and via bounding boxes",
+  "interpretation": "No solution in this bounded conservative search does not establish impossibility",
+  "requires_replanning": true
+}

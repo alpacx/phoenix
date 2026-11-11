@@ -1,0 +1,61 @@
+{
+  "status": "PUBLIC STOCK OBSERVATION; NOT RESERVED OR PCBA ORDER CONFIRMATION",
+  "currency": "USD",
+  "parts": [
+    {
+      "jlc": "C2890616",
+      "refs": [
+        "DS1"
+      ],
+      "mpn": "N096-1608TBBIG11-H13",
+      "source": "https://jlcpcb.com/partdetail/C2890616",
+      "checked_utc": "2026-11-10T10:27:21.611221+00:00",
+      "page_sha256": "f425b4c2367fff8bee136a61810b9354ce1593feca7b3a03a9d051022a9c4316",
+      "available_order_qty": 328,
+      "displayed_stock": 410,
+      "pre_min_purchase_qty": 5,
+      "unit_usd_1plus": 1.8359,
+      "price_breaks": [
+        {
+          "min_qty": 1,
+          "max_qty": 9,
+          "unit_usd": 1.8359
+        },
+        {
+          "min_qty": 10,
+          "max_qty": 55,
+          "unit_usd": 1.5397
+        },
+        {
+          "min_qty": 56,
+          "max_qty": 111,
+          "unit_usd": 1.2338
+        },
+        {
+          "min_qty": 112,
+          "max_qty": 503,
+          "unit_usd": 1.0489
+        },
+        {
+          "min_qty": 504,
+          "max_qty": 839,
+          "unit_usd": 0.9671
+        },
+        {
+          "min_qty": 840,
+          "max_qty": -1,
+          "unit_usd": 0.9311
+        }
+      ],
+      "no_buy_reason": null
+    }
+  ],
+  "local_group_qty": 1,
+  "local_group_1plus_subtotal": 1.8359,
+  "all_observed_order_quantities_positive": true,
+  "limitations": [
+    "Observed public presale and displayed stock are separate fields, not guaranteed assembly availability.",
+    "1+ prices do not include minimum purchase quantities, assembly, attrition, PCB, freight or taxes.",
+    "Only the requested reference group was refreshed; other board part dates remain unchanged."
+  ]
+}

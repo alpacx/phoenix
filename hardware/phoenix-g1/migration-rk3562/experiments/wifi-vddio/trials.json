@@ -1,0 +1,13 @@
+{
+  "status": "EXPERIMENTS ONLY; NO VDDIO ROUTING ADOPTED",
+  "accepted_pcb_before_trials_sha256": "d9ee0cf571069f3ddca815ddc6324ac7f7f641c2b45a483d765e0bb8d1d5b518",
+  "findings": [
+    "Bottom-row bypass candidate passed geometric DRC but full rebuild failed to route U25.20 ground. Transactional build restored the prior PCB.",
+    "Increasing row spacing and the ground search area restored that ground path, but switch-node routing then failed.",
+    "Inner-layer bypass trials could not complete both local grounds and legal signal fanouts.",
+    "Left-side capacitor placement was generated but the VDDIO connection could not cross the existing buck-output topology."
+  ],
+  "next_layout_constraint": "Plan U25 pins21/22/23, buck inductor/output capacitor, VDDIO bypass and their return paths as one group, rather than independently. Review against SoC underside decoupling and via access.",
+  "active_placement_seed_restored": true,
+  "production_ready": false
+}

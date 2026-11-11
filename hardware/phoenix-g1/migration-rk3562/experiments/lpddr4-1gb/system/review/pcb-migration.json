@@ -1,0 +1,1967 @@
+{
+  "status": "RAM_FANOUT_CANDIDATE_FULL_DDR_UNROUTED",
+  "source_sha256": "e7cad82f9ed4d246c89e11c52d56041a4e72041fee65aa9f3a6cab2b0181719d",
+  "removed_footprints": [
+    "U3",
+    "C402",
+    "C401",
+    "R301",
+    "R401",
+    "U2",
+    "R402"
+  ],
+  "changed_pads": [
+    {
+      "ref": "U12",
+      "pad": "4",
+      "old": "unconnected-(U12-CT-Pad4)",
+      "new": null
+    },
+    {
+      "ref": "L403",
+      "pad": "2",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "U7",
+      "pad": "6",
+      "old": "unconnected-(U7-N.C.-Pad6)",
+      "new": null
+    },
+    {
+      "ref": "U7",
+      "pad": "7",
+      "old": "unconnected-(U7-N.C.-Pad7)",
+      "new": null
+    },
+    {
+      "ref": "U7",
+      "pad": "9",
+      "old": "unconnected-(U7-N.C.-Pad9)",
+      "new": null
+    },
+    {
+      "ref": "U7",
+      "pad": "10",
+      "old": "unconnected-(U7-N.C.-Pad10)",
+      "new": null
+    },
+    {
+      "ref": "U23",
+      "pad": "6",
+      "old": "unconnected-(U23-N.C.-Pad6)",
+      "new": null
+    },
+    {
+      "ref": "U23",
+      "pad": "7",
+      "old": "unconnected-(U23-N.C.-Pad7)",
+      "new": null
+    },
+    {
+      "ref": "U23",
+      "pad": "9",
+      "old": "unconnected-(U23-N.C.-Pad9)",
+      "new": null
+    },
+    {
+      "ref": "U23",
+      "pad": "10",
+      "old": "unconnected-(U23-N.C.-Pad10)",
+      "new": null
+    },
+    {
+      "ref": "U13",
+      "pad": "1",
+      "old": "unconnected-(U13-N.C-Pad1)",
+      "new": null
+    },
+    {
+      "ref": "U22",
+      "pad": "6",
+      "old": "unconnected-(U22-N.C.-Pad6)",
+      "new": null
+    },
+    {
+      "ref": "U22",
+      "pad": "7",
+      "old": "unconnected-(U22-N.C.-Pad7)",
+      "new": null
+    },
+    {
+      "ref": "U22",
+      "pad": "9",
+      "old": "unconnected-(U22-N.C.-Pad9)",
+      "new": null
+    },
+    {
+      "ref": "U22",
+      "pad": "10",
+      "old": "unconnected-(U22-N.C.-Pad10)",
+      "new": null
+    },
+    {
+      "ref": "U16",
+      "pad": "1",
+      "old": "unconnected-(U16-N.C-Pad1)",
+      "new": null
+    },
+    {
+      "ref": "C433",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C443",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "U24",
+      "pad": "2",
+      "old": "unconnected-(U24-PGOOD-Pad2)",
+      "new": null
+    },
+    {
+      "ref": "U24",
+      "pad": "19",
+      "old": "unconnected-(U24-IMON-Pad19)",
+      "new": null
+    },
+    {
+      "ref": "U24",
+      "pad": "20",
+      "old": "unconnected-(U24-~{FLT}-Pad20)",
+      "new": null
+    },
+    {
+      "ref": "U8",
+      "pad": "6",
+      "old": "unconnected-(U8-N.C.-Pad6)",
+      "new": null
+    },
+    {
+      "ref": "U8",
+      "pad": "7",
+      "old": "unconnected-(U8-N.C.-Pad7)",
+      "new": null
+    },
+    {
+      "ref": "U8",
+      "pad": "9",
+      "old": "unconnected-(U8-N.C.-Pad9)",
+      "new": null
+    },
+    {
+      "ref": "U8",
+      "pad": "10",
+      "old": "unconnected-(U8-N.C.-Pad10)",
+      "new": null
+    },
+    {
+      "ref": "R431",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "U11",
+      "pad": "4",
+      "old": "unconnected-(U11-NC-Pad4)",
+      "new": null
+    },
+    {
+      "ref": "U6",
+      "pad": "22",
+      "old": "unconnected-(U6-ADDR-Pad22)",
+      "new": null
+    },
+    {
+      "ref": "U6",
+      "pad": "23",
+      "old": "unconnected-(U6-INT_N/OUT3-Pad23)",
+      "new": null
+    },
+    {
+      "ref": "U6",
+      "pad": "24",
+      "old": "unconnected-(U6-VCONN_FAULT_N-Pad24)",
+      "new": null
+    },
+    {
+      "ref": "U6",
+      "pad": "27",
+      "old": "unconnected-(U6-ID-Pad27)",
+      "new": null
+    },
+    {
+      "ref": "U21",
+      "pad": "11",
+      "old": "unconnected-(U21-Y8-Pad11)",
+      "new": null
+    },
+    {
+      "ref": "U21",
+      "pad": "12",
+      "old": "unconnected-(U21-Y7-Pad12)",
+      "new": null
+    },
+    {
+      "ref": "U21",
+      "pad": "13",
+      "old": "unconnected-(U21-Y6-Pad13)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "1A1",
+      "old": "DDR3_DQS1P",
+      "new": "LPDDR4_DQS1P_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "1A3",
+      "old": "DDR3_DQS0P",
+      "new": "LPDDR4_DQS0P_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "1A6",
+      "old": "DDR3_BA0",
+      "new": "LPDDR4_A3_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "1A7",
+      "old": "DDR3_RASN",
+      "new": "LPDDR4_A5_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "1A8",
+      "old": "DDR3_A11",
+      "new": "LPDDR4_A5_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "1A9",
+      "old": "DDR3_A12",
+      "new": "LPDDR4_A4_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "1A10",
+      "old": "DDR3_BA1",
+      "new": "LPDDR4_A3_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "1A13",
+      "old": "DDR3_DQS2P",
+      "new": "LPDDR4_DQS0P_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "1A15",
+      "old": "DDR3_DQS3P",
+      "new": "LPDDR4_DQS1P_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "1B1",
+      "old": "DDR3_DQS1N",
+      "new": "LPDDR4_DQS1N_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "1B3",
+      "old": "DDR3_DQS0N",
+      "new": "LPDDR4_DQS0N_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "1B6",
+      "old": "DDR3_A2",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "1B7",
+      "old": "DDR3_BA2",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "1B8",
+      "old": "unconnected-(U1A-AC14-Pad1B8)",
+      "new": "LPDDR4_A4_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "1B10",
+      "old": "DDR3_WEN",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "1B11",
+      "old": "DDR3_RESETN",
+      "new": "LPDDR4_RESETN"
+    },
+    {
+      "ref": "U1",
+      "pad": "1B13",
+      "old": "DDR3_DQS2N",
+      "new": "LPDDR4_DQS0N_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "1B15",
+      "old": "DDR3_DQS3N",
+      "new": "LPDDR4_DQS1N_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "1C9",
+      "old": "PENDING_1C9",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "1D4",
+      "old": "PENDING_1D4",
+      "new": "DDR_RZQ"
+    },
+    {
+      "ref": "U1",
+      "pad": "1D6",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "U1",
+      "pad": "1D11",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "U1",
+      "pad": "1E3",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "U1",
+      "pad": "1E4",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "U1",
+      "pad": "1E5",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "U1",
+      "pad": "1E6",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "U1",
+      "pad": "1E7",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "U1",
+      "pad": "1E8",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "U1",
+      "pad": "1E9",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "U1",
+      "pad": "1E10",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "U1",
+      "pad": "1H15",
+      "old": "unconnected-(U1E-I2S2_SDO_M0-Pad1H15)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "1J15",
+      "old": "unconnected-(U1F-I2S2_SDI_M0-Pad1J15)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "1L1",
+      "old": "unconnected-(U1G-I2C3_SDA_M0-Pad1L1)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "1M1",
+      "old": "unconnected-(U1I-I2C3_SCL_M0-Pad1M1)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "1M2",
+      "old": "unconnected-(U1I-I2S0_SDO3_M0-Pad1M2)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "1P3",
+      "old": "unconnected-(U1I-MIPI_CSI_RX1_CLK1P-Pad1P3)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "1P7",
+      "old": "unconnected-(U1J-MIPI_CSI_RX0_CLK1P-Pad1P7)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "1P15",
+      "old": "unconnected-(U1I-USB30_OTG0_ID-Pad1P15)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "1R3",
+      "old": "unconnected-(U1K-MIPI_CSI_RX1_CLK1N-Pad1R3)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "1R7",
+      "old": "unconnected-(U1K-MIPI_CSI_RX0_CLK1N-Pad1R7)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "1R11",
+      "old": "unconnected-(U1J-UART2_RX_M0-Pad1R11)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "1R15",
+      "old": "unconnected-(U1K-SDMMC0_DETN-Pad1R15)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "A2",
+      "old": "DDR3_DM1",
+      "new": "LPDDR4_DM1_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "A3",
+      "old": "DDR3_DQ11",
+      "new": "LPDDR4_DQ14_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "A4",
+      "old": "DDR3_DQ13",
+      "new": "LPDDR4_DQ12_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "A6",
+      "old": "DDR3_DQ7",
+      "new": "LPDDR4_DQ6_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "A8",
+      "old": "DDR3_DQ2",
+      "new": "LPDDR4_DQ2_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "A10",
+      "old": "DDR3_A4",
+      "new": "LPDDR4_A1_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "A13",
+      "old": "DDR3_CLKP",
+      "new": "LPDDR4_CLKN_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "A15",
+      "old": "DDR3_A9",
+      "new": "LPDDR4_CLKN_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "A18",
+      "old": "unconnected-(U1K-AC6-PadA18)",
+      "new": "LPDDR4_A1_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "A20",
+      "old": "DDR3_DQ22",
+      "new": "LPDDR4_DQ2_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "A22",
+      "old": "DDR3_DQ17",
+      "new": "LPDDR4_DQ7_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "A24",
+      "old": "DDR3_DQ25",
+      "new": "LPDDR4_DQ12_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "A25",
+      "old": "DDR3_DQ27",
+      "new": "LPDDR4_DQ14_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "A26",
+      "old": "DDR3_DM3",
+      "new": "LPDDR4_DM1_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "AA25",
+      "old": "unconnected-(U1B-UART1_RTSN_M0-PadAA25)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AC26",
+      "old": "unconnected-(U1B-PCIE20_REFCLKP-PadAC26)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AC27",
+      "old": "unconnected-(U1B-PCIE20_REFCLKN-PadAC27)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AD1",
+      "old": "unconnected-(U1B-MIPI_CSI_RX1_D3P-PadAD1)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AD2",
+      "old": "unconnected-(U1B-MIPI_CSI_RX1_D3N-PadAD2)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AE1",
+      "old": "unconnected-(U1B-MIPI_CSI_RX1_D2P-PadAE1)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AE17",
+      "old": "unconnected-(U1C-I2C1_SCL_M0-PadAE17)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AE19",
+      "old": "unconnected-(U1C-UART6_RX_M0-PadAE19)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AE22",
+      "old": "unconnected-(U1C-SDMMC0_PWREN-PadAE22)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AE24",
+      "old": "unconnected-(U1C-REF_CLK_OUT-PadAE24)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AE26",
+      "old": "unconnected-(U1C-USB20_HOST1_DM-PadAE26)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AE27",
+      "old": "unconnected-(U1C-USB20_HOST1_DP-PadAE27)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AF1",
+      "old": "unconnected-(U1C-MIPI_CSI_RX1_D2N-PadAF1)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AF2",
+      "old": "unconnected-(U1E-MIPI_CSI_RX1_CLK0P-PadAF2)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AF3",
+      "old": "unconnected-(U1E-MIPI_CSI_RX1_D1P-PadAF3)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AF4",
+      "old": "unconnected-(U1E-MIPI_CSI_RX1_D0P-PadAF4)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AF5",
+      "old": "unconnected-(U1E-MIPI_CSI_RX0_D3P-PadAF5)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AF6",
+      "old": "unconnected-(U1E-MIPI_CSI_RX0_D2P-PadAF6)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AF7",
+      "old": "unconnected-(U1E-MIPI_CSI_RX0_CLK0P-PadAF7)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AF8",
+      "old": "unconnected-(U1E-MIPI_CSI_RX0_D1P-PadAF8)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AF9",
+      "old": "unconnected-(U1E-MIPI_CSI_RX0_D0P-PadAF9)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AF10",
+      "old": "unconnected-(U1C-MIPI_DSI_TX_D3N-PadAF10)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AF11",
+      "old": "unconnected-(U1C-MIPI_DSI_TX_D2P-PadAF11)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AF12",
+      "old": "unconnected-(U1C-MIPI_DSI_TX_CLKN-PadAF12)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AF13",
+      "old": "unconnected-(U1E-MIPI_DSI_TX_D1P-PadAF13)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AF14",
+      "old": "unconnected-(U1E-MIPI_DSI_TX_D0N-PadAF14)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AF17",
+      "old": "unconnected-(U1E-UART2_TX_M0-PadAF17)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AF18",
+      "old": "unconnected-(U1E-I2C1_SDA_M0-PadAF18)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AF19",
+      "old": "unconnected-(U1E-UART6_TX_M0-PadAF19)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AF21",
+      "old": "unconnected-(U1E-CLK_32K_IN-PadAF21)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AG2",
+      "old": "unconnected-(U1E-MIPI_CSI_RX1_CLK0N-PadAG2)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AG3",
+      "old": "unconnected-(U1F-MIPI_CSI_RX1_D1N-PadAG3)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AG4",
+      "old": "unconnected-(U1F-MIPI_CSI_RX1_D0N-PadAG4)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AG5",
+      "old": "unconnected-(U1F-MIPI_CSI_RX0_D3N-PadAG5)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AG6",
+      "old": "unconnected-(U1F-MIPI_CSI_RX0_D2N-PadAG6)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AG7",
+      "old": "unconnected-(U1F-MIPI_CSI_RX0_CLK0N-PadAG7)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AG8",
+      "old": "unconnected-(U1F-MIPI_CSI_RX0_D1N-PadAG8)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AG9",
+      "old": "unconnected-(U1F-MIPI_CSI_RX0_D0N-PadAG9)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AG10",
+      "old": "unconnected-(U1E-MIPI_DSI_TX_D3P-PadAG10)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AG11",
+      "old": "unconnected-(U1E-MIPI_DSI_TX_D2N-PadAG11)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AG12",
+      "old": "unconnected-(U1E-MIPI_DSI_TX_CLKP-PadAG12)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AG13",
+      "old": "unconnected-(U1E-MIPI_DSI_TX_D1N-PadAG13)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AG14",
+      "old": "unconnected-(U1E-MIPI_DSI_TX_D0P-PadAG14)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AG21",
+      "old": "unconnected-(U1E-PWM3_M0-PadAG21)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "AG24",
+      "old": "unconnected-(U1E-PCIE20_CLKREQN_M0-PadAG24)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "B1",
+      "old": "DDR3_DQ12",
+      "new": "LPDDR4_DQ10_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "B2",
+      "old": "DDR3_DQ8",
+      "new": "LPDDR4_DQ11_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "B3",
+      "old": "DDR3_DQ9",
+      "new": "LPDDR4_DQ15_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "B4",
+      "old": "DDR3_DQ15",
+      "new": "LPDDR4_DQ13_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "B5",
+      "old": "DDR3_DQ3",
+      "new": "LPDDR4_DQ5_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "B6",
+      "old": "DDR3_DQ0",
+      "new": "LPDDR4_DQ0_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "B7",
+      "old": "DDR3_DM0",
+      "new": "LPDDR4_DM0_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "B8",
+      "old": "DDR3_DQ4",
+      "new": "LPDDR4_DQ1_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "B9",
+      "old": "DDR3_A7",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "B10",
+      "old": "DDR3_A6",
+      "new": "LPDDR4_A0_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "B11",
+      "old": "unconnected-(U1F-AC3-PadB11)",
+      "new": "LPDDR4_CS0N_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "B12",
+      "old": "DDR3_A3",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "B13",
+      "old": "DDR3_CLKN",
+      "new": "LPDDR4_CLKP_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "B15",
+      "old": "DDR3_A13",
+      "new": "LPDDR4_CLKP_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "B16",
+      "old": "DDR3_CASN",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "B17",
+      "old": "DDR3_CS0N",
+      "new": "LPDDR4_CS0N_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "B18",
+      "old": "DDR3_A5",
+      "new": "LPDDR4_A0_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "B19",
+      "old": "DDR3_A8",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "B20",
+      "old": "DDR3_DQ20",
+      "new": "LPDDR4_DQ1_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "B21",
+      "old": "DDR3_DM2",
+      "new": "LPDDR4_DM0_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "B22",
+      "old": "DDR3_DQ16",
+      "new": "LPDDR4_DQ0_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "B23",
+      "old": "DDR3_DQ23",
+      "new": "LPDDR4_DQ5_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "B24",
+      "old": "DDR3_DQ31",
+      "new": "LPDDR4_DQ13_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "B25",
+      "old": "DDR3_DQ29",
+      "new": "LPDDR4_DQ15_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "B26",
+      "old": "DDR3_DQ24",
+      "new": "LPDDR4_DQ11_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "B27",
+      "old": "DDR3_DQ28",
+      "new": "LPDDR4_DQ10_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "C1",
+      "old": "DDR3_DQ10",
+      "new": "LPDDR4_DQ9_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "C2",
+      "old": "DDR3_DQ14",
+      "new": "LPDDR4_DQ8_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "C5",
+      "old": "DDR3_DQ1",
+      "new": "LPDDR4_DQ4_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "C6",
+      "old": "DDR3_DQ5",
+      "new": "LPDDR4_DQ7_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "C8",
+      "old": "DDR3_DQ6",
+      "new": "LPDDR4_DQ3_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "C10",
+      "old": "DDR3_A0",
+      "new": "LPDDR4_A2_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "C11",
+      "old": "unconnected-(U1H-AC26-PadC11)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "C12",
+      "old": "DDR3_CKE",
+      "new": "LPDDR4_CKE0_A"
+    },
+    {
+      "ref": "U1",
+      "pad": "C16",
+      "old": "DDR3_A10",
+      "new": "LPDDR4_CKE0_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "C17",
+      "old": "DDR3_ODT0",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "C18",
+      "old": "DDR3_A1",
+      "new": "LPDDR4_A2_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "C20",
+      "old": "DDR3_DQ18",
+      "new": "LPDDR4_DQ3_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "C22",
+      "old": "DDR3_DQ19",
+      "new": "LPDDR4_DQ6_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "C23",
+      "old": "DDR3_DQ21",
+      "new": "LPDDR4_DQ4_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "C26",
+      "old": "DDR3_DQ26",
+      "new": "LPDDR4_DQ8_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "C27",
+      "old": "DDR3_DQ30",
+      "new": "LPDDR4_DQ9_B"
+    },
+    {
+      "ref": "U1",
+      "pad": "D1",
+      "old": "unconnected-(U1H-I2S1_SDO0_M1-PadD1)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "D3",
+      "old": "unconnected-(U1H-I2C5_SDA_M0-PadD3)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "E1",
+      "old": "unconnected-(U1H-I2C5_SCL_M0-PadE1)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "E2",
+      "old": "unconnected-(U1J-I2S1_SDI0_M1-PadE2)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "F2",
+      "old": "unconnected-(U1J-I2S1_LRCK_M1-PadF2)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "G1",
+      "old": "unconnected-(U1J-I2S1_SCLK_M1-PadG1)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "G2",
+      "old": "unconnected-(U1J-I2S1_SDO2_M1-PadG2)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "G3",
+      "old": "unconnected-(U1J-I2S1_SDO1_M1-PadG3)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "H2",
+      "old": "unconnected-(U1J-I2S1_SDO3_M1-PadH2)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "H3",
+      "old": "unconnected-(U1J-I2S1_MCLK_M1-PadH3)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "H26",
+      "old": "unconnected-(U1J-EMMC_D6-PadH26)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "H27",
+      "old": "unconnected-(U1J-EMMC_D7-PadH27)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "J1",
+      "old": "unconnected-(U1J-I2S0_SDO1_M0-PadJ1)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "J2",
+      "old": "unconnected-(U1J-I2S0_SDI0_M0-PadJ2)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "K25",
+      "old": "unconnected-(U1J-EMMC_D5-PadK25)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "K26",
+      "old": "unconnected-(U1J-EMMC_D4-PadK26)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "L26",
+      "old": "unconnected-(U1K-EMMC_STRB-PadL26)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "M2",
+      "old": "unconnected-(U1K-VO_LCDC_HSYNC-PadM2)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "N25",
+      "old": "unconnected-(U1K-SDMMC0_D2-PadN25)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "N26",
+      "old": "unconnected-(U1K-SDMMC0_D3-PadN26)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "P2",
+      "old": "unconnected-(U1K-VO_LCDC_D6-PadP2)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "P3",
+      "old": "unconnected-(U1K-VO_LCDC_D5-PadP3)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "P25",
+      "old": "unconnected-(U1K-SDMMC0_CMD-PadP25)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "P27",
+      "old": "unconnected-(U1K-SDMMC0_CLK-PadP27)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "R1",
+      "old": "unconnected-(U1K-VO_LCDC_D10-PadR1)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "R2",
+      "old": "unconnected-(U1K-VO_LCDC_D11-PadR2)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "R3",
+      "old": "unconnected-(U1L-VO_LCDC_D7-PadR3)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "R25",
+      "old": "unconnected-(U1K-SDMMC0_D0-PadR25)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "R26",
+      "old": "unconnected-(U1L-SDMMC0_D1-PadR26)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "U1",
+      "old": "unconnected-(U1L-VO_LCDC_CLK-PadU1)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "V3",
+      "old": "unconnected-(U1L-VO_LCDC_D16-PadV3)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "V27",
+      "old": "unconnected-(U1L-I2S2_LRCK_M0-PadV27)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "W25",
+      "old": "unconnected-(U1L-I2S2_MCLK_M0-PadW25)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "W26",
+      "old": "unconnected-(U1L-I2S2_SCLK_M0-PadW26)",
+      "new": null
+    },
+    {
+      "ref": "U1",
+      "pad": "Y27",
+      "old": "unconnected-(U1L-UART1_CTSN_M0-PadY27)",
+      "new": null
+    },
+    {
+      "ref": "U9",
+      "pad": "6",
+      "old": "unconnected-(U9-N.C.-Pad6)",
+      "new": null
+    },
+    {
+      "ref": "U9",
+      "pad": "7",
+      "old": "unconnected-(U9-N.C.-Pad7)",
+      "new": null
+    },
+    {
+      "ref": "U9",
+      "pad": "9",
+      "old": "unconnected-(U9-N.C.-Pad9)",
+      "new": null
+    },
+    {
+      "ref": "U9",
+      "pad": "10",
+      "old": "unconnected-(U9-N.C.-Pad10)",
+      "new": null
+    },
+    {
+      "ref": "U20",
+      "pad": "4",
+      "old": "unconnected-(U20-N/C-Pad4)",
+      "new": null
+    },
+    {
+      "ref": "J2",
+      "pad": "11",
+      "old": "unconnected-(J2-Pad11)",
+      "new": null
+    },
+    {
+      "ref": "J2",
+      "pad": "12",
+      "old": "unconnected-(J2-Pad12)",
+      "new": null
+    },
+    {
+      "ref": "J2",
+      "pad": "13",
+      "old": "unconnected-(J2-Pad13)",
+      "new": null
+    },
+    {
+      "ref": "J2",
+      "pad": "14",
+      "old": "unconnected-(J2-Pad14)",
+      "new": null
+    },
+    {
+      "ref": "R1503",
+      "pad": "2",
+      "old": "GND",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "J1",
+      "pad": "A8",
+      "old": "unconnected-(J1-SBU1-PadA8)",
+      "new": null
+    },
+    {
+      "ref": "J1",
+      "pad": "B8",
+      "old": "unconnected-(J1-SBU2-PadB8)",
+      "new": null
+    },
+    {
+      "ref": "U4",
+      "pad": "18",
+      "old": "unconnected-(U4-SDO/PDMDATA-Pad18)",
+      "new": null
+    },
+    {
+      "ref": "U4",
+      "pad": "26",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "U4",
+      "pad": "32",
+      "old": "unconnected-(U4-SPKP_OUT-Pad32)",
+      "new": null
+    },
+    {
+      "ref": "U4",
+      "pad": "34",
+      "old": "unconnected-(U4-SPKN_OUT-Pad34)",
+      "new": null
+    },
+    {
+      "ref": "U4",
+      "pad": "35",
+      "old": "unconnected-(U4-VCC_CPVSS-Pad35)",
+      "new": null
+    },
+    {
+      "ref": "U4",
+      "pad": "36",
+      "old": "unconnected-(U4-CPN-Pad36)",
+      "new": null
+    },
+    {
+      "ref": "U4",
+      "pad": "37",
+      "old": "unconnected-(U4-CPP-Pad37)",
+      "new": null
+    },
+    {
+      "ref": "U4",
+      "pad": "38",
+      "old": "unconnected-(U4-VCC_CPVDD-Pad38)",
+      "new": null
+    },
+    {
+      "ref": "U4",
+      "pad": "39",
+      "old": "unconnected-(U4-HPL_OUT-Pad39)",
+      "new": null
+    },
+    {
+      "ref": "U4",
+      "pad": "41",
+      "old": "unconnected-(U4-HPR_OUT-Pad41)",
+      "new": null
+    },
+    {
+      "ref": "U4",
+      "pad": "42",
+      "old": "unconnected-(U4-MICIN-Pad42)",
+      "new": null
+    },
+    {
+      "ref": "U4",
+      "pad": "43",
+      "old": "unconnected-(U4-MICIP-Pad43)",
+      "new": null
+    },
+    {
+      "ref": "U4",
+      "pad": "50",
+      "old": "unconnected-(U4-XIN-Pad50)",
+      "new": null
+    },
+    {
+      "ref": "U4",
+      "pad": "51",
+      "old": "unconnected-(U4-XOUT-Pad51)",
+      "new": null
+    },
+    {
+      "ref": "U4",
+      "pad": "60",
+      "old": "unconnected-(U4-EXT_EN-Pad60)",
+      "new": null
+    },
+    {
+      "ref": "U4",
+      "pad": "68",
+      "old": "unconnected-(U4-CLK32K-Pad68)",
+      "new": null
+    },
+    {
+      "ref": "U5",
+      "pad": "31",
+      "old": "unconnected-(U5-INTB/PMEB-Pad31)",
+      "new": null
+    },
+    {
+      "ref": "U5",
+      "pad": "35",
+      "old": "unconnected-(U5-CLKOUT-Pad35)",
+      "new": null
+    },
+    {
+      "ref": "R201",
+      "pad": "1",
+      "old": "U2_ZQ_240R_TO_GND",
+      "new": "LPDDR4_ZQ_240R"
+    },
+    {
+      "ref": "R201",
+      "pad": "2",
+      "old": "GND",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1650",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1678",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1649",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1658",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1665",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1654",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1661",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1670",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1676",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1660",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1659",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1669",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1674",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1673",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1677",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1657",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1663",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1667",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1668",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1672",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1671",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1656",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1651",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1653",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "TP7",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1664",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1652",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1675",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1655",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1662",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1647",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1646",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "U25",
+      "pad": "4",
+      "old": "unconnected-(U25-NC-Pad4)",
+      "new": null
+    },
+    {
+      "ref": "U25",
+      "pad": "5",
+      "old": "unconnected-(U25-NC-Pad5)",
+      "new": null
+    },
+    {
+      "ref": "U25",
+      "pad": "7",
+      "old": "unconnected-(U25-BT_HOST_WAKE-Pad7)",
+      "new": null
+    },
+    {
+      "ref": "U25",
+      "pad": "8",
+      "old": "unconnected-(U25-NC-Pad8)",
+      "new": null
+    },
+    {
+      "ref": "U25",
+      "pad": "25",
+      "old": "unconnected-(U25-PCM_OUT-Pad25)",
+      "new": null
+    },
+    {
+      "ref": "U25",
+      "pad": "30",
+      "old": "unconnected-(U25-NC-Pad30)",
+      "new": null
+    },
+    {
+      "ref": "U25",
+      "pad": "32",
+      "old": "unconnected-(U25-NC-Pad32)",
+      "new": null
+    },
+    {
+      "ref": "U25",
+      "pad": "35",
+      "old": "unconnected-(U25-NC-Pad35)",
+      "new": null
+    },
+    {
+      "ref": "U25",
+      "pad": "37",
+      "old": "unconnected-(U25-GPIO_6-Pad37)",
+      "new": null
+    },
+    {
+      "ref": "U25",
+      "pad": "38",
+      "old": "unconnected-(U25-GPIO_3-Pad38)",
+      "new": null
+    },
+    {
+      "ref": "U25",
+      "pad": "39",
+      "old": "unconnected-(U25-GPIO_5-Pad39)",
+      "new": null
+    },
+    {
+      "ref": "U25",
+      "pad": "40",
+      "old": "unconnected-(U25-GPIO_2-Pad40)",
+      "new": null
+    },
+    {
+      "ref": "U25",
+      "pad": "41",
+      "old": "unconnected-(U25-UART_RTS_N-Pad41)",
+      "new": null
+    },
+    {
+      "ref": "U25",
+      "pad": "42",
+      "old": "unconnected-(U25-UART_TXD-Pad42)",
+      "new": null
+    },
+    {
+      "ref": "U25",
+      "pad": "45",
+      "old": "unconnected-(U25-TP1(NC)-Pad45)",
+      "new": null
+    },
+    {
+      "ref": "U25",
+      "pad": "46",
+      "old": "unconnected-(U25-TP2(NC)-Pad46)",
+      "new": null
+    },
+    {
+      "ref": "U25",
+      "pad": "47",
+      "old": "unconnected-(U25-TP3(NC)-Pad47)",
+      "new": null
+    },
+    {
+      "ref": "C1648",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    },
+    {
+      "ref": "C1666",
+      "pad": "1",
+      "old": "+1V5_DDR",
+      "new": "+1V1_LPDDR4"
+    }
+  ],
+  "placements": [
+    {
+      "ref": "U2",
+      "xy_mm": [
+        30,
+        9
+      ],
+      "angle_deg": 0,
+      "initial_overlap_count": 4
+    },
+    {
+      "ref": "R1815",
+      "old_xy_mm": [
+        28.5,
+        2.0
+      ],
+      "xy_mm": [
+        23,
+        4
+      ],
+      "reason": "unrouted component obstructing RAM envelope"
+    },
+    {
+      "ref": "R2014",
+      "old_xy_mm": [
+        26.0,
+        2.0
+      ],
+      "xy_mm": [
+        23,
+        6
+      ],
+      "reason": "unrouted component obstructing RAM envelope"
+    },
+    {
+      "ref": "U21",
+      "old_xy_mm": [
+        34.0,
+        6.0
+      ],
+      "xy_mm": [
+        25,
+        25
+      ],
+      "reason": "unrouted component obstructing RAM envelope"
+    },
+    {
+      "ref": "U20",
+      "old_xy_mm": [
+        33.0,
+        12.0
+      ],
+      "xy_mm": [
+        27,
+        32
+      ],
+      "reason": "unrouted component obstructing RAM envelope"
+    },
+    {
+      "ref": "C1661",
+      "old_xy_mm": [
+        27.5,
+        15.0
+      ],
+      "xy_mm": [
+        30.0,
+        13.5
+      ],
+      "reason": "clear RAM through-vias; unrouted bypass relocation"
+    },
+    {
+      "ref": "C1632",
+      "old_xy_mm": [
+        32.5,
+        15.0
+      ],
+      "xy_mm": [
+        30.0,
+        12.0
+      ],
+      "reason": "clear RAM through-vias; unrouted bypass relocation"
+    },
+    {
+      "ref": "C1672",
+      "old_xy_mm": [
+        27.5,
+        13.5
+      ],
+      "xy_mm": [
+        25.0,
+        12.0
+      ],
+      "reason": "clear RAM through-vias; unrouted bypass relocation"
+    },
+    {
+      "ref": "C1645",
+      "old_xy_mm": [
+        32.5,
+        13.5
+      ],
+      "xy_mm": [
+        32.5,
+        9.0
+      ],
+      "reason": "clear RAM through-vias; unrouted bypass relocation"
+    },
+    {
+      "ref": "C2301",
+      "xy_mm": [
+        24.5,
+        9.0
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "ref": "C2302",
+      "xy_mm": [
+        30.0,
+        9.0
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "ref": "C2303",
+      "xy_mm": [
+        27.5,
+        9.0
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "ref": "C2304",
+      "xy_mm": [
+        30.0,
+        6.5
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "ref": "C2305",
+      "xy_mm": [
+        24.5,
+        6.5
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "ref": "C2306",
+      "xy_mm": [
+        30.0,
+        5.0
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "ref": "C2307",
+      "xy_mm": [
+        30.0,
+        3.5
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "ref": "C2308",
+      "xy_mm": [
+        25.0,
+        4.5
+      ],
+      "layer": "B.Cu"
+    }
+  ],
+  "total_copper_items": 1838,
+  "new_ram_fanout_copper_items": 130,
+  "missing_footprints": [
+    "DS1"
+  ],
+  "limits": [
+    "Bounding-box screen only; DRC and mechanical review required",
+    "No DDR routing or SI qualification",
+    "Original 90x40 outline retained",
+    "No thermal or boot test"
+  ]
+}

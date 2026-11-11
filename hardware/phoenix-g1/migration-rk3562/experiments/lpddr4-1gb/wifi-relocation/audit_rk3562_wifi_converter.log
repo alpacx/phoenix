@@ -1,0 +1,89 @@
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+{
+  "status": "LOCAL COPPER CONTINUITY ONLY; BOARD STILL INCOMPLETE",
+  "pcb_sha256": "d2939e2595ba1699a65dabea04603424908e31fe735bb3c073c9d6e4e8bb8ae3",
+  "local_nets_complete": true,
+  "agnd_pgnd_and_power_caps_direct_front_to_ep": true,
+  "missing_direct_front_ground": [],
+  "front_power_connections": [
+    {
+      "from": "C2201.1",
+      "to": "U26.11",
+      "connected_on_front": true
+    },
+    {
+      "from": "C2202.1",
+      "to": "U26.10",
+      "connected_on_front": true
+    },
+    {
+      "from": "L2201.1",
+      "to": "U26.1",
+      "connected_on_front": true
+    },
+    {
+      "from": "L2201.2",
+      "to": "C2204.1",
+      "connected_on_front": true
+    }
+  ],
+  "local_grounds_continuous_to_usb_source": true,
+  "usb_main_switch_to_wifi_converter": true,
+  "power_good_to_system_enable": true,
+  "output_to_ferrite": true,
+  "ferrite_to_module_and_bypass": true,
+  "module_bypass_ground_to_usb": true,
+  "unconnected_module_ground_pads": [],
+  "module_buck_switch_connected": true,
+  "module_buck_output_connected": true,
+  "module_buck_cap_ground_to_usb": true,
+  "module_buck_switch_back_only_no_vias": true,
+  "vddio_local_bypass_connected": true,
+  "vddio_bypass_ground_to_usb": true,
+  "vddio_upstream_pmic_connected": true,
+  "lpo_source_to_series_resistor": true,
+  "lpo_series_resistor_to_module": true,
+  "lpo_source_ground_to_usb": true,
+  "lpo_local_bypass_connected": true,
+  "lpo_bypass_ground_to_usb": true,
+  "lpo_local_feed_from_module_io": true,
+  "lpo_source_power_from_pmic": true,
+  "component_pad_distances": [
+    {
+      "component": "C2201",
+      "target": "U26.11",
+      "pad_center_distance_mm": 2.2472,
+      "same_front_layer": true
+    },
+    {
+      "component": "C2202",
+      "target": "U26.10",
+      "pad_center_distance_mm": 2.1173,
+      "same_front_layer": true
+    },
+    {
+      "component": "C2203",
+      "target": "U26.9",
+      "pad_center_distance_mm": 3.2522,
+      "same_front_layer": true
+    },
+    {
+      "component": "C2204",
+      "target": "U26.14",
+      "pad_center_distance_mm": 4.4553,
+      "same_front_layer": true
+    },
+    {
+      "component": "R2203",
+      "target": "U26.5",
+      "pad_center_distance_mm": 2.6111,
+      "same_front_layer": true
+    }
+  ],
+  "limitations": [
+    "Continuity and center distances do not qualify loop inductance, stability, current or thermal limits.",
+    "Other main 5 V loads and signal paths remain outside this audit. VDDIO upstream continuity is reported separately from local bypass. Buck continuity does not qualify switching performance.",
+    "Three thermal vias are candidates; fill/plug, stencil and assembly process remain unqualified."
+  ],
+  "production_ready": false
+}

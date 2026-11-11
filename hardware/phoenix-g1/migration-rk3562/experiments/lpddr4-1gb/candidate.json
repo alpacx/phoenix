@@ -1,0 +1,39 @@
+{
+  "status": "DOCUMENTARY_DRAFT_NOT_CAD_RELEASE",
+  "soc": "RK3562",
+  "target_MiB": 1024,
+  "candidate": "H9HCNNN8KUMLHR-NME",
+  "jlc": "C2912103",
+  "signals_mapped": 67,
+  "unmapped_soc_functions": [
+    "LPDDR4_CKE1_A",
+    "LPDDR4_CKE1_B",
+    "LPDDR4_CS1N_A",
+    "LPDDR4_CS1N_B",
+    "LPDDR4_ODT1_CA_A",
+    "LPDDR4_ODT1_CA_B"
+  ],
+  "package_mm": [
+    10,
+    15
+  ],
+  "pitch_xy_mm": [
+    0.8,
+    0.65
+  ],
+  "rails_V": {
+    "VDD1": 1.8,
+    "VDD2": 1.1,
+    "VDDQ": 1.1
+  },
+  "shared_ZQ_ball": "A5",
+  "source_sha256": "0800dd016d9cd7936c4ff6379475aa20b823044f0a661f5a45c97e26dc8810ab",
+  "holds": [
+    "Visual independent ballout review",
+    "Full power/ground/NC/DNU map and footprint",
+    "PMIC rails and sequencing",
+    "Exact chip loader training qualification",
+    "PCB escape, length matching, SI and physical tests"
+  ],
+  "active_ddr3_cad_modified": false
+}

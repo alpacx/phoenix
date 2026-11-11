@@ -1,0 +1,52 @@
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+Endpoint C2204 start blocked False safe sites 239 accessible 30
+Endpoint FB2001 start blocked False safe sites 14 accessible 14
+{
+  "status": "CANDIDATE WIFI OUTPUT FEED; DRC AND CURRENT QUALIFICATION REQUIRED",
+  "pcb_sha256": "c58ac1eff941c75a347063c4557650b3c7f3693a193a3cad4b08d6cb02ace658",
+  "net": "+3V58_WIFI",
+  "trunk_layer": "In3.Cu",
+  "trunk_width_mm": 1.0,
+  "trunk_length_mm": 12.9219,
+  "via_land_drill_mm": [
+    0.6,
+    0.3
+  ],
+  "outer_stub_width_mm": 0.5,
+  "endpoint_vias": [
+    {
+      "via_xy_mm": [
+        47.35,
+        30.3
+      ],
+      "outer_stub_length_mm": 1.8828
+    },
+    {
+      "via_xy_mm": [
+        48.150000000000006,
+        29.900000000000002
+      ],
+      "outer_stub_length_mm": 1.6485
+    },
+    {
+      "via_xy_mm": [
+        50.300000000000004,
+        18.6
+      ],
+      "outer_stub_length_mm": 2.7439
+    },
+    {
+      "via_xy_mm": [
+        50.300000000000004,
+        17.8
+      ],
+      "outer_stub_length_mm": 3.5439
+    }
+  ],
+  "limitations": [
+    "Only C2204-to-FB2001 input; module side of ferrite remains incomplete.",
+    "Narrow IC necks, copper thickness, current sharing, via fill and temperature are not qualified.",
+    "No electrical simulation or hardware test."
+  ],
+  "production_ready": false
+}

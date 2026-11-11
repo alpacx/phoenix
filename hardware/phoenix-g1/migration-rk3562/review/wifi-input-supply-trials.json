@@ -1,0 +1,16 @@
+{
+  "status": "FINAL PARTIAL FEED ACCEPTED AFTER DRC; NOT CURRENT QUALIFIED",
+  "pcb_sha256": "5923611215ce2fd969e933b6e61e82f63b55c9d7db33ebe320bcb56612c3fa7c",
+  "rejected_trials": [
+    {
+      "stage": "route after signals",
+      "reason": "No accessible paired via sites with 0.5 mm outer traces; existing signal routing fenced in output."
+    },
+    {
+      "stage": "early reserved output fanout",
+      "reason": "Early DRC detected overlap with C1304 in its old position. Transaction restored prior generated outputs."
+    }
+  ],
+  "resolution": "Move unrouted C1304 toward its output inductor and capacitor bank; reserve source fanout before controls, then add 1.5 mm In3.Cu feed. Final DRC and physical continuity pass.",
+  "production_ready": false
+}

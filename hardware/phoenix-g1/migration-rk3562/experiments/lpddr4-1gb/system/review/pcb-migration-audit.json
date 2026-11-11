@@ -1,0 +1,70 @@
+{
+  "status": "PASS_PAD_NETS_AND_COPPER_PRESERVATION_NOT_RELEASE",
+  "pcb_sha256": "3f0aee938e21e1961453ef378948a655425727ef0fedd261bce8d10de1eb2e41",
+  "matched_pad_dispositions": 1776,
+  "missing_display_pads": [
+    [
+      "DS1",
+      "1"
+    ],
+    [
+      "DS1",
+      "10"
+    ],
+    [
+      "DS1",
+      "11"
+    ],
+    [
+      "DS1",
+      "12"
+    ],
+    [
+      "DS1",
+      "13"
+    ],
+    [
+      "DS1",
+      "2"
+    ],
+    [
+      "DS1",
+      "3"
+    ],
+    [
+      "DS1",
+      "4"
+    ],
+    [
+      "DS1",
+      "5"
+    ],
+    [
+      "DS1",
+      "6"
+    ],
+    [
+      "DS1",
+      "7"
+    ],
+    [
+      "DS1",
+      "8"
+    ],
+    [
+      "DS1",
+      "9"
+    ]
+  ],
+  "preserved_copper_items": 1708,
+  "added_ram_fanout_items": 130,
+  "drc_categories": {
+    "track_width": 1,
+    "via_dangling": 65,
+    "silk_edge_clearance": 1,
+    "silk_overlap": 3,
+    "silk_over_copper": 10
+  },
+  "unconnected_reported": 499,
+  "note": "499 unconnected report may be capped; RAM escape added, CPU and end-to-end DDR unrouted; footprint land approval pending"
+}

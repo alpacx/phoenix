@@ -1,0 +1,338 @@
+[
+  {
+    "ref": "L401",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "PMIC_SW1"
+  },
+  {
+    "ref": "L401",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "VDD_LOGIC"
+  },
+  {
+    "ref": "C421",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V3_SYS"
+  },
+  {
+    "ref": "C421",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C431",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VDD_LOGIC"
+  },
+  {
+    "ref": "C431",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C441",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VDD_LOGIC"
+  },
+  {
+    "ref": "C441",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "R421",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VDD_LOGIC"
+  },
+  {
+    "ref": "R421",
+    "pin": "2",
+    "pin_name": "",
+    "net": "VDD_LOGIC_COM"
+  },
+  {
+    "ref": "C451",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VDD_LOGIC"
+  },
+  {
+    "ref": "C451",
+    "pin": "2",
+    "pin_name": "",
+    "net": "VDD_LOGIC_COM"
+  },
+  {
+    "ref": "L402",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "PMIC_SW2"
+  },
+  {
+    "ref": "L402",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "VDD_GPU"
+  },
+  {
+    "ref": "C422",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V3_SYS"
+  },
+  {
+    "ref": "C422",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C432",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VDD_GPU"
+  },
+  {
+    "ref": "C432",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C442",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VDD_GPU"
+  },
+  {
+    "ref": "C442",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "R422",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VDD_GPU"
+  },
+  {
+    "ref": "R422",
+    "pin": "2",
+    "pin_name": "",
+    "net": "VDD_GPU_COM"
+  },
+  {
+    "ref": "C452",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VDD_GPU"
+  },
+  {
+    "ref": "C452",
+    "pin": "2",
+    "pin_name": "",
+    "net": "VDD_GPU_COM"
+  },
+  {
+    "ref": "L403",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "PMIC_SW3"
+  },
+  {
+    "ref": "L403",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "+1V1_LPDDR4"
+  },
+  {
+    "ref": "C423",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V3_SYS"
+  },
+  {
+    "ref": "C423",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C433",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+1V1_LPDDR4"
+  },
+  {
+    "ref": "C433",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C443",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+1V1_LPDDR4"
+  },
+  {
+    "ref": "C443",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "R431",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+1V1_LPDDR4"
+  },
+  {
+    "ref": "R431",
+    "pin": "2",
+    "pin_name": "",
+    "net": "DDR_FB"
+  },
+  {
+    "ref": "R432",
+    "pin": "1",
+    "pin_name": "",
+    "net": "DDR_FB"
+  },
+  {
+    "ref": "R432",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "L404",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "PMIC_SW4"
+  },
+  {
+    "ref": "L404",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "VDD_NPU"
+  },
+  {
+    "ref": "C424",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V3_SYS"
+  },
+  {
+    "ref": "C424",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C434",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VDD_NPU"
+  },
+  {
+    "ref": "C434",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C444",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VDD_NPU"
+  },
+  {
+    "ref": "C444",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "R424",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VDD_NPU"
+  },
+  {
+    "ref": "R424",
+    "pin": "2",
+    "pin_name": "",
+    "net": "VDD_NPU_COM"
+  },
+  {
+    "ref": "C454",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VDD_NPU"
+  },
+  {
+    "ref": "C454",
+    "pin": "2",
+    "pin_name": "",
+    "net": "VDD_NPU_COM"
+  },
+  {
+    "ref": "L405",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "PMIC_SW5"
+  },
+  {
+    "ref": "L405",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "+1V8_SYS"
+  },
+  {
+    "ref": "C425",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V3_SYS"
+  },
+  {
+    "ref": "C425",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C435",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+1V8_SYS"
+  },
+  {
+    "ref": "C435",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C445",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+1V8_SYS"
+  },
+  {
+    "ref": "C445",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  }
+]

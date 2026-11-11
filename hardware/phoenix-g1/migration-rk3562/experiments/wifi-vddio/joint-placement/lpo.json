@@ -1,0 +1,32 @@
+{
+  "status": "CANDIDATE CLOCK SIGNAL COPPER; NOT A WORKING CLOCK SOURCE",
+  "pcb_sha256": "88444b810227f40eeca7de3159e4115f9ac002089d55bf099edefec1070df1b3",
+  "source_net_length_mm": 2.5192,
+  "load_net_segment_lengths_mm": {
+    "F.Cu": 0.81,
+    "In2.Cu": 22.1814,
+    "B.Cu": 3.8681
+  },
+  "via_xy_mm": [
+    [
+      57.75,
+      23.3
+    ],
+    [
+      35.9,
+      22.5
+    ]
+  ],
+  "added_oscillator_ground_vias_xy_mm": [],
+  "trace_width_mm": 0.2,
+  "via_land_drill_mm": [
+    0.45,
+    0.2
+  ],
+  "limitations": [
+    "Oscillator power and bypass remain incomplete; source ground continuity is checked separately.",
+    "Accuracy, jitter, startup, edge integrity and module timing have not been measured.",
+    "No simulation or physical test; no operational Wi-Fi claim."
+  ],
+  "production_ready": false
+}

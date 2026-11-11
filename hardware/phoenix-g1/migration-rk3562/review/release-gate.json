@@ -1,6 +1,6 @@
 {
   "status": "BLOCKED FOR FABRICATION",
-  "pcb_sha256": "f50547ffec81b5f555ee4fde4fde5caf679819d2181682155f5267a468e23765",
+  "pcb_sha256": "ae2c3669257f512f3df43813de25eaaf73359c23774c1af9be822e4194bf42b9",
   "checks": {
     "courtyard_pad_enclosure": true,
     "geometric_drc": true,
@@ -13,6 +13,27 @@
     "usb_aon_supply": true,
     "usb_guard_to_main": true,
     "usb_input_power_chain": true,
+    "wifi_converter_local_nets": true,
+    "wifi_converter_direct_front_ground": true,
+    "wifi_converter_front_power": true,
+    "usb_main_switch_to_wifi_converter": true,
+    "wifi_power_good_to_system_enable": true,
+    "wifi_converter_source_ground": true,
+    "wifi_output_to_ferrite": true,
+    "wifi_ferrite_to_module_and_bypass": true,
+    "wifi_module_bypass_ground": true,
+    "wifi_all_module_grounds": true,
+    "wifi_module_buck_switch": true,
+    "wifi_module_buck_output": true,
+    "wifi_module_buck_cap_ground": true,
+    "wifi_module_buck_switch_back_only": true,
+    "wifi_vddio_local_bypass": false,
+    "wifi_vddio_bypass_ground": false,
+    "wifi_vddio_upstream_pmic": false,
+    "wifi_lpo_source_signal": true,
+    "wifi_lpo_module_signal": true,
+    "wifi_lpo_source_ground": true,
+    "wifi_lpo_source_power": false,
     "all_board_connections": false,
     "all_physical_pads_present": false,
     "all_soc_pin_decisions": false
@@ -28,7 +49,7 @@
     "Via filling/plugging and stencil process; assembly quotation"
   ],
   "required_external_input": "RK3562-specific manufacturer design/layout/package documents or written supplier confirmation. See manufacturer-information-request.txt.",
-  "unconnected_ratsnest_edges": 1178,
+  "unconnected_ratsnest_edges": 1122,
   "production_ready": false,
   "gerbers_released": false
 }

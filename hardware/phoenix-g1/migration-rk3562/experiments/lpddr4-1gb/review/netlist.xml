@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/lpddr4-1gb/kicad/lpddr4-memory-candidate.kicad_sch</source>
+    <date>2026-11-10T12:05:23</date>
+    <tool>Eeschema 10.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Phoenix RK3562 - LPDDR4 1 GB candidate</title>
+        <company/>
+        <rev>DRAFT</rev>
+        <date/>
+        <source>lpddr4-memory-candidate.kicad_sch</source>
+        <comment number="1" value="Not for fabrication"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R201">
+      <value>240R 1% candidate</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_LPDDR4" part="R" description="Resistor"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="lpddr4-memory-candidate"/>
+      <property name="Sheetfile" value="lpddr4-memory-candidate.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4d128aa-3ee2-5e03-8094-3867b9116cf8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>H9HCNNN8KUMLHR_NME_DRAFT</value>
+      <footprint>Phoenix_LPDDR4_Draft:H9HCNNN8KUMLHR_FBGA200_10x15_P0.8x0.65_DRAFT</footprint>
+      <fields>
+        <field name="MPN">H9HCNNN8KUMLHR-NME</field>
+        <field name="Footprint">Phoenix_LPDDR4_Draft:H9HCNNN8KUMLHR_FBGA200_10x15_P0.8x0.65_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_LPDDR4" part="H9HCNNN8KUMLHR_NME_DRAFT" description=""/>
+      <property name="MPN" value="H9HCNNN8KUMLHR-NME"/>
+      <property name="Sheetname" value="lpddr4-memory-candidate"/>
+      <property name="Sheetfile" value="lpddr4-memory-candidate.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c58e4ecd-c2e6-5d2e-9e6e-7f52c1032157 bd1dfb03-4dcd-5cad-b949-1a77263f4925 675762aa-b42a-5c46-be99-98e5990172e4 153d2549-0d2f-5a36-9772-06cdb8dd20cb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="B2"/>
+            <pin num="B9"/>
+            <pin num="C2"/>
+            <pin num="C4"/>
+            <pin num="C10"/>
+            <pin num="D3"/>
+            <pin num="E2"/>
+            <pin num="E4"/>
+            <pin num="E10"/>
+            <pin num="F2"/>
+            <pin num="F9"/>
+            <pin num="G2"/>
+            <pin num="H4"/>
+            <pin num="H10"/>
+            <pin num="J2"/>
+            <pin num="J8"/>
+            <pin num="J11"/>
+            <pin num="B4"/>
+            <pin num="B11"/>
+            <pin num="C3"/>
+            <pin num="C9"/>
+            <pin num="C11"/>
+            <pin num="D10"/>
+            <pin num="E3"/>
+            <pin num="E9"/>
+            <pin num="E11"/>
+            <pin num="F4"/>
+            <pin num="F11"/>
+            <pin num="H2"/>
+            <pin num="H9"/>
+            <pin num="H11"/>
+            <pin num="J4"/>
+            <pin num="J9"/>
+          </pins>
+        </unit>
+        <unit name="B">
+          <pins>
+            <pin num="P2"/>
+            <pin num="P8"/>
+            <pin num="P11"/>
+            <pin num="R4"/>
+            <pin num="R10"/>
+            <pin num="T2"/>
+            <pin num="U4"/>
+            <pin num="U11"/>
+            <pin num="V3"/>
+            <pin num="V9"/>
+            <pin num="V11"/>
+            <pin num="W10"/>
+            <pin num="Y3"/>
+            <pin num="Y9"/>
+            <pin num="Y11"/>
+            <pin num="AA4"/>
+            <pin num="AA11"/>
+            <pin num="P4"/>
+            <pin num="P9"/>
+            <pin num="R2"/>
+            <pin num="R9"/>
+            <pin num="R11"/>
+            <pin num="U2"/>
+            <pin num="U9"/>
+            <pin num="V2"/>
+            <pin num="V4"/>
+            <pin num="V10"/>
+            <pin num="W3"/>
+            <pin num="Y2"/>
+            <pin num="Y4"/>
+            <pin num="Y10"/>
+            <pin num="AA2"/>
+            <pin num="AA9"/>
+          </pins>
+        </unit>
+        <unit name="C">
+          <pins>
+            <pin num="A4"/>
+            <pin num="B3"/>
+            <pin num="B8"/>
+            <pin num="D1"/>
+            <pin num="D8"/>
+            <pin num="F1"/>
+            <pin num="F5"/>
+            <pin num="F10"/>
+            <pin num="G4"/>
+            <pin num="H1"/>
+            <pin num="H8"/>
+            <pin num="K1"/>
+            <pin num="K10"/>
+            <pin num="N1"/>
+            <pin num="N10"/>
+            <pin num="R1"/>
+            <pin num="R8"/>
+            <pin num="T4"/>
+            <pin num="U1"/>
+            <pin num="U5"/>
+            <pin num="U10"/>
+            <pin num="W1"/>
+            <pin num="W8"/>
+            <pin num="AA3"/>
+            <pin num="AA8"/>
+            <pin num="AB4"/>
+            <pin num="A9"/>
+            <pin num="B5"/>
+            <pin num="B10"/>
+            <pin num="D5"/>
+            <pin num="D12"/>
+            <pin num="F3"/>
+            <pin num="F8"/>
+            <pin num="F12"/>
+            <pin num="G9"/>
+            <pin num="H5"/>
+            <pin num="H12"/>
+            <pin num="K3"/>
+            <pin num="K12"/>
+            <pin num="N3"/>
+            <pin num="N12"/>
+            <pin num="R5"/>
+            <pin num="R12"/>
+            <pin num="T9"/>
+            <pin num="U3"/>
+            <pin num="U8"/>
+            <pin num="U12"/>
+            <pin num="W5"/>
+            <pin num="W12"/>
+            <pin num="AA5"/>
+            <pin num="AA10"/>
+            <pin num="AB9"/>
+          </pins>
+        </unit>
+        <unit name="D">
+          <pins>
+            <pin num="A1"/>
+            <pin num="A3"/>
+            <pin num="A8"/>
+            <pin num="A11"/>
+            <pin num="B1"/>
+            <pin num="C1"/>
+            <pin num="C8"/>
+            <pin num="D2"/>
+            <pin num="D9"/>
+            <pin num="E1"/>
+            <pin num="E8"/>
+            <pin num="G1"/>
+            <pin num="G5"/>
+            <pin num="G10"/>
+            <pin num="G12"/>
+            <pin num="J1"/>
+            <pin num="J5"/>
+            <pin num="J12"/>
+            <pin num="K4"/>
+            <pin num="K8"/>
+            <pin num="K11"/>
+            <pin num="N4"/>
+            <pin num="N8"/>
+            <pin num="N11"/>
+            <pin num="P3"/>
+            <pin num="P10"/>
+            <pin num="R3"/>
+            <pin num="T3"/>
+            <pin num="T8"/>
+            <pin num="T11"/>
+            <pin num="V1"/>
+            <pin num="V8"/>
+            <pin num="W2"/>
+            <pin num="W9"/>
+            <pin num="Y1"/>
+            <pin num="Y8"/>
+            <pin num="AA1"/>
+            <pin num="AB1"/>
+            <pin num="AB3"/>
+            <pin num="AB8"/>
+            <pin num="AB11"/>
+            <pin num="A2"/>
+            <pin num="A5"/>
+            <pin num="A10"/>
+            <pin num="A12"/>
+            <pin num="B12"/>
+            <pin num="C5"/>
+            <pin num="C12"/>
+            <pin num="D4"/>
+            <pin num="D11"/>
+            <pin num="E5"/>
+            <pin num="E12"/>
+            <pin num="G3"/>
+            <pin num="G8"/>
+            <pin num="G11"/>
+            <pin num="H3"/>
+            <pin num="J3"/>
+            <pin num="J10"/>
+            <pin num="K2"/>
+            <pin num="K5"/>
+            <pin num="K9"/>
+            <pin num="N2"/>
+            <pin num="N5"/>
+            <pin num="N9"/>
+            <pin num="P1"/>
+            <pin num="P5"/>
+            <pin num="P12"/>
+            <pin num="T1"/>
+            <pin num="T5"/>
+            <pin num="T10"/>
+            <pin num="T12"/>
+            <pin num="V5"/>
+            <pin num="V12"/>
+            <pin num="W4"/>
+            <pin num="W11"/>
+            <pin num="Y5"/>
+            <pin num="Y12"/>
+            <pin num="AA12"/>
+            <pin num="AB2"/>
+            <pin num="AB5"/>
+            <pin num="AB10"/>
+            <pin num="AB12"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Phoenix_LPDDR4" part="H9HCNNN8KUMLHR_NME_DRAFT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">H9HCNNN8KUMLHR_NME_DRAFT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="A1" name="DNU" type="no_connect"/>
+        <pin num="A2" name="DNU" type="no_connect"/>
+        <pin num="A3" name="VSS" type="power_in"/>
+        <pin num="A4" name="VDD2" type="power_in"/>
+        <pin num="A5" name="ZQ0" type="passive"/>
+        <pin num="A8" name="NC" type="no_connect"/>
+        <pin num="A9" name="VDD2" type="power_in"/>
+        <pin num="A10" name="VSS" type="power_in"/>
+        <pin num="A11" name="DNU" type="no_connect"/>
+        <pin num="A12" name="DNU" type="no_connect"/>
+        <pin num="AA1" name="DNU" type="no_connect"/>
+        <pin num="AA2" name="DQ0_B" type="bidirectional"/>
+        <pin num="AA3" name="VDDQ" type="power_in"/>
+        <pin num="AA4" name="DQ7_B" type="bidirectional"/>
+        <pin num="AA5" name="VDDQ" type="power_in"/>
+        <pin num="AA8" name="VDDQ" type="power_in"/>
+        <pin num="AA9" name="DQ15_B" type="bidirectional"/>
+        <pin num="AA10" name="VDDQ" type="power_in"/>
+        <pin num="AA11" name="DQ8_B" type="bidirectional"/>
+        <pin num="AA12" name="DNU" type="no_connect"/>
+        <pin num="AB1" name="DNU" type="no_connect"/>
+        <pin num="AB2" name="DNU" type="no_connect"/>
+        <pin num="AB3" name="VSS" type="power_in"/>
+        <pin num="AB4" name="VDD2" type="power_in"/>
+        <pin num="AB5" name="VSS" type="power_in"/>
+        <pin num="AB8" name="VSS" type="power_in"/>
+        <pin num="AB9" name="VDD2" type="power_in"/>
+        <pin num="AB10" name="VSS" type="power_in"/>
+        <pin num="AB11" name="DNU" type="no_connect"/>
+        <pin num="AB12" name="DNU" type="no_connect"/>
+        <pin num="B1" name="DNU" type="no_connect"/>
+        <pin num="B2" name="DQ0_A" type="bidirectional"/>
+        <pin num="B3" name="VDDQ" type="power_in"/>
+        <pin num="B4" name="DQ7_A" type="bidirectional"/>
+        <pin num="B5" name="VDDQ" type="power_in"/>
+        <pin num="B8" name="VDDQ" type="power_in"/>
+        <pin num="B9" name="DQ15_A" type="bidirectional"/>
+        <pin num="B10" name="VDDQ" type="power_in"/>
+        <pin num="B11" name="DQ8_A" type="bidirectional"/>
+        <pin num="B12" name="DNU" type="no_connect"/>
+        <pin num="C1" name="VSS" type="power_in"/>
+        <pin num="C2" name="DQ1_A" type="bidirectional"/>
+        <pin num="C3" name="DMI0_A" type="bidirectional"/>
+        <pin num="C4" name="DQ6_A" type="bidirectional"/>
+        <pin num="C5" name="VSS" type="power_in"/>
+        <pin num="C8" name="VSS" type="power_in"/>
+        <pin num="C9" name="DQ14_A" type="bidirectional"/>
+        <pin num="C10" name="DMI1_A" type="bidirectional"/>
+        <pin num="C11" name="DQ9_A" type="bidirectional"/>
+        <pin num="C12" name="VSS" type="power_in"/>
+        <pin num="D1" name="VDDQ" type="power_in"/>
+        <pin num="D2" name="VSS" type="power_in"/>
+        <pin num="D3" name="DQS0P_A" type="bidirectional"/>
+        <pin num="D4" name="VSS" type="power_in"/>
+        <pin num="D5" name="VDDQ" type="power_in"/>
+        <pin num="D8" name="VDDQ" type="power_in"/>
+        <pin num="D9" name="VSS" type="power_in"/>
+        <pin num="D10" name="DQS1P_A" type="bidirectional"/>
+        <pin num="D11" name="VSS" type="power_in"/>
+        <pin num="D12" name="VDDQ" type="power_in"/>
+        <pin num="E1" name="VSS" type="power_in"/>
+        <pin num="E2" name="DQ2_A" type="bidirectional"/>
+        <pin num="E3" name="DQS0N_A" type="bidirectional"/>
+        <pin num="E4" name="DQ5_A" type="bidirectional"/>
+        <pin num="E5" name="VSS" type="power_in"/>
+        <pin num="E8" name="VSS" type="power_in"/>
+        <pin num="E9" name="DQ13_A" type="bidirectional"/>
+        <pin num="E10" name="DQS1N_A" type="bidirectional"/>
+        <pin num="E11" name="DQ10_A" type="bidirectional"/>
+        <pin num="E12" name="VSS" type="power_in"/>
+        <pin num="F1" name="VDD1" type="power_in"/>
+        <pin num="F2" name="DQ3_A" type="bidirectional"/>
+        <pin num="F3" name="VDDQ" type="power_in"/>
+        <pin num="F4" name="DQ4_A" type="bidirectional"/>
+        <pin num="F5" name="VDD2" type="power_in"/>
+        <pin num="F8" name="VDD2" type="power_in"/>
+        <pin num="F9" name="DQ12_A" type="bidirectional"/>
+        <pin num="F10" name="VDDQ" type="power_in"/>
+        <pin num="F11" name="DQ11_A" type="bidirectional"/>
+        <pin num="F12" name="VDD1" type="power_in"/>
+        <pin num="G1" name="VSS" type="power_in"/>
+        <pin num="G2" name="ODT0_CA_A" type="input"/>
+        <pin num="G3" name="VSS" type="power_in"/>
+        <pin num="G4" name="VDD1" type="power_in"/>
+        <pin num="G5" name="VSS" type="power_in"/>
+        <pin num="G8" name="VSS" type="power_in"/>
+        <pin num="G9" name="VDD1" type="power_in"/>
+        <pin num="G10" name="VSS" type="power_in"/>
+        <pin num="G11" name="NC" type="no_connect"/>
+        <pin num="G12" name="VSS" type="power_in"/>
+        <pin num="H1" name="VDD2" type="power_in"/>
+        <pin num="H2" name="A0_A" type="input"/>
+        <pin num="H3" name="NC" type="no_connect"/>
+        <pin num="H4" name="CS0N_A" type="input"/>
+        <pin num="H5" name="VDD2" type="power_in"/>
+        <pin num="H8" name="VDD2" type="power_in"/>
+        <pin num="H9" name="A2_A" type="input"/>
+        <pin num="H10" name="A3_A" type="input"/>
+        <pin num="H11" name="A4_A" type="input"/>
+        <pin num="H12" name="VDD2" type="power_in"/>
+        <pin num="J1" name="VSS" type="power_in"/>
+        <pin num="J2" name="A1_A" type="input"/>
+        <pin num="J3" name="VSS" type="power_in"/>
+        <pin num="J4" name="CKE0_A" type="input"/>
+        <pin num="J5" name="NC" type="no_connect"/>
+        <pin num="J8" name="CLKP_A" type="input"/>
+        <pin num="J9" name="CLKN_A" type="input"/>
+        <pin num="J10" name="VSS" type="power_in"/>
+        <pin num="J11" name="A5_A" type="input"/>
+        <pin num="J12" name="VSS" type="power_in"/>
+        <pin num="K1" name="VDD2" type="power_in"/>
+        <pin num="K2" name="VSS" type="power_in"/>
+        <pin num="K3" name="VDD2" type="power_in"/>
+        <pin num="K4" name="VSS" type="power_in"/>
+        <pin num="K5" name="NC" type="no_connect"/>
+        <pin num="K8" name="NC" type="no_connect"/>
+        <pin num="K9" name="VSS" type="power_in"/>
+        <pin num="K10" name="VDD2" type="power_in"/>
+        <pin num="K11" name="VSS" type="power_in"/>
+        <pin num="K12" name="VDD2" type="power_in"/>
+        <pin num="N1" name="VDD2" type="power_in"/>
+        <pin num="N2" name="VSS" type="power_in"/>
+        <pin num="N3" name="VDD2" type="power_in"/>
+        <pin num="N4" name="VSS" type="power_in"/>
+        <pin num="N5" name="NC" type="no_connect"/>
+        <pin num="N8" name="NC" type="no_connect"/>
+        <pin num="N9" name="VSS" type="power_in"/>
+        <pin num="N10" name="VDD2" type="power_in"/>
+        <pin num="N11" name="VSS" type="power_in"/>
+        <pin num="N12" name="VDD2" type="power_in"/>
+        <pin num="P1" name="VSS" type="power_in"/>
+        <pin num="P2" name="A1_B" type="input"/>
+        <pin num="P3" name="VSS" type="power_in"/>
+        <pin num="P4" name="CKE0_B" type="input"/>
+        <pin num="P5" name="NC" type="no_connect"/>
+        <pin num="P8" name="CLKP_B" type="input"/>
+        <pin num="P9" name="CLKN_B" type="input"/>
+        <pin num="P10" name="VSS" type="power_in"/>
+        <pin num="P11" name="A5_B" type="input"/>
+        <pin num="P12" name="VSS" type="power_in"/>
+        <pin num="R1" name="VDD2" type="power_in"/>
+        <pin num="R2" name="A0_B" type="input"/>
+        <pin num="R3" name="NC" type="no_connect"/>
+        <pin num="R4" name="CS0N_B" type="input"/>
+        <pin num="R5" name="VDD2" type="power_in"/>
+        <pin num="R8" name="VDD2" type="power_in"/>
+        <pin num="R9" name="A2_B" type="input"/>
+        <pin num="R10" name="A3_B" type="input"/>
+        <pin num="R11" name="A4_B" type="input"/>
+        <pin num="R12" name="VDD2" type="power_in"/>
+        <pin num="T1" name="VSS" type="power_in"/>
+        <pin num="T2" name="ODT0_CA_B" type="input"/>
+        <pin num="T3" name="VSS" type="power_in"/>
+        <pin num="T4" name="VDD1" type="power_in"/>
+        <pin num="T5" name="VSS" type="power_in"/>
+        <pin num="T8" name="VSS" type="power_in"/>
+        <pin num="T9" name="VDD1" type="power_in"/>
+        <pin num="T10" name="VSS" type="power_in"/>
+        <pin num="T11" name="RESETN" type="input"/>
+        <pin num="T12" name="VSS" type="power_in"/>
+        <pin num="U1" name="VDD1" type="power_in"/>
+        <pin num="U2" name="DQ3_B" type="bidirectional"/>
+        <pin num="U3" name="VDDQ" type="power_in"/>
+        <pin num="U4" name="DQ4_B" type="bidirectional"/>
+        <pin num="U5" name="VDD2" type="power_in"/>
+        <pin num="U8" name="VDD2" type="power_in"/>
+        <pin num="U9" name="DQ12_B" type="bidirectional"/>
+        <pin num="U10" name="VDDQ" type="power_in"/>
+        <pin num="U11" name="DQ11_B" type="bidirectional"/>
+        <pin num="U12" name="VDD1" type="power_in"/>
+        <pin num="V1" name="VSS" type="power_in"/>
+        <pin num="V2" name="DQ2_B" type="bidirectional"/>
+        <pin num="V3" name="DQS0N_B" type="bidirectional"/>
+        <pin num="V4" name="DQ5_B" type="bidirectional"/>
+        <pin num="V5" name="VSS" type="power_in"/>
+        <pin num="V8" name="VSS" type="power_in"/>
+        <pin num="V9" name="DQ13_B" type="bidirectional"/>
+        <pin num="V10" name="DQS1N_B" type="bidirectional"/>
+        <pin num="V11" name="DQ10_B" type="bidirectional"/>
+        <pin num="V12" name="VSS" type="power_in"/>
+        <pin num="W1" name="VDDQ" type="power_in"/>
+        <pin num="W2" name="VSS" type="power_in"/>
+        <pin num="W3" name="DQS0P_B" type="bidirectional"/>
+        <pin num="W4" name="VSS" type="power_in"/>
+        <pin num="W5" name="VDDQ" type="power_in"/>
+        <pin num="W8" name="VDDQ" type="power_in"/>
+        <pin num="W9" name="VSS" type="power_in"/>
+        <pin num="W10" name="DQS1P_B" type="bidirectional"/>
+        <pin num="W11" name="VSS" type="power_in"/>
+        <pin num="W12" name="VDDQ" type="power_in"/>
+        <pin num="Y1" name="VSS" type="power_in"/>
+        <pin num="Y2" name="DQ1_B" type="bidirectional"/>
+        <pin num="Y3" name="DMI0_B" type="bidirectional"/>
+        <pin num="Y4" name="DQ6_B" type="bidirectional"/>
+        <pin num="Y5" name="VSS" type="power_in"/>
+        <pin num="Y8" name="VSS" type="power_in"/>
+        <pin num="Y9" name="DQ14_B" type="bidirectional"/>
+        <pin num="Y10" name="DMI1_B" type="bidirectional"/>
+        <pin num="Y11" name="DQ9_B" type="bidirectional"/>
+        <pin num="Y12" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phoenix_LPDDR4" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Phoenix_LPDDR4">
+      <uri>${KIPRJMOD}/Phoenix_LPDDR4.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+1V1_LPDDR4" class="Default">
+      <node ref="R201" pin="2" pintype="passive"/>
+      <node ref="U2" pin="A4" pinfunction="VDD2_A4" pintype="power_in"/>
+      <node ref="U2" pin="A9" pinfunction="VDD2_A9" pintype="power_in"/>
+      <node ref="U2" pin="AA10" pinfunction="VDDQ_AA10" pintype="power_in"/>
+      <node ref="U2" pin="AA3" pinfunction="VDDQ_AA3" pintype="power_in"/>
+      <node ref="U2" pin="AA5" pinfunction="VDDQ_AA5" pintype="power_in"/>
+      <node ref="U2" pin="AA8" pinfunction="VDDQ_AA8" pintype="power_in"/>
+      <node ref="U2" pin="AB4" pinfunction="VDD2_AB4" pintype="power_in"/>
+      <node ref="U2" pin="AB9" pinfunction="VDD2_AB9" pintype="power_in"/>
+      <node ref="U2" pin="B10" pinfunction="VDDQ_B10" pintype="power_in"/>
+      <node ref="U2" pin="B3" pinfunction="VDDQ_B3" pintype="power_in"/>
+      <node ref="U2" pin="B5" pinfunction="VDDQ_B5" pintype="power_in"/>
+      <node ref="U2" pin="B8" pinfunction="VDDQ_B8" pintype="power_in"/>
+      <node ref="U2" pin="D1" pinfunction="VDDQ_D1" pintype="power_in"/>
+      <node ref="U2" pin="D12" pinfunction="VDDQ_D12" pintype="power_in"/>
+      <node ref="U2" pin="D5" pinfunction="VDDQ_D5" pintype="power_in"/>
+      <node ref="U2" pin="D8" pinfunction="VDDQ_D8" pintype="power_in"/>
+      <node ref="U2" pin="F10" pinfunction="VDDQ_F10" pintype="power_in"/>
+      <node ref="U2" pin="F3" pinfunction="VDDQ_F3" pintype="power_in"/>
+      <node ref="U2" pin="F5" pinfunction="VDD2_F5" pintype="power_in"/>
+      <node ref="U2" pin="F8" pinfunction="VDD2_F8" pintype="power_in"/>
+      <node ref="U2" pin="H1" pinfunction="VDD2_H1" pintype="power_in"/>
+      <node ref="U2" pin="H12" pinfunction="VDD2_H12" pintype="power_in"/>
+      <node ref="U2" pin="H5" pinfunction="VDD2_H5" pintype="power_in"/>
+      <node ref="U2" pin="H8" pinfunction="VDD2_H8" pintype="power_in"/>
+      <node ref="U2" pin="K1" pinfunction="VDD2_K1" pintype="power_in"/>
+      <node ref="U2" pin="K10" pinfunction="VDD2_K10" pintype="power_in"/>
+      <node ref="U2" pin="K12" pinfunction="VDD2_K12" pintype="power_in"/>
+      <node ref="U2" pin="K3" pinfunction="VDD2_K3" pintype="power_in"/>
+      <node ref="U2" pin="N1" pinfunction="VDD2_N1" pintype="power_in"/>
+      <node ref="U2" pin="N10" pinfunction="VDD2_N10" pintype="power_in"/>
+      <node ref="U2" pin="N12" pinfunction="VDD2_N12" pintype="power_in"/>
+      <node ref="U2" pin="N3" pinfunction="VDD2_N3" pintype="power_in"/>
+      <node ref="U2" pin="R1" pinfunction="VDD2_R1" pintype="power_in"/>
+      <node ref="U2" pin="R12" pinfunction="VDD2_R12" pintype="power_in"/>
+      <node ref="U2" pin="R5" pinfunction="VDD2_R5" pintype="power_in"/>
+      <node ref="U2" pin="R8" pinfunction="VDD2_R8" pintype="power_in"/>
+      <node ref="U2" pin="U10" pinfunction="VDDQ_U10" pintype="power_in"/>
+      <node ref="U2" pin="U3" pinfunction="VDDQ_U3" pintype="power_in"/>
+      <node ref="U2" pin="U5" pinfunction="VDD2_U5" pintype="power_in"/>
+      <node ref="U2" pin="U8" pinfunction="VDD2_U8" pintype="power_in"/>
+      <node ref="U2" pin="W1" pinfunction="VDDQ_W1" pintype="power_in"/>
+      <node ref="U2" pin="W12" pinfunction="VDDQ_W12" pintype="power_in"/>
+      <node ref="U2" pin="W5" pinfunction="VDDQ_W5" pintype="power_in"/>
+      <node ref="U2" pin="W8" pinfunction="VDDQ_W8" pintype="power_in"/>
+    </net>
+    <net code="2" name="/+1V8_LPDDR4" class="Default">
+      <node ref="U2" pin="F1" pinfunction="VDD1_F1" pintype="power_in"/>
+      <node ref="U2" pin="F12" pinfunction="VDD1_F12" pintype="power_in"/>
+      <node ref="U2" pin="G4" pinfunction="VDD1_G4" pintype="power_in"/>
+      <node ref="U2" pin="G9" pinfunction="VDD1_G9" pintype="power_in"/>
+      <node ref="U2" pin="T4" pinfunction="VDD1_T4" pintype="power_in"/>
+      <node ref="U2" pin="T9" pinfunction="VDD1_T9" pintype="power_in"/>
+      <node ref="U2" pin="U1" pinfunction="VDD1_U1" pintype="power_in"/>
+      <node ref="U2" pin="U12" pinfunction="VDD1_U12" pintype="power_in"/>
+    </net>
+    <net code="3" name="/GND" class="Default">
+      <node ref="U2" pin="A10" pinfunction="VSS_A10" pintype="power_in"/>
+      <node ref="U2" pin="A3" pinfunction="VSS_A3" pintype="power_in"/>
+      <node ref="U2" pin="AB10" pinfunction="VSS_AB10" pintype="power_in"/>
+      <node ref="U2" pin="AB3" pinfunction="VSS_AB3" pintype="power_in"/>
+      <node ref="U2" pin="AB5" pinfunction="VSS_AB5" pintype="power_in"/>
+      <node ref="U2" pin="AB8" pinfunction="VSS_AB8" pintype="power_in"/>
+      <node ref="U2" pin="C1" pinfunction="VSS_C1" pintype="power_in"/>
+      <node ref="U2" pin="C12" pinfunction="VSS_C12" pintype="power_in"/>
+      <node ref="U2" pin="C5" pinfunction="VSS_C5" pintype="power_in"/>
+      <node ref="U2" pin="C8" pinfunction="VSS_C8" pintype="power_in"/>
+      <node ref="U2" pin="D11" pinfunction="VSS_D11" pintype="power_in"/>
+      <node ref="U2" pin="D2" pinfunction="VSS_D2" pintype="power_in"/>
+      <node ref="U2" pin="D4" pinfunction="VSS_D4" pintype="power_in"/>
+      <node ref="U2" pin="D9" pinfunction="VSS_D9" pintype="power_in"/>
+      <node ref="U2" pin="E1" pinfunction="VSS_E1" pintype="power_in"/>
+      <node ref="U2" pin="E12" pinfunction="VSS_E12" pintype="power_in"/>
+      <node ref="U2" pin="E5" pinfunction="VSS_E5" pintype="power_in"/>
+      <node ref="U2" pin="E8" pinfunction="VSS_E8" pintype="power_in"/>
+      <node ref="U2" pin="G1" pinfunction="VSS_G1" pintype="power_in"/>
+      <node ref="U2" pin="G10" pinfunction="VSS_G10" pintype="power_in"/>
+      <node ref="U2" pin="G12" pinfunction="VSS_G12" pintype="power_in"/>
+      <node ref="U2" pin="G3" pinfunction="VSS_G3" pintype="power_in"/>
+      <node ref="U2" pin="G5" pinfunction="VSS_G5" pintype="power_in"/>
+      <node ref="U2" pin="G8" pinfunction="VSS_G8" pintype="power_in"/>
+      <node ref="U2" pin="J1" pinfunction="VSS_J1" pintype="power_in"/>
+      <node ref="U2" pin="J10" pinfunction="VSS_J10" pintype="power_in"/>
+      <node ref="U2" pin="J12" pinfunction="VSS_J12" pintype="power_in"/>
+      <node ref="U2" pin="J3" pinfunction="VSS_J3" pintype="power_in"/>
+      <node ref="U2" pin="K11" pinfunction="VSS_K11" pintype="power_in"/>
+      <node ref="U2" pin="K2" pinfunction="VSS_K2" pintype="power_in"/>
+      <node ref="U2" pin="K4" pinfunction="VSS_K4" pintype="power_in"/>
+      <node ref="U2" pin="K9" pinfunction="VSS_K9" pintype="power_in"/>
+      <node ref="U2" pin="N11" pinfunction="VSS_N11" pintype="power_in"/>
+      <node ref="U2" pin="N2" pinfunction="VSS_N2" pintype="power_in"/>
+      <node ref="U2" pin="N4" pinfunction="VSS_N4" pintype="power_in"/>
+      <node ref="U2" pin="N9" pinfunction="VSS_N9" pintype="power_in"/>
+      <node ref="U2" pin="P1" pinfunction="VSS_P1" pintype="power_in"/>
+      <node ref="U2" pin="P10" pinfunction="VSS_P10" pintype="power_in"/>
+      <node ref="U2" pin="P12" pinfunction="VSS_P12" pintype="power_in"/>
+      <node ref="U2" pin="P3" pinfunction="VSS_P3" pintype="power_in"/>
+      <node ref="U2" pin="T1" pinfunction="VSS_T1" pintype="power_in"/>
+      <node ref="U2" pin="T10" pinfunction="VSS_T10" pintype="power_in"/>
+      <node ref="U2" pin="T12" pinfunction="VSS_T12" pintype="power_in"/>
+      <node ref="U2" pin="T3" pinfunction="VSS_T3" pintype="power_in"/>
+      <node ref="U2" pin="T5" pinfunction="VSS_T5" pintype="power_in"/>
+      <node ref="U2" pin="T8" pinfunction="VSS_T8" pintype="power_in"/>
+      <node ref="U2" pin="V1" pinfunction="VSS_V1" pintype="power_in"/>
+      <node ref="U2" pin="V12" pinfunction="VSS_V12" pintype="power_in"/>
+      <node ref="U2" pin="V5" pinfunction="VSS_V5" pintype="power_in"/>
+      <node ref="U2" pin="V8" pinfunction="VSS_V8" pintype="power_in"/>
+      <node ref="U2" pin="W11" pinfunction="VSS_W11" pintype="power_in"/>
+      <node ref="U2" pin="W2" pinfunction="VSS_W2" pintype="power_in"/>
+      <node ref="U2" pin="W4" pinfunction="VSS_W4" pintype="power_in"/>
+      <node ref="U2" pin="W9" pinfunction="VSS_W9" pintype="power_in"/>
+      <node ref="U2" pin="Y1" pinfunction="VSS_Y1" pintype="power_in"/>
+      <node ref="U2" pin="Y12" pinfunction="VSS_Y12" pintype="power_in"/>
+      <node ref="U2" pin="Y5" pinfunction="VSS_Y5" pintype="power_in"/>
+      <node ref="U2" pin="Y8" pinfunction="VSS_Y8" pintype="power_in"/>
+    </net>
+    <net code="4" name="/LPDDR4_A0_A" class="Default">
+      <node ref="U2" pin="H2" pinfunction="A0_A_H2" pintype="input"/>
+    </net>
+    <net code="5" name="/LPDDR4_A0_B" class="Default">
+      <node ref="U2" pin="R2" pinfunction="A0_B_R2" pintype="input"/>
+    </net>
+    <net code="6" name="/LPDDR4_A1_A" class="Default">
+      <node ref="U2" pin="J2" pinfunction="A1_A_J2" pintype="input"/>
+    </net>
+    <net code="7" name="/LPDDR4_A1_B" class="Default">
+      <node ref="U2" pin="P2" pinfunction="A1_B_P2" pintype="input"/>
+    </net>
+    <net code="8" name="/LPDDR4_A2_A" class="Default">
+      <node ref="U2" pin="H9" pinfunction="A2_A_H9" pintype="input"/>
+    </net>
+    <net code="9" name="/LPDDR4_A2_B" class="Default">
+      <node ref="U2" pin="R9" pinfunction="A2_B_R9" pintype="input"/>
+    </net>
+    <net code="10" name="/LPDDR4_A3_A" class="Default">
+      <node ref="U2" pin="H10" pinfunction="A3_A_H10" pintype="input"/>
+    </net>
+    <net code="11" name="/LPDDR4_A3_B" class="Default">
+      <node ref="U2" pin="R10" pinfunction="A3_B_R10" pintype="input"/>
+    </net>
+    <net code="12" name="/LPDDR4_A4_A" class="Default">
+      <node ref="U2" pin="H11" pinfunction="A4_A_H11" pintype="input"/>
+    </net>
+    <net code="13" name="/LPDDR4_A4_B" class="Default">
+      <node ref="U2" pin="R11" pinfunction="A4_B_R11" pintype="input"/>
+    </net>
+    <net code="14" name="/LPDDR4_A5_A" class="Default">
+      <node ref="U2" pin="J11" pinfunction="A5_A_J11" pintype="input"/>
+    </net>
+    <net code="15" name="/LPDDR4_A5_B" class="Default">
+      <node ref="U2" pin="P11" pinfunction="A5_B_P11" pintype="input"/>
+    </net>
+    <net code="16" name="/LPDDR4_CKE0_A" class="Default">
+      <node ref="U2" pin="J4" pinfunction="CKE0_A_J4" pintype="input"/>
+    </net>
+    <net code="17" name="/LPDDR4_CKE0_B" class="Default">
+      <node ref="U2" pin="P4" pinfunction="CKE0_B_P4" pintype="input"/>
+    </net>
+    <net code="18" name="/LPDDR4_CLKN_A" class="Default">
+      <node ref="U2" pin="J9" pinfunction="CLKN_A_J9" pintype="input"/>
+    </net>
+    <net code="19" name="/LPDDR4_CLKN_B" class="Default">
+      <node ref="U2" pin="P9" pinfunction="CLKN_B_P9" pintype="input"/>
+    </net>
+    <net code="20" name="/LPDDR4_CLKP_A" class="Default">
+      <node ref="U2" pin="J8" pinfunction="CLKP_A_J8" pintype="input"/>
+    </net>
+    <net code="21" name="/LPDDR4_CLKP_B" class="Default">
+      <node ref="U2" pin="P8" pinfunction="CLKP_B_P8" pintype="input"/>
+    </net>
+    <net code="22" name="/LPDDR4_CS0N_A" class="Default">
+      <node ref="U2" pin="H4" pinfunction="CS0N_A_H4" pintype="input"/>
+    </net>
+    <net code="23" name="/LPDDR4_CS0N_B" class="Default">
+      <node ref="U2" pin="R4" pinfunction="CS0N_B_R4" pintype="input"/>
+    </net>
+    <net code="24" name="/LPDDR4_DM0_A" class="Default">
+      <node ref="U2" pin="C3" pinfunction="DMI0_A_C3" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/LPDDR4_DM0_B" class="Default">
+      <node ref="U2" pin="Y3" pinfunction="DMI0_B_Y3" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/LPDDR4_DM1_A" class="Default">
+      <node ref="U2" pin="C10" pinfunction="DMI1_A_C10" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/LPDDR4_DM1_B" class="Default">
+      <node ref="U2" pin="Y10" pinfunction="DMI1_B_Y10" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/LPDDR4_DQ0_A" class="Default">
+      <node ref="U2" pin="B2" pinfunction="DQ0_A_B2" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/LPDDR4_DQ0_B" class="Default">
+      <node ref="U2" pin="AA2" pinfunction="DQ0_B_AA2" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/LPDDR4_DQ1_A" class="Default">
+      <node ref="U2" pin="C2" pinfunction="DQ1_A_C2" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="/LPDDR4_DQ1_B" class="Default">
+      <node ref="U2" pin="Y2" pinfunction="DQ1_B_Y2" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/LPDDR4_DQ2_A" class="Default">
+      <node ref="U2" pin="E2" pinfunction="DQ2_A_E2" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="/LPDDR4_DQ2_B" class="Default">
+      <node ref="U2" pin="V2" pinfunction="DQ2_B_V2" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/LPDDR4_DQ3_A" class="Default">
+      <node ref="U2" pin="F2" pinfunction="DQ3_A_F2" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="/LPDDR4_DQ3_B" class="Default">
+      <node ref="U2" pin="U2" pinfunction="DQ3_B_U2" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/LPDDR4_DQ4_A" class="Default">
+      <node ref="U2" pin="F4" pinfunction="DQ4_A_F4" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/LPDDR4_DQ4_B" class="Default">
+      <node ref="U2" pin="U4" pinfunction="DQ4_B_U4" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="/LPDDR4_DQ5_A" class="Default">
+      <node ref="U2" pin="E4" pinfunction="DQ5_A_E4" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="/LPDDR4_DQ5_B" class="Default">
+      <node ref="U2" pin="V4" pinfunction="DQ5_B_V4" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="/LPDDR4_DQ6_A" class="Default">
+      <node ref="U2" pin="C4" pinfunction="DQ6_A_C4" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="/LPDDR4_DQ6_B" class="Default">
+      <node ref="U2" pin="Y4" pinfunction="DQ6_B_Y4" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="/LPDDR4_DQ7_A" class="Default">
+      <node ref="U2" pin="B4" pinfunction="DQ7_A_B4" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="/LPDDR4_DQ7_B" class="Default">
+      <node ref="U2" pin="AA4" pinfunction="DQ7_B_AA4" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="/LPDDR4_DQ8_A" class="Default">
+      <node ref="U2" pin="B11" pinfunction="DQ8_A_B11" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="/LPDDR4_DQ8_B" class="Default">
+      <node ref="U2" pin="AA11" pinfunction="DQ8_B_AA11" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="/LPDDR4_DQ9_A" class="Default">
+      <node ref="U2" pin="C11" pinfunction="DQ9_A_C11" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="/LPDDR4_DQ9_B" class="Default">
+      <node ref="U2" pin="Y11" pinfunction="DQ9_B_Y11" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="/LPDDR4_DQ10_A" class="Default">
+      <node ref="U2" pin="E11" pinfunction="DQ10_A_E11" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="/LPDDR4_DQ10_B" class="Default">
+      <node ref="U2" pin="V11" pinfunction="DQ10_B_V11" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="/LPDDR4_DQ11_A" class="Default">
+      <node ref="U2" pin="F11" pinfunction="DQ11_A_F11" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="/LPDDR4_DQ11_B" class="Default">
+      <node ref="U2" pin="U11" pinfunction="DQ11_B_U11" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="/LPDDR4_DQ12_A" class="Default">
+      <node ref="U2" pin="F9" pinfunction="DQ12_A_F9" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="/LPDDR4_DQ12_B" class="Default">
+      <node ref="U2" pin="U9" pinfunction="DQ12_B_U9" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="/LPDDR4_DQ13_A" class="Default">
+      <node ref="U2" pin="E9" pinfunction="DQ13_A_E9" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="/LPDDR4_DQ13_B" class="Default">
+      <node ref="U2" pin="V9" pinfunction="DQ13_B_V9" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="/LPDDR4_DQ14_A" class="Default">
+      <node ref="U2" pin="C9" pinfunction="DQ14_A_C9" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="/LPDDR4_DQ14_B" class="Default">
+      <node ref="U2" pin="Y9" pinfunction="DQ14_B_Y9" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="/LPDDR4_DQ15_A" class="Default">
+      <node ref="U2" pin="B9" pinfunction="DQ15_A_B9" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="/LPDDR4_DQ15_B" class="Default">
+      <node ref="U2" pin="AA9" pinfunction="DQ15_B_AA9" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="/LPDDR4_DQS0N_A" class="Default">
+      <node ref="U2" pin="E3" pinfunction="DQS0N_A_E3" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="/LPDDR4_DQS0N_B" class="Default">
+      <node ref="U2" pin="V3" pinfunction="DQS0N_B_V3" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="/LPDDR4_DQS0P_A" class="Default">
+      <node ref="U2" pin="D3" pinfunction="DQS0P_A_D3" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="/LPDDR4_DQS0P_B" class="Default">
+      <node ref="U2" pin="W3" pinfunction="DQS0P_B_W3" pintype="bidirectional"/>
+    </net>
+    <net code="64" name="/LPDDR4_DQS1N_A" class="Default">
+      <node ref="U2" pin="E10" pinfunction="DQS1N_A_E10" pintype="bidirectional"/>
+    </net>
+    <net code="65" name="/LPDDR4_DQS1N_B" class="Default">
+      <node ref="U2" pin="V10" pinfunction="DQS1N_B_V10" pintype="bidirectional"/>
+    </net>
+    <net code="66" name="/LPDDR4_DQS1P_A" class="Default">
+      <node ref="U2" pin="D10" pinfunction="DQS1P_A_D10" pintype="bidirectional"/>
+    </net>
+    <net code="67" name="/LPDDR4_DQS1P_B" class="Default">
+      <node ref="U2" pin="W10" pinfunction="DQS1P_B_W10" pintype="bidirectional"/>
+    </net>
+    <net code="68" name="/LPDDR4_ODT0_CA_A" class="Default">
+      <node ref="U2" pin="G2" pinfunction="ODT0_CA_A_G2" pintype="input"/>
+    </net>
+    <net code="69" name="/LPDDR4_ODT0_CA_B" class="Default">
+      <node ref="U2" pin="T2" pinfunction="ODT0_CA_B_T2" pintype="input"/>
+    </net>
+    <net code="70" name="/LPDDR4_RESETN" class="Default">
+      <node ref="U2" pin="T11" pinfunction="RESETN_T11" pintype="input"/>
+    </net>
+    <net code="71" name="/LPDDR4_ZQ_240R" class="Default">
+      <node ref="R201" pin="1" pintype="passive"/>
+      <node ref="U2" pin="A5" pinfunction="ZQ0_A5" pintype="passive"/>
+    </net>
+    <net code="72" name="unconnected-(U2D-DNU-PadA1)" class="Default">
+      <node ref="U2" pin="A1" pinfunction="DNU_A1" pintype="no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U2D-DNU-PadA2)" class="Default">
+      <node ref="U2" pin="A2" pinfunction="DNU_A2" pintype="no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U2D-DNU-PadA11)" class="Default">
+      <node ref="U2" pin="A11" pinfunction="DNU_A11" pintype="no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U2D-DNU-PadA12)" class="Default">
+      <node ref="U2" pin="A12" pinfunction="DNU_A12" pintype="no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U2D-DNU-PadAA1)" class="Default">
+      <node ref="U2" pin="AA1" pinfunction="DNU_AA1" pintype="no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U2D-DNU-PadAA12)" class="Default">
+      <node ref="U2" pin="AA12" pinfunction="DNU_AA12" pintype="no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U2D-DNU-PadAB1)" class="Default">
+      <node ref="U2" pin="AB1" pinfunction="DNU_AB1" pintype="no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U2D-DNU-PadAB2)" class="Default">
+      <node ref="U2" pin="AB2" pinfunction="DNU_AB2" pintype="no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U2D-DNU-PadAB11)" class="Default">
+      <node ref="U2" pin="AB11" pinfunction="DNU_AB11" pintype="no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U2D-DNU-PadAB12)" class="Default">
+      <node ref="U2" pin="AB12" pinfunction="DNU_AB12" pintype="no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U2D-DNU-PadB1)" class="Default">
+      <node ref="U2" pin="B1" pinfunction="DNU_B1" pintype="no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U2D-DNU-PadB12)" class="Default">
+      <node ref="U2" pin="B12" pinfunction="DNU_B12" pintype="no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U2D-NC-PadA8)" class="Default">
+      <node ref="U2" pin="A8" pinfunction="NC_A8" pintype="no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U2D-NC-PadG11)" class="Default">
+      <node ref="U2" pin="G11" pinfunction="NC_G11" pintype="no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U2D-NC-PadH3)" class="Default">
+      <node ref="U2" pin="H3" pinfunction="NC_H3" pintype="no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U2D-NC-PadJ5)" class="Default">
+      <node ref="U2" pin="J5" pinfunction="NC_J5" pintype="no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U2D-NC-PadK5)" class="Default">
+      <node ref="U2" pin="K5" pinfunction="NC_K5" pintype="no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U2D-NC-PadK8)" class="Default">
+      <node ref="U2" pin="K8" pinfunction="NC_K8" pintype="no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U2D-NC-PadN5)" class="Default">
+      <node ref="U2" pin="N5" pinfunction="NC_N5" pintype="no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U2D-NC-PadN8)" class="Default">
+      <node ref="U2" pin="N8" pinfunction="NC_N8" pintype="no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U2D-NC-PadP5)" class="Default">
+      <node ref="U2" pin="P5" pinfunction="NC_P5" pintype="no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U2D-NC-PadR3)" class="Default">
+      <node ref="U2" pin="R3" pinfunction="NC_R3" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

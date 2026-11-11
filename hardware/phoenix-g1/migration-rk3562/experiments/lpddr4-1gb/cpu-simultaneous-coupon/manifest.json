@@ -1,0 +1,1701 @@
+{
+  "status": "BOUNDED_SIMULTANEOUS_GEOMETRY_EXPERIMENT",
+  "seed": 11,
+  "priority_balls": "",
+  "eager_bends": false,
+  "deferred_balls": "",
+  "new_via_diameter_mm": 0.45,
+  "escaped": 60,
+  "required": 65,
+  "results": [
+    {
+      "signal": "LPDDR4_DQ9_B",
+      "soc_ball": "C27",
+      "ram_ball": "Y11",
+      "individual_candidates": 973,
+      "via_mm": [
+        16.5,
+        4.65
+      ]
+    },
+    {
+      "signal": "LPDDR4_DM0_B",
+      "soc_ball": "B21",
+      "ram_ball": "Y3",
+      "individual_candidates": 270,
+      "via_mm": [
+        13.5,
+        3.85
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQ10_A",
+      "soc_ball": "B1",
+      "ram_ball": "E11",
+      "individual_candidates": 842,
+      "via_mm": [
+        3.05,
+        5.25
+      ],
+      "bent_path_mm": [
+        [
+          3.5,
+          4.0
+        ],
+        [
+          3.55,
+          4.0
+        ],
+        [
+          3.6,
+          4.0
+        ],
+        [
+          3.65,
+          4.05
+        ],
+        [
+          3.7,
+          4.1
+        ],
+        [
+          3.75,
+          4.15
+        ],
+        [
+          3.8,
+          4.15
+        ],
+        [
+          3.85,
+          4.2
+        ],
+        [
+          3.9,
+          4.25
+        ],
+        [
+          3.95,
+          4.25
+        ],
+        [
+          4.0,
+          4.25
+        ],
+        [
+          4.05,
+          4.25
+        ],
+        [
+          4.1,
+          4.25
+        ],
+        [
+          4.15,
+          4.3
+        ],
+        [
+          4.2,
+          4.35
+        ],
+        [
+          4.25,
+          4.4
+        ],
+        [
+          4.25,
+          4.45
+        ],
+        [
+          4.25,
+          4.5
+        ],
+        [
+          4.25,
+          4.55
+        ],
+        [
+          4.25,
+          4.6
+        ],
+        [
+          4.2,
+          4.65
+        ],
+        [
+          4.15,
+          4.7
+        ],
+        [
+          4.1,
+          4.75
+        ],
+        [
+          4.05,
+          4.75
+        ],
+        [
+          4.0,
+          4.75
+        ],
+        [
+          3.95,
+          4.75
+        ],
+        [
+          3.9,
+          4.75
+        ],
+        [
+          3.85,
+          4.8
+        ],
+        [
+          3.8,
+          4.85
+        ],
+        [
+          3.75,
+          4.9
+        ],
+        [
+          3.75,
+          4.95
+        ],
+        [
+          3.75,
+          5.0
+        ],
+        [
+          3.75,
+          5.05
+        ],
+        [
+          3.75,
+          5.1
+        ],
+        [
+          3.7,
+          5.15
+        ],
+        [
+          3.65,
+          5.2
+        ],
+        [
+          3.6,
+          5.25
+        ],
+        [
+          3.55,
+          5.25
+        ],
+        [
+          3.5,
+          5.25
+        ],
+        [
+          3.45,
+          5.25
+        ],
+        [
+          3.4,
+          5.25
+        ],
+        [
+          3.35,
+          5.25
+        ],
+        [
+          3.3,
+          5.25
+        ],
+        [
+          3.25,
+          5.25
+        ],
+        [
+          3.2,
+          5.25
+        ],
+        [
+          3.15,
+          5.25
+        ],
+        [
+          3.1,
+          5.25
+        ],
+        [
+          3.05,
+          5.25
+        ]
+      ]
+    },
+    {
+      "signal": "LPDDR4_CLKN_B",
+      "soc_ball": "A15",
+      "ram_ball": "P9",
+      "individual_candidates": 966,
+      "via_mm": [
+        10.35,
+        3.5
+      ]
+    },
+    {
+      "signal": "LPDDR4_DM1_B",
+      "soc_ball": "A26",
+      "ram_ball": "Y10",
+      "individual_candidates": 842,
+      "via_mm": [
+        16.35,
+        3.0
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQ5_B",
+      "soc_ball": "B23",
+      "ram_ball": "V4",
+      "individual_candidates": 270,
+      "via_mm": [
+        14.5,
+        3.85
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQS1N_B",
+      "soc_ball": "1B15",
+      "ram_ball": "V10",
+      "individual_candidates": 134,
+      "via_mm": [
+        14.4,
+        6.1
+      ]
+    },
+    {
+      "signal": "LPDDR4_CKE0_A",
+      "soc_ball": "C12",
+      "ram_ball": "J4",
+      "individual_candidates": 71,
+      "via_mm": [
+        9.0,
+        4.65
+      ]
+    },
+    {
+      "signal": "LPDDR4_A5_A",
+      "soc_ball": "1A7",
+      "ram_ball": "J11",
+      "individual_candidates": 154,
+      "via_mm": [
+        9.2,
+        5.45
+      ]
+    },
+    {
+      "signal": "LPDDR4_DM0_A",
+      "soc_ball": "B7",
+      "ram_ball": "C3",
+      "individual_candidates": 270,
+      "via_mm": [
+        6.5,
+        3.85
+      ]
+    },
+    {
+      "signal": "LPDDR4_A3_A",
+      "soc_ball": "1A6",
+      "ram_ball": "H10",
+      "individual_candidates": 133,
+      "via_mm": [
+        8.549999999999999,
+        5.45
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQ0_A",
+      "soc_ball": "B6",
+      "ram_ball": "B2",
+      "individual_candidates": 148,
+      "via_mm": [
+        5.5,
+        3.5
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQS0N_A",
+      "soc_ball": "1B3",
+      "ram_ball": "E3",
+      "individual_candidates": 34,
+      "via_mm": [
+        6.6,
+        6.1
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQ4_B",
+      "soc_ball": "C23",
+      "ram_ball": "U4",
+      "individual_candidates": 88,
+      "via_mm": [
+        14.5,
+        4.65
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQ0_B",
+      "soc_ball": "B22",
+      "ram_ball": "AA2",
+      "individual_candidates": 148,
+      "via_mm": [
+        15.0,
+        5.0
+      ],
+      "bent_path_mm": [
+        [
+          14.0,
+          4.0
+        ],
+        [
+          14.05,
+          4.05
+        ],
+        [
+          14.1,
+          4.1
+        ],
+        [
+          14.15,
+          4.15
+        ],
+        [
+          14.2,
+          4.15
+        ],
+        [
+          14.25,
+          4.15
+        ],
+        [
+          14.3,
+          4.2
+        ],
+        [
+          14.35,
+          4.25
+        ],
+        [
+          14.4,
+          4.25
+        ],
+        [
+          14.45,
+          4.25
+        ],
+        [
+          14.5,
+          4.25
+        ],
+        [
+          14.55,
+          4.25
+        ],
+        [
+          14.6,
+          4.25
+        ],
+        [
+          14.65,
+          4.25
+        ],
+        [
+          14.7,
+          4.25
+        ],
+        [
+          14.75,
+          4.25
+        ],
+        [
+          14.8,
+          4.25
+        ],
+        [
+          14.85,
+          4.25
+        ],
+        [
+          14.9,
+          4.25
+        ],
+        [
+          14.95,
+          4.25
+        ],
+        [
+          15.0,
+          4.25
+        ],
+        [
+          15.05,
+          4.25
+        ],
+        [
+          15.1,
+          4.25
+        ],
+        [
+          15.15,
+          4.3
+        ],
+        [
+          15.2,
+          4.35
+        ],
+        [
+          15.25,
+          4.4
+        ],
+        [
+          15.25,
+          4.45
+        ],
+        [
+          15.25,
+          4.5
+        ],
+        [
+          15.25,
+          4.55
+        ],
+        [
+          15.25,
+          4.6
+        ],
+        [
+          15.25,
+          4.65
+        ],
+        [
+          15.2,
+          4.7
+        ],
+        [
+          15.15,
+          4.75
+        ],
+        [
+          15.1,
+          4.8
+        ],
+        [
+          15.05,
+          4.85
+        ],
+        [
+          15.0,
+          4.9
+        ],
+        [
+          15.0,
+          4.95
+        ],
+        [
+          15.0,
+          5.0
+        ]
+      ]
+    },
+    {
+      "signal": "LPDDR4_RESETN",
+      "soc_ball": "1B11",
+      "ram_ball": "T11",
+      "individual_candidates": 31,
+      "via_mm": [
+        11.799999999999999,
+        6.1
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQ1_B",
+      "soc_ball": "B20",
+      "ram_ball": "Y2",
+      "individual_candidates": 148,
+      "via_mm": [
+        12.5,
+        3.5
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQ5_A",
+      "soc_ball": "B5",
+      "ram_ball": "E4",
+      "individual_candidates": 270,
+      "via_mm": [
+        3.5,
+        6.0
+      ],
+      "bent_path_mm": [
+        [
+          5.5,
+          4.0
+        ],
+        [
+          5.45,
+          4.05
+        ],
+        [
+          5.4,
+          4.1
+        ],
+        [
+          5.35,
+          4.15
+        ],
+        [
+          5.3,
+          4.15
+        ],
+        [
+          5.25,
+          4.15
+        ],
+        [
+          5.2,
+          4.15
+        ],
+        [
+          5.15,
+          4.2
+        ],
+        [
+          5.1,
+          4.25
+        ],
+        [
+          5.05,
+          4.25
+        ],
+        [
+          5.0,
+          4.25
+        ],
+        [
+          4.95,
+          4.25
+        ],
+        [
+          4.9,
+          4.25
+        ],
+        [
+          4.85,
+          4.3
+        ],
+        [
+          4.8,
+          4.35
+        ],
+        [
+          4.75,
+          4.4
+        ],
+        [
+          4.75,
+          4.45
+        ],
+        [
+          4.75,
+          4.5
+        ],
+        [
+          4.75,
+          4.55
+        ],
+        [
+          4.75,
+          4.6
+        ],
+        [
+          4.7,
+          4.65
+        ],
+        [
+          4.65,
+          4.7
+        ],
+        [
+          4.6,
+          4.75
+        ],
+        [
+          4.55,
+          4.75
+        ],
+        [
+          4.5,
+          4.75
+        ],
+        [
+          4.45,
+          4.75
+        ],
+        [
+          4.4,
+          4.75
+        ],
+        [
+          4.35,
+          4.8
+        ],
+        [
+          4.3,
+          4.85
+        ],
+        [
+          4.25,
+          4.9
+        ],
+        [
+          4.25,
+          4.95
+        ],
+        [
+          4.25,
+          5.0
+        ],
+        [
+          4.25,
+          5.05
+        ],
+        [
+          4.25,
+          5.1
+        ],
+        [
+          4.2,
+          5.15
+        ],
+        [
+          4.15,
+          5.2
+        ],
+        [
+          4.1,
+          5.25
+        ],
+        [
+          4.05,
+          5.25
+        ],
+        [
+          4.0,
+          5.25
+        ],
+        [
+          3.95,
+          5.25
+        ],
+        [
+          3.9,
+          5.25
+        ],
+        [
+          3.8499999999999996,
+          5.3
+        ],
+        [
+          3.8,
+          5.35
+        ],
+        [
+          3.75,
+          5.4
+        ],
+        [
+          3.75,
+          5.45
+        ],
+        [
+          3.75,
+          5.5
+        ],
+        [
+          3.75,
+          5.55
+        ],
+        [
+          3.75,
+          5.6
+        ],
+        [
+          3.75,
+          5.65
+        ],
+        [
+          3.75,
+          5.7
+        ],
+        [
+          3.75,
+          5.75
+        ],
+        [
+          3.7,
+          5.8
+        ],
+        [
+          3.65,
+          5.85
+        ],
+        [
+          3.5999999999999996,
+          5.9
+        ],
+        [
+          3.55,
+          5.95
+        ],
+        [
+          3.5,
+          6.0
+        ]
+      ]
+    },
+    {
+      "signal": "LPDDR4_A5_B",
+      "soc_ball": "1A8",
+      "ram_ball": "P11",
+      "individual_candidates": 134,
+      "via_mm": [
+        9.85,
+        5.45
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQ4_A",
+      "soc_ball": "C5",
+      "ram_ball": "F4",
+      "individual_candidates": 88,
+      "via_mm": [
+        5.5,
+        4.65
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQ7_B",
+      "soc_ball": "A22",
+      "ram_ball": "AA4",
+      "individual_candidates": 1097,
+      "via_mm": [
+        14.0,
+        3.35
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQS1N_A",
+      "soc_ball": "1B1",
+      "ram_ball": "E10",
+      "individual_candidates": 134,
+      "via_mm": [
+        5.3,
+        6.1
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQ6_B",
+      "soc_ball": "C22",
+      "ram_ball": "Y4",
+      "individual_candidates": 81,
+      "via_mm": [
+        13.9,
+        4.8
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQ12_A",
+      "soc_ball": "A4",
+      "ram_ball": "F9",
+      "individual_candidates": 973,
+      "via_mm": [
+        4.95,
+        3.3
+      ]
+    },
+    {
+      "signal": "LPDDR4_A0_A",
+      "soc_ball": "B10",
+      "ram_ball": "H2",
+      "individual_candidates": 148,
+      "via_mm": [
+        7.5,
+        3.5
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQ1_A",
+      "soc_ball": "B8",
+      "ram_ball": "C2",
+      "individual_candidates": 148,
+      "via_mm": null
+    },
+    {
+      "signal": "LPDDR4_DQ10_B",
+      "soc_ball": "B27",
+      "ram_ball": "V11",
+      "individual_candidates": 842,
+      "via_mm": [
+        16.65,
+        4.0
+      ]
+    },
+    {
+      "signal": "LPDDR4_A1_B",
+      "soc_ball": "A18",
+      "ram_ball": "P2",
+      "individual_candidates": 1097,
+      "via_mm": [
+        11.85,
+        3.5
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQS0P_A",
+      "soc_ball": "1A3",
+      "ram_ball": "D3",
+      "individual_candidates": 133,
+      "via_mm": [
+        6.6,
+        5.45
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQ14_A",
+      "soc_ball": "A3",
+      "ram_ball": "C9",
+      "individual_candidates": 842,
+      "via_mm": null
+    },
+    {
+      "signal": "LPDDR4_A2_A",
+      "soc_ball": "C10",
+      "ram_ball": "H9",
+      "individual_candidates": 70,
+      "via_mm": [
+        8.0,
+        4.65
+      ]
+    },
+    {
+      "signal": "LPDDR4_A3_B",
+      "soc_ball": "1A10",
+      "ram_ball": "R10",
+      "individual_candidates": 133,
+      "via_mm": [
+        11.15,
+        5.45
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQ13_A",
+      "soc_ball": "B4",
+      "ram_ball": "E9",
+      "individual_candidates": 74,
+      "via_mm": null
+    },
+    {
+      "signal": "LPDDR4_DM1_A",
+      "soc_ball": "A2",
+      "ram_ball": "C10",
+      "individual_candidates": 842,
+      "via_mm": [
+        3.65,
+        3.0
+      ]
+    },
+    {
+      "signal": "LPDDR4_A0_B",
+      "soc_ball": "B18",
+      "ram_ball": "R2",
+      "individual_candidates": 148,
+      "via_mm": [
+        10.75,
+        3.05
+      ],
+      "bent_path_mm": [
+        [
+          12.0,
+          4.0
+        ],
+        [
+          11.95,
+          4.05
+        ],
+        [
+          11.9,
+          4.1
+        ],
+        [
+          11.85,
+          4.15
+        ],
+        [
+          11.8,
+          4.15
+        ],
+        [
+          11.75,
+          4.15
+        ],
+        [
+          11.7,
+          4.15
+        ],
+        [
+          11.65,
+          4.2
+        ],
+        [
+          11.6,
+          4.25
+        ],
+        [
+          11.55,
+          4.25
+        ],
+        [
+          11.5,
+          4.25
+        ],
+        [
+          11.45,
+          4.25
+        ],
+        [
+          11.4,
+          4.25
+        ],
+        [
+          11.35,
+          4.2
+        ],
+        [
+          11.3,
+          4.15
+        ],
+        [
+          11.25,
+          4.1
+        ],
+        [
+          11.25,
+          4.05
+        ],
+        [
+          11.25,
+          4.0
+        ],
+        [
+          11.25,
+          3.95
+        ],
+        [
+          11.25,
+          3.9
+        ],
+        [
+          11.2,
+          3.85
+        ],
+        [
+          11.15,
+          3.8
+        ],
+        [
+          11.1,
+          3.75
+        ],
+        [
+          11.05,
+          3.75
+        ],
+        [
+          11.0,
+          3.75
+        ],
+        [
+          10.95,
+          3.75
+        ],
+        [
+          10.9,
+          3.75
+        ],
+        [
+          10.85,
+          3.7
+        ],
+        [
+          10.8,
+          3.65
+        ],
+        [
+          10.75,
+          3.6
+        ],
+        [
+          10.75,
+          3.55
+        ],
+        [
+          10.75,
+          3.5
+        ],
+        [
+          10.75,
+          3.45
+        ],
+        [
+          10.75,
+          3.4
+        ],
+        [
+          10.75,
+          3.35
+        ],
+        [
+          10.75,
+          3.3
+        ],
+        [
+          10.75,
+          3.25
+        ],
+        [
+          10.75,
+          3.2
+        ],
+        [
+          10.75,
+          3.15
+        ],
+        [
+          10.75,
+          3.1
+        ],
+        [
+          10.75,
+          3.05
+        ]
+      ]
+    },
+    {
+      "signal": "LPDDR4_A2_B",
+      "soc_ball": "C18",
+      "ram_ball": "R9",
+      "individual_candidates": 70,
+      "via_mm": [
+        12.0,
+        4.65
+      ]
+    },
+    {
+      "signal": "LPDDR4_CS0N_B",
+      "soc_ball": "B17",
+      "ram_ball": "R4",
+      "individual_candidates": 270,
+      "via_mm": [
+        11.35,
+        3.15
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQS1P_A",
+      "soc_ball": "1A1",
+      "ram_ball": "D10",
+      "individual_candidates": 215,
+      "via_mm": [
+        5.3,
+        5.45
+      ]
+    },
+    {
+      "signal": "LPDDR4_A4_A",
+      "soc_ball": "1B8",
+      "ram_ball": "H11",
+      "individual_candidates": 137,
+      "via_mm": [
+        9.85,
+        6.1
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQ13_B",
+      "soc_ball": "B24",
+      "ram_ball": "V9",
+      "individual_candidates": 74,
+      "via_mm": [
+        15.0,
+        5.65
+      ],
+      "bent_path_mm": [
+        [
+          15.0,
+          4.0
+        ],
+        [
+          15.05,
+          4.0
+        ],
+        [
+          15.1,
+          4.0
+        ],
+        [
+          15.15,
+          4.05
+        ],
+        [
+          15.2,
+          4.05
+        ],
+        [
+          15.25,
+          4.1
+        ],
+        [
+          15.3,
+          4.15
+        ],
+        [
+          15.35,
+          4.2
+        ],
+        [
+          15.4,
+          4.25
+        ],
+        [
+          15.45,
+          4.25
+        ],
+        [
+          15.5,
+          4.25
+        ],
+        [
+          15.55,
+          4.25
+        ],
+        [
+          15.6,
+          4.25
+        ],
+        [
+          15.65,
+          4.3
+        ],
+        [
+          15.7,
+          4.35
+        ],
+        [
+          15.75,
+          4.4
+        ],
+        [
+          15.75,
+          4.45
+        ],
+        [
+          15.75,
+          4.5
+        ],
+        [
+          15.75,
+          4.55
+        ],
+        [
+          15.75,
+          4.6
+        ],
+        [
+          15.75,
+          4.65
+        ],
+        [
+          15.75,
+          4.7
+        ],
+        [
+          15.75,
+          4.75
+        ],
+        [
+          15.75,
+          4.8
+        ],
+        [
+          15.75,
+          4.85
+        ],
+        [
+          15.75,
+          4.9
+        ],
+        [
+          15.75,
+          4.95
+        ],
+        [
+          15.75,
+          5.0
+        ],
+        [
+          15.75,
+          5.05
+        ],
+        [
+          15.75,
+          5.1
+        ],
+        [
+          15.7,
+          5.15
+        ],
+        [
+          15.65,
+          5.2
+        ],
+        [
+          15.6,
+          5.25
+        ],
+        [
+          15.55,
+          5.25
+        ],
+        [
+          15.5,
+          5.25
+        ],
+        [
+          15.45,
+          5.25
+        ],
+        [
+          15.4,
+          5.25
+        ],
+        [
+          15.35,
+          5.3
+        ],
+        [
+          15.3,
+          5.35
+        ],
+        [
+          15.25,
+          5.4
+        ],
+        [
+          15.2,
+          5.45
+        ],
+        [
+          15.15,
+          5.5
+        ],
+        [
+          15.1,
+          5.55
+        ],
+        [
+          15.05,
+          5.6
+        ],
+        [
+          15.0,
+          5.65
+        ]
+      ]
+    },
+    {
+      "signal": "LPDDR4_CS0N_A",
+      "soc_ball": "B11",
+      "ram_ball": "H4",
+      "individual_candidates": 270,
+      "via_mm": [
+        8.5,
+        3.85
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQ14_B",
+      "soc_ball": "A25",
+      "ram_ball": "Y9",
+      "individual_candidates": 842,
+      "via_mm": null
+    },
+    {
+      "signal": "LPDDR4_CLKN_A",
+      "soc_ball": "A13",
+      "ram_ball": "J9",
+      "individual_candidates": 966,
+      "via_mm": [
+        9.5,
+        3.35
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQ3_B",
+      "soc_ball": "C20",
+      "ram_ball": "U2",
+      "individual_candidates": 71,
+      "via_mm": [
+        13.0,
+        4.65
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQ6_A",
+      "soc_ball": "A6",
+      "ram_ball": "C4",
+      "individual_candidates": 1097,
+      "via_mm": [
+        6.1,
+        3.35
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQS1P_B",
+      "soc_ball": "1A15",
+      "ram_ball": "W10",
+      "individual_candidates": 215,
+      "via_mm": [
+        14.4,
+        5.45
+      ]
+    },
+    {
+      "signal": "LPDDR4_A4_B",
+      "soc_ball": "1A9",
+      "ram_ball": "R11",
+      "individual_candidates": 154,
+      "via_mm": [
+        10.5,
+        5.45
+      ]
+    },
+    {
+      "signal": "LPDDR4_CKE0_B",
+      "soc_ball": "C16",
+      "ram_ball": "P4",
+      "individual_candidates": 71,
+      "via_mm": [
+        11.0,
+        4.65
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQ3_A",
+      "soc_ball": "C8",
+      "ram_ball": "F2",
+      "individual_candidates": 71,
+      "via_mm": [
+        7.0,
+        4.65
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQ12_B",
+      "soc_ball": "A24",
+      "ram_ball": "U9",
+      "individual_candidates": 973,
+      "via_mm": [
+        14.85,
+        3.35
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQ7_A",
+      "soc_ball": "C6",
+      "ram_ball": "B4",
+      "individual_candidates": 81,
+      "via_mm": [
+        6.1,
+        4.8
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQ9_A",
+      "soc_ball": "C1",
+      "ram_ball": "C11",
+      "individual_candidates": 842,
+      "via_mm": [
+        3.15,
+        4.65
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQS0N_B",
+      "soc_ball": "1B13",
+      "ram_ball": "V3",
+      "individual_candidates": 34,
+      "via_mm": [
+        13.1,
+        6.1
+      ]
+    },
+    {
+      "signal": "LPDDR4_A1_A",
+      "soc_ball": "A10",
+      "ram_ball": "J2",
+      "individual_candidates": 1097,
+      "via_mm": [
+        8.1,
+        3.35
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQ8_B",
+      "soc_ball": "C26",
+      "ram_ball": "AA11",
+      "individual_candidates": 74,
+      "via_mm": null
+    },
+    {
+      "signal": "LPDDR4_CLKP_B",
+      "soc_ball": "B15",
+      "ram_ball": "P8",
+      "individual_candidates": 74,
+      "via_mm": [
+        10.2,
+        4.95
+      ],
+      "bent_path_mm": [
+        [
+          10.5,
+          4.0
+        ],
+        [
+          10.45,
+          4.05
+        ],
+        [
+          10.4,
+          4.1
+        ],
+        [
+          10.35,
+          4.15
+        ],
+        [
+          10.35,
+          4.2
+        ],
+        [
+          10.35,
+          4.25
+        ],
+        [
+          10.35,
+          4.3
+        ],
+        [
+          10.3,
+          4.35
+        ],
+        [
+          10.25,
+          4.4
+        ],
+        [
+          10.25,
+          4.45
+        ],
+        [
+          10.25,
+          4.5
+        ],
+        [
+          10.25,
+          4.55
+        ],
+        [
+          10.25,
+          4.6
+        ],
+        [
+          10.25,
+          4.65
+        ],
+        [
+          10.25,
+          4.7
+        ],
+        [
+          10.25,
+          4.75
+        ],
+        [
+          10.25,
+          4.8
+        ],
+        [
+          10.25,
+          4.85
+        ],
+        [
+          10.25,
+          4.9
+        ],
+        [
+          10.2,
+          4.95
+        ]
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQS0P_B",
+      "soc_ball": "1A13",
+      "ram_ball": "W3",
+      "individual_candidates": 133,
+      "via_mm": [
+        13.1,
+        5.45
+      ]
+    },
+    {
+      "signal": "LPDDR4_CLKP_A",
+      "soc_ball": "B13",
+      "ram_ball": "J8",
+      "individual_candidates": 74,
+      "via_mm": [
+        10.0,
+        3.0
+      ],
+      "bent_path_mm": [
+        [
+          9.5,
+          4.0
+        ],
+        [
+          9.55,
+          3.95
+        ],
+        [
+          9.6,
+          3.9
+        ],
+        [
+          9.65,
+          3.85
+        ],
+        [
+          9.65,
+          3.8
+        ],
+        [
+          9.65,
+          3.75
+        ],
+        [
+          9.7,
+          3.7
+        ],
+        [
+          9.75,
+          3.65
+        ],
+        [
+          9.8,
+          3.6
+        ],
+        [
+          9.85,
+          3.55
+        ],
+        [
+          9.9,
+          3.5
+        ],
+        [
+          9.9,
+          3.45
+        ],
+        [
+          9.9,
+          3.4
+        ],
+        [
+          9.9,
+          3.35
+        ],
+        [
+          9.95,
+          3.3
+        ],
+        [
+          10.0,
+          3.25
+        ],
+        [
+          10.0,
+          3.2
+        ],
+        [
+          10.0,
+          3.15
+        ],
+        [
+          10.0,
+          3.1
+        ],
+        [
+          10.0,
+          3.05
+        ],
+        [
+          10.0,
+          3.0
+        ]
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQ2_B",
+      "soc_ball": "A20",
+      "ram_ball": "V2",
+      "individual_candidates": 1104,
+      "via_mm": [
+        13.1,
+        3.35
+      ]
+    },
+    {
+      "signal": "LPDDR4_DQ2_A",
+      "soc_ball": "A8",
+      "ram_ball": "E2",
+      "individual_candidates": 1104,
+      "via_mm": [
+        6.9,
+        3.35
+      ]
+    }
+  ],
+  "unresolved": [
+    "B8",
+    "A3",
+    "B4",
+    "A25",
+    "C26"
+  ],
+  "limits": [
+    "Greedy straight candidates and bounded bent fallback after five fixed corner bends; failure does not prove impossibility",
+    "Provisional CPU lands",
+    "No planes, component neighbors, impedance or timing qualification",
+    "3 mil process not qualified"
+  ],
+  "assembly_ready": false
+}

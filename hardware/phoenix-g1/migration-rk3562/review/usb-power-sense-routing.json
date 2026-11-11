@@ -74,8 +74,8 @@
     },
     {
       "net": "VBUS_PROTECTED",
-      "length_mm": 9.9891,
-      "segments": 9,
+      "length_mm": 11.8418,
+      "segments": 10,
       "vias_xy_mm": [],
       "via_land_drill_mm": [
         0.6,
@@ -168,7 +168,7 @@
     0.45,
     0.2
   ],
-  "track_and_via_items": 582,
+  "track_and_via_items": 588,
   "unconnected_ratsnest_edges": 1238,
   "limitations": [
     "Only the reported USB controls and explicit supply branches are routed. Full board routing, USB data, remaining power rails and qualification remain unresolved.",

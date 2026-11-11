@@ -1,0 +1,155 @@
+{
+  "status": "PUBLIC STOCK OBSERVATION; NOT RESERVED OR PCBA ORDER CONFIRMATION",
+  "currency": "USD",
+  "parts": [
+    {
+      "jlc": "C1525",
+      "refs": [
+        "C2007"
+      ],
+      "mpn": "CL05B104KO5NNNC",
+      "source": "https://jlcpcb.com/partdetail/C1525",
+      "checked_utc": "2026-11-09T17:19:20.004345+00:00",
+      "page_sha256": "87553245502db0d4e8db8f75ef6238b26746a12ddea6d7194f41dc5dcf1e4587",
+      "available_order_qty": 25511789,
+      "displayed_stock": 33559697,
+      "pre_min_purchase_qty": 4512,
+      "unit_usd_1plus": 0.0031,
+      "price_breaks": [
+        {
+          "min_qty": 1,
+          "max_qty": 999,
+          "unit_usd": 0.0031
+        },
+        {
+          "min_qty": 1000,
+          "max_qty": 2999,
+          "unit_usd": 0.0023
+        },
+        {
+          "min_qty": 3000,
+          "max_qty": 9999,
+          "unit_usd": 0.002
+        },
+        {
+          "min_qty": 10000,
+          "max_qty": 49999,
+          "unit_usd": 0.0017
+        },
+        {
+          "min_qty": 50000,
+          "max_qty": 50199,
+          "unit_usd": 0.0016
+        },
+        {
+          "min_qty": 50200,
+          "max_qty": -1,
+          "unit_usd": 0.0016
+        }
+      ],
+      "no_buy_reason": null
+    },
+    {
+      "jlc": "C25092",
+      "refs": [
+        "R2003"
+      ],
+      "mpn": "0402WGF220JTCE",
+      "source": "https://jlcpcb.com/partdetail/C25092",
+      "checked_utc": "2026-11-09T17:19:20.008692+00:00",
+      "page_sha256": "304a19d7a1532f41af6e8c742880bce1cf756085079f74eb3abd9b4adcc3b7a7",
+      "available_order_qty": 2094292,
+      "displayed_stock": 3269031,
+      "pre_min_purchase_qty": 6445,
+      "unit_usd_1plus": 0.0019,
+      "price_breaks": [
+        {
+          "min_qty": 1,
+          "max_qty": 999,
+          "unit_usd": 0.0019
+        },
+        {
+          "min_qty": 1000,
+          "max_qty": 2999,
+          "unit_usd": 0.0016
+        },
+        {
+          "min_qty": 3000,
+          "max_qty": 9999,
+          "unit_usd": 0.0014
+        },
+        {
+          "min_qty": 10000,
+          "max_qty": 49999,
+          "unit_usd": 0.0013
+        },
+        {
+          "min_qty": 50000,
+          "max_qty": 50199,
+          "unit_usd": 0.0011
+        },
+        {
+          "min_qty": 50200,
+          "max_qty": -1,
+          "unit_usd": 0.0011
+        }
+      ],
+      "no_buy_reason": null
+    },
+    {
+      "jlc": "C5274152",
+      "refs": [
+        "Y2001"
+      ],
+      "mpn": "OVETDLJANF-32.768KHZ",
+      "source": "https://jlcpcb.com/partdetail/C5274152",
+      "checked_utc": "2026-11-09T17:19:19.932537+00:00",
+      "page_sha256": "d56bdbbfa6bb95025f349afcdc44518cc55406b4fdd92b8300ad72040b58c967",
+      "available_order_qty": 42,
+      "displayed_stock": 42,
+      "pre_min_purchase_qty": 19,
+      "unit_usd_1plus": 0.6183,
+      "price_breaks": [
+        {
+          "min_qty": 1,
+          "max_qty": 9,
+          "unit_usd": 0.6183
+        },
+        {
+          "min_qty": 10,
+          "max_qty": 29,
+          "unit_usd": 0.5006
+        },
+        {
+          "min_qty": 30,
+          "max_qty": 99,
+          "unit_usd": 0.4433
+        },
+        {
+          "min_qty": 100,
+          "max_qty": 499,
+          "unit_usd": 0.3844
+        },
+        {
+          "min_qty": 500,
+          "max_qty": 999,
+          "unit_usd": 0.3337
+        },
+        {
+          "min_qty": 1000,
+          "max_qty": -1,
+          "unit_usd": 0.3157
+        }
+      ],
+      "no_buy_reason": null
+    }
+  ],
+  "local_group_qty": 3,
+  "local_group_1plus_subtotal": 0.6233,
+  "all_observed_order_quantities_positive": true,
+  "limitations": [
+    "Observed public presale and displayed stock are separate fields, not guaranteed assembly availability.",
+    "1+ prices do not include minimum purchase quantities, assembly, attrition, PCB, freight or taxes.",
+    "Only the requested reference group was refreshed; other board part dates remain unchanged."
+  ]
+}

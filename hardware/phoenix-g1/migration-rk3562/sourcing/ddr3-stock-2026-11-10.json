@@ -1,0 +1,62 @@
+{
+  "status": "PUBLIC STOCK OBSERVATION; NOT RESERVED OR PCBA ORDER CONFIRMATION",
+  "currency": "USD",
+  "parts": [
+    {
+      "jlc": "C2909894",
+      "refs": [
+        "U2",
+        "U3"
+      ],
+      "mpn": "H5TQ2G63GFR-TEC",
+      "source": "https://jlcpcb.com/partdetail/C2909894",
+      "checked_utc": "2026-11-10T10:39:02.142995+00:00",
+      "page_sha256": "cc835a1677af291feda3acc756af4f5bf125b0ce71e4e0e6a0eeb5d37135c54c",
+      "available_order_qty": 35,
+      "displayed_stock": 35,
+      "pre_min_purchase_qty": 2,
+      "unit_usd_1plus": 7.5856,
+      "price_breaks": [
+        {
+          "min_qty": 1,
+          "max_qty": 9,
+          "unit_usd": 7.5856
+        },
+        {
+          "min_qty": 10,
+          "max_qty": 29,
+          "unit_usd": 7.4056
+        },
+        {
+          "min_qty": 30,
+          "max_qty": 99,
+          "unit_usd": 7.2861
+        },
+        {
+          "min_qty": 100,
+          "max_qty": 101,
+          "unit_usd": 7.1667
+        },
+        {
+          "min_qty": 102,
+          "max_qty": 103,
+          "unit_usd": 7.1667
+        },
+        {
+          "min_qty": 104,
+          "max_qty": -1,
+          "unit_usd": 7.1667
+        }
+      ],
+      "no_buy_reason": null
+    }
+  ],
+  "local_group_qty": 2,
+  "local_group_1plus_subtotal": 15.1712,
+  "all_observed_order_quantities_positive": true,
+  "limitations": [
+    "Observed public presale and displayed stock are separate fields, not guaranteed assembly availability.",
+    "1+ prices do not include minimum purchase quantities, assembly, attrition, PCB, freight or taxes.",
+    "Only the requested reference group was refreshed; other board part dates remain unchanged."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "status": "GEOMETRY AND LOCAL OSCILLATOR CONTINUITY PASS; CANDIDATE ONLY",
+  "pcb_sha256": "1b8175ec202b9fc0c966038e07c4efaa1c5c3351a8143cd8bf203d47f0fde0ce",
+  "drc_violations": 0,
+  "local_bypass_and_feed_audit": "PASS",
+  "negative_disconnect_test": "PASS",
+  "visual_review": "Front copper detail inspected; no functional validation implied",
+  "pmic_upstream_connected": false,
+  "pmic_escape_observation": {
+    "pitch_mm": 0.35,
+    "adjacent_pad_width_mm": 0.15,
+    "track_min_mm": 0.2,
+    "clearance_mm": 0.2,
+    "calculated_clearance_for_centered_020_track_mm": 0.175,
+    "required_action": "Qualify short fine-pitch power fanout and current capacity; do not globally relax DRC or infer power capability from continuity."
+  },
+  "remaining": [
+    "Joint candidate buck output and ground return electrical review",
+    "PMIC feed, input supply and power sequencing",
+    "Full board routing and existing release holds"
+  ],
+  "simulation_performed": false,
+  "physical_test_performed": false,
+  "production_ready": false
+}

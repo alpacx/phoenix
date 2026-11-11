@@ -1,0 +1,3475 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-10T12:26:19",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.7",
+    "schematic_parity": [],
+    "source": "fanout.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola E1 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 5.6,
+                        "y": 7.775
+                    },
+                    "uuid": "84fd0b61-a5c3-4bcd-8e63-028fce1f3672"
+                },
+                {
+                    "description": "Piazzola D2 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 6.4,
+                        "y": 7.125
+                    },
+                    "uuid": "874bc54c-b74c-4b35-8411-2740abde2eb6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola E1 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 5.6,
+                        "y": 7.775
+                    },
+                    "uuid": "84fd0b61-a5c3-4bcd-8e63-028fce1f3672"
+                },
+                {
+                    "description": "Piazzola G1 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 5.6,
+                        "y": 9.075
+                    },
+                    "uuid": "d253bfee-b1d2-4eb0-988a-a6359849e10c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola G1 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 5.6,
+                        "y": 9.075
+                    },
+                    "uuid": "d253bfee-b1d2-4eb0-988a-a6359849e10c"
+                },
+                {
+                    "description": "Piazzola J1 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 5.6,
+                        "y": 10.375
+                    },
+                    "uuid": "cf749caa-32ce-4a46-bf03-36bd82d8124d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola J1 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 5.6,
+                        "y": 10.375
+                    },
+                    "uuid": "cf749caa-32ce-4a46-bf03-36bd82d8124d"
+                },
+                {
+                    "description": "Piazzola K2 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 6.4,
+                        "y": 11.025
+                    },
+                    "uuid": "6f2c6e95-61a8-4793-9e92-b7044a63eb6f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola P1 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 5.6,
+                        "y": 13.625
+                    },
+                    "uuid": "bdf2f5c6-751f-47ee-acf6-4b039cabe54e"
+                },
+                {
+                    "description": "Piazzola T1 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 5.6,
+                        "y": 14.925
+                    },
+                    "uuid": "7201c831-684c-42dd-a701-bae22a328f02"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola T1 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 5.6,
+                        "y": 14.925
+                    },
+                    "uuid": "7201c831-684c-42dd-a701-bae22a328f02"
+                },
+                {
+                    "description": "Piazzola V1 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 5.6,
+                        "y": 16.225
+                    },
+                    "uuid": "1870fc5a-3bbc-4994-a98b-a5a8f73e7e4d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola D2 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 6.4,
+                        "y": 7.125
+                    },
+                    "uuid": "874bc54c-b74c-4b35-8411-2740abde2eb6"
+                },
+                {
+                    "description": "Piazzola C1 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 5.6,
+                        "y": 6.475
+                    },
+                    "uuid": "0e30b836-4f11-4dc4-aba2-6530ba46068e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola D2 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 6.4,
+                        "y": 7.125
+                    },
+                    "uuid": "874bc54c-b74c-4b35-8411-2740abde2eb6"
+                },
+                {
+                    "description": "Piazzola D4 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.0,
+                        "y": 7.125
+                    },
+                    "uuid": "dacbe297-70dc-4fa0-bb11-a9f631c7a87f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola N2 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 6.4,
+                        "y": 12.975
+                    },
+                    "uuid": "1f11ebd4-b568-4d9a-af35-aad60a93a3a7"
+                },
+                {
+                    "description": "Piazzola P3 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 7.2,
+                        "y": 13.625
+                    },
+                    "uuid": "9f14d0cd-2056-4eca-ad01-c2fd1e336ea9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola N2 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 6.4,
+                        "y": 12.975
+                    },
+                    "uuid": "1f11ebd4-b568-4d9a-af35-aad60a93a3a7"
+                },
+                {
+                    "description": "Piazzola P1 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 5.6,
+                        "y": 13.625
+                    },
+                    "uuid": "bdf2f5c6-751f-47ee-acf6-4b039cabe54e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola N2 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 6.4,
+                        "y": 12.975
+                    },
+                    "uuid": "1f11ebd4-b568-4d9a-af35-aad60a93a3a7"
+                },
+                {
+                    "description": "Piazzola K2 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 6.4,
+                        "y": 11.025
+                    },
+                    "uuid": "6f2c6e95-61a8-4793-9e92-b7044a63eb6f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola W2 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 6.4,
+                        "y": 16.875
+                    },
+                    "uuid": "eb1987d3-ffae-4ef9-8467-b1470807ff40"
+                },
+                {
+                    "description": "Piazzola Y1 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 5.6,
+                        "y": 17.525
+                    },
+                    "uuid": "d11e2f73-c8d2-482a-b76d-7e023a98435e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola W2 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 6.4,
+                        "y": 16.875
+                    },
+                    "uuid": "eb1987d3-ffae-4ef9-8467-b1470807ff40"
+                },
+                {
+                    "description": "Piazzola V1 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 5.6,
+                        "y": 16.225
+                    },
+                    "uuid": "1870fc5a-3bbc-4994-a98b-a5a8f73e7e4d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola A3 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 7.2,
+                        "y": 5.175
+                    },
+                    "uuid": "fe722503-1320-4759-8fd1-ca53882aae1d"
+                },
+                {
+                    "description": "Piazzola C5 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 6.475
+                    },
+                    "uuid": "ae3e0005-0f45-4521-bd1a-d74496247a5d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola G3 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 7.2,
+                        "y": 9.075
+                    },
+                    "uuid": "c4f0c340-8334-46cd-98a9-7b1ea2aa7c4e"
+                },
+                {
+                    "description": "Piazzola J3 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 7.2,
+                        "y": 10.375
+                    },
+                    "uuid": "bd71b212-2327-4211-ae9d-ea8b791569ec"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola J3 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 7.2,
+                        "y": 10.375
+                    },
+                    "uuid": "bd71b212-2327-4211-ae9d-ea8b791569ec"
+                },
+                {
+                    "description": "Piazzola K4 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.0,
+                        "y": 11.025
+                    },
+                    "uuid": "404f4865-9de7-4d81-be29-9c3d9385cf1c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola J3 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 7.2,
+                        "y": 10.375
+                    },
+                    "uuid": "bd71b212-2327-4211-ae9d-ea8b791569ec"
+                },
+                {
+                    "description": "Piazzola K2 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 6.4,
+                        "y": 11.025
+                    },
+                    "uuid": "6f2c6e95-61a8-4793-9e92-b7044a63eb6f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola P3 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 7.2,
+                        "y": 13.625
+                    },
+                    "uuid": "9f14d0cd-2056-4eca-ad01-c2fd1e336ea9"
+                },
+                {
+                    "description": "Piazzola N4 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.0,
+                        "y": 12.975
+                    },
+                    "uuid": "ce1390b1-398d-4514-bd04-4665052d15af"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola T3 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 7.2,
+                        "y": 14.925
+                    },
+                    "uuid": "279b2997-b15d-4b20-a561-ffb02009ac60"
+                },
+                {
+                    "description": "Piazzola P3 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 7.2,
+                        "y": 13.625
+                    },
+                    "uuid": "9f14d0cd-2056-4eca-ad01-c2fd1e336ea9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola AB3 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 7.2,
+                        "y": 18.825
+                    },
+                    "uuid": "50793689-1d54-46a0-a1ec-10b7dfb33213"
+                },
+                {
+                    "description": "Piazzola AB5 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 18.825
+                    },
+                    "uuid": "aa75e3b4-f4ae-4404-9c19-386f1019b7c1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola W4 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.0,
+                        "y": 16.875
+                    },
+                    "uuid": "58366257-b570-418a-8b86-0d29b133c81c"
+                },
+                {
+                    "description": "Piazzola Y5 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 17.525
+                    },
+                    "uuid": "bc7df60e-5f63-4732-944b-33c891649299"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola C5 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 6.475
+                    },
+                    "uuid": "ae3e0005-0f45-4521-bd1a-d74496247a5d"
+                },
+                {
+                    "description": "Piazzola D4 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.0,
+                        "y": 7.125
+                    },
+                    "uuid": "dacbe297-70dc-4fa0-bb11-a9f631c7a87f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola E5 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 7.775
+                    },
+                    "uuid": "87241e5e-c7b2-4039-a364-ed947689d491"
+                },
+                {
+                    "description": "Piazzola D4 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.0,
+                        "y": 7.125
+                    },
+                    "uuid": "dacbe297-70dc-4fa0-bb11-a9f631c7a87f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola G5 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 9.075
+                    },
+                    "uuid": "7b224312-3e85-49f5-a8c7-5318d00c38fd"
+                },
+                {
+                    "description": "Piazzola E5 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 7.775
+                    },
+                    "uuid": "87241e5e-c7b2-4039-a364-ed947689d491"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola T5 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 14.925
+                    },
+                    "uuid": "3756eb01-1ec4-4b07-99d2-4133cb1adcdf"
+                },
+                {
+                    "description": "Piazzola T3 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 7.2,
+                        "y": 14.925
+                    },
+                    "uuid": "279b2997-b15d-4b20-a561-ffb02009ac60"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola V5 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 16.225
+                    },
+                    "uuid": "a7973fd0-f427-49aa-9a45-9b1cc09fa006"
+                },
+                {
+                    "description": "Piazzola W4 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.0,
+                        "y": 16.875
+                    },
+                    "uuid": "58366257-b570-418a-8b86-0d29b133c81c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola V5 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 16.225
+                    },
+                    "uuid": "a7973fd0-f427-49aa-9a45-9b1cc09fa006"
+                },
+                {
+                    "description": "Piazzola T5 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 14.925
+                    },
+                    "uuid": "3756eb01-1ec4-4b07-99d2-4133cb1adcdf"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola Y5 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 17.525
+                    },
+                    "uuid": "bc7df60e-5f63-4732-944b-33c891649299"
+                },
+                {
+                    "description": "Piazzola AB5 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 18.825
+                    },
+                    "uuid": "aa75e3b4-f4ae-4404-9c19-386f1019b7c1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola Y5 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 17.525
+                    },
+                    "uuid": "bc7df60e-5f63-4732-944b-33c891649299"
+                },
+                {
+                    "description": "Piazzola Y8 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 17.525
+                    },
+                    "uuid": "0aa1d802-e949-4616-a712-0b628cac4089"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola C8 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 6.475
+                    },
+                    "uuid": "b3dfe57d-d38a-43bf-82aa-87179a90ad61"
+                },
+                {
+                    "description": "Piazzola D9 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.0,
+                        "y": 7.125
+                    },
+                    "uuid": "74e2a14f-20d5-478d-b798-c31cbc552369"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola C8 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 6.475
+                    },
+                    "uuid": "b3dfe57d-d38a-43bf-82aa-87179a90ad61"
+                },
+                {
+                    "description": "Piazzola A10 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.8,
+                        "y": 5.175
+                    },
+                    "uuid": "dd5de2b7-b4b1-46cc-9845-a75769a5ca48"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola G8 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 9.075
+                    },
+                    "uuid": "542d7f81-5cfb-4590-bd20-ab66b86b5fea"
+                },
+                {
+                    "description": "Piazzola E8 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 7.775
+                    },
+                    "uuid": "bdeab9cc-d648-4872-b7e9-cb873c06e0d0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola G8 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 9.075
+                    },
+                    "uuid": "542d7f81-5cfb-4590-bd20-ab66b86b5fea"
+                },
+                {
+                    "description": "Piazzola G10 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.8,
+                        "y": 9.075
+                    },
+                    "uuid": "85eb0c11-42e3-4c0e-88c7-08595653678c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola V8 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 16.225
+                    },
+                    "uuid": "f27ad42f-e105-4ba3-b931-cf9a9517dcc5"
+                },
+                {
+                    "description": "Piazzola W9 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.0,
+                        "y": 16.875
+                    },
+                    "uuid": "10209544-21be-4160-bca5-c2e2370740a7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola V8 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 16.225
+                    },
+                    "uuid": "f27ad42f-e105-4ba3-b931-cf9a9517dcc5"
+                },
+                {
+                    "description": "Piazzola T8 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 14.925
+                    },
+                    "uuid": "206f6b75-c47d-4be7-b63d-23ab54012e6a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola Y8 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 17.525
+                    },
+                    "uuid": "0aa1d802-e949-4616-a712-0b628cac4089"
+                },
+                {
+                    "description": "Piazzola AB8 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 18.825
+                    },
+                    "uuid": "cd888e18-3f0e-4838-82c2-77bc4e2f9129"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola AB8 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 18.825
+                    },
+                    "uuid": "cd888e18-3f0e-4838-82c2-77bc4e2f9129"
+                },
+                {
+                    "description": "Piazzola AB10 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.8,
+                        "y": 18.825
+                    },
+                    "uuid": "d82f4aa0-884c-4c10-93b8-1daa156642b4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola D9 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.0,
+                        "y": 7.125
+                    },
+                    "uuid": "74e2a14f-20d5-478d-b798-c31cbc552369"
+                },
+                {
+                    "description": "Piazzola E8 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 7.775
+                    },
+                    "uuid": "bdeab9cc-d648-4872-b7e9-cb873c06e0d0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola K9 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.0,
+                        "y": 11.025
+                    },
+                    "uuid": "830152b4-74aa-4748-b9e6-d178bf3cfc08"
+                },
+                {
+                    "description": "Piazzola J10 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.8,
+                        "y": 10.375
+                    },
+                    "uuid": "0899f2b4-35f9-4a81-a307-4cfa94915e64"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola N9 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.0,
+                        "y": 12.975
+                    },
+                    "uuid": "04f113c8-e376-4465-b612-d90442bd9c7a"
+                },
+                {
+                    "description": "Piazzola P10 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.8,
+                        "y": 13.625
+                    },
+                    "uuid": "a02cc23a-d754-40e9-b3c2-2773b1e9be65"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola N9 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.0,
+                        "y": 12.975
+                    },
+                    "uuid": "04f113c8-e376-4465-b612-d90442bd9c7a"
+                },
+                {
+                    "description": "Piazzola K9 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.0,
+                        "y": 11.025
+                    },
+                    "uuid": "830152b4-74aa-4748-b9e6-d178bf3cfc08"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola W9 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.0,
+                        "y": 16.875
+                    },
+                    "uuid": "10209544-21be-4160-bca5-c2e2370740a7"
+                },
+                {
+                    "description": "Piazzola Y8 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 17.525
+                    },
+                    "uuid": "0aa1d802-e949-4616-a712-0b628cac4089"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola J10 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.8,
+                        "y": 10.375
+                    },
+                    "uuid": "0899f2b4-35f9-4a81-a307-4cfa94915e64"
+                },
+                {
+                    "description": "Piazzola K11 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 13.6,
+                        "y": 11.025
+                    },
+                    "uuid": "2de8c726-e6e9-4333-9344-4e8e9a658dc8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola J10 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.8,
+                        "y": 10.375
+                    },
+                    "uuid": "0899f2b4-35f9-4a81-a307-4cfa94915e64"
+                },
+                {
+                    "description": "Piazzola G10 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.8,
+                        "y": 9.075
+                    },
+                    "uuid": "85eb0c11-42e3-4c0e-88c7-08595653678c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola T10 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.8,
+                        "y": 14.925
+                    },
+                    "uuid": "bdd5e1cf-bef9-46e3-8646-6b5b2dc445f4"
+                },
+                {
+                    "description": "Piazzola P10 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.8,
+                        "y": 13.625
+                    },
+                    "uuid": "a02cc23a-d754-40e9-b3c2-2773b1e9be65"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola T10 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.8,
+                        "y": 14.925
+                    },
+                    "uuid": "bdd5e1cf-bef9-46e3-8646-6b5b2dc445f4"
+                },
+                {
+                    "description": "Piazzola T8 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 14.925
+                    },
+                    "uuid": "206f6b75-c47d-4be7-b63d-23ab54012e6a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola D11 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 13.6,
+                        "y": 7.125
+                    },
+                    "uuid": "fa12043c-5c75-4b1f-9d7c-fb4c56bc620e"
+                },
+                {
+                    "description": "Piazzola E12 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 14.4,
+                        "y": 7.775
+                    },
+                    "uuid": "42a486e6-30a8-4018-878e-77166d3463b0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola K11 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 13.6,
+                        "y": 11.025
+                    },
+                    "uuid": "2de8c726-e6e9-4333-9344-4e8e9a658dc8"
+                },
+                {
+                    "description": "Piazzola J12 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 14.4,
+                        "y": 10.375
+                    },
+                    "uuid": "2aea9277-728c-4f30-8e22-b728037f1796"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola N11 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 13.6,
+                        "y": 12.975
+                    },
+                    "uuid": "8a606b95-efd3-4817-9161-efc38f11cf56"
+                },
+                {
+                    "description": "Piazzola P10 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.8,
+                        "y": 13.625
+                    },
+                    "uuid": "a02cc23a-d754-40e9-b3c2-2773b1e9be65"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola C12 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 14.4,
+                        "y": 6.475
+                    },
+                    "uuid": "ef04ab5b-444f-4f16-b534-1227d4651031"
+                },
+                {
+                    "description": "Piazzola D11 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 13.6,
+                        "y": 7.125
+                    },
+                    "uuid": "fa12043c-5c75-4b1f-9d7c-fb4c56bc620e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola G12 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 14.4,
+                        "y": 9.075
+                    },
+                    "uuid": "3e7254e2-86d0-405d-9971-70cae40b7985"
+                },
+                {
+                    "description": "Piazzola E12 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 14.4,
+                        "y": 7.775
+                    },
+                    "uuid": "42a486e6-30a8-4018-878e-77166d3463b0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola J12 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 14.4,
+                        "y": 10.375
+                    },
+                    "uuid": "2aea9277-728c-4f30-8e22-b728037f1796"
+                },
+                {
+                    "description": "Piazzola G12 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 14.4,
+                        "y": 9.075
+                    },
+                    "uuid": "3e7254e2-86d0-405d-9971-70cae40b7985"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola P12 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 14.4,
+                        "y": 13.625
+                    },
+                    "uuid": "47c22ee9-b507-46f7-a544-fdeb31a8a402"
+                },
+                {
+                    "description": "Piazzola N11 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 13.6,
+                        "y": 12.975
+                    },
+                    "uuid": "8a606b95-efd3-4817-9161-efc38f11cf56"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola T12 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 14.4,
+                        "y": 14.925
+                    },
+                    "uuid": "52724a05-d1a3-4bb6-aae9-94db29b4defd"
+                },
+                {
+                    "description": "Piazzola P12 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 14.4,
+                        "y": 13.625
+                    },
+                    "uuid": "47c22ee9-b507-46f7-a544-fdeb31a8a402"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola V12 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 14.4,
+                        "y": 16.225
+                    },
+                    "uuid": "5046398f-fe3e-4cad-902e-fb281fca7f96"
+                },
+                {
+                    "description": "Piazzola W11 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 13.6,
+                        "y": 16.875
+                    },
+                    "uuid": "6470a026-7709-4d77-8e81-b7fab6264566"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola V12 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 14.4,
+                        "y": 16.225
+                    },
+                    "uuid": "5046398f-fe3e-4cad-902e-fb281fca7f96"
+                },
+                {
+                    "description": "Piazzola T12 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 14.4,
+                        "y": 14.925
+                    },
+                    "uuid": "52724a05-d1a3-4bb6-aae9-94db29b4defd"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola Y12 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 14.4,
+                        "y": 17.525
+                    },
+                    "uuid": "5b8323c7-6850-4caa-b8ae-6d5387fbc3bd"
+                },
+                {
+                    "description": "Piazzola W11 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 13.6,
+                        "y": 16.875
+                    },
+                    "uuid": "6470a026-7709-4d77-8e81-b7fab6264566"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola D1 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 5.6,
+                        "y": 7.125
+                    },
+                    "uuid": "5dea79e1-3ced-4199-a343-b1da37d258c2"
+                },
+                {
+                    "description": "Piazzola F3 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 7.2,
+                        "y": 8.425
+                    },
+                    "uuid": "8751267d-0491-4e6c-975d-fd908eb69632"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola H1 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 5.6,
+                        "y": 9.725
+                    },
+                    "uuid": "a7139a4b-9aaa-4854-888c-36c76c46e1b2"
+                },
+                {
+                    "description": "Piazzola K1 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 5.6,
+                        "y": 11.025
+                    },
+                    "uuid": "58855673-d874-4040-809e-c88cd5bc9fc7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola N1 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 5.6,
+                        "y": 12.975
+                    },
+                    "uuid": "09d56c5b-a698-46fe-bfc6-c618fb4f9c6f"
+                },
+                {
+                    "description": "Piazzola R1 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 5.6,
+                        "y": 14.275
+                    },
+                    "uuid": "388c2eae-f789-44ab-9a2e-2d21ed63b06f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola N1 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 5.6,
+                        "y": 12.975
+                    },
+                    "uuid": "09d56c5b-a698-46fe-bfc6-c618fb4f9c6f"
+                },
+                {
+                    "description": "Piazzola N3 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 7.2,
+                        "y": 12.975
+                    },
+                    "uuid": "4ba9348b-d9e5-449a-9cc0-66cc835ec087"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola R1 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 5.6,
+                        "y": 14.275
+                    },
+                    "uuid": "388c2eae-f789-44ab-9a2e-2d21ed63b06f"
+                },
+                {
+                    "description": "Piazzola U3 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 7.2,
+                        "y": 15.575
+                    },
+                    "uuid": "62c2d666-b93d-46ca-80c8-0dc26a96429c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola W1 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 5.6,
+                        "y": 16.875
+                    },
+                    "uuid": "a0ae302d-226c-40b0-89f4-691d9966e47b"
+                },
+                {
+                    "description": "Piazzola U3 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 7.2,
+                        "y": 15.575
+                    },
+                    "uuid": "62c2d666-b93d-46ca-80c8-0dc26a96429c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola K3 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 7.2,
+                        "y": 11.025
+                    },
+                    "uuid": "da925481-bbc9-4513-a5bb-3887b04442fc"
+                },
+                {
+                    "description": "Piazzola K1 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 5.6,
+                        "y": 11.025
+                    },
+                    "uuid": "58855673-d874-4040-809e-c88cd5bc9fc7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola N3 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 7.2,
+                        "y": 12.975
+                    },
+                    "uuid": "4ba9348b-d9e5-449a-9cc0-66cc835ec087"
+                },
+                {
+                    "description": "Piazzola K3 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 7.2,
+                        "y": 11.025
+                    },
+                    "uuid": "da925481-bbc9-4513-a5bb-3887b04442fc"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola U3 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 7.2,
+                        "y": 15.575
+                    },
+                    "uuid": "62c2d666-b93d-46ca-80c8-0dc26a96429c"
+                },
+                {
+                    "description": "Piazzola U5 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 15.575
+                    },
+                    "uuid": "6d419e10-1d71-4e26-98e5-80487fc9fc82"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola AA3 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 7.2,
+                        "y": 18.175
+                    },
+                    "uuid": "b26f365e-e25b-499b-a4f6-858f20320191"
+                },
+                {
+                    "description": "Piazzola AB4 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.0,
+                        "y": 18.825
+                    },
+                    "uuid": "b34f6743-2fb7-4b7b-b9b0-01ef37541ad4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola A4 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.0,
+                        "y": 5.175
+                    },
+                    "uuid": "4a0e73e0-0eb6-4de4-9e57-9d0bd5f4ba6b"
+                },
+                {
+                    "description": "Piazzola B3 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 7.2,
+                        "y": 5.825
+                    },
+                    "uuid": "07c1d0b3-b845-4fc8-bc3d-6be629dd70cb"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola AB4 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.0,
+                        "y": 18.825
+                    },
+                    "uuid": "b34f6743-2fb7-4b7b-b9b0-01ef37541ad4"
+                },
+                {
+                    "description": "Piazzola AA5 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 18.175
+                    },
+                    "uuid": "f74a7070-c73e-440d-bc29-14a8a802cf4e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola B5 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 5.825
+                    },
+                    "uuid": "b49138af-587b-47b7-971b-c4ab61d17db9"
+                },
+                {
+                    "description": "Piazzola A4 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.0,
+                        "y": 5.175
+                    },
+                    "uuid": "4a0e73e0-0eb6-4de4-9e57-9d0bd5f4ba6b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola D5 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 7.125
+                    },
+                    "uuid": "983163e3-a825-4697-9f15-5fa9f878bcfd"
+                },
+                {
+                    "description": "Piazzola B5 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 5.825
+                    },
+                    "uuid": "b49138af-587b-47b7-971b-c4ab61d17db9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola F5 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 8.425
+                    },
+                    "uuid": "aba4fca0-ea95-4d27-be75-c7ad4bdef7de"
+                },
+                {
+                    "description": "Piazzola H5 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 9.725
+                    },
+                    "uuid": "c8dd9d12-8232-413b-869b-34bc8d169286"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola F5 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 8.425
+                    },
+                    "uuid": "aba4fca0-ea95-4d27-be75-c7ad4bdef7de"
+                },
+                {
+                    "description": "Piazzola D5 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 7.125
+                    },
+                    "uuid": "983163e3-a825-4697-9f15-5fa9f878bcfd"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola F5 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 8.425
+                    },
+                    "uuid": "aba4fca0-ea95-4d27-be75-c7ad4bdef7de"
+                },
+                {
+                    "description": "Piazzola F3 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 7.2,
+                        "y": 8.425
+                    },
+                    "uuid": "8751267d-0491-4e6c-975d-fd908eb69632"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola H5 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 9.725
+                    },
+                    "uuid": "c8dd9d12-8232-413b-869b-34bc8d169286"
+                },
+                {
+                    "description": "Piazzola K3 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 7.2,
+                        "y": 11.025
+                    },
+                    "uuid": "da925481-bbc9-4513-a5bb-3887b04442fc"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola R5 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 14.275
+                    },
+                    "uuid": "0c0f6fa5-b3a1-4f5e-ba58-08298cadd1a4"
+                },
+                {
+                    "description": "Piazzola U5 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 15.575
+                    },
+                    "uuid": "6d419e10-1d71-4e26-98e5-80487fc9fc82"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola W5 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 16.875
+                    },
+                    "uuid": "8594b496-e381-4620-82bc-6aad0a254213"
+                },
+                {
+                    "description": "Piazzola U5 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 15.575
+                    },
+                    "uuid": "6d419e10-1d71-4e26-98e5-80487fc9fc82"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola W5 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 16.875
+                    },
+                    "uuid": "8594b496-e381-4620-82bc-6aad0a254213"
+                },
+                {
+                    "description": "Piazzola AA5 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 18.175
+                    },
+                    "uuid": "f74a7070-c73e-440d-bc29-14a8a802cf4e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola B8 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 5.825
+                    },
+                    "uuid": "f46a2073-4db7-4e56-8237-e141a05738b8"
+                },
+                {
+                    "description": "Piazzola A9 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.0,
+                        "y": 5.175
+                    },
+                    "uuid": "6443cddd-0f6d-4d3f-ae20-2ba956016538"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola D8 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 7.125
+                    },
+                    "uuid": "b2cb1c53-e12e-4a5b-a992-a3b6d50b7252"
+                },
+                {
+                    "description": "Piazzola B8 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 5.825
+                    },
+                    "uuid": "f46a2073-4db7-4e56-8237-e141a05738b8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola F8 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 8.425
+                    },
+                    "uuid": "1150198c-6d4e-4f5f-9b51-e0ee652063f2"
+                },
+                {
+                    "description": "Piazzola H8 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 9.725
+                    },
+                    "uuid": "f1a063e7-1310-4f6a-a088-7c058adafdb0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola F8 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 8.425
+                    },
+                    "uuid": "1150198c-6d4e-4f5f-9b51-e0ee652063f2"
+                },
+                {
+                    "description": "Piazzola D8 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 7.125
+                    },
+                    "uuid": "b2cb1c53-e12e-4a5b-a992-a3b6d50b7252"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola F8 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 8.425
+                    },
+                    "uuid": "1150198c-6d4e-4f5f-9b51-e0ee652063f2"
+                },
+                {
+                    "description": "Piazzola F10 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.8,
+                        "y": 8.425
+                    },
+                    "uuid": "42483c56-876c-4113-be55-de28850b8354"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola R8 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 14.275
+                    },
+                    "uuid": "19287a21-6a37-48d6-8305-f3d6f5a244a6"
+                },
+                {
+                    "description": "Piazzola U8 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 15.575
+                    },
+                    "uuid": "33bf1312-596e-4ad2-8ec0-d856bc2e6700"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola R8 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 14.275
+                    },
+                    "uuid": "19287a21-6a37-48d6-8305-f3d6f5a244a6"
+                },
+                {
+                    "description": "Piazzola R5 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.8,
+                        "y": 14.275
+                    },
+                    "uuid": "0c0f6fa5-b3a1-4f5e-ba58-08298cadd1a4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola W8 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 16.875
+                    },
+                    "uuid": "e62ae9c6-397a-442c-940d-99893a0d6d45"
+                },
+                {
+                    "description": "Piazzola AA8 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 18.175
+                    },
+                    "uuid": "a56b5cf9-4e1a-4a43-8208-24205fbf14e6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola W8 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 16.875
+                    },
+                    "uuid": "e62ae9c6-397a-442c-940d-99893a0d6d45"
+                },
+                {
+                    "description": "Piazzola U8 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 15.575
+                    },
+                    "uuid": "33bf1312-596e-4ad2-8ec0-d856bc2e6700"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola AA8 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 18.175
+                    },
+                    "uuid": "a56b5cf9-4e1a-4a43-8208-24205fbf14e6"
+                },
+                {
+                    "description": "Piazzola AB9 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.0,
+                        "y": 18.825
+                    },
+                    "uuid": "775bdfd2-1bee-4c01-962b-8213e4637f11"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola AB9 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.0,
+                        "y": 18.825
+                    },
+                    "uuid": "775bdfd2-1bee-4c01-962b-8213e4637f11"
+                },
+                {
+                    "description": "Piazzola AA10 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.8,
+                        "y": 18.175
+                    },
+                    "uuid": "dc8cf32d-4d18-4f14-911a-2066c0347505"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola B10 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.8,
+                        "y": 5.825
+                    },
+                    "uuid": "7eca158b-3d40-4711-bd38-464dac8533a1"
+                },
+                {
+                    "description": "Piazzola A9 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.0,
+                        "y": 5.175
+                    },
+                    "uuid": "6443cddd-0f6d-4d3f-ae20-2ba956016538"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola F10 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.8,
+                        "y": 8.425
+                    },
+                    "uuid": "42483c56-876c-4113-be55-de28850b8354"
+                },
+                {
+                    "description": "Piazzola H12 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 14.4,
+                        "y": 9.725
+                    },
+                    "uuid": "c671f212-42f7-4f41-b47a-7c2cceff2207"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola K10 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.8,
+                        "y": 11.025
+                    },
+                    "uuid": "d6fac45b-35c2-4648-906f-19e2cc6e42d9"
+                },
+                {
+                    "description": "Piazzola K12 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 14.4,
+                        "y": 11.025
+                    },
+                    "uuid": "2ad399c9-b3a0-47ea-9995-b7285cf4c099"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola N10 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.8,
+                        "y": 12.975
+                    },
+                    "uuid": "9078ce93-3f23-459f-b57f-c01989bb892b"
+                },
+                {
+                    "description": "Piazzola N12 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 14.4,
+                        "y": 12.975
+                    },
+                    "uuid": "4636431a-220a-4577-9f76-30fcdff8ead1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola N10 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.8,
+                        "y": 12.975
+                    },
+                    "uuid": "9078ce93-3f23-459f-b57f-c01989bb892b"
+                },
+                {
+                    "description": "Piazzola K10 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.8,
+                        "y": 11.025
+                    },
+                    "uuid": "d6fac45b-35c2-4648-906f-19e2cc6e42d9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola N10 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.8,
+                        "y": 12.975
+                    },
+                    "uuid": "9078ce93-3f23-459f-b57f-c01989bb892b"
+                },
+                {
+                    "description": "Piazzola R8 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 14.275
+                    },
+                    "uuid": "19287a21-6a37-48d6-8305-f3d6f5a244a6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola U10 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.8,
+                        "y": 15.575
+                    },
+                    "uuid": "a082ca4d-d62e-4414-95bc-f8a07f060d3b"
+                },
+                {
+                    "description": "Piazzola U8 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 15.575
+                    },
+                    "uuid": "33bf1312-596e-4ad2-8ec0-d856bc2e6700"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola U10 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.8,
+                        "y": 15.575
+                    },
+                    "uuid": "a082ca4d-d62e-4414-95bc-f8a07f060d3b"
+                },
+                {
+                    "description": "Piazzola W12 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 14.4,
+                        "y": 16.875
+                    },
+                    "uuid": "8818286e-c9d5-4555-b574-152aab10f757"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola D12 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 14.4,
+                        "y": 7.125
+                    },
+                    "uuid": "671784d5-8e6f-49d1-bbcb-4e7b34e519f4"
+                },
+                {
+                    "description": "Piazzola F10 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.8,
+                        "y": 8.425
+                    },
+                    "uuid": "42483c56-876c-4113-be55-de28850b8354"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola K12 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 14.4,
+                        "y": 11.025
+                    },
+                    "uuid": "2ad399c9-b3a0-47ea-9995-b7285cf4c099"
+                },
+                {
+                    "description": "Piazzola H12 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 14.4,
+                        "y": 9.725
+                    },
+                    "uuid": "c671f212-42f7-4f41-b47a-7c2cceff2207"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola R12 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 14.4,
+                        "y": 14.275
+                    },
+                    "uuid": "ab7bc0d2-2d60-43ea-9656-41546669bc86"
+                },
+                {
+                    "description": "Piazzola N12 [+1V1_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 14.4,
+                        "y": 12.975
+                    },
+                    "uuid": "4636431a-220a-4577-9f76-30fcdff8ead1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola F1 [+1V8_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 5.6,
+                        "y": 8.425
+                    },
+                    "uuid": "5a20e7a8-a083-40e6-bd2c-cefc53645f91"
+                },
+                {
+                    "description": "Piazzola G4 [+1V8_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.0,
+                        "y": 9.075
+                    },
+                    "uuid": "549229fd-1b2d-4d8d-b534-c25ae94d9f63"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola G4 [+1V8_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.0,
+                        "y": 9.075
+                    },
+                    "uuid": "549229fd-1b2d-4d8d-b534-c25ae94d9f63"
+                },
+                {
+                    "description": "Piazzola G9 [+1V8_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.0,
+                        "y": 9.075
+                    },
+                    "uuid": "99803940-e5db-4f20-a7fd-7e86615526dc"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola T4 [+1V8_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.0,
+                        "y": 14.925
+                    },
+                    "uuid": "d9ca2378-3826-4365-b96c-c02f7110f821"
+                },
+                {
+                    "description": "Piazzola U1 [+1V8_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 5.6,
+                        "y": 15.575
+                    },
+                    "uuid": "d6ddc6e7-4968-4b3f-b70e-4d8709dc0c11"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola T4 [+1V8_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 8.0,
+                        "y": 14.925
+                    },
+                    "uuid": "d9ca2378-3826-4365-b96c-c02f7110f821"
+                },
+                {
+                    "description": "Piazzola T9 [+1V8_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.0,
+                        "y": 14.925
+                    },
+                    "uuid": "6ae06651-ed1b-44d0-b6ba-871c8756813f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola G9 [+1V8_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.0,
+                        "y": 9.075
+                    },
+                    "uuid": "99803940-e5db-4f20-a7fd-7e86615526dc"
+                },
+                {
+                    "description": "Piazzola F12 [+1V8_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 14.4,
+                        "y": 8.425
+                    },
+                    "uuid": "89ec1f1a-ad16-497f-af6f-8c38736eb0f4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola G9 [+1V8_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.0,
+                        "y": 9.075
+                    },
+                    "uuid": "99803940-e5db-4f20-a7fd-7e86615526dc"
+                },
+                {
+                    "description": "Piazzola T9 [+1V8_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.0,
+                        "y": 14.925
+                    },
+                    "uuid": "6ae06651-ed1b-44d0-b6ba-871c8756813f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola T9 [+1V8_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 12.0,
+                        "y": 14.925
+                    },
+                    "uuid": "6ae06651-ed1b-44d0-b6ba-871c8756813f"
+                },
+                {
+                    "description": "Piazzola U12 [+1V8_LPDDR4] di U2 su F.Cu",
+                    "pos": {
+                        "x": 14.4,
+                        "y": 15.575
+                    },
+                    "uuid": "0df53e8b-30f6-428e-9215-5a1f44d1f67c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ0_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.8,
+                        "y": 6.15
+                    },
+                    "uuid": "b9d1fee9-5b61-44f7-8002-1cf3639a92d3"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ7_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 8.4,
+                        "y": 6.15
+                    },
+                    "uuid": "a1004a3e-e37c-41ca-b0a6-a0a55077158f"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ15_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.6,
+                        "y": 6.15
+                    },
+                    "uuid": "5281235c-fa5a-40b1-95fe-b0c0cd4f6b71"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ8_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 13.2,
+                        "y": 6.15
+                    },
+                    "uuid": "49635207-8109-4e76-ac46-f028ee2b6573"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ1_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.8,
+                        "y": 6.8
+                    },
+                    "uuid": "685f7984-ec10-414c-96d9-86be2f28b3a4"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DM0_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 7.6,
+                        "y": 6.8
+                    },
+                    "uuid": "05ada089-7240-49cf-a309-f6ce6c1fbeec"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ6_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 8.4,
+                        "y": 6.8
+                    },
+                    "uuid": "d0863a15-7e76-4851-94f4-bbbfd223a9fe"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ14_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.6,
+                        "y": 6.8
+                    },
+                    "uuid": "9f958a14-bd2f-4b14-bcdb-cc274680b6b7"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DM1_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 12.4,
+                        "y": 6.8
+                    },
+                    "uuid": "b78927e2-15a1-4130-beb0-2865d90634b7"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ9_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 13.2,
+                        "y": 6.8
+                    },
+                    "uuid": "ba8f265f-c104-47c4-8781-6b1146b0a708"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQS0P_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 7.6,
+                        "y": 7.45
+                    },
+                    "uuid": "ab773fd7-e6c5-4e3e-8e27-7ea098eb551f"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQS1P_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 12.4,
+                        "y": 7.45
+                    },
+                    "uuid": "5e1d6f7a-ece2-4e30-824d-7ff1d1f99135"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ2_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.8,
+                        "y": 8.1
+                    },
+                    "uuid": "acf14f9a-0d36-4ec6-a93e-41b8ac9186c9"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQS0N_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 7.6,
+                        "y": 8.1
+                    },
+                    "uuid": "d096df3a-eab2-45ca-8b47-071a4dfa3481"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ5_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 8.4,
+                        "y": 8.1
+                    },
+                    "uuid": "de7a157d-25c3-4bff-9b7d-d6cef9e60199"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ13_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.6,
+                        "y": 8.1
+                    },
+                    "uuid": "8ebcf694-260e-416e-9437-f87fddb520a3"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQS1N_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 12.4,
+                        "y": 8.1
+                    },
+                    "uuid": "68ba7a73-acf7-4fe5-8451-c1bfa731fbdf"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ10_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 13.2,
+                        "y": 8.1
+                    },
+                    "uuid": "c2bde48d-9ff8-4c66-9ffa-32a388261339"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ3_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.8,
+                        "y": 8.75
+                    },
+                    "uuid": "5602fa72-efd9-48b5-935e-1d3bfec4bee5"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ4_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 8.4,
+                        "y": 8.75
+                    },
+                    "uuid": "e0971a3e-7cd4-4eaf-8b6f-72ab61a00dae"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ12_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.6,
+                        "y": 8.75
+                    },
+                    "uuid": "fb183b40-a612-4407-a05e-15a89ed5d922"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ11_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 13.2,
+                        "y": 8.75
+                    },
+                    "uuid": "3cff5882-f017-458b-9b6b-6bde689ff1d2"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_A0_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.8,
+                        "y": 10.05
+                    },
+                    "uuid": "4453a1d4-d732-4e84-b69c-024958ee35d4"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_CS0N_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 8.4,
+                        "y": 10.05
+                    },
+                    "uuid": "68e751f5-a2d6-45dc-9f12-f96e1459244a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_A2_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.6,
+                        "y": 10.05
+                    },
+                    "uuid": "ad3e0340-4913-4849-8906-72d71d602c94"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_A3_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 12.4,
+                        "y": 10.05
+                    },
+                    "uuid": "a088fbba-dddc-48c4-8506-196237cd7b94"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_A4_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 13.2,
+                        "y": 10.05
+                    },
+                    "uuid": "f9034c2d-01e2-4372-ae3d-93a0f3854fda"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_A1_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.8,
+                        "y": 10.7
+                    },
+                    "uuid": "26cea98c-23e1-4a09-abbb-0bfcc65431a7"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_CKE0_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 8.4,
+                        "y": 10.7
+                    },
+                    "uuid": "ed7a8a81-79df-424e-b0ad-1b6eb2a73468"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_CLKP_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 10.8,
+                        "y": 10.7
+                    },
+                    "uuid": "c3018ac5-cb8f-4588-8ff5-43b56bb7234e"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_CLKN_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.6,
+                        "y": 10.7
+                    },
+                    "uuid": "76fd615d-f7ba-4c76-b0f9-e760cd056a41"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_A5_A] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 13.2,
+                        "y": 10.7
+                    },
+                    "uuid": "44fc7b15-5af0-492b-aa7b-3950310bc46a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_A1_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.8,
+                        "y": 13.3
+                    },
+                    "uuid": "320e54e8-cc6d-4a08-8ae5-727d955a4fd7"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_CKE0_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 8.4,
+                        "y": 13.3
+                    },
+                    "uuid": "a653e823-54e5-44f8-8a22-d827fa15ed55"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_CLKP_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 10.8,
+                        "y": 13.3
+                    },
+                    "uuid": "91837ca3-2306-4dbe-9a98-19de97d17db6"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_CLKN_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.6,
+                        "y": 13.3
+                    },
+                    "uuid": "635c676d-efd2-4586-b865-0fda6d2cd83d"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_A5_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 13.2,
+                        "y": 13.3
+                    },
+                    "uuid": "efc5616c-76d8-4bac-80a5-a3704c094af1"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_A0_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.8,
+                        "y": 13.95
+                    },
+                    "uuid": "325d3fae-62c2-4c74-9d50-c37ebcad04e1"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_CS0N_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 8.4,
+                        "y": 13.95
+                    },
+                    "uuid": "7aa7b563-e6d2-4eb2-82bc-191e618f5926"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_A2_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.6,
+                        "y": 13.95
+                    },
+                    "uuid": "24899ad6-b974-4073-be9d-fc89f015d2e3"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_A3_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 12.4,
+                        "y": 13.95
+                    },
+                    "uuid": "7100dae2-d4ee-49e8-a1a6-10b7bd962e13"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_A4_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 13.2,
+                        "y": 13.95
+                    },
+                    "uuid": "7aa0c711-b29a-4622-a702-64284b5b324b"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_RESETN] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 13.2,
+                        "y": 14.6
+                    },
+                    "uuid": "393176c9-8c9e-4930-a81c-212d442bccb5"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ3_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.8,
+                        "y": 15.25
+                    },
+                    "uuid": "0f329786-67c6-478e-911d-d4fcb228f652"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ4_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 8.4,
+                        "y": 15.25
+                    },
+                    "uuid": "6627ce9a-5685-4d6e-a37e-af2f1261c8ed"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ12_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.6,
+                        "y": 15.25
+                    },
+                    "uuid": "9e78fe07-2fd0-4536-b5a1-7683291ca6fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ11_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 13.2,
+                        "y": 15.25
+                    },
+                    "uuid": "301147b2-d851-4e74-8042-dc4e5e395814"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ2_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.8,
+                        "y": 15.9
+                    },
+                    "uuid": "261e2759-3213-479f-85ca-5f1e9183fc79"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQS0N_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 7.6,
+                        "y": 15.9
+                    },
+                    "uuid": "2cf73ff4-e057-4b9f-a034-5206dc1cfe62"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ5_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 8.4,
+                        "y": 15.9
+                    },
+                    "uuid": "5d192ed4-1cb9-4b9b-9c79-ed72ee178a78"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ13_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.6,
+                        "y": 15.9
+                    },
+                    "uuid": "fbd84475-411b-4e78-b874-c534751853b2"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQS1N_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 12.4,
+                        "y": 15.9
+                    },
+                    "uuid": "42f3a2e1-eb7c-42bb-a65f-e40c97604de9"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ10_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 13.2,
+                        "y": 15.9
+                    },
+                    "uuid": "43425aab-1693-49b3-bba3-fb49a633afc5"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQS0P_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 7.6,
+                        "y": 16.55
+                    },
+                    "uuid": "dae97091-fa17-4e2e-88d2-4c16c243866a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQS1P_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 12.4,
+                        "y": 16.55
+                    },
+                    "uuid": "d87b6d8d-8265-40fa-bf0e-3f90b5cf9e31"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ1_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.8,
+                        "y": 17.2
+                    },
+                    "uuid": "cf932453-1541-4d3d-b4f7-b7411302058a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DM0_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 7.6,
+                        "y": 17.2
+                    },
+                    "uuid": "03388e4d-2b37-4990-b6bf-2a406b3b955e"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ6_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 8.4,
+                        "y": 17.2
+                    },
+                    "uuid": "8dfe5e5c-fd73-4952-a3fb-4fc03e5270b5"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ14_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.6,
+                        "y": 17.2
+                    },
+                    "uuid": "33273e44-58fe-490c-92bd-c363f83cba69"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DM1_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 12.4,
+                        "y": 17.2
+                    },
+                    "uuid": "5098d703-1a74-4d3a-a916-1697ab5d3e21"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ9_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 13.2,
+                        "y": 17.2
+                    },
+                    "uuid": "3ad01b94-dd33-4cdb-965d-592127cabfe6"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ0_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.8,
+                        "y": 17.85
+                    },
+                    "uuid": "694f5ca4-8c88-47db-8542-e68f21dba979"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ7_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 8.4,
+                        "y": 17.85
+                    },
+                    "uuid": "41a279eb-4322-4c1c-ab29-cbe3b7685c83"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ15_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.6,
+                        "y": 17.85
+                    },
+                    "uuid": "f47dc55e-3674-4d0c-a701-5f31db558153"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [LPDDR4_DQ8_B] su F.Cu - B.Cu",
+                    "pos": {
+                        "x": 13.2,
+                        "y": 17.85
+                    },
+                    "uuid": "1ac844ba-811f-43e8-984f-111b4f9d980a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        }
+    ]
+}

@@ -1,0 +1,290 @@
+{
+  "status": "INTEGRATED_CANDIDATE_NOT_RELEASED",
+  "changed_soc_signals": {
+    "1A1": {
+      "old": "DDR3_DQS1P",
+      "new": "LPDDR4_DQS1P_A"
+    },
+    "1A10": {
+      "old": "DDR3_BA1",
+      "new": "LPDDR4_A3_B"
+    },
+    "1A13": {
+      "old": "DDR3_DQS2P",
+      "new": "LPDDR4_DQS0P_B"
+    },
+    "1A15": {
+      "old": "DDR3_DQS3P",
+      "new": "LPDDR4_DQS1P_B"
+    },
+    "1A3": {
+      "old": "DDR3_DQS0P",
+      "new": "LPDDR4_DQS0P_A"
+    },
+    "1A6": {
+      "old": "DDR3_BA0",
+      "new": "LPDDR4_A3_A"
+    },
+    "1A7": {
+      "old": "DDR3_RASN",
+      "new": "LPDDR4_A5_A"
+    },
+    "1A8": {
+      "old": "DDR3_A11",
+      "new": "LPDDR4_A5_B"
+    },
+    "1A9": {
+      "old": "DDR3_A12",
+      "new": "LPDDR4_A4_B"
+    },
+    "1B1": {
+      "old": "DDR3_DQS1N",
+      "new": "LPDDR4_DQS1N_A"
+    },
+    "1B11": {
+      "old": "DDR3_RESETN",
+      "new": "LPDDR4_RESETN"
+    },
+    "1B13": {
+      "old": "DDR3_DQS2N",
+      "new": "LPDDR4_DQS0N_B"
+    },
+    "1B15": {
+      "old": "DDR3_DQS3N",
+      "new": "LPDDR4_DQS1N_B"
+    },
+    "1B3": {
+      "old": "DDR3_DQS0N",
+      "new": "LPDDR4_DQS0N_A"
+    },
+    "1B8": {
+      "old": null,
+      "new": "LPDDR4_A4_A"
+    },
+    "B1": {
+      "old": "DDR3_DQ12",
+      "new": "LPDDR4_DQ10_A"
+    },
+    "B10": {
+      "old": "DDR3_A6",
+      "new": "LPDDR4_A0_A"
+    },
+    "B11": {
+      "old": null,
+      "new": "LPDDR4_CS0N_A"
+    },
+    "B13": {
+      "old": "DDR3_CLKN",
+      "new": "LPDDR4_CLKP_A"
+    },
+    "B15": {
+      "old": "DDR3_A13",
+      "new": "LPDDR4_CLKP_B"
+    },
+    "B17": {
+      "old": "DDR3_CS0N",
+      "new": "LPDDR4_CS0N_B"
+    },
+    "B18": {
+      "old": "DDR3_A5",
+      "new": "LPDDR4_A0_B"
+    },
+    "B2": {
+      "old": "DDR3_DQ8",
+      "new": "LPDDR4_DQ11_A"
+    },
+    "B20": {
+      "old": "DDR3_DQ20",
+      "new": "LPDDR4_DQ1_B"
+    },
+    "B21": {
+      "old": "DDR3_DM2",
+      "new": "LPDDR4_DM0_B"
+    },
+    "B22": {
+      "old": "DDR3_DQ16",
+      "new": "LPDDR4_DQ0_B"
+    },
+    "B23": {
+      "old": "DDR3_DQ23",
+      "new": "LPDDR4_DQ5_B"
+    },
+    "B24": {
+      "old": "DDR3_DQ31",
+      "new": "LPDDR4_DQ13_B"
+    },
+    "B25": {
+      "old": "DDR3_DQ29",
+      "new": "LPDDR4_DQ15_B"
+    },
+    "B26": {
+      "old": "DDR3_DQ24",
+      "new": "LPDDR4_DQ11_B"
+    },
+    "B27": {
+      "old": "DDR3_DQ28",
+      "new": "LPDDR4_DQ10_B"
+    },
+    "B3": {
+      "old": "DDR3_DQ9",
+      "new": "LPDDR4_DQ15_A"
+    },
+    "B4": {
+      "old": "DDR3_DQ15",
+      "new": "LPDDR4_DQ13_A"
+    },
+    "B5": {
+      "old": "DDR3_DQ3",
+      "new": "LPDDR4_DQ5_A"
+    },
+    "B6": {
+      "old": "DDR3_DQ0",
+      "new": "LPDDR4_DQ0_A"
+    },
+    "B7": {
+      "old": "DDR3_DM0",
+      "new": "LPDDR4_DM0_A"
+    },
+    "B8": {
+      "old": "DDR3_DQ4",
+      "new": "LPDDR4_DQ1_A"
+    },
+    "C1": {
+      "old": "DDR3_DQ10",
+      "new": "LPDDR4_DQ9_A"
+    },
+    "C10": {
+      "old": "DDR3_A0",
+      "new": "LPDDR4_A2_A"
+    },
+    "C12": {
+      "old": "DDR3_CKE",
+      "new": "LPDDR4_CKE0_A"
+    },
+    "C16": {
+      "old": "DDR3_A10",
+      "new": "LPDDR4_CKE0_B"
+    },
+    "C18": {
+      "old": "DDR3_A1",
+      "new": "LPDDR4_A2_B"
+    },
+    "C2": {
+      "old": "DDR3_DQ14",
+      "new": "LPDDR4_DQ8_A"
+    },
+    "C20": {
+      "old": "DDR3_DQ18",
+      "new": "LPDDR4_DQ3_B"
+    },
+    "C22": {
+      "old": "DDR3_DQ19",
+      "new": "LPDDR4_DQ6_B"
+    },
+    "C23": {
+      "old": "DDR3_DQ21",
+      "new": "LPDDR4_DQ4_B"
+    },
+    "C26": {
+      "old": "DDR3_DQ26",
+      "new": "LPDDR4_DQ8_B"
+    },
+    "C27": {
+      "old": "DDR3_DQ30",
+      "new": "LPDDR4_DQ9_B"
+    },
+    "C5": {
+      "old": "DDR3_DQ1",
+      "new": "LPDDR4_DQ4_A"
+    },
+    "C6": {
+      "old": "DDR3_DQ5",
+      "new": "LPDDR4_DQ7_A"
+    },
+    "C8": {
+      "old": "DDR3_DQ6",
+      "new": "LPDDR4_DQ3_A"
+    },
+    "A10": {
+      "old": "DDR3_A4",
+      "new": "LPDDR4_A1_A"
+    },
+    "A13": {
+      "old": "DDR3_CLKP",
+      "new": "LPDDR4_CLKN_A"
+    },
+    "A15": {
+      "old": "DDR3_A9",
+      "new": "LPDDR4_CLKN_B"
+    },
+    "A18": {
+      "old": null,
+      "new": "LPDDR4_A1_B"
+    },
+    "A2": {
+      "old": "DDR3_DM1",
+      "new": "LPDDR4_DM1_A"
+    },
+    "A20": {
+      "old": "DDR3_DQ22",
+      "new": "LPDDR4_DQ2_B"
+    },
+    "A22": {
+      "old": "DDR3_DQ17",
+      "new": "LPDDR4_DQ7_B"
+    },
+    "A24": {
+      "old": "DDR3_DQ25",
+      "new": "LPDDR4_DQ12_B"
+    },
+    "A25": {
+      "old": "DDR3_DQ27",
+      "new": "LPDDR4_DQ14_B"
+    },
+    "A26": {
+      "old": "DDR3_DM3",
+      "new": "LPDDR4_DM1_B"
+    },
+    "A3": {
+      "old": "DDR3_DQ11",
+      "new": "LPDDR4_DQ14_A"
+    },
+    "A4": {
+      "old": "DDR3_DQ13",
+      "new": "LPDDR4_DQ12_A"
+    },
+    "A6": {
+      "old": "DDR3_DQ7",
+      "new": "LPDDR4_DQ6_A"
+    },
+    "A8": {
+      "old": "DDR3_DQ2",
+      "new": "LPDDR4_DQ2_A"
+    }
+  },
+  "remaining_memory_pin_review": [],
+  "removed_memory_package": "U3",
+  "new_ram": "U2 H9HCNNN8KUMLHR-NME",
+  "DDR_rail": "+1V1_LPDDR4",
+  "VDD1_rail": "+1V8_SYS",
+  "holds": [
+    "Requalify existing DDR bypass bank and new VDD1 bypass placement/derating",
+    "PMIC load budgets, transients and sequencing",
+    "Boot firmware training and exact chip support",
+    "PCB migration and SI"
+  ],
+  "main_board_modified": false,
+  "unused_memory_nc": [
+    "1B10",
+    "1B6",
+    "1B7",
+    "1C9",
+    "B12",
+    "B16",
+    "B19",
+    "B9",
+    "C11",
+    "C17"
+  ],
+  "ODT_strategy": "G2/T2 tied VDD2; mode-register termination control; RK3562 reference sheet13 and Hynix MR22"
+}

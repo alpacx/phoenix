@@ -1,0 +1,25 @@
+{
+  "status": "REJECTED; NOT ADOPTED",
+  "accepted_pcb_sha256": "ae2c3669257f512f3df43813de25eaaf73359c23774c1af9be822e4194bf42b9",
+  "results": {
+    "local_vddio_paths_found": true,
+    "buck_paths_found_with_inner_output_bridge": true,
+    "all_module_grounds_routable": false,
+    "full_drc_pass": false,
+    "clock_rerouted": false
+  },
+  "blocking_pin": "U25.20 GND",
+  "attempts": [
+    "Buck before ground: U25.20 escape failed with 0.6/0.3 and 0.45/0.2 mm vias.",
+    "Ground before buck: automatic route to left-side ground via blocked U25.21 switch path.",
+    "Ground before buck constrained to right-side vias: failed with 0.3 and 0.2 mm traces."
+  ],
+  "interpretation": "Failure of these bounded router trials, not proof that no physical routing solution exists. Joint group must reserve U25.20 escape before placement/routing; front-side BGA limits through-via sites.",
+  "limitations": [
+    "Clock load tracks were removed in candidate and not restored.",
+    "Experimental OUT bridge totals about 11.5 mm and is not approved for regulator-loop performance.",
+    "Moved SoC decoupling remains unqualified.",
+    "No BOM changes, purchases, simulations, or physical tests."
+  ],
+  "production_ready": false
+}

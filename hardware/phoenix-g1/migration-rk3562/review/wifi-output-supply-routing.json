@@ -1,0 +1,49 @@
+{
+  "status": "CANDIDATE WIFI OUTPUT FEED; DRC AND CURRENT QUALIFICATION REQUIRED",
+  "pcb_sha256": "b24da72a8348629b5865f9a8e7d57106ab595073c872ac89d4b001756aeb1386",
+  "net": "+3V58_WIFI",
+  "trunk_layer": "In3.Cu",
+  "trunk_width_mm": 1.0,
+  "trunk_length_mm": 6.3855,
+  "via_land_drill_mm": [
+    0.6,
+    0.3
+  ],
+  "outer_stub_width_mm": 0.5,
+  "endpoint_vias": [
+    {
+      "via_xy_mm": [
+        44.95,
+        27.900000000000002
+      ],
+      "outer_stub_length_mm": 2.8485
+    },
+    {
+      "via_xy_mm": [
+        44.95,
+        28.700000000000003
+      ],
+      "outer_stub_length_mm": 2.6828
+    },
+    {
+      "via_xy_mm": [
+        50.300000000000004,
+        25.400000000000002
+      ],
+      "outer_stub_length_mm": 4.7439
+    },
+    {
+      "via_xy_mm": [
+        50.7,
+        26.0
+      ],
+      "outer_stub_length_mm": 5.1782
+    }
+  ],
+  "limitations": [
+    "Only C2204-to-FB2001 input; module side of ferrite remains incomplete.",
+    "Narrow IC necks, copper thickness, current sharing, via fill and temperature are not qualified.",
+    "No electrical simulation or hardware test."
+  ],
+  "production_ready": false
+}

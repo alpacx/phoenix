@@ -1,0 +1,7 @@
+(version 1)
+(rule "Non DDR width" (constraint track_width (min 0.2mm)))
+(rule "DDR escape width" (condition "A.NetName == 'LPDDR4_*'") (constraint track_width (min 0.1mm)))
+(rule "DDR package spacing" (condition "A.memberOfFootprint('U2')") (constraint clearance (min 0.1mm)))
+(rule "Experimental CPU escape width" (condition "A.NetName == 'LPDDR4_*'") (constraint track_width (min 0.0762mm)))
+(rule "Experimental CPU land spacing" (condition "A.memberOfFootprint('U1')") (constraint clearance (min 0.0762mm)))
+(rule "Experimental DDR copper spacing" (condition "A.NetName == 'LPDDR4_*'") (constraint clearance (min 0.0762mm)))

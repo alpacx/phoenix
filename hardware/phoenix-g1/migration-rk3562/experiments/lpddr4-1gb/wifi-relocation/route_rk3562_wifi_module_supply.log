@@ -1,0 +1,52 @@
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+Endpoint FB2001 start blocked False safe sites 1269 accessible 8
+Endpoint U25 start blocked False safe sites 6175 accessible 100
+{
+  "status": "CANDIDATE WIFI MODULE FEED; DRC AND CURRENT QUALIFICATION REQUIRED",
+  "pcb_sha256": "3134c3e5d39e5384ee8467d41fb9709c0a83bd80769d9e01c15d70d966064d24",
+  "net": "WIFI_VBAT",
+  "trunk_layer": "In3.Cu",
+  "trunk_width_mm": 1.0,
+  "trunk_length_mm": 15.5012,
+  "via_land_drill_mm": [
+    0.6,
+    0.3
+  ],
+  "outer_stub_width_mm": 0.5,
+  "endpoint_vias": [
+    {
+      "via_xy_mm": [
+        54.0,
+        20.8
+      ],
+      "outer_stub_length_mm": 1.1953
+    },
+    {
+      "via_xy_mm": [
+        54.0,
+        20.1
+      ],
+      "outer_stub_length_mm": 1.4853
+    },
+    {
+      "via_xy_mm": [
+        68.3,
+        23.700000000000003
+      ],
+      "outer_stub_length_mm": 1.9953
+    },
+    {
+      "via_xy_mm": [
+        68.3,
+        23.0
+      ],
+      "outer_stub_length_mm": 1.2953
+    }
+  ],
+  "limitations": [
+    "Module supply only; internal buck, VDDIO, sequencing and RF remain unqualified.",
+    "Narrow IC necks, copper thickness, current sharing, via fill and temperature are not qualified.",
+    "No electrical simulation or hardware test."
+  ],
+  "production_ready": false
+}

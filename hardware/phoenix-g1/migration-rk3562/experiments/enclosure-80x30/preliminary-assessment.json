@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-10",
+  "status": "PRELIMINARY CONDITIONAL FEASIBILITY; NOT A ROUTED OR THERMALLY VALIDATED DESIGN",
+  "target_external_xy_mm": [
+    80,
+    30
+  ],
+  "external_height_mm": null,
+  "source_board": "../pmic-io-feed/candidate.kicad_pcb",
+  "expansion_header_removed_from_screen": "J3 only; supporting circuitry retained conservatively",
+  "screen_results": [
+    {
+      "pcb_mm": [
+        76,
+        26
+      ],
+      "extra_envelope_guard_mm": 0.25,
+      "placed": 268,
+      "total": 352,
+      "interpretation": "This greedy trial failed; not proof of impossibility."
+    },
+    {
+      "pcb_mm": [
+        78,
+        28
+      ],
+      "extra_envelope_guard_mm": 0,
+      "placed": 352,
+      "total": 352,
+      "interpretation": "Rectangle packing passed; no proof of routability, decoupling placement, thermal escape or assembly."
+    }
+  ],
+  "display_candidates": [
+    {
+      "part": "N096-1608TBBIG11-H13",
+      "module_mm": [
+        27.95,
+        13.5,
+        1.5
+      ],
+      "resolution": [
+        160,
+        80
+      ],
+      "touch": false,
+      "source": "https://jlcpcb.com/partdetail/C2890616",
+      "price_usd": 1.8359,
+      "orderable_observed": 328,
+      "min_purchase": 5
+    },
+    {
+      "part": "Waveshare 1.47inch Touch LCD",
+      "module_xy_mm": [
+        41.69,
+        22.05
+      ],
+      "resolution": [
+        320,
+        172
+      ],
+      "touch": true,
+      "source": "https://www.waveshare.com/1.47inch-touch-lcd.htm",
+      "price_usd": 11.99,
+      "availability": "InStock on manufacturer page; JLC assembly sourcing not confirmed",
+      "interfaces": [
+        "SPI",
+        "I2C"
+      ],
+      "drivers": [
+        "JD9853",
+        "AXS5106L"
+      ]
+    },
+    {
+      "part": "Waveshare 1.47inch LCD Module",
+      "module_xy_mm": [
+        38.5,
+        22
+      ],
+      "resolution": [
+        320,
+        172
+      ],
+      "touch": false,
+      "source": "https://www.waveshare.com/1.47inch-lcd-module.htm",
+      "price_usd": 9.99,
+      "availability": "InStock on manufacturer page"
+    }
+  ],
+  "navigation": {
+    "mpn": "TM-4175-B-A",
+    "code": "C465995",
+    "body_xy_mm": [
+      7.5,
+      7.5
+    ],
+    "price_usd": 0.7969,
+    "orderable_observed": 609,
+    "min_purchase": 14,
+    "cap_and_support_not_included": true
+  },
+  "comparative_subtotals_usd": {
+    "small_display_plus_navigation": 2.6328,
+    "large_nontouch_module_plus_navigation": 10.7869,
+    "large_touch_module": 11.99
+  },
+  "limitations": [
+    "Retail display modules and bare JLC display are different procurement and integration levels; costs are not assembled BOM quotations.",
+    "No stock reservation, purchase or PCB changes.",
+    "Exclude freight, taxes, feeders, assembly, attrition, MOQ surplus, FFC/FPC, mounts, caps and protective window.",
+    "LCD Linux driver/device tree integration not validated on RK3562.",
+    "No selected touch part confirmed in JLC stock.",
+    "GPIO reassignment, electrical schematic and mechanical controls unqualified.",
+    "30 mm external width leaves little wall/tolerance margin with 28 mm PCB.",
+    "Display height, connector bend, heat spreader and external antenna exit remain unvalidated."
+  ],
+  "recommendation": "Use 0.96 inch + navigation for minimum component cost; prefer 1.47 inch touch over equal-size module + navigation when readability is priority and external display assembly is acceptable. Do not migrate board until actual functional placement and thermal stack are demonstrated."
+}

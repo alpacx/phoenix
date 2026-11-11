@@ -1,0 +1,1432 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-10T12:05:23",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.7",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/4961d0bc-363c-578e-8adb-616af905339e",
+            "violations": [
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin G2 [ODT0_CA_A, Ingresso, Linea]",
+                            "pos": {
+                                "x": 48.26,
+                                "y": 53.34
+                            },
+                            "uuid": "6c4f8723-5005-4d0e-b405-9810ce3ce7c1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin H4 [CS0N_A, Ingresso, Linea]",
+                            "pos": {
+                                "x": 48.26,
+                                "y": 55.88
+                            },
+                            "uuid": "781d0fe3-baa0-48f7-833b-3ce66c714a68"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin H10 [A3_A, Ingresso, Linea]",
+                            "pos": {
+                                "x": 48.26,
+                                "y": 58.42
+                            },
+                            "uuid": "c17c8e77-87aa-466e-b51b-0dc54f86f493"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin J2 [A1_A, Ingresso, Linea]",
+                            "pos": {
+                                "x": 48.26,
+                                "y": 60.96
+                            },
+                            "uuid": "4e646b57-64d0-48c1-99fe-94596cf36607"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin J8 [CLKP_A, Ingresso, Linea]",
+                            "pos": {
+                                "x": 48.26,
+                                "y": 63.5
+                            },
+                            "uuid": "33ef6be2-672d-4844-9597-e853de56deda"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin J11 [A5_A, Ingresso, Linea]",
+                            "pos": {
+                                "x": 48.26,
+                                "y": 66.04
+                            },
+                            "uuid": "5c94b6e8-3f7f-47be-9d12-e2dff536da6b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin H2 [A0_A, Ingresso, Linea]",
+                            "pos": {
+                                "x": 78.74,
+                                "y": 53.34
+                            },
+                            "uuid": "53707078-f035-4257-93bf-cf40c8f80a7a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin H9 [A2_A, Ingresso, Linea]",
+                            "pos": {
+                                "x": 78.74,
+                                "y": 55.88
+                            },
+                            "uuid": "786a2162-0386-4e49-bf76-11e5e97db907"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin H11 [A4_A, Ingresso, Linea]",
+                            "pos": {
+                                "x": 78.74,
+                                "y": 58.42
+                            },
+                            "uuid": "aa1a1355-c1ab-4eef-b4c6-cc05f6673acc"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin J4 [CKE0_A, Ingresso, Linea]",
+                            "pos": {
+                                "x": 78.74,
+                                "y": 60.96
+                            },
+                            "uuid": "134134df-95ef-4a49-9fbc-e8a07106820f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin J9 [CLKN_A, Ingresso, Linea]",
+                            "pos": {
+                                "x": 78.74,
+                                "y": 63.5
+                            },
+                            "uuid": "d53fed9b-be4a-42ac-ad3e-ff6810b42f77"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin P2 [A1_B, Ingresso, Linea]",
+                            "pos": {
+                                "x": 143.51,
+                                "y": 25.4
+                            },
+                            "uuid": "4b9d5d75-8547-43ab-bd19-00cf72029c0d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin P8 [CLKP_B, Ingresso, Linea]",
+                            "pos": {
+                                "x": 143.51,
+                                "y": 27.94
+                            },
+                            "uuid": "24ea0c96-98a6-443e-9fe8-65bf5a80dc6a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin P11 [A5_B, Ingresso, Linea]",
+                            "pos": {
+                                "x": 143.51,
+                                "y": 30.48
+                            },
+                            "uuid": "1d2f818e-8d50-4ffb-95c4-13950962876d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin R4 [CS0N_B, Ingresso, Linea]",
+                            "pos": {
+                                "x": 143.51,
+                                "y": 33.02
+                            },
+                            "uuid": "8e891d62-4ca0-471c-afe1-6030f44c1cd4"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin R10 [A3_B, Ingresso, Linea]",
+                            "pos": {
+                                "x": 143.51,
+                                "y": 35.56
+                            },
+                            "uuid": "445462cf-48e5-4c7a-bbc1-d25aa321b0f6"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin T2 [ODT0_CA_B, Ingresso, Linea]",
+                            "pos": {
+                                "x": 143.51,
+                                "y": 38.1
+                            },
+                            "uuid": "32102bb8-c523-40a0-a07e-f4aa11881216"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin P4 [CKE0_B, Ingresso, Linea]",
+                            "pos": {
+                                "x": 173.99,
+                                "y": 25.4
+                            },
+                            "uuid": "ce1980d3-51a3-426a-b73b-ffcb8b0c7447"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin P9 [CLKN_B, Ingresso, Linea]",
+                            "pos": {
+                                "x": 173.99,
+                                "y": 27.94
+                            },
+                            "uuid": "df9ac849-e6d7-422c-84a8-dfb178ab2492"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin R2 [A0_B, Ingresso, Linea]",
+                            "pos": {
+                                "x": 173.99,
+                                "y": 30.48
+                            },
+                            "uuid": "33600ff6-cccc-471b-9e9e-077ed1261f4c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin R9 [A2_B, Ingresso, Linea]",
+                            "pos": {
+                                "x": 173.99,
+                                "y": 33.02
+                            },
+                            "uuid": "b8841182-2d64-4d42-ab69-403c4962ed0c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin R11 [A4_B, Ingresso, Linea]",
+                            "pos": {
+                                "x": 173.99,
+                                "y": 35.56
+                            },
+                            "uuid": "44505ddf-f24b-4f5e-a336-3e2118acfdfc"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin A4 [VDD2, Ingresso potenza, Linea]",
+                            "pos": {
+                                "x": 238.76,
+                                "y": 25.4
+                            },
+                            "uuid": "712a6750-0815-426f-b633-daac33b6b808"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin F1 [VDD1, Ingresso potenza, Linea]",
+                            "pos": {
+                                "x": 238.76,
+                                "y": 38.1
+                            },
+                            "uuid": "786a3eaf-a5a3-463c-8e30-c062279b3b98"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin A3 [VSS, Ingresso potenza, Linea]",
+                            "pos": {
+                                "x": 334.01,
+                                "y": 27.94
+                            },
+                            "uuid": "a6e57857-9692-451a-9ed1-39e53af96777"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin T11 [RESETN, Ingresso, Linea]",
+                            "pos": {
+                                "x": 334.01,
+                                "y": 99.06
+                            },
+                            "uuid": "4e022839-de44-454d-b42d-499d84c64fe5"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ0_A\"",
+                            "pos": {
+                                "x": 43.18,
+                                "y": 25.4
+                            },
+                            "uuid": "5e82a752-87aa-5b09-b8ce-36411860bf1e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ15_A\"",
+                            "pos": {
+                                "x": 43.18,
+                                "y": 27.94
+                            },
+                            "uuid": "7ef3f6e4-2583-5185-8022-0b482dc6e9ee"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ1_A\"",
+                            "pos": {
+                                "x": 43.18,
+                                "y": 30.48
+                            },
+                            "uuid": "4e2ce500-867d-5296-9ab2-ede1e64f1879"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ6_A\"",
+                            "pos": {
+                                "x": 43.18,
+                                "y": 33.02
+                            },
+                            "uuid": "2e9bc6c2-4899-5364-b437-eec0d32df77e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DM1_A\"",
+                            "pos": {
+                                "x": 43.18,
+                                "y": 35.56
+                            },
+                            "uuid": "7c5a0d8d-c9d5-554d-944d-14d1ab0ca7da"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQS0P_A\"",
+                            "pos": {
+                                "x": 43.18,
+                                "y": 38.1
+                            },
+                            "uuid": "1c5ddc92-3ae1-5b44-8e19-85a3e22c7bb2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ2_A\"",
+                            "pos": {
+                                "x": 43.18,
+                                "y": 40.64
+                            },
+                            "uuid": "f405762d-fcab-5afb-b0f0-7ed5a094c79b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ5_A\"",
+                            "pos": {
+                                "x": 43.18,
+                                "y": 43.18
+                            },
+                            "uuid": "4184c88c-ed8d-5770-8282-8ec1046cc884"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQS1N_A\"",
+                            "pos": {
+                                "x": 43.18,
+                                "y": 45.72
+                            },
+                            "uuid": "9621bdc5-ad8c-56c5-9e4d-1cb0210271b3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ3_A\"",
+                            "pos": {
+                                "x": 43.18,
+                                "y": 48.26
+                            },
+                            "uuid": "d4d87797-f56e-5692-a6d1-7cda0fd5158c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ12_A\"",
+                            "pos": {
+                                "x": 43.18,
+                                "y": 50.8
+                            },
+                            "uuid": "ff576781-76d6-5395-badf-158b1710411e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_ODT0_CA_A\"",
+                            "pos": {
+                                "x": 43.18,
+                                "y": 53.34
+                            },
+                            "uuid": "92077557-7d17-5981-813a-21fdb37fc7e8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_CS0N_A\"",
+                            "pos": {
+                                "x": 43.18,
+                                "y": 55.88
+                            },
+                            "uuid": "18173e62-493d-5034-afdd-9ad278ff3f00"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_A3_A\"",
+                            "pos": {
+                                "x": 43.18,
+                                "y": 58.42
+                            },
+                            "uuid": "583fbe7a-cc24-5be5-ad11-b52bc6d536a1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_A1_A\"",
+                            "pos": {
+                                "x": 43.18,
+                                "y": 60.96
+                            },
+                            "uuid": "5cc5199b-0f95-51c3-a6e6-11dc6c3600d3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_CLKP_A\"",
+                            "pos": {
+                                "x": 43.18,
+                                "y": 63.5
+                            },
+                            "uuid": "996d5ae2-c677-5955-bb8c-d9ec1b2732d8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_A5_A\"",
+                            "pos": {
+                                "x": 43.18,
+                                "y": 66.04
+                            },
+                            "uuid": "064401db-ec6f-558a-a3b9-dcc6e9ee76cf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ7_A\"",
+                            "pos": {
+                                "x": 83.82,
+                                "y": 25.4
+                            },
+                            "uuid": "736fab4b-eb62-5c5c-8df6-a77e413d8aed"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ8_A\"",
+                            "pos": {
+                                "x": 83.82,
+                                "y": 27.94
+                            },
+                            "uuid": "d3f018b1-719b-5073-a0e5-b3fb55ef1b98"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DM0_A\"",
+                            "pos": {
+                                "x": 83.82,
+                                "y": 30.48
+                            },
+                            "uuid": "cdb03346-6778-5ba0-9045-3f69a7784be5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ14_A\"",
+                            "pos": {
+                                "x": 83.82,
+                                "y": 33.02
+                            },
+                            "uuid": "f1693a89-478f-5b5b-b7d7-d92704da51c7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ9_A\"",
+                            "pos": {
+                                "x": 83.82,
+                                "y": 35.56
+                            },
+                            "uuid": "8c54af38-2a4d-5ed3-9f19-ab0c037b4aaa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQS1P_A\"",
+                            "pos": {
+                                "x": 83.82,
+                                "y": 38.1
+                            },
+                            "uuid": "1e74b67c-0bf5-589e-8a03-71459a13ab43"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQS0N_A\"",
+                            "pos": {
+                                "x": 83.82,
+                                "y": 40.64
+                            },
+                            "uuid": "ee90dd1e-bc57-51cb-97d1-ad54bf41749f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ13_A\"",
+                            "pos": {
+                                "x": 83.82,
+                                "y": 43.18
+                            },
+                            "uuid": "202db378-2f5d-500c-9906-b1b069002522"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ10_A\"",
+                            "pos": {
+                                "x": 83.82,
+                                "y": 45.72
+                            },
+                            "uuid": "4a128c91-263b-5f04-a7a9-92129ffa7a9f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ4_A\"",
+                            "pos": {
+                                "x": 83.82,
+                                "y": 48.26
+                            },
+                            "uuid": "e0891aad-7358-599e-aa93-660b36e6cf37"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ11_A\"",
+                            "pos": {
+                                "x": 83.82,
+                                "y": 50.8
+                            },
+                            "uuid": "46b1185b-2f95-5493-bd74-00ec020ce868"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_A0_A\"",
+                            "pos": {
+                                "x": 83.82,
+                                "y": 53.34
+                            },
+                            "uuid": "2d9bec7b-cca2-5319-b425-47d6ee4c3c17"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_A2_A\"",
+                            "pos": {
+                                "x": 83.82,
+                                "y": 55.88
+                            },
+                            "uuid": "bae7614f-789e-567f-aa99-42a92dad151c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_A4_A\"",
+                            "pos": {
+                                "x": 83.82,
+                                "y": 58.42
+                            },
+                            "uuid": "aa3aca46-8e51-58d1-a2d5-4664def9c5bf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_CKE0_A\"",
+                            "pos": {
+                                "x": 83.82,
+                                "y": 60.96
+                            },
+                            "uuid": "d36309a7-36c0-59b9-b3c5-2fd4ef6799dd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_CLKN_A\"",
+                            "pos": {
+                                "x": 83.82,
+                                "y": 63.5
+                            },
+                            "uuid": "64588be3-0996-5e70-9208-b67f3fb346c9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_A1_B\"",
+                            "pos": {
+                                "x": 138.43,
+                                "y": 25.4
+                            },
+                            "uuid": "5679d16f-713b-5346-a2d3-aa3d5208a41a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_CLKP_B\"",
+                            "pos": {
+                                "x": 138.43,
+                                "y": 27.94
+                            },
+                            "uuid": "eb6bb471-9fa1-5591-9683-37548d0661f9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_A5_B\"",
+                            "pos": {
+                                "x": 138.43,
+                                "y": 30.48
+                            },
+                            "uuid": "b9fe5f57-83a0-54dc-ad0d-beb58bb949b9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_CS0N_B\"",
+                            "pos": {
+                                "x": 138.43,
+                                "y": 33.02
+                            },
+                            "uuid": "d37d7d7d-8ff9-59b5-937c-8503d5cbe42a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_A3_B\"",
+                            "pos": {
+                                "x": 138.43,
+                                "y": 35.56
+                            },
+                            "uuid": "b58cb850-3430-5458-ba5c-1eb3ba71c790"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_ODT0_CA_B\"",
+                            "pos": {
+                                "x": 138.43,
+                                "y": 38.1
+                            },
+                            "uuid": "ea4d5616-a4ef-5255-976d-ea9aeebc75ff"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ4_B\"",
+                            "pos": {
+                                "x": 138.43,
+                                "y": 40.64
+                            },
+                            "uuid": "b91117ba-b61e-57bc-9687-6d6e38cd185f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ11_B\"",
+                            "pos": {
+                                "x": 138.43,
+                                "y": 43.18
+                            },
+                            "uuid": "002ab5cc-d7e3-52ab-ad31-998d9b1a0f93"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQS0N_B\"",
+                            "pos": {
+                                "x": 138.43,
+                                "y": 45.72
+                            },
+                            "uuid": "b0b2fb22-9557-5b44-9ac7-f54172a86b5c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ13_B\"",
+                            "pos": {
+                                "x": 138.43,
+                                "y": 48.26
+                            },
+                            "uuid": "86c9fa1a-846c-5f86-ae0c-8f11f9d62f92"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ10_B\"",
+                            "pos": {
+                                "x": 138.43,
+                                "y": 50.8
+                            },
+                            "uuid": "ef87fb4b-89e5-51d3-9db4-8217a48fe272"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQS1P_B\"",
+                            "pos": {
+                                "x": 138.43,
+                                "y": 53.34
+                            },
+                            "uuid": "61812b98-6216-559c-b303-35fc00aeb13c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DM0_B\"",
+                            "pos": {
+                                "x": 138.43,
+                                "y": 55.88
+                            },
+                            "uuid": "e319709d-cc86-555b-95da-32fc96b999ea"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ14_B\"",
+                            "pos": {
+                                "x": 138.43,
+                                "y": 58.42
+                            },
+                            "uuid": "e8df8f1c-5ee6-556e-be33-d8b8067515c2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ9_B\"",
+                            "pos": {
+                                "x": 138.43,
+                                "y": 60.96
+                            },
+                            "uuid": "2767c97b-5af7-55c4-a36c-e0b9aad96149"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ7_B\"",
+                            "pos": {
+                                "x": 138.43,
+                                "y": 63.5
+                            },
+                            "uuid": "1eb8eeae-64c0-589f-9582-74aeb14e25a2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ8_B\"",
+                            "pos": {
+                                "x": 138.43,
+                                "y": 66.04
+                            },
+                            "uuid": "8c8e5de7-f1c1-520a-b426-3b5634b3ac6f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_CKE0_B\"",
+                            "pos": {
+                                "x": 179.07,
+                                "y": 25.4
+                            },
+                            "uuid": "1879f418-7f0a-5f6d-bbfb-b7bcc1c75c0a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_CLKN_B\"",
+                            "pos": {
+                                "x": 179.07,
+                                "y": 27.94
+                            },
+                            "uuid": "db2fafaa-a222-520d-9598-8f276521da1b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_A0_B\"",
+                            "pos": {
+                                "x": 179.07,
+                                "y": 30.48
+                            },
+                            "uuid": "6326a780-ef7d-5040-9ebd-fb32a8e1d651"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_A2_B\"",
+                            "pos": {
+                                "x": 179.07,
+                                "y": 33.02
+                            },
+                            "uuid": "5daf6250-0786-50a0-a57d-f2b3471b6023"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_A4_B\"",
+                            "pos": {
+                                "x": 179.07,
+                                "y": 35.56
+                            },
+                            "uuid": "65fa2fa5-f507-5d4b-9afd-f6a62bffceb7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ3_B\"",
+                            "pos": {
+                                "x": 179.07,
+                                "y": 38.1
+                            },
+                            "uuid": "faf93c0d-4dfb-5582-9974-5aab219d5b72"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ12_B\"",
+                            "pos": {
+                                "x": 179.07,
+                                "y": 40.64
+                            },
+                            "uuid": "69e5e2db-c941-5044-aca3-fe2c47285df0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ2_B\"",
+                            "pos": {
+                                "x": 179.07,
+                                "y": 43.18
+                            },
+                            "uuid": "2a739c21-ad41-58b4-a4a1-56431f995dc0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ5_B\"",
+                            "pos": {
+                                "x": 179.07,
+                                "y": 45.72
+                            },
+                            "uuid": "c12871b2-53d1-59f3-9696-268ddba235d0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQS1N_B\"",
+                            "pos": {
+                                "x": 179.07,
+                                "y": 48.26
+                            },
+                            "uuid": "d9d44aa2-d103-5d97-af20-f7d83a48f525"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQS0P_B\"",
+                            "pos": {
+                                "x": 179.07,
+                                "y": 50.8
+                            },
+                            "uuid": "476739d6-83f3-5f6d-a6de-abf3122b8eee"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ1_B\"",
+                            "pos": {
+                                "x": 179.07,
+                                "y": 53.34
+                            },
+                            "uuid": "cb5b47be-af44-5900-897e-ffa96b873a71"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ6_B\"",
+                            "pos": {
+                                "x": 179.07,
+                                "y": 55.88
+                            },
+                            "uuid": "e46e27cb-5317-5af0-a558-67f83724550f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DM1_B\"",
+                            "pos": {
+                                "x": 179.07,
+                                "y": 58.42
+                            },
+                            "uuid": "806e4af0-095b-50c4-9186-d501159779b3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ0_B\"",
+                            "pos": {
+                                "x": 179.07,
+                                "y": 60.96
+                            },
+                            "uuid": "bf00126a-da7b-5b3b-b2b8-b99b16746870"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_DQ15_B\"",
+                            "pos": {
+                                "x": 179.07,
+                                "y": 63.5
+                            },
+                            "uuid": "421a0e93-f97a-5eea-b080-1051ed7896cc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"LPDDR4_RESETN\"",
+                            "pos": {
+                                "x": 328.93,
+                                "y": 99.06
+                            },
+                            "uuid": "05fc7693-9e52-5ec2-bca5-3ace6d265c80"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                }
+            ]
+        }
+    ],
+    "source": "lpddr4-memory-candidate.kicad_sch"
+}

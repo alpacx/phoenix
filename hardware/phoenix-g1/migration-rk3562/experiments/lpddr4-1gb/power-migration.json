@@ -1,0 +1,46 @@
+{
+  "status": "DOCUMENTARY_POWER_CANDIDATE_NOT_INTEGRATED",
+  "source": "RK809 Rev2.3 p21/34; Hynix Rev1.1 section3.2.1.1",
+  "VDD1_source_candidate": "RK809-5 BUCK5, 1.8 V default, sequence slot 2",
+  "VDD2_VDDQ_source_candidate": "RK809-5 BUCK3, external divider, sequence slot 3",
+  "divider_candidate_ohm": {
+    "top": 45300,
+    "bottom": 121000
+  },
+  "divider_parts_sourced": true,
+  "nominal_V": 1.099504132231405,
+  "static_min_V": 1.076927607929261,
+  "static_max_V": 1.1221058149058147,
+  "memory_allowed_V": [
+    1.06,
+    1.17
+  ],
+  "static_screen_pass": true,
+  "not_included": [
+    "temperature coefficient",
+    "load transients",
+    "ripple",
+    "PCB IR drop"
+  ],
+  "sequencing": "Nominal slots place 1.8 V before 1.1 V; ramp and power-down inequality require validation",
+  "startup_max_ramp_ms": 20,
+  "ZQ": "240 ohm +/-1% from A5 to VDDQ, NOT GND",
+  "holds": [
+    "Confirm exact PMIC OTP/version and divider mode",
+    "Budget BUCK5 existing loads plus memory VDD1",
+    "Budget BUCK3 memory and SoC PHY peak loads",
+    "Confirm VDDQL rail from RK3562 reference",
+    "Validate reset and discharge/power-down",
+    "Divider temperature tracking and bypass effective capacitance"
+  ],
+  "selected_divider": {
+    "R431": {
+      "mpn": "RT0603BRD0745K3L",
+      "jlc": "C861415"
+    },
+    "R432": {
+      "mpn": "RT0603BRD07121KL",
+      "jlc": "C861095"
+    }
+  }
+}

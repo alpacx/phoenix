@@ -1,0 +1,68 @@
+{
+  "status": "CANDIDATE LOCAL VDDIO BYPASS; UPSTREAM FEED STILL REQUIRED",
+  "pcb_sha256": "153c05b50a261e0a8563dec21190254d412c2a936c517a346dcd1340d40f9266",
+  "branches": [
+    {
+      "from": "U25.22",
+      "to": "C2006.1",
+      "net": "+3V3_IO",
+      "width_mm": 0.3,
+      "length_mm": 1.4325,
+      "layer": "B.Cu"
+    },
+    {
+      "from": "C2006.1",
+      "to": "C2005.1",
+      "net": "+3V3_IO",
+      "width_mm": 0.4,
+      "length_mm": 2.8314,
+      "layer": "B.Cu"
+    },
+    {
+      "from": "C2005.1",
+      "to": "C2004.1",
+      "net": "+3V3_IO",
+      "width_mm": 0.4,
+      "length_mm": 1.24,
+      "layer": "B.Cu"
+    }
+  ],
+  "ground_escapes": [
+    {
+      "ref": "C2006",
+      "via_xy_mm": [
+        39.7,
+        28.1
+      ],
+      "reused": false,
+      "width_mm": 0.3,
+      "length_mm": 0.82
+    },
+    {
+      "ref": "C2005",
+      "via_xy_mm": [
+        36.050000000000004,
+        27.1
+      ],
+      "reused": false,
+      "width_mm": 0.3,
+      "length_mm": 0.7614
+    },
+    {
+      "ref": "C2004",
+      "via_xy_mm": [
+        36.050000000000004,
+        28.200000000000003
+      ],
+      "reused": false,
+      "width_mm": 0.3,
+      "length_mm": 0.72
+    }
+  ],
+  "limitations": [
+    "No electrical simulation or hardware test.",
+    "Effective capacitance and return impedance remain unqualified; upstream PMIC output is not routed by this stage.",
+    "Displaced SoC decoupling requires later local placement review."
+  ],
+  "production_ready": false
+}

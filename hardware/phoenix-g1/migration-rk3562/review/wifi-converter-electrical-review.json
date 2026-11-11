@@ -1,0 +1,68 @@
+{
+  "status": "NOMINAL COMPONENT AND LAYOUT REVIEW; ELECTRICAL QUALIFICATION OPEN",
+  "reviewed_utc": "2026-11-09T15:11:22.872406+00:00",
+  "source_documents": [
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/tps62130.pdf",
+      "local_file": "reference/tps62130.pdf",
+      "sections": [
+        "9.2.2.1",
+        "Table 9-2",
+        "9.2.2.2.2",
+        "11.1",
+        "11.2"
+      ],
+      "layout_and_lc_table_visually_inspected": true
+    },
+    {
+      "url": "https://product.samsungsem.com/mlcc/CL21A106KAYNNN.do",
+      "mpn": "CL21A106KAYNNNE"
+    },
+    {
+      "url": "https://product.samsungsem.com/mlcc/CL21A226MOCLRN.do",
+      "mpn": "CL21A226MOCLRNC"
+    },
+    {
+      "local_file": "reference/inductor-main-C5349673.pdf",
+      "page_1_based": 4,
+      "table_visually_inspected": true
+    }
+  ],
+  "nominal_checks": {
+    "feedback_top_ohm": 348000,
+    "feedback_bottom_ohm": 100000,
+    "nominal_output_v": 3.584,
+    "nominal_feedback_current_ua": 8.0,
+    "ti_recommended_bottom_resistor_max_ohm": 400000,
+    "inductor_uh": 2.2,
+    "output_capacitor_uf": 22,
+    "nominal_lc_combination_in_ti_table_9_2": true,
+    "input_capacitor": {
+      "ref": "C2201",
+      "mpn": "CL21A106KAYNNNE",
+      "nominal_uf": 10,
+      "rated_v": 25,
+      "tolerance_pct": 10,
+      "dielectric": "X5R"
+    },
+    "output_capacitor": {
+      "ref": "C2204",
+      "mpn": "CL21A226MOCLRNC",
+      "nominal_uf": 22,
+      "rated_v": 16,
+      "tolerance_pct": 20,
+      "dielectric": "X5R"
+    },
+    "avin_bypass_nf": 100,
+    "fsw_pin_grounded": true,
+    "switching_frequency_typical_mhz": 2.5
+  },
+  "open_items": [
+    "Bias, temperature, tolerance and aging must be combined for effective capacitance; no guaranteed operating-point capacitance has been established.",
+    "TI LC table covers nominal combinations with +20/-50 percent effective capacitance variation; this is not proof the chosen Samsung part meets that envelope in Phoenix.",
+    "APV table labels 4.98 A saturation and 4.32 A heat-rating columns Max., alongside 6.00 A and 5.00 A typical. Do not relabel these as guaranteed minimum ratings without clarification.",
+    "Current-dependent inductance, load transients, ripple, loop stability, input source impedance and passive thermal performance remain unqualified.",
+    "The main input branch is geometrically continuous; current and thermal capability, other board supply loads and the Wi-Fi ferrite/output feed remain unfinished."
+  ],
+  "production_ready": false
+}

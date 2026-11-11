@@ -1,0 +1,12 @@
+{
+  "status": "LOCAL POWER COPPER CANDIDATE; DRC/CONTINUITY REQUIRED",
+  "pcb_sha256": "97c5ab3be6165fc6153d6bfd3073479dd9a1658c5b246e95be4eb7cafdcffe19",
+  "added_track_and_via_items": 205,
+  "source": "https://www.ti.com/lit/ds/symlink/tps62130.pdf, sections 11.1/11.2",
+  "limitations": [
+    "Not a completed converter or power distribution.",
+    "No impedance, current, thermal or loop stability qualification.",
+    "Thermal via fill/plug and paste process not approved."
+  ],
+  "production_ready": false
+}

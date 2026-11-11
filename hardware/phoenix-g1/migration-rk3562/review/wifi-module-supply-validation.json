@@ -1,0 +1,41 @@
+{
+  "status": "VERIFIED COPPER CONTINUITY; ELECTRICAL QUALIFICATION INCOMPLETE",
+  "pcb_sha256": "fef0b6dc51399e0d826a6b914f73587c0d68698eed0a78745eaeac312cc2ff28",
+  "tracks": 1218,
+  "vias": 133,
+  "unconnected_ratsnest_edges": 1129,
+  "checks": [
+    "Full rebuild through converter output, ferrite, module VBAT and bypass supply",
+    "Module ground stage added to rebuilt board, followed by full DRC and all existing independent continuity audits",
+    "Zero geometric DRC findings; 1774 matched pad nets; no regression in USB controls, bypass, grounds or input supplies",
+    "All 14 U25 pads assigned to GND and both VBAT bypass grounds connected to USB ground",
+    "Negative fixture on final PCB: removing WIFI_VBAT back-layer copper breaks module supply assertion while converter output, local nets and grounds still pass",
+    "Front/back copper views regenerated and visually inspected"
+  ],
+  "placement_changes": [
+    {
+      "ref": "C2001",
+      "from_xy_mm": [
+        34,
+        29
+      ],
+      "to_xy_mm": [
+        56,
+        21
+      ],
+      "side": "front",
+      "reason": "Bring VBAT reservoir closer to ferrite and module; loop impedance still unqualified"
+    }
+  ],
+  "limitations": [
+    "Internal module buck, VDDIO, clocks, SDIO and RF routing remain incomplete.",
+    "Ground escape lengths up to 4.1066 mm are geometry candidates, not RF/return-inductance signoff.",
+    "Capacitance under bias, ferrite resonance, transient margin and current/temperature limits unqualified.",
+    "RK3562 documentation holds and overall fabrication gate remain open."
+  ],
+  "parts_changed": false,
+  "bom_cost_delta_usd": 0,
+  "simulation_performed": false,
+  "physical_test_performed": false,
+  "production_ready": false
+}

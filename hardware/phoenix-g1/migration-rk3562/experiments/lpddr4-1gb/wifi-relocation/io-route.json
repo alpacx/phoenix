@@ -1,0 +1,54 @@
+{
+  "status": "GEOMETRY_AND_CONTINUITY_ONLY",
+  "board_sha256": "d2939e2595ba1699a65dabea04603424908e31fe735bb3c073c9d6e4e8bb8ae3",
+  "branches": [
+    {
+      "pad": "R530.1",
+      "method": "In2.Cu feed",
+      "via_xy_mm": [
+        51.800000000000004,
+        28.900000000000002
+      ],
+      "outer_length_mm": 2.375685424949236,
+      "inner_length_mm": 28.41284630184965
+    },
+    {
+      "pad": "C2004.1",
+      "method": "same-side",
+      "length_mm": 3.259188309203674
+    },
+    {
+      "pad": "Y2001.1",
+      "method": "same-side",
+      "length_mm": 1.857106781186546
+    },
+    {
+      "pad": "Y2001.4",
+      "method": "same-side",
+      "length_mm": 2.1999999999999993
+    }
+  ],
+  "pmic_neck": {
+    "width_mm": 0.127,
+    "start_mm": [
+      61.75,
+      5.59
+    ],
+    "end_mm": [
+      61.75,
+      4.65
+    ]
+  },
+  "outer_width_mm": 0.2,
+  "inner_width_mm": 0.5,
+  "via_land_drill_mm": [
+    0.6,
+    0.3
+  ],
+  "remaining": [
+    "Source reservoir proximity and PMIC startup/load response",
+    "Voltage drop and thermal/current qualification",
+    "Physical tests"
+  ],
+  "production_ready": false
+}

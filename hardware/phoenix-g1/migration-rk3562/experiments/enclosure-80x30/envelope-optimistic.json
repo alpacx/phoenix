@@ -1,0 +1,3195 @@
+{
+  "status": "ENVELOPE SCREEN ONLY; NOT A VALID PCB LAYOUT",
+  "enclosure_target_mm": [
+    80,
+    30
+  ],
+  "assumed_pcb_mm": [
+    78,
+    28
+  ],
+  "wall_and_board_allowance_per_side_mm": 1.0,
+  "extra_grid_guard_mm": 0.0,
+  "grid_mm": 0.25,
+  "placements": [
+    {
+      "ref": "J1",
+      "x": 0.5,
+      "y": 7.25,
+      "w": 9.05,
+      "h": 11.05,
+      "side": "front",
+      "through_exclusion": true
+    },
+    {
+      "ref": "J2",
+      "x": 53.75,
+      "y": 3.5,
+      "w": 21.54,
+      "h": 18.75,
+      "side": "front",
+      "through_exclusion": true
+    },
+    {
+      "ref": "U1",
+      "x": 26.5,
+      "y": 5,
+      "w": 14.775,
+      "h": 14.775,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "U2",
+      "x": 11,
+      "y": 3,
+      "w": 13.2,
+      "h": 8.24,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "U3",
+      "x": 11,
+      "y": 12.25,
+      "w": 13.2,
+      "h": 8.24,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "U4",
+      "x": 43,
+      "y": 2,
+      "w": 8.4,
+      "h": 8.17,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "U5",
+      "x": 44,
+      "y": 16,
+      "w": 6.01,
+      "h": 6.355,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "U25",
+      "x": 11,
+      "y": 6,
+      "w": 13.05,
+      "h": 13.05,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "U18",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 10.125,
+      "h": 6.31,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "U21",
+      "x": 0.5,
+      "y": 18.5,
+      "w": 7.285,
+      "h": 8.11,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "L2201",
+      "x": 24.25,
+      "y": 20.0,
+      "w": 5.75,
+      "h": 6.55,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "L1301",
+      "x": 41.5,
+      "y": 10.25,
+      "w": 6.55,
+      "h": 5.75,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "L1001",
+      "x": 30.0,
+      "y": 20.0,
+      "w": 7.21,
+      "h": 5.21,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "Y2001",
+      "x": 24.25,
+      "y": 0.5,
+      "w": 6.05,
+      "h": 4.25,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "U24",
+      "x": 37.25,
+      "y": 20.0,
+      "w": 5.51,
+      "h": 4.665,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "L501",
+      "x": 48.25,
+      "y": 10.25,
+      "w": 4.65,
+      "h": 4.55,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "U6",
+      "x": 30.5,
+      "y": 0.5,
+      "w": 5.53,
+      "h": 3.64,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "Y2002",
+      "x": 36.25,
+      "y": 0.5,
+      "w": 4.71,
+      "h": 4.01,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "U26",
+      "x": 8.0,
+      "y": 20.5,
+      "w": 4.21,
+      "h": 4.21,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "U17",
+      "x": 12.25,
+      "y": 20.5,
+      "w": 4.21,
+      "h": 4.21,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "J2001",
+      "x": 16.5,
+      "y": 20.5,
+      "w": 4.05,
+      "h": 4.15,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "U12",
+      "x": 50.25,
+      "y": 22.25,
+      "w": 4.41,
+      "h": 3.57,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "Y501",
+      "x": 54.75,
+      "y": 22.25,
+      "w": 4.15,
+      "h": 3.45,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "Y1",
+      "x": 59.0,
+      "y": 22.25,
+      "w": 4.15,
+      "h": 3.45,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "U20",
+      "x": 63.25,
+      "y": 22.25,
+      "w": 4.01,
+      "h": 3.51,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "U13",
+      "x": 67.5,
+      "y": 22.25,
+      "w": 4.31,
+      "h": 3.2,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "U16",
+      "x": 72.0,
+      "y": 22.25,
+      "w": 4.31,
+      "h": 3.2,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "U11",
+      "x": 43.0,
+      "y": 22.5,
+      "w": 4.31,
+      "h": 3.2,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "U19",
+      "x": 50.25,
+      "y": 15.0,
+      "w": 3.2,
+      "h": 4.31,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "Q1",
+      "x": 20.75,
+      "y": 20.5,
+      "w": 3.21,
+      "h": 3.61,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "U14",
+      "x": 51.5,
+      "y": 0.5,
+      "w": 3.71,
+      "h": 2.8,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "L2001",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 3.05,
+      "h": 2.65,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "U15",
+      "x": 55.25,
+      "y": 0.5,
+      "w": 3.13,
+      "h": 2.53,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1002",
+      "x": 10.75,
+      "y": 0.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1902",
+      "x": 51.5,
+      "y": 3.5,
+      "w": 2.01,
+      "h": 3.45,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C425",
+      "x": 14.25,
+      "y": 0.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C445",
+      "x": 17.75,
+      "y": 0.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1012",
+      "x": 58.5,
+      "y": 0.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1013",
+      "x": 62.0,
+      "y": 0.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C2204",
+      "x": 65.5,
+      "y": 0.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C444",
+      "x": 69.0,
+      "y": 0.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C442",
+      "x": 72.5,
+      "y": 0.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C470",
+      "x": 50.25,
+      "y": 19.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C431",
+      "x": 20.75,
+      "y": 24.25,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C421",
+      "x": 8.0,
+      "y": 24.75,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1901",
+      "x": 24.25,
+      "y": 4.75,
+      "w": 2.01,
+      "h": 3.45,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C2201",
+      "x": 24.25,
+      "y": 8.25,
+      "w": 2.01,
+      "h": 3.45,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1011",
+      "x": 11.5,
+      "y": 24.75,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C434",
+      "x": 15.0,
+      "y": 24.75,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C433",
+      "x": 37.25,
+      "y": 24.75,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1014",
+      "x": 30.0,
+      "y": 25.25,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C443",
+      "x": 33.5,
+      "y": 25.25,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C435",
+      "x": 24.25,
+      "y": 11.75,
+      "w": 2.01,
+      "h": 3.45,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C441",
+      "x": 24.25,
+      "y": 15.25,
+      "w": 2.01,
+      "h": 3.45,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C2001",
+      "x": 41.5,
+      "y": 16.0,
+      "w": 2.01,
+      "h": 3.45,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1304",
+      "x": 47.5,
+      "y": 22.5,
+      "w": 2.01,
+      "h": 3.45,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1305",
+      "x": 3.75,
+      "y": 0.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C424",
+      "x": 7.25,
+      "y": 0.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C423",
+      "x": 10.75,
+      "y": 0.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1001",
+      "x": 14.25,
+      "y": 0.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C432",
+      "x": 17.75,
+      "y": 0.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C422",
+      "x": 21.25,
+      "y": 0.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1650",
+      "x": 24.75,
+      "y": 0.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1678",
+      "x": 28.25,
+      "y": 0.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1301",
+      "x": 31.75,
+      "y": 0.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1608",
+      "x": 35.25,
+      "y": 0.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1615",
+      "x": 38.75,
+      "y": 0.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1613",
+      "x": 42.25,
+      "y": 0.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1618",
+      "x": 45.75,
+      "y": 0.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1614",
+      "x": 49.25,
+      "y": 0.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1603",
+      "x": 52.75,
+      "y": 0.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1624",
+      "x": 56.25,
+      "y": 0.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1606",
+      "x": 59.75,
+      "y": 0.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1604",
+      "x": 63.25,
+      "y": 0.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1605",
+      "x": 66.75,
+      "y": 0.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1619",
+      "x": 70.25,
+      "y": 0.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1664",
+      "x": 73.75,
+      "y": 0.5,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1620",
+      "x": 3.75,
+      "y": 2.75,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1623",
+      "x": 7.25,
+      "y": 2.75,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1607",
+      "x": 10.75,
+      "y": 2.75,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1622",
+      "x": 14.25,
+      "y": 2.75,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C2003",
+      "x": 17.75,
+      "y": 2.75,
+      "w": 3.45,
+      "h": 2.01,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "L405",
+      "x": 21.25,
+      "y": 0.5,
+      "w": 2.85,
+      "h": 2.35,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "L403",
+      "x": 21.25,
+      "y": 2.75,
+      "w": 2.85,
+      "h": 2.35,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "L402",
+      "x": 24.25,
+      "y": 2.75,
+      "w": 2.85,
+      "h": 2.35,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "L401",
+      "x": 27.25,
+      "y": 2.75,
+      "w": 2.85,
+      "h": 2.35,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "L404",
+      "x": 30.25,
+      "y": 2.75,
+      "w": 2.85,
+      "h": 2.35,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "FB2001",
+      "x": 67.5,
+      "y": 25.5,
+      "w": 3.41,
+      "h": 1.95,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "U7",
+      "x": 51.5,
+      "y": 7.0,
+      "w": 2.215,
+      "h": 2.81,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "U23",
+      "x": 33.25,
+      "y": 2.75,
+      "w": 2.81,
+      "h": 2.215,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "U22",
+      "x": 36.25,
+      "y": 2.75,
+      "w": 2.81,
+      "h": 2.215,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "U8",
+      "x": 39.25,
+      "y": 2.75,
+      "w": 2.81,
+      "h": 2.215,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "U9",
+      "x": 42.25,
+      "y": 2.75,
+      "w": 2.215,
+      "h": 2.81,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R432",
+      "x": 71.0,
+      "y": 25.5,
+      "w": 3.01,
+      "h": 1.51,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R2202",
+      "x": 74.25,
+      "y": 25.5,
+      "w": 3.01,
+      "h": 1.51,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1903",
+      "x": 40.75,
+      "y": 25.75,
+      "w": 3.01,
+      "h": 1.51,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R605",
+      "x": 44.0,
+      "y": 25.75,
+      "w": 3.01,
+      "h": 1.51,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R431",
+      "x": 54.75,
+      "y": 25.75,
+      "w": 3.01,
+      "h": 1.51,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1201",
+      "x": 58.0,
+      "y": 25.75,
+      "w": 3.01,
+      "h": 1.51,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R601",
+      "x": 41.0,
+      "y": 0.5,
+      "w": 1.51,
+      "h": 3.01,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1803",
+      "x": 75.5,
+      "y": 2.75,
+      "w": 1.51,
+      "h": 3.01,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1901",
+      "x": 75.5,
+      "y": 6.0,
+      "w": 1.51,
+      "h": 3.01,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R606",
+      "x": 75.5,
+      "y": 9.25,
+      "w": 1.51,
+      "h": 3.01,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1905",
+      "x": 44.5,
+      "y": 2.75,
+      "w": 3.01,
+      "h": 1.51,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "U10",
+      "x": 18.5,
+      "y": 24.75,
+      "w": 2.055,
+      "h": 2.11,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "TP2",
+      "x": 47.75,
+      "y": 2.75,
+      "w": 2.05,
+      "h": 2.05,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "TP4",
+      "x": 50.0,
+      "y": 2.75,
+      "w": 2.05,
+      "h": 2.05,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "TP6",
+      "x": 0.5,
+      "y": 3.25,
+      "w": 2.05,
+      "h": 2.05,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "TP12",
+      "x": 44.5,
+      "y": 4.5,
+      "w": 2.05,
+      "h": 2.05,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "TP14",
+      "x": 2.75,
+      "y": 5.0,
+      "w": 2.05,
+      "h": 2.05,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "TP3",
+      "x": 5.0,
+      "y": 5.0,
+      "w": 2.05,
+      "h": 2.05,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "TP13",
+      "x": 7.25,
+      "y": 5.0,
+      "w": 2.05,
+      "h": 2.05,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "TP8",
+      "x": 33.25,
+      "y": 5.0,
+      "w": 2.05,
+      "h": 2.05,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "TP11",
+      "x": 35.5,
+      "y": 5.0,
+      "w": 2.05,
+      "h": 2.05,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "TP7",
+      "x": 37.75,
+      "y": 5.0,
+      "w": 2.05,
+      "h": 2.05,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "TP5",
+      "x": 40.0,
+      "y": 5.0,
+      "w": 2.05,
+      "h": 2.05,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "TP1",
+      "x": 46.75,
+      "y": 5.0,
+      "w": 2.05,
+      "h": 2.05,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "TP10",
+      "x": 49.0,
+      "y": 5.0,
+      "w": 2.05,
+      "h": 2.05,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "TP9",
+      "x": 51.25,
+      "y": 5.0,
+      "w": 2.05,
+      "h": 2.05,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1001",
+      "x": 42.75,
+      "y": 0.5,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1602",
+      "x": 44.75,
+      "y": 0.5,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1813",
+      "x": 46.75,
+      "y": 0.5,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R514",
+      "x": 48.75,
+      "y": 0.5,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R512",
+      "x": 41.0,
+      "y": 3.75,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R424",
+      "x": 9.75,
+      "y": 11.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R505",
+      "x": 11.75,
+      "y": 11.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R2001",
+      "x": 13.75,
+      "y": 11.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1814",
+      "x": 15.75,
+      "y": 11.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R522",
+      "x": 17.75,
+      "y": 11.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1301",
+      "x": 19.75,
+      "y": 11.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R417",
+      "x": 21.75,
+      "y": 11.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R501",
+      "x": 75.5,
+      "y": 12.5,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1815",
+      "x": 75.5,
+      "y": 13.5,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R506",
+      "x": 75.5,
+      "y": 14.5,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R510",
+      "x": 48.25,
+      "y": 15.0,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1504",
+      "x": 75.5,
+      "y": 15.5,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1501",
+      "x": 75.5,
+      "y": 16.5,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1811",
+      "x": 75.5,
+      "y": 17.5,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R604",
+      "x": 8.0,
+      "y": 18.5,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R413",
+      "x": 75.5,
+      "y": 18.5,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R525",
+      "x": 24.25,
+      "y": 18.75,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R515",
+      "x": 8.0,
+      "y": 19.5,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R2002",
+      "x": 75.5,
+      "y": 19.5,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R603",
+      "x": 75.5,
+      "y": 20.5,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R2013",
+      "x": 40.75,
+      "y": 24.75,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R410",
+      "x": 61.25,
+      "y": 25.75,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1506",
+      "x": 47.25,
+      "y": 26.0,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1804",
+      "x": 49.25,
+      "y": 26.0,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R415",
+      "x": 51.25,
+      "y": 26.0,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R528",
+      "x": 63.25,
+      "y": 26.0,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R412",
+      "x": 65.25,
+      "y": 26.0,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R2012",
+      "x": 20.75,
+      "y": 26.5,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R602",
+      "x": 76.0,
+      "y": 0.5,
+      "w": 0.99,
+      "h": 1.91,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R511",
+      "x": 41.5,
+      "y": 4.75,
+      "w": 0.99,
+      "h": 1.91,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R2201",
+      "x": 41.5,
+      "y": 6.75,
+      "w": 0.99,
+      "h": 1.91,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R2014",
+      "x": 9.75,
+      "y": 7.0,
+      "w": 0.99,
+      "h": 1.91,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1202",
+      "x": 9.75,
+      "y": 9.0,
+      "w": 0.99,
+      "h": 1.91,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R502",
+      "x": 9.75,
+      "y": 12.25,
+      "w": 0.99,
+      "h": 1.91,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R530",
+      "x": 9.75,
+      "y": 14.25,
+      "w": 0.99,
+      "h": 1.91,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R527",
+      "x": 9.75,
+      "y": 16.25,
+      "w": 0.99,
+      "h": 1.91,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R301",
+      "x": 10.0,
+      "y": 18.25,
+      "w": 0.99,
+      "h": 1.91,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R504",
+      "x": 43.0,
+      "y": 19.5,
+      "w": 0.99,
+      "h": 1.91,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R521",
+      "x": 76.5,
+      "y": 21.5,
+      "w": 0.99,
+      "h": 1.91,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R513",
+      "x": 76.5,
+      "y": 23.5,
+      "w": 0.99,
+      "h": 1.91,
+      "side": "front",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R2003",
+      "x": 75.5,
+      "y": 2.75,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1103",
+      "x": 75.5,
+      "y": 3.75,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R2203",
+      "x": 75.5,
+      "y": 4.75,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R414",
+      "x": 9.5,
+      "y": 5.0,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R2010",
+      "x": 11.5,
+      "y": 5.0,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1801",
+      "x": 13.5,
+      "y": 5.0,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R2102",
+      "x": 15.5,
+      "y": 5.0,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R529",
+      "x": 17.5,
+      "y": 5.0,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R401",
+      "x": 24.25,
+      "y": 5.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R2004",
+      "x": 26.25,
+      "y": 5.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R416",
+      "x": 28.25,
+      "y": 5.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1802",
+      "x": 30.25,
+      "y": 5.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1601",
+      "x": 0.5,
+      "y": 5.5,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1101",
+      "x": 42.25,
+      "y": 5.75,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1812",
+      "x": 75.5,
+      "y": 5.75,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1505",
+      "x": 24.25,
+      "y": 6.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R509",
+      "x": 26.25,
+      "y": 6.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1904",
+      "x": 28.25,
+      "y": 6.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R2011",
+      "x": 30.25,
+      "y": 6.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R421",
+      "x": 42.25,
+      "y": 6.75,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R503",
+      "x": 44.25,
+      "y": 6.75,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R2103",
+      "x": 75.5,
+      "y": 6.75,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R2101",
+      "x": 24.25,
+      "y": 7.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R411",
+      "x": 26.25,
+      "y": 7.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1002",
+      "x": 28.25,
+      "y": 7.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R422",
+      "x": 30.25,
+      "y": 7.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R2104",
+      "x": 32.25,
+      "y": 7.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1503",
+      "x": 34.25,
+      "y": 7.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R516",
+      "x": 36.25,
+      "y": 7.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1401",
+      "x": 38.25,
+      "y": 7.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R507",
+      "x": 40.25,
+      "y": 7.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R526",
+      "x": 46.25,
+      "y": 7.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1902",
+      "x": 48.25,
+      "y": 7.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1402",
+      "x": 50.25,
+      "y": 7.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R523",
+      "x": 42.25,
+      "y": 7.75,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1502",
+      "x": 44.25,
+      "y": 7.75,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1102",
+      "x": 75.5,
+      "y": 7.75,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R508",
+      "x": 24.25,
+      "y": 8.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R524",
+      "x": 26.25,
+      "y": 8.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1404",
+      "x": 28.25,
+      "y": 8.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1507",
+      "x": 30.25,
+      "y": 8.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R402",
+      "x": 32.25,
+      "y": 8.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R1403",
+      "x": 34.25,
+      "y": 8.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "R201",
+      "x": 36.25,
+      "y": 8.25,
+      "w": 1.91,
+      "h": 0.99,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C2203",
+      "x": 38.25,
+      "y": 8.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1203",
+      "x": 40.25,
+      "y": 8.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1502",
+      "x": 46.25,
+      "y": 8.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C2007",
+      "x": 48.25,
+      "y": 8.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C460",
+      "x": 50.25,
+      "y": 8.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C452",
+      "x": 42.25,
+      "y": 8.75,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1402",
+      "x": 44.25,
+      "y": 8.75,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C402",
+      "x": 75.5,
+      "y": 8.75,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C401",
+      "x": 24.25,
+      "y": 9.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C480",
+      "x": 26.25,
+      "y": 9.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C518",
+      "x": 28.25,
+      "y": 9.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C464",
+      "x": 30.25,
+      "y": 9.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1501",
+      "x": 32.25,
+      "y": 9.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C514",
+      "x": 34.25,
+      "y": 9.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C2202",
+      "x": 52.25,
+      "y": 2.75,
+      "w": 0.97,
+      "h": 1.87,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C517",
+      "x": 36.25,
+      "y": 9.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C451",
+      "x": 38.25,
+      "y": 9.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C461",
+      "x": 40.25,
+      "y": 9.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1107",
+      "x": 46.25,
+      "y": 9.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C520",
+      "x": 48.25,
+      "y": 9.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C413",
+      "x": 50.25,
+      "y": 9.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C462",
+      "x": 42.25,
+      "y": 9.75,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C410",
+      "x": 44.25,
+      "y": 9.75,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1401",
+      "x": 75.5,
+      "y": 9.75,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1106",
+      "x": 24.25,
+      "y": 10.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C454",
+      "x": 26.25,
+      "y": 10.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C465",
+      "x": 28.25,
+      "y": 10.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C412",
+      "x": 30.25,
+      "y": 10.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1104",
+      "x": 32.25,
+      "y": 10.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1503",
+      "x": 34.25,
+      "y": 10.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C415",
+      "x": 36.25,
+      "y": 10.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1101",
+      "x": 38.25,
+      "y": 10.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C512",
+      "x": 40.25,
+      "y": 10.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C606",
+      "x": 46.25,
+      "y": 10.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C522",
+      "x": 48.25,
+      "y": 10.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C511",
+      "x": 50.25,
+      "y": 10.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C411",
+      "x": 42.25,
+      "y": 10.75,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1201",
+      "x": 44.25,
+      "y": 10.75,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1802",
+      "x": 75.5,
+      "y": 10.75,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C519",
+      "x": 24.25,
+      "y": 11.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C516",
+      "x": 26.25,
+      "y": 11.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C467",
+      "x": 28.25,
+      "y": 11.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C513",
+      "x": 30.25,
+      "y": 11.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1812",
+      "x": 32.25,
+      "y": 11.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1105",
+      "x": 32.25,
+      "y": 5.25,
+      "w": 0.97,
+      "h": 1.87,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C515",
+      "x": 34.25,
+      "y": 11.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C469",
+      "x": 36.25,
+      "y": 11.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C531",
+      "x": 38.25,
+      "y": 11.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1020",
+      "x": 40.25,
+      "y": 11.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1103",
+      "x": 46.25,
+      "y": 11.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1801",
+      "x": 48.25,
+      "y": 11.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1811",
+      "x": 50.25,
+      "y": 11.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1102",
+      "x": 42.25,
+      "y": 11.75,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C463",
+      "x": 44.25,
+      "y": 11.75,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C501",
+      "x": 75.5,
+      "y": 11.75,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C521",
+      "x": 24.25,
+      "y": 12.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C414",
+      "x": 26.25,
+      "y": 12.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1621",
+      "x": 28.25,
+      "y": 12.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1644",
+      "x": 30.25,
+      "y": 12.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1643",
+      "x": 32.25,
+      "y": 12.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1679",
+      "x": 34.25,
+      "y": 12.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C603",
+      "x": 36.25,
+      "y": 12.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1637",
+      "x": 38.25,
+      "y": 12.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1641",
+      "x": 40.25,
+      "y": 12.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1682",
+      "x": 46.25,
+      "y": 12.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1649",
+      "x": 48.25,
+      "y": 12.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1903",
+      "x": 50.25,
+      "y": 12.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1635",
+      "x": 42.25,
+      "y": 12.75,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C2005",
+      "x": 44.25,
+      "y": 12.75,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1658",
+      "x": 75.5,
+      "y": 12.75,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1680",
+      "x": 24.25,
+      "y": 13.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1665",
+      "x": 26.25,
+      "y": 13.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1654",
+      "x": 28.25,
+      "y": 13.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1634",
+      "x": 30.25,
+      "y": 13.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1640",
+      "x": 32.25,
+      "y": 13.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C2009",
+      "x": 34.25,
+      "y": 13.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1630",
+      "x": 36.25,
+      "y": 13.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1638",
+      "x": 38.25,
+      "y": 13.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1601",
+      "x": 40.25,
+      "y": 13.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1661",
+      "x": 46.25,
+      "y": 13.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1670",
+      "x": 48.25,
+      "y": 13.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C601",
+      "x": 50.25,
+      "y": 13.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C2008",
+      "x": 42.25,
+      "y": 13.75,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1609",
+      "x": 44.25,
+      "y": 13.75,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1610",
+      "x": 75.5,
+      "y": 13.75,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C468",
+      "x": 24.25,
+      "y": 14.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1633",
+      "x": 26.25,
+      "y": 14.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1676",
+      "x": 28.25,
+      "y": 14.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1302",
+      "x": 30.25,
+      "y": 14.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1642",
+      "x": 32.25,
+      "y": 14.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C466",
+      "x": 34.25,
+      "y": 14.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1660",
+      "x": 36.25,
+      "y": 14.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1632",
+      "x": 38.25,
+      "y": 14.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1659",
+      "x": 40.25,
+      "y": 14.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1628",
+      "x": 46.25,
+      "y": 14.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1625",
+      "x": 48.25,
+      "y": 14.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1611",
+      "x": 50.25,
+      "y": 14.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1669",
+      "x": 42.25,
+      "y": 14.75,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C2006",
+      "x": 9.75,
+      "y": 6.0,
+      "w": 0.97,
+      "h": 1.87,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C481",
+      "x": 44.25,
+      "y": 14.75,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1626",
+      "x": 75.5,
+      "y": 14.75,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1674",
+      "x": 24.25,
+      "y": 15.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1617",
+      "x": 26.25,
+      "y": 15.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1673",
+      "x": 28.25,
+      "y": 15.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1629",
+      "x": 30.25,
+      "y": 15.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1677",
+      "x": 32.25,
+      "y": 15.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1616",
+      "x": 34.25,
+      "y": 15.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1657",
+      "x": 36.25,
+      "y": 15.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1663",
+      "x": 38.25,
+      "y": 15.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1667",
+      "x": 40.25,
+      "y": 15.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1631",
+      "x": 46.25,
+      "y": 15.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C2004",
+      "x": 48.25,
+      "y": 15.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1668",
+      "x": 50.25,
+      "y": 15.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C602",
+      "x": 42.25,
+      "y": 15.75,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1672",
+      "x": 44.25,
+      "y": 15.75,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1612",
+      "x": 75.5,
+      "y": 15.75,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1627",
+      "x": 24.25,
+      "y": 16.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1671",
+      "x": 26.25,
+      "y": 16.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1303",
+      "x": 28.25,
+      "y": 16.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1656",
+      "x": 30.25,
+      "y": 16.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1681",
+      "x": 32.25,
+      "y": 16.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1651",
+      "x": 34.25,
+      "y": 16.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1653",
+      "x": 36.25,
+      "y": 16.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C485",
+      "x": 38.25,
+      "y": 16.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1652",
+      "x": 40.25,
+      "y": 16.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1639",
+      "x": 46.25,
+      "y": 16.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1675",
+      "x": 48.25,
+      "y": 16.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1655",
+      "x": 50.25,
+      "y": 16.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1602",
+      "x": 42.25,
+      "y": 16.75,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C484",
+      "x": 44.25,
+      "y": 16.75,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1683",
+      "x": 75.5,
+      "y": 16.75,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C2002",
+      "x": 24.25,
+      "y": 17.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C604",
+      "x": 26.25,
+      "y": 17.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1662",
+      "x": 28.25,
+      "y": 17.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1647",
+      "x": 30.25,
+      "y": 17.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1645",
+      "x": 32.25,
+      "y": 17.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1202",
+      "x": 34.25,
+      "y": 17.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C605",
+      "x": 36.25,
+      "y": 17.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C482",
+      "x": 38.25,
+      "y": 17.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1646",
+      "x": 40.25,
+      "y": 17.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C483",
+      "x": 46.25,
+      "y": 17.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1648",
+      "x": 48.25,
+      "y": 17.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1636",
+      "x": 50.25,
+      "y": 17.25,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    },
+    {
+      "ref": "C1666",
+      "x": 42.25,
+      "y": 17.75,
+      "w": 1.87,
+      "h": 0.97,
+      "side": "back",
+      "through_exclusion": false
+    }
+  ],
+  "unplaced": [],
+  "count_placed": 352,
+  "count_total": 352,
+  "limitations": [
+    "Greedy rectangular packing is neither a proof of feasible routing nor a proof of impossibility.",
+    "No electrical grouping, DDR timing, RF keepout, power loops, thermal paths, FPC bends or 3D heights validated.",
+    "Display and controls require a separate upper mechanical plane; excluded from base PCB packing.",
+    "Some PCB pads and footprints remain unqualified in source.",
+    "Major connectors excluded on both sides as conservative through-hole reservation."
+  ],
+  "production_ready": false
+}

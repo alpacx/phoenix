@@ -1,0 +1,4 @@
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+{'from': 'U25.21', 'to': 'L2001.1', 'net': 'WIFI_BUCK_SW', 'width_mm': 0.5, 'length_mm': 4.2681, 'layer': 'B.Cu'}
+{'from': 'L2001.2', 'to': 'C2003.1', 'net': 'WIFI_BUCK_OUT', 'width_mm': 0.6, 'length_mm': 2.3521, 'layer': 'B.Cu'}
+{'from': 'U25.23', 'to': 'C2003.1', 'net': 'WIFI_BUCK_OUT', 'width_mm': 0.5, 'length_mm': 5.2252, 'layer': 'B.Cu / In3.Cu', 'output_vias_mm': [(56.900000000000006, 24.200000000000003), (56.0, 26.450000000000003)], 'via_land_drill_mm': [0.6, 0.3], 'requires_PDN_validation': True}

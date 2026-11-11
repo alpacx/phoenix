@@ -1,0 +1,25 @@
+{
+  "status": "ENGINEERING_CHECKPOINT_NOT_RELEASE",
+  "main_ddr3_pcb_unchanged_sha256": "ae2c3669257f512f3df43813de25eaaf73359c23774c1af9be822e4194bf42b9",
+  "candidate_board_sha256": "3f0aee938e21e1961453ef378948a655425727ef0fedd261bce8d10de1eb2e41",
+  "source_part": "H9HCNNN8KUMLHR-NME",
+  "RAM_MiB": 1024,
+  "end_to_end_schematic_signals": 65,
+  "RAM_signal_escape_vias": 65,
+  "CPU_corner_coupon_signals": 5,
+  "CPU_corner_coupon_geometric_drc": "PASS; 5 intentional dangling vias",
+  "CPU_simultaneous_coupon_verified_signals": 60,
+  "CPU_full_board_integration": "60 escapes integrated after Wi-Fi relocation; see working-board.json and preservation audit",
+  "CPU_routing_complete": false,
+  "assembly_ready": false,
+  "holds": [
+    "CPU and complete DDR routing; five CPU signals need finer local geometry in tested searches",
+    "Land/stencil and fabrication profile qualification",
+    "Power/ground DDR escape and return planes",
+    "Controlled impedance, length/skew and timing",
+    "PMIC load/thermal/startup/shutdown validation",
+    "Display footprint and overall board completion",
+    "DDR firmware training and physical prototype tests"
+  ],
+  "purchases": false
+}

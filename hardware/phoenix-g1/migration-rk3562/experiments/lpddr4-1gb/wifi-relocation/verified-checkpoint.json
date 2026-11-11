@@ -1,0 +1,16 @@
+{
+  "status": "RELOCATION_WIFI_COPPER_VERIFIED_NOT_RELEASE",
+  "source_unchanged_sha256": "3f0aee938e21e1961453ef378948a655425727ef0fedd261bce8d10de1eb2e41",
+  "board_sha256": "d2939e2595ba1699a65dabea04603424908e31fe735bb3c073c9d6e4e8bb8ae3",
+  "module_xy_mm": [
+    61.5,
+    20
+  ],
+  "CPU_escapes": 60,
+  "assembly_ready": false,
+  "remaining": [
+    "Five CPU escapes and full DDR route",
+    "RF/crystal routes and full-board completion",
+    "Power integrity, return paths, timing, thermal and physical validation"
+  ]
+}

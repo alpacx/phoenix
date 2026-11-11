@@ -1,0 +1,20 @@
+{
+  "status": "GEOMETRY AND LOCAL CONTINUITY PASS; NOT ADOPTED INTO MAIN REBUILD",
+  "candidate_pcb_sha256": "19ed3717ce9ae5cb8377511bd1a1a69d8f493366f48fd95a7fd7ab3e2d456a28",
+  "accepted_pcb_sha256": "ae2c3669257f512f3df43813de25eaaf73359c23774c1af9be822e4194bf42b9",
+  "drc_violations": 0,
+  "independent_wifi_copper_audit": "PASS including VDDIO bypass and LPO",
+  "negative_vddio_disconnect_test": "PASS",
+  "pin20_ground_length_mm": 7.3024,
+  "buck_out_bridge_length_mm": 11.516,
+  "remaining": [
+    "Review longer module ground return and internal buck output path for electrical suitability; no switching-node vias introduced.",
+    "Integrate joint placement and route sequence into transactional rebuild only after layout review.",
+    "Connect upstream PMIC VDDIO and oscillator supply/bypass.",
+    "Review displaced CPU/logic decoupling; C1605 moved again to (32,35.25) to avoid existing PG copper.",
+    "Other board routing and external qualification holds remain."
+  ],
+  "simulation_performed": false,
+  "physical_test_performed": false,
+  "production_ready": false
+}

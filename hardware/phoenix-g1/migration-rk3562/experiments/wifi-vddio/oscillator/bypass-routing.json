@@ -1,0 +1,30 @@
+{
+  "source_sha256": "19ed3717ce9ae5cb8377511bd1a1a69d8f493366f48fd95a7fd7ab3e2d456a28",
+  "pcb_sha256": "c51117e5ac8800239a74e0d1755fd733c782b9abe17f8d55a6f211f0fa2bbba3",
+  "capacitor": {
+    "ref": "C2007",
+    "xy_mm": [
+      52.0,
+      28.0
+    ],
+    "orientation": 0,
+    "side": "front"
+  },
+  "paths": [
+    {
+      "net": "+3V3_IO",
+      "length_mm": 3.2042135623731074
+    },
+    {
+      "net": "+3V3_IO",
+      "length_mm": 5.404213562373105
+    },
+    {
+      "net": "GND",
+      "length_mm": 4.250660171779824
+    }
+  ],
+  "status": "CANDIDATE; DRC AND CONTINUITY REQUIRED",
+  "upstream_pmic_connected": false,
+  "production_ready": false
+}

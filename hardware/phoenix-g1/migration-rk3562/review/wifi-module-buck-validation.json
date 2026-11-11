@@ -1,0 +1,35 @@
+{
+  "status": "FULL REBUILD AND COPPER CHECKS PASSED; ELECTRICAL QUALIFICATION OPEN",
+  "pcb_sha256": "d9ee0cf571069f3ddca815ddc6324ac7f7f641c2b45a483d765e0bb8d1d5b518",
+  "tracks": 1313,
+  "vias": 136,
+  "unconnected_ratsnest_edges": 1125,
+  "matched_pad_nets": 1774,
+  "geometric_drc_violations": 0,
+  "checks": [
+    "Full reproducible physical rebuild including updated placement seed and all USB/Wi-Fi routing stages",
+    "Independent switch/output/cap-ground continuity audit and no vias on switching net",
+    "All previous USB and Wi-Fi supply/ground checks passed",
+    "Negative switch-net interruption detected on a copy of final PCB",
+    "Regenerated six copper views; final back copper visually inspected"
+  ],
+  "placement_report": "wifi-module-buck-placement.json",
+  "routing_report": "wifi-module-buck-routing.json",
+  "negative_test_report": "wifi-module-buck-negative-test.json",
+  "stock_report": "../sourcing/wifi-module-buck-stock-refresh.json",
+  "displaced_unrouted_soc_capacitors": [
+    "C1607",
+    "C1625",
+    "C1619"
+  ],
+  "limitations": [
+    "Displaced SoC capacitors must be locally re-evaluated when relevant power rails are routed.",
+    "Switching stability, effective capacitance, saturation, transient/ripple and temperature are not qualified.",
+    "VDDIO, clock, SDIO, RF and other board circuitry remain incomplete.",
+    "RK3562 manufacturer-document holds remain unresolved; fabrication prohibited."
+  ],
+  "parts_changed": false,
+  "simulation_performed": false,
+  "physical_test_performed": false,
+  "production_ready": false
+}

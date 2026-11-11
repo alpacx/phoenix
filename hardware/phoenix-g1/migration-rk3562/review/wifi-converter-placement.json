@@ -1,0 +1,302 @@
+{
+  "status": "LOCAL CONVERTER PLACEMENT CANDIDATE; DRC AND ROUTING REQUIRED",
+  "source": "https://www.ti.com/lit/ds/symlink/tps62130.pdf, sections 11.1/11.2",
+  "input_sha256": "f50547ffec81b5f555ee4fde4fde5caf679819d2181682155f5267a468e23765",
+  "output_sha256": "9f65f1236530528a21184c45cecff1bdaaf4165f0987d79313359e3b05ab5dbd",
+  "changes": {
+    "R2203": {
+      "before": {
+        "x": 23.0,
+        "y": 36.0,
+        "orientation": 0.0,
+        "side": "front"
+      },
+      "after": {
+        "x": 50.5,
+        "y": 37.0,
+        "orientation": 0.0,
+        "side": "front"
+      }
+    },
+    "R2202": {
+      "before": {
+        "x": 31.0,
+        "y": 24.5,
+        "orientation": 0.0,
+        "side": "front"
+      },
+      "after": {
+        "x": 47.8,
+        "y": 37.25,
+        "orientation": 0.0,
+        "side": "front"
+      }
+    },
+    "FB2001": {
+      "before": {
+        "x": 47.5,
+        "y": 36.5,
+        "orientation": 0.0,
+        "side": "front"
+      },
+      "after": {
+        "x": 52.0,
+        "y": 21.0,
+        "orientation": 0.0,
+        "side": "front"
+      }
+    },
+    "R2102": {
+      "before": {
+        "x": 51.0,
+        "y": 35.5,
+        "orientation": 0.0,
+        "side": "front"
+      },
+      "after": {
+        "x": 54.0,
+        "y": 38.0,
+        "orientation": 0.0,
+        "side": "front"
+      }
+    },
+    "R2104": {
+      "before": {
+        "x": 51.0,
+        "y": 37.0,
+        "orientation": 0.0,
+        "side": "front"
+      },
+      "after": {
+        "x": 54.0,
+        "y": 28.75,
+        "orientation": 0.0,
+        "side": "front"
+      }
+    },
+    "L501": {
+      "before": {
+        "x": 57.0,
+        "y": 31.0,
+        "orientation": 0.0,
+        "side": "front"
+      },
+      "after": {
+        "x": 57.5,
+        "y": 31.0,
+        "orientation": 0.0,
+        "side": "front"
+      }
+    },
+    "C2201": {
+      "before": {
+        "x": 38.5,
+        "y": 33.5,
+        "orientation": 0.0,
+        "side": "front"
+      },
+      "after": {
+        "x": 54.0,
+        "y": 31.0,
+        "orientation": 90.0,
+        "side": "front"
+      }
+    },
+    "U26": {
+      "before": {
+        "x": 50.5,
+        "y": 30.0,
+        "orientation": 0.0,
+        "side": "front"
+      },
+      "after": {
+        "x": 50.5,
+        "y": 33.0,
+        "orientation": 0.0,
+        "side": "front"
+      }
+    },
+    "C2204": {
+      "before": {
+        "x": 34.0,
+        "y": 32.0,
+        "orientation": 0.0,
+        "side": "front"
+      },
+      "after": {
+        "x": 48.5,
+        "y": 28.5,
+        "orientation": 0.0,
+        "side": "front"
+      }
+    },
+    "L2201": {
+      "before": {
+        "x": 54.5,
+        "y": 23.0,
+        "orientation": 0.0,
+        "side": "front"
+      },
+      "after": {
+        "x": 45.5,
+        "y": 33.0,
+        "orientation": 90.0,
+        "side": "front"
+      }
+    },
+    "C2003": {
+      "before": {
+        "x": 47.5,
+        "y": 34.0,
+        "orientation": 0.0,
+        "side": "front"
+      },
+      "after": {
+        "x": 40.25,
+        "y": 34.0,
+        "orientation": 0.0,
+        "side": "front"
+      }
+    },
+    "R524": {
+      "before": {
+        "x": 54.5,
+        "y": 35.5,
+        "orientation": 0.0,
+        "side": "front"
+      },
+      "after": {
+        "x": 60.5,
+        "y": 37.5,
+        "orientation": 0.0,
+        "side": "front"
+      }
+    },
+    "R2201": {
+      "before": {
+        "x": 25.5,
+        "y": 37.5,
+        "orientation": 0.0,
+        "side": "front"
+      },
+      "after": {
+        "x": 54.0,
+        "y": 35.8,
+        "orientation": 0.0,
+        "side": "front"
+      }
+    },
+    "Y2001": {
+      "before": {
+        "x": 45.0,
+        "y": 30.0,
+        "orientation": 0.0,
+        "side": "front"
+      },
+      "after": {
+        "x": 53.25,
+        "y": 24.25,
+        "orientation": 0.0,
+        "side": "front"
+      }
+    },
+    "Y1": {
+      "before": {
+        "x": 43.0,
+        "y": 34.5,
+        "orientation": 0.0,
+        "side": "front"
+      },
+      "after": {
+        "x": 34.5,
+        "y": 31.75,
+        "orientation": 0.0,
+        "side": "front"
+      }
+    },
+    "C1012": {
+      "before": {
+        "x": 52.0,
+        "y": 33.5,
+        "orientation": 0.0,
+        "side": "front"
+      },
+      "after": {
+        "x": 58.0,
+        "y": 25.5,
+        "orientation": 0.0,
+        "side": "front"
+      }
+    },
+    "C2203": {
+      "before": {
+        "x": 55.5,
+        "y": 26.5,
+        "orientation": 180.0,
+        "side": "back"
+      },
+      "after": {
+        "x": 52.5,
+        "y": 37.0,
+        "orientation": 0.0,
+        "side": "front"
+      }
+    },
+    "TP11": {
+      "before": {
+        "x": 50.5,
+        "y": 31.0,
+        "orientation": 180.0,
+        "side": "back"
+      },
+      "after": {
+        "x": 55.5,
+        "y": 26.5,
+        "orientation": 180.0,
+        "side": "back"
+      }
+    },
+    "C2202": {
+      "before": {
+        "x": 50.5,
+        "y": 9.0,
+        "orientation": 180.0,
+        "side": "back"
+      },
+      "after": {
+        "x": 54.0,
+        "y": 34.0,
+        "orientation": -90.0,
+        "side": "front"
+      }
+    }
+  },
+  "group": [
+    "C2201",
+    "C2202",
+    "C2203",
+    "C2204",
+    "L2201",
+    "R2201",
+    "R2202",
+    "R2203",
+    "U26"
+  ],
+  "displaced_unrouted_refs": [
+    "C1012",
+    "C2003",
+    "FB2001",
+    "L501",
+    "R2102",
+    "R2104",
+    "R524",
+    "Y1",
+    "Y2001"
+  ],
+  "limitations": [
+    "Placement only, not loop inductance or stability qualification.",
+    "Displaced unrouted components still require their own local layout review.",
+    "No MPN, schematic net or component value has changed."
+  ],
+  "production_ready": false
+}

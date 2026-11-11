@@ -1,0 +1,20 @@
+{
+  "status": "INTEGRATED DRAFT; FULL REBUILD AND GEOMETRIC DRC PASSED",
+  "ref": "C1304",
+  "before": {
+    "x": 8.5,
+    "y": 34.5,
+    "orientation": 0.0,
+    "side": "front"
+  },
+  "after": {
+    "x": 19.5,
+    "y": 38.75,
+    "orientation": 0.0,
+    "side": "front"
+  },
+  "reason": "Move unrouted system output capacitor toward L1301/C1305 and free the U15 main-output fanout. Early DRC rejected power vias overlapping its previous footprint.",
+  "mpn_or_net_changes": false,
+  "production_ready": false,
+  "pcb_sha256": "5923611215ce2fd969e933b6e61e82f63b55c9d7db33ebe320bcb56612c3fa7c"
+}

@@ -1,0 +1,14 @@
+{
+  "pcb_sha256": "5923611215ce2fd969e933b6e61e82f63b55c9d7db33ebe320bcb56612c3fa7c",
+  "completed_checks": [
+    "Full physical rebuild including DRC and existing USB continuity assertions",
+    "Independent U26 local copper and system-enable continuity",
+    "Negative fixture: deleting U17.13 copper makes system-enable assertion fail while local net names remain intact",
+    "Rollback fixture: modified/new output files restored on injected failure; successful outputs retained",
+    "Full rebuild after reserving main-output fanout and adding 1.5 mm In3.Cu Wi-Fi input feed",
+    "Negative fixture: removing main-feed inner copper makes input-feed assertion fail while local and power-good copper remain connected"
+  ],
+  "simulation_performed": false,
+  "physical_test_performed": false,
+  "production_ready": false
+}

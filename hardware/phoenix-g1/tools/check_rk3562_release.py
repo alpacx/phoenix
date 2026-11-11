@@ -5,9 +5,9 @@ import json,hashlib
 R=Path(__file__).resolve().parents[1]/'migration-rk3562';V=R/'review'
 read=lambda name:json.loads((V/(name+'.json')).read_text())
 pcb=read('pcb-connectivity-check');state=read('completion-status');returns=read('usb-return-audit')
-courtyards=read('courtyard-envelope-audit')
+courtyards=read('courtyard-envelope-audit');wifi=read('wifi-converter-copper-audit')
 actual=hashlib.sha256((R/'kicad/pcb/phoenix-g1.kicad_pcb').read_bytes()).hexdigest()
-assert pcb['pcb_sha256']==actual and returns['pcb_sha256']==actual and courtyards['pcb_sha256']==actual,'Stale verification evidence'
+assert pcb['pcb_sha256']==actual and returns['pcb_sha256']==actual and courtyards['pcb_sha256']==actual and wifi['pcb_sha256']==actual,'Stale verification evidence'
 checks={
  'courtyard_pad_enclosure':not courtyards['findings'],
  'geometric_drc':not pcb['geometric_drc_violations'],
@@ -20,6 +20,27 @@ checks={
  'usb_aon_supply':returns['usb_aon_supply']['connected'],
  'usb_guard_to_main':returns['usb_guard_to_main']['connected'],
  'usb_input_power_chain':all(a['connected'] for a in returns['usb_input_power_chain']),
+ 'wifi_converter_local_nets':wifi['local_nets_complete'],
+ 'wifi_converter_direct_front_ground':wifi['agnd_pgnd_and_power_caps_direct_front_to_ep'],
+ 'wifi_converter_front_power':all(a['connected_on_front'] for a in wifi['front_power_connections']),
+ 'usb_main_switch_to_wifi_converter':wifi['usb_main_switch_to_wifi_converter'],
+ 'wifi_power_good_to_system_enable':wifi['power_good_to_system_enable'],
+ 'wifi_converter_source_ground':wifi['local_grounds_continuous_to_usb_source'],
+ 'wifi_output_to_ferrite':wifi['output_to_ferrite'],
+ 'wifi_ferrite_to_module_and_bypass':wifi['ferrite_to_module_and_bypass'],
+ 'wifi_module_bypass_ground':wifi['module_bypass_ground_to_usb'],
+ 'wifi_all_module_grounds':not wifi['unconnected_module_ground_pads'],
+ 'wifi_module_buck_switch':wifi['module_buck_switch_connected'],
+ 'wifi_module_buck_output':wifi['module_buck_output_connected'],
+ 'wifi_module_buck_cap_ground':wifi['module_buck_cap_ground_to_usb'],
+ 'wifi_module_buck_switch_back_only':wifi['module_buck_switch_back_only_no_vias'],
+ 'wifi_vddio_local_bypass':wifi['vddio_local_bypass_connected'],
+ 'wifi_vddio_bypass_ground':wifi['vddio_bypass_ground_to_usb'],
+ 'wifi_vddio_upstream_pmic':wifi['vddio_upstream_pmic_connected'],
+ 'wifi_lpo_source_signal':wifi['lpo_source_to_series_resistor'],
+ 'wifi_lpo_module_signal':wifi['lpo_series_resistor_to_module'],
+ 'wifi_lpo_source_ground':wifi['lpo_source_ground_to_usb'],
+ 'wifi_lpo_source_power':wifi['lpo_source_power_from_pmic'],
  'all_board_connections':pcb['unconnected_ratsnest_edges']==0,
  'all_physical_pads_present':not pcb['missing_physical_pads'],
  'all_soc_pin_decisions':state['pending_pins']==0,

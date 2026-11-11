@@ -1,0 +1,75 @@
+{
+  "status": "CONTINUITY CANDIDATE; ONE TRACK-WIDTH DRC VIOLATION RETAINED",
+  "pcb_sha256": "e7cad82f9ed4d246c89e11c52d56041a4e72041fee65aa9f3a6cab2b0181719d",
+  "pmic_to_module_and_oscillator_continuity": true,
+  "drc_violations": 1,
+  "violation": "0.127 mm neck is below current generic 0.20 mm minimum; no exception or global relaxation applied",
+  "source_documents": [
+    {
+      "url": "https://jlcpcb.com/capabilities/Capabilities",
+      "observation": "Multilayer nominal minimum width/space 0.09/0.09 mm for 1 oz; geometry capability only",
+      "checked": "2026-11-09"
+    },
+    {
+      "file": "reference/RK809-5-C2939628.pdf",
+      "observation": "QFN68 pitch 0.35 mm, nominal lead width 0.15 mm. SW1_ILIM reset selector 00 corresponds to 1 A; this is not the actual load or thermal rating."
+    }
+  ],
+  "dc_screen": {
+    "method": "Analytical bulk copper resistance at 20 C using nominal stackup thickness, rho=1.724e-8 ohm m; NOT thermal simulation or ampacity qualification",
+    "segments": [
+      {
+        "segment": "neck",
+        "length_mm": 0.94,
+        "width_mm": 0.127,
+        "nominal_copper_mm": 0.035,
+        "resistance_20C_ohm": 0.003645804274465692
+      },
+      {
+        "segment": "inner_trunk",
+        "length_mm": 40.955591591,
+        "width_mm": 0.5,
+        "nominal_copper_mm": 0.0152,
+        "resistance_20C_ohm": 0.09290452618800527
+      },
+      {
+        "segment": "back_branch",
+        "length_mm": 1.534213562,
+        "width_mm": 0.2,
+        "nominal_copper_mm": 0.035,
+        "resistance_20C_ohm": 0.0037785488298399993
+      }
+    ],
+    "total_track_resistance_ohm": 0.10032887929231096,
+    "examples": [
+      {
+        "current_A": 0.1,
+        "drop_V": 0.010032887929231097,
+        "track_loss_W": 0.0010032887929231097
+      },
+      {
+        "current_A": 0.3,
+        "drop_V": 0.030098663787693287,
+        "track_loss_W": 0.009029599136307987
+      },
+      {
+        "current_A": 1,
+        "drop_V": 0.10032887929231096,
+        "track_loss_W": 0.10032887929231096
+      }
+    ],
+    "excluded": [
+      "Vias, pad spreading, plating/etch tolerance and temperature rise",
+      "Other IO rail branches and actual load transients"
+    ]
+  },
+  "open": [
+    "Qualify a bounded fine-pitch escape rule and check current/thermal margin for complete IO rail",
+    "Place and route C470 output reservoir and PMIC source input",
+    "PMIC OTP defaults and sequencing",
+    "Existing joint Wi-Fi regulator and ground return review",
+    "Remaining board routing and release holds"
+  ],
+  "main_board_modified": false,
+  "production_ready": false
+}

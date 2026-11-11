@@ -26,7 +26,7 @@ Rigenerazione: `python3 hardware/phoenix-g1/tools/rebuild_rk3562.py`, con KiCad 
 
 ### PCB RK3562: alimentazione e controlli USB
 
-Il PCB dedicato è `migration-rk3562/kicad/pcb/phoenix-g1.kicad_pcb`, con 353 footprint, 679 segmenti di pista e 99 vias. Il report `pcb-connectivity-check.json` contiene conteggi e hash del file verificato. **1.774 pad corrispondono alla netlist, senza differenze di rete o violazioni DRC geometriche. Restano 1178 collegamenti del ratsnest e i 13 pad del display da implementare.** Il limite di 499 connessioni mostrate dal DRC non è il totale: il conteggio deriva dalla connettività del PCB.
+Il PCB dedicato è `migration-rk3562/kicad/pcb/phoenix-g1.kicad_pcb`, con 353 footprint, 1356 segmenti di pista e 139 vias. Il report `pcb-connectivity-check.json` contiene conteggi e hash del file verificato. **1.774 pad corrispondono alla netlist, senza differenze di rete o violazioni DRC geometriche. Restano 1122 collegamenti del ratsnest e i 13 pad del display da implementare.** Il limite di 499 connessioni mostrate dal DRC non è il totale: il conteggio deriva dalla connettività del PCB.
 
 Sono verificate per continuità fisica tutte le 18 reti di controllo/rilevamento USB e ausiliarie. Il controllo segue pad, piste e vias del PCB salvato. Le piste di segnale sono da 0,20 mm; i vias ordinari usano land/foro 0,60/0,30 mm e quelli CC e alcuni altri segnali 0,45/0,20 mm. In3.Cu ospita anche alcuni segnali di controllo; In2.Cu ospita le dorsali candidate VBUS_RAW e VBUS_PROTECTED da 1,50 mm. Restano da ottimizzare percorsi, ritorni ESD e qualificazione elettrica.
 
@@ -36,7 +36,7 @@ Sono controllati 13 condensatori: i sei bypass di U11/U15/U24, i sei di U12/U13/
 
 Dodici vias termici candidati seguono gli esempi TI RVC0020A/RNH0030A: land/foro 0,45/0,20 mm. Riempimento/plugging, stencil e costo di assemblaggio non sono qualificati. Nessuna esclusione DRC è stata aggiunta. Il piazzamento è fissato in `placement-seed.json` per evitare spostamenti involontari dei gruppi non interessati.
 
-`usb-power-dc-screen.json` confronta analiticamente le sole dorsali larghe con rame nominale da 17,5 e 35 µm a temperature imposte. Non è una simulazione termica: esclude restringimenti, vias, connettore e resistenza degli interruttori. `aon-output-capacitance-screen.json` registra il controllo del condensatore C1102 sulla curva tipica YAGEO e il limite di capacità effettiva TI; restano bias/temperatura/invecchiamento da qualificare. Non sono cambiati i codici componente della BOM.
+`usb-power-dc-screen.json` confronta analiticamente le sole dorsali larghe VBUS_RAW, VBUS_PROTECTED e +5V_MAIN con rame nominale da 17,5 e 35 µm a temperature imposte. Non è una simulazione termica: esclude restringimenti, vias, connettore e resistenza degli interruttori. `aon-output-capacitance-screen.json` registra il controllo del condensatore C1102 sulla curva tipica YAGEO e il limite di capacità effettiva TI; restano bias/temperatura/invecchiamento da qualificare. Non sono cambiati i codici componente della BOM.
 
 I tentativi precedenti scartati e la successiva revisione accettata come bozza parziale sono registrati in `usb-power-routing-trials.json`. Le viste dei sei strati rame sono in `migration-rk3562/review/pcb-views/`. Il controllo `tools/check_rk3562_release.py` confronta gli hash dei report con il PCB e mantiene il progetto **bloccato per fabbricazione**: DRC geometrico superato non significa scheda completata.
 
@@ -44,7 +44,21 @@ La richiesta tecnica al fornitore, preparata ma non inviata, è `migration-rk356
 
 Corretti i contorni di assemblaggio di 26 istanze in 20 file delle librerie locali RK3562, mantenendo invariati pad e fori. Il controllo `courtyard-envelope-audit.json` verifica che tutti i pad siano racchiusi dai contorni; questo è un requisito geometrico necessario, non una qualifica completa di package, tolleranze o processo di montaggio. Le correzioni sono conservate anche in `migration-rk3562/overrides/footprints/`; il riuso delle librerie verifica gli hash originali prima di applicarle. La baseline RK3568 non è stata modificata. La ricerca dei percorsi considera ora la distanza dal bordo del rame, incluso il raggio dei vias, mantenendo 0,25 mm di clearance.
 
-Il contorno resta 90 × 40 mm; sei strati e 1,6 mm sono provvisori. Rigenerazione: `python3 hardware/phoenix-g1/tools/rebuild_rk3562_physical_draft.py`. Esegue DRC anticipato, routing, riempimento dei piani e controlli finali di continuità. **Sovrascrive il PCB generato: preservare modifiche manuali prima di eseguirlo.** Non produce Gerber o ordini.
+Il contorno resta 90 × 40 mm; sei strati e 1,6 mm sono provvisori. Rigenerazione: `python3 hardware/phoenix-g1/tools/rebuild_rk3562_physical_draft.py`. Esegue DRC anticipato, routing, riempimento dei piani e controlli finali di continuità. **Sovrascrive il PCB generato: preservare modifiche manuali prima di eseguirlo e non usare editor concorrenti durante la build.** Se una fase o una verifica fallisce, vengono ripristinati PCB, floorplan e report precedenti. Non produce Gerber o ordini.
+
+### Convertitore Wi-Fi — aggiornamento 9 novembre
+
+Riorganizzato il gruppo U26/TPS62130 con induttore, condensatori e partitore vicini all'integrato. Le modifiche e gli spostamenti dei componenti adiacenti ancora non instradati sono registrati in `wifi-converter-placement.json` e fissati in `placement-seed.json`. Nessun valore, MPN o collegamento dello schema è cambiato.
+
+Sono instradate e verificate le sette reti locali del gruppo, inclusi SW, feedback, VOS, soft-start e power-good. AGND/PGND e le masse dei condensatori principali raggiungono direttamente il pad esposto sul rame frontale; i ritorni raggiungono i quattro contatti di massa USB tramite i piani. Tre vias termici sono candidati, con processo di riempimento/stencil ancora da qualificare. I collegamenti di potenza locali sono sul frontale; i segnali di rilevamento sul retro sono distinti dalle piste di carico. Il segnale WIFI_VBAT_PG raggiunge anche U17.13, abilitazione del regolatore di sistema.
+
+C1304 è stato avvicinato al gruppo L1301/C1305 per liberare l’uscita principale; posizione e tentativi scartati sono in `wifi-input-supply-placement.json` e `wifi-input-supply-trials.json`. Il passaggio di potenza viene riservato prima dei segnali, così la rigenerazione non lo blocca.
+
+Il controllo indipendente `wifi-converter-copper-audit.json` verifica il rame salvato e i collegamenti esterni ancora mancanti. Il condensatore d'ingresso C2201 è a 2,2472 mm dal centro del pad PVIN; questa distanza non è una misura dell'induttanza del circuito. L’ingresso del gruppo raggiunge ora l’uscita U15.5 tramite una dorsale In3.Cu da 1,50 mm, lunga 47,7261 mm, con due vias da 0,60/0,30 mm per estremità e raccordi esterni da 0,50 mm. La capacità di corrente e la temperatura non sono qualificate. L’uscita raggiunge ora la ferrite FB2001 e il pin VBAT del modulo, con C2001/C2002 e le rispettive masse collegati. Restano non collegati gli altri carichi della linea principale e incompleto il resto del circuito Wi-Fi: non è un’alimentazione funzionante completa. Il componente C2204 è nominalmente da 22 µF/16 V, C2201 da 10 µF/25 V; capacità effettive, stabilità e termica sono ancora aperte in `wifi-converter-electrical-review.json`.
+
+Rigenerazione dei percorsi di alimentazione e successiva integrazione delle masse superate: **1218 segmenti, 133 vias, 1129 collegamenti mancanti, zero violazioni DRC geometriche**, senza regressioni delle 18 reti di controllo USB o delle alimentazioni/masse USB già verificate. Le prove negative eliminano, in copie separate, la pista di abilitazione U17.13 e la dorsale d’ingresso: l’audit rileva entrambe le interruzioni pur mantenendo intatti i nomi delle reti. Nessuna simulazione elettrica o prova fisica eseguita.
+
+Disponibilità pubblica JLCPCB aggiornata per gli otto codici del gruppo: quantità ordinabili osservate positive; nove componenti per circa **1,3203 USD** a prezzi 1+. Non sono riserve né conferme PCBA. Il ricalcolo parziale dell'intera BOM, applicando questi prezzi a tutti i loro impieghi e mantenendo le date precedenti per gli altri codici, porta il subtotale a **67,4095 USD**. Sono esclusi PCB, assemblaggio, acquisti minimi, scarti, trasporto, involucro e imposte. Evidenze in `sourcing/wifi-converter-stock-refresh.json` e `sourcing/cost-update-wifi-refresh.json` della variante attiva. Il budget di 50 EUR assemblati non è dimostrato.
 
 ## Baseline conservata
 
@@ -158,3 +172,33 @@ Controlli aggiornati:1935 pin della gerarchia,110 del frontendUSB e204 della mem
 ### Decisione di configurazione — RAM confermata
 
 Su indicazione dell’utente restano512MiB DDR3 e tutte le funzioni attuali, con raffreddamento passivo. La sola alternativa architetturale in valutazione è RK3562. `review/rk3562-migration-assessment.json` registra interfacce, risparmio del solo chip e verifiche necessarie. Il package misto0,5/0,65mm richiede una nuova analisi di escape: non è sostituibile nel footprint RK3568 e non è ancora dimostrato il risparmio netto sulla scheda assemblata. Nessuna sostituzione applicata allo schema.
+
+### Alimentazione e masse del modulo Wi-Fi — 9 novembre
+
+Collegati C2204 → FB2001 e FB2001 → U25.9, con bypass C2001/C2002 e tutti i 14 pad del modulo assegnati alla rete GND. C2001 è stato spostato da (34, 29) a (56, 21) mm sul fronte; nessun componente aggiunto o sostituito, quindi nessuna variazione della BOM. Il nuovo percorso prima della ferrite usa una dorsale In3.Cu da 1 mm con raccordi da 0,5 mm e coppie di vias 0,6/0,3 mm. Il lato modulo passa fronte/retro attraverso vias condivisi; le larghezze non costituiscono una qualifica della corrente.
+
+`wifi-module-supply-validation.json` documenta il PCB finale e la prova negativa sul ramo VBAT. Il controllo `audit_rk3562_wifi_converter.py --require-local --require-module-supply --require-module-ground` verifica il rame salvato, inclusi i ritorni a massa. La rigenerazione include ora anche i tre nuovi stadi di routing.
+
+Al termine di quella fase restavano da completare buck interno, VDDIO, clock, SDIO e RF del modulo; il buck interno è stato successivamente collegato come descritto sotto. Alcuni percorsi di massa arrivano a 4,1066 mm: continuità verificata, impedenza e prestazioni RF non qualificate. La scheda resta incompleta, con vincoli RK3562 ancora aperti; nessuna simulazione elettrica, prova fisica o approvazione alla produzione.
+
+### Regolatore interno Wi-Fi — 9 novembre
+
+L2001 e C2003 sono stati trasferiti sul retro, accanto al modulo: il ramo SW U25.21 → L2001.1 misura 2,6539 mm, largo 0,5 mm e senza vias. Collegati anche uscita e ritorno a massa del condensatore. Tre condensatori del processore ancora non collegati (C1607, C1625, C1619) sono stati riposizionati per liberare lo spazio: la loro posizione dovrà essere rivalutata durante il routing delle relative alimentazioni. Nessun MPN o valore è cambiato.
+
+La rigenerazione completa supera DRC e controlli di continuità: **1313 segmenti, 136 vias, 1125 collegamenti ancora mancanti**, 1774 pad corrispondenti alla netlist. `wifi-module-buck-validation.json` contiene l’hash del PCB finale e i riferimenti alle verifiche. L’audit aggiunge `--require-module-buck`; `test_rk3562_wifi_buck_disconnect.py` elimina il rame SW su una copia e verifica che l’interruzione sia rilevata, lasciando validi uscita, bypass e masse.
+
+Disponibilità JLCPCB rilevata il 9 novembre: L2001/C337891, 5260 unità ordinabili osservate a 0,1378 USD; C2003/C1779, 1558422 unità a 0,0342 USD. Quantità ordinabili e stock visualizzato sono registrati separatamente in `sourcing/wifi-module-buck-stock-refresh.json`; non sono una prenotazione né una conferma di disponibilità per assemblaggio. Subtotale dei due componenti a prezzi 1+: 0,1720 USD. La stima parzialmente aggiornata resta 67,4095 USD, esclusi PCB, assemblaggio, minimi di acquisto, scarti, spedizione, imposte e meccanica.
+
+La continuità del buck non dimostra stabilità, ripple, margine di saturazione o comportamento termico. VDDIO, clock, SDIO, RF e molte altre reti restano incompleti. Nessuna prova fisica o simulazione elettrica eseguita; il blocco alla fabbricazione resta attivo.
+
+### Clock lento Wi-Fi e prove VDDIO — 9 novembre
+
+Integrati il segnale LPO a 32,768 kHz e il ritorno GND dell’oscillatore Y2001. R2003 è stata avvicinata all’uscita: da (30,5; 31) a (57,25; 22,5) mm, senza cambiare valore o MPN. Il tratto Y2001.3 → R2003.1 misura 2,5492 mm; dopo la resistenza il percorso comprende 0,8100 mm sul fronte, 22,3107 mm su In2.Cu e 3,6610 mm sul retro. Piste da 0,20 mm, vias da 0,45/0,20 mm. Sono collegamenti verificati geometricamente, non una qualifica del clock.
+
+Rigenerazione completa e verifiche indipendenti superate: **1356 segmenti, 139 vias, 1122 collegamenti mancanti**, zero violazioni DRC geometriche e nessuna regressione delle continuità USB/Wi-Fi già richieste. `wifi-lpo-validation.json` identifica il PCB finale; la prova negativa interrompe il tratto In2 su una copia e l’audit rileva il guasto.
+
+Le prove di avvicinamento del bypass VDDIO non sono state adottate: alcune disposizioni superavano il DRC ma impedivano il successivo routing del ritorno GND o del buck. Il PCB e il seed relativi a questi componenti sono stati ripristinati; i risultati e i prototipi sono separati in `migration-rk3562/experiments/wifi-vddio/` e `tools/experiments/`. Il prossimo riesame deve trattare insieme i pin U25.21/22/23, buck, bypass e ritorni, considerando anche i condensatori del SoC sul retro.
+
+Il controllo distingue ora bypass VDDIO locale, collegamento al PMIC, segnale LPO e alimentazione dell’oscillatore. **VDDIO e alimentazione/bypass di Y2001 restano incompleti**: non è stato verificato un clock funzionante o un modulo operativo.
+
+JLCPCB: Y2001/OVETDLJANF-32.768KHZ osservato ordinabile in 42 unità a 0,6183 USD; anche R2003 e C2007 risultano disponibili nell’osservazione registrata. Non è una prenotazione né una conferma di disponibilità per assemblaggio. La stima parzialmente aggiornata resta 67,4095 USD, escluse lavorazioni e meccanica; nessun componente aggiunto o sostituito. Nessuna simulazione elettrica o prova fisica eseguita.

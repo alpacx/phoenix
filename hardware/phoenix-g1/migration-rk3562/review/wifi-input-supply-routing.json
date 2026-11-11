@@ -1,0 +1,45 @@
+{
+  "status": "CANDIDATE WIFI INPUT FEED; DRC AND CURRENT QUALIFICATION REQUIRED",
+  "pcb_sha256": "d2e9003d8948be57fc0aaee4e722af921120d4f1988fe922b2df14d1df9df489",
+  "net": "+5V_MAIN",
+  "trunk_layer": "In3.Cu",
+  "trunk_width_mm": 1.5,
+  "trunk_length_mm": 47.7261,
+  "via_land_drill_mm": [
+    0.6,
+    0.3
+  ],
+  "outer_stub_width_mm": 0.5,
+  "target_vias": [
+    {
+      "via_xy_mm": [
+        52.6,
+        31.55
+      ],
+      "outer_stub_length_mm": 1.5657
+    },
+    {
+      "via_xy_mm": [
+        52.0,
+        31.150000000000002
+      ],
+      "outer_stub_length_mm": 2.3314
+    }
+  ],
+  "reserved_source_vias_xy_mm": [
+    [
+      7.9,
+      33.8
+    ],
+    [
+      8.6,
+      34.4
+    ]
+  ],
+  "limitations": [
+    "Only U15-to-U26 feed; other +5V_MAIN loads are not connected by this step.",
+    "Narrow IC necks, copper thickness, current sharing, via fill and temperature are not qualified.",
+    "No electrical simulation or hardware test."
+  ],
+  "production_ready": false
+}

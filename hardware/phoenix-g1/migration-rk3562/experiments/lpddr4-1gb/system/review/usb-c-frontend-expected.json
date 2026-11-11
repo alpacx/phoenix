@@ -1,0 +1,662 @@
+[
+  {
+    "ref": "J1",
+    "pin": "A12",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "J1",
+    "pin": "A11",
+    "pin_name": "RX2+",
+    "net": "USB_RX2_P"
+  },
+  {
+    "ref": "J1",
+    "pin": "A10",
+    "pin_name": "RX2-",
+    "net": "USB_RX2_N"
+  },
+  {
+    "ref": "J1",
+    "pin": "A9",
+    "pin_name": "VBUS",
+    "net": "VBUS_RAW"
+  },
+  {
+    "ref": "J1",
+    "pin": "A8",
+    "pin_name": "SBU1",
+    "net": null
+  },
+  {
+    "ref": "J1",
+    "pin": "A7",
+    "pin_name": "D-",
+    "net": "USB_DM"
+  },
+  {
+    "ref": "J1",
+    "pin": "A6",
+    "pin_name": "D+",
+    "net": "USB_DP"
+  },
+  {
+    "ref": "J1",
+    "pin": "A5",
+    "pin_name": "CC1",
+    "net": "USB_CC1"
+  },
+  {
+    "ref": "J1",
+    "pin": "A4",
+    "pin_name": "VBUS",
+    "net": "VBUS_RAW"
+  },
+  {
+    "ref": "J1",
+    "pin": "A3",
+    "pin_name": "TX1-",
+    "net": "USB_TX1_N"
+  },
+  {
+    "ref": "J1",
+    "pin": "A2",
+    "pin_name": "TX1+",
+    "net": "USB_TX1_P"
+  },
+  {
+    "ref": "J1",
+    "pin": "A1",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "J1",
+    "pin": "SH",
+    "pin_name": "EH",
+    "net": "USB_SHIELD"
+  },
+  {
+    "ref": "J1",
+    "pin": "B12",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "J1",
+    "pin": "B11",
+    "pin_name": "RX1+",
+    "net": "USB_RX1_P"
+  },
+  {
+    "ref": "J1",
+    "pin": "B10",
+    "pin_name": "RX1-",
+    "net": "USB_RX1_N"
+  },
+  {
+    "ref": "J1",
+    "pin": "B9",
+    "pin_name": "VBUS",
+    "net": "VBUS_RAW"
+  },
+  {
+    "ref": "J1",
+    "pin": "B8",
+    "pin_name": "SBU2",
+    "net": null
+  },
+  {
+    "ref": "J1",
+    "pin": "B7",
+    "pin_name": "D-",
+    "net": "USB_DM"
+  },
+  {
+    "ref": "J1",
+    "pin": "B6",
+    "pin_name": "D+",
+    "net": "USB_DP"
+  },
+  {
+    "ref": "J1",
+    "pin": "B5",
+    "pin_name": "CC2",
+    "net": "USB_CC2"
+  },
+  {
+    "ref": "J1",
+    "pin": "B4",
+    "pin_name": "VBUS",
+    "net": "VBUS_RAW"
+  },
+  {
+    "ref": "J1",
+    "pin": "B3",
+    "pin_name": "TX2-",
+    "net": "USB_TX2_N"
+  },
+  {
+    "ref": "J1",
+    "pin": "B2",
+    "pin_name": "TX2+",
+    "net": "USB_TX2_P"
+  },
+  {
+    "ref": "J1",
+    "pin": "B1",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "U6",
+    "pin": "1",
+    "pin_name": "CC2",
+    "net": "USB_CC2"
+  },
+  {
+    "ref": "U6",
+    "pin": "2",
+    "pin_name": "CC1",
+    "net": "USB_CC1"
+  },
+  {
+    "ref": "U6",
+    "pin": "3",
+    "pin_name": "CURRENT_MODE",
+    "net": "GND"
+  },
+  {
+    "ref": "U6",
+    "pin": "4",
+    "pin_name": "PORT",
+    "net": "GND"
+  },
+  {
+    "ref": "U6",
+    "pin": "5",
+    "pin_name": "VBUS_DET",
+    "net": "CC_VBUS_SENSE"
+  },
+  {
+    "ref": "U6",
+    "pin": "6",
+    "pin_name": "TXp",
+    "net": "SOC_USB_TX_P"
+  },
+  {
+    "ref": "U6",
+    "pin": "7",
+    "pin_name": "TXn",
+    "net": "SOC_USB_TX_N"
+  },
+  {
+    "ref": "U6",
+    "pin": "8",
+    "pin_name": "VCC33",
+    "net": "+3V3_AON"
+  },
+  {
+    "ref": "U6",
+    "pin": "9",
+    "pin_name": "RXp",
+    "net": "SOC_USB_RX_P"
+  },
+  {
+    "ref": "U6",
+    "pin": "10",
+    "pin_name": "RXn",
+    "net": "SOC_USB_RX_N"
+  },
+  {
+    "ref": "U6",
+    "pin": "11",
+    "pin_name": "DIR",
+    "net": "USB_ORIENTATION"
+  },
+  {
+    "ref": "U6",
+    "pin": "12",
+    "pin_name": "ENn_MUX",
+    "net": "USB_MUX_ENABLE_N"
+  },
+  {
+    "ref": "U6",
+    "pin": "13",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "U6",
+    "pin": "14",
+    "pin_name": "RX1n",
+    "net": "USB_RX1_N"
+  },
+  {
+    "ref": "U6",
+    "pin": "15",
+    "pin_name": "RX1p",
+    "net": "USB_RX1_P"
+  },
+  {
+    "ref": "U6",
+    "pin": "16",
+    "pin_name": "TX1n",
+    "net": "MUX_TX1_N"
+  },
+  {
+    "ref": "U6",
+    "pin": "17",
+    "pin_name": "TX1p",
+    "net": "MUX_TX1_P"
+  },
+  {
+    "ref": "U6",
+    "pin": "18",
+    "pin_name": "RX2n",
+    "net": "USB_RX2_N"
+  },
+  {
+    "ref": "U6",
+    "pin": "19",
+    "pin_name": "RX2p",
+    "net": "USB_RX2_P"
+  },
+  {
+    "ref": "U6",
+    "pin": "20",
+    "pin_name": "TX2n",
+    "net": "MUX_TX2_N"
+  },
+  {
+    "ref": "U6",
+    "pin": "21",
+    "pin_name": "TX2p",
+    "net": "MUX_TX2_P"
+  },
+  {
+    "ref": "U6",
+    "pin": "22",
+    "pin_name": "ADDR",
+    "net": null
+  },
+  {
+    "ref": "U6",
+    "pin": "23",
+    "pin_name": "INT_N/OUT3",
+    "net": null
+  },
+  {
+    "ref": "U6",
+    "pin": "24",
+    "pin_name": "VCONN_FAULT_N",
+    "net": null
+  },
+  {
+    "ref": "U6",
+    "pin": "25",
+    "pin_name": "SDA/OUT1",
+    "net": "CC_OUT1_N"
+  },
+  {
+    "ref": "U6",
+    "pin": "26",
+    "pin_name": "SCL/OUT2",
+    "net": "CC_OUT2_N"
+  },
+  {
+    "ref": "U6",
+    "pin": "27",
+    "pin_name": "ID",
+    "net": null
+  },
+  {
+    "ref": "U6",
+    "pin": "28",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "U6",
+    "pin": "29",
+    "pin_name": "ENn_CC",
+    "net": "USB_CC_ENABLE_N"
+  },
+  {
+    "ref": "U6",
+    "pin": "30",
+    "pin_name": "VDD5",
+    "net": "VBUS_PROTECTED"
+  },
+  {
+    "ref": "U6",
+    "pin": "31",
+    "pin_name": "EP",
+    "net": "GND"
+  },
+  {
+    "ref": "U7",
+    "pin": "1",
+    "pin_name": "D1+",
+    "net": "USB_TX1_P"
+  },
+  {
+    "ref": "U7",
+    "pin": "2",
+    "pin_name": "D1-",
+    "net": "USB_TX1_N"
+  },
+  {
+    "ref": "U7",
+    "pin": "3",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "U7",
+    "pin": "4",
+    "pin_name": "D2+",
+    "net": "USB_RX1_P"
+  },
+  {
+    "ref": "U7",
+    "pin": "5",
+    "pin_name": "D2-",
+    "net": "USB_RX1_N"
+  },
+  {
+    "ref": "U7",
+    "pin": "6",
+    "pin_name": "N.C.",
+    "net": null
+  },
+  {
+    "ref": "U7",
+    "pin": "7",
+    "pin_name": "N.C.",
+    "net": null
+  },
+  {
+    "ref": "U7",
+    "pin": "8",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "U7",
+    "pin": "9",
+    "pin_name": "N.C.",
+    "net": null
+  },
+  {
+    "ref": "U7",
+    "pin": "10",
+    "pin_name": "N.C.",
+    "net": null
+  },
+  {
+    "ref": "U8",
+    "pin": "1",
+    "pin_name": "D1+",
+    "net": "USB_TX2_P"
+  },
+  {
+    "ref": "U8",
+    "pin": "2",
+    "pin_name": "D1-",
+    "net": "USB_TX2_N"
+  },
+  {
+    "ref": "U8",
+    "pin": "3",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "U8",
+    "pin": "4",
+    "pin_name": "D2+",
+    "net": "USB_RX2_P"
+  },
+  {
+    "ref": "U8",
+    "pin": "5",
+    "pin_name": "D2-",
+    "net": "USB_RX2_N"
+  },
+  {
+    "ref": "U8",
+    "pin": "6",
+    "pin_name": "N.C.",
+    "net": null
+  },
+  {
+    "ref": "U8",
+    "pin": "7",
+    "pin_name": "N.C.",
+    "net": null
+  },
+  {
+    "ref": "U8",
+    "pin": "8",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "U8",
+    "pin": "9",
+    "pin_name": "N.C.",
+    "net": null
+  },
+  {
+    "ref": "U8",
+    "pin": "10",
+    "pin_name": "N.C.",
+    "net": null
+  },
+  {
+    "ref": "U9",
+    "pin": "1",
+    "pin_name": "D1+",
+    "net": "USB_DP"
+  },
+  {
+    "ref": "U9",
+    "pin": "2",
+    "pin_name": "D1-",
+    "net": "USB_DM"
+  },
+  {
+    "ref": "U9",
+    "pin": "3",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "U9",
+    "pin": "4",
+    "pin_name": "D2+",
+    "net": "USB_CC1"
+  },
+  {
+    "ref": "U9",
+    "pin": "5",
+    "pin_name": "D2-",
+    "net": "USB_CC2"
+  },
+  {
+    "ref": "U9",
+    "pin": "6",
+    "pin_name": "N.C.",
+    "net": null
+  },
+  {
+    "ref": "U9",
+    "pin": "7",
+    "pin_name": "N.C.",
+    "net": null
+  },
+  {
+    "ref": "U9",
+    "pin": "8",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "U9",
+    "pin": "9",
+    "pin_name": "N.C.",
+    "net": null
+  },
+  {
+    "ref": "U9",
+    "pin": "10",
+    "pin_name": "N.C.",
+    "net": null
+  },
+  {
+    "ref": "C601",
+    "pin": "1",
+    "pin_name": "",
+    "net": "MUX_TX1_P"
+  },
+  {
+    "ref": "C601",
+    "pin": "2",
+    "pin_name": "",
+    "net": "USB_TX1_P"
+  },
+  {
+    "ref": "C602",
+    "pin": "1",
+    "pin_name": "",
+    "net": "MUX_TX1_N"
+  },
+  {
+    "ref": "C602",
+    "pin": "2",
+    "pin_name": "",
+    "net": "USB_TX1_N"
+  },
+  {
+    "ref": "C603",
+    "pin": "1",
+    "pin_name": "",
+    "net": "MUX_TX2_P"
+  },
+  {
+    "ref": "C603",
+    "pin": "2",
+    "pin_name": "",
+    "net": "USB_TX2_P"
+  },
+  {
+    "ref": "C604",
+    "pin": "1",
+    "pin_name": "",
+    "net": "MUX_TX2_N"
+  },
+  {
+    "ref": "C604",
+    "pin": "2",
+    "pin_name": "",
+    "net": "USB_TX2_N"
+  },
+  {
+    "ref": "R602",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V3_AON"
+  },
+  {
+    "ref": "R602",
+    "pin": "2",
+    "pin_name": "",
+    "net": "USB_ORIENTATION"
+  },
+  {
+    "ref": "R603",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V3_AON"
+  },
+  {
+    "ref": "R603",
+    "pin": "2",
+    "pin_name": "",
+    "net": "CC_OUT1_N"
+  },
+  {
+    "ref": "R604",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V3_AON"
+  },
+  {
+    "ref": "R604",
+    "pin": "2",
+    "pin_name": "",
+    "net": "CC_OUT2_N"
+  },
+  {
+    "ref": "R601",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VBUS_PROTECTED"
+  },
+  {
+    "ref": "R601",
+    "pin": "2",
+    "pin_name": "",
+    "net": "CC_VBUS_SERIES_1"
+  },
+  {
+    "ref": "R605",
+    "pin": "1",
+    "pin_name": "",
+    "net": "CC_VBUS_SERIES_1"
+  },
+  {
+    "ref": "R605",
+    "pin": "2",
+    "pin_name": "",
+    "net": "CC_VBUS_SERIES_2"
+  },
+  {
+    "ref": "R606",
+    "pin": "1",
+    "pin_name": "",
+    "net": "CC_VBUS_SERIES_2"
+  },
+  {
+    "ref": "R606",
+    "pin": "2",
+    "pin_name": "",
+    "net": "CC_VBUS_SENSE"
+  },
+  {
+    "ref": "C605",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VBUS_PROTECTED"
+  },
+  {
+    "ref": "C605",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C606",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V3_AON"
+  },
+  {
+    "ref": "C606",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  }
+]
