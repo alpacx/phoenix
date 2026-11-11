@@ -1,6 +1,6 @@
 /* Compile against flash/clock test doubles; exercises the production journal. */
 #define time history_test_time
-#include "../main/vpn_history.c"
+#include "../platforms/esp32/main/vpn_history.c"
 #undef time
 #include <assert.h>
 static unsigned char flash[32*4096];

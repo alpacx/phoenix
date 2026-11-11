@@ -13,7 +13,7 @@ Requisiti confermati il 6 novembre 2026:
 
 ## Implementazione attuale
 
-Il gestore in `main/vpn_manager.c` esegue provisioning HTTPS, selezione del server,
+Il gestore in `platforms/esp32/main/vpn_manager.c` esegue provisioning HTTPS, selezione del server,
 persistenza NVS, connessione WireGuard e scheduler direttamente sul gateway.
 L'access token fornito nel pannello viene scambiato con la chiave WireGuard e
 scartato; le risposte API non espongono chiavi. La chiave resta in NVS; la build

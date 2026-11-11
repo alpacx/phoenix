@@ -1,0 +1,15 @@
+[Unit]
+Description=Activate signed Phoenix application release
+Requires=phoenix-update-recover.service
+After=phoenix-update-recover.service
+ConditionPathExists=/etc/phoenix/updates.json
+
+[Service]
+Type=oneshot
+Environment=PYTHONPATH=/opt/phoenix-bootstrap/platforms/linux/service
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/usr/bin/python3 -m phoenix_linux.updates activate
+ExecStopPost=/usr/bin/python3 -m phoenix_linux.updates recover --restart
+TimeoutStartSec=300
+TimeoutStopSec=150
+UMask=0077

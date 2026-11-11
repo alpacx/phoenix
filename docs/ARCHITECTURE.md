@@ -1,3 +1,7 @@
+> Per la separazione ESP32/Linux e i percorsi aggiornati leggere
+> [Struttura del progetto](PROJECT_STRUCTURE.md). Le descrizioni embedded
+> qui sotto riguardano ESP32; il backend Linux non è ancora implementato.
+
 # Architettura attuale
 
 ESP-IDF/lwIP con esp-netif Ethernet e un driver esp-netif USB custom, più netif C6 STA/AP tramite ESP-Hosted.
