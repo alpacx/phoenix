@@ -1,5 +1,5 @@
 const fs=require('fs'),vm=require('vm'),assert=require('assert');
-const source=fs.readFileSync('main/web/app.js','utf8');
+const source=fs.readFileSync('shared/web/app.js','utf8');
 const fn=source.slice(source.indexOf('function tickCountdown(){'),source.indexOf('setInterval(tickCountdown'));
 let now=0,values={};const context={logged:true,vpn:{rotation:true,enabled:true,provider:'nordvpn',state:'connected'},countdownFresh:true,countdownAt:0,countdownSeconds:10,performance:{now:()=>now},setText:(id,value)=>values[id]=value,duration:n=>n,Math};vm.createContext(context);vm.runInContext(fn,context);
 context.tickCountdown();assert.equal(values['rotation-countdown'],10);

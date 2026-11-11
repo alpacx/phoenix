@@ -1,6 +1,17 @@
-# Phoenix — ESP32-P4-NANO gateway
+# Phoenix — gateway multi-piattaforma
 
-Firmware sperimentale, non ancora un prodotto validato. Touch escluso su richiesta.
+Gateway sperimentale, non ancora un prodotto validato. Backend ESP32 esistente;
+port Linux per ROCK 4C+ in preparazione. Il codice operativo descritto sotto è
+quello ESP32, non una dichiarazione di funzionalità già disponibili su Linux.
+
+## Organizzazione
+
+- [ESP32 / ESP-IDF](platforms/esp32/README.md): sorgenti in `platforms/esp32/main/`.
+- [Linux / ROCK](platforms/linux/README.md): piano del backend Linux.
+- `shared/web/`: pannello amministrativo comune.
+- `shared/phoenix_core/`: logica C portabile.
+- [Mappa del progetto](docs/PROJECT_STRUCTURE.md) e [istruzioni agenti](AGENTS.md).
+- `hardware/phoenix-g1/`: progettazione della scheda custom, ancora incompleta.
 
 Implementati: Ethernet IP101/RMII con DHCP, USB HS CDC-NCM con DHCP/NAT IPv4,
 firewall L3/L4, API amministrativa locale e pannello, importatore WireGuard IPv4

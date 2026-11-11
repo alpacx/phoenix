@@ -1,9 +1,10 @@
 cmake_minimum_required(VERSION 3.16)
+set(EXTRA_COMPONENT_DIRS "${CMAKE_CURRENT_LIST_DIR}/platforms/esp32/main" "${CMAKE_CURRENT_LIST_DIR}/shared/phoenix_core")
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(phoenix)
 
 idf_component_get_property(lwip_lib lwip COMPONENT_LIB)
-target_include_directories(${lwip_lib} PRIVATE "${CMAKE_CURRENT_LIST_DIR}/main")
+target_include_directories(${lwip_lib} PRIVATE "${CMAKE_CURRENT_LIST_DIR}/platforms/esp32/main")
 target_compile_definitions(${lwip_lib} PRIVATE ESP_IDF_LWIP_HOOK_FILENAME="lwip_hooks.h")
 
 # Override only the reviewed 2.0.1 network translation unit; keep registry sources untouched.

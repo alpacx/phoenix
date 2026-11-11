@@ -1,3 +1,16 @@
+# Repository multi-piattaforma — 2026-11-11
+
+Sorgenti ESP32 spostati in platforms/esp32/main; UI in shared/web;
+core portabile in shared/phoenix_core. Root ancora entrypoint ESP-IDF.
+Leggere AGENTS.md e docs/PROJECT_STRUCTURE.md per riprendere il lavoro.
+Linux è solo predisposto: piano in platforms/linux/README.md, nessun backend
+operativo. ROCK 4C+ arrivata, collegata USB-C al Mac; supporto di avvio Linux
+non ancora preparato. Non presumere accesso SSH o rete USB disponibile.
+Lo storage della scheda custom è da chiudere: U18 SPI NOR 32 MB presente,
+eMMC candidata ma non integrata nel PCB. Non confondere con la RAM LPDDR4.
+
+---
+
 # Filtro paesi NordVPN — 2026-11-06
 
 Aggiunta opzione exclude_restricted, preset Phoenix da tabella NordVPN
