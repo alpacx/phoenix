@@ -1,13 +1,13 @@
 # Phoenix — gateway multi-piattaforma
 
 Gateway sperimentale, non ancora un prodotto validato. Backend ESP32 esistente;
-port Linux per ROCK 4C+ in preparazione. Il codice operativo descritto sotto è
-quello ESP32, non una dichiarazione di funzionalità già disponibili su Linux.
+backend Linux per ROCK 4C+ implementato in forma sperimentale e testato in Docker. La sezione hardware/build sotto descrive
+ESP32; per Linux consultare il relativo README e le verifiche disponibili.
 
 ## Organizzazione
 
 - [ESP32 / ESP-IDF](platforms/esp32/README.md): sorgenti in `platforms/esp32/main/`.
-- [Linux / ROCK](platforms/linux/README.md): piano del backend Linux.
+- [Linux / ROCK](platforms/linux/README.md): backend Linux, istruzioni e stato delle verifiche.
 - `shared/web/`: pannello amministrativo comune.
 - `shared/phoenix_core/`: logica C portabile.
 - [Mappa del progetto](docs/PROJECT_STRUCTURE.md) e [istruzioni agenti](AGENTS.md).
@@ -68,7 +68,7 @@ amministrativo accettato dall'uplink. Pairing via UART nei primi 120 secondi:
 `pair ` seguito da 64 caratteri esadecimali casuali, mai riportati nei log.
 Il token rimane solo nel client; la scheda conserva SHA-256 in NVS.
 `time <epoch UNIX di 10 cifre>` imposta l'orologio nello stesso intervallo.
-Il pannello conserva il token soltanto nel campo della pagina.
+Il pannello conserva il token nella sessionStorage della scheda browser e lo elimina al logout.
 
 All'avvio il traffico inoltrato è bloccato. La modalità diretta è una scelta
 esplicita via API. WireGuard resta chiuso finché non esiste una sessione valida.

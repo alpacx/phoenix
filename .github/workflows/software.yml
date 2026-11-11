@@ -1,0 +1,51 @@
+name: Software regression
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  contracts-and-core:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: ./tools/test-linux.sh
+      - run: ./tools/test.sh
+      - run: node tests/test_countdown.cjs
+      - run: node --check shared/web/app.js
+  linux-packets:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t phoenix-linux-test:local -f platforms/linux/tests/integration/Dockerfile platforms/linux/tests/integration
+      - run: docker run --rm --cap-add NET_ADMIN --mount type=bind,source="$PWD",target=/workspace,readonly phoenix-linux-test:local
+      - run: docker run --rm --cap-add NET_ADMIN --mount type=bind,source="$PWD",target=/workspace,readonly phoenix-linux-test:local python3 platforms/linux/tests/integration/check_deploy.py
+      - run: python3 platforms/linux/tests/integration/traffic.py
+  browser:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r platforms/linux/tests/browser/requirements.txt
+      - run: python -m playwright install --with-deps chromium firefox webkit
+      - run: docker build -t phoenix-linux-test:local -f platforms/linux/tests/integration/Dockerfile platforms/linux/tests/integration
+      - run: docker run -d --name phoenix-ui-review --cap-add NET_ADMIN -p 127.0.0.1:18086:18086 --mount type=bind,source="$PWD",target=/workspace,readonly phoenix-linux-test:local python3 platforms/linux/tests/integration/ui_harness.py
+      - run: |
+          for engine in chromium webkit firefox; do
+            PHOENIX_BROWSER="$engine" python3 platforms/linux/tests/browser/review.py
+          done
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: browser-review
+          path: results/linux/ui-review
+      - if: always()
+        run: docker rm -f phoenix-ui-review

@@ -1,32 +1,59 @@
 # Phoenix Linux
 
-Stato: struttura predisposta; backend Linux non ancora implementato o provato.
-Prima piattaforma di banco: ROCK 4C+ acquistata dall'utente. Non confondere
-il suo RK3399 con il RK3562 della scheda custom.
+Backend di ingegneria per Linux ARM64. Testato su Debian 12 in container e in
+una VM QEMU con systemd reale; **non ancora validato sulla ROCK 4C+**.
+La ROCK usa RK3399, distinto dal RK3562 della scheda custom.
 
-## Confini
+## Architettura
 
-- UI unica in `shared/web/`; niente copie specifiche per Linux.
-- Contratto HTTP di partenza: `docs/API.md`; inventariare anche gli endpoint
-  effettivi in `platforms/esp32/main/admin_api.inc` prima di implementare.
-- `shared/phoenix_core/` contiene C portabile testato su host. Linux può
-  riutilizzarlo dove utile, ma non deve usare il dataplane embedded.
-- Backend previsto: WireGuard del kernel, nftables, servizi di rete Linux.
-  Nessuna di queste integrazioni è ancora operativa nel progetto.
+- `frontend.py`, `server.py`: UI unica `shared/web`, API Bearer, HTTPS loopback
+  sulla porta 8443; frontend eseguito come `phoenix-web`, senza capability.
+- `rpc.py`: socket Unix con verifica UID del peer, richieste limitate e comandi
+  ammessi esplicitamente. Nessuna API per shell, argv o lettura di file arbitrari.
+- `controller.py`: worker privilegiato, configurazione, comandi asincroni,
+  rotazione, paese fisso, esclusioni e ritentativi 5–60 secondi.
+- `runtime.py`, `firewall.py`, `policy.py`: nftables/WireGuard kernel, blocco
+  prima delle transizioni, NAT e port forwarding; nessun fallback diretto.
+- `uplink_http.py`, `nord.py`: DoH e HTTPS vincolati alla stessa interfaccia
+  selezionata. DNS/API NordVPN non dipendono più dalla route Ethernet di gestione.
+- `lan.py`, `station.py`, `access_point.py`: AP/DHCP e STA NetworkManager opt-in;
+  profili propri, controllo ownership e recupero dopo arresto del servizio.
+- `store.py`, `vault.py`, `history.py`: configurazione transazionale, file
+  privati e storico delle connessioni confermate per otto ore.
+- `updates.py`, `install.py`, `package.py`: installatore, bundle allowlisted,
+  firma Ed25519, sequenza monotona e rollback applicativo; bootstrap indipendente.
+- `stop_guard.py`: blocco su stop/crash. `preflight.py`: inventario read-only.
 
-## Ordine di implementazione
+Python gestisce il control plane; i pacchetti transitano nel kernel. ESP32 resta
+indipendente e funzionante. Nessun SDK ESP-IDF viene importato nei servizi Linux.
 
-1. Avvio da microSD/eMMC, identificazione scheda, OS/kernel e accesso SSH.
-2. Inventario interfacce e capacità; verifica separata USB device sul banco.
-3. Backend in `service/`, test in `tests/`, installazione in `deploy/`,
-   profili specifici in `boards/rock4c-plus/` (creare quando implementati).
-4. Configurazione persistente, autenticazione locale e API per la UI comune.
-5. Gateway Wi-Fi/Ethernet, firewall ordinato, NAT e port forwarding.
-6. WireGuard/NordVPN, selezione paesi, esclusioni, rotazione e storico.
-7. Test del blocco traffico all'avvio/caduta VPN, DNS/IPv6, riavvii,
-   prestazioni e temperature.
+## Installazione e verifiche
 
-Non applicare regole firewall o routing al Mac di sviluppo. Le modifiche
-alla rete vanno eseguite sul target identificato, con accesso di recupero.
-Non esporre l'amministrazione sull'uplink. Non simulare capacità assenti nella UI.
-Non copiare token, chiavi o configurazioni private dal banco ESP32 nel repo.
+[Immagine ROCK](boards/rock4c-plus/README.md) · [Installazione](deploy/README.md) ·
+[Aggiornamenti](deploy/UPDATES.md) · [API](API_STATUS.md) · [Evidenze](VALIDATION.md) · [Revisione sicurezza](SECURITY_REVIEW.md)
+
+Dalla root:
+
+```sh
+./tools/test-linux.sh
+PYTHONPATH=platforms/linux/service python3 -m phoenix_linux.preflight
+```
+
+Solo per sviluppo locale senza rete operativa, resta disponibile il server
+HTTP monoprocesso su loopback: `PYTHONPATH=platforms/linux/service python3 -m
+phoenix_linux.server --state-dir /tmp/phoenix-linux-local`. Non è il deployment
+HTTPS separato; non usare questo comando come servizio di produzione.
+
+## Limiti residui
+
+Prove fisiche AP/STA, USB device/cablaggio, DHCP/DNS dei client, abbonamento
+NordVPN, throughput, consumi e temperature richiedono il target. Sono stati
+provati un catalogo pubblico NordVPN reale e tunnel WireGuard locali; ciò non
+prova un account NordVPN o le prestazioni della ROCK.
+
+La VM verifica systemd, credenziali, privilegi, aggiornamento, rollback e reboot;
+non simula un'interruzione elettrica durante una scrittura su microSD.
+Il frontend è accessibile solo tramite loopback/SSH, con certificato locale da
+verificare e rendere attendibile. Non c'è ancora esposizione HTTPS diretta su AP.
+Un audit di sicurezza completo e prove di endurance restano necessari prima
+della produzione. Nessuna chiave di firma di produzione è stata generata.

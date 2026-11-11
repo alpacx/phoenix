@@ -5,13 +5,14 @@ Aggiornata: 2026-11-11. Due piattaforme software, un prodotto e una UI.
 | Percorso | Responsabilità / stato |
 |---|---|
 | `platforms/esp32/main/` | Backend ESP-IDF esistente, NVS e controllo hardware |
-| `platforms/linux/` | Port Linux: predisposto, non ancora implementato |
+| `platforms/linux/` | Backend Linux, frontend HTTPS non root e worker RPC; test Docker e VM systemd, non ancora su ROCK |
 | `shared/web/` | Unica sorgente HTML/CSS/JS e catalogo paesi del pannello |
 | `shared/phoenix_core/` | C portabile: policy, firewall, profili WG, rotazione |
 | `components/wireguard/` | Implementazione WireGuard embedded, non backend Linux |
 | `components_overrides/` | Override ESP-IDF/TinyUSB verificati |
 | `tests/` | Test host core, UI e adattatori ESP32 con stub |
-| `tools/` | Build/test ESP32 e utilità di banco esistenti |
+| `tools/` | Build/test delle due piattaforme e utilità di banco |
+| `.github/workflows/software.yml` | CI Python/contratti, C portabile, JS, traffico Linux e browser; da pubblicare |
 | `benchmarks/` | Prove e strumenti di misura; non servizi di produzione |
 | `docs/` | API, architettura, hardware, procedure e mappa repository |
 | `hardware/phoenix-g1/` | Progettazione elettronica custom, separata dal software |
@@ -31,7 +32,7 @@ pubblici. Non si convertono automaticamente NVS o credenziali in file Linux.
 
 ## Contratto comune e differenze
 
-`docs/API.md` è il punto di partenza documentale; il port deve confrontarlo
+`docs/API.md` è il punto di partenza documentale; il port deve mantenerlo allineato
 con `admin_api.inc` e le chiamate della UI perché può non coprire tutte le
 estensioni recenti. L'API comune va consolidata con test di contratto durante
 il port, non considerata già certificata.
@@ -48,6 +49,7 @@ throughput basate solo sul processore. La UI deve restare agnostica dall'hardwar
 Dalla root:
 
 ```sh
+./tools/test-linux.sh
 ./tools/test.sh
 ./tools/test-history.sh
 node tests/test_countdown.cjs
@@ -62,7 +64,7 @@ La build non prova rete, VPN, cablaggio, USB o prestazioni fisiche.
 ## Stato e ripresa
 
 - ESP32: implementazione esistente; prove pregresse in NEXT_SESSION.md e PROGRESS.md.
-- Linux: avvio in attesa di supporto di storage; nessun gateway installato.
+- Linux: backend implementato e testato in Docker; avvio ROCK in attesa del supporto di storage. Vedere platforms/linux/VALIDATION.md e API_STATUS.md.
 - Hardware custom: progetto incompleto; checkpoint corrente in
   `hardware/phoenix-g1/migration-rk3562/experiments/lpddr4-1gb/working-board.json`.
 - Flash SPI NOR presente nel PCB; eMMC solo candidata, non integrata.

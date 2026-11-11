@@ -1,0 +1,12 @@
+[Unit]
+Description=Recover interrupted Phoenix application update
+Before=phoenix.service phoenix-control.service phoenix-update.service
+ConditionPathExists=/etc/phoenix/updates.json
+
+[Service]
+Type=oneshot
+RemainAfterExit=true
+Environment=PYTHONPATH=/opt/phoenix-bootstrap/platforms/linux/service
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/usr/bin/python3 -m phoenix_linux.updates recover
+UMask=0077

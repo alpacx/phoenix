@@ -1,0 +1,33 @@
+[Unit]
+Description=Phoenix unprivileged HTTPS administration
+Requires=phoenix-control.service
+After=phoenix-control.service
+
+[Service]
+Type=simple
+User=phoenix-web
+Group=phoenix-web
+WorkingDirectory=/opt/phoenix
+Environment=PYTHONPATH=/opt/phoenix/platforms/linux/service
+Environment=PYTHONDONTWRITEBYTECODE=1
+LoadCredential=admin-token:/var/lib/phoenix/admin-token
+LoadCredential=tls-key:/etc/phoenix/admin-key.pem
+LoadCredential=tls-cert:/etc/phoenix/admin-cert.pem
+ExecStart=/usr/bin/python3 -m phoenix_linux.frontend --token-file ${CREDENTIALS_DIRECTORY}/admin-token --tls-key ${CREDENTIALS_DIRECTORY}/tls-key --tls-cert ${CREDENTIALS_DIRECTORY}/tls-cert
+Restart=on-failure
+RestartSec=5
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+CapabilityBoundingSet=
+RestrictSUIDSGID=true
+LockPersonality=true
+
+[Install]
+WantedBy=multi-user.target

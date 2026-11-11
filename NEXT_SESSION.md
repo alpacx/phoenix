@@ -1,3 +1,77 @@
+## Checkpoint revisione e endurance — 2026-11-11
+
+Utente: procedere senza account NordVPN reale (scelta esplicita). Non chiedere
+nuovamente il token per questa tranche. Nessuna scheda disponibile.
+68 test Python, 605 secondi/102 cicli Docker con controllore persistente (RSS
+22144 KiB stabile, FD 4), cinque update VM più rollback/reboot, UI Chromium /
+WebKit / Firefox e build ESP32 passati. Vedere SECURITY_REVIEW.md e VALIDATION.md
+in platforms/linux. Correzioni: perdita tunnel confermato senza grace iniziale,
+JSON rigoroso RPC, deadline lettura, header duplicati/CSP, spazio update, logout
+mobile e pulizia campi sensibili. Container di test rimossi. CI predisposta,
+non pubblicata/eseguita su GitHub; niente commit/push in questa sessione.
+
+## Checkpoint Linux — autonomia senza hardware, 2026-11-11
+
+Completati DNS/HTTPS NordVPN sull’uplink selezionato, frontend HTTPS non root,
+worker RPC con SO_PEERCRED, VM QEMU con systemd reale e reboot/rollback,
+fault injection, contratti UI e workflow CI. Leggere platforms/linux/VALIDATION.md.
+63 test Python, traffico Linux, VM, core C/JS e build ESP32 passati. Catalogo
+pubblico NordVPN reale verificato senza token. Nessuna prova ROCK o account VPN.
+Deployment ora usa quattro unità, HTTPS 8443 e LoadCredential; il vecchio HTTP
+8085 è solo CLI sviluppo. Vecchi checkpoint sotto sono storico, non stato attuale.
+La ROCK non è con l’utente. Nessuna richiesta di commit/push in questa sessione.
+
+## Checkpoint Linux — completamento offline 2026-11-11
+
+La ROCK non è disponibile con l’utente. Non chiedere nuovamente IP o accesso
+finché non comunica che è tornata disponibile. Il backend, AP/STA opt-in,
+aggiornamenti applicativi firmati e installer sono in platforms/linux.
+Leggere README, API_STATUS, VALIDATION e deploy/UPDATES per capacità e limiti.
+Non confondere i vecchi blocchi storici "non implementato" con lo stato corrente.
+USB gadget/driver, radio, NordVPN reale, ciclo systemd/power loss e prestazioni
+rimangono da verificare sul target. Il control plane mantiene route di gestione.
+Nessun commit/push in questa sessione; non eseguirli senza richiesta.
+
+# Migrazione offline: lifecycle, hotspot e pacchetto — 2026-11-11
+
+Utente conferma di NON avere con sé la ROCK. Non cercare di flashare o presumere
+Linux avviato. Backend esteso: rifiuto richieste invalide prima di mutazioni,
+errori diagnostici senza drop VPN, shutdown ordinato e stop guard systemd,
+hotspot opt-in con controllo ownership e rollback, bundle allowlisted con hash.
+41 test su Debian + suite kernel/traffico + dnsmasq e sintassi systemd passati.
+Leggere platforms/linux/VALIDATION.md e deploy/README.md. AP reale/USB/NordVPN
+restano da provare. STA/uplink Wi-Fi e OTA Linux restano non implementati;
+non dichiarare migrazione completa. Nessun commit/push richiesto.
+
+---
+
+# Backend Linux implementato, prove virtuali — 2026-11-11
+
+Leggere platforms/linux/README.md, API_STATUS.md, VALIDATION.md e deploy/README.md.
+API/servizio loopback, nftables, WireGuard kernel, adapter NordVPN, rotazione,
+storico, vault privato e persistenza revisionata implementati. Test unitari/HTTP
+su host e Debian; test reali in Docker di NAT, deny, forwarding/source filter,
+tunnel WG con handshake e blocco dopo rimozione tunnel. Build ESP32 riuscita.
+UI unica con capabilities; funzioni Wi-Fi non disponibili disabilitate.
+ROCK non ancora avviata: provisioning Wi-Fi/USB, NordVPN reale, systemd,
+DNS/IPv6/endurance e performance devono essere verificati sul banco.
+Nessun commit/push di questo lavoro ancora richiesto. Nessuna chiave nei file
+versionati. Docker Desktop avviato per test; container/reti di prova rimossi.
+
+---
+
+# Port Linux avviato — 2026-11-11
+
+Scelta banco: immagine ufficiale Radxa ROCK 4C+ Debian 12 Bookworm KDE R2,
+poi uso headless; fonti e istruzioni in platforms/linux/boards/rock4c-plus/README.md.
+Implementati inventario read-only e storage SQLite transazionale della
+configurazione desiderata non segreta. 5 test host passati con tools/test-linux.sh.
+Non ancora implementati API, applicazione firewall/VPN e provisioning rete;
+nessuna prova fisica, nessun sistema scritto su microSD. Prossimo lavoro:
+validazione policy compatibile ESP32, API e separazione privilegi di rete.
+
+---
+
 # Repository multi-piattaforma — 2026-11-11
 
 Sorgenti ESP32 spostati in platforms/esp32/main; UI in shared/web;
