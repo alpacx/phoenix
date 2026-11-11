@@ -48,7 +48,10 @@ try:
                                (client, networks[0], '192.168.9.20'),
                                (peer, networks[1], '192.0.2.20')]:
         docker('run', '-d', '--name', name, '--cap-add', 'NET_ADMIN',
-               '--sysctl', 'net.ipv4.ip_forward=1', '--network', network, '--ip', ip,
+               '--sysctl', 'net.ipv4.ip_forward=1',
+               '--sysctl', 'net.ipv4.conf.all.rp_filter=0',
+               '--sysctl', 'net.ipv4.conf.default.rp_filter=0',
+               '--network', network, '--ip', ip,
                '--mount', f'type=bind,source={ROOT},target=/workspace,readonly',
                IMAGE, 'sleep', '1800')
         containers.append(name)
@@ -157,6 +160,9 @@ r.connect({policy!r},parse({profile!r}))
         finally:
             worker.stdin.close()
             worker.wait(timeout=20)
+    # Fixture source 1.1.1.1 has a deliberately blackholed main reverse route.
+    # Disable host-inherited reverse-path filtering only in test namespaces;
+    # otherwise Linux can discard the reply before the socket sees it.
     # Real bound TCP/TLS and DoH fixture: main route deliberately cannot reach DNS.
     execute(peer, 'ip', 'address', 'add', '1.1.1.1/32', 'dev', 'lo')
     execute(peer, 'openssl', 'req', '-x509', '-newkey', 'rsa:2048', '-nodes', '-days', '1',
