@@ -1,7 +1,7 @@
 """Opt-in NetworkManager STA adapter. Secrets never appear in command arguments.
 
 Only a Phoenix-owned connection is replaced. Arbitrary active connections are
-not disconnected. Requires nmcli with --offline (Debian Bookworm supports it).
+not disconnected. Uses keyfiles supported by both Bullseye and Bookworm.
 """
 import os
 from pathlib import Path
@@ -93,14 +93,16 @@ class Station:
     def connect(self, body):
         validate(body)
         self.check_ownership()
-        args = ['nmcli', '--offline', 'connection', 'add', 'type', 'wifi', 'ifname', self.name,
-                'con-name', self.connection_name, 'connection.uuid', self.uuid,
-                'connection.autoconnect', 'no', 'ssid', body['ssid'],
-                'ipv4.method', 'auto', 'ipv4.never-default', 'yes',
-                'ipv4.ignore-auto-dns', 'yes', 'ipv6.method', 'disabled']
+        # Decimal SSID bytes are a supported keyfile representation: no keyfile
+        # injection, loss of leading spaces, or dependency on nmcli --offline.
+        ssid = ''.join(str(byte) + ';' for byte in body['ssid'].encode('utf8'))
+        profile = (f'[connection]\nid={self.connection_name}\nuuid={self.uuid}\n'
+                   f'type=wifi\ninterface-name={self.name}\nautoconnect=false\n'
+                   f'[wifi]\nmode=infrastructure\nssid={ssid}\n'
+                   '[ipv4]\nmethod=auto\nnever-default=true\nignore-auto-dns=true\n'
+                   '[ipv6]\nmethod=disabled\n')
         if body.get('password'):
-            args += ['wifi-sec.key-mgmt', 'wpa-psk', 'wifi-sec.psk-flags', '2']
-        profile = self.run(args).stdout
+            profile += '[wifi-security]\nkey-mgmt=wpa-psk\npsk-flags=2\n'
         config = self.profile_directory / (self.connection_name + '.nmconnection')
         secret = self.directory / 'password'
         def write(path, text):

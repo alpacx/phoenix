@@ -1,3 +1,23 @@
+## ROCK — deployment fisico 2026-11-12
+
+Phoenix 0.1.0-rock1 installato su b60 Debian 11. 69 test passati, HTTPS/AP/DHCP,
+aggiornamento firmato reale e reboot verificati. Forwarding Ethernet e blocco
+provati con client virtuale; USB fisica e account NordVPN non verificati.
+Vedere platforms/linux/boards/rock4c-plus/BRINGUP.md. AF_PACKET worker approvato
+esplicitamente. Credenziali SSH invariate, nessuna nuova chiave installata.
+Non presumere IP o tunnel ancora attivi; riscoprire target prima di modificare.
+
+## Obiettivo meccanico hardware — 2026-11-12
+
+Scelta esplicita dell'utente: puntare a **PCB 85 × 35 mm**. Decisione salvata in
+`hardware/phoenix-g1/mechanical/pcb-envelope-target.json`. Non confondere con
+dimensioni del case o con fit verificato. Conservare il checkpoint 90 × 40 mm;
+90 × 30 mm non è dimostrato impossibile, ma resta alternativa più vincolante,
+non il target selezionato. Prima di rifare il routing verificare piazzamento
+completo includendo eMMC saldata, display/comando, espansione e termica passiva.
+LTE/eSIM rinviati; predisposizione espansione da progettare. Nessuna modifica
+del PCB originale è stata eseguita nello screening di ingombro.
+
 ## Checkpoint revisione e endurance — 2026-11-11
 
 Utente: procedere senza account NordVPN reale (scelta esplicita). Non chiedere
@@ -503,3 +523,11 @@ la sua flash non è stata cancellata tramite la porta seriale del P4.
 
 ### Vincolo NordVPN aggiunto dall'utente (2026-11-06)
 NordVPN DEVE terminare direttamente sul P4; niente relay Mac. Paese selezionato: restare sempre in quel paese; nessuna selezione: rotazione casuale dei paesi/server. Aggiunti `vpn_rotation.[ch]`, test host passati (100000 selezioni) e `docs/NORDVPN-P4.md`. Questo è solo il selettore, non un'integrazione completa né già flashata. Continuare il task interfaccia amministrativa/firewall/port forwarding/VPN e account NordVPN autonomamente. Non dichiarare completato. Tutte le modifiche precedenti sono ancora presenti e non committate.
+
+### Aggiornamento pannello speedtest nativo (2026-11-12)
+ROCK aggiornata a release firmata 0.1.0-rock3 / seq3 / 3-a1d0ac24fe38d8ba.
+Nuovo download HTTPS curl nativo Serverius DC3, quattro flussi 10s, solo download;
+UI dati ricevuti/durata, niente stime upload/ping. 74 test passati su ROCK,
+browser desktop/mobile passato. Misura live VPN Italy #534: 322,31 Mbps,
+59,4 °C. Paese fisso IT, VPN connessa al termine. Dettagli BRINGUP/API_STATUS.
+Non presumere IP o stato VPN invariati alla prossima sessione. Nessun commit.

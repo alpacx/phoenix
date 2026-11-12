@@ -82,7 +82,9 @@ class AccessPoint:
                 self.added_address = True
             self.run(['ip', 'link', 'set', 'dev', self.name, 'up'])
             self.spawn(['hostapd', str(self.directory / 'hostapd.conf')])
-            self.spawn(['dnsmasq', '--keep-in-foreground', '--user=root', '--group=root', '--conf-file=' + str(self.directory / 'dnsmasq.conf')])
+            # systemd already bounds privileges. --no-daemon also avoids
+            # setgroups/setuid, which are deliberately unavailable to this worker.
+            self.spawn(['dnsmasq', '--no-daemon', '--conf-file=' + str(self.directory / 'dnsmasq.conf')])
             self.active = True
         except Exception:
             self.stop()
@@ -97,7 +99,7 @@ class AccessPoint:
             if process.poll() is None:
                 process.terminate()
                 process.wait(timeout=3)
-            self.spawn(['dnsmasq', '--keep-in-foreground', '--user=root', '--group=root', '--conf-file=' + str(self.directory / 'dnsmasq.conf')])
+            self.spawn(['dnsmasq', '--no-daemon', '--conf-file=' + str(self.directory / 'dnsmasq.conf')])
         self.dns = dns
 
     def healthy(self):

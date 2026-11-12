@@ -57,10 +57,18 @@ class LocalAPI:
         if method == 'health':
             return {'ready': not c.closing, 'release_id': Path(__file__).resolve().parents[4].name}
         if method == 'capabilities':
-            return {'network_initialized': c.runtime is not None,
+            from .speedcheck import available
+            return {'network_initialized': c.runtime is not None, 'speedtest': c.runtime is not None and available(),
                     'wifi_provisioning': c.station is not None, 'usb_provisioning': False,
                     'firmware_update': c.updates is not None,
                     'exit_ip_verification': c.runtime is not None, 'catalog_test': c.runtime is not None}
+        if method == 'speedtest':
+            return c.measurement.status()
+        if method == 'speedtest_start':
+            return c.start_speedtest()
+        if method == 'speedtest_cancel':
+            c.measurement.cancel()
+            return {'accepted': True}
         if method == 'status':
             c.require_runtime()
             return c.runtime.status()

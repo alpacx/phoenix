@@ -39,3 +39,24 @@ mutare la rete; un errore diagnostico non interrompe il tunnel esistente.
 Gli aggiornamenti riguardano solo l’applicazione, non OS/bootloader: deploy/UPDATES.md.
 DNS e API NordVPN sono ora vincolati all’uplink scelto, senza dipendenza da Ethernet.
 I servizi OS restano separati: vedere deploy/README.md.
+
+## Speedtest (Linux, capability `speedtest`)
+
+- GET /api/v1/speedtest: ultima misura in memoria, percorso, endpoint,
+  download_mbps, download_mb, measurement_seconds, streams, engine, picco termico.
+  upload_mbps e ping_ms sono null: non misurati. Si azzera al riavvio.
+- POST /api/v1/speedtest con `{"action":"start"}` o `{"action":"cancel"}`:
+  autenticazione e protezioni Host/Origin; un solo lavoro, cooldown 60 secondi,
+  quattro trasferimenti HTTPS nativi curl di 10 secondi, limite totale 20 secondi,
+  stop a 75 °C. Annullamento/errore terminano tutti i processi figli.
+- Richiede curl, non speedtest-cli. Endpoint fisso speedtest3.serverius.net,
+  nessun proxy, redirect, retry o configurazione .curlrc. Verifica TLS attiva.
+  Risposte diverse da HTTP 200, errori o stream vuoti invalidano il risultato.
+  Timeout al termine dei 10 secondi è previsto e conteggia i byte ricevuti.
+- VPN richiede handshake; diretto solo se già abilitato. `--interface if!NOME`
+  impone il device senza fallback. Policy routing oif phwg0 usa tabella 17700;
+  oif uplink selezionato usa 17710, regola 17691 rimossa allo shutdown.
+  DNS iniziale usa il resolver OS. Nessuna modifica al routing del Mac.
+- Cambi/rotazione serializzati; misura traffico originato dal gateway, non
+  forwarding client. Include avvio/TLS e dipende da percorso/server: non è
+  un massimo garantito. ESP32 non espone la capability; UI nascosta.

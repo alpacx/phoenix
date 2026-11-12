@@ -95,7 +95,7 @@ def handler(controller, token):
                 return
             try:
                 with nullcontext():
-                    methods = {'/api/v1/capabilities': 'capabilities', '/api/v1/wifi/scan': 'scan',
+                    methods = {'/api/v1/speedtest': 'speedtest', '/api/v1/capabilities': 'capabilities', '/api/v1/wifi/scan': 'scan',
                                '/api/v1/firmware': 'firmware', '/api/v1/preflight': 'preflight',
                                '/api/v1/status': 'status', '/api/v1/policy': 'policy', '/api/v1/vpn': 'vpn'}
                     if path in methods:
@@ -142,7 +142,12 @@ def handler(controller, token):
                 if not isinstance(body, dict):
                     raise ValueError('object_required')
                 path = urlsplit(self.path).path
-                if path == '/api/v1/policy':
+                if path == '/api/v1/speedtest':
+                    if set(body) != {'action'} or body['action'] not in ('start', 'cancel'):
+                        raise ValueError('invalid_speedtest_action')
+                    value = api.call('speedtest_' + body['action'])
+                    return self.send(202, value)
+                elif path == '/api/v1/policy':
                     value = api.call('save_policy', body)
                 elif path in ('/api/v1/wifi', '/api/v1/uplink'):
                     body['action'] = path.rsplit('/', 1)[1]
@@ -214,7 +219,7 @@ def main():
             server = HTTPServer(('127.0.0.1', args.port), handler(controller, token))
         if runtime:
             runtime.disconnect(controller.policy())
-            for priority in ('17690', '17710', '17711'):
+            for priority in ('17690', '17691', '17710', '17711'):
                 runtime.run(['ip', 'rule', 'del', 'priority', priority], optional=True)
             if config.get('updates_config'):
                 from .updates import from_config

@@ -21,6 +21,8 @@ class Controller:
         self.lock = threading.RLock()
         self.dispatch_lock = threading.Lock()
         self.busy = False
+        from .speedcheck import Measurement
+        self.measurement = Measurement()
         self.closing = False
         self.updating = False
         self.store = ConfigStore(directory)
@@ -127,7 +129,31 @@ class Controller:
             self.lock.release()
         return {'accepted': True}
 
+    def start_speedtest(self):
+        from .speedcheck import available
+        with self.lock:
+            self.require_runtime()
+            if self.busy or self.closing or self.updating:
+                raise RevisionConflict('command_in_progress')
+            if not available():
+                raise Unavailable('speedtest_not_installed')
+            mode = self.runtime.mode
+            if mode not in ('vpn', 'direct') or (mode == 'vpn' and not self.runtime.handshake()):
+                raise ValueError('speedtest_connection_required')
+            name = self.runtime.names['vpn' if mode == 'vpn' else 'uplink']
+            self.measurement.prepare(mode, name, self.location.get('server', '') if mode == 'vpn' else name)
+            self.busy = True
+            def work():
+                try:
+                    self.measurement.run(name)
+                finally:
+                    with self.lock:
+                        self.busy = False
+            threading.Thread(target=work, daemon=True).start()
+            return self.measurement.status()
+
     def shutdown(self):
+        self.measurement.cancel()
         with self.lock:
             self.closing = True
             self.want_connected = self.enabled = False
@@ -136,7 +162,7 @@ class Controller:
             if self.runtime:
                 self.runtime.disconnect(self.policy())
                 if self.runtime.selected_route:
-                    for priority in ('17690', '17710', '17711'):
+                    for priority in ('17690', '17691', '17710', '17711'):
                         self.runtime.run(['ip', 'rule', 'del', 'priority', priority], optional=True)
             if self.station:
                 self.station.disconnect()
@@ -334,7 +360,7 @@ class Controller:
         connected = bool(not self.busy and self.runtime and self.enabled and self.runtime.handshake())
         direct = bool(self.runtime and self.runtime.mode == 'direct')
         return {'provider': self.settings.get('provider', ''), 'enabled': self.enabled,
-                'state': 'provisioning' if self.busy else 'error' if self.error else 'direct' if direct else 'connected' if connected else 'connecting' if self.enabled else 'blocked',
+                'state': 'measuring' if self.busy and self.measurement.status()['state'] == 'running' else 'provisioning' if self.busy else 'error' if self.error else 'direct' if direct else 'connected' if connected else 'connecting' if self.enabled else 'blocked',
                 'busy': self.busy, 'error': self.error, 'country': self.settings.get('country', ''),
                 'server': self.location.get('server', ''), 'server_country': self.location.get('country', ''),
                 'account_configured': bool(self.settings.get('nord_key')),

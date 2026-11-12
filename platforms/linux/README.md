@@ -1,7 +1,9 @@
 # Phoenix Linux
 
 Backend di ingegneria per Linux ARM64. Testato su Debian 12 in container e in
-una VM QEMU con systemd reale; **non ancora validato sulla ROCK 4C+**.
+una VM QEMU con systemd reale; installato sulla ROCK 4C+ con prime verifiche
+fisiche di servizi, AP, aggiornamento firmato e forwarding Ethernet.
+Vedere [bring-up](boards/rock4c-plus/BRINGUP.md) per risultati e limiti.
 La ROCK usa RK3399, distinto dal RK3562 della scheda custom.
 
 ## Architettura

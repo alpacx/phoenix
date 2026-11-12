@@ -26,7 +26,7 @@ ProtectSystem=strict
 ReadWritePaths=/var/lib/phoenix /run/phoenix /proc/sys/net/ipv4/ip_forward -/opt/phoenix-releases -/run/NetworkManager/system-connections
 ProtectKernelModules=true
 ProtectControlGroups=true
-RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6 AF_NETLINK
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6 AF_NETLINK AF_PACKET
 CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_RAW CAP_NET_BIND_SERVICE
 
 [Install]

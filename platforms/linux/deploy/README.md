@@ -5,8 +5,11 @@ prima di installare. [Immagine ROCK](../boards/rock4c-plus/README.md).
 
 ## Requisiti
 
-Python 3.11+, systemd, iproute2, nftables, wireguard-tools, conntrack, curl,
+Python 3.9+ (3.9 su ROCK b60, 3.11 nel banco Debian 12), systemd, iproute2, nftables, wireguard-tools, conntrack, curl,
 ca-certificates, openssl, iw, hostapd, dnsmasq-base e NetworkManager.
+Con OpenSSL 1.1.1 installare anche `python3-cryptography`: Ed25519 usa
+la libreria di sistema, perché la CLI 1.1.1 non supporta `pkeyutl -rawin`.
+Con OpenSSL 3 resta il backend CLI. Nessun fallback dopo una firma non valida.
 Il kernel deve supportare WireGuard, nftables e policy routing. L'USB gadget
 non viene creata automaticamente: la sua fattibilità è una verifica separata.
 
@@ -32,6 +35,17 @@ conntrack per 192.168.7.0/24 e 192.168.9.0/24.
 privato. Solo l'UID phoenix-web può inviare RPC. Il worker valida nuovamente
 policy e comandi. Il frontend riceve token e materiale TLS con LoadCredential;
 non accede direttamente al vault VPN o alla configurazione persistente.
+
+Il worker ammette AF_PACKET, necessario per hostapd e DHCP; il frontend no.
+dnsmasq DHCP-only usa `--no-daemon` sotto il worker: mantiene UID e capability
+già imposti da systemd, senza richiedere CAP_SETUID/CAP_SETGID. Non è un
+resolver DNS e non gestisce richieste TCP. Processi e arresto sono gestiti
+da Phoenix. La modalità è documentata da dnsmasq come debug: non equiparare
+questo deployment di ingegneria a una validazione di produzione.
+
+I profili STA sono keyfile senza password, con SSID codificato come byte decimali;
+non richiedono `nmcli --offline`. La password resta nel file privato temporaneo
+passato con `passwd-file`, eliminato anche in caso di errore.
 
 Dopo ogni avvio il traffico è bloccato, selezione Ethernet; il pannello deve
 richiedere esplicitamente connessione VPN o uscita diretta. Credenziali salvate

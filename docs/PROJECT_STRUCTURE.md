@@ -5,7 +5,7 @@ Aggiornata: 2026-11-11. Due piattaforme software, un prodotto e una UI.
 | Percorso | Responsabilità / stato |
 |---|---|
 | `platforms/esp32/main/` | Backend ESP-IDF esistente, NVS e controllo hardware |
-| `platforms/linux/` | Backend Linux, frontend HTTPS non root e worker RPC; test Docker e VM systemd, non ancora su ROCK |
+| `platforms/linux/` | Backend Linux, frontend HTTPS non root e worker RPC; test Docker, VM e primo deployment fisico ROCK |
 | `shared/web/` | Unica sorgente HTML/CSS/JS e catalogo paesi del pannello |
 | `shared/phoenix_core/` | C portabile: policy, firewall, profili WG, rotazione |
 | `components/wireguard/` | Implementazione WireGuard embedded, non backend Linux |
@@ -64,7 +64,7 @@ La build non prova rete, VPN, cablaggio, USB o prestazioni fisiche.
 ## Stato e ripresa
 
 - ESP32: implementazione esistente; prove pregresse in NEXT_SESSION.md e PROGRESS.md.
-- Linux: backend implementato e testato in Docker; avvio ROCK in attesa del supporto di storage. Vedere platforms/linux/VALIDATION.md e API_STATUS.md.
+- Linux: backend installato sulla ROCK; servizi, AP, aggiornamento firmato e forwarding Ethernet verificati. Vedere platforms/linux/VALIDATION.md e API_STATUS.md.
 - Hardware custom: progetto incompleto; checkpoint corrente in
   `hardware/phoenix-g1/migration-rk3562/experiments/lpddr4-1gb/working-board.json`.
 - Flash SPI NOR presente nel PCB; eMMC solo candidata, non integrata.

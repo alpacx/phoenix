@@ -33,6 +33,34 @@ def crypto(args):
     return result.stdout
 
 
+def legacy_ed25519():
+    # OpenSSL 1.1.1 supports Ed25519 through EVP, but not pkeyutl -rawin.
+    # Select before verification; never retry a failed signature with a fallback.
+    return crypto(['version']).startswith(b'OpenSSL 1.1.1')
+
+
+def legacy_sign(key, message):
+    from cryptography.hazmat.primitives.serialization import load_pem_private_key
+    from cryptography.hazmat.primitives.asymmetric.ed25519 import Ed25519PrivateKey
+    private = load_pem_private_key(Path(key).read_bytes(), password=None)
+    if not isinstance(private, Ed25519PrivateKey):
+        raise ValueError('ed25519_required')
+    return private.sign(message)
+
+
+def legacy_verify(der, signature, message):
+    from cryptography.exceptions import InvalidSignature
+    from cryptography.hazmat.primitives.serialization import load_der_public_key
+    from cryptography.hazmat.primitives.asymmetric.ed25519 import Ed25519PublicKey
+    public = load_der_public_key(der)
+    if not isinstance(public, Ed25519PublicKey):
+        raise ValueError('ed25519_required')
+    try:
+        public.verify(signature, message)
+    except InvalidSignature:
+        raise ValueError('signature_operation_failed') from None
+
+
 def sign(payload, output, key, sequence, version):
     if type(sequence) is not int or not 1 <= sequence < 2**53 or not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._-]{0,63}', version):
         raise ValueError('invalid_release_metadata')
@@ -43,7 +71,8 @@ def sign(payload, output, key, sequence, version):
     with tempfile.TemporaryDirectory() as tmp:
         path = Path(tmp) / 'metadata'
         path.write_bytes(meta)
-        signature = crypto(['pkeyutl', '-sign', '-rawin', '-inkey', key, '-in', path])
+        signature = (legacy_sign(key, meta) if legacy_ed25519() else
+                     crypto(['pkeyutl', '-sign', '-rawin', '-inkey', key, '-in', path]))
     if len(signature) != 64:
         raise ValueError('ed25519_required')
     with zipfile.ZipFile(output, 'x', compression=zipfile.ZIP_STORED) as archive:
@@ -74,7 +103,10 @@ def verify(data, public_key):
         path, sig = Path(tmp) / 'metadata', Path(tmp) / 'signature'
         path.write_bytes(meta)
         sig.write_bytes(signature)
-        crypto(['pkeyutl', '-verify', '-pubin', '-rawin', '-inkey', public_key, '-in', path, '-sigfile', sig])
+        if legacy_ed25519():
+            legacy_verify(der, signature, meta)
+        else:
+            crypto(['pkeyutl', '-verify', '-pubin', '-rawin', '-inkey', public_key, '-in', path, '-sigfile', sig])
         inner = Path(tmp) / 'payload.zip'
         inner.write_bytes(payload)
         verify_payload(inner)

@@ -5,6 +5,7 @@ import subprocess
 import tempfile
 import unittest
 import zipfile
+from unittest.mock import patch
 from phoenix_linux.package import build
 from phoenix_linux.updates import sign, verify, Updates
 
@@ -56,6 +57,28 @@ class UpdateTests(unittest.TestCase):
         subprocess.run(['openssl', 'pkey', '-in', str(other_key), '-pubout', '-out', str(other_pub)], check=True, capture_output=True)
         with self.assertRaises(ValueError):
             verify(self.data, other_pub)
+
+    def test_legacy_ed25519_same_signature_and_tamper_rejection(self):
+        try:
+            import cryptography
+        except ImportError:
+            self.skipTest('optional OpenSSL 1.1.1 compatibility dependency absent')
+        from phoenix_linux.updates import legacy_verify, crypto
+        with tempfile.TemporaryDirectory() as tmp:
+            output = Path(tmp) / 'legacy.phx'
+            with patch('phoenix_linux.updates.legacy_ed25519', return_value=True):
+                sign(self.payload, output, self.key, 2, 'test-2')
+                self.assertEqual(verify(output.read_bytes(), self.pub)[0]['sequence'], 2)
+            with zipfile.ZipFile(output) as archive, zipfile.ZipFile(self.envelope) as reference:
+                signature = archive.read('signature.bin')
+                self.assertEqual(signature, reference.read('signature.bin'))
+                metadata = archive.read('release.json')
+            der = crypto(['pkey', '-pubin', '-in', self.pub, '-outform', 'DER'])
+            with self.assertRaises(ValueError):
+                legacy_verify(der, signature, metadata + b'altered')
+            # On OpenSSL 3 this verifies a compatibility-backend signature
+            # through the independent CLI implementation.
+            self.assertEqual(verify(output.read_bytes(), self.pub)[0]['sequence'], 2)
 
     def test_activate_and_replay_rejected(self):
         with tempfile.TemporaryDirectory() as tmp:

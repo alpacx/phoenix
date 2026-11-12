@@ -74,6 +74,7 @@ class StationTests(unittest.TestCase):
         self.assertEqual(runtime.mode, 'blocked')
         self.assertEqual(runtime.names['uplink'], 'wlan1')
         self.assertTrue(any('17710' in cmd and 'fwmark' in cmd for cmd in calls))
+        self.assertTrue(any('17691' in cmd and 'oif' in cmd and '17710' in cmd for cmd in calls))
         self.assertFalse(any('main' in cmd for cmd in calls))
 
     def test_startup_recovers_only_owned_station(self):

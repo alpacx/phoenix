@@ -10,7 +10,10 @@ Fonti ufficiali:
 Usare l'immagine standard per ROCK 4C+, non una ISO Debian generica,
 non l'immagine ROCK 4C senza Plus, non UFS e non una prerelease.
 Controllare il checksum SHA-512 pubblicato per il file effettivamente scaricato.
-Non è ancora stato scaricato o provato un sistema su questa scheda.
+Aggiornamento 2026-11-12: R2 scritto e riletto integralmente, ma senza avvio
+osservabile su questo esemplare. Il fallback ufficiale b60 Debian 11 CLI
+ha avviato correttamente la scheda e ospita ora Phoenix. Consultare
+[BRINGUP.md](BRINGUP.md) per correzioni runtime e limiti del banco.
 
 KDE è incluso nell'immagine supportata dal produttore. Dopo avere verificato
 SSH e accesso di recupero, possiamo configurare l'avvio headless e aggiornare

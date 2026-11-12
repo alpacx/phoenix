@@ -211,9 +211,11 @@ class Runtime:
         self.run(['ip', 'route', 'flush', 'table', '17710'], optional=True)
         self.run(['ip', 'route', 'add', 'table', '17710', str(address.network), 'dev', name, 'src', str(address.ip)])
         self.run(['ip', 'route', 'add', 'table', '17710', 'default', 'via', gateway, 'dev', name])
-        for priority in ('17690', '17710', '17711'):
+        for priority in ('17690', '17691', '17710', '17711'):
             self.run(['ip', 'rule', 'del', 'priority', priority], optional=True)
         self.run(['ip', 'rule', 'add', 'priority', '17690', 'fwmark', '0x5048', 'lookup', '17710'])
+        # Native clients bound to the selected uplink need its routing table too.
+        self.run(['ip', 'rule', 'add', 'priority', '17691', 'oif', name, 'lookup', '17710'])
         for offset, role in enumerate(('ap', 'usb')):
             self.run(['ip', 'rule', 'add', 'priority', str(17710 + offset), 'iif', candidate[role], 'lookup', '17710'])
         self.names, self.uplink_kind, self.selected_route = candidate, kind, True
