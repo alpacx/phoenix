@@ -1,0 +1,1204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/emmc-8gb/kicad/emmc-storage-candidate.kicad_sch</source>
+    <date>2026-11-13T11:13:33</date>
+    <tool>Eeschema 10.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>eMMC 8GB - ISOLATED ENGINEERING DRAFT</title>
+        <company/>
+        <rev>DRAFT</rev>
+        <date/>
+        <source>emmc-storage-candidate.kicad_sch</source>
+        <comment number="1" value="Not for fabrication"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C8001">
+      <value>2.2u candidate</value>
+      <fields>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_eMMC_Draft" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="emmc-storage-candidate"/>
+      <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f03dce81-9030-5a5e-859c-bcde836d7d4e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8002">
+      <value>100n candidate</value>
+      <fields>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_eMMC_Draft" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="emmc-storage-candidate"/>
+      <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>687ed9cf-28fd-5294-b244-21888ebca184</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8003">
+      <value>100n candidate</value>
+      <fields>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_eMMC_Draft" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="emmc-storage-candidate"/>
+      <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36c9b3f0-5695-5538-9f14-997d24c2dd99</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8004">
+      <value>100n candidate</value>
+      <fields>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_eMMC_Draft" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="emmc-storage-candidate"/>
+      <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4eac5a79-715b-5ea6-b5e7-36b7de46892d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8005">
+      <value>100n candidate</value>
+      <fields>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_eMMC_Draft" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="emmc-storage-candidate"/>
+      <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0592c796-c77f-56a7-90dc-f838f9fa5377</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8006">
+      <value>4.7u candidate</value>
+      <fields>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_eMMC_Draft" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="emmc-storage-candidate"/>
+      <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31c1585a-6cbc-5e9a-a7f9-f83b01884eae</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8007">
+      <value>100n candidate</value>
+      <fields>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_eMMC_Draft" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="emmc-storage-candidate"/>
+      <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4741e872-8329-529a-bdf4-60cbe4885dbb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8008">
+      <value>100n candidate</value>
+      <fields>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_eMMC_Draft" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="emmc-storage-candidate"/>
+      <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd7547a3-96f3-557c-ac65-a24cdcb8466e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8009">
+      <value>4.7u candidate</value>
+      <fields>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_eMMC_Draft" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="emmc-storage-candidate"/>
+      <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9947a83d-6b26-50d0-ab39-8cb2178d7871</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8001">
+      <value>10k candidate</value>
+      <fields>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_eMMC_Draft" part="R" description="Resistor"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="emmc-storage-candidate"/>
+      <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19d74eec-322a-5bb5-b86b-d0af343a5b83</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8002">
+      <value>10k candidate</value>
+      <fields>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_eMMC_Draft" part="R" description="Resistor"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="emmc-storage-candidate"/>
+      <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2b40c8c-cc08-5c6f-9203-539921a5cc1b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8003">
+      <value>10k candidate</value>
+      <fields>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_eMMC_Draft" part="R" description="Resistor"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="emmc-storage-candidate"/>
+      <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>363006ea-1d28-5aaf-967b-b2543a5e6ff7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8004">
+      <value>22R candidate</value>
+      <fields>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_eMMC_Draft" part="R" description="Resistor"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="emmc-storage-candidate"/>
+      <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04c02914-4261-5486-b9a9-3add0960bd60</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U8001">
+      <value>KLM8G1GETF_B041_DRAFT</value>
+      <footprint>Phoenix_eMMC_Draft:Samsung_FBGA153_11.5x13_P0.5_DRAFT</footprint>
+      <fields>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint">Phoenix_eMMC_Draft:Samsung_FBGA153_11.5x13_P0.5_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_eMMC_Draft" part="KLM8G1GETF_B041_DRAFT" description=""/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="emmc-storage-candidate"/>
+      <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a027fa5-f977-5d1a-a76e-073a582ac9ea 7a1a8afb-91be-5f8d-ade1-81cd90e5f7ff 88304dc7-df43-5c1c-af1f-0c29789093d9 56bccb58-1a06-5da2-a562-7ff1fd53e40d 4215964c-9da8-5049-ba8a-684b12cc193b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="A3"/>
+            <pin num="A4"/>
+            <pin num="A5"/>
+            <pin num="B2"/>
+            <pin num="B3"/>
+            <pin num="B4"/>
+            <pin num="B5"/>
+            <pin num="B6"/>
+            <pin num="H5"/>
+            <pin num="K5"/>
+            <pin num="M5"/>
+            <pin num="M6"/>
+          </pins>
+        </unit>
+        <unit name="B">
+          <pins>
+            <pin num="A6"/>
+            <pin num="C2"/>
+            <pin num="C4"/>
+            <pin num="C6"/>
+            <pin num="E6"/>
+            <pin num="E7"/>
+            <pin num="F5"/>
+            <pin num="G5"/>
+            <pin num="H10"/>
+            <pin num="J5"/>
+            <pin num="J10"/>
+            <pin num="K8"/>
+            <pin num="K9"/>
+            <pin num="M4"/>
+            <pin num="N2"/>
+            <pin num="N4"/>
+            <pin num="N5"/>
+            <pin num="P3"/>
+            <pin num="P4"/>
+            <pin num="P5"/>
+            <pin num="P6"/>
+          </pins>
+        </unit>
+        <unit name="C">
+          <pins>
+            <pin num="A1"/>
+            <pin num="A2"/>
+            <pin num="A7"/>
+            <pin num="A8"/>
+            <pin num="A9"/>
+            <pin num="A10"/>
+            <pin num="A11"/>
+            <pin num="A12"/>
+            <pin num="A13"/>
+            <pin num="A14"/>
+            <pin num="B1"/>
+            <pin num="B7"/>
+            <pin num="B8"/>
+            <pin num="B9"/>
+            <pin num="B10"/>
+            <pin num="B11"/>
+            <pin num="B12"/>
+            <pin num="B13"/>
+            <pin num="B14"/>
+            <pin num="C1"/>
+            <pin num="C3"/>
+            <pin num="C5"/>
+            <pin num="C7"/>
+            <pin num="C8"/>
+            <pin num="C9"/>
+            <pin num="C10"/>
+            <pin num="C11"/>
+            <pin num="C12"/>
+            <pin num="C13"/>
+            <pin num="C14"/>
+            <pin num="D1"/>
+            <pin num="D2"/>
+            <pin num="D3"/>
+            <pin num="D4"/>
+            <pin num="D12"/>
+            <pin num="D13"/>
+            <pin num="D14"/>
+            <pin num="E1"/>
+            <pin num="E2"/>
+            <pin num="E3"/>
+          </pins>
+        </unit>
+        <unit name="D">
+          <pins>
+            <pin num="E5"/>
+            <pin num="E8"/>
+            <pin num="E9"/>
+            <pin num="E10"/>
+            <pin num="E12"/>
+            <pin num="E13"/>
+            <pin num="E14"/>
+            <pin num="F1"/>
+            <pin num="F2"/>
+            <pin num="F3"/>
+            <pin num="F10"/>
+            <pin num="F12"/>
+            <pin num="F13"/>
+            <pin num="F14"/>
+            <pin num="G1"/>
+            <pin num="G2"/>
+            <pin num="G3"/>
+            <pin num="G10"/>
+            <pin num="G12"/>
+            <pin num="G13"/>
+            <pin num="G14"/>
+            <pin num="H1"/>
+            <pin num="H2"/>
+            <pin num="H3"/>
+            <pin num="H12"/>
+            <pin num="H13"/>
+            <pin num="H14"/>
+            <pin num="J1"/>
+            <pin num="J2"/>
+            <pin num="J3"/>
+            <pin num="J12"/>
+            <pin num="J13"/>
+            <pin num="J14"/>
+            <pin num="K1"/>
+            <pin num="K2"/>
+            <pin num="K3"/>
+            <pin num="K6"/>
+            <pin num="K7"/>
+            <pin num="K10"/>
+            <pin num="K12"/>
+          </pins>
+        </unit>
+        <unit name="E">
+          <pins>
+            <pin num="K13"/>
+            <pin num="K14"/>
+            <pin num="L1"/>
+            <pin num="L2"/>
+            <pin num="L3"/>
+            <pin num="L12"/>
+            <pin num="L13"/>
+            <pin num="L14"/>
+            <pin num="M1"/>
+            <pin num="M2"/>
+            <pin num="M3"/>
+            <pin num="M7"/>
+            <pin num="M8"/>
+            <pin num="M9"/>
+            <pin num="M10"/>
+            <pin num="M11"/>
+            <pin num="M12"/>
+            <pin num="M13"/>
+            <pin num="M14"/>
+            <pin num="N1"/>
+            <pin num="N3"/>
+            <pin num="N6"/>
+            <pin num="N7"/>
+            <pin num="N8"/>
+            <pin num="N9"/>
+            <pin num="N10"/>
+            <pin num="N11"/>
+            <pin num="N12"/>
+            <pin num="N13"/>
+            <pin num="N14"/>
+            <pin num="P1"/>
+            <pin num="P2"/>
+            <pin num="P7"/>
+            <pin num="P8"/>
+            <pin num="P9"/>
+            <pin num="P10"/>
+            <pin num="P11"/>
+            <pin num="P12"/>
+            <pin num="P13"/>
+            <pin num="P14"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Phoenix_eMMC_Draft" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phoenix_eMMC_Draft" part="KLM8G1GETF_B041_DRAFT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">KLM8G1GETF-B041</field>
+        <field name="Footprint">Phoenix_eMMC_Draft:Samsung_FBGA153_11.5x13_P0.5_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="A1" name="NC" type="no_connect"/>
+        <pin num="A2" name="NC" type="no_connect"/>
+        <pin num="A3" name="DAT0" type="bidirectional"/>
+        <pin num="A4" name="DAT1" type="bidirectional"/>
+        <pin num="A5" name="DAT2" type="bidirectional"/>
+        <pin num="A6" name="VSS" type="power_in"/>
+        <pin num="A7" name="RFU" type="no_connect"/>
+        <pin num="A8" name="NC" type="no_connect"/>
+        <pin num="A9" name="NC" type="no_connect"/>
+        <pin num="A10" name="NC" type="no_connect"/>
+        <pin num="A11" name="NC" type="no_connect"/>
+        <pin num="A12" name="NC" type="no_connect"/>
+        <pin num="A13" name="NC" type="no_connect"/>
+        <pin num="A14" name="NC" type="no_connect"/>
+        <pin num="B1" name="NC" type="no_connect"/>
+        <pin num="B2" name="DAT3" type="bidirectional"/>
+        <pin num="B3" name="DAT4" type="bidirectional"/>
+        <pin num="B4" name="DAT5" type="bidirectional"/>
+        <pin num="B5" name="DAT6" type="bidirectional"/>
+        <pin num="B6" name="DAT7" type="bidirectional"/>
+        <pin num="B7" name="NC" type="no_connect"/>
+        <pin num="B8" name="NC" type="no_connect"/>
+        <pin num="B9" name="NC" type="no_connect"/>
+        <pin num="B10" name="NC" type="no_connect"/>
+        <pin num="B11" name="NC" type="no_connect"/>
+        <pin num="B12" name="NC" type="no_connect"/>
+        <pin num="B13" name="NC" type="no_connect"/>
+        <pin num="B14" name="NC" type="no_connect"/>
+        <pin num="C1" name="NC" type="no_connect"/>
+        <pin num="C2" name="VDDI" type="passive"/>
+        <pin num="C3" name="NC" type="no_connect"/>
+        <pin num="C4" name="VSS" type="power_in"/>
+        <pin num="C5" name="NC" type="no_connect"/>
+        <pin num="C6" name="VCCQ" type="power_in"/>
+        <pin num="C7" name="NC" type="no_connect"/>
+        <pin num="C8" name="NC" type="no_connect"/>
+        <pin num="C9" name="NC" type="no_connect"/>
+        <pin num="C10" name="NC" type="no_connect"/>
+        <pin num="C11" name="NC" type="no_connect"/>
+        <pin num="C12" name="NC" type="no_connect"/>
+        <pin num="C13" name="NC" type="no_connect"/>
+        <pin num="C14" name="NC" type="no_connect"/>
+        <pin num="D1" name="NC" type="no_connect"/>
+        <pin num="D2" name="NC" type="no_connect"/>
+        <pin num="D3" name="NC" type="no_connect"/>
+        <pin num="D4" name="NC" type="no_connect"/>
+        <pin num="D12" name="NC" type="no_connect"/>
+        <pin num="D13" name="NC" type="no_connect"/>
+        <pin num="D14" name="NC" type="no_connect"/>
+        <pin num="E1" name="NC" type="no_connect"/>
+        <pin num="E2" name="NC" type="no_connect"/>
+        <pin num="E3" name="NC" type="no_connect"/>
+        <pin num="E5" name="RFU" type="no_connect"/>
+        <pin num="E6" name="VCC" type="power_in"/>
+        <pin num="E7" name="VSS" type="power_in"/>
+        <pin num="E8" name="RFU" type="no_connect"/>
+        <pin num="E9" name="RFU" type="no_connect"/>
+        <pin num="E10" name="RFU" type="no_connect"/>
+        <pin num="E12" name="NC" type="no_connect"/>
+        <pin num="E13" name="NC" type="no_connect"/>
+        <pin num="E14" name="NC" type="no_connect"/>
+        <pin num="F1" name="NC" type="no_connect"/>
+        <pin num="F2" name="NC" type="no_connect"/>
+        <pin num="F3" name="NC" type="no_connect"/>
+        <pin num="F5" name="VCC" type="power_in"/>
+        <pin num="F10" name="RFU" type="no_connect"/>
+        <pin num="F12" name="NC" type="no_connect"/>
+        <pin num="F13" name="NC" type="no_connect"/>
+        <pin num="F14" name="NC" type="no_connect"/>
+        <pin num="G1" name="NC" type="no_connect"/>
+        <pin num="G2" name="NC" type="no_connect"/>
+        <pin num="G3" name="RFU" type="no_connect"/>
+        <pin num="G5" name="VSS" type="power_in"/>
+        <pin num="G10" name="RFU" type="no_connect"/>
+        <pin num="G12" name="NC" type="no_connect"/>
+        <pin num="G13" name="NC" type="no_connect"/>
+        <pin num="G14" name="NC" type="no_connect"/>
+        <pin num="H1" name="NC" type="no_connect"/>
+        <pin num="H2" name="NC" type="no_connect"/>
+        <pin num="H3" name="NC" type="no_connect"/>
+        <pin num="H5" name="STRB" type="output"/>
+        <pin num="H10" name="VSS" type="power_in"/>
+        <pin num="H12" name="NC" type="no_connect"/>
+        <pin num="H13" name="NC" type="no_connect"/>
+        <pin num="H14" name="NC" type="no_connect"/>
+        <pin num="J1" name="NC" type="no_connect"/>
+        <pin num="J2" name="NC" type="no_connect"/>
+        <pin num="J3" name="NC" type="no_connect"/>
+        <pin num="J5" name="VSS" type="power_in"/>
+        <pin num="J10" name="VCC" type="power_in"/>
+        <pin num="J12" name="NC" type="no_connect"/>
+        <pin num="J13" name="NC" type="no_connect"/>
+        <pin num="J14" name="NC" type="no_connect"/>
+        <pin num="K1" name="NC" type="no_connect"/>
+        <pin num="K2" name="NC" type="no_connect"/>
+        <pin num="K3" name="NC" type="no_connect"/>
+        <pin num="K5" name="RSTN" type="input"/>
+        <pin num="K6" name="RFU" type="no_connect"/>
+        <pin num="K7" name="RFU" type="no_connect"/>
+        <pin num="K8" name="VSS" type="power_in"/>
+        <pin num="K9" name="VCC" type="power_in"/>
+        <pin num="K10" name="RFU" type="no_connect"/>
+        <pin num="K12" name="NC" type="no_connect"/>
+        <pin num="K13" name="NC" type="no_connect"/>
+        <pin num="K14" name="NC" type="no_connect"/>
+        <pin num="L1" name="NC" type="no_connect"/>
+        <pin num="L2" name="NC" type="no_connect"/>
+        <pin num="L3" name="NC" type="no_connect"/>
+        <pin num="L12" name="NC" type="no_connect"/>
+        <pin num="L13" name="NC" type="no_connect"/>
+        <pin num="L14" name="NC" type="no_connect"/>
+        <pin num="M1" name="NC" type="no_connect"/>
+        <pin num="M2" name="NC" type="no_connect"/>
+        <pin num="M3" name="NC" type="no_connect"/>
+        <pin num="M4" name="VCCQ" type="power_in"/>
+        <pin num="M5" name="CMD" type="bidirectional"/>
+        <pin num="M6" name="CLK" type="input"/>
+        <pin num="M7" name="NC" type="no_connect"/>
+        <pin num="M8" name="NC" type="no_connect"/>
+        <pin num="M9" name="NC" type="no_connect"/>
+        <pin num="M10" name="NC" type="no_connect"/>
+        <pin num="M11" name="NC" type="no_connect"/>
+        <pin num="M12" name="NC" type="no_connect"/>
+        <pin num="M13" name="NC" type="no_connect"/>
+        <pin num="M14" name="NC" type="no_connect"/>
+        <pin num="N1" name="NC" type="no_connect"/>
+        <pin num="N2" name="VSS" type="power_in"/>
+        <pin num="N3" name="NC" type="no_connect"/>
+        <pin num="N4" name="VCCQ" type="power_in"/>
+        <pin num="N5" name="VSS" type="power_in"/>
+        <pin num="N6" name="NC" type="no_connect"/>
+        <pin num="N7" name="NC" type="no_connect"/>
+        <pin num="N8" name="NC" type="no_connect"/>
+        <pin num="N9" name="NC" type="no_connect"/>
+        <pin num="N10" name="NC" type="no_connect"/>
+        <pin num="N11" name="NC" type="no_connect"/>
+        <pin num="N12" name="NC" type="no_connect"/>
+        <pin num="N13" name="NC" type="no_connect"/>
+        <pin num="N14" name="NC" type="no_connect"/>
+        <pin num="P1" name="NC" type="no_connect"/>
+        <pin num="P2" name="NC" type="no_connect"/>
+        <pin num="P3" name="VCCQ" type="power_in"/>
+        <pin num="P4" name="VSS" type="power_in"/>
+        <pin num="P5" name="VCCQ" type="power_in"/>
+        <pin num="P6" name="VSS" type="power_in"/>
+        <pin num="P7" name="RFU" type="no_connect"/>
+        <pin num="P8" name="NC" type="no_connect"/>
+        <pin num="P9" name="NC" type="no_connect"/>
+        <pin num="P10" name="RFU" type="no_connect"/>
+        <pin num="P11" name="NC" type="no_connect"/>
+        <pin num="P12" name="NC" type="no_connect"/>
+        <pin num="P13" name="NC" type="no_connect"/>
+        <pin num="P14" name="NC" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phoenix_eMMC_Draft" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Phoenix_eMMC_Draft">
+      <uri>${KIPRJMOD}/Phoenix_eMMC_Draft.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/EMMC_3V3" class="Default">
+      <node ref="C8007" pin="1" pintype="passive"/>
+      <node ref="C8008" pin="1" pintype="passive"/>
+      <node ref="C8009" pin="1" pintype="passive"/>
+      <node ref="U8001" pin="E6" pinfunction="VCC_E6" pintype="power_in"/>
+      <node ref="U8001" pin="F5" pinfunction="VCC_F5" pintype="power_in"/>
+      <node ref="U8001" pin="J10" pinfunction="VCC_J10" pintype="power_in"/>
+      <node ref="U8001" pin="K9" pinfunction="VCC_K9" pintype="power_in"/>
+    </net>
+    <net code="2" name="/EMMC_CLK" class="Default">
+      <node ref="R8004" pin="2" pintype="passive"/>
+      <node ref="U8001" pin="M6" pinfunction="CLK_M6" pintype="input"/>
+    </net>
+    <net code="3" name="/EMMC_CMD" class="Default">
+      <node ref="R8002" pin="2" pintype="passive"/>
+      <node ref="U8001" pin="M5" pinfunction="CMD_M5" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/EMMC_D0" class="Default">
+      <node ref="R8001" pin="2" pintype="passive"/>
+      <node ref="U8001" pin="A3" pinfunction="DAT0_A3" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/EMMC_D1" class="Default">
+      <node ref="U8001" pin="A4" pinfunction="DAT1_A4" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/EMMC_D2" class="Default">
+      <node ref="U8001" pin="A5" pinfunction="DAT2_A5" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/EMMC_D3" class="Default">
+      <node ref="U8001" pin="B2" pinfunction="DAT3_B2" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/EMMC_D4" class="Default">
+      <node ref="U8001" pin="B3" pinfunction="DAT4_B3" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/EMMC_D5" class="Default">
+      <node ref="U8001" pin="B4" pinfunction="DAT5_B4" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/EMMC_D6" class="Default">
+      <node ref="U8001" pin="B5" pinfunction="DAT6_B5" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/EMMC_D7" class="Default">
+      <node ref="U8001" pin="B6" pinfunction="DAT7_B6" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/EMMC_IO_1V8" class="Default">
+      <node ref="C8002" pin="1" pintype="passive"/>
+      <node ref="C8003" pin="1" pintype="passive"/>
+      <node ref="C8004" pin="1" pintype="passive"/>
+      <node ref="C8005" pin="1" pintype="passive"/>
+      <node ref="C8006" pin="1" pintype="passive"/>
+      <node ref="R8001" pin="1" pintype="passive"/>
+      <node ref="R8002" pin="1" pintype="passive"/>
+      <node ref="R8003" pin="1" pintype="passive"/>
+      <node ref="U8001" pin="C6" pinfunction="VCCQ_C6" pintype="power_in"/>
+      <node ref="U8001" pin="M4" pinfunction="VCCQ_M4" pintype="power_in"/>
+      <node ref="U8001" pin="N4" pinfunction="VCCQ_N4" pintype="power_in"/>
+      <node ref="U8001" pin="P3" pinfunction="VCCQ_P3" pintype="power_in"/>
+      <node ref="U8001" pin="P5" pinfunction="VCCQ_P5" pintype="power_in"/>
+    </net>
+    <net code="13" name="/EMMC_RESET_N" class="Default">
+      <node ref="R8003" pin="2" pintype="passive"/>
+      <node ref="U8001" pin="K5" pinfunction="RSTN_K5" pintype="input"/>
+    </net>
+    <net code="14" name="/EMMC_STRB" class="Default">
+      <node ref="U8001" pin="H5" pinfunction="STRB_H5" pintype="output"/>
+    </net>
+    <net code="15" name="/EMMC_VDDI" class="Default">
+      <node ref="C8001" pin="1" pintype="passive"/>
+      <node ref="U8001" pin="C2" pinfunction="VDDI_C2" pintype="passive"/>
+    </net>
+    <net code="16" name="/GND" class="Default">
+      <node ref="C8001" pin="2" pintype="passive"/>
+      <node ref="C8002" pin="2" pintype="passive"/>
+      <node ref="C8003" pin="2" pintype="passive"/>
+      <node ref="C8004" pin="2" pintype="passive"/>
+      <node ref="C8005" pin="2" pintype="passive"/>
+      <node ref="C8006" pin="2" pintype="passive"/>
+      <node ref="C8007" pin="2" pintype="passive"/>
+      <node ref="C8008" pin="2" pintype="passive"/>
+      <node ref="C8009" pin="2" pintype="passive"/>
+      <node ref="U8001" pin="A6" pinfunction="VSS_A6" pintype="power_in"/>
+      <node ref="U8001" pin="C4" pinfunction="VSS_C4" pintype="power_in"/>
+      <node ref="U8001" pin="E7" pinfunction="VSS_E7" pintype="power_in"/>
+      <node ref="U8001" pin="G5" pinfunction="VSS_G5" pintype="power_in"/>
+      <node ref="U8001" pin="H10" pinfunction="VSS_H10" pintype="power_in"/>
+      <node ref="U8001" pin="J5" pinfunction="VSS_J5" pintype="power_in"/>
+      <node ref="U8001" pin="K8" pinfunction="VSS_K8" pintype="power_in"/>
+      <node ref="U8001" pin="N2" pinfunction="VSS_N2" pintype="power_in"/>
+      <node ref="U8001" pin="N5" pinfunction="VSS_N5" pintype="power_in"/>
+      <node ref="U8001" pin="P4" pinfunction="VSS_P4" pintype="power_in"/>
+      <node ref="U8001" pin="P6" pinfunction="VSS_P6" pintype="power_in"/>
+    </net>
+    <net code="17" name="/SOC_EMMC_CLK" class="Default">
+      <node ref="R8004" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="unconnected-(U8001C-NC-PadA1)" class="Default">
+      <node ref="U8001" pin="A1" pinfunction="NC_A1" pintype="no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(U8001C-NC-PadA2)" class="Default">
+      <node ref="U8001" pin="A2" pinfunction="NC_A2" pintype="no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(U8001C-NC-PadA8)" class="Default">
+      <node ref="U8001" pin="A8" pinfunction="NC_A8" pintype="no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(U8001C-NC-PadA9)" class="Default">
+      <node ref="U8001" pin="A9" pinfunction="NC_A9" pintype="no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U8001C-NC-PadA10)" class="Default">
+      <node ref="U8001" pin="A10" pinfunction="NC_A10" pintype="no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U8001C-NC-PadA11)" class="Default">
+      <node ref="U8001" pin="A11" pinfunction="NC_A11" pintype="no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U8001C-NC-PadA12)" class="Default">
+      <node ref="U8001" pin="A12" pinfunction="NC_A12" pintype="no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U8001C-NC-PadA13)" class="Default">
+      <node ref="U8001" pin="A13" pinfunction="NC_A13" pintype="no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U8001C-NC-PadA14)" class="Default">
+      <node ref="U8001" pin="A14" pinfunction="NC_A14" pintype="no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U8001C-NC-PadB1)" class="Default">
+      <node ref="U8001" pin="B1" pinfunction="NC_B1" pintype="no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U8001C-NC-PadB7)" class="Default">
+      <node ref="U8001" pin="B7" pinfunction="NC_B7" pintype="no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U8001C-NC-PadB8)" class="Default">
+      <node ref="U8001" pin="B8" pinfunction="NC_B8" pintype="no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U8001C-NC-PadB9)" class="Default">
+      <node ref="U8001" pin="B9" pinfunction="NC_B9" pintype="no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U8001C-NC-PadB10)" class="Default">
+      <node ref="U8001" pin="B10" pinfunction="NC_B10" pintype="no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U8001C-NC-PadB11)" class="Default">
+      <node ref="U8001" pin="B11" pinfunction="NC_B11" pintype="no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U8001C-NC-PadB12)" class="Default">
+      <node ref="U8001" pin="B12" pinfunction="NC_B12" pintype="no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U8001C-NC-PadB13)" class="Default">
+      <node ref="U8001" pin="B13" pinfunction="NC_B13" pintype="no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U8001C-NC-PadB14)" class="Default">
+      <node ref="U8001" pin="B14" pinfunction="NC_B14" pintype="no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U8001C-NC-PadC1)" class="Default">
+      <node ref="U8001" pin="C1" pinfunction="NC_C1" pintype="no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U8001C-NC-PadC3)" class="Default">
+      <node ref="U8001" pin="C3" pinfunction="NC_C3" pintype="no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U8001C-NC-PadC5)" class="Default">
+      <node ref="U8001" pin="C5" pinfunction="NC_C5" pintype="no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U8001C-NC-PadC7)" class="Default">
+      <node ref="U8001" pin="C7" pinfunction="NC_C7" pintype="no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U8001C-NC-PadC8)" class="Default">
+      <node ref="U8001" pin="C8" pinfunction="NC_C8" pintype="no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U8001C-NC-PadC9)" class="Default">
+      <node ref="U8001" pin="C9" pinfunction="NC_C9" pintype="no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U8001C-NC-PadC10)" class="Default">
+      <node ref="U8001" pin="C10" pinfunction="NC_C10" pintype="no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U8001C-NC-PadC11)" class="Default">
+      <node ref="U8001" pin="C11" pinfunction="NC_C11" pintype="no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U8001C-NC-PadC12)" class="Default">
+      <node ref="U8001" pin="C12" pinfunction="NC_C12" pintype="no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U8001C-NC-PadC13)" class="Default">
+      <node ref="U8001" pin="C13" pinfunction="NC_C13" pintype="no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U8001C-NC-PadC14)" class="Default">
+      <node ref="U8001" pin="C14" pinfunction="NC_C14" pintype="no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U8001C-NC-PadD1)" class="Default">
+      <node ref="U8001" pin="D1" pinfunction="NC_D1" pintype="no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U8001C-NC-PadD2)" class="Default">
+      <node ref="U8001" pin="D2" pinfunction="NC_D2" pintype="no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U8001C-NC-PadD3)" class="Default">
+      <node ref="U8001" pin="D3" pinfunction="NC_D3" pintype="no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U8001C-NC-PadD4)" class="Default">
+      <node ref="U8001" pin="D4" pinfunction="NC_D4" pintype="no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U8001C-NC-PadD12)" class="Default">
+      <node ref="U8001" pin="D12" pinfunction="NC_D12" pintype="no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U8001C-NC-PadD13)" class="Default">
+      <node ref="U8001" pin="D13" pinfunction="NC_D13" pintype="no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U8001C-NC-PadD14)" class="Default">
+      <node ref="U8001" pin="D14" pinfunction="NC_D14" pintype="no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U8001C-NC-PadE1)" class="Default">
+      <node ref="U8001" pin="E1" pinfunction="NC_E1" pintype="no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U8001C-NC-PadE2)" class="Default">
+      <node ref="U8001" pin="E2" pinfunction="NC_E2" pintype="no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U8001C-NC-PadE3)" class="Default">
+      <node ref="U8001" pin="E3" pinfunction="NC_E3" pintype="no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U8001C-RFU-PadA7)" class="Default">
+      <node ref="U8001" pin="A7" pinfunction="RFU_A7" pintype="no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U8001D-NC-PadE12)" class="Default">
+      <node ref="U8001" pin="E12" pinfunction="NC_E12" pintype="no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U8001D-NC-PadE13)" class="Default">
+      <node ref="U8001" pin="E13" pinfunction="NC_E13" pintype="no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U8001D-NC-PadE14)" class="Default">
+      <node ref="U8001" pin="E14" pinfunction="NC_E14" pintype="no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U8001D-NC-PadF1)" class="Default">
+      <node ref="U8001" pin="F1" pinfunction="NC_F1" pintype="no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U8001D-NC-PadF2)" class="Default">
+      <node ref="U8001" pin="F2" pinfunction="NC_F2" pintype="no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U8001D-NC-PadF3)" class="Default">
+      <node ref="U8001" pin="F3" pinfunction="NC_F3" pintype="no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U8001D-NC-PadF12)" class="Default">
+      <node ref="U8001" pin="F12" pinfunction="NC_F12" pintype="no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U8001D-NC-PadF13)" class="Default">
+      <node ref="U8001" pin="F13" pinfunction="NC_F13" pintype="no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U8001D-NC-PadF14)" class="Default">
+      <node ref="U8001" pin="F14" pinfunction="NC_F14" pintype="no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U8001D-NC-PadG1)" class="Default">
+      <node ref="U8001" pin="G1" pinfunction="NC_G1" pintype="no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U8001D-NC-PadG2)" class="Default">
+      <node ref="U8001" pin="G2" pinfunction="NC_G2" pintype="no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U8001D-NC-PadG12)" class="Default">
+      <node ref="U8001" pin="G12" pinfunction="NC_G12" pintype="no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U8001D-NC-PadG13)" class="Default">
+      <node ref="U8001" pin="G13" pinfunction="NC_G13" pintype="no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U8001D-NC-PadG14)" class="Default">
+      <node ref="U8001" pin="G14" pinfunction="NC_G14" pintype="no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U8001D-NC-PadH1)" class="Default">
+      <node ref="U8001" pin="H1" pinfunction="NC_H1" pintype="no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U8001D-NC-PadH2)" class="Default">
+      <node ref="U8001" pin="H2" pinfunction="NC_H2" pintype="no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U8001D-NC-PadH3)" class="Default">
+      <node ref="U8001" pin="H3" pinfunction="NC_H3" pintype="no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U8001D-NC-PadH12)" class="Default">
+      <node ref="U8001" pin="H12" pinfunction="NC_H12" pintype="no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U8001D-NC-PadH13)" class="Default">
+      <node ref="U8001" pin="H13" pinfunction="NC_H13" pintype="no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U8001D-NC-PadH14)" class="Default">
+      <node ref="U8001" pin="H14" pinfunction="NC_H14" pintype="no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U8001D-NC-PadJ1)" class="Default">
+      <node ref="U8001" pin="J1" pinfunction="NC_J1" pintype="no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U8001D-NC-PadJ2)" class="Default">
+      <node ref="U8001" pin="J2" pinfunction="NC_J2" pintype="no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U8001D-NC-PadJ3)" class="Default">
+      <node ref="U8001" pin="J3" pinfunction="NC_J3" pintype="no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U8001D-NC-PadJ12)" class="Default">
+      <node ref="U8001" pin="J12" pinfunction="NC_J12" pintype="no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U8001D-NC-PadJ13)" class="Default">
+      <node ref="U8001" pin="J13" pinfunction="NC_J13" pintype="no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U8001D-NC-PadJ14)" class="Default">
+      <node ref="U8001" pin="J14" pinfunction="NC_J14" pintype="no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U8001D-NC-PadK1)" class="Default">
+      <node ref="U8001" pin="K1" pinfunction="NC_K1" pintype="no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U8001D-NC-PadK2)" class="Default">
+      <node ref="U8001" pin="K2" pinfunction="NC_K2" pintype="no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U8001D-NC-PadK3)" class="Default">
+      <node ref="U8001" pin="K3" pinfunction="NC_K3" pintype="no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U8001D-NC-PadK12)" class="Default">
+      <node ref="U8001" pin="K12" pinfunction="NC_K12" pintype="no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U8001D-RFU-PadE5)" class="Default">
+      <node ref="U8001" pin="E5" pinfunction="RFU_E5" pintype="no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U8001D-RFU-PadE8)" class="Default">
+      <node ref="U8001" pin="E8" pinfunction="RFU_E8" pintype="no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U8001D-RFU-PadE9)" class="Default">
+      <node ref="U8001" pin="E9" pinfunction="RFU_E9" pintype="no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U8001D-RFU-PadE10)" class="Default">
+      <node ref="U8001" pin="E10" pinfunction="RFU_E10" pintype="no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U8001D-RFU-PadF10)" class="Default">
+      <node ref="U8001" pin="F10" pinfunction="RFU_F10" pintype="no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U8001D-RFU-PadG3)" class="Default">
+      <node ref="U8001" pin="G3" pinfunction="RFU_G3" pintype="no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U8001D-RFU-PadG10)" class="Default">
+      <node ref="U8001" pin="G10" pinfunction="RFU_G10" pintype="no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U8001D-RFU-PadK6)" class="Default">
+      <node ref="U8001" pin="K6" pinfunction="RFU_K6" pintype="no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U8001D-RFU-PadK7)" class="Default">
+      <node ref="U8001" pin="K7" pinfunction="RFU_K7" pintype="no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U8001D-RFU-PadK10)" class="Default">
+      <node ref="U8001" pin="K10" pinfunction="RFU_K10" pintype="no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U8001E-NC-PadK13)" class="Default">
+      <node ref="U8001" pin="K13" pinfunction="NC_K13" pintype="no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U8001E-NC-PadK14)" class="Default">
+      <node ref="U8001" pin="K14" pinfunction="NC_K14" pintype="no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U8001E-NC-PadL1)" class="Default">
+      <node ref="U8001" pin="L1" pinfunction="NC_L1" pintype="no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U8001E-NC-PadL2)" class="Default">
+      <node ref="U8001" pin="L2" pinfunction="NC_L2" pintype="no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U8001E-NC-PadL3)" class="Default">
+      <node ref="U8001" pin="L3" pinfunction="NC_L3" pintype="no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(U8001E-NC-PadL12)" class="Default">
+      <node ref="U8001" pin="L12" pinfunction="NC_L12" pintype="no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(U8001E-NC-PadL13)" class="Default">
+      <node ref="U8001" pin="L13" pinfunction="NC_L13" pintype="no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(U8001E-NC-PadL14)" class="Default">
+      <node ref="U8001" pin="L14" pinfunction="NC_L14" pintype="no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(U8001E-NC-PadM1)" class="Default">
+      <node ref="U8001" pin="M1" pinfunction="NC_M1" pintype="no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(U8001E-NC-PadM2)" class="Default">
+      <node ref="U8001" pin="M2" pinfunction="NC_M2" pintype="no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(U8001E-NC-PadM3)" class="Default">
+      <node ref="U8001" pin="M3" pinfunction="NC_M3" pintype="no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(U8001E-NC-PadM7)" class="Default">
+      <node ref="U8001" pin="M7" pinfunction="NC_M7" pintype="no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(U8001E-NC-PadM8)" class="Default">
+      <node ref="U8001" pin="M8" pinfunction="NC_M8" pintype="no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(U8001E-NC-PadM9)" class="Default">
+      <node ref="U8001" pin="M9" pinfunction="NC_M9" pintype="no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(U8001E-NC-PadM10)" class="Default">
+      <node ref="U8001" pin="M10" pinfunction="NC_M10" pintype="no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(U8001E-NC-PadM11)" class="Default">
+      <node ref="U8001" pin="M11" pinfunction="NC_M11" pintype="no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(U8001E-NC-PadM12)" class="Default">
+      <node ref="U8001" pin="M12" pinfunction="NC_M12" pintype="no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(U8001E-NC-PadM13)" class="Default">
+      <node ref="U8001" pin="M13" pinfunction="NC_M13" pintype="no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(U8001E-NC-PadM14)" class="Default">
+      <node ref="U8001" pin="M14" pinfunction="NC_M14" pintype="no_connect"/>
+    </net>
+    <net code="117" name="unconnected-(U8001E-NC-PadN1)" class="Default">
+      <node ref="U8001" pin="N1" pinfunction="NC_N1" pintype="no_connect"/>
+    </net>
+    <net code="118" name="unconnected-(U8001E-NC-PadN3)" class="Default">
+      <node ref="U8001" pin="N3" pinfunction="NC_N3" pintype="no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(U8001E-NC-PadN6)" class="Default">
+      <node ref="U8001" pin="N6" pinfunction="NC_N6" pintype="no_connect"/>
+    </net>
+    <net code="120" name="unconnected-(U8001E-NC-PadN7)" class="Default">
+      <node ref="U8001" pin="N7" pinfunction="NC_N7" pintype="no_connect"/>
+    </net>
+    <net code="121" name="unconnected-(U8001E-NC-PadN8)" class="Default">
+      <node ref="U8001" pin="N8" pinfunction="NC_N8" pintype="no_connect"/>
+    </net>
+    <net code="122" name="unconnected-(U8001E-NC-PadN9)" class="Default">
+      <node ref="U8001" pin="N9" pinfunction="NC_N9" pintype="no_connect"/>
+    </net>
+    <net code="123" name="unconnected-(U8001E-NC-PadN10)" class="Default">
+      <node ref="U8001" pin="N10" pinfunction="NC_N10" pintype="no_connect"/>
+    </net>
+    <net code="124" name="unconnected-(U8001E-NC-PadN11)" class="Default">
+      <node ref="U8001" pin="N11" pinfunction="NC_N11" pintype="no_connect"/>
+    </net>
+    <net code="125" name="unconnected-(U8001E-NC-PadN12)" class="Default">
+      <node ref="U8001" pin="N12" pinfunction="NC_N12" pintype="no_connect"/>
+    </net>
+    <net code="126" name="unconnected-(U8001E-NC-PadN13)" class="Default">
+      <node ref="U8001" pin="N13" pinfunction="NC_N13" pintype="no_connect"/>
+    </net>
+    <net code="127" name="unconnected-(U8001E-NC-PadN14)" class="Default">
+      <node ref="U8001" pin="N14" pinfunction="NC_N14" pintype="no_connect"/>
+    </net>
+    <net code="128" name="unconnected-(U8001E-NC-PadP1)" class="Default">
+      <node ref="U8001" pin="P1" pinfunction="NC_P1" pintype="no_connect"/>
+    </net>
+    <net code="129" name="unconnected-(U8001E-NC-PadP2)" class="Default">
+      <node ref="U8001" pin="P2" pinfunction="NC_P2" pintype="no_connect"/>
+    </net>
+    <net code="130" name="unconnected-(U8001E-NC-PadP8)" class="Default">
+      <node ref="U8001" pin="P8" pinfunction="NC_P8" pintype="no_connect"/>
+    </net>
+    <net code="131" name="unconnected-(U8001E-NC-PadP9)" class="Default">
+      <node ref="U8001" pin="P9" pinfunction="NC_P9" pintype="no_connect"/>
+    </net>
+    <net code="132" name="unconnected-(U8001E-NC-PadP11)" class="Default">
+      <node ref="U8001" pin="P11" pinfunction="NC_P11" pintype="no_connect"/>
+    </net>
+    <net code="133" name="unconnected-(U8001E-NC-PadP12)" class="Default">
+      <node ref="U8001" pin="P12" pinfunction="NC_P12" pintype="no_connect"/>
+    </net>
+    <net code="134" name="unconnected-(U8001E-NC-PadP13)" class="Default">
+      <node ref="U8001" pin="P13" pinfunction="NC_P13" pintype="no_connect"/>
+    </net>
+    <net code="135" name="unconnected-(U8001E-NC-PadP14)" class="Default">
+      <node ref="U8001" pin="P14" pinfunction="NC_P14" pintype="no_connect"/>
+    </net>
+    <net code="136" name="unconnected-(U8001E-RFU-PadP7)" class="Default">
+      <node ref="U8001" pin="P7" pinfunction="RFU_P7" pintype="no_connect"/>
+    </net>
+    <net code="137" name="unconnected-(U8001E-RFU-PadP10)" class="Default">
+      <node ref="U8001" pin="P10" pinfunction="RFU_P10" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

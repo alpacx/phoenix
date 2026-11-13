@@ -1,0 +1,68 @@
+[
+  {
+    "signal": "EMMC_D0",
+    "soc_ball": "J25",
+    "emmc_ball": "A3",
+    "previous_net": "FSPI_D0"
+  },
+  {
+    "signal": "EMMC_D1",
+    "soc_ball": "J26",
+    "emmc_ball": "A4",
+    "previous_net": "FSPI_D1"
+  },
+  {
+    "signal": "EMMC_D2",
+    "soc_ball": "H25",
+    "emmc_ball": "A5",
+    "previous_net": "FSPI_D2"
+  },
+  {
+    "signal": "EMMC_D3",
+    "soc_ball": "K27",
+    "emmc_ball": "B2",
+    "previous_net": "FSPI_D3"
+  },
+  {
+    "signal": "EMMC_D4",
+    "soc_ball": "K26",
+    "emmc_ball": "B3",
+    "previous_net": null
+  },
+  {
+    "signal": "EMMC_D5",
+    "soc_ball": "K25",
+    "emmc_ball": "B4",
+    "previous_net": null
+  },
+  {
+    "signal": "EMMC_D6",
+    "soc_ball": "H26",
+    "emmc_ball": "B5",
+    "previous_net": null
+  },
+  {
+    "signal": "EMMC_D7",
+    "soc_ball": "H27",
+    "emmc_ball": "B6",
+    "previous_net": null
+  },
+  {
+    "signal": "EMMC_STRB",
+    "soc_ball": "L26",
+    "emmc_ball": "H5",
+    "previous_net": null
+  },
+  {
+    "signal": "EMMC_CMD",
+    "soc_ball": "M26",
+    "emmc_ball": "M5",
+    "previous_net": "FSPI_CS_N"
+  },
+  {
+    "signal": "EMMC_CLK",
+    "soc_ball": "M25",
+    "emmc_ball": "M6",
+    "previous_net": "FSPI_CLK"
+  }
+]

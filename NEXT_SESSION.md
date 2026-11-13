@@ -1,3 +1,11 @@
+## Hardware — sostituzione J3, 13 novembre 2026
+
+Candidato in `hardware/phoenix-g1/migration-rk3562/experiments/stacked-expansion/`.
+Leggere README e audit.json: Hirose DF40 40 poli vicino Ethernet, SOSTITUISCE 2×10.
+Schema e piazzamento controllati; USB host e alimentazione nuove NON instradate.
+Il checkpoint LPDDR4 resta invariato. Non confondere candidato con produzione pronta.
+Target 85×35; candidato ancora 90×40. eMMC resta nel candidato separato.
+
 ## ROCK — deployment fisico 2026-11-12
 
 Phoenix 0.1.0-rock1 installato su b60 Debian 11. 69 test passati, HTTPS/AP/DHCP,
@@ -531,3 +539,16 @@ UI dati ricevuti/durata, niente stime upload/ping. 74 test passati su ROCK,
 browser desktop/mobile passato. Misura live VPN Italy #534: 322,31 Mbps,
 59,4 °C. Paese fisso IT, VPN connessa al termine. Dettagli BRINGUP/API_STATUS.
 Non presumere IP o stato VPN invariati alla prossima sessione. Nessun commit.
+
+### Ripresa hardware — eMMC (2026-11-13)
+Utente senza scheda: lavoro CAD, nessun accesso/modifica alla ROCK. Checkpoint
+LPDDR4 `working-board.json` immutato (wifi-relocation/io.kicad_pcb, 90×40 mm).
+Nuovo esperimento `hardware/phoenix-g1/migration-rk3562/experiments/emmc-8gb/`:
+foglio eMMC 8GB + supporti candidati, footprint153pad, mappa11segnali RK3562,
+audit179disposizioni superato, ERC12 segnalazioni isolate non soppresse.
+NON integrato nel sistema/PCB: sostituire NOR su pin FSPI condivisi, rivedere
+VCCIO2 U1.1F14 da3V3 a1V8, qualificare boot/reset/power e loader. Non VCCIO1.
+JLC C499918 pubblico aggiornato: initialPrice17.7555USD, canPresale997,
+overseas1057; non garanzia stockassemblaggio. PCBtarget85×35 richiede ripiazzamento:
+screening corpi conservativo non trova collocazione eMMC senza conflitti.
+Leggere README esperimento e report prima di integrare. Nessun commit eseguito.

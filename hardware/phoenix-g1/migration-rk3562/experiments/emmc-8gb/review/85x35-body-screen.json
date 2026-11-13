@@ -1,0 +1,144 @@
+{
+  "status": "COMPONENT_BODY_SCREEN_ONLY",
+  "target_mm": [
+    85,
+    35
+  ],
+  "source_outline_mm": [
+    90,
+    40
+  ],
+  "package_courtyard_candidate_mm": [
+    12.1,
+    13.6
+  ],
+  "positions_with_fewest_same_side_body_conflicts": [
+    {
+      "side": "F.Cu",
+      "center_mm": [
+        42,
+        20
+      ],
+      "rotation_degrees": 0,
+      "overlapping_refs": [
+        "U1"
+      ],
+      "count": 1
+    },
+    {
+      "side": "F.Cu",
+      "center_mm": [
+        43,
+        20
+      ],
+      "rotation_degrees": 0,
+      "overlapping_refs": [
+        "U1"
+      ],
+      "count": 1
+    },
+    {
+      "side": "F.Cu",
+      "center_mm": [
+        44,
+        20
+      ],
+      "rotation_degrees": 0,
+      "overlapping_refs": [
+        "U1"
+      ],
+      "count": 1
+    },
+    {
+      "side": "F.Cu",
+      "center_mm": [
+        74,
+        18
+      ],
+      "rotation_degrees": 0,
+      "overlapping_refs": [
+        "J2"
+      ],
+      "count": 1
+    },
+    {
+      "side": "F.Cu",
+      "center_mm": [
+        74,
+        19
+      ],
+      "rotation_degrees": 0,
+      "overlapping_refs": [
+        "J2"
+      ],
+      "count": 1
+    },
+    {
+      "side": "B.Cu",
+      "center_mm": [
+        75,
+        8
+      ],
+      "rotation_degrees": 0,
+      "overlapping_refs": [
+        "J2"
+      ],
+      "count": 1
+    },
+    {
+      "side": "B.Cu",
+      "center_mm": [
+        75,
+        9
+      ],
+      "rotation_degrees": 0,
+      "overlapping_refs": [
+        "J2"
+      ],
+      "count": 1
+    },
+    {
+      "side": "B.Cu",
+      "center_mm": [
+        76,
+        8
+      ],
+      "rotation_degrees": 0,
+      "overlapping_refs": [
+        "J2"
+      ],
+      "count": 1
+    },
+    {
+      "side": "B.Cu",
+      "center_mm": [
+        76,
+        9
+      ],
+      "rotation_degrees": 0,
+      "overlapping_refs": [
+        "J2"
+      ],
+      "count": 1
+    },
+    {
+      "side": "B.Cu",
+      "center_mm": [
+        77,
+        8
+      ],
+      "rotation_degrees": 0,
+      "overlapping_refs": [
+        "J2"
+      ],
+      "count": 1
+    }
+  ],
+  "limits": [
+    "Existing component positions preserved for screening only; other components may lie outside target",
+    "Through-hole footprints conservatively block their entire bounding box on both sides; no copper/via/other opposite-side height or heat-spreader clearance check",
+    "Support parts need additional placement area",
+    "No signal escape or power-plane feasibility established"
+  ],
+  "assembly_ready": false
+}

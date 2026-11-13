@@ -1,0 +1,37 @@
+{
+  "status": "ISOLATED_DRAFT_NOT_INTEGRATED",
+  "part": "KLM8G1GETF-B041",
+  "jlc": "C499918",
+  "ball_count": 153,
+  "signal_connections": 11,
+  "NC_count": 107,
+  "RFU_count": 13,
+  "body_mm": [
+    11.5,
+    13,
+    0.8
+  ],
+  "pitch_mm": 0.5,
+  "draft_land_mm": 0.25,
+  "source_pcb_sha256": "d2939e2595ba1699a65dabea04603424908e31fe735bb3c073c9d6e4e8bb8ae3",
+  "datasheet_sha256": "73f47e95f7f148c9d063bbf1cc3073bbe86781cc4deea903952521fb7725c585",
+  "source_pages": [
+    4,
+    5,
+    6
+  ],
+  "reference_pages": [
+    8,
+    14
+  ],
+  "required_changes": [
+    "Replace conflicting FSPI boot circuit, not parallel connection",
+    "VCCIO2 U1.1F14 from +3V3_IO to qualified 1.8V eMMC IO rail; keep unrelated VCCIO domains unchanged",
+    "Qualify reset pull-up and boot strap/USB recovery before integration",
+    "Qualify VDDI capacitor against exact Samsung application requirements",
+    "Use a suitably sized Linux image; do not assume the ROCK microSD image fits",
+    "Integrate qualified support MPNs, complete power sequencing/current review",
+    "Full PCB placement/escape/routing and signal integrity review"
+  ],
+  "assembly_ready": false
+}

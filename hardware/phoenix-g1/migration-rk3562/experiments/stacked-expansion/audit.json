@@ -1,0 +1,22 @@
+{
+  "status": "SCHEMATIC_AND_PLACEMENT_AUDITED_NOT_ROUTED",
+  "verified_pin_dispositions": 71,
+  "old_tracks_and_vias_preserved": 2460,
+  "original_pad_nets_preserved_except_dedicated_host": true,
+  "unique_board_item_UUIDs": 5892,
+  "source_board_unchanged": true,
+  "pcb_sha256": "e79adcbf42af3bf5579e8c1b91c5b00933a7dc911b5daa6fe84fa6f08702e3f1",
+  "drc_categories": {
+    "via_dangling": 125,
+    "silk_edge_clearance": 1,
+    "silk_overlap": 3,
+    "silk_over_copper": 10
+  },
+  "unconnected_items_reported": 499,
+  "unconnected_count_may_be_capped": true,
+  "erc_categories": {
+    "isolated_pin_label": 1,
+    "power_pin_not_driven": 15
+  },
+  "assembly_ready": false
+}

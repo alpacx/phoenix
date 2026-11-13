@@ -1,0 +1,51 @@
+{
+  "status": "PLACEMENT_CANDIDATE_NOT_ROUTED",
+  "source_sha256": "d2939e2595ba1699a65dabea04603424908e31fe735bb3c073c9d6e4e8bb8ae3",
+  "board_sha256": "e79adcbf42af3bf5579e8c1b91c5b00933a7dc911b5daa6fe84fa6f08702e3f1",
+  "new_J3_center_mm": [
+    67.5,
+    2.5
+  ],
+  "replaced_J3": true,
+  "extra_expansion_connectors": 0,
+  "moved_unrouted_caps": [
+    {
+      "ref": "C423",
+      "change": "same XY, F.Cu to B.Cu",
+      "power_integrity_qualified": false
+    },
+    {
+      "ref": "C431",
+      "change": "same XY, F.Cu to B.Cu",
+      "power_integrity_qualified": false
+    },
+    {
+      "ref": "C435",
+      "change": "same XY, F.Cu to B.Cu",
+      "power_integrity_qualified": false
+    }
+  ],
+  "new_power_parts": [
+    "U8101",
+    "R8101",
+    "R8102",
+    "R8103",
+    "C8101",
+    "C8102",
+    "C8103"
+  ],
+  "host_pins": [
+    "AE26",
+    "AE27"
+  ],
+  "outline_mm": [
+    90,
+    40
+  ],
+  "target_mm": [
+    85,
+    35
+  ],
+  "power_branch_routed": false,
+  "assembly_ready": false
+}

@@ -1,0 +1,502 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-13T11:43:15",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.7",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d",
+            "violations": [
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta globale 'USB_SHIELD'",
+                            "pos": {
+                                "x": 54.61,
+                                "y": 36.83
+                            },
+                            "uuid": "9e8a1895-e624-59de-a6d4-cf5c8629b3da"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                }
+            ]
+        },
+        {
+            "path": "/boot-flash/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/59e7f16b-8057-59dc-97dc-15857d39770f",
+            "violations": []
+        },
+        {
+            "path": "/core-boot-support/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/188373b9-61dd-5235-92be-fa28ee6cf5bb",
+            "violations": []
+        },
+        {
+            "path": "/cpu-power/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/99b22068-fe19-5585-972f-b8ff25de98a7",
+            "violations": []
+        },
+        {
+            "path": "/ddr-bypass/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/c298a308-bc10-5371-80f6-d01cf442a7cc",
+            "violations": []
+        },
+        {
+            "path": "/display-power/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/47bd172e-9597-55b8-a32a-4e535a4eb64c",
+            "violations": []
+        },
+        {
+            "path": "/display-signals/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/853d0093-cdc1-5bb2-afab-9ae8882aeeea",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol DS1 Pin 8 [GND, Ingresso potenza, Linea]",
+                            "pos": {
+                                "x": 261.62,
+                                "y": 73.66
+                            },
+                            "uuid": "bbb163fb-f6e5-4b9b-be7a-011cedac5af5"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/ethernet-esd/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/8479dc24-990e-5af4-8d02-bfc50618a83a",
+            "violations": []
+        },
+        {
+            "path": "/ethernet-magnetics/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/15c9f24c-d00d-50ae-8a5a-a91f13fb14d1",
+            "violations": []
+        },
+        {
+            "path": "/ethernet-phy/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/2189ff3d-7150-55de-b117-21c826f2ebd4",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U5 Pin 3 [AVDD10, Ingresso potenza, Linea]",
+                            "pos": {
+                                "x": 64.77,
+                                "y": 58.42
+                            },
+                            "uuid": "50b78067-cc24-4cdb-8740-d1f7d5db6ee9"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U5 Pin 11 [AVDD33, Ingresso potenza, Linea]",
+                            "pos": {
+                                "x": 64.77,
+                                "y": 78.74
+                            },
+                            "uuid": "1aa17b23-0c8c-4e3a-a673-a0dc4613ae10"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/ethernet-support/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/47b716d4-8d48-5586-a784-d4eea3704bd4",
+            "violations": []
+        },
+        {
+            "path": "/expansion/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/955d61a3-48be-5b75-a540-b96e4c9fe49c",
+            "violations": []
+        },
+        {
+            "path": "/expansion-power/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/192d8ef2-bfbc-583e-b2f3-288806212e69",
+            "violations": []
+        },
+        {
+            "path": "/lpddr4-memory-candidate/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/4a70eeb3-4c7b-5b5e-b3bc-9b391b2c9cf7",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin F1 [VDD1, Ingresso potenza, Linea]",
+                            "pos": {
+                                "x": 238.76,
+                                "y": 38.1
+                            },
+                            "uuid": "6e511cb0-5e71-41e7-a815-cfc9b64050aa"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/lpddr4-vdd1-bypass/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/022708fa-59c9-54b7-a47c-11f6cf38d4e8",
+            "violations": []
+        },
+        {
+            "path": "/pmic-bucks/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/2fa4c0d1-1795-5758-9de2-935876cf4a70",
+            "violations": []
+        },
+        {
+            "path": "/pmic-control/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/51d62a35-db69-5f7c-813d-f3086a803897",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Pin 4 [VCC7, Ingresso potenza, Linea]",
+                            "pos": {
+                                "x": 92.71,
+                                "y": 53.34
+                            },
+                            "uuid": "b787ee3c-3e5a-4f06-a87b-0c72623dc5f0"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/pmic-ldos/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/dff8343c-2597-5dce-9ee4-f29315551caa",
+            "violations": []
+        },
+        {
+            "path": "/rk3562-pins-01/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/673b0719-8562-5ffe-a7db-79f7bcab33c5",
+            "violations": []
+        },
+        {
+            "path": "/rk3562-pins-02/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/f9f19f55-0f44-50f3-a407-9b362eb923ab",
+            "violations": []
+        },
+        {
+            "path": "/rk3562-pins-03/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/2677826d-a416-5703-af9c-5c655fbf650e",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 1D6 [+1V1_LPDDR4, Ingresso potenza, Linea]",
+                            "pos": {
+                                "x": 236.22,
+                                "y": 104.14
+                            },
+                            "uuid": "732607db-508a-440a-a875-b58dcd0076c1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 1E12 [VDD_GPU, Ingresso potenza, Linea]",
+                            "pos": {
+                                "x": 236.22,
+                                "y": 121.92
+                            },
+                            "uuid": "0ee4598e-6fc2-4123-a2aa-7a27cfea3e4b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/rk3562-pins-04/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/bb601ccd-2748-51a8-8352-deb066713566",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 1G10 [VDD_LOGIC, Ingresso potenza, Linea]",
+                            "pos": {
+                                "x": 236.22,
+                                "y": 86.36
+                            },
+                            "uuid": "ccab3d64-dc22-42c6-9bb0-de676a83b499"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 1G3 [VDD_NPU, Ingresso potenza, Linea]",
+                            "pos": {
+                                "x": 236.22,
+                                "y": 104.14
+                            },
+                            "uuid": "25a3296d-6b55-493a-85f6-119e3b538656"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 1G8 [VDD_CPU, Ingresso potenza, Linea]",
+                            "pos": {
+                                "x": 236.22,
+                                "y": 116.84
+                            },
+                            "uuid": "fdfd1cd0-7b1a-4035-8ca9-f71ec49d69ec"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/rk3562-pins-05/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/64de7922-408c-5652-888f-e1f1fae72b6e",
+            "violations": []
+        },
+        {
+            "path": "/rk3562-pins-06/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/9c5e192e-e8bb-5e79-8e60-e58816a6057f",
+            "violations": []
+        },
+        {
+            "path": "/rk3562-pins-07/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/0f2ecf33-7cf6-562a-9020-1f650426a5cd",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 1L14 [USB_AVDD_0V9, Ingresso potenza, Linea]",
+                            "pos": {
+                                "x": 236.22,
+                                "y": 91.44
+                            },
+                            "uuid": "109e97a3-607f-43e0-98d8-e9f2316da53d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/rk3562-pins-08/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/d20cabfa-55dc-52b2-8e9d-e30b003d1c11",
+            "violations": []
+        },
+        {
+            "path": "/rk3562-pins-09/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/f51ede2f-24aa-57c8-b5c4-022148db90ca",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 1M15 [USB_AVDD_1V8, Ingresso potenza, Linea]",
+                            "pos": {
+                                "x": 144.78,
+                                "y": 101.6
+                            },
+                            "uuid": "a08ba0e0-d529-444d-aa19-f7dad1d58a6c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/rk3562-pins-10/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/e3864ba8-a960-5cef-a1a4-138c035ae070",
+            "violations": []
+        },
+        {
+            "path": "/rk3562-pins-11/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/d610bc7c-3a13-5708-8cd7-b888eb5f1f94",
+            "violations": []
+        },
+        {
+            "path": "/rk3562-pins-12/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/8d402de2-eac7-530d-ae95-b976d0fc7c75",
+            "violations": []
+        },
+        {
+            "path": "/soc-core-bypass/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/fe04e949-9942-5077-972f-b52224894136",
+            "violations": []
+        },
+        {
+            "path": "/soc-io-bypass/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/e6dd8e95-a687-597c-a47a-5f1d214bc67e",
+            "violations": []
+        },
+        {
+            "path": "/system-3v3/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/825554e4-3a1c-50d0-9a55-1f3688188a93",
+            "violations": []
+        },
+        {
+            "path": "/test-access/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/a76fdd11-6211-52fe-8ce3-17f518fdba31",
+            "violations": []
+        },
+        {
+            "path": "/usb-analog-bypass/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/e91e2e18-cff8-5c1d-bda0-a183e3858e8b",
+            "violations": []
+        },
+        {
+            "path": "/usb-c-frontend/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/45f06f4c-79af-5939-85fb-ae6221dac06f",
+            "violations": []
+        },
+        {
+            "path": "/usb-input-protection/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/ed811abb-486f-59d0-8aef-e0bcb8f7663a",
+            "violations": []
+        },
+        {
+            "path": "/usb-power-control/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/75bdf485-13d9-5b1f-a078-5c3282933551",
+            "violations": []
+        },
+        {
+            "path": "/usb-vbus-guard/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/67840b30-9704-51e5-a97b-a07498c446f8",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U24 Pin 9 [IN, Ingresso potenza, Linea]",
+                            "pos": {
+                                "x": 78.74,
+                                "y": 86.36
+                            },
+                            "uuid": "79c3514b-c4f2-44f4-8aa9-3bc8458f2f25"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/wifi-clocks/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/b35153fd-529d-575f-99aa-3aca1951ee3d",
+            "violations": []
+        },
+        {
+            "path": "/wifi-module/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/80949650-954d-54f5-8133-bbca53a37641",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U25 Pin 9 [VBAT, Ingresso potenza, Linea]",
+                            "pos": {
+                                "x": 77.47,
+                                "y": 97.79
+                            },
+                            "uuid": "9f026579-e83b-4b43-b551-bd3c99090fec"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U25 Pin 23 [VIN_LDO, Ingresso potenza, Linea]",
+                            "pos": {
+                                "x": 77.47,
+                                "y": 133.35
+                            },
+                            "uuid": "d461c841-cae9-4cb7-8e87-235c19b2b119"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/wifi-power/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/1a2b33bb-4c14-5d5f-b284-e1181564bc7e",
+            "violations": []
+        },
+        {
+            "path": "/wifi-sdio-pulls/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/a5c0ddac-1ef3-54f7-a997-e187778fb9f1",
+            "violations": []
+        },
+        {
+            "path": "/wifi-vbat-converter/",
+            "uuid_path": "/ec4f0165-12ee-5142-b260-de9892ae2c3d/14af2e5c-b6aa-5010-83e3-06455bb9531d",
+            "violations": []
+        }
+    ],
+    "source": "phoenix-g1.kicad_sch"
+}

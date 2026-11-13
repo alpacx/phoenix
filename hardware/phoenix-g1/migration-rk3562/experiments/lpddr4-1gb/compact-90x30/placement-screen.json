@@ -1,0 +1,1217 @@
+{
+  "status": "MECHANICAL_SCREEN_ONLY_NOT_A_ROUTED_CANDIDATE",
+  "source": "migration-rk3562/experiments/lpddr4-1gb/wifi-relocation/io.kicad_pcb",
+  "source_sha256": "d2939e2595ba1699a65dabea04603424908e31fe735bb3c073c9d6e4e8bb8ae3",
+  "target_pcb_mm": [
+    90,
+    30
+  ],
+  "edge_guard_mm": 0.5,
+  "selected_window_y_mm": 9.0,
+  "footprint_count": 355,
+  "windows": [
+    {
+      "origin_y_mm": 9.0,
+      "outside_count": 83,
+      "routed_outside_count": 15
+    },
+    {
+      "origin_y_mm": 9.5,
+      "outside_count": 82,
+      "routed_outside_count": 16
+    },
+    {
+      "origin_y_mm": 8.5,
+      "outside_count": 86,
+      "routed_outside_count": 16
+    },
+    {
+      "origin_y_mm": 8.0,
+      "outside_count": 93,
+      "routed_outside_count": 16
+    },
+    {
+      "origin_y_mm": 10.0,
+      "outside_count": 87,
+      "routed_outside_count": 17
+    },
+    {
+      "origin_y_mm": 7.0,
+      "outside_count": 95,
+      "routed_outside_count": 18
+    },
+    {
+      "origin_y_mm": 7.5,
+      "outside_count": 101,
+      "routed_outside_count": 18
+    },
+    {
+      "origin_y_mm": 6.5,
+      "outside_count": 108,
+      "routed_outside_count": 19
+    },
+    {
+      "origin_y_mm": 6.0,
+      "outside_count": 112,
+      "routed_outside_count": 19
+    },
+    {
+      "origin_y_mm": 4.0,
+      "outside_count": 117,
+      "routed_outside_count": 19
+    },
+    {
+      "origin_y_mm": 1.0,
+      "outside_count": 121,
+      "routed_outside_count": 19
+    },
+    {
+      "origin_y_mm": 5.5,
+      "outside_count": 111,
+      "routed_outside_count": 20
+    },
+    {
+      "origin_y_mm": 4.5,
+      "outside_count": 122,
+      "routed_outside_count": 20
+    },
+    {
+      "origin_y_mm": 3.5,
+      "outside_count": 125,
+      "routed_outside_count": 20
+    },
+    {
+      "origin_y_mm": 0.5,
+      "outside_count": 131,
+      "routed_outside_count": 20
+    },
+    {
+      "origin_y_mm": 5.0,
+      "outside_count": 116,
+      "routed_outside_count": 21
+    },
+    {
+      "origin_y_mm": 1.5,
+      "outside_count": 128,
+      "routed_outside_count": 22
+    },
+    {
+      "origin_y_mm": 0.0,
+      "outside_count": 137,
+      "routed_outside_count": 22
+    },
+    {
+      "origin_y_mm": 2.0,
+      "outside_count": 131,
+      "routed_outside_count": 23
+    },
+    {
+      "origin_y_mm": 2.5,
+      "outside_count": 130,
+      "routed_outside_count": 24
+    },
+    {
+      "origin_y_mm": 3.0,
+      "outside_count": 131,
+      "routed_outside_count": 24
+    }
+  ],
+  "relocation_or_edge_review": [
+    {
+      "ref": "U12",
+      "value": "TPS3808G33DBVR",
+      "side": "F.Cu",
+      "bbox_mm": [
+        4.795,
+        1.825,
+        9.205,
+        5.395
+      ],
+      "has_connected_tracks": true
+    },
+    {
+      "ref": "J3",
+      "value": "PZ127-2-10-S",
+      "side": "F.Cu",
+      "bbox_mm": [
+        38.235,
+        4.695,
+        51.645,
+        12.305
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "R1813",
+      "value": "47k",
+      "side": "F.Cu",
+      "bbox_mm": [
+        52.545,
+        8.505,
+        54.455,
+        9.495
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "L405",
+      "value": "470nH",
+      "side": "F.Cu",
+      "bbox_mm": [
+        82.575,
+        4.825,
+        85.425,
+        7.175
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C425",
+      "value": "22u / 10V",
+      "side": "F.Cu",
+      "bbox_mm": [
+        50.275,
+        2.495,
+        53.725,
+        4.505
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "R424",
+      "value": "100R",
+      "side": "F.Cu",
+      "bbox_mm": [
+        86.045,
+        7.005,
+        87.955,
+        7.995
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C445",
+      "value": "22u / 10V",
+      "side": "F.Cu",
+      "bbox_mm": [
+        78.275,
+        4.995,
+        81.725,
+        7.005
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "TP2",
+      "value": "VBUS_RAW",
+      "side": "F.Cu",
+      "bbox_mm": [
+        14.475,
+        0.475,
+        16.525,
+        2.525
+      ],
+      "has_connected_tracks": true
+    },
+    {
+      "ref": "C1013",
+      "value": "22u / 10V X5R",
+      "side": "F.Cu",
+      "bbox_mm": [
+        64.775,
+        8.495,
+        68.225,
+        10.505
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C1402",
+      "value": "1u",
+      "side": "F.Cu",
+      "bbox_mm": [
+        17.065,
+        1.515,
+        18.935,
+        2.485
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "R1815",
+      "value": "47k",
+      "side": "F.Cu",
+      "bbox_mm": [
+        22.045,
+        3.505,
+        23.955,
+        4.495
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "R1811",
+      "value": "47k",
+      "side": "F.Cu",
+      "bbox_mm": [
+        52.545,
+        5.505,
+        54.455,
+        6.495
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "R413",
+      "value": "10k",
+      "side": "F.Cu",
+      "bbox_mm": [
+        86.045,
+        2.505,
+        87.955,
+        3.495
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C444",
+      "value": "22u / 10V",
+      "side": "F.Cu",
+      "bbox_mm": [
+        76.775,
+        7.995,
+        80.225,
+        10.005
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C442",
+      "value": "22u / 10V",
+      "side": "F.Cu",
+      "bbox_mm": [
+        74.275,
+        4.995,
+        77.725,
+        7.005
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C470",
+      "value": "10u / 10V",
+      "side": "F.Cu",
+      "bbox_mm": [
+        78.275,
+        1.995,
+        81.725,
+        4.005
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "U18",
+      "value": "W25Q256JVEIQTR",
+      "side": "F.Cu",
+      "bbox_mm": [
+        11.345,
+        2.955,
+        17.655,
+        13.08
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C431",
+      "value": "22u / 10V",
+      "side": "F.Cu",
+      "bbox_mm": [
+        66.275,
+        2.495,
+        69.725,
+        4.505
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C421",
+      "value": "22u / 10V",
+      "side": "F.Cu",
+      "bbox_mm": [
+        58.275,
+        2.495,
+        61.725,
+        4.505
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "U23",
+      "value": "TPD4E05U06DQAR",
+      "side": "F.Cu",
+      "bbox_mm": [
+        56.595,
+        36.505,
+        59.405,
+        38.72
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "R410",
+      "value": "180k 1%",
+      "side": "F.Cu",
+      "bbox_mm": [
+        86.045,
+        5.505,
+        87.955,
+        6.495
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C1901",
+      "value": "1u / 25V X7R",
+      "side": "F.Cu",
+      "bbox_mm": [
+        9.195,
+        2.225,
+        11.205,
+        5.675
+      ],
+      "has_connected_tracks": true
+    },
+    {
+      "ref": "C1401",
+      "value": "100n",
+      "side": "F.Cu",
+      "bbox_mm": [
+        18.065,
+        3.015,
+        19.935,
+        3.985
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "R2014",
+      "value": "47k",
+      "side": "F.Cu",
+      "bbox_mm": [
+        22.045,
+        5.505,
+        23.955,
+        6.495
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C434",
+      "value": "22u / 10V",
+      "side": "F.Cu",
+      "bbox_mm": [
+        46.275,
+        2.495,
+        49.725,
+        4.505
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C433",
+      "value": "22u / 10V",
+      "side": "F.Cu",
+      "bbox_mm": [
+        70.275,
+        4.995,
+        73.725,
+        7.005
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "R1103",
+      "value": "100k",
+      "side": "F.Cu",
+      "bbox_mm": [
+        12.045,
+        1.505,
+        13.955,
+        2.495
+      ],
+      "has_connected_tracks": true
+    },
+    {
+      "ref": "C443",
+      "value": "22u / 10V",
+      "side": "F.Cu",
+      "bbox_mm": [
+        74.275,
+        1.995,
+        77.725,
+        4.005
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "U24",
+      "value": "TPS25940ARVCR",
+      "side": "F.Cu",
+      "bbox_mm": [
+        4.745,
+        5.735,
+        10.255,
+        10.4
+      ],
+      "has_connected_tracks": true
+    },
+    {
+      "ref": "C435",
+      "value": "22u / 10V",
+      "side": "F.Cu",
+      "bbox_mm": [
+        70.275,
+        1.995,
+        73.725,
+        4.005
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C441",
+      "value": "22u / 10V",
+      "side": "F.Cu",
+      "bbox_mm": [
+        72.775,
+        7.995,
+        76.225,
+        10.005
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "R1801",
+      "value": "1k",
+      "side": "F.Cu",
+      "bbox_mm": [
+        38.045,
+        3.505,
+        39.955,
+        4.495
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "R431",
+      "value": "45.3k 0.1%",
+      "side": "F.Cu",
+      "bbox_mm": [
+        82.495,
+        2.745,
+        85.505,
+        4.255
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C1802",
+      "value": "2.2u / 10V",
+      "side": "F.Cu",
+      "bbox_mm": [
+        20.065,
+        1.515,
+        21.935,
+        2.485
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C1304",
+      "value": "22u / 10V",
+      "side": "F.Cu",
+      "bbox_mm": [
+        17.775,
+        37.745,
+        21.225,
+        39.755
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "L1301",
+      "value": "2.2uH DCR35m max",
+      "side": "F.Cu",
+      "bbox_mm": [
+        10.725,
+        33.125,
+        17.275,
+        38.875
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "R1802",
+      "value": "47k",
+      "side": "F.Cu",
+      "bbox_mm": [
+        38.045,
+        2.005,
+        39.955,
+        2.995
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "U2",
+      "value": "H9HCNNN8KUMLHR-NME",
+      "side": "F.Cu",
+      "bbox_mm": [
+        24.675,
+        1.175,
+        35.325,
+        16.825
+      ],
+      "has_connected_tracks": true
+    },
+    {
+      "ref": "C424",
+      "value": "22u / 10V",
+      "side": "F.Cu",
+      "bbox_mm": [
+        64.775,
+        5.495,
+        68.225,
+        7.505
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C423",
+      "value": "22u / 10V",
+      "side": "F.Cu",
+      "bbox_mm": [
+        62.275,
+        2.495,
+        65.725,
+        4.505
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "R1812",
+      "value": "47k",
+      "side": "F.Cu",
+      "bbox_mm": [
+        52.545,
+        7.005,
+        54.455,
+        7.995
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "L404",
+      "value": "470nH",
+      "side": "F.Cu",
+      "bbox_mm": [
+        81.075,
+        7.825,
+        83.925,
+        10.175
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C1103",
+      "value": "100n",
+      "side": "F.Cu",
+      "bbox_mm": [
+        2.765,
+        1.515,
+        4.635,
+        2.485
+      ],
+      "has_connected_tracks": true
+    },
+    {
+      "ref": "C1801",
+      "value": "1u / 10V",
+      "side": "F.Cu",
+      "bbox_mm": [
+        22.565,
+        1.515,
+        24.435,
+        2.485
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C432",
+      "value": "22u / 10V",
+      "side": "F.Cu",
+      "bbox_mm": [
+        68.775,
+        7.995,
+        72.225,
+        10.005
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "R1904",
+      "value": "10k 0.1% 25ppm",
+      "side": "F.Cu",
+      "bbox_mm": [
+        5.545,
+        0.505,
+        7.455,
+        1.495
+      ],
+      "has_connected_tracks": true
+    },
+    {
+      "ref": "R421",
+      "value": "100R",
+      "side": "F.Cu",
+      "bbox_mm": [
+        84.545,
+        8.505,
+        86.455,
+        9.495
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "R1901",
+      "value": "35.7k 0.1% 25ppm",
+      "side": "F.Cu",
+      "bbox_mm": [
+        1.495,
+        2.745,
+        4.505,
+        4.255
+      ],
+      "has_connected_tracks": true
+    },
+    {
+      "ref": "R411",
+      "value": "100k 1%",
+      "side": "F.Cu",
+      "bbox_mm": [
+        86.045,
+        4.005,
+        87.955,
+        4.995
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "J2",
+      "value": "HR911130A",
+      "side": "F.Cu",
+      "bbox_mm": [
+        68.175,
+        10.625,
+        89.715,
+        29.375
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C422",
+      "value": "22u / 10V",
+      "side": "F.Cu",
+      "bbox_mm": [
+        54.275,
+        2.495,
+        57.725,
+        4.505
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "J1",
+      "value": "2012670005",
+      "side": "F.Cu",
+      "bbox_mm": [
+        -0.395,
+        14.475,
+        8.655,
+        25.525
+      ],
+      "has_connected_tracks": true
+    },
+    {
+      "ref": "R1401",
+      "value": "22R",
+      "side": "F.Cu",
+      "bbox_mm": [
+        18.045,
+        7.505,
+        19.955,
+        8.495
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "U4",
+      "value": "RK809-5",
+      "side": "F.Cu",
+      "bbox_mm": [
+        55.685,
+        4.915,
+        64.085,
+        13.085
+      ],
+      "has_connected_tracks": true
+    },
+    {
+      "ref": "R1902",
+      "value": "10k 0.1% 25ppm",
+      "side": "F.Cu",
+      "bbox_mm": [
+        2.545,
+        5.005,
+        4.455,
+        5.995
+      ],
+      "has_connected_tracks": true
+    },
+    {
+      "ref": "R1402",
+      "value": "10k",
+      "side": "F.Cu",
+      "bbox_mm": [
+        18.045,
+        6.005,
+        19.955,
+        6.995
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "R1102",
+      "value": "47k",
+      "side": "F.Cu",
+      "bbox_mm": [
+        9.545,
+        1.005,
+        11.455,
+        1.995
+      ],
+      "has_connected_tracks": true
+    },
+    {
+      "ref": "R1404",
+      "value": "10k",
+      "side": "F.Cu",
+      "bbox_mm": [
+        18.045,
+        4.505,
+        19.955,
+        5.495
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "R1403",
+      "value": "10k",
+      "side": "F.Cu",
+      "bbox_mm": [
+        18.045,
+        9.005,
+        19.955,
+        9.995
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "Q1",
+      "value": "MMBT3904-C20526",
+      "side": "F.Cu",
+      "bbox_mm": [
+        40.195,
+        1.395,
+        43.805,
+        4.605
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "TP4",
+      "value": "+3V3_SYS",
+      "side": "B.Cu",
+      "bbox_mm": [
+        54.475,
+        36.475,
+        56.525,
+        38.525
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C1644",
+      "value": "100n / 10V",
+      "side": "B.Cu",
+      "bbox_mm": [
+        44.565,
+        7.515,
+        46.435,
+        8.485
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C2304",
+      "value": "100n",
+      "side": "B.Cu",
+      "bbox_mm": [
+        29.065,
+        6.015,
+        30.935,
+        6.985
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C1903",
+      "value": "1n / C0G",
+      "side": "B.Cu",
+      "bbox_mm": [
+        3.065,
+        6.515,
+        4.935,
+        7.485
+      ],
+      "has_connected_tracks": true
+    },
+    {
+      "ref": "C2308",
+      "value": "100n",
+      "side": "B.Cu",
+      "bbox_mm": [
+        24.065,
+        4.015,
+        25.935,
+        4.985
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C1634",
+      "value": "1u / 10V",
+      "side": "B.Cu",
+      "bbox_mm": [
+        47.065,
+        9.015,
+        48.935,
+        9.985
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C1630",
+      "value": "1u / 10V",
+      "side": "B.Cu",
+      "bbox_mm": [
+        39.565,
+        8.515,
+        41.435,
+        9.485
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "R1905",
+      "value": "33.2k 1%",
+      "side": "B.Cu",
+      "bbox_mm": [
+        9.495,
+        7.245,
+        12.505,
+        8.755
+      ],
+      "has_connected_tracks": true
+    },
+    {
+      "ref": "C1638",
+      "value": "100n / 10V",
+      "side": "B.Cu",
+      "bbox_mm": [
+        42.065,
+        7.515,
+        43.935,
+        8.485
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C1609",
+      "value": "100n / 10V",
+      "side": "B.Cu",
+      "bbox_mm": [
+        42.065,
+        9.015,
+        43.935,
+        9.985
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C2306",
+      "value": "100n",
+      "side": "B.Cu",
+      "bbox_mm": [
+        29.065,
+        4.515,
+        30.935,
+        5.485
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C1614",
+      "value": "22u / 10V",
+      "side": "B.Cu",
+      "bbox_mm": [
+        46.775,
+        6.495,
+        50.225,
+        8.505
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C481",
+      "value": "1u / 10V",
+      "side": "B.Cu",
+      "bbox_mm": [
+        59.065,
+        3.515,
+        60.935,
+        4.485
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C1616",
+      "value": "100n / 10V",
+      "side": "B.Cu",
+      "bbox_mm": [
+        44.565,
+        9.015,
+        46.435,
+        9.985
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C2307",
+      "value": "100n",
+      "side": "B.Cu",
+      "bbox_mm": [
+        29.065,
+        3.015,
+        30.935,
+        3.985
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C2305",
+      "value": "10u",
+      "side": "B.Cu",
+      "bbox_mm": [
+        22.775,
+        5.495,
+        26.225,
+        7.505
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C2301",
+      "value": "10u",
+      "side": "B.Cu",
+      "bbox_mm": [
+        22.775,
+        7.995,
+        26.225,
+        10.005
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C1639",
+      "value": "100n / 10V",
+      "side": "B.Cu",
+      "bbox_mm": [
+        37.065,
+        8.515,
+        38.935,
+        9.485
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C2303",
+      "value": "100n",
+      "side": "B.Cu",
+      "bbox_mm": [
+        26.565,
+        8.515,
+        28.435,
+        9.485
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C484",
+      "value": "1u / 10V",
+      "side": "B.Cu",
+      "bbox_mm": [
+        56.565,
+        3.515,
+        58.435,
+        4.485
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C1645",
+      "value": "100n / 10V",
+      "side": "B.Cu",
+      "bbox_mm": [
+        31.565,
+        8.515,
+        33.435,
+        9.485
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C483",
+      "value": "1u / 10V",
+      "side": "B.Cu",
+      "bbox_mm": [
+        64.565,
+        8.515,
+        66.435,
+        9.485
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "C2302",
+      "value": "100n",
+      "side": "B.Cu",
+      "bbox_mm": [
+        29.065,
+        8.515,
+        30.935,
+        9.485
+      ],
+      "has_connected_tracks": false
+    }
+  ],
+  "track_or_via_boxes_outside_guard": 293,
+  "critical_components": [
+    {
+      "ref": "J3",
+      "value": "PZ127-2-10-S",
+      "side": "F.Cu",
+      "bbox_mm": [
+        38.235,
+        4.695,
+        51.645,
+        12.305
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "U18",
+      "value": "W25Q256JVEIQTR",
+      "side": "F.Cu",
+      "bbox_mm": [
+        11.345,
+        2.955,
+        17.655,
+        13.08
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "U1",
+      "value": "RK3562",
+      "side": "F.Cu",
+      "bbox_mm": [
+        35.5,
+        12.5,
+        50.275,
+        27.275
+      ],
+      "has_connected_tracks": true
+    },
+    {
+      "ref": "U2",
+      "value": "H9HCNNN8KUMLHR-NME",
+      "side": "F.Cu",
+      "bbox_mm": [
+        24.675,
+        1.175,
+        35.325,
+        16.825
+      ],
+      "has_connected_tracks": true
+    },
+    {
+      "ref": "J2",
+      "value": "HR911130A",
+      "side": "F.Cu",
+      "bbox_mm": [
+        68.175,
+        10.625,
+        89.715,
+        29.375
+      ],
+      "has_connected_tracks": false
+    },
+    {
+      "ref": "J1",
+      "value": "2012670005",
+      "side": "F.Cu",
+      "bbox_mm": [
+        -0.395,
+        14.475,
+        8.655,
+        25.525
+      ],
+      "has_connected_tracks": true
+    },
+    {
+      "ref": "U25",
+      "value": "AP6256",
+      "side": "B.Cu",
+      "bbox_mm": [
+        54.975,
+        13.475,
+        68.025,
+        26.525
+      ],
+      "has_connected_tracks": true
+    }
+  ],
+  "additional_reservations_not_in_existing_board": [
+    "eMMC package, bypass and routing replacing SPI NOR; shared SoC pins prohibit parallel population",
+    "Display attachment and board-mounted five-way control",
+    "Polarized expansion connector, USB host, protected power and mechanical supports",
+    "Passive heat path and LTE accessory antenna/height envelope"
+  ],
+  "not_verified": [
+    "Component height and enclosure fit",
+    "Courtyard placement after relocation",
+    "DDR/USB/RF routing and impedance",
+    "Power integrity and thermal behavior"
+  ],
+  "assembly_ready": false
+}

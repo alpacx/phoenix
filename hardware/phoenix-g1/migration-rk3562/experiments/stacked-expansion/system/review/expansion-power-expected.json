@@ -1,0 +1,128 @@
+[
+  {
+    "ref": "U8101",
+    "pin": "1",
+    "pin_name": "dVdt",
+    "net": "ADDON_DVDT"
+  },
+  {
+    "ref": "U8101",
+    "pin": "2",
+    "pin_name": "EN/UVLO",
+    "net": "EXP_GPIO0"
+  },
+  {
+    "ref": "U8101",
+    "pin": "3",
+    "pin_name": "IN",
+    "net": "+5V_MAIN"
+  },
+  {
+    "ref": "U8101",
+    "pin": "4",
+    "pin_name": "IN",
+    "net": "+5V_MAIN"
+  },
+  {
+    "ref": "U8101",
+    "pin": "5",
+    "pin_name": "OUT",
+    "net": "+5V_ADDON"
+  },
+  {
+    "ref": "U8101",
+    "pin": "6",
+    "pin_name": "~{FLT}",
+    "net": "EXP_GPIO1"
+  },
+  {
+    "ref": "U8101",
+    "pin": "7",
+    "pin_name": "ILM",
+    "net": "ADDON_ILIM"
+  },
+  {
+    "ref": "U8101",
+    "pin": "8",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "U8101",
+    "pin": "9",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "R8101",
+    "pin": "1",
+    "pin_name": "",
+    "net": "ADDON_ILIM"
+  },
+  {
+    "ref": "R8101",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "R8102",
+    "pin": "1",
+    "pin_name": "",
+    "net": "EXP_GPIO1"
+  },
+  {
+    "ref": "R8102",
+    "pin": "2",
+    "pin_name": "",
+    "net": "+3V3_IO"
+  },
+  {
+    "ref": "R8103",
+    "pin": "1",
+    "pin_name": "",
+    "net": "EXP_GPIO0"
+  },
+  {
+    "ref": "R8103",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C8101",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+5V_MAIN"
+  },
+  {
+    "ref": "C8101",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C8102",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+5V_ADDON"
+  },
+  {
+    "ref": "C8102",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C8103",
+    "pin": "1",
+    "pin_name": "",
+    "net": "ADDON_DVDT"
+  },
+  {
+    "ref": "C8103",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  }
+]

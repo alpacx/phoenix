@@ -1,0 +1,1552 @@
+{
+  "status": "BOUNDED_SINGLE_PIN_GEOMETRY_SCREEN_ONLY",
+  "land_mm": 0.25,
+  "land_qualified": false,
+  "search_radius_mm": 1.5,
+  "grid_mm": 0.05,
+  "cases": [
+    {
+      "width_mm": 0.1,
+      "clearance_mm": 0.1,
+      "via_land_drill_mm": [
+        0.45,
+        0.2
+      ],
+      "individual_candidates": 60,
+      "no_candidate_in_search": [
+        "B2",
+        "B26",
+        "B3",
+        "B25",
+        "C2"
+      ],
+      "results": [
+        {
+          "signal": "LPDDR4_A0_A",
+          "soc_ball": "B10",
+          "ram_ball": "H2",
+          "straight_escape": {
+            "offset_mm": [
+              -0.45,
+              -0.45
+            ],
+            "length_mm": 0.6364
+          }
+        },
+        {
+          "signal": "LPDDR4_A0_B",
+          "soc_ball": "B18",
+          "ram_ball": "R2",
+          "straight_escape": {
+            "offset_mm": [
+              -0.45,
+              -0.45
+            ],
+            "length_mm": 0.6364
+          }
+        },
+        {
+          "signal": "LPDDR4_A1_A",
+          "soc_ball": "A10",
+          "ram_ball": "J2",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_A1_B",
+          "soc_ball": "A18",
+          "ram_ball": "P2",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_A2_A",
+          "soc_ball": "C10",
+          "ram_ball": "H9",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_A2_B",
+          "soc_ball": "C18",
+          "ram_ball": "R9",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_A3_A",
+          "soc_ball": "1A6",
+          "ram_ball": "H10",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_A3_B",
+          "soc_ball": "1A10",
+          "ram_ball": "R10",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_A4_A",
+          "soc_ball": "1B8",
+          "ram_ball": "H11",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_A4_B",
+          "soc_ball": "1A9",
+          "ram_ball": "R11",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_A5_A",
+          "soc_ball": "1A7",
+          "ram_ball": "J11",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_A5_B",
+          "soc_ball": "1A8",
+          "ram_ball": "P11",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_CKE0_A",
+          "soc_ball": "C12",
+          "ram_ball": "J4",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_CKE0_B",
+          "soc_ball": "C16",
+          "ram_ball": "P4",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_CLKN_A",
+          "soc_ball": "A13",
+          "ram_ball": "J9",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              -0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_CLKN_B",
+          "soc_ball": "A15",
+          "ram_ball": "P9",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_CLKP_A",
+          "soc_ball": "B13",
+          "ram_ball": "J8",
+          "straight_escape": {
+            "offset_mm": [
+              0.45,
+              -0.45
+            ],
+            "length_mm": 0.6364
+          }
+        },
+        {
+          "signal": "LPDDR4_CLKP_B",
+          "soc_ball": "B15",
+          "ram_ball": "P8",
+          "straight_escape": {
+            "offset_mm": [
+              -0.45,
+              -0.45
+            ],
+            "length_mm": 0.6364
+          }
+        },
+        {
+          "signal": "LPDDR4_CS0N_A",
+          "soc_ball": "B11",
+          "ram_ball": "H4",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              -0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_CS0N_B",
+          "soc_ball": "B17",
+          "ram_ball": "R4",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              -0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DM0_A",
+          "soc_ball": "B7",
+          "ram_ball": "C3",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              -0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DM0_B",
+          "soc_ball": "B21",
+          "ram_ball": "Y3",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              -0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DM1_A",
+          "soc_ball": "A2",
+          "ram_ball": "C10",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              -0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DM1_B",
+          "soc_ball": "A26",
+          "ram_ball": "Y10",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              -0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ0_A",
+          "soc_ball": "B6",
+          "ram_ball": "B2",
+          "straight_escape": {
+            "offset_mm": [
+              -0.45,
+              -0.45
+            ],
+            "length_mm": 0.6364
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ0_B",
+          "soc_ball": "B22",
+          "ram_ball": "AA2",
+          "straight_escape": {
+            "offset_mm": [
+              -0.45,
+              -0.45
+            ],
+            "length_mm": 0.6364
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ10_A",
+          "soc_ball": "B1",
+          "ram_ball": "E11",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ10_B",
+          "soc_ball": "B27",
+          "ram_ball": "V11",
+          "straight_escape": {
+            "offset_mm": [
+              0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ11_A",
+          "soc_ball": "B2",
+          "ram_ball": "F11",
+          "straight_escape": null
+        },
+        {
+          "signal": "LPDDR4_DQ11_B",
+          "soc_ball": "B26",
+          "ram_ball": "U11",
+          "straight_escape": null
+        },
+        {
+          "signal": "LPDDR4_DQ12_A",
+          "soc_ball": "A4",
+          "ram_ball": "F9",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              -0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ12_B",
+          "soc_ball": "A24",
+          "ram_ball": "U9",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ13_A",
+          "soc_ball": "B4",
+          "ram_ball": "E9",
+          "straight_escape": {
+            "offset_mm": [
+              0.45,
+              -0.45
+            ],
+            "length_mm": 0.6364
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ13_B",
+          "soc_ball": "B24",
+          "ram_ball": "V9",
+          "straight_escape": {
+            "offset_mm": [
+              -0.45,
+              -0.45
+            ],
+            "length_mm": 0.6364
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ14_A",
+          "soc_ball": "A3",
+          "ram_ball": "C9",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              -0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ14_B",
+          "soc_ball": "A25",
+          "ram_ball": "Y9",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              -0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ15_A",
+          "soc_ball": "B3",
+          "ram_ball": "B9",
+          "straight_escape": null
+        },
+        {
+          "signal": "LPDDR4_DQ15_B",
+          "soc_ball": "B25",
+          "ram_ball": "AA9",
+          "straight_escape": null
+        },
+        {
+          "signal": "LPDDR4_DQ1_A",
+          "soc_ball": "B8",
+          "ram_ball": "C2",
+          "straight_escape": {
+            "offset_mm": [
+              -0.45,
+              -0.45
+            ],
+            "length_mm": 0.6364
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ1_B",
+          "soc_ball": "B20",
+          "ram_ball": "Y2",
+          "straight_escape": {
+            "offset_mm": [
+              -0.45,
+              -0.45
+            ],
+            "length_mm": 0.6364
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ2_A",
+          "soc_ball": "A8",
+          "ram_ball": "E2",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ2_B",
+          "soc_ball": "A20",
+          "ram_ball": "V2",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ3_A",
+          "soc_ball": "C8",
+          "ram_ball": "F2",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ3_B",
+          "soc_ball": "C20",
+          "ram_ball": "U2",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ4_A",
+          "soc_ball": "C5",
+          "ram_ball": "F4",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ4_B",
+          "soc_ball": "C23",
+          "ram_ball": "U4",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ5_A",
+          "soc_ball": "B5",
+          "ram_ball": "E4",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              -0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ5_B",
+          "soc_ball": "B23",
+          "ram_ball": "V4",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              -0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ6_A",
+          "soc_ball": "A6",
+          "ram_ball": "C4",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ6_B",
+          "soc_ball": "C22",
+          "ram_ball": "Y4",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ7_A",
+          "soc_ball": "C6",
+          "ram_ball": "B4",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ7_B",
+          "soc_ball": "A22",
+          "ram_ball": "AA4",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ8_A",
+          "soc_ball": "C2",
+          "ram_ball": "B11",
+          "straight_escape": null
+        },
+        {
+          "signal": "LPDDR4_DQ8_B",
+          "soc_ball": "C26",
+          "ram_ball": "AA11",
+          "straight_escape": {
+            "offset_mm": [
+              0.45,
+              0.45
+            ],
+            "length_mm": 0.6364
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ9_A",
+          "soc_ball": "C1",
+          "ram_ball": "C11",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ9_B",
+          "soc_ball": "C27",
+          "ram_ball": "Y11",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQS0N_A",
+          "soc_ball": "1B3",
+          "ram_ball": "E3",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQS0N_B",
+          "soc_ball": "1B13",
+          "ram_ball": "V3",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQS0P_A",
+          "soc_ball": "1A3",
+          "ram_ball": "D3",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQS0P_B",
+          "soc_ball": "1A13",
+          "ram_ball": "W3",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQS1N_A",
+          "soc_ball": "1B1",
+          "ram_ball": "E10",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQS1N_B",
+          "soc_ball": "1B15",
+          "ram_ball": "V10",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQS1P_A",
+          "soc_ball": "1A1",
+          "ram_ball": "D10",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQS1P_B",
+          "soc_ball": "1A15",
+          "ram_ball": "W10",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_RESETN",
+          "soc_ball": "1B11",
+          "ram_ball": "T11",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        }
+      ]
+    },
+    {
+      "width_mm": 0.0762,
+      "clearance_mm": 0.0762,
+      "via_land_drill_mm": [
+        0.45,
+        0.2
+      ],
+      "individual_candidates": 60,
+      "no_candidate_in_search": [
+        "B2",
+        "B26",
+        "B3",
+        "B25",
+        "C2"
+      ],
+      "results": [
+        {
+          "signal": "LPDDR4_A0_A",
+          "soc_ball": "B10",
+          "ram_ball": "H2",
+          "straight_escape": {
+            "offset_mm": [
+              -0.45,
+              -0.45
+            ],
+            "length_mm": 0.6364
+          }
+        },
+        {
+          "signal": "LPDDR4_A0_B",
+          "soc_ball": "B18",
+          "ram_ball": "R2",
+          "straight_escape": {
+            "offset_mm": [
+              -0.45,
+              -0.45
+            ],
+            "length_mm": 0.6364
+          }
+        },
+        {
+          "signal": "LPDDR4_A1_A",
+          "soc_ball": "A10",
+          "ram_ball": "J2",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_A1_B",
+          "soc_ball": "A18",
+          "ram_ball": "P2",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_A2_A",
+          "soc_ball": "C10",
+          "ram_ball": "H9",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_A2_B",
+          "soc_ball": "C18",
+          "ram_ball": "R9",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_A3_A",
+          "soc_ball": "1A6",
+          "ram_ball": "H10",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_A3_B",
+          "soc_ball": "1A10",
+          "ram_ball": "R10",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_A4_A",
+          "soc_ball": "1B8",
+          "ram_ball": "H11",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_A4_B",
+          "soc_ball": "1A9",
+          "ram_ball": "R11",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_A5_A",
+          "soc_ball": "1A7",
+          "ram_ball": "J11",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_A5_B",
+          "soc_ball": "1A8",
+          "ram_ball": "P11",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_CKE0_A",
+          "soc_ball": "C12",
+          "ram_ball": "J4",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_CKE0_B",
+          "soc_ball": "C16",
+          "ram_ball": "P4",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_CLKN_A",
+          "soc_ball": "A13",
+          "ram_ball": "J9",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              -0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_CLKN_B",
+          "soc_ball": "A15",
+          "ram_ball": "P9",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_CLKP_A",
+          "soc_ball": "B13",
+          "ram_ball": "J8",
+          "straight_escape": {
+            "offset_mm": [
+              0.45,
+              -0.45
+            ],
+            "length_mm": 0.6364
+          }
+        },
+        {
+          "signal": "LPDDR4_CLKP_B",
+          "soc_ball": "B15",
+          "ram_ball": "P8",
+          "straight_escape": {
+            "offset_mm": [
+              -0.45,
+              -0.45
+            ],
+            "length_mm": 0.6364
+          }
+        },
+        {
+          "signal": "LPDDR4_CS0N_A",
+          "soc_ball": "B11",
+          "ram_ball": "H4",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              -0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_CS0N_B",
+          "soc_ball": "B17",
+          "ram_ball": "R4",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              -0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DM0_A",
+          "soc_ball": "B7",
+          "ram_ball": "C3",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              -0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DM0_B",
+          "soc_ball": "B21",
+          "ram_ball": "Y3",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              -0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DM1_A",
+          "soc_ball": "A2",
+          "ram_ball": "C10",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              -0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DM1_B",
+          "soc_ball": "A26",
+          "ram_ball": "Y10",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              -0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ0_A",
+          "soc_ball": "B6",
+          "ram_ball": "B2",
+          "straight_escape": {
+            "offset_mm": [
+              -0.45,
+              -0.45
+            ],
+            "length_mm": 0.6364
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ0_B",
+          "soc_ball": "B22",
+          "ram_ball": "AA2",
+          "straight_escape": {
+            "offset_mm": [
+              -0.45,
+              -0.45
+            ],
+            "length_mm": 0.6364
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ10_A",
+          "soc_ball": "B1",
+          "ram_ball": "E11",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ10_B",
+          "soc_ball": "B27",
+          "ram_ball": "V11",
+          "straight_escape": {
+            "offset_mm": [
+              0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ11_A",
+          "soc_ball": "B2",
+          "ram_ball": "F11",
+          "straight_escape": null
+        },
+        {
+          "signal": "LPDDR4_DQ11_B",
+          "soc_ball": "B26",
+          "ram_ball": "U11",
+          "straight_escape": null
+        },
+        {
+          "signal": "LPDDR4_DQ12_A",
+          "soc_ball": "A4",
+          "ram_ball": "F9",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              -0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ12_B",
+          "soc_ball": "A24",
+          "ram_ball": "U9",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ13_A",
+          "soc_ball": "B4",
+          "ram_ball": "E9",
+          "straight_escape": {
+            "offset_mm": [
+              0.45,
+              -0.45
+            ],
+            "length_mm": 0.6364
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ13_B",
+          "soc_ball": "B24",
+          "ram_ball": "V9",
+          "straight_escape": {
+            "offset_mm": [
+              -0.45,
+              -0.45
+            ],
+            "length_mm": 0.6364
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ14_A",
+          "soc_ball": "A3",
+          "ram_ball": "C9",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              -0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ14_B",
+          "soc_ball": "A25",
+          "ram_ball": "Y9",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              -0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ15_A",
+          "soc_ball": "B3",
+          "ram_ball": "B9",
+          "straight_escape": null
+        },
+        {
+          "signal": "LPDDR4_DQ15_B",
+          "soc_ball": "B25",
+          "ram_ball": "AA9",
+          "straight_escape": null
+        },
+        {
+          "signal": "LPDDR4_DQ1_A",
+          "soc_ball": "B8",
+          "ram_ball": "C2",
+          "straight_escape": {
+            "offset_mm": [
+              -0.45,
+              -0.45
+            ],
+            "length_mm": 0.6364
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ1_B",
+          "soc_ball": "B20",
+          "ram_ball": "Y2",
+          "straight_escape": {
+            "offset_mm": [
+              -0.45,
+              -0.45
+            ],
+            "length_mm": 0.6364
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ2_A",
+          "soc_ball": "A8",
+          "ram_ball": "E2",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ2_B",
+          "soc_ball": "A20",
+          "ram_ball": "V2",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ3_A",
+          "soc_ball": "C8",
+          "ram_ball": "F2",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ3_B",
+          "soc_ball": "C20",
+          "ram_ball": "U2",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ4_A",
+          "soc_ball": "C5",
+          "ram_ball": "F4",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ4_B",
+          "soc_ball": "C23",
+          "ram_ball": "U4",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ5_A",
+          "soc_ball": "B5",
+          "ram_ball": "E4",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              -0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ5_B",
+          "soc_ball": "B23",
+          "ram_ball": "V4",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              -0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ6_A",
+          "soc_ball": "A6",
+          "ram_ball": "C4",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ6_B",
+          "soc_ball": "C22",
+          "ram_ball": "Y4",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ7_A",
+          "soc_ball": "C6",
+          "ram_ball": "B4",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ7_B",
+          "soc_ball": "A22",
+          "ram_ball": "AA4",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ8_A",
+          "soc_ball": "C2",
+          "ram_ball": "B11",
+          "straight_escape": null
+        },
+        {
+          "signal": "LPDDR4_DQ8_B",
+          "soc_ball": "C26",
+          "ram_ball": "AA11",
+          "straight_escape": {
+            "offset_mm": [
+              0.45,
+              0.45
+            ],
+            "length_mm": 0.6364
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ9_A",
+          "soc_ball": "C1",
+          "ram_ball": "C11",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQ9_B",
+          "soc_ball": "C27",
+          "ram_ball": "Y11",
+          "straight_escape": {
+            "offset_mm": [
+              0.0,
+              0.15
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQS0N_A",
+          "soc_ball": "1B3",
+          "ram_ball": "E3",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQS0N_B",
+          "soc_ball": "1B13",
+          "ram_ball": "V3",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQS0P_A",
+          "soc_ball": "1A3",
+          "ram_ball": "D3",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQS0P_B",
+          "soc_ball": "1A13",
+          "ram_ball": "W3",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQS1N_A",
+          "soc_ball": "1B1",
+          "ram_ball": "E10",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQS1N_B",
+          "soc_ball": "1B15",
+          "ram_ball": "V10",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQS1P_A",
+          "soc_ball": "1A1",
+          "ram_ball": "D10",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_DQS1P_B",
+          "soc_ball": "1A15",
+          "ram_ball": "W10",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        },
+        {
+          "signal": "LPDDR4_RESETN",
+          "soc_ball": "1B11",
+          "ram_ball": "T11",
+          "straight_escape": {
+            "offset_mm": [
+              -0.15,
+              0.0
+            ],
+            "length_mm": 0.15
+          }
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Straight segments only; lack of a candidate does not establish impossibility",
+    "Independent pins: candidate via and trace collisions with each other not checked",
+    "No neighboring components, power fanout or planes",
+    "3mil clearance requires exact fabrication process confirmation",
+    "Not an impedance or simultaneous routing result"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "decision_date": "2026-11-12",
+  "source": "Explicit user instruction: target 85x35 PCB and save this objective",
+  "target_pcb_mm": [85, 35],
+  "status": "USER_TARGET_NOT_VALIDATED_FIT",
+  "verified_checkpoint_outline_mm": [90, 40],
+  "checkpoint": "migration-rk3562/experiments/lpddr4-1gb/working-board.json",
+  "requirements": [
+    "Retain RK3562 and current 1 GB LPDDR4 direction",
+    "Soldered flash for Linux: eMMC candidate, not yet integrated; existing SPI NOR is not sufficient for the planned distribution",
+    "Gigabit Ethernet, detachable USB-C power/device link and Wi-Fi with external antenna connection",
+    "Non-touch color display and board-mounted five-way control",
+    "One replacement expansion connector for a stacked accessory, with USB host and protected power to be designed",
+    "Passive cooling; accessory height ideally within Ethernet connector height, not yet verified",
+    "LTE/eSIM accessory deferred; no modem integration in the base board"
+  ],
+  "alternative_pcb_mm": [90, 30],
+  "alternative_status": "NOT_PROVEN_IMPOSSIBLE; tighter width and less area; not the selected target",
+  "screening_limits": "Existing footprint bounding-box cropping only, not a complete placement or routing proof. eMMC, final expansion connector, display/control mounting and thermal/mechanical volumes remain to be included.",
+  "enclosure_dimensions": "Not defined; PCB dimensions do not include case walls or connector protrusions",
+  "assembly_ready": false
+}

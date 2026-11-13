@@ -1,0 +1,217 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-13T11:13:25",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.7",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/62aceef6-2925-56d5-9295-05edb9167126",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U8001 Pin A6 [VSS, Ingresso potenza, Linea]",
+                            "pos": {
+                                "x": 134.62,
+                                "y": 49.53
+                            },
+                            "uuid": "8b97c9cf-066d-491c-b62f-61040b414f25"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U8001 Pin C6 [VCCQ, Ingresso potenza, Linea]",
+                            "pos": {
+                                "x": 134.62,
+                                "y": 57.15
+                            },
+                            "uuid": "ee1b051f-4e68-40b7-9bca-3e6eaae17991"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U8001 Pin E6 [VCC, Ingresso potenza, Linea]",
+                            "pos": {
+                                "x": 134.62,
+                                "y": 59.69
+                            },
+                            "uuid": "7ac26c82-2ad6-4400-9f57-a0481f913424"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"EMMC_D1\"",
+                            "pos": {
+                                "x": 49.53,
+                                "y": 52.07
+                            },
+                            "uuid": "587a1529-a36f-5d00-b6d8-0b4519e679fa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"EMMC_D2\"",
+                            "pos": {
+                                "x": 49.53,
+                                "y": 54.61
+                            },
+                            "uuid": "8df9d0e2-f3ad-5fdc-91d2-9621581a7cf4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"EMMC_D3\"",
+                            "pos": {
+                                "x": 49.53,
+                                "y": 57.15
+                            },
+                            "uuid": "71edf422-c135-581d-beb9-48a55518a333"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"EMMC_D4\"",
+                            "pos": {
+                                "x": 49.53,
+                                "y": 59.69
+                            },
+                            "uuid": "73eb082e-dc22-53b2-8a4b-290bab531345"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"EMMC_D5\"",
+                            "pos": {
+                                "x": 49.53,
+                                "y": 62.23
+                            },
+                            "uuid": "fad91ec9-40fe-5b81-be5c-35e2ab2f7812"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"EMMC_D6\"",
+                            "pos": {
+                                "x": 49.53,
+                                "y": 64.77
+                            },
+                            "uuid": "fd19921a-0976-5e6a-9061-b79aa0f06c10"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"EMMC_D7\"",
+                            "pos": {
+                                "x": 49.53,
+                                "y": 67.31
+                            },
+                            "uuid": "eab772f8-db1a-51ca-a9fa-3086f7df30bf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"EMMC_STRB\"",
+                            "pos": {
+                                "x": 49.53,
+                                "y": 69.85
+                            },
+                            "uuid": "db01b160-fbaf-522b-8817-a9514cf1ac86"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"SOC_EMMC_CLK\"",
+                            "pos": {
+                                "x": 219.71,
+                                "y": 190.5
+                            },
+                            "uuid": "c778958c-fcfc-56f6-bba8-7b33f15b2833"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                }
+            ]
+        }
+    ],
+    "source": "emmc-storage-candidate.kicad_sch"
+}

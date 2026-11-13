@@ -1,0 +1,452 @@
+[
+  {
+    "ref": "U5",
+    "pin": "1",
+    "pin_name": "MDIP0",
+    "net": "ETH_MDI0_P"
+  },
+  {
+    "ref": "U5",
+    "pin": "2",
+    "pin_name": "MDIN0",
+    "net": "ETH_MDI0_N"
+  },
+  {
+    "ref": "U5",
+    "pin": "3",
+    "pin_name": "AVDD10",
+    "net": "+1V0_PHY"
+  },
+  {
+    "ref": "U5",
+    "pin": "4",
+    "pin_name": "MDIP1",
+    "net": "ETH_MDI1_P"
+  },
+  {
+    "ref": "U5",
+    "pin": "5",
+    "pin_name": "MDIN1",
+    "net": "ETH_MDI1_N"
+  },
+  {
+    "ref": "U5",
+    "pin": "6",
+    "pin_name": "MDIP2",
+    "net": "ETH_MDI2_P"
+  },
+  {
+    "ref": "U5",
+    "pin": "7",
+    "pin_name": "MDIN2",
+    "net": "ETH_MDI2_N"
+  },
+  {
+    "ref": "U5",
+    "pin": "8",
+    "pin_name": "AVDD10",
+    "net": "+1V0_PHY"
+  },
+  {
+    "ref": "U5",
+    "pin": "9",
+    "pin_name": "MDIP3",
+    "net": "ETH_MDI3_P"
+  },
+  {
+    "ref": "U5",
+    "pin": "10",
+    "pin_name": "MDIN3",
+    "net": "ETH_MDI3_N"
+  },
+  {
+    "ref": "U5",
+    "pin": "11",
+    "pin_name": "AVDD33",
+    "net": "+3V3_PHY"
+  },
+  {
+    "ref": "U5",
+    "pin": "12",
+    "pin_name": "PHYRSTB",
+    "net": "PHY_RESET_N"
+  },
+  {
+    "ref": "U5",
+    "pin": "13",
+    "pin_name": "MDC",
+    "net": "ETH_MDC"
+  },
+  {
+    "ref": "U5",
+    "pin": "14",
+    "pin_name": "MDIO",
+    "net": "ETH_MDIO"
+  },
+  {
+    "ref": "U5",
+    "pin": "15",
+    "pin_name": "TXD3",
+    "net": "PHY_TXD3"
+  },
+  {
+    "ref": "U5",
+    "pin": "16",
+    "pin_name": "TXD2",
+    "net": "PHY_TXD2"
+  },
+  {
+    "ref": "U5",
+    "pin": "17",
+    "pin_name": "TXD1",
+    "net": "PHY_TXD1"
+  },
+  {
+    "ref": "U5",
+    "pin": "18",
+    "pin_name": "TXD0",
+    "net": "PHY_TXD0"
+  },
+  {
+    "ref": "U5",
+    "pin": "19",
+    "pin_name": "TXCTL",
+    "net": "PHY_TXEN"
+  },
+  {
+    "ref": "U5",
+    "pin": "20",
+    "pin_name": "TXC",
+    "net": "PHY_TXCLK"
+  },
+  {
+    "ref": "U5",
+    "pin": "21",
+    "pin_name": "DVDD10",
+    "net": "+1V0_PHY"
+  },
+  {
+    "ref": "U5",
+    "pin": "22",
+    "pin_name": "PHYAD0/RXD3",
+    "net": "PHY_RXD3"
+  },
+  {
+    "ref": "U5",
+    "pin": "23",
+    "pin_name": "PLLOFF/RXD2",
+    "net": "PHY_RXD2"
+  },
+  {
+    "ref": "U5",
+    "pin": "24",
+    "pin_name": "TXDLY/RXD1",
+    "net": "PHY_RXD1"
+  },
+  {
+    "ref": "U5",
+    "pin": "25",
+    "pin_name": "RXDLY/RXD0",
+    "net": "PHY_RXD0"
+  },
+  {
+    "ref": "U5",
+    "pin": "26",
+    "pin_name": "PHYAD2/RXCTL",
+    "net": "PHY_RXDV_CRS"
+  },
+  {
+    "ref": "U5",
+    "pin": "27",
+    "pin_name": "PHYAD1/RXC",
+    "net": "PHY_RXCLK"
+  },
+  {
+    "ref": "U5",
+    "pin": "28",
+    "pin_name": "DVDD_RG",
+    "net": "+3V3_PHY"
+  },
+  {
+    "ref": "U5",
+    "pin": "29",
+    "pin_name": "DVDD33",
+    "net": "+3V3_PHY"
+  },
+  {
+    "ref": "U5",
+    "pin": "30",
+    "pin_name": "REG_OUT/LDO_OUT",
+    "net": "PHY_SW"
+  },
+  {
+    "ref": "U5",
+    "pin": "31",
+    "pin_name": "INTB/PMEB",
+    "net": null
+  },
+  {
+    "ref": "U5",
+    "pin": "32",
+    "pin_name": "CFG_EXT/LED0",
+    "net": "PHY_CFG_EXT"
+  },
+  {
+    "ref": "U5",
+    "pin": "33",
+    "pin_name": "CFG_LDO0/LED1",
+    "net": "PHY_CFG_LDO0"
+  },
+  {
+    "ref": "U5",
+    "pin": "34",
+    "pin_name": "CFG_LDO1/LED2",
+    "net": "PHY_CFG_LDO1"
+  },
+  {
+    "ref": "U5",
+    "pin": "35",
+    "pin_name": "CLKOUT",
+    "net": null
+  },
+  {
+    "ref": "U5",
+    "pin": "36",
+    "pin_name": "XTAL_IN",
+    "net": "PHY_XIN"
+  },
+  {
+    "ref": "U5",
+    "pin": "37",
+    "pin_name": "XTAL_OUT/EXT_CLK",
+    "net": "PHY_XOUT"
+  },
+  {
+    "ref": "U5",
+    "pin": "38",
+    "pin_name": "AVDD10",
+    "net": "+1V0_PHY"
+  },
+  {
+    "ref": "U5",
+    "pin": "39",
+    "pin_name": "RSET",
+    "net": "PHY_RSET"
+  },
+  {
+    "ref": "U5",
+    "pin": "40",
+    "pin_name": "AVDD33",
+    "net": "+3V3_PHY"
+  },
+  {
+    "ref": "U5",
+    "pin": "41",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "R501",
+    "pin": "1",
+    "pin_name": "",
+    "net": "ETH_TXD0"
+  },
+  {
+    "ref": "R501",
+    "pin": "2",
+    "pin_name": "",
+    "net": "PHY_TXD0"
+  },
+  {
+    "ref": "R502",
+    "pin": "1",
+    "pin_name": "",
+    "net": "ETH_TXD1"
+  },
+  {
+    "ref": "R502",
+    "pin": "2",
+    "pin_name": "",
+    "net": "PHY_TXD1"
+  },
+  {
+    "ref": "R503",
+    "pin": "1",
+    "pin_name": "",
+    "net": "ETH_TXD2"
+  },
+  {
+    "ref": "R503",
+    "pin": "2",
+    "pin_name": "",
+    "net": "PHY_TXD2"
+  },
+  {
+    "ref": "R504",
+    "pin": "1",
+    "pin_name": "",
+    "net": "ETH_TXD3"
+  },
+  {
+    "ref": "R504",
+    "pin": "2",
+    "pin_name": "",
+    "net": "PHY_TXD3"
+  },
+  {
+    "ref": "R505",
+    "pin": "1",
+    "pin_name": "",
+    "net": "ETH_TXEN"
+  },
+  {
+    "ref": "R505",
+    "pin": "2",
+    "pin_name": "",
+    "net": "PHY_TXEN"
+  },
+  {
+    "ref": "R506",
+    "pin": "1",
+    "pin_name": "",
+    "net": "ETH_TXCLK"
+  },
+  {
+    "ref": "R506",
+    "pin": "2",
+    "pin_name": "",
+    "net": "PHY_TXCLK"
+  },
+  {
+    "ref": "R507",
+    "pin": "1",
+    "pin_name": "",
+    "net": "ETH_RXD0"
+  },
+  {
+    "ref": "R507",
+    "pin": "2",
+    "pin_name": "",
+    "net": "PHY_RXD0"
+  },
+  {
+    "ref": "R508",
+    "pin": "1",
+    "pin_name": "",
+    "net": "ETH_RXD1"
+  },
+  {
+    "ref": "R508",
+    "pin": "2",
+    "pin_name": "",
+    "net": "PHY_RXD1"
+  },
+  {
+    "ref": "R509",
+    "pin": "1",
+    "pin_name": "",
+    "net": "ETH_RXD2"
+  },
+  {
+    "ref": "R509",
+    "pin": "2",
+    "pin_name": "",
+    "net": "PHY_RXD2"
+  },
+  {
+    "ref": "R510",
+    "pin": "1",
+    "pin_name": "",
+    "net": "ETH_RXD3"
+  },
+  {
+    "ref": "R510",
+    "pin": "2",
+    "pin_name": "",
+    "net": "PHY_RXD3"
+  },
+  {
+    "ref": "R511",
+    "pin": "1",
+    "pin_name": "",
+    "net": "ETH_RXDV_CRS"
+  },
+  {
+    "ref": "R511",
+    "pin": "2",
+    "pin_name": "",
+    "net": "PHY_RXDV_CRS"
+  },
+  {
+    "ref": "R512",
+    "pin": "1",
+    "pin_name": "",
+    "net": "ETH_RXCLK"
+  },
+  {
+    "ref": "R512",
+    "pin": "2",
+    "pin_name": "",
+    "net": "PHY_RXCLK"
+  },
+  {
+    "ref": "R513",
+    "pin": "1",
+    "pin_name": "",
+    "net": "PHY_RSET"
+  },
+  {
+    "ref": "R513",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "R514",
+    "pin": "1",
+    "pin_name": "",
+    "net": "ETH_MDIO"
+  },
+  {
+    "ref": "R514",
+    "pin": "2",
+    "pin_name": "",
+    "net": "+3V3_PHY"
+  },
+  {
+    "ref": "R515",
+    "pin": "1",
+    "pin_name": "",
+    "net": "ETH_RESET_GPIO_N"
+  },
+  {
+    "ref": "R515",
+    "pin": "2",
+    "pin_name": "",
+    "net": "PHY_RESET_N"
+  },
+  {
+    "ref": "R516",
+    "pin": "1",
+    "pin_name": "",
+    "net": "PHY_RESET_N"
+  },
+  {
+    "ref": "R516",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C501",
+    "pin": "1",
+    "pin_name": "",
+    "net": "PHY_RESET_N"
+  },
+  {
+    "ref": "C501",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  }
+]

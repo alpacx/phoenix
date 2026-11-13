@@ -1,0 +1,116 @@
+[
+  {
+    "ref": "U15",
+    "pin": "1",
+    "pin_name": "dVdt",
+    "net": "USB_DVDT"
+  },
+  {
+    "ref": "U15",
+    "pin": "2",
+    "pin_name": "EN/UVLO",
+    "net": "USB_MAIN_ENABLE"
+  },
+  {
+    "ref": "U15",
+    "pin": "3",
+    "pin_name": "IN",
+    "net": "VBUS_PROTECTED"
+  },
+  {
+    "ref": "U15",
+    "pin": "4",
+    "pin_name": "IN",
+    "net": "VBUS_PROTECTED"
+  },
+  {
+    "ref": "U15",
+    "pin": "5",
+    "pin_name": "OUT",
+    "net": "+5V_MAIN"
+  },
+  {
+    "ref": "U15",
+    "pin": "6",
+    "pin_name": "~{FLT}",
+    "net": "USB_POWER_FAULT_N"
+  },
+  {
+    "ref": "U15",
+    "pin": "7",
+    "pin_name": "ILM",
+    "net": "USB_ILIM"
+  },
+  {
+    "ref": "U15",
+    "pin": "8",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "U15",
+    "pin": "9",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "R1201",
+    "pin": "1",
+    "pin_name": "",
+    "net": "USB_ILIM"
+  },
+  {
+    "ref": "R1201",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "R1202",
+    "pin": "1",
+    "pin_name": "",
+    "net": "USB_POWER_FAULT_N"
+  },
+  {
+    "ref": "R1202",
+    "pin": "2",
+    "pin_name": "",
+    "net": "+3V3_AON"
+  },
+  {
+    "ref": "C1201",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VBUS_PROTECTED"
+  },
+  {
+    "ref": "C1201",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C1202",
+    "pin": "1",
+    "pin_name": "",
+    "net": "USB_DVDT"
+  },
+  {
+    "ref": "C1202",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C1203",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+5V_MAIN"
+  },
+  {
+    "ref": "C1203",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  }
+]
