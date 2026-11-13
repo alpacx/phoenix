@@ -1,0 +1,63 @@
+{
+  "status": "LOCAL_BLOCK_CONTINUITY_AND_GEOMETRY_CHECKED",
+  "sha256": "ce6c832808c3975c83ff10cdbd78face2b50fa571e33459dbebfe0636d8421d2",
+  "verified_connections": [
+    [
+      "U8101.7",
+      "R8101.1"
+    ],
+    [
+      "U8101.1",
+      "C8103.1"
+    ],
+    [
+      "U8101.2",
+      "R8103.1"
+    ],
+    [
+      "U8101.6",
+      "R8102.1"
+    ],
+    [
+      "U8101.3",
+      "C8101.1"
+    ],
+    [
+      "U8101.4",
+      "C8101.1"
+    ],
+    [
+      "U8101.5",
+      "C8102.1"
+    ]
+  ],
+  "ground_reference": "U4.69 exposed pad",
+  "other_PMIC_ground_pins_remain_unrouted": true,
+  "ground_pads_verified": 7,
+  "connected_to_existing_PMIC_ground": true,
+  "mechanical_copper_reservations_enforced": [
+    "H8101 mechanical reservation",
+    "H8102 mechanical reservation",
+    "H8103 mechanical reservation",
+    "H8104 mechanical reservation",
+    "H8105 mechanical reservation"
+  ],
+  "original_pad_nets_preserved": true,
+  "original_tracks_vias_preserved": 2460,
+  "new_tracks_vias": 1044,
+  "drc_categories": {
+    "via_dangling": 125,
+    "silk_edge_clearance": 1,
+    "silk_overlap": 3,
+    "silk_over_copper": 10
+  },
+  "input_feed_connected": true,
+  "output_J3_connected": true,
+  "GPIO_to_SoC_connected": true,
+  "fault_pullup_supply_connected": true,
+  "J3_ground_connected": true,
+  "J3_logic_reference_connected": true,
+  "USB_routed": false,
+  "current_and_thermal_qualified": false,
+  "assembly_ready": false
+}

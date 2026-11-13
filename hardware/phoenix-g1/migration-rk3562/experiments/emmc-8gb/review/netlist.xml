@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/emmc-8gb/kicad/emmc-storage-candidate.kicad_sch</source>
-    <date>2026-11-13T11:13:33</date>
+    <date>2026-11-13T17:45:34</date>
     <tool>Eeschema 10.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -249,6 +249,31 @@
         </unit>
       </units>
     </comp>
+    <comp ref="C8010">
+      <value>100n VCCIO2 at SoC candidate</value>
+      <fields>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_eMMC_Draft" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="emmc-storage-candidate"/>
+      <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>deb27aeb-2525-5795-bb83-f1b1335f7c2e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
     <comp ref="R8001">
       <value>10k candidate</value>
       <fields>
@@ -340,6 +365,31 @@
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>04c02914-4261-5486-b9a9-3add0960bd60</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8005">
+      <value>47k candidate</value>
+      <fields>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_eMMC_Draft" part="R" description="Resistor"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="emmc-storage-candidate"/>
+      <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0107b692-53c1-5479-ac41-370aa72f6081</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -795,6 +845,7 @@
       <node ref="C8004" pin="1" pintype="passive"/>
       <node ref="C8005" pin="1" pintype="passive"/>
       <node ref="C8006" pin="1" pintype="passive"/>
+      <node ref="C8010" pin="1" pintype="passive"/>
       <node ref="R8001" pin="1" pintype="passive"/>
       <node ref="R8002" pin="1" pintype="passive"/>
       <node ref="R8003" pin="1" pintype="passive"/>
@@ -809,6 +860,7 @@
       <node ref="U8001" pin="K5" pinfunction="RSTN_K5" pintype="input"/>
     </net>
     <net code="14" name="/EMMC_STRB" class="Default">
+      <node ref="R8005" pin="1" pintype="passive"/>
       <node ref="U8001" pin="H5" pinfunction="STRB_H5" pintype="output"/>
     </net>
     <net code="15" name="/EMMC_VDDI" class="Default">
@@ -825,6 +877,8 @@
       <node ref="C8007" pin="2" pintype="passive"/>
       <node ref="C8008" pin="2" pintype="passive"/>
       <node ref="C8009" pin="2" pintype="passive"/>
+      <node ref="C8010" pin="2" pintype="passive"/>
+      <node ref="R8005" pin="2" pintype="passive"/>
       <node ref="U8001" pin="A6" pinfunction="VSS_A6" pintype="power_in"/>
       <node ref="U8001" pin="C4" pinfunction="VSS_C4" pintype="power_in"/>
       <node ref="U8001" pin="E7" pinfunction="VSS_E7" pintype="power_in"/>

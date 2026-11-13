@@ -1,0 +1,31 @@
+{
+  "status": "LOCAL_CAPACITOR_BRANCHES_PENDING_DRC",
+  "routes": [
+    {
+      "from": "U8101.3",
+      "to": "C8101.1",
+      "net": "+5V_MAIN",
+      "length_mm": 2.1235193674730466,
+      "width_mm": 0.3
+    },
+    {
+      "from": "U8101.4",
+      "to": "C8101.1",
+      "net": "+5V_MAIN",
+      "length_mm": 1.9568124086713121,
+      "width_mm": 0.3
+    },
+    {
+      "from": "U8101.5",
+      "to": "C8102.1",
+      "net": "+5V_ADDON",
+      "length_mm": 2.819999999999993,
+      "width_mm": 0.3
+    }
+  ],
+  "sha256": "e04804d7c02571f9d37ef97ab43768cbd996ecabd042ce0d432619c4e0a8a39f",
+  "input_source_connected": false,
+  "J3_power_connected": false,
+  "current_rating_qualified": false,
+  "assembly_ready": false
+}

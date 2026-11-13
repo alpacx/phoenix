@@ -1,0 +1,122 @@
+[
+  {
+    "ref": "U20",
+    "pin": "1",
+    "pin_name": "IN",
+    "net": "+5V_MAIN"
+  },
+  {
+    "ref": "U20",
+    "pin": "2",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "U20",
+    "pin": "3",
+    "pin_name": "EN",
+    "net": "+3V3_IO"
+  },
+  {
+    "ref": "U20",
+    "pin": "4",
+    "pin_name": "N/C",
+    "net": null
+  },
+  {
+    "ref": "U20",
+    "pin": "5",
+    "pin_name": "OUT",
+    "net": "+3V0_LCD"
+  },
+  {
+    "ref": "C1801",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+5V_MAIN"
+  },
+  {
+    "ref": "C1801",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C1802",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V0_LCD"
+  },
+  {
+    "ref": "C1802",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "Q1",
+    "pin": "3",
+    "pin_name": "C",
+    "net": "LCD_LEDK"
+  },
+  {
+    "ref": "Q1",
+    "pin": "1",
+    "pin_name": "B",
+    "net": "LCD_BL_BASE"
+  },
+  {
+    "ref": "Q1",
+    "pin": "2",
+    "pin_name": "E",
+    "net": "GND"
+  },
+  {
+    "ref": "R1801",
+    "pin": "1",
+    "pin_name": "",
+    "net": "LCD_BL_PWM"
+  },
+  {
+    "ref": "R1801",
+    "pin": "2",
+    "pin_name": "",
+    "net": "LCD_BL_BASE"
+  },
+  {
+    "ref": "R1802",
+    "pin": "1",
+    "pin_name": "",
+    "net": "LCD_BL_BASE"
+  },
+  {
+    "ref": "R1802",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "R1803",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+5V_MAIN"
+  },
+  {
+    "ref": "R1803",
+    "pin": "2",
+    "pin_name": "",
+    "net": "LCD_LEDA"
+  },
+  {
+    "ref": "R1804",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V3_IO"
+  },
+  {
+    "ref": "R1804",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  }
+]

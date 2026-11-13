@@ -1,0 +1,584 @@
+[
+  {
+    "ref": "U4",
+    "pin": "1",
+    "pin_name": "SCL",
+    "net": "PMIC_SCL"
+  },
+  {
+    "ref": "U4",
+    "pin": "2",
+    "pin_name": "SDA",
+    "net": "PMIC_SDA"
+  },
+  {
+    "ref": "U4",
+    "pin": "3",
+    "pin_name": "LDO7",
+    "net": "VCCA_1V8"
+  },
+  {
+    "ref": "U4",
+    "pin": "4",
+    "pin_name": "VCC7",
+    "net": "+3V3_SYS"
+  },
+  {
+    "ref": "U4",
+    "pin": "5",
+    "pin_name": "LDO8",
+    "net": "VCCA1V8_PMU"
+  },
+  {
+    "ref": "U4",
+    "pin": "6",
+    "pin_name": "LDO9",
+    "net": "VCCA1V8_IMAGE"
+  },
+  {
+    "ref": "U4",
+    "pin": "7",
+    "pin_name": "INT",
+    "net": "PMIC_INT_N"
+  },
+  {
+    "ref": "U4",
+    "pin": "8",
+    "pin_name": "FB2",
+    "net": "VDD_GPU_COM"
+  },
+  {
+    "ref": "U4",
+    "pin": "9",
+    "pin_name": "SW2",
+    "net": "PMIC_SW2"
+  },
+  {
+    "ref": "U4",
+    "pin": "10",
+    "pin_name": "VCC2",
+    "net": "+3V3_SYS"
+  },
+  {
+    "ref": "U4",
+    "pin": "11",
+    "pin_name": "VCC1",
+    "net": "+3V3_SYS"
+  },
+  {
+    "ref": "U4",
+    "pin": "12",
+    "pin_name": "SW1",
+    "net": "PMIC_SW1"
+  },
+  {
+    "ref": "U4",
+    "pin": "13",
+    "pin_name": "FB1",
+    "net": "VDD_LOGIC_COM"
+  },
+  {
+    "ref": "U4",
+    "pin": "14",
+    "pin_name": "LRCLK",
+    "net": "GND"
+  },
+  {
+    "ref": "U4",
+    "pin": "15",
+    "pin_name": "BCLK",
+    "net": "GND"
+  },
+  {
+    "ref": "U4",
+    "pin": "16",
+    "pin_name": "MCLK",
+    "net": "GND"
+  },
+  {
+    "ref": "U4",
+    "pin": "17",
+    "pin_name": "SDI",
+    "net": "GND"
+  },
+  {
+    "ref": "U4",
+    "pin": "18",
+    "pin_name": "SDO/PDMDATA",
+    "net": null
+  },
+  {
+    "ref": "U4",
+    "pin": "19",
+    "pin_name": "PDMCLK",
+    "net": "GND"
+  },
+  {
+    "ref": "U4",
+    "pin": "20",
+    "pin_name": "LDO3",
+    "net": "VDDA0V9_PMU"
+  },
+  {
+    "ref": "U4",
+    "pin": "21",
+    "pin_name": "LDO2",
+    "net": "VDDA_0V9"
+  },
+  {
+    "ref": "U4",
+    "pin": "22",
+    "pin_name": "VCC5",
+    "net": "+3V3_SYS"
+  },
+  {
+    "ref": "U4",
+    "pin": "23",
+    "pin_name": "LDO1",
+    "net": "VDDA0V9_IMAGE"
+  },
+  {
+    "ref": "U4",
+    "pin": "24",
+    "pin_name": "VCC3",
+    "net": "+3V3_SYS"
+  },
+  {
+    "ref": "U4",
+    "pin": "25",
+    "pin_name": "SW3",
+    "net": "PMIC_SW3"
+  },
+  {
+    "ref": "U4",
+    "pin": "26",
+    "pin_name": "VBUCK3",
+    "net": "+1V1_LPDDR4"
+  },
+  {
+    "ref": "U4",
+    "pin": "27",
+    "pin_name": "FB3",
+    "net": "DDR_FB"
+  },
+  {
+    "ref": "U4",
+    "pin": "28",
+    "pin_name": "LDO4",
+    "net": "VCCIO_ACODEC"
+  },
+  {
+    "ref": "U4",
+    "pin": "29",
+    "pin_name": "LDO5",
+    "net": "VCCIO_SD"
+  },
+  {
+    "ref": "U4",
+    "pin": "30",
+    "pin_name": "VCC6",
+    "net": "+3V3_SYS"
+  },
+  {
+    "ref": "U4",
+    "pin": "31",
+    "pin_name": "LDO6",
+    "net": "+3V3_PMU"
+  },
+  {
+    "ref": "U4",
+    "pin": "32",
+    "pin_name": "SPKP_OUT",
+    "net": null
+  },
+  {
+    "ref": "U4",
+    "pin": "33",
+    "pin_name": "VCC_SPK_HP",
+    "net": "+3V3_SYS"
+  },
+  {
+    "ref": "U4",
+    "pin": "34",
+    "pin_name": "SPKN_OUT",
+    "net": null
+  },
+  {
+    "ref": "U4",
+    "pin": "35",
+    "pin_name": "VCC_CPVSS",
+    "net": null
+  },
+  {
+    "ref": "U4",
+    "pin": "36",
+    "pin_name": "CPN",
+    "net": null
+  },
+  {
+    "ref": "U4",
+    "pin": "37",
+    "pin_name": "CPP",
+    "net": null
+  },
+  {
+    "ref": "U4",
+    "pin": "38",
+    "pin_name": "VCC_CPVDD",
+    "net": null
+  },
+  {
+    "ref": "U4",
+    "pin": "39",
+    "pin_name": "HPL_OUT",
+    "net": null
+  },
+  {
+    "ref": "U4",
+    "pin": "40",
+    "pin_name": "HP_SNS",
+    "net": "GND"
+  },
+  {
+    "ref": "U4",
+    "pin": "41",
+    "pin_name": "HPR_OUT",
+    "net": null
+  },
+  {
+    "ref": "U4",
+    "pin": "42",
+    "pin_name": "MICIN",
+    "net": null
+  },
+  {
+    "ref": "U4",
+    "pin": "43",
+    "pin_name": "MICIP",
+    "net": null
+  },
+  {
+    "ref": "U4",
+    "pin": "44",
+    "pin_name": "VCC_1P8A",
+    "net": "PMIC_1V8A"
+  },
+  {
+    "ref": "U4",
+    "pin": "45",
+    "pin_name": "VCC_RTC",
+    "net": "+3V3_SYS"
+  },
+  {
+    "ref": "U4",
+    "pin": "46",
+    "pin_name": "VREF",
+    "net": "PMIC_VREF"
+  },
+  {
+    "ref": "U4",
+    "pin": "47",
+    "pin_name": "GNDREF",
+    "net": "GND"
+  },
+  {
+    "ref": "U4",
+    "pin": "48",
+    "pin_name": "VCC_1P8D",
+    "net": "PMIC_1V8D"
+  },
+  {
+    "ref": "U4",
+    "pin": "49",
+    "pin_name": "SLEEP",
+    "net": "PMIC_SLEEP"
+  },
+  {
+    "ref": "U4",
+    "pin": "50",
+    "pin_name": "XIN",
+    "net": null
+  },
+  {
+    "ref": "U4",
+    "pin": "51",
+    "pin_name": "XOUT",
+    "net": null
+  },
+  {
+    "ref": "U4",
+    "pin": "52",
+    "pin_name": "PWRON",
+    "net": "PMIC_PWRON_N"
+  },
+  {
+    "ref": "U4",
+    "pin": "53",
+    "pin_name": "SW5",
+    "net": "PMIC_SW5"
+  },
+  {
+    "ref": "U4",
+    "pin": "54",
+    "pin_name": "VCC9",
+    "net": "+3V3_SYS"
+  },
+  {
+    "ref": "U4",
+    "pin": "55",
+    "pin_name": "SWOUT1",
+    "net": "+3V3_IO"
+  },
+  {
+    "ref": "U4",
+    "pin": "56",
+    "pin_name": "BATDIV",
+    "net": "GND"
+  },
+  {
+    "ref": "U4",
+    "pin": "57",
+    "pin_name": "VCC8",
+    "net": "+3V3_SYS"
+  },
+  {
+    "ref": "U4",
+    "pin": "58",
+    "pin_name": "SWOUT2",
+    "net": "+3V3_SD"
+  },
+  {
+    "ref": "U4",
+    "pin": "59",
+    "pin_name": "FB5",
+    "net": "+1V8_SYS"
+  },
+  {
+    "ref": "U4",
+    "pin": "60",
+    "pin_name": "EXT_EN",
+    "net": null
+  },
+  {
+    "ref": "U4",
+    "pin": "61",
+    "pin_name": "VDC",
+    "net": "PMIC_VDC"
+  },
+  {
+    "ref": "U4",
+    "pin": "62",
+    "pin_name": "SNSP",
+    "net": "GND"
+  },
+  {
+    "ref": "U4",
+    "pin": "63",
+    "pin_name": "SNSN",
+    "net": "GND"
+  },
+  {
+    "ref": "U4",
+    "pin": "64",
+    "pin_name": "FB4",
+    "net": "VDD_NPU_COM"
+  },
+  {
+    "ref": "U4",
+    "pin": "65",
+    "pin_name": "SW4",
+    "net": "PMIC_SW4"
+  },
+  {
+    "ref": "U4",
+    "pin": "66",
+    "pin_name": "VCC4",
+    "net": "+3V3_SYS"
+  },
+  {
+    "ref": "U4",
+    "pin": "67",
+    "pin_name": "RESETB",
+    "net": "RESET_N"
+  },
+  {
+    "ref": "U4",
+    "pin": "68",
+    "pin_name": "CLK32K",
+    "net": null
+  },
+  {
+    "ref": "U4",
+    "pin": "69",
+    "pin_name": "EP",
+    "net": "GND"
+  },
+  {
+    "ref": "R410",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V3_SYS"
+  },
+  {
+    "ref": "R410",
+    "pin": "2",
+    "pin_name": "",
+    "net": "PMIC_VDC"
+  },
+  {
+    "ref": "R411",
+    "pin": "1",
+    "pin_name": "",
+    "net": "PMIC_VDC"
+  },
+  {
+    "ref": "R411",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "R412",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V3_PMU"
+  },
+  {
+    "ref": "R412",
+    "pin": "2",
+    "pin_name": "",
+    "net": "RESET_N"
+  },
+  {
+    "ref": "R413",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V3_PMU"
+  },
+  {
+    "ref": "R413",
+    "pin": "2",
+    "pin_name": "",
+    "net": "PMIC_INT_N"
+  },
+  {
+    "ref": "R414",
+    "pin": "1",
+    "pin_name": "",
+    "net": "I2C0_SCL"
+  },
+  {
+    "ref": "R414",
+    "pin": "2",
+    "pin_name": "",
+    "net": "PMIC_SCL"
+  },
+  {
+    "ref": "R415",
+    "pin": "1",
+    "pin_name": "",
+    "net": "I2C0_SDA"
+  },
+  {
+    "ref": "R415",
+    "pin": "2",
+    "pin_name": "",
+    "net": "PMIC_SDA"
+  },
+  {
+    "ref": "R416",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V3_PMU"
+  },
+  {
+    "ref": "R416",
+    "pin": "2",
+    "pin_name": "",
+    "net": "I2C0_SCL"
+  },
+  {
+    "ref": "R417",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V3_PMU"
+  },
+  {
+    "ref": "R417",
+    "pin": "2",
+    "pin_name": "",
+    "net": "I2C0_SDA"
+  },
+  {
+    "ref": "C410",
+    "pin": "1",
+    "pin_name": "",
+    "net": "PMIC_VDC"
+  },
+  {
+    "ref": "C410",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C411",
+    "pin": "1",
+    "pin_name": "",
+    "net": "RESET_N"
+  },
+  {
+    "ref": "C411",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C412",
+    "pin": "1",
+    "pin_name": "",
+    "net": "PMIC_PWRON_N"
+  },
+  {
+    "ref": "C412",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C413",
+    "pin": "1",
+    "pin_name": "",
+    "net": "PMIC_VREF"
+  },
+  {
+    "ref": "C413",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C414",
+    "pin": "1",
+    "pin_name": "",
+    "net": "PMIC_1V8A"
+  },
+  {
+    "ref": "C414",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C415",
+    "pin": "1",
+    "pin_name": "",
+    "net": "PMIC_1V8D"
+  },
+  {
+    "ref": "C415",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  }
+]

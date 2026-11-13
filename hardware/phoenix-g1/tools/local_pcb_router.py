@@ -30,7 +30,8 @@ class LocalRouter:
     def blocked(self, layer, name, diameter=None, via=False):
         diameter = self.width if diameter is None else diameter
         result = set()
-        margin = self.clearance+diameter/2
+        copper_clearance = getattr(self, "copper_clearance", self.clearance)
+        margin = (copper_clearance if via else self.clearance)+diameter/2
 
         def rect(x0, y0, x1, y1):
             for x in range(math.ceil(max(x0, self.extent[0])/self.grid), math.floor(min(x1, self.extent[2])/self.grid)+1):
@@ -41,8 +42,9 @@ class LocalRouter:
             if not a.IsOnLayer(layer) or (a.GetNetname() == name and not via):
                 continue
             q = a.GetBoundingBox(layer)
-            rect(p.ToMM(q.GetX())-margin, p.ToMM(q.GetY())-margin,
-                 p.ToMM(q.GetRight())+margin, p.ToMM(q.GetBottom())+margin)
+            pad_margin = margin if via else getattr(self, "pad_clearances", {}).get(a.m_Uuid.AsString(), self.clearance)+diameter/2
+            rect(p.ToMM(q.GetX())-pad_margin, p.ToMM(q.GetY())-pad_margin,
+                 p.ToMM(q.GetRight())+pad_margin, p.ToMM(q.GetBottom())+pad_margin)
         for z in list(self.board.Zones())+[z for f in self.board.GetFootprints() for z in f.Zones()]:
             if z.GetIsRuleArea() and z.IsOnLayer(layer) and (z.GetDoNotAllowVias() if via else z.GetDoNotAllowTracks()):
                 q = z.GetBoundingBox()
@@ -56,7 +58,7 @@ class LocalRouter:
                 continue
             a = tuple(p.ToMM(v) for v in (t.GetStart().x, t.GetStart().y))
             z = tuple(p.ToMM(v) for v in (t.GetEnd().x, t.GetEnd().y))
-            r = (.25+(.2+p.ToMM(t.GetDrillValue()))/2) if same else self.clearance+(diameter+p.ToMM(t.GetWidth(layer) if isinstance(t, p.PCB_VIA) else t.GetWidth()))/2
+            r = (.25+(.2+p.ToMM(t.GetDrillValue()))/2) if same else copper_clearance+(diameter+p.ToMM(t.GetWidth(layer) if isinstance(t, p.PCB_VIA) else t.GetWidth()))/2
             dx, dy = z[0]-a[0], z[1]-a[1]
             den = dx*dx+dy*dy
             for x in range(math.floor(max(self.extent[0], min(a[0], z[0])-r)/self.grid), math.ceil(min(self.extent[2], max(a[0], z[0])+r)/self.grid)+1):
@@ -72,7 +74,11 @@ class LocalRouter:
             return None
         queue = [(math.dist(start, goal), 0, start)]
         distances, prev = {start: 0}, {}
+        expanded = 0
         while queue:
+            expanded += 1
+            if getattr(self, "max_expansions", 0) and expanded > self.max_expansions:
+                return None
             _, cost, q = heapq.heappop(queue)
             if cost != distances[q]:
                 continue

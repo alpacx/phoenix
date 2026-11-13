@@ -1,0 +1,79 @@
+{
+  "status": "INTEGRATED_SCHEMATIC_CANDIDATE_POWER_SOURCES_OPEN",
+  "removed_boot_flash_references": [
+    "C1401",
+    "C1402",
+    "R1401",
+    "R1402",
+    "R1403",
+    "R1404",
+    "U18"
+  ],
+  "soc_pin_changes": [
+    {
+      "ball": "J25",
+      "from": "FSPI_D0",
+      "to": "EMMC_D0"
+    },
+    {
+      "ball": "J26",
+      "from": "FSPI_D1",
+      "to": "EMMC_D1"
+    },
+    {
+      "ball": "H25",
+      "from": "FSPI_D2",
+      "to": "EMMC_D2"
+    },
+    {
+      "ball": "K27",
+      "from": "FSPI_D3",
+      "to": "EMMC_D3"
+    },
+    {
+      "ball": "K26",
+      "from": null,
+      "to": "EMMC_D4"
+    },
+    {
+      "ball": "K25",
+      "from": null,
+      "to": "EMMC_D5"
+    },
+    {
+      "ball": "H26",
+      "from": null,
+      "to": "EMMC_D6"
+    },
+    {
+      "ball": "H27",
+      "from": null,
+      "to": "EMMC_D7"
+    },
+    {
+      "ball": "L26",
+      "from": null,
+      "to": "EMMC_STRB"
+    },
+    {
+      "ball": "M26",
+      "from": "FSPI_CS_N",
+      "to": "EMMC_CMD"
+    },
+    {
+      "ball": "M25",
+      "from": "FSPI_CLK",
+      "to": "SOC_EMMC_CLK"
+    },
+    {
+      "ball": "1F14",
+      "from": "+3V3_IO",
+      "to": "EMMC_IO_1V8"
+    }
+  ],
+  "VCCIO3_unchanged": true,
+  "EMMC_3V3_source_connected": false,
+  "EMMC_IO_1V8_source_connected": false,
+  "PCB_updated": false,
+  "assembly_ready": false
+}

@@ -1,0 +1,102 @@
+{
+  "status": "LOCAL_RELOCATION_STUDY_NOT_PROMOTED",
+  "source_sha256": "151a54c68218efe8a5a531532cc1dfe28d964d757d3ab40b78c80718e2ba3bbc",
+  "moves": [
+    {
+      "ref": "C422",
+      "from_mm": [
+        56.0,
+        3.5
+      ],
+      "to_mm": [
+        56.0,
+        3.5
+      ],
+      "cleared": false,
+      "electrical_placement_qualified": false
+    },
+    {
+      "ref": "C425",
+      "from_mm": [
+        52.0,
+        3.5
+      ],
+      "to_mm": [
+        52.0,
+        3.5
+      ],
+      "cleared": false,
+      "electrical_placement_qualified": false
+    },
+    {
+      "ref": "R1811",
+      "from_mm": [
+        53.5,
+        6.0
+      ],
+      "to_mm": [
+        51.25,
+        7.25
+      ],
+      "cleared": true,
+      "electrical_placement_qualified": false
+    },
+    {
+      "ref": "C445",
+      "from_mm": [
+        80.0,
+        6.0
+      ],
+      "to_mm": [
+        80.0,
+        6.0
+      ],
+      "cleared": false,
+      "electrical_placement_qualified": false
+    },
+    {
+      "ref": "C470",
+      "from_mm": [
+        80.0,
+        3.0
+      ],
+      "to_mm": [
+        80.0,
+        3.0
+      ],
+      "cleared": false,
+      "electrical_placement_qualified": false
+    },
+    {
+      "ref": "L405",
+      "from_mm": [
+        84.0,
+        6.0
+      ],
+      "to_mm": [
+        84.0,
+        6.0
+      ],
+      "cleared": false,
+      "electrical_placement_qualified": false
+    },
+    {
+      "ref": "R431",
+      "from_mm": [
+        84.0,
+        3.5
+      ],
+      "to_mm": [
+        84.0,
+        3.5
+      ],
+      "cleared": false,
+      "electrical_placement_qualified": false
+    }
+  ],
+  "new_DRC_counts": {},
+  "maximum_search_displacement_mm": 4,
+  "side_unchanged": true,
+  "actual_holes_created": false,
+  "assembly_ready": false
+}

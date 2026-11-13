@@ -26,7 +26,7 @@ def main():
  assert len(balls)==153
  rows=[{'ball':b,'function':n,'x_mm':(int(b[1:])-7.5)*.5,'y_mm':(ROWS.index(b[0])-6.5)*.5} for b,n in balls.items()]
  with (OUT/'ball-disposition.csv').open('w') as f:
-  w=csv.DictWriter(f,fieldnames=rows[0]);w.writeheader();w.writerows(rows)
+  w=csv.DictWriter(f,fieldnames=rows[0],lineterminator='\n');w.writeheader();w.writerows(rows)
  pins={}
  for r in csv.DictReader((ROOT/'migration-rk3562/review/manufacturer-pins.csv').open()):
   for n in r['name'].split('/'):
@@ -81,8 +81,12 @@ def main():
  sheet.place('R','R8002',100,200,{'1':'EMMC_IO_1V8','2':'EMMC_CMD'},value='10k candidate')
  sheet.place('R','R8003',160,200,{'1':'EMMC_IO_1V8','2':'EMMC_RESET_N'},value='10k candidate')
  sheet.place('R','R8004',220,200,{'1':'SOC_EMMC_CLK','2':'EMMC_CLK'},value='22R candidate')
+ # Samsung rev1.21 table37: data-strobe pull-down 10..100 kohm for HS400.
+ sheet.place('R','R8005',280,200,{'1':'EMMC_STRB','2':'GND'},value='47k candidate')
  caps=[('EMMC_VDDI','2.2u candidate')]+[('EMMC_IO_1V8','100n candidate')]*4+[('EMMC_IO_1V8','4.7u candidate')]+[('EMMC_3V3','100n candidate')]*2+[('EMMC_3V3','4.7u candidate')]
  for i,(rail,val) in enumerate(caps):sheet.place('C',f'C{8001+i}',35+i*40,230,{'1':rail,'2':'GND'},value=val)
+ sheet.place('C','C8010',35,255,{'1':'EMMC_IO_1V8','2':'GND'},value='100n VCCIO2 at SoC candidate')
+ sheet.note('C8010 belongs beside SoC VCCIO2 U1.1F14; memory bypass capacitors remain beside eMMC.',25,270)
  sheet.note('NO PRODUCTION RELEASE. Isolated ports; supplies/reset/boot and support MPNs require qualification.',25,280)
  sheet.save()
  (OUT/'kicad/sym-lib-table').write_text('(sym_lib_table (version 7)(lib(name "Phoenix_eMMC_Draft")(type "KiCad")(uri "${KIPRJMOD}/Phoenix_eMMC_Draft.kicad_sym")(options "")(descr "Draft")))\n')

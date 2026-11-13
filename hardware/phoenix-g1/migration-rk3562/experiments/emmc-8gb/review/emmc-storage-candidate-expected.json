@@ -966,6 +966,18 @@
     "net": "EMMC_CLK"
   },
   {
+    "ref": "R8005",
+    "pin": "1",
+    "pin_name": "",
+    "net": "EMMC_STRB"
+  },
+  {
+    "ref": "R8005",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
     "ref": "C8001",
     "pin": "1",
     "pin_name": "",
@@ -1069,6 +1081,18 @@
   },
   {
     "ref": "C8009",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C8010",
+    "pin": "1",
+    "pin_name": "",
+    "net": "EMMC_IO_1V8"
+  },
+  {
+    "ref": "C8010",
     "pin": "2",
     "pin_name": "",
     "net": "GND"

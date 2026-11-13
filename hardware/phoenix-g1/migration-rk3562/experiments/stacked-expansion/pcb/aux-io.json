@@ -1,0 +1,121 @@
+{
+  "status": "GEOMETRY_AND_CONTINUITY_ONLY",
+  "routes": [
+    {
+      "net": "EXP_UART_TX",
+      "accepted": false,
+      "reason": "No bounded geometric route",
+      "CPU_options": 5,
+      "J3_options": 8
+    },
+    {
+      "net": "EXP_UART_RX",
+      "accepted": false,
+      "reason": "No bounded geometric route",
+      "CPU_options": 5,
+      "J3_options": 8
+    },
+    {
+      "net": "EXP_GPIO2",
+      "accepted": false,
+      "reason": "No bounded geometric route",
+      "CPU_options": 2,
+      "J3_options": 8
+    },
+    {
+      "net": "EXP_GPIO3",
+      "accepted": false,
+      "reason": "No bounded geometric route",
+      "CPU_options": 8,
+      "J3_options": 8
+    },
+    {
+      "net": "EXP_I2C_SDA",
+      "accepted": false,
+      "reason": "No bounded geometric route",
+      "CPU_options": 8,
+      "J3_options": 0
+    },
+    {
+      "net": "EXP_I2C_SCL",
+      "accepted": true,
+      "new_violations": {},
+      "CPU_escape_mm": 1.2000000000000028,
+      "via_positions_mm": [
+        [
+          44.0,
+          27.200000000000003
+        ],
+        [
+          68.5,
+          5.45
+        ]
+      ]
+    },
+    {
+      "net": "EXP_SPI_CLK",
+      "accepted": true,
+      "new_violations": {},
+      "CPU_escape_mm": 2.3242640687119294,
+      "via_positions_mm": [
+        [
+          43.2,
+          27.200000000000003
+        ],
+        [
+          72.5,
+          1.1500000000000001
+        ]
+      ]
+    },
+    {
+      "net": "EXP_SPI_MOSI",
+      "accepted": true,
+      "new_violations": {},
+      "CPU_escape_mm": 0.7000000000000028,
+      "via_positions_mm": [
+        [
+          45.5,
+          27.200000000000003
+        ],
+        [
+          69.0,
+          6.15
+        ]
+      ]
+    },
+    {
+      "net": "EXP_SPI_MISO",
+      "accepted": false,
+      "reason": "No bounded geometric route",
+      "CPU_options": 8,
+      "J3_options": 0
+    },
+    {
+      "net": "EXP_SPI_CS0_N",
+      "accepted": true,
+      "new_violations": {},
+      "CPU_escape_mm": 2.897056274847717,
+      "via_positions_mm": [
+        [
+          46.300000000000004,
+          27.200000000000003
+        ],
+        [
+          73.2,
+          1.55
+        ]
+      ]
+    },
+    {
+      "net": "EXP_SPI_CS1_N",
+      "accepted": false,
+      "reason": "No bounded geometric route",
+      "CPU_options": 0,
+      "J3_options": 0
+    }
+  ],
+  "sha256": "151a54c68218efe8a5a531532cc1dfe28d964d757d3ab40b78c80718e2ba3bbc",
+  "pullups_and_signal_integrity_qualified": false,
+  "assembly_ready": false
+}

@@ -1,0 +1,89 @@
+{
+  "status": "GEOMETRY_AND_CONTINUITY_ONLY",
+  "routes": [
+    {
+      "net": "EXP_UART_TX",
+      "accepted": false,
+      "reason": "No bounded geometric route",
+      "CPU_options": 5,
+      "J3_options": 0
+    },
+    {
+      "net": "EXP_UART_RX",
+      "accepted": false,
+      "reason": "No bounded geometric route",
+      "CPU_options": 5,
+      "J3_options": 6
+    },
+    {
+      "net": "EXP_GPIO2",
+      "accepted": false,
+      "reason": "No bounded geometric route",
+      "CPU_options": 2,
+      "J3_options": 0
+    },
+    {
+      "net": "EXP_GPIO3",
+      "accepted": false,
+      "new_violations": {
+        "shorting_items": 22,
+        "clearance": 7
+      },
+      "CPU_escape_mm": 3.1656854249492334,
+      "via_positions_mm": [
+        [
+          34.0,
+          18.1
+        ],
+        [
+          63.5,
+          2.0500000000000003
+        ]
+      ]
+    },
+    {
+      "net": "EXP_I2C_SDA",
+      "accepted": false,
+      "reason": "No bounded geometric route",
+      "CPU_options": 0,
+      "J3_options": 6
+    },
+    {
+      "net": "EXP_I2C_SCL",
+      "accepted": true,
+      "preserved_existing_route": true
+    },
+    {
+      "net": "EXP_SPI_CLK",
+      "accepted": true,
+      "preserved_existing_route": true
+    },
+    {
+      "net": "EXP_SPI_MOSI",
+      "accepted": true,
+      "preserved_existing_route": true
+    },
+    {
+      "net": "EXP_SPI_MISO",
+      "accepted": false,
+      "reason": "No bounded geometric route",
+      "CPU_options": 8,
+      "J3_options": 0
+    },
+    {
+      "net": "EXP_SPI_CS0_N",
+      "accepted": true,
+      "preserved_existing_route": true
+    },
+    {
+      "net": "EXP_SPI_CS1_N",
+      "accepted": false,
+      "reason": "No bounded geometric route",
+      "CPU_options": 0,
+      "J3_options": 0
+    }
+  ],
+  "sha256": "151a54c68218efe8a5a531532cc1dfe28d964d757d3ab40b78c80718e2ba3bbc",
+  "pullups_and_signal_integrity_qualified": false,
+  "assembly_ready": false
+}

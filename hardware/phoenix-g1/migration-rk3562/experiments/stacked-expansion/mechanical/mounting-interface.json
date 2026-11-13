@@ -1,0 +1,139 @@
+{
+  "status": "MANDATORY_MECHANICAL_RESERVATION_NOT_CLEARED",
+  "source_sha256": "e79adcbf42af3bf5579e8c1b91c5b00933a7dc911b5daa6fe84fa6f08702e3f1",
+  "pcb_outline_mm": [
+    90,
+    40
+  ],
+  "target_mm": [
+    85,
+    35
+  ],
+  "mounts": [
+    {
+      "ref": "H8101",
+      "center_mm": [
+        53,
+        4
+      ],
+      "proposed_NPTH_diameter_mm": 2.2,
+      "reserved_diameter_mm": 5.4,
+      "sides": "both, including screw head and spacer",
+      "role": "daughterboard",
+      "position_provisional": true,
+      "blocking_components": [
+        "C422",
+        "C425",
+        "R1811"
+      ],
+      "existing_track_or_via_conflicts": 0,
+      "actual_drill_created": false
+    },
+    {
+      "ref": "H8102",
+      "center_mm": [
+        83,
+        3
+      ],
+      "proposed_NPTH_diameter_mm": 2.2,
+      "reserved_diameter_mm": 5.4,
+      "sides": "both, including screw head and spacer",
+      "role": "daughterboard",
+      "position_provisional": true,
+      "blocking_components": [
+        "C445",
+        "C470",
+        "L405",
+        "R431"
+      ],
+      "existing_track_or_via_conflicts": 0,
+      "actual_drill_created": false
+    }
+  ],
+  "auxiliary_mounts": [
+    {
+      "ref": "H8103",
+      "center_mm": [
+        21,
+        3
+      ],
+      "proposed_NPTH_diameter_mm": 2.2,
+      "reserved_diameter_mm": 5.4,
+      "sides": "both, including screw head and spacer",
+      "role": "auxiliary bracket or enclosure",
+      "position_provisional": true,
+      "blocking_components": [
+        "C1401",
+        "C1402",
+        "C1801",
+        "C1802",
+        "R1404",
+        "R1815"
+      ],
+      "existing_track_or_via_conflicts": 0,
+      "actual_drill_created": false
+    },
+    {
+      "ref": "H8104",
+      "center_mm": [
+        37,
+        31
+      ],
+      "proposed_NPTH_diameter_mm": 2.2,
+      "reserved_diameter_mm": 5.4,
+      "sides": "both, including screw head and spacer",
+      "role": "auxiliary bracket or enclosure",
+      "position_provisional": true,
+      "blocking_components": [
+        "C1625",
+        "C1631",
+        "C1640",
+        "C1642",
+        "C1679",
+        "TP14",
+        "TP5",
+        "TP9",
+        "Y1",
+        "Y2002"
+      ],
+      "existing_track_or_via_conflicts": 0,
+      "actual_drill_created": false
+    },
+    {
+      "ref": "H8105",
+      "center_mm": [
+        70,
+        34
+      ],
+      "proposed_NPTH_diameter_mm": 2.2,
+      "reserved_diameter_mm": 5.4,
+      "sides": "both, including screw head and spacer",
+      "role": "auxiliary bracket or enclosure",
+      "position_provisional": true,
+      "blocking_components": [
+        "R521",
+        "R525",
+        "R526",
+        "R527",
+        "Y501"
+      ],
+      "existing_track_or_via_conflicts": 0,
+      "actual_drill_created": false
+    }
+  ],
+  "cooling_strategy": "Passive preferred; auxiliary mounts do not imply fan or fan power circuitry",
+  "auxiliary_usage": "Custom brackets for enclosure/heatsink/optional fan; no standard fan hole pattern claimed",
+  "fastener": "M2 candidate, insulating spacer preferred",
+  "board_gap_mm": 3.5,
+  "board_gap_applies_only_to": "H8101/H8102 daughterboard mounts",
+  "spacer_tolerance_and_screw_length_qualified": false,
+  "orientation_key": "Hole pattern offset from J3; verify mating and enclosure prevents wrong orientation",
+  "release_blockers": [
+    "Relocate listed components before creating NPTHs",
+    "Enforce both-side component and all-layer copper clearance",
+    "Qualify spacer OD, height tolerance and screw length against actual DF40 mating height",
+    "Mirror common mounting coordinates on daughterboard and qualify outline above RJ45 and passive cooling",
+    "Revalidate positions after 85x35 compaction"
+  ],
+  "assembly_ready": false
+}

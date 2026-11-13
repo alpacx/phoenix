@@ -1,0 +1,77 @@
+{
+  "status": "LOCAL_CONTROL_ONLY_PENDING_DRC",
+  "routes": [
+    {
+      "net": "ADDON_ILIM",
+      "routed": true,
+      "endpoints": [
+        "U8101.7",
+        "R8101.1"
+      ],
+      "length_mm": 3.14137084989848
+    },
+    {
+      "net": "ADDON_DVDT",
+      "routed": true,
+      "endpoints": [
+        "U8101.1",
+        "C8103.1"
+      ],
+      "length_mm": 2.15137084989847
+    },
+    {
+      "net": "EXP_GPIO0",
+      "routed": true,
+      "endpoints": [
+        "U8101.2",
+        "R8103.1"
+      ],
+      "length_mm": 6.4041125496954265
+    },
+    {
+      "net": "EXP_GPIO1",
+      "routed": true,
+      "endpoints": [
+        "U8101.6",
+        "R8102.1"
+      ],
+      "length_mm": 2.6635533905932807
+    }
+  ],
+  "sha256": "45c986d9560e99b4d3df94dfc3e3a93fcf946ca16000f311f67f63bf3b45e42c",
+  "placement_changes": {
+    "C8103": [
+      79,
+      4.2,
+      180
+    ],
+    "R8103": [
+      82.5,
+      9.5,
+      0
+    ],
+    "C8101": [
+      79.8,
+      7.7,
+      0
+    ],
+    "C8102": [
+      74,
+      8,
+      180
+    ],
+    "R8101": [
+      74,
+      4.7,
+      0
+    ],
+    "R8102": [
+      73,
+      6.5,
+      180
+    ]
+  },
+  "power_path_complete": false,
+  "USB_routed": false,
+  "assembly_ready": false
+}

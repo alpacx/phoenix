@@ -1,0 +1,99 @@
+{
+  "status": "REJECTED_NOT_FOR_CONTINUATION",
+  "moves": [
+    {
+      "ref": "C422",
+      "from_mm": [
+        56.0,
+        3.5
+      ],
+      "to_mm": [
+        44.5,
+        6.0
+      ],
+      "cleared": true,
+      "electrical_placement_qualified": false
+    },
+    {
+      "ref": "C425",
+      "from_mm": [
+        52.0,
+        3.5
+      ],
+      "to_mm": [
+        40.5,
+        6.0
+      ],
+      "cleared": true,
+      "electrical_placement_qualified": false
+    },
+    {
+      "ref": "R1811",
+      "from_mm": [
+        53.5,
+        6.0
+      ],
+      "to_mm": [
+        49.5,
+        5.5
+      ],
+      "cleared": true,
+      "electrical_placement_qualified": false
+    },
+    {
+      "ref": "C445",
+      "from_mm": [
+        80.0,
+        6.0
+      ],
+      "to_mm": [
+        23.0,
+        30.5
+      ],
+      "cleared": true,
+      "electrical_placement_qualified": false
+    },
+    {
+      "ref": "C470",
+      "from_mm": [
+        80.0,
+        3.0
+      ],
+      "to_mm": [
+        80.0,
+        3.0
+      ],
+      "cleared": false,
+      "electrical_placement_qualified": false
+    },
+    {
+      "ref": "L405",
+      "from_mm": [
+        84.0,
+        6.0
+      ],
+      "to_mm": [
+        84.0,
+        6.0
+      ],
+      "cleared": false,
+      "electrical_placement_qualified": false
+    },
+    {
+      "ref": "R431",
+      "from_mm": [
+        84.0,
+        3.5
+      ],
+      "to_mm": [
+        47.5,
+        11.0
+      ],
+      "cleared": true,
+      "electrical_placement_qualified": false
+    }
+  ],
+  "actual_holes_created": false,
+  "assembly_ready": false,
+  "reason": "Excessive displacement of power passives and two uncleared sites; no electrical placement qualification"
+}

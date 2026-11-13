@@ -1,3 +1,61 @@
+## Hardware — checkpoint corrente 13 novembre, espansione ed eMMC
+
+- Routing: leggere `hardware/phoenix-g1/migration-rk3562/experiments/stacked-expansion/working-candidate.json`; ora aux-io, quattro segnali aggiuntivi verificati, sette ancora aperti. DRC139 invariato, 2460 primitive originali preservate, cinque riserve meccaniche. No USB qualificata o fori finalizzati.
+- Flash: candidato completo `experiments/emmc-system`, 43 fogli, 1992 assegnazioni verificate. Vecchia NOR eliminata solo nello schema candidato; VCCIO2 a rail1V8 dedicato ancora senza sorgente qualificata. R8005 STRB47k aggiunta da datasheet. PCB non migrato.
+- Rigenerazione e audit eMMC: `hardware/phoenix-g1/tools/rebuild_emmc_system.py` con Python sexpdata. I report del candidato, non quelli copiati storicamente, fanno fede.
+- Inventario completo `stacked-expansion/pcb/connectivity-inventory.json`: 276 reti, 269 con più pad, 231 ancora con gruppi separati. È una verifica di connettività e non di SI; il routing complessivo non è prossimo alla chiusura.
+- Non ordinare: PMIC/rail, sequenza/boot, layout eMMC, fanout J3, USB/DDR/SI, conflitti meccanici e formato85x35 restano da chiudere. Nessun commit/push in questo turno.
+
+## Checkpoint corrente con fissaggi protetti
+
+`stacked-expansion/working-candidate.json` aggiornato: logic-reference rigenerato
+con cinque rule area meccaniche su tutti gli strati. Tutti i controlli feed,
+J3, masse, GPIO SoC e 3V3 passano. DRC invariato; 1044 segmenti/via aggiunti.
+R8103 ora (82.5,9.5)/0°, C8103 (79,4.2)/180°; usare sempre JSON attuali.
+`rebuild_stacked_expansion.py` riproduce e verifica la catena, senza acquisti.
+Aux-io è un esperimento separato in corso, non il checkpoint fino ad audit.
+
+## Espansione: alimentazione e controlli completati geometricamente
+
+`stacked-expansion/working-candidate.json` punta ora a `pcb/logic-reference.kicad_pcb`.
+Audit logic-reference: input/output eFuse, 14 masse J3, due GPIO dal SoC e
+riferimento 3V3 tutti continui; DRC invariato, 747 nuovi segmenti/via.
+R8102 orientata 180°. Budget potenza/termica/USB e fissaggi NON qualificati.
+Routing ausiliario UART/I2C/SPI in lavorazione nel derivato aux-io: non usarlo
+senza leggere audit/risultato finale. Nessun commit/push richiesto in questa fase.
+
+## Checkpoint espansione aggiornato — 13 novembre 2026
+
+Usare `hardware/phoenix-g1/migration-rk3562/experiments/stacked-expansion/working-candidate.json`:
+`pcb/fault-supply.kicad_pcb`, audit dedicato. Quattro reti locali, sette ritorni
+GND, condensatori IN/OUT e pull-up fault collegati; nessun nuovo errore DRC.
+114 nuovi segmenti/via, originali preservati. NON completo: feed ingresso,
+uscita J3, GPIO SoC, USB, qualifica energetica/termica e fissaggi restano aperti.
+Il riferimento GND verificato è U4.69; altri GND PMIC già scollegati.
+Il browser host è indisponibile per il calcolatore JLC; niente impedenze inventate.
+Le note più vecchie sotto sono storiche e possono riferirsi a derivati superati.
+
+## Collegamenti protezione espansione
+
+Nuovo derivato `stacked-expansion/pcb/control-routed.kicad_pcb`: due reti locali
+ILIM/dVdt collegate e verificate; leggere control-routed.json per i limiti.
+Non promosso: dVdt lungo, GPIO/massa/potenza/USB ancora incompleti.
+Tentativo mount-clearance-trial SCARTATO, non ripartire da quel PCB.
+
+## Riserve hardware aggiuntive
+
+Overlay meccanico aggiornato: H8101/H8102 per scheda figlia più H8103–H8105
+per staffe/case/dissipazione. `mounting-interface.json` separa `mounts` e
+`auxiliary_mounts`; i render della figlia usano solo `mounts`.
+Nessun foro reale e nessuna pista modificati; liberare componenti prima della
+foratura, soprattutto clock presso H8104. Passivo rimane la scelta prioritaria.
+
+## Fissaggi espansione — requisito da non perdere
+
+Riservati H8101/H8102 M2 nell'overlay CAD `hardware/phoenix-g1/migration-rk3562/experiments/stacked-expansion/mechanical/mounting-reservations.kicad_pcb`.
+Leggere `mounting-interface.json`: sette componenti da spostare, fori non ancora realizzati.
+Blocca rilascio e definizione scheda figlia finché ingombri e distanziali non sono qualificati.
+
 ## Hardware — sostituzione J3, 13 novembre 2026
 
 Candidato in `hardware/phoenix-g1/migration-rk3562/experiments/stacked-expansion/`.

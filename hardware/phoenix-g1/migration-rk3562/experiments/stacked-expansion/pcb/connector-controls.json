@@ -1,0 +1,40 @@
+{
+  "status": "CONTINUITY_CHECKED_DRC_PENDING",
+  "routes": [
+    {
+      "from": "J3.27",
+      "to": "R8103.1",
+      "net": "EXP_GPIO0",
+      "vias_mm": [
+        [
+          68.9,
+          2.0500000000000003
+        ],
+        [
+          82.0,
+          10.5
+        ]
+      ],
+      "length_mm": 18.515104602052652
+    },
+    {
+      "from": "J3.28",
+      "to": "R8102.1",
+      "net": "EXP_GPIO1",
+      "vias_mm": [
+        [
+          68.9,
+          4.75
+        ],
+        [
+          72.5,
+          8.5
+        ]
+      ],
+      "length_mm": 13.66535713374682
+    }
+  ],
+  "SoC_connected": false,
+  "sha256": "6e4e462f1ce31e402473ad3a9ffbdc004731da4dd996411a699b4120c785a04e",
+  "assembly_ready": false
+}

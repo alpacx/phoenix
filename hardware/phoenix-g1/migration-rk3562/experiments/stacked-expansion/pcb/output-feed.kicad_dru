@@ -1,0 +1,12 @@
+(version 1)
+(rule "Non DDR width" (constraint track_width (min 0.2mm)))
+(rule "DDR escape width" (condition "A.NetName == 'LPDDR4_*'") (constraint track_width (min 0.1mm)))
+(rule "DDR package spacing" (condition "A.memberOfFootprint('U2')") (constraint clearance (min 0.1mm)))
+(rule "Experimental CPU escape width" (condition "A.NetName == 'LPDDR4_*'") (constraint track_width (min 0.0762mm)))
+(rule "Experimental CPU land spacing" (condition "A.memberOfFootprint('U1')") (constraint clearance (min 0.0762mm)))
+(rule "Experimental DDR copper spacing" (condition "A.NetName == 'LPDDR4_*'") (constraint clearance (min 0.0762mm)))
+(rule "PMIC IO neck width" (condition "A.NetName == '+3V3_IO'") (constraint track_width (min 0.127mm)))
+
+(rule "DF40 internal pad pitch" (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.memberOfFootprint('J3') && B.memberOfFootprint('J3')") (constraint clearance (min 0.17mm)))
+
+(rule "Accessory connector power fingers" (condition "A.NetName == '+5V_ADDON'") (constraint track_width (min 0.15mm)))

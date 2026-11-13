@@ -1,0 +1,27 @@
+{
+  "status": "EXPERIMENTAL_ESCAPE_CONTINUITY_CHECKED_DRC_PENDING",
+  "routes": [
+    {
+      "ball": "K2",
+      "net": "EXP_GPIO0",
+      "J3_pin": "27",
+      "escape_via_mm": [
+        35.800000000000004,
+        16.2
+      ],
+      "escape_length_mm": 2.297056274847712
+    },
+    {
+      "ball": "L3",
+      "net": "EXP_GPIO1",
+      "J3_pin": "28",
+      "escape_via_mm": [
+        35.800000000000004,
+        21.3
+      ],
+      "escape_length_mm": 3.7970562748477112
+    }
+  ],
+  "sha256": "9c1035f374cd323e23275550e8721a7fd6391d3556a5ab58a170444333dd68f1",
+  "assembly_ready": false
+}

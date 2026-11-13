@@ -1,0 +1,86 @@
+{
+  "status": "CANDIDATE GROUND ESCAPES; DRC REQUIRED",
+  "pcb_sha256": "87f893c61dcf599b14c9ef1f6968870f0ac2223e75b68d30d306c6c79e1dfbba",
+  "escapes": [
+    {
+      "ref": "C8101",
+      "pin": "2",
+      "via_xy_mm": [
+        80.5,
+        8.6
+      ],
+      "reused_via": false,
+      "path_length_mm": 1.0028
+    },
+    {
+      "ref": "U8101",
+      "pin": "8",
+      "via_xy_mm": [
+        76.05,
+        4.55
+      ],
+      "reused_via": false,
+      "path_length_mm": 0.7
+    },
+    {
+      "ref": "U8101",
+      "pin": "9",
+      "via_xy_mm": [
+        77.0,
+        7.4
+      ],
+      "reused_via": false,
+      "path_length_mm": 1.4
+    },
+    {
+      "ref": "C8103",
+      "pin": "2",
+      "via_xy_mm": [
+        77.7,
+        4.3
+      ],
+      "reused_via": false,
+      "path_length_mm": 0.8614
+    },
+    {
+      "ref": "R8103",
+      "pin": "2",
+      "via_xy_mm": [
+        83.0,
+        10.5
+      ],
+      "reused_via": false,
+      "path_length_mm": 1.01
+    },
+    {
+      "ref": "C8102",
+      "pin": "2",
+      "via_xy_mm": [
+        72.7,
+        7.7
+      ],
+      "reused_via": false,
+      "path_length_mm": 0.9443
+    },
+    {
+      "ref": "R8101",
+      "pin": "2",
+      "via_xy_mm": [
+        75.3,
+        4.6000000000000005
+      ],
+      "reused_via": false,
+      "path_length_mm": 0.8514
+    }
+  ],
+  "trace_width_mm": 0.3,
+  "new_via_land_drill_mm": [
+    0.6,
+    0.3
+  ],
+  "limitations": [
+    "RF return inductance and power-ground impedance not qualified.",
+    "Signal routing, internal regulator and power sequencing remain incomplete."
+  ],
+  "production_ready": false
+}

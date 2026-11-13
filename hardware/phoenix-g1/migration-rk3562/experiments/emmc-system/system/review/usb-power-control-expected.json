@@ -1,0 +1,308 @@
+[
+  {
+    "ref": "U11",
+    "pin": "1",
+    "pin_name": "IN",
+    "net": "VBUS_PROTECTED"
+  },
+  {
+    "ref": "U11",
+    "pin": "2",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "U11",
+    "pin": "3",
+    "pin_name": "EN",
+    "net": "VBUS_PROTECTED"
+  },
+  {
+    "ref": "U11",
+    "pin": "4",
+    "pin_name": "NC",
+    "net": null
+  },
+  {
+    "ref": "U11",
+    "pin": "5",
+    "pin_name": "OUT",
+    "net": "+3V3_AON"
+  },
+  {
+    "ref": "U12",
+    "pin": "1",
+    "pin_name": "~{RESET}",
+    "net": "AON_READY"
+  },
+  {
+    "ref": "U12",
+    "pin": "2",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "U12",
+    "pin": "3",
+    "pin_name": "~{MR}",
+    "net": "+3V3_AON"
+  },
+  {
+    "ref": "U12",
+    "pin": "4",
+    "pin_name": "CT",
+    "net": null
+  },
+  {
+    "ref": "U12",
+    "pin": "5",
+    "pin_name": "SENSE",
+    "net": "+3V3_AON"
+  },
+  {
+    "ref": "U12",
+    "pin": "6",
+    "pin_name": "VDD",
+    "net": "+3V3_AON"
+  },
+  {
+    "ref": "U13",
+    "pin": "1",
+    "pin_name": "N.C",
+    "net": null
+  },
+  {
+    "ref": "U13",
+    "pin": "2",
+    "pin_name": "A",
+    "net": "AON_READY"
+  },
+  {
+    "ref": "U13",
+    "pin": "3",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "U13",
+    "pin": "4",
+    "pin_name": "Y",
+    "net": "USB_CC_ENABLE_N"
+  },
+  {
+    "ref": "U13",
+    "pin": "5",
+    "pin_name": "VCC",
+    "net": "+3V3_AON"
+  },
+  {
+    "ref": "U14",
+    "pin": "1",
+    "pin_name": "B",
+    "net": "CC_OUT1_N"
+  },
+  {
+    "ref": "U14",
+    "pin": "2",
+    "pin_name": "A",
+    "net": "CC_OUT2_N"
+  },
+  {
+    "ref": "U14",
+    "pin": "3",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "U14",
+    "pin": "4",
+    "pin_name": "Y",
+    "net": "USB_CURRENT_OK"
+  },
+  {
+    "ref": "U14",
+    "pin": "5",
+    "pin_name": "VCC",
+    "net": "+3V3_AON"
+  },
+  {
+    "ref": "U19",
+    "pin": "1",
+    "pin_name": "A",
+    "net": "USB_CURRENT_OK"
+  },
+  {
+    "ref": "U19",
+    "pin": "2",
+    "pin_name": "B",
+    "net": "AON_READY"
+  },
+  {
+    "ref": "U19",
+    "pin": "3",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "U19",
+    "pin": "4",
+    "pin_name": "Y",
+    "net": "USB_MAIN_ENABLE"
+  },
+  {
+    "ref": "U19",
+    "pin": "5",
+    "pin_name": "VCC",
+    "net": "+3V3_AON"
+  },
+  {
+    "ref": "U16",
+    "pin": "1",
+    "pin_name": "N.C",
+    "net": null
+  },
+  {
+    "ref": "U16",
+    "pin": "2",
+    "pin_name": "A",
+    "net": "RESET_N"
+  },
+  {
+    "ref": "U16",
+    "pin": "3",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "U16",
+    "pin": "4",
+    "pin_name": "Y",
+    "net": "USB_MUX_ENABLE_N"
+  },
+  {
+    "ref": "U16",
+    "pin": "5",
+    "pin_name": "VCC",
+    "net": "+3V3_AON"
+  },
+  {
+    "ref": "R1101",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V3_AON"
+  },
+  {
+    "ref": "R1101",
+    "pin": "2",
+    "pin_name": "",
+    "net": "AON_READY"
+  },
+  {
+    "ref": "R1102",
+    "pin": "1",
+    "pin_name": "",
+    "net": "USB_MAIN_ENABLE"
+  },
+  {
+    "ref": "R1102",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "R1103",
+    "pin": "1",
+    "pin_name": "",
+    "net": "RESET_N"
+  },
+  {
+    "ref": "R1103",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C1101",
+    "pin": "1",
+    "pin_name": "",
+    "net": "VBUS_PROTECTED"
+  },
+  {
+    "ref": "C1101",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C1102",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V3_AON"
+  },
+  {
+    "ref": "C1102",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C1103",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V3_AON"
+  },
+  {
+    "ref": "C1103",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C1104",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V3_AON"
+  },
+  {
+    "ref": "C1104",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C1105",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V3_AON"
+  },
+  {
+    "ref": "C1105",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C1106",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V3_AON"
+  },
+  {
+    "ref": "C1106",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C1107",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V3_AON"
+  },
+  {
+    "ref": "C1107",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  }
+]

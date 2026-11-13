@@ -1,0 +1,24 @@
+{
+  "status": "BOOT_REQUIREMENTS_NOT_VALIDATED",
+  "source": "reference/samsung-klm8g1getf-b041.pdf rev1.21",
+  "default_data_bus_width_bits": 1,
+  "maximum_interface_clock_MHz": 200,
+  "boot_interface_clock_range_MHz": [
+    0,
+    52
+  ],
+  "EXT_CSD_RST_n_FUNCTION_default_hex": "0x00",
+  "hardware_reset_enable_not_assumed": true,
+  "boot_partition_size_multiplier_hex": "0x20",
+  "boot_partition_configuration_not_changed": true,
+  "required_validation": [
+    "RK3562 BootROM compatibility with exact eMMC and board straps",
+    "USB recovery without relying on a bootable eMMC",
+    "Power cycle with no I2C/software setup before first storage access",
+    "Linux/U-Boot device tree bus width, voltage and clock constraints",
+    "Actual sector count before image creation, keep margin for updates",
+    "Reset policy from JEDEC/SoC documentation before programming one-time fields"
+  ],
+  "physical_test_performed": false,
+  "assembly_ready": false
+}

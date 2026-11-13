@@ -1,0 +1,167 @@
+{
+  "status": "REPLACEMENT_IMPACT_INVENTORY_NOT_INTEGRATED",
+  "source_board_sha256": "ce6c832808c3975c83ff10cdbd78face2b50fa571e33459dbebfe0636d8421d2",
+  "signal_changes": [
+    {
+      "signal": "EMMC_D0",
+      "soc_ball": "J25",
+      "emmc_ball": "A3",
+      "previous_net": "FSPI_D0",
+      "existing_connected_tracks_vias": 0
+    },
+    {
+      "signal": "EMMC_D1",
+      "soc_ball": "J26",
+      "emmc_ball": "A4",
+      "previous_net": "FSPI_D1",
+      "existing_connected_tracks_vias": 0
+    },
+    {
+      "signal": "EMMC_D2",
+      "soc_ball": "H25",
+      "emmc_ball": "A5",
+      "previous_net": "FSPI_D2",
+      "existing_connected_tracks_vias": 0
+    },
+    {
+      "signal": "EMMC_D3",
+      "soc_ball": "K27",
+      "emmc_ball": "B2",
+      "previous_net": "FSPI_D3",
+      "existing_connected_tracks_vias": 0
+    },
+    {
+      "signal": "EMMC_D4",
+      "soc_ball": "K26",
+      "emmc_ball": "B3",
+      "previous_net": null,
+      "existing_connected_tracks_vias": 0
+    },
+    {
+      "signal": "EMMC_D5",
+      "soc_ball": "K25",
+      "emmc_ball": "B4",
+      "previous_net": null,
+      "existing_connected_tracks_vias": 0
+    },
+    {
+      "signal": "EMMC_D6",
+      "soc_ball": "H26",
+      "emmc_ball": "B5",
+      "previous_net": null,
+      "existing_connected_tracks_vias": 0
+    },
+    {
+      "signal": "EMMC_D7",
+      "soc_ball": "H27",
+      "emmc_ball": "B6",
+      "previous_net": null,
+      "existing_connected_tracks_vias": 0
+    },
+    {
+      "signal": "EMMC_STRB",
+      "soc_ball": "L26",
+      "emmc_ball": "H5",
+      "previous_net": null,
+      "existing_connected_tracks_vias": 0
+    },
+    {
+      "signal": "EMMC_CMD",
+      "soc_ball": "M26",
+      "emmc_ball": "M5",
+      "previous_net": "FSPI_CS_N",
+      "existing_connected_tracks_vias": 0
+    },
+    {
+      "signal": "EMMC_CLK",
+      "soc_ball": "M25",
+      "emmc_ball": "M6",
+      "previous_net": "FSPI_CLK",
+      "existing_connected_tracks_vias": 0
+    }
+  ],
+  "old_boot_flash_sheet_components": [
+    {
+      "ref": "C1401",
+      "nets": [
+        "+3V3_IO",
+        "GND"
+      ],
+      "existing_connected_tracks_vias": 0
+    },
+    {
+      "ref": "C1402",
+      "nets": [
+        "+3V3_IO",
+        "GND"
+      ],
+      "existing_connected_tracks_vias": 0
+    },
+    {
+      "ref": "R1401",
+      "nets": [
+        "FLASH_CLK",
+        "FSPI_CLK"
+      ],
+      "existing_connected_tracks_vias": 0
+    },
+    {
+      "ref": "R1402",
+      "nets": [
+        "+3V3_IO",
+        "FSPI_CS_N"
+      ],
+      "existing_connected_tracks_vias": 0
+    },
+    {
+      "ref": "R1403",
+      "nets": [
+        "+3V3_IO",
+        "FSPI_D2"
+      ],
+      "existing_connected_tracks_vias": 0
+    },
+    {
+      "ref": "R1404",
+      "nets": [
+        "+3V3_IO",
+        "FSPI_D3"
+      ],
+      "existing_connected_tracks_vias": 0
+    },
+    {
+      "ref": "U18",
+      "nets": [
+        "+3V3_IO",
+        "FLASH_CLK",
+        "FSPI_CS_N",
+        "FSPI_D0",
+        "FSPI_D1",
+        "FSPI_D2",
+        "FSPI_D3",
+        "GND"
+      ],
+      "existing_connected_tracks_vias": 0
+    }
+  ],
+  "power_domain_change": {
+    "pad": "U1.1F14",
+    "domain": "VCCIO2",
+    "from": "+3V3_IO",
+    "to_candidate": "EMMC_IO_1V8",
+    "existing_connected_tracks_vias": 0,
+    "qualified_source_and_sequence": false
+  },
+  "VCCIO3_SDMMC0_unchanged": true,
+  "domain_evidence": "RK3562 reference page 8 labels VCCIO2 eMMC/FSPI separately from VCCIO3 SDMMC0; do not infer domains from GPIO bank number alone",
+  "storage_candidate": "KLM8G1GETF-B041 8GB",
+  "old_NOR_must_not_remain_parallel": true,
+  "required_next": [
+    "Replace boot-flash sheet and references in integrated schematic/BOM",
+    "Reconnect all 11 SoC signals and change ONLY U1.1F14 domain",
+    "Qualify 1.8V/3.3V sources, sequencing, reset, straps and recovery",
+    "Place eMMC and local decoupling; do not put VDDI on an external rail",
+    "Export and audit whole-system netlist before PCB changes"
+  ],
+  "assembly_ready": false
+}

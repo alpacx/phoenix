@@ -1,0 +1,284 @@
+[
+  {
+    "ref": "U21",
+    "pin": "1",
+    "pin_name": "~{OE1}",
+    "net": "GND"
+  },
+  {
+    "ref": "U21",
+    "pin": "2",
+    "pin_name": "A1",
+    "net": "LCD_MOSI"
+  },
+  {
+    "ref": "U21",
+    "pin": "3",
+    "pin_name": "A2",
+    "net": "LCD_SCLK"
+  },
+  {
+    "ref": "U21",
+    "pin": "4",
+    "pin_name": "A3",
+    "net": "LCD_DC"
+  },
+  {
+    "ref": "U21",
+    "pin": "5",
+    "pin_name": "A4",
+    "net": "LCD_RESET_N"
+  },
+  {
+    "ref": "U21",
+    "pin": "6",
+    "pin_name": "A5",
+    "net": "LCD_CS_N"
+  },
+  {
+    "ref": "U21",
+    "pin": "7",
+    "pin_name": "A6",
+    "net": "GND"
+  },
+  {
+    "ref": "U21",
+    "pin": "8",
+    "pin_name": "A7",
+    "net": "GND"
+  },
+  {
+    "ref": "U21",
+    "pin": "9",
+    "pin_name": "A8",
+    "net": "GND"
+  },
+  {
+    "ref": "U21",
+    "pin": "10",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "U21",
+    "pin": "11",
+    "pin_name": "Y8",
+    "net": null
+  },
+  {
+    "ref": "U21",
+    "pin": "12",
+    "pin_name": "Y7",
+    "net": null
+  },
+  {
+    "ref": "U21",
+    "pin": "13",
+    "pin_name": "Y6",
+    "net": null
+  },
+  {
+    "ref": "U21",
+    "pin": "14",
+    "pin_name": "Y5",
+    "net": "LCD_CS_3V"
+  },
+  {
+    "ref": "U21",
+    "pin": "15",
+    "pin_name": "Y4",
+    "net": "LCD_RST_3V"
+  },
+  {
+    "ref": "U21",
+    "pin": "16",
+    "pin_name": "Y3",
+    "net": "LCD_DC_3V"
+  },
+  {
+    "ref": "U21",
+    "pin": "17",
+    "pin_name": "Y2",
+    "net": "LCD_CLK_3V"
+  },
+  {
+    "ref": "U21",
+    "pin": "18",
+    "pin_name": "Y1",
+    "net": "LCD_DIN_3V"
+  },
+  {
+    "ref": "U21",
+    "pin": "19",
+    "pin_name": "~{OE2}",
+    "net": "GND"
+  },
+  {
+    "ref": "U21",
+    "pin": "20",
+    "pin_name": "VCC",
+    "net": "+3V0_LCD"
+  },
+  {
+    "ref": "DS1",
+    "pin": "1",
+    "pin_name": "NC",
+    "net": null
+  },
+  {
+    "ref": "DS1",
+    "pin": "2",
+    "pin_name": "NC",
+    "net": null
+  },
+  {
+    "ref": "DS1",
+    "pin": "3",
+    "pin_name": "SDA",
+    "net": "LCD_DIN_3V"
+  },
+  {
+    "ref": "DS1",
+    "pin": "4",
+    "pin_name": "SCL",
+    "net": "LCD_CLK_3V"
+  },
+  {
+    "ref": "DS1",
+    "pin": "5",
+    "pin_name": "RS",
+    "net": "LCD_DC_3V"
+  },
+  {
+    "ref": "DS1",
+    "pin": "6",
+    "pin_name": "RESET_N",
+    "net": "LCD_RST_3V"
+  },
+  {
+    "ref": "DS1",
+    "pin": "7",
+    "pin_name": "CS_N",
+    "net": "LCD_CS_3V"
+  },
+  {
+    "ref": "DS1",
+    "pin": "8",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "DS1",
+    "pin": "9",
+    "pin_name": "NC",
+    "net": null
+  },
+  {
+    "ref": "DS1",
+    "pin": "10",
+    "pin_name": "VDD",
+    "net": "+3V0_LCD"
+  },
+  {
+    "ref": "DS1",
+    "pin": "11",
+    "pin_name": "LEDK",
+    "net": "LCD_LEDK"
+  },
+  {
+    "ref": "DS1",
+    "pin": "12",
+    "pin_name": "LEDA",
+    "net": "LCD_LEDA"
+  },
+  {
+    "ref": "DS1",
+    "pin": "13",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "C1811",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V0_LCD"
+  },
+  {
+    "ref": "C1811",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C1812",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V0_LCD"
+  },
+  {
+    "ref": "C1812",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "R1811",
+    "pin": "1",
+    "pin_name": "",
+    "net": "LCD_MOSI"
+  },
+  {
+    "ref": "R1811",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "R1812",
+    "pin": "1",
+    "pin_name": "",
+    "net": "LCD_SCLK"
+  },
+  {
+    "ref": "R1812",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "R1813",
+    "pin": "1",
+    "pin_name": "",
+    "net": "LCD_DC"
+  },
+  {
+    "ref": "R1813",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "R1814",
+    "pin": "1",
+    "pin_name": "",
+    "net": "LCD_RESET_N"
+  },
+  {
+    "ref": "R1814",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "R1815",
+    "pin": "1",
+    "pin_name": "",
+    "net": "LCD_CS_N"
+  },
+  {
+    "ref": "R1815",
+    "pin": "2",
+    "pin_name": "",
+    "net": "+3V3_IO"
+  }
+]

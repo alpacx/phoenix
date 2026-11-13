@@ -1,0 +1,156 @@
+{
+  "status": "CANDIDATE GROUND ESCAPES; DRC REQUIRED",
+  "pcb_sha256": "2fbb18d19d910a62773b48764548f3570f2736be8d3eb7ffde2c8d0a5bc1eb0c",
+  "escapes": [
+    {
+      "ref": "J3",
+      "pin": "9",
+      "via_xy_mm": [
+        65.3,
+        2.0500000000000003
+      ],
+      "reused_via": false,
+      "path_length_mm": 0.905
+    },
+    {
+      "ref": "J3",
+      "pin": "10",
+      "via_xy_mm": [
+        65.3,
+        5.25
+      ],
+      "reused_via": false,
+      "path_length_mm": 1.4464
+    },
+    {
+      "ref": "J3",
+      "pin": "11",
+      "via_xy_mm": [
+        65.9,
+        2.0500000000000003
+      ],
+      "reused_via": false,
+      "path_length_mm": 0.9878
+    },
+    {
+      "ref": "J3",
+      "pin": "12",
+      "via_xy_mm": [
+        65.9,
+        5.25
+      ],
+      "reused_via": false,
+      "path_length_mm": 1.4878
+    },
+    {
+      "ref": "J3",
+      "pin": "13",
+      "via_xy_mm": [
+        65.9,
+        2.0500000000000003
+      ],
+      "reused_via": true,
+      "path_length_mm": 0.9878
+    },
+    {
+      "ref": "J3",
+      "pin": "14",
+      "via_xy_mm": [
+        65.9,
+        5.25
+      ],
+      "reused_via": true,
+      "path_length_mm": 1.4878
+    },
+    {
+      "ref": "J3",
+      "pin": "15",
+      "via_xy_mm": [
+        66.5,
+        2.0500000000000003
+      ],
+      "reused_via": false,
+      "path_length_mm": 0.905
+    },
+    {
+      "ref": "J3",
+      "pin": "16",
+      "via_xy_mm": [
+        67.60000000000001,
+        4.75
+      ],
+      "reused_via": false,
+      "path_length_mm": 1.4778
+    },
+    {
+      "ref": "J3",
+      "pin": "17",
+      "via_xy_mm": [
+        67.10000000000001,
+        2.0500000000000003
+      ],
+      "reused_via": false,
+      "path_length_mm": 0.9878
+    },
+    {
+      "ref": "J3",
+      "pin": "18",
+      "via_xy_mm": [
+        67.60000000000001,
+        4.75
+      ],
+      "reused_via": true,
+      "path_length_mm": 1.1949
+    },
+    {
+      "ref": "J3",
+      "pin": "20",
+      "via_xy_mm": [
+        67.60000000000001,
+        4.75
+      ],
+      "reused_via": true,
+      "path_length_mm": 1.0293
+    },
+    {
+      "ref": "J3",
+      "pin": "22",
+      "via_xy_mm": [
+        67.60000000000001,
+        4.75
+      ],
+      "reused_via": true,
+      "path_length_mm": 0.9464
+    },
+    {
+      "ref": "J3",
+      "pin": "37",
+      "via_xy_mm": [
+        70.0,
+        2.0500000000000003
+      ],
+      "reused_via": false,
+      "path_length_mm": 1.6293
+    },
+    {
+      "ref": "J3",
+      "pin": "38",
+      "via_xy_mm": [
+        70.7,
+        4.75
+      ],
+      "reused_via": false,
+      "path_length_mm": 0.9878
+    }
+  ],
+  "trace_width_mm": 0.2,
+  "new_via_land_drill_mm": [
+    0.6,
+    0.3
+  ],
+  "limitations": [
+    "RF return inductance and power-ground impedance not qualified.",
+    "Signal routing, internal regulator and power sequencing remain incomplete."
+  ],
+  "production_ready": false
+}

@@ -1,0 +1,70 @@
+{
+  "status": "DATASHEET_LOAD_REQUIREMENTS_NOT_RAIL_APPROVAL",
+  "part": "KLM8G1GETF-B041",
+  "source": "reference/samsung-klm8g1getf-b041.pdf",
+  "source_sha256": "73f47e95f7f148c9d063bbf1cc3073bbe86781cc4deea903952521fb7725c585",
+  "printed_pages": [
+    27,
+    28
+  ],
+  "rails": {
+    "EMMC_IO_1V8": {
+      "allowed_voltage_V": [
+        1.7,
+        1.95
+      ],
+      "datasheet_active_current_mA": 180,
+      "additional_SoC_VCCIO2_current_included": false
+    },
+    "EMMC_3V3": {
+      "allowed_voltage_V": [
+        2.7,
+        3.6
+      ],
+      "datasheet_active_current_mA": 50
+    }
+  },
+  "current_conditions": "8-bit HS400; max RMS averaged over 100ms, not guaranteed instantaneous peak",
+  "calculated_memory_only_power_at_nominal_V_W": 0.489,
+  "rail_capacity_headroom_transient_and_sequence_qualified": false,
+  "pull_resistors": {
+    "CMD_kohm_range": [
+      4.7,
+      100
+    ],
+    "DAT_kohm_range": [
+      10,
+      100
+    ],
+    "STRB_pulldown_kohm_range_HS400": [
+      10,
+      100
+    ],
+    "R8005_candidate_kohm": 47
+  },
+  "open_items": [
+    "Source rail load census including existing consumers and SoC VCCIO2",
+    "PMIC startup defaults and boot-time sequencing",
+    "Peak transient response and local decoupling",
+    "Reset/boot strap/recovery verification",
+    "Support component MPN, availability and footprint qualification",
+    "Do not infer HS400 performance from an electrical netlist"
+  ],
+  "assembly_ready": false,
+  "candidate_PMIC_source_evidence": {
+    "part": "RK809-5",
+    "source": "reference/RK809-5-C2939628.pdf",
+    "sha256": "a7934277d2ba97bbae005cd39b0c05c7f53be99633e78e53ac09b0be2c80c1e7",
+    "printed_page": 34,
+    "table": "4-4",
+    "BUCK5_default_V": 1.8,
+    "BUCK5_startup_step": 2,
+    "BUCK5_max_A": 2.5,
+    "existing_Buck5_net": "+1V8_SYS",
+    "existing_load": "LPDDR4 VDD1; full load budget not closed",
+    "SWOUT1_default_V": 3.3,
+    "SWOUT1_startup_step": 4,
+    "candidate_sources_connected": false,
+    "sequence_compatibility_qualified": false
+  }
+}

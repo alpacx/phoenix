@@ -1,0 +1,6616 @@
+{
+  "status": "PAD_CONNECTIVITY_INVENTORY_NOT_ELECTRICAL_QUALIFICATION",
+  "source_sha256": "151a54c68218efe8a5a531532cc1dfe28d964d757d3ab40b78c80718e2ba3bbc",
+  "nets_total": 276,
+  "multi_pad_nets": 269,
+  "open_multi_pad_nets": 231,
+  "single_pad_nets_not_proof_of_completion": 7,
+  "nets": [
+    {
+      "net": "+1V0_PHY",
+      "pad_count": 10,
+      "connected_groups": [
+        [
+          "C511.1"
+        ],
+        [
+          "C512.1"
+        ],
+        [
+          "C513.1"
+        ],
+        [
+          "C514.1"
+        ],
+        [
+          "C522.1"
+        ],
+        [
+          "L501.2"
+        ],
+        [
+          "U5.21"
+        ],
+        [
+          "U5.3"
+        ],
+        [
+          "U5.38"
+        ],
+        [
+          "U5.8"
+        ]
+      ],
+      "group_count": 10,
+      "fully_connected": false
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pad_count": 97,
+      "connected_groups": [
+        [
+          "C1646.1"
+        ],
+        [
+          "C1647.1"
+        ],
+        [
+          "C1648.1"
+        ],
+        [
+          "C1649.1"
+        ],
+        [
+          "C1650.1"
+        ],
+        [
+          "C1651.1"
+        ],
+        [
+          "C1652.1"
+        ],
+        [
+          "C1653.1"
+        ],
+        [
+          "C1654.1"
+        ],
+        [
+          "C1655.1"
+        ],
+        [
+          "C1656.1"
+        ],
+        [
+          "C1657.1"
+        ],
+        [
+          "C1658.1"
+        ],
+        [
+          "C1659.1"
+        ],
+        [
+          "C1660.1"
+        ],
+        [
+          "C1661.1"
+        ],
+        [
+          "C1662.1"
+        ],
+        [
+          "C1663.1"
+        ],
+        [
+          "C1664.1"
+        ],
+        [
+          "C1665.1"
+        ],
+        [
+          "C1666.1"
+        ],
+        [
+          "C1667.1"
+        ],
+        [
+          "C1668.1"
+        ],
+        [
+          "C1669.1"
+        ],
+        [
+          "C1670.1"
+        ],
+        [
+          "C1671.1"
+        ],
+        [
+          "C1672.1"
+        ],
+        [
+          "C1673.1"
+        ],
+        [
+          "C1674.1"
+        ],
+        [
+          "C1675.1"
+        ],
+        [
+          "C1676.1"
+        ],
+        [
+          "C1677.1"
+        ],
+        [
+          "C1678.1"
+        ],
+        [
+          "C433.1"
+        ],
+        [
+          "C443.1"
+        ],
+        [
+          "L403.2"
+        ],
+        [
+          "R1503.2"
+        ],
+        [
+          "R201.2"
+        ],
+        [
+          "R431.1"
+        ],
+        [
+          "TP7.1"
+        ],
+        [
+          "U1.1D11"
+        ],
+        [
+          "U1.1D6"
+        ],
+        [
+          "U1.1E10"
+        ],
+        [
+          "U1.1E3"
+        ],
+        [
+          "U1.1E4"
+        ],
+        [
+          "U1.1E5"
+        ],
+        [
+          "U1.1E6"
+        ],
+        [
+          "U1.1E7"
+        ],
+        [
+          "U1.1E8"
+        ],
+        [
+          "U1.1E9"
+        ],
+        [
+          "U2.A4"
+        ],
+        [
+          "U2.A9"
+        ],
+        [
+          "U2.AA10"
+        ],
+        [
+          "U2.AA3"
+        ],
+        [
+          "U2.AA5"
+        ],
+        [
+          "U2.AA8"
+        ],
+        [
+          "U2.AB4"
+        ],
+        [
+          "U2.AB9"
+        ],
+        [
+          "U2.B10"
+        ],
+        [
+          "U2.B3"
+        ],
+        [
+          "U2.B5"
+        ],
+        [
+          "U2.B8"
+        ],
+        [
+          "U2.D1"
+        ],
+        [
+          "U2.D12"
+        ],
+        [
+          "U2.D5"
+        ],
+        [
+          "U2.D8"
+        ],
+        [
+          "U2.F10"
+        ],
+        [
+          "U2.F3"
+        ],
+        [
+          "U2.F5"
+        ],
+        [
+          "U2.F8"
+        ],
+        [
+          "U2.G2"
+        ],
+        [
+          "U2.H1"
+        ],
+        [
+          "U2.H12"
+        ],
+        [
+          "U2.H5"
+        ],
+        [
+          "U2.H8"
+        ],
+        [
+          "U2.K1"
+        ],
+        [
+          "U2.K10"
+        ],
+        [
+          "U2.K12"
+        ],
+        [
+          "U2.K3"
+        ],
+        [
+          "U2.N1"
+        ],
+        [
+          "U2.N10"
+        ],
+        [
+          "U2.N12"
+        ],
+        [
+          "U2.N3"
+        ],
+        [
+          "U2.R1"
+        ],
+        [
+          "U2.R12"
+        ],
+        [
+          "U2.R5"
+        ],
+        [
+          "U2.R8"
+        ],
+        [
+          "U2.T2"
+        ],
+        [
+          "U2.U10"
+        ],
+        [
+          "U2.U3"
+        ],
+        [
+          "U2.U5"
+        ],
+        [
+          "U2.U8"
+        ],
+        [
+          "U2.W1"
+        ],
+        [
+          "U2.W12"
+        ],
+        [
+          "U2.W5"
+        ],
+        [
+          "U2.W8"
+        ],
+        [
+          "U4.26"
+        ]
+      ],
+      "group_count": 97,
+      "fully_connected": false
+    },
+    {
+      "net": "+1V8_SYS",
+      "pad_count": 20,
+      "connected_groups": [
+        [
+          "C2301.1"
+        ],
+        [
+          "C2302.1"
+        ],
+        [
+          "C2303.1"
+        ],
+        [
+          "C2304.1"
+        ],
+        [
+          "C2305.1"
+        ],
+        [
+          "C2306.1"
+        ],
+        [
+          "C2307.1"
+        ],
+        [
+          "C2308.1"
+        ],
+        [
+          "C435.1"
+        ],
+        [
+          "C445.1"
+        ],
+        [
+          "L405.2"
+        ],
+        [
+          "U2.F1"
+        ],
+        [
+          "U2.F12"
+        ],
+        [
+          "U2.G4"
+        ],
+        [
+          "U2.G9"
+        ],
+        [
+          "U2.T4"
+        ],
+        [
+          "U2.T9"
+        ],
+        [
+          "U2.U1"
+        ],
+        [
+          "U2.U12"
+        ],
+        [
+          "U4.59"
+        ]
+      ],
+      "group_count": 20,
+      "fully_connected": false
+    },
+    {
+      "net": "+3V0_LCD",
+      "pad_count": 5,
+      "connected_groups": [
+        [
+          "C1802.1"
+        ],
+        [
+          "C1811.1"
+        ],
+        [
+          "C1812.1"
+        ],
+        [
+          "U20.5"
+        ],
+        [
+          "U21.20"
+        ]
+      ],
+      "group_count": 5,
+      "fully_connected": false
+    },
+    {
+      "net": "+3V3_AON",
+      "pad_count": 21,
+      "connected_groups": [
+        [
+          "C1102.1",
+          "C1103.1",
+          "C1104.1",
+          "C1105.1",
+          "C1106.1",
+          "C1107.1",
+          "C606.1",
+          "R1101.1",
+          "R1202.2",
+          "R602.1",
+          "R603.1",
+          "R604.1",
+          "U11.5",
+          "U12.3",
+          "U12.5",
+          "U12.6",
+          "U13.5",
+          "U14.5",
+          "U16.5",
+          "U19.5",
+          "U6.8"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "+3V3_IO",
+      "pad_count": 46,
+      "connected_groups": [
+        [
+          "C1401.1"
+        ],
+        [
+          "C1402.1"
+        ],
+        [
+          "C1627.1"
+        ],
+        [
+          "C1628.1"
+        ],
+        [
+          "C1637.1"
+        ],
+        [
+          "C1638.1"
+        ],
+        [
+          "C1639.1"
+        ],
+        [
+          "C1640.1"
+        ],
+        [
+          "C1641.1"
+        ],
+        [
+          "C1683.1"
+        ],
+        [
+          "C2004.1",
+          "C2005.1",
+          "C2006.1",
+          "C2007.1",
+          "J3.36",
+          "R530.1",
+          "R8102.2",
+          "U25.22",
+          "U4.55",
+          "Y2001.1",
+          "Y2001.4"
+        ],
+        [
+          "C470.1"
+        ],
+        [
+          "R1402.2"
+        ],
+        [
+          "R1403.2"
+        ],
+        [
+          "R1404.2"
+        ],
+        [
+          "R1505.1"
+        ],
+        [
+          "R1804.1"
+        ],
+        [
+          "R1815.2"
+        ],
+        [
+          "R2010.2"
+        ],
+        [
+          "R2011.2"
+        ],
+        [
+          "R2012.2"
+        ],
+        [
+          "R2013.2"
+        ],
+        [
+          "R2014.2"
+        ],
+        [
+          "R2101.2"
+        ],
+        [
+          "R2102.2"
+        ],
+        [
+          "TP6.1"
+        ],
+        [
+          "U1.1F14"
+        ],
+        [
+          "U1.1G15"
+        ],
+        [
+          "U1.1H14"
+        ],
+        [
+          "U1.1K3"
+        ],
+        [
+          "U1.1L3"
+        ],
+        [
+          "U1.1L5"
+        ],
+        [
+          "U1.1M14"
+        ],
+        [
+          "U1.1M4"
+        ],
+        [
+          "U18.8"
+        ],
+        [
+          "U20.3"
+        ]
+      ],
+      "group_count": 36,
+      "fully_connected": false
+    },
+    {
+      "net": "+3V3_PHY",
+      "pad_count": 15,
+      "connected_groups": [
+        [
+          "C515.1"
+        ],
+        [
+          "C516.1"
+        ],
+        [
+          "C517.1"
+        ],
+        [
+          "C518.1"
+        ],
+        [
+          "C519.1"
+        ],
+        [
+          "R514.2"
+        ],
+        [
+          "R521.2"
+        ],
+        [
+          "R525.2"
+        ],
+        [
+          "R526.2"
+        ],
+        [
+          "R527.2"
+        ],
+        [
+          "R530.2"
+        ],
+        [
+          "U5.11"
+        ],
+        [
+          "U5.28"
+        ],
+        [
+          "U5.29"
+        ],
+        [
+          "U5.40"
+        ]
+      ],
+      "group_count": 15,
+      "fully_connected": false
+    },
+    {
+      "net": "+3V3_PMU",
+      "pad_count": 14,
+      "connected_groups": [
+        [
+          "C1625.1"
+        ],
+        [
+          "C1626.1"
+        ],
+        [
+          "C465.1"
+        ],
+        [
+          "R1002.1"
+        ],
+        [
+          "R2103.2"
+        ],
+        [
+          "R2104.2"
+        ],
+        [
+          "R412.1"
+        ],
+        [
+          "R413.1"
+        ],
+        [
+          "R416.1"
+        ],
+        [
+          "R417.1"
+        ],
+        [
+          "TP5.1"
+        ],
+        [
+          "U1.1L11"
+        ],
+        [
+          "U1.1L12"
+        ],
+        [
+          "U4.31"
+        ]
+      ],
+      "group_count": 14,
+      "fully_connected": false
+    },
+    {
+      "net": "+3V3_SD",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "C469.1"
+        ],
+        [
+          "U4.58"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "+3V3_SYS",
+      "pad_count": 29,
+      "connected_groups": [
+        [
+          "C1304.1"
+        ],
+        [
+          "C1305.1"
+        ],
+        [
+          "C421.1"
+        ],
+        [
+          "C422.1"
+        ],
+        [
+          "C423.1"
+        ],
+        [
+          "C424.1"
+        ],
+        [
+          "C425.1"
+        ],
+        [
+          "C480.1"
+        ],
+        [
+          "C481.1"
+        ],
+        [
+          "C482.1"
+        ],
+        [
+          "C483.1"
+        ],
+        [
+          "C484.1"
+        ],
+        [
+          "C485.1"
+        ],
+        [
+          "L1301.2"
+        ],
+        [
+          "R1301.2"
+        ],
+        [
+          "R410.1"
+        ],
+        [
+          "TP4.1"
+        ],
+        [
+          "U17.14"
+        ],
+        [
+          "U4.10"
+        ],
+        [
+          "U4.11"
+        ],
+        [
+          "U4.22"
+        ],
+        [
+          "U4.24"
+        ],
+        [
+          "U4.30"
+        ],
+        [
+          "U4.33"
+        ],
+        [
+          "U4.4"
+        ],
+        [
+          "U4.45"
+        ],
+        [
+          "U4.54"
+        ],
+        [
+          "U4.57"
+        ],
+        [
+          "U4.66"
+        ]
+      ],
+      "group_count": 29,
+      "fully_connected": false
+    },
+    {
+      "net": "+3V58_WIFI",
+      "pad_count": 6,
+      "connected_groups": [
+        [
+          "C2204.1",
+          "FB2001.1",
+          "L2201.2",
+          "R2201.2",
+          "R2202.1",
+          "U26.14"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "+5V_ADDON",
+      "pad_count": 10,
+      "connected_groups": [
+        [
+          "C8102.1",
+          "J3.1",
+          "J3.2",
+          "J3.3",
+          "J3.4",
+          "J3.5",
+          "J3.6",
+          "J3.7",
+          "J3.8",
+          "U8101.5"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "+5V_MAIN",
+      "pad_count": 26,
+      "connected_groups": [
+        [
+          "C1001.1"
+        ],
+        [
+          "C1002.1"
+        ],
+        [
+          "C1203.1",
+          "C2201.1",
+          "C2202.1",
+          "C8101.1",
+          "U15.5",
+          "U26.10",
+          "U26.11",
+          "U26.12",
+          "U26.13",
+          "U8101.3",
+          "U8101.4"
+        ],
+        [
+          "C1301.1"
+        ],
+        [
+          "C1302.1"
+        ],
+        [
+          "C1801.1"
+        ],
+        [
+          "R1803.1"
+        ],
+        [
+          "TP3.1"
+        ],
+        [
+          "U10.D1"
+        ],
+        [
+          "U10.D2"
+        ],
+        [
+          "U10.E1"
+        ],
+        [
+          "U10.E2"
+        ],
+        [
+          "U17.10"
+        ],
+        [
+          "U17.11"
+        ],
+        [
+          "U17.12"
+        ],
+        [
+          "U20.1"
+        ]
+      ],
+      "group_count": 16,
+      "fully_connected": false
+    },
+    {
+      "net": "ADDON_DVDT",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "C8103.1",
+          "U8101.1"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "ADDON_ILIM",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R8101.1",
+          "U8101.7"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "ADDON_USB_DM",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "J3.21"
+        ],
+        [
+          "U1.AE26"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "ADDON_USB_DP",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "J3.19"
+        ],
+        [
+          "U1.AE27"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "AON_READY",
+      "pad_count": 4,
+      "connected_groups": [
+        [
+          "R1101.2",
+          "U12.1",
+          "U13.2",
+          "U19.2"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "CC_OUT1_N",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R603.2",
+          "U14.1",
+          "U6.25"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "CC_OUT2_N",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R604.2",
+          "U14.2",
+          "U6.26"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "CC_VBUS_SENSE",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R606.2",
+          "U6.5"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "CC_VBUS_SERIES_1",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R601.2",
+          "R605.1"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "CC_VBUS_SERIES_2",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R605.2",
+          "R606.1"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "CHASSIS",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "J2.P10"
+        ],
+        [
+          "J2.SHIELD0"
+        ],
+        [
+          "J2.SHIELD1"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "CPU_BUCK_EN",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R1002.2"
+        ],
+        [
+          "U10.A2"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "CPU_FB_SENSE",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "C1020.2"
+        ],
+        [
+          "R1001.2"
+        ],
+        [
+          "U10.A4"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "CPU_SW",
+      "pad_count": 5,
+      "connected_groups": [
+        [
+          "L1001.1"
+        ],
+        [
+          "U10.D3"
+        ],
+        [
+          "U10.D4"
+        ],
+        [
+          "U10.E3"
+        ],
+        [
+          "U10.E4"
+        ]
+      ],
+      "group_count": 5,
+      "fully_connected": false
+    },
+    {
+      "net": "DDR_FB",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R431.2"
+        ],
+        [
+          "R432.1"
+        ],
+        [
+          "U4.27"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "DDR_RZQ",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R1503.1"
+        ],
+        [
+          "U1.1D4"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "DEBUG_RX",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "TP11.1"
+        ],
+        [
+          "U1.AF20"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "DEBUG_TX",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "TP12.1"
+        ],
+        [
+          "U1.AE20"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "ETH_CENTER_TAP",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "C531.1"
+        ],
+        [
+          "J2.P1"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "ETH_MDC",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.AC1"
+        ],
+        [
+          "U5.13"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "ETH_MDI0_N",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "J2.P3"
+        ],
+        [
+          "U22.2"
+        ],
+        [
+          "U5.2"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "ETH_MDI0_P",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "J2.P2"
+        ],
+        [
+          "U22.1"
+        ],
+        [
+          "U5.1"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "ETH_MDI1_N",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "J2.P7"
+        ],
+        [
+          "U22.5"
+        ],
+        [
+          "U5.5"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "ETH_MDI1_P",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "J2.P4"
+        ],
+        [
+          "U22.4"
+        ],
+        [
+          "U5.4"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "ETH_MDI2_N",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "J2.P6"
+        ],
+        [
+          "U23.2"
+        ],
+        [
+          "U5.7"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "ETH_MDI2_P",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "J2.P5"
+        ],
+        [
+          "U23.1"
+        ],
+        [
+          "U5.6"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "ETH_MDI3_N",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "J2.P9"
+        ],
+        [
+          "U23.5"
+        ],
+        [
+          "U5.10"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "ETH_MDI3_P",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "J2.P8"
+        ],
+        [
+          "U23.4"
+        ],
+        [
+          "U5.9"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "ETH_MDIO",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R514.1"
+        ],
+        [
+          "U1.AC2"
+        ],
+        [
+          "U5.14"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "ETH_RESET_GPIO_N",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R515.1"
+        ],
+        [
+          "U1.T2"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "ETH_RXCLK",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R512.1"
+        ],
+        [
+          "U1.U2"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "ETH_RXD0",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R507.1"
+        ],
+        [
+          "U1.W3"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "ETH_RXD1",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R508.1"
+        ],
+        [
+          "U1.W1"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "ETH_RXD2",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R509.1"
+        ],
+        [
+          "U1.W2"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "ETH_RXD3",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R510.1"
+        ],
+        [
+          "U1.Y3"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "ETH_RXDV_CRS",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R511.1"
+        ],
+        [
+          "U1.V2"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "ETH_TXCLK",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R506.1"
+        ],
+        [
+          "U1.Y2"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "ETH_TXD0",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R501.1"
+        ],
+        [
+          "U1.AA1"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "ETH_TXD1",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R502.1"
+        ],
+        [
+          "U1.AA2"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "ETH_TXD2",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R503.1"
+        ],
+        [
+          "U1.AB3"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "ETH_TXD3",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R504.1"
+        ],
+        [
+          "U1.AB2"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "ETH_TXEN",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R505.1"
+        ],
+        [
+          "U1.AA3"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "EXP_GPIO0",
+      "pad_count": 4,
+      "connected_groups": [
+        [
+          "J3.27",
+          "R8103.1",
+          "U1.K2",
+          "U8101.2"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "EXP_GPIO1",
+      "pad_count": 4,
+      "connected_groups": [
+        [
+          "J3.28",
+          "R8102.1",
+          "U1.L3",
+          "U8101.6"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "EXP_GPIO2",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "J3.29"
+        ],
+        [
+          "U1.K3"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "EXP_GPIO3",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "J3.30"
+        ],
+        [
+          "U1.L2"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "EXP_I2C_SCL",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "J3.24",
+          "U1.AF16"
+        ],
+        [
+          "R2102.1"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "EXP_I2C_SDA",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "J3.23"
+        ],
+        [
+          "R2101.1"
+        ],
+        [
+          "U1.AE15"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "EXP_SPI_CLK",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "J3.31",
+          "U1.AE16"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "EXP_SPI_CS0_N",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "J3.34",
+          "U1.AG17"
+        ],
+        [
+          "R2103.1"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "EXP_SPI_CS1_N",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "J3.35"
+        ],
+        [
+          "R2104.1"
+        ],
+        [
+          "U1.AF15"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "EXP_SPI_MISO",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "J3.33"
+        ],
+        [
+          "U1.AE18"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "EXP_SPI_MOSI",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "J3.32",
+          "U1.AG19"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "EXP_UART_RX",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "J3.26"
+        ],
+        [
+          "U1.Y25"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "EXP_UART_TX",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "J3.25"
+        ],
+        [
+          "U1.Y26"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "FLASH_CLK",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R1401.2"
+        ],
+        [
+          "U18.6"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "FSPI_CLK",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R1401.1"
+        ],
+        [
+          "U1.M25"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "FSPI_CS_N",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R1402.1"
+        ],
+        [
+          "U1.M26"
+        ],
+        [
+          "U18.1"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "FSPI_D0",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.J25"
+        ],
+        [
+          "U18.5"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "FSPI_D1",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.J26"
+        ],
+        [
+          "U18.2"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "FSPI_D2",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R1403.1"
+        ],
+        [
+          "U1.H25"
+        ],
+        [
+          "U18.3"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "FSPI_D3",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R1404.1"
+        ],
+        [
+          "U1.K27"
+        ],
+        [
+          "U18.7"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "GND",
+      "pad_count": 582,
+      "connected_groups": [
+        [
+          "C1001.2"
+        ],
+        [
+          "C1002.2"
+        ],
+        [
+          "C1011.2"
+        ],
+        [
+          "C1012.2"
+        ],
+        [
+          "C1013.2"
+        ],
+        [
+          "C1014.2"
+        ],
+        [
+          "C1101.2",
+          "C1102.2",
+          "C1103.2",
+          "C1104.2",
+          "C1105.2",
+          "C1106.2",
+          "C1107.2",
+          "C1201.2",
+          "C1202.2",
+          "C1203.2",
+          "C1901.2",
+          "C1902.2",
+          "C1903.2",
+          "C2001.2",
+          "C2002.2",
+          "C2003.2",
+          "C2004.2",
+          "C2005.2",
+          "C2006.2",
+          "C2007.2",
+          "C2201.2",
+          "C2202.2",
+          "C2203.2",
+          "C2204.2",
+          "C605.2",
+          "C606.2",
+          "C8101.2",
+          "C8102.2",
+          "C8103.2",
+          "J1.A1",
+          "J1.A12",
+          "J1.B1",
+          "J1.B12",
+          "J3.10",
+          "J3.11",
+          "J3.12",
+          "J3.13",
+          "J3.14",
+          "J3.15",
+          "J3.16",
+          "J3.17",
+          "J3.18",
+          "J3.20",
+          "J3.22",
+          "J3.37",
+          "J3.38",
+          "J3.9",
+          "R1102.2",
+          "R1103.2",
+          "R1201.2",
+          "R1902.2",
+          "R1904.2",
+          "R1905.2",
+          "R2203.2",
+          "R8101.2",
+          "R8103.2",
+          "U11.2",
+          "U12.2",
+          "U13.3",
+          "U14.3",
+          "U15.8",
+          "U15.9",
+          "U16.3",
+          "U19.3",
+          "U24.1",
+          "U24.16",
+          "U24.21",
+          "U24.3",
+          "U25.1",
+          "U25.20",
+          "U25.26",
+          "U25.27",
+          "U25.28",
+          "U25.29",
+          "U25.3",
+          "U25.31",
+          "U25.33",
+          "U25.34",
+          "U25.36",
+          "U25.43",
+          "U25.44",
+          "U25.6",
+          "U26.15",
+          "U26.16",
+          "U26.17",
+          "U26.6",
+          "U26.7",
+          "U26.8",
+          "U4.69",
+          "U4.69",
+          "U4.69",
+          "U4.69",
+          "U4.69",
+          "U4.69",
+          "U4.69",
+          "U4.69",
+          "U4.69",
+          "U4.69",
+          "U6.13",
+          "U6.28",
+          "U6.3",
+          "U6.31",
+          "U6.4",
+          "U7.3",
+          "U7.8",
+          "U8.3",
+          "U8.8",
+          "U8101.8",
+          "U8101.9",
+          "U9.3",
+          "U9.8",
+          "Y2001.2"
+        ],
+        [
+          "C1301.2"
+        ],
+        [
+          "C1302.2"
+        ],
+        [
+          "C1303.2"
+        ],
+        [
+          "C1304.2"
+        ],
+        [
+          "C1305.2"
+        ],
+        [
+          "C1401.2"
+        ],
+        [
+          "C1402.2"
+        ],
+        [
+          "C1501.2"
+        ],
+        [
+          "C1502.2"
+        ],
+        [
+          "C1503.2"
+        ],
+        [
+          "C1601.2"
+        ],
+        [
+          "C1602.2"
+        ],
+        [
+          "C1603.2"
+        ],
+        [
+          "C1604.2"
+        ],
+        [
+          "C1605.2"
+        ],
+        [
+          "C1606.2"
+        ],
+        [
+          "C1607.2"
+        ],
+        [
+          "C1608.2"
+        ],
+        [
+          "C1609.2"
+        ],
+        [
+          "C1610.2"
+        ],
+        [
+          "C1611.2"
+        ],
+        [
+          "C1612.2"
+        ],
+        [
+          "C1613.2"
+        ],
+        [
+          "C1614.2"
+        ],
+        [
+          "C1615.2"
+        ],
+        [
+          "C1616.2"
+        ],
+        [
+          "C1617.2"
+        ],
+        [
+          "C1618.2"
+        ],
+        [
+          "C1619.2"
+        ],
+        [
+          "C1620.2"
+        ],
+        [
+          "C1621.2"
+        ],
+        [
+          "C1622.2"
+        ],
+        [
+          "C1623.2"
+        ],
+        [
+          "C1624.2"
+        ],
+        [
+          "C1625.2"
+        ],
+        [
+          "C1626.2"
+        ],
+        [
+          "C1627.2"
+        ],
+        [
+          "C1628.2"
+        ],
+        [
+          "C1629.2"
+        ],
+        [
+          "C1630.2"
+        ],
+        [
+          "C1631.2"
+        ],
+        [
+          "C1632.2"
+        ],
+        [
+          "C1633.2"
+        ],
+        [
+          "C1634.2"
+        ],
+        [
+          "C1635.2"
+        ],
+        [
+          "C1636.2"
+        ],
+        [
+          "C1637.2"
+        ],
+        [
+          "C1638.2"
+        ],
+        [
+          "C1639.2"
+        ],
+        [
+          "C1640.2"
+        ],
+        [
+          "C1641.2"
+        ],
+        [
+          "C1642.2"
+        ],
+        [
+          "C1643.2"
+        ],
+        [
+          "C1644.2"
+        ],
+        [
+          "C1645.2"
+        ],
+        [
+          "C1646.2"
+        ],
+        [
+          "C1647.2"
+        ],
+        [
+          "C1648.2"
+        ],
+        [
+          "C1649.2"
+        ],
+        [
+          "C1650.2"
+        ],
+        [
+          "C1651.2"
+        ],
+        [
+          "C1652.2"
+        ],
+        [
+          "C1653.2"
+        ],
+        [
+          "C1654.2"
+        ],
+        [
+          "C1655.2"
+        ],
+        [
+          "C1656.2"
+        ],
+        [
+          "C1657.2"
+        ],
+        [
+          "C1658.2"
+        ],
+        [
+          "C1659.2"
+        ],
+        [
+          "C1660.2"
+        ],
+        [
+          "C1661.2"
+        ],
+        [
+          "C1662.2"
+        ],
+        [
+          "C1663.2"
+        ],
+        [
+          "C1664.2"
+        ],
+        [
+          "C1665.2"
+        ],
+        [
+          "C1666.2"
+        ],
+        [
+          "C1667.2"
+        ],
+        [
+          "C1668.2"
+        ],
+        [
+          "C1669.2"
+        ],
+        [
+          "C1670.2"
+        ],
+        [
+          "C1671.2"
+        ],
+        [
+          "C1672.2"
+        ],
+        [
+          "C1673.2"
+        ],
+        [
+          "C1674.2"
+        ],
+        [
+          "C1675.2"
+        ],
+        [
+          "C1676.2"
+        ],
+        [
+          "C1677.2"
+        ],
+        [
+          "C1678.2"
+        ],
+        [
+          "C1679.2"
+        ],
+        [
+          "C1680.2"
+        ],
+        [
+          "C1681.2"
+        ],
+        [
+          "C1682.2"
+        ],
+        [
+          "C1683.2"
+        ],
+        [
+          "C1801.2"
+        ],
+        [
+          "C1802.2"
+        ],
+        [
+          "C1811.2"
+        ],
+        [
+          "C1812.2"
+        ],
+        [
+          "C2008.2"
+        ],
+        [
+          "C2009.2"
+        ],
+        [
+          "C2301.2"
+        ],
+        [
+          "C2302.2"
+        ],
+        [
+          "C2303.2"
+        ],
+        [
+          "C2304.2"
+        ],
+        [
+          "C2305.2"
+        ],
+        [
+          "C2306.2"
+        ],
+        [
+          "C2307.2"
+        ],
+        [
+          "C2308.2"
+        ],
+        [
+          "C410.2"
+        ],
+        [
+          "C411.2"
+        ],
+        [
+          "C412.2"
+        ],
+        [
+          "C413.2"
+        ],
+        [
+          "C414.2"
+        ],
+        [
+          "C415.2"
+        ],
+        [
+          "C421.2"
+        ],
+        [
+          "C422.2"
+        ],
+        [
+          "C423.2"
+        ],
+        [
+          "C424.2"
+        ],
+        [
+          "C425.2"
+        ],
+        [
+          "C431.2"
+        ],
+        [
+          "C432.2"
+        ],
+        [
+          "C433.2"
+        ],
+        [
+          "C434.2"
+        ],
+        [
+          "C435.2"
+        ],
+        [
+          "C441.2"
+        ],
+        [
+          "C442.2"
+        ],
+        [
+          "C443.2"
+        ],
+        [
+          "C444.2"
+        ],
+        [
+          "C445.2"
+        ],
+        [
+          "C460.2"
+        ],
+        [
+          "C461.2"
+        ],
+        [
+          "C462.2"
+        ],
+        [
+          "C463.2"
+        ],
+        [
+          "C464.2"
+        ],
+        [
+          "C465.2"
+        ],
+        [
+          "C466.2"
+        ],
+        [
+          "C467.2"
+        ],
+        [
+          "C468.2"
+        ],
+        [
+          "C469.2"
+        ],
+        [
+          "C470.2"
+        ],
+        [
+          "C480.2"
+        ],
+        [
+          "C481.2"
+        ],
+        [
+          "C482.2"
+        ],
+        [
+          "C483.2"
+        ],
+        [
+          "C484.2"
+        ],
+        [
+          "C485.2"
+        ],
+        [
+          "C501.2"
+        ],
+        [
+          "C511.2"
+        ],
+        [
+          "C512.2"
+        ],
+        [
+          "C513.2"
+        ],
+        [
+          "C514.2"
+        ],
+        [
+          "C515.2"
+        ],
+        [
+          "C516.2"
+        ],
+        [
+          "C517.2"
+        ],
+        [
+          "C518.2"
+        ],
+        [
+          "C519.2"
+        ],
+        [
+          "C520.2"
+        ],
+        [
+          "C521.2"
+        ],
+        [
+          "C522.2"
+        ],
+        [
+          "C531.2"
+        ],
+        [
+          "J2001.2"
+        ],
+        [
+          "J2001.3"
+        ],
+        [
+          "Q1.2"
+        ],
+        [
+          "R1506.2"
+        ],
+        [
+          "R1802.2"
+        ],
+        [
+          "R1804.2"
+        ],
+        [
+          "R1811.2"
+        ],
+        [
+          "R1812.2"
+        ],
+        [
+          "R1813.2"
+        ],
+        [
+          "R1814.2"
+        ],
+        [
+          "R2002.2"
+        ],
+        [
+          "R411.2"
+        ],
+        [
+          "R432.2"
+        ],
+        [
+          "R513.2"
+        ],
+        [
+          "R516.2"
+        ],
+        [
+          "R522.2"
+        ],
+        [
+          "R523.2"
+        ],
+        [
+          "R524.2"
+        ],
+        [
+          "R528.2"
+        ],
+        [
+          "R529.2"
+        ],
+        [
+          "TP1.1"
+        ],
+        [
+          "U1.1A11"
+        ],
+        [
+          "U1.1A12"
+        ],
+        [
+          "U1.1A14"
+        ],
+        [
+          "U1.1A2"
+        ],
+        [
+          "U1.1A4"
+        ],
+        [
+          "U1.1A5"
+        ],
+        [
+          "U1.1B12"
+        ],
+        [
+          "U1.1B14"
+        ],
+        [
+          "U1.1B2"
+        ],
+        [
+          "U1.1B4"
+        ],
+        [
+          "U1.1B5"
+        ],
+        [
+          "U1.1B9"
+        ],
+        [
+          "U1.1C1"
+        ],
+        [
+          "U1.1C10"
+        ],
+        [
+          "U1.1C11"
+        ],
+        [
+          "U1.1C12"
+        ],
+        [
+          "U1.1C13"
+        ],
+        [
+          "U1.1C14"
+        ],
+        [
+          "U1.1C15"
+        ],
+        [
+          "U1.1C2"
+        ],
+        [
+          "U1.1C3"
+        ],
+        [
+          "U1.1C4"
+        ],
+        [
+          "U1.1C5"
+        ],
+        [
+          "U1.1C6"
+        ],
+        [
+          "U1.1C7"
+        ],
+        [
+          "U1.1D1"
+        ],
+        [
+          "U1.1D10"
+        ],
+        [
+          "U1.1D12"
+        ],
+        [
+          "U1.1D13"
+        ],
+        [
+          "U1.1D14"
+        ],
+        [
+          "U1.1D15"
+        ],
+        [
+          "U1.1D2"
+        ],
+        [
+          "U1.1D3"
+        ],
+        [
+          "U1.1D7"
+        ],
+        [
+          "U1.1D8"
+        ],
+        [
+          "U1.1D9"
+        ],
+        [
+          "U1.1E1"
+        ],
+        [
+          "U1.1E11"
+        ],
+        [
+          "U1.1E13"
+        ],
+        [
+          "U1.1E2"
+        ],
+        [
+          "U1.1F1"
+        ],
+        [
+          "U1.1F10"
+        ],
+        [
+          "U1.1F15"
+        ],
+        [
+          "U1.1F2"
+        ],
+        [
+          "U1.1F3"
+        ],
+        [
+          "U1.1F4"
+        ],
+        [
+          "U1.1F5"
+        ],
+        [
+          "U1.1F7"
+        ],
+        [
+          "U1.1F9"
+        ],
+        [
+          "U1.1G13"
+        ],
+        [
+          "U1.1G14"
+        ],
+        [
+          "U1.1G2"
+        ],
+        [
+          "U1.1G6"
+        ],
+        [
+          "U1.1G7"
+        ],
+        [
+          "U1.1G9"
+        ],
+        [
+          "U1.1H1"
+        ],
+        [
+          "U1.1H12"
+        ],
+        [
+          "U1.1H13"
+        ],
+        [
+          "U1.1H2"
+        ],
+        [
+          "U1.1H5"
+        ],
+        [
+          "U1.1H9"
+        ],
+        [
+          "U1.1J1"
+        ],
+        [
+          "U1.1J13"
+        ],
+        [
+          "U1.1J2"
+        ],
+        [
+          "U1.1J3"
+        ],
+        [
+          "U1.1J4"
+        ],
+        [
+          "U1.1J5"
+        ],
+        [
+          "U1.1J8"
+        ],
+        [
+          "U1.1J9"
+        ],
+        [
+          "U1.1K1"
+        ],
+        [
+          "U1.1K11"
+        ],
+        [
+          "U1.1K12"
+        ],
+        [
+          "U1.1K13"
+        ],
+        [
+          "U1.1K4"
+        ],
+        [
+          "U1.1K5"
+        ],
+        [
+          "U1.1K6"
+        ],
+        [
+          "U1.1K7"
+        ],
+        [
+          "U1.1K8"
+        ],
+        [
+          "U1.1K9"
+        ],
+        [
+          "U1.1L10"
+        ],
+        [
+          "U1.1L15"
+        ],
+        [
+          "U1.1L2"
+        ],
+        [
+          "U1.1L4"
+        ],
+        [
+          "U1.1L7"
+        ],
+        [
+          "U1.1L9"
+        ],
+        [
+          "U1.1M12"
+        ],
+        [
+          "U1.1M3"
+        ],
+        [
+          "U1.1M5"
+        ],
+        [
+          "U1.1M6"
+        ],
+        [
+          "U1.1N1"
+        ],
+        [
+          "U1.1N10"
+        ],
+        [
+          "U1.1N11"
+        ],
+        [
+          "U1.1N12"
+        ],
+        [
+          "U1.1N13"
+        ],
+        [
+          "U1.1N14"
+        ],
+        [
+          "U1.1N15"
+        ],
+        [
+          "U1.1N2"
+        ],
+        [
+          "U1.1N3"
+        ],
+        [
+          "U1.1N4"
+        ],
+        [
+          "U1.1N5"
+        ],
+        [
+          "U1.1N6"
+        ],
+        [
+          "U1.1N7"
+        ],
+        [
+          "U1.1N8"
+        ],
+        [
+          "U1.1P1"
+        ],
+        [
+          "U1.1P10"
+        ],
+        [
+          "U1.1P11"
+        ],
+        [
+          "U1.1P13"
+        ],
+        [
+          "U1.1P2"
+        ],
+        [
+          "U1.1P4"
+        ],
+        [
+          "U1.1P5"
+        ],
+        [
+          "U1.1P6"
+        ],
+        [
+          "U1.1P8"
+        ],
+        [
+          "U1.1P9"
+        ],
+        [
+          "U1.1R1"
+        ],
+        [
+          "U1.1R10"
+        ],
+        [
+          "U1.1R12"
+        ],
+        [
+          "U1.1R14"
+        ],
+        [
+          "U1.1R2"
+        ],
+        [
+          "U1.1R4"
+        ],
+        [
+          "U1.1R5"
+        ],
+        [
+          "U1.1R6"
+        ],
+        [
+          "U1.1R8"
+        ],
+        [
+          "U1.1R9"
+        ],
+        [
+          "U1.A1"
+        ],
+        [
+          "U1.A12"
+        ],
+        [
+          "U1.A16"
+        ],
+        [
+          "U1.A27"
+        ],
+        [
+          "U1.AA26"
+        ],
+        [
+          "U1.AA27"
+        ],
+        [
+          "U1.AB25"
+        ],
+        [
+          "U1.AC3"
+        ],
+        [
+          "U1.AD25"
+        ],
+        [
+          "U1.AD3"
+        ],
+        [
+          "U1.AE10"
+        ],
+        [
+          "U1.AE11"
+        ],
+        [
+          "U1.AE12"
+        ],
+        [
+          "U1.AE13"
+        ],
+        [
+          "U1.AE14"
+        ],
+        [
+          "U1.AE2"
+        ],
+        [
+          "U1.AE21"
+        ],
+        [
+          "U1.AE25"
+        ],
+        [
+          "U1.AE3"
+        ],
+        [
+          "U1.AE4"
+        ],
+        [
+          "U1.AE5"
+        ],
+        [
+          "U1.AE6"
+        ],
+        [
+          "U1.AE7"
+        ],
+        [
+          "U1.AE8"
+        ],
+        [
+          "U1.AE9"
+        ],
+        [
+          "U1.AF24"
+        ],
+        [
+          "U1.AG1"
+        ],
+        [
+          "U1.AG15"
+        ],
+        [
+          "U1.AG26"
+        ],
+        [
+          "U1.AG27"
+        ],
+        [
+          "U1.B14"
+        ],
+        [
+          "U1.C13"
+        ],
+        [
+          "U1.C14"
+        ],
+        [
+          "U1.C15"
+        ],
+        [
+          "U1.C19"
+        ],
+        [
+          "U1.C21"
+        ],
+        [
+          "U1.C24"
+        ],
+        [
+          "U1.C25"
+        ],
+        [
+          "U1.C3"
+        ],
+        [
+          "U1.C4"
+        ],
+        [
+          "U1.C7"
+        ],
+        [
+          "U1.C9"
+        ],
+        [
+          "U1.D2"
+        ],
+        [
+          "U1.D25"
+        ],
+        [
+          "U1.E25"
+        ],
+        [
+          "U1.E26"
+        ],
+        [
+          "U1.E27"
+        ],
+        [
+          "U1.E3"
+        ],
+        [
+          "U1.F25"
+        ],
+        [
+          "U1.F26"
+        ],
+        [
+          "U1.F3"
+        ],
+        [
+          "U1.G25"
+        ],
+        [
+          "U1.G26"
+        ],
+        [
+          "U1.G27"
+        ],
+        [
+          "U1.J3"
+        ],
+        [
+          "U1.L25"
+        ],
+        [
+          "U1.M27"
+        ],
+        [
+          "U1.P26"
+        ],
+        [
+          "U1.U3"
+        ],
+        [
+          "U10.B2"
+        ],
+        [
+          "U10.B3"
+        ],
+        [
+          "U10.B4"
+        ],
+        [
+          "U10.C1"
+        ],
+        [
+          "U10.C2"
+        ],
+        [
+          "U10.C3"
+        ],
+        [
+          "U10.C4"
+        ],
+        [
+          "U17.15"
+        ],
+        [
+          "U17.16"
+        ],
+        [
+          "U17.17"
+        ],
+        [
+          "U17.5"
+        ],
+        [
+          "U17.6"
+        ],
+        [
+          "U17.7"
+        ],
+        [
+          "U17.8"
+        ],
+        [
+          "U18.4"
+        ],
+        [
+          "U18.9"
+        ],
+        [
+          "U2.A10"
+        ],
+        [
+          "U2.A3"
+        ],
+        [
+          "U2.AB10"
+        ],
+        [
+          "U2.AB3"
+        ],
+        [
+          "U2.AB5"
+        ],
+        [
+          "U2.AB8"
+        ],
+        [
+          "U2.C1"
+        ],
+        [
+          "U2.C12"
+        ],
+        [
+          "U2.C5"
+        ],
+        [
+          "U2.C8"
+        ],
+        [
+          "U2.D11"
+        ],
+        [
+          "U2.D2"
+        ],
+        [
+          "U2.D4"
+        ],
+        [
+          "U2.D9"
+        ],
+        [
+          "U2.E1"
+        ],
+        [
+          "U2.E12"
+        ],
+        [
+          "U2.E5"
+        ],
+        [
+          "U2.E8"
+        ],
+        [
+          "U2.G1"
+        ],
+        [
+          "U2.G10"
+        ],
+        [
+          "U2.G12"
+        ],
+        [
+          "U2.G3"
+        ],
+        [
+          "U2.G5"
+        ],
+        [
+          "U2.G8"
+        ],
+        [
+          "U2.J1"
+        ],
+        [
+          "U2.J10"
+        ],
+        [
+          "U2.J12"
+        ],
+        [
+          "U2.J3"
+        ],
+        [
+          "U2.K11"
+        ],
+        [
+          "U2.K2"
+        ],
+        [
+          "U2.K4"
+        ],
+        [
+          "U2.K9"
+        ],
+        [
+          "U2.N11"
+        ],
+        [
+          "U2.N2"
+        ],
+        [
+          "U2.N4"
+        ],
+        [
+          "U2.N9"
+        ],
+        [
+          "U2.P1"
+        ],
+        [
+          "U2.P10"
+        ],
+        [
+          "U2.P12"
+        ],
+        [
+          "U2.P3"
+        ],
+        [
+          "U2.T1"
+        ],
+        [
+          "U2.T10"
+        ],
+        [
+          "U2.T12"
+        ],
+        [
+          "U2.T3"
+        ],
+        [
+          "U2.T5"
+        ],
+        [
+          "U2.T8"
+        ],
+        [
+          "U2.V1"
+        ],
+        [
+          "U2.V12"
+        ],
+        [
+          "U2.V5"
+        ],
+        [
+          "U2.V8"
+        ],
+        [
+          "U2.W11"
+        ],
+        [
+          "U2.W2"
+        ],
+        [
+          "U2.W4"
+        ],
+        [
+          "U2.W9"
+        ],
+        [
+          "U2.Y1"
+        ],
+        [
+          "U2.Y12"
+        ],
+        [
+          "U2.Y5"
+        ],
+        [
+          "U2.Y8"
+        ],
+        [
+          "U20.2"
+        ],
+        [
+          "U21.1"
+        ],
+        [
+          "U21.10"
+        ],
+        [
+          "U21.19"
+        ],
+        [
+          "U21.7"
+        ],
+        [
+          "U21.8"
+        ],
+        [
+          "U21.9"
+        ],
+        [
+          "U22.3"
+        ],
+        [
+          "U22.8"
+        ],
+        [
+          "U23.3"
+        ],
+        [
+          "U23.8"
+        ],
+        [
+          "U4.14"
+        ],
+        [
+          "U4.15"
+        ],
+        [
+          "U4.16"
+        ],
+        [
+          "U4.17"
+        ],
+        [
+          "U4.19"
+        ],
+        [
+          "U4.40"
+        ],
+        [
+          "U4.47"
+        ],
+        [
+          "U4.56"
+        ],
+        [
+          "U4.62"
+        ],
+        [
+          "U4.63"
+        ],
+        [
+          "U5.41"
+        ],
+        [
+          "Y1.2"
+        ],
+        [
+          "Y1.4"
+        ],
+        [
+          "Y2002.2"
+        ],
+        [
+          "Y2002.4"
+        ],
+        [
+          "Y501.2"
+        ],
+        [
+          "Y501.4"
+        ]
+      ],
+      "group_count": 471,
+      "fully_connected": false
+    },
+    {
+      "net": "I2C0_SCL",
+      "pad_count": 4,
+      "connected_groups": [
+        [
+          "R414.1"
+        ],
+        [
+          "R416.2"
+        ],
+        [
+          "U1.AG23"
+        ],
+        [
+          "U10.A3"
+        ]
+      ],
+      "group_count": 4,
+      "fully_connected": false
+    },
+    {
+      "net": "I2C0_SDA",
+      "pad_count": 4,
+      "connected_groups": [
+        [
+          "R415.1"
+        ],
+        [
+          "R417.2"
+        ],
+        [
+          "U1.AE23"
+        ],
+        [
+          "U10.B1"
+        ]
+      ],
+      "group_count": 4,
+      "fully_connected": false
+    },
+    {
+      "net": "LCD_BL_BASE",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "Q1.1"
+        ],
+        [
+          "R1801.2"
+        ],
+        [
+          "R1802.1"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "LCD_BL_PWM",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R1801.1"
+        ],
+        [
+          "U1.L1"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LCD_CLK_3V",
+      "pad_count": 1,
+      "connected_groups": [
+        [
+          "U21.17"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "LCD_CS_3V",
+      "pad_count": 1,
+      "connected_groups": [
+        [
+          "U21.14"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "LCD_CS_N",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R1815.1"
+        ],
+        [
+          "U1.M3"
+        ],
+        [
+          "U21.6"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "LCD_DC",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R1813.1"
+        ],
+        [
+          "U1.N1"
+        ],
+        [
+          "U21.4"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "LCD_DC_3V",
+      "pad_count": 1,
+      "connected_groups": [
+        [
+          "U21.16"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "LCD_DIN_3V",
+      "pad_count": 1,
+      "connected_groups": [
+        [
+          "U21.18"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "LCD_LEDA",
+      "pad_count": 1,
+      "connected_groups": [
+        [
+          "R1803.2"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "LCD_LEDK",
+      "pad_count": 1,
+      "connected_groups": [
+        [
+          "Q1.3"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "LCD_MOSI",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R1811.1"
+        ],
+        [
+          "U1.T3"
+        ],
+        [
+          "U21.2"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "LCD_RESET_N",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R1814.1"
+        ],
+        [
+          "U1.N2"
+        ],
+        [
+          "U21.5"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "LCD_RST_3V",
+      "pad_count": 1,
+      "connected_groups": [
+        [
+          "U21.15"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "LCD_SCLK",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R1812.1"
+        ],
+        [
+          "U1.N3"
+        ],
+        [
+          "U21.3"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_A0_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.B10"
+        ],
+        [
+          "U2.H2"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_A0_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.B18"
+        ],
+        [
+          "U2.R2"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_A1_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.A10"
+        ],
+        [
+          "U2.J2"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_A1_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.A18"
+        ],
+        [
+          "U2.P2"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_A2_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.C10"
+        ],
+        [
+          "U2.H9"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_A2_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.C18"
+        ],
+        [
+          "U2.R9"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_A3_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.1A6"
+        ],
+        [
+          "U2.H10"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_A3_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.1A10"
+        ],
+        [
+          "U2.R10"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_A4_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.1B8"
+        ],
+        [
+          "U2.H11"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_A4_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.1A9"
+        ],
+        [
+          "U2.R11"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_A5_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.1A7"
+        ],
+        [
+          "U2.J11"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_A5_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.1A8"
+        ],
+        [
+          "U2.P11"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_CKE0_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.C12"
+        ],
+        [
+          "U2.J4"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_CKE0_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.C16"
+        ],
+        [
+          "U2.P4"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_CLKN_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.A13"
+        ],
+        [
+          "U2.J9"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_CLKN_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.A15"
+        ],
+        [
+          "U2.P9"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_CLKP_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.B13"
+        ],
+        [
+          "U2.J8"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_CLKP_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.B15"
+        ],
+        [
+          "U2.P8"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_CS0N_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.B11"
+        ],
+        [
+          "U2.H4"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_CS0N_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.B17"
+        ],
+        [
+          "U2.R4"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DM0_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.B7"
+        ],
+        [
+          "U2.C3"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DM0_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.B21"
+        ],
+        [
+          "U2.Y3"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DM1_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.A2"
+        ],
+        [
+          "U2.C10"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DM1_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.A26"
+        ],
+        [
+          "U2.Y10"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ0_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.B6"
+        ],
+        [
+          "U2.B2"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ0_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.B22"
+        ],
+        [
+          "U2.AA2"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ10_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.B1"
+        ],
+        [
+          "U2.E11"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ10_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.B27"
+        ],
+        [
+          "U2.V11"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ11_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.B2"
+        ],
+        [
+          "U2.F11"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ11_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.B26"
+        ],
+        [
+          "U2.U11"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ12_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.A4"
+        ],
+        [
+          "U2.F9"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ12_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.A24"
+        ],
+        [
+          "U2.U9"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ13_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.B4"
+        ],
+        [
+          "U2.E9"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ13_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.B24"
+        ],
+        [
+          "U2.V9"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ14_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.A3"
+        ],
+        [
+          "U2.C9"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ14_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.A25"
+        ],
+        [
+          "U2.Y9"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ15_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.B3"
+        ],
+        [
+          "U2.B9"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ15_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.B25"
+        ],
+        [
+          "U2.AA9"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ1_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.B8"
+        ],
+        [
+          "U2.C2"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ1_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.B20"
+        ],
+        [
+          "U2.Y2"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ2_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.A8"
+        ],
+        [
+          "U2.E2"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ2_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.A20"
+        ],
+        [
+          "U2.V2"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ3_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.C8"
+        ],
+        [
+          "U2.F2"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ3_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.C20"
+        ],
+        [
+          "U2.U2"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ4_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.C5"
+        ],
+        [
+          "U2.F4"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ4_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.C23"
+        ],
+        [
+          "U2.U4"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ5_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.B5"
+        ],
+        [
+          "U2.E4"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ5_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.B23"
+        ],
+        [
+          "U2.V4"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ6_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.A6"
+        ],
+        [
+          "U2.C4"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ6_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.C22"
+        ],
+        [
+          "U2.Y4"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ7_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.C6"
+        ],
+        [
+          "U2.B4"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ7_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.A22"
+        ],
+        [
+          "U2.AA4"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ8_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.C2"
+        ],
+        [
+          "U2.B11"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ8_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.C26"
+        ],
+        [
+          "U2.AA11"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ9_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.C1"
+        ],
+        [
+          "U2.C11"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQ9_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.C27"
+        ],
+        [
+          "U2.Y11"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQS0N_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.1B3"
+        ],
+        [
+          "U2.E3"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQS0N_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.1B13"
+        ],
+        [
+          "U2.V3"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQS0P_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.1A3"
+        ],
+        [
+          "U2.D3"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQS0P_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.1A13"
+        ],
+        [
+          "U2.W3"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQS1N_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.1B1"
+        ],
+        [
+          "U2.E10"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQS1N_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.1B15"
+        ],
+        [
+          "U2.V10"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQS1P_A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.1A1"
+        ],
+        [
+          "U2.D10"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_DQS1P_B",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.1A15"
+        ],
+        [
+          "U2.W10"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_RESETN",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.1B11"
+        ],
+        [
+          "U2.T11"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "LPDDR4_ZQ_240R",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R201.1"
+        ],
+        [
+          "U2.A5"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "MUX_TX1_N",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "C602.1"
+        ],
+        [
+          "U6.16"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "MUX_TX1_P",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "C601.1"
+        ],
+        [
+          "U6.17"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "MUX_TX2_N",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "C604.1"
+        ],
+        [
+          "U6.20"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "MUX_TX2_P",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "C603.1"
+        ],
+        [
+          "U6.21"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "PHY_CFG_EXT",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R527.1"
+        ],
+        [
+          "U5.32"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "PHY_CFG_LDO0",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R528.1"
+        ],
+        [
+          "U5.33"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "PHY_CFG_LDO1",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R529.1"
+        ],
+        [
+          "U5.34"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "PHY_RESET_N",
+      "pad_count": 4,
+      "connected_groups": [
+        [
+          "C501.1"
+        ],
+        [
+          "R515.2"
+        ],
+        [
+          "R516.1"
+        ],
+        [
+          "U5.12"
+        ]
+      ],
+      "group_count": 4,
+      "fully_connected": false
+    },
+    {
+      "net": "PHY_RSET",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R513.1"
+        ],
+        [
+          "U5.39"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "PHY_RXCLK",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R512.2"
+        ],
+        [
+          "R522.1"
+        ],
+        [
+          "U5.27"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "PHY_RXD0",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R507.2"
+        ],
+        [
+          "R526.1"
+        ],
+        [
+          "U5.25"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "PHY_RXD1",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R508.2"
+        ],
+        [
+          "R525.1"
+        ],
+        [
+          "U5.24"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "PHY_RXD2",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R509.2"
+        ],
+        [
+          "R524.1"
+        ],
+        [
+          "U5.23"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "PHY_RXD3",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R510.2"
+        ],
+        [
+          "R521.1"
+        ],
+        [
+          "U5.22"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "PHY_RXDV_CRS",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R511.2"
+        ],
+        [
+          "R523.1"
+        ],
+        [
+          "U5.26"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "PHY_SW",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "L501.1"
+        ],
+        [
+          "U5.30"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "PHY_TXCLK",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R506.2"
+        ],
+        [
+          "U5.20"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "PHY_TXD0",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R501.2"
+        ],
+        [
+          "U5.18"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "PHY_TXD1",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R502.2"
+        ],
+        [
+          "U5.17"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "PHY_TXD2",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R503.2"
+        ],
+        [
+          "U5.16"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "PHY_TXD3",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R504.2"
+        ],
+        [
+          "U5.15"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "PHY_TXEN",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R505.2"
+        ],
+        [
+          "U5.19"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "PHY_XIN",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "C520.1"
+        ],
+        [
+          "U5.36"
+        ],
+        [
+          "Y501.1"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "PHY_XOUT",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "C521.1"
+        ],
+        [
+          "U5.37"
+        ],
+        [
+          "Y501.3"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "PMIC_1V8A",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "C414.1"
+        ],
+        [
+          "U4.44"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "PMIC_1V8D",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "C415.1"
+        ],
+        [
+          "U4.48"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "PMIC_INT_N",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R413.2"
+        ],
+        [
+          "U1.AF22"
+        ],
+        [
+          "U4.7"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "PMIC_PWRON_N",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "C412.1"
+        ],
+        [
+          "U4.52"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "PMIC_SCL",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R414.2"
+        ],
+        [
+          "U4.1"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "PMIC_SDA",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R415.2"
+        ],
+        [
+          "U4.2"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "PMIC_SLEEP",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "U1.AF23"
+        ],
+        [
+          "U10.A1"
+        ],
+        [
+          "U4.49"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "PMIC_SW1",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "L401.1"
+        ],
+        [
+          "U4.12"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "PMIC_SW2",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "L402.1"
+        ],
+        [
+          "U4.9"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "PMIC_SW3",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "L403.1"
+        ],
+        [
+          "U4.25"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "PMIC_SW4",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "L404.1"
+        ],
+        [
+          "U4.65"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "PMIC_SW5",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "L405.1"
+        ],
+        [
+          "U4.53"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "PMIC_VDC",
+      "pad_count": 4,
+      "connected_groups": [
+        [
+          "C410.1"
+        ],
+        [
+          "R410.2"
+        ],
+        [
+          "R411.1"
+        ],
+        [
+          "U4.61"
+        ]
+      ],
+      "group_count": 4,
+      "fully_connected": false
+    },
+    {
+      "net": "PMIC_VREF",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "C413.1"
+        ],
+        [
+          "U4.46"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "RECOVERY_ADC",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R1504.1"
+        ],
+        [
+          "TP10.1"
+        ],
+        [
+          "U1.D26"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "RESET_N",
+      "pad_count": 8,
+      "connected_groups": [
+        [
+          "C411.1"
+        ],
+        [
+          "R1103.1"
+        ],
+        [
+          "R1507.2"
+        ],
+        [
+          "R412.2"
+        ],
+        [
+          "TP9.1"
+        ],
+        [
+          "U1.1P12"
+        ],
+        [
+          "U16.2"
+        ],
+        [
+          "U4.67"
+        ]
+      ],
+      "group_count": 8,
+      "fully_connected": false
+    },
+    {
+      "net": "SOC_USB_RX_N",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.AB27"
+        ],
+        [
+          "U6.10"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "SOC_USB_RX_P",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.AB26"
+        ],
+        [
+          "U6.9"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "SOC_USB_TX_N",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.AD27"
+        ],
+        [
+          "U6.7"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "SOC_USB_TX_P",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.AD26"
+        ],
+        [
+          "U6.6"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "SOC_VBUS_DET",
+      "pad_count": 4,
+      "connected_groups": [
+        [
+          "C1503.1"
+        ],
+        [
+          "R1505.2"
+        ],
+        [
+          "R1506.1"
+        ],
+        [
+          "U1.1P14"
+        ]
+      ],
+      "group_count": 4,
+      "fully_connected": false
+    },
+    {
+      "net": "SYS_3V3_PG",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R1301.1"
+        ],
+        [
+          "TP14.1"
+        ],
+        [
+          "U17.4"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "SYS_SS",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "C1303.1"
+        ],
+        [
+          "U17.9"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "SYS_SW",
+      "pad_count": 4,
+      "connected_groups": [
+        [
+          "L1301.1"
+        ],
+        [
+          "U17.1"
+        ],
+        [
+          "U17.2"
+        ],
+        [
+          "U17.3"
+        ]
+      ],
+      "group_count": 4,
+      "fully_connected": false
+    },
+    {
+      "net": "THERMAL_SHUTDOWN",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R1507.1"
+        ],
+        [
+          "U1.1R13"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "USB_AVDD_0V9",
+      "pad_count": 4,
+      "connected_groups": [
+        [
+          "C1679.1"
+        ],
+        [
+          "C1680.1"
+        ],
+        [
+          "R1601.2"
+        ],
+        [
+          "U1.1L14"
+        ]
+      ],
+      "group_count": 4,
+      "fully_connected": false
+    },
+    {
+      "net": "USB_AVDD_1V8",
+      "pad_count": 4,
+      "connected_groups": [
+        [
+          "C1681.1"
+        ],
+        [
+          "C1682.1"
+        ],
+        [
+          "R1602.2"
+        ],
+        [
+          "U1.1M15"
+        ]
+      ],
+      "group_count": 4,
+      "fully_connected": false
+    },
+    {
+      "net": "USB_CC1",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "J1.A5",
+          "U6.2",
+          "U9.4"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "USB_CC2",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "J1.B5",
+          "U6.1",
+          "U9.5"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "USB_CC_ENABLE_N",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U13.4",
+          "U6.29"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "USB_CURRENT_OK",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U14.4",
+          "U19.1"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "USB_DM",
+      "pad_count": 4,
+      "connected_groups": [
+        [
+          "J1.A7"
+        ],
+        [
+          "J1.B7"
+        ],
+        [
+          "U1.AF26"
+        ],
+        [
+          "U9.2"
+        ]
+      ],
+      "group_count": 4,
+      "fully_connected": false
+    },
+    {
+      "net": "USB_DP",
+      "pad_count": 4,
+      "connected_groups": [
+        [
+          "J1.A6"
+        ],
+        [
+          "J1.B6"
+        ],
+        [
+          "U1.AF27"
+        ],
+        [
+          "U9.1"
+        ]
+      ],
+      "group_count": 4,
+      "fully_connected": false
+    },
+    {
+      "net": "USB_DVDT",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "C1202.1",
+          "U15.1"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "USB_ILIM",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R1201.1",
+          "U15.7"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "USB_MAIN_ENABLE",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R1102.1",
+          "U15.2",
+          "U19.4"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "USB_MUX_ENABLE_N",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U16.4"
+        ],
+        [
+          "U6.12"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "USB_ORIENTATION",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R602.2"
+        ],
+        [
+          "U6.11"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "USB_POWER_FAULT_N",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R1202.1",
+          "TP13.1",
+          "U15.6"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "USB_RX1_N",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "J1.B10"
+        ],
+        [
+          "U6.14"
+        ],
+        [
+          "U7.5"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "USB_RX1_P",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "J1.B11"
+        ],
+        [
+          "U6.15"
+        ],
+        [
+          "U7.4"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "USB_RX2_N",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "J1.A10"
+        ],
+        [
+          "U6.18"
+        ],
+        [
+          "U8.5"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "USB_RX2_P",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "J1.A11"
+        ],
+        [
+          "U6.19"
+        ],
+        [
+          "U8.4"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "USB_SHIELD",
+      "pad_count": 4,
+      "connected_groups": [
+        [
+          "J1.SH"
+        ],
+        [
+          "J1.SH"
+        ],
+        [
+          "J1.SH"
+        ],
+        [
+          "J1.SH"
+        ]
+      ],
+      "group_count": 4,
+      "fully_connected": false
+    },
+    {
+      "net": "USB_TX1_N",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "C602.2"
+        ],
+        [
+          "J1.A3"
+        ],
+        [
+          "U7.2"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "USB_TX1_P",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "C601.2"
+        ],
+        [
+          "J1.A2"
+        ],
+        [
+          "U7.1"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "USB_TX2_N",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "C604.2"
+        ],
+        [
+          "J1.B3"
+        ],
+        [
+          "U8.2"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "USB_TX2_P",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "C603.2"
+        ],
+        [
+          "J1.B2"
+        ],
+        [
+          "U8.1"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "VBUS_GUARD_DVDT",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "C1903.1",
+          "U24.18"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "VBUS_GUARD_ILIM",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R1905.1",
+          "U24.17"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "VBUS_OVP",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R1903.2",
+          "R1904.1",
+          "U24.15"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "VBUS_PROTECTED",
+      "pad_count": 15,
+      "connected_groups": [
+        [
+          "C1101.1",
+          "C1201.1",
+          "C1902.1",
+          "C605.1",
+          "R601.1",
+          "U11.1",
+          "U11.3",
+          "U15.3",
+          "U15.4",
+          "U24.4",
+          "U24.5",
+          "U24.6",
+          "U24.7",
+          "U24.8",
+          "U6.30"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "VBUS_RAW",
+      "pad_count": 13,
+      "connected_groups": [
+        [
+          "C1901.1",
+          "J1.A4",
+          "J1.A9",
+          "J1.B4",
+          "J1.B9",
+          "R1901.1",
+          "R1903.1",
+          "TP2.1",
+          "U24.10",
+          "U24.11",
+          "U24.12",
+          "U24.13",
+          "U24.9"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "VBUS_UVLO",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R1901.2",
+          "R1902.1",
+          "U24.14"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "VCCA1V8_IMAGE",
+      "pad_count": 5,
+      "connected_groups": [
+        [
+          "C468.1"
+        ],
+        [
+          "U1.1M7"
+        ],
+        [
+          "U1.1M8"
+        ],
+        [
+          "U1.1N9"
+        ],
+        [
+          "U4.6"
+        ]
+      ],
+      "group_count": 5,
+      "fully_connected": false
+    },
+    {
+      "net": "VCCA1V8_PMU",
+      "pad_count": 5,
+      "connected_groups": [
+        [
+          "C1631.1"
+        ],
+        [
+          "C1632.1"
+        ],
+        [
+          "C467.1"
+        ],
+        [
+          "U1.1L13"
+        ],
+        [
+          "U4.5"
+        ]
+      ],
+      "group_count": 5,
+      "fully_connected": false
+    },
+    {
+      "net": "VCCA_1V8",
+      "pad_count": 13,
+      "connected_groups": [
+        [
+          "C1635.1"
+        ],
+        [
+          "C1636.1"
+        ],
+        [
+          "C1644.1"
+        ],
+        [
+          "C1645.1"
+        ],
+        [
+          "C466.1"
+        ],
+        [
+          "R1504.2"
+        ],
+        [
+          "R1602.1"
+        ],
+        [
+          "U1.1E14"
+        ],
+        [
+          "U1.1E15"
+        ],
+        [
+          "U1.1G1"
+        ],
+        [
+          "U1.1K15"
+        ],
+        [
+          "U1.1K2"
+        ],
+        [
+          "U4.3"
+        ]
+      ],
+      "group_count": 13,
+      "fully_connected": false
+    },
+    {
+      "net": "VCCIO_ACODEC",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "C463.1"
+        ],
+        [
+          "U4.28"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "VCCIO_SD",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "C464.1"
+        ],
+        [
+          "U4.29"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "VDDA0V9_IMAGE",
+      "pad_count": 5,
+      "connected_groups": [
+        [
+          "C460.1"
+        ],
+        [
+          "U1.1L6"
+        ],
+        [
+          "U1.1L8"
+        ],
+        [
+          "U1.1M9"
+        ],
+        [
+          "U4.23"
+        ]
+      ],
+      "group_count": 5,
+      "fully_connected": false
+    },
+    {
+      "net": "VDDA0V9_PMU",
+      "pad_count": 6,
+      "connected_groups": [
+        [
+          "C1629.1"
+        ],
+        [
+          "C1630.1"
+        ],
+        [
+          "C462.1"
+        ],
+        [
+          "U1.1M11"
+        ],
+        [
+          "U1.1M13"
+        ],
+        [
+          "U4.20"
+        ]
+      ],
+      "group_count": 6,
+      "fully_connected": false
+    },
+    {
+      "net": "VDDA_0V9",
+      "pad_count": 9,
+      "connected_groups": [
+        [
+          "C1633.1"
+        ],
+        [
+          "C1634.1"
+        ],
+        [
+          "C1642.1"
+        ],
+        [
+          "C1643.1"
+        ],
+        [
+          "C461.1"
+        ],
+        [
+          "R1601.1"
+        ],
+        [
+          "U1.1K14"
+        ],
+        [
+          "U1.1M10"
+        ],
+        [
+          "U4.21"
+        ]
+      ],
+      "group_count": 9,
+      "fully_connected": false
+    },
+    {
+      "net": "VDD_CPU",
+      "pad_count": 22,
+      "connected_groups": [
+        [
+          "C1011.1"
+        ],
+        [
+          "C1012.1"
+        ],
+        [
+          "C1013.1"
+        ],
+        [
+          "C1014.1"
+        ],
+        [
+          "C1020.1"
+        ],
+        [
+          "C1601.1"
+        ],
+        [
+          "C1602.1"
+        ],
+        [
+          "C1603.1"
+        ],
+        [
+          "C1604.1"
+        ],
+        [
+          "C1605.1"
+        ],
+        [
+          "C1606.1"
+        ],
+        [
+          "C1607.1"
+        ],
+        [
+          "C1608.1"
+        ],
+        [
+          "L1001.2"
+        ],
+        [
+          "R1001.1"
+        ],
+        [
+          "TP8.1"
+        ],
+        [
+          "U1.1G8"
+        ],
+        [
+          "U1.1H6"
+        ],
+        [
+          "U1.1H7"
+        ],
+        [
+          "U1.1H8"
+        ],
+        [
+          "U1.1J6"
+        ],
+        [
+          "U1.1J7"
+        ]
+      ],
+      "group_count": 22,
+      "fully_connected": false
+    },
+    {
+      "net": "VDD_GPU",
+      "pad_count": 16,
+      "connected_groups": [
+        [
+          "C1616.1"
+        ],
+        [
+          "C1617.1"
+        ],
+        [
+          "C1618.1"
+        ],
+        [
+          "C1619.1"
+        ],
+        [
+          "C1620.1"
+        ],
+        [
+          "C432.1"
+        ],
+        [
+          "C442.1"
+        ],
+        [
+          "C452.1"
+        ],
+        [
+          "L402.2"
+        ],
+        [
+          "R422.1"
+        ],
+        [
+          "U1.1E12"
+        ],
+        [
+          "U1.1F11"
+        ],
+        [
+          "U1.1F12"
+        ],
+        [
+          "U1.1F13"
+        ],
+        [
+          "U1.1G11"
+        ],
+        [
+          "U1.1G12"
+        ]
+      ],
+      "group_count": 16,
+      "fully_connected": false
+    },
+    {
+      "net": "VDD_GPU_COM",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "C452.2"
+        ],
+        [
+          "R422.2"
+        ],
+        [
+          "U4.8"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "VDD_LOGIC",
+      "pad_count": 19,
+      "connected_groups": [
+        [
+          "C1609.1"
+        ],
+        [
+          "C1610.1"
+        ],
+        [
+          "C1611.1"
+        ],
+        [
+          "C1612.1"
+        ],
+        [
+          "C1613.1"
+        ],
+        [
+          "C1614.1"
+        ],
+        [
+          "C1615.1"
+        ],
+        [
+          "C431.1"
+        ],
+        [
+          "C441.1"
+        ],
+        [
+          "C451.1"
+        ],
+        [
+          "L401.2"
+        ],
+        [
+          "R421.1"
+        ],
+        [
+          "U1.1G10"
+        ],
+        [
+          "U1.1H10"
+        ],
+        [
+          "U1.1H11"
+        ],
+        [
+          "U1.1J10"
+        ],
+        [
+          "U1.1J11"
+        ],
+        [
+          "U1.1J12"
+        ],
+        [
+          "U1.1K10"
+        ]
+      ],
+      "group_count": 19,
+      "fully_connected": false
+    },
+    {
+      "net": "VDD_LOGIC_COM",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "C451.2"
+        ],
+        [
+          "R421.2"
+        ],
+        [
+          "U4.13"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "VDD_NPU",
+      "pad_count": 14,
+      "connected_groups": [
+        [
+          "C1621.1"
+        ],
+        [
+          "C1622.1"
+        ],
+        [
+          "C1623.1"
+        ],
+        [
+          "C1624.1"
+        ],
+        [
+          "C434.1"
+        ],
+        [
+          "C444.1"
+        ],
+        [
+          "C454.1"
+        ],
+        [
+          "L404.2"
+        ],
+        [
+          "R424.1"
+        ],
+        [
+          "U1.1G3"
+        ],
+        [
+          "U1.1G4"
+        ],
+        [
+          "U1.1G5"
+        ],
+        [
+          "U1.1H3"
+        ],
+        [
+          "U1.1H4"
+        ]
+      ],
+      "group_count": 14,
+      "fully_connected": false
+    },
+    {
+      "net": "VDD_NPU_COM",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "C454.2"
+        ],
+        [
+          "R424.2"
+        ],
+        [
+          "U4.64"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "WIFI_ANT",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "J2001.1"
+        ],
+        [
+          "R2001.2"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "WIFI_BUCK_OUT",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "C2003.1",
+          "L2001.2",
+          "U25.23"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "WIFI_BUCK_SW",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "L2001.1",
+          "U25.21"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "WIFI_CLK",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.U25"
+        ],
+        [
+          "U25.17"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "WIFI_CMD",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R2014.1"
+        ],
+        [
+          "U1.T27"
+        ],
+        [
+          "U25.16"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "WIFI_D0",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R2010.1"
+        ],
+        [
+          "U1.U26"
+        ],
+        [
+          "U25.18"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "WIFI_D1",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R2011.1"
+        ],
+        [
+          "U1.V25"
+        ],
+        [
+          "U25.19"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "WIFI_D2",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R2012.1"
+        ],
+        [
+          "U1.T25"
+        ],
+        [
+          "U25.14"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "WIFI_D3",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R2013.1"
+        ],
+        [
+          "U1.T26"
+        ],
+        [
+          "U25.15"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "WIFI_HOST_WAKE",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "U1.V26"
+        ],
+        [
+          "U25.13"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "WIFI_LPO",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R2003.2",
+          "U25.24"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "WIFI_LPO_SRC",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R2003.1",
+          "Y2001.3"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "WIFI_REG_ON",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R2002.1"
+        ],
+        [
+          "U1.1J14"
+        ],
+        [
+          "U25.12"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "WIFI_RF",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R2001.1"
+        ],
+        [
+          "U25.2"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "WIFI_VBAT",
+      "pad_count": 4,
+      "connected_groups": [
+        [
+          "C2001.1",
+          "C2002.1",
+          "FB2001.2",
+          "U25.9"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "WIFI_VBAT_FB",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R2202.2",
+          "R2203.1",
+          "U26.5"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "WIFI_VBAT_PG",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R2201.1",
+          "U17.13",
+          "U26.4"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "WIFI_VBAT_SS",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "C2203.1",
+          "U26.9"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "WIFI_VBAT_SW",
+      "pad_count": 4,
+      "connected_groups": [
+        [
+          "L2201.1",
+          "U26.1",
+          "U26.2",
+          "U26.3"
+        ]
+      ],
+      "group_count": 1,
+      "fully_connected": true
+    },
+    {
+      "net": "WIFI_XIN",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "C2008.1"
+        ],
+        [
+          "U25.10"
+        ],
+        [
+          "Y2002.1"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "WIFI_XOUT",
+      "pad_count": 2,
+      "connected_groups": [
+        [
+          "R2004.1"
+        ],
+        [
+          "U25.11"
+        ]
+      ],
+      "group_count": 2,
+      "fully_connected": false
+    },
+    {
+      "net": "WIFI_XTAL_OUT",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "C2009.1"
+        ],
+        [
+          "R2004.2"
+        ],
+        [
+          "Y2002.3"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "XIN24M",
+      "pad_count": 4,
+      "connected_groups": [
+        [
+          "C1501.1"
+        ],
+        [
+          "R1502.2"
+        ],
+        [
+          "U1.AG25"
+        ],
+        [
+          "Y1.1"
+        ]
+      ],
+      "group_count": 4,
+      "fully_connected": false
+    },
+    {
+      "net": "XOUT24M",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "R1501.1"
+        ],
+        [
+          "R1502.1"
+        ],
+        [
+          "U1.AF25"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    },
+    {
+      "net": "XTAL24_DRIVE",
+      "pad_count": 3,
+      "connected_groups": [
+        [
+          "C1502.1"
+        ],
+        [
+          "R1501.2"
+        ],
+        [
+          "Y1.3"
+        ]
+      ],
+      "group_count": 3,
+      "fully_connected": false
+    }
+  ],
+  "DRC_cap_not_used": true,
+  "assembly_ready": false
+}
