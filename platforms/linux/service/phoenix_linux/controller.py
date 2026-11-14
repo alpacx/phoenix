@@ -31,6 +31,7 @@ class Controller:
         self.countries = countries
         self.runtime = runtime
         self.access_point = None
+        self.usb_lan = None
         self.station = None
         self.updates = None
         self.ap_suspended = False
@@ -229,6 +230,8 @@ class Controller:
             self.location = {'country': '', 'server': profile.endpoint, 'id': 0}
         if self.access_point:
             self.access_point.set_dns(profile.dns)
+        if self.usb_lan:
+            self.usb_lan.set_dns(profile.dns)
         self.runtime.connect(self.policy(), profile)
         self.enabled = True
         self.error = ''
@@ -306,6 +309,8 @@ class Controller:
                 if action == 'direct':
                     if self.access_point:
                         self.access_point.set_dns(self.access_point.default_dns)
+                    if self.usb_lan:
+                        self.usb_lan.set_dns(self.usb_lan.default_dns)
                     self.runtime.direct(self.policy())
                 else:
                     self.runtime.disconnect(self.policy())
@@ -322,6 +327,12 @@ class Controller:
             if self.runtime is None or self.busy or self.closing or self.updating:
                 return
             try:
+                if self.usb_lan and not self.usb_lan.healthy():
+                    self.want_connected = self.enabled = False
+                    self.retry_at = None
+                    self.error = 'usb_dhcp_service_failed'
+                    self.runtime.block(self.policy())
+                    return
                 if self.access_point and not self.ap_suspended and not self.access_point.healthy():
                     self.want_connected = self.enabled = False
                     self.retry_at = None

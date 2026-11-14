@@ -1,0 +1,28 @@
+[Unit]
+Description=Phoenix opt-in USB Ethernet gadget
+Before=phoenix-control.service
+After=systemd-modules-load.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+WorkingDirectory=/opt/phoenix
+Environment=PYTHONPATH=/opt/phoenix/platforms/linux/service
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/usr/bin/python3 -m phoenix_linux.usb_gadget start
+ExecStop=/usr/bin/python3 -m phoenix_linux.usb_gadget stop
+TimeoutStartSec=30
+TimeoutStopSec=30
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/sys/kernel/config/usb_gadget
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictAddressFamilies=AF_UNIX
+CapabilityBoundingSet=CAP_NET_ADMIN
+
+[Install]
+WantedBy=multi-user.target

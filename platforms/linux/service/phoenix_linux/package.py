@@ -11,7 +11,7 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[4]
 ASSETS = ('index.html', 'app.js', 'app.css', 'countries.json')
-DEPLOY = ('phoenix.service', 'phoenix-control.service', 'phoenix-update.service', 'phoenix-update-recover.service', 'target.example.json')
+DEPLOY = ('phoenix-usb-gadget.service', 'phoenix.service', 'phoenix-control.service', 'phoenix-update.service', 'phoenix-update-recover.service', 'target.example.json')
 
 
 def permitted(name):

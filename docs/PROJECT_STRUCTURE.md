@@ -78,3 +78,14 @@ test countdown e build completa ESP-IDF con configurazione build-admin.
 I sorgenti spostati sono identici alla revisione precedente, salvo il CMake
 del componente per aggiornare i percorsi. Nessun flash o test fisico eseguito
 in questa riorganizzazione; backend Linux ancora da implementare.
+
+## USB Ethernet Linux — provisioning opt-in
+
+`platforms/linux/service/phoenix_linux/usb_gadget.py` gestisce soltanto il gadget
+configfs Phoenix, tramite unità separata `phoenix-usb-gadget.service`. Il worker
+usa `usb_lan.py` per DHCP e le policy USB preesistenti per il traffico. Configurazione
+e procedura in `platforms/linux/deploy/USB_ETHERNET.md`. Non attivare senza
+identificare UDC/target e verificare fisicamente VBUS; nessun cambio automatico
+di ruolo o regolatori. Test configfs simulati distinti dal DHCP reale su veth
+in `platforms/linux/tests/integration/check_usb_dhcp.py`; nessuna prova USB
+fisica implicita nei risultati Docker.

@@ -16,6 +16,8 @@ from .runtime import NetworkError
 
 
 class AccessPoint:
+    address = '192.168.9.1/24'
+
     def __init__(self, name, ssid, password, country, dns, directory, runner,
                  popen=subprocess.Popen, which=shutil.which, wait=time.sleep):
         self.name = interface(name)
@@ -49,11 +51,18 @@ class AccessPoint:
             raise NetworkError('ap_interface_has_existing_address')
         return bool(v4)
 
+    def render_configs(self, dns):
+        return render(self.name, self.ssid, self.password, self.country, dns)
+
+    def daemon_commands(self):
+        return [['hostapd', str(self.directory / 'hostapd.conf')],
+                ['dnsmasq', '--no-daemon', '--conf-file=' + str(self.directory / 'dnsmasq.conf')]]
+
     def write_configs(self, dns):
         self.directory.mkdir(parents=True, exist_ok=True, mode=0o700)
         if self.directory.is_symlink() or self.directory.stat().st_uid != os.getuid() or self.directory.stat().st_mode & 0o077:
             raise ValueError('ap_state_directory_not_private')
-        configs = render(self.name, self.ssid, self.password, self.country, dns)
+        configs = self.render_configs(dns)
         configs['dnsmasq.conf'] += 'dhcp-leasefile=' + str(self.directory / 'leases') + '\n'
         for name, data in configs.items():
             path = self.directory / name
@@ -78,13 +87,11 @@ class AccessPoint:
         self.write_configs(self.dns)
         try:
             if not existing:
-                self.run(['ip', 'address', 'add', '192.168.9.1/24', 'dev', self.name])
+                self.run(['ip', 'address', 'add', self.address, 'dev', self.name])
                 self.added_address = True
             self.run(['ip', 'link', 'set', 'dev', self.name, 'up'])
-            self.spawn(['hostapd', str(self.directory / 'hostapd.conf')])
-            # systemd already bounds privileges. --no-daemon also avoids
-            # setgroups/setuid, which are deliberately unavailable to this worker.
-            self.spawn(['dnsmasq', '--no-daemon', '--conf-file=' + str(self.directory / 'dnsmasq.conf')])
+            for command in self.daemon_commands():
+                self.spawn(command)
             self.active = True
         except Exception:
             self.stop()
@@ -103,7 +110,7 @@ class AccessPoint:
         self.dns = dns
 
     def healthy(self):
-        return self.active and len(self.processes) == 2 and all(process.poll() is None for process in self.processes)
+        return self.active and len(self.processes) == len(self.daemon_commands()) and all(process.poll() is None for process in self.processes)
 
     def stop(self):
         for process in reversed(self.processes):
@@ -116,6 +123,6 @@ class AccessPoint:
                     process.wait(timeout=3)
         self.processes.clear()
         if self.added_address:
-            self.run(['ip', 'address', 'del', '192.168.9.1/24', 'dev', self.name], optional=True)
+            self.run(['ip', 'address', 'del', self.address, 'dev', self.name], optional=True)
             self.added_address = False
         self.active = False

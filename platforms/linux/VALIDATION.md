@@ -158,3 +158,15 @@ Risultato acquisito: **605 secondi, 102 cicli**, RSS del controllore dopo
 riscaldamento **22144–22144 KiB**, descrittori **4–4**. Nessun fallimento di
 connettività attesa nelle fasi verificate. Questo non esclude perdite di memoria
 su tempi maggiori o con carichi diversi. Report locale: results/linux/review-report.json.
+
+## USB Ethernet offline — 14 novembre 2026
+
+Aggiunti 11 test USB (modello configfs, lifecycle DHCP e integrazione controller).
+Scambio DHCP reale su veth in Docker: offerta/ACK, indirizzo/router/DNS, cambio
+DNS e rimozione indirizzo su stop verificati. Test kernel nftables/WireGuard
+esistente superato nel container senza rete esterna. L’enumerazione USB, la
+UDC/ruolo della ROCK, VBUS, macOS e prestazioni restano non verificati.
+
+Suite Linux finale nel container: 85 test, 84 superati e 1 saltato perché manca
+la dipendenza opzionale per la compatibilità OpenSSL 1.1.1. Nessun test USB
+nuovo saltato. I test diretti sul Mac non sostituiscono questa esecuzione Linux.

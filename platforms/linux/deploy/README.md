@@ -10,8 +10,9 @@ ca-certificates, openssl, iw, hostapd, dnsmasq-base e NetworkManager.
 Con OpenSSL 1.1.1 installare anche `python3-cryptography`: Ed25519 usa
 la libreria di sistema, perché la CLI 1.1.1 non supporta `pkeyutl -rawin`.
 Con OpenSSL 3 resta il backend CLI. Nessun fallback dopo una firma non valida.
-Il kernel deve supportare WireGuard, nftables e policy routing. L'USB gadget
-non viene creata automaticamente: la sua fattibilità è una verifica separata.
+Il kernel deve supportare WireGuard, nftables e policy routing. Il supporto
+[USB Ethernet](USB_ETHERNET.md) è opzionale e disattivato finché non viene
+configurato esplicitamente; cablaggio e VBUS richiedono verifica sul target.
 
 Le risorse possedute sono `inet phoenix`, `inet phoenix_stop`, `phwg0`, tabelle
 routing 17700/17710, mark 0x5048, priorità 17690, 17700–17702, 17710–17711.

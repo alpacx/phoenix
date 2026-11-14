@@ -60,3 +60,10 @@ I servizi OS restano separati: vedere deploy/README.md.
 - Cambi/rotazione serializzati; misura traffico originato dal gateway, non
   forwarding client. Include avvio/TLS e dipende da percorso/server: non è
   un massimo garantito. ESP32 non espone la capability; UI nascosta.
+
+## USB Ethernet, 14 novembre 2026
+
+Gadget ECM/NCM e DHCP implementati come provisioning target opt-in, senza nuova
+API remota per configfs/VBUS. Le policy `ingress=usb` e il routing VPN esistenti
+sono riutilizzati. Accesso web ancora HTTPS loopback/SSH. Nessuna prova fisica
+USB/macOS o velocità dichiarata; vedere `deploy/USB_ETHERNET.md`.

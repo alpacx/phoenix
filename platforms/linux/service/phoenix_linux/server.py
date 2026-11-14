@@ -22,6 +22,7 @@ from .store import RevisionConflict
 from .runtime import Runtime, Runner, NetworkError
 from .preflight import inspect
 from .lan import AccessPoint
+from .usb_lan import UsbLan
 from .station import Station
 
 ROOT = Path(__file__).resolve().parents[4]
@@ -192,6 +193,7 @@ def main():
     controller = Controller(args.state_dir, json.loads((WEB / 'countries.json').read_text()), runtime)
     stop = threading.Event()
     ap = None
+    usb = None
     server = None
     def terminate(signum, frame):
         raise SystemExit(0)
@@ -232,6 +234,11 @@ def main():
                     raise ValueError('station_interface_role_conflict')
                 controller.station = Station(station_name, Path(args.state_dir) / 'wifi', runtime.run, '/run/NetworkManager/system-connections')
                 controller.station.prepare_startup(bool(config.get('access_point')) and station_name == controller.base_ap)
+            if config.get('usb_gadget', {}).get('enabled'):
+                usb = UsbLan(runtime.names['usb'], config['usb_gadget'].get('dns', '103.86.96.100'),
+                             '/run/phoenix/usb', runtime.run)
+                usb.start()
+                controller.usb_lan = usb
             if config.get('access_point'):
                 settings = config['access_point']
                 fd = os.open(settings['password_file'], os.O_RDONLY | os.O_NOFOLLOW)
@@ -271,8 +278,12 @@ def main():
         finally:
             if runtime:
                 Path('/proc/sys/net/ipv4/ip_forward').write_text('0')
-            if ap:
-                ap.stop()
+            try:
+                if ap:
+                    ap.stop()
+            finally:
+                if usb:
+                    usb.stop()
 
 
 if __name__ == '__main__':

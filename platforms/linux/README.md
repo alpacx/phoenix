@@ -18,6 +18,8 @@ La ROCK usa RK3399, distinto dal RK3562 della scheda custom.
   prima delle transizioni, NAT e port forwarding; nessun fallback diretto.
 - `uplink_http.py`, `nord.py`: DoH e HTTPS vincolati alla stessa interfaccia
   selezionata. DNS/API NordVPN non dipendono più dalla route Ethernet di gestione.
+- `usb_gadget.py`, `usb_lan.py`: gadget ECM/NCM opt-in e DHCP USB, testati
+  offline; [attivazione e limiti](deploy/USB_ETHERNET.md).
 - `lan.py`, `station.py`, `access_point.py`: AP/DHCP e STA NetworkManager opt-in;
   profili propri, controllo ownership e recupero dopo arresto del servizio.
 - `store.py`, `vault.py`, `history.py`: configurazione transazionale, file
