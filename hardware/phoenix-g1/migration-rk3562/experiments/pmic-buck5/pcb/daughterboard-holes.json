@@ -1,0 +1,42 @@
+{
+  "status": "TWO_NPTH_CANDIDATES_WITH_BODY_CLEARANCE",
+  "source_sha256": "b8fdf9325c118b23f7949a40f298086efdbf8835217f9e8bd84a69c2e215ab3d",
+  "sha256": "cb13bcdce748766f5d3a802d5fc75f683635b1e8c355eef657f07d2616c42f83",
+  "holes": [
+    {
+      "ref": "H8101",
+      "center_mm": [
+        53,
+        4
+      ],
+      "drill_mm": 2.2,
+      "reserved_body_radius_mm": 2.7,
+      "component_blockers": []
+    },
+    {
+      "ref": "H8102",
+      "center_mm": [
+        83,
+        3
+      ],
+      "drill_mm": 2.2,
+      "reserved_body_radius_mm": 2.7,
+      "component_blockers": []
+    }
+  ],
+  "C445_center_mm": [
+    55.5,
+    7.75
+  ],
+  "preservation": {
+    "existing_pad_instances_preserved": 2003,
+    "existing_tracks_vias_preserved": 4261,
+    "added_tracks_vias": 0,
+    "existing_connected_pad_groups_preserved": 46
+  },
+  "new_violations": [],
+  "auxiliary_holes_created": false,
+  "standoff_height_and_screw_length_qualified": false,
+  "daughterboard_mating_and_enclosure_qualified": false,
+  "assembly_ready": false
+}

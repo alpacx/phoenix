@@ -2,8 +2,9 @@
 """Route J3 enable/fault to local eFuse controls. SoC escapes remain separate."""
 import pcbnew as p,math,json,shutil,hashlib
 from pathlib import Path
+import os
 from local_pcb_router import LocalRouter
-R=Path(__file__).resolve().parents[1];D=R/'migration-rk3562/experiments/stacked-expansion/pcb';b=p.LoadBoard(str(D/'connector-ground.kicad_pcb'));pads={(f.GetReference(),a.GetNumber()):a for f in b.GetFootprints() for a in f.Pads()};records=[]
+R=Path(__file__).resolve().parents[1];D=Path(os.environ.get('PHOENIX_STACKED_PCB_DIR',str(R/'migration-rk3562/experiments/stacked-expansion/pcb')));b=p.LoadBoard(str(D/'connector-ground.kicad_pcb'));pads={(f.GetReference(),a.GetNumber()):a for f in b.GetFootprints() for a in f.Pads()};records=[]
 def pt(q):return p.VECTOR2I(p.FromMM(q[0]),p.FromMM(q[1]))
 for pin,ref in [('27','R8103'),('28','R8102')]:
  start,end=pads['J3',pin],pads[ref,'1'];name=start.GetNetname();assert end.GetNetname()==name

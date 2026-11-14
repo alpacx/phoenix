@@ -1,0 +1,42 @@
+{
+  "status": "REFERENCE_SILK_CLEARANCE_FIXED_ROUTING_WARNINGS_RETAINED",
+  "source_sha256": "f4b784429d1031374fe9a5276b877056485b35f71ad7dffe2ff14a32246763a8",
+  "sha256": "e31ae49c7c806bbdba33e166ed9516b106f71113eedfeb3078e5d8e85ff1896a",
+  "changes": [
+    {
+      "ref": "U2",
+      "change": "reference_inside_board"
+    },
+    {
+      "ref": "C2304",
+      "change": "reference_to_assembly_layer"
+    },
+    {
+      "ref": "C2306",
+      "change": "reference_to_assembly_layer"
+    },
+    {
+      "ref": "C2305",
+      "change": "reference_to_assembly_layer"
+    },
+    {
+      "ref": "C2301",
+      "change": "reference_to_assembly_layer"
+    },
+    {
+      "ref": "C2303",
+      "change": "reference_to_assembly_layer"
+    }
+  ],
+  "preservation": {
+    "existing_pad_instances_preserved": 2005,
+    "existing_tracks_vias_preserved": 4295,
+    "added_tracks_vias": 0,
+    "existing_connected_pad_groups_preserved": 46
+  },
+  "remaining_violations": {
+    "via_dangling": 125
+  },
+  "new_violations": [],
+  "assembly_ready": false
+}

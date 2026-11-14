@@ -2,8 +2,9 @@
 """Draft accessory output feed. Geometry only; current/thermal budget remains unqualified."""
 import pcbnew as p,math,json,shutil,hashlib
 from pathlib import Path
+import os
 from local_pcb_router import LocalRouter
-R=Path(__file__).resolve().parents[1];D=R/'migration-rk3562/experiments/stacked-expansion/pcb';b=p.LoadBoard(str(D/'output-bus.kicad_pcb'));pads={(f.GetReference(),q.GetNumber()):q for f in b.GetFootprints() for q in f.Pads()};pad=pads['C8102','1'];name='+5V_ADDON';assert pad.GetNetname()==name;r=LocalRouter(b,(58,.5,84,12),width=.3);start=r.cell(r.xy(pad));outer=r.blocked(p.B_Cu,name);power=LocalRouter(b,(58,.5,84,12),width=1.0);inner=power.blocked(p.In3_Cu,name);forbidden=set()
+R=Path(__file__).resolve().parents[1];D=Path(os.environ.get('PHOENIX_STACKED_PCB_DIR',str(R/'migration-rk3562/experiments/stacked-expansion/pcb')));b=p.LoadBoard(str(D/'output-bus.kicad_pcb'));pads={(f.GetReference(),q.GetNumber()):q for f in b.GetFootprints() for q in f.Pads()};pad=pads['C8102','1'];name='+5V_ADDON';assert pad.GetNetname()==name;r=LocalRouter(b,(58,.5,84,12),width=.3);start=r.cell(r.xy(pad));outer=r.blocked(p.B_Cu,name);power=LocalRouter(b,(58,.5,84,12),width=1.0);inner=power.blocked(p.In3_Cu,name);forbidden=set()
 for layer in (p.F_Cu,p.In1_Cu,p.In2_Cu,p.In3_Cu,p.In4_Cu,p.B_Cu):forbidden|=r.blocked(layer,name,.6,True)
 roots=[v for v in b.GetTracks() if isinstance(v,p.PCB_VIA) and v.GetNetname()==name and r.within(r.cell(r.xy(v)))];assert roots
 found=None

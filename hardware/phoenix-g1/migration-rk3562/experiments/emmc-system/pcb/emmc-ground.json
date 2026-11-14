@@ -1,0 +1,142 @@
+{
+  "status": "EXTERNAL_BYPASS_GROUND_GEOMETRY_ONLY",
+  "source_sha256": "8486b0b908a47509d1385428823f3c01763f2b23508685c88b115effe5192220",
+  "board_sha256": "a6987e1e733630eedc1187bcb0457e540bb459458e73bec36fef944201d7e7e1",
+  "connections": [
+    {
+      "pad": "C8001.2",
+      "accepted": true,
+      "trials": 1,
+      "via_mm": [
+        29.5,
+        12.75
+      ],
+      "reused_ground_via": false,
+      "length_mm": 0.77,
+      "last_new_violations": []
+    },
+    {
+      "pad": "C8002.2",
+      "accepted": true,
+      "trials": 1,
+      "via_mm": [
+        44.300000000000004,
+        11.0
+      ],
+      "reused_ground_via": false,
+      "length_mm": 0.72,
+      "last_new_violations": []
+    },
+    {
+      "pad": "C8003.2",
+      "accepted": true,
+      "trials": 1,
+      "via_mm": [
+        42.900000000000006,
+        18.650000000000002
+      ],
+      "reused_ground_via": false,
+      "length_mm": 1.3357,
+      "last_new_violations": []
+    },
+    {
+      "pad": "C8004.2",
+      "accepted": true,
+      "trials": 1,
+      "via_mm": [
+        44.300000000000004,
+        9.0
+      ],
+      "reused_ground_via": false,
+      "length_mm": 0.72,
+      "last_new_violations": []
+    },
+    {
+      "pad": "C8005.2",
+      "accepted": true,
+      "trials": 1,
+      "via_mm": [
+        44.300000000000004,
+        5.5
+      ],
+      "reused_ground_via": false,
+      "length_mm": 0.72,
+      "last_new_violations": []
+    },
+    {
+      "pad": "C8006.2",
+      "accepted": true,
+      "trials": 1,
+      "via_mm": [
+        44.300000000000004,
+        7.0
+      ],
+      "reused_ground_via": false,
+      "length_mm": 0.72,
+      "last_new_violations": []
+    },
+    {
+      "pad": "C8007.2",
+      "accepted": true,
+      "trials": 1,
+      "via_mm": [
+        44.300000000000004,
+        3.5
+      ],
+      "reused_ground_via": false,
+      "length_mm": 0.72,
+      "last_new_violations": []
+    },
+    {
+      "pad": "C8008.2",
+      "accepted": true,
+      "trials": 1,
+      "via_mm": [
+        46.800000000000004,
+        8.0
+      ],
+      "reused_ground_via": false,
+      "length_mm": 0.72,
+      "last_new_violations": []
+    },
+    {
+      "pad": "C8009.2",
+      "accepted": true,
+      "trials": 1,
+      "via_mm": [
+        46.800000000000004,
+        9.5
+      ],
+      "reused_ground_via": false,
+      "length_mm": 0.72,
+      "last_new_violations": []
+    },
+    {
+      "pad": "C8010.2",
+      "accepted": true,
+      "trials": 1,
+      "via_mm": [
+        46.800000000000004,
+        11.5
+      ],
+      "reused_ground_via": false,
+      "length_mm": 0.72,
+      "last_new_violations": []
+    },
+    {
+      "pad": "R8005.2",
+      "accepted": true,
+      "trials": 1,
+      "via_mm": [
+        46.75,
+        5.0
+      ],
+      "reused_ground_via": false,
+      "length_mm": 0.76,
+      "last_new_violations": []
+    }
+  ],
+  "EMMC_BGA_ground_fanout_complete": false,
+  "power_integrity_qualified": false,
+  "assembly_ready": false
+}

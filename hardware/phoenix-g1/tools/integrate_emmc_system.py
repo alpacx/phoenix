@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Integrated eMMC schematic candidate. Leaves source and routed PCB untouched.
-New 1.8V/3.3V supply nets remain explicitly unqualified/unconnected to sources.
+Rail links are connected to candidate PMIC sources; load and sequencing remain unqualified.
 """
 import json,shutil,uuid,math
 from pathlib import Path
@@ -47,16 +47,27 @@ p=SYS/'sourcing/selected-references.json';selected=json.loads(p.read_text());rem
 for code in list(selected):
  selected[code]=' '.join(r for r in selected[code].split() if r not in removed)
  if not selected[code]:removed_codes.append(code);del selected[code]
-selected['C25792']=(selected.get('C25792','')+' R8005').strip();selected['C1525']=(selected.get('C1525','')+' C8010').strip();selected['C499918']='U8001';p.write_text(json.dumps(selected,indent=2)+'\n')
-p=SYS/'sourcing/selected-main-parts.json';data=json.loads(p.read_text());data['parts']=[r for r in data['parts'] if r.get('jlc') not in removed_codes];data['parts'].append({'jlc':'C499918','mpn':'KLM8G1GETF-B041'});p.write_text(json.dumps(data,indent=2)+'\n')
+support={'C25744':'R8001 R8002 R8003','C25092':'R8004','C25792':'R8005','C21189':'R8006 R8007','C12530':'C8001','C1525':'C8002 C8003 C8004 C8005 C8007 C8008 C8010','C23733':'C8006 C8009','C499918':'U8001'}
+for code,refs in support.items():selected[code]=' '.join(dict.fromkeys((selected.get(code,'')+' '+refs).split()))
+p.write_text(json.dumps(selected,indent=2)+'\n')
+p=SYS/'sourcing/selected-main-parts.json';data=json.loads(p.read_text());data['parts']=[r for r in data['parts'] if r.get('jlc') not in removed_codes];bycode={r['jlc']:r for r in data['parts']};observed=[]
+for code,refs in support.items():
+ stock=json.loads((R/'sourcing/public'/f'{code}.json').read_text());row=bycode.setdefault(code,{'jlc':code});row.update({'mpn':stock['componentModelEn'],'unit_usd':stock['initialPrice'],'checked_utc':stock['retrieved_utc'],'source':stock['source_url'],'inventory_fields':'See current-selected-stock.json; presale is not immediate assembly stock'});observed.append({'references':refs.split(),**stock})
+for code,row in bycode.items():
+ if code in selected:
+  row['qty']=len(selected[code].split())
+  if 'unit_usd' in row:row['extended_usd']=round(row['qty']*row['unit_usd'],6)
+data['parts']=list(bycode.values());p.write_text(json.dumps(data,indent=2)+'\n')
+(SYS/'review/current-selected-stock.json').write_text(json.dumps({'status':'PUBLIC_JLC_FIELDS_OBSERVED_NOT_RESERVATION','parts':observed,'notes':['No purchase or reservation','Nominal part selection; DC bias, timing, thermal and VDDI requirements remain open','This is not a complete assembly quotation']},indent=2)+'\n')
 p=SYS/'kicad/fp-lib-table';tree=sx.loads(p.read_text());tree.append(sx.loads('(lib (name "Phoenix_eMMC_Draft") (type "KiCad") (uri "${KIPRJMOD}/Phoenix_eMMC_Draft.pretty") (options "") (descr "Unqualified eMMC candidate"))'));p.write_text(sx.dumps(tree)+'\n')
 p=SYS/'kicad/sym-lib-table';tree=sx.loads(p.read_text());tree.append(sx.loads('(lib (name "Phoenix_eMMC_Draft") (type "KiCad") (uri "${KIPRJMOD}/Phoenix_eMMC_Draft.kicad_sym") (options "") (descr "Unqualified eMMC candidate"))'));p.write_text(sx.dumps(tree)+'\n')
 sch=SYS/'kicad/emmc-storage-candidate.kicad_sch';tree=sx.loads(sch.read_text())
 for inst in fields(tree,'symbol'):
  ref=next(v[2] for v in fields(inst,'property') if v[1]=='Reference')
- if ref in ['R8005','C8010']:
-  target='Phoenix_Passives:R_0402_1005Metric' if ref=='R8005' else 'Phoenix_Passives:C_0402_1005Metric'
+ if ref in [f'R{n}' for n in range(8001,8008)]+[f'C{n}' for n in range(8001,8011)]:
+  target='Phoenix_Passives:R_0402_1005Metric' if ref.startswith('R') else 'Phoenix_Passives:C_0402_1005Metric'
+  if ref in ['R8006','R8007']:target='Phoenix_Passives:R_0603_1608Metric'
   prop=next(v for v in fields(inst,'property') if v[1]=='Footprint');prop[2]=target
 sch.write_text(sx.dumps(tree)+'\n')
 integration.ROOT=SYS;integration.main()
-report={'status':'INTEGRATED_SCHEMATIC_CANDIDATE_POWER_SOURCES_OPEN','removed_boot_flash_references':removed,'soc_pin_changes':changed,'VCCIO3_unchanged':True,'EMMC_3V3_source_connected':False,'EMMC_IO_1V8_source_connected':False,'PCB_updated':False,'assembly_ready':False};(OUT/'integration.json').write_text(json.dumps(report,indent=2)+'\n');(SYS/'review/candidate-checkpoint.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report))
+report={'status':'INTEGRATED_SCHEMATIC_CANDIDATE_RAIL_LINKS_NOT_QUALIFIED','removed_boot_flash_references':removed,'soc_pin_changes':changed,'VCCIO3_unchanged':True,'EMMC_3V3_source_connected':True,'EMMC_IO_1V8_source_connected':True,'source_sequence_and_load_qualified':False,'PCB_updated':False,'assembly_ready':False};(OUT/'integration.json').write_text(json.dumps(report,indent=2)+'\n');(SYS/'review/candidate-checkpoint.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report))

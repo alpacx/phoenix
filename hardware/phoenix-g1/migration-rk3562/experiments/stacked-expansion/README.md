@@ -261,3 +261,17 @@ aggiunto reti: il secondo usa via 0,45/0,20 mm entro le regole esistenti.
 L'audit finale conferma il checkpoint precedente, senza nuove violazioni.
 Non ripetere questi tentativi invariati: occorre modificare la disposizione
 delle uscite del connettore o il relativo fanout, poi ripetere i controlli.
+
+## Studi del 14 novembre
+
+I tentativi `aux-io-fanout*`, `aux-io-uart-escape` e `uart-edge-*` sono
+studi non promossi. La variante UART edge cambia due assegnazioni solo nel
+PCB e non è coerente con lo schema: non usarla come base di produzione.
+Il checkpoint verificato rimane quello indicato da working-candidate.json.
+
+Lo studio indipendente `../stacked-expansion-rotated/` mantiene il pinout
+e ruota J3 di 180 gradi nello stesso ingombro. Il generatore del bus ora
+deriva il lato dei contatti di potenza dalla geometria. La rigenerazione
+esegue DRC a ogni stadio e si arresta al primo errore aggiuntivo.
+Il generatore delle masse copia le regole sorgente e aggiunge esplicitamente
+la regola DF40 da 0,17 mm, eliminando la dipendenza da un vecchio sidecar.

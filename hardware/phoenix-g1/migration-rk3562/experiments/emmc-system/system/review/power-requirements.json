@@ -64,7 +64,33 @@
     "existing_load": "LPDDR4 VDD1; full load budget not closed",
     "SWOUT1_default_V": 3.3,
     "SWOUT1_startup_step": 4,
-    "candidate_sources_connected": false,
+    "candidate_sources_connected": true,
     "sequence_compatibility_qualified": false
+  },
+  "rail_links": {
+    "R8006": {
+      "from": "+1V8_SYS",
+      "to": "EMMC_IO_1V8"
+    },
+    "R8007": {
+      "from": "+3V3_IO",
+      "to": "EMMC_3V3"
+    },
+    "part": "0603WAF0000T5E",
+    "JLC": "C21189",
+    "rated_continuous_current_A": 1,
+    "resistance_upper_bound_ohm": 0.05,
+    "manufacturer_source": "reference/uniroyal-0603-zero-ohm.pdf",
+    "source_sha256": "d20b4e5f35745009db079d282eee44b798b9bd27c26033ae50d6a7cd4fc6b9cb",
+    "VCCQ_drop_at_180mA_V": 0.009,
+    "VCC_drop_at_50mA_V": 0.0025,
+    "scope": "Memory-only nominal DC screen; SoC, peaks, temperature, rail accuracy and copper loss excluded"
+  },
+  "reference_topology_evidence": {
+    "source": "reference/rk3562-oomwoo-reference.pdf",
+    "page": 17,
+    "observed": "VCCIO_FLASH via R2205 zero ohm from VCC_1V8; alternative 3V3 link R2202 not populated",
+    "visually_reviewed": true,
+    "not_exact_Phoenix_board_validation": true
   }
 }

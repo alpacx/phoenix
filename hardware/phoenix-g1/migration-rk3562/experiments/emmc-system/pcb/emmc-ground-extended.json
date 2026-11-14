@@ -1,0 +1,79 @@
+{
+  "status": "EXTERNAL_BYPASS_GROUND_GEOMETRY_ONLY",
+  "source_sha256": "b211d160ca3572af1fc3b18407210e1d56dcc5f7c46c3a65dca4f6dbd395fd81",
+  "board_sha256": "4ed527e5fc4d82f94e86df7fd8c14cf1344af0436c4158a80c5f0202b4097521",
+  "connections": [
+    {
+      "pad": "C8001.2",
+      "accepted": true,
+      "already_connected": true
+    },
+    {
+      "pad": "C8002.2",
+      "accepted": true,
+      "already_connected": true
+    },
+    {
+      "pad": "C8003.2",
+      "accepted": true,
+      "already_connected": true
+    },
+    {
+      "pad": "C8004.2",
+      "accepted": true,
+      "already_connected": true
+    },
+    {
+      "pad": "C8005.2",
+      "accepted": true,
+      "trials": 1,
+      "via_mm": [
+        50.650000000000006,
+        22.75
+      ],
+      "reused_ground_via": false,
+      "length_mm": 9.4032,
+      "last_new_violations": []
+    },
+    {
+      "pad": "C8006.2",
+      "accepted": true,
+      "already_connected": true
+    },
+    {
+      "pad": "C8007.2",
+      "accepted": true,
+      "already_connected": true
+    },
+    {
+      "pad": "C8008.2",
+      "accepted": true,
+      "already_connected": true
+    },
+    {
+      "pad": "C8009.2",
+      "accepted": true,
+      "already_connected": true
+    },
+    {
+      "pad": "C8010.2",
+      "accepted": true,
+      "trials": 1,
+      "via_mm": [
+        50.650000000000006,
+        22.75
+      ],
+      "reused_ground_via": true,
+      "length_mm": 6.3313,
+      "last_new_violations": []
+    },
+    {
+      "pad": "R8005.2",
+      "accepted": true,
+      "already_connected": true
+    }
+  ],
+  "EMMC_BGA_ground_fanout_complete": false,
+  "power_integrity_qualified": false,
+  "assembly_ready": false
+}

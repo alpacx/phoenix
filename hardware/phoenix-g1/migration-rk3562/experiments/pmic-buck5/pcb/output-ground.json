@@ -1,0 +1,27 @@
+{
+  "status": "EXTERNAL_BYPASS_GROUND_GEOMETRY_ONLY",
+  "source_sha256": "21bfe22803eaf658d21bdbed444e6a974dd01031c21848d5bc6fe906ff13eae8",
+  "board_sha256": "55cfce817d25c09fce961bef8c17a99a6ed2ce12c6bbc55d9c89d2a9340dc2dd",
+  "connections": [
+    {
+      "pad": "C425.2",
+      "accepted": true,
+      "already_connected": true
+    },
+    {
+      "pad": "C435.2",
+      "accepted": true,
+      "trials": 1,
+      "via_mm": [
+        57.300000000000004,
+        1.4000000000000001
+      ],
+      "reused_ground_via": false,
+      "length_mm": 0.95,
+      "last_new_violations": []
+    }
+  ],
+  "BUCK5_power_routing_complete": false,
+  "power_integrity_qualified": false,
+  "assembly_ready": false
+}

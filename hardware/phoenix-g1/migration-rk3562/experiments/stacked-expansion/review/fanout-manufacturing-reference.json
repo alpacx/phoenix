@@ -1,0 +1,23 @@
+{
+  "status": "DOCUMENTED_CANDIDATE_NOT_BOARD_FABRICATION_APPROVAL",
+  "source_urls": [
+    "https://jlcpcb.com/6-layer-pcb/",
+    "https://jlcpcb.com/capabilities/Capabilities"
+  ],
+  "observed_date": "2026-11-14",
+  "six_layer_published_minimum_track_spacing_mm": 0.09,
+  "candidate_connector_trace_mm": 0.09,
+  "candidate_surface_copper_clearance_mm": 0.127,
+  "candidate_via_land_drill_mm": [
+    0.45,
+    0.2
+  ],
+  "pad_clearance_mm": 0.17,
+  "inner_copper_clearance_mm": 0.2,
+  "limits": [
+    "Final stackup and copper weight not qualified",
+    "Existing CPU escape uses 0.0762mm and remains separately unqualified",
+    "No SI/PI or thermal approval"
+  ],
+  "assembly_ready": false
+}

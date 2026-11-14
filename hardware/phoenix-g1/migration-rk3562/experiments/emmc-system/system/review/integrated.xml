@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/emmc-system/system/kicad/integrated/phoenix-g1.kicad_sch</source>
-    <date>2026-11-13T17:45:36</date>
+    <date>2026-11-14T10:42:33</date>
     <tool>Eeschema 10.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -3004,14 +3004,19 @@
     </comp>
     <comp ref="C8001">
       <value>2.2u candidate</value>
+      <footprint>Phoenix_Passives:C_0402_1005Metric</footprint>
       <fields>
-        <field name="MPN">UNQUALIFIED</field>
-        <field name="Footprint"/>
+        <field name="MPN">CL05A225MQ5NSNC</field>
+        <field name="JLCPCB">C12530</field>
+        <field name="Qualification">CANDIDATE - NOT QUALIFIED</field>
+        <field name="Footprint">Phoenix_Passives:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Phoenix_eMMC_Draft" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="MPN" value="CL05A225MQ5NSNC"/>
+      <property name="JLCPCB" value="C12530"/>
+      <property name="Qualification" value="CANDIDATE - NOT QUALIFIED"/>
       <property name="Sheetname" value="emmc-storage-candidate"/>
       <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -3029,14 +3034,19 @@
     </comp>
     <comp ref="C8002">
       <value>100n candidate</value>
+      <footprint>Phoenix_Passives:C_0402_1005Metric</footprint>
       <fields>
-        <field name="MPN">UNQUALIFIED</field>
-        <field name="Footprint"/>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="JLCPCB">C1525</field>
+        <field name="Qualification">CANDIDATE - NOT QUALIFIED</field>
+        <field name="Footprint">Phoenix_Passives:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Phoenix_eMMC_Draft" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB" value="C1525"/>
+      <property name="Qualification" value="CANDIDATE - NOT QUALIFIED"/>
       <property name="Sheetname" value="emmc-storage-candidate"/>
       <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -3054,14 +3064,19 @@
     </comp>
     <comp ref="C8003">
       <value>100n candidate</value>
+      <footprint>Phoenix_Passives:C_0402_1005Metric</footprint>
       <fields>
-        <field name="MPN">UNQUALIFIED</field>
-        <field name="Footprint"/>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="JLCPCB">C1525</field>
+        <field name="Qualification">CANDIDATE - NOT QUALIFIED</field>
+        <field name="Footprint">Phoenix_Passives:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Phoenix_eMMC_Draft" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB" value="C1525"/>
+      <property name="Qualification" value="CANDIDATE - NOT QUALIFIED"/>
       <property name="Sheetname" value="emmc-storage-candidate"/>
       <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -3079,14 +3094,19 @@
     </comp>
     <comp ref="C8004">
       <value>100n candidate</value>
+      <footprint>Phoenix_Passives:C_0402_1005Metric</footprint>
       <fields>
-        <field name="MPN">UNQUALIFIED</field>
-        <field name="Footprint"/>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="JLCPCB">C1525</field>
+        <field name="Qualification">CANDIDATE - NOT QUALIFIED</field>
+        <field name="Footprint">Phoenix_Passives:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Phoenix_eMMC_Draft" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB" value="C1525"/>
+      <property name="Qualification" value="CANDIDATE - NOT QUALIFIED"/>
       <property name="Sheetname" value="emmc-storage-candidate"/>
       <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -3104,14 +3124,19 @@
     </comp>
     <comp ref="C8005">
       <value>100n candidate</value>
+      <footprint>Phoenix_Passives:C_0402_1005Metric</footprint>
       <fields>
-        <field name="MPN">UNQUALIFIED</field>
-        <field name="Footprint"/>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="JLCPCB">C1525</field>
+        <field name="Qualification">CANDIDATE - NOT QUALIFIED</field>
+        <field name="Footprint">Phoenix_Passives:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Phoenix_eMMC_Draft" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB" value="C1525"/>
+      <property name="Qualification" value="CANDIDATE - NOT QUALIFIED"/>
       <property name="Sheetname" value="emmc-storage-candidate"/>
       <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -3129,14 +3154,19 @@
     </comp>
     <comp ref="C8006">
       <value>4.7u candidate</value>
+      <footprint>Phoenix_Passives:C_0402_1005Metric</footprint>
       <fields>
-        <field name="MPN">UNQUALIFIED</field>
-        <field name="Footprint"/>
+        <field name="MPN">CL05A475MP5NRNC</field>
+        <field name="JLCPCB">C23733</field>
+        <field name="Qualification">CANDIDATE - NOT QUALIFIED</field>
+        <field name="Footprint">Phoenix_Passives:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Phoenix_eMMC_Draft" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="MPN" value="CL05A475MP5NRNC"/>
+      <property name="JLCPCB" value="C23733"/>
+      <property name="Qualification" value="CANDIDATE - NOT QUALIFIED"/>
       <property name="Sheetname" value="emmc-storage-candidate"/>
       <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -3154,14 +3184,19 @@
     </comp>
     <comp ref="C8007">
       <value>100n candidate</value>
+      <footprint>Phoenix_Passives:C_0402_1005Metric</footprint>
       <fields>
-        <field name="MPN">UNQUALIFIED</field>
-        <field name="Footprint"/>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="JLCPCB">C1525</field>
+        <field name="Qualification">CANDIDATE - NOT QUALIFIED</field>
+        <field name="Footprint">Phoenix_Passives:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Phoenix_eMMC_Draft" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB" value="C1525"/>
+      <property name="Qualification" value="CANDIDATE - NOT QUALIFIED"/>
       <property name="Sheetname" value="emmc-storage-candidate"/>
       <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -3179,14 +3214,19 @@
     </comp>
     <comp ref="C8008">
       <value>100n candidate</value>
+      <footprint>Phoenix_Passives:C_0402_1005Metric</footprint>
       <fields>
-        <field name="MPN">UNQUALIFIED</field>
-        <field name="Footprint"/>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="JLCPCB">C1525</field>
+        <field name="Qualification">CANDIDATE - NOT QUALIFIED</field>
+        <field name="Footprint">Phoenix_Passives:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Phoenix_eMMC_Draft" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB" value="C1525"/>
+      <property name="Qualification" value="CANDIDATE - NOT QUALIFIED"/>
       <property name="Sheetname" value="emmc-storage-candidate"/>
       <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -3204,14 +3244,19 @@
     </comp>
     <comp ref="C8009">
       <value>4.7u candidate</value>
+      <footprint>Phoenix_Passives:C_0402_1005Metric</footprint>
       <fields>
-        <field name="MPN">UNQUALIFIED</field>
-        <field name="Footprint"/>
+        <field name="MPN">CL05A475MP5NRNC</field>
+        <field name="JLCPCB">C23733</field>
+        <field name="Qualification">CANDIDATE - NOT QUALIFIED</field>
+        <field name="Footprint">Phoenix_Passives:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Phoenix_eMMC_Draft" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="MPN" value="CL05A475MP5NRNC"/>
+      <property name="JLCPCB" value="C23733"/>
+      <property name="Qualification" value="CANDIDATE - NOT QUALIFIED"/>
       <property name="Sheetname" value="emmc-storage-candidate"/>
       <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -3259,14 +3304,19 @@
     </comp>
     <comp ref="R8001">
       <value>10k candidate</value>
+      <footprint>Phoenix_Passives:R_0402_1005Metric</footprint>
       <fields>
-        <field name="MPN">UNQUALIFIED</field>
-        <field name="Footprint"/>
+        <field name="MPN">0402WGF1002TCE</field>
+        <field name="JLCPCB">C25744</field>
+        <field name="Qualification">CANDIDATE - NOT QUALIFIED</field>
+        <field name="Footprint">Phoenix_Passives:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Phoenix_eMMC_Draft" part="R" description="Resistor"/>
-      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="MPN" value="0402WGF1002TCE"/>
+      <property name="JLCPCB" value="C25744"/>
+      <property name="Qualification" value="CANDIDATE - NOT QUALIFIED"/>
       <property name="Sheetname" value="emmc-storage-candidate"/>
       <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -3284,14 +3334,19 @@
     </comp>
     <comp ref="R8002">
       <value>10k candidate</value>
+      <footprint>Phoenix_Passives:R_0402_1005Metric</footprint>
       <fields>
-        <field name="MPN">UNQUALIFIED</field>
-        <field name="Footprint"/>
+        <field name="MPN">0402WGF1002TCE</field>
+        <field name="JLCPCB">C25744</field>
+        <field name="Qualification">CANDIDATE - NOT QUALIFIED</field>
+        <field name="Footprint">Phoenix_Passives:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Phoenix_eMMC_Draft" part="R" description="Resistor"/>
-      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="MPN" value="0402WGF1002TCE"/>
+      <property name="JLCPCB" value="C25744"/>
+      <property name="Qualification" value="CANDIDATE - NOT QUALIFIED"/>
       <property name="Sheetname" value="emmc-storage-candidate"/>
       <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -3309,14 +3364,19 @@
     </comp>
     <comp ref="R8003">
       <value>10k candidate</value>
+      <footprint>Phoenix_Passives:R_0402_1005Metric</footprint>
       <fields>
-        <field name="MPN">UNQUALIFIED</field>
-        <field name="Footprint"/>
+        <field name="MPN">0402WGF1002TCE</field>
+        <field name="JLCPCB">C25744</field>
+        <field name="Qualification">CANDIDATE - NOT QUALIFIED</field>
+        <field name="Footprint">Phoenix_Passives:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Phoenix_eMMC_Draft" part="R" description="Resistor"/>
-      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="MPN" value="0402WGF1002TCE"/>
+      <property name="JLCPCB" value="C25744"/>
+      <property name="Qualification" value="CANDIDATE - NOT QUALIFIED"/>
       <property name="Sheetname" value="emmc-storage-candidate"/>
       <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -3334,14 +3394,19 @@
     </comp>
     <comp ref="R8004">
       <value>22R candidate</value>
+      <footprint>Phoenix_Passives:R_0402_1005Metric</footprint>
       <fields>
-        <field name="MPN">UNQUALIFIED</field>
-        <field name="Footprint"/>
+        <field name="MPN">0402WGF220JTCE</field>
+        <field name="JLCPCB">C25092</field>
+        <field name="Qualification">CANDIDATE - NOT QUALIFIED</field>
+        <field name="Footprint">Phoenix_Passives:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Phoenix_eMMC_Draft" part="R" description="Resistor"/>
-      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="MPN" value="0402WGF220JTCE"/>
+      <property name="JLCPCB" value="C25092"/>
+      <property name="Qualification" value="CANDIDATE - NOT QUALIFIED"/>
       <property name="Sheetname" value="emmc-storage-candidate"/>
       <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -3378,6 +3443,66 @@
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/emmc-storage-candidate/" tstamps="/1a535497-0cb6-5a79-9119-a089c6582c41/"/>
       <tstamps>0107b692-53c1-5479-ac41-370aa72f6081</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8006">
+      <value>0R 0603 rail link candidate</value>
+      <footprint>Phoenix_Passives:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">0603WAF0000T5E</field>
+        <field name="JLCPCB">C21189</field>
+        <field name="Qualification">CANDIDATE - NOT QUALIFIED</field>
+        <field name="Footprint">Phoenix_Passives:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_eMMC_Draft" part="R" description="Resistor"/>
+      <property name="MPN" value="0603WAF0000T5E"/>
+      <property name="JLCPCB" value="C21189"/>
+      <property name="Qualification" value="CANDIDATE - NOT QUALIFIED"/>
+      <property name="Sheetname" value="emmc-storage-candidate"/>
+      <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/emmc-storage-candidate/" tstamps="/1a535497-0cb6-5a79-9119-a089c6582c41/"/>
+      <tstamps>d6d89fbc-bf4d-5017-be8b-511dc19bd542</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8007">
+      <value>0R 0603 rail link candidate</value>
+      <footprint>Phoenix_Passives:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">0603WAF0000T5E</field>
+        <field name="JLCPCB">C21189</field>
+        <field name="Qualification">CANDIDATE - NOT QUALIFIED</field>
+        <field name="Footprint">Phoenix_Passives:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_eMMC_Draft" part="R" description="Resistor"/>
+      <property name="MPN" value="0603WAF0000T5E"/>
+      <property name="JLCPCB" value="C21189"/>
+      <property name="Qualification" value="CANDIDATE - NOT QUALIFIED"/>
+      <property name="Sheetname" value="emmc-storage-candidate"/>
+      <property name="Sheetfile" value="emmc-storage-candidate.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/emmc-storage-candidate/" tstamps="/1a535497-0cb6-5a79-9119-a089c6582c41/"/>
+      <tstamps>e0e22728-d4a4-5eb0-a27e-751448f001bf</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -15679,6 +15804,7 @@
       <node ref="C435" pin="1" pintype="passive"/>
       <node ref="C445" pin="1" pintype="passive"/>
       <node ref="L405" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R8006" pin="1" pintype="passive"/>
       <node ref="U2" pin="F1" pinfunction="VDD1_F1" pintype="power_in"/>
       <node ref="U2" pin="F12" pinfunction="VDD1_F12" pintype="power_in"/>
       <node ref="U2" pin="G4" pinfunction="VDD1_G4" pintype="power_in"/>
@@ -15746,6 +15872,7 @@
       <node ref="R2101" pin="2" pintype="passive"/>
       <node ref="R2102" pin="2" pintype="passive"/>
       <node ref="R530" pin="1" pintype="passive"/>
+      <node ref="R8007" pin="1" pintype="passive"/>
       <node ref="R8102" pin="2" pintype="passive"/>
       <node ref="TP6" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U1" pin="1G15" pinfunction="+3V3_IO_1G15" pintype="power_in"/>
@@ -15963,6 +16090,7 @@
       <node ref="C8007" pin="1" pintype="passive"/>
       <node ref="C8008" pin="1" pintype="passive"/>
       <node ref="C8009" pin="1" pintype="passive"/>
+      <node ref="R8007" pin="2" pintype="passive"/>
       <node ref="U8001" pin="E6" pinfunction="VCC_E6" pintype="power_in"/>
       <node ref="U8001" pin="F5" pinfunction="VCC_F5" pintype="power_in"/>
       <node ref="U8001" pin="J10" pinfunction="VCC_J10" pintype="power_in"/>
@@ -16020,6 +16148,7 @@
       <node ref="R8001" pin="1" pintype="passive"/>
       <node ref="R8002" pin="1" pintype="passive"/>
       <node ref="R8003" pin="1" pintype="passive"/>
+      <node ref="R8006" pin="2" pintype="passive"/>
       <node ref="U1" pin="1F14" pinfunction="+3V3_IO_1F14" pintype="power_in"/>
       <node ref="U8001" pin="C6" pinfunction="VCCQ_C6" pintype="power_in"/>
       <node ref="U8001" pin="M4" pinfunction="VCCQ_M4" pintype="power_in"/>

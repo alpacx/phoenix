@@ -1,3 +1,67 @@
+## Checkpoint corrente aggiornato — BUCK5 e fissaggi, 14 novembre 2026
+
+Ripartire da `hardware/phoenix-g1/migration-rk3562/experiments/pmic-buck5/working-candidate.json`,
+non dalle prove fallite `io-escape`. Otto collegamenti locali BUCK5 connessi;
+R1811/R431 e C422/C470 riposizionati; due fori NPTH da 2.2 mm realizzati
+nel CAD a (53,4)/(83,3). C470 alimentazione/massa e C422 massa collegati;
+C422.1 rimane aperto. Tre fissaggi ausiliari da risolvere. 125 avvisi via_dangling residui (14 avvisi serigrafia risolti),
+239 reti multi-pad aperte. Non è un circuito alimentato o qualificato.
+Leggere il README dello studio; rigenerazione transazionale `rebuild_pmic_buck5.py`.
+La baseline eMMC resta conservata. Nessun commit/push o ordine in questa prosecuzione.
+
+## Studio BUCK5 aggiunto — 14 novembre 2026
+
+Checkpoint principale ancora `emmc-system/working-candidate.json`. Studio successivo
+in `hardware/phoenix-g1/migration-rk3562/experiments/pmic-buck5/study-checkpoint.json`:
+PCB feedback SHA `936b9c2acb270a35a0ff12be654f33cbac9b0e3d13730d67d80f3ee6cb172ba9`.
+Induttore avvicinato al PMIC, bus J3 ripassato con continuità degli otto pin,
+SW5, primo condensatore d'uscita, feedback e due ritorni di massa collegati.
+Audit conserva 43 gruppi fisicamente connessi e non aggiunge DRC (139 rimangono).
+Aperti U4.54→C425.1 e C445; leggere README dello studio prima di continuare.
+Non è un'alimentazione completata o qualificata; non sostituire automaticamente
+il checkpoint principale. Nessun commit/push eseguito per questa prosecuzione.
+
+## Checkpoint corrente — 14 novembre, eMMC fisicamente integrata
+
+- Usare `hardware/phoenix-g1/migration-rk3562/experiments/emmc-system/working-candidate.json`.
+- eMMC sul retro (38;9), 15 bypass CPU non instradati riposizionati. Geometria
+  verificata, non qualifica PI. Dieci condensatori storage + R8005 a massa:
+  percorsi 0,72–1,34 mm, 36 primitive aggiunte. Tutti i collegamenti precedenti
+  preservati; DRC individuale senza nuove violazioni. NOR rimossa nel derivato.
+- `rebuild_emmc_pcb.py` ricostruito e passato; rollback in caso di errore.
+  Le vecchie ricerche locali fallite e i ritorni lunghi non sono più checkpoint.
+- Inventario aggiornato: 285 reti totali, 278 multi-pad, 240 ancora aperte;
+  aumento rispetto a 231 dovuto alle nuove reti storage, non perdita dei vecchi collegamenti.
+- JLC: evidenze aggiornate `emmc-system/system/review/bga-process-review.json`.
+  0,09 mm standard non basta per attraversare il passo 0,5/land 0,25;
+  3 mil con sovrapprezzo o processo via-in-pad da confermare. Non qualificato.
+- Nessun ordine, commit o push. Le sezioni sotto sono storico.
+
+## Hardware — 14 novembre 2026, dopo il commit 3a29334
+
+- PCB principale invariato: `stacked-expansion/working-candidate.json`, SHA
+  `151a54c68218efe8a5a531532cc1dfe28d964d757d3ab40b78c80718e2ba3bbc`.
+- eMMC nello schema: R8006/R8007 collegano i rail candidati; 1.996 disposizioni
+  controllate, 18 componenti con MPN/JLC e footprint. Fonti JLC del 13–14 novembre;
+  subtotale indicativo del solo storage 17,8101 USD, non preventivo PCBA.
+- eMMC PCB separato: `emmc-system/pcb`. La migrazione conserva tutte le 4.051
+  piste/via del checkpoint e verifica 1.816 pad esistenti più 187 nuovi.
+  **Piazzamenti emmc-placement ed emmc-repacked respinti dal DRC**, non promuovere.
+  La ricerca successiva è descritta da `emmc-placement-search.json`: non prova
+  che ogni piazzamento sia impossibile. Serve ripianificare la zona storage e
+  i bypass tenendo conto del rame USB/DDR. Nessuna produzione o boot verificati.
+- Espansione ruotata 180°, stesso pinout: pipeline completa fino a logic-reference
+  riprodotta. Variante `aux-io-miso-hop`: sei segnali ausiliari collegati.
+  Variante `aux-io-constrained-first`: sette, inclusa I2C completa, ma senza
+  clock/MOSI SPI e CS0. Nessuna variante è un superset del checkpoint principale;
+  restano studi separati. Audit di continuità e DRC per identità degli oggetti.
+- Audit più rigorosi: oltre ai conteggi, confronto UUID/tipo/severità delle
+  violazioni e assert sulle sei connessioni funzionali del blocco espansione.
+- Test router raggiungibilità e regressione DRC: tre casi ciascuno passati.
+- RK3562 / 1 GB LPDDR4; PCB ancora 90×40 mm, target 85×35 non convalidato.
+  Inventario principale: 231 reti multi-pad ancora aperte. Non vicino al rilascio.
+- Nessun acquisto, commit o push eseguito in questa sessione.
+
 ## Hardware — checkpoint corrente 13 novembre, espansione ed eMMC
 
 - Routing: leggere `hardware/phoenix-g1/migration-rk3562/experiments/stacked-expansion/working-candidate.json`; ora aux-io, quattro segnali aggiuntivi verificati, sette ancora aperti. DRC139 invariato, 2460 primitive originali preservate, cinque riserve meccaniche. No USB qualificata o fori finalizzati.

@@ -1,0 +1,19 @@
+{
+  "status": "PRESERVATION_AND_BUS_CONNECTIVITY_CHECKED",
+  "source_sha256": "a6987e1e733630eedc1187bcb0457e540bb459458e73bec36fef944201d7e7e1",
+  "sha256": "936b9c2acb270a35a0ff12be654f33cbac9b0e3d13730d67d80f3ee6cb172ba9",
+  "geometry_after_exact_endpoint_normalization": {
+    "existing_pad_instances_preserved": 2003,
+    "existing_tracks_vias_preserved": 4087,
+    "added_tracks_vias": 91,
+    "existing_connected_pad_groups_preserved": 43
+  },
+  "intentional_endpoint_changes": [
+    "a1f5a5ec-cc41-45b8-86e2-782cf1776594",
+    "b6a2a81c-14ba-4bdf-ba31-f95e78785298"
+  ],
+  "actual_original_connected_groups_preserved": 43,
+  "new_drc_violations": [],
+  "power_qualification_complete": false,
+  "assembly_ready": false
+}

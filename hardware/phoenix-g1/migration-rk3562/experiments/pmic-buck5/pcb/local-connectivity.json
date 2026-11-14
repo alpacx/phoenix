@@ -1,0 +1,67 @@
+{
+  "status": "LOCAL_BUCK5_TOPOLOGY_CONNECTED_NOT_POWER_QUALIFIED",
+  "board_sha256": "e31ae49c7c806bbdba33e166ed9516b106f71113eedfeb3078e5d8e85ff1896a",
+  "connections": [
+    {
+      "from": "U4.53",
+      "to": "L405.1",
+      "connected": true
+    },
+    {
+      "from": "L405.2",
+      "to": "C435.1",
+      "connected": true
+    },
+    {
+      "from": "U4.59",
+      "to": "C435.1",
+      "connected": true
+    },
+    {
+      "from": "C425.2",
+      "to": "U4.69",
+      "connected": true
+    },
+    {
+      "from": "C435.2",
+      "to": "U4.69",
+      "connected": true
+    },
+    {
+      "from": "U4.54",
+      "to": "C425.1",
+      "connected": true
+    },
+    {
+      "from": "L405.2",
+      "to": "C445.1",
+      "connected": true
+    },
+    {
+      "from": "C445.2",
+      "to": "U4.69",
+      "connected": true
+    },
+    {
+      "from": "U4.55",
+      "to": "C470.1",
+      "connected": true
+    },
+    {
+      "from": "C470.2",
+      "to": "U4.69",
+      "connected": true
+    },
+    {
+      "from": "C422.2",
+      "to": "U4.69",
+      "connected": true
+    }
+  ],
+  "external_input_feed_qualified": false,
+  "loop_stability_qualified": false,
+  "effective_capacitance_qualified": false,
+  "current_capacity_qualified": false,
+  "thermal_qualified": false,
+  "assembly_ready": false
+}

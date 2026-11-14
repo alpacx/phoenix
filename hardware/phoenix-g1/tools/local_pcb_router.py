@@ -42,7 +42,7 @@ class LocalRouter:
             if not a.IsOnLayer(layer) or (a.GetNetname() == name and not via):
                 continue
             q = a.GetBoundingBox(layer)
-            pad_margin = margin if via else getattr(self, "pad_clearances", {}).get(a.m_Uuid.AsString(), self.clearance)+diameter/2
+            pad_margin = (getattr(self, "via_pad_clearances", {}).get(a.m_Uuid.AsString(), copper_clearance)+diameter/2) if via else getattr(self, "pad_clearances", {}).get(a.m_Uuid.AsString(), self.clearance)+diameter/2
             rect(p.ToMM(q.GetX())-pad_margin, p.ToMM(q.GetY())-pad_margin,
                  p.ToMM(q.GetRight())+pad_margin, p.ToMM(q.GetBottom())+pad_margin)
         for z in list(self.board.Zones())+[z for f in self.board.GetFootprints() for z in f.Zones()]:
@@ -106,6 +106,49 @@ class LocalRouter:
                     heapq.heappush(queue, (new_cost+math.dist(n, goal), new_cost, n))
         return None
 
+    def paths_from(self, blocked, start, max_length):
+        """One bounded shortest-path search for many possible escape-via targets.
+
+        Distances use physical route length. Diagonals cannot cut blocked corners.
+        This avoids repeatedly searching an inaccessible region for each target.
+        """
+        tree = {"start": start, "distances": {}, "previous": {}}
+        if start in blocked or not self.within(start):
+            return tree
+        distances, previous = tree["distances"], tree["previous"]
+        distances[start] = 0.0
+        queue = [(0.0, start)]
+        while queue:
+            cost, q = heapq.heappop(queue)
+            if cost != distances[q]:
+                continue
+            for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1), (1, 1), (-1, 1), (1, -1), (-1, -1)):
+                n = (q[0]+dx, q[1]+dy)
+                if n in blocked or not self.within(n):
+                    continue
+                if dx and dy and ((q[0]+dx, q[1]) in blocked or (q[0], q[1]+dy) in blocked):
+                    continue
+                new = cost+math.hypot(dx, dy)*self.grid
+                if new <= max_length and new < distances.get(n, float("inf")):
+                    distances[n], previous[n] = new, q
+                    heapq.heappush(queue, (new, n))
+        return tree
+
+    def path_from_tree(self, tree, goal):
+        if goal not in tree["distances"]:
+            return None
+        cells = [goal]
+        while cells[-1] != tree["start"]:
+            cells.append(tree["previous"][cells[-1]])
+        cells.reverse()
+        compact = cells[:1]
+        for i in range(1, len(cells)-1):
+            if (cells[i][0]-cells[i-1][0], cells[i][1]-cells[i-1][1]) != (cells[i+1][0]-cells[i][0], cells[i+1][1]-cells[i][1]):
+                compact.append(cells[i])
+        if len(cells)>1:
+            compact.append(cells[-1])
+        return [self.world(q) for q in compact]
+
     def vias_near(self, pad, name, limit=12):
         front, back = self.blocked(p.F_Cu, name), self.blocked(p.B_Cu, name)
         forbidden = set()
@@ -157,3 +200,11 @@ class LocalRouter:
         add_tracks('GND', self.width, path)
         if not existing:
             add_via('GND', self.world(q))
+
+
+def smd_copper_layer(pad):
+    """PAD.GetLayer may report F.Cu even for a B.Cu-only layer set."""
+    layers = [layer for layer in (p.F_Cu, p.B_Cu) if pad.IsOnLayer(layer)]
+    if len(layers) != 1:
+        raise ValueError("Expected an SMD pad on exactly one outer copper layer")
+    return layers[0]

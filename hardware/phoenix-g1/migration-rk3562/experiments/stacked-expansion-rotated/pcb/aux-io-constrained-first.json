@@ -1,0 +1,196 @@
+{
+  "status": "GEOMETRY_AND_CONTINUITY_ONLY",
+  "source_stage": "logic-reference",
+  "under_package_vias_considered": true,
+  "via_diameter_mm": 0.45,
+  "via_drill_mm": 0.2,
+  "signal_layer": "In2.Cu",
+  "via_clearance_layers": [
+    "F.Cu",
+    "In1.Cu",
+    "In2.Cu",
+    "In3.Cu",
+    "In4.Cu",
+    "B.Cu"
+  ],
+  "routes": [
+    {
+      "net": "EXP_I2C_SCL",
+      "accepted": true,
+      "new_violations": {},
+      "new_individual_violations": [],
+      "bridge_layers": [
+        "In3.Cu"
+      ],
+      "extra_via_mm": null,
+      "CPU_escape_mm": 1.1000000000000014,
+      "via_positions_mm": [
+        [
+          44.0,
+          27.1
+        ],
+        [
+          69.9,
+          2.75
+        ]
+      ]
+    },
+    {
+      "net": "EXP_SPI_CS0_N",
+      "accepted": false,
+      "reason": "No bounded geometric route",
+      "CPU_options": 8,
+      "J3_options": 0
+    },
+    {
+      "net": "EXP_SPI_CS1_N",
+      "accepted": true,
+      "new_violations": {},
+      "new_individual_violations": [],
+      "bridge_layers": [
+        "In3.Cu"
+      ],
+      "extra_via_mm": null,
+      "CPU_escape_mm": 1.2242640687119328,
+      "via_positions_mm": [
+        [
+          43.300000000000004,
+          27.1
+        ],
+        [
+          64.85000000000001,
+          5.2
+        ]
+      ]
+    },
+    {
+      "net": "EXP_GPIO3",
+      "accepted": true,
+      "new_violations": {},
+      "new_individual_violations": [],
+      "bridge_layers": [
+        "In2.Cu"
+      ],
+      "extra_via_mm": null,
+      "CPU_escape_mm": 3.0242640687119264,
+      "via_positions_mm": [
+        [
+          34.1,
+          18.2
+        ],
+        [
+          62.7,
+          2.3000000000000003
+        ]
+      ]
+    },
+    {
+      "net": "EXP_UART_RX",
+      "accepted": false,
+      "reason": "No bounded geometric route",
+      "CPU_options": 8,
+      "J3_options": 0
+    },
+    {
+      "net": "EXP_UART_TX",
+      "accepted": true,
+      "new_violations": {},
+      "new_individual_violations": [],
+      "bridge_layers": [
+        "In3.Cu"
+      ],
+      "extra_via_mm": null,
+      "CPU_escape_mm": 4.248528137423859,
+      "via_positions_mm": [
+        [
+          50.1,
+          26.5
+        ],
+        [
+          66.3,
+          5.2
+        ]
+      ]
+    },
+    {
+      "net": "EXP_GPIO2",
+      "accepted": true,
+      "new_violations": {},
+      "new_individual_violations": [],
+      "bridge_layers": [
+        "In3.Cu"
+      ],
+      "extra_via_mm": null,
+      "CPU_escape_mm": 6.1485281374238605,
+      "via_positions_mm": [
+        [
+          35.6,
+          22.0
+        ],
+        [
+          65.65,
+          5.2
+        ]
+      ]
+    },
+    {
+      "net": "EXP_I2C_SDA",
+      "accepted": true,
+      "new_violations": {},
+      "new_individual_violations": [],
+      "bridge_layers": [
+        "B.Cu"
+      ],
+      "extra_via_mm": null,
+      "CPU_escape_mm": 3.224264068711933,
+      "via_positions_mm": [
+        [
+          44.800000000000004,
+          27.1
+        ],
+        [
+          68.45,
+          5.4
+        ]
+      ]
+    },
+    {
+      "net": "EXP_SPI_CLK",
+      "accepted": false,
+      "reason": "No bounded geometric route",
+      "CPU_options": 0,
+      "J3_options": 8
+    },
+    {
+      "net": "EXP_SPI_MOSI",
+      "accepted": false,
+      "reason": "No bounded geometric route",
+      "CPU_options": 8,
+      "J3_options": 0
+    },
+    {
+      "net": "EXP_SPI_MISO",
+      "accepted": true,
+      "new_violations": {},
+      "new_individual_violations": [],
+      "bridge_layers": [
+        "B.Cu"
+      ],
+      "extra_via_mm": null,
+      "CPU_escape_mm": 1.848528137423859,
+      "via_positions_mm": [
+        [
+          45.6,
+          27.1
+        ],
+        [
+          64.60000000000001,
+          6.3500000000000005
+        ]
+      ]
+    }
+  ],
+  "sha256": "f59f650b5a0ae7d68be7052c1312f6d5eb36365d06a7f478382d8b36d2b0abff",
+  "pullups_and_signal_integrity_qualified": false,
+  "assembly_ready": false
+}

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Accessory eFuse local ground escapes. Geometry only, not power or thermal signoff."""
-import argparse, hashlib, json, math
+import argparse, hashlib, json, math, shutil
 from pathlib import Path
 import pcbnew as p
 from local_pcb_router import LocalRouter
@@ -44,3 +44,8 @@ for pad in [a for f in b.GetFootprints() if f.GetReference()=='J3' for a in f.Pa
 p.ZONE_FILLER(b).Fill(b.Zones());b.BuildConnectivity()
 p.SaveBoard(str(args.output),b)
 args.report.write_text(json.dumps({'status':'CANDIDATE GROUND ESCAPES; DRC REQUIRED','pcb_sha256':hashlib.sha256(args.output.read_bytes()).hexdigest(),'escapes':records,'trace_width_mm':.2,'new_via_land_drill_mm':[.6,.3],'limitations':['RF return inductance and power-ground impedance not qualified.','Signal routing, internal regulator and power sequencing remain incomplete.'],'production_ready':False},indent=2)+'\n')
+
+for extension in ['kicad_pro','kicad_dru']:
+ shutil.copy2(args.input.with_suffix('.'+extension),args.output.with_suffix('.'+extension))
+with args.output.with_suffix('.kicad_dru').open('a') as rules:
+ rules.write("""\n(rule "DF40 land escape spacing" (condition "A.memberOfFootprint('J3') || B.memberOfFootprint('J3')") (constraint clearance (min 0.17mm)))\n""")

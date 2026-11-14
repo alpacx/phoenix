@@ -2,8 +2,9 @@
 """Experimental GPIO BGA escapes and low-speed bridge. Not SI qualification."""
 import pcbnew as p,json,math,shutil,hashlib
 from pathlib import Path
+import os
 from local_pcb_router import LocalRouter
-R=Path(__file__).resolve().parents[1];D=R/'migration-rk3562/experiments/stacked-expansion/pcb';b=p.LoadBoard(str(D/'connector-controls.kicad_pcb'));pads={(f.GetReference(),a.GetNumber()):a for f in b.GetFootprints() for a in f.Pads()};records=[]
+R=Path(__file__).resolve().parents[1];D=Path(os.environ.get('PHOENIX_STACKED_PCB_DIR',str(R/'migration-rk3562/experiments/stacked-expansion/pcb')));b=p.LoadBoard(str(D/'connector-controls.kicad_pcb'));pads={(f.GetReference(),a.GetNumber()):a for f in b.GetFootprints() for a in f.Pads()};records=[]
 def pt(q):return p.VECTOR2I(p.FromMM(q[0]),p.FromMM(q[1]))
 for ball,jpin in [('K2','27'),('L3','28')]:
  pad=pads['U1',ball];name=pad.GetNetname();assert name==pads['J3',jpin].GetNetname()

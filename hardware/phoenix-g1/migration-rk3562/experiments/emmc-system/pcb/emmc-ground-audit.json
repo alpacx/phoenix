@@ -1,0 +1,51 @@
+{
+  "status": "PCB_NETLIST_AND_PLACEMENT_GEOMETRY_CHECKED_ROUTING_OPEN",
+  "board_sha256": "a6987e1e733630eedc1187bcb0457e540bb459458e73bec36fef944201d7e7e1",
+  "existing_pad_assignments_checked": 1816,
+  "new_pad_assignments_checked": 187,
+  "existing_tracks_vias_preserved": 4051,
+  "added_tracks_vias": 36,
+  "existing_connected_pad_groups_preserved": 43,
+  "mechanical_reservations_preserved": [
+    "H8101 mechanical reservation",
+    "H8102 mechanical reservation",
+    "H8103 mechanical reservation",
+    "H8104 mechanical reservation",
+    "H8105 mechanical reservation"
+  ],
+  "removed_NOR_references": [
+    "C1401",
+    "C1402",
+    "R1401",
+    "R1402",
+    "R1403",
+    "R1404",
+    "U18"
+  ],
+  "added_storage_references": [
+    "C8001",
+    "C8002",
+    "C8003",
+    "C8004",
+    "C8005",
+    "C8006",
+    "C8007",
+    "C8008",
+    "C8009",
+    "C8010",
+    "R8001",
+    "R8002",
+    "R8003",
+    "R8004",
+    "R8005",
+    "R8006",
+    "R8007",
+    "U8001"
+  ],
+  "new_individual_drc_violations": [],
+  "placement_geometry_passed": true,
+  "decoupling_and_power_qualified": false,
+  "routing_complete": false,
+  "boot_tested": false,
+  "assembly_ready": false
+}

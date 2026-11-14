@@ -86,6 +86,8 @@ def main():
  caps=[('EMMC_VDDI','2.2u candidate')]+[('EMMC_IO_1V8','100n candidate')]*4+[('EMMC_IO_1V8','4.7u candidate')]+[('EMMC_3V3','100n candidate')]*2+[('EMMC_3V3','4.7u candidate')]
  for i,(rail,val) in enumerate(caps):sheet.place('C',f'C{8001+i}',35+i*40,230,{'1':rail,'2':'GND'},value=val)
  sheet.place('C','C8010',35,255,{'1':'EMMC_IO_1V8','2':'GND'},value='100n VCCIO2 at SoC candidate')
+ sheet.place('R','R8006',130,255,{'1':'+1V8_SYS','2':'EMMC_IO_1V8'},value='0R 0603 rail link candidate')
+ sheet.place('R','R8007',240,255,{'1':'+3V3_IO','2':'EMMC_3V3'},value='0R 0603 rail link candidate')
  sheet.note('C8010 belongs beside SoC VCCIO2 U1.1F14; memory bypass capacitors remain beside eMMC.',25,270)
  sheet.note('NO PRODUCTION RELEASE. Isolated ports; supplies/reset/boot and support MPNs require qualification.',25,280)
  sheet.save()

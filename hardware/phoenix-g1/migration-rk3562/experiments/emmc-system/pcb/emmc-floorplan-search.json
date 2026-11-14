@@ -1,0 +1,853 @@
+{
+  "status": "GEOMETRIC_SCREEN_NOT_PLACEMENT_QUALIFICATION",
+  "source_sha256": "ba49479dd7e9379bd85741fc4ceab2ad4e5cb8b5df92160fc00d5ec547b1d281",
+  "target_envelope_mm": [
+    85,
+    35
+  ],
+  "grid_mm": 0.5,
+  "positions_screened": 13050,
+  "positions_without_fixed_body_conflicts": 2729,
+  "positions_without_copper_conflicts": 279,
+  "top_candidates": [
+    {
+      "center_mm": [
+        38.0,
+        9.0
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1606",
+        "C1639",
+        "C1645"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 12.083
+    },
+    {
+      "center_mm": [
+        37.5,
+        9.0
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1606",
+        "C1639",
+        "C1645"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 12.298
+    },
+    {
+      "center_mm": [
+        38.0,
+        8.5
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1606",
+        "C1639",
+        "C1645"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 12.54
+    },
+    {
+      "center_mm": [
+        37.5,
+        8.5
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1606",
+        "C1639",
+        "C1645"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 12.748
+    },
+    {
+      "center_mm": [
+        38.0,
+        8.0
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1606",
+        "C1639",
+        "C1645"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 13.0
+    },
+    {
+      "center_mm": [
+        37.5,
+        8.0
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1606",
+        "C1639",
+        "C1645"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 13.2
+    },
+    {
+      "center_mm": [
+        38.0,
+        7.5
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1606",
+        "C1639",
+        "C1645"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 13.463
+    },
+    {
+      "center_mm": [
+        37.5,
+        7.5
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1606",
+        "C1639",
+        "C1645"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 13.657
+    },
+    {
+      "center_mm": [
+        43.0,
+        9.0
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1644",
+        "C1634",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1614",
+        "C1616",
+        "C1606",
+        "C1639"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 11.0
+    },
+    {
+      "center_mm": [
+        40.5,
+        9.0
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1644",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1616",
+        "C1606",
+        "C1639"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 11.281
+    },
+    {
+      "center_mm": [
+        40.0,
+        9.0
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1644",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1616",
+        "C1606",
+        "C1639"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 11.402
+    },
+    {
+      "center_mm": [
+        43.0,
+        8.5
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1644",
+        "C1634",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1614",
+        "C1616",
+        "C1606",
+        "C1639"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 11.5
+    },
+    {
+      "center_mm": [
+        40.5,
+        8.5
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1644",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1616",
+        "C1606",
+        "C1639"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 11.769
+    },
+    {
+      "center_mm": [
+        40.0,
+        8.5
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1644",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1616",
+        "C1606",
+        "C1639"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 11.885
+    },
+    {
+      "center_mm": [
+        43.0,
+        8.0
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1644",
+        "C1634",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1614",
+        "C1616",
+        "C1606",
+        "C1639"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 12.0
+    },
+    {
+      "center_mm": [
+        40.5,
+        8.0
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1644",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1616",
+        "C1606",
+        "C1639"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 12.258
+    },
+    {
+      "center_mm": [
+        40.0,
+        8.0
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1644",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1616",
+        "C1606",
+        "C1639"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 12.369
+    },
+    {
+      "center_mm": [
+        43.0,
+        7.5
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1644",
+        "C1634",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1614",
+        "C1616",
+        "C1606",
+        "C1639"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 12.5
+    },
+    {
+      "center_mm": [
+        40.5,
+        7.5
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1644",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1616",
+        "C1606",
+        "C1639"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 12.748
+    },
+    {
+      "center_mm": [
+        40.0,
+        7.5
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1644",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1616",
+        "C1606",
+        "C1639"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 12.855
+    },
+    {
+      "center_mm": [
+        39.5,
+        9.0
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1644",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1616",
+        "C1606",
+        "C1639",
+        "C1645"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 11.543
+    },
+    {
+      "center_mm": [
+        39.5,
+        9.0
+      ],
+      "orientation_degrees": 90,
+      "passives_to_relocate": [
+        "C1621",
+        "C1644",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1616",
+        "C1606",
+        "C1639",
+        "C1645"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 11.543
+    },
+    {
+      "center_mm": [
+        39.0,
+        9.0
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1644",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1616",
+        "C1606",
+        "C1639",
+        "C1645"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 11.705
+    },
+    {
+      "center_mm": [
+        39.0,
+        9.0
+      ],
+      "orientation_degrees": 90,
+      "passives_to_relocate": [
+        "C1621",
+        "C1644",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1616",
+        "C1606",
+        "C1639",
+        "C1645"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 11.705
+    },
+    {
+      "center_mm": [
+        38.5,
+        9.0
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1644",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1616",
+        "C1606",
+        "C1639",
+        "C1645"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 11.885
+    },
+    {
+      "center_mm": [
+        38.5,
+        9.0
+      ],
+      "orientation_degrees": 90,
+      "passives_to_relocate": [
+        "C1621",
+        "C1644",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1616",
+        "C1606",
+        "C1639",
+        "C1645"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 11.885
+    },
+    {
+      "center_mm": [
+        39.5,
+        8.5
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1644",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1616",
+        "C1606",
+        "C1639",
+        "C1645"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 12.021
+    },
+    {
+      "center_mm": [
+        39.5,
+        8.5
+      ],
+      "orientation_degrees": 90,
+      "passives_to_relocate": [
+        "C1621",
+        "C1644",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1616",
+        "C1606",
+        "C1639",
+        "C1645"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 12.021
+    },
+    {
+      "center_mm": [
+        38.0,
+        9.0
+      ],
+      "orientation_degrees": 90,
+      "passives_to_relocate": [
+        "C1621",
+        "C1644",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1616",
+        "C1606",
+        "C1639",
+        "C1645"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 12.083
+    },
+    {
+      "center_mm": [
+        39.0,
+        8.5
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1644",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1616",
+        "C1606",
+        "C1639",
+        "C1645"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 12.176
+    }
+  ],
+  "least_conflicted_candidates": [
+    {
+      "center_mm": [
+        38.0,
+        9.0
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1606",
+        "C1639",
+        "C1645"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 12.083
+    },
+    {
+      "center_mm": [
+        37.5,
+        9.0
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1606",
+        "C1639",
+        "C1645"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 12.298
+    },
+    {
+      "center_mm": [
+        38.0,
+        8.5
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1606",
+        "C1639",
+        "C1645"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 12.54
+    },
+    {
+      "center_mm": [
+        37.5,
+        8.5
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1606",
+        "C1639",
+        "C1645"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 12.748
+    },
+    {
+      "center_mm": [
+        38.0,
+        8.0
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1606",
+        "C1639",
+        "C1645"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 13.0
+    },
+    {
+      "center_mm": [
+        37.5,
+        8.0
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1606",
+        "C1639",
+        "C1645"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 13.2
+    },
+    {
+      "center_mm": [
+        38.0,
+        7.5
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1606",
+        "C1639",
+        "C1645"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 13.463
+    },
+    {
+      "center_mm": [
+        37.5,
+        7.5
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1606",
+        "C1639",
+        "C1645"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 13.657
+    },
+    {
+      "center_mm": [
+        43.0,
+        9.0
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1644",
+        "C1634",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1614",
+        "C1616",
+        "C1606",
+        "C1639"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 11.0
+    },
+    {
+      "center_mm": [
+        40.5,
+        9.0
+      ],
+      "orientation_degrees": 0,
+      "passives_to_relocate": [
+        "C1621",
+        "C1644",
+        "C1641",
+        "C1630",
+        "C1638",
+        "C1618",
+        "C1609",
+        "C1616",
+        "C1606",
+        "C1639"
+      ],
+      "copper_conflicts": [],
+      "distance_from_soc_mm": 11.281
+    }
+  ],
+  "existing_copper_fixed": true,
+  "all_positions_exhausted": false,
+  "assembly_ready": false
+}

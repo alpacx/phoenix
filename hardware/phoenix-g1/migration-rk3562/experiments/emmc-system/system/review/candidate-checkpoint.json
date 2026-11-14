@@ -1,5 +1,5 @@
 {
-  "status": "INTEGRATED_SCHEMATIC_CANDIDATE_POWER_SOURCES_OPEN",
+  "status": "INTEGRATED_SCHEMATIC_CANDIDATE_RAIL_LINKS_NOT_QUALIFIED",
   "removed_boot_flash_references": [
     "C1401",
     "C1402",
@@ -72,8 +72,9 @@
     }
   ],
   "VCCIO3_unchanged": true,
-  "EMMC_3V3_source_connected": false,
-  "EMMC_IO_1V8_source_connected": false,
+  "EMMC_3V3_source_connected": true,
+  "EMMC_IO_1V8_source_connected": true,
+  "source_sequence_and_load_qualified": false,
   "PCB_updated": false,
   "assembly_ready": false
 }

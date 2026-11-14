@@ -1,0 +1,107 @@
+{
+  "status": "UNVERIFIED_LOCAL_PLACEMENT_TRIAL",
+  "source_checkpoint": "../../emmc-system/working-candidate.json",
+  "source_sha256": "a6987e1e733630eedc1187bcb0457e540bb459458e73bec36fef944201d7e7e1",
+  "board_sha256": "9296428f69bb6ccc7ce5dff3d100711904f7ae18092cd097b2d2305cb37264f9",
+  "moves": [
+    {
+      "reference": "L405",
+      "from": {
+        "position_mm": [
+          84.0,
+          6.0
+        ],
+        "layer": "F.Cu",
+        "angle": 0.0
+      },
+      "to_mm": [
+        60.5,
+        1.4
+      ],
+      "angle": 180
+    },
+    {
+      "reference": "C425",
+      "from": {
+        "position_mm": [
+          52.0,
+          3.5
+        ],
+        "layer": "F.Cu",
+        "angle": 0.0
+      },
+      "to_mm": [
+        59.7,
+        3.7
+      ],
+      "angle": 180
+    },
+    {
+      "reference": "C435",
+      "from": {
+        "position_mm": [
+          72.0,
+          3.0
+        ],
+        "layer": "B.Cu",
+        "angle": 180.0
+      },
+      "to_mm": [
+        58,
+        2.5
+      ],
+      "angle": 180
+    },
+    {
+      "reference": "C445",
+      "from": {
+        "position_mm": [
+          80.0,
+          6.0
+        ],
+        "layer": "F.Cu",
+        "angle": 0.0
+      },
+      "to_mm": [
+        58,
+        6
+      ],
+      "angle": 180
+    },
+    {
+      "reference": "C421",
+      "from": {
+        "position_mm": [
+          60.0,
+          3.5
+        ],
+        "layer": "F.Cu",
+        "angle": 0.0
+      },
+      "to_mm": [
+        54,
+        9
+      ],
+      "angle": 180
+    },
+    {
+      "reference": "R1813",
+      "from": {
+        "position_mm": [
+          53.5,
+          9.0
+        ],
+        "layer": "F.Cu",
+        "angle": 0.0
+      },
+      "to_mm": [
+        51,
+        9
+      ],
+      "angle": 0
+    }
+  ],
+  "schematic_changed": false,
+  "power_integrity_qualified": false,
+  "assembly_ready": false
+}

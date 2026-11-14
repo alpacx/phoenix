@@ -1,0 +1,70 @@
+{
+  "status": "LOCAL_RELOCATION_STUDY_NOT_PROMOTED",
+  "source_sha256": "9ed943b7e21f5475ff789ef93df9767603a0bbc3e4bd5258e64ca1865c1c73f7",
+  "moves": [
+    {
+      "ref": "C422",
+      "from_mm": [
+        56.0,
+        3.5
+      ],
+      "to_mm": [
+        56.0,
+        3.5
+      ],
+      "cleared": false,
+      "electrical_placement_qualified": false
+    },
+    {
+      "ref": "R1811",
+      "from_mm": [
+        53.5,
+        6.0
+      ],
+      "to_mm": [
+        51.0,
+        7.0
+      ],
+      "cleared": true,
+      "electrical_placement_qualified": false
+    },
+    {
+      "ref": "C470",
+      "from_mm": [
+        80.0,
+        3.0
+      ],
+      "to_mm": [
+        80.0,
+        3.0
+      ],
+      "cleared": false,
+      "electrical_placement_qualified": false
+    },
+    {
+      "ref": "R431",
+      "from_mm": [
+        84.0,
+        3.5
+      ],
+      "to_mm": [
+        84.0,
+        6.5
+      ],
+      "cleared": true,
+      "electrical_placement_qualified": false
+    }
+  ],
+  "new_DRC_counts": {},
+  "new_individual_violations": [],
+  "preservation": {
+    "existing_pad_instances_preserved": 2003,
+    "existing_tracks_vias_preserved": 4256,
+    "added_tracks_vias": 0,
+    "existing_connected_pad_groups_preserved": 46
+  },
+  "maximum_search_displacement_mm": 4,
+  "side_unchanged": true,
+  "actual_holes_created": false,
+  "assembly_ready": false
+}

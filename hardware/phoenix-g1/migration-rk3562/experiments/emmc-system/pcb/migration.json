@@ -1,0 +1,155 @@
+{
+  "status": "ISOLATED_EMMC_PCB_PRELIMINARY_PLACEMENT",
+  "source_board": "migration-rk3562/experiments/stacked-expansion/pcb/aux-io.kicad_pcb",
+  "source_sha256": "151a54c68218efe8a5a531532cc1dfe28d964d757d3ab40b78c80718e2ba3bbc",
+  "schematic_netlist_sha256": "d106f5e45b9b2e005f3a4e73419ebc0daa3d1228bc66f864a95fcfd2e4e5c500",
+  "board_sha256": "ba49479dd7e9379bd85741fc4ceab2ad4e5cb8b5df92160fc00d5ec547b1d281",
+  "removed": [
+    "C1401",
+    "C1402",
+    "R1401",
+    "R1402",
+    "R1403",
+    "R1404",
+    "U18"
+  ],
+  "changed_soc_pins": [
+    {
+      "ball": "J25",
+      "from": "FSPI_D0",
+      "to": "EMMC_D0"
+    },
+    {
+      "ball": "J26",
+      "from": "FSPI_D1",
+      "to": "EMMC_D1"
+    },
+    {
+      "ball": "H25",
+      "from": "FSPI_D2",
+      "to": "EMMC_D2"
+    },
+    {
+      "ball": "K27",
+      "from": "FSPI_D3",
+      "to": "EMMC_D3"
+    },
+    {
+      "ball": "K26",
+      "from": null,
+      "to": "EMMC_D4"
+    },
+    {
+      "ball": "K25",
+      "from": null,
+      "to": "EMMC_D5"
+    },
+    {
+      "ball": "H26",
+      "from": null,
+      "to": "EMMC_D6"
+    },
+    {
+      "ball": "H27",
+      "from": null,
+      "to": "EMMC_D7"
+    },
+    {
+      "ball": "L26",
+      "from": null,
+      "to": "EMMC_STRB"
+    },
+    {
+      "ball": "M26",
+      "from": "FSPI_CS_N",
+      "to": "EMMC_CMD"
+    },
+    {
+      "ball": "M25",
+      "from": "FSPI_CLK",
+      "to": "SOC_EMMC_CLK"
+    },
+    {
+      "ball": "1F14",
+      "from": "+3V3_IO",
+      "to": "EMMC_IO_1V8"
+    }
+  ],
+  "new_backside_positions_mm": {
+    "U8001": [
+      20,
+      14
+    ],
+    "C8001": [
+      13,
+      9
+    ],
+    "C8002": [
+      13,
+      11
+    ],
+    "C8003": [
+      13,
+      13
+    ],
+    "C8004": [
+      13,
+      15
+    ],
+    "C8005": [
+      13,
+      17
+    ],
+    "C8006": [
+      13,
+      19
+    ],
+    "C8007": [
+      27,
+      11
+    ],
+    "C8008": [
+      27,
+      13
+    ],
+    "C8009": [
+      27,
+      15
+    ],
+    "C8010": [
+      49,
+      10
+    ],
+    "R8001": [
+      17,
+      22
+    ],
+    "R8002": [
+      19,
+      22
+    ],
+    "R8003": [
+      21,
+      22
+    ],
+    "R8004": [
+      23,
+      22
+    ],
+    "R8005": [
+      25,
+      22
+    ],
+    "R8006": [
+      29,
+      22
+    ],
+    "R8007": [
+      29,
+      24
+    ]
+  },
+  "routing_complete": false,
+  "decoupling_placement_qualified": false,
+  "assembly_ready": false
+}

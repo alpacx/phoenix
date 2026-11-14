@@ -1,0 +1,21 @@
+{
+  "status": "LOCAL_OUTPUT_ROUTING_TRIAL",
+  "source_sha256": "d2a54365b54a8d35cec293aa524aa2e36f51a2a6cd0c576890c2a7e4247cf6bd",
+  "sha256": "9ed943b7e21f5475ff789ef93df9767603a0bbc3e4bd5258e64ca1865c1c73f7",
+  "connections": [
+    {
+      "source": "L405.2",
+      "target": "C435.1",
+      "accepted": true,
+      "already_connected": true
+    },
+    {
+      "source": "C435.1",
+      "target": "C445.1",
+      "accepted": true,
+      "width_mm": 0.4
+    }
+  ],
+  "power_qualified": false,
+  "assembly_ready": false
+}

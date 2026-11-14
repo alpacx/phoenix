@@ -1,0 +1,48 @@
+{
+  "status": "BUS_CONTINUITY_AND_GEOMETRY_CHECKED",
+  "source_sha256": "9296428f69bb6ccc7ce5dff3d100711904f7ae18092cd097b2d2305cb37264f9",
+  "sha256": "1ad7b87e43a0ab079208db8be8b82f18fa35bc274d625e496cbdeab301649ba9",
+  "intentional_copper_changes": [
+    {
+      "uuid": "a1f5a5ec-cc41-45b8-86e2-782cf1776594",
+      "action": "shorten_front_vertical_bus",
+      "old_end": [
+        62.5,
+        4.55
+      ]
+    },
+    {
+      "uuid": "b6a2a81c-14ba-4bdf-ba31-f95e78785298",
+      "action": "shorten_lower_bus_left_end",
+      "old_start": [
+        62.5,
+        4.55
+      ]
+    }
+  ],
+  "J3_power_pins_connected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "trials": [
+    {
+      "via_mm": [
+        64.0,
+        5.25
+      ],
+      "bridge_layer": "In3.Cu",
+      "bridge_width_mm": 0.8,
+      "bridge_length_mm": 3.871320343559643,
+      "new_violations": [],
+      "accepted": true
+    }
+  ],
+  "current_thermal_and_EMI_qualified": false,
+  "assembly_ready": false
+}

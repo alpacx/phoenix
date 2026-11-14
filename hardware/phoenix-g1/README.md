@@ -1,5 +1,50 @@
 # Phoenix G1 — migrazione RK3562 in corso, non ordinabile
 
+## Aggiornamento BUCK5 e fissaggi — 14 novembre 2026
+
+Checkpoint corrente: `migration-rk3562/experiments/pmic-buck5/working-candidate.json`.
+Otto collegamenti locali BUCK5 verificati sul rame; fanout SWOUT1 ripassato e
+R1811/R431 e C422/C470 spostati fuori dalle riserve meccaniche. Due fori
+NPTH M2 candidati inseriti; tre fissaggi ausiliari ancora da risolvere.
+Collegato anche il bypass C470 di SWOUT1 e la massa di C422. Conservati tutti i 43 gruppi
+fisicamente connessi della baseline eMMC e le cinque aree di riserva.
+Risolti 14 avvisi di serigrafia; rimangono 125 avvisi di fanout incompleto
+e 239 reti multi-pad aperte.
+Alimentazione a monte, qualifica elettrica/termica e produzione restano aperte.
+Dettagli e rigenerazione in [pmic-buck5/README.md](migration-rk3562/experiments/pmic-buck5/README.md).
+Le sezioni successive descrivono le baseline precedenti.
+
+## Stato corrente — 14 novembre 2026
+
+Configurazione: RK3562, 1 GB LPDDR4, Ethernet Gigabit, USB-C alimentazione/USB
+device, Wi-Fi, display a colori non touch, comando locale e connettore per
+espansione sovrapposta. Target 85 × 35 mm; contorno attuale ancora 90 × 40 mm.
+
+- **Checkpoint di lavoro:** `migration-rk3562/experiments/emmc-system/working-candidate.json`.
+  eMMC aggiunta sul retro e NOR rimossa nel derivato; 18 componenti storage.
+- **Verifica:** 1.816 pad esistenti e 187 nuovi confrontati; 4.051 piste/via
+  precedenti e 43 gruppi di pad collegati preservati. Aggiunte 36 primitive
+  per le 11 masse esterne dello storage, con percorsi di 0,72–1,34 mm.
+- **DRC:** nessuna nuova violazione individuale; restano le 139 precedenti.
+  Questo non dimostra integrità di alimentazione o segnali, né produzione pronta.
+- **Routing:** 240 reti multi-pad ancora aperte, incluse le nuove reti eMMC.
+  Dati in `experiments/emmc-system/pcb/connectivity-inventory.json`, sotto la
+  directory `migration-rk3562`. Il conteggio non è una percentuale di avanzamento.
+- **Fabbricazione BGA:** processo fine/vie riempite da confermare e valorizzare;
+  evidenze JLC in `emmc-system/system/review/bga-process-review.json`.
+- **Fissaggi:** cinque riserve, non fori finalizzati. Restano conflitti con componenti.
+- **Produzione:** non rilasciata. Mancano fanout/routing, rail e sequenze, SI/PI,
+  validazione meccanica e termica passiva, boot e prove fisiche.
+
+Il vecchio checkpoint `stacked-expansion/working-candidate.json` resta la
+baseline preservata. Gli studi con J3 ruotato non sono stati promossi.
+Rigenerazione eMMC PCB: `tools/rebuild_emmc_pcb.py` con il Python di KiCad;
+la pipeline ripristina i file precedenti se un controllo fallisce.
+
+Le sezioni seguenti sono storico delle revisioni: numeri DDR3, costi e indicazioni
+«progetto attivo» precedenti non sostituiscono i puntatori sopra.
+
+
 ## Requisiti attivi
 
 **Aggiornamento: cambio a RK3562 autorizzato.** Il lavoro nuovo è in `migration-rk3562/`; lo schema integrato precedente resta RK3568 e non rappresenta la migrazione completata. La revisione precedente è conservata in `archive/rk3568-before-rk3562-migration.tar.gz`. RAM512MiB e funzioni restano confermate. I conteggi e il costo sottostanti descrivono la baseline RK3568 finché non è integrato il nuovo processore.
@@ -202,3 +247,10 @@ Le prove di avvicinamento del bypass VDDIO non sono state adottate: alcune dispo
 Il controllo distingue ora bypass VDDIO locale, collegamento al PMIC, segnale LPO e alimentazione dell’oscillatore. **VDDIO e alimentazione/bypass di Y2001 restano incompleti**: non è stato verificato un clock funzionante o un modulo operativo.
 
 JLCPCB: Y2001/OVETDLJANF-32.768KHZ osservato ordinabile in 42 unità a 0,6183 USD; anche R2003 e C2007 risultano disponibili nell’osservazione registrata. Non è una prenotazione né una conferma di disponibilità per assemblaggio. La stima parzialmente aggiornata resta 67,4095 USD, escluse lavorazioni e meccanica; nessun componente aggiunto o sostituito. Nessuna simulazione elettrica o prova fisica eseguita.
+
+### Studio locale BUCK5, successivo al checkpoint eMMC
+
+Il [README dello studio](migration-rk3562/experiments/pmic-buck5/README.md)
+documenta riassetto del bus J3 e routing parziale di commutazione, uscita e feedback.
+Non promosso: ingresso BUCK5 e secondo condensatore ancora aperti; alimentazione
+e temperatura non qualificate.

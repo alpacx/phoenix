@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Uncapped pad-network inventory, independent of the DRC report item limit."""
-import pcbnew as p,json,hashlib,collections
+import pcbnew as p,json,hashlib,collections,argparse
 from pathlib import Path
-R=Path(__file__).resolve().parents[1]/'migration-rk3562/experiments/stacked-expansion';cp=json.loads((R/'working-candidate.json').read_text());src=R/cp['board'];assert hashlib.sha256(src.read_bytes()).hexdigest()==cp['sha256'];b=p.LoadBoard(str(src));b.BuildConnectivity();conn=b.GetConnectivity();nets=collections.defaultdict(dict)
+parser=argparse.ArgumentParser();parser.add_argument('--checkpoint',type=Path,default=Path(__file__).resolve().parents[1]/'migration-rk3562/experiments/stacked-expansion/working-candidate.json');args=parser.parse_args();R=args.checkpoint.parent;cp=json.loads(args.checkpoint.read_text());src=R/cp['board'];assert hashlib.sha256(src.read_bytes()).hexdigest()==cp['sha256'];b=p.LoadBoard(str(src));b.BuildConnectivity();conn=b.GetConnectivity();nets=collections.defaultdict(dict)
 for f in b.GetFootprints():
  for a in f.Pads():
   if a.GetNetCode()>0:nets[a.GetNetname()][a.m_Uuid.AsString()]=(f.GetReference()+'.'+a.GetNumber(),a)

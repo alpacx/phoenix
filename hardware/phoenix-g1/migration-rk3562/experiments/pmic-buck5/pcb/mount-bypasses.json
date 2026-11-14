@@ -1,0 +1,40 @@
+{
+  "source_sha256": "d71488ed8bd2333a958878bcf68739a37be191af00bc8352c03caffda59e7abe",
+  "moves": [
+    {
+      "ref": "C422",
+      "accepted": true,
+      "trials": [
+        {
+          "position": [
+            54,
+            10.5
+          ],
+          "new_violations": []
+        }
+      ]
+    },
+    {
+      "ref": "C470",
+      "accepted": true,
+      "trials": [
+        {
+          "position": [
+            63,
+            6.5
+          ],
+          "new_violations": []
+        }
+      ]
+    }
+  ],
+  "preservation": {
+    "existing_pad_instances_preserved": 2003,
+    "existing_tracks_vias_preserved": 4256,
+    "added_tracks_vias": 0,
+    "existing_connected_pad_groups_preserved": 46
+  },
+  "new_violations": [],
+  "electrical_placement_qualified": false,
+  "assembly_ready": false
+}

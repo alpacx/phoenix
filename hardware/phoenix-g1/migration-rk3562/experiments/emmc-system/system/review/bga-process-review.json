@@ -1,0 +1,32 @@
+{
+  "status": "DOCUMENTARY_PROCESS_OPTIONS_NOT_FABRICATION_APPROVAL",
+  "observed_date": "2026-11-14",
+  "sources": [
+    {
+      "url": "https://jlcpcb.com/help/article/jlcpcb-copper-weight",
+      "page_updated": "2026-11-10",
+      "standard_multilayer_width_space_mm": 0.09,
+      "three_mil_option_extra_cost": true
+    },
+    {
+      "url": "https://jlcpcb.com/help/article/bga-design-guidelines---pcb-layout-recommendations-for-bga-packages",
+      "page_updated": "2026-09-09",
+      "notes": [
+        "0.5 mm pitch with 0.25 mm lands cannot pass a 0.09 mm trace with 0.09 mm spacing on both sides.",
+        "Filled and capped via-in-pad is an option on multilayers; the example uses 0.15/0.25 mm but the later recommendation prefers outer diameter at least 0.35 mm.",
+        "Few 0.076 mm traces are described as possible; pad-to-trace clearance and order-specific process still need confirmation."
+      ]
+    }
+  ],
+  "geometry": {
+    "pitch_mm": 0.5,
+    "draft_land_mm": 0.25,
+    "available_gap_mm": 0.25,
+    "standard_trace_plus_two_clearances_mm": 0.27,
+    "three_mil_trace_plus_two_clearances_mm": 0.2286
+  },
+  "decision": "Keep standard geometry outside BGA; do not infer fabrication approval for fine-pitch escapes from DRC. Resolve pad clearance, annular ring, filling/capping, stackup and surcharge before release.",
+  "manufacturer_contacted": false,
+  "additional_fabrication_cost_known": false,
+  "assembly_ready": false
+}

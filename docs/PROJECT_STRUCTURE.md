@@ -66,8 +66,10 @@ La build non prova rete, VPN, cablaggio, USB o prestazioni fisiche.
 - ESP32: implementazione esistente; prove pregresse in NEXT_SESSION.md e PROGRESS.md.
 - Linux: backend installato sulla ROCK; servizi, AP, aggiornamento firmato e forwarding Ethernet verificati. Vedere platforms/linux/VALIDATION.md e API_STATUS.md.
 - Hardware custom: progetto incompleto; checkpoint corrente in
-  `hardware/phoenix-g1/migration-rk3562/experiments/lpddr4-1gb/working-board.json`.
-- Flash SPI NOR presente nel PCB; eMMC solo candidata, non integrata.
+  `hardware/phoenix-g1/migration-rk3562/experiments/pmic-buck5/working-candidate.json`.
+- Flash eMMC integrata nello schema e nel PCB di lavoro, con masse esterne instradate:
+  `hardware/phoenix-g1/migration-rk3562/experiments/emmc-system/`, con collegamenti
+  di alimentazione candidati; fanout, rail, segnali e qualifica restano aperti.
 
 Registrare nuove evidenze distinguendo codice, build, audit CAD e prove fisiche.
 
