@@ -1,0 +1,26 @@
+{
+  "status": "PMIC_VCC6_CONNECTED",
+  "sha256": "bd20cb7eb214a09300a22376794515b20292878afe55da5945446e1af99e5abe",
+  "source_sha256": "f80301bb6fb41a5edda3354a27f1d9eafb50756b0812a2a01d639f05357a6cdf",
+  "checks": [
+    {
+      "from": "U4.30",
+      "to": "C482.1",
+      "connected": true
+    },
+    {
+      "from": "C482.2",
+      "to": "C435.2",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 4689,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 6,
+    "existing_connected_pad_groups_preserved": 60
+  }
+}

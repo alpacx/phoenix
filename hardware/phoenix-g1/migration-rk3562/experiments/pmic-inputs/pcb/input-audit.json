@@ -1,0 +1,155 @@
+{
+  "status": "LOCAL_BYPASS_CONNECTED_NOT_POWER_QUALIFIED",
+  "source_sha256": "e31ae49c7c806bbdba33e166ed9516b106f71113eedfeb3078e5d8e85ff1896a",
+  "sha256": "07bc1acc184228c70059b00881f27c688c3149045b81f5108c2e86ce854c6e53",
+  "checks": [
+    {
+      "from": "U4.53",
+      "to": "L405.1",
+      "connected": true
+    },
+    {
+      "from": "L405.2",
+      "to": "C435.1",
+      "connected": true
+    },
+    {
+      "from": "L405.2",
+      "to": "C445.1",
+      "connected": true
+    },
+    {
+      "from": "U4.59",
+      "to": "C435.1",
+      "connected": true
+    },
+    {
+      "from": "U4.54",
+      "to": "C425.1",
+      "connected": true
+    },
+    {
+      "from": "C425.2",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "C445.2",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "U4.55",
+      "to": "C470.1",
+      "connected": true
+    },
+    {
+      "from": "C470.2",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "C422.2",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "U4.10",
+      "to": "C422.1",
+      "connected": true
+    },
+    {
+      "from": "U4.11",
+      "to": "C421.1",
+      "connected": true
+    },
+    {
+      "from": "C421.2",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "U4.45",
+      "to": "C424.1",
+      "connected": true
+    },
+    {
+      "from": "C424.2",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "U4.14",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "U4.15",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "U4.16",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "U4.17",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "U4.19",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "U4.40",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "U4.47",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "U4.56",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "U4.62",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "U4.63",
+      "to": "C435.2",
+      "connected": true
+    }
+  ],
+  "exposed_pad_instances_grounded": 10,
+  "ground_necks_width_mm": 0.15,
+  "ground_necks_max_length_mm": 0.9581753492967767,
+  "preservation": {
+    "existing_pad_instances_preserved": 2005,
+    "existing_tracks_vias_preserved": 4294,
+    "explicitly_replaced_copper": {
+      "534ad192-f875-46e2-b793-b21f125469bb": [
+        "GND",
+        2,
+        53050000,
+        10500000,
+        52100000,
+        10500000,
+        300000,
+        null
+      ]
+    },
+    "added_tracks_vias": 28,
+    "existing_connected_pad_groups_preserved": 46
+  },
+  "new_violations": [],
+  "assembly_ready": false
+}

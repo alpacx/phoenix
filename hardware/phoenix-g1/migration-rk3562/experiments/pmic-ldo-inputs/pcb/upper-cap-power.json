@@ -1,0 +1,26 @@
+{
+  "status": "PMIC_UPPER_CAP_POWER_CONNECTED",
+  "sha256": "5a353064e518c72db5a93ff0201e49aa05da0146a2f9d078734df0ea0a6fd97e",
+  "source_sha256": "2671a401e26b54ad01f0cd38a13bbd2fd049c0a1a738b61c0df8ceee0514fb0e",
+  "checks": [
+    {
+      "from": "C481.1",
+      "to": "C480.1",
+      "connected": true
+    },
+    {
+      "from": "C484.1",
+      "to": "C480.1",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 4726,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 9,
+    "existing_connected_pad_groups_preserved": 58
+  }
+}

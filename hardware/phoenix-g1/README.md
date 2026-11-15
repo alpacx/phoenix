@@ -1,4 +1,67 @@
+## Checkpoint gruppi alimentazione PMIC — 15 novembre 2026
+
+Ripartire da `hardware/phoenix-g1/migration-rk3562/experiments/pmic-ldo-inputs/working-candidate.json`.
+Nuovi: ingresso VCC_SPK_HP con C483, collegamenti fra gruppi PMIC su In4.Cu,
+raccordo VCC1/VCC2, C481/C484, RTC e U4.66 (VCC4). Audit di 109 connessioni e tredici test passati; nessuna nuova
+violazione DRC. +3V3_SYS ha cinque gruppi fisici; 234 reti multi-pad restano aperte.
+U17 non alimenta ancora il gruppo PMIC. Portata delle piste/via, cadute di tensione
+e dissipazione non qualificate; dettagli e ricostruzione nel README del checkpoint.
+Il tentativo vcc9-link è rifiutato: non usarlo come base. Nessun nuovo componente, ordine, commit o push. I checkpoint sotto sono storici.
+
+Il tentativo vcc9-link è rifiutato; non usarlo come base. Leggere anche
+`pcb/startup-margin-review.json`: calcoli ideali e verifiche di avvio ancora aperte.
+
+## Checkpoint ingressi PMIC VCC5/6/7/8 — 14 novembre 2026
+
+Ripartire da `hardware/phoenix-g1/migration-rk3562/experiments/pmic-ldo-inputs/working-candidate.json`.
+VCC5/6/7 collegati ai bypass; VCC8 unito al gruppo C425, C481 ancora aperto.
+Preservato il regolatore di sistema completo localmente e il suo ingresso +5V_MAIN.
+Audit: 97 coppie, cinque test di accettazione/interruzione passati, nessuna nuova
+violazione DRC. Restano 234 reti multi-pad aperte. Vedere README pmic-ldo-inputs
+per ricostruzione, collegamenti ancora aperti e limiti elettrici/termici/produttivi.
+Nessun ordine o commit/push; i checkpoint sotto sono storici.
+
+## Checkpoint regolatore di sistema — 14 novembre 2026
+
+Ripartire da `hardware/phoenix-g1/migration-rk3562/experiments/system-3v3/working-candidate.json`.
+Regolatore locale U17: potenza, masse, SS/PG/VOS e ingresso +5V_MAIN collegati.
+Audit di 90 coppie, preservazione della baseline e test di interruzione superati.
+Nessuna nuova violazione DRC; 234 reti multi-pad ancora aperte.
+Distribuzione +3V3_SYS al PMIC e ingresso CPU ancora da completare.
+Leggere il README system-3v3: geometria verificata, nessuna qualifica elettrica,
+termica o produttiva. Nessun ordine o commit/push. I checkpoint sotto sono storici.
+
 # Phoenix G1 — migrazione RK3562 in corso, non ordinabile
+
+## Checkpoint alimentazione CPU e VCC3 — 14 novembre 2026
+
+Ripartire da `hardware/phoenix-g1/migration-rk3562/experiments/startup-power/working-candidate.json`.
+Collegati localmente VCC3, commutazione CPU, ingressi/bypass, tre condensatori d'uscita,
+masse, feedback e enable locale. Audit di 64 coppie con preservazione della baseline.
+Nessuna nuova violazione DRC: 125 avvisi residui, 236 reti multi-pad aperte.
+La sorgente CPU, il rail PMU dell'enable e la distribuzione al SoC restano aperti:
+non è una prova di accensione. Leggere il README startup-power per rigenerazione e limiti.
+Nessun commit/push o ordine. I checkpoint sotto sono storici.
+
+## Checkpoint H8103 e alimentazione display — 14 novembre 2026
+
+Ripartire da `hardware/phoenix-g1/migration-rk3562/experiments/aux-mount-clear/working-candidate.json`.
+Preserva i 25 collegamenti locali PMIC dello studio precedente.
+H8103 ora è un foro NPTH M2 candidato: C1801/C1802 spostati vicino al regolatore U20,
+R1815 spostato fuori dalla riserva. Sei connessioni LCD verificate, compreso ingresso al bus +5V_MAIN.
+Enable e distribuzione display ancora aperti; non è una prova di funzionamento.
+Nessuna nuova violazione DRC: rimangono 125 avvisi e 239 reti multi-pad aperte.
+H8104/H8105, VCC3, routing generale e qualifica restano aperti; PCB ancora 90×40 mm.
+Rigenerazione e limiti nel README di aux-mount-clear. Nessun commit/push in questa prosecuzione.
+Le sezioni sotto documentano checkpoint precedenti.
+
+## Checkpoint ingressi PMIC — 14 novembre 2026
+Ripartire da `hardware/phoenix-g1/migration-rk3562/experiments/pmic-inputs/working-candidate.json`.
+VCC1/C421, VCC2/C422 e VCC4/C424 collegati localmente; C422 ora sul fronte.
+Dieci pin di massa PMIC collegati; tutte le istanze del pad esposto verificate.
+Audit di 25 coppie e preservazione della baseline superati senza nuovi DRC.
+Restano 125 avvisi e 239 reti multi-pad aperte: non è una scheda pronta.
+Dettagli e riproduzione nel README di pmic-inputs; i checkpoint sotto sono storici.
 
 ## Aggiornamento BUCK5 e fissaggi — 14 novembre 2026
 

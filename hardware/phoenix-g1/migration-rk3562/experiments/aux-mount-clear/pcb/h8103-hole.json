@@ -1,0 +1,31 @@
+{
+  "status": "H8103_NPTH_CANDIDATE_WITH_BODY_CLEARANCE",
+  "source_sha256": "8bcd9505698ff9cb517980a87353536a9ccbcbdc23cd201d8dcc651a8c9787aa",
+  "sha256": "1bfab7f6a8d574eb1bc80b2a6e039563a998d9ba863ae4da3f337d2dc8ac7f7a",
+  "holes": [
+    {
+      "ref": "H8103",
+      "center_mm": [
+        21,
+        3
+      ],
+      "drill_mm": 2.2,
+      "reserved_body_radius_mm": 2.7,
+      "component_blockers": []
+    }
+  ],
+  "preservation": {
+    "existing_pad_instances_preserved": 2005,
+    "existing_tracks_vias_preserved": 4323,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 0,
+    "existing_connected_pad_groups_preserved": 48
+  },
+  "new_violations": [],
+  "auxiliary_holes_created": [
+    "H8103"
+  ],
+  "standoff_height_and_screw_length_qualified": false,
+  "daughterboard_mating_and_enclosure_qualified": false,
+  "assembly_ready": false
+}

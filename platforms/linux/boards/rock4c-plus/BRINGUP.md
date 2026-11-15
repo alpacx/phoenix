@@ -1,5 +1,78 @@
 # Prima verifica fisica — 2026-11-12
 
+## Ripresa USB — 2026-11-15
+
+Target nuovamente identificato via SSH: ROCK 4C+, kernel 5.10.110-20-rockchip,
+release applicativa 3-a1d0ac24fe38d8ba. Phoenix e phoenix-control attivi.
+Indirizzi osservati (non assumerli stabili): Ethernet 192.168.8.171 e link-local
+fe80::1310:6c3c:3ddd:d8e8. Cavo dati scollegato dall'utente prima delle verifiche.
+
+UDC fe800000.usb: not attached, maximum_speed super-speed. Quest'ultimo è una
+capacità dichiarata, non una velocità negoziata o misurata. Modulo usb_f_ecm
+presente; usb_f_ncm assente. Gadget radxa-otgutils già associato, gestito da
+radxa-adbd.service. Non è stato sostituito né arrestato.
+
+GPIO35 vbus-typec ancora output high; regolatore vbus_typec abilitato.
+Il device tree attivo contiene regulator-always-on e regulator-boot-on.
+Preparato usb-vbus-off.dts: disabilita il nodo del regolatore e riserva GPIO1_A3
+come output-low tramite gpio-hog. Compilazione dtc e applicazione fdtoverlay
+a una COPIA del device tree attivo riuscite sulla ROCK; fdtget conferma status
+disabled e gpio-hog output-low su pin 3 del controller gpio1.
+
+Il candidato è soltanto in /tmp sulla ROCK: NON installato in /boot, NON
+applicato al kernel, nessun reboot. Non cambia bootloader, tensioni o servizi.
+Il datasheet Silergy conferma reverse blocking in shutdown, ma ciò non prova
+lo stato elettrico della scheda reale. Prima del cavo Mac servono verifica
+elettrica e gestione del rischio VBUS anche durante avvio/reboot; il solo
+gpio-hog Linux non garantisce quest'ultima. Non impostare vbus_verified=true
+sulla base di questa compilazione. Nessuna enumerazione, DHCP o velocità USB
+fisica verificata. Configurazione VPN e firewall invariata.
+
+Fonte componente: https://www.silergy.com/download/downloadFile?ftype=note&id=4369&type=product
+
+### Aggiornamento successivo: overlay applicato e reboot verificato
+
+Su richiesta di proseguire, validato anche il DTB originale di boot insieme
+all'overlay periferica Radxa. Installato /boot/dtbo/phoenix-usb-vbus-off.dtbo
+e rigenerato extlinux con u-boot-update. Backup di extlinux.conf e
+/etc/default/u-boot in /root/phoenix-usb-backup-20261115/. Riavvio riuscito,
+accesso SSH IPv4 192.168.8.171 e servizi phoenix/phoenix-control attivi.
+GPIO35 ora `phoenix-usb-source-o`, output LOW; nodo vbus-typec disabled,
+regolatore vbus_typec assente dal riepilogo attivo. VBUS host delle altre porte
+rimane attivo. UDC not attached: nessun cavo dati/test di enumerazione.
+
+Queste osservazioni superano lo stato "non installato" descritto sopra,
+ma non costituiscono una misura della tensione al connettore. Non verificata
+la fase bootloader. Un dispositivo che non si carica NON prova VBUS assente.
+Non impostato vbus_verified. Per rollback, a cavo dati scollegato, rimuovere
+soltanto /boot/dtbo/phoenix-usb-vbus-off.dtbo, eseguire u-boot-update e riavviare:
+questo RIPRISTINA la sorgente 5 V, non è una procedura di sicurezza USB.
+
+Suite USB eseguita sul Python 3.9 della ROCK in /tmp/phoenix-usb-validation:
+11 test passati dopo aver completato le fixture importate (test_lan,
+test_runtime, test_policy, test_vpn). Sono test simulati di configfs/DHCP e
+controller, non scambi USB fisici. Inspect conferma configfs disponibile,
+gadget Radxa associato, current_speed UNKNOWN, electrical_safety_verified false.
+Release attiva non sostituita; nessuna modifica a credenziali o policy.
+
+### Tentativo con cavo diretto USB-C maschio / USB-A maschio
+
+Utente riferisce alimentatore separato e cavo dati inserito nella porta OTG.
+Target riscoperto su 192.168.8.171, GPIO35 sempre output LOW, Phoenix attivo.
+UDC resta not attached, current_speed UNKNOWN; nessun dispositivo Radxa nel
+bus IOUSB del Mac e nessuna nuova interfaccia di rete osservata. Gadget ancora
+radxa-otgutils. Non è una prova di guasto né di tensione zero.
+
+Individuato un limite del cablaggio precedentemente trascurato: un cavo legacy
+standard A maschio / C maschio usa Rp sul CC e prevede la sorgente/host lato A;
+non equivale a un adattatore C host / A femmina con Rd. La disposizione attuale
+è quindi incompatibile con il ruolo host richiesto al Mac per un cavo conforme.
+Non riabilitare VBUS per tentare di farlo rilevare. Richiesto scollegamento
+del cavo diretto e inventario di eventuale hub/adattatore host disponibile.
+Un eventuale collegamento A-A richiede ulteriore verifica del cablaggio OTG
+specifico e VBUS; non è autorizzato implicitamente da questo inventario.
+Fonte: https://chromium.googlesource.com/playground/chromium-org-site/+/refs/heads/main/chromium-os/cable-and-adapter-tips-and-tricks/index.md
+
 ## Stato aggiornato: installato e verificato sul banco
 
 Phoenix 0.1.0-rock1 è installato, con aggiornamento firmato sequenza 1

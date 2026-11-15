@@ -1,0 +1,22 @@
+{
+  "status": "VDC_DIVIDER_INPUT_CONNECTED",
+  "sha256": "a5ec1b27c73faa18dada8b65ce92c5025bbc5d4ace8702c5465403e865fcf394",
+  "source_sha256": "4ef409535e6765e8d16308e2954eaafe290793cf3a20b3fa62acd74372f1d860",
+  "checks": [
+    {
+      "from": "R410.1",
+      "to": "C480.1",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "assembly_ready": false,
+  "manufacturing_requirement": "C1304/C1305 via-in-pad must be filled and capped; current capability and final stackup unqualified",
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 4768,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 2,
+    "existing_connected_pad_groups_preserved": 55
+  }
+}

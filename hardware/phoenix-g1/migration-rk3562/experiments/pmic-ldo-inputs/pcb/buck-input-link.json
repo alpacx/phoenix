@@ -1,0 +1,21 @@
+{
+  "status": "PMIC_BUCK_INPUT_GROUP_JOINED",
+  "sha256": "ec196dd3bba26e6c348d29eb615ab2c40dfa1d3a1c3721d34f59f6da59186246",
+  "source_sha256": "8210bb2f92660a517318202675f99f99a274318f5e4f3640c66c308c42b9964c",
+  "checks": [
+    {
+      "from": "C421.1",
+      "to": "C480.1",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 4720,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 1,
+    "existing_connected_pad_groups_preserved": 59
+  }
+}

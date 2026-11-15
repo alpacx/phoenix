@@ -1,0 +1,33 @@
+#!/usr/bin/env python3
+"""System buck local power copper, explicitly not current/thermal qualification."""
+import pcbnew as p,json,hashlib,shutil,subprocess
+from pathlib import Path
+from pcb_preservation import verify_preservation
+from drc_regression import introduced
+E=Path(__file__).resolve().parents[1]/'migration-rk3562/experiments';S=E/'system-3v3';D=E/'pmic-ldo-inputs/pcb';D.mkdir(parents=True,exist_ok=True)
+proof=json.loads((D/'vcc5.json').read_text());src=D/'vcc5.kicad_pcb';assert proof['status']=='PMIC_VCC5_CONNECTED';assert hashlib.sha256(src.read_bytes()).hexdigest()==proof['sha256']
+b=p.LoadBoard(str(src));pads={(f.GetReference(),q.GetNumber()):q for f in b.GetFootprints() for q in f.Pads()}
+def vec(xy):return p.VECTOR2I(*(p.FromMM(v) for v in xy))
+def route(net,width,points,layer=p.F_Cu):
+ for a,z in zip(points,points[1:]):
+  if a==z:continue
+  t=p.PCB_TRACK(b);t.SetStart(vec(a));t.SetEnd(vec(z));t.SetWidth(p.FromMM(width));t.SetLayer(layer);t.SetNetCode(b.GetNetcodeFromNetname(net));b.Add(t)
+def via(net,xy):
+ v=p.PCB_VIA(b);v.SetPosition(vec(xy));v.SetWidth(p.FromMM(.45));v.SetDrill(p.FromMM(.2));v.SetViaType(p.VIATYPE_THROUGH);v.SetLayerPair(p.F_Cu,p.B_Cu);v.SetNetCode(b.GetNetcodeFromNetname(net));b.Add(v)
+route('+3V3_SYS',.15,[(62.45,12.41),(62.45,13.05)])
+route('+3V3_SYS',.3,[(62.45,13.05),(62.45,13.2)])
+via('+3V3_SYS',(62.45,13.2))
+route('+3V3_SYS',.3,[(62.45,13.2),(62.45,12),(63.4,11.05),(63.4,9.9),(65.98,9.9),(65.98,9)],p.B_Cu)
+route('GND',.3,[(65.02,9),(65.02,6.8),(65.3,6.52),(65.3,5.25)],p.B_Cu)
+out=D/'audio-input.kicad_pcb'
+for ext in ['kicad_pro','kicad_dru']:shutil.copy2(src.with_suffix('.'+ext),out.with_suffix('.'+ext))
+p.ZONE_FILLER(b).Fill(b.Zones());p.SaveBoard(str(out),b)
+subprocess.run(['/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli','pcb','drc','--format','json','-o',str(D/'audio-input-drc.json'),str(out)],check=True,capture_output=True)
+new=introduced(json.loads(src.with_name(src.stem+'-drc.json').read_text()),json.loads((D/'audio-input-drc.json').read_text()));b.BuildConnectivity()
+pairs=[(('U4','33'),('C483','1')),(('C483','2'),('C435','2'))]
+checks=[]
+for a,z in pairs:checks.append({'from':'.'.join(a),'to':'.'.join(z),'connected':pads[z].m_Uuid.AsString() in {q.m_Uuid.AsString() for q in b.GetConnectivity().GetConnectedItems(pads[a])}})
+accepted=not new and all(c['connected'] for c in checks)
+r={'status':'PMIC_AUDIO_INPUT_CONNECTED' if accepted else 'REJECTED_PMIC_AUDIO_INPUT','sha256':hashlib.sha256(out.read_bytes()).hexdigest(),'source_sha256':proof['sha256'],'checks':checks,'new_violations':new,'assembly_ready':False}
+if accepted:r['preservation']=verify_preservation(p.LoadBoard(str(src)),b)
+(D/'audio-input.json').write_text(json.dumps(r,indent=2)+'\n');print(json.dumps(r,indent=2))

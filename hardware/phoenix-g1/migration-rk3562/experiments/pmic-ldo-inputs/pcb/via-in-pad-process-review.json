@@ -1,0 +1,29 @@
+{
+  "status": "SUPPLIER_DOCUMENTATION_REVIEW_NOT_ORDER_APPROVAL",
+  "review_date": "2026-11-15",
+  "sources": [
+    "https://jlcpcb.com/help/article/via-in-pad-pofv-guide",
+    "https://jlcpcb.com/news/free-via-in-pad-6-20-layer-pcbs-pofv"
+  ],
+  "process": "Epoxy filled and copper capped / POFV; not soldermask tenting",
+  "C425_C481_via": {
+    "position_mm": [
+      60.4,
+      3.7
+    ],
+    "copper_diameter_mm": 0.45,
+    "drill_mm": 0.2,
+    "annular_ring_nominal_mm": 0.125
+  },
+  "C1304_feed_via_candidate": {
+    "copper_diameter_mm": 0.8,
+    "drill_mm": 0.4
+  },
+  "published_offer": "JLCPCB states POFV is free on 6-20 layer boards for international market; exact checkout configuration not quoted",
+  "limits": [
+    "No manufacturing order uploaded or approved.",
+    "Final stackup, hole definition/tolerance, registration and filled/capped treatment must be confirmed in fab drawing and order.",
+    "Whole board manufacturability, DDR fanout and power capacity are not established by this local review."
+  ],
+  "assembly_ready": false
+}

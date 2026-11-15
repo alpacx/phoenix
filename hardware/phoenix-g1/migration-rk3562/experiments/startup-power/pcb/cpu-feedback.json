@@ -1,0 +1,89 @@
+{
+  "status": "CPU_FEEDBACK_CONNECTED",
+  "sha256": "aef12664e8f0f203cb582a760d62687e54be7b839ba1326797482304f0391648",
+  "source_sha256": "44cd83d5b52d48195d0c487b1969372f10791de466bf99168c1d2138fda3b267",
+  "checks": [
+    {
+      "from": "U10.A4",
+      "to": "R1001.2",
+      "connected": true
+    },
+    {
+      "from": "U10.A4",
+      "to": "C1020.2",
+      "connected": true
+    },
+    {
+      "from": "C1012.1",
+      "to": "R1001.1",
+      "connected": true
+    },
+    {
+      "from": "C1012.1",
+      "to": "C1020.1",
+      "connected": true
+    }
+  ],
+  "kelvin_escape_via_mm": [
+    56.5,
+    28.5
+  ],
+  "kelvin_inner_length_mm": 13.065180361560907,
+  "replaced_copper": [
+    "507a6ee4-95fe-4ea3-8804-0c5b73bdaef2",
+    "4671b60c-5dcc-460b-8ead-ddef1c71f548",
+    "dfc0a1d0-d5cf-4aed-9c92-2e7bd87d5e24",
+    "72c70916-f00d-4033-a9d3-000f78e6f0e3"
+  ],
+  "new_violations": [],
+  "electrical_qualified": false,
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 4386,
+    "explicitly_replaced_copper": {
+      "4671b60c-5dcc-460b-8ead-ddef1c71f548": [
+        "GND",
+        0,
+        58800000,
+        22000000,
+        58600000,
+        22200000,
+        300000,
+        null
+      ],
+      "507a6ee4-95fe-4ea3-8804-0c5b73bdaef2": [
+        "GND",
+        0,
+        59400000,
+        22000000,
+        58800000,
+        22000000,
+        200000,
+        null
+      ],
+      "72c70916-f00d-4033-a9d3-000f78e6f0e3": [
+        "GND",
+        0,
+        58600000,
+        24000000,
+        58800000,
+        24200000,
+        300000,
+        null
+      ],
+      "dfc0a1d0-d5cf-4aed-9c92-2e7bd87d5e24": [
+        "GND",
+        0,
+        58600000,
+        22200000,
+        58600000,
+        24000000,
+        300000,
+        null
+      ]
+    },
+    "added_tracks_vias": 24,
+    "existing_connected_pad_groups_preserved": 53
+  }
+}

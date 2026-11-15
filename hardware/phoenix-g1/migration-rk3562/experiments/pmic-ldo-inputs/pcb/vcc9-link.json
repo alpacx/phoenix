@@ -1,0 +1,22 @@
+{
+  "status": "PMIC_VCC9_GROUP_JOINED",
+  "sha256": "46ee52392cc3469571d87db3bc849d2ee81b2ad4b88201075550f03001a4bdcf",
+  "source_sha256": "b4de732421df399b4fd10693e956a1a02eef8d765acac6031b0b2d7a185e906a",
+  "checks": [
+    {
+      "from": "C425.1",
+      "to": "C424.1",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "assembly_ready": false,
+  "manufacturing_requirement": "C425/C481 via-in-pad must be filled and capped; POFV documented by JLCPCB; exact order configuration and DFM not approved",
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 4747,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 2,
+    "existing_connected_pad_groups_preserved": 57
+  }
+}

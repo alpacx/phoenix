@@ -1,0 +1,31 @@
+{
+  "status": "PMIC_RAIL_GROUPS_JOINED",
+  "sha256": "8210bb2f92660a517318202675f99f99a274318f5e4f3640c66c308c42b9964c",
+  "source_sha256": "338e1aa9c878ac1dad41105ea4cd911f88c8137cb184dc99dfdc0170b80e4197",
+  "checks": [
+    {
+      "from": "C482.1",
+      "to": "C483.1",
+      "connected": true
+    },
+    {
+      "from": "C485.1",
+      "to": "C482.1",
+      "connected": true
+    },
+    {
+      "from": "C480.1",
+      "to": "C485.1",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 4714,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 6,
+    "existing_connected_pad_groups_preserved": 62
+  }
+}

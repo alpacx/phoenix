@@ -1,0 +1,57 @@
+{
+  "status": "CPU_SWITCH_INPUT_CONNECTED",
+  "sha256": "8b0da28dcaa00908d17b5bb9e2a2dd024f5308798f9254e120bb33a8917ed867",
+  "source_sha256": "7590ff5336d3d1ab8c963453773c5a6bb442639db800d35c1d54a42861b0af11",
+  "checks": [
+    {
+      "from": "U10.D3",
+      "to": "L1001.1",
+      "connected": true
+    },
+    {
+      "from": "U10.D4",
+      "to": "L1001.1",
+      "connected": true
+    },
+    {
+      "from": "U10.E3",
+      "to": "L1001.1",
+      "connected": true
+    },
+    {
+      "from": "U10.E4",
+      "to": "L1001.1",
+      "connected": true
+    },
+    {
+      "from": "U10.D1",
+      "to": "C1001.1",
+      "connected": true
+    },
+    {
+      "from": "U10.D2",
+      "to": "C1001.1",
+      "connected": true
+    },
+    {
+      "from": "U10.E1",
+      "to": "C1001.1",
+      "connected": true
+    },
+    {
+      "from": "U10.E2",
+      "to": "C1001.1",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "electrical_qualified": false,
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 4343,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 13,
+    "existing_connected_pad_groups_preserved": 50
+  }
+}

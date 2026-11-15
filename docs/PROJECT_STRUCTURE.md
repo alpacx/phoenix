@@ -66,10 +66,15 @@ La build non prova rete, VPN, cablaggio, USB o prestazioni fisiche.
 - ESP32: implementazione esistente; prove pregresse in NEXT_SESSION.md e PROGRESS.md.
 - Linux: backend installato sulla ROCK; servizi, AP, aggiornamento firmato e forwarding Ethernet verificati. Vedere platforms/linux/VALIDATION.md e API_STATUS.md.
 - Hardware custom: progetto incompleto; checkpoint corrente in
-  `hardware/phoenix-g1/migration-rk3562/experiments/pmic-buck5/working-candidate.json`.
+  `hardware/phoenix-g1/migration-rk3562/experiments/pmic-ldo-inputs/working-candidate.json`.
 - Flash eMMC integrata nello schema e nel PCB di lavoro, con masse esterne instradate:
   `hardware/phoenix-g1/migration-rk3562/experiments/emmc-system/`, con collegamenti
   di alimentazione candidati; fanout, rail, segnali e qualifica restano aperti.
+
+Per il checkpoint hardware, usare il Python di KiCad per
+`hardware/phoenix-g1/tools/audit_pmic_ldo_inputs.py` e
+`hardware/phoenix-g1/tools/test_pmic_ldo_input_audit.py`; il README del checkpoint
+elenca la ricostruzione completa. I test CAD non richiedono build o flash software.
 
 Registrare nuove evidenze distinguendo codice, build, audit CAD e prove fisiche.
 

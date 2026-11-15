@@ -1,0 +1,26 @@
+// Laboratory candidate for ROCK 4C+ ONLY. Not installed automatically.
+// Validate against the actual DTB. Keep the Mac cable disconnected.
+// Linux GPIO state does not establish connector voltage or bootloader safety.
+/dts-v1/;
+/plugin/;
+
+/ {
+    compatible = "radxa,rock-4c-plus";
+    fragment@0 {
+        target-path = "/vbus-typec";
+        __overlay__ {
+            status = "disabled";
+        };
+    };
+    fragment@1 {
+        target = <&gpio1>;
+        __overlay__ {
+            phoenix-usb-source-off {
+                gpio-hog;
+                gpios = <3 0>; // GPIO1_A3, active high switch enable
+                output-low;
+                line-name = "phoenix-usb-source-off";
+            };
+        };
+    };
+};

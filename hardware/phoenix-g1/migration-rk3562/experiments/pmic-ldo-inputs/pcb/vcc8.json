@@ -1,0 +1,21 @@
+{
+  "status": "PMIC_VCC8_INPUT_JOINED",
+  "sha256": "f80301bb6fb41a5edda3354a27f1d9eafb50756b0812a2a01d639f05357a6cdf",
+  "source_sha256": "0a6fd2df448d039ff261415ca8343e4b49226b3799cae1137f8504c03d9bfbc4",
+  "checks": [
+    {
+      "from": "U4.57",
+      "to": "C425.1",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 4686,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 3,
+    "existing_connected_pad_groups_preserved": 60
+  }
+}

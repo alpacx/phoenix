@@ -1,0 +1,79 @@
+{
+  "status": "PMIC_VCC4_INPUT_CONNECTED",
+  "sha256": "b4de732421df399b4fd10693e956a1a02eef8d765acac6031b0b2d7a185e906a",
+  "source_sha256": "de6f65c4d811c0b9bed13ba048a3e75d423a350acb9fb743d196034ea30ec4b3",
+  "checks": [
+    {
+      "from": "U4.66",
+      "to": "C484.1",
+      "connected": true
+    }
+  ],
+  "replaced_copper": [
+    "2b4c51b6-4089-4afc-adf2-7897ca97383d",
+    "22adbd94-d53e-441a-af57-97409ae98b59",
+    "648136d3-981e-49b3-ba0f-5ddbf7932b02",
+    "48a239b7-982b-4099-bf14-084ba5ebe419",
+    "912ad462-b391-465b-b54f-02db061aeabf"
+  ],
+  "new_violations": [],
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 4737,
+    "explicitly_replaced_copper": {
+      "22adbd94-d53e-441a-af57-97409ae98b59": [
+        "GND",
+        0,
+        57800000,
+        4750000,
+        57800000,
+        4750000,
+        450000,
+        200000
+      ],
+      "2b4c51b6-4089-4afc-adf2-7897ca97383d": [
+        "GND",
+        0,
+        58600000,
+        3950000,
+        57800000,
+        4750000,
+        300000,
+        null
+      ],
+      "48a239b7-982b-4099-bf14-084ba5ebe419": [
+        "+3V3_SYS",
+        2,
+        58500000,
+        4800000,
+        60480000,
+        4800000,
+        300000,
+        null
+      ],
+      "648136d3-981e-49b3-ba0f-5ddbf7932b02": [
+        "GND",
+        2,
+        57020000,
+        4750000,
+        57800000,
+        4750000,
+        300000,
+        null
+      ],
+      "912ad462-b391-465b-b54f-02db061aeabf": [
+        "+3V3_SYS",
+        2,
+        58500000,
+        3200000,
+        58500000,
+        4800000,
+        300000,
+        null
+      ]
+    },
+    "added_tracks_vias": 5,
+    "existing_connected_pad_groups_preserved": 57
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "status": "CPU_BYPASSES_CONNECTED",
+  "sha256": "b657e0e384646b4acdedbd1ae6197b4e0c8775bfa7dcee90e27cae0cba49a949",
+  "source_sha256": "8b0da28dcaa00908d17b5bb9e2a2dd024f5308798f9254e120bb33a8917ed867",
+  "checks": [
+    {
+      "from": "L1001.2",
+      "to": "C1013.1",
+      "connected": true
+    },
+    {
+      "from": "C1001.1",
+      "to": "C1002.1",
+      "connected": true
+    },
+    {
+      "from": "C1001.2",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "C1002.2",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "C1013.2",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "U10.B2",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "U10.B3",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "U10.B4",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "U10.C1",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "U10.C2",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "U10.C3",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "U10.C4",
+      "to": "C435.2",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "electrical_qualified": false,
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 4356,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 22,
+    "existing_connected_pad_groups_preserved": 52
+  }
+}

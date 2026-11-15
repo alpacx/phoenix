@@ -26,4 +26,15 @@ class PreservationTests(unittest.TestCase):
  def test_moved_connected_pad(self):
   a,b=self.copies();next(iter(next(iter(b.GetFootprints())).Pads())).SetPosition(p.VECTOR2I(9000000,9000000))
   with self.assertRaises(AssertionError):verify_preservation(a,b)
+ def test_explicit_replacement_preserves_connection(self):
+  a,b=self.copies();old=next(iter(b.GetTracks()));uid=old.m_Uuid.AsString()
+  old.SetEnd(p.VECTOR2I(2000000,1000000))
+  t=p.PCB_TRACK(b);t.SetStart(p.VECTOR2I(2000000,1000000));t.SetEnd(p.VECTOR2I(3000000,1000000));t.SetLayer(p.F_Cu);t.SetWidth(200000);t.SetNetCode(old.GetNetCode());b.Add(t)
+  self.assertEqual(verify_preservation(a,b,replaced_copper=[uid])['existing_connected_pad_groups_preserved'],1)
+ def test_explicit_replacement_cannot_break_connection(self):
+  a,b=self.copies();old=next(iter(b.GetTracks()));uid=old.m_Uuid.AsString();b.Remove(old)
+  with self.assertRaises(AssertionError):verify_preservation(a,b,replaced_copper=[uid])
+ def test_unknown_replacement(self):
+  a,b=self.copies()
+  with self.assertRaises(AssertionError):verify_preservation(a,b,replaced_copper=['unknown'])
 if __name__=='__main__':unittest.main()

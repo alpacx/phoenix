@@ -1,0 +1,542 @@
+{
+  "status": "NO_ACCEPTED_VCC2_ROUTE",
+  "source_sha256": "e31ae49c7c806bbdba33e166ed9516b106f71113eedfeb3078e5d8e85ff1896a",
+  "trials": [
+    {
+      "vias_mm": [
+        [
+          55.65,
+          10.2
+        ],
+        [
+          55.65,
+          10.899999999999999
+        ]
+      ],
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "e324053e-0dba-4941-afae-8e243587aadd",
+            "fd5a516d-f0f8-410b-959c-7b85790ce35d"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "8504103a-edad-4d52-8f50-e5d77ed8cc71",
+            "fd5a516d-f0f8-410b-959c-7b85790ce35d"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "0859a05f-19fb-4fd6-ad99-c302112a2205",
+            "58c60dce-5a91-4588-bebd-28e2364dc2f8"
+          ],
+          "count": 1
+        }
+      ],
+      "connected": true
+    },
+    {
+      "vias_mm": [
+        [
+          55.7,
+          10.25
+        ],
+        [
+          55.7,
+          10.95
+        ]
+      ],
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "2f1991c2-f475-4ba9-8e75-37854e863b01",
+            "ddfe53a4-b8d5-426e-8e6e-591109cd9855"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "8504103a-edad-4d52-8f50-e5d77ed8cc71",
+            "ddfe53a4-b8d5-426e-8e6e-591109cd9855"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "b393408d-5fc5-481e-ab5b-f871895590d3",
+            "ddfe53a4-b8d5-426e-8e6e-591109cd9855"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "8e6d369b-4486-4cd6-8d0f-a5d5e92b54a9",
+            "ddfe53a4-b8d5-426e-8e6e-591109cd9855"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "70079763-6400-4221-86bb-c09f5db67cf7",
+            "ddfe53a4-b8d5-426e-8e6e-591109cd9855"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "58c60dce-5a91-4588-bebd-28e2364dc2f8",
+            "ddfe53a4-b8d5-426e-8e6e-591109cd9855"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "3ac29d3b-214c-43ea-98db-c4ce62db77b6",
+            "ddfe53a4-b8d5-426e-8e6e-591109cd9855"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "3473ef25-2194-42d6-bb09-ecb71fa6a7ff",
+            "ddfe53a4-b8d5-426e-8e6e-591109cd9855"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "2ad66e6f-204a-4f45-8d3b-df80f5ec202f",
+            "ddfe53a4-b8d5-426e-8e6e-591109cd9855"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "28d41c4b-9430-49fd-a766-89fe264c8739",
+            "ddfe53a4-b8d5-426e-8e6e-591109cd9855"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "219cfaa8-e9d7-4c22-88a7-4ca2040dcb7c",
+            "ddfe53a4-b8d5-426e-8e6e-591109cd9855"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "1a894cdc-f34b-4f44-961e-ea6d7ca7538a",
+            "ddfe53a4-b8d5-426e-8e6e-591109cd9855"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "154d2852-b336-4f3c-a175-e8aa511d1237",
+            "ddfe53a4-b8d5-426e-8e6e-591109cd9855"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "11c07f1e-341e-46e8-a197-93b37542c13e",
+            "ddfe53a4-b8d5-426e-8e6e-591109cd9855"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "314f92d3-1847-4d4a-bd24-03f068c34ef1",
+            "8504103a-edad-4d52-8f50-e5d77ed8cc71"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "ddfe53a4-b8d5-426e-8e6e-591109cd9855",
+            "faac30d3-fa9d-475b-8feb-659e8905c7a4"
+          ],
+          "count": 1
+        }
+      ],
+      "connected": true
+    },
+    {
+      "vias_mm": [
+        [
+          55.8,
+          10.3
+        ],
+        [
+          55.8,
+          11.0
+        ]
+      ],
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "154d2852-b336-4f3c-a175-e8aa511d1237",
+            "418b8a8a-0eea-44ea-af11-2934d388bda6"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "11c07f1e-341e-46e8-a197-93b37542c13e",
+            "418b8a8a-0eea-44ea-af11-2934d388bda6"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "3ac29d3b-214c-43ea-98db-c4ce62db77b6",
+            "418b8a8a-0eea-44ea-af11-2934d388bda6"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "3473ef25-2194-42d6-bb09-ecb71fa6a7ff",
+            "418b8a8a-0eea-44ea-af11-2934d388bda6"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "2f1991c2-f475-4ba9-8e75-37854e863b01",
+            "418b8a8a-0eea-44ea-af11-2934d388bda6"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "2ad66e6f-204a-4f45-8d3b-df80f5ec202f",
+            "418b8a8a-0eea-44ea-af11-2934d388bda6"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "28d41c4b-9430-49fd-a766-89fe264c8739",
+            "418b8a8a-0eea-44ea-af11-2934d388bda6"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "219cfaa8-e9d7-4c22-88a7-4ca2040dcb7c",
+            "418b8a8a-0eea-44ea-af11-2934d388bda6"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "1a894cdc-f34b-4f44-961e-ea6d7ca7538a",
+            "418b8a8a-0eea-44ea-af11-2934d388bda6"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "220db288-3f04-4a37-861b-04f2d72724a9",
+            "297891b3-523a-460c-a6ee-0807b74857cf"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "72112de9-06d5-4b0a-a44d-ee1bf15e51c3",
+            "fa88b905-4f12-4f12-9817-4e4de2db730a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "0ab8b1f3-52e3-4eb6-9157-c477e4ad09c1",
+            "418b8a8a-0eea-44ea-af11-2934d388bda6"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "220db288-3f04-4a37-861b-04f2d72724a9",
+            "8504103a-edad-4d52-8f50-e5d77ed8cc71"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "418b8a8a-0eea-44ea-af11-2934d388bda6",
+            "70079763-6400-4221-86bb-c09f5db67cf7"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "297891b3-523a-460c-a6ee-0807b74857cf",
+            "44831d3f-bb0a-45c8-acde-9e104b5a59d1"
+          ],
+          "count": 1
+        }
+      ],
+      "connected": true
+    },
+    {
+      "vias_mm": [
+        [
+          55.6,
+          10.3
+        ],
+        [
+          55.6,
+          11.0
+        ]
+      ],
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "219cfaa8-e9d7-4c22-88a7-4ca2040dcb7c",
+            "28a8f972-2bae-4b38-8b07-b09d3dad530b"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "154d2852-b336-4f3c-a175-e8aa511d1237",
+            "28a8f972-2bae-4b38-8b07-b09d3dad530b"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "11c07f1e-341e-46e8-a197-93b37542c13e",
+            "28a8f972-2bae-4b38-8b07-b09d3dad530b"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "28a8f972-2bae-4b38-8b07-b09d3dad530b",
+            "3ac29d3b-214c-43ea-98db-c4ce62db77b6"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "56c8a23e-5bc4-46a7-a7ad-edeea0da1a12",
+            "8504103a-edad-4d52-8f50-e5d77ed8cc71"
+          ],
+          "count": 1
+        }
+      ],
+      "connected": true
+    },
+    {
+      "vias_mm": [
+        [
+          55.65,
+          10.5
+        ],
+        [
+          55.65,
+          11.2
+        ]
+      ],
+      "new_violations": [
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "1a894cdc-f34b-4f44-961e-ea6d7ca7538a",
+            "7305ba11-f5fe-4c19-851e-fa9cef6cd832"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "70079763-6400-4221-86bb-c09f5db67cf7",
+            "7305ba11-f5fe-4c19-851e-fa9cef6cd832"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "58c60dce-5a91-4588-bebd-28e2364dc2f8",
+            "7305ba11-f5fe-4c19-851e-fa9cef6cd832"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "3ac29d3b-214c-43ea-98db-c4ce62db77b6",
+            "7305ba11-f5fe-4c19-851e-fa9cef6cd832"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "3473ef25-2194-42d6-bb09-ecb71fa6a7ff",
+            "7305ba11-f5fe-4c19-851e-fa9cef6cd832"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "2f1991c2-f475-4ba9-8e75-37854e863b01",
+            "7305ba11-f5fe-4c19-851e-fa9cef6cd832"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "28d41c4b-9430-49fd-a766-89fe264c8739",
+            "7305ba11-f5fe-4c19-851e-fa9cef6cd832"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "219cfaa8-e9d7-4c22-88a7-4ca2040dcb7c",
+            "7305ba11-f5fe-4c19-851e-fa9cef6cd832"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "154d2852-b336-4f3c-a175-e8aa511d1237",
+            "7305ba11-f5fe-4c19-851e-fa9cef6cd832"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "11c07f1e-341e-46e8-a197-93b37542c13e",
+            "7305ba11-f5fe-4c19-851e-fa9cef6cd832"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "7305ba11-f5fe-4c19-851e-fa9cef6cd832",
+            "faac30d3-fa9d-475b-8feb-659e8905c7a4"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "2a236983-1ca9-4e3f-a753-0ce4c3b55416",
+            "8504103a-edad-4d52-8f50-e5d77ed8cc71"
+          ],
+          "count": 1
+        }
+      ],
+      "connected": true
+    }
+  ],
+  "electrical_current_and_loop_qualified": false,
+  "assembly_ready": false
+}

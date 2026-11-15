@@ -1,0 +1,116 @@
+{
+  "status": "SYSTEM_LOCAL_POWER_CONNECTED",
+  "sha256": "1248b877a5a06beebbbb405eebf0f0740c456112626e3c1230823a7aa68640f0",
+  "source_sha256": "8173317260bd87abcd835a03aa881d0a07c7d0b5d66a9ebb645d7ce61f8e0fcb",
+  "checks": [
+    {
+      "from": "U17.1",
+      "to": "L1301.1",
+      "connected": true
+    },
+    {
+      "from": "U17.2",
+      "to": "L1301.1",
+      "connected": true
+    },
+    {
+      "from": "U17.3",
+      "to": "L1301.1",
+      "connected": true
+    },
+    {
+      "from": "U17.10",
+      "to": "C1301.1",
+      "connected": true
+    },
+    {
+      "from": "U17.11",
+      "to": "C1301.1",
+      "connected": true
+    },
+    {
+      "from": "U17.12",
+      "to": "C1301.1",
+      "connected": true
+    },
+    {
+      "from": "C1301.1",
+      "to": "C1302.1",
+      "connected": true
+    },
+    {
+      "from": "U17.5",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "U17.6",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "U17.7",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "U17.8",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "U17.15",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "U17.16",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "U17.17",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "C1301.2",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "C1302.2",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "C1304.2",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "C1305.2",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "L1301.2",
+      "to": "C1304.1",
+      "connected": true
+    },
+    {
+      "from": "L1301.2",
+      "to": "C1305.1",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 4417,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 48,
+    "existing_connected_pad_groups_preserved": 55
+  }
+}

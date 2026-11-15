@@ -1,0 +1,28 @@
+{
+  "status": "DOCUMENTARY_AND_IDEAL_DC_RC_REVIEW_NOT_SIMULATION",
+  "source": "hardware/phoenix-g1/reference/RK809-5-C2939628.pdf",
+  "source_sha256": "a7934277d2ba97bbae005cd39b0c05c7f53be99633e78e53ac09b0be2c80c1e7",
+  "components": {
+    "R410_ohm": 180000,
+    "R411_ohm": 100000,
+    "C410_F": 1e-07
+  },
+  "ideal_results": {
+    "input_V": 3.3,
+    "VDC_V": 1.1785714285714286,
+    "VDC_min_V_resistors_1percent": 1.1634615384615385,
+    "VDC_max_V_resistors_1percent": 1.1937679083094557,
+    "Thevenin_ohm": 64285.71428571428,
+    "RC_tau_ms": 6.428571428571428,
+    "ideal_step_time_to_0_55V_ms": 4.041055667715263,
+    "nominal_supply_margin_above_3_2V_mV": 100
+  },
+  "limitations": [
+    "Ideal RC calculation excludes PMIC leakage, capacitor tolerance, supply ramp and internal qualification delays.",
+    "VDC start description includes 140 ms qualification: RC crossing is not system startup time.",
+    "VCC9_LO_SEL reset code 4 indicates 3.2 V; bit 3 reset 1 selects interrupt, not shutdown. Verify actual RK809-5 OTP/bootloader state.",
+    "Narrative VB_OK typical 3.4 V differs from programmable threshold table starting 2.8 V: resolve against exact variant before accepting 3.3 V startup.",
+    "No PMIC register was read or written. No schematic or component value changed."
+  ],
+  "assembly_ready": false
+}

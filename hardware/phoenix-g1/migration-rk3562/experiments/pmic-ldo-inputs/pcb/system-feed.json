@@ -1,0 +1,27 @@
+{
+  "status": "SYSTEM_SOURCE_TO_PMIC_CONNECTED",
+  "sha256": "4ef409535e6765e8d16308e2954eaafe290793cf3a20b3fa62acd74372f1d860",
+  "source_sha256": "46ee52392cc3469571d87db3bc849d2ee81b2ad4b88201075550f03001a4bdcf",
+  "checks": [
+    {
+      "from": "C1304.1",
+      "to": "C480.1",
+      "connected": true
+    },
+    {
+      "from": "C1304.1",
+      "to": "TP4.1",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "assembly_ready": false,
+  "manufacturing_requirement": "C1304/C1305 via-in-pad must be filled and capped; current capability and final stackup unqualified",
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 4749,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 19,
+    "existing_connected_pad_groups_preserved": 56
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "status": "VCC2_FRONT_BYPASS_CONNECTED",
+  "source_sha256": "e31ae49c7c806bbdba33e166ed9516b106f71113eedfeb3078e5d8e85ff1896a",
+  "sha256": "f4f3dd72b9dd769144b4b41dc013b3171137fcf94294ea1dc20c91ccce0fa918",
+  "new_violations": [],
+  "input_connected": true,
+  "replaced_copper": [
+    "534ad192-f875-46e2-b793-b21f125469bb"
+  ],
+  "electrical_qualified": false,
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2005,
+    "existing_tracks_vias_preserved": 4294,
+    "explicitly_replaced_copper": {
+      "534ad192-f875-46e2-b793-b21f125469bb": [
+        "GND",
+        2,
+        53050000,
+        10500000,
+        52100000,
+        10500000,
+        300000,
+        null
+      ]
+    },
+    "added_tracks_vias": 5,
+    "existing_connected_pad_groups_preserved": 46
+  }
+}

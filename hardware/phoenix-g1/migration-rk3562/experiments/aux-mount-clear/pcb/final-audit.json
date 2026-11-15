@@ -1,0 +1,54 @@
+{
+  "status": "LOCAL_LCD_BYPASS_AND_AUX_MOUNT_NOT_QUALIFIED",
+  "sha256": "19f8553d7fdc9b5ef0a9816e8bb8100d173b2d7ad01478bb448ad68ea8eb8c72",
+  "source_sha256": "07bc1acc184228c70059b00881f27c688c3149045b81f5108c2e86ce854c6e53",
+  "preservation": {
+    "existing_pad_instances_preserved": 2005,
+    "existing_tracks_vias_preserved": 4323,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 13,
+    "existing_connected_pad_groups_preserved": 48
+  },
+  "new_violations": [],
+  "existing_rules_unchanged": true,
+  "moved_refs": [
+    "C1801",
+    "C1802",
+    "R1815"
+  ],
+  "new_hole": "H8103",
+  "body_radius_mm": 2.7,
+  "lcd_checks": [
+    {
+      "from": "U20.1",
+      "to": "C1203.1",
+      "connected": true
+    },
+    {
+      "from": "U20.1",
+      "to": "C1801.1",
+      "connected": true
+    },
+    {
+      "from": "U20.5",
+      "to": "C1802.1",
+      "connected": true
+    },
+    {
+      "from": "U20.2",
+      "to": "C1801.2",
+      "connected": true
+    },
+    {
+      "from": "U20.2",
+      "to": "C1802.2",
+      "connected": true
+    },
+    {
+      "from": "U20.2",
+      "to": "C435.2",
+      "connected": true
+    }
+  ],
+  "assembly_ready": false
+}

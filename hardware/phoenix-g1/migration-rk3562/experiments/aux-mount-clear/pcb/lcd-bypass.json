@@ -1,0 +1,46 @@
+{
+  "status": "LCD_LOCAL_BYPASS_CONNECTED",
+  "source_sha256": "1bfab7f6a8d574eb1bc80b2a6e039563a998d9ba863ae4da3f337d2dc8ac7f7a",
+  "sha256": "19f8553d7fdc9b5ef0a9816e8bb8100d173b2d7ad01478bb448ad68ea8eb8c72",
+  "new_violations": [],
+  "checks": [
+    {
+      "from": "U20.1",
+      "to": "C1203.1",
+      "connected": true
+    },
+    {
+      "from": "U20.1",
+      "to": "C1801.1",
+      "connected": true
+    },
+    {
+      "from": "U20.5",
+      "to": "C1802.1",
+      "connected": true
+    },
+    {
+      "from": "U20.2",
+      "to": "C1801.2",
+      "connected": true
+    },
+    {
+      "from": "U20.2",
+      "to": "C1802.2",
+      "connected": true
+    },
+    {
+      "from": "U20.2",
+      "to": "C435.2",
+      "connected": true
+    }
+  ],
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 4323,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 13,
+    "existing_connected_pad_groups_preserved": 48
+  }
+}

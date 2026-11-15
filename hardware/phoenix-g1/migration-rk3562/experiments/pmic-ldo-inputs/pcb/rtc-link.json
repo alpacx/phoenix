@@ -1,0 +1,21 @@
+{
+  "status": "PMIC_RTC_GROUP_JOINED",
+  "sha256": "de6f65c4d811c0b9bed13ba048a3e75d423a350acb9fb743d196034ea30ec4b3",
+  "source_sha256": "5a353064e518c72db5a93ff0201e49aa05da0146a2f9d078734df0ea0a6fd97e",
+  "checks": [
+    {
+      "from": "C424.1",
+      "to": "C480.1",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 4735,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 7,
+    "existing_connected_pad_groups_preserved": 58
+  }
+}

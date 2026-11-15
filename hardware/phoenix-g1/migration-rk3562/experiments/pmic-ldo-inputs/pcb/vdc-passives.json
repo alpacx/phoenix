@@ -1,0 +1,37 @@
+{
+  "status": "VDC_PASSIVES_CONNECTED_PIN61_OPEN",
+  "sha256": "53fc6a05acd6c0fe6c2204486a6397a5b38e68d2b9bc65a77a12916b69831160",
+  "source_sha256": "a5ec1b27c73faa18dada8b65ce92c5025bbc5d4ace8702c5465403e865fcf394",
+  "checks": [
+    {
+      "from": "R410.2",
+      "to": "R411.1",
+      "connected": true
+    },
+    {
+      "from": "R410.2",
+      "to": "C410.1",
+      "connected": true
+    },
+    {
+      "from": "R411.2",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "C410.2",
+      "to": "C435.2",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "assembly_ready": false,
+  "manufacturing_requirement": "C1304/C1305 via-in-pad must be filled and capped; current capability and final stackup unqualified",
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 4770,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 8,
+    "existing_connected_pad_groups_preserved": 55
+  }
+}

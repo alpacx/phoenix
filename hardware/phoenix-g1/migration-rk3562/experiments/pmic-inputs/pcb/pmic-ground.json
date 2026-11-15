@@ -1,0 +1,92 @@
+{
+  "status": "REJECTED_FRONT_TRIAL",
+  "source_sha256": "37705926cd29a7d329238fc0eaba9eb976c98742cd07f623f2c3d91739e648e2",
+  "sha256": "a4ebd46141f0f8e95f99e7680ea05acff49fa95f9fd1994c37b8ce43fb576987",
+  "new_violations": [
+    {
+      "type": "holes_co_located",
+      "severity": "warning",
+      "items": [
+        "06df81fa-b707-4a1d-9a64-0876871914d2",
+        "b33f85da-1fbd-4241-9c7c-0a19a454fc07"
+      ],
+      "count": 2
+    },
+    {
+      "type": "holes_co_located",
+      "severity": "warning",
+      "items": [
+        "0c224b38-c630-42ea-8d11-186781c5406a",
+        "c12d239d-020a-4d09-9385-480f30c88c6d"
+      ],
+      "count": 2
+    },
+    {
+      "type": "holes_co_located",
+      "severity": "warning",
+      "items": [
+        "1a541602-67c8-4318-980e-4a32a4b530aa",
+        "2b0eb43f-acdb-4d97-8268-6afdba12bee8"
+      ],
+      "count": 2
+    },
+    {
+      "type": "holes_co_located",
+      "severity": "warning",
+      "items": [
+        "1a9a2b21-f4d9-4e20-af7f-962fd31ed52e",
+        "3b9537e8-7788-4ad9-8f1d-36d5f07d0762"
+      ],
+      "count": 2
+    },
+    {
+      "type": "holes_co_located",
+      "severity": "warning",
+      "items": [
+        "1e22eb36-1094-4260-9e5e-c911221aa32b",
+        "4779a28d-33ae-49c6-a3b4-6108ea4c04c8"
+      ],
+      "count": 2
+    },
+    {
+      "type": "holes_co_located",
+      "severity": "warning",
+      "items": [
+        "510f3458-ff7c-4e8b-9f3e-1fa71f6d9e9d",
+        "db03af58-55f7-4be0-8c3c-90f620423856"
+      ],
+      "count": 2
+    },
+    {
+      "type": "holes_co_located",
+      "severity": "warning",
+      "items": [
+        "7109b3f7-243f-4af7-83ab-92aac536ae46",
+        "8ed56755-7350-4e51-8cb3-d8ccd13a139f"
+      ],
+      "count": 2
+    },
+    {
+      "type": "holes_co_located",
+      "severity": "warning",
+      "items": [
+        "3412fa45-48f2-4387-a518-3c2128acecd5",
+        "b8b98dc3-cf66-4408-82d1-708db68bfea1"
+      ],
+      "count": 2
+    },
+    {
+      "type": "holes_co_located",
+      "severity": "warning",
+      "items": [
+        "270fc93f-0972-402c-81ab-580d0f265e77",
+        "be35e98a-8f8e-41bb-9872-d7a87d2e86d4"
+      ],
+      "count": 2
+    }
+  ],
+  "input_connected": true,
+  "replaced_copper": [],
+  "electrical_qualified": false,
+  "assembly_ready": false
+}

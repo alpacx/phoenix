@@ -1,0 +1,164 @@
+{
+  "status": "REJECTED_FRONT_TRIAL",
+  "source_sha256": "37705926cd29a7d329238fc0eaba9eb976c98742cd07f623f2c3d91739e648e2",
+  "sha256": "ef5b0582074809811349fd7c542b5d52e26a81f7f44648c5eeb77e0d3c28d992",
+  "new_violations": [
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "d83a6c7b-dbfa-454a-820b-86281294b112",
+        "fb8d4975-f18c-447a-844d-2bff4b9b3fe1"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "9d528047-bad4-45af-9b91-08d90ef1855c",
+        "fb8d4975-f18c-447a-844d-2bff4b9b3fe1"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "8a265139-b9f4-4602-927e-bf2e37b6e4a9",
+        "fb8d4975-f18c-447a-844d-2bff4b9b3fe1"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "b3b3a019-4875-438f-872c-da5e96c3bf6b",
+        "fb8d4975-f18c-447a-844d-2bff4b9b3fe1"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "72eba6e0-487a-4876-a998-3bc0edbe0318",
+        "e47b25c5-777c-4ca4-a9f8-315962067956"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "2c4d51fa-9b10-4597-8be8-2b22c4f0b14a",
+        "e47b25c5-777c-4ca4-a9f8-315962067956"
+      ],
+      "count": 1
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "items": [
+        "b3b3a019-4875-438f-872c-da5e96c3bf6b",
+        "fb8d4975-f18c-447a-844d-2bff4b9b3fe1"
+      ],
+      "count": 1
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "items": [
+        "72eba6e0-487a-4876-a998-3bc0edbe0318",
+        "e47b25c5-777c-4ca4-a9f8-315962067956"
+      ],
+      "count": 1
+    },
+    {
+      "type": "courtyards_overlap",
+      "severity": "error",
+      "items": [
+        "c3080e08-0b15-4a10-bb66-bd355890dcbe",
+        "d6ec2fde-f244-4d7f-bd16-4b6caf8736b0"
+      ],
+      "count": 1
+    },
+    {
+      "type": "courtyards_overlap",
+      "severity": "error",
+      "items": [
+        "c3080e08-0b15-4a10-bb66-bd355890dcbe",
+        "ea13950c-c8f7-4206-8a62-427c6456779d"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "4d6302a7-1738-4431-83d1-2bd9c099e7d3",
+        "8a265139-b9f4-4602-927e-bf2e37b6e4a9"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "4d6302a7-1738-4431-83d1-2bd9c099e7d3",
+        "9d528047-bad4-45af-9b91-08d90ef1855c"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "2c4d51fa-9b10-4597-8be8-2b22c4f0b14a",
+        "e47b25c5-777c-4ca4-a9f8-315962067956"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "72eba6e0-487a-4876-a998-3bc0edbe0318",
+        "e47b25c5-777c-4ca4-a9f8-315962067956"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "b3b3a019-4875-438f-872c-da5e96c3bf6b",
+        "fb8d4975-f18c-447a-844d-2bff4b9b3fe1"
+      ],
+      "count": 1
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "items": [
+        "248b3227-725e-492f-8c68-bcf52db66338",
+        "be6b2b59-024b-453e-aacb-01dd881850dc"
+      ],
+      "count": 1
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "items": [
+        "248b3227-725e-492f-8c68-bcf52db66338",
+        "50c2e3d3-f5d1-4db8-9af6-475129006a3e"
+      ],
+      "count": 1
+    }
+  ],
+  "input_connected": false,
+  "replaced_copper": [],
+  "electrical_qualified": false,
+  "assembly_ready": false
+}

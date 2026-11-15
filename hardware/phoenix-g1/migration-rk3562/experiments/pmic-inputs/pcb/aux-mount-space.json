@@ -1,0 +1,67 @@
+{
+  "status": "GEOMETRIC_SEARCH_NOT_MECHANICAL_QUALIFICATION",
+  "source_sha256": "07bc1acc184228c70059b00881f27c688c3149045b81f5108c2e86ce854c6e53",
+  "reservation_radius_mm": 2.7,
+  "grid_mm": 0.5,
+  "auxiliary_mounts": [
+    {
+      "ref": "H8103",
+      "center_mm": [
+        21,
+        3
+      ],
+      "component_blockers": [
+        "C1801",
+        "C1802",
+        "R1815"
+      ],
+      "copper_conflicts": 0,
+      "nearest_clear_grid_candidates_mm": []
+    },
+    {
+      "ref": "H8104",
+      "center_mm": [
+        37,
+        31
+      ],
+      "component_blockers": [
+        "C1625",
+        "C1631",
+        "C1640",
+        "C1642",
+        "C1679",
+        "TP14",
+        "TP5",
+        "TP9",
+        "Y1",
+        "Y2002"
+      ],
+      "copper_conflicts": 0,
+      "nearest_clear_grid_candidates_mm": []
+    },
+    {
+      "ref": "H8105",
+      "center_mm": [
+        70,
+        34
+      ],
+      "component_blockers": [
+        "R521",
+        "R525",
+        "R526",
+        "R527",
+        "Y501"
+      ],
+      "copper_conflicts": 0,
+      "nearest_clear_grid_candidates_mm": []
+    }
+  ],
+  "clear_grid_points": 0,
+  "limits": [
+    "Courtyard and pad bounding boxes are conservative",
+    "Zones and enclosure geometry not qualified",
+    "No holes or reservations moved",
+    "Candidate points can overlap each other; not a simultaneous mounting pattern"
+  ],
+  "assembly_ready": false
+}

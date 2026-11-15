@@ -1,0 +1,47 @@
+{
+  "status": "CPU_OUTPUT_BANK_CONNECTED",
+  "sha256": "44cd83d5b52d48195d0c487b1969372f10791de466bf99168c1d2138fda3b267",
+  "source_sha256": "b657e0e384646b4acdedbd1ae6197b4e0c8775bfa7dcee90e27cae0cba49a949",
+  "checks": [
+    {
+      "from": "L1001.2",
+      "to": "C1011.1",
+      "connected": true
+    },
+    {
+      "from": "L1001.2",
+      "to": "C1012.1",
+      "connected": true
+    },
+    {
+      "from": "L1001.2",
+      "to": "C1013.1",
+      "connected": true
+    },
+    {
+      "from": "C1011.2",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "C1012.2",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "C1013.2",
+      "to": "C435.2",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "electrical_qualified": false,
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 4378,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 12,
+    "existing_connected_pad_groups_preserved": 53
+  }
+}

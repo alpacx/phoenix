@@ -1,0 +1,22 @@
+{
+  "status": "CPU_ENABLE_LOCAL_CONNECTED",
+  "sha256": "55ddb549314bb14db4a984a6b26fa12a69cbb64c24cb591e815a40d5bbac9af9",
+  "source_sha256": "aef12664e8f0f203cb582a760d62687e54be7b839ba1326797482304f0391648",
+  "checks": [
+    {
+      "from": "U10.A2",
+      "to": "R1002.2",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "electrical_qualified": false,
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 4414,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 3,
+    "existing_connected_pad_groups_preserved": 54
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "status": "PMIC_UPPER_CAP_GROUNDS_CONNECTED",
+  "sha256": "2671a401e26b54ad01f0cd38a13bbd2fd049c0a1a738b61c0df8ceee0514fb0e",
+  "source_sha256": "ec196dd3bba26e6c348d29eb615ab2c40dfa1d3a1c3721d34f59f6da59186246",
+  "checks": [
+    {
+      "from": "C481.2",
+      "to": "C435.2",
+      "connected": true
+    },
+    {
+      "from": "C484.2",
+      "to": "C435.2",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 4721,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 5,
+    "existing_connected_pad_groups_preserved": 58
+  }
+}
