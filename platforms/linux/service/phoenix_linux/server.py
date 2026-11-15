@@ -45,7 +45,7 @@ def handler(controller, token):
         def log_message(self, *args):
             pass  # No request data, query strings or credentials in access logs.
 
-        def send(self, code, value, content_type='application/json'):
+        def send(self, code, value, content_type='application/json', extra_headers=None):
             data = json.dumps(value).encode() if content_type == 'application/json' else value
             self.send_response(code)
             self.send_header('Content-Type', content_type)
@@ -55,28 +55,50 @@ def handler(controller, token):
             self.send_header('X-Frame-Options', 'DENY')
             self.send_header('Referrer-Policy', 'no-referrer')
             self.send_header('Content-Security-Policy', "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'")
+            for key, value in (extra_headers or {}).items():
+                self.send_header(key, value)
             self.end_headers()
             self.wfile.write(data)
 
-        def authorized(self):
+        def valid_origin(self, require_origin=False):
             if any(len(self.headers.get_all(name, [])) > 1 for name in ('Host', 'Origin', 'Authorization')):
                 self.send(400, {'error': 'duplicate_security_header'})
                 return False
-            expected_host = f'127.0.0.1:{self.server.server_port}'
+            expected_host = getattr(self.server, 'authority', f'127.0.0.1:{self.server.server_port}')
             if self.headers.get('Host') != expected_host:
                 self.send(403, {'error': 'host_not_allowed'})
                 return False
             origin = self.headers.get('Origin')
-            if origin and origin != ('https://' if getattr(self.server, 'tls', False) else 'http://') + expected_host:
+            if (require_origin and not origin) or (origin and origin != ('https://' if getattr(self.server, 'tls', False) else 'http://') + expected_host):
                 self.send(403, {'error': 'origin_not_allowed'})
                 return False
+            return True
+
+        def authorized(self):
+            if not self.valid_origin():
+                return False
             auth = self.headers.get('Authorization', '')
+            if getattr(self.server, 'password_auth', False):
+                from .auth_http import session
+                if not auth or not getattr(self.server, 'allow_bearer', False):
+                    if not self.valid_origin(require_origin=self.command == 'POST'):
+                        return False
+                    try:
+                        if api.call('auth_check', {'session': session(self)}).get('ok'):
+                            return True
+                    except Exception:
+                        pass
+                    self.send(401, {'error': 'authentication_required'})
+                    return False
             if not hmac.compare_digest(auth.encode(), ('Bearer ' + token).encode()):
                 self.send(401, {'error': 'authentication_required'})
                 return False
             return True
 
         def do_GET(self):
+            from .auth_http import route
+            if route(self, api):
+                return
             path = urlsplit(self.path).path
             assets = {'/': ('index.html', 'text/html; charset=utf-8'),
                       '/app.js': ('app.js', 'text/javascript; charset=utf-8'),
@@ -96,7 +118,7 @@ def handler(controller, token):
                 return
             try:
                 with nullcontext():
-                    methods = {'/api/v1/speedtest': 'speedtest', '/api/v1/capabilities': 'capabilities', '/api/v1/wifi/scan': 'scan',
+                    methods = {'/api/v1/hotspot': 'hotspot', '/api/v1/speedtest': 'speedtest', '/api/v1/capabilities': 'capabilities', '/api/v1/wifi/scan': 'scan',
                                '/api/v1/firmware': 'firmware', '/api/v1/preflight': 'preflight',
                                '/api/v1/status': 'status', '/api/v1/policy': 'policy', '/api/v1/vpn': 'vpn'}
                     if path in methods:
@@ -115,6 +137,9 @@ def handler(controller, token):
                 self.send(500, {'error': 'operation_failed'})
 
         def do_POST(self):
+            from .auth_http import route
+            if route(self, api):
+                return
             if not self.authorized():
                 return
             try:
@@ -148,6 +173,8 @@ def handler(controller, token):
                         raise ValueError('invalid_speedtest_action')
                     value = api.call('speedtest_' + body['action'])
                     return self.send(202, value)
+                elif path == '/api/v1/hotspot':
+                    value = api.call('save_hotspot', body)
                 elif path == '/api/v1/policy':
                     value = api.call('save_policy', body)
                 elif path in ('/api/v1/wifi', '/api/v1/uplink'):
@@ -247,10 +274,15 @@ def main():
                     if st.st_uid != os.getuid() or st.st_mode & 0o077:
                         raise ValueError('wifi_secret_permissions')
                     password = stream.read(65).rstrip('\n')
-                ap = AccessPoint(runtime.names['ap'], settings['ssid'], password,
+                saved_hotspot = controller.hotspot_vault.load()
+                controller.hotspot_enabled = saved_hotspot.get('enabled', True)
+                if type(controller.hotspot_enabled) is not bool:
+                    raise ValueError('invalid_hotspot_state')
+                ap = AccessPoint(runtime.names['ap'], saved_hotspot.get('ssid', settings['ssid']), saved_hotspot.get('password', password),
                                  settings['country'], settings.get('dns', '103.86.96.100'),
                                  '/run/phoenix/ap', runtime.run)
-                ap.start()
+                if controller.hotspot_enabled:
+                    ap.start()
                 controller.access_point = ap
             runtime.run(['nft', 'delete', 'table', 'inet', 'phoenix_stop'], optional=True)
             Path('/proc/sys/net/ipv4/ip_forward').write_text('1')

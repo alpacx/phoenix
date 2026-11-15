@@ -61,3 +61,10 @@ Il frontend è accessibile solo tramite loopback/SSH, con certificato locale da
 verificare e rendere attendibile. Non c'è ancora esposizione HTTPS diretta su AP.
 Un audit di sicurezza completo e prove di endurance restano necessari prima
 della produzione. Nessuna chiave di firma di produzione è stata generata.
+
+## Aggiornamento banco USB — 2026-11-15
+
+CDC-ECM, DHCP e navigazione VPN via USB verificati. Accesso web diretto con
+password e cambio obbligatorio: [USB_ADMIN.md](deploy/USB_ADMIN.md). Le note
+offline precedenti non sostituiscono queste evidenze. VBUS/bootloader restano
+non qualificati; eccezione USB valida solo per il boot corrente.

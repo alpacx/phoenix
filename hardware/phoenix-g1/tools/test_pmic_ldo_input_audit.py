@@ -4,14 +4,18 @@ from pathlib import Path
 def run_case(name):
  import pcbnew as p
  from audit_pmic_ldo_inputs import audit_board,D
- b=p.LoadBoard(str(D/'pcb/vdc-passives.kicad_pcb'));held=[]
+ b=p.LoadBoard(str(D/'pcb/five-volt-testpoint.kicad_pcb'));held=[]
  if name=='accepted':
-  assert len(audit_board(b)['checks'])==117
+  assert len(audit_board(b)['checks'])==119
   return
  for t in list(b.GetTracks()):
-  if name in ['vcc9via','tp4via','sourcefeed','r410input','vdcpassives']:
+  if name in ['vcc9via','tp4via','sourcefeed','r410input','vdcpassives','cpufeed','tp3']:
    cut=False
-   if name in ['vcc9via','tp4via']:
+   if name=='tp3':
+    cut=isinstance(t,p.PCB_VIA) and t.GetNetname()=='+5V_MAIN' and t.GetPosition()==p.VECTOR2I(p.FromMM(45.6),p.FromMM(32.5))
+   elif name=='cpufeed':
+    cut=isinstance(t,p.PCB_VIA) and t.GetNetname()=='+5V_MAIN' and t.GetPosition()==p.VECTOR2I(p.FromMM(64.5),p.FromMM(20.5))
+   elif name in ['vcc9via','tp4via']:
     q=(60.4,3.7) if name=='vcc9via' else (55.5,38.5)
     cut=isinstance(t,p.PCB_VIA) and t.GetNetname()=='+3V3_SYS' and (t.GetPosition()-p.VECTOR2I(*(p.FromMM(v) for v in q))).EuclideanNorm()<=10
    elif name=='vdcpassives':cut=t.GetNetname()=='PMIC_VDC'
@@ -46,6 +50,8 @@ class PmicInputAuditTests(unittest.TestCase):
  def check(self,name):
   r=subprocess.run([sys.executable,str(Path(__file__).resolve()),'--case',name],capture_output=True,text=True)
   self.assertEqual(r.returncode,0,r.stdout+r.stderr)
+ def test_cpu_input_feed_interruption(self):self.check('cpufeed')
+ def test_tp3_interruption(self):self.check('tp3')
  def test_accepted_board(self):self.check('accepted')
  def test_vcc7_interruption_detected(self):self.check('vcc7')
  def test_vcc8_interruption_detected(self):self.check('vcc8')

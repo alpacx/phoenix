@@ -1,6 +1,6 @@
 {
   "status": "PAD_CONNECTIVITY_INVENTORY_NOT_ELECTRICAL_QUALIFICATION",
-  "source_sha256": "53fc6a05acd6c0fe6c2204486a6397a5b38e68d2b9bc65a77a12916b69831160",
+  "source_sha256": "f190cccb41316252dd914775db16d4c3fc46737564beff8728ea24a00eb9bb52",
   "nets_total": 285,
   "multi_pad_nets": 278,
   "open_multi_pad_nets": 233,
@@ -765,12 +765,6 @@
         [
           "C1001.1",
           "C1002.1",
-          "U10.D1",
-          "U10.D2",
-          "U10.E1",
-          "U10.E2"
-        ],
-        [
           "C1203.1",
           "C1301.1",
           "C1302.1",
@@ -778,6 +772,11 @@
           "C2201.1",
           "C2202.1",
           "C8101.1",
+          "TP3.1",
+          "U10.D1",
+          "U10.D2",
+          "U10.E1",
+          "U10.E2",
           "U15.5",
           "U17.10",
           "U17.11",
@@ -792,12 +791,9 @@
         ],
         [
           "R1803.1"
-        ],
-        [
-          "TP3.1"
         ]
       ],
-      "group_count": 4,
+      "group_count": 2,
       "fully_connected": false
     },
     {

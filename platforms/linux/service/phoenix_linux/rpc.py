@@ -54,14 +54,23 @@ class LocalAPI:
         c, args = self.controller, {} if args is None else args
         if not isinstance(args, dict):
             raise ValueError('invalid_rpc_arguments')
+        if method in ('auth_status', 'auth_check', 'auth_login', 'auth_logout', 'auth_password'):
+            if not hasattr(self, 'auth'):
+                from .admin_auth import AdminAuth
+                self.auth = AdminAuth(c.vault.path.parent)
+            return self.auth.call(method[5:], args)
         if method == 'health':
             return {'ready': not c.closing, 'release_id': Path(__file__).resolve().parents[4].name}
         if method == 'capabilities':
             from .speedcheck import available
             return {'network_initialized': c.runtime is not None, 'speedtest': c.runtime is not None and available(),
-                    'wifi_provisioning': c.station is not None, 'usb_provisioning': False,
+                    'hotspot_configuration': c.access_point is not None, 'wifi_provisioning': c.station is not None, 'usb_provisioning': False,
                     'firmware_update': c.updates is not None,
                     'exit_ip_verification': c.runtime is not None, 'catalog_test': c.runtime is not None}
+        if method == 'hotspot':
+            return c.hotspot_status()
+        if method == 'save_hotspot':
+            return c.configure_hotspot(args)
         if method == 'speedtest':
             return c.measurement.status()
         if method == 'speedtest_start':
@@ -71,7 +80,10 @@ class LocalAPI:
             return {'accepted': True}
         if method == 'status':
             c.require_runtime()
-            return c.runtime.status()
+            status = c.runtime.status()
+            if c.access_point:
+                status['ap_active'] = c.hotspot_status()['active']
+            return status
         if method == 'policy':
             return c.policy()
         if method == 'save_policy':

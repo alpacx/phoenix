@@ -73,6 +73,23 @@ Un eventuale collegamento A-A richiede ulteriore verifica del cablaggio OTG
 specifico e VBUS; non è autorizzato implicitamente da questo inventario.
 Fonte: https://chromium.googlesource.com/playground/chromium-org-site/+/refs/heads/main/chromium-os/cable-and-adapter-tips-and-tricks/index.md
 
+### Enumerazione fisica con A–A tramite hub — 15 novembre 2026
+
+Utente collega un cavo A–A reperito, modello/cablaggio non documentati.
+Mac IOUSB mostra USB2.0 Hub e OTG Utils; NetworkSetup espone OTG Utils su en10.
+Separatamente l'hub espone USB 10/100 LAN su en7: non confondere le interfacce.
+ROCK identificata via SSH a 192.168.8.171: UDC configured, current_speed
+high-speed, GPIO35 phoenix-usb-source-o output LOW; servizi Phoenix attivi.
+È la prima enumerazione USB fisica confermata in questa sessione.
+
+usb0 sulla ROCK resta DOWN, en10 sul Mac inactive, nessuna lease DHCP.
+Gadget ancora radxa-otgutils; release/applicazione non modificate in questa
+verifica. Nessun trasferimento IP, navigazione, VPN o throughput USB provati.
+High-speed significa link USB 2.0 (480 Mbit/s nominali), non velocità applicativa
+misurata; l'hub osservato è USB2.0, non prova un limite intrinseco della ROCK.
+Il riscontro GPIO non è una misura elettrica né una verifica del bootloader.
+Nessuna modifica al routing/firewall del Mac; evitare reboot con dati inseriti.
+
 ## Stato aggiornato: installato e verificato sul banco
 
 Phoenix 0.1.0-rock1 è installato, con aggiornamento firmato sequenza 1
@@ -250,3 +267,118 @@ Prova API reale dopo deployment, VPN Italy #534 con paese IT fisso:
 442.880.048 byte. Stato finale connesso. Il primo stato pre-update era error;
 riconnessione esplicita della configurazione Italia eseguita e verificata.
 Nessuna misura upload introdotta; prova non certifica throughput forwarding.
+
+
+## 2026-11-15 — Phoenix USB: prova fisica completata sul banco
+
+Release firmata `5-ebf8d0b5e08827d9` (`0.1.0-rock5-usb`); suite Linux sul
+ target: 91 test passati. CDC-ECM, UDC `fe800000.usb` configured/high-speed,
+ `phusb0` 192.168.7.1; Mac `en14` Phoenix USB Ethernet con DHCP 192.168.7.137,
+ router 192.168.7.1 e DNS 103.86.96.100. Hub USB 2.0, alimentazione separata.
+
+- Curl vincolato a en14: example.com HTTPS 200 e IP pubblico 187.13.216.248,
+  uguale alla richiesta ROCK vincolata a phwg0 (NordVPN Italy #510).
+- Disconnessione VPN con riconnessione systemd programmata dopo 15 secondi:
+  richiesta USB con IP destinazione fissato, senza dipendenza DNS, bloccata
+  (curl exit 28, HTTP 000). Dopo riconnessione, IP 187.13.213.223 identico
+  su Mac/en14 e ROCK/phwg0. Nessun fallback diretto configurato.
+- iperf3 locale, quattro flussi, sei secondi, indirizzi USB espliciti:
+  Mac→ROCK 279.06 Mbps ricevuti (298.98 inviati);
+  ROCK→Mac 309.41 Mbps ricevuti (312.97 inviati).
+  Sono misure brevi del percorso USB locale, NON throughput Internet/VPN.
+- Temperatura finale 48.75 °C. Servizi phoenix, phoenix-control e
+  phoenix-usb-gadget active. Server iperf temporaneo terminato con timeout.
+
+Il test non certifica VBUS, comportamento al boot o stabilità prolungata.
+`vbus_verified` resta false: eccezione esplicita di banco root-only in /run,
+valida solo per il boot corrente. Non riavviare con A–A inserito. Al reboot
+il permesso scade e BindsTo blocca il worker finché si ripristina la modalità
+senza USB oppure si prepara nuovamente una sessione di banco autorizzata.
+Backup root-only: /root/phoenix-usb-backup-20261115. Nessuna route o regola
+firewall del Mac è stata impostata manualmente. Il precedente stallo SSH
+è stato recuperato con power cycle a USB scollegata; causa non dimostrata.
+
+## Web USB e password — 2026-11-15
+
+Release firmata 6-df2c19f2b6fd037c ha introdotto listener HTTP/HTTPS vincolati
+a phusb0. Release firmata 7-e5be66d837ffa82f aggiunge login password, primo
+cambio obbligatorio e lockout 3 tentativi/300 secondi. 100 test Linux passati
+sulla ROCK; browser su fixture temporanea e build ESP32 passati. Verificati
+sul target redirect 308, HTTPS 200 con certificato validato, login iniziale,
+policy negata prima del cambio e logout. Nessuna password personale impostata.
+VPN riconnessa dopo update; uscita osservata 187.13.215.138. Dettagli e limiti
+in ../../deploy/USB_ADMIN.md. Permesso VBUS ancora solo per il boot corrente.
+
+## Upload e temperatura — 2026-11-15
+
+Release 8-b9aeb544805ab476: download Serverius seguito da upload Cloudflare
+https://speed.cloudflare.com/__up (endpoint documentato da cloudflare/speedtest).
+Quattro processi curl paralleli, file sintetici sparsi, dimensione adattiva
+256 KiB iniziali fino a 16 MiB; conteggio solo richieste complete HTTP 200.
+Nessun file utente caricato, nessun fallback di interfaccia; metrica conservativa
+che include overhead e scarta richieste parziali alla scadenza.
+Prova VPN Germany #1158: download 285.06 Mbps, upload 73.99 Mbps, 20.21 s,
+361.1 MB ricevuti e 93.2 MB upload confermati, picco 55.6 °C. Server diversi:
+non è una misura del massimo hardware o del collegamento USB.
+
+Release 9-1186e398fc08713b aggiunge temperature_c nello stato e nella pagina
+Sistema (massimo dei sensori thermal disponibili). Verificati 49.4 °C,
+VPN connessa e USB configurata. 103 test Linux e build ESP32 passati.
+
+Durante l'update 8, il browser riattivava il servizio USB via socket e annullava
+lo stop dell'updater: release 7 rimasta attiva, nessuno switch parziale.
+Correzione opt-in /etc/systemd/system/phoenix-update.service.d/usb.conf da
+platforms/linux/deploy/phoenix-update-usb.conf: stop socket/servizi USB prima,
+ripartenza socket dopo. Retry dello stesso stage già verificato, senza abbassare
+sequence né bypassare firma; update 8 e successivo 9 riusciti.
+
+## Hotspot configurabile — 2026-11-15
+
+Release firmata 10-91dfb3026f3ceaba installata; 107 test Linux passati e build
+ESP32 passata senza flash. Rete: enable/disable, SSID e password opzionale
+(vuota conserva la precedente). Stato confermato da control socket hostapd,
+non solo da interfaccia UP. API e persistenza descritte in deploy/HOTSPOT.md.
+
+Verifica fisica mediante API loopback autenticata: hotspot disabilitato,
+USB ancora configurata; hotspot riabilitato mantenendo SSID/password originali.
+Durante avvio radio_state COUNTRY_UPDATE, poi ENABLED. VPN e USB rimaste
+attive, temperatura 48.8 °C. Nessun client associato al momento della lettura;
+visibilità dal telefono ancora da confermare. Non dichiarare risolto un
+problema RF soltanto perché hostapd è ENABLED.
+
+L'utente ha dovuto reinserire il cavo USB durante l'aggiornamento applicativo.
+Registrato come mancato recupero automatico, non attribuito con certezza al
+DHCP. Il cambio delle sole impostazioni AP è stato invece eseguito sulla stessa
+sessione SSH USB senza perdita del collegamento. Non eseguire reboot con A–A.
+
+Target Ethernet osservato ora 192.168.1.28, USB 192.168.7.1; riverificare sempre.
+Driver: bande 2.4/5 GHz; combinazione AP <=1, channels <=1: niente dual-band
+AP simultaneo con questa radio/driver. Hotspot attuale 2.4 GHz canale 6.
+
+Nota diagnostica: hostapd è in PrivateTmp del worker; hostapd_cli lanciato fuori
+namespace può non ricevere risposta. Usare GET /api/v1/hotspot (worker nello
+stesso namespace), non dedurre guasto dal timeout del comando nella shell root.
+
+### Hotspot non visibile dal telefono: indagine RF
+
+Utente conferma rete assente sul telefono anche dopo restart AP. Scansione
+CoreWLAN read-only dal Mac (radio già accesa): 11 reti, Phoenix-Test rilevata
+su canale6 a -90 dBm; BSSID redatto da macOS, quindi identificazione basata
+sul nome, non prova univoca del trasmettitore. Nessuna modifica Wi-Fi del Mac.
+Documentazione ufficiale Radxa indica AW-CM256 con antenna esterna obbligatoria
+per ROCK 4C+: https://wiki.radxa.com/Rockpi4/hardware/models . Chiesto all'utente
+se l'antenna è collegata; assenza/connessione errata è ipotesi coerente col
+segnale debole, non ancora verificata fisicamente. Non dichiarare problema risolto.
+
+Kernel boot log indicava regulatory.db non trovato, ma ora pacchetto e file
+sono presenti. iw reg set IT sul target non ha cambiato il dominio mostrato 00;
+nessun pacchetto/kernel/firmware sostituito. Non attribuire causalità a questo
+messaggio storico. Radio firmware BCM4345/6 7.45.251, brcmfmac/cyfmac43455-sdio.
+
+## Chiusura sessione — 15 novembre 2026
+
+Utente conferma: antenna esterna prima scollegata; dopo collegamento vede
+Phoenix-Test e conferma funzionamento dal telefono. Hotspot verificato quindi
+anche dal client, oltre a hostapd. Lavoro sospeso su richiesta dell’utente;
+commit/push software e checkpoint hardware richiesti. Nessun ulteriore ordine,
+flash o modifica hardware. Resta la qualifica elettrica USB/VBUS e del reboot.

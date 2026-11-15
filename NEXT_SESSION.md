@@ -1,3 +1,12 @@
+## Ripresa CAD dopo commit/push — 15 novembre 2026
+
+Pubblicato fbcb7de su origin/master con alpacx, poi ripristinato Coqoonit.
+Nuovo checkpoint locale pmic-ldo-inputs/pcb/five-volt-testpoint.kicad_pcb:
+ingresso +5V_MAIN del convertitore CPU e TP3 collegati; audit 119 coppie,
+20 test, nessuna nuova violazione DRC. Vedere RESUME.md del checkpoint.
+VDC pin61, restante routing e qualifica elettrica/termica ancora aperti.
+Le sezioni successive descrivono stati precedenti, non il checkpoint attuale.
+
 ## Hardware salvato; passaggio a prova USB ROCK — 15 novembre 2026
 
 Leggere `hardware/phoenix-g1/migration-rk3562/experiments/pmic-ldo-inputs/RESUME.md`.
@@ -742,3 +751,36 @@ JLC C499918 pubblico aggiornato: initialPrice17.7555USD, canPresale997,
 overseas1057; non garanzia stockassemblaggio. PCBtarget85×35 richiede ripiazzamento:
 screening corpi conservativo non trova collocazione eMMC senza conflitti.
 Leggere README esperimento e report prima di integrare. Nessun commit eseguito.
+
+## Checkpoint software USB web/password — 2026-11-15
+
+ROCK release firmata 7-e5be66d837ffa82f; http://192.168.7.1 → HTTPS USB,
+password iniziale phoenix con cambio obbligatorio, lockout 3 errori/5 minuti.
+Dettagli, test e certificato in platforms/linux/deploy/USB_ADMIN.md.
+Nessuna password personale impostata dall’agente; nessun commit/push in questa
+sessione. CAD invariato rispetto al checkpoint precedente. Gate VBUS di banco
+non reso permanente: resta necessaria qualifica elettrica/bootloader.
+
+## Checkpoint finale hotspot — 2026-11-15
+
+ROCK: release 10-91dfb3026f3ceaba, controlli hotspot installati. Off/on verificati
+senza perdere USB/VPN, hostapd ENABLED su Phoenix-Test canale6; ricezione dal
+telefono ancora da confermare. Ether ora 192.168.1.28: non assumere IP storico.
+107 test Linux e build ESP32 passati. Upload release8 verificato viaVPN:
+285.06/73.99 Mbps download/upload su server diversi. Temperatura in Sistema.
+Dettagli BRINGUP.md e deploy/HOTSPOT.md. Nessun commit/push richiesto ora.
+USB durante update non si è ripresa automaticamente per l'utente: reinserimento
+cavo necessario, causa non qualificata. Le modifiche AP non hanno interrotto USB.
+
+Hotspot: telefono ancora non vede la rete. Mac CoreWLAN scan rileva nome
+Phoenix-Test a -90 dBm, canale6 (BSSID redatto). Radxa specifica antenna esterna
+obbligatoria per 4C+; domanda sull'antenna attualmente pendente. Fonte e caveat
+in BRINGUP.md. Priorità verificare antenna prima di altre modifiche software.
+
+## Chiusura sessione — 15 novembre 2026
+
+Utente conferma: antenna esterna prima scollegata; dopo collegamento vede
+Phoenix-Test e conferma funzionamento dal telefono. Hotspot verificato quindi
+anche dal client, oltre a hostapd. Lavoro sospeso su richiesta dell’utente;
+commit/push software e checkpoint hardware richiesti. Nessun ulteriore ordine,
+flash o modifica hardware. Resta la qualifica elettrica USB/VBUS e del reboot.

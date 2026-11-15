@@ -67,3 +67,25 @@ Gadget ECM/NCM e DHCP implementati come provisioning target opt-in, senza nuova
 API remota per configfs/VBUS. Le policy `ingress=usb` e il routing VPN esistenti
 sono riutilizzati. Accesso web ancora HTTPS loopback/SSH. Nessuna prova fisica
 USB/macOS o velocità dichiarata; vedere `deploy/USB_ETHERNET.md`.
+
+## Login password HTTPS Linux (2026-11-15)
+
+GET /api/v1/auth/status; POST /api/v1/auth/login {password},
+/auth/password {current_password,new_password}, /auth/logout {}. POST richiede
+Origin HTTPS esatto; cookie Secure/HttpOnly/Strict. Errori password: 401;
+lockout: 429 con retry_after e Retry-After. Sessione iniziale limitata al cambio.
+Token tecnico solo loopback; ESP32 conserva autenticazione Bearer preesistente.
+Vedere deploy/USB_ADMIN.md.
+
+## Hotspot Linux (2026-11-15)
+
+Capability hotspot_configuration; GET/POST /api/v1/hotspot. POST enabled, ssid,
+password (vuota conserva). Stato desiderato separato da active/radio_state;
+password mai restituita. Gestione serializzata, rollback su errore e file
+privato persistente. USB non riavviata per modifiche AP. ESP32 non espone
+queste API: controlli nascosti per capability. Vedere deploy/HOTSPOT.md.
+
+Status opzionale Linux temperature_c (massimo sensori interni, null se assente).
+Speedtest: download_mbps e upload_mbps da server distinti; upload_error separato
+per preservare un download valido in caso di upload indisponibile. Nessuna
+misura ping, nessun fallback di percorso. Dati sintetici soltanto in upload.

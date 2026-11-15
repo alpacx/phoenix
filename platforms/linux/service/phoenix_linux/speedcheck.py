@@ -1,4 +1,4 @@
-"""Native HTTPS download benchmark; no automatic interface or server fallback."""
+"""Native HTTPS download and upload benchmark; no automatic interface or server fallback."""
 import math
 from pathlib import Path
 import shutil
@@ -69,7 +69,7 @@ class Measurement:
             self.started = time.monotonic()
             self.value = {'state': 'running', 'mode': mode, 'destination': destination,
                           'server': 'Serverius DC3 · HTTPS', 'engine': 'curl-native',
-                          'started_at': int(time.time()), 'elapsed_seconds': 0}
+                          'started_at': int(time.time()), 'elapsed_seconds': 0, 'phase': 'download'}
 
     def cancel(self):
         self.stop.set()
@@ -123,6 +123,19 @@ class Measurement:
                         output.seek(0)
                         samples.append((process.returncode, output.read(1024).decode('ascii')))
                     result = sanitize(samples, elapsed)
+                    with self.lock:
+                        self.value.update(result, phase='upload')
+                    from .uploadcheck import run as upload
+                    uploaded = upload(curl, name, self.stop, temperatures)
+                    upload_peak = uploaded.pop('upload_peak_c')
+                    if upload_peak is not None:
+                        peak = max(peak if peak is not None else upload_peak, upload_peak)
+                    result.update(uploaded)
+                    result['download_seconds'] = result['measurement_seconds']
+                    result['measurement_seconds'] = round(elapsed + uploaded['upload_seconds'], 2)
+                    result['metric'] = 'https_download_upload'
+                    if uploaded['upload_error'] in ('cancelled', 'temperature_limit'):
+                        error = uploaded['upload_error']
         except Exception:
             error = 'measurement_failed'
         finally:

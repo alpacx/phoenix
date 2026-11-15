@@ -43,7 +43,7 @@ class ContractTests(unittest.TestCase):
         esp = '\n'.join(p.read_text() for p in (ROOT/'platforms/esp32/main').iterdir() if p.suffix in ('.inc','.c'))
         esp = esp.replace('\\"', '"')
         # Explicit optional fields are Linux-only capability refinements.
-        optional = {'malformed_counter_available'}
+        optional = {'malformed_counter_available', 'temperature_c'}
         for field in status_fields - optional:
             self.assertIn('"'+field+'"',esp)
         for field in vpn_fields:

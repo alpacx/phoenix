@@ -1,4 +1,29 @@
-# USB Ethernet — implementazione offline, prova ROCK ancora necessaria
+# USB Ethernet — prova fisica ROCK 4C+ e limiti di banco
+
+Aggiornamento banco 2026-11-15: il gadget Radxa preesistente è stato enumerato
+dal Mac attraverso hub USB2/A–A. La sostituzione con Phoenix ha evidenziato
+incompatibilità reali corrette nel codice: `ifname` richiede un template `%d`
+(si configura `phusb0`, il programma scrive `phusb%d` e verifica il nome
+allocato); l'unbind di un gadget mai associato restituisce ENODEV e va evitato.
+La successiva attivazione Phoenix ha verificato DHCP, HTTPS via USB e uscita
+NordVPN, incluso blocco senza tunnel e riconnessione automatica. Vedere
+BRINGUP.md della ROCK per misure e limiti.
+
+## Eccezione esplicita di banco, senza misura VBUS
+
+Non equivale a `vbus_verified`. Solo per la ROCK 4C+ di questo banco, con
+accettazione esplicita del rischio residuo da parte dell'operatore:
+`bench_unmeasured_vbus: true` consente l'avvio soltanto se il file regolare
+root-only `/run/phoenix-usb-bench.json` contiene il boot_id corrente, la UDC
+fe800000.usb e `acknowledge_unmeasured_vbus: true`. Il codice controlla modello,
+nodo vbus-typec disabled e GPIO35 `phoenix-usb-source-off` output LOW.
+Nessun file di autorizzazione viene creato automaticamente. Il permesso scade
+al reboot e `vbus_verified` resta false. Non prova la tensione al connettore,
+né il comportamento del bootloader. Non riavviare con il cavo dati inserito.
+La dipendenza BindsTo impedisce al worker di partire se il gadget fallisce;
+per ripristinare il servizio senza USB, fermare il worker, ripristinare la
+configurazione precedente e rimuovere il solo drop-in USB, quindi ricaricare
+systemd e riavviare i servizi. Non modificare il firewall del Mac.
 
 Phoenix può creare un gadget configfs con una sola funzione **CDC-ECM oppure
 CDC-NCM**, quindi gestire DHCP sulla rete USB `192.168.7.0/24`. La rete usa le
@@ -6,10 +31,9 @@ stesse policy USB, NAT, port forwarding, blocco iniziale e WireGuard del backend
 Linux. Il Wi-Fi STA può essere l'uplink in alternativa all'Ethernet; il servizio
 USB non dipende dall'AP e resta distinto dal cambio AP/STA.
 
-Non è stato verificato il riconoscimento da macOS, il kernel della ROCK, il
-ruolo OTG, il cablaggio o il VBUS. Non è stata misurata velocità USB. Il descrittore
-è conservativo USB 2.0; non costituisce una promessa di link SuperSpeed. La
-versione/velocità effettiva va controllata sul banco prima di ottimizzarla.
+Sul banco ROCK 4C+ è stato verificato CDC-ECM su macOS con link high-speed
+attraverso hub USB 2.0. Il VBUS non è stato misurato e NCM/SuperSpeed non sono
+qualificati. Il descrittore è conservativo USB 2.0; non promette SuperSpeed.
 
 ## Separazione dei privilegi
 
@@ -85,7 +109,12 @@ After=phoenix-usb-gadget.service
    partire il gadget prima del DHCP. Fermare il worker prima di rimuovere il
    drop-in o disabilitare USB. Nessuna di queste azioni è stata eseguita offline.
 
-## Prova con il Mac
+## Pannello diretto e prova con il Mac
+
+Per l’installazione USB attuale aprire **http://192.168.7.1**, con redirect
+HTTPS e login password. Vedere [USB_ADMIN.md](USB_ADMIN.md). Il tunnel SSH
+sotto resta un’alternativa di manutenzione per deployment precedenti.
+
 
 Dopo la connessione sicura del cavo, verificare che il Mac riceva un indirizzo
 `192.168.7.20–200`, router `192.168.7.1`. Per il pannello resta il deployment

@@ -52,7 +52,9 @@ class AccessPoint:
         return bool(v4)
 
     def render_configs(self, dns):
-        return render(self.name, self.ssid, self.password, self.country, dns)
+        configs = render(self.name, self.ssid, self.password, self.country, dns)
+        configs['hostapd.conf'] += 'ignore_broadcast_ssid=0\nctrl_interface=' + str(self.directory / 'control') + '\n'
+        return configs
 
     def daemon_commands(self):
         return [['hostapd', str(self.directory / 'hostapd.conf')],
@@ -108,6 +110,20 @@ class AccessPoint:
                 process.wait(timeout=3)
             self.spawn(['dnsmasq', '--no-daemon', '--conf-file=' + str(self.directory / 'dnsmasq.conf')])
         self.dns = dns
+
+    def radio_status(self):
+        if not self.active:
+            return {'state': 'DISABLED', 'clients': 0}
+        try:
+            if not self.which('hostapd_cli'):
+                return {'state': 'UNKNOWN', 'clients': None}
+            output = self.run(['hostapd_cli', '-p', str(self.directory / 'control'),
+                               '-i', self.name, 'status']).stdout
+            fields = dict(line.split('=', 1) for line in output.splitlines() if '=' in line)
+            return {'state': fields.get('state', 'UNKNOWN'),
+                    'clients': int(fields['num_sta[0]']) if 'num_sta[0]' in fields else None}
+        except Exception:
+            return {'state': 'UNKNOWN', 'clients': None}
 
     def healthy(self):
         return self.active and len(self.processes) == len(self.daemon_commands()) and all(process.poll() is None for process in self.processes)

@@ -131,6 +131,8 @@ class Runtime:
         return False
 
     def status(self):
+        from .speedcheck import temperatures
+        thermal = temperatures()
         links = json.loads(self.run(['ip', '-j', 'address', 'show']).stdout)
         by_name = {item['ifname']: item for item in links}
         def link(role):
@@ -161,6 +163,7 @@ class Runtime:
                 'vpn_up': self.handshake(), 'direct': self.mode == 'direct',
                 'allowed': counts['accept'], 'blocked': counts['drop'], 'malformed': 0,
                 'heap_free': memory.get('MemAvailable', 0),
+                'temperature_c': round(max(thermal), 1) if thermal else None,
                 'uptime_ms': int(float(Path('/proc/uptime').read_text().split()[0]) * 1000),
                 'firewall_enforced': self.enforced, 'counter_scope': 'current_nft_ruleset',
                 'malformed_counter_available': False}

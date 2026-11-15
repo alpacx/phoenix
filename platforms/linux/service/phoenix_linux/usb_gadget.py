@@ -30,6 +30,8 @@ def settings(config):
     if result['udc'] in ('.', '..'):
         raise ValueError('invalid_usb_udc')
     result['interface'] = interface(config['interfaces']['usb'])
+    if not re.fullmatch(r'[A-Za-z][A-Za-z_.-]*0', result['interface']):
+        raise ValueError('usb_interface_must_end_in_zero')
     if result['interface'] in [config['interfaces'][k] for k in ('uplink', 'ap', 'vpn')]:
         raise ValueError('usb_interface_role_conflict')
     return result
@@ -57,14 +59,16 @@ class Gadget:
         (self.path / relative).rmdir()
 
     def start(self):
-        if self.options.get('vbus_verified') is not True:
+        from .usb_bench import authorized
+        if self.options.get('vbus_verified') is not True and not authorized(self.options):
             raise ValueError('usb_vbus_not_verified')
         if not self.root.is_dir() or not (self.udcs / self.options['udc']).is_dir():
             raise ValueError('usb_configfs_or_udc_unavailable')
         # Do not adopt Radxa's gadget (which may include ADB), or silently replace ours.
         if self.path.exists() or self.path.is_symlink():
             raise ValueError('usb_gadget_already_exists')
-        if (self.net / self.options['interface']).exists():
+        prefix = self.options['interface'][:-1]
+        if any(re.fullmatch(re.escape(prefix) + r'\d+', entry.name) for entry in self.net.iterdir()):
             raise ValueError('usb_interface_already_exists')
         for other in self.root.iterdir():
             binding = other / 'UDC'
@@ -86,14 +90,20 @@ class Gadget:
             self.write('configs/c.1/bmAttributes', '0xc0')
             self.write('configs/c.1/MaxPower', '0')
             dev, host = macs(self.options['serial'])
-            for key, val in [('dev_addr', dev), ('host_addr', host), ('ifname', self.options['interface'])]:
+            # gether_set_ifname requires one %d, not an already numbered name.
+            for key, val in [('dev_addr', dev), ('host_addr', host), ('ifname', prefix + '%d')]:
                 self.write('functions/' + self.function + '/' + key, val)
             (self.path / 'configs/c.1' / self.function).symlink_to(self.path / 'functions' / self.function)
             linked = True
             # Binding is deliberately last; failures must not expose a partial gadget.
             self.write('UDC', self.options['udc'])
+            if (self.path / 'functions' / self.function / 'ifname').read_text().strip() != self.options['interface']:
+                raise ValueError('usb_allocated_interface_mismatch')
         except Exception:
-            self.write('UDC', '')
+            # Linux returns ENODEV when unbinding a gadget never bound.
+            binding = self.path / 'UDC'
+            if binding.exists() and binding.read_text().strip():
+                self.write('UDC', '')
             if linked:
                 (self.path / 'configs/c.1' / self.function).unlink()
             for directory in reversed(created):
@@ -117,7 +127,8 @@ class Gadget:
         link = self.path / 'configs/c.1' / self.function
         if not link.is_symlink() or link.resolve() != (self.path / 'functions' / self.function).resolve():
             raise ValueError('usb_gadget_link_changed')
-        self.write('UDC', '')
+        if (self.path / 'UDC').read_text().strip():
+            self.write('UDC', '')
         (self.path / 'configs/c.1' / self.function).unlink()
         for directory in ('configs/c.1/strings/0x409', 'configs/c.1', 'functions/' + self.function, 'strings/0x409', ''):
             self.rmdir(directory)

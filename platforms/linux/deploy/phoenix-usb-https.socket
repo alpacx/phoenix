@@ -1,0 +1,11 @@
+[Unit]
+Description=Phoenix USB administration HTTPS listener
+
+[Socket]
+ListenStream=192.168.7.1:443
+BindToDevice=phusb0
+FreeBind=yes
+NoDelay=true
+
+[Install]
+WantedBy=sockets.target

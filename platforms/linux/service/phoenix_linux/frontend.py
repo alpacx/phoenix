@@ -1,4 +1,4 @@
-"""Unprivileged, loopback-only HTTPS administration frontend."""
+"""Unprivileged HTTPS: loopback default, explicit device-bound socket opt-in."""
 import argparse
 from http.server import HTTPServer
 import os
@@ -25,6 +25,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--socket', default='/run/phoenix-control/control.sock')
     parser.add_argument('--port', type=int, default=8443)
+    parser.add_argument('--usb-socket', action='store_true')
     parser.add_argument('--token-file', required=True)
     parser.add_argument('--tls-cert', required=True)
     parser.add_argument('--tls-key', required=True)
@@ -37,7 +38,14 @@ def main():
     context = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
     context.minimum_version = ssl.TLSVersion.TLSv1_2
     context.load_cert_chain(args.tls_cert, args.tls_key)
-    server = TLSHTTPServer(('127.0.0.1', args.port), handler(RemoteAPI(args.socket), token))
+    if args.usb_socket:
+        from .usb_admin import activated_server
+        server = activated_server(TLSHTTPServer, handler(RemoteAPI(args.socket), token), 443)
+        server.authority = '192.168.7.1'
+    else:
+        server = TLSHTTPServer(('127.0.0.1', args.port), handler(RemoteAPI(args.socket), token))
+    server.password_auth = True
+    server.allow_bearer = not args.usb_socket
     server.tls = True
     server.context = context
     def terminate(*_):

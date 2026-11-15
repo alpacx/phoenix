@@ -21,6 +21,9 @@ class FakeConfigfs(Gadget):
         if self.fail_binding and path == 'UDC' and value:
             raise OSError('simulated bind failure')
         super().write(path, value)
+        if path == 'UDC' and value:
+            name = self.path / 'functions' / self.function / 'ifname'
+            name.write_text(name.read_text().replace('%d', '0'))
     def rmdir(self, path):
         directory = self.path / path
         for entry in directory.iterdir():
@@ -103,3 +106,26 @@ class GadgetTests(unittest.TestCase):
         self.assertNotEqual(dev, host)
         self.assertEqual(macs('test-device'), (dev, host))
         for value in (dev, host):self.assertEqual(int(value[:2], 16) & 3, 2)
+
+    def test_kernel_name_template_and_prefix_collision(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            g = self.make(tmp)
+            (g.net / 'phusb1').mkdir()
+            with self.assertRaisesRegex(ValueError, 'interface_already_exists'):g.start()
+            self.assertFalse(g.path.exists())
+            (g.net / 'phusb1').rmdir()
+            g.start()
+            self.assertIn(('functions/ncm.usb0/ifname', 'phusb%d'), g.writes)
+            g.stop()
+
+    def test_failure_before_binding_does_not_unbind(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            g = self.make(tmp)
+            write = g.write
+            def fail(path, value):
+                if path.endswith('/ifname'):raise OSError('invalid name')
+                write(path, value)
+            g.write = fail
+            with self.assertRaisesRegex(OSError, 'invalid name'):g.start()
+            self.assertFalse(g.path.exists())
+            self.assertNotIn(('UDC', ''), g.writes)

@@ -30,6 +30,9 @@ class Controller:
         self.history = History(self.store)
         self.countries = countries
         self.runtime = runtime
+        self.hotspot_enabled = True
+        self.hotspot_vault = Vault(directory)
+        self.hotspot_vault.path = self.vault.path.parent / "hotspot-private.json"
         self.access_point = None
         self.usb_lan = None
         self.station = None
@@ -53,6 +56,55 @@ class Controller:
         # Reboot always starts blocked; explicit connect restores the saved profile.
         if runtime:
             runtime.block(self.policy())
+
+    def hotspot_status(self):
+        ap = self.access_point
+        radio = ap.radio_status() if ap else {'state': 'DISABLED', 'clients': 0}
+        return {'available': ap is not None, 'enabled': bool(ap and self.hotspot_enabled),
+                'active': bool(ap and ap.healthy() and radio['state'] == 'ENABLED'),
+                'radio_state': radio['state'], 'clients': radio['clients'], 'ssid': ap.ssid if ap else '',
+                'password_configured': bool(ap and ap.password), 'suspended': self.ap_suspended}
+
+    def configure_hotspot(self, body):
+        from .access_point import render
+        if not self.lock.acquire(blocking=False):
+            raise RevisionConflict('command_in_progress')
+        try:
+            ap = self.access_point
+            if not ap:
+                raise Unavailable('hotspot_unavailable')
+            if self.busy or self.closing or self.updating:
+                raise RevisionConflict('command_in_progress')
+            if not isinstance(body, dict) or set(body) - {'enabled', 'ssid', 'password'}:
+                raise ValueError('invalid_hotspot_configuration')
+            enabled = body['enabled']
+            boolean(enabled)
+            ssid = body['ssid']
+            password = body.get('password', '')
+            if not isinstance(password, str):
+                raise ValueError('invalid_wifi_password')
+            password = password or ap.password
+            render(ap.name, ssid, password, ap.country, ap.dns)
+            if enabled and self.ap_suspended:
+                raise ValueError('hotspot_conflicts_with_wifi_uplink')
+            previous = (ap.ssid, ap.password, self.hotspot_enabled, ap.active)
+            try:
+                if ap.active:
+                    ap.stop()
+                ap.ssid, ap.password = ssid, password
+                if enabled:
+                    ap.start()
+                self.hotspot_vault.save({'enabled': enabled, 'ssid': ssid, 'password': password})
+                self.hotspot_enabled = enabled
+            except Exception:
+                ap.stop()
+                ap.ssid, ap.password, self.hotspot_enabled, active = previous
+                if active:
+                    ap.start()
+                raise
+            return self.hotspot_status()
+        finally:
+            self.lock.release()
 
     def validate_command(self, body):
         if not isinstance(body, dict):
@@ -256,7 +308,7 @@ class Controller:
             if self.station:
                 self.station.disconnect()
             self.runtime.select_uplink(self.policy(), self.runtime.ethernet_name, 'ethernet', ap_name=self.base_ap)
-            if self.ap_suspended and self.access_point:
+            if self.ap_suspended and self.access_point and self.hotspot_enabled:
                 self.runtime.run(['nmcli', 'device', 'set', self.station.name, 'managed', 'no'])
                 self.access_point.start()
             self.ap_suspended = False
@@ -333,7 +385,7 @@ class Controller:
                     self.error = 'usb_dhcp_service_failed'
                     self.runtime.block(self.policy())
                     return
-                if self.access_point and not self.ap_suspended and not self.access_point.healthy():
+                if self.access_point and self.hotspot_enabled and not self.ap_suspended and not self.access_point.healthy():
                     self.want_connected = self.enabled = False
                     self.retry_at = None
                     self.error = 'ap_service_failed'

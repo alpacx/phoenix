@@ -1,0 +1,21 @@
+{
+  "status": "FIVE_VOLT_TESTPOINT_CONNECTED",
+  "sha256": "f190cccb41316252dd914775db16d4c3fc46737564beff8728ea24a00eb9bb52",
+  "source_sha256": "bda7eb16100099ddeeec7ed4d7ac52742c081c590907b7731c8468e8868d3816",
+  "checks": [
+    {
+      "from": "TP3.1",
+      "to": "C1203.1",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 4784,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 4,
+    "existing_connected_pad_groups_preserved": 55
+  }
+}
