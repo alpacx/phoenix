@@ -1,0 +1,21 @@
+{
+  "status": "DISPLAY_LED_FEED_CONNECTED",
+  "sha256": "4407fda7d736500006d505e8061710eef6fc719e39c2c87493ce76ed3cf52184",
+  "source_sha256": "f190cccb41316252dd914775db16d4c3fc46737564beff8728ea24a00eb9bb52",
+  "checks": [
+    {
+      "from": "R1803.1",
+      "to": "C1801.1",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 4788,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 12,
+    "existing_connected_pad_groups_preserved": 55
+  }
+}

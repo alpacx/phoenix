@@ -1,0 +1,66 @@
+{
+  "status": "DISPLAY_INPUT_RETURNS_CONNECTED",
+  "sha256": "e051d5607065ddb3b52abca12f4b38eaa85ffdedb409aeb32359e6508a39685c",
+  "source_sha256": "3e58f1f3283f109aa35ca85244c5cfdefde81ea07441d836ba09e63797f56ae2",
+  "checks": [
+    {
+      "from": "U21.1",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "U21.7",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "U21.8",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "U21.9",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "U21.10",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "R1811.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "R1812.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "R1813.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "R1814.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "R1815.2",
+      "to": "U20.3",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5125,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 50,
+    "existing_connected_pad_groups_preserved": 60
+  }
+}

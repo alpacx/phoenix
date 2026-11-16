@@ -1,0 +1,10 @@
+{
+  "status": "SUPERSEDED_TRIALS_NOT_CHECKPOINT",
+  "decisions": [
+    "Ground-only candidate passed geometric checks but was superseded by joint resistor placement and ground routing.",
+    "Fixed staggered input resistor placements conflicted with existing 3 V feed and nearby courtyards; not promoted.",
+    "Signal-only free placement could trap a resistor ground return. Accepted search checks signal and ground escape jointly.",
+    "Previous front 3 V feed is explicitly replaced, with existing pad connectivity preserved."
+  ],
+  "assembly_ready": false
+}

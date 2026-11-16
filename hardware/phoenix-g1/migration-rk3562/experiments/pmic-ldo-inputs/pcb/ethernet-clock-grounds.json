@@ -1,0 +1,26 @@
+{
+  "status": "ETHERNET_CLOCK_GROUNDS_CONNECTED",
+  "sha256": "c17a7a4416d209ca3f0da034a114df5fa9330abea1be82e7313ab74e54d32972",
+  "source_sha256": "5640981d355d7f7bd6a580c1585ed7b2aa41ae904dbb70e421b6ae9f0f8bace4",
+  "checks": [
+    {
+      "from": "Y501.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "Y501.4",
+      "to": "U20.2",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5493,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 5,
+    "existing_connected_pad_groups_preserved": 65
+  }
+}

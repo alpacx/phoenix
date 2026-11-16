@@ -1,0 +1,94 @@
+{
+  "status": "INCOMPLETE_DISPLAY_INTEGRATION",
+  "board_sha256": "7a0dfbdfdec87b1aab4f2d4c443746cae4ca4e5724621e6291a8d7c6f26de0fb",
+  "expected_pad_count": 67,
+  "missing_pads": [
+    {
+      "ref": "DS1",
+      "pin": "1",
+      "pin_name": "NC",
+      "net": null
+    },
+    {
+      "ref": "DS1",
+      "pin": "2",
+      "pin_name": "NC",
+      "net": null
+    },
+    {
+      "ref": "DS1",
+      "pin": "3",
+      "pin_name": "SDA",
+      "net": "LCD_DIN_3V"
+    },
+    {
+      "ref": "DS1",
+      "pin": "4",
+      "pin_name": "SCL",
+      "net": "LCD_CLK_3V"
+    },
+    {
+      "ref": "DS1",
+      "pin": "5",
+      "pin_name": "RS",
+      "net": "LCD_DC_3V"
+    },
+    {
+      "ref": "DS1",
+      "pin": "6",
+      "pin_name": "RESET_N",
+      "net": "LCD_RST_3V"
+    },
+    {
+      "ref": "DS1",
+      "pin": "7",
+      "pin_name": "CS_N",
+      "net": "LCD_CS_3V"
+    },
+    {
+      "ref": "DS1",
+      "pin": "8",
+      "pin_name": "GND",
+      "net": "GND"
+    },
+    {
+      "ref": "DS1",
+      "pin": "9",
+      "pin_name": "NC",
+      "net": null
+    },
+    {
+      "ref": "DS1",
+      "pin": "10",
+      "pin_name": "VDD",
+      "net": "+3V0_LCD"
+    },
+    {
+      "ref": "DS1",
+      "pin": "11",
+      "pin_name": "LEDK",
+      "net": "LCD_LEDK"
+    },
+    {
+      "ref": "DS1",
+      "pin": "12",
+      "pin_name": "LEDA",
+      "net": "LCD_LEDA"
+    },
+    {
+      "ref": "DS1",
+      "pin": "13",
+      "pin_name": "GND",
+      "net": "GND"
+    }
+  ],
+  "net_mismatches": [],
+  "disconnected_groups_within_display_contract": {},
+  "limitations": [
+    "Single present pad on a net does not establish a complete circuit.",
+    "This contract inventory excludes upstream rail qualification and CPU endpoints not in the display contracts.",
+    "DS1 footprint, flex attachment, mechanical fit and panel datasheet qualification remain necessary.",
+    "No electrical simulation, thermal validation or physical operation is implied."
+  ],
+  "assembly_ready": false
+}

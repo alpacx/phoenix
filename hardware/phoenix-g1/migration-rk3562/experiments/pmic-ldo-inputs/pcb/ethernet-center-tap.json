@@ -1,0 +1,26 @@
+{
+  "status": "ETHERNET_CENTER_TAP_CONNECTED",
+  "sha256": "c5bb7483ebbdaa03c6ce98c6b2a481899496dc04ffafa0113486d36553d61899",
+  "source_sha256": "e793e79d59103345db2b69f4ea3752bb1d9b59d039e0cd2b511cd5ee68691981",
+  "checks": [
+    {
+      "from": "J2.P1",
+      "to": "C531.1",
+      "connected": true
+    },
+    {
+      "from": "C531.2",
+      "to": "U20.2",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5380,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 35,
+    "existing_connected_pad_groups_preserved": 62
+  }
+}

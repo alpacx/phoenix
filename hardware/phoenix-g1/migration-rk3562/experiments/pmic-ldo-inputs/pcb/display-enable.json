@@ -1,0 +1,21 @@
+{
+  "status": "DISPLAY_ENABLE_CONNECTED",
+  "sha256": "2f14c2f641acf3d4cd88cf866ce96475ca53d9beea6a76d54eea7b0a1d2d3b91",
+  "source_sha256": "4407fda7d736500006d505e8061710eef6fc719e39c2c87493ce76ed3cf52184",
+  "checks": [
+    {
+      "from": "U20.3",
+      "to": "U4.55",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 4800,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 12,
+    "existing_connected_pad_groups_preserved": 55
+  }
+}

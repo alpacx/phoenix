@@ -1,0 +1,26 @@
+{
+  "status": "DISPLAY_IO_BLEED_CONNECTED",
+  "sha256": "f3b7218e8c142394a8045e79a456bb539751f66a570001998f4eca828a02e228",
+  "source_sha256": "57e90c49eeb4e380c4965fc6281633709e81c81e064d8fa28e17c3fd9e051d9d",
+  "checks": [
+    {
+      "from": "R1804.1",
+      "to": "U20.3",
+      "connected": true
+    },
+    {
+      "from": "R1804.2",
+      "to": "U20.2",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5180,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 26,
+    "existing_connected_pad_groups_preserved": 60
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "status": "ETHERNET_BIAS_GROUNDS_CONNECTED",
+  "sha256": "f0d6875bf4415b4e6093117bb01f6f06b9e030c66c7fa066c0a0b6c9cc7e142d",
+  "source_sha256": "c5bb7483ebbdaa03c6ce98c6b2a481899496dc04ffafa0113486d36553d61899",
+  "checks": [
+    {
+      "from": "R513.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "R528.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "R529.2",
+      "to": "U20.2",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5415,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 11,
+    "existing_connected_pad_groups_preserved": 63
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "status": "DISPLAY_RESERVOIR_CONNECTED",
+  "sha256": "57e90c49eeb4e380c4965fc6281633709e81c81e064d8fa28e17c3fd9e051d9d",
+  "source_sha256": "e051d5607065ddb3b52abca12f4b38eaa85ffdedb409aeb32359e6508a39685c",
+  "checks": [
+    {
+      "from": "C1812.1",
+      "to": "U20.5",
+      "connected": true
+    },
+    {
+      "from": "C1812.2",
+      "to": "U20.2",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5175,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 5,
+    "existing_connected_pad_groups_preserved": 60
+  }
+}

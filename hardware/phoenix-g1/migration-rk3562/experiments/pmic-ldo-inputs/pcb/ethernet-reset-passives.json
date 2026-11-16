@@ -1,0 +1,36 @@
+{
+  "status": "ETHERNET_RESET_PASSIVES_CONNECTED",
+  "sha256": "3dec31ccc17a842c131395333d996af65e2ed210ed8be52b870ffd2e578c2107",
+  "source_sha256": "a04639dbc388022e171541d73da744ec3e7b736660f534e86ac323c870157615",
+  "checks": [
+    {
+      "from": "R515.2",
+      "to": "R516.1",
+      "connected": true
+    },
+    {
+      "from": "R516.1",
+      "to": "C501.1",
+      "connected": true
+    },
+    {
+      "from": "R516.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "C501.2",
+      "to": "U20.2",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5242,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 126,
+    "existing_connected_pad_groups_preserved": 61
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "status": "NOT_ADOPTED_NO_LEGAL_ESCAPE",
+  "source_sha256": "7a0dfbdfdec87b1aab4f2d4c443746cae4ca4e5724621e6291a8d7c6f26de0fb",
+  "trial_R513_center_mm": [
+    59.1,
+    35.7
+  ],
+  "trial_front_escape_mm": [
+    60,
+    32.4
+  ],
+  "existing_bias_copper_removed_in_memory": 5,
+  "reason": "No planar route and no legal through-via reachable within the bounded front escape search at U5.39; 12 candidate via positions at resistor end.",
+  "accepted_board_unchanged": true,
+  "rules_changed_in_accepted_board": false,
+  "note": "R513 retains its existing position and ground connection. Trial script discarded; no incomplete PCB promoted."
+}

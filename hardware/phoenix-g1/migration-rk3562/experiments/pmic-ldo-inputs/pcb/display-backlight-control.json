@@ -1,0 +1,36 @@
+{
+  "status": "DISPLAY_BACKLIGHT_CONTROL_CONNECTED",
+  "sha256": "a04639dbc388022e171541d73da744ec3e7b736660f534e86ac323c870157615",
+  "source_sha256": "f3b7218e8c142394a8045e79a456bb539751f66a570001998f4eca828a02e228",
+  "checks": [
+    {
+      "from": "R1801.2",
+      "to": "Q1.1",
+      "connected": true
+    },
+    {
+      "from": "R1802.1",
+      "to": "Q1.1",
+      "connected": true
+    },
+    {
+      "from": "R1802.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "Q1.2",
+      "to": "U20.2",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5206,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 36,
+    "existing_connected_pad_groups_preserved": 60
+  }
+}

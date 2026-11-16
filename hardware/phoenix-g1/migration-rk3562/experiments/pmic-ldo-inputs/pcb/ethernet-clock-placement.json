@@ -1,0 +1,58 @@
+{
+  "status": "ETHERNET_CLOCK_PLACEMENT_CONNECTED",
+  "sha256": "5640981d355d7f7bd6a580c1585ed7b2aa41ae904dbb70e421b6ae9f0f8bace4",
+  "source_sha256": "f0d6875bf4415b4e6093117bb01f6f06b9e030c66c7fa066c0a0b6c9cc7e142d",
+  "checks": [
+    {
+      "from": "C520.1",
+      "to": "Y501.1",
+      "connected": true
+    },
+    {
+      "from": "C521.1",
+      "to": "Y501.3",
+      "connected": true
+    },
+    {
+      "from": "C520.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "C521.2",
+      "to": "U20.2",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "assembly_ready": false,
+  "moved_refs_mm": {
+    "L501": [
+      64.5,
+      29
+    ],
+    "Y501": [
+      57.5,
+      31.9
+    ],
+    "C520": [
+      58.5,
+      29.5
+    ],
+    "C521": [
+      56.5,
+      34.25
+    ]
+  },
+  "limitations": [
+    "L501 moved to back side; switching-loop, via current and power layout not qualified.",
+    "Crystal loading, drive, frequency and PHY clock-pin connections remain unqualified."
+  ],
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5426,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 67,
+    "existing_connected_pad_groups_preserved": 63
+  }
+}

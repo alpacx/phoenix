@@ -1,0 +1,36 @@
+{
+  "status": "HOLD_PANEL_ATTACHMENT_QUALIFICATION",
+  "part": "N096-1608TBBIG11-H13",
+  "jlc": "C2890616",
+  "source_pdf": "../../../../reference/display-C2890616.pdf",
+  "source_sha256": "743970823ff9b9faa8b275daa9ba24401a5fd24956549c8709d8d2163b9a9ef1",
+  "reviewed_pages": {
+    "5": "Mechanical drawing visually inspected",
+    "6": "Interface table extracted",
+    "7": "Electrical limits extracted"
+  },
+  "documented": {
+    "contacts": 13,
+    "pitch_mm": 0.7,
+    "pitch_tolerance_mm": 0.04,
+    "contact_width_mm": 0.35,
+    "contact_width_tolerance_mm": 0.04,
+    "flex_thickness_mm": 0.13,
+    "flex_thickness_tolerance_mm": 0.03,
+    "tail_width_mm": 12.4,
+    "tail_width_tolerance_mm": 0.2,
+    "separate_led_cathode": true,
+    "interface_description": "FPC connector"
+  },
+  "missing_for_release": [
+    "Mating connector part number and required FPC retention/contact arrangement, or explicit direct-bond process approval.",
+    "Guaranteed pad-position tolerance across the contact array; do not assume independent pitch tolerance is a registration tolerance.",
+    "Approved solder/bond temperature, dwell and pressure for this flex and LED/glass assembly.",
+    "Confirmed contact-side orientation and pin-one registration in the assembled stack.",
+    "Minimum bend radius, strain relief and allowed mechanical attachment/support.",
+    "Relationship of VDD and VDDIO: only VDD is exposed in the pin list while electrical table lists both supplies."
+  ],
+  "decision": "Keep the current electrical architecture provisional. Do not insert an assumed connector or a production-marked solder footprint just to clear the 13 missing pads. Prepare a manufacturer question list; continue independent circuit/layout work.",
+  "electrical_qualified": false,
+  "assembly_ready": false
+}

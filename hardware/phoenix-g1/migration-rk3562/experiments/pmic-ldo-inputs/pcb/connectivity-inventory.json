@@ -1,9 +1,9 @@
 {
   "status": "PAD_CONNECTIVITY_INVENTORY_NOT_ELECTRICAL_QUALIFICATION",
-  "source_sha256": "f190cccb41316252dd914775db16d4c3fc46737564beff8728ea24a00eb9bb52",
+  "source_sha256": "7a0dfbdfdec87b1aab4f2d4c443746cae4ca4e5724621e6291a8d7c6f26de0fb",
   "nets_total": 285,
   "multi_pad_nets": 278,
-  "open_multi_pad_nets": 233,
+  "open_multi_pad_nets": 227,
   "single_pad_nets_not_proof_of_completion": 7,
   "nets": [
     {
@@ -414,20 +414,14 @@
       "connected_groups": [
         [
           "C1802.1",
-          "U20.5"
-        ],
-        [
-          "C1811.1"
-        ],
-        [
-          "C1812.1"
-        ],
-        [
+          "C1811.1",
+          "C1812.1",
+          "U20.5",
           "U21.20"
         ]
       ],
-      "group_count": 4,
-      "fully_connected": false
+      "group_count": 1,
+      "fully_connected": true
     },
     {
       "net": "+3V3_AON",
@@ -495,8 +489,11 @@
           "C2007.1",
           "C470.1",
           "J3.36",
+          "R1804.1",
+          "R1815.2",
           "R530.1",
           "R8102.2",
+          "U20.3",
           "U25.22",
           "U4.55",
           "Y2001.1",
@@ -504,12 +501,6 @@
         ],
         [
           "R1505.1"
-        ],
-        [
-          "R1804.1"
-        ],
-        [
-          "R1815.2"
         ],
         [
           "R2010.2"
@@ -558,12 +549,9 @@
         ],
         [
           "U1.1M4"
-        ],
-        [
-          "U20.3"
         ]
       ],
-      "group_count": 29,
+      "group_count": 26,
       "fully_connected": false
     },
     {
@@ -772,6 +760,7 @@
           "C2201.1",
           "C2202.1",
           "C8101.1",
+          "R1803.1",
           "TP3.1",
           "U10.D1",
           "U10.D2",
@@ -788,13 +777,10 @@
           "U26.13",
           "U8101.3",
           "U8101.4"
-        ],
-        [
-          "R1803.1"
         ]
       ],
-      "group_count": 2,
-      "fully_connected": false
+      "group_count": 1,
+      "fully_connected": true
     },
     {
       "net": "ADDON_DVDT",
@@ -1324,14 +1310,12 @@
       "pad_count": 2,
       "connected_groups": [
         [
-          "C531.1"
-        ],
-        [
+          "C531.1",
           "J2.P1"
         ]
       ],
-      "group_count": 2,
-      "fully_connected": false
+      "group_count": 1,
+      "fully_connected": true
     },
     {
       "net": "ETH_MDC",
@@ -1895,6 +1879,8 @@
           "C1305.2",
           "C1801.2",
           "C1802.2",
+          "C1811.2",
+          "C1812.2",
           "C1901.2",
           "C1902.2",
           "C1903.2",
@@ -1924,6 +1910,10 @@
           "C483.2",
           "C484.2",
           "C485.2",
+          "C501.2",
+          "C520.2",
+          "C521.2",
+          "C531.2",
           "C605.2",
           "C606.2",
           "C8001.2",
@@ -1957,14 +1947,28 @@
           "J3.37",
           "J3.38",
           "J3.9",
+          "Q1.2",
           "R1102.2",
           "R1103.2",
           "R1201.2",
+          "R1802.2",
+          "R1804.2",
+          "R1811.2",
+          "R1812.2",
+          "R1813.2",
+          "R1814.2",
           "R1902.2",
           "R1904.2",
           "R1905.2",
           "R2203.2",
           "R411.2",
+          "R513.2",
+          "R516.2",
+          "R522.2",
+          "R523.2",
+          "R524.2",
+          "R528.2",
+          "R529.2",
           "R8005.2",
           "R8101.2",
           "R8103.2",
@@ -1991,6 +1995,12 @@
           "U17.8",
           "U19.3",
           "U20.2",
+          "U21.1",
+          "U21.10",
+          "U21.19",
+          "U21.7",
+          "U21.8",
+          "U21.9",
           "U24.1",
           "U24.16",
           "U24.21",
@@ -2048,7 +2058,9 @@
           "U8101.9",
           "U9.3",
           "U9.8",
-          "Y2001.2"
+          "Y2001.2",
+          "Y501.2",
+          "Y501.4"
         ],
         [
           "C1014.2"
@@ -2312,12 +2324,6 @@
           "C1683.2"
         ],
         [
-          "C1811.2"
-        ],
-        [
-          "C1812.2"
-        ],
-        [
           "C2008.2"
         ],
         [
@@ -2417,9 +2423,6 @@
           "C469.2"
         ],
         [
-          "C501.2"
-        ],
-        [
           "C511.2"
         ],
         [
@@ -2447,16 +2450,7 @@
           "C519.2"
         ],
         [
-          "C520.2"
-        ],
-        [
-          "C521.2"
-        ],
-        [
           "C522.2"
-        ],
-        [
-          "C531.2"
         ],
         [
           "J2001.2"
@@ -2465,55 +2459,13 @@
           "J2001.3"
         ],
         [
-          "Q1.2"
-        ],
-        [
           "R1506.2"
-        ],
-        [
-          "R1802.2"
-        ],
-        [
-          "R1804.2"
-        ],
-        [
-          "R1811.2"
-        ],
-        [
-          "R1812.2"
-        ],
-        [
-          "R1813.2"
-        ],
-        [
-          "R1814.2"
         ],
         [
           "R2002.2"
         ],
         [
           "R432.2"
-        ],
-        [
-          "R513.2"
-        ],
-        [
-          "R516.2"
-        ],
-        [
-          "R522.2"
-        ],
-        [
-          "R523.2"
-        ],
-        [
-          "R524.2"
-        ],
-        [
-          "R528.2"
-        ],
-        [
-          "R529.2"
         ],
         [
           "TP1.1"
@@ -3239,24 +3191,6 @@
           "U2.Y8"
         ],
         [
-          "U21.1"
-        ],
-        [
-          "U21.10"
-        ],
-        [
-          "U21.19"
-        ],
-        [
-          "U21.7"
-        ],
-        [
-          "U21.8"
-        ],
-        [
-          "U21.9"
-        ],
-        [
           "U22.3"
         ],
         [
@@ -3315,15 +3249,9 @@
         ],
         [
           "Y2002.4"
-        ],
-        [
-          "Y501.2"
-        ],
-        [
-          "Y501.4"
         ]
       ],
-      "group_count": 425,
+      "group_count": 397,
       "fully_connected": false
     },
     {
@@ -3371,17 +3299,13 @@
       "pad_count": 3,
       "connected_groups": [
         [
-          "Q1.1"
-        ],
-        [
-          "R1801.2"
-        ],
-        [
+          "Q1.1",
+          "R1801.2",
           "R1802.1"
         ]
       ],
-      "group_count": 3,
-      "fully_connected": false
+      "group_count": 1,
+      "fully_connected": true
     },
     {
       "net": "LCD_BL_PWM",
@@ -3424,16 +3348,14 @@
       "pad_count": 3,
       "connected_groups": [
         [
-          "R1815.1"
+          "R1815.1",
+          "U21.6"
         ],
         [
           "U1.M3"
-        ],
-        [
-          "U21.6"
         ]
       ],
-      "group_count": 3,
+      "group_count": 2,
       "fully_connected": false
     },
     {
@@ -3441,16 +3363,14 @@
       "pad_count": 3,
       "connected_groups": [
         [
-          "R1813.1"
+          "R1813.1",
+          "U21.4"
         ],
         [
           "U1.N1"
-        ],
-        [
-          "U21.4"
         ]
       ],
-      "group_count": 3,
+      "group_count": 2,
       "fully_connected": false
     },
     {
@@ -3502,16 +3422,14 @@
       "pad_count": 3,
       "connected_groups": [
         [
-          "R1811.1"
+          "R1811.1",
+          "U21.2"
         ],
         [
           "U1.T3"
-        ],
-        [
-          "U21.2"
         ]
       ],
-      "group_count": 3,
+      "group_count": 2,
       "fully_connected": false
     },
     {
@@ -3519,16 +3437,14 @@
       "pad_count": 3,
       "connected_groups": [
         [
-          "R1814.1"
+          "R1814.1",
+          "U21.5"
         ],
         [
           "U1.N2"
-        ],
-        [
-          "U21.5"
         ]
       ],
-      "group_count": 3,
+      "group_count": 2,
       "fully_connected": false
     },
     {
@@ -3547,16 +3463,14 @@
       "pad_count": 3,
       "connected_groups": [
         [
-          "R1812.1"
+          "R1812.1",
+          "U21.3"
         ],
         [
           "U1.N3"
-        ],
-        [
-          "U21.3"
         ]
       ],
-      "group_count": 3,
+      "group_count": 2,
       "fully_connected": false
     },
     {
@@ -4586,19 +4500,15 @@
       "pad_count": 4,
       "connected_groups": [
         [
-          "C501.1"
-        ],
-        [
-          "R515.2"
-        ],
-        [
+          "C501.1",
+          "R515.2",
           "R516.1"
         ],
         [
           "U5.12"
         ]
       ],
-      "group_count": 4,
+      "group_count": 2,
       "fully_connected": false
     },
     {
@@ -4820,34 +4730,26 @@
       "pad_count": 3,
       "connected_groups": [
         [
-          "C520.1"
-        ],
-        [
-          "U5.36"
-        ],
-        [
+          "C520.1",
+          "U5.36",
           "Y501.1"
         ]
       ],
-      "group_count": 3,
-      "fully_connected": false
+      "group_count": 1,
+      "fully_connected": true
     },
     {
       "net": "PHY_XOUT",
       "pad_count": 3,
       "connected_groups": [
         [
-          "C521.1"
-        ],
-        [
-          "U5.37"
-        ],
-        [
+          "C521.1",
+          "U5.37",
           "Y501.3"
         ]
       ],
-      "group_count": 3,
-      "fully_connected": false
+      "group_count": 1,
+      "fully_connected": true
     },
     {
       "net": "PMIC_1V8A",

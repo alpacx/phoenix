@@ -1,0 +1,26 @@
+{
+  "status": "ETHERNET_CLOCK_PINS_CONNECTED",
+  "sha256": "7a0dfbdfdec87b1aab4f2d4c443746cae4ca4e5724621e6291a8d7c6f26de0fb",
+  "source_sha256": "c17a7a4416d209ca3f0da034a114df5fa9330abea1be82e7313ab74e54d32972",
+  "checks": [
+    {
+      "from": "U5.36",
+      "to": "Y501.1",
+      "connected": true
+    },
+    {
+      "from": "U5.37",
+      "to": "Y501.3",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5498,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 55,
+    "existing_connected_pad_groups_preserved": 65
+  }
+}

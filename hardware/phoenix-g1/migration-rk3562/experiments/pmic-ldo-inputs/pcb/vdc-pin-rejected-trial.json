@@ -1,0 +1,156 @@
+{
+  "status": "REJECTED_VDC_PIN",
+  "sha256": "84bd465f09f4eaaef93bea270a770d69628fdbc22778d8ed9119248f1c0f10eb",
+  "source_sha256": "f190cccb41316252dd914775db16d4c3fc46737564beff8728ea24a00eb9bb52",
+  "checks": [
+    {
+      "from": "U4.61",
+      "to": "C410.1",
+      "connected": true
+    }
+  ],
+  "new_violations": [
+    {
+      "type": "tracks_crossing",
+      "severity": "error",
+      "items": [
+        "3f5431c2-1113-43c9-8805-d2412dc8c1ba",
+        "648136d3-981e-49b3-ba0f-5ddbf7932b02"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "069c164e-39df-450d-a23c-992c12a7edb7",
+        "5823442f-72ae-48c8-b612-498bf7b45cfa"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "097665ef-5c38-4a47-8277-ef5a34d8cc64",
+        "22adbd94-d53e-441a-af57-97409ae98b59"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "65925509-61f2-4ada-93a3-8e8c80488877",
+        "6a86cbbe-d057-4848-8979-0ec67b48b8e7"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "65925509-61f2-4ada-93a3-8e8c80488877",
+        "cd7aab4a-1a87-4a93-8686-33994d0d4d25"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "65925509-61f2-4ada-93a3-8e8c80488877",
+        "93337e6d-585b-4281-ae7a-5ace479463d3"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "039883e0-835c-47b5-abe6-9aadcb8c73f8",
+        "65925509-61f2-4ada-93a3-8e8c80488877"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "4d30df45-7da8-46e1-aee4-ac886ba88828",
+        "65925509-61f2-4ada-93a3-8e8c80488877"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "48a239b7-982b-4099-bf14-084ba5ebe419",
+        "65925509-61f2-4ada-93a3-8e8c80488877"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "62eef437-e8ae-4f2f-bb18-194ee2414ac0",
+        "65925509-61f2-4ada-93a3-8e8c80488877"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "0c4a996d-dee2-4d0c-b19a-1d21736f5785",
+        "65925509-61f2-4ada-93a3-8e8c80488877"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "4f35a47c-b977-44c9-92b1-b79f513fce4a",
+        "65925509-61f2-4ada-93a3-8e8c80488877"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "22adbd94-d53e-441a-af57-97409ae98b59",
+        "3f5431c2-1113-43c9-8805-d2412dc8c1ba"
+      ],
+      "count": 1
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "items": [
+        "5882923f-db08-4f39-a0ee-d3ec83e67358",
+        "65925509-61f2-4ada-93a3-8e8c80488877"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "5882923f-db08-4f39-a0ee-d3ec83e67358",
+        "65925509-61f2-4ada-93a3-8e8c80488877"
+      ],
+      "count": 1
+    }
+  ],
+  "assembly_ready": false,
+  "note": "Rejected outward route: 15 newly introduced violations. Inward trial also rejected. Fine-grid search at 0.127 mm width cannot reach a via without modifying the existing +1V8_SYS escape. Accepted board unchanged by these trials.",
+  "joint_escape_trial": {
+    "accepted": false,
+    "temporary_removed_1v8_tracks": 29,
+    "note": "Temporary copy only. Removing the local 1V8 escape alone still did not produce a legal VDC via within the bounded 8 mm front-route search. Manual nearby vias conflicted with existing expansion routes and back-side pads. No change promoted; requires joint placement/routing review including those obstacles."
+  }
+}

@@ -1,3 +1,20 @@
+## Checkpoint clock Ethernet — 16 novembre 2026
+
+Ripartire da `hardware/phoenix-g1/migration-rk3562/experiments/pmic-ldo-inputs/working-candidate.json`.
+PCB `pcb/ethernet-clock-pins.kicad_pcb`: gruppo quarzo PHY riposizionato e collegato.
+Y501 libera la riserva H8105; C520/C521 vicini al quarzo, masse e pin U5.36/37
+collegati. L501 sul retro: layout del suo convertitore ancora da qualificare.
+172 coppie, 51 test CAD passati; nessuna nuova violazione DRC. Due test ulteriori
+verificano rollback e rilevamento dell'interferenza meccanica. 227 reti multi-pad
+ancora aperte; non è una percentuale di completamento.
+Ricostruzione: `hardware/phoenix-g1/tools/rebuild_local_copper.py` con Python KiCad.
+Ristretto collo da 0,15 mm solo sui due segnali clock dentro il courtyard U5;
+clearance invariate, regola confrontata esattamente nell'audit cumulativo.
+19 possibili conflitti meccanici preesistenti restano aperti. Il tentativo R513
+non è adottato. Contorno 90×40 mm, obiettivo 85×35 non qualificato.
+Nessun nuovo MPN, ordine, commit/push o modifica ROCK. Nessuna qualifica elettrica,
+termica, EMC o produttiva. Le sezioni seguenti sono storiche.
+
 ## Checkpoint gruppi alimentazione PMIC — 15 novembre 2026
 
 Ripartire da `hardware/phoenix-g1/migration-rk3562/experiments/pmic-ldo-inputs/working-candidate.json`.

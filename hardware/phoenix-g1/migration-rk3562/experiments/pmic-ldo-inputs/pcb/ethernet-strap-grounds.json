@@ -1,0 +1,31 @@
+{
+  "status": "ETHERNET_STRAP_GROUNDS_CONNECTED",
+  "sha256": "e793e79d59103345db2b69f4ea3752bb1d9b59d039e0cd2b511cd5ee68691981",
+  "source_sha256": "3dec31ccc17a842c131395333d996af65e2ed210ed8be52b870ffd2e578c2107",
+  "checks": [
+    {
+      "from": "R522.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "R523.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "R524.2",
+      "to": "U20.2",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5368,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 12,
+    "existing_connected_pad_groups_preserved": 62
+  }
+}

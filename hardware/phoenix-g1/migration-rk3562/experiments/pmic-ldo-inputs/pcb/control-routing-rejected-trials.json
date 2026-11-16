@@ -1,0 +1,38 @@
+{
+  "status": "NOT_ADOPTED",
+  "source_display_sha256": "e9836defd2cd4a1924542e9d8baa6f53f1126edbfd0071746eaed147209ffb86",
+  "trials": [
+    {
+      "net": "USB_ORIENTATION",
+      "from": "U6.11",
+      "to": "R602.2",
+      "width_mm": 0.2,
+      "clearance_mm": 0.2,
+      "grid_mm": 0.025,
+      "bounded_front_escape_mm": 5,
+      "result": "No legal via reachable from U6.11; board unchanged."
+    },
+    {
+      "net": "USB_MUX_ENABLE_N",
+      "from": "U6.12",
+      "to": "U16.4",
+      "width_mm": 0.15,
+      "clearance_mm": 0.2,
+      "grid_mm": 0.025,
+      "bounded_front_escape_mm": 5,
+      "result": "No legal via reachable from U6.12 after trial orientation route. 0.15 mm also below existing non-DDR width rule; no output adopted."
+    },
+    {
+      "net": "EMMC_RESET_N",
+      "from": "R8003.2",
+      "to": "U8001.K5",
+      "width_mm": 0.2,
+      "clearance_mm": 0.2,
+      "grid_mm": 0.025,
+      "bounded_back_escape_mm": 5,
+      "result": "No legal via reachable from BGA K5. Needs explicit BGA fanout/manufacturing review; no rule relaxed."
+    }
+  ],
+  "limitations": "Bounded geometric searches, not proof of impossibility; no changes promoted from these attempts.",
+  "assembly_ready": false
+}
