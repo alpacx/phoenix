@@ -1,0 +1,827 @@
+{
+  "status": "PLACEMENT_SCREEN_NOT_POWER_ROUTING",
+  "source_sha256": "a250b2670de4fe5c42deb37589dd6d8f8fabd6aef7982c5572683cc5c3690164",
+  "placement_step_mm": 0.1,
+  "capacitors": [
+    {
+      "reference": "C511",
+      "target": "L501.2",
+      "candidate_count": 0,
+      "closest_candidates": [],
+      "rejection_counts": {
+        "distance": 26150,
+        "pad_copper": 376,
+        "courtyard": 32038
+      },
+      "courtyard_blocker_groups": [
+        {
+          "references": [
+            "L501"
+          ],
+          "positions": 4866,
+          "example_not_placement": {
+            "center_mm": [
+              55.1,
+              33.8
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 3.5708
+          }
+        },
+        {
+          "references": [
+            "Y501"
+          ],
+          "positions": 2266,
+          "example_not_placement": {
+            "center_mm": [
+              55.2,
+              34.1
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 3.8443
+          }
+        },
+        {
+          "references": [
+            "U26"
+          ],
+          "positions": 1964,
+          "example_not_placement": {
+            "center_mm": [
+              50.4,
+              30.4
+            ],
+            "angle_deg": 180,
+            "straight_line_mm": 5.0359
+          }
+        },
+        {
+          "references": [
+            "C2201"
+          ],
+          "positions": 974,
+          "example_not_placement": {
+            "center_mm": [
+              52.1,
+              29.8
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 4.3953
+          }
+        },
+        {
+          "references": [
+            "U5"
+          ],
+          "positions": 705,
+          "example_not_placement": {
+            "center_mm": [
+              60.3,
+              28.5
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 4.7616
+          }
+        },
+        {
+          "references": [
+            "C2202"
+          ],
+          "positions": 480,
+          "example_not_placement": {
+            "center_mm": [
+              53.2,
+              33.8
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 4.4046
+          }
+        },
+        {
+          "references": [
+            "C2007"
+          ],
+          "positions": 364,
+          "example_not_placement": {
+            "center_mm": [
+              51.0,
+              29.0
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 5.0747
+          }
+        },
+        {
+          "references": [
+            "R522"
+          ],
+          "positions": 280,
+          "example_not_placement": {
+            "center_mm": [
+              55.0,
+              27.0
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 4.0428
+          }
+        },
+        {
+          "references": [
+            "C1020"
+          ],
+          "positions": 212,
+          "example_not_placement": {
+            "center_mm": [
+              57.0,
+              26.7
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 3.7834
+          }
+        },
+        {
+          "references": [
+            "Y2001"
+          ],
+          "positions": 190,
+          "example_not_placement": {
+            "center_mm": [
+              54.1,
+              25.9
+            ],
+            "angle_deg": 180,
+            "straight_line_mm": 5.0747
+          }
+        },
+        {
+          "references": [
+            "C517"
+          ],
+          "positions": 112,
+          "example_not_placement": {
+            "center_mm": [
+              57.6,
+              27.5
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 3.5183
+          }
+        },
+        {
+          "references": [
+            "C2204"
+          ],
+          "positions": 74,
+          "example_not_placement": {
+            "center_mm": [
+              50.5,
+              29.6
+            ],
+            "angle_deg": 180,
+            "straight_line_mm": 5.0642
+          }
+        },
+        {
+          "references": [
+            "R2201"
+          ],
+          "positions": 51,
+          "example_not_placement": {
+            "center_mm": [
+              53.6,
+              35.5
+            ],
+            "angle_deg": 180,
+            "straight_line_mm": 5.0401
+          }
+        },
+        {
+          "references": [
+            "R2104"
+          ],
+          "positions": 4,
+          "example_not_placement": {
+            "center_mm": [
+              54.0,
+              28.6
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 3.241
+          }
+        },
+        {
+          "references": [
+            "L501",
+            "Y501"
+          ],
+          "positions": 2306,
+          "example_not_placement": {
+            "center_mm": [
+              55.2,
+              33.8
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 3.5497
+          }
+        },
+        {
+          "references": [
+            "L501",
+            "U5"
+          ],
+          "positions": 1575,
+          "example_not_placement": {
+            "center_mm": [
+              59.1,
+              29.0
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 3.2617
+          }
+        },
+        {
+          "references": [
+            "C2201",
+            "L501"
+          ],
+          "positions": 1484,
+          "example_not_placement": {
+            "center_mm": [
+              54.1,
+              29.8
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 2.4897
+          }
+        },
+        {
+          "references": [
+            "C2201",
+            "U26"
+          ],
+          "positions": 1158,
+          "example_not_placement": {
+            "center_mm": [
+              52.1,
+              30.4
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 4.2987
+          }
+        },
+        {
+          "references": [
+            "C2201",
+            "R2104"
+          ],
+          "positions": 740,
+          "example_not_placement": {
+            "center_mm": [
+              52.1,
+              29.1
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 4.6053
+          }
+        },
+        {
+          "references": [
+            "C517",
+            "L501"
+          ],
+          "positions": 734,
+          "example_not_placement": {
+            "center_mm": [
+              57.6,
+              28.0
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 3.0542
+          }
+        },
+        {
+          "references": [
+            "C2201",
+            "C2202"
+          ],
+          "positions": 546,
+          "example_not_placement": {
+            "center_mm": [
+              53.2,
+              32.1
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 3.2339
+          }
+        },
+        {
+          "references": [
+            "L501",
+            "R522"
+          ],
+          "positions": 526,
+          "example_not_placement": {
+            "center_mm": [
+              55.5,
+              27.6
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 2.7493
+          }
+        },
+        {
+          "references": [
+            "C2202",
+            "R2201"
+          ],
+          "positions": 496,
+          "example_not_placement": {
+            "center_mm": [
+              53.2,
+              34.4
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 4.8925
+          }
+        },
+        {
+          "references": [
+            "C2007",
+            "R530"
+          ],
+          "positions": 391,
+          "example_not_placement": {
+            "center_mm": [
+              51.3,
+              27.9
+            ],
+            "angle_deg": 180,
+            "straight_line_mm": 5.0383
+          }
+        }
+      ]
+    },
+    {
+      "reference": "C515",
+      "target": "U5.29",
+      "candidate_count": 91,
+      "closest_candidates": [
+        {
+          "center_mm": [
+            61.7,
+            24.0
+          ],
+          "angle_deg": 90,
+          "straight_line_mm": 4.1212
+        },
+        {
+          "center_mm": [
+            61.8,
+            24.0
+          ],
+          "angle_deg": 90,
+          "straight_line_mm": 4.1249
+        },
+        {
+          "center_mm": [
+            61.9,
+            24.0
+          ],
+          "angle_deg": 90,
+          "straight_line_mm": 4.1309
+        },
+        {
+          "center_mm": [
+            62.0,
+            24.0
+          ],
+          "angle_deg": 90,
+          "straight_line_mm": 4.1394
+        },
+        {
+          "center_mm": [
+            62.1,
+            24.0
+          ],
+          "angle_deg": 90,
+          "straight_line_mm": 4.1502
+        },
+        {
+          "center_mm": [
+            62.2,
+            24.0
+          ],
+          "angle_deg": 90,
+          "straight_line_mm": 4.1635
+        },
+        {
+          "center_mm": [
+            62.3,
+            24.0
+          ],
+          "angle_deg": 90,
+          "straight_line_mm": 4.179
+        },
+        {
+          "center_mm": [
+            62.4,
+            24.0
+          ],
+          "angle_deg": 90,
+          "straight_line_mm": 4.197
+        },
+        {
+          "center_mm": [
+            62.2,
+            24.4
+          ],
+          "angle_deg": 0,
+          "straight_line_mm": 4.2017
+        },
+        {
+          "center_mm": [
+            62.3,
+            24.4
+          ],
+          "angle_deg": 0,
+          "straight_line_mm": 4.2058
+        },
+        {
+          "center_mm": [
+            62.4,
+            24.4
+          ],
+          "angle_deg": 0,
+          "straight_line_mm": 4.2122
+        },
+        {
+          "center_mm": [
+            62.5,
+            24.0
+          ],
+          "angle_deg": 90,
+          "straight_line_mm": 4.2172
+        }
+      ],
+      "rejection_counts": {
+        "distance": 26150,
+        "courtyard": 32242,
+        "pad_copper": 81
+      },
+      "courtyard_blocker_groups": [
+        {
+          "references": [
+            "U5"
+          ],
+          "positions": 9614,
+          "example_not_placement": {
+            "center_mm": [
+              60.3,
+              28.5
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 1.3544
+          }
+        },
+        {
+          "references": [
+            "L501"
+          ],
+          "positions": 3037,
+          "example_not_placement": {
+            "center_mm": [
+              56.1,
+              28.6
+            ],
+            "angle_deg": 180,
+            "straight_line_mm": 5.02
+          }
+        },
+        {
+          "references": [
+            "R1002"
+          ],
+          "positions": 477,
+          "example_not_placement": {
+            "center_mm": [
+              58.8,
+              24.1
+            ],
+            "angle_deg": 180,
+            "straight_line_mm": 5.0628
+          }
+        },
+        {
+          "references": [
+            "R509"
+          ],
+          "positions": 395,
+          "example_not_placement": {
+            "center_mm": [
+              63.0,
+              24.1
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 4.2568
+          }
+        },
+        {
+          "references": [
+            "R512"
+          ],
+          "positions": 330,
+          "example_not_placement": {
+            "center_mm": [
+              61.5,
+              25.5
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 3.1538
+          }
+        },
+        {
+          "references": [
+            "R507"
+          ],
+          "positions": 240,
+          "example_not_placement": {
+            "center_mm": [
+              62.0,
+              27.0
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 1.1893
+          }
+        },
+        {
+          "references": [
+            "C1020"
+          ],
+          "positions": 202,
+          "example_not_placement": {
+            "center_mm": [
+              57.0,
+              26.7
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 4.8142
+          }
+        },
+        {
+          "references": [
+            "R508"
+          ],
+          "positions": 190,
+          "example_not_placement": {
+            "center_mm": [
+              64.5,
+              27.0
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 3.1088
+          }
+        },
+        {
+          "references": [
+            "C1001"
+          ],
+          "positions": 148,
+          "example_not_placement": {
+            "center_mm": [
+              61.7,
+              23.1
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 5.021
+          }
+        },
+        {
+          "references": [
+            "R516"
+          ],
+          "positions": 138,
+          "example_not_placement": {
+            "center_mm": [
+              63.1,
+              23.7
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 5.005
+          }
+        },
+        {
+          "references": [
+            "C517"
+          ],
+          "positions": 112,
+          "example_not_placement": {
+            "center_mm": [
+              57.6,
+              27.5
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 4.6131
+          }
+        },
+        {
+          "references": [
+            "R511"
+          ],
+          "positions": 96,
+          "example_not_placement": {
+            "center_mm": [
+              60.5,
+              26.8
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 2.3951
+          }
+        },
+        {
+          "references": [
+            "R522"
+          ],
+          "positions": 85,
+          "example_not_placement": {
+            "center_mm": [
+              56.1,
+              27.9
+            ],
+            "angle_deg": 180,
+            "straight_line_mm": 5.0686
+          }
+        },
+        {
+          "references": [
+            "R1001"
+          ],
+          "positions": 31,
+          "example_not_placement": {
+            "center_mm": [
+              57.3,
+              25.3
+            ],
+            "angle_deg": 180,
+            "straight_line_mm": 5.048
+          }
+        },
+        {
+          "references": [
+            "R513"
+          ],
+          "positions": 21,
+          "example_not_placement": {
+            "center_mm": [
+              65.5,
+              25.5
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 4.6983
+          }
+        },
+        {
+          "references": [
+            "C519"
+          ],
+          "positions": 20,
+          "example_not_placement": {
+            "center_mm": [
+              59.4,
+              25.5
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 4.0979
+          }
+        },
+        {
+          "references": [
+            "C514"
+          ],
+          "positions": 20,
+          "example_not_placement": {
+            "center_mm": [
+              66.6,
+              28.5
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 5.0144
+          }
+        },
+        {
+          "references": [
+            "L501",
+            "U5"
+          ],
+          "positions": 1734,
+          "example_not_placement": {
+            "center_mm": [
+              59.1,
+              29.0
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 3.0067
+          }
+        },
+        {
+          "references": [
+            "C517",
+            "L501"
+          ],
+          "positions": 734,
+          "example_not_placement": {
+            "center_mm": [
+              57.6,
+              28.0
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 4.52
+          }
+        },
+        {
+          "references": [
+            "R507",
+            "U5"
+          ],
+          "positions": 720,
+          "example_not_placement": {
+            "center_mm": [
+              62.0,
+              27.1
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 1.0956
+          }
+        },
+        {
+          "references": [
+            "R1002",
+            "R512"
+          ],
+          "positions": 474,
+          "example_not_placement": {
+            "center_mm": [
+              59.6,
+              24.5
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 4.7917
+          }
+        },
+        {
+          "references": [
+            "R509",
+            "R512"
+          ],
+          "positions": 469,
+          "example_not_placement": {
+            "center_mm": [
+              62.1,
+              25.5
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 3.1001
+          }
+        },
+        {
+          "references": [
+            "C514",
+            "U5"
+          ],
+          "positions": 424,
+          "example_not_placement": {
+            "center_mm": [
+              65.3,
+              28.1
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 3.2586
+          }
+        },
+        {
+          "references": [
+            "R509",
+            "R516"
+          ],
+          "positions": 420,
+          "example_not_placement": {
+            "center_mm": [
+              63.5,
+              24.5
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 4.3389
+          }
+        }
+      ]
+    }
+  ],
+  "checkpoint_modified": false,
+  "assembly_ready": false,
+  "limitations": [
+    "Each capacitor is evaluated independently; simultaneous placement is not proven.",
+    "Existing ground connections would need rerouting if a capacitor is moved.",
+    "The 5.08 mm straight-line screen is based on historical rev 1.1 guidance; actual wide power and return paths remain unresolved.",
+    "No candidate is promoted; no electrical or DRC qualification is implied by the conservative screen."
+  ]
+}

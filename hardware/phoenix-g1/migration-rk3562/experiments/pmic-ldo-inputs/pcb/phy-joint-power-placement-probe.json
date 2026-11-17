@@ -1,0 +1,4566 @@
+{
+  "status": "JOINT_PLACEMENT_ONLY_NOT_ROUTED",
+  "source_sha256": "a250b2670de4fe5c42deb37589dd6d8f8fabd6aef7982c5572683cc5c3690164",
+  "moves": {
+    "L501": [
+      57.4,
+      29.8,
+      90,
+      "F"
+    ],
+    "C511": [
+      57.5,
+      32.5,
+      0,
+      "F"
+    ],
+    "C517": [
+      61.5,
+      27,
+      90,
+      "F"
+    ],
+    "R511": [
+      60.5,
+      27,
+      0,
+      "B"
+    ],
+    "R522": [
+      55.5,
+      27.5,
+      0,
+      "B"
+    ]
+  },
+  "new_violations": [
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "587ce904-8157-474c-9b18-0255ac59b72c",
+        "f1a36b16-22fb-410a-aa61-46fe6cca2555"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "587ce904-8157-474c-9b18-0255ac59b72c",
+        "c28c89bb-2ca1-4104-94bc-59a5b332a2ed"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "587ce904-8157-474c-9b18-0255ac59b72c",
+        "97a00225-bd50-4cbe-bf21-4fa35568f0dc"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "587ce904-8157-474c-9b18-0255ac59b72c",
+        "bad7bc08-8487-48c5-bdda-0c7733e40707"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "587ce904-8157-474c-9b18-0255ac59b72c",
+        "dc7ff7f7-babe-4b68-82f9-286dabfc2e9b"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "587ce904-8157-474c-9b18-0255ac59b72c",
+        "e7e23ceb-d316-4250-bf0f-16ea1a68cb54"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "587ce904-8157-474c-9b18-0255ac59b72c",
+        "7d69b267-8431-4aca-a3ca-d877c020207c"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "587ce904-8157-474c-9b18-0255ac59b72c",
+        "9b333014-c6b6-4007-8115-dfb25c57ced7"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "587ce904-8157-474c-9b18-0255ac59b72c",
+        "7ed83a81-ba96-4a6a-9cec-58eeec4e7bf7"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "587ce904-8157-474c-9b18-0255ac59b72c",
+        "a76b70bf-1f69-40aa-8741-2aadd86dce73"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "587ce904-8157-474c-9b18-0255ac59b72c",
+        "63dee04e-4fb3-4fc0-8f71-92fe2bc7a8b5"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "587ce904-8157-474c-9b18-0255ac59b72c",
+        "a432ff7c-d842-4ffd-bd2d-9593cf24ce16"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "587ce904-8157-474c-9b18-0255ac59b72c",
+        "5fe4cd17-a43e-445f-97b6-a93cb66d2f24"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "587ce904-8157-474c-9b18-0255ac59b72c",
+        "6d37d386-da87-4d9a-ac07-3d3afd41ef50"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "587ce904-8157-474c-9b18-0255ac59b72c",
+        "7368f4dd-4e43-4896-9e4d-7f352bac6948"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "587ce904-8157-474c-9b18-0255ac59b72c",
+        "6767f5f4-d2b7-4904-a321-1973f896d8f6"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "1dea86e0-3017-46b3-8d68-478b43ff2bcb",
+        "587ce904-8157-474c-9b18-0255ac59b72c"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "1215d0a3-147e-4530-a943-29daf6d93c7c",
+        "587ce904-8157-474c-9b18-0255ac59b72c"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33",
+        "fb933a6d-39d3-49a0-a791-c2ad578fc9ad"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33",
+        "f976cfe6-569d-40b2-9fa8-d7ca529f0ad4"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33",
+        "ebdb884a-fa4f-420c-8dc2-e803cd062258"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "00064a0f-d8dc-45ab-954f-84db442e50aa",
+        "587ce904-8157-474c-9b18-0255ac59b72c"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "e19d0350-3a04-42c8-b999-fe55d1956473",
+        "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "aa632a13-319e-4218-85fa-1651b3263227",
+        "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "a7044be5-fafd-4b04-86f6-4fffb865b48a",
+        "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "9af123df-6e07-4a47-ae97-42c021962c99",
+        "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "704b97f2-f35e-4d87-9945-1dc0b674969f",
+        "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "92527c9d-b7c1-4a64-9ef8-daaad54a95f7",
+        "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "5cbaad35-8a8a-4ea2-9c30-2bf7417fe53d",
+        "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "2d57c95a-b3eb-4173-a316-49dddc549028",
+        "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "7c802138-35e2-4d6a-b85b-1ca78eae84c9",
+        "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "1480f61b-5b95-4484-b9fc-c996bd127b8e",
+        "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "2475e3e6-9ccd-44a6-8a25-b18bb6260ed5",
+        "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "480b132d-2229-4892-912a-28300a78afb5",
+        "dc054662-c0f2-456c-873f-ed2c51d7d2e8"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "480b132d-2229-4892-912a-28300a78afb5",
+        "82f0a8b0-b161-4fb7-a856-0148b470af9b"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "9a2add14-3051-48bb-82a6-6e6226d016c2",
+        "da265d3f-d1ce-4c02-bcc4-09b84927cfa0"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "9a2add14-3051-48bb-82a6-6e6226d016c2",
+        "d86a7379-fc0e-4cdd-87db-3639bfdc7075"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "b933b43f-ccc3-418b-ba26-2e16978ad305"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "9a2add14-3051-48bb-82a6-6e6226d016c2",
+        "d045e74a-ed1e-479e-8ea6-892f945f442a"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "bbb24669-c675-48f6-b9dd-3d665807592f"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "9a2add14-3051-48bb-82a6-6e6226d016c2",
+        "c959ef2d-40c2-43e8-8d9e-82cf8ce976d4"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "7a2fa846-e7cb-4480-9512-fb2dc51a3f7c"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "8929f44a-8b02-4186-b64f-ea1054969760"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "74cb9e6b-35a5-4062-b38d-67eeb848aaff"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "8c6d510d-fa9a-4f25-8e8a-6b7aa93ee13f",
+        "9a2add14-3051-48bb-82a6-6e6226d016c2"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "9a2add14-3051-48bb-82a6-6e6226d016c2",
+        "bdff9591-d015-46f5-9fb6-62305655d9e5"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "8ccfef25-1b65-4547-b66b-62998aeeb909"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "6835b246-d629-4599-9157-9028ebc524df"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "84ba2493-4f7f-4dba-9c09-953ad0dd8f53",
+        "9a2add14-3051-48bb-82a6-6e6226d016c2"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "76cdf1f6-f47c-4503-8212-fe72405c2598"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "68691bcd-623a-4a62-b445-3b37c4e06585"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "6289aeb8-f8f8-4f3f-8d86-bfac9c597127",
+        "9a2add14-3051-48bb-82a6-6e6226d016c2"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "68fbb83c-2105-4909-986c-d6b68591262a"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "6617eb05-3f27-4172-8f26-1d7cafe95ebd",
+        "9a2add14-3051-48bb-82a6-6e6226d016c2"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "3537ba25-afea-4549-b7ec-4fc52b7e6ed3"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "2c683881-eb13-4047-9a8e-81bd7fee51f9",
+        "9a2add14-3051-48bb-82a6-6e6226d016c2"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "3008fa62-c147-4f6b-b5f6-34e5c547150a",
+        "9a2add14-3051-48bb-82a6-6e6226d016c2"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "4432bdff-5916-440b-a393-8ba545462d47"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "2375c429-4c02-4689-b57c-f041d039b5f5",
+        "9a2add14-3051-48bb-82a6-6e6226d016c2"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "1d855e84-5b8e-4d9f-bd0e-c1d6b2a63462"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "0c91a7ac-a5e6-4245-b1da-1a1f0ea315d0"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "111f15e8-0cbf-4dc7-92ef-5099294d8720",
+        "9a2add14-3051-48bb-82a6-6e6226d016c2"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "2ad9410e-00b1-4e96-847b-3228a955997a",
+        "9a2add14-3051-48bb-82a6-6e6226d016c2"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "1dc5f753-968e-428f-ada3-2fd3937ff186",
+        "9a2add14-3051-48bb-82a6-6e6226d016c2"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "07d14d92-6690-4dcb-951c-bcd581e73e14",
+        "08d0ed57-3c91-467c-90cc-734ceae212de"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "1f27092d-6b4b-4064-b305-d8acbe43e320",
+        "9a2add14-3051-48bb-82a6-6e6226d016c2"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "0c1a4242-7fef-4e70-b3fa-c2f7f48a9bf3",
+        "9a2add14-3051-48bb-82a6-6e6226d016c2"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "decd2621-ad18-4a23-aa33-46a4ade955a5"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "4b58f10c-0a44-4393-951b-d0a054da0ded"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "0daabfe1-f5d7-4891-969a-19aded14b60c"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "7d097c3e-a4a7-4d76-8ea1-251346757e08"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "d38ef377-f080-4d21-a29d-694417a69587"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "4457e05f-b871-4c78-b5c1-2b6bd399ad0b"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "3a6a36d8-8e3c-4b05-b555-302af56bde5b"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "36bff35d-810c-4d65-b6ee-1dedb4115fc6"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "25a8a11b-d1aa-429d-9254-1175499da16e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "0a00f68a-d8f5-45a5-9c2b-b4735b2af9e6",
+        "587ce904-8157-474c-9b18-0255ac59b72c"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "027e838e-d265-47d2-b06f-f8e57e444da7",
+        "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+      ],
+      "count": 1
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "7d097c3e-a4a7-4d76-8ea1-251346757e08"
+      ],
+      "count": 1
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "decd2621-ad18-4a23-aa33-46a4ade955a5"
+      ],
+      "count": 1
+    },
+    {
+      "type": "courtyards_overlap",
+      "severity": "error",
+      "items": [
+        "22afcda7-40df-4596-b4d2-91439f4050b7",
+        "8e8ead25-f2c0-42ce-909b-2ba4d30582df"
+      ],
+      "count": 1
+    },
+    {
+      "type": "courtyards_overlap",
+      "severity": "error",
+      "items": [
+        "22afcda7-40df-4596-b4d2-91439f4050b7",
+        "ff06ea75-dd5a-4a7d-bf82-9d88cb23bff1"
+      ],
+      "count": 1
+    },
+    {
+      "type": "courtyards_overlap",
+      "severity": "error",
+      "items": [
+        "4306854a-4581-4d67-ab97-ee218cee9e47",
+        "9584f1a8-9c80-48a9-bcdc-cf024f37fbb9"
+      ],
+      "count": 1
+    },
+    {
+      "type": "courtyards_overlap",
+      "severity": "error",
+      "items": [
+        "6e9bb349-60f9-4034-8721-39998592b1d0",
+        "8f8a3473-4a53-4eaa-80d7-ba388c05d4fb"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "7d097c3e-a4a7-4d76-8ea1-251346757e08"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "25a8a11b-d1aa-429d-9254-1175499da16e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "36bff35d-810c-4d65-b6ee-1dedb4115fc6"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "3a6a36d8-8e3c-4b05-b555-302af56bde5b"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "4457e05f-b871-4c78-b5c1-2b6bd399ad0b"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "07d14d92-6690-4dcb-951c-bcd581e73e14",
+        "08d0ed57-3c91-467c-90cc-734ceae212de"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "0c91a7ac-a5e6-4245-b1da-1a1f0ea315d0"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "111f15e8-0cbf-4dc7-92ef-5099294d8720",
+        "9a2add14-3051-48bb-82a6-6e6226d016c2"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "1d855e84-5b8e-4d9f-bd0e-c1d6b2a63462"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "1f27092d-6b4b-4064-b305-d8acbe43e320",
+        "9a2add14-3051-48bb-82a6-6e6226d016c2"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "2375c429-4c02-4689-b57c-f041d039b5f5",
+        "9a2add14-3051-48bb-82a6-6e6226d016c2"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "3537ba25-afea-4549-b7ec-4fc52b7e6ed3"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "4432bdff-5916-440b-a393-8ba545462d47"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "6617eb05-3f27-4172-8f26-1d7cafe95ebd",
+        "9a2add14-3051-48bb-82a6-6e6226d016c2"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "6835b246-d629-4599-9157-9028ebc524df"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "68691bcd-623a-4a62-b445-3b37c4e06585"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "68fbb83c-2105-4909-986c-d6b68591262a"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "74cb9e6b-35a5-4062-b38d-67eeb848aaff"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "76cdf1f6-f47c-4503-8212-fe72405c2598"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "7a2fa846-e7cb-4480-9512-fb2dc51a3f7c"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "84ba2493-4f7f-4dba-9c09-953ad0dd8f53",
+        "9a2add14-3051-48bb-82a6-6e6226d016c2"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "8929f44a-8b02-4186-b64f-ea1054969760"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "8c6d510d-fa9a-4f25-8e8a-6b7aa93ee13f",
+        "9a2add14-3051-48bb-82a6-6e6226d016c2"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "b933b43f-ccc3-418b-ba26-2e16978ad305"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "9a2add14-3051-48bb-82a6-6e6226d016c2",
+        "bdff9591-d015-46f5-9fb6-62305655d9e5"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "9a2add14-3051-48bb-82a6-6e6226d016c2",
+        "c959ef2d-40c2-43e8-8d9e-82cf8ce976d4"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "9a2add14-3051-48bb-82a6-6e6226d016c2",
+        "d045e74a-ed1e-479e-8ea6-892f945f442a"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "9a2add14-3051-48bb-82a6-6e6226d016c2",
+        "d86a7379-fc0e-4cdd-87db-3639bfdc7075"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "9a2add14-3051-48bb-82a6-6e6226d016c2",
+        "da265d3f-d1ce-4c02-bcc4-09b84927cfa0"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "0daabfe1-f5d7-4891-969a-19aded14b60c"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "4b58f10c-0a44-4393-951b-d0a054da0ded"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "decd2621-ad18-4a23-aa33-46a4ade955a5"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "1480f61b-5b95-4484-b9fc-c996bd127b8e",
+        "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "2d57c95a-b3eb-4173-a316-49dddc549028",
+        "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "704b97f2-f35e-4d87-9945-1dc0b674969f",
+        "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "7c802138-35e2-4d6a-b85b-1ca78eae84c9",
+        "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "aa632a13-319e-4218-85fa-1651b3263227",
+        "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "e19d0350-3a04-42c8-b999-fe55d1956473",
+        "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "0a00f68a-d8f5-45a5-9c2b-b4735b2af9e6",
+        "587ce904-8157-474c-9b18-0255ac59b72c"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33",
+        "ebdb884a-fa4f-420c-8dc2-e803cd062258"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33",
+        "f976cfe6-569d-40b2-9fa8-d7ca529f0ad4"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "1215d0a3-147e-4530-a943-29daf6d93c7c",
+        "587ce904-8157-474c-9b18-0255ac59b72c"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "587ce904-8157-474c-9b18-0255ac59b72c",
+        "5fe4cd17-a43e-445f-97b6-a93cb66d2f24"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "587ce904-8157-474c-9b18-0255ac59b72c",
+        "63dee04e-4fb3-4fc0-8f71-92fe2bc7a8b5"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "587ce904-8157-474c-9b18-0255ac59b72c",
+        "6767f5f4-d2b7-4904-a321-1973f896d8f6"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "587ce904-8157-474c-9b18-0255ac59b72c",
+        "7368f4dd-4e43-4896-9e4d-7f352bac6948"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "587ce904-8157-474c-9b18-0255ac59b72c",
+        "7d69b267-8431-4aca-a3ca-d877c020207c"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "587ce904-8157-474c-9b18-0255ac59b72c",
+        "7ed83a81-ba96-4a6a-9cec-58eeec4e7bf7"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "587ce904-8157-474c-9b18-0255ac59b72c",
+        "97a00225-bd50-4cbe-bf21-4fa35568f0dc"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "587ce904-8157-474c-9b18-0255ac59b72c",
+        "9b333014-c6b6-4007-8115-dfb25c57ced7"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "587ce904-8157-474c-9b18-0255ac59b72c",
+        "bad7bc08-8487-48c5-bdda-0c7733e40707"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "587ce904-8157-474c-9b18-0255ac59b72c",
+        "c28c89bb-2ca1-4104-94bc-59a5b332a2ed"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "587ce904-8157-474c-9b18-0255ac59b72c",
+        "dc7ff7f7-babe-4b68-82f9-286dabfc2e9b"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "587ce904-8157-474c-9b18-0255ac59b72c",
+        "e7e23ceb-d316-4250-bf0f-16ea1a68cb54"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "587ce904-8157-474c-9b18-0255ac59b72c",
+        "f1a36b16-22fb-410a-aa61-46fe6cca2555"
+      ],
+      "count": 1
+    },
+    {
+      "type": "track_dangling",
+      "severity": "warning",
+      "items": [
+        "410979f8-580d-4434-9883-ad3cf785333c"
+      ],
+      "count": 1
+    },
+    {
+      "type": "track_dangling",
+      "severity": "warning",
+      "items": [
+        "b78a7fd7-95e8-4fe2-9bea-c07cc6cce27b"
+      ],
+      "count": 1
+    },
+    {
+      "type": "track_dangling",
+      "severity": "warning",
+      "items": [
+        "d38ef377-f080-4d21-a29d-694417a69587"
+      ],
+      "count": 1
+    }
+  ],
+  "details": [
+    {
+      "description": "Elementi che cortocircuitano (coll GND e WIFI_BUCK_OUT)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        },
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 56.25,
+            "y": 26.95
+          },
+          "uuid": "f1a36b16-22fb-410a-aa61-46fe6cca2555"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e WIFI_BUCK_OUT)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        },
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 56.3,
+            "y": 27.15
+          },
+          "uuid": "c28c89bb-2ca1-4104-94bc-59a5b332a2ed"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e WIFI_BUCK_OUT)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        },
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 56.35,
+            "y": 27.2
+          },
+          "uuid": "97a00225-bd50-4cbe-bf21-4fa35568f0dc"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e WIFI_BUCK_OUT)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        },
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 56.45,
+            "y": 27.45
+          },
+          "uuid": "bad7bc08-8487-48c5-bdda-0c7733e40707"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e WIFI_BUCK_OUT)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        },
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 56.4,
+            "y": 27.3
+          },
+          "uuid": "dc7ff7f7-babe-4b68-82f9-286dabfc2e9b"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e WIFI_BUCK_OUT)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        },
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 56.55,
+            "y": 27.6
+          },
+          "uuid": "e7e23ceb-d316-4250-bf0f-16ea1a68cb54"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e WIFI_BUCK_OUT)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        },
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 56.5,
+            "y": 27.55
+          },
+          "uuid": "7d69b267-8431-4aca-a3ca-d877c020207c"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e WIFI_BUCK_OUT)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        },
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 56.5,
+            "y": 27.5
+          },
+          "uuid": "9b333014-c6b6-4007-8115-dfb25c57ced7"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e WIFI_BUCK_OUT)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        },
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.1000 mm",
+          "pos": {
+            "x": 56.65,
+            "y": 27.6
+          },
+          "uuid": "7ed83a81-ba96-4a6a-9cec-58eeec4e7bf7"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.0832 mm)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        },
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 56.2,
+            "y": 26.85
+          },
+          "uuid": "a76b70bf-1f69-40aa-8741-2aadd86dce73"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e WIFI_BUCK_OUT)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        },
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 56.35,
+            "y": 27.25
+          },
+          "uuid": "63dee04e-4fb3-4fc0-8f71-92fe2bc7a8b5"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1800 mm)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        },
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 56.15,
+            "y": 26.75
+          },
+          "uuid": "a432ff7c-d842-4ffd-bd2d-9593cf24ce16"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e WIFI_BUCK_OUT)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        },
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 56.45,
+            "y": 27.4
+          },
+          "uuid": "5fe4cd17-a43e-445f-97b6-a93cb66d2f24"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.0336 mm)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        },
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 56.2,
+            "y": 26.9
+          },
+          "uuid": "6d37d386-da87-4d9a-ac07-3d3afd41ef50"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e WIFI_BUCK_OUT)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        },
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.1000 mm",
+          "pos": {
+            "x": 56.25,
+            "y": 27.05
+          },
+          "uuid": "7368f4dd-4e43-4896-9e4d-7f352bac6948"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e WIFI_BUCK_OUT)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        },
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 56.3,
+            "y": 27.1
+          },
+          "uuid": "6767f5f4-d2b7-4904-a321-1973f896d8f6"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.0700 mm)",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.6364 mm",
+          "pos": {
+            "x": 57.1,
+            "y": 28.05
+          },
+          "uuid": "1dea86e0-3017-46b3-8d68-478b43ff2bcb"
+        },
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll WIFI_BUCK_OUT e GND)",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 56.4,
+            "y": 27.35
+          },
+          "uuid": "1215d0a3-147e-4530-a943-29daf6d93c7c"
+        },
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.0917 mm)",
+      "items": [
+        {
+          "description": "Piazzola 1 [ETH_RXDV_CRS] di R511 su B.Cu",
+          "pos": {
+            "x": 59.99,
+            "y": 27.0
+          },
+          "uuid": "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+        },
+        {
+          "description": "Pista [WIFI_BUCK_SW] su B.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 59.75,
+            "y": 27.65
+          },
+          "uuid": "fb933a6d-39d3-49a0-a791-c2ad578fc9ad"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll ETH_RXDV_CRS e WIFI_BUCK_SW)",
+      "items": [
+        {
+          "description": "Piazzola 1 [ETH_RXDV_CRS] di R511 su B.Cu",
+          "pos": {
+            "x": 59.99,
+            "y": 27.0
+          },
+          "uuid": "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+        },
+        {
+          "description": "Pista [WIFI_BUCK_SW] su B.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 59.6,
+            "y": 27.35
+          },
+          "uuid": "f976cfe6-569d-40b2-9fa8-d7ca529f0ad4"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll ETH_RXDV_CRS e WIFI_BUCK_SW)",
+      "items": [
+        {
+          "description": "Piazzola 1 [ETH_RXDV_CRS] di R511 su B.Cu",
+          "pos": {
+            "x": 59.99,
+            "y": 27.0
+          },
+          "uuid": "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+        },
+        {
+          "description": "Pista [WIFI_BUCK_SW] su B.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 59.55,
+            "y": 27.2
+          },
+          "uuid": "ebdb884a-fa4f-420c-8dc2-e803cd062258"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1300 mm)",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 56.15,
+            "y": 26.8
+          },
+          "uuid": "00064a0f-d8dc-45ab-954f-84db442e50aa"
+        },
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll WIFI_BUCK_SW e ETH_RXDV_CRS)",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_SW] su B.Cu, lung. 0.1000 mm",
+          "pos": {
+            "x": 59.6,
+            "y": 27.25
+          },
+          "uuid": "e19d0350-3a04-42c8-b999-fe55d1956473"
+        },
+        {
+          "description": "Piazzola 1 [ETH_RXDV_CRS] di R511 su B.Cu",
+          "pos": {
+            "x": 59.99,
+            "y": 27.0
+          },
+          "uuid": "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll WIFI_BUCK_SW e ETH_RXDV_CRS)",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_SW] su B.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 59.65,
+            "y": 27.45
+          },
+          "uuid": "aa632a13-319e-4218-85fa-1651b3263227"
+        },
+        {
+          "description": "Piazzola 1 [ETH_RXDV_CRS] di R511 su B.Cu",
+          "pos": {
+            "x": 59.99,
+            "y": 27.0
+          },
+          "uuid": "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.0115 mm)",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_SW] su B.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 59.7,
+            "y": 27.55
+          },
+          "uuid": "a7044be5-fafd-4b04-86f6-4fffb865b48a"
+        },
+        {
+          "description": "Piazzola 1 [ETH_RXDV_CRS] di R511 su B.Cu",
+          "pos": {
+            "x": 59.99,
+            "y": 27.0
+          },
+          "uuid": "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1827 mm)",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_SW] su B.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 59.8,
+            "y": 27.75
+          },
+          "uuid": "9af123df-6e07-4a47-ae97-42c021962c99"
+        },
+        {
+          "description": "Piazzola 1 [ETH_RXDV_CRS] di R511 su B.Cu",
+          "pos": {
+            "x": 59.99,
+            "y": 27.0
+          },
+          "uuid": "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll WIFI_BUCK_SW e ETH_RXDV_CRS)",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_SW] su B.Cu, lung. 0.2121 mm",
+          "pos": {
+            "x": 59.4,
+            "y": 27.0
+          },
+          "uuid": "704b97f2-f35e-4d87-9945-1dc0b674969f"
+        },
+        {
+          "description": "Piazzola 1 [ETH_RXDV_CRS] di R511 su B.Cu",
+          "pos": {
+            "x": 59.99,
+            "y": 27.0
+          },
+          "uuid": "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.0431 mm)",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_SW] su B.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 59.75,
+            "y": 27.6
+          },
+          "uuid": "92527c9d-b7c1-4a64-9ef8-daaad54a95f7"
+        },
+        {
+          "description": "Piazzola 1 [ETH_RXDV_CRS] di R511 su B.Cu",
+          "pos": {
+            "x": 59.99,
+            "y": 27.0
+          },
+          "uuid": "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1329 mm)",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_SW] su B.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 59.8,
+            "y": 27.7
+          },
+          "uuid": "5cbaad35-8a8a-4ea2-9c30-2bf7417fe53d"
+        },
+        {
+          "description": "Piazzola 1 [ETH_RXDV_CRS] di R511 su B.Cu",
+          "pos": {
+            "x": 59.99,
+            "y": 27.0
+          },
+          "uuid": "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll WIFI_BUCK_SW e ETH_RXDV_CRS)",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_SW] su B.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 59.7,
+            "y": 27.5
+          },
+          "uuid": "2d57c95a-b3eb-4173-a316-49dddc549028"
+        },
+        {
+          "description": "Piazzola 1 [ETH_RXDV_CRS] di R511 su B.Cu",
+          "pos": {
+            "x": 59.99,
+            "y": 27.0
+          },
+          "uuid": "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll WIFI_BUCK_SW e ETH_RXDV_CRS)",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_SW] su B.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 59.65,
+            "y": 27.4
+          },
+          "uuid": "7c802138-35e2-4d6a-b85b-1ca78eae84c9"
+        },
+        {
+          "description": "Piazzola 1 [ETH_RXDV_CRS] di R511 su B.Cu",
+          "pos": {
+            "x": 59.99,
+            "y": 27.0
+          },
+          "uuid": "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll WIFI_BUCK_SW e ETH_RXDV_CRS)",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_SW] su B.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 59.55,
+            "y": 27.15
+          },
+          "uuid": "1480f61b-5b95-4484-b9fc-c996bd127b8e"
+        },
+        {
+          "description": "Piazzola 1 [ETH_RXDV_CRS] di R511 su B.Cu",
+          "pos": {
+            "x": 59.99,
+            "y": 27.0
+          },
+          "uuid": "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.0700 mm)",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_SW] su B.Cu, lung. 0.6500 mm",
+          "pos": {
+            "x": 58.75,
+            "y": 27.0
+          },
+          "uuid": "2475e3e6-9ccd-44a6-8a25-b18bb6260ed5"
+        },
+        {
+          "description": "Piazzola 1 [ETH_RXDV_CRS] di R511 su B.Cu",
+          "pos": {
+            "x": 59.99,
+            "y": 27.0
+          },
+          "uuid": "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1153 mm)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di C511 su F.Cu",
+          "pos": {
+            "x": 57.98,
+            "y": 32.5
+          },
+          "uuid": "480b132d-2229-4892-912a-28300a78afb5"
+        },
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 3.4750 mm",
+          "pos": {
+            "x": 57.825,
+            "y": 33.025
+          },
+          "uuid": "dc054662-c0f2-456c-873f-ed2c51d7d2e8"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1150 mm)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di C511 su F.Cu",
+          "pos": {
+            "x": 57.98,
+            "y": 32.5
+          },
+          "uuid": "480b132d-2229-4892-912a-28300a78afb5"
+        },
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 1.8750 mm",
+          "pos": {
+            "x": 59.7,
+            "y": 33.025
+          },
+          "uuid": "82f0a8b0-b161-4fb7-a856-0148b470af9b"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di C517 su F.Cu",
+          "pos": {
+            "x": 61.5,
+            "y": 26.52
+          },
+          "uuid": "9a2add14-3051-48bb-82a6-6e6226d016c2"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 61.2,
+            "y": 26.3
+          },
+          "uuid": "da265d3f-d1ce-4c02-bcc4-09b84927cfa0"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di C517 su F.Cu",
+          "pos": {
+            "x": 61.5,
+            "y": 26.52
+          },
+          "uuid": "9a2add14-3051-48bb-82a6-6e6226d016c2"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 61.25,
+            "y": 26.325
+          },
+          "uuid": "d86a7379-fc0e-4cdd-87db-3639bfdc7075"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +1V0_PHY e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 59.175,
+            "y": 27.9
+          },
+          "uuid": "b933b43f-ccc3-418b-ba26-2e16978ad305"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di C517 su F.Cu",
+          "pos": {
+            "x": 61.5,
+            "y": 26.52
+          },
+          "uuid": "9a2add14-3051-48bb-82a6-6e6226d016c2"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 61.275,
+            "y": 26.35
+          },
+          "uuid": "d045e74a-ed1e-479e-8ea6-892f945f442a"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +1V0_PHY e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 59.375,
+            "y": 27.8
+          },
+          "uuid": "bbb24669-c675-48f6-b9dd-3d665807592f"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di C517 su F.Cu",
+          "pos": {
+            "x": 61.5,
+            "y": 26.52
+          },
+          "uuid": "9a2add14-3051-48bb-82a6-6e6226d016c2"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 61.325,
+            "y": 26.375
+          },
+          "uuid": "c959ef2d-40c2-43e8-8d9e-82cf8ce976d4"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +1V0_PHY e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 59.2,
+            "y": 27.875
+          },
+          "uuid": "7a2fa846-e7cb-4480-9512-fb2dc51a3f7c"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +1V0_PHY e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 59.225,
+            "y": 27.875
+          },
+          "uuid": "8929f44a-8b02-4186-b64f-ea1054969760"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +1V0_PHY e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 59.35,
+            "y": 27.825
+          },
+          "uuid": "74cb9e6b-35a5-4062-b38d-67eeb848aaff"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +3V3_PHY e GND)",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 61.15,
+            "y": 26.275
+          },
+          "uuid": "8c6d510d-fa9a-4f25-8e8a-6b7aa93ee13f"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C517 su F.Cu",
+          "pos": {
+            "x": 61.5,
+            "y": 26.52
+          },
+          "uuid": "9a2add14-3051-48bb-82a6-6e6226d016c2"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di C517 su F.Cu",
+          "pos": {
+            "x": 61.5,
+            "y": 26.52
+          },
+          "uuid": "9a2add14-3051-48bb-82a6-6e6226d016c2"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 1.4250 mm",
+          "pos": {
+            "x": 61.6,
+            "y": 27.8
+          },
+          "uuid": "bdff9591-d015-46f5-9fb6-62305655d9e5"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.0250 mm)",
+      "items": [
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 2.6250 mm",
+          "pos": {
+            "x": 62.0,
+            "y": 27.8
+          },
+          "uuid": "8ccfef25-1b65-4547-b66b-62998aeeb909"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +1V0_PHY e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 59.3,
+            "y": 27.85
+          },
+          "uuid": "6835b246-d629-4599-9157-9028ebc524df"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +3V3_PHY e GND)",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 61.3,
+            "y": 26.35
+          },
+          "uuid": "84ba2493-4f7f-4dba-9c09-953ad0dd8f53"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C517 su F.Cu",
+          "pos": {
+            "x": 61.5,
+            "y": 26.52
+          },
+          "uuid": "9a2add14-3051-48bb-82a6-6e6226d016c2"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +1V0_PHY e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0050 mm",
+          "pos": {
+            "x": 59.0,
+            "y": 27.975
+          },
+          "uuid": "76cdf1f6-f47c-4503-8212-fe72405c2598"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +1V0_PHY e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 59.25,
+            "y": 27.85
+          },
+          "uuid": "68691bcd-623a-4a62-b445-3b37c4e06585"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1246 mm)",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 61.0,
+            "y": 26.225
+          },
+          "uuid": "6289aeb8-f8f8-4f3f-8d86-bfac9c597127"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C517 su F.Cu",
+          "pos": {
+            "x": 61.5,
+            "y": 26.52
+          },
+          "uuid": "9a2add14-3051-48bb-82a6-6e6226d016c2"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +1V0_PHY e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 59.325,
+            "y": 27.825
+          },
+          "uuid": "68fbb83c-2105-4909-986c-d6b68591262a"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +3V3_PHY e GND)",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 61.125,
+            "y": 26.275
+          },
+          "uuid": "6617eb05-3f27-4172-8f26-1d7cafe95ebd"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C517 su F.Cu",
+          "pos": {
+            "x": 61.5,
+            "y": 26.52
+          },
+          "uuid": "9a2add14-3051-48bb-82a6-6e6226d016c2"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +1V0_PHY e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 59.125,
+            "y": 27.925
+          },
+          "uuid": "3537ba25-afea-4549-b7ec-4fc52b7e6ed3"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1580 mm)",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 60.975,
+            "y": 26.2
+          },
+          "uuid": "2c683881-eb13-4047-9a8e-81bd7fee51f9"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C517 su F.Cu",
+          "pos": {
+            "x": 61.5,
+            "y": 26.52
+          },
+          "uuid": "9a2add14-3051-48bb-82a6-6e6226d016c2"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1021 mm)",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 61.025,
+            "y": 26.225
+          },
+          "uuid": "3008fa62-c147-4f6b-b5f6-34e5c547150a"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C517 su F.Cu",
+          "pos": {
+            "x": 61.5,
+            "y": 26.52
+          },
+          "uuid": "9a2add14-3051-48bb-82a6-6e6226d016c2"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +1V0_PHY e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 59.1,
+            "y": 27.925
+          },
+          "uuid": "4432bdff-5916-440b-a393-8ba545462d47"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +3V3_PHY e GND)",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 61.225,
+            "y": 26.325
+          },
+          "uuid": "2375c429-4c02-4689-b57c-f041d039b5f5"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C517 su F.Cu",
+          "pos": {
+            "x": 61.5,
+            "y": 26.52
+          },
+          "uuid": "9a2add14-3051-48bb-82a6-6e6226d016c2"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +1V0_PHY e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 59.025,
+            "y": 27.95
+          },
+          "uuid": "1d855e84-5b8e-4d9f-bd0e-c1d6b2a63462"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +1V0_PHY e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 59.075,
+            "y": 27.95
+          },
+          "uuid": "0c91a7ac-a5e6-4245-b1da-1a1f0ea315d0"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +3V3_PHY e GND)",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 61.175,
+            "y": 26.3
+          },
+          "uuid": "111f15e8-0cbf-4dc7-92ef-5099294d8720"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C517 su F.Cu",
+          "pos": {
+            "x": 61.5,
+            "y": 26.52
+          },
+          "uuid": "9a2add14-3051-48bb-82a6-6e6226d016c2"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.0687 mm)",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 61.05,
+            "y": 26.25
+          },
+          "uuid": "2ad9410e-00b1-4e96-847b-3228a955997a"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C517 su F.Cu",
+          "pos": {
+            "x": 61.5,
+            "y": 26.52
+          },
+          "uuid": "9a2add14-3051-48bb-82a6-6e6226d016c2"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1805 mm)",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 60.95,
+            "y": 26.2
+          },
+          "uuid": "1dc5f753-968e-428f-ada3-2fd3937ff186"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C517 su F.Cu",
+          "pos": {
+            "x": 61.5,
+            "y": 26.52
+          },
+          "uuid": "9a2add14-3051-48bb-82a6-6e6226d016c2"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +3V3_PHY e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 59.15,
+            "y": 27.9
+          },
+          "uuid": "07d14d92-6690-4dcb-951c-bcd581e73e14"
+        },
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +3V3_PHY e GND)",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.2750 mm",
+          "pos": {
+            "x": 61.6,
+            "y": 26.375
+          },
+          "uuid": "1f27092d-6b4b-4064-b305-d8acbe43e320"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C517 su F.Cu",
+          "pos": {
+            "x": 61.5,
+            "y": 26.52
+          },
+          "uuid": "9a2add14-3051-48bb-82a6-6e6226d016c2"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.0242 mm)",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 61.1,
+            "y": 26.25
+          },
+          "uuid": "0c1a4242-7fef-4e70-b3fa-c2f7f48a9bf3"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C517 su F.Cu",
+          "pos": {
+            "x": 61.5,
+            "y": 26.52
+          },
+          "uuid": "9a2add14-3051-48bb-82a6-6e6226d016c2"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1250 mm)",
+      "items": [
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        },
+        {
+          "description": "Via [VDD_CPU] su F.Cu - B.Cu",
+          "pos": {
+            "x": 56.5,
+            "y": 28.5
+          },
+          "uuid": "decd2621-ad18-4a23-aa33-46a4ade955a5"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +1V0_PHY e VDD_CPU)",
+      "items": [
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        },
+        {
+          "description": "Pista [VDD_CPU] su F.Cu, lung. 0.5657 mm",
+          "pos": {
+            "x": 56.9,
+            "y": 28.1
+          },
+          "uuid": "4b58f10c-0a44-4393-951b-d0a054da0ded"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +1V0_PHY e VDD_CPU)",
+      "items": [
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        },
+        {
+          "description": "Pista [VDD_CPU] su F.Cu, lung. 1.7000 mm",
+          "pos": {
+            "x": 56.9,
+            "y": 26.4
+          },
+          "uuid": "0daabfe1-f5d7-4891-969a-19aded14b60c"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.0750 mm)",
+      "items": [
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        },
+        {
+          "description": "Via [GND] su F.Cu - B.Cu",
+          "pos": {
+            "x": 55.85,
+            "y": 28.5
+          },
+          "uuid": "7d097c3e-a4a7-4d76-8ea1-251346757e08"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1500 mm)",
+      "items": [
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        },
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.0100 mm",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "d38ef377-f080-4d21-a29d-694417a69587"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +1V0_PHY e GND)",
+      "items": [
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        },
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.7500 mm",
+          "pos": {
+            "x": 56.0,
+            "y": 27.5
+          },
+          "uuid": "4457e05f-b871-4c78-b5c1-2b6bd399ad0b"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +1V0_PHY e GND)",
+      "items": [
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        },
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 56.0,
+            "y": 28.25
+          },
+          "uuid": "3a6a36d8-8e3c-4b05-b555-302af56bde5b"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +1V0_PHY e GND)",
+      "items": [
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        },
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.1414 mm",
+          "pos": {
+            "x": 55.95,
+            "y": 28.4
+          },
+          "uuid": "36bff35d-810c-4d65-b6ee-1dedb4115fc6"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +1V0_PHY e GND)",
+      "items": [
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        },
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.1000 mm",
+          "pos": {
+            "x": 55.95,
+            "y": 28.3
+          },
+          "uuid": "25a8a11b-d1aa-429d-9254-1175499da16e"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll WIFI_BUCK_OUT e GND)",
+      "items": [
+        {
+          "description": "Piazzola 1 [WIFI_BUCK_OUT] di C2003 su B.Cu",
+          "pos": {
+            "x": 56.5,
+            "y": 27.55
+          },
+          "uuid": "0a00f68a-d8f5-45a5-9c2b-b4735b2af9e6"
+        },
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1800 mm)",
+      "items": [
+        {
+          "description": "Piazzola 1 [WIFI_BUCK_SW] di L2001 su B.Cu",
+          "pos": {
+            "x": 60.1,
+            "y": 28.4
+          },
+          "uuid": "027e838e-d265-47d2-b06f-f8e57e444da7"
+        },
+        {
+          "description": "Piazzola 1 [ETH_RXDV_CRS] di R511 su B.Cu",
+          "pos": {
+            "x": 59.99,
+            "y": 27.0
+          },
+          "uuid": "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance foro (vincoli impostazioni scheda fori clearance 0.2500 mm; reale 0.0000 mm)",
+      "items": [
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        },
+        {
+          "description": "Via [GND] su F.Cu - B.Cu",
+          "pos": {
+            "x": 55.85,
+            "y": 28.5
+          },
+          "uuid": "7d097c3e-a4a7-4d76-8ea1-251346757e08"
+        }
+      ],
+      "severity": "error",
+      "type": "hole_clearance"
+    },
+    {
+      "description": "Violazione clearance foro (vincoli impostazioni scheda fori clearance 0.2500 mm; reale 0.0000 mm)",
+      "items": [
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        },
+        {
+          "description": "Via [VDD_CPU] su F.Cu - B.Cu",
+          "pos": {
+            "x": 56.5,
+            "y": 28.5
+          },
+          "uuid": "decd2621-ad18-4a23-aa33-46a4ade955a5"
+        }
+      ],
+      "severity": "error",
+      "type": "hole_clearance"
+    },
+    {
+      "description": "Courtyards overlap",
+      "items": [
+        {
+          "description": "Impronta R522",
+          "pos": {
+            "x": 55.5,
+            "y": 27.5
+          },
+          "uuid": "22afcda7-40df-4596-b4d2-91439f4050b7"
+        },
+        {
+          "description": "Impronta C2004",
+          "pos": {
+            "x": 53.75,
+            "y": 28.2
+          },
+          "uuid": "8e8ead25-f2c0-42ce-909b-2ba4d30582df"
+        }
+      ],
+      "severity": "error",
+      "type": "courtyards_overlap"
+    },
+    {
+      "description": "Courtyards overlap",
+      "items": [
+        {
+          "description": "Impronta R522",
+          "pos": {
+            "x": 55.5,
+            "y": 27.5
+          },
+          "uuid": "22afcda7-40df-4596-b4d2-91439f4050b7"
+        },
+        {
+          "description": "Impronta C2003",
+          "pos": {
+            "x": 56.5,
+            "y": 28.5
+          },
+          "uuid": "ff06ea75-dd5a-4a7d-bf82-9d88cb23bff1"
+        }
+      ],
+      "severity": "error",
+      "type": "courtyards_overlap"
+    },
+    {
+      "description": "Courtyards overlap",
+      "items": [
+        {
+          "description": "Impronta L501",
+          "pos": {
+            "x": 57.4,
+            "y": 29.8
+          },
+          "uuid": "4306854a-4581-4d67-ab97-ee218cee9e47"
+        },
+        {
+          "description": "Impronta C511",
+          "pos": {
+            "x": 57.5,
+            "y": 32.5
+          },
+          "uuid": "9584f1a8-9c80-48a9-bcdc-cf024f37fbb9"
+        }
+      ],
+      "severity": "error",
+      "type": "courtyards_overlap"
+    },
+    {
+      "description": "Courtyards overlap",
+      "items": [
+        {
+          "description": "Impronta R511",
+          "pos": {
+            "x": 60.5,
+            "y": 27.0
+          },
+          "uuid": "6e9bb349-60f9-4034-8721-39998592b1d0"
+        },
+        {
+          "description": "Impronta L2001",
+          "pos": {
+            "x": 59.3,
+            "y": 28.4
+          },
+          "uuid": "8f8a3473-4a53-4eaa-80d7-ba388c05d4fb"
+        }
+      ],
+      "severity": "error",
+      "type": "courtyards_overlap"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Via [GND] su F.Cu - B.Cu",
+          "pos": {
+            "x": 55.85,
+            "y": 28.5
+          },
+          "uuid": "7d097c3e-a4a7-4d76-8ea1-251346757e08"
+        },
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.1000 mm",
+          "pos": {
+            "x": 55.95,
+            "y": 28.3
+          },
+          "uuid": "25a8a11b-d1aa-429d-9254-1175499da16e"
+        },
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.1414 mm",
+          "pos": {
+            "x": 55.95,
+            "y": 28.4
+          },
+          "uuid": "36bff35d-810c-4d65-b6ee-1dedb4115fc6"
+        },
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 56.0,
+            "y": 28.25
+          },
+          "uuid": "3a6a36d8-8e3c-4b05-b555-302af56bde5b"
+        },
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.7500 mm",
+          "pos": {
+            "x": 56.0,
+            "y": 27.5
+          },
+          "uuid": "4457e05f-b871-4c78-b5c1-2b6bd399ad0b"
+        },
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 59.15,
+            "y": 27.9
+          },
+          "uuid": "07d14d92-6690-4dcb-951c-bcd581e73e14"
+        },
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 59.075,
+            "y": 27.95
+          },
+          "uuid": "0c91a7ac-a5e6-4245-b1da-1a1f0ea315d0"
+        },
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 61.175,
+            "y": 26.3
+          },
+          "uuid": "111f15e8-0cbf-4dc7-92ef-5099294d8720"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C517 su F.Cu",
+          "pos": {
+            "x": 61.5,
+            "y": 26.52
+          },
+          "uuid": "9a2add14-3051-48bb-82a6-6e6226d016c2"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 59.025,
+            "y": 27.95
+          },
+          "uuid": "1d855e84-5b8e-4d9f-bd0e-c1d6b2a63462"
+        },
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.2750 mm",
+          "pos": {
+            "x": 61.6,
+            "y": 26.375
+          },
+          "uuid": "1f27092d-6b4b-4064-b305-d8acbe43e320"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C517 su F.Cu",
+          "pos": {
+            "x": 61.5,
+            "y": 26.52
+          },
+          "uuid": "9a2add14-3051-48bb-82a6-6e6226d016c2"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 61.225,
+            "y": 26.325
+          },
+          "uuid": "2375c429-4c02-4689-b57c-f041d039b5f5"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C517 su F.Cu",
+          "pos": {
+            "x": 61.5,
+            "y": 26.52
+          },
+          "uuid": "9a2add14-3051-48bb-82a6-6e6226d016c2"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 59.125,
+            "y": 27.925
+          },
+          "uuid": "3537ba25-afea-4549-b7ec-4fc52b7e6ed3"
+        },
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 59.1,
+            "y": 27.925
+          },
+          "uuid": "4432bdff-5916-440b-a393-8ba545462d47"
+        },
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 61.125,
+            "y": 26.275
+          },
+          "uuid": "6617eb05-3f27-4172-8f26-1d7cafe95ebd"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C517 su F.Cu",
+          "pos": {
+            "x": 61.5,
+            "y": 26.52
+          },
+          "uuid": "9a2add14-3051-48bb-82a6-6e6226d016c2"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 59.3,
+            "y": 27.85
+          },
+          "uuid": "6835b246-d629-4599-9157-9028ebc524df"
+        },
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 59.25,
+            "y": 27.85
+          },
+          "uuid": "68691bcd-623a-4a62-b445-3b37c4e06585"
+        },
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 59.325,
+            "y": 27.825
+          },
+          "uuid": "68fbb83c-2105-4909-986c-d6b68591262a"
+        },
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 59.35,
+            "y": 27.825
+          },
+          "uuid": "74cb9e6b-35a5-4062-b38d-67eeb848aaff"
+        },
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0050 mm",
+          "pos": {
+            "x": 59.0,
+            "y": 27.975
+          },
+          "uuid": "76cdf1f6-f47c-4503-8212-fe72405c2598"
+        },
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 59.2,
+            "y": 27.875
+          },
+          "uuid": "7a2fa846-e7cb-4480-9512-fb2dc51a3f7c"
+        },
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 61.3,
+            "y": 26.35
+          },
+          "uuid": "84ba2493-4f7f-4dba-9c09-953ad0dd8f53"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C517 su F.Cu",
+          "pos": {
+            "x": 61.5,
+            "y": 26.52
+          },
+          "uuid": "9a2add14-3051-48bb-82a6-6e6226d016c2"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 59.225,
+            "y": 27.875
+          },
+          "uuid": "8929f44a-8b02-4186-b64f-ea1054969760"
+        },
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 61.15,
+            "y": 26.275
+          },
+          "uuid": "8c6d510d-fa9a-4f25-8e8a-6b7aa93ee13f"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C517 su F.Cu",
+          "pos": {
+            "x": 61.5,
+            "y": 26.52
+          },
+          "uuid": "9a2add14-3051-48bb-82a6-6e6226d016c2"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 59.175,
+            "y": 27.9
+          },
+          "uuid": "b933b43f-ccc3-418b-ba26-2e16978ad305"
+        },
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 1.4250 mm",
+          "pos": {
+            "x": 61.6,
+            "y": 27.8
+          },
+          "uuid": "bdff9591-d015-46f5-9fb6-62305655d9e5"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C517 su F.Cu",
+          "pos": {
+            "x": 61.5,
+            "y": 26.52
+          },
+          "uuid": "9a2add14-3051-48bb-82a6-6e6226d016c2"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 61.325,
+            "y": 26.375
+          },
+          "uuid": "c959ef2d-40c2-43e8-8d9e-82cf8ce976d4"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C517 su F.Cu",
+          "pos": {
+            "x": 61.5,
+            "y": 26.52
+          },
+          "uuid": "9a2add14-3051-48bb-82a6-6e6226d016c2"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 61.275,
+            "y": 26.35
+          },
+          "uuid": "d045e74a-ed1e-479e-8ea6-892f945f442a"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C517 su F.Cu",
+          "pos": {
+            "x": 61.5,
+            "y": 26.52
+          },
+          "uuid": "9a2add14-3051-48bb-82a6-6e6226d016c2"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 61.25,
+            "y": 26.325
+          },
+          "uuid": "d86a7379-fc0e-4cdd-87db-3639bfdc7075"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C517 su F.Cu",
+          "pos": {
+            "x": 61.5,
+            "y": 26.52
+          },
+          "uuid": "9a2add14-3051-48bb-82a6-6e6226d016c2"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 61.2,
+            "y": 26.3
+          },
+          "uuid": "da265d3f-d1ce-4c02-bcc4-09b84927cfa0"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C517 su F.Cu",
+          "pos": {
+            "x": 61.5,
+            "y": 26.52
+          },
+          "uuid": "9a2add14-3051-48bb-82a6-6e6226d016c2"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [VDD_CPU] su F.Cu, lung. 1.7000 mm",
+          "pos": {
+            "x": 56.9,
+            "y": 26.4
+          },
+          "uuid": "0daabfe1-f5d7-4891-969a-19aded14b60c"
+        },
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [VDD_CPU] su F.Cu, lung. 0.5657 mm",
+          "pos": {
+            "x": 56.9,
+            "y": 28.1
+          },
+          "uuid": "4b58f10c-0a44-4393-951b-d0a054da0ded"
+        },
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Via [VDD_CPU] su F.Cu - B.Cu",
+          "pos": {
+            "x": 56.5,
+            "y": 28.5
+          },
+          "uuid": "decd2621-ad18-4a23-aa33-46a4ade955a5"
+        },
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.4,
+            "y": 28.3
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura retro fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_SW] su B.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 59.55,
+            "y": 27.15
+          },
+          "uuid": "1480f61b-5b95-4484-b9fc-c996bd127b8e"
+        },
+        {
+          "description": "Piazzola 1 [ETH_RXDV_CRS] di R511 su B.Cu",
+          "pos": {
+            "x": 59.99,
+            "y": 27.0
+          },
+          "uuid": "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura retro fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_SW] su B.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 59.7,
+            "y": 27.5
+          },
+          "uuid": "2d57c95a-b3eb-4173-a316-49dddc549028"
+        },
+        {
+          "description": "Piazzola 1 [ETH_RXDV_CRS] di R511 su B.Cu",
+          "pos": {
+            "x": 59.99,
+            "y": 27.0
+          },
+          "uuid": "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura retro fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_SW] su B.Cu, lung. 0.2121 mm",
+          "pos": {
+            "x": 59.4,
+            "y": 27.0
+          },
+          "uuid": "704b97f2-f35e-4d87-9945-1dc0b674969f"
+        },
+        {
+          "description": "Piazzola 1 [ETH_RXDV_CRS] di R511 su B.Cu",
+          "pos": {
+            "x": 59.99,
+            "y": 27.0
+          },
+          "uuid": "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura retro fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_SW] su B.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 59.65,
+            "y": 27.4
+          },
+          "uuid": "7c802138-35e2-4d6a-b85b-1ca78eae84c9"
+        },
+        {
+          "description": "Piazzola 1 [ETH_RXDV_CRS] di R511 su B.Cu",
+          "pos": {
+            "x": 59.99,
+            "y": 27.0
+          },
+          "uuid": "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura retro fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_SW] su B.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 59.65,
+            "y": 27.45
+          },
+          "uuid": "aa632a13-319e-4218-85fa-1651b3263227"
+        },
+        {
+          "description": "Piazzola 1 [ETH_RXDV_CRS] di R511 su B.Cu",
+          "pos": {
+            "x": 59.99,
+            "y": 27.0
+          },
+          "uuid": "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura retro fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_SW] su B.Cu, lung. 0.1000 mm",
+          "pos": {
+            "x": 59.6,
+            "y": 27.25
+          },
+          "uuid": "e19d0350-3a04-42c8-b999-fe55d1956473"
+        },
+        {
+          "description": "Piazzola 1 [ETH_RXDV_CRS] di R511 su B.Cu",
+          "pos": {
+            "x": 59.99,
+            "y": 27.0
+          },
+          "uuid": "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura retro fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        },
+        {
+          "description": "Piazzola 1 [WIFI_BUCK_OUT] di C2003 su B.Cu",
+          "pos": {
+            "x": 56.5,
+            "y": 27.55
+          },
+          "uuid": "0a00f68a-d8f5-45a5-9c2b-b4735b2af9e6"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura retro fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_SW] su B.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 59.55,
+            "y": 27.2
+          },
+          "uuid": "ebdb884a-fa4f-420c-8dc2-e803cd062258"
+        },
+        {
+          "description": "Piazzola 1 [ETH_RXDV_CRS] di R511 su B.Cu",
+          "pos": {
+            "x": 59.99,
+            "y": 27.0
+          },
+          "uuid": "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura retro fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_SW] su B.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 59.6,
+            "y": 27.35
+          },
+          "uuid": "f976cfe6-569d-40b2-9fa8-d7ca529f0ad4"
+        },
+        {
+          "description": "Piazzola 1 [ETH_RXDV_CRS] di R511 su B.Cu",
+          "pos": {
+            "x": 59.99,
+            "y": 27.0
+          },
+          "uuid": "ea6a1807-42ee-4f5b-a19a-77dc6bf24f33"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura retro fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 56.4,
+            "y": 27.35
+          },
+          "uuid": "1215d0a3-147e-4530-a943-29daf6d93c7c"
+        },
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura retro fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 56.45,
+            "y": 27.4
+          },
+          "uuid": "5fe4cd17-a43e-445f-97b6-a93cb66d2f24"
+        },
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura retro fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 56.35,
+            "y": 27.25
+          },
+          "uuid": "63dee04e-4fb3-4fc0-8f71-92fe2bc7a8b5"
+        },
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura retro fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 56.3,
+            "y": 27.1
+          },
+          "uuid": "6767f5f4-d2b7-4904-a321-1973f896d8f6"
+        },
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura retro fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.1000 mm",
+          "pos": {
+            "x": 56.25,
+            "y": 27.05
+          },
+          "uuid": "7368f4dd-4e43-4896-9e4d-7f352bac6948"
+        },
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura retro fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 56.5,
+            "y": 27.55
+          },
+          "uuid": "7d69b267-8431-4aca-a3ca-d877c020207c"
+        },
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura retro fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.1000 mm",
+          "pos": {
+            "x": 56.65,
+            "y": 27.6
+          },
+          "uuid": "7ed83a81-ba96-4a6a-9cec-58eeec4e7bf7"
+        },
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura retro fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 56.35,
+            "y": 27.2
+          },
+          "uuid": "97a00225-bd50-4cbe-bf21-4fa35568f0dc"
+        },
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura retro fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 56.5,
+            "y": 27.5
+          },
+          "uuid": "9b333014-c6b6-4007-8115-dfb25c57ced7"
+        },
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura retro fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 56.45,
+            "y": 27.45
+          },
+          "uuid": "bad7bc08-8487-48c5-bdda-0c7733e40707"
+        },
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura retro fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 56.3,
+            "y": 27.15
+          },
+          "uuid": "c28c89bb-2ca1-4104-94bc-59a5b332a2ed"
+        },
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura retro fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 56.4,
+            "y": 27.3
+          },
+          "uuid": "dc7ff7f7-babe-4b68-82f9-286dabfc2e9b"
+        },
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura retro fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 56.55,
+            "y": 27.6
+          },
+          "uuid": "e7e23ceb-d316-4250-bf0f-16ea1a68cb54"
+        },
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura retro fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [WIFI_BUCK_OUT] su B.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 56.25,
+            "y": 26.95
+          },
+          "uuid": "f1a36b16-22fb-410a-aa61-46fe6cca2555"
+        },
+        {
+          "description": "Piazzola 2 [GND] di R522 su B.Cu",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "587ce904-8157-474c-9b18-0255ac59b72c"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Track has unconnected end",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.0200 mm",
+          "pos": {
+            "x": 76.98,
+            "y": 36.0
+          },
+          "uuid": "410979f8-580d-4434-9883-ad3cf785333c"
+        }
+      ],
+      "severity": "warning",
+      "type": "track_dangling"
+    },
+    {
+      "description": "Track has unconnected end",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.0200 mm",
+          "pos": {
+            "x": 59.0,
+            "y": 27.02
+          },
+          "uuid": "b78a7fd7-95e8-4fe2-9bea-c07cc6cce27b"
+        }
+      ],
+      "severity": "warning",
+      "type": "track_dangling"
+    },
+    {
+      "description": "Track has unconnected end",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.0100 mm",
+          "pos": {
+            "x": 56.01,
+            "y": 27.5
+          },
+          "uuid": "d38ef377-f080-4d21-a29d-694417a69587"
+        }
+      ],
+      "severity": "warning",
+      "type": "track_dangling"
+    }
+  ],
+  "mechanical_conflicts": [],
+  "temporary_candidate": "/var/folders/6f/jhxwwy_j2pv1b74_x7hd795m0000gn/T/phoenix-joint-power-hkqaixk6/ethernet-dvdd33-bypass.kicad_pcb",
+  "candidate_sha256": "fe15b4d2e836ee6dbe12ff67bafa18d9259dc9147833524d039f75cdd37169bd",
+  "checkpoint_modified": false,
+  "assembly_ready": false,
+  "limitations": [
+    "Moved pads are not rerouted. Ground and signal continuity must be restored before acceptance.",
+    "No power-current or oscillator qualification; original checkpoint untouched."
+  ]
+}

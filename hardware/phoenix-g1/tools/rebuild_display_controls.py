@@ -30,10 +30,17 @@ STAGES = [
     ('ethernet-clock-placement', 'route_ethernet_clock_placement.py', 'ETHERNET_CLOCK_PLACEMENT_CONNECTED'),
     ('ethernet-clock-grounds', 'route_ethernet_clock_grounds.py', 'ETHERNET_CLOCK_GROUNDS_CONNECTED'),
     ('ethernet-clock-pins', 'route_ethernet_clock_pins.py', 'ETHERNET_CLOCK_PINS_CONNECTED'),
+    ('ethernet-cap-grounds', 'route_ethernet_cap_grounds.py', 'ETHERNET_CAP_GROUNDS_CONNECTED'),
+    ('ethernet-bypass-local', 'route_ethernet_bypass_local.py', 'ETHERNET_BYPASS_LOCAL_CONNECTED'),
+    ('ethernet-avdd33-bypass', 'route_ethernet_avdd33_bypass.py', 'ETHERNET_AVDD33_BYPASS_CONNECTED'),
+    ('ethernet-io-power-link', 'route_ethernet_io_power_link.py', 'ETHERNET_IO_POWER_LINK_CONNECTED'),
+    ('ethernet-avdd10-escape', 'route_ethernet_avdd10_escape.py', 'ETHERNET_AVDD10_ESCAPE_CONNECTED'),
+    ('ethernet-io-bypass-escape', 'route_ethernet_io_bypass_escape.py', 'ETHERNET_IO_BYPASS_ESCAPE_CONNECTED'),
+    ('ethernet-dvdd33-bypass', 'route_ethernet_dvdd33_bypass.py', 'ETHERNET_DVDD33_BYPASS_CONNECTED'),
 ]
 EXTRA = [D/'working-candidate.json'] + [D/'pcb'/name for name in (
     'final-audit.json', 'connectivity-inventory.json', 'display-integration-audit.json',
-    'display-routing-metrics.json','mount-component-screen.json')]
+    'display-routing-metrics.json','mount-component-screen.json','phy-supply-placement.json')]
 
 def generated_paths():
     paths = set(EXTRA)
@@ -69,8 +76,10 @@ def main():
                 print(stem+': accepted geometry and continuity',flush=True)
             run('audit_pmic_ldo_inputs.py')
             run('test_pmic_ldo_input_audit.py')
+            run('test_phy_clock_power_clearance.py')
             run('audit_display_integration.py')
             run('report_display_routing.py')
+            run('report_phy_supply_placement.py')
             run('audit_mount_component_reservations.py','--baseline',D/'pcb/ethernet-bias-grounds.kicad_pcb')
             assert not json.loads((D/'pcb/mount-component-screen.json').read_text())['introduced_conflicts']
             run('test_mount_component_reservations.py')

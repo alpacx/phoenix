@@ -1,0 +1,19 @@
+{
+  "status": "REJECTED_NO_GROUND_DETOUR_AT_ORIGINAL_WIDTH",
+  "source_sha256": "a250b2670de4fe5c42deb37589dd6d8f8fabd6aef7982c5572683cc5c3690164",
+  "parent_sha256": "a250b2670de4fe5c42deb37589dd6d8f8fabd6aef7982c5572683cc5c3690164",
+  "includes_input_bulk": false,
+  "original_ground_width_mm": 0.8,
+  "screen_bounds_mm": [
+    48,
+    27,
+    55,
+    33
+  ],
+  "checkpoint_modified": false,
+  "assembly_ready": false,
+  "limitations": [
+    "Earlier 0.20 mm ground detour is rejected: original segment is 0.80 mm wide.",
+    "No 0.80 mm path found in bounded screen; not proof of global impossibility."
+  ]
+}

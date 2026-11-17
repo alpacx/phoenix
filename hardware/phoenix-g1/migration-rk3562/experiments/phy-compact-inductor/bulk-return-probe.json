@@ -1,0 +1,156 @@
+{
+  "source": "/var/folders/6f/jhxwwy_j2pv1b74_x7hd795m0000gn/T/phoenix-corridor-bypass-u6sq5x56/phy-compact-output.kicad_pcb",
+  "candidate": "/var/folders/6f/jhxwwy_j2pv1b74_x7hd795m0000gn/T/phoenix-bulk-return-g35xi88t/phy-compact-output.kicad_pcb",
+  "parent_sha256": "73c1baedf80e1ad7b7259cf3a2c8f441af1d521900f6371964a417ad3bc970b5",
+  "candidate_sha256": "299b4e4dd2dbe9254adf67f27524399a8dc50f2adef2150dac4bdb1a0498b4b1",
+  "removed": [
+    "0ec488aa-42be-493e-8eb6-b4efd4e59eda",
+    "10c90e63-9544-4977-a56c-418aa27a98d9",
+    "300f55af-9dd1-4abd-b193-3d18a655510f",
+    "4242e736-e1d4-41f2-9325-8d1633b9b79f",
+    "4f78cbc9-7151-41cd-8789-43f445dd4e9f",
+    "5a55752e-c6a5-4f4c-ad5c-2cd519d81d0a",
+    "78098fa1-629a-4a58-bcfe-fa8776d91519",
+    "9c4db2f5-cb09-4e4f-b57f-d729993f18db",
+    "ad43dbc7-0a2a-414c-8170-59709de649b4",
+    "a36c473d-bee0-4a0d-a430-2a438e521470"
+  ],
+  "new_ground_path_mm": [
+    [
+      63.525,
+      24.2
+    ],
+    [
+      63.525,
+      23.3
+    ],
+    [
+      64.5,
+      22.325
+    ],
+    [
+      64.5,
+      22
+    ]
+  ],
+  "width_mm": 0.5,
+  "old_width_mm": 0.2,
+  "old_length_mm": 3.154898987322327,
+  "length_mm": 2.6038582233137677,
+  "limitations": [
+    "Geometric return improvement only. Shared-ground noise, loop inductance and plane currents are not qualified.",
+    "No reduction of original copper widths; regulator switching node remains open."
+  ],
+  "new_violations": [],
+  "details": [],
+  "status": "BULK_RETURN_GEOMETRY_PASSED",
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5789,
+    "explicitly_replaced_copper": {
+      "0ec488aa-42be-493e-8eb6-b4efd4e59eda": [
+        "GND",
+        0,
+        61700000,
+        23050000,
+        61700000,
+        22650000,
+        200000,
+        null
+      ],
+      "10c90e63-9544-4977-a56c-418aa27a98d9": [
+        "GND",
+        0,
+        63350000,
+        24050000,
+        63350000,
+        24000000,
+        200000,
+        null
+      ],
+      "300f55af-9dd1-4abd-b193-3d18a655510f": [
+        "GND",
+        0,
+        63525000,
+        24200000,
+        63500000,
+        24200000,
+        200000,
+        null
+      ],
+      "4242e736-e1d4-41f2-9325-8d1633b9b79f": [
+        "GND",
+        0,
+        62000000,
+        23050000,
+        61700000,
+        23050000,
+        200000,
+        null
+      ],
+      "4f78cbc9-7151-41cd-8789-43f445dd4e9f": [
+        "GND",
+        0,
+        62750000,
+        23400000,
+        62350000,
+        23400000,
+        200000,
+        null
+      ],
+      "5a55752e-c6a5-4f4c-ad5c-2cd519d81d0a": [
+        "GND",
+        0,
+        62350000,
+        23400000,
+        62000000,
+        23050000,
+        200000,
+        null
+      ],
+      "78098fa1-629a-4a58-bcfe-fa8776d91519": [
+        "GND",
+        0,
+        63500000,
+        24200000,
+        63350000,
+        24050000,
+        200000,
+        null
+      ],
+      "9c4db2f5-cb09-4e4f-b57f-d729993f18db": [
+        "GND",
+        0,
+        61700000,
+        22650000,
+        61400000,
+        22350000,
+        200000,
+        null
+      ],
+      "a36c473d-bee0-4a0d-a430-2a438e521470": [
+        "GND",
+        0,
+        61400000,
+        22350000,
+        61400000,
+        22350000,
+        450000,
+        200000
+      ],
+      "ad43dbc7-0a2a-414c-8170-59709de649b4": [
+        "GND",
+        0,
+        63350000,
+        24000000,
+        62750000,
+        23400000,
+        200000,
+        null
+      ]
+    },
+    "added_tracks_vias": -7,
+    "existing_connected_pad_groups_preserved": 70
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "status": "CURRENT_RGMII_SOURCE_PLACEMENT_REVIEW",
+  "source_sha256": "a250b2670de4fe5c42deb37589dd6d8f8fabd6aef7982c5572683cc5c3690164",
+  "rows": [
+    {
+      "signal": "TXD0",
+      "resistor": "R501",
+      "source": "U1",
+      "source_pin": "AA1",
+      "source_net": "ETH_TXD0",
+      "straight_line_pad_distance_mm": 3.01,
+      "resistor_center_mm": [
+        34.0,
+        23.5
+      ],
+      "same_board_side": true,
+      "connected_to_driver": false,
+      "attached_copper_items": 0
+    },
+    {
+      "signal": "TXD1",
+      "resistor": "R502",
+      "source": "U1",
+      "source_pin": "AA2",
+      "source_net": "ETH_TXD1",
+      "straight_line_pad_distance_mm": 3.8171,
+      "resistor_center_mm": [
+        34.0,
+        22.0
+      ],
+      "same_board_side": true,
+      "connected_to_driver": false,
+      "attached_copper_items": 0
+    },
+    {
+      "signal": "TXD2",
+      "resistor": "R503",
+      "source": "U1",
+      "source_pin": "AB3",
+      "source_net": "ETH_TXD2",
+      "straight_line_pad_distance_mm": 4.1328,
+      "resistor_center_mm": [
+        34.0,
+        25.0
+      ],
+      "same_board_side": true,
+      "connected_to_driver": false,
+      "attached_copper_items": 0
+    },
+    {
+      "signal": "TXD3",
+      "resistor": "R504",
+      "source": "U1",
+      "source_pin": "AB2",
+      "source_net": "ETH_TXD3",
+      "straight_line_pad_distance_mm": 4.3093,
+      "resistor_center_mm": [
+        34.0,
+        26.5
+      ],
+      "same_board_side": true,
+      "connected_to_driver": false,
+      "attached_copper_items": 0
+    },
+    {
+      "signal": "TXEN",
+      "resistor": "R505",
+      "source": "U1",
+      "source_pin": "AA3",
+      "source_net": "ETH_TXEN",
+      "straight_line_pad_distance_mm": 5.008,
+      "resistor_center_mm": [
+        34.0,
+        20.5
+      ],
+      "same_board_side": true,
+      "connected_to_driver": false,
+      "attached_copper_items": 0
+    },
+    {
+      "signal": "TXCLK",
+      "resistor": "R506",
+      "source": "U1",
+      "source_pin": "Y2",
+      "source_net": "ETH_TXCLK",
+      "straight_line_pad_distance_mm": 5.3217,
+      "resistor_center_mm": [
+        34.0,
+        19.0
+      ],
+      "same_board_side": true,
+      "connected_to_driver": false,
+      "attached_copper_items": 0
+    },
+    {
+      "signal": "RXD0",
+      "resistor": "R507",
+      "source": "U5",
+      "source_pin": "25",
+      "source_net": "PHY_RXD0",
+      "straight_line_pad_distance_mm": 1.6298,
+      "resistor_center_mm": [
+        63.0,
+        27.0
+      ],
+      "same_board_side": true,
+      "connected_to_driver": false,
+      "attached_copper_items": 0
+    },
+    {
+      "signal": "RXD1",
+      "resistor": "R508",
+      "source": "U5",
+      "source_pin": "24",
+      "source_net": "PHY_RXD1",
+      "straight_line_pad_distance_mm": 2.8928,
+      "resistor_center_mm": [
+        65.5,
+        27.0
+      ],
+      "same_board_side": true,
+      "connected_to_driver": false,
+      "attached_copper_items": 0
+    },
+    {
+      "signal": "RXD2",
+      "resistor": "R509",
+      "source": "U5",
+      "source_pin": "23",
+      "source_net": "PHY_RXD2",
+      "straight_line_pad_distance_mm": 3.1417,
+      "resistor_center_mm": [
+        64.0,
+        25.5
+      ],
+      "same_board_side": true,
+      "connected_to_driver": false,
+      "attached_copper_items": 0
+    },
+    {
+      "signal": "RXD3",
+      "resistor": "R510",
+      "source": "U5",
+      "source_pin": "22",
+      "source_net": "PHY_RXD3",
+      "straight_line_pad_distance_mm": 3.872,
+      "resistor_center_mm": [
+        67.5,
+        30.0
+      ],
+      "same_board_side": true,
+      "connected_to_driver": false,
+      "attached_copper_items": 0
+    },
+    {
+      "signal": "RXDV_CRS",
+      "resistor": "R511",
+      "source": "U5",
+      "source_pin": "26",
+      "source_net": "PHY_RXDV_CRS",
+      "straight_line_pad_distance_mm": 2.4009,
+      "resistor_center_mm": [
+        60.5,
+        27.0
+      ],
+      "same_board_side": true,
+      "connected_to_driver": false,
+      "attached_copper_items": 0
+    },
+    {
+      "signal": "RXCLK",
+      "resistor": "R512",
+      "source": "U5",
+      "source_pin": "27",
+      "source_net": "PHY_RXCLK",
+      "straight_line_pad_distance_mm": 3.1244,
+      "resistor_center_mm": [
+        61.5,
+        25.5
+      ],
+      "same_board_side": true,
+      "connected_to_driver": false,
+      "attached_copper_items": 0
+    }
+  ],
+  "limits": [
+    "Source directions/net segments taken from the existing RGMII contract, pins resolved on the active RK3562 PCB.",
+    "Distances are geometric lower bounds, not routed lengths, timing or signal-integrity results.",
+    "No arbitrary pass threshold: source termination placement, BGA escape and matching remain to be designed.",
+    "No footprint, net, resistor value or copper changed."
+  ],
+  "assembly_ready": false
+}

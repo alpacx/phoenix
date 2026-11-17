@@ -1,0 +1,21 @@
+{
+  "status": "ETHERNET_IO_POWER_LINK_CONNECTED",
+  "sha256": "2c8f319b77169020915cd1937bbe68b442593d75753025ca49480568c067b602",
+  "source_sha256": "b4c18b6d44e74f28fc0ccb7eb769f5cbeb14691598e8eb7be959e63b00d4feb9",
+  "checks": [
+    {
+      "from": "U5.28",
+      "to": "U5.29",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5643,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 1,
+    "existing_connected_pad_groups_preserved": 67
+  }
+}

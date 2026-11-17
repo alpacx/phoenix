@@ -1,0 +1,288 @@
+{
+  "source": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-compact-inductor/pcb/phy-compact-output.kicad_pcb",
+  "candidate": "/var/folders/6f/jhxwwy_j2pv1b74_x7hd795m0000gn/T/phoenix-corridor-bypass-0veyyy60/phy-compact-output.kicad_pcb",
+  "parent_sha256": "39aff07b844e6cb08cf5e5471968e6663b5ea2ce2997d5c9e373c937bdfdf024",
+  "candidate_sha256": "5ee2826a11f713db596559d31adbe7a3b664d32d89039b3f49338fa4414d124f",
+  "removed": [
+    "b78a7fd7-95e8-4fe2-9bea-c07cc6cce27b",
+    "f0c00b44-fe1d-4b1d-a1d4-66650688c703",
+    "07d14d92-6690-4dcb-951c-bcd581e73e14",
+    "0c91a7ac-a5e6-4245-b1da-1a1f0ea315d0",
+    "1d855e84-5b8e-4d9f-bd0e-c1d6b2a63462",
+    "3537ba25-afea-4549-b7ec-4fc52b7e6ed3",
+    "4432bdff-5916-440b-a393-8ba545462d47",
+    "6835b246-d629-4599-9157-9028ebc524df",
+    "68691bcd-623a-4a62-b445-3b37c4e06585",
+    "68fbb83c-2105-4909-986c-d6b68591262a",
+    "74cb9e6b-35a5-4062-b38d-67eeb848aaff",
+    "76cdf1f6-f47c-4503-8212-fe72405c2598",
+    "7a2fa846-e7cb-4480-9512-fb2dc51a3f7c",
+    "8929f44a-8b02-4186-b64f-ea1054969760",
+    "8ccfef25-1b65-4547-b66b-62998aeeb909",
+    "b933b43f-ccc3-418b-ba26-2e16978ad305",
+    "bbb24669-c675-48f6-b9dd-3d665807592f"
+  ],
+  "moves": {
+    "C517": [
+      62.5,
+      27,
+      90,
+      "F"
+    ],
+    "R511": [
+      61.5,
+      27.75,
+      90.0,
+      "B"
+    ],
+    "R507": [
+      63,
+      27,
+      0,
+      "B"
+    ]
+  },
+  "power_branch_mm": [
+    [
+      62,
+      27.8
+    ],
+    [
+      62.18,
+      27.8
+    ],
+    [
+      62.5,
+      27.48
+    ]
+  ],
+  "ground_branch_mm": [
+    [
+      62.5,
+      26.52
+    ],
+    [
+      62.5,
+      26.525000000000002
+    ],
+    [
+      62.775000000000006,
+      26.525000000000002
+    ],
+    [
+      63.125,
+      26.875
+    ],
+    [
+      63.125,
+      27.0
+    ],
+    [
+      63.2,
+      27.075000000000003
+    ],
+    [
+      63.2,
+      27.700000000000003
+    ],
+    [
+      63.25,
+      27.75
+    ]
+  ],
+  "ground_via_mm": [
+    63.25,
+    27.75
+  ],
+  "widths_mm": {
+    "bypass": 0.2,
+    "ground": 0.2
+  },
+  "limitations": [
+    "Only bypass relocation. Input, switch node and load distribution remain open.",
+    "RX terminations require new fanout and signal-integrity assessment. No electrical qualification."
+  ],
+  "new_violations": [],
+  "details": [],
+  "status": "CORRIDOR_BYPASS_GEOMETRY_PASSED",
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5791,
+    "explicitly_replaced_copper": {
+      "07d14d92-6690-4dcb-951c-bcd581e73e14": [
+        "+3V3_PHY",
+        0,
+        59150000,
+        27900000,
+        59125000,
+        27925000,
+        200000,
+        null
+      ],
+      "0c91a7ac-a5e6-4245-b1da-1a1f0ea315d0": [
+        "+3V3_PHY",
+        0,
+        59075000,
+        27950000,
+        59025000,
+        27950000,
+        200000,
+        null
+      ],
+      "1d855e84-5b8e-4d9f-bd0e-c1d6b2a63462": [
+        "+3V3_PHY",
+        0,
+        59025000,
+        27950000,
+        59000000,
+        27975000,
+        200000,
+        null
+      ],
+      "3537ba25-afea-4549-b7ec-4fc52b7e6ed3": [
+        "+3V3_PHY",
+        0,
+        59125000,
+        27925000,
+        59100000,
+        27925000,
+        200000,
+        null
+      ],
+      "4432bdff-5916-440b-a393-8ba545462d47": [
+        "+3V3_PHY",
+        0,
+        59100000,
+        27925000,
+        59075000,
+        27950000,
+        200000,
+        null
+      ],
+      "6835b246-d629-4599-9157-9028ebc524df": [
+        "+3V3_PHY",
+        0,
+        59300000,
+        27850000,
+        59250000,
+        27850000,
+        200000,
+        null
+      ],
+      "68691bcd-623a-4a62-b445-3b37c4e06585": [
+        "+3V3_PHY",
+        0,
+        59250000,
+        27850000,
+        59225000,
+        27875000,
+        200000,
+        null
+      ],
+      "68fbb83c-2105-4909-986c-d6b68591262a": [
+        "+3V3_PHY",
+        0,
+        59325000,
+        27825000,
+        59300000,
+        27850000,
+        200000,
+        null
+      ],
+      "74cb9e6b-35a5-4062-b38d-67eeb848aaff": [
+        "+3V3_PHY",
+        0,
+        59350000,
+        27825000,
+        59325000,
+        27825000,
+        200000,
+        null
+      ],
+      "76cdf1f6-f47c-4503-8212-fe72405c2598": [
+        "+3V3_PHY",
+        0,
+        59000000,
+        27975000,
+        59000000,
+        27980000,
+        200000,
+        null
+      ],
+      "7a2fa846-e7cb-4480-9512-fb2dc51a3f7c": [
+        "+3V3_PHY",
+        0,
+        59200000,
+        27875000,
+        59175000,
+        27900000,
+        200000,
+        null
+      ],
+      "8929f44a-8b02-4186-b64f-ea1054969760": [
+        "+3V3_PHY",
+        0,
+        59225000,
+        27875000,
+        59200000,
+        27875000,
+        200000,
+        null
+      ],
+      "8ccfef25-1b65-4547-b66b-62998aeeb909": [
+        "+3V3_PHY",
+        0,
+        62000000,
+        27800000,
+        59375000,
+        27800000,
+        200000,
+        null
+      ],
+      "b78a7fd7-95e8-4fe2-9bea-c07cc6cce27b": [
+        "GND",
+        0,
+        59000000,
+        27020000,
+        59000000,
+        27000000,
+        200000,
+        null
+      ],
+      "b933b43f-ccc3-418b-ba26-2e16978ad305": [
+        "+3V3_PHY",
+        0,
+        59175000,
+        27900000,
+        59150000,
+        27900000,
+        200000,
+        null
+      ],
+      "bbb24669-c675-48f6-b9dd-3d665807592f": [
+        "+3V3_PHY",
+        0,
+        59375000,
+        27800000,
+        59350000,
+        27825000,
+        200000,
+        null
+      ],
+      "f0c00b44-fe1d-4b1d-a1d4-66650688c703": [
+        "GND",
+        0,
+        59000000,
+        27000000,
+        59000000,
+        26150000,
+        200000,
+        null
+      ]
+    },
+    "added_tracks_vias": -7,
+    "existing_connected_pad_groups_preserved": 70
+  },
+  "mechanical_conflicts": []
+}

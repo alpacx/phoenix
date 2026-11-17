@@ -1,0 +1,66 @@
+{
+  "status": "ETHERNET_CAP_GROUNDS_CONNECTED",
+  "sha256": "ec0008d3ffbd5c86aa0367ae6cc819b1ef0b932946f74d134f7d7c5150733fa5",
+  "source_sha256": "aef4536f8b85a1ccf51829c2cd736bc4e3c78279aa0d968866c7a620507cb96d",
+  "checks": [
+    {
+      "from": "C511.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "C512.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "C513.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "C514.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "C515.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "C516.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "C517.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "C518.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "C519.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "C522.2",
+      "to": "U20.2",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5558,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 30,
+    "existing_connected_pad_groups_preserved": 65
+  }
+}

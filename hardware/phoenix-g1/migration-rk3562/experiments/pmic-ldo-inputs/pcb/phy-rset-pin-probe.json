@@ -1,0 +1,21 @@
+{
+  "source_sha256": "96b01d90aa6225a873dac818f007459245adeb207920009b7f11e223b8266394",
+  "checkpoint_modified": false,
+  "assembly_ready": false,
+  "limits": [
+    "Geometric routing only: analog noise coupling and return path remain to be qualified."
+  ],
+  "width_mm": 0.2,
+  "extent_mm": [
+    56,
+    23,
+    69,
+    35
+  ],
+  "start_mm": [
+    60.0,
+    32.4
+  ],
+  "status": "NO_FRONT_PATH_IN_BOUNDED_MODEL",
+  "next_constraint": "Review R513 placement jointly with crystal and switch-node geometry; do not force a long analog-bias detour."
+}

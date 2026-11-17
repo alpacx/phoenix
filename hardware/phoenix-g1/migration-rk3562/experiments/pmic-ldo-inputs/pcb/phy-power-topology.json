@@ -1,0 +1,326 @@
+{
+  "status": "CONNECTIVITY_INVENTORY_NOT_POWER_QUALIFICATION",
+  "source_sha256": "a250b2670de4fe5c42deb37589dd6d8f8fabd6aef7982c5572683cc5c3690164",
+  "nets": [
+    {
+      "net": "PHY_SW",
+      "pad_count": 2,
+      "connected_pad_groups": [
+        [
+          "L501.1"
+        ],
+        [
+          "U5.30"
+        ]
+      ],
+      "minimum_joins": 1,
+      "pads": [
+        {
+          "pad": "L501.1",
+          "position_mm": [
+            58.9,
+            30.8
+          ],
+          "direct_copper_items": 0
+        },
+        {
+          "pad": "U5.30",
+          "position_mm": [
+            61.2,
+            28.6
+          ],
+          "direct_copper_items": 0
+        }
+      ]
+    },
+    {
+      "net": "+1V0_PHY",
+      "pad_count": 10,
+      "connected_pad_groups": [
+        [
+          "C511.1"
+        ],
+        [
+          "C512.1",
+          "U5.3"
+        ],
+        [
+          "C513.1"
+        ],
+        [
+          "C514.1",
+          "U5.21"
+        ],
+        [
+          "C522.1"
+        ],
+        [
+          "L501.2"
+        ],
+        [
+          "U5.38"
+        ],
+        [
+          "U5.8"
+        ]
+      ],
+      "minimum_joins": 7,
+      "pads": [
+        {
+          "pad": "C511.1",
+          "position_mm": [
+            76.02,
+            36.0
+          ],
+          "direct_copper_items": 0
+        },
+        {
+          "pad": "C512.1",
+          "position_mm": [
+            62.27,
+            34.75
+          ],
+          "direct_copper_items": 16
+        },
+        {
+          "pad": "C513.1",
+          "position_mm": [
+            76.02,
+            37.5
+          ],
+          "direct_copper_items": 0
+        },
+        {
+          "pad": "C514.1",
+          "position_mm": [
+            66.75,
+            28.98
+          ],
+          "direct_copper_items": 16
+        },
+        {
+          "pad": "C522.1",
+          "position_mm": [
+            82.02,
+            34.5
+          ],
+          "direct_copper_items": 0
+        },
+        {
+          "pad": "L501.2",
+          "position_mm": [
+            55.9,
+            30.8
+          ],
+          "direct_copper_items": 0
+        },
+        {
+          "pad": "U5.21",
+          "position_mm": [
+            64.8,
+            28.6
+          ],
+          "direct_copper_items": 1
+        },
+        {
+          "pad": "U5.3",
+          "position_mm": [
+            62.0,
+            33.4
+          ],
+          "direct_copper_items": 1
+        },
+        {
+          "pad": "U5.38",
+          "position_mm": [
+            60.6,
+            32.0
+          ],
+          "direct_copper_items": 0
+        },
+        {
+          "pad": "U5.8",
+          "position_mm": [
+            64.0,
+            33.4
+          ],
+          "direct_copper_items": 0
+        }
+      ]
+    },
+    {
+      "net": "+3V3_PHY",
+      "pad_count": 15,
+      "connected_pad_groups": [
+        [
+          "C515.1"
+        ],
+        [
+          "C516.1",
+          "U5.11"
+        ],
+        [
+          "C517.1",
+          "C519.1",
+          "U5.28",
+          "U5.29"
+        ],
+        [
+          "C518.1"
+        ],
+        [
+          "R514.2"
+        ],
+        [
+          "R521.2"
+        ],
+        [
+          "R525.2"
+        ],
+        [
+          "R526.2"
+        ],
+        [
+          "R527.2"
+        ],
+        [
+          "R530.2"
+        ],
+        [
+          "U5.40"
+        ]
+      ],
+      "minimum_joins": 10,
+      "pads": [
+        {
+          "pad": "C515.1",
+          "position_mm": [
+            79.52,
+            33.0
+          ],
+          "direct_copper_items": 0
+        },
+        {
+          "pad": "C516.1",
+          "position_mm": [
+            66.75,
+            33.23
+          ],
+          "direct_copper_items": 16
+        },
+        {
+          "pad": "C517.1",
+          "position_mm": [
+            59.0,
+            27.98
+          ],
+          "direct_copper_items": 15
+        },
+        {
+          "pad": "C518.1",
+          "position_mm": [
+            80.52,
+            31.5
+          ],
+          "direct_copper_items": 0
+        },
+        {
+          "pad": "C519.1",
+          "position_mm": [
+            59.98,
+            25.75
+          ],
+          "direct_copper_items": 4
+        },
+        {
+          "pad": "R514.2",
+          "position_mm": [
+            63.51,
+            38.0
+          ],
+          "direct_copper_items": 0
+        },
+        {
+          "pad": "R521.2",
+          "position_mm": [
+            69.51,
+            36.0
+          ],
+          "direct_copper_items": 0
+        },
+        {
+          "pad": "R525.2",
+          "position_mm": [
+            73.01,
+            32.5
+          ],
+          "direct_copper_items": 0
+        },
+        {
+          "pad": "R526.2",
+          "position_mm": [
+            72.01,
+            36.0
+          ],
+          "direct_copper_items": 0
+        },
+        {
+          "pad": "R527.2",
+          "position_mm": [
+            73.01,
+            34.0
+          ],
+          "direct_copper_items": 0
+        },
+        {
+          "pad": "R530.2",
+          "position_mm": [
+            53.51,
+            27.0
+          ],
+          "direct_copper_items": 0
+        },
+        {
+          "pad": "U5.11",
+          "position_mm": [
+            65.4,
+            32.8
+          ],
+          "direct_copper_items": 5
+        },
+        {
+          "pad": "U5.28",
+          "position_mm": [
+            62.0,
+            28.6
+          ],
+          "direct_copper_items": 2
+        },
+        {
+          "pad": "U5.29",
+          "position_mm": [
+            61.6,
+            28.6
+          ],
+          "direct_copper_items": 2
+        },
+        {
+          "pad": "U5.40",
+          "position_mm": [
+            60.6,
+            32.8
+          ],
+          "direct_copper_items": 0
+        }
+      ]
+    }
+  ],
+  "minimum_joins": 18,
+  "checkpoint_modified": false,
+  "assembly_ready": false,
+  "limitations": [
+    "Minimum joins are topological, not track counts.",
+    "Existing thin bypass copper can join pads without being adequate as a power distribution path.",
+    "Current capacity, return loops, regulator stability and oscillator coupling remain unqualified."
+  ]
+}

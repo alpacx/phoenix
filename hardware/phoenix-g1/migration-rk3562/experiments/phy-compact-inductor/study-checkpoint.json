@@ -1,0 +1,386 @@
+{
+  "status": "EXPERIMENTAL_GEOMETRY_CHECKPOINT_NOT_SELECTED_BOM",
+  "source_sha256": "a250b2670de4fe5c42deb37589dd6d8f8fabd6aef7982c5572683cc5c3690164",
+  "parent_sha256": "7d0b155ffaf826a22eb86b021721889908d99a5c1db7c625e2319b0f4fb47677",
+  "candidate_sha256": "39aff07b844e6cb08cf5e5471968e6663b5ea2ce2997d5c9e373c937bdfdf024",
+  "path_mm": [
+    [
+      57.175,
+      30.0
+    ],
+    [
+      56.425,
+      30.75
+    ],
+    [
+      56.425,
+      32.2
+    ]
+  ],
+  "length_mm": 2.5106601717798243,
+  "width_guard": {
+    "net": "+1V0_PHY",
+    "width_mm": 1.55,
+    "segments": 2,
+    "width_preserved": true,
+    "current_rating_qualified": false
+  },
+  "reset_route": {
+    "from": "U5.12",
+    "to": "R515.2",
+    "width_mm": 0.2,
+    "path_mm": [
+      [
+        65.4,
+        32.4
+      ],
+      [
+        66.0,
+        32.4
+      ],
+      [
+        66.0,
+        32.4
+      ],
+      [
+        66.025,
+        32.4
+      ],
+      [
+        66.05,
+        32.375
+      ],
+      [
+        66.05,
+        31.625
+      ],
+      [
+        66.22500000000001,
+        31.450000000000003
+      ],
+      [
+        66.22500000000001,
+        31.375
+      ],
+      [
+        66.25,
+        31.35
+      ],
+      [
+        66.25,
+        31.325000000000003
+      ],
+      [
+        66.275,
+        31.3
+      ],
+      [
+        66.275,
+        31.275000000000002
+      ],
+      [
+        66.3,
+        31.25
+      ],
+      [
+        66.3,
+        31.225
+      ],
+      [
+        66.425,
+        31.1
+      ],
+      [
+        66.45,
+        31.1
+      ],
+      [
+        66.47500000000001,
+        31.075000000000003
+      ],
+      [
+        66.5,
+        31.075000000000003
+      ],
+      [
+        66.525,
+        31.05
+      ],
+      [
+        66.55,
+        31.05
+      ],
+      [
+        66.575,
+        31.025000000000002
+      ],
+      [
+        67.525,
+        31.025000000000002
+      ],
+      [
+        67.925,
+        30.625
+      ],
+      [
+        70.075,
+        30.625
+      ],
+      [
+        70.35000000000001,
+        30.35
+      ],
+      [
+        70.35000000000001,
+        30.325000000000003
+      ],
+      [
+        70.375,
+        30.3
+      ],
+      [
+        70.375,
+        30.25
+      ],
+      [
+        70.4,
+        30.225
+      ],
+      [
+        70.4,
+        30.200000000000003
+      ],
+      [
+        70.425,
+        30.175
+      ],
+      [
+        70.425,
+        30.150000000000002
+      ],
+      [
+        70.45,
+        30.125
+      ],
+      [
+        70.45,
+        30.1
+      ],
+      [
+        70.47500000000001,
+        30.075000000000003
+      ],
+      [
+        70.47500000000001,
+        30.025000000000002
+      ],
+      [
+        70.5,
+        30.0
+      ],
+      [
+        70.51,
+        30.0
+      ]
+    ],
+    "length_mm": 6.74847763108502,
+    "new_track_uuids": [
+      "08d07ba9-5b43-4aff-8e6d-6ffa95e5f7de",
+      "edb36441-5d3a-469b-9efd-147a15c47d13",
+      "739fa7fd-2edc-4928-ada3-3f626dec9635",
+      "d07609f3-aed3-43c6-b085-263dfb28f009",
+      "ee208413-a77a-4f2a-89c9-ada71bce3725",
+      "510343f8-9884-4516-af94-affe1dfda381",
+      "bf60fab4-4442-4995-b4d6-659244dd172a",
+      "86fd6c85-322c-4b8f-8d55-d0bf596111ba",
+      "ee4a5671-a820-4f8c-80b4-693ccd403331",
+      "04bb65b2-a61a-4231-8f84-09056cc1b5aa",
+      "113de3a7-a2e9-4a42-9f3f-713e698c9fea",
+      "53173a83-c617-4f92-a9e7-3797445e0706",
+      "b79c7228-8b55-487a-a5d0-817f4bc0c6a3",
+      "63459024-27ef-4ba6-b905-ad3d3ab51188",
+      "dc5096bc-f82f-40e3-82f5-cea7b4f669a7",
+      "6f12a5da-eced-41be-9260-b57538a1a286",
+      "f76a2509-1be2-4e02-9103-d261a20a344f",
+      "3003310c-5c42-419b-8c42-954ba04af354",
+      "45dd110b-ac4d-4287-98e3-25f3b92761ca",
+      "18cfbe6a-e3ee-4220-8b4a-14cbfe871048",
+      "f19e8945-6f4b-4f98-87a7-1d88b83ce86a",
+      "2de63e80-e536-4873-ba17-655b934348c5",
+      "996ea249-b2be-4ec8-8069-86221d30f42e",
+      "e64c5f35-5cfb-42d0-ae61-0866da40c3d1",
+      "fcf70d63-c060-4c2f-a841-610e00db907d",
+      "0a0d9e16-99f8-40c5-9058-9b38b7949653",
+      "0b9879ab-709f-4b85-96b3-20492f86675f",
+      "86285e1f-85e7-4f66-b237-109fcf6d48a8",
+      "59432ee0-cd28-4206-b587-cc981e347002",
+      "02df9d8d-1767-4243-9665-43cbc3e09937",
+      "2b8c31aa-99bf-48ba-97c2-dd4d25400d1f",
+      "4da3525b-907e-439b-83fc-148d37d78ce0",
+      "2eed5f84-ee07-4e7c-8330-c4e1ba900a48",
+      "3c06cf28-7f90-4f51-9dff-38ec387fbed2",
+      "a26cd2fb-5fc0-4b0c-852a-4c204f443b30",
+      "e442d964-c6bc-4e2e-95e8-1fa6ccd883dd"
+    ]
+  },
+  "connected": true,
+  "new_violations": [],
+  "mechanical_conflicts": [],
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5770,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 38,
+    "existing_connected_pad_groups_preserved": 69
+  },
+  "root_preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5700,
+    "explicitly_replaced_copper": {
+      "1ce012e4-f7db-493a-a4c4-30dec5ed03f7": [
+        "GND",
+        0,
+        80480000,
+        33000000,
+        80500000,
+        33000000,
+        200000,
+        null
+      ],
+      "353c793c-2fde-4e45-a944-7f6b0ff7d320": [
+        "GND",
+        2,
+        57450000,
+        29700000,
+        57500000,
+        29700000,
+        500000,
+        null
+      ],
+      "410979f8-580d-4434-9883-ad3cf785333c": [
+        "GND",
+        0,
+        76980000,
+        36000000,
+        77000000,
+        36000000,
+        200000,
+        null
+      ],
+      "4bb1168a-d647-4743-9dd8-60be61a4eee6": [
+        "GND",
+        2,
+        57500000,
+        29700000,
+        57600000,
+        29800000,
+        500000,
+        null
+      ],
+      "6a398cd1-9612-444e-b43d-0f00b6829a79": [
+        "GND",
+        2,
+        57750000,
+        29800000,
+        57800000,
+        29850000,
+        500000,
+        null
+      ],
+      "6e11dda3-002c-49b6-9abe-eb30ca22e7e2": [
+        "GND",
+        2,
+        57350000,
+        29650000,
+        57400000,
+        29650000,
+        500000,
+        null
+      ],
+      "8653b1df-8759-4800-8bf8-337ab3e20f29": [
+        "GND",
+        2,
+        57300000,
+        29600000,
+        57350000,
+        29650000,
+        500000,
+        null
+      ],
+      "8da758e9-215b-4c35-91d3-82bc52782f01": [
+        "GND",
+        2,
+        57400000,
+        29650000,
+        57450000,
+        29700000,
+        500000,
+        null
+      ],
+      "91783e84-7aa8-47f6-b77c-57ca34d2b8fb": [
+        "PHY_RESET_N",
+        0,
+        65175000,
+        24875000,
+        67600000,
+        24875000,
+        200000,
+        null
+      ],
+      "9a777003-3bdd-4be2-916f-935d2f0a5f08": [
+        "GND",
+        0,
+        57800000,
+        29850000,
+        57800000,
+        29850000,
+        600000,
+        300000
+      ],
+      "9bafe2c0-f71e-4e19-9aca-a33c516b7728": [
+        "GND",
+        0,
+        80500000,
+        33000000,
+        81200000,
+        33000000,
+        200000,
+        null
+      ],
+      "c7be60d9-fe0d-4326-acbc-8373b5099c66": [
+        "GND",
+        2,
+        57600000,
+        29800000,
+        57750000,
+        29800000,
+        500000,
+        null
+      ],
+      "d60df459-ad1a-4299-b3bd-5b7da6f5f7ec": [
+        "GND",
+        0,
+        77000000,
+        36000000,
+        77700000,
+        36000000,
+        200000,
+        null
+      ]
+    },
+    "added_tracks_vias": 95,
+    "existing_connected_pad_groups_preserved": 69
+  },
+  "checkpoint_modified": false,
+  "assembly_ready": false,
+  "limitations": [
+    "Only L501.2 to C511.1 output branch: regulator switch node, input supply and load distribution remain open.",
+    "1.55 mm exceeds the historical rev1.1 width screen; current layout guide, copper stackup, ripple, effective capacitance and thermal validation remain required.",
+    "Alternative BOM is experimental, not adopted or production qualified."
+  ],
+  "board": "pcb/phy-compact-output.kicad_pcb",
+  "authoritative_checkpoint_modified": false,
+  "new_violations_against_original_checkpoint": [],
+  "requires_kicad_major": 10,
+  "production_ready": false
+}

@@ -1,7 +1,7 @@
 {
   "status": "ETHERNET_CLOCK_PINS_CONNECTED",
-  "sha256": "7a0dfbdfdec87b1aab4f2d4c443746cae4ca4e5724621e6291a8d7c6f26de0fb",
-  "source_sha256": "c17a7a4416d209ca3f0da034a114df5fa9330abea1be82e7313ab74e54d32972",
+  "sha256": "aef4536f8b85a1ccf51829c2cd736bc4e3c78279aa0d968866c7a620507cb96d",
+  "source_sha256": "c1fb599fa966b6d8ea0599379e064e5102ac0a7d895e5c47884024f434aecedb",
   "checks": [
     {
       "from": "U5.36",
@@ -16,11 +16,29 @@
   ],
   "new_violations": [],
   "assembly_ready": false,
+  "replaced_copper": [
+    "b4c6e2aa-1c7c-4131-a42a-1d73c70f0ee9"
+  ],
+  "limitations": [
+    "XIN uses two through vias; oscillator loading, noise coupling to L501 and frequency margin are not qualified.",
+    "The 5V detour preserves width, not a current or transient qualification."
+  ],
   "preservation": {
     "existing_pad_instances_preserved": 2006,
-    "existing_tracks_vias_preserved": 5498,
-    "explicitly_replaced_copper": {},
-    "added_tracks_vias": 55,
+    "existing_tracks_vias_preserved": 5478,
+    "explicitly_replaced_copper": {
+      "b4c6e2aa-1c7c-4131-a42a-1d73c70f0ee9": [
+        "+5V_MAIN",
+        6,
+        60500000,
+        32950000,
+        60500000,
+        24500000,
+        800000,
+        null
+      ]
+    },
+    "added_tracks_vias": 79,
     "existing_connected_pad_groups_preserved": 65
   }
 }

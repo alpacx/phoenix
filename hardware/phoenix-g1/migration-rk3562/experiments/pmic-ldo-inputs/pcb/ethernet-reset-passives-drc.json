@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/drc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-11-16T16:48:15",
+    "date": "2026-11-17T17:56:04",
     "ignored_checks": [
         {
             "description": "Footprint has no courtyard defined",
@@ -256,7 +256,7 @@
                         "x": 17.75,
                         "y": 17.75
                     },
-                    "uuid": "8cce803b-2579-4c60-ae34-32c4ab79a77f"
+                    "uuid": "a647e23e-9016-4ffe-9fd6-7cd47afc3262"
                 }
             ],
             "severity": "error",
@@ -294,7 +294,7 @@
                         "x": 19.08,
                         "y": 22.5
                     },
-                    "uuid": "a8b59d1b-e826-4366-8148-c40870b004f4"
+                    "uuid": "46a1f260-c568-4581-bde8-b2e1f4599ce9"
                 },
                 {
                     "description": "Piazzola 2 [GND] di C1665 su B.Cu",
@@ -348,7 +348,7 @@
                         "x": 20.75,
                         "y": 31.75
                     },
-                    "uuid": "7f318acd-33ea-4c85-bde6-01fb1c6f2885"
+                    "uuid": "91721307-ef2e-4b08-a0ab-4d668cdb8f2c"
                 }
             ],
             "severity": "error",
@@ -547,7 +547,7 @@
                         "x": 21.1,
                         "y": 20.9
                     },
-                    "uuid": "5b302caf-2516-4b4f-9048-2c7fb3599336"
+                    "uuid": "e23d72ff-9755-43f1-8eca-040c8cacb7d0"
                 },
                 {
                     "description": "Piazzola 2 [GND] di C1646 su B.Cu",
@@ -570,7 +570,7 @@
                         "x": 21.1,
                         "y": 21.52
                     },
-                    "uuid": "55f75f6f-ca28-434d-8486-8fb2fc2a10c4"
+                    "uuid": "770a9d8c-96f6-4b03-b886-6da4c4cc7c07"
                 },
                 {
                     "description": "Piazzola 2 [GND] di C1649 su B.Cu",
@@ -662,7 +662,7 @@
                         "x": 22.05,
                         "y": 27.85
                     },
-                    "uuid": "feede43b-65f2-4ca2-b1b6-7205170cc2d1"
+                    "uuid": "912fdbbe-2869-4fca-804e-4fd1ae843c19"
                 },
                 {
                     "description": "Piazzola 2 [GND] di C1671 su B.Cu",
@@ -739,7 +739,7 @@
                         "x": 22.72,
                         "y": 22.13
                     },
-                    "uuid": "dc73647d-996b-4614-abc4-329288acf5ee"
+                    "uuid": "82d60729-2e5c-467c-949c-ce34875c3fdf"
                 }
             ],
             "severity": "error",
@@ -826,12 +826,12 @@
                     "uuid": "ea6fd501-bcee-470e-a7b1-010fb58ef4fe"
                 },
                 {
-                    "description": "Pista [GND] su F.Cu, lung. 0.0200 mm",
+                    "description": "Piazzola 2 [GND] di C1106 su F.Cu",
                     "pos": {
                         "x": 23.82,
                         "y": 20.0
                     },
-                    "uuid": "394f53f7-6e96-4d2c-a6b7-1e7dc166e8a4"
+                    "uuid": "46c3f6ff-a592-4046-8cd7-191f879454f6"
                 }
             ],
             "severity": "error",
@@ -1145,7 +1145,7 @@
                         "x": 25.98,
                         "y": 27.87
                     },
-                    "uuid": "2d2c8fc2-4b09-415f-9937-400647cb2154"
+                    "uuid": "8e5624c1-0e2f-4c92-9fdc-692c7a0f02f0"
                 },
                 {
                     "description": "Piazzola 2 [GND] di C1667 su B.Cu",
@@ -1513,7 +1513,7 @@
                         "x": 28.0,
                         "y": 27.4
                     },
-                    "uuid": "7c82bd4e-bfec-4ee4-a64b-765bcc12b072"
+                    "uuid": "6711a724-2ec7-4361-99d7-9c8473f64ccf"
                 },
                 {
                     "description": "Piazzola 2 [GND] di C1673 su B.Cu",
@@ -1605,7 +1605,7 @@
                         "x": 28.7,
                         "y": 26.7
                     },
-                    "uuid": "2260809d-36f2-448f-aa84-eb87ca0425ec"
+                    "uuid": "13679ebe-003e-4b7e-ae96-167fa8c61cc8"
                 },
                 {
                     "description": "Piazzola 2 [GND] di C1675 su B.Cu",
@@ -2410,7 +2410,7 @@
                         "x": 32.0,
                         "y": 29.5
                     },
-                    "uuid": "b84c7681-87b1-4618-880c-14a5309699d2"
+                    "uuid": "8f64b86f-03b0-4355-b899-8d02b35c9820"
                 },
                 {
                     "description": "Piazzola 2 [GND] di C1681 su B.Cu",
@@ -2464,7 +2464,7 @@
                         "x": 32.0,
                         "y": 29.5
                     },
-                    "uuid": "b84c7681-87b1-4618-880c-14a5309699d2"
+                    "uuid": "8f64b86f-03b0-4355-b899-8d02b35c9820"
                 }
             ],
             "severity": "error",
@@ -8597,7 +8597,7 @@
                         "x": 65.51,
                         "y": 24.0
                     },
-                    "uuid": "18b687b3-d54e-4ffe-8562-eaf4f4687e8d"
+                    "uuid": "cd4c94da-0ed4-4680-9b7e-6efd10624e7e"
                 },
                 {
                     "description": "Piazzola 2 [GND] di R513 su F.Cu",
@@ -8715,12 +8715,12 @@
                     "uuid": "b566cb28-75ad-4d8d-af5d-75bc479b4e66"
                 },
                 {
-                    "description": "Pista [GND] su B.Cu, lung. 0.0707 mm",
+                    "description": "Pista [GND] su B.Cu, lung. 0.1000 mm",
                     "pos": {
-                        "x": 72.75,
+                        "x": 72.85,
                         "y": 7.75
                     },
-                    "uuid": "3f158f84-a752-41e7-bd2e-1a8756766f0e"
+                    "uuid": "12b6a800-de99-487d-b222-19401d7db3f7"
                 }
             ],
             "severity": "error",
@@ -8743,7 +8743,7 @@
                         "x": 74.48,
                         "y": 37.5
                     },
-                    "uuid": "8992272e-d036-4e18-8623-77dd13efd6c7"
+                    "uuid": "e55f9824-8dc8-48de-bb72-bf7c7ab56f62"
                 }
             ],
             "severity": "error",
@@ -8973,7 +8973,7 @@
                         "x": 75.2,
                         "y": 37.5
                     },
-                    "uuid": "999bdc5d-f9e1-4ec5-8290-a68f1bed7559"
+                    "uuid": "42e5098d-42bf-4612-8197-f8467eeb5fe1"
                 }
             ],
             "severity": "error",
@@ -8983,12 +8983,12 @@
             "description": "Missing connection between items",
             "items": [
                 {
-                    "description": "Pista [GND] su B.Cu, lung. 0.1000 mm",
+                    "description": "Pista [GND] su B.Cu, lung. 0.0707 mm",
                     "pos": {
-                        "x": 77.85,
+                        "x": 77.75,
                         "y": 4.25
                     },
-                    "uuid": "4e3d8758-45aa-4948-bd8c-c41e6c64a696"
+                    "uuid": "06e99bd4-f0f2-407f-9aab-4ef32bf50d9e"
                 },
                 {
                     "description": "Piazzola 2 [GND] di C443 su F.Cu",
@@ -10161,7 +10161,7 @@
                         "x": 24.025,
                         "y": 27.875
                     },
-                    "uuid": "20a23fa5-462e-40be-8d71-59150c254c70"
+                    "uuid": "78bb779c-24d1-42b7-8741-e50ed79035de"
                 },
                 {
                     "description": "Piazzola N1 [LCD_DC] di U1 su F.Cu",
@@ -11130,12 +11130,12 @@
                     "uuid": "c6d36968-44ca-42a4-817c-9924d76f7b50"
                 },
                 {
-                    "description": "Pista [+3V3_IO] su F.Cu, lung. 0.0354 mm",
+                    "description": "Pista [+3V3_IO] su F.Cu, lung. 0.6750 mm",
                     "pos": {
-                        "x": 29.325,
+                        "x": 30.0,
                         "y": 31.5
                     },
-                    "uuid": "fb3634e1-bf15-446a-88d3-3a826d87c174"
+                    "uuid": "05296573-44ef-4838-a70a-7f4c23ce35f0"
                 }
             ],
             "severity": "error",
@@ -11168,12 +11168,12 @@
             "description": "Missing connection between items",
             "items": [
                 {
-                    "description": "Pista [+3V3_IO] su F.Cu, lung. 0.4950 mm",
+                    "description": "Pista [+3V3_IO] su F.Cu, lung. 0.7750 mm",
                     "pos": {
-                        "x": 31.2,
+                        "x": 31.975,
                         "y": 28.525
                     },
-                    "uuid": "34e26e8d-3ac5-4992-8d0c-4eaee54adf1e"
+                    "uuid": "e5c13c9c-8ce5-4d92-a2ab-a9f9ea568c74"
                 },
                 {
                     "description": "Piazzola 2 [+3V3_IO] di R2101 su F.Cu",
@@ -11196,7 +11196,7 @@
                         "x": 32.0,
                         "y": 28.5
                     },
-                    "uuid": "59ffceb0-4d0b-44dc-bf8e-0cda304b3b2a"
+                    "uuid": "59a332e6-674e-4512-bc96-6b647288f8d2"
                 },
                 {
                     "description": "Piazzola 1 [+3V3_IO] di C1683 su B.Cu",

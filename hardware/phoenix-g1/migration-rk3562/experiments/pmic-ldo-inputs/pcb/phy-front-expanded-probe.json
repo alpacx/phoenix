@@ -1,0 +1,91 @@
+{
+  "status": "ISOLATED_JOINT_PLACEMENT_EXPERIMENT",
+  "checkpoint_sha256": "a6b50f7a136f17a7dd35ecf3ccbfca7774e1dac74a1b9627fc7ef252031cf997",
+  "baseline_sha256": "328fcf94bdf007ef3fedf37306f6a30e12f7bfed29bb5e2f78b17afdb11170d9",
+  "variants": [
+    {
+      "crystal_center_mm": [
+        57.75,
+        34.8
+      ],
+      "inductor_front_center_mm": [
+        57.4,
+        30.8
+      ],
+      "exit_code": 0,
+      "evidence": {
+        "status": "ETHERNET_CLOCK_PLACEMENT_CONNECTED",
+        "sha256": "661e82b0df3e86fc144d102e9bf79be7d03b2bf7892fe49c2c4e2899e85e6808",
+        "source_sha256": "328fcf94bdf007ef3fedf37306f6a30e12f7bfed29bb5e2f78b17afdb11170d9",
+        "checks": [
+          {
+            "from": "C520.1",
+            "to": "Y501.1",
+            "connected": true
+          },
+          {
+            "from": "C521.1",
+            "to": "Y501.3",
+            "connected": true
+          },
+          {
+            "from": "C520.2",
+            "to": "U20.2",
+            "connected": true
+          },
+          {
+            "from": "C521.2",
+            "to": "U20.2",
+            "connected": true
+          }
+        ],
+        "new_violations": [],
+        "assembly_ready": false,
+        "moved_refs_mm": {
+          "C1014": [
+            62,
+            36
+          ],
+          "U23": [
+            75.5,
+            25.5
+          ],
+          "L501": [
+            57.4,
+            30.8
+          ],
+          "Y501": [
+            57.75,
+            34.8
+          ],
+          "C520": [
+            60.5,
+            35.0
+          ],
+          "C521": [
+            57.0,
+            37.25
+          ]
+        },
+        "limitations": [
+          "L501 moved to back side; switching-loop, via current and power layout not qualified.",
+          "Crystal loading, drive, frequency and PHY clock-pin connections remain unqualified."
+        ],
+        "preservation": {
+          "existing_pad_instances_preserved": 2006,
+          "existing_tracks_vias_preserved": 5426,
+          "explicitly_replaced_copper": {},
+          "added_tracks_vias": 48,
+          "existing_connected_pad_groups_preserved": 63
+        }
+      }
+    }
+  ],
+  "checkpoint_modified": false,
+  "assembly_ready": false,
+  "limitations": [
+    "Only local crystal/capacitor placement is tried; no complete power or clock routing qualification.",
+    "A failed bounded search is not proof of impossibility.",
+    "Even a successful local result is discarded; inherited bypasses and full cumulative checks would need rebuilding."
+  ]
+}

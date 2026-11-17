@@ -1,0 +1,210 @@
+{
+  "source": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/pmic-ldo-inputs/pcb/ethernet-dvdd33-bypass.kicad_pcb",
+  "candidate": "/var/folders/6f/jhxwwy_j2pv1b74_x7hd795m0000gn/T/phoenix-rxclk-main-b8kp4qyw/ethernet-dvdd33-bypass.kicad_pcb",
+  "source_sha256": "96b01d90aa6225a873dac818f007459245adeb207920009b7f11e223b8266394",
+  "candidate_sha256": "b6d89412e8c9b0fb5e258bfd0eebe0a33e517b7194676cceeb7369bb2680e6ba",
+  "route": {
+    "replaced_copper": [
+      "203e1b3a-c99c-4e98-a270-a061e3782e51",
+      "237cfa5c-712c-43a0-8105-e1baab319eb7"
+    ],
+    "R512_position_mm": [
+      63,
+      28.25
+    ],
+    "R522_position_mm": [
+      63.25,
+      29.5
+    ],
+    "R522_orientation_deg": 180.0,
+    "layer": "B.Cu",
+    "strap_path_mm": [
+      [
+        63.51,
+        28.25
+      ],
+      [
+        63.5,
+        28.25
+      ],
+      [
+        63.5,
+        28.975
+      ],
+      [
+        63.525000000000006,
+        29.0
+      ],
+      [
+        63.525000000000006,
+        29.05
+      ],
+      [
+        63.575,
+        29.1
+      ],
+      [
+        63.575,
+        29.125
+      ],
+      [
+        63.6,
+        29.150000000000002
+      ],
+      [
+        63.6,
+        29.175
+      ],
+      [
+        63.625,
+        29.200000000000003
+      ],
+      [
+        63.625,
+        29.25
+      ],
+      [
+        63.650000000000006,
+        29.275000000000002
+      ],
+      [
+        63.650000000000006,
+        29.3
+      ],
+      [
+        63.675000000000004,
+        29.325000000000003
+      ],
+      [
+        63.675000000000004,
+        29.35
+      ],
+      [
+        63.7,
+        29.375
+      ],
+      [
+        63.7,
+        29.400000000000002
+      ],
+      [
+        63.725,
+        29.425
+      ],
+      [
+        63.725,
+        29.475
+      ],
+      [
+        63.75,
+        29.5
+      ],
+      [
+        63.76,
+        29.5
+      ]
+    ],
+    "strap_length_mm": 1.3735533905932686,
+    "ground_path_mm": [
+      [
+        62.74,
+        29.5
+      ],
+      [
+        62.75,
+        29.5
+      ],
+      [
+        62.75,
+        29.55
+      ],
+      [
+        62.775000000000006,
+        29.575000000000003
+      ],
+      [
+        62.775000000000006,
+        29.725
+      ],
+      [
+        63.175000000000004,
+        30.125
+      ],
+      [
+        66.15,
+        30.125
+      ]
+    ],
+    "ground_via_mm": [
+      66.15,
+      30.125
+    ],
+    "reused_ground_via": false,
+    "new_copper_uuids": [
+      "a01ad158-cae2-4a04-902b-ed55ddf6041c",
+      "34d39744-f402-4d6c-8f6c-7483e5640996",
+      "9866bb24-671a-43d0-b8c6-6bab4b7937dd",
+      "d598dade-c389-42fe-a08e-b429b44b71e6",
+      "c5fc74c7-8d6d-490e-af32-36d69b33c8e9",
+      "388c88d7-8669-44c5-82ba-f1e2dda4dc7b",
+      "44ab661d-3ff4-4e6d-aff2-22fa95d8f29c",
+      "95443745-aeb5-45d0-94dc-2353cd08b1e8",
+      "9c3cc736-8090-454d-b60f-a7f0d5767987",
+      "f6c6a534-8115-4b21-be1c-216fef2a59e5",
+      "f12257cc-07a2-467b-9b81-a2ab8cd9aa95",
+      "fee39648-251f-45ee-8bce-856637a7dfbb",
+      "dcf8a294-fdec-4302-9df2-1565a181c010",
+      "0539a24e-79c7-40de-8326-963d1b50abae",
+      "58ee4b35-c3f2-4d37-98be-926d176598bd",
+      "732dac76-7e1c-47fd-a4a8-ccdeb85262b2",
+      "e044c27e-d72d-4a3b-a2ed-515761dac81d",
+      "8433c8b5-9a7d-44eb-b7dc-41b7b907ae2f",
+      "b22b54ed-dab7-48de-a9db-f59948db5529",
+      "788bae40-7362-4c9f-aa4f-6a155e7f768d",
+      "38ea97ff-29fd-47c6-83be-d1c2c4776660",
+      "0127f698-8636-473b-9d6f-7ad0a649eb37",
+      "5e9d7d22-d87d-45b4-8317-c8ca704c3ea4",
+      "492f7de9-31ae-42a6-9925-300ebc0f4eed",
+      "7d1a73b2-81a3-445c-8eda-30bbcea644c4",
+      "bb24f4b9-1baa-466f-89bc-7953b5d2fc8b",
+      "05cd538b-2a00-4d4c-afaf-ecedac45f683"
+    ]
+  },
+  "checkpoint_modified": false,
+  "limitations": [
+    "Short bias branch only. PHY-to-MAC path, impedance and timing remain open. No component or width change."
+  ],
+  "new_violations": [],
+  "details": [],
+  "status": "RXCLK_MAIN_GEOMETRY_PASSED",
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5747,
+    "explicitly_replaced_copper": {
+      "203e1b3a-c99c-4e98-a270-a061e3782e51": [
+        "GND",
+        0,
+        56000000,
+        27500000,
+        56000000,
+        28250000,
+        200000,
+        null
+      ],
+      "237cfa5c-712c-43a0-8105-e1baab319eb7": [
+        "GND",
+        0,
+        56010000,
+        27500000,
+        56000000,
+        27500000,
+        200000,
+        null
+      ]
+    },
+    "added_tracks_vias": 25,
+    "existing_connected_pad_groups_preserved": 69
+  },
+  "mechanical_conflicts": []
+}

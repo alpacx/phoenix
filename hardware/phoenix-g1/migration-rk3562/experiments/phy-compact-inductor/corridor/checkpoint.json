@@ -1,0 +1,768 @@
+{
+  "status": "EXPERIMENTAL_PHY_POWER_CORRIDORS_NOT_ELECTRICALLY_QUALIFIED",
+  "board": "strap/pcb/phoenix-phy-corridor.kicad_pcb",
+  "sha256": "21c11942a68f62c506769caed42e84f3358d85e159f8b7bc2ba2f87e9014b30f",
+  "base_study_sha256": "39aff07b844e6cb08cf5e5471968e6663b5ea2ce2997d5c9e373c937bdfdf024",
+  "moves": {
+    "C517": [
+      62.2,
+      27.0,
+      0.0,
+      "F"
+    ],
+    "R511": [
+      61.5,
+      27.75,
+      90.0,
+      "B"
+    ],
+    "R507": [
+      63.0,
+      27.0,
+      180.0,
+      "B"
+    ],
+    "R512": [
+      63.0,
+      28.25,
+      0.0,
+      "B"
+    ],
+    "R522": [
+      63.25,
+      29.5,
+      180.0,
+      "B"
+    ]
+  },
+  "input_path_mm": [
+    [
+      61.975,
+      24.2
+    ],
+    [
+      61.975,
+      25.3
+    ],
+    [
+      61.6,
+      25.675
+    ],
+    [
+      61.6,
+      27
+    ]
+  ],
+  "input_width_mm": 1.05,
+  "input_ground_width_mm": 0.5,
+  "output_ground_width_mm": 0.5,
+  "source_reports": {
+    "input-corridor-bypass": {
+      "report": "input-corridor-bypass.json",
+      "input_path_mm": [
+        [
+          61.975,
+          24.2
+        ],
+        [
+          61.975,
+          25.3
+        ],
+        [
+          61.6,
+          25.675
+        ],
+        [
+          61.6,
+          27
+        ]
+      ],
+      "input_width_mm": 1.05,
+      "source": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-compact-inductor/pcb/phy-compact-output.kicad_pcb",
+      "candidate": "/var/folders/6f/jhxwwy_j2pv1b74_x7hd795m0000gn/T/phoenix-corridor-bypass-u6sq5x56/phy-compact-output.kicad_pcb",
+      "parent_sha256": "39aff07b844e6cb08cf5e5471968e6663b5ea2ce2997d5c9e373c937bdfdf024",
+      "candidate_sha256": "73c1baedf80e1ad7b7259cf3a2c8f441af1d521900f6371964a417ad3bc970b5",
+      "removed": [
+        "b78a7fd7-95e8-4fe2-9bea-c07cc6cce27b",
+        "f0c00b44-fe1d-4b1d-a1d4-66650688c703",
+        "07d14d92-6690-4dcb-951c-bcd581e73e14",
+        "0c91a7ac-a5e6-4245-b1da-1a1f0ea315d0",
+        "1d855e84-5b8e-4d9f-bd0e-c1d6b2a63462",
+        "3537ba25-afea-4549-b7ec-4fc52b7e6ed3",
+        "4432bdff-5916-440b-a393-8ba545462d47",
+        "6835b246-d629-4599-9157-9028ebc524df",
+        "68691bcd-623a-4a62-b445-3b37c4e06585",
+        "68fbb83c-2105-4909-986c-d6b68591262a",
+        "74cb9e6b-35a5-4062-b38d-67eeb848aaff",
+        "76cdf1f6-f47c-4503-8212-fe72405c2598",
+        "7a2fa846-e7cb-4480-9512-fb2dc51a3f7c",
+        "8929f44a-8b02-4186-b64f-ea1054969760",
+        "8ccfef25-1b65-4547-b66b-62998aeeb909",
+        "b933b43f-ccc3-418b-ba26-2e16978ad305",
+        "bbb24669-c675-48f6-b9dd-3d665807592f"
+      ],
+      "moves": {
+        "C517": [
+          62.2,
+          27.0,
+          0.0,
+          "F"
+        ],
+        "R511": [
+          61.5,
+          27.75,
+          90.0,
+          "B"
+        ],
+        "R507": [
+          63.0,
+          27.0,
+          180.0,
+          "B"
+        ],
+        "R512": [
+          63.0,
+          28.25,
+          0.0,
+          "B"
+        ]
+      },
+      "power_branch_mm": [
+        [
+          62,
+          27.8
+        ],
+        [
+          61.72,
+          27.52
+        ],
+        [
+          61.72,
+          27
+        ]
+      ],
+      "ground_branch_mm": [
+        [
+          62.68,
+          27.0
+        ],
+        [
+          62.675000000000004,
+          27.0
+        ],
+        [
+          64.22500000000001,
+          27.0
+        ]
+      ],
+      "ground_via_mm": [
+        64.22500000000001,
+        27.0
+      ],
+      "widths_mm": {
+        "bypass": 0.2,
+        "ground": 0.2
+      },
+      "limitations": [
+        "Only bypass relocation. Input, switch node and load distribution remain open.",
+        "RX terminations require new fanout and signal-integrity assessment. No electrical qualification."
+      ],
+      "new_violations": [],
+      "details": [],
+      "status": "CORRIDOR_BYPASS_GEOMETRY_PASSED",
+      "assembly_ready": false,
+      "preservation": {
+        "existing_pad_instances_preserved": 2006,
+        "existing_tracks_vias_preserved": 5791,
+        "explicitly_replaced_copper": {
+          "07d14d92-6690-4dcb-951c-bcd581e73e14": [
+            "+3V3_PHY",
+            0,
+            59150000,
+            27900000,
+            59125000,
+            27925000,
+            200000,
+            null
+          ],
+          "0c91a7ac-a5e6-4245-b1da-1a1f0ea315d0": [
+            "+3V3_PHY",
+            0,
+            59075000,
+            27950000,
+            59025000,
+            27950000,
+            200000,
+            null
+          ],
+          "1d855e84-5b8e-4d9f-bd0e-c1d6b2a63462": [
+            "+3V3_PHY",
+            0,
+            59025000,
+            27950000,
+            59000000,
+            27975000,
+            200000,
+            null
+          ],
+          "3537ba25-afea-4549-b7ec-4fc52b7e6ed3": [
+            "+3V3_PHY",
+            0,
+            59125000,
+            27925000,
+            59100000,
+            27925000,
+            200000,
+            null
+          ],
+          "4432bdff-5916-440b-a393-8ba545462d47": [
+            "+3V3_PHY",
+            0,
+            59100000,
+            27925000,
+            59075000,
+            27950000,
+            200000,
+            null
+          ],
+          "6835b246-d629-4599-9157-9028ebc524df": [
+            "+3V3_PHY",
+            0,
+            59300000,
+            27850000,
+            59250000,
+            27850000,
+            200000,
+            null
+          ],
+          "68691bcd-623a-4a62-b445-3b37c4e06585": [
+            "+3V3_PHY",
+            0,
+            59250000,
+            27850000,
+            59225000,
+            27875000,
+            200000,
+            null
+          ],
+          "68fbb83c-2105-4909-986c-d6b68591262a": [
+            "+3V3_PHY",
+            0,
+            59325000,
+            27825000,
+            59300000,
+            27850000,
+            200000,
+            null
+          ],
+          "74cb9e6b-35a5-4062-b38d-67eeb848aaff": [
+            "+3V3_PHY",
+            0,
+            59350000,
+            27825000,
+            59325000,
+            27825000,
+            200000,
+            null
+          ],
+          "76cdf1f6-f47c-4503-8212-fe72405c2598": [
+            "+3V3_PHY",
+            0,
+            59000000,
+            27975000,
+            59000000,
+            27980000,
+            200000,
+            null
+          ],
+          "7a2fa846-e7cb-4480-9512-fb2dc51a3f7c": [
+            "+3V3_PHY",
+            0,
+            59200000,
+            27875000,
+            59175000,
+            27900000,
+            200000,
+            null
+          ],
+          "8929f44a-8b02-4186-b64f-ea1054969760": [
+            "+3V3_PHY",
+            0,
+            59225000,
+            27875000,
+            59200000,
+            27875000,
+            200000,
+            null
+          ],
+          "8ccfef25-1b65-4547-b66b-62998aeeb909": [
+            "+3V3_PHY",
+            0,
+            62000000,
+            27800000,
+            59375000,
+            27800000,
+            200000,
+            null
+          ],
+          "b78a7fd7-95e8-4fe2-9bea-c07cc6cce27b": [
+            "GND",
+            0,
+            59000000,
+            27020000,
+            59000000,
+            27000000,
+            200000,
+            null
+          ],
+          "b933b43f-ccc3-418b-ba26-2e16978ad305": [
+            "+3V3_PHY",
+            0,
+            59175000,
+            27900000,
+            59150000,
+            27900000,
+            200000,
+            null
+          ],
+          "bbb24669-c675-48f6-b9dd-3d665807592f": [
+            "+3V3_PHY",
+            0,
+            59375000,
+            27800000,
+            59350000,
+            27825000,
+            200000,
+            null
+          ],
+          "f0c00b44-fe1d-4b1d-a1d4-66650688c703": [
+            "GND",
+            0,
+            59000000,
+            27000000,
+            59000000,
+            26150000,
+            200000,
+            null
+          ]
+        },
+        "added_tracks_vias": -9,
+        "existing_connected_pad_groups_preserved": 70
+      },
+      "mechanical_conflicts": []
+    },
+    "bulk-return-probe": {
+      "source": "/var/folders/6f/jhxwwy_j2pv1b74_x7hd795m0000gn/T/phoenix-corridor-bypass-u6sq5x56/phy-compact-output.kicad_pcb",
+      "candidate": "/var/folders/6f/jhxwwy_j2pv1b74_x7hd795m0000gn/T/phoenix-bulk-return-g35xi88t/phy-compact-output.kicad_pcb",
+      "parent_sha256": "73c1baedf80e1ad7b7259cf3a2c8f441af1d521900f6371964a417ad3bc970b5",
+      "candidate_sha256": "299b4e4dd2dbe9254adf67f27524399a8dc50f2adef2150dac4bdb1a0498b4b1",
+      "removed": [
+        "0ec488aa-42be-493e-8eb6-b4efd4e59eda",
+        "10c90e63-9544-4977-a56c-418aa27a98d9",
+        "300f55af-9dd1-4abd-b193-3d18a655510f",
+        "4242e736-e1d4-41f2-9325-8d1633b9b79f",
+        "4f78cbc9-7151-41cd-8789-43f445dd4e9f",
+        "5a55752e-c6a5-4f4c-ad5c-2cd519d81d0a",
+        "78098fa1-629a-4a58-bcfe-fa8776d91519",
+        "9c4db2f5-cb09-4e4f-b57f-d729993f18db",
+        "ad43dbc7-0a2a-414c-8170-59709de649b4",
+        "a36c473d-bee0-4a0d-a430-2a438e521470"
+      ],
+      "new_ground_path_mm": [
+        [
+          63.525,
+          24.2
+        ],
+        [
+          63.525,
+          23.3
+        ],
+        [
+          64.5,
+          22.325
+        ],
+        [
+          64.5,
+          22
+        ]
+      ],
+      "width_mm": 0.5,
+      "old_width_mm": 0.2,
+      "old_length_mm": 3.154898987322327,
+      "length_mm": 2.6038582233137677,
+      "limitations": [
+        "Geometric return improvement only. Shared-ground noise, loop inductance and plane currents are not qualified.",
+        "No reduction of original copper widths; regulator switching node remains open."
+      ],
+      "new_violations": [],
+      "details": [],
+      "status": "BULK_RETURN_GEOMETRY_PASSED",
+      "assembly_ready": false,
+      "preservation": {
+        "existing_pad_instances_preserved": 2006,
+        "existing_tracks_vias_preserved": 5789,
+        "explicitly_replaced_copper": {
+          "0ec488aa-42be-493e-8eb6-b4efd4e59eda": [
+            "GND",
+            0,
+            61700000,
+            23050000,
+            61700000,
+            22650000,
+            200000,
+            null
+          ],
+          "10c90e63-9544-4977-a56c-418aa27a98d9": [
+            "GND",
+            0,
+            63350000,
+            24050000,
+            63350000,
+            24000000,
+            200000,
+            null
+          ],
+          "300f55af-9dd1-4abd-b193-3d18a655510f": [
+            "GND",
+            0,
+            63525000,
+            24200000,
+            63500000,
+            24200000,
+            200000,
+            null
+          ],
+          "4242e736-e1d4-41f2-9325-8d1633b9b79f": [
+            "GND",
+            0,
+            62000000,
+            23050000,
+            61700000,
+            23050000,
+            200000,
+            null
+          ],
+          "4f78cbc9-7151-41cd-8789-43f445dd4e9f": [
+            "GND",
+            0,
+            62750000,
+            23400000,
+            62350000,
+            23400000,
+            200000,
+            null
+          ],
+          "5a55752e-c6a5-4f4c-ad5c-2cd519d81d0a": [
+            "GND",
+            0,
+            62350000,
+            23400000,
+            62000000,
+            23050000,
+            200000,
+            null
+          ],
+          "78098fa1-629a-4a58-bcfe-fa8776d91519": [
+            "GND",
+            0,
+            63500000,
+            24200000,
+            63350000,
+            24050000,
+            200000,
+            null
+          ],
+          "9c4db2f5-cb09-4e4f-b57f-d729993f18db": [
+            "GND",
+            0,
+            61700000,
+            22650000,
+            61400000,
+            22350000,
+            200000,
+            null
+          ],
+          "a36c473d-bee0-4a0d-a430-2a438e521470": [
+            "GND",
+            0,
+            61400000,
+            22350000,
+            61400000,
+            22350000,
+            450000,
+            200000
+          ],
+          "ad43dbc7-0a2a-414c-8170-59709de649b4": [
+            "GND",
+            0,
+            63350000,
+            24000000,
+            62750000,
+            23400000,
+            200000,
+            null
+          ]
+        },
+        "added_tracks_vias": -7,
+        "existing_connected_pad_groups_preserved": 70
+      }
+    },
+    "output-return-probe": {
+      "source": "/var/folders/6f/jhxwwy_j2pv1b74_x7hd795m0000gn/T/phoenix-bulk-return-g35xi88t/phy-compact-output.kicad_pcb",
+      "candidate": "/var/folders/6f/jhxwwy_j2pv1b74_x7hd795m0000gn/T/phoenix-output-return-1bkmw99s/phy-compact-output.kicad_pcb",
+      "parent_sha256": "299b4e4dd2dbe9254adf67f27524399a8dc50f2adef2150dac4bdb1a0498b4b1",
+      "candidate_sha256": "c627d0ef6ca51729ec0734c3ffc1cb8441577608003dbef5825a5aed6033a54c",
+      "changed": [
+        "2dc3ec34-d094-40ea-b2d6-1a5844f48bde",
+        "6958a641-cfc7-432a-8c48-4cfc10832957",
+        "a1aae4bb-416a-41dc-9cda-34227592146e"
+      ],
+      "width_mm": 0.5,
+      "old_width_mm": 0.2,
+      "added_ground_via_mm": [
+        58.85,
+        31.625,
+        0.45,
+        0.2
+      ],
+      "original_ground_via_preserved": true,
+      "limitations": [
+        "Geometry and continuity only; via current sharing, ripple return and plane currents are not qualified.",
+        "Regulator switching node and source distribution remain open."
+      ],
+      "new_violations": [],
+      "details": [],
+      "status": "OUTPUT_RETURN_GEOMETRY_PASSED",
+      "assembly_ready": false,
+      "preservation": {
+        "existing_pad_instances_preserved": 2006,
+        "existing_tracks_vias_preserved": 5789,
+        "explicitly_replaced_copper": {
+          "2dc3ec34-d094-40ea-b2d6-1a5844f48bde": [
+            "GND",
+            0,
+            57975000,
+            32200000,
+            58000000,
+            32200000,
+            200000,
+            null
+          ],
+          "6958a641-cfc7-432a-8c48-4cfc10832957": [
+            "GND",
+            0,
+            58000000,
+            32200000,
+            58750000,
+            32200000,
+            200000,
+            null
+          ],
+          "a1aae4bb-416a-41dc-9cda-34227592146e": [
+            "GND",
+            0,
+            58750000,
+            32200000,
+            58850000,
+            32100000,
+            200000,
+            null
+          ]
+        },
+        "added_tracks_vias": 2,
+        "existing_connected_pad_groups_preserved": 70
+      }
+    },
+    "rxclk-strap": {
+      "source": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-compact-inductor/corridor/pcb/phoenix-phy-corridor.kicad_pcb",
+      "candidate": "/var/folders/6f/jhxwwy_j2pv1b74_x7hd795m0000gn/T/phoenix-rxclk-strap-bzoti_f5/phoenix-phy-corridor.kicad_pcb",
+      "parent_sha256": "c627d0ef6ca51729ec0734c3ffc1cb8441577608003dbef5825a5aed6033a54c",
+      "candidate_sha256": "21c11942a68f62c506769caed42e84f3358d85e159f8b7bc2ba2f87e9014b30f",
+      "removed": [
+        "4457e05f-b871-4c78-b5c1-2b6bd399ad0b",
+        "d38ef377-f080-4d21-a29d-694417a69587"
+      ],
+      "R522_position_mm": [
+        63.25,
+        29.5
+      ],
+      "R522_orientation_deg": 180.0,
+      "layer": "B.Cu",
+      "strap_path_mm": [
+        [
+          63.51,
+          28.25
+        ],
+        [
+          63.5,
+          28.25
+        ],
+        [
+          63.5,
+          28.975
+        ],
+        [
+          63.525000000000006,
+          29.0
+        ],
+        [
+          63.525000000000006,
+          29.05
+        ],
+        [
+          63.575,
+          29.1
+        ],
+        [
+          63.575,
+          29.125
+        ],
+        [
+          63.6,
+          29.150000000000002
+        ],
+        [
+          63.6,
+          29.175
+        ],
+        [
+          63.625,
+          29.200000000000003
+        ],
+        [
+          63.625,
+          29.25
+        ],
+        [
+          63.650000000000006,
+          29.275000000000002
+        ],
+        [
+          63.650000000000006,
+          29.3
+        ],
+        [
+          63.675000000000004,
+          29.325000000000003
+        ],
+        [
+          63.675000000000004,
+          29.35
+        ],
+        [
+          63.7,
+          29.375
+        ],
+        [
+          63.7,
+          29.400000000000002
+        ],
+        [
+          63.725,
+          29.425
+        ],
+        [
+          63.725,
+          29.475
+        ],
+        [
+          63.75,
+          29.5
+        ],
+        [
+          63.76,
+          29.5
+        ]
+      ],
+      "strap_length_mm": 1.3735533905932686,
+      "ground_path_mm": [
+        [
+          62.74,
+          29.5
+        ],
+        [
+          62.75,
+          29.5
+        ],
+        [
+          62.400000000000006,
+          29.5
+        ],
+        [
+          62.300000000000004,
+          29.6
+        ],
+        [
+          61.825,
+          29.6
+        ],
+        [
+          61.800000000000004,
+          29.625
+        ],
+        [
+          59.975,
+          29.625
+        ],
+        [
+          59.85,
+          29.75
+        ]
+      ],
+      "ground_via_mm": [
+        59.85,
+        29.75
+      ],
+      "reused_ground_via": false,
+      "limitations": [
+        "Short bias branch only; RGMII PHY-to-MAC path remains open and timing/impedance are not qualified.",
+        "Existing 4.7k resistor and all copper widths retained."
+      ],
+      "new_violations": [],
+      "details": [],
+      "status": "RXCLK_STRAP_GEOMETRY_PASSED",
+      "assembly_ready": false,
+      "preservation": {
+        "existing_pad_instances_preserved": 2006,
+        "existing_tracks_vias_preserved": 5792,
+        "explicitly_replaced_copper": {
+          "4457e05f-b871-4c78-b5c1-2b6bd399ad0b": [
+            "GND",
+            0,
+            56000000,
+            27500000,
+            56000000,
+            28250000,
+            200000,
+            null
+          ],
+          "d38ef377-f080-4d21-a29d-694417a69587": [
+            "GND",
+            0,
+            56010000,
+            27500000,
+            56000000,
+            27500000,
+            200000,
+            null
+          ]
+        },
+        "added_tracks_vias": 26,
+        "existing_connected_pad_groups_preserved": 70
+      },
+      "mechanical_conflicts": []
+    }
+  },
+  "authoritative_checkpoint_modified": false,
+  "bom_selected": false,
+  "assembly_ready": false,
+  "limitations": [
+    "SW node, upstream 3.3V source and 1V load distribution remain open.",
+    "Existing narrow pin/bypass fanout is not qualified for main supply current.",
+    "New RX termination positions require layer/fanout/timing verification.",
+    "No ripple, impedance, stability, thermal or physical qualification."
+  ],
+  "isolated_tests_passed": 7,
+  "full_corridor_rebuild_passed": true,
+  "verified_at_utc": "2026-11-17T16:56:22.490069+00:00"
+}

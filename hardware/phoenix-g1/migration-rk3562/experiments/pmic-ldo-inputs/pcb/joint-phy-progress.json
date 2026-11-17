@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-17",
+  "status": "GEOMETRY_PROGRESS_NOT_COMPLETED_HARDWARE",
+  "authoritative": {
+    "status": "CAD_CHECKPOINT_VALIDATED_NOT_ELECTRICALLY_QUALIFIED",
+    "date": "2026-11-17",
+    "board_sha256": "96b01d90aa6225a873dac818f007459245adeb207920009b7f11e223b8266394",
+    "verified_pairs": 194,
+    "cad_tests_passed": 65,
+    "rollback_tests_passed": 1,
+    "mechanical_detection_tests_passed": 1,
+    "clock_5v_short_injection_tests_passed": 1,
+    "rebuilt_stages": 23,
+    "new_drc_violations": 0,
+    "new_mechanical_conflicts": 0,
+    "remaining_potential_mechanical_conflicts": 19,
+    "open_multipad_nets": 226,
+    "minimum_topological_joins": 952,
+    "physical_tests_performed": false,
+    "assembly_ready": false
+  },
+  "compact_study": {
+    "checkpoint": "../phy-compact-inductor/study-checkpoint.json",
+    "complete_rebuild_passed": true,
+    "dedicated_tests_passed": 5,
+    "selected_bom": false
+  },
+  "excluded_trials": [
+    "Original 4x4 mm inductor joint relocation conflicts with power and backside components.",
+    "RSET front path: no route in bounded (56,23)-(69,35) mm model.",
+    "Compact variant RSET via (59.9,32.4) conflicts with XIN and 5V clearance.",
+    "Compact variant RSET via (59.5,32.4) shorts 5V In2; shifted XOUT conflicts with GND vias/traces."
+  ],
+  "requirements_relaxed": false,
+  "commit_or_push": false,
+  "hardware_tested": false,
+  "remaining": "PHY input/switch/load routes, analog-bias and oscillator co-layout, component electrical qualification; remaining full-board routing and production verification remain open."
+}

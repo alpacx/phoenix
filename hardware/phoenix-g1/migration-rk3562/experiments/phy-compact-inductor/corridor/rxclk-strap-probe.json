@@ -1,0 +1,179 @@
+{
+  "source": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-compact-inductor/corridor/pcb/phoenix-phy-corridor.kicad_pcb",
+  "candidate": "/var/folders/6f/jhxwwy_j2pv1b74_x7hd795m0000gn/T/phoenix-rxclk-strap-bzoti_f5/phoenix-phy-corridor.kicad_pcb",
+  "parent_sha256": "c627d0ef6ca51729ec0734c3ffc1cb8441577608003dbef5825a5aed6033a54c",
+  "candidate_sha256": "21c11942a68f62c506769caed42e84f3358d85e159f8b7bc2ba2f87e9014b30f",
+  "removed": [
+    "4457e05f-b871-4c78-b5c1-2b6bd399ad0b",
+    "d38ef377-f080-4d21-a29d-694417a69587"
+  ],
+  "R522_position_mm": [
+    63.25,
+    29.5
+  ],
+  "R522_orientation_deg": 180.0,
+  "layer": "B.Cu",
+  "strap_path_mm": [
+    [
+      63.51,
+      28.25
+    ],
+    [
+      63.5,
+      28.25
+    ],
+    [
+      63.5,
+      28.975
+    ],
+    [
+      63.525000000000006,
+      29.0
+    ],
+    [
+      63.525000000000006,
+      29.05
+    ],
+    [
+      63.575,
+      29.1
+    ],
+    [
+      63.575,
+      29.125
+    ],
+    [
+      63.6,
+      29.150000000000002
+    ],
+    [
+      63.6,
+      29.175
+    ],
+    [
+      63.625,
+      29.200000000000003
+    ],
+    [
+      63.625,
+      29.25
+    ],
+    [
+      63.650000000000006,
+      29.275000000000002
+    ],
+    [
+      63.650000000000006,
+      29.3
+    ],
+    [
+      63.675000000000004,
+      29.325000000000003
+    ],
+    [
+      63.675000000000004,
+      29.35
+    ],
+    [
+      63.7,
+      29.375
+    ],
+    [
+      63.7,
+      29.400000000000002
+    ],
+    [
+      63.725,
+      29.425
+    ],
+    [
+      63.725,
+      29.475
+    ],
+    [
+      63.75,
+      29.5
+    ],
+    [
+      63.76,
+      29.5
+    ]
+  ],
+  "strap_length_mm": 1.3735533905932686,
+  "ground_path_mm": [
+    [
+      62.74,
+      29.5
+    ],
+    [
+      62.75,
+      29.5
+    ],
+    [
+      62.400000000000006,
+      29.5
+    ],
+    [
+      62.300000000000004,
+      29.6
+    ],
+    [
+      61.825,
+      29.6
+    ],
+    [
+      61.800000000000004,
+      29.625
+    ],
+    [
+      59.975,
+      29.625
+    ],
+    [
+      59.85,
+      29.75
+    ]
+  ],
+  "ground_via_mm": [
+    59.85,
+    29.75
+  ],
+  "reused_ground_via": false,
+  "limitations": [
+    "Short bias branch only; RGMII PHY-to-MAC path remains open and timing/impedance are not qualified.",
+    "Existing 4.7k resistor and all copper widths retained."
+  ],
+  "new_violations": [],
+  "details": [],
+  "status": "RXCLK_STRAP_GEOMETRY_PASSED",
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5792,
+    "explicitly_replaced_copper": {
+      "4457e05f-b871-4c78-b5c1-2b6bd399ad0b": [
+        "GND",
+        0,
+        56000000,
+        27500000,
+        56000000,
+        28250000,
+        200000,
+        null
+      ],
+      "d38ef377-f080-4d21-a29d-694417a69587": [
+        "GND",
+        0,
+        56010000,
+        27500000,
+        56000000,
+        27500000,
+        200000,
+        null
+      ]
+    },
+    "added_tracks_vias": 26,
+    "existing_connected_pad_groups_preserved": 70
+  },
+  "mechanical_conflicts": []
+}

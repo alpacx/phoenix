@@ -1,0 +1,116 @@
+{
+  "status": "EXPERIMENTAL_COMPONENT_REVIEW_NOT_SELECTED_BOM",
+  "date": "2026-11-17",
+  "inductor": {
+    "mpn": "AFE252012S2R2MBT",
+    "jlc": "C22459322",
+    "manufacturer": "Magnetsyc",
+    "inductance_uh": 2.2,
+    "tolerance_percent": 20,
+    "body_nominal_mm": [
+      2.5,
+      2.0,
+      1.2
+    ],
+    "height_is_maximum": true,
+    "rdc_typical_milliohm": 55,
+    "rdc_max_milliohm": 65,
+    "irms_table_a": [
+      3.0,
+      2.7
+    ],
+    "isat_table_a": [
+      3.8,
+      3.3
+    ],
+    "current_table_headers": [
+      "Typical",
+      "Max"
+    ],
+    "current_test_ambient_c": 25,
+    "irms_definition": "Approximately 40 C temperature rise",
+    "isat_definition": "Approximately 30 percent inductance drop",
+    "datasheet": "reference/inductor-phy-compact-C22459322.pdf",
+    "datasheet_sha256": "4059d069a987848409f0708bf04f953a6db59c38b9657c6524cd16e1ddd65dec",
+    "manufacturer_land_pattern_mm": {
+      "outer_span_b": 2.6,
+      "gap_a": 0.7,
+      "pad_height_c": 2.1,
+      "derived_pad_width": 0.95,
+      "derived_pad_center_offset": 0.825
+    },
+    "comparison": {
+      "original_mpn": "ANR4030T2R2M",
+      "original_max_dcr_milliohm": 39,
+      "body_area_reduction_percent": 68.75,
+      "assumed_dc_current_a": 0.6,
+      "original_dc_loss_mw": 14.04,
+      "candidate_dc_loss_mw": 23.4,
+      "increase_dc_loss_mw": 9.36,
+      "note": "DC estimate only at datasheet resistance; excludes heating, ripple, AC/core loss and regulator efficiency."
+    }
+  },
+  "capacitors": {
+    "refs": [
+      "C511",
+      "C515"
+    ],
+    "mpn": "CL10A475KP8NNNC",
+    "jlc": "C1705",
+    "nominal_uf": 4.7,
+    "rated_v": 10,
+    "tolerance_percent": 10,
+    "dielectric": "X5R",
+    "operating_temperature_c": [
+      -55,
+      85
+    ],
+    "body_nominal_mm": [
+      1.6,
+      0.8,
+      0.8
+    ],
+    "manufacturer_source": "https://product.samsungsem.com/mlcc/CL10A475KP8NNN.do",
+    "specific_spec_source": "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10A475KP8NNNC_Spec.pdf",
+    "jlc_pdf_note": "Downloaded JLC attachment is a general Samsung MLCC catalog, not a part-specific DC-bias qualification.",
+    "effective_capacitance_at_bias_qualified": false,
+    "footprint_source": "KiCad 10 Capacitor_SMD:C_0603_1608Metric; standard footprint, assembly/reflow qualification pending"
+  },
+  "jlc_public_observations": [
+    {
+      "componentCode": "C22459322",
+      "componentModelEn": "AFE252012S2R2MBT",
+      "canPresaleNumber": 5863,
+      "overseasStockCount": 5870,
+      "initialPrice": 0.0392,
+      "leastPatchNumber": 15,
+      "preMinPurchaseNum": 289,
+      "assemblyComponentFlag": false,
+      "retrieved_utc": "2026-11-17T15:07:09.310103+00:00",
+      "source_url": "https://jlcpcb.com/partdetail/Magnetsyc-AFE252012S2R2MBT/C22459322",
+      "inventory_note": "Raw public site fields. Overseas/presale numbers are not independently verified immediate assembly stock."
+    },
+    {
+      "componentCode": "C1705",
+      "componentModelEn": "CL10A475KP8NNNC",
+      "canPresaleNumber": 470822,
+      "overseasStockCount": 605199,
+      "initialPrice": 0.0127,
+      "leastPatchNumber": 20,
+      "preMinPurchaseNum": 921,
+      "assemblyComponentFlag": false,
+      "retrieved_utc": "2026-11-17T15:14:39.010276+00:00",
+      "source_url": "https://jlcpcb.com/partdetail/CL10A475KP8NNNC/C1705",
+      "inventory_note": "Raw public site fields. Overseas/presale numbers are not independently verified immediate assembly stock."
+    }
+  ],
+  "holds": [
+    "Not a drop-in approved change: higher maximum inductor DCR than the original candidate.",
+    "Historical Realtek rev1.1 600mA guidance is only a preliminary screen; current PHY layout guide and operating current/ripple remain required.",
+    "Current ratings are test-condition-dependent; the unusual Max column label is retained without reinterpreting it as a guaranteed minimum.",
+    "No complete temperature/DC-bias/aging/ESR capacitor budget or regulator stability proof.",
+    "JLC public presale/overseas fields and assemblyComponentFlag=false do not certify immediately allocatable PCBA inventory. No account allocation or order performed.",
+    "Input supply, switching node and load distribution remain incomplete; no fabrication release."
+  ],
+  "assembly_ready": false
+}

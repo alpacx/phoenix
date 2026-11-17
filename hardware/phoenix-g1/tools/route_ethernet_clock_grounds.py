@@ -17,7 +17,7 @@ def via(net,xy):
 b.BuildConnectivity()
 from local_pcb_router import LocalRouter
 for ref,pin in [('Y501','2'),('Y501','4')]:
- r=LocalRouter(b,(53,27,63,37),width=.2,grid=.05)
+ r=LocalRouter(b,(52,27,64,39),width=.2,grid=.05)
  tree=r.paths_from(r.blocked(p.F_Cu,'GND'),r.cell(r.xy(pads[ref,pin])),3)
  forbidden=set()
  for layer in [p.F_Cu,p.In1_Cu,p.In2_Cu,p.In3_Cu,p.In4_Cu,p.B_Cu]:forbidden |= r.blocked(layer,'GND',.45,True)

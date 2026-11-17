@@ -1,0 +1,52 @@
+{
+  "source_sha256": "a250b2670de4fe5c42deb37589dd6d8f8fabd6aef7982c5572683cc5c3690164",
+  "checkpoint_modified": false,
+  "assembly_ready": false,
+  "position_mm": [
+    61.7,
+    24
+  ],
+  "angle_deg": 90,
+  "limitations": [
+    "Only input bulk placement and ground trial; main power path, return impedance and regulator stability unqualified.",
+    "The old 0.72 mm ground pad branch is explicitly replaced; all other copper is retained. Temporary candidate is not authoritative."
+  ],
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5711,
+    "explicitly_replaced_copper": {
+      "1ce012e4-f7db-493a-a4c4-30dec5ed03f7": [
+        "GND",
+        0,
+        80480000,
+        33000000,
+        80500000,
+        33000000,
+        200000,
+        null
+      ],
+      "9bafe2c0-f71e-4e19-9aca-a33c516b7728": [
+        "GND",
+        0,
+        80500000,
+        33000000,
+        81200000,
+        33000000,
+        200000,
+        null
+      ]
+    },
+    "added_tracks_vias": 7,
+    "existing_connected_pad_groups_preserved": 69
+  },
+  "status": "LOCAL_GROUND_TRIAL_PASSED",
+  "temporary_candidate": "/var/folders/6f/jhxwwy_j2pv1b74_x7hd795m0000gn/T/phoenix-input-bulk-5ewg3_2k/ethernet-dvdd33-bypass.kicad_pcb",
+  "candidate_sha256": "8a924730af5b513687c5abb2ae2528ede29e17b55e54ea459a0f386a1c25fab8",
+  "ground_connected": true,
+  "new_drc_violations": [],
+  "new_mechanical_conflicts": [],
+  "ground_via_mm": [
+    62.45,
+    24.25
+  ]
+}

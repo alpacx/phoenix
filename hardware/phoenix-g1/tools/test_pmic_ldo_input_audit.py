@@ -4,28 +4,89 @@ from pathlib import Path
 def run_case(name):
  import pcbnew as p
  from audit_pmic_ldo_inputs import audit_board,D
- b=p.LoadBoard(str(D/'pcb/ethernet-clock-pins.kicad_pcb'));held=[]
- if name=='accepted':
-  assert len(audit_board(b)['checks'])==172
+ b=p.LoadBoard(str(D/'pcb/ethernet-dvdd33-bypass.kicad_pcb'));held=[]
+ if name in ['rxclkstrap','rxclkstrapground']:
+  import json
+  proof=json.loads((D/'pcb/ethernet-dvdd33-bypass.json').read_text());ids=set(proof['rxclk_route']['new_copper_uuids']);net='PHY_RXCLK' if name=='rxclkstrap' else 'GND'
+  for t in list(b.GetTracks()):
+   if t.m_Uuid.AsString() in ids and t.GetNetname()==net:b.Remove(t);held.append(t)
+  assert held
+  pads={(f.GetReference(),q.GetNumber()):q for f in b.GetFootprints() for q in f.Pads()};b.BuildConnectivity()
+  a=('R522','1') if name=='rxclkstrap' else ('R522','2');z=('R512','2') if name=='rxclkstrap' else ('U20','2')
+  assert pads[z].m_Uuid.AsString() not in {q.m_Uuid.AsString() for q in b.GetConnectivity().GetConnectedItems(pads[a])}
+  try:audit_board(b)
+  except AssertionError as error:assert 'Required connection missing' in str(error),str(error)
+  else:raise AssertionError('Broken RXCLK strap accepted')
   return
- if name in ['pullgrounds','buffercontrolgrounds','cspullup','reservoirpower','reservoirground','bleedpower','bleedground','blbase','blground','ethreset','ethresetground','ethstraps','ethcenter','ethcenterground','ethbias','xtalcapin','xtalcapout','xtalcapground','xtalground','xtalpin','xtalpout']:
+ if name=='resetpin':
+  import json
+  proof=json.loads((D/'pcb/ethernet-dvdd33-bypass.json').read_text());ids=set(proof['reset_route']['new_track_uuids'])
+  for t in list(b.GetTracks()):
+   if t.m_Uuid.AsString() in ids:b.Remove(t);held.append(t)
+  assert len(held)==len(ids)
+  pads={(f.GetReference(),q.GetNumber()):q for f in b.GetFootprints() for q in f.Pads()};b.BuildConnectivity()
+  assert pads['R515','2'].m_Uuid.AsString() not in {q.m_Uuid.AsString() for q in b.GetConnectivity().GetConnectedItems(pads['U5','12'])}
+  try:audit_board(b)
+  except AssertionError as error:assert 'Required connection missing' in str(error),str(error)
+  else:raise AssertionError('Missing PHY reset connection accepted')
+  return
+ if name=='inductor_back':
+  f=next(f for f in b.GetFootprints() if f.GetReference()=='L501');f.Flip(f.GetPosition(),False)
+  try:audit_board(b)
+  except AssertionError as error:assert 'PHY inductor must remain on front' in str(error)
+  else:raise AssertionError('Backside PHY inductor incorrectly accepted')
+  return
+ if name=='accepted':
+  assert len(audit_board(b)['checks'])==195
+  return
+ if name in ['bypassdigital','bypassdigitalground','bypassanalog','bypassanalogground','iopower','avdd10','avdd10ground','iobypass','iobypassground','dvdd33','dvdd33ground']:
+  stages={'avdd10':('ethernet-io-power-link', 'ethernet-avdd10-escape', '+1V0_PHY'),'avdd10ground':('ethernet-io-power-link', 'ethernet-avdd10-escape', 'GND'),'iobypass':('ethernet-avdd10-escape', 'ethernet-io-bypass-escape', '+3V3_PHY'),'iobypassground':('ethernet-avdd10-escape', 'ethernet-io-bypass-escape', 'GND'),'dvdd33':('ethernet-io-bypass-escape', 'ethernet-dvdd33-bypass', '+3V3_PHY'),'dvdd33ground':('ethernet-io-bypass-escape', 'ethernet-dvdd33-bypass', 'GND'),
+   'bypassdigital':('ethernet-cap-grounds','ethernet-bypass-local','+1V0_PHY'),
+   'bypassdigitalground':('ethernet-cap-grounds','ethernet-bypass-local','GND'),
+   'bypassanalog':('ethernet-bypass-local','ethernet-avdd33-bypass','+3V3_PHY'),
+   'bypassanalogground':('ethernet-bypass-local','ethernet-avdd33-bypass','GND'),
+   'iopower':('ethernet-avdd33-bypass','ethernet-io-power-link','+3V3_PHY')}
+  older,newer,net=stages[name]
+  oldboard=p.LoadBoard(str(D/'pcb'/f'{older}.kicad_pcb'));newboard=p.LoadBoard(str(D/'pcb'/f'{newer}.kicad_pcb'))
+  oldids={v.m_Uuid.AsString() for v in oldboard.GetTracks()}
+  cutids={v.m_Uuid.AsString() for v in newboard.GetTracks() if v.m_Uuid.AsString() not in oldids and v.GetNetname()==net}
+  if name in ['iopower','dvdd33ground']:
+   ref,pin=('U5','28') if name=='iopower' else ('C519','2')
+   pad=next(q for f in b.GetFootprints() if f.GetReference()==ref for q in f.Pads() if q.GetNumber()==pin)
+   # Later routes can provide an alternate connection; isolate the pad locally.
+   cutids={v.m_Uuid.AsString() for v in b.GetTracks() if v.GetNetname()==net and v.HitTest(pad.GetPosition(),p.FromMM(.6))}
+  for v in list(b.GetTracks()):
+   if v.m_Uuid.AsString() in cutids:b.Remove(v);held.append(v)
+  assert held
+  import json
+  check=json.loads((D/'pcb'/f'{newer}.json').read_text())['checks'][1 if net=='GND' else 0]
+  padmap={(f.GetReference(),q.GetNumber()):q for f in b.GetFootprints() for q in f.Pads()}
+  a=padmap[tuple(check['from'].split('.'))];z=padmap[tuple(check['to'].split('.'))]
+  b.BuildConnectivity()
+  assert z.m_Uuid.AsString() not in {q.m_Uuid.AsString() for q in b.GetConnectivity().GetConnectedItems(a)},'Fault injection did not disconnect the intended pair'
+  try:audit_board(b)
+  except AssertionError as error:assert 'Required connection missing' in str(error),str(error)
+  else:raise AssertionError('Disconnected bypass incorrectly accepted')
+  return
+ if name in ['pullgrounds','buffercontrolgrounds','cspullup','reservoirpower','reservoirground','bleedpower','bleedground','blbase','blground','ethreset','ethresetground','ethstraps','ethcenter','ethcenterground','ethbias','xtalcapin','xtalcapout','xtalcapground','xtalground','xtalpin','xtalpout','ethcapgrounds']:
   older='display-buffer-feed' if name=='pullgrounds' else 'display-input-pulls'
   newer='display-input-pulls' if name=='pullgrounds' else 'display-input-returns'
   if name.startswith('reservoir'):older,newer='display-input-returns','display-reservoir'
   if name.startswith('bleed'):older,newer='display-reservoir','display-io-bleed'
-  if name in ['blbase','blground','ethreset','ethresetground','ethstraps','ethcenter','ethcenterground','ethbias','xtalcapin','xtalcapout','xtalcapground','xtalground','xtalpin','xtalpout']:older,newer='display-io-bleed','display-backlight-control'
+  if name in ['blbase','blground','ethreset','ethresetground','ethstraps','ethcenter','ethcenterground','ethbias','xtalcapin','xtalcapout','xtalcapground','xtalground','xtalpin','xtalpout','ethcapgrounds']:older,newer='display-io-bleed','display-backlight-control'
   if name in ['ethreset','ethresetground']:older,newer='display-backlight-control','ethernet-reset-passives'
   if name=='ethstraps':older,newer='ethernet-reset-passives','ethernet-strap-grounds'
-  if name in ['ethcenter','ethcenterground','ethbias','xtalcapin','xtalcapout','xtalcapground','xtalground','xtalpin','xtalpout']:older,newer='ethernet-strap-grounds','ethernet-center-tap'
+  if name in ['ethcenter','ethcenterground','ethbias','xtalcapin','xtalcapout','xtalcapground','xtalground','xtalpin','xtalpout','ethcapgrounds']:older,newer='ethernet-strap-grounds','ethernet-center-tap'
   if name=='ethbias':older,newer='ethernet-center-tap','ethernet-bias-grounds'
   if name in ['xtalcapin','xtalcapout','xtalcapground']:older,newer='ethernet-bias-grounds','ethernet-clock-placement'
   if name=='xtalground':older,newer='ethernet-clock-placement','ethernet-clock-grounds'
-  if name in ['xtalpin','xtalpout']:older,newer='ethernet-clock-grounds','ethernet-clock-pins'
+  if name in ['xtalpin','xtalpout','ethcapgrounds']:older,newer='ethernet-clock-grounds','ethernet-clock-pins'
+  if name=='ethcapgrounds':older,newer='ethernet-clock-pins','ethernet-cap-grounds'
   base=p.LoadBoard(str(D/'pcb'/f'{older}.kicad_pcb'));stage=p.LoadBoard(str(D/'pcb'/f'{newer}.kicad_pcb'))
   ids={t.m_Uuid.AsString() for t in base.GetTracks()}
   cut_ids={t.m_Uuid.AsString() for t in stage.GetTracks() if t.m_Uuid.AsString() not in ids and t.GetNetname()==('+3V3_IO' if name in ['cspullup','bleedpower'] else 'PHY_XIN' if name in ['xtalcapin','xtalpin'] else 'PHY_XOUT' if name in ['xtalcapout','xtalpout'] else 'PHY_RESET_N' if name=='ethreset' else 'ETH_CENTER_TAP' if name=='ethcenter' else 'LCD_BL_BASE' if name=='blbase' else '+3V0_LCD' if name=='reservoirpower' else 'GND')}
  for t in list(b.GetTracks()):
-  if name in ['mosi','sclk','dc','reset','cs','pullgrounds','buffercontrolgrounds','cspullup','reservoirpower','reservoirground','bleedpower','bleedground','blbase','blground','ethreset','ethresetground','ethstraps','ethcenter','ethcenterground','ethbias','xtalcapin','xtalcapout','xtalcapground','xtalground','xtalpin','xtalpout']:
+  if name in ['mosi','sclk','dc','reset','cs','pullgrounds','buffercontrolgrounds','cspullup','reservoirpower','reservoirground','bleedpower','bleedground','blbase','blground','ethreset','ethresetground','ethstraps','ethcenter','ethcenterground','ethbias','xtalcapin','xtalcapout','xtalcapground','xtalground','xtalpin','xtalpout','ethcapgrounds']:
    nets={'mosi':'LCD_MOSI','sclk':'LCD_SCLK','dc':'LCD_DC','reset':'LCD_RESET_N','cs':'LCD_CS_N'}
    cut=t.GetNetname()==nets[name] if name in nets else t.m_Uuid.AsString() in cut_ids
    if name=='xtalcapout':
@@ -80,9 +141,24 @@ def run_case(name):
   assert 'Required connection missing' in str(error),str(error)
  else:raise AssertionError('Disconnected circuit incorrectly accepted')
 class PmicInputAuditTests(unittest.TestCase):
+ def test_rxclk_strap_interruption(self):self.check('rxclkstrap')
+ def test_rxclk_strap_ground_interruption(self):self.check('rxclkstrapground')
+ def test_phy_reset_pin_interruption(self):self.check('resetpin')
  def check(self,name):
   r=subprocess.run([sys.executable,str(Path(__file__).resolve()),'--case',name],capture_output=True,text=True)
   self.assertEqual(r.returncode,0,r.stdout+r.stderr)
+ def test_avdd10_interruption(self):self.check('avdd10')
+ def test_avdd10ground_interruption(self):self.check('avdd10ground')
+ def test_iobypass_interruption(self):self.check('iobypass')
+ def test_iobypassground_interruption(self):self.check('iobypassground')
+ def test_dvdd33_interruption(self):self.check('dvdd33')
+ def test_dvdd33ground_interruption(self):self.check('dvdd33ground')
+ def test_digital_bypass_interruption(self):self.check('bypassdigital')
+ def test_digital_bypass_ground_interruption(self):self.check('bypassdigitalground')
+ def test_analog_bypass_interruption(self):self.check('bypassanalog')
+ def test_analog_bypass_ground_interruption(self):self.check('bypassanalogground')
+ def test_phy_io_power_interruption(self):self.check('iopower')
+ def test_ethernet_cap_ground_interruption(self):self.check('ethcapgrounds')
  def test_crystal_cap_input_interruption(self):self.check('xtalcapin')
  def test_crystal_cap_output_interruption(self):self.check('xtalcapout')
  def test_crystal_cap_ground_interruption(self):self.check('xtalcapground')
@@ -116,6 +192,7 @@ class PmicInputAuditTests(unittest.TestCase):
  def test_display_feed_interruption(self):self.check('displayfeed')
  def test_cpu_input_feed_interruption(self):self.check('cpufeed')
  def test_tp3_interruption(self):self.check('tp3')
+ def test_backside_inductor_rejected(self):self.check('inductor_back')
  def test_accepted_board(self):self.check('accepted')
  def test_vcc7_interruption_detected(self):self.check('vcc7')
  def test_vcc8_interruption_detected(self):self.check('vcc8')

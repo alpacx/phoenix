@@ -1,0 +1,4560 @@
+{
+  "status": "NO_EXACT_PLACEMENT_IN_TESTED_SET",
+  "source_sha256": "a250b2670de4fe5c42deb37589dd6d8f8fabd6aef7982c5572683cc5c3690164",
+  "trials": [
+    {
+      "placement": {
+        "center_mm": [
+          57.5,
+          27.75
+        ],
+        "angle_deg": 0,
+        "straight_line_mm": 3.2491
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "4b58f10c-0a44-4393-951b-d0a054da0ded",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "0daabfe1-f5d7-4891-969a-19aded14b60c",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "0daabfe1-f5d7-4891-969a-19aded14b60c",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "4b58f10c-0a44-4393-951b-d0a054da0ded",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          52.0,
+          30.25
+        ],
+        "angle_deg": 180,
+        "straight_line_mm": 3.4639
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          57.5,
+          27.5
+        ],
+        "angle_deg": 0,
+        "straight_line_mm": 3.4849
+      },
+      "new_violations": [
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "4b58f10c-0a44-4393-951b-d0a054da0ded",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "0daabfe1-f5d7-4891-969a-19aded14b60c",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "0daabfe1-f5d7-4891-969a-19aded14b60c",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          52.0,
+          30.0
+        ],
+        "angle_deg": 180,
+        "straight_line_mm": 3.5123
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          52.0,
+          29.75
+        ],
+        "angle_deg": 180,
+        "straight_line_mm": 3.5776
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          52.0,
+          29.5
+        ],
+        "angle_deg": 180,
+        "straight_line_mm": 3.6587
+      },
+      "new_violations": [
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "d948b1a0-6885-4283-a35a-456b7bbc1cd0",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          57.5,
+          27.75
+        ],
+        "angle_deg": 180,
+        "straight_line_mm": 3.6917
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "4b58f10c-0a44-4393-951b-d0a054da0ded"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "0daabfe1-f5d7-4891-969a-19aded14b60c",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "0daabfe1-f5d7-4891-969a-19aded14b60c",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "4b58f10c-0a44-4393-951b-d0a054da0ded"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          52.25,
+          29.75
+        ],
+        "angle_deg": 90,
+        "straight_line_mm": 3.6942
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.75,
+          30.25
+        ],
+        "angle_deg": 180,
+        "straight_line_mm": 3.711
+      },
+      "new_violations": [
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          52.25,
+          29.5
+        ],
+        "angle_deg": 90,
+        "straight_line_mm": 3.741
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          52.0,
+          29.25
+        ],
+        "angle_deg": 180,
+        "straight_line_mm": 3.7549
+      },
+      "new_violations": [
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "d948b1a0-6885-4283-a35a-456b7bbc1cd0",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "d948b1a0-6885-4283-a35a-456b7bbc1cd0",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "d948b1a0-6885-4283-a35a-456b7bbc1cd0",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.75,
+          30.0
+        ],
+        "angle_deg": 180,
+        "straight_line_mm": 3.7562
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.75,
+          29.75
+        ],
+        "angle_deg": 180,
+        "straight_line_mm": 3.8173
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.75,
+          29.5
+        ],
+        "angle_deg": 180,
+        "straight_line_mm": 3.8934
+      },
+      "new_violations": [
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "d948b1a0-6885-4283-a35a-456b7bbc1cd0",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          57.5,
+          27.5
+        ],
+        "angle_deg": 180,
+        "straight_line_mm": 3.9008
+      },
+      "new_violations": [
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "4b58f10c-0a44-4393-951b-d0a054da0ded"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "0daabfe1-f5d7-4891-969a-19aded14b60c",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "0daabfe1-f5d7-4891-969a-19aded14b60c",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          52.0,
+          29.75
+        ],
+        "angle_deg": 90,
+        "straight_line_mm": 3.9414
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          52.25,
+          29.75
+        ],
+        "angle_deg": 270,
+        "straight_line_mm": 3.9577
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "d948b1a0-6885-4283-a35a-456b7bbc1cd0",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "d948b1a0-6885-4283-a35a-456b7bbc1cd0",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "d948b1a0-6885-4283-a35a-456b7bbc1cd0",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.5,
+          30.25
+        ],
+        "angle_deg": 180,
+        "straight_line_mm": 3.9584
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "c98bf7ae-ad56-4cff-b533-50637db55c97"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.75,
+          29.25
+        ],
+        "angle_deg": 180,
+        "straight_line_mm": 3.9839
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "d948b1a0-6885-4283-a35a-456b7bbc1cd0",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "d948b1a0-6885-4283-a35a-456b7bbc1cd0",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "d948b1a0-6885-4283-a35a-456b7bbc1cd0",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          52.0,
+          29.5
+        ],
+        "angle_deg": 90,
+        "straight_line_mm": 3.9853
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.5,
+          30.0
+        ],
+        "angle_deg": 180,
+        "straight_line_mm": 4.0008
+      },
+      "new_violations": [
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.5,
+          29.75
+        ],
+        "angle_deg": 180,
+        "straight_line_mm": 4.0582
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          52.25,
+          29.5
+        ],
+        "angle_deg": 270,
+        "straight_line_mm": 4.0609
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "d948b1a0-6885-4283-a35a-456b7bbc1cd0",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "d948b1a0-6885-4283-a35a-456b7bbc1cd0",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "d948b1a0-6885-4283-a35a-456b7bbc1cd0",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.5,
+          29.5
+        ],
+        "angle_deg": 180,
+        "straight_line_mm": 4.1299
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.75,
+          29.75
+        ],
+        "angle_deg": 90,
+        "straight_line_mm": 4.189
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          52.0,
+          29.75
+        ],
+        "angle_deg": 270,
+        "straight_line_mm": 4.1894
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "d948b1a0-6885-4283-a35a-456b7bbc1cd0",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.25,
+          30.25
+        ],
+        "angle_deg": 180,
+        "straight_line_mm": 4.2061
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "c98bf7ae-ad56-4cff-b533-50637db55c97"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.5,
+          29.25
+        ],
+        "angle_deg": 180,
+        "straight_line_mm": 4.2153
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "d948b1a0-6885-4283-a35a-456b7bbc1cd0",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.75,
+          29.5
+        ],
+        "angle_deg": 90,
+        "straight_line_mm": 4.2302
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.25,
+          30.0
+        ],
+        "angle_deg": 180,
+        "straight_line_mm": 4.246
+      },
+      "new_violations": [
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          52.0,
+          29.5
+        ],
+        "angle_deg": 270,
+        "straight_line_mm": 4.287
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "d948b1a0-6885-4283-a35a-456b7bbc1cd0",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "d948b1a0-6885-4283-a35a-456b7bbc1cd0",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.25,
+          29.75
+        ],
+        "angle_deg": 180,
+        "straight_line_mm": 4.3002
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.25,
+          29.5
+        ],
+        "angle_deg": 180,
+        "straight_line_mm": 4.3679
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          52.0,
+          30.25
+        ],
+        "angle_deg": 0,
+        "straight_line_mm": 4.4144
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.75,
+          29.75
+        ],
+        "angle_deg": 270,
+        "straight_line_mm": 4.4231
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.5,
+          29.75
+        ],
+        "angle_deg": 90,
+        "straight_line_mm": 4.4368
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.25,
+          29.25
+        ],
+        "angle_deg": 180,
+        "straight_line_mm": 4.4488
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          52.0,
+          30.0
+        ],
+        "angle_deg": 0,
+        "straight_line_mm": 4.4525
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.0,
+          30.25
+        ],
+        "angle_deg": 180,
+        "straight_line_mm": 4.4541
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "c98bf7ae-ad56-4cff-b533-50637db55c97"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.5,
+          29.5
+        ],
+        "angle_deg": 90,
+        "straight_line_mm": 4.4758
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          52.0,
+          29.75
+        ],
+        "angle_deg": 0,
+        "straight_line_mm": 4.5041
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.75,
+          29.5
+        ],
+        "angle_deg": 270,
+        "straight_line_mm": 4.5156
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          52.0,
+          29.5
+        ],
+        "angle_deg": 0,
+        "straight_line_mm": 4.5689
+      },
+      "new_violations": [
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          52.0,
+          29.25
+        ],
+        "angle_deg": 0,
+        "straight_line_mm": 4.6462
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.5,
+          29.75
+        ],
+        "angle_deg": 270,
+        "straight_line_mm": 4.6584
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.75,
+          30.25
+        ],
+        "angle_deg": 0,
+        "straight_line_mm": 4.6626
+      },
+      "new_violations": [
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.25,
+          29.75
+        ],
+        "angle_deg": 90,
+        "straight_line_mm": 4.6848
+      },
+      "new_violations": [
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.75,
+          30.0
+        ],
+        "angle_deg": 0,
+        "straight_line_mm": 4.6986
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          50.75,
+          30.25
+        ],
+        "angle_deg": 180,
+        "straight_line_mm": 4.7023
+      },
+      "new_violations": [
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.25,
+          29.5
+        ],
+        "angle_deg": 90,
+        "straight_line_mm": 4.7217
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.5,
+          29.5
+        ],
+        "angle_deg": 270,
+        "straight_line_mm": 4.7464
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.75,
+          29.75
+        ],
+        "angle_deg": 0,
+        "straight_line_mm": 4.7476
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.75,
+          29.5
+        ],
+        "angle_deg": 0,
+        "straight_line_mm": 4.809
+      },
+      "new_violations": [
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.75,
+          29.25
+        ],
+        "angle_deg": 0,
+        "straight_line_mm": 4.8826
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.25,
+          29.75
+        ],
+        "angle_deg": 270,
+        "straight_line_mm": 4.8952
+      },
+      "new_violations": [
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "480b132d-2229-4892-912a-28300a78afb5"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.5,
+          30.25
+        ],
+        "angle_deg": 0,
+        "straight_line_mm": 4.9109
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "c98bf7ae-ad56-4cff-b533-50637db55c97",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.0,
+          29.75
+        ],
+        "angle_deg": 90,
+        "straight_line_mm": 4.933
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "c98bf7ae-ad56-4cff-b533-50637db55c97",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.5,
+          30.0
+        ],
+        "angle_deg": 0,
+        "straight_line_mm": 4.9451
+      },
+      "new_violations": [
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          50.5,
+          30.25
+        ],
+        "angle_deg": 180,
+        "straight_line_mm": 4.9506
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "c98bf7ae-ad56-4cff-b533-50637db55c97",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "439a140f-c9bf-45d2-b9cc-520e366bf327",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.0,
+          29.5
+        ],
+        "angle_deg": 90,
+        "straight_line_mm": 4.9681
+      },
+      "new_violations": [
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.25,
+          29.5
+        ],
+        "angle_deg": 270,
+        "straight_line_mm": 4.979
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.5,
+          29.75
+        ],
+        "angle_deg": 0,
+        "straight_line_mm": 4.9917
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    },
+    {
+      "placement": {
+        "center_mm": [
+          51.5,
+          29.5
+        ],
+        "angle_deg": 0,
+        "straight_line_mm": 5.0502
+      },
+      "new_violations": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "49695a2b-88a8-47bf-b793-6b9af8a459eb"
+          ],
+          "count": 1
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "545b053b-db69-41f9-bd1f-f3135bcf88b9",
+            "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+          ],
+          "count": 1
+        },
+        {
+          "type": "solder_mask_bridge",
+          "severity": "error",
+          "items": [
+            "480b132d-2229-4892-912a-28300a78afb5",
+            "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_dangling",
+          "severity": "warning",
+          "items": [
+            "410979f8-580d-4434-9883-ad3cf785333c"
+          ],
+          "count": 1
+        }
+      ],
+      "geometry_acceptable": false
+    }
+  ],
+  "accepted_geometry": null,
+  "temporary_candidate": null,
+  "checkpoint_modified": false,
+  "assembly_ready": false,
+  "limitations": [
+    "Only candidates rejected by the conservative copper screen are tested.",
+    "Unconnected items and dangling old ground branches are excluded ONLY from placement acceptance; continuity must be restored and full DRC rerun before promotion.",
+    "No power copper, current capacity, loop impedance or stability qualification."
+  ]
+}

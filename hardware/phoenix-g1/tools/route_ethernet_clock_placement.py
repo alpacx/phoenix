@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Place existing Ethernet crystal load capacitors near Y501; no oscillator qualification."""
+"""Joint PHY support relocation and crystal bypass placement; no power or oscillator qualification."""
 import pcbnew as p,json,hashlib,shutil,subprocess
 from pathlib import Path
 from pcb_preservation import verify_preservation
@@ -18,11 +18,31 @@ b.BuildConnectivity()
 from local_pcb_router import LocalRouter
 import math
 moves={};held=[]
-for ref,xy,angle,layer in [('L501',(64.5,29),0,p.B_Cu),('Y501',(57.5,31.9),180,p.F_Cu)]:
+for ref,xy,angle,layer in [('C1014',(62,36),0,p.B_Cu),('U23',(74.5,32),0,p.F_Cu),('L501',(57.4,30.8),180,p.F_Cu),('Y501',(57.75, 34.8),180,p.F_Cu)]:
  f=next(f for f in b.GetFootprints() if f.GetReference()==ref)
  assert not any(b.GetConnectivity().GetConnectedTracks(q) for q in f.Pads()),ref
  if f.GetLayer()!=layer:f.Flip(f.GetPosition(),False)
  f.SetPosition(vec(xy));f.SetOrientationDegrees(angle);moves[ref]=xy
+
+
+f=next(f for f in b.GetFootprints() if f.GetReference()=='U23')
+f.Flip(f.GetPosition(),False)
+r=LocalRouter(b,(72,22,86,39),width=.2,grid=.05)
+r.pads=[q for q in r.pads if q.GetParentFootprint().GetReference()!='U23']
+obstacles=[g.GetCourtyard(p.B_Cu).BBox() for g in b.GetFootprints() if g.GetReference()!='U23' and g.GetLayer()==p.B_Cu]
+blocked={q.GetNumber():r.blocked(p.B_Cu,q.GetNetname(),math.hypot(p.ToMM(q.GetSize().x),p.ToMM(q.GetSize().y))) for q in f.Pads()}
+from audit_mount_component_reservations import screen
+positions=sorted([(x/4,y/4) for x in range(288,345) for y in range(88,157)],key=lambda xy:math.dist(xy,(76,27)))
+found=False
+for xy in positions:
+ for angle in [0,90,180,270]:
+  f.SetPosition(vec(xy));f.SetOrientationDegrees(angle);box=f.GetCourtyard(p.B_Cu).BBox()
+  if any(box.Intersects(other) for other in obstacles):continue
+  if any(r.cell(r.xy(q)) in blocked[q.GetNumber()] for q in f.Pads()):continue
+  if any(row['ref']=='U23' for row in screen(b)):continue
+  moves['U23']=xy;found=True;break
+ if found:break
+assert found,'No U23 placement found in bounded back search'
 
 for pin,ref in [('1','C520'),('3','C521')]:
  f=next(f for f in b.GetFootprints() if f.GetReference()==ref)
@@ -30,11 +50,11 @@ for pin,ref in [('1','C520'),('3','C521')]:
  if f.GetLayer()!=p.F_Cu:f.Flip(f.GetPosition(),False)
  f.SetOrientationDegrees(270)
  a=pads['Y501',pin];z=pads[ref,'1']
- r=LocalRouter(b,(53,26,63,36),width=.2,grid=.05)
+ r=LocalRouter(b,(52,30,65,39),width=.2,grid=.05)
  r.pads=[q for q in r.pads if q.GetParentFootprint().GetReference()!=ref]
  blocked={q.GetNumber():r.blocked(p.F_Cu,q.GetNetname(),math.hypot(p.ToMM(q.GetSize().x),p.ToMM(q.GetSize().y))) for q in f.Pads()}
  obstacles=[g.GetCourtyard(p.F_Cu).BBox() for g in b.GetFootprints() if g.GetReference()!=ref and g.GetLayer()==p.F_Cu]
- candidates=[(x/4,y/4) for x in range(212,253) for y in range(104,145)]
+ candidates=[(x/4,y/4) for x in range(208,261) for y in range(120,157)]
  candidates.sort(key=lambda xy:math.dist(xy,r.xy(a)))
  found=False;counts=dict(outside=0,courtyard=0,pad_copper=0,no_signal_path=0,path_too_long=0,no_ground=0)
  for xy,angle in [(xy,angle) for xy in candidates for angle in [0,90,180,270]]:
@@ -43,14 +63,14 @@ for pin,ref in [('1','C520'),('3','C521')]:
   f.SetPosition(vec(xy));box=f.GetCourtyard(p.F_Cu).BBox()
   if any(box.Intersects(other) for other in obstacles):counts["courtyard"]+=1;continue
   if any(r.cell(r.xy(q)) in blocked[q.GetNumber()] for q in f.Pads()):counts["pad_copper"]+=1;continue
-  rr=LocalRouter(b,(53,26,63,36),width=.2,grid=.025);rr.max_expansions=150000
+  rr=LocalRouter(b,(52,30,65,39),width=.2,grid=.025);rr.max_expansions=150000
   path=rr.solve(rr.blocked(p.F_Cu,a.GetNetname()),rr.cell(rr.xy(a)),rr.cell(rr.xy(z)))
   if not path:counts["no_signal_path"]+=1;continue
   if sum(math.dist(x,y) for x,y in zip(path,path[1:]))>4:counts["path_too_long"]+=1;continue
   before_ids={t.m_Uuid.AsString() for t in b.GetTracks()}
   route(a.GetNetname(),.2,[rr.xy(a)]+path+[rr.xy(z)])
   if True:
-   gr=LocalRouter(b,(53,26,63,36),width=.2,grid=.05)
+   gr=LocalRouter(b,(52,30,65,39),width=.2,grid=.05)
    tree=gr.paths_from(gr.blocked(p.F_Cu,'GND'),gr.cell(gr.xy(pads[ref,'2'])),3)
    forbidden=set()
    for layer in [p.F_Cu,p.In1_Cu,p.In2_Cu,p.In3_Cu,p.In4_Cu,p.B_Cu]:forbidden |= gr.blocked(layer,'GND',.45,True)
@@ -76,6 +96,6 @@ pairs=[(('C520','1'),('Y501','1')),(('C521','1'),('Y501','3')),(('C520','2'),('U
 checks=[]
 for a,z in pairs:checks.append({'from':'.'.join(a),'to':'.'.join(z),'connected':pads[z].m_Uuid.AsString() in {q.m_Uuid.AsString() for q in b.GetConnectivity().GetConnectedItems(pads[a])}})
 accepted=not new and all(c['connected'] for c in checks)
-r={'status':'ETHERNET_CLOCK_PLACEMENT_CONNECTED' if accepted else 'REJECTED_ETHERNET_CLOCK_PLACEMENT','sha256':hashlib.sha256(out.read_bytes()).hexdigest(),'source_sha256':proof['sha256'],'checks':checks,'new_violations':new,'assembly_ready':False,'moved_refs_mm':moves,'limitations':['L501 moved to back side; switching-loop, via current and power layout not qualified.','Crystal loading, drive, frequency and PHY clock-pin connections remain unqualified.']}
+r={'status':'ETHERNET_CLOCK_PLACEMENT_CONNECTED' if accepted else 'REJECTED_ETHERNET_CLOCK_PLACEMENT','sha256':hashlib.sha256(out.read_bytes()).hexdigest(),'source_sha256':proof['sha256'],'checks':checks,'new_violations':new,'assembly_ready':False,'moved_refs_mm':moves,'limitations':['L501 on front; switching loop and primary power routing remain open. C1014 and U23 moved to back; CPU decoupling and ESD paths unqualified.','Crystal loading, drive, frequency and PHY clock-pin connections remain unqualified.']}
 if accepted:r['preservation']=verify_preservation(p.LoadBoard(str(src)),b)
 (D/'ethernet-clock-placement.json').write_text(json.dumps(r,indent=2)+'\n');print(json.dumps(r,indent=2))

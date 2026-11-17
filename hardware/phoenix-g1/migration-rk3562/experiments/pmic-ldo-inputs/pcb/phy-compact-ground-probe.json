@@ -1,0 +1,192 @@
+{
+  "status": "COMPACT_GROUNDS_GEOMETRY_PASSED",
+  "source_sha256": "a250b2670de4fe5c42deb37589dd6d8f8fabd6aef7982c5572683cc5c3690164",
+  "candidate_sha256": "535ed148156f9c6ef0b67ff847f2ef4bfee3b25465c1e02ec1d659d5aedd93c0",
+  "temporary_candidate": "/var/folders/6f/jhxwwy_j2pv1b74_x7hd795m0000gn/T/phoenix-compact-ground-la1w0ytj/ethernet-dvdd33-bypass.kicad_pcb",
+  "branch": {
+    "path_mm": [
+      [
+        57.3,
+        29.6
+      ],
+      [
+        57.300000000000004,
+        29.6
+      ],
+      [
+        57.150000000000006,
+        29.75
+      ],
+      [
+        56.900000000000006,
+        29.75
+      ],
+      [
+        56.150000000000006,
+        30.5
+      ]
+    ],
+    "via_mm": [
+      56.150000000000006,
+      30.5
+    ],
+    "via_diameter_mm": 0.6,
+    "via_drill_mm": 0.3,
+    "guard": {
+      "net": "GND",
+      "width_mm": 0.5,
+      "segments": 3,
+      "width_preserved": true,
+      "current_rating_qualified": false
+    }
+  },
+  "capacitor": {
+    "path_mm": [
+      [
+        57.68,
+        32.2
+      ],
+      [
+        57.7,
+        32.2
+      ],
+      [
+        58.35,
+        32.2
+      ],
+      [
+        58.45,
+        32.1
+      ]
+    ],
+    "via_mm": [
+      58.45,
+      32.1
+    ],
+    "via_diameter_mm": 0.45,
+    "via_drill_mm": 0.2,
+    "guard": {
+      "net": "GND",
+      "width_mm": 0.2,
+      "segments": 3,
+      "width_preserved": true,
+      "current_rating_qualified": false
+    }
+  },
+  "new_violations": [],
+  "mechanical_conflicts": [],
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5703,
+    "explicitly_replaced_copper": {
+      "353c793c-2fde-4e45-a944-7f6b0ff7d320": [
+        "GND",
+        2,
+        57450000,
+        29700000,
+        57500000,
+        29700000,
+        500000,
+        null
+      ],
+      "410979f8-580d-4434-9883-ad3cf785333c": [
+        "GND",
+        0,
+        76980000,
+        36000000,
+        77000000,
+        36000000,
+        200000,
+        null
+      ],
+      "4bb1168a-d647-4743-9dd8-60be61a4eee6": [
+        "GND",
+        2,
+        57500000,
+        29700000,
+        57600000,
+        29800000,
+        500000,
+        null
+      ],
+      "6a398cd1-9612-444e-b43d-0f00b6829a79": [
+        "GND",
+        2,
+        57750000,
+        29800000,
+        57800000,
+        29850000,
+        500000,
+        null
+      ],
+      "6e11dda3-002c-49b6-9abe-eb30ca22e7e2": [
+        "GND",
+        2,
+        57350000,
+        29650000,
+        57400000,
+        29650000,
+        500000,
+        null
+      ],
+      "8653b1df-8759-4800-8bf8-337ab3e20f29": [
+        "GND",
+        2,
+        57300000,
+        29600000,
+        57350000,
+        29650000,
+        500000,
+        null
+      ],
+      "8da758e9-215b-4c35-91d3-82bc52782f01": [
+        "GND",
+        2,
+        57400000,
+        29650000,
+        57450000,
+        29700000,
+        500000,
+        null
+      ],
+      "9a777003-3bdd-4be2-916f-935d2f0a5f08": [
+        "GND",
+        0,
+        57800000,
+        29850000,
+        57800000,
+        29850000,
+        600000,
+        300000
+      ],
+      "c7be60d9-fe0d-4326-acbc-8373b5099c66": [
+        "GND",
+        2,
+        57600000,
+        29800000,
+        57750000,
+        29800000,
+        500000,
+        null
+      ],
+      "d60df459-ad1a-4299-b3bd-5b7da6f5f7ec": [
+        "GND",
+        0,
+        77000000,
+        36000000,
+        77700000,
+        36000000,
+        200000,
+        null
+      ]
+    },
+    "added_tracks_vias": -2,
+    "existing_connected_pad_groups_preserved": 69
+  },
+  "checkpoint_modified": false,
+  "assembly_ready": false,
+  "limitations": [
+    "Alternative inductor requires electrical approval against current PHY layout guide; not selected BOM.",
+    "No main power or switching routing; DRC and continuity are not PI or current qualification."
+  ]
+}

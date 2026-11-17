@@ -1,0 +1,829 @@
+{
+  "status": "PLACEMENT_SCREEN_NOT_POWER_ROUTING",
+  "source_sha256": "a250b2670de4fe5c42deb37589dd6d8f8fabd6aef7982c5572683cc5c3690164",
+  "placement_step_mm": 0.25,
+  "inductor_angle_override_deg": 270,
+  "capacitors": [
+    {
+      "reference": "C511",
+      "target": "L501.2",
+      "candidate_count": 0,
+      "closest_candidates": [],
+      "rejection_counts": {
+        "distance": 4029,
+        "courtyard": 5183,
+        "pad_copper": 4
+      },
+      "courtyard_blocker_groups": [
+        {
+          "references": [
+            "L501"
+          ],
+          "positions": 808,
+          "example_not_placement": {
+            "center_mm": [
+              55.75,
+              29.0
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 3.2672
+          }
+        },
+        {
+          "references": [
+            "Y501"
+          ],
+          "positions": 525,
+          "example_not_placement": {
+            "center_mm": [
+              55.25,
+              34.25
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 3.2446
+          }
+        },
+        {
+          "references": [
+            "U5"
+          ],
+          "positions": 505,
+          "example_not_placement": {
+            "center_mm": [
+              60.25,
+              28.5
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 4.3755
+          }
+        },
+        {
+          "references": [
+            "C2201"
+          ],
+          "positions": 153,
+          "example_not_placement": {
+            "center_mm": [
+              52.5,
+              30.0
+            ],
+            "angle_deg": 180,
+            "straight_line_mm": 4.9826
+          }
+        },
+        {
+          "references": [
+            "C2202"
+          ],
+          "positions": 84,
+          "example_not_placement": {
+            "center_mm": [
+              53.25,
+              33.75
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 4.5768
+          }
+        },
+        {
+          "references": [
+            "C520"
+          ],
+          "positions": 33,
+          "example_not_placement": {
+            "center_mm": [
+              60.5,
+              35.0
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 4.441
+          }
+        },
+        {
+          "references": [
+            "U26"
+          ],
+          "positions": 26,
+          "example_not_placement": {
+            "center_mm": [
+              52.0,
+              31.25
+            ],
+            "angle_deg": 180,
+            "straight_line_mm": 5.0308
+          }
+        },
+        {
+          "references": [
+            "R522"
+          ],
+          "positions": 25,
+          "example_not_placement": {
+            "center_mm": [
+              55.5,
+              27.5
+            ],
+            "angle_deg": 180,
+            "straight_line_mm": 5.0056
+          }
+        },
+        {
+          "references": [
+            "C521"
+          ],
+          "positions": 20,
+          "example_not_placement": {
+            "center_mm": [
+              56.5,
+              37.75
+            ],
+            "angle_deg": 270,
+            "straight_line_mm": 5.0508
+          }
+        },
+        {
+          "references": [
+            "C517"
+          ],
+          "positions": 17,
+          "example_not_placement": {
+            "center_mm": [
+              57.75,
+              27.5
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 4.8018
+          }
+        },
+        {
+          "references": [
+            "R2201"
+          ],
+          "positions": 15,
+          "example_not_placement": {
+            "center_mm": [
+              53.25,
+              35.75
+            ],
+            "angle_deg": 180,
+            "straight_line_mm": 5.037
+          }
+        },
+        {
+          "references": [
+            "C1020"
+          ],
+          "positions": 11,
+          "example_not_placement": {
+            "center_mm": [
+              57.0,
+              27.0
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 4.8366
+          }
+        },
+        {
+          "references": [
+            "C512"
+          ],
+          "positions": 6,
+          "example_not_placement": {
+            "center_mm": [
+              61.75,
+              35.0
+            ],
+            "angle_deg": 270,
+            "straight_line_mm": 4.8837
+          }
+        },
+        {
+          "references": [
+            "R524"
+          ],
+          "positions": 1,
+          "example_not_placement": {
+            "center_mm": [
+              59.0,
+              37.25
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 5.0751
+          }
+        },
+        {
+          "references": [
+            "L501",
+            "Y501"
+          ],
+          "positions": 356,
+          "example_not_placement": {
+            "center_mm": [
+              55.25,
+              33.75
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 2.8892
+          }
+        },
+        {
+          "references": [
+            "L501",
+            "U5"
+          ],
+          "positions": 250,
+          "example_not_placement": {
+            "center_mm": [
+              59.25,
+              29.0
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 3.5731
+          }
+        },
+        {
+          "references": [
+            "C2201",
+            "L501"
+          ],
+          "positions": 228,
+          "example_not_placement": {
+            "center_mm": [
+              54.25,
+              30.0
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 4.2973
+          }
+        },
+        {
+          "references": [
+            "C2201",
+            "U26"
+          ],
+          "positions": 147,
+          "example_not_placement": {
+            "center_mm": [
+              52.25,
+              30.5
+            ],
+            "angle_deg": 180,
+            "straight_line_mm": 5.0049
+          }
+        },
+        {
+          "references": [
+            "C521",
+            "Y501"
+          ],
+          "positions": 146,
+          "example_not_placement": {
+            "center_mm": [
+              56.5,
+              36.0
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 4.2758
+          }
+        },
+        {
+          "references": [
+            "C520",
+            "Y501"
+          ],
+          "positions": 132,
+          "example_not_placement": {
+            "center_mm": [
+              59.25,
+              34.75
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 2.807
+          }
+        },
+        {
+          "references": [
+            "C517",
+            "L501"
+          ],
+          "positions": 114,
+          "example_not_placement": {
+            "center_mm": [
+              57.75,
+              28.0
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 4.302
+          }
+        },
+        {
+          "references": [
+            "C2202",
+            "R2201"
+          ],
+          "positions": 89,
+          "example_not_placement": {
+            "center_mm": [
+              53.25,
+              34.5
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 4.9401
+          }
+        },
+        {
+          "references": [
+            "C2201",
+            "C2202"
+          ],
+          "positions": 84,
+          "example_not_placement": {
+            "center_mm": [
+              53.25,
+              32.25
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 4.1722
+          }
+        },
+        {
+          "references": [
+            "L501",
+            "R522"
+          ],
+          "positions": 83,
+          "example_not_placement": {
+            "center_mm": [
+              55.5,
+              27.5
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 4.7194
+          }
+        }
+      ]
+    },
+    {
+      "reference": "C515",
+      "target": "U5.29",
+      "candidate_count": 16,
+      "closest_candidates": [
+        {
+          "center_mm": [
+            61.75,
+            24.0
+          ],
+          "angle_deg": 90,
+          "straight_line_mm": 4.1227
+        },
+        {
+          "center_mm": [
+            62.0,
+            24.0
+          ],
+          "angle_deg": 90,
+          "straight_line_mm": 4.1394
+        },
+        {
+          "center_mm": [
+            62.25,
+            24.0
+          ],
+          "angle_deg": 90,
+          "straight_line_mm": 4.171
+        },
+        {
+          "center_mm": [
+            62.5,
+            24.0
+          ],
+          "angle_deg": 90,
+          "straight_line_mm": 4.2172
+        },
+        {
+          "center_mm": [
+            62.75,
+            24.0
+          ],
+          "angle_deg": 90,
+          "straight_line_mm": 4.2775
+        },
+        {
+          "center_mm": [
+            63.0,
+            24.0
+          ],
+          "angle_deg": 90,
+          "straight_line_mm": 4.3514
+        },
+        {
+          "center_mm": [
+            62.25,
+            24.25
+          ],
+          "angle_deg": 0,
+          "straight_line_mm": 4.3533
+        },
+        {
+          "center_mm": [
+            62.5,
+            24.25
+          ],
+          "angle_deg": 0,
+          "straight_line_mm": 4.3702
+        },
+        {
+          "center_mm": [
+            62.75,
+            24.25
+          ],
+          "angle_deg": 0,
+          "straight_line_mm": 4.4013
+        },
+        {
+          "center_mm": [
+            63.25,
+            24.0
+          ],
+          "angle_deg": 90,
+          "straight_line_mm": 4.4381
+        },
+        {
+          "center_mm": [
+            63.0,
+            24.25
+          ],
+          "angle_deg": 0,
+          "straight_line_mm": 4.4462
+        },
+        {
+          "center_mm": [
+            62.25,
+            24.25
+          ],
+          "angle_deg": 180,
+          "straight_line_mm": 4.4944
+        }
+      ],
+      "rejection_counts": {
+        "distance": 4052,
+        "courtyard": 5130,
+        "pad_copper": 18
+      },
+      "courtyard_blocker_groups": [
+        {
+          "references": [
+            "U5"
+          ],
+          "positions": 1589,
+          "example_not_placement": {
+            "center_mm": [
+              60.25,
+              28.5
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 1.4025
+          }
+        },
+        {
+          "references": [
+            "L501"
+          ],
+          "positions": 497,
+          "example_not_placement": {
+            "center_mm": [
+              56.25,
+              28.75
+            ],
+            "angle_deg": 180,
+            "straight_line_mm": 4.8723
+          }
+        },
+        {
+          "references": [
+            "R509"
+          ],
+          "positions": 76,
+          "example_not_placement": {
+            "center_mm": [
+              63.0,
+              24.25
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 4.1154
+          }
+        },
+        {
+          "references": [
+            "R1002"
+          ],
+          "positions": 68,
+          "example_not_placement": {
+            "center_mm": [
+              59.0,
+              24.0
+            ],
+            "angle_deg": 180,
+            "straight_line_mm": 5.065
+          }
+        },
+        {
+          "references": [
+            "R512"
+          ],
+          "positions": 60,
+          "example_not_placement": {
+            "center_mm": [
+              61.5,
+              25.5
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 3.1538
+          }
+        },
+        {
+          "references": [
+            "R507"
+          ],
+          "positions": 48,
+          "example_not_placement": {
+            "center_mm": [
+              62.0,
+              27.0
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 1.1893
+          }
+        },
+        {
+          "references": [
+            "R508"
+          ],
+          "positions": 38,
+          "example_not_placement": {
+            "center_mm": [
+              64.5,
+              27.0
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 3.1088
+          }
+        },
+        {
+          "references": [
+            "C1020"
+          ],
+          "positions": 32,
+          "example_not_placement": {
+            "center_mm": [
+              57.0,
+              26.75
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 4.7997
+          }
+        },
+        {
+          "references": [
+            "C1001"
+          ],
+          "positions": 22,
+          "example_not_placement": {
+            "center_mm": [
+              61.75,
+              23.25
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 4.8723
+          }
+        },
+        {
+          "references": [
+            "R516"
+          ],
+          "positions": 19,
+          "example_not_placement": {
+            "center_mm": [
+              63.25,
+              23.75
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 4.9891
+          }
+        },
+        {
+          "references": [
+            "C517"
+          ],
+          "positions": 18,
+          "example_not_placement": {
+            "center_mm": [
+              57.75,
+              27.5
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 4.4675
+          }
+        },
+        {
+          "references": [
+            "R511"
+          ],
+          "positions": 18,
+          "example_not_placement": {
+            "center_mm": [
+              60.5,
+              27.0
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 2.2486
+          }
+        },
+        {
+          "references": [
+            "R522"
+          ],
+          "positions": 12,
+          "example_not_placement": {
+            "center_mm": [
+              56.25,
+              27.5
+            ],
+            "angle_deg": 180,
+            "straight_line_mm": 4.9927
+          }
+        },
+        {
+          "references": [
+            "R513"
+          ],
+          "positions": 5,
+          "example_not_placement": {
+            "center_mm": [
+              65.5,
+              25.5
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 4.6983
+          }
+        },
+        {
+          "references": [
+            "R1001"
+          ],
+          "positions": 4,
+          "example_not_placement": {
+            "center_mm": [
+              57.5,
+              25.25
+            ],
+            "angle_deg": 180,
+            "straight_line_mm": 4.9322
+          }
+        },
+        {
+          "references": [
+            "C519"
+          ],
+          "positions": 4,
+          "example_not_placement": {
+            "center_mm": [
+              59.5,
+              25.5
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 4.0332
+          }
+        },
+        {
+          "references": [
+            "C514"
+          ],
+          "positions": 3,
+          "example_not_placement": {
+            "center_mm": [
+              67.0,
+              28.25
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 4.9324
+          }
+        },
+        {
+          "references": [
+            "L501",
+            "U5"
+          ],
+          "positions": 252,
+          "example_not_placement": {
+            "center_mm": [
+              59.25,
+              29.0
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 2.8581
+          }
+        },
+        {
+          "references": [
+            "R507",
+            "U5"
+          ],
+          "positions": 120,
+          "example_not_placement": {
+            "center_mm": [
+              62.0,
+              27.25
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 0.9575
+          }
+        },
+        {
+          "references": [
+            "C517",
+            "L501"
+          ],
+          "positions": 116,
+          "example_not_placement": {
+            "center_mm": [
+              57.75,
+              28.0
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 4.3714
+          }
+        },
+        {
+          "references": [
+            "R1002",
+            "R512"
+          ],
+          "positions": 80,
+          "example_not_placement": {
+            "center_mm": [
+              59.75,
+              24.5
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 4.7158
+          }
+        },
+        {
+          "references": [
+            "R511",
+            "U5"
+          ],
+          "positions": 76,
+          "example_not_placement": {
+            "center_mm": [
+              60.25,
+              27.25
+            ],
+            "angle_deg": 90,
+            "straight_line_mm": 1.6061
+          }
+        },
+        {
+          "references": [
+            "C514",
+            "U5"
+          ],
+          "positions": 71,
+          "example_not_placement": {
+            "center_mm": [
+              65.5,
+              28.25
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 3.4379
+          }
+        },
+        {
+          "references": [
+            "R509",
+            "R516"
+          ],
+          "positions": 69,
+          "example_not_placement": {
+            "center_mm": [
+              63.5,
+              24.5
+            ],
+            "angle_deg": 0,
+            "straight_line_mm": 4.3389
+          }
+        }
+      ]
+    }
+  ],
+  "checkpoint_modified": false,
+  "assembly_ready": false,
+  "limitations": [
+    "Each capacitor is evaluated independently; simultaneous placement is not proven.",
+    "An optional inductor rotation is hypothetical: its pad clearance, switching path and loop geometry require separate verification.",
+    "Existing ground connections would need rerouting if a capacitor is moved.",
+    "The 5.08 mm straight-line screen is based on historical rev 1.1 guidance; actual wide power and return paths remain unresolved.",
+    "No candidate is promoted; no electrical or DRC qualification is implied by the conservative screen."
+  ]
+}

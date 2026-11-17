@@ -1,0 +1,182 @@
+{
+  "source_sha256": "a250b2670de4fe5c42deb37589dd6d8f8fabd6aef7982c5572683cc5c3690164",
+  "parent_sha256": "535ed148156f9c6ef0b67ff847f2ef4bfee3b25465c1e02ec1d659d5aedd93c0",
+  "includes_compact_inductor": true,
+  "checkpoint_modified": false,
+  "assembly_ready": false,
+  "position_mm": [
+    61.7,
+    24
+  ],
+  "angle_deg": 90,
+  "limitations": [
+    "Only input bulk placement and ground trial; main power path, return impedance and regulator stability unqualified.",
+    "The old 0.72 mm ground pad branch is explicitly replaced; all other copper is retained. Temporary candidate is not authoritative."
+  ],
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5709,
+    "explicitly_replaced_copper": {
+      "1ce012e4-f7db-493a-a4c4-30dec5ed03f7": [
+        "GND",
+        0,
+        80480000,
+        33000000,
+        80500000,
+        33000000,
+        200000,
+        null
+      ],
+      "9bafe2c0-f71e-4e19-9aca-a33c516b7728": [
+        "GND",
+        0,
+        80500000,
+        33000000,
+        81200000,
+        33000000,
+        200000,
+        null
+      ]
+    },
+    "added_tracks_vias": 7,
+    "existing_connected_pad_groups_preserved": 69
+  },
+  "root_preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5701,
+    "explicitly_replaced_copper": {
+      "1ce012e4-f7db-493a-a4c4-30dec5ed03f7": [
+        "GND",
+        0,
+        80480000,
+        33000000,
+        80500000,
+        33000000,
+        200000,
+        null
+      ],
+      "353c793c-2fde-4e45-a944-7f6b0ff7d320": [
+        "GND",
+        2,
+        57450000,
+        29700000,
+        57500000,
+        29700000,
+        500000,
+        null
+      ],
+      "410979f8-580d-4434-9883-ad3cf785333c": [
+        "GND",
+        0,
+        76980000,
+        36000000,
+        77000000,
+        36000000,
+        200000,
+        null
+      ],
+      "4bb1168a-d647-4743-9dd8-60be61a4eee6": [
+        "GND",
+        2,
+        57500000,
+        29700000,
+        57600000,
+        29800000,
+        500000,
+        null
+      ],
+      "6a398cd1-9612-444e-b43d-0f00b6829a79": [
+        "GND",
+        2,
+        57750000,
+        29800000,
+        57800000,
+        29850000,
+        500000,
+        null
+      ],
+      "6e11dda3-002c-49b6-9abe-eb30ca22e7e2": [
+        "GND",
+        2,
+        57350000,
+        29650000,
+        57400000,
+        29650000,
+        500000,
+        null
+      ],
+      "8653b1df-8759-4800-8bf8-337ab3e20f29": [
+        "GND",
+        2,
+        57300000,
+        29600000,
+        57350000,
+        29650000,
+        500000,
+        null
+      ],
+      "8da758e9-215b-4c35-91d3-82bc52782f01": [
+        "GND",
+        2,
+        57400000,
+        29650000,
+        57450000,
+        29700000,
+        500000,
+        null
+      ],
+      "9a777003-3bdd-4be2-916f-935d2f0a5f08": [
+        "GND",
+        0,
+        57800000,
+        29850000,
+        57800000,
+        29850000,
+        600000,
+        300000
+      ],
+      "9bafe2c0-f71e-4e19-9aca-a33c516b7728": [
+        "GND",
+        0,
+        80500000,
+        33000000,
+        81200000,
+        33000000,
+        200000,
+        null
+      ],
+      "c7be60d9-fe0d-4326-acbc-8373b5099c66": [
+        "GND",
+        2,
+        57600000,
+        29800000,
+        57750000,
+        29800000,
+        500000,
+        null
+      ],
+      "d60df459-ad1a-4299-b3bd-5b7da6f5f7ec": [
+        "GND",
+        0,
+        77000000,
+        36000000,
+        77700000,
+        36000000,
+        200000,
+        null
+      ]
+    },
+    "added_tracks_vias": 5,
+    "existing_connected_pad_groups_preserved": 69
+  },
+  "status": "LOCAL_GROUND_TRIAL_PASSED",
+  "temporary_candidate": "/var/folders/6f/jhxwwy_j2pv1b74_x7hd795m0000gn/T/phoenix-input-bulk-62apc851/ethernet-dvdd33-bypass.kicad_pcb",
+  "candidate_sha256": "fccb2ba28c6f35609ab5e9d7b7544103b56603e71ef3fe1b18550e74fa077291",
+  "ground_connected": true,
+  "new_drc_violations": [],
+  "new_mechanical_conflicts": [],
+  "ground_via_mm": [
+    62.45,
+    24.25
+  ]
+}

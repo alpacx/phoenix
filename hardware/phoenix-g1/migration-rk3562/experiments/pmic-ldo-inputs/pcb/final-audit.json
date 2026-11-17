@@ -859,6 +859,121 @@
       "from": "U5.37",
       "to": "Y501.3",
       "connected": true
+    },
+    {
+      "from": "C511.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "C512.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "C513.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "C514.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "C515.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "C516.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "C517.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "C518.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "C519.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "C522.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "C514.1",
+      "to": "U5.21",
+      "connected": true
+    },
+    {
+      "from": "C514.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "C516.1",
+      "to": "U5.11",
+      "connected": true
+    },
+    {
+      "from": "C516.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "U5.28",
+      "to": "U5.29",
+      "connected": true
+    },
+    {
+      "from": "C512.1",
+      "to": "U5.3",
+      "connected": true
+    },
+    {
+      "from": "C512.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "C517.1",
+      "to": "U5.28",
+      "connected": true
+    },
+    {
+      "from": "C517.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "C519.1",
+      "to": "U5.29",
+      "connected": true
+    },
+    {
+      "from": "C519.2",
+      "to": "U20.2",
+      "connected": true
+    },
+    {
+      "from": "U5.12",
+      "to": "R515.2",
+      "connected": true
+    },
+    {
+      "from": "R522.1",
+      "to": "R512.2",
+      "connected": true
     }
   ],
   "preservation": {
@@ -886,14 +1001,20 @@
         null
       ]
     },
-    "added_tracks_vias": 881,
+    "added_tracks_vias": 1102,
     "existing_connected_pad_groups_preserved": 59
   },
   "moved_refs": [
+    "C1014",
     "C1811",
     "C1812",
     "C410",
     "C480",
+    "C512",
+    "C514",
+    "C516",
+    "C517",
+    "C519",
     "C520",
     "C521",
     "L501",
@@ -905,11 +1026,14 @@
     "R1815",
     "R410",
     "R411",
+    "R512",
+    "R522",
     "TP4",
+    "U23",
     "Y501"
   ],
   "status": "DISPLAY_AND_ETHERNET_PASSIVES_ROUTED_VDC_PIN61_OPEN_NOT_POWER_QUALIFIED",
-  "sha256": "7a0dfbdfdec87b1aab4f2d4c443746cae4ca4e5724621e6291a8d7c6f26de0fb",
+  "sha256": "bdeb44f58dea3d0261469c1d3f7eeb5a9e6df03e95648710393c9e09c83f6aeb",
   "source_sha256": "639512560cede4b84c306f4abd7ca52204716a19aa6c383164b676e3ed329fec",
   "new_violations": [],
   "assembly_ready": false

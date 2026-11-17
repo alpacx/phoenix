@@ -1,0 +1,173 @@
+{
+  "status": "PLACEMENT_REVIEW_REQUIRED",
+  "sha256": "bdeb44f58dea3d0261469c1d3f7eeb5a9e6df03e95648710393c9e09c83f6aeb",
+  "capacitors": [
+    {
+      "candidate_assignment": null,
+      "reference": "C511",
+      "net": "+1V0_PHY",
+      "position_mm": [
+        76.02,
+        36.0
+      ],
+      "closest_phy_pin": "8",
+      "straight_line_mm": 12.298,
+      "connected_to_closest_phy_pin": false
+    },
+    {
+      "candidate_assignment": {
+        "pin": "3",
+        "straight_line_mm": 1.3767,
+        "connected": true,
+        "status": "PROJECT_LAYOUT_ASSIGNMENT_NOT_ELECTRICAL_QUALIFICATION"
+      },
+      "reference": "C512",
+      "net": "+1V0_PHY",
+      "position_mm": [
+        62.27,
+        34.75
+      ],
+      "closest_phy_pin": "3",
+      "straight_line_mm": 1.3767,
+      "connected_to_closest_phy_pin": true
+    },
+    {
+      "candidate_assignment": {
+        "pin": "8",
+        "straight_line_mm": 12.7,
+        "connected": false,
+        "status": "PROJECT_LAYOUT_ASSIGNMENT_NOT_ELECTRICAL_QUALIFICATION"
+      },
+      "reference": "C513",
+      "net": "+1V0_PHY",
+      "position_mm": [
+        76.02,
+        37.5
+      ],
+      "closest_phy_pin": "8",
+      "straight_line_mm": 12.7,
+      "connected_to_closest_phy_pin": false
+    },
+    {
+      "candidate_assignment": {
+        "pin": "21",
+        "straight_line_mm": 1.9867,
+        "connected": true,
+        "status": "PROJECT_LAYOUT_ASSIGNMENT_NOT_ELECTRICAL_QUALIFICATION"
+      },
+      "reference": "C514",
+      "net": "+1V0_PHY",
+      "position_mm": [
+        66.75,
+        28.98
+      ],
+      "closest_phy_pin": "21",
+      "straight_line_mm": 1.9867,
+      "connected_to_closest_phy_pin": true
+    },
+    {
+      "candidate_assignment": null,
+      "reference": "C515",
+      "net": "+3V3_PHY",
+      "position_mm": [
+        79.52,
+        33.0
+      ],
+      "closest_phy_pin": "11",
+      "straight_line_mm": 14.1214,
+      "connected_to_closest_phy_pin": false
+    },
+    {
+      "candidate_assignment": {
+        "pin": "11",
+        "straight_line_mm": 1.4168,
+        "connected": true,
+        "status": "PROJECT_LAYOUT_ASSIGNMENT_NOT_ELECTRICAL_QUALIFICATION"
+      },
+      "reference": "C516",
+      "net": "+3V3_PHY",
+      "position_mm": [
+        66.75,
+        33.23
+      ],
+      "closest_phy_pin": "11",
+      "straight_line_mm": 1.4168,
+      "connected_to_closest_phy_pin": true
+    },
+    {
+      "candidate_assignment": {
+        "pin": "28",
+        "straight_line_mm": 3.0634,
+        "connected": true,
+        "status": "PROJECT_LAYOUT_ASSIGNMENT_NOT_ELECTRICAL_QUALIFICATION"
+      },
+      "reference": "C517",
+      "net": "+3V3_PHY",
+      "position_mm": [
+        59.0,
+        27.98
+      ],
+      "closest_phy_pin": "29",
+      "straight_line_mm": 2.6729,
+      "connected_to_closest_phy_pin": true
+    },
+    {
+      "candidate_assignment": {
+        "pin": "40",
+        "straight_line_mm": 19.9624,
+        "connected": false,
+        "status": "PROJECT_LAYOUT_ASSIGNMENT_NOT_ELECTRICAL_QUALIFICATION"
+      },
+      "reference": "C518",
+      "net": "+3V3_PHY",
+      "position_mm": [
+        80.52,
+        31.5
+      ],
+      "closest_phy_pin": "11",
+      "straight_line_mm": 15.1758,
+      "connected_to_closest_phy_pin": false
+    },
+    {
+      "candidate_assignment": {
+        "pin": "29",
+        "straight_line_mm": 3.2782,
+        "connected": true,
+        "status": "PROJECT_LAYOUT_ASSIGNMENT_NOT_ELECTRICAL_QUALIFICATION"
+      },
+      "reference": "C519",
+      "net": "+3V3_PHY",
+      "position_mm": [
+        59.98,
+        25.75
+      ],
+      "closest_phy_pin": "29",
+      "straight_line_mm": 3.2782,
+      "connected_to_closest_phy_pin": true
+    },
+    {
+      "candidate_assignment": {
+        "pin": "38",
+        "straight_line_mm": 21.5654,
+        "connected": false,
+        "status": "PROJECT_LAYOUT_ASSIGNMENT_NOT_ELECTRICAL_QUALIFICATION"
+      },
+      "reference": "C522",
+      "net": "+1V0_PHY",
+      "position_mm": [
+        82.02,
+        34.5
+      ],
+      "closest_phy_pin": "8",
+      "straight_line_mm": 18.0535,
+      "connected_to_closest_phy_pin": false
+    }
+  ],
+  "limitations": [
+    "Straight-line distances are lower bounds, not routed supply/return loops.",
+    "Ground continuity does not validate decoupling effectiveness.",
+    "Review all capacitor assignments and placement with PHY reference layout before routing rails.",
+    "No electrical simulation, current qualification or physical testing."
+  ],
+  "assembly_ready": false
+}

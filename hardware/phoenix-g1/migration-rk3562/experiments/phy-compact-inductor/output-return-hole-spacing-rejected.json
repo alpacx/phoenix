@@ -1,0 +1,62 @@
+{
+  "source": "/var/folders/6f/jhxwwy_j2pv1b74_x7hd795m0000gn/T/phoenix-bulk-return-n_zkpe3y/phy-compact-output.kicad_pcb",
+  "candidate": "/var/folders/6f/jhxwwy_j2pv1b74_x7hd795m0000gn/T/phoenix-output-return-s4cbvylz/phy-compact-output.kicad_pcb",
+  "parent_sha256": "0abe41b21649e79808556e1c0b08ab2280d916b832edff62b09d722914d779c8",
+  "candidate_sha256": "25ea03a6c95ca9e7aff72fbc52101a439eea902b517e69318223c59456a04e29",
+  "changed": [
+    "2dc3ec34-d094-40ea-b2d6-1a5844f48bde",
+    "6958a641-cfc7-432a-8c48-4cfc10832957",
+    "a1aae4bb-416a-41dc-9cda-34227592146e"
+  ],
+  "width_mm": 0.5,
+  "old_width_mm": 0.2,
+  "added_ground_via_mm": [
+    58.85,
+    31.7,
+    0.45,
+    0.2
+  ],
+  "original_ground_via_preserved": true,
+  "limitations": [
+    "Geometry and continuity only; via current sharing, ripple return and plane currents are not qualified.",
+    "Regulator switching node and source distribution remain open."
+  ],
+  "new_violations": [
+    {
+      "type": "hole_to_hole",
+      "severity": "warning",
+      "items": [
+        "cd36e5be-5e5e-45c8-acd7-0f423ca75187",
+        "d1b713af-53ef-4312-9433-e83b035b00e5"
+      ],
+      "count": 1
+    }
+  ],
+  "details": [
+    {
+      "description": "Fori troppo vicini tra loro (vincoli impostazioni scheda min 0.2500 mm; reale 0.2000 mm)",
+      "items": [
+        {
+          "description": "Via [GND] su F.Cu - B.Cu",
+          "pos": {
+            "x": 58.85,
+            "y": 31.7
+          },
+          "uuid": "cd36e5be-5e5e-45c8-acd7-0f423ca75187"
+        },
+        {
+          "description": "Via [GND] su F.Cu - B.Cu",
+          "pos": {
+            "x": 58.85,
+            "y": 32.1
+          },
+          "uuid": "d1b713af-53ef-4312-9433-e83b035b00e5"
+        }
+      ],
+      "severity": "warning",
+      "type": "hole_to_hole"
+    }
+  ],
+  "status": "OUTPUT_RETURN_REJECTED",
+  "assembly_ready": false
+}

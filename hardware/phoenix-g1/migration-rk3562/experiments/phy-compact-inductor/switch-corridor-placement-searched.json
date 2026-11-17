@@ -1,0 +1,84 @@
+{
+  "report": "switch-corridor-placement-searched.json",
+  "source": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-compact-inductor/pcb/phy-compact-output.kicad_pcb",
+  "candidate": "/var/folders/6f/jhxwwy_j2pv1b74_x7hd795m0000gn/T/phoenix-switch-corridor-g6qbkwr3/phy-compact-output.kicad_pcb",
+  "parent_sha256": "39aff07b844e6cb08cf5e5471968e6663b5ea2ce2997d5c9e373c937bdfdf024",
+  "candidate_sha256": "92fb6a91ec20b38244fed6c35b4e36433f62cceb2aa15a2730b1dd9a67ba94ce",
+  "moves": {
+    "C517": [
+      62.5,
+      27,
+      90,
+      "F"
+    ],
+    "R511": [
+      61.5,
+      27.75,
+      90.0,
+      "B"
+    ],
+    "R507": [
+      63,
+      27,
+      0,
+      "B"
+    ]
+  },
+  "limitations": [
+    "C517 former ground and bypass branches still require restoration.",
+    "RX terminations have no existing copper; new layer requires future SI/fanout validation.",
+    "No switch-node or primary power trace added; electrical constraints unchanged."
+  ],
+  "new_violations": [
+    {
+      "type": "track_dangling",
+      "severity": "warning",
+      "items": [
+        "b78a7fd7-95e8-4fe2-9bea-c07cc6cce27b"
+      ],
+      "count": 1
+    },
+    {
+      "type": "track_dangling",
+      "severity": "warning",
+      "items": [
+        "76cdf1f6-f47c-4503-8212-fe72405c2598"
+      ],
+      "count": 1
+    }
+  ],
+  "details": [
+    {
+      "description": "Track has unconnected end",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.0200 mm",
+          "pos": {
+            "x": 59.0,
+            "y": 27.02
+          },
+          "uuid": "b78a7fd7-95e8-4fe2-9bea-c07cc6cce27b"
+        }
+      ],
+      "severity": "warning",
+      "type": "track_dangling"
+    },
+    {
+      "description": "Track has unconnected end",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.0050 mm",
+          "pos": {
+            "x": 59.0,
+            "y": 27.975
+          },
+          "uuid": "76cdf1f6-f47c-4503-8212-fe72405c2598"
+        }
+      ],
+      "severity": "warning",
+      "type": "track_dangling"
+    }
+  ],
+  "status": "PLACEMENT_ONLY_NOT_ROUTED",
+  "assembly_ready": false
+}

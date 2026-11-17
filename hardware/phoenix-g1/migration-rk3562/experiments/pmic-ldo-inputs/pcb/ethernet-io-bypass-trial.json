@@ -1,0 +1,24 @@
+{
+  "status": "NO_ACCEPTED_BOUNDED_CLOCK_PLACEMENT",
+  "source_sha256": "dcd417394573633f2b7787b70cf333731ebb50a962f5d12fbca7e01c4632f5d4",
+  "failed_ref": "C517",
+  "counts": {
+    "outside": 1476,
+    "courtyard": 2304,
+    "pad_copper": 0,
+    "no_signal_path": 48,
+    "path_too_long": 0,
+    "no_ground": 0
+  },
+  "max_signal_path_mm": 4,
+  "grid_mm": 0.025,
+  "placement_pitch_mm": 0.25,
+  "rotations_deg": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "board_changed": false,
+  "note": "In-memory trial discarded. Not a proof of impossibility; review joint PHY/crystal/passive placement. No clearance or component change."
+}

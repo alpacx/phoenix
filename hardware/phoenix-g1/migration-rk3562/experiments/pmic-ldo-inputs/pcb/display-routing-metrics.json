@@ -6,7 +6,7 @@
       "added_elements": 12,
       "removed_elements": 0,
       "track_lengths_mm": {
-        "+5V_MAIN:F.Cu": 14.096828996322966
+        "+5V_MAIN:F.Cu": 14.096828996322964
       },
       "via_centers_inside_pad_bounds": []
     },
@@ -16,7 +16,7 @@
       "removed_elements": 0,
       "track_lengths_mm": {
         "+3V3_IO:F.Cu": 0.8414213562373094,
-        "+3V3_IO:In2.Cu": 48.82179739550865
+        "+3V3_IO:In2.Cu": 48.82179739550866
       },
       "via_centers_inside_pad_bounds": []
     },
@@ -35,7 +35,7 @@
       "added_elements": 58,
       "removed_elements": 0,
       "track_lengths_mm": {
-        "+3V0_LCD:F.Cu": 13.390077554195745
+        "+3V0_LCD:F.Cu": 13.39007755419575
       },
       "via_centers_inside_pad_bounds": []
     },
@@ -46,12 +46,12 @@
       "track_lengths_mm": {
         "GND:F.Cu": 3.0814203562373095,
         "LCD_DC:F.Cu": 6.177731239591686,
-        "LCD_RESET_N:F.Cu": 5.172705986422268,
+        "LCD_RESET_N:F.Cu": 5.17270598642227,
         "LCD_CS_N:F.Cu": 19.574534982745238,
-        "LCD_MOSI:F.Cu": 2.953467170879758,
+        "LCD_MOSI:F.Cu": 2.953467170879757,
         "+3V0_LCD:F.Cu": 2.411776695296637,
         "+3V0_LCD:In2.Cu": 10.978300858899106,
-        "LCD_SCLK:F.Cu": 1.943847763108502
+        "LCD_SCLK:F.Cu": 1.9438477631085018
       },
       "via_centers_inside_pad_bounds": []
     },
@@ -81,7 +81,7 @@
       "removed_elements": 0,
       "track_lengths_mm": {
         "GND:F.Cu": 0.8428427124746192,
-        "+3V3_IO:F.Cu": 5.786726188957805
+        "+3V3_IO:F.Cu": 5.786726188957804
       },
       "via_centers_inside_pad_bounds": []
     },
@@ -90,8 +90,8 @@
       "added_elements": 36,
       "removed_elements": 0,
       "track_lengths_mm": {
-        "GND:F.Cu": 1.5100010000000001,
-        "LCD_BL_BASE:F.Cu": 7.191269837220807
+        "GND:F.Cu": 1.510001,
+        "LCD_BL_BASE:F.Cu": 7.191269837220806
       },
       "via_centers_inside_pad_bounds": []
     },
@@ -100,8 +100,8 @@
       "added_elements": 126,
       "removed_elements": 0,
       "track_lengths_mm": {
-        "GND:F.Cu": 2.462842712474619,
-        "PHY_RESET_N:F.Cu": 28.82284830184964
+        "GND:F.Cu": 2.4628427124746186,
+        "PHY_RESET_N:F.Cu": 28.822848301849632
       },
       "via_centers_inside_pad_bounds": []
     },
@@ -110,7 +110,7 @@
       "added_elements": 12,
       "removed_elements": 0,
       "track_lengths_mm": {
-        "GND:F.Cu": 2.5921320343559646
+        "GND:F.Cu": 2.592132034355964
       },
       "via_centers_inside_pad_bounds": []
     },
@@ -120,7 +120,7 @@
       "removed_elements": 0,
       "track_lengths_mm": {
         "GND:F.Cu": 0.72,
-        "ETH_CENTER_TAP:F.Cu": 12.511943319032483
+        "ETH_CENTER_TAP:F.Cu": 12.511943319032481
       },
       "via_centers_inside_pad_bounds": []
     },
@@ -129,18 +129,18 @@
       "added_elements": 11,
       "removed_elements": 0,
       "track_lengths_mm": {
-        "GND:F.Cu": 2.528528137423857
+        "GND:F.Cu": 2.5285281374238564
       },
       "via_centers_inside_pad_bounds": []
     },
     {
       "stage": "ethernet-clock-placement",
-      "added_elements": 67,
+      "added_elements": 48,
       "removed_elements": 0,
       "track_lengths_mm": {
-        "GND:F.Cu": 1.2556854249492382,
-        "PHY_XIN:F.Cu": 1.7103300858899095,
-        "PHY_XOUT:F.Cu": 1.6603300858899097
+        "GND:F.Cu": 1.0935533905932737,
+        "PHY_XIN:F.Cu": 2.491700935788386,
+        "PHY_XOUT:F.Cu": 1.9467261889578031
       },
       "via_centers_inside_pad_bounds": []
     },
@@ -155,11 +155,84 @@
     },
     {
       "stage": "ethernet-clock-pins",
-      "added_elements": 55,
+      "added_elements": 80,
+      "removed_elements": 1,
+      "track_lengths_mm": {
+        "+5V_MAIN:In2.Cu": 8.7813705570057,
+        "PHY_XIN:F.Cu": 1.9479563094879626,
+        "PHY_XIN:B.Cu": 4.394543648263006,
+        "PHY_XOUT:F.Cu": 8.457817459305202
+      },
+      "via_centers_inside_pad_bounds": []
+    },
+    {
+      "stage": "ethernet-cap-grounds",
+      "added_elements": 30,
       "removed_elements": 0,
       "track_lengths_mm": {
-        "PHY_XIN:F.Cu": 2.062132034355964,
-        "PHY_XOUT:F.Cu": 7.557386360737624
+        "GND:F.Cu": 7.199999999999998
+      },
+      "via_centers_inside_pad_bounds": []
+    },
+    {
+      "stage": "ethernet-bypass-local",
+      "added_elements": 34,
+      "removed_elements": 3,
+      "track_lengths_mm": {
+        "GND:F.Cu": 0.72,
+        "+1V0_PHY:F.Cu": 2.1103300858899092
+      },
+      "via_centers_inside_pad_bounds": []
+    },
+    {
+      "stage": "ethernet-avdd33-bypass",
+      "added_elements": 27,
+      "removed_elements": 3,
+      "track_lengths_mm": {
+        "GND:F.Cu": 0.72,
+        "+3V3_PHY:F.Cu": 1.531040764008565
+      },
+      "via_centers_inside_pad_bounds": []
+    },
+    {
+      "stage": "ethernet-io-power-link",
+      "added_elements": 1,
+      "removed_elements": 0,
+      "track_lengths_mm": {
+        "+3V3_PHY:F.Cu": 0.4
+      },
+      "via_centers_inside_pad_bounds": []
+    },
+    {
+      "stage": "ethernet-avdd10-escape",
+      "added_elements": 24,
+      "removed_elements": 3,
+      "track_lengths_mm": {
+        "GND:F.Cu": 0.72,
+        "+1V0_PHY:F.Cu": 1.4689087296526009
+      },
+      "via_centers_inside_pad_bounds": []
+    },
+    {
+      "stage": "ethernet-io-bypass-escape",
+      "added_elements": 23,
+      "removed_elements": 3,
+      "track_lengths_mm": {
+        "GND:F.Cu": 2.902842712474619,
+        "+3V3_PHY:F.Cu": 3.877487373415291
+      },
+      "via_centers_inside_pad_bounds": []
+    },
+    {
+      "stage": "ethernet-dvdd33-bypass",
+      "added_elements": 94,
+      "removed_elements": 5,
+      "track_lengths_mm": {
+        "GND:F.Cu": 1.652842712474619,
+        "GND:B.Cu": 3.7860407640085656,
+        "+3V3_PHY:F.Cu": 4.113883476483183,
+        "PHY_RXCLK:B.Cu": 1.3735533905932737,
+        "PHY_RESET_N:F.Cu": 6.7484776310850245
       },
       "via_centers_inside_pad_bounds": []
     }

@@ -1,0 +1,73 @@
+{
+  "status": "ETHERNET_AVDD33_BYPASS_CONNECTED",
+  "sha256": "b4c18b6d44e74f28fc0ccb7eb769f5cbeb14691598e8eb7be959e63b00d4feb9",
+  "source_sha256": "d70f150016975428cc3028d0ef273d9727061ea964f85701fda433b6a107f97b",
+  "checks": [
+    {
+      "from": "C516.1",
+      "to": "U5.11",
+      "connected": true
+    },
+    {
+      "from": "C516.2",
+      "to": "U20.2",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "introduced_mechanical_conflicts": [],
+  "assembly_ready": false,
+  "moved_refs_mm": {
+    "C516": [
+      66.75,
+      32.75
+    ]
+  },
+  "replaced_copper": [
+    "425efc7a-e9e5-4864-bba6-4ecedd6dd27e",
+    "c251e4e6-01f0-45c5-bd90-cc23b62c7e3e",
+    "6cb7360c-925d-4563-aa2b-8395001cb1a7"
+  ],
+  "limitations": [
+    "Only C516 bypass for U5.11 relocated. Supply sources and other bypass branches remain incomplete.",
+    "Continuity and geometry are not PI, regulator stability or manufacturing qualification."
+  ],
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5616,
+    "explicitly_replaced_copper": {
+      "425efc7a-e9e5-4864-bba6-4ecedd6dd27e": [
+        "GND",
+        0,
+        79480000,
+        37500000,
+        79500000,
+        37500000,
+        200000,
+        null
+      ],
+      "6cb7360c-925d-4563-aa2b-8395001cb1a7": [
+        "GND",
+        0,
+        80200000,
+        37500000,
+        80200000,
+        37500000,
+        450000,
+        200000
+      ],
+      "c251e4e6-01f0-45c5-bd90-cc23b62c7e3e": [
+        "GND",
+        0,
+        79500000,
+        37500000,
+        80200000,
+        37500000,
+        200000,
+        null
+      ]
+    },
+    "added_tracks_vias": 24,
+    "existing_connected_pad_groups_preserved": 66
+  }
+}

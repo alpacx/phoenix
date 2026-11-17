@@ -1,0 +1,313 @@
+{
+  "status": "JOINT_PLACEMENT_ONLY_NOT_ROUTED",
+  "source_sha256": "a250b2670de4fe5c42deb37589dd6d8f8fabd6aef7982c5572683cc5c3690164",
+  "moves": {
+    "L501": [
+      58,
+      30,
+      180,
+      "F"
+    ],
+    "C511": [
+      57.2,
+      32.2,
+      0,
+      "F"
+    ],
+    "C515": [
+      62.75,
+      24.2,
+      0,
+      "F"
+    ],
+    "R516": [
+      65.3,
+      24.3,
+      0,
+      "F"
+    ]
+  },
+  "new_violations": [
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "80c9d672-fb19-454c-b874-ccd9e986dfcc",
+        "91783e84-7aa8-47f6-b77c-57ca34d2b8fb"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "9a777003-3bdd-4be2-916f-935d2f0a5f08"
+      ],
+      "count": 1
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "9a777003-3bdd-4be2-916f-935d2f0a5f08"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "08d0ed57-3c91-467c-90cc-734ceae212de",
+        "9a777003-3bdd-4be2-916f-935d2f0a5f08"
+      ],
+      "count": 1
+    },
+    {
+      "type": "track_dangling",
+      "severity": "warning",
+      "items": [
+        "1ce012e4-f7db-493a-a4c4-30dec5ed03f7"
+      ],
+      "count": 1
+    },
+    {
+      "type": "track_dangling",
+      "severity": "warning",
+      "items": [
+        "410979f8-580d-4434-9883-ad3cf785333c"
+      ],
+      "count": 1
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "items": [
+        "7e625a60-e2c3-4695-8a59-19e4c9de40e0",
+        "8d4b6e5b-81cf-48aa-8677-66d9e1e9a873"
+      ],
+      "count": 1
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "items": [
+        "7e625a60-e2c3-4695-8a59-19e4c9de40e0",
+        "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+      ],
+      "count": 1
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "items": [
+        "480b132d-2229-4892-912a-28300a78afb5",
+        "7e625a60-e2c3-4695-8a59-19e4c9de40e0"
+      ],
+      "count": 1
+    }
+  ],
+  "details": [
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1550 mm)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di R516 su F.Cu",
+          "pos": {
+            "x": 65.81,
+            "y": 24.3
+          },
+          "uuid": "80c9d672-fb19-454c-b874-ccd9e986dfcc"
+        },
+        {
+          "description": "Pista [PHY_RESET_N] su F.Cu, lung. 2.4250 mm",
+          "pos": {
+            "x": 65.175,
+            "y": 24.875
+          },
+          "uuid": "91783e84-7aa8-47f6-b77c-57ca34d2b8fb"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +1V0_PHY e GND)",
+      "items": [
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.175,
+            "y": 30.0
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        },
+        {
+          "description": "Via [GND] su F.Cu - B.Cu",
+          "pos": {
+            "x": 57.8,
+            "y": 29.85
+          },
+          "uuid": "9a777003-3bdd-4be2-916f-935d2f0a5f08"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance foro (vincoli impostazioni scheda fori clearance 0.2500 mm; reale 0.0000 mm)",
+      "items": [
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.175,
+            "y": 30.0
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        },
+        {
+          "description": "Via [GND] su F.Cu - B.Cu",
+          "pos": {
+            "x": 57.8,
+            "y": 29.85
+          },
+          "uuid": "9a777003-3bdd-4be2-916f-935d2f0a5f08"
+        }
+      ],
+      "severity": "error",
+      "type": "hole_clearance"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Via [GND] su F.Cu - B.Cu",
+          "pos": {
+            "x": 57.8,
+            "y": 29.85
+          },
+          "uuid": "9a777003-3bdd-4be2-916f-935d2f0a5f08"
+        },
+        {
+          "description": "Piazzola 2 [+1V0_PHY] di L501 su F.Cu",
+          "pos": {
+            "x": 57.175,
+            "y": 30.0
+          },
+          "uuid": "08d0ed57-3c91-467c-90cc-734ceae212de"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Track has unconnected end",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.0200 mm",
+          "pos": {
+            "x": 80.48,
+            "y": 33.0
+          },
+          "uuid": "1ce012e4-f7db-493a-a4c4-30dec5ed03f7"
+        }
+      ],
+      "severity": "warning",
+      "type": "track_dangling"
+    },
+    {
+      "description": "Track has unconnected end",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.0200 mm",
+          "pos": {
+            "x": 76.98,
+            "y": 36.0
+          },
+          "uuid": "410979f8-580d-4434-9883-ad3cf785333c"
+        }
+      ],
+      "severity": "warning",
+      "type": "track_dangling"
+    },
+    {
+      "description": "Silkscreen clearance",
+      "items": [
+        {
+          "description": "Campo riferimento di L501",
+          "pos": {
+            "x": 58.0,
+            "y": 32.0
+          },
+          "uuid": "7e625a60-e2c3-4695-8a59-19e4c9de40e0"
+        },
+        {
+          "description": "Segmento di C511 su F.Silkscreen",
+          "pos": {
+            "x": 57.05942,
+            "y": 31.69
+          },
+          "uuid": "8d4b6e5b-81cf-48aa-8677-66d9e1e9a873"
+        }
+      ],
+      "severity": "warning",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen clipped by solder mask",
+      "items": [
+        {
+          "description": "Campo riferimento di L501",
+          "pos": {
+            "x": 58.0,
+            "y": 32.0
+          },
+          "uuid": "7e625a60-e2c3-4695-8a59-19e4c9de40e0"
+        },
+        {
+          "description": "Piazzola 1 [+1V0_PHY] di C511 su F.Cu",
+          "pos": {
+            "x": 56.425,
+            "y": 32.2
+          },
+          "uuid": "dc3c5c3d-cb72-4cb1-925c-07e1e19bceb0"
+        }
+      ],
+      "severity": "warning",
+      "type": "silk_over_copper"
+    },
+    {
+      "description": "Silkscreen clipped by solder mask",
+      "items": [
+        {
+          "description": "Campo riferimento di L501",
+          "pos": {
+            "x": 58.0,
+            "y": 32.0
+          },
+          "uuid": "7e625a60-e2c3-4695-8a59-19e4c9de40e0"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C511 su F.Cu",
+          "pos": {
+            "x": 57.975,
+            "y": 32.2
+          },
+          "uuid": "480b132d-2229-4892-912a-28300a78afb5"
+        }
+      ],
+      "severity": "warning",
+      "type": "silk_over_copper"
+    }
+  ],
+  "mechanical_conflicts": [],
+  "temporary_candidate": "/var/folders/6f/jhxwwy_j2pv1b74_x7hd795m0000gn/T/phoenix-joint-power-iekttu2c/source.kicad_pcb",
+  "candidate_sha256": "84ba6d85d182756898602ce821dc3460283840055d2f283e933ef2cf94082a9e",
+  "checkpoint_modified": false,
+  "assembly_ready": false,
+  "limitations": [
+    "Moved pads are not rerouted. Ground and signal continuity must be restored before acceptance.",
+    "No power-current or oscillator qualification; original checkpoint untouched."
+  ]
+}

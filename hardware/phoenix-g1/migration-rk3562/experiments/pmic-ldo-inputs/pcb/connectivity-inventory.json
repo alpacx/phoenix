@@ -1,9 +1,9 @@
 {
   "status": "PAD_CONNECTIVITY_INVENTORY_NOT_ELECTRICAL_QUALIFICATION",
-  "source_sha256": "7a0dfbdfdec87b1aab4f2d4c443746cae4ca4e5724621e6291a8d7c6f26de0fb",
+  "source_sha256": "bdeb44f58dea3d0261469c1d3f7eeb5a9e6df03e95648710393c9e09c83f6aeb",
   "nets_total": 285,
   "multi_pad_nets": 278,
-  "open_multi_pad_nets": 227,
+  "open_multi_pad_nets": 226,
   "single_pad_nets_not_proof_of_completion": 7,
   "nets": [
     {
@@ -14,13 +14,15 @@
           "C511.1"
         ],
         [
-          "C512.1"
+          "C512.1",
+          "U5.3"
         ],
         [
           "C513.1"
         ],
         [
-          "C514.1"
+          "C514.1",
+          "U5.21"
         ],
         [
           "C522.1"
@@ -29,19 +31,13 @@
           "L501.2"
         ],
         [
-          "U5.21"
-        ],
-        [
-          "U5.3"
-        ],
-        [
           "U5.38"
         ],
         [
           "U5.8"
         ]
       ],
-      "group_count": 10,
+      "group_count": 8,
       "fully_connected": false
     },
     {
@@ -562,16 +558,17 @@
           "C515.1"
         ],
         [
-          "C516.1"
+          "C516.1",
+          "U5.11"
         ],
         [
-          "C517.1"
+          "C517.1",
+          "C519.1",
+          "U5.28",
+          "U5.29"
         ],
         [
           "C518.1"
-        ],
-        [
-          "C519.1"
         ],
         [
           "R514.2"
@@ -592,19 +589,10 @@
           "R530.2"
         ],
         [
-          "U5.11"
-        ],
-        [
-          "U5.28"
-        ],
-        [
-          "U5.29"
-        ],
-        [
           "U5.40"
         ]
       ],
-      "group_count": 15,
+      "group_count": 11,
       "fully_connected": false
     },
     {
@@ -1911,8 +1899,18 @@
           "C484.2",
           "C485.2",
           "C501.2",
+          "C511.2",
+          "C512.2",
+          "C513.2",
+          "C514.2",
+          "C515.2",
+          "C516.2",
+          "C517.2",
+          "C518.2",
+          "C519.2",
           "C520.2",
           "C521.2",
+          "C522.2",
           "C531.2",
           "C605.2",
           "C606.2",
@@ -2421,36 +2419,6 @@
         ],
         [
           "C469.2"
-        ],
-        [
-          "C511.2"
-        ],
-        [
-          "C512.2"
-        ],
-        [
-          "C513.2"
-        ],
-        [
-          "C514.2"
-        ],
-        [
-          "C515.2"
-        ],
-        [
-          "C516.2"
-        ],
-        [
-          "C517.2"
-        ],
-        [
-          "C518.2"
-        ],
-        [
-          "C519.2"
-        ],
-        [
-          "C522.2"
         ],
         [
           "J2001.2"
@@ -3251,7 +3219,7 @@
           "Y2002.4"
         ]
       ],
-      "group_count": 397,
+      "group_count": 387,
       "fully_connected": false
     },
     {
@@ -4502,14 +4470,12 @@
         [
           "C501.1",
           "R515.2",
-          "R516.1"
-        ],
-        [
+          "R516.1",
           "U5.12"
         ]
       ],
-      "group_count": 2,
-      "fully_connected": false
+      "group_count": 1,
+      "fully_connected": true
     },
     {
       "net": "PHY_RSET",
@@ -4530,16 +4496,14 @@
       "pad_count": 3,
       "connected_groups": [
         [
-          "R512.2"
-        ],
-        [
+          "R512.2",
           "R522.1"
         ],
         [
           "U5.27"
         ]
       ],
-      "group_count": 3,
+      "group_count": 2,
       "fully_connected": false
     },
     {

@@ -1,0 +1,148 @@
+{
+  "source": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-compact-inductor/corridor/strap/pcb/phoenix-phy-corridor.kicad_pcb",
+  "candidate": "/var/folders/6f/jhxwwy_j2pv1b74_x7hd795m0000gn/T/phoenix-sw-fanout-qapjqthc/phoenix-phy-corridor.kicad_pcb",
+  "parent_sha256": "21c11942a68f62c506769caed42e84f3358d85e159f8b7bc2ba2f87e9014b30f",
+  "candidate_sha256": "616d23bdcc5d4aac1f735b873fba7ea0f0227004debc6239fe232da86e201ae1",
+  "trunk_path_mm": [
+    [
+      60.3,
+      27.9
+    ],
+    [
+      58.825,
+      29.375
+    ],
+    [
+      58.825,
+      30
+    ]
+  ],
+  "trunk_width_mm": 1.55,
+  "pin_fanout_path_mm": [
+    [
+      61.2,
+      28.6
+    ],
+    [
+      60.9,
+      28.3
+    ]
+  ],
+  "pin_fanout_width_mm": 0.2,
+  "pin_fanout_length_mm": 0.42426406871193206,
+  "new_copper_uuids": [
+    "2f3d09b0-37e8-4f9a-9c8f-6e40cbf56a5b",
+    "453cb4e5-54d1-4f05-bbb0-09369f42e084",
+    "85f245a0-3dfc-462f-9d97-ca781810d317"
+  ],
+  "historical_60mil_width_met_on_entire_path": false,
+  "power_layout_accepted": false,
+  "checkpoint_modified": false,
+  "limitations": [
+    "A short QFN pin fanout is narrower than the historical >60 mil guideline. This trial does not waive that requirement or qualify the power path.",
+    "Need the applicable Realtek layout guide/reference fanout or manufacturer confirmation, plus ripple/current/thermal verification, before adoption.",
+    "Source rail and load distribution remain incomplete. No physical test."
+  ],
+  "new_violations": [
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "453cb4e5-54d1-4f05-bbb0-09369f42e084",
+        "829cb9a5-35f2-4e3b-81ca-07ef2d39bec9"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "2f3d09b0-37e8-4f9a-9c8f-6e40cbf56a5b",
+        "829cb9a5-35f2-4e3b-81ca-07ef2d39bec9"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "15d50017-c15b-49c7-9076-31cb6e95077b",
+        "453cb4e5-54d1-4f05-bbb0-09369f42e084"
+      ],
+      "count": 1
+    }
+  ],
+  "details": [
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.0250 mm)",
+      "items": [
+        {
+          "description": "Pista [PHY_SW] su F.Cu, lung. 0.6250 mm",
+          "pos": {
+            "x": 58.825,
+            "y": 29.375
+          },
+          "uuid": "453cb4e5-54d1-4f05-bbb0-09369f42e084"
+        },
+        {
+          "description": "Via [GND] su F.Cu - B.Cu",
+          "pos": {
+            "x": 59.85,
+            "y": 29.75
+          },
+          "uuid": "829cb9a5-35f2-4e3b-81ca-07ef2d39bec9"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_SW e GND)",
+      "items": [
+        {
+          "description": "Pista [PHY_SW] su F.Cu, lung. 2.0860 mm",
+          "pos": {
+            "x": 60.3,
+            "y": 27.9
+          },
+          "uuid": "2f3d09b0-37e8-4f9a-9c8f-6e40cbf56a5b"
+        },
+        {
+          "description": "Via [GND] su F.Cu - B.Cu",
+          "pos": {
+            "x": 59.85,
+            "y": 29.75
+          },
+          "uuid": "829cb9a5-35f2-4e3b-81ca-07ef2d39bec9"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1000 mm)",
+      "items": [
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 1.0607 mm",
+          "pos": {
+            "x": 57.175,
+            "y": 30.0
+          },
+          "uuid": "15d50017-c15b-49c7-9076-31cb6e95077b"
+        },
+        {
+          "description": "Pista [PHY_SW] su F.Cu, lung. 0.6250 mm",
+          "pos": {
+            "x": 58.825,
+            "y": 29.375
+          },
+          "uuid": "453cb4e5-54d1-4f05-bbb0-09369f42e084"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    }
+  ],
+  "status": "SW_FANOUT_GEOMETRY_REJECTED",
+  "assembly_ready": false
+}

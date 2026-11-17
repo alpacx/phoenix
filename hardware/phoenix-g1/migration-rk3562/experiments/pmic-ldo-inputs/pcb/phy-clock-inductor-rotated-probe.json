@@ -1,0 +1,302 @@
+{
+  "status": "ISOLATED_JOINT_PLACEMENT_EXPERIMENT",
+  "checkpoint_sha256": "a6b50f7a136f17a7dd35ecf3ccbfca7774e1dac74a1b9627fc7ef252031cf997",
+  "baseline_sha256": "328fcf94bdf007ef3fedf37306f6a30e12f7bfed29bb5e2f78b17afdb11170d9",
+  "variants": [
+    {
+      "crystal_center_mm": [
+        56,
+        34.5
+      ],
+      "crystal_angle_deg": 0,
+      "inductor_front_center_mm": [
+        57.5,
+        31
+      ],
+      "exit_code": 2,
+      "evidence": {
+        "status": "NO_ACCEPTED_BOUNDED_CLOCK_PLACEMENT",
+        "source_sha256": "328fcf94bdf007ef3fedf37306f6a30e12f7bfed29bb5e2f78b17afdb11170d9",
+        "failed_ref": "C520",
+        "counts": {
+          "outside": 6344,
+          "courtyard": 3156,
+          "pad_copper": 28,
+          "no_signal_path": 12,
+          "path_too_long": 0,
+          "no_ground": 0
+        },
+        "max_signal_path_mm": 4,
+        "grid_mm": 0.025,
+        "placement_pitch_mm": 0.25,
+        "rotations_deg": [
+          0,
+          90,
+          180,
+          270
+        ],
+        "board_changed": false,
+        "note": "In-memory trial discarded. Not a proof of impossibility; review joint PHY/crystal/passive placement. No clearance or component change."
+      }
+    },
+    {
+      "crystal_center_mm": [
+        56,
+        34.5
+      ],
+      "crystal_angle_deg": 90,
+      "inductor_front_center_mm": [
+        57.5,
+        31
+      ],
+      "exit_code": 2,
+      "evidence": {
+        "status": "NO_ACCEPTED_BOUNDED_CLOCK_PLACEMENT",
+        "source_sha256": "328fcf94bdf007ef3fedf37306f6a30e12f7bfed29bb5e2f78b17afdb11170d9",
+        "failed_ref": "C521",
+        "counts": {
+          "outside": 6316,
+          "courtyard": 3218,
+          "pad_copper": 5,
+          "no_signal_path": 0,
+          "path_too_long": 1,
+          "no_ground": 0
+        },
+        "max_signal_path_mm": 4,
+        "grid_mm": 0.025,
+        "placement_pitch_mm": 0.25,
+        "rotations_deg": [
+          0,
+          90,
+          180,
+          270
+        ],
+        "board_changed": false,
+        "note": "In-memory trial discarded. Not a proof of impossibility; review joint PHY/crystal/passive placement. No clearance or component change."
+      }
+    },
+    {
+      "crystal_center_mm": [
+        56,
+        34.5
+      ],
+      "crystal_angle_deg": 270,
+      "inductor_front_center_mm": [
+        57.5,
+        31
+      ],
+      "exit_code": 2,
+      "evidence": {
+        "status": "NO_ACCEPTED_BOUNDED_CLOCK_PLACEMENT",
+        "source_sha256": "328fcf94bdf007ef3fedf37306f6a30e12f7bfed29bb5e2f78b17afdb11170d9",
+        "failed_ref": "C521",
+        "counts": {
+          "outside": 6396,
+          "courtyard": 3126,
+          "pad_copper": 18,
+          "no_signal_path": 0,
+          "path_too_long": 0,
+          "no_ground": 0
+        },
+        "max_signal_path_mm": 4,
+        "grid_mm": 0.025,
+        "placement_pitch_mm": 0.25,
+        "rotations_deg": [
+          0,
+          90,
+          180,
+          270
+        ],
+        "board_changed": false,
+        "note": "In-memory trial discarded. Not a proof of impossibility; review joint PHY/crystal/passive placement. No clearance or component change."
+      }
+    },
+    {
+      "crystal_center_mm": [
+        55,
+        34.5
+      ],
+      "crystal_angle_deg": 0,
+      "inductor_front_center_mm": [
+        57.5,
+        31
+      ],
+      "exit_code": 2,
+      "evidence": {
+        "status": "NO_ACCEPTED_BOUNDED_CLOCK_PLACEMENT",
+        "source_sha256": "328fcf94bdf007ef3fedf37306f6a30e12f7bfed29bb5e2f78b17afdb11170d9",
+        "failed_ref": "C520",
+        "counts": {
+          "outside": 6344,
+          "courtyard": 3122,
+          "pad_copper": 36,
+          "no_signal_path": 38,
+          "path_too_long": 0,
+          "no_ground": 0
+        },
+        "max_signal_path_mm": 4,
+        "grid_mm": 0.025,
+        "placement_pitch_mm": 0.25,
+        "rotations_deg": [
+          0,
+          90,
+          180,
+          270
+        ],
+        "board_changed": false,
+        "note": "In-memory trial discarded. Not a proof of impossibility; review joint PHY/crystal/passive placement. No clearance or component change."
+      }
+    },
+    {
+      "crystal_center_mm": [
+        55,
+        34.5
+      ],
+      "crystal_angle_deg": 90,
+      "inductor_front_center_mm": [
+        57.5,
+        31
+      ],
+      "exit_code": 2,
+      "evidence": {
+        "status": "NO_ACCEPTED_BOUNDED_CLOCK_PLACEMENT",
+        "source_sha256": "328fcf94bdf007ef3fedf37306f6a30e12f7bfed29bb5e2f78b17afdb11170d9",
+        "failed_ref": "C521",
+        "counts": {
+          "outside": 6316,
+          "courtyard": 3206,
+          "pad_copper": 14,
+          "no_signal_path": 4,
+          "path_too_long": 0,
+          "no_ground": 0
+        },
+        "max_signal_path_mm": 4,
+        "grid_mm": 0.025,
+        "placement_pitch_mm": 0.25,
+        "rotations_deg": [
+          0,
+          90,
+          180,
+          270
+        ],
+        "board_changed": false,
+        "note": "In-memory trial discarded. Not a proof of impossibility; review joint PHY/crystal/passive placement. No clearance or component change."
+      }
+    },
+    {
+      "crystal_center_mm": [
+        55,
+        34.5
+      ],
+      "crystal_angle_deg": 270,
+      "inductor_front_center_mm": [
+        57.5,
+        31
+      ],
+      "exit_code": 2,
+      "evidence": {
+        "status": "NO_ACCEPTED_BOUNDED_CLOCK_PLACEMENT",
+        "source_sha256": "328fcf94bdf007ef3fedf37306f6a30e12f7bfed29bb5e2f78b17afdb11170d9",
+        "failed_ref": "C520",
+        "counts": {
+          "outside": 6316,
+          "courtyard": 3180,
+          "pad_copper": 14,
+          "no_signal_path": 30,
+          "path_too_long": 0,
+          "no_ground": 0
+        },
+        "max_signal_path_mm": 4,
+        "grid_mm": 0.025,
+        "placement_pitch_mm": 0.25,
+        "rotations_deg": [
+          0,
+          90,
+          180,
+          270
+        ],
+        "board_changed": false,
+        "note": "In-memory trial discarded. Not a proof of impossibility; review joint PHY/crystal/passive placement. No clearance or component change."
+      }
+    },
+    {
+      "crystal_center_mm": [
+        55,
+        36
+      ],
+      "crystal_angle_deg": 90,
+      "inductor_front_center_mm": [
+        57.5,
+        31
+      ],
+      "exit_code": 2,
+      "evidence": {
+        "status": "NO_ACCEPTED_BOUNDED_CLOCK_PLACEMENT",
+        "source_sha256": "328fcf94bdf007ef3fedf37306f6a30e12f7bfed29bb5e2f78b17afdb11170d9",
+        "failed_ref": "C520",
+        "counts": {
+          "outside": 6940,
+          "courtyard": 2422,
+          "pad_copper": 0,
+          "no_signal_path": 178,
+          "path_too_long": 0,
+          "no_ground": 0
+        },
+        "max_signal_path_mm": 4,
+        "grid_mm": 0.025,
+        "placement_pitch_mm": 0.25,
+        "rotations_deg": [
+          0,
+          90,
+          180,
+          270
+        ],
+        "board_changed": false,
+        "note": "In-memory trial discarded. Not a proof of impossibility; review joint PHY/crystal/passive placement. No clearance or component change."
+      }
+    },
+    {
+      "crystal_center_mm": [
+        55,
+        36
+      ],
+      "crystal_angle_deg": 270,
+      "inductor_front_center_mm": [
+        57.5,
+        31
+      ],
+      "exit_code": 2,
+      "evidence": {
+        "status": "NO_ACCEPTED_BOUNDED_CLOCK_PLACEMENT",
+        "source_sha256": "328fcf94bdf007ef3fedf37306f6a30e12f7bfed29bb5e2f78b17afdb11170d9",
+        "failed_ref": "C520",
+        "counts": {
+          "outside": 6316,
+          "courtyard": 3142,
+          "pad_copper": 15,
+          "no_signal_path": 67,
+          "path_too_long": 0,
+          "no_ground": 0
+        },
+        "max_signal_path_mm": 4,
+        "grid_mm": 0.025,
+        "placement_pitch_mm": 0.25,
+        "rotations_deg": [
+          0,
+          90,
+          180,
+          270
+        ],
+        "board_changed": false,
+        "note": "In-memory trial discarded. Not a proof of impossibility; review joint PHY/crystal/passive placement. No clearance or component change."
+      }
+    }
+  ],
+  "checkpoint_modified": false,
+  "assembly_ready": false,
+  "limitations": [
+    "Only local crystal/capacitor placement is tried; no complete power or clock routing qualification.",
+    "A failed bounded search is not proof of impossibility.",
+    "Even a successful local result is discarded; inherited bypasses and full cumulative checks would need rebuilding."
+  ]
+}

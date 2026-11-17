@@ -1,0 +1,66 @@
+{
+  "source": "/var/folders/6f/jhxwwy_j2pv1b74_x7hd795m0000gn/T/phoenix-bulk-return-g35xi88t/phy-compact-output.kicad_pcb",
+  "candidate": "/var/folders/6f/jhxwwy_j2pv1b74_x7hd795m0000gn/T/phoenix-output-return-1bkmw99s/phy-compact-output.kicad_pcb",
+  "parent_sha256": "299b4e4dd2dbe9254adf67f27524399a8dc50f2adef2150dac4bdb1a0498b4b1",
+  "candidate_sha256": "c627d0ef6ca51729ec0734c3ffc1cb8441577608003dbef5825a5aed6033a54c",
+  "changed": [
+    "2dc3ec34-d094-40ea-b2d6-1a5844f48bde",
+    "6958a641-cfc7-432a-8c48-4cfc10832957",
+    "a1aae4bb-416a-41dc-9cda-34227592146e"
+  ],
+  "width_mm": 0.5,
+  "old_width_mm": 0.2,
+  "added_ground_via_mm": [
+    58.85,
+    31.625,
+    0.45,
+    0.2
+  ],
+  "original_ground_via_preserved": true,
+  "limitations": [
+    "Geometry and continuity only; via current sharing, ripple return and plane currents are not qualified.",
+    "Regulator switching node and source distribution remain open."
+  ],
+  "new_violations": [],
+  "details": [],
+  "status": "OUTPUT_RETURN_GEOMETRY_PASSED",
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5789,
+    "explicitly_replaced_copper": {
+      "2dc3ec34-d094-40ea-b2d6-1a5844f48bde": [
+        "GND",
+        0,
+        57975000,
+        32200000,
+        58000000,
+        32200000,
+        200000,
+        null
+      ],
+      "6958a641-cfc7-432a-8c48-4cfc10832957": [
+        "GND",
+        0,
+        58000000,
+        32200000,
+        58750000,
+        32200000,
+        200000,
+        null
+      ],
+      "a1aae4bb-416a-41dc-9cda-34227592146e": [
+        "GND",
+        0,
+        58750000,
+        32200000,
+        58850000,
+        32100000,
+        200000,
+        null
+      ]
+    },
+    "added_tracks_vias": 2,
+    "existing_connected_pad_groups_preserved": 70
+  }
+}

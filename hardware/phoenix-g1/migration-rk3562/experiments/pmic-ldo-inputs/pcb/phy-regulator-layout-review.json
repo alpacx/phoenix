@@ -1,0 +1,41 @@
+{
+  "status": "HOLD_PHY_SWITCHING_POWER_LAYOUT",
+  "review_date": "2026-11-17",
+  "source": {
+    "url": "https://www.boardcon.com/download/RTL8211F-CG-Realtek.pdf",
+    "author": "Realtek",
+    "revision": "1.1",
+    "date": "2014-02-21",
+    "pdf_page_1_based": 53,
+    "printed_page": 46,
+    "sha256": "4519b408b0726e0545d6465df486aa3816958875efd7a9288582b6d2b95f6815",
+    "page_visually_reviewed": true
+  },
+  "revision_caveat": "Older than the local rev 1.2; use conservatively as historical manufacturer guidance, not confirmed requirements for current silicon. Rev 1.2 refers to a separate layout guide.",
+  "guidance_paraphrase": {
+    "input_power_trace_width_mm_greater_than": 1.016,
+    "switch_output_trace_width_mm_greater_than": 1.524,
+    "placement_distance_mil_max": 200,
+    "inductor_and_input_bulk_same_side_as_phy": true,
+    "no_vias_on_input_and_switch_output_power_traces": true,
+    "output_bulk_ceramic_low_esr": true
+  },
+  "current_holds": [
+    "Switching node, main 3.3V input and 1V output power loops remain open; widths, current and stability are not qualified.",
+    "C511/C515 bulk positions remain remote. Front-side screening found no isolated C511 position and 16 independent C515 positions; wide power paths are not proven.",
+    "XIN now uses two through vias. Oscillator capacitance, frequency margin and coupling to the future switching path require review and physical validation.",
+    "C1014 and U23 moved to B.Cu; CPU decoupling and Ethernet ESD return paths are not qualified.",
+    "New 0.20 mm bypass branches are topology drafts, not approved primary supply trunks."
+  ],
+  "assembly_ready": false,
+  "checkpoint_sha256": "96b01d90aa6225a873dac818f007459245adeb207920009b7f11e223b8266394",
+  "resolved_geometry": [
+    "L501 is now on F.Cu with U5; same-side placement condition addressed geometrically."
+  ],
+  "experimental_alternative": {
+    "checkpoint": "../phy-compact-inductor/study-checkpoint.json",
+    "adopted": false,
+    "verified_geometry": "Joint compact inductor/bulk placement, grounds restored at original widths, 1.55 mm output branch; five tests passed.",
+    "remaining": "Input, switch node, load distribution, DCR/ripple, effective capacitance and stability qualification."
+  }
+}

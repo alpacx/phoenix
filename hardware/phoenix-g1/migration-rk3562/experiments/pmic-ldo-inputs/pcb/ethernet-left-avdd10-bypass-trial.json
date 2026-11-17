@@ -1,0 +1,24 @@
+{
+  "status": "NO_ACCEPTED_BOUNDED_BYPASS_PLACEMENT",
+  "source_sha256": "d0ec66de88431ed1c8d440e6486ef78e86a3d3b010ff22191bc2bfbc8a4969d2",
+  "failed_ref": "C522",
+  "counts": {
+    "outside": 2272,
+    "courtyard": 2604,
+    "pad_copper": 8,
+    "no_signal_path": 0,
+    "path_too_long": 0,
+    "no_ground": 0
+  },
+  "max_signal_path_mm": 4,
+  "grid_mm": 0.025,
+  "placement_pitch_mm": 0.25,
+  "rotations_deg": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "board_changed": false,
+  "note": "In-memory trial discarded. Not a proof of impossibility; review joint PHY/passive placement. No clearance or component change."
+}
