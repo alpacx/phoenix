@@ -5,9 +5,7 @@ Description=Phoenix USB HTTP redirect to HTTPS
 User=phoenix-web
 Group=phoenix-web
 WorkingDirectory=/opt/phoenix
-Environment=PYTHONPATH=/opt/phoenix/platforms/linux/service
-Environment=PYTHONDONTWRITEBYTECODE=1
-ExecStart=/usr/bin/python3 -m phoenix_linux.usb_admin
+ExecStart=/opt/phoenix/bin/phoenix usb-redirect
 Restart=on-failure
 RestartSec=5
 UMask=0077

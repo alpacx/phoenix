@@ -1,18 +1,19 @@
 # Struttura del progetto Phoenix
 
-Aggiornata: 2026-11-11. Due piattaforme software, un prodotto e una UI.
+Aggiornata: 2026-11-18. Due piattaforme software, un prodotto e una UI.
 
 | Percorso | Responsabilità / stato |
 |---|---|
 | `platforms/esp32/main/` | Backend ESP-IDF esistente, NVS e controllo hardware |
-| `platforms/linux/` | Backend Linux, frontend HTTPS non root e worker RPC; test Docker, VM e primo deployment fisico ROCK |
+| `platforms/linux/` | Backend Linux: frontend HTTPS non root e worker RPC (binario Rust `phoenix`), unità systemd in `deploy/`; test Docker, VM e deployment fisico ROCK |
+| `platforms/linux/rust/` | Sorgente Rust dei servizi Linux (binario statico `phoenix`, attivo sulla ROCK); vedere il suo README |
 | `shared/web/` | Unica sorgente HTML/CSS/JS e catalogo paesi del pannello |
 | `shared/phoenix_core/` | C portabile: policy, firewall, profili WG, rotazione |
 | `components/wireguard/` | Implementazione WireGuard embedded, non backend Linux |
 | `components_overrides/` | Override ESP-IDF/TinyUSB verificati |
 | `tests/` | Test host core, UI e adattatori ESP32 con stub |
 | `tools/` | Build/test delle due piattaforme e utilità di banco |
-| `.github/workflows/software.yml` | CI Python/contratti, C portabile, JS, traffico Linux e browser; da pubblicare |
+| `.github/workflows/software.yml` | CI C portabile, JS, servizi Linux Rust (unit, container, pacchetti) e browser; da pubblicare |
 | `benchmarks/` | Prove e strumenti di misura; non servizi di produzione |
 | `docs/` | API, architettura, hardware, procedure e mappa repository |
 | `hardware/phoenix-g1/` | Progettazione elettronica custom, separata dal software |
@@ -49,7 +50,9 @@ throughput basate solo sul processore. La UI deve restare agnostica dall'hardwar
 Dalla root:
 
 ```sh
-./tools/test-linux.sh
+./tools/test-linux.sh        # servizi Linux Rust: unit + parità (Docker)
+./tools/rust-kernel-tests.sh # test kernel/systemd in container (Docker)
+python3 platforms/linux/tests/integration/rust_blackbox.py
 ./tools/test.sh
 ./tools/test-history.sh
 node tests/test_countdown.cjs
@@ -88,11 +91,11 @@ in questa riorganizzazione; backend Linux ancora da implementare.
 
 ## USB Ethernet Linux — provisioning opt-in
 
-`platforms/linux/service/phoenix_linux/usb_gadget.py` gestisce soltanto il gadget
-configfs Phoenix, tramite unità separata `phoenix-usb-gadget.service`. Il worker
-usa `usb_lan.py` per DHCP e le policy USB preesistenti per il traffico. Configurazione
+`platforms/linux/rust/src/usb_gadget.rs` (`phoenix usb-gadget`) gestisce soltanto
+il gadget configfs Phoenix, tramite unità separata `phoenix-usb-gadget.service`.
+Il worker usa `lan.rs` per DHCP e le policy USB preesistenti per il traffico. Configurazione
 e procedura in `platforms/linux/deploy/USB_ETHERNET.md`. Non attivare senza
 identificare UDC/target e verificare fisicamente VBUS; nessun cambio automatico
 di ruolo o regolatori. Test configfs simulati distinti dal DHCP reale su veth
-in `platforms/linux/tests/integration/check_usb_dhcp.py`; nessuna prova USB
+(`kernel_usb_dhcp_in_isolated_container`, `tools/rust-kernel-tests.sh`); nessuna prova USB
 fisica implicita nei risultati Docker.

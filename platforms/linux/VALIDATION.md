@@ -1,6 +1,84 @@
-# Verifiche del port Linux — 2026-11-11
+# Verifiche del backend Linux
 
-## Risultato corrente
+## Servizi Rust — 2026-11-18 (risultato corrente)
+
+Implementazione Python rimossa; tutte le prove seguenti usano il binario Rust
+`phoenix`. Host Docker aarch64 (Apple Silicon); la CI GitHub (x86_64) non è
+ancora stata eseguita perché il workflow non è pubblicato.
+
+- **Unit e parità** (`./tools/test-linux.sh`): 143 test + 5 di parità con
+  l'output congelato dell'implementazione Python; 6 test kernel ignorati qui.
+- **Container kernel** (`./tools/rust-kernel-tests.sh`): 6 test `kernel_*`
+  (nft/ip/wg/conntrack, DHCP reale dnsmasq ↔ udhcpc su veth, `dnsmasq --test`,
+  stop guard, NetworkManager reale che carica il keyfile STA senza radio,
+  DoH+TLS solo via uplink scelto e nessun ripiego dopo caduta del link) e
+  `systemd-analyze verify` di 9 unità.
+- **Black-box pacchetti** (`rust_blackbox.py`): tre container, solo API HTTPS:
+  login/cambio password/Origin, blocco iniziale, NAT diretto, revisione e
+  conflitto policy, deny ordinato, port forwarding con default deny e filtro
+  sorgente, tunnel WireGuard reale con handshake e storico, perdita del tunnel
+  e disconnessione senza fallback, arresto con forwarding a 0 e stop guard.
+  Soak 60 s: 7 cicli, RSS worker 2764–2776 KiB, descrittori 4–6.
+  RSS dopo lo scenario: worker 2768 KiB (anon 152), frontend 2092 KiB (anon 104).
+- **Browser** (Playwright 1.51 in Docker, servizi Rust in container): Chromium,
+  WebKit e Firefox su 7 pagine a 1440/390/320 px senza overflow, roundtrip
+  policy e forwarding, banner offline, logout che svuota i campi sensibili,
+  login errato, reload con sessione attiva senza comparsa del login, nessun
+  errore JS; flusso password con cambio obbligatorio,
+  reload, logout, vecchia password rifiutata e blocco dopo 3 errori.
+- **VM QEMU ARM64 con systemd** (190 s): `phoenix install`, avvio reale delle
+  unità, frontend non root con CapEff zero, certificato CA:FALSE accettato come
+  trust anchor, 401/403 su token e Origin errati, token illeggibile per
+  phoenix-web, SIGKILL del worker → forwarding 0 e stop guard, poi recupero;
+  upload firmato formato 2 con switch e health check, cinque aggiornamenti
+  consecutivi, replay rifiutato, release non avviabile → rollback e traffico
+  bloccato, stop guard, journal interrotto recuperato dopo **vero reboot**.
+  RSS nella VM: worker 2424 KiB, frontend 1520 KiB.
+- **ROCK 4C+**: servizi Rust attivi dal 18/11; aggiornamento firmato formato 2
+  caricato dal pannello e attivato (release `11-5faa8de28eeb0f62`), vedere
+  [BRINGUP](boards/rock4c-plus/BRINGUP.md).
+
+Non provati: enumerazione USB, radio/AP reali in questi test, handshake con un
+provider VPN reale, throughput, power loss durante scritture.
+
+### Riproduzione (dalla root, solo Docker sul Mac)
+
+```sh
+./tools/test-linux.sh
+./tools/rust-linux.sh build --release
+docker build -t phoenix-linux-test:local -f platforms/linux/tests/integration/Dockerfile platforms/linux/tests/integration
+./tools/rust-kernel-tests.sh
+python3 platforms/linux/tests/integration/rust_blackbox.py [--soak 600]
+```
+
+La prova black-box richiede subnet Docker 192.168.9.0/24 e 192.0.2.0/24
+libere e rimuove solo le proprie risorse; chiavi effimere, nessun segreto
+stampato, nessun nftables/routing applicato al Mac.
+
+VM (host Docker ARM64, QEMU TCG; lo script rifiuta un binario non aarch64):
+
+```sh
+docker build -t phoenix-systemd-lab:local -f platforms/linux/tests/vm/Dockerfile platforms/linux/tests/vm
+docker run --rm --mount type=bind,source="$PWD",target=/workspace,readonly phoenix-systemd-lab:local sh platforms/linux/tests/vm/build_and_run.sh
+```
+
+Browser: passi del job `browser` in `.github/workflows/software.yml`
+(`ui_harness.py start|reset|stop`, password di test in `PHOENIX_TEST_PASSWORD`,
+solo per il container usa e getta; **non usare credenziali reali**).
+Screenshot in results/linux/ui-review.
+
+## Gate fisici e di produzione
+
+Restano: avvio immagine reale, AP/STA/driver, DHCP/DNS/IPv6 dei client, USB device
+e cablaggio, NordVPN con abbonamento, IP pubblico del tunnel, throughput,
+temperature, consumi ed endurance. Occorrono inoltre audit di sicurezza completo,
+gestione operativa certificati/chiavi e prove di storage/power loss.
+Non dichiarare il prodotto pronto sulla sola base di questi test virtuali.
+
+## Storico — implementazione Python (11–14 novembre 2026)
+
+Le sezioni seguenti descrivono prove sull'implementazione Python, ora rimossa;
+i comandi citati non esistono più. Restano come evidenza storica.
 
 **68 test Python passati su Debian 12**; test C, storico e countdown JS passati;
 build ESP-IDF build-admin riuscita. Nessun flash. Nessun test fisico ROCK.
@@ -68,49 +146,7 @@ Passati:
 Il reboot verifica il recupero dello stato persistente preparato; non è un
 power cut durante I/O, né una prova di affidabilità della microSD.
 
-## Riproduzione
-
-Dalla root:
-
-```sh
-./tools/test-linux.sh
-./tools/test.sh
-./tools/test-history.sh
-node tests/test_countdown.cjs
-./tools/build.sh -B build-admin -D SDKCONFIG=build-admin/sdkconfig
-
-docker build -t phoenix-linux-test:local -f platforms/linux/tests/integration/Dockerfile platforms/linux/tests/integration
-docker run --rm --cap-add NET_ADMIN --mount type=bind,source="$PWD",target=/workspace,readonly phoenix-linux-test:local
-docker run --rm --cap-add NET_ADMIN --mount type=bind,source="$PWD",target=/workspace,readonly phoenix-linux-test:local python3 platforms/linux/tests/integration/check_deploy.py
-python3 platforms/linux/tests/integration/traffic.py
-```
-
-La prova traffico richiede subnet Docker 192.168.9.0/24 e 192.0.2.0/24 libere;
-pulisce solo risorse phoenix-test con identificatore casuale. Chiavi effimere,
-nessun segreto stampato. Nessun nftables/routing applicato al Mac.
-
-VM (host Docker ARM64, QEMU TCG, alcuni minuti e spazio per disco temporaneo):
-
-```sh
-docker build -t phoenix-systemd-lab:local -f platforms/linux/tests/vm/Dockerfile platforms/linux/tests/vm
-docker run --rm --mount type=bind,source="$PWD",target=/workspace,readonly phoenix-systemd-lab:local sh platforms/linux/tests/vm/build_and_run.sh
-```
-
-Lo script fallisce se manca il marcatore finale di successo. Le chiavi di test
-restano nel filesystem temporaneo del container/guest eliminato alla fine.
-Il workflow `.github/workflows/software.yml` automatizza test Python, contratti,
-C portabile, JS e traffico Linux; non è ancora stato eseguito da GitHub perché
-queste modifiche non sono state pubblicate. VM e build ESP-IDF sono prove locali.
-
-## Gate fisici e di produzione
-
-Restano: avvio immagine reale, AP/STA/driver, DHCP/DNS/IPv6 dei client, USB device
-e cablaggio, NordVPN con abbonamento, IP pubblico del tunnel, throughput,
-temperature, consumi ed endurance. Occorrono inoltre audit di sicurezza completo,
-gestione operativa certificati/chiavi e prove di storage/power loss.
-Non dichiarare il prodotto pronto sulla sola base di questi test virtuali.
-
-## Revisione e prove prolungate successive
+### Revisione e prove prolungate successive
 
 Vedere [SECURITY_REVIEW.md](SECURITY_REVIEW.md) per riscontri, correzioni e limiti.
 La suite è salita a **68 test Python passati**. UI provata con Playwright 1.51
@@ -124,31 +160,12 @@ non avviabile, rollback e recovery dopo reboot. Payload di test e chiavi effimer
 non è una prova di migrazione tra schemi dati diversi. Il workflow CI include
 anche i tre browser, ma non è stato pubblicato o eseguito su GitHub.
 
-Riproduzione del test prolungato (30–1200 secondi):
-
-```sh
-PHOENIX_SOAK_SECONDS=600 python3 platforms/linux/tests/integration/traffic.py
-```
-
 Il controllore rimane nello stesso processo mentre vengono ricreati i tunnel,
 inoltrato traffico HTTP, rimosso il tunnel e verificate le modalità bloccata e
 diretta. Le riconnessioni di questa prova sono esplicite; i ritentativi temporizzati
 sono verificati separatamente. Non sono rotazioni geografiche NordVPN reali.
 Memoria RSS e descrittori sono misurati dopo riscaldamento; nessuna stima della
 velocità o RAM totale della ROCK si ricava da questi dati.
-
-Per i browser avviare `tests/integration/ui_harness.py` nel container dedicato,
-con sola porta host 127.0.0.1:18086 pubblicata (vedere workflow software.yml).
-La credenziale di quel banco è pubblica/fittizia: **non inserirvi account reali**.
-Installare le dipendenze di test in un ambiente Python dedicato:
-
-```sh
-python3 -m pip install -r platforms/linux/tests/browser/requirements.txt
-python3 -m playwright install chromium webkit firefox
-PHOENIX_BROWSER=chromium python3 platforms/linux/tests/browser/review.py
-PHOENIX_BROWSER=webkit python3 platforms/linux/tests/browser/review.py
-PHOENIX_BROWSER=firefox python3 platforms/linux/tests/browser/review.py
-```
 
 Le risorse Docker di test vengono rimosse al termine. Account NordVPN reale
 escluso su scelta esplicita dell’utente; nessuna credenziale necessaria è stata
@@ -159,7 +176,7 @@ riscaldamento **22144–22144 KiB**, descrittori **4–4**. Nessun fallimento di
 connettività attesa nelle fasi verificate. Questo non esclude perdite di memoria
 su tempi maggiori o con carichi diversi. Report locale: results/linux/review-report.json.
 
-## USB Ethernet offline — 14 novembre 2026
+### USB Ethernet offline — 14 novembre 2026
 
 Aggiunti 11 test USB (modello configfs, lifecycle DHCP e integrazione controller).
 Scambio DHCP reale su veth in Docker: offerta/ACK, indirizzo/router/DNS, cambio

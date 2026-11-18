@@ -15,42 +15,59 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: ./tools/test-linux.sh
       - run: ./tools/test.sh
       - run: node tests/test_countdown.cjs
       - run: node --check shared/web/app.js
-  linux-packets:
+  linux-rust:
     runs-on: ubuntu-24.04
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+      # Builds for the runner architecture (x86_64 musl); targets use aarch64.
+      - run: ./tools/test-linux.sh
+      - run: ./tools/rust-linux.sh build --release
       - run: docker build -t phoenix-linux-test:local -f platforms/linux/tests/integration/Dockerfile platforms/linux/tests/integration
-      - run: docker run --rm --cap-add NET_ADMIN --mount type=bind,source="$PWD",target=/workspace,readonly phoenix-linux-test:local
-      - run: docker run --rm --cap-add NET_ADMIN --mount type=bind,source="$PWD",target=/workspace,readonly phoenix-linux-test:local python3 platforms/linux/tests/integration/check_deploy.py
-      - run: python3 platforms/linux/tests/integration/traffic.py
+      # Container-only: real nft/ip/wg/dnsmasq/udhcpc/NetworkManager, DoH/TLS
+      # through the selected uplink, systemd-analyze verify of the units.
+      - run: ./tools/rust-kernel-tests.sh
+      # Packets through the HTTPS API: block, NAT, deny, forwarding, WireGuard,
+      # tunnel loss, shutdown; short RSS/fd soak.
+      - run: python3 platforms/linux/tests/integration/rust_blackbox.py --soak 120
   browser:
     runs-on: ubuntu-24.04
-    timeout-minutes: 15
+    timeout-minutes: 20
+    env:
+      PHOENIX_TEST_PASSWORD: disposable-ui-review-2026   # disposable container only
     steps:
       - uses: actions/checkout@v4
       # Keep this version aligned with tests/browser/requirements.txt.
       # Preinstalled browsers avoid runner-specific Ubuntu mirror failures.
       - run: docker pull mcr.microsoft.com/playwright/python:v1.51.0-noble
+      - run: ./tools/rust-linux.sh build --release
       - run: docker build -t phoenix-linux-test:local -f platforms/linux/tests/integration/Dockerfile platforms/linux/tests/integration
-      - run: docker run -d --name phoenix-ui-review --cap-add NET_ADMIN -p 127.0.0.1:18086:18086 --mount type=bind,source="$PWD",target=/workspace,readonly phoenix-linux-test:local python3 platforms/linux/tests/integration/ui_harness.py
+      - run: python3 platforms/linux/tests/integration/ui_harness.py start --name phoenix-ui-review
       - run: |
           docker run --rm --init --shm-size=1g \
-            --network container:phoenix-ui-review \
-            --mount type=bind,source="$PWD",target=/workspace \
-            --workdir /workspace \
+            --network container:phoenix-ui-review -e PHOENIX_TEST_PASSWORD \
+            --mount type=bind,source="$PWD",target=/workspace --workdir /workspace \
             mcr.microsoft.com/playwright/python:v1.51.0-noble \
             bash -ec 'pip install -r platforms/linux/tests/browser/requirements.txt
               for engine in chromium webkit firefox; do
                 PHOENIX_BROWSER="$engine" python3 platforms/linux/tests/browser/review.py
               done'
+      # Fresh state (initial password) for the forced-change and lockout flow.
+      - run: python3 platforms/linux/tests/integration/ui_harness.py reset --name phoenix-ui-review
+      - run: |
+          docker run --rm --init --shm-size=1g \
+            --network container:phoenix-ui-review \
+            --mount type=bind,source="$PWD",target=/workspace --workdir /workspace \
+            mcr.microsoft.com/playwright/python:v1.51.0-noble \
+            bash -ec 'pip install -r platforms/linux/tests/browser/requirements.txt
+              python3 platforms/linux/tests/browser/password_review.py'
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: browser-review
           path: results/linux/ui-review
       - if: always()
-        run: docker rm -f phoenix-ui-review
+        run: python3 platforms/linux/tests/integration/ui_harness.py stop --name phoenix-ui-review

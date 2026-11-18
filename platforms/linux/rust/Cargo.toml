@@ -1,0 +1,36 @@
+[package]
+name = "phoenix-linux"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Phoenix Linux gateway services (control worker, HTTPS frontend, updater)"
+
+[[bin]]
+name = "phoenix"
+path = "src/main.rs"
+
+[dependencies]
+base64 = "0.22"
+libc = "0.2"
+ring = "0.17"
+rusqlite = { version = "0.32", features = ["bundled"] }
+rustls = { version = "0.23", default-features = false, features = ["ring", "std", "tls12"] }
+rustls-pki-types = { version = "1", features = ["std"] }
+scrypt = { version = "0.11", default-features = false }
+serde = "1"
+serde_json = { version = "1", features = ["preserve_order"] }
+
+[profile.release]
+opt-level = "s"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
+
+[profile.dev]
+panic = "abort"
+
+# Optimized dependencies in test builds: scrypt (admin password) and ring
+# are unusably slow unoptimized. Our own crate stays debug.
+[profile.dev.package."*"]
+opt-level = 3

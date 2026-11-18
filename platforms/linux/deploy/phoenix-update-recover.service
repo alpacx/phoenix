@@ -6,7 +6,5 @@ ConditionPathExists=/etc/phoenix/updates.json
 [Service]
 Type=oneshot
 RemainAfterExit=true
-Environment=PYTHONPATH=/opt/phoenix-bootstrap/platforms/linux/service
-Environment=PYTHONDONTWRITEBYTECODE=1
-ExecStart=/usr/bin/python3 -m phoenix_linux.updates recover
+ExecStart=/opt/phoenix-bootstrap/bin/phoenix update recover
 UMask=0077

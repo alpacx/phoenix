@@ -6,10 +6,8 @@ ConditionPathExists=/etc/phoenix/updates.json
 
 [Service]
 Type=oneshot
-Environment=PYTHONPATH=/opt/phoenix-bootstrap/platforms/linux/service
-Environment=PYTHONDONTWRITEBYTECODE=1
-ExecStart=/usr/bin/python3 -m phoenix_linux.updates activate
-ExecStopPost=/usr/bin/python3 -m phoenix_linux.updates recover --restart
+ExecStart=/opt/phoenix-bootstrap/bin/phoenix update activate
+ExecStopPost=/opt/phoenix-bootstrap/bin/phoenix update recover --restart
 TimeoutStartSec=300
 TimeoutStopSec=150
 UMask=0077

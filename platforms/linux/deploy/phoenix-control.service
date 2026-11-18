@@ -7,10 +7,9 @@ Wants=network-online.target phoenix-update-recover.service
 Type=simple
 Group=phoenix-web
 WorkingDirectory=/opt/phoenix
-Environment=PYTHONPATH=/opt/phoenix/platforms/linux/service
-Environment=PYTHONDONTWRITEBYTECODE=1
-ExecStart=/usr/bin/python3 -m phoenix_linux.server --state-dir /var/lib/phoenix --target-config /etc/phoenix/target.json --worker-socket /run/phoenix-control/control.sock
-ExecStopPost=/usr/bin/python3 -m phoenix_linux.stop_guard
+ExecStart=/opt/phoenix/bin/phoenix control --state-dir /var/lib/phoenix --target-config /etc/phoenix/target.json --worker-socket /run/phoenix-control/control.sock
+# Guard from the install-time bootstrap copy: a broken release must still fail closed.
+ExecStopPost=/opt/phoenix-bootstrap/bin/phoenix stop-guard
 TimeoutStopSec=120
 Restart=on-failure
 RestartSec=5

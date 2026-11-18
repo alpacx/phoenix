@@ -1,6 +1,9 @@
 # Revisione locale software — 2026-11-11
 
 Revisione interna del codice e delle prove, non audit indipendente o certificazione.
+Svolta sull'implementazione Python, ora rimossa; le stesse correzioni sono
+mantenute dal binario Rust (test di parità e black-box). Revisione del port
+Rust del 18/11/2026 in fondo.
 Ambito: frontend/API, RPC privilegiato, credenziali, policy e aggiornamenti.
 Il deployment resta HTTPS loopback tramite SSH; non è esposto direttamente a Internet.
 
@@ -36,9 +39,10 @@ Il deployment resta HTTPS loopback tramite SSH; non è esposto direttamente a In
 Un frontend compromesso può eseguire le operazioni amministrative consentite:
 la separazione impedisce shell/file arbitrari, non revoca l’autorità amministrativa.
 Root/attacco fisico può leggere il vault o modificare chiave e sequenza: niente
-secure boot o cifratura del disco implementati. Python non garantisce azzeramento
-delle stringhe sensibili in memoria. HTTP standard library è adatto a questo
-banco locale, non a un servizio pubblico resistente a DoS. Gestione/rinnovo dei
+secure boot o cifratura del disco implementati. Il binario non azzera
+esplicitamente i segreti in memoria. Il server HTTP minimale (deadline per
+connessione, 8 connessioni concorrenti) è adatto a questo banco locale, non a un
+servizio pubblico resistente a DoS. Gestione/rinnovo dei
 certificati resta operativo-manuale. Le release vecchie vanno gestite senza
 rimuovere quella corrente o di rollback; non c’è garbage collection automatica.
 
@@ -46,3 +50,15 @@ La prova prolungata è limitata a dieci minuti e traffico locale, non giorni di
 uso né un audit crittografico. Nessuna prova con abbonamento NordVPN in questa
 sessione: l’utente ha scelto di proseguire senza account reale. Non sono stati
 estratti segreti da flash, Keychain o applicazioni NordVPN.
+
+## Port Rust — 2026-11-18
+
+Revisione interna dei servizi Rust prima del deployment sulla ROCK. Corretti,
+con test di regressione: deadline assoluta per connessione HTTP (10 s, 300 s
+solo per upload firmware autorizzato) e al massimo 8 connessioni concorrenti
+nel frontend; lettore ZIP che rifiuta voci sovrapposte prima della verifica;
+hash del payload firmato verificato prima di analizzarne il contenuto; connect
+RPC con timeout e backlog 4. Restano: lockout password condiviso fra frontend
+loopback e USB (un client USB può tenere bloccato il login), primo accesso con
+`phoenix` aperto a chi entra per primo, fino a 4 richieste RPC in coda eseguite
+dopo il timeout del client.

@@ -8,45 +8,51 @@ La ROCK usa RK3399, distinto dal RK3562 della scheda custom.
 
 ## Architettura
 
-- `frontend.py`, `server.py`: UI unica `shared/web`, API Bearer, HTTPS loopback
-  sulla porta 8443; frontend eseguito come `phoenix-web`, senza capability.
-- `rpc.py`: socket Unix con verifica UID del peer, richieste limitate e comandi
-  ammessi esplicitamente. Nessuna API per shell, argv o lettura di file arbitrari.
-- `controller.py`: worker privilegiato, configurazione, comandi asincroni,
-  rotazione, paese fisso, esclusioni e ritentativi 5–60 secondi.
-- `runtime.py`, `firewall.py`, `policy.py`: nftables/WireGuard kernel, blocco
-  prima delle transizioni, NAT e port forwarding; nessun fallback diretto.
-- `uplink_http.py`, `nord.py`: DoH e HTTPS vincolati alla stessa interfaccia
-  selezionata. DNS/API NordVPN non dipendono più dalla route Ethernet di gestione.
-- `usb_gadget.py`, `usb_lan.py`: gadget ECM/NCM opt-in e DHCP USB, testati
-  offline; [attivazione e limiti](deploy/USB_ETHERNET.md).
-- `lan.py`, `station.py`, `access_point.py`: AP/DHCP e STA NetworkManager opt-in;
-  profili propri, controllo ownership e recupero dopo arresto del servizio.
-- `store.py`, `vault.py`, `history.py`: configurazione transazionale, file
-  privati e storico delle connessioni confermate per otto ore.
-- `updates.py`, `install.py`, `package.py`: installatore, bundle allowlisted,
-  firma Ed25519, sequenza monotona e rollback applicativo; bootstrap indipendente.
-- `stop_guard.py`: blocco su stop/crash. `preflight.py`: inventario read-only.
+Un solo binario statico Rust `phoenix` (musl, aarch64), sorgente in
+[rust/](rust/README.md), unità systemd in [deploy/](deploy/README.md). Moduli
+principali (`rust/src/`):
 
-Python gestisce il control plane; i pacchetti transitano nel kernel. ESP32 resta
-indipendente e funzionante. Nessun SDK ESP-IDF viene importato nei servizi Linux.
+- `frontend.rs`, `http.rs`, `auth.rs`: UI unica `shared/web` inclusa nel
+  binario, HTTPS loopback sulla porta 8443, password con cambio obbligatorio e
+  Bearer per l'API; frontend eseguito come `phoenix-web`, senza capability.
+- `rpc.rs`, `local_api.rs`: socket Unix con verifica UID del peer, richieste
+  limitate e comandi ammessi esplicitamente. Nessuna API per shell, argv o
+  lettura di file arbitrari.
+- `control.rs`, `controller.rs`: worker privilegiato, configurazione, comandi
+  asincroni, rotazione, paese fisso, esclusioni e ritentativi 5–60 secondi.
+- `runtime.rs`, `firewall.rs`, `policy.rs`: nftables/WireGuard kernel, blocco
+  prima delle transizioni, NAT e port forwarding; nessun fallback diretto.
+- `uplink_http.rs`, `httpc.rs`, `nord.rs`: DoH e HTTPS vincolati all'interfaccia
+  selezionata. DNS/API NordVPN non dipendono dalla route Ethernet di gestione.
+- `usb_gadget.rs`, `lan.rs`: gadget ECM/NCM opt-in e DHCP USB;
+  [attivazione e limiti](deploy/USB_ETHERNET.md).
+- `lan.rs`, `station.rs`, `access_point.rs`: AP/DHCP e STA NetworkManager
+  opt-in; profili propri, controllo ownership e recupero dopo arresto.
+- `store.rs`, `vault.rs`, `history.rs`: configurazione transazionale (SQLite),
+  file privati e storico delle connessioni confermate per otto ore.
+- `updates.rs`, `install.rs`, `package.rs`: installatore, bundle allowlisted,
+  firma Ed25519, sequenza monotona e rollback applicativo; bootstrap indipendente.
+- `stop_guard.rs`: blocco su stop/crash. `preflight.rs`: inventario read-only.
+
+Il binario gestisce il control plane; i pacchetti transitano nel kernel. Attivo
+sulla ROCK dal 18/11/2026: 2,4 MB RSS il worker e 1,6 MB il frontend, contro
+24 + 24 MB della precedente implementazione Python, rimossa dal repository
+(resta nella storia git). ESP32 resta indipendente e funzionante. Nessun SDK
+ESP-IDF viene importato nei servizi Linux.
 
 ## Installazione e verifiche
 
 [Immagine ROCK](boards/rock4c-plus/README.md) · [Installazione](deploy/README.md) ·
 [Aggiornamenti](deploy/UPDATES.md) · [API](API_STATUS.md) · [Evidenze](VALIDATION.md) · [Revisione sicurezza](SECURITY_REVIEW.md)
 
-Dalla root:
+Dalla root (solo Docker sul Mac): `./tools/test-linux.sh` per i test unitari;
+build, bundle e test in container nel [README Rust](rust/README.md). Sul target:
+`phoenix preflight` (inventario read-only, exit 2 se ci sono blocchi).
 
-```sh
-./tools/test-linux.sh
-PYTHONPATH=platforms/linux/service python3 -m phoenix_linux.preflight
-```
-
-Solo per sviluppo locale senza rete operativa, resta disponibile il server
-HTTP monoprocesso su loopback: `PYTHONPATH=platforms/linux/service python3 -m
-phoenix_linux.server --state-dir /tmp/phoenix-linux-local`. Non è il deployment
-HTTPS separato; non usare questo comando come servizio di produzione.
+Solo per sviluppo locale senza rete operativa resta il server HTTP
+monoprocesso su loopback: `phoenix control --state-dir /tmp/phoenix-linux-local`
+(porta 8085, token nel file indicato all'avvio). Non è il deployment HTTPS
+separato; non usarlo come servizio di produzione.
 
 ## Limiti residui
 
