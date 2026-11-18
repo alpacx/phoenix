@@ -1,15 +1,16 @@
 # Installazione sul target — build di ingegneria
 
 Non eseguire sul Mac. Identificare modello, kernel, interfacce e servizi di rete
-prima di installare. [Immagine ROCK](../boards/rock4c-plus/README.md).
+prima di installare. Unità systemd e `target.example.json` sono in questa
+directory e vengono incluse nel bundle. [Immagine ROCK](../boards/rock4c-plus/README.md).
 
 ## Requisiti
 
-Python 3.9+ (3.9 su ROCK b60, 3.11 nel banco Debian 12), systemd, iproute2, nftables, wireguard-tools, conntrack, curl,
-ca-certificates, openssl, iw, hostapd, dnsmasq-base e NetworkManager.
-Con OpenSSL 1.1.1 installare anche `python3-cryptography`: Ed25519 usa
-la libreria di sistema, perché la CLI 1.1.1 non supporta `pkeyutl -rawin`.
-Con OpenSSL 3 resta il backend CLI. Nessun fallback dopo una firma non valida.
+Binario statico `phoenix` (nessun runtime Python o librerie di sistema), systemd,
+iproute2, nftables, wireguard-tools, conntrack, curl (prove di velocità),
+ca-certificates (`/etc/ssl/certs/ca-certificates.crt`, radici TLS per DoH e API
+NordVPN), openssl (solo installatore, certificato locale), iw, hostapd,
+dnsmasq-base e NetworkManager. Firma e verifica Ed25519 sono nel binario.
 Il kernel deve supportare WireGuard, nftables e policy routing. Il supporto
 [USB Ethernet](USB_ETHERNET.md) è opzionale e disattivato finché non viene
 configurato esplicitamente; cablaggio e VBUS richiedono verifica sul target.
@@ -24,7 +25,8 @@ conntrack per 192.168.7.0/24 e 192.168.9.0/24.
 
 1. Preparare target.json dal template, con modello esatto letto da
    `/proc/device-tree/model` senza NUL e nomi da `ip -j address`.
-2. Creare un bundle allowlisted e trasferirlo con il checkout fidato via SSH.
+2. Creare un bundle allowlisted (`tools/linux-bundle.sh`, vedi
+   [UPDATES.md](UPDATES.md)) e trasferirlo via SSH insieme a target.json.
 3. Usare l'installatore descritto in [UPDATES.md](UPDATES.md). Rifiuta modello
    diverso e installazioni esistenti. Crea utente di servizio, token e certificato
    locale; non avvia servizi e non cambia la rete.
@@ -55,10 +57,13 @@ solo uno strumento locale di sviluppo, non l'unità installata.
 
 ## Accesso HTTPS
 
-Dal Mac: `ssh -L 8443:127.0.0.1:8443 utente@IP_DELLA_ROCK`.
+Dal Mac: `ssh -N -L 8443:127.0.0.1:8443 utente@IP_DELLA_ROCK`.
 Aprire **https://127.0.0.1:8443**. Host/Origin devono corrispondere; non usare
-una porta locale diversa. Token privato: /var/lib/phoenix/admin-token sul target.
-Non inviarlo in chat o inserirlo negli argomenti della shell.
+una porta locale diversa. Il browser chiede la password: iniziale `phoenix`,
+cambio obbligatorio al primo accesso (12–128 caratteri), 3 errori → blocco di
+5 minuti. Il token privato /var/lib/phoenix/admin-token resta valido solo come
+`Authorization: Bearer` per l'API da loopback; non inviarlo in chat né metterlo
+negli argomenti della shell.
 
 L'installatore genera un certificato self-signed specifico per il dispositivo,
 con SAN 127.0.0.1/localhost, valido 365 giorni. Trasferire la sola parte pubblica

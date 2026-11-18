@@ -382,3 +382,62 @@ Phoenix-Test e conferma funzionamento dal telefono. Hotspot verificato quindi
 anche dal client, oltre a hostapd. Lavoro sospeso su richiesta dell’utente;
 commit/push software e checkpoint hardware richiesti. Nessun ulteriore ordine,
 flash o modifica hardware. Resta la qualifica elettrica USB/VBUS e del reboot.
+
+## Rete ufficio senza HDMI — 18 novembre 2026
+
+- Cavo diretto Mac (adattatore USB `en6`) ↔ ROCK `end0`: senza DHCP la ROCK
+  è raggiungibile in IPv6 link-local (`fe80::5710:f19d:d623:c397`, chiave SSH
+  ED25519 verificata) solo durante l'attivazione di "Wired connection 1";
+  dopo circa un minuto NetworkManager rinuncia e toglie l'indirizzo.
+  Ricollegare il cavo riapre la finestra.
+- MAC `end0` 7a:a1:a6:9c:f9:0c (bit "locally administered"), hostname
+  `rock-4c-plus`.
+- Su LAN cablata dell'ufficio: DHCP 192.168.30.129/24, gateway
+  192.168.30.200, stessa subnet del Wi-Fi del Mac; HTTP verso Internet OK.
+  Indirizzo trovato con un beacon UDP temporaneo dalla ROCK al Mac (rimosso).
+  mDNS `rock-4c-plus.local` non risolto dal Mac.
+- Orologio: ~20 h indietro (nessun RTC a batteria); systemd-timesyncd attivo
+  ma 0 pacchetti NTP verso debian.pool.ntp.org dalla LAN dell'ufficio.
+
+## Accesso SSH remoto via Cloudflare Tunnel — 18 novembre 2026
+
+- `cloudflared` 2026.11.1 da pkg.cloudflare.com (bookworm, chiave
+  CC94 B39C 77AE 7342 A68B 8962 8A68 2D30 8D4E 5E73). Unit propria
+  `/etc/systemd/system/cloudflared-ssh.service`: `DynamicUser=yes`,
+  `LoadCredential=token:/etc/cloudflared/tunnel-token` (root 0600),
+  `tunnel --protocol http2 run --token-file %d/token`, sandbox systemd.
+- LAN ufficio: QUIC verso edge (UDP 7844) in timeout, TCP 7844 aperto →
+  http2 forzato. 4 connessioni registrate (mxp03/mxp04/mrs06).
+- Rotta `rock.leucojum.com` → `tcp://localhost:22`; Access self-hosted con
+  policy Allow su email, provider Cloudflare. Senza login la richiesta HTTPS
+  riceve 302 verso `*.cloudflareaccess.com`. Login verificato: sshd registra
+  `Accepted publickey for francesco from ::1`.
+- sshd: drop-in `90-phoenix-keys-only.conf` (PasswordAuthentication no,
+  KbdInteractiveAuthentication no, PermitRootLogin no); password rifiutata.
+- Phoenix invariato (tabella `inet phoenix`, servizi attivi). Sudo
+  temporaneo rimosso. Mac: cache DNS con A negativo per l'hostname appena
+  creato e IPv6 non instradato dalla VPN → `no route to host` fino al flush.
+
+## Servizi in Rust — 18 novembre 2026
+
+- Migrazione dall'implementazione Python con `phoenix install --replace-python`
+  (comando rimosso dopo l'uso): release `rust-b8417f1caf1b5999`, stato in
+  /etc/phoenix e /var/lib/phoenix mantenuto (password, certificato, policy).
+  Copie Python di ritorno: /opt/phoenix-bootstrap.python e
+  /etc/phoenix/python-units; il codice Python resta nella storia git.
+- `phoenix-control` e `phoenix` active dalle 14:47 UTC, 0 riavvii; `/healthz`
+  `{"ready":true,"release_id":"rust-b8417f1caf1b5999"}`; binario
+  `/opt/phoenix/bin/phoenix` ELF aarch64 statico; nessun processo Python.
+- RAM a riposo (`VmRSS`): worker 2,4–2,5 MB (anon 0,11 MB), frontend
+  1,6–1,9 MB (anon 0,04 MB); cgroup 0,28 + 0,26 MB. Python il 17/11: 24,3 e
+  24,2 MB RSS, cgroup 19,1 e 16,1 MB.
+- Password del pannello cambiata dall'utente dopo la migrazione (verifica sul
+  binario Rust del flusso di cambio obbligatorio). Non provati qui: VPN reale,
+  AP e USB.
+- Primo aggiornamento firmato formato 2 sulla ROCK (18/11, 18:55 UTC):
+  release `0.2.0-rust`, sequenza 11, chiave di banco, caricata dall'utente
+  dal pannello. Attiva `11-5faa8de28eeb0f62`, `/healthz` ready con lo stesso
+  ID, servizi active con 0 riavvii, `phoenix-update` concluso con successo.
+  RSS dopo l'aggiornamento: worker 2,3 MB (anon 0,11), frontend 1,6 MB
+  (anon 0,03). Release conservate: `11-…`, `rust-b8417f1caf1b5999`,
+  `factory` (Python). Rimossa la copia temporanea `~/phoenix-rust`.

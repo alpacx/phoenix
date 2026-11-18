@@ -1,0 +1,3 @@
+# Bench ROCK: let francesco (and Claude over SSH) submit signed Phoenix
+# releases without a password. No arguments allowed; the release is on stdin.
+francesco ALL=(root) NOPASSWD: /usr/local/sbin/phoenix-push-update ""

@@ -11,18 +11,19 @@ contro un target già compromesso con accesso root.
 Identificare modello e interfacce, preparare target.json come in README.md.
 Il bundle iniziale deve arrivare da una sorgente fidata via SSH: il suo manifest
 è un checksum, non una firma. Il programma rifiuta modelli diversi e directory
-di installazione preesistenti. Sul target identificato, da un checkout fidato:
+di installazione preesistenti. Copiare sul target anche il binario prodotto da
+`tools/linux-bundle.sh` (`platforms/linux/rust/target/release/phoenix`, lo
+stesso contenuto nel bundle) e, sul target identificato:
 
 ```sh
-sudo env PYTHONPATH=platforms/linux/service python3 -m phoenix_linux.install \
-  --bundle /percorso/phoenix-linux.zip --target-config /percorso/target.json \
-  --public-key /percorso/update-public.pem
+sudo ./phoenix install --bundle /percorso/phoenix-linux.zip \
+  --target-config /percorso/target.json --public-key /percorso/update-public.pem
 ```
 
 L'installatore copia soltanto la chiave pubblica di firma e genera separatamente il certificato TLS locale. Non avvia servizi e non cambia
 la rete. Crea /opt/phoenix-releases/factory, symlink /opt/phoenix, bootstrap
 indipendente in /opt/phoenix-bootstrap, configurazione privata /etc/phoenix e
-le quattro unità. Omettere --public-key disabilita gli aggiornamenti nel pannello.
+le unità di servizio e aggiornamento. Omettere --public-key disabilita gli aggiornamenti nel pannello.
 Non eseguire questa installazione sul Mac.
 
 Dopo verifica della configurazione e prova foreground descritta in README:
@@ -40,19 +41,25 @@ Ed25519 OpenSSL: `openssl genpkey -algorithm ED25519 -out /percorso/privato.pem`
 esportare la sola pubblica con `openssl pkey -in /percorso/privato.pem -pubout
 -out /percorso/update-public.pem`. Impostare prima `umask 077`.
 
-Dalla root del checkout, con destinazioni non ancora esistenti:
+Dalla root del checkout (build e firma nel container Docker; la chiave è
+montata in sola lettura e non viene copiata), con destinazioni non ancora
+esistenti:
 
 ```sh
-PYTHONPATH=platforms/linux/service python3 -m phoenix_linux.package build /tmp/phoenix-linux.zip
-PYTHONPATH=platforms/linux/service python3 -m phoenix_linux.updates sign \
-  --payload /tmp/phoenix-linux.zip --output /tmp/phoenix-release.phx \
-  --key /percorso/privato.pem --sequence 1 --version 0.1.0
+tools/linux-bundle.sh /tmp/phoenix-linux.zip
+tools/linux-bundle.sh /tmp/phoenix-release.phx --sign /percorso/privato.pem \
+  --version 0.1.0 --sequence 1
 ```
+
+Formato 2: ZIP solo STORED con `manifest.json`, `bin/phoenix` e `deploy/<unità>`;
+la release firmata contiene `release.json`, `payload.zip` e `signature.bin`.
+Le release formato 1 (Python) sono rifiutate.
 
 Lo staging richiede spazio per il payload espanso più 64 MiB liberi di riserva.
 Incrementare sequence per ogni distribuzione, anche dopo un rollback. Non viene
 usata la comparazione lessicografica di version. Il pacchetto interno unsigned
-è autenticato dall'hash nei metadati firmati dell'involucro .phx. Limite 20 MiB.
+è autenticato dall'hash nei metadati firmati dell'involucro .phx, verificato
+prima di leggere il payload. Limiti: upload 20 MiB, payload espanso 16 MiB.
 La firma è verificata contro la chiave già installata, mai una chiave caricata.
 
 ## Attivazione e recupero
@@ -76,12 +83,10 @@ Da SSH: `sudo systemctl start phoenix-update.service` riprende lo staging.
 Stato in /var/lib/phoenix/update-state.json; non contiene credenziali. Se la fase
 è rollback_failed, recuperare da SSH/console: non abilitare la rete alla cieca.
 
-Test automatizzati: firme vere OpenSSL, alterazioni, chiave errata, replay,
+Test automatizzati: firme Ed25519 vere, alterazioni, chiave errata, replay,
 rollback, interruzione e upload HTTP. In VM Debian: frontend non root, upload HTTPS,
 attivazione sotto systemd reale, rollback da release non avviabile e recupero
 del journal dopo reboot reale. Power loss durante I/O e storage della ROCK
 restano prove sul banco. Le unità/bootstrap modificati richiedono installazione
 iniziale aggiornata: un vecchio deployment monoprocesso non viene convertito
 automaticamente da un aggiornamento applicativo.
-
-Riferimento: https://docs.openssl.org/3.1/man1/openssl-pkeyutl/

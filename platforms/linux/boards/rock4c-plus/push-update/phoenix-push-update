@@ -1,0 +1,27 @@
+#!/bin/sh
+# Submit a signed Phoenix release, read from stdin, to the local updater.
+# Phoenix itself verifies signature (installed public key), sequence and
+# contents; this helper only adds the admin token, so the caller never sees
+# it. It reads no path chosen by the caller.
+#   sudo /usr/local/sbin/phoenix-push-update < release.phx
+set -eu
+umask 077
+dir=$(mktemp -d)
+trap 'rm -rf "$dir"' EXIT
+head -c 20971521 > "$dir/release.phx"
+size=$(stat -c %s "$dir/release.phx")
+if [ "$size" -eq 0 ] || [ "$size" -gt 20971520 ]; then
+    echo "phoenix-push-update: release must be 1 byte to 20 MiB" >&2
+    exit 2
+fi
+# printf is a shell builtin: the token never appears in a process argv.
+printf 'Authorization: Bearer %s\n' "$(cat /var/lib/phoenix/admin-token)" > "$dir/auth"
+status=0
+curl -sS --max-time 120 --cacert /etc/phoenix/admin-cert.pem \
+    -H @"$dir/auth" -H 'Content-Type: application/octet-stream' \
+    --data-binary @"$dir/release.phx" -w '\nHTTP %{http_code}\n' \
+    https://127.0.0.1:8443/api/v1/firmware || status=$?
+if [ "$status" -ne 0 ]; then
+    echo "phoenix-push-update: curl exit $status (the updater may already be restarting the services; check /healthz)" >&2
+fi
+exit "$status"

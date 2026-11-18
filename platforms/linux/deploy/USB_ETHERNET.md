@@ -59,7 +59,7 @@ fisica dei 5 V sulla USB-A OTG: **non collegare il cavo al Mac finché non è ri
 eseguita dal programma e non un comando per spegnere l'alimentazione.
 
 1. Identificare modello, immagine/kernel, UDC e servizi USB presenti:
-   `PYTHONPATH=/opt/phoenix/platforms/linux/service python3 -m phoenix_linux.usb_gadget inspect`.
+   `sudo /opt/phoenix/bin/phoenix usb-gadget inspect`.
    Un elenco UDC vuoto richiede prima la configurazione del kernel/ruolo periferica.
 2. Verificare supporto configfs/libcomposite e della funzione scelta. Predisporre
    i moduli richiesti e il mount configfs con la procedura della distribuzione.
@@ -138,8 +138,9 @@ rinnovo della lease o riconnessione USB prima di usare il nuovo DNS.
 - Test con modello configfs: ECM/NCM, binding per ultimo, rollback, rifiuto di
   controller/configurazioni estranee e gate VBUS. **Non sono enumerazione USB.**
 - Test unitari di ownership, DHCP, conflitti, cleanup e blocco su errore.
-- `tests/integration/check_usb_dhcp.py`: scambio reale DHCP Discover/Offer/Request/
-  ACK con dnsmasq su veth nel container; gateway/DNS, cambio DNS e cleanup.
+- `kernel_usb_dhcp_in_isolated_container` (`rust/src/lan.rs`, via
+  `tools/rust-kernel-tests.sh`): lease reale con dnsmasq e `busybox udhcpc` su
+  veth nel container; gateway/DNS, cambio DNS e cleanup.
 - Test kernel esistente: regole nftables blocked/direct/vpn e route WireGuard
   dentro namespace isolato. Nessun account VPN reale o throughput misurato.
 

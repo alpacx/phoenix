@@ -26,15 +26,16 @@ i pacchetti. Non occorre un desktop per Phoenix. Il port non dipenderà da KDE.
 3. Identificare l'IP e configurare accesso SSH e credenziali personali.
 4. Installare sul ROCK i requisiti, non sul Mac:
 
-   `sudo apt update && sudo apt install python3 iproute2 nftables wireguard-tools iw hostapd dnsmasq-base network-manager openssl curl conntrack ca-certificates`
+   `sudo apt update && sudo apt install iproute2 nftables wireguard-tools iw hostapd dnsmasq-base network-manager openssl curl conntrack ca-certificates`
 
    Prima dell'installazione inventariare NetworkManager e i servizi di rete
    esistenti: l'installazione di pacchetti può avviare servizi. Nessuna
    configurazione AP/DHCP/firewall va applicata prima di assegnare le interfacce.
 
-5. Dal checkout sulla ROCK, eseguire l'inventario non distruttivo:
+5. Copiare sulla ROCK il binario `phoenix` (vedi [UPDATES.md](../../deploy/UPDATES.md))
+   ed eseguire l'inventario non distruttivo:
 
-   `PYTHONPATH=platforms/linux/service python3 -m phoenix_linux.preflight`
+   `./phoenix preflight`
 
 Exit 2 indica requisiti mancanti/errore, exit 0 solo inventario completato.
 Non certifica WireGuard, USB gadget, AP Wi-Fi o throughput. Nomi delle

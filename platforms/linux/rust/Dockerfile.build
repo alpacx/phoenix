@@ -1,0 +1,4 @@
+# Static aarch64/x86_64 musl build environment; no network tools or target services.
+FROM rust:1.98-alpine
+RUN apk add --no-cache musl-dev && rustup component add clippy
+WORKDIR /src

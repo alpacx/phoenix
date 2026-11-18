@@ -10,12 +10,10 @@ Type=simple
 User=phoenix-web
 Group=phoenix-web
 WorkingDirectory=/opt/phoenix
-Environment=PYTHONPATH=/opt/phoenix/platforms/linux/service
-Environment=PYTHONDONTWRITEBYTECODE=1
 LoadCredential=admin-token:/var/lib/phoenix/admin-token
 LoadCredential=tls-key:/etc/phoenix/usb-admin-key.pem
 LoadCredential=tls-cert:/etc/phoenix/usb-admin-cert.pem
-ExecStart=/usr/bin/python3 -m phoenix_linux.frontend --usb-socket --token-file ${CREDENTIALS_DIRECTORY}/admin-token --tls-key ${CREDENTIALS_DIRECTORY}/tls-key --tls-cert ${CREDENTIALS_DIRECTORY}/tls-cert
+ExecStart=/opt/phoenix/bin/phoenix frontend --usb-socket --token-file ${CREDENTIALS_DIRECTORY}/admin-token --tls-key ${CREDENTIALS_DIRECTORY}/tls-key --tls-cert ${CREDENTIALS_DIRECTORY}/tls-cert
 Restart=on-failure
 RestartSec=5
 UMask=0077

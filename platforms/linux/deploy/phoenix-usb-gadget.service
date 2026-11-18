@@ -7,10 +7,8 @@ After=systemd-modules-load.service
 Type=oneshot
 RemainAfterExit=yes
 WorkingDirectory=/opt/phoenix
-Environment=PYTHONPATH=/opt/phoenix/platforms/linux/service
-Environment=PYTHONDONTWRITEBYTECODE=1
-ExecStart=/usr/bin/python3 -m phoenix_linux.usb_gadget start
-ExecStop=/usr/bin/python3 -m phoenix_linux.usb_gadget stop
+ExecStart=/opt/phoenix/bin/phoenix usb-gadget start
+ExecStop=/opt/phoenix/bin/phoenix usb-gadget stop
 TimeoutStartSec=30
 TimeoutStopSec=30
 UMask=0077
