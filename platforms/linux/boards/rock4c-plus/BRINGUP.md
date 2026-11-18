@@ -441,3 +441,11 @@ flash o modifica hardware. Resta la qualifica elettrica USB/VBUS e del reboot.
   RSS dopo l'aggiornamento: worker 2,3 MB (anon 0,11), frontend 1,6 MB
   (anon 0,03). Release conservate: `11-…`, `rust-b8417f1caf1b5999`,
   `factory` (Python). Rimossa la copia temporanea `~/phoenix-rust`.
+- Helper `/usr/local/sbin/phoenix-push-update` (sorgente in `push-update/`)
+  installato dall'utente con regola sudo NOPASSWD limitata a quel comando
+  senza argomenti: invia all'updater una release letta da stdin, con il token
+  admin aggiunto da root e mai esposto. Prima installazione da Claude via SSH
+  (19:23 UTC): `0.2.1-rust`, sequenza 12 (fix comparsa del login al reload),
+  HTTP 202 staged → attiva `12-7da5cac8bc3ebb0d`, `/healthz` ready, servizi
+  active con 0 riavvii, pannello servito con la schermata d'avvio nuova.
+  RSS: worker 2,3 MB (anon 0,12), frontend 1,5 MB (anon 0,04).
