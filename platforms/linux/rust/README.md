@@ -38,23 +38,32 @@ python3 platforms/linux/tests/integration/rust_blackbox.py [--soak SECONDI] [--k
   su un corpus deterministico (policy, nftables, WireGuard, hostapd/dnsmasq,
   IPv4), congelato il 18/11/2026; `tests/parity.rs` richiede output identico.
   Un cambio voluto di questi formati richiede di aggiornare le fixture a mano.
+  Eccezione documentata: l'import WireGuard esteso (19/11) può accettare
+  profili che il Python rifiutava solo nelle categorie elencate in
+  `wireguard_relaxation` (vedi [API_STATUS.md](../API_STATUS.md)); i profili
+  già accettati restano identici e senza note.
 - `tools/rust-kernel-tests.sh`: compila i test nel container di build ed
   esegue i test `#[ignore]` `kernel_*` in `phoenix-linux-test:local`
   (NET_ADMIN, SYS_ADMIN solo per `ip netns`, mai rete dell'host): transizioni
   nft/ip/wg/conntrack (`runtime.rs`), dnsmasq + DHCP reale con `busybox
-  udhcpc` su veth (`lan.rs`), `dnsmasq --test` della configurazione AP
-  (`access_point.rs`), tabella `phoenix_stop` (`stop_guard.rs`), keyfile
-  caricato da un NetworkManager reale senza radio (`station.rs`), DoH e TLS
-  solo attraverso l'uplink scelto verso un namespace peer, senza ripiego
-  dopo la caduta del link (`uplink_http.rs`, CA di test passata solo nel
-  test). Poi `systemd-analyze verify` delle unità di `../deploy`.
+  udhcpc` su veth, anche con 3 DNS (`lan.rs`), `dnsmasq --test` della
+  configurazione AP con 1 e 3 DNS (`access_point.rs`), tabella
+  `phoenix_stop` (`stop_guard.rs`), keyfile caricato da un NetworkManager
+  reale senza radio (`station.rs`), DoH e TLS solo attraverso l'uplink scelto
+  verso un namespace peer, compresa la risoluzione di un endpoint WireGuard
+  per nome, senza ripiego dopo la caduta del link (`uplink_http.rs`, CA di
+  test passata solo nel test). Poi `systemd-analyze verify` delle unità di `../deploy`.
 - `rust_blackbox.py`: container usa e getta (NET_ADMIN + SYS_ADMIN solo nel
   proprio namespace, per simulare il modello device-tree e rendere scrivibile
   `ip_forward`), servizi avviati come le unità systemd, solo HTTPS: login con
   cambio password, origin check, blocco iniziale, NAT diretto, policy con
   revisione/conflitto/deny, port forwarding con default deny e filtro
   sorgente, tunnel WireGuard reale con handshake e storico, perdita del tunnel
-  e disconnessione senza fallback, arresto con forwarding spento. `--soak`
+  e disconnessione senza fallback, profili wg-quick importati (BOM/CRLF,
+  maiuscole, IPv6 e PostUp ignorati e mai eseguiti, PresharedKey, MTU,
+  codici di rifiuto, AllowedIPs parziali senza uscita fuori tunnel e avviso
+  DNS), più `[Peer]` (failover da un membro morto a un'alternativa, uscita e
+  sito su un quarto container usati insieme), arresto con forwarding spento. `--soak`
   (30–1200 s) ripete connessione/perdita/disconnessione/diretto e verifica
   RSS (crescita < 2 MiB) e descrittori del worker.
 - `tests/vm/`: VM QEMU aarch64 con systemd reale (solo host ARM64, fuori CI):

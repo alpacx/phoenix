@@ -110,7 +110,11 @@ Serve orologio corretto per TLS. I normali servizi del sistema operativo
 continuano a usare la loro configurazione di rete: Phoenix non cambia la
 route principale di SSH, aggiornamenti OS o sincronizzazione oraria.
 
-DHCP distribuisce il DNS del profilo; dopo un cambio rinnovare i lease client.
+DHCP distribuisce i DNS IPv4 del profilo (fino a 3; 1.1.1.1 via tunnel se il
+profilo non ne ha); dopo un cambio rinnovare i lease client. Profili WireGuard
+importati: qualunque configurazione wg/wg-quick con un solo `[Peer]`; endpoint
+con nome risolto via DoH sull'uplink scelto; parti IPv6 e PostUp/PostDown
+ignorati, mai eseguiti (dettagli in [API_STATUS.md](../API_STATUS.md)).
 I processi AP/DHCP sono dedicati; rollback rimuove soltanto risorse proprie.
 SIGTERM e ExecStopPost bloccano l'inoltro; la ripartenza ripulisce le route
 possedute e rimuove lo stop guard solo dopo aver installato la nuova barriera.

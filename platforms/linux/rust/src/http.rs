@@ -742,6 +742,25 @@ impl<'c, 'a, S: Stream> Exchange<'c, 'a, S> {
                 body.insert("action".into(), Value::String(action));
                 Ok((202, self.api.call("command", body)?))
             }
+            "/api/v1/vpn" if body.get("action").and_then(Value::as_str) == Some("wireguard") => {
+                // Specific, non-secret rejection codes and usage notes for the
+                // imported profile; other errors stay generic.
+                let mut check = Map::new();
+                check.insert("profile".into(), body.get("profile").cloned().unwrap_or(Value::Null));
+                let checked = self.api.call("wireguard_check", check)?;
+                if checked.get("valid") != Some(&Value::Bool(true)) {
+                    let code = checked.get("error").and_then(Value::as_str).filter(|c| is_code(c)).unwrap_or("invalid_wireguard_profile");
+                    return Ok((400, json!({"error": code})));
+                }
+                let mut accepted = self.api.call("command", body)?;
+                if let (Some(object), Some(notes)) = (accepted.as_object_mut(), checked.get("notes")) {
+                    object.insert("profile_notes".into(), notes.clone());
+                    if let Some(details) = checked.get("details") {
+                        object.insert("profile_details".into(), details.clone());
+                    }
+                }
+                Ok((202, accepted))
+            }
             "/api/v1/vpn" => Ok((202, self.api.call("command", body)?)),
             _ => Ok((501, json!({"error": "endpoint_not_implemented"}))),
         }
@@ -759,6 +778,11 @@ impl<'c, 'a, S: Stream> Exchange<'c, 'a, S> {
             Err(_) => self.error(500, "operation_failed"),
         }
     }
+}
+
+/// Error codes passed through to the panel: short snake_case only.
+fn is_code(code: &str) -> bool {
+    (1..=64).contains(&code.len()) && code.bytes().all(|b| b.is_ascii_lowercase() || b.is_ascii_digit() || b == b'_')
 }
 
 /// Serve exactly one request on `stream` (connection closes afterwards).
@@ -1017,6 +1041,34 @@ pub(crate) mod tests {
         assert_eq!(post(&s, &api, "/api/v1/hotspot", &h, "{}").status, 503);
         assert_eq!(post(&s, &api, "/api/v1/policy", &h, "{}").status, 500);
         assert_eq!(post(&s, &api, "/api/v1/speedtest", &h, r#"{"action":"cancel"}"#).status, 202);
+    }
+
+    #[test]
+    fn wireguard_import_reports_codes_and_notes() {
+        let s = bearer_settings();
+        let api = FakeApi::new(|method, args| match (method, args.get("profile").and_then(Value::as_str)) {
+            ("wireguard_check", Some("bad")) => Ok(json!({"valid": false, "error": "allowed_ips_partial_overlap"})),
+            ("wireguard_check", Some("weird")) => Ok(json!({"valid": false, "error": "Not A Code\n"})),
+            ("wireguard_check", Some("plain")) => Ok(json!({"valid": true, "notes": ["ignored_hooks"]})),
+            ("wireguard_check", _) => Ok(json!({"valid": true, "notes": ["multiple_peers"], "details": {"multiple_peers": {"peers": 2, "groups": 1}}})),
+            ("command", _) => Ok(json!({"accepted": true})),
+            _ => invalid("unknown"),
+        });
+        let token = format!("Bearer {}", "a".repeat(64));
+        let h = [HOST, ("Authorization", token.as_str()), ("Content-Type", "application/json")];
+        let rejected = post(&s, &api, "/api/v1/vpn", &h, r#"{"action":"wireguard","profile":"bad"}"#);
+        assert_eq!((rejected.status, rejected.json()), (400, json!({"error": "allowed_ips_partial_overlap"})));
+        assert_eq!(api.methods(), ["wireguard_check"], "a rejected profile never reaches the worker command");
+        let odd = post(&s, &api, "/api/v1/vpn", &h, r#"{"action":"wireguard","profile":"weird"}"#);
+        assert_eq!(odd.json(), json!({"error": "invalid_wireguard_profile"}));
+        let plain = post(&s, &api, "/api/v1/vpn", &h, r#"{"action":"wireguard","profile":"plain"}"#);
+        assert_eq!((plain.status, plain.json()), (202, json!({"accepted": true, "profile_notes": ["ignored_hooks"]})));
+        let accepted = post(&s, &api, "/api/v1/vpn", &h, r#"{"action":"wireguard","profile":"ok"}"#);
+        assert_eq!(
+            (accepted.status, accepted.json()),
+            (202, json!({"accepted": true, "profile_notes": ["multiple_peers"], "profile_details": {"multiple_peers": {"peers": 2, "groups": 1}}}))
+        );
+        assert_eq!(api.calls.lock().unwrap().last().unwrap().1["profile"], "ok");
     }
 
     #[test]

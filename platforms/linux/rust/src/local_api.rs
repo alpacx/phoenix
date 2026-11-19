@@ -86,6 +86,8 @@ impl Api for LocalApi {
                     "firmware_update": c.updates.is_some(),
                     "exit_ip_verification": network,
                     "catalog_test": network,
+                    // Any wg/wg-quick client profile (IPv4 parts used, hooks never run).
+                    "wireguard_import": "extended",
                 }))
             }
             "hotspot" => Ok(c.hotspot_status()),
@@ -116,6 +118,7 @@ impl Api for LocalApi {
                 c.save_policy(&Value::Object(args))
             }
             "vpn" => Ok(c.vpn_status()),
+            "wireguard_check" => Ok(c.wireguard_check(args.get("profile"))),
             "command" => c.submit(&Value::Object(args)),
             "history" => c.history.page(Self::history_cursor(&args)?),
             "preflight" => Ok(crate::preflight::inspect()),

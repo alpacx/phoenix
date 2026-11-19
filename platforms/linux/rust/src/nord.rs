@@ -174,8 +174,8 @@ mod tests {
         let mut first = |_: usize| 0;
         let (profile, info) = select(KEY, &catalog(), "IT", "", false, 0, &one(server(1, "online", "IT")), &mut first).unwrap();
         assert_eq!(info, Location { id: 1, country: "IT".into(), server: "Test".into() });
-        assert_eq!(profile.endpoint, "192.0.2.1:51820");
-        assert_eq!(profile.keepalive, 25);
+        assert_eq!(profile.primary().endpoint, "192.0.2.1:51820");
+        assert_eq!(profile.primary().keepalive, 25);
         assert_eq!(paths.borrow()[0], "/v1/servers/recommendations?filters%5Bservers_technologies%5D%5Bidentifier%5D=wireguard_udp&filters%5Bcountry_id%5D=106&limit=5");
         assert!(select(KEY, &catalog(), "US", "", false, 0, &one(server(1, "online", "IT")), &mut first).is_err());
         assert!(select(KEY, &catalog(), "IT", "", false, 0, &one(server(1, "offline", "IT")), &mut first).is_err());

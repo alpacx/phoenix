@@ -119,6 +119,23 @@ pub fn network_text(text: &str) -> Result<String> {
     Ok(network(text)?.to_string())
 }
 
+/// DHCP resolver list "a" or "a,b,c" (1..=3 distinct IPv4 addresses, no
+/// spaces), returned canonical. A single address renders exactly as before.
+pub fn dns_list(text: &str) -> Result<String> {
+    let mut servers: Vec<String> = Vec::new();
+    for item in text.split(',') {
+        let server = address(item)?.to_string();
+        if servers.contains(&server) {
+            return invalid("invalid_dns");
+        }
+        servers.push(server);
+    }
+    if servers.len() > 3 {
+        return invalid("invalid_dns");
+    }
+    Ok(servers.join(","))
+}
+
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub struct Interface {
     pub ip: Ipv4Addr,
@@ -152,6 +169,11 @@ mod tests {
         assert_eq!(address("1.2.3.4").unwrap().to_string(), "1.2.3.4");
         for bad in ["01.2.3.4", "1.2.3", "1.2.3.256", " 1.2.3.4", "1.2.3.4 ", "", "1..3.4", "+1.2.3.4"] {
             assert!(address(bad).is_err(), "{bad}");
+        }
+        assert_eq!(dns_list("103.86.96.100").unwrap(), "103.86.96.100");
+        assert_eq!(dns_list("1.1.1.1,9.9.9.9,8.8.8.8").unwrap(), "1.1.1.1,9.9.9.9,8.8.8.8");
+        for bad in ["", "1.1.1.1,", "1.1.1.1, 9.9.9.9", "1.1.1.1,1.1.1.1", "1.1.1.1,2.2.2.2,3.3.3.3,4.4.4.4", "1.1.1"] {
+            assert!(dns_list(bad).is_err(), "{bad}");
         }
         assert_eq!(network_text("10.1.2.3/24").unwrap(), "10.1.2.0/24");
         assert_eq!(network_text("10.1.2.3").unwrap(), "10.1.2.3/32");

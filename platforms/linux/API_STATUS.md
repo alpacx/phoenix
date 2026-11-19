@@ -89,3 +89,74 @@ Status opzionale Linux temperature_c (massimo sensori interni, null se assente).
 Speedtest: download_mbps e upload_mbps da server distinti; upload_error separato
 per preservare un download valido in caso di upload indisponibile. Nessuna
 misura ping, nessun fallback di percorso. Dati sintetici soltanto in upload.
+
+## Import WireGuard esteso (Linux, capability `wireguard_import: "extended"`, 2026-11-19)
+
+Divergenza dal parser ESP32 (`shared/phoenix_core/wg_profile.c`, invariato).
+`POST /api/v1/vpn {"action":"wireguard","profile":TEXT}` accetta qualunque
+profilo client wg/wg-quick fino a 8 KiB (limite dettato dai 16 KiB del corpo
+JSON) con 1–16 sezioni `[Peer]`:
+
+- nomi di sezione e chiave senza distinzione maiuscole/minuscole; BOM, CRLF e
+  commenti `#`; `Address`, `DNS` e `AllowedIPs` ripetibili o separati da virgole;
+- `Address`: primo IPv4 usato (senza prefisso = /32, /0 rifiutato); altri IPv4
+  e tutti gli IPv6 ignorati; almeno un IPv4 obbligatorio;
+- `DNS` facoltativo: fino a 3 IPv4 distribuiti via DHCP ad AP/USB; IPv6 e domini
+  di ricerca ignorati; nessun IPv4 → 1.1.1.1 raggiunto attraverso il tunnel;
+- `MTU` 1280–1500 (default 1380); `PersistentKeepalive` 0–65535 o `off`;
+  `PresharedKey` applicata;
+- `Endpoint` IPv4:porta o nome:porta (RFC 1123). Il nome viene risolto a ogni
+  connessione/riconnessione con DoH autenticato verso 1.1.1.1 vincolato
+  all'uplink scelto (come l'API NordVPN), mai con il resolver di sistema né
+  passato a `wg`. Errore → stato `endpoint_resolution_failed`, traffico
+  bloccato, ritentativi con il backoff esistente. Endpoint IPv6 rifiutato;
+- `AllowedIPs`: reti IPv4 passate a `wg setconf` così come sono, IPv6 ignorate,
+  almeno una rete IPv4. Se non coprono tutto IPv4 (tunnel parziale) Phoenix
+  continua a instradare tutto il traffico dei client in `phwg0`: le
+  destinazioni fuori da `AllowedIPs` vengono scartate, mai inviate in chiaro.
+  Se un DNS distribuito ai client (compreso il ripiego 1.1.1.1) è fuori da
+  tutte le `AllowedIPs`, il profilo è accettato con la nota
+  `dns_outside_allowed_ips` (le richieste DNS verrebbero bloccate);
+- più `[Peer]` (dal 2026-11-19): chiavi pubbliche distinte
+  (`duplicate_peer`), ognuno con `Endpoint` e almeno un `AllowedIPs` IPv4.
+  Peer con insiemi IPv4 di `AllowedIPs` identici formano un **gruppo di
+  failover** (ordine del file): in `wg` c'è un solo membro per gruppo; se il
+  membro in uso non ha un handshake recente (≤ 180 s) per 30 s dalla sua
+  attivazione, il gruppo passa al successivo (`wg set peer … remove` +
+  `wg addconf` da stdin, gli altri gruppi non vengono toccati, il nome
+  dell'endpoint viene risolto di nuovo). Gruppi con reti diverse sono usati
+  insieme come wg-quick (contenimento ammesso, es. 0.0.0.0/0 e 10.0.0.0/8);
+  gruppi che condividono solo alcune reti identiche →
+  `allowed_ips_partial_overlap`. Connesso = almeno un membro con handshake e,
+  se un gruppo copre tutto IPv4 (uscita Internet), il suo membro in uso ha
+  l'handshake. Quando tutti i membri del gruppo di uscita hanno fallito si
+  applica la regola esistente: blocco e riconnessione completa con backoff.
+  Gli altri gruppi continuano a ruotare; il loro traffico, finché non hanno
+  handshake, viene scartato da WireGuard. Kill switch invariato;
+- `ListenPort`, `FwMark`, `Table`, `SaveConfig`, `PreUp`, `PostUp`, `PreDown`,
+  `PostDown` accettati ma **mai eseguiti o applicati**; altre chiavi sconosciute
+  rifiutate.
+
+Risposte: profilo rifiutato → 400 `{"error": CODICE}` con codice specifico
+(`duplicate_peer`, `allowed_ips_partial_overlap`, `too_many_peers`,
+`ipv6_endpoint_unsupported`,
+`ipv4_address_required`, `ipv4_allowed_ips_required`, `invalid_endpoint`,
+`invalid_key`, `invalid_dns`, `invalid_number`, `invalid_section`,
+`unknown_or_duplicate_field`, `missing_profile_fields`, …) senza toccare il
+tunnel attivo; accettato → 202 `{"accepted": true, "profile_notes": [...],
+"profile_details": {...}}`. `GET /api/v1/vpn` riporta `profile_notes` e
+`profile_details` del profilo salvato e, per i profili WireGuard personalizzati,
+`peers`: per ogni peer in ordine di file `{group, public_key_fingerprint
+(primi 8 caratteri della chiave pubblica), endpoint (come scritto),
+address (IP risolto del membro in uso o null), allowed_ips, active,
+latest_handshake_age_s, connected}`. `endpoint` resta quello del membro in
+uso del gruppo di uscita (altrimenti del primo gruppo); lo storico registra
+quell'endpoint. Note: `ignored_ipv6`, `ignored_hooks`, `dns_fallback`,
+`dns_search_ignored`, `dns_truncated`, `split_allowed_ips`,
+`extra_addresses`, `hostname_endpoint`, `dns_outside_allowed_ips`
+(`profile_details.dns_outside_allowed_ips`: elenco dei server),
+`multiple_peers` (`profile_details.multiple_peers`: `{peers, groups}`).
+Nessuna nota o errore contiene chiavi. Profili accettati dal parser precedente
+restano identici (test di parità). RPC interna: metodo `wireguard_check` (dry
+run, nessuna scrittura).
+

@@ -18,7 +18,8 @@ pub fn render(name: &str, ssid: &str, password: &str, country: &str, dns: &str) 
     if country.len() != 2 || !country.bytes().all(|b| b.is_ascii_uppercase()) {
         return invalid("invalid_regulatory_country");
     }
-    let dns = ipv4::address(dns)?;
+    // One to three resolvers; a single one renders exactly as before.
+    let dns = ipv4::dns_list(dns)?;
     let mut psk = [0u8; 32];
     ring::pbkdf2::derive(ring::pbkdf2::PBKDF2_HMAC_SHA1, NonZeroU32::new(4096).unwrap(), ssid.as_bytes(), password.as_bytes(), &mut psk);
     let hostapd = format!(
@@ -44,6 +45,8 @@ mod tests {
         assert!(configs[0].1.contains("wpa_psk=f42c6fc52df0ebef9ebb4b90b38a5f902e83fe1b135a70e23aed762e9710a12e\n"));
         assert!(configs[0].1.contains("ssid2=49454545\n"));
         assert!(configs[1].1.contains("dhcp-option=6,103.86.96.100\n"));
+        let configs = render("wlan0", "IEEE", "password", "IT", "10.64.0.1,9.9.9.9,1.1.1.1").unwrap();
+        assert!(configs[1].1.contains("dhcp-option=6,10.64.0.1,9.9.9.9,1.1.1.1\n"));
         for (ssid, password, country, dns) in [
             ("", "password", "IT", "1.1.1.1"),
             (&"x".repeat(33)[..], "password", "IT", "1.1.1.1"),
@@ -52,6 +55,8 @@ mod tests {
             ("ok", "pass\nword", "IT", "1.1.1.1"),
             ("ok", "password", "it", "1.1.1.1"),
             ("ok", "password", "IT", "1.1.1"),
+            ("ok", "password", "IT", "1.1.1.1, 9.9.9.9"),
+            ("ok", "password", "IT", "1.1.1.1,2.2.2.2,3.3.3.3,4.4.4.4"),
         ] {
             assert!(render("wlan0", ssid, password, country, dns).is_err(), "{ssid} {password} {country} {dns}");
         }
@@ -66,17 +71,19 @@ mod tests {
         use crate::fsutil::testdir::TempDir;
         use std::process::{Command, Stdio};
         assert!(std::path::Path::new("/.dockerenv").exists(), "never run on a host or target");
-        let configs = render("wlan0", "Phoenix-Test", "test-only-passphrase", "IT", "103.86.96.100").unwrap();
         let dir = TempDir::new();
-        let path = dir.path().join("dnsmasq.conf");
-        std::fs::write(&path, &configs[1].1).unwrap();
-        let status = Command::new("dnsmasq")
-            .arg("--test")
-            .arg(format!("--conf-file={}", path.display()))
-            .stdout(Stdio::null())
-            .stderr(Stdio::null())
-            .status()
-            .unwrap();
-        assert!(status.success(), "dnsmasq rejected the rendered configuration");
+        for dns in ["103.86.96.100", "10.64.0.1,9.9.9.9,1.1.1.1"] {
+            let configs = render("wlan0", "Phoenix-Test", "test-only-passphrase", "IT", dns).unwrap();
+            let path = dir.path().join("dnsmasq.conf");
+            std::fs::write(&path, &configs[1].1).unwrap();
+            let status = Command::new("dnsmasq")
+                .arg("--test")
+                .arg(format!("--conf-file={}", path.display()))
+                .stdout(Stdio::null())
+                .stderr(Stdio::null())
+                .status()
+                .unwrap();
+            assert!(status.success(), "dnsmasq rejected the rendered configuration ({dns})");
+        }
     }
 }

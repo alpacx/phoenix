@@ -449,3 +449,38 @@ flash o modifica hardware. Resta la qualifica elettrica USB/VBUS e del reboot.
   HTTP 202 staged → attiva `12-7da5cac8bc3ebb0d`, `/healthz` ready, servizi
   active con 0 riavvii, pannello servito con la schermata d'avvio nuova.
   RSS: worker 2,3 MB (anon 0,12), frontend 1,5 MB (anon 0,04).
+- 19/11, 10:53 UTC: `0.3.0-rust`, sequenza 13 (import WireGuard esteso:
+  endpoint per nome via DoH sull'uplink, IPv6/hook ignorati e segnalati,
+  fino a 3 DNS, AllowedIPs parziali con blocco del resto) installata da
+  Claude con `phoenix-push-update`: attiva `13-ed4be1d92ca6dc55`, `/healthz`
+  ready, servizi active con 0 riavvii; RSS worker 2,3 MB (anon 0,12),
+  frontend 1,7 MB (anon 0,05). Nessun profilo WireGuard reale provato sulla ROCK.
+
+## Hotspot Wi-Fi con servizi Rust — 19 novembre 2026
+
+- Sudo temporaneo concesso dall'utente e rimosso a fine lavoro
+  (`/etc/sudoers.d/90-claude-temp`); resta solo `phoenix-push-update`.
+- `/etc/NetworkManager/conf.d/90-phoenix-ap.conf`
+  (`unmanaged-devices=interface-name:wlan0`), `wlan0` unmanaged; uplink e SSH
+  restano su `end0`.
+- `/etc/phoenix/ap-password` casuale (20 caratteri, root 0600, mai stampata).
+- target.json: `uplink` da `wlan0` (residuo di casa) a `end0`, `ap` da
+  `phap0` a `wlan0`, `access_point` {SSID `Phoenix-ROCK`, country `IT`, DNS
+  103.86.96.100}; backup `/etc/phoenix/target.json.bak-20261119`.
+- Dopo il riavvio dei servizi: `/healthz` ready, 0 riavvii; hostapd e dnsmasq
+  figli del worker; `wlan0` type AP, canale 6 (2437 MHz, 20 MHz),
+  192.168.9.1/24, DHCP 192.168.9.20–200; `iw reg get` country IT (2,4 GHz
+  20 dBm); WPA2-PSK CCMP. API: hotspot `enabled/active`, 0 client; status
+  `uplink_ready`, `ap_active`, traffico bloccato finché non si sceglie VPN o
+  uscita diretta. Nessun client ancora collegato: DHCP e navigazione dal
+  telefono da verificare.
+- Utente, 19/11: password dell'hotspot cambiata dal pannello e funzionamento
+  confermato con il telefono ("sembra funzionare tutto"). Lease e traffico
+  dei client non verificati da Claude.
+- 19/11: `0.4.0-rust`, sequenza 14 (WireGuard con più `[Peer]`: reti diverse
+  insieme, AllowedIPs identici in failover; avviso DNS fuori da AllowedIPs)
+  installata da Claude con `phoenix-push-update`: attiva
+  `14-33d8377cace3fd46`, `/healthz` ready, servizi active con 0 riavvii,
+  hotspot `Phoenix-ROCK` ripartito (hostapd, wlan0 type AP). RSS worker
+  2,4 MB (anon 0,13), frontend 1,6 MB (anon 0,04). Nessun profilo multi-peer
+  reale provato sulla ROCK.

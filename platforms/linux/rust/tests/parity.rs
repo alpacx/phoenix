@@ -1,7 +1,8 @@
 //! Parity with the original Python service: tests/parity/fixtures.json holds
 //! its outputs on a deterministic corpus, frozen on 2026-11-18 when that code
 //! was removed (generator in git history). Every accepted input must produce
-//! byte-identical output; every rejected input must be rejected.
+//! byte-identical output; every rejected input must be rejected, except the
+//! documented WireGuard import relaxations (see `wireguard_relaxation`).
 use phoenix_linux::firewall::{compile_rules, Mode, Names};
 use phoenix_linux::json::Value;
 use phoenix_linux::{access_point, ipv4, policy, wireguard};
@@ -48,16 +49,75 @@ fn nftables_text_matches_python() {
     }
 }
 
+/// Why the extended importer may accept a profile the Python parser
+/// rejected (platforms/linux/API_STATUS.md). None: it must still be rejected.
+fn wireguard_relaxation(input: &str) -> Option<&'static str> {
+    let mut section = String::new();
+    for line in input.lines() {
+        let line = line.split('#').next().unwrap_or("").trim();
+        if line.starts_with('[') {
+            if line != "[Interface]" && line != "[Peer]" {
+                return Some("case-insensitive section names");
+            }
+            section = line.to_string();
+            continue;
+        }
+        let Some((key, value)) = line.split_once('=') else { continue };
+        let (key, value) = (key.trim(), value.trim());
+        let canonical = ["PrivateKey", "Address", "DNS", "MTU", "PublicKey", "PresharedKey", "Endpoint", "AllowedIPs", "PersistentKeepalive"];
+        if !canonical.contains(&key) && canonical.iter().any(|c| c.eq_ignore_ascii_case(key)) {
+            return Some("case-insensitive key names");
+        }
+        match key {
+            "MTU" if value.parse::<u32>().map(|m| (1421..=1500).contains(&m)).unwrap_or(false) => return Some("MTU up to 1500"),
+            "Address" if !value.contains('/') || value.contains(',') => return Some("address without prefix or list"),
+            "DNS" if value.contains(',') => return Some("DNS list"),
+            "AllowedIPs" if value != "0.0.0.0/0" => return Some("AllowedIPs list, IPv6 ignored, split tunnel"),
+            "Endpoint" if value.rsplit_once(':').map(|(h, _)| !h.bytes().all(|b| b.is_ascii_digit() || b == b'.')).unwrap_or(false) && !value.starts_with('[') => {
+                return Some("host name endpoint")
+            }
+            "PersistentKeepalive" if value.eq_ignore_ascii_case("off") => return Some("keepalive off"),
+            "ListenPort" | "FwMark" | "Table" | "SaveConfig" | "PreUp" | "PostUp" | "PreDown" | "PostDown" if section == "[Interface]" => {
+                return Some("wg-quick options ignored")
+            }
+            _ => {}
+        }
+    }
+    let count = |k: &str| input.lines().filter(|l| l.trim_start().starts_with(k)).count();
+    if count("DNS") == 0 {
+        return Some("DNS optional (fallback)");
+    }
+    if count("DNS") > 1 || count("Address") > 1 || count("AllowedIPs") > 1 {
+        return Some("repeated Address/DNS/AllowedIPs lines");
+    }
+    None
+}
+
 #[test]
 fn wireguard_profiles_match_python() {
+    let mut relaxed = 0;
     for case in fixtures()["wireguard"].as_array().unwrap() {
-        let parsed = wireguard::parse(case["input"].as_str().unwrap());
+        let input = case["input"].as_str().unwrap();
+        let parsed = wireguard::parse(input);
+        if case.get("ok").is_none() {
+            if let Ok(profile) = &parsed {
+                let reason = wireguard_relaxation(input).unwrap_or_else(|| panic!("accepted outside documented relaxations: {input:?} -> {profile:?}"));
+                assert!(!profile.address.is_empty() && !profile.primary().allowed_ips.is_empty(), "{reason}");
+                relaxed += 1;
+            }
+            continue;
+        }
+        let without_notes = parsed.as_ref().map(|p| p.notes.is_empty()).unwrap_or(false);
         check("wireguard", case, parsed, |p| {
-            serde_json::json!({"private_key": p.private_key, "public_key": p.public_key, "address": p.address,
-                               "dns": p.dns, "endpoint": p.endpoint, "mtu": p.mtu, "keepalive": p.keepalive,
-                               "preshared_key": p.preshared_key, "setconf": p.setconf()})
+            let peer = p.primary();
+            serde_json::json!({"private_key": p.private_key, "public_key": peer.public_key, "address": p.address,
+                               "dns": p.dns_text(), "endpoint": peer.endpoint, "mtu": p.mtu, "keepalive": peer.keepalive,
+                               "preshared_key": peer.preshared_key, "setconf": p.setconf()})
         });
+        // Profiles the strict parser accepted carry no import notes.
+        assert!(without_notes, "{input:?}");
     }
+    assert!(relaxed >= 5, "fixtures exercise the relaxations ({relaxed})");
 }
 
 #[test]

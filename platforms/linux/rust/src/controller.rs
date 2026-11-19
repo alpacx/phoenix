@@ -43,6 +43,11 @@ pub struct State {
     pub connect_started: f64,
     pub hotspot_enabled: bool,
     pub ap_suspended: bool,
+    /// Failover, per WireGuard group: when its member in use was activated
+    /// (monotonic seconds) and how many members failed since the last
+    /// handshake.
+    pub group_since: Vec<f64>,
+    pub group_tries: Vec<usize>,
 }
 
 impl State {
@@ -136,6 +141,8 @@ impl Controller {
                 connect_started: 0.0,
                 hotspot_enabled: true,
                 ap_suspended: false,
+                group_since: Vec::new(),
+                group_tries: Vec::new(),
             }),
             measurement: Arc::new(Measurement::new()),
             store,
@@ -339,15 +346,15 @@ impl Controller {
         let controller = Arc::clone(self);
         std::thread::spawn(move || {
             let _op = controller.lock_op();
-            if let Err(_error) = controller.command(&body) {
-                controller.command_failed(body.get("action").and_then(Value::as_str).unwrap_or(""));
+            if let Err(error) = controller.command(&body) {
+                controller.command_failed(body.get("action").and_then(Value::as_str).unwrap_or(""), &error);
             }
             controller.st().busy = false;
         });
         Ok(json!({"accepted": true}))
     }
 
-    fn command_failed(&self, action: &str) {
+    fn command_failed(&self, action: &str, error: &Error) {
         let now = self.now();
         if matches!(action, "verify_exit" | "catalog_test") {
             let mut st = self.st();
@@ -363,7 +370,7 @@ impl Controller {
         }
         {
             let mut st = self.st();
-            st.error = "vpn_operation_failed".into();
+            st.error = vpn_failure(error).into();
             if matches!(action, "wifi" | "uplink") {
                 st.want_connected = false;
                 st.retry_at = None;
@@ -519,19 +526,23 @@ impl Controller {
             profile
         } else {
             let profile = wireguard::parse(&text("profile"))?;
-            self.st().location = Location { id: 0, country: String::new(), server: profile.endpoint.clone() };
-            profile
+            self.st().location = Location { id: 0, country: String::new(), server: profile.primary().endpoint.clone() };
+            // Host names are resolved again at every (re)connect.
+            runtime.resolve_endpoint(&profile)?
         };
         if let Some(ap) = self.access_point.lock().unwrap_or_else(|e| e.into_inner()).as_mut() {
-            ap.set_dns(&profile.dns)?;
+            ap.set_dns(&profile.dns_text())?;
         }
         if let Some(usb) = self.usb_lan.lock().unwrap_or_else(|e| e.into_inner()).as_mut() {
-            usb.set_dns(&profile.dns)?;
+            usb.set_dns(&profile.dns_text())?;
         }
         runtime.connect(&self.policy()?, &profile)?;
+        let now = self.now();
         let mut st = self.st();
         st.enabled = true;
         st.error.clear();
+        st.group_since = vec![now; profile.groups.len()];
+        st.group_tries = vec![0; profile.groups.len()];
         Ok(())
     }
 
@@ -696,11 +707,11 @@ impl Controller {
         }
         match self.supervise(runtime) {
             Ok(()) => Ok(()),
-            Err(_) => {
+            Err(error) => {
                 let now = self.now();
                 {
                     let mut st = self.st();
-                    st.error = "vpn_operation_failed".into();
+                    st.error = vpn_failure(&error).into();
                     st.schedule_retry(now);
                     st.enabled = false;
                     st.timer.disconnected();
@@ -743,6 +754,7 @@ impl Controller {
         if !self.st().enabled {
             return Ok(());
         }
+        let failover = self.failover(runtime)?;
         let connected = runtime.handshake();
         let record = {
             let mut st = self.st();
@@ -766,7 +778,11 @@ impl Controller {
                 let had_session = st.connected_recorded;
                 st.timer.disconnected();
                 st.connected_recorded = false;
-                had_session || now - st.connect_started > 30.0
+                match failover {
+                    // Alternates get their turn before a full reconnect.
+                    Some(exhausted) => exhausted,
+                    None => had_session || now - st.connect_started > 30.0,
+                }
             };
             if expired {
                 runtime.block(&self.policy()?)?;
@@ -781,15 +797,104 @@ impl Controller {
         Ok(())
     }
 
+    /// Failover step for profiles with alternate peers (None otherwise):
+    /// a group whose member in use has had no recent handshake for
+    /// FAILOVER_AFTER seconds since its activation moves to the next member;
+    /// other groups are untouched. Returns whether the decisive groups (the
+    /// Internet exit, else every group) have tried all their members, which
+    /// replaces the single-peer 30 s reconnect rule.
+    fn failover(&self, runtime: &Runtime) -> Result<Option<bool>> {
+        let Some((profile, ages)) = runtime.group_handshakes() else {
+            return Ok(None);
+        };
+        if !profile.has_failover() {
+            return Ok(None);
+        }
+        let now = self.now();
+        let groups = profile.groups.len();
+        {
+            let mut st = self.st();
+            if st.group_since.len() != groups {
+                st.group_since = vec![now; groups];
+                st.group_tries = vec![0; groups];
+            }
+        }
+        for (group, age) in ages.iter().enumerate() {
+            let members = profile.groups[group].len();
+            {
+                let mut st = self.st();
+                if Runtime::recent(*age) {
+                    st.group_tries[group] = 0;
+                    continue;
+                }
+                // The exit group stops after one round: then a full reconnect
+                // (with backoff) starts again from its first member. Other
+                // groups keep rotating while the tunnel is up.
+                let exit = profile.exit_group() == Some(group);
+                if now - st.group_since[group] <= FAILOVER_AFTER || (exit && st.group_tries[group] >= members) {
+                    continue;
+                }
+                st.group_tries[group] += 1;
+                st.group_since[group] = now;
+                if members == 1 {
+                    continue;
+                }
+            }
+            match runtime.switch_member(group) {
+                Ok(()) => {}
+                // The group stays without a peer; the next switch moves on.
+                Err(error) if error.code() == "endpoint_resolution_failed" => {}
+                Err(error) => return Err(error),
+            }
+            if profile.exit_group() == Some(group) {
+                if let Some(current) = runtime.profile() {
+                    let mut st = self.st();
+                    st.location.server = current.primary().configured_endpoint();
+                    st.connected_recorded = false;
+                }
+            }
+        }
+        let st = self.st();
+        let exhausted = |g: usize| st.group_tries[g] >= profile.groups[g].len();
+        Ok(Some(match profile.exit_group() {
+            Some(group) => exhausted(group),
+            None => (0..groups).all(exhausted),
+        }))
+    }
+
+    /// Dry run of a WireGuard profile for the panel: the specific rejection
+    /// code or the non-secret notes. Nothing is stored or applied.
+    pub fn wireguard_check(&self, profile: Option<&Value>) -> Value {
+        match profile.and_then(Value::as_str).map(wireguard::parse) {
+            Some(Ok(parsed)) => json!({"valid": true, "notes": parsed.notes, "details": profile_details(&parsed)}),
+            Some(Err(error)) => json!({"valid": false, "error": error.code()}),
+            None => json!({"valid": false, "error": "invalid_profile"}),
+        }
+    }
+
     pub fn vpn_status(&self) -> Value {
         let (busy, enabled) = {
             let st = self.st();
             (st.busy, st.enabled)
         };
-        let handshake = !busy && enabled && self.runtime.as_ref().map(Runtime::handshake).unwrap_or(false);
+        let tunnel = if !busy && enabled { self.runtime.as_ref().and_then(Runtime::group_handshakes) } else { None };
+        let handshake = tunnel.as_ref().map(|(profile, ages)| Runtime::connected(profile, ages)).unwrap_or(false);
         let direct = self.runtime.as_ref().map(|r| r.mode() == Mode::Direct).unwrap_or(false);
         let measuring = busy && self.measurement.status().get("state").and_then(Value::as_str) == Some("running");
-        let endpoint = self.runtime.as_ref().and_then(Runtime::profile).map(|p| p.endpoint).unwrap_or_default();
+        let endpoint = self.runtime.as_ref().and_then(Runtime::profile).map(|p| p.primary().endpoint.clone()).unwrap_or_default();
+        let profile_text = {
+            let st = self.st();
+            (st.provider() == "wireguard").then(|| st.text("profile").to_string())
+        };
+        let stored = profile_text.and_then(|text| wireguard::parse(&text).ok());
+        let notes = stored.as_ref().map(|p| p.notes.clone()).unwrap_or_default();
+        let details = stored.as_ref().map(profile_details).unwrap_or_else(|| json!({}));
+        // Custom WireGuard only: the tunnel in use when there is one, else the
+        // saved profile with its first members and no handshakes.
+        let peers = stored.as_ref().map(|saved| match &tunnel {
+            Some((profile, ages)) if profile.peers.len() == saved.peers.len() => peers_json(profile, Some(ages)),
+            _ => peers_json(saved, None),
+        });
         let st = self.st();
         let state = if measuring {
             "measuring"
@@ -814,8 +919,54 @@ impl Controller {
             "rotation": st.raw("rotation", json!(false)), "interval": st.raw("interval", json!(300)),
             "exclude_restricted": st.raw("exclude_restricted", json!(false)),
             "next_rotation_seconds": st.timer.remaining(), "exit_ip": st.exit_ip, "exit_country": st.exit_country,
-            "api_verified": st.api_verified, "endpoint": endpoint,
+            "api_verified": st.api_verified, "endpoint": endpoint, "profile_notes": notes,
+            "profile_details": details, "peers": peers,
         })
+    }
+}
+
+/// Seconds without a recent handshake before a failover group moves on.
+const FAILOVER_AFTER: f64 = 30.0;
+
+/// Non-secret details for the notes: uncovered DNS servers, peer counts.
+fn profile_details(profile: &Profile) -> Value {
+    let mut details = Map::new();
+    if !profile.dns_outside.is_empty() {
+        details.insert("dns_outside_allowed_ips".into(), json!(profile.dns_outside));
+    }
+    if profile.peers.len() > 1 {
+        details.insert("multiple_peers".into(), json!({"peers": profile.peers.len(), "groups": profile.groups.len()}));
+    }
+    Value::Object(details)
+}
+
+/// Per peer, file order: group, public fingerprint, endpoint as written (and
+/// resolved address when in use), AllowedIPs, whether it is the member in
+/// use and its latest handshake age. Never keys.
+fn peers_json(profile: &Profile, ages: Option<&Vec<Option<f64>>>) -> Value {
+    let mut peers = Vec::new();
+    for (group, members) in profile.groups.iter().enumerate() {
+        for &index in members {
+            let peer = &profile.peers[index];
+            let active = profile.active_index(group) == index;
+            let age = if active { ages.and_then(|a| a[group]).map(|a| a.max(0.0).round() as i64) } else { None };
+            let address = if active && ages.is_some() { peer.endpoint_ip().map(|ip| ip.to_string()) } else { None };
+            peers.push((index, json!({
+                "group": group, "public_key_fingerprint": peer.fingerprint(), "endpoint": peer.configured_endpoint(),
+                "address": address, "allowed_ips": peer.allowed_ips, "active": active,
+                "latest_handshake_age_s": age, "connected": active && Runtime::recent(ages.and_then(|a| a[group])),
+            })));
+        }
+    }
+    peers.sort_by_key(|(index, _)| *index);
+    Value::Array(peers.into_iter().map(|(_, peer)| peer).collect())
+}
+
+/// Panel error for a failed VPN operation: specific when it helps the user.
+fn vpn_failure(error: &Error) -> &'static str {
+    match error.code() {
+        "endpoint_resolution_failed" => "endpoint_resolution_failed",
+        _ => "vpn_operation_failed",
     }
 }
 
@@ -879,6 +1030,47 @@ mod tests {
         assert!(matches!(c.save_policy(&base()), Err(Error::Unavailable(_))));
         assert_eq!(c.store.load().unwrap().revision, 0);
         assert_eq!(c.vpn_status()["state"], "blocked");
+    }
+
+    /// Extended import: dry-run codes/notes, hostname re-resolution at every
+    /// connect, notes in the VPN status, specific error when DoH fails.
+    #[test]
+    fn imported_profiles_report_notes_and_resolve_names() {
+        let dir = TempDir::new();
+        let wall = Arc::new(AtomicU64::new(1010));
+        let mono = Arc::new(AtomicU64::new(100));
+        let answers = Arc::new(std::sync::Mutex::new(vec![Ok(std::net::Ipv4Addr::new(192, 0, 2, 1)), Err(Error::Network("down".into()))]));
+        let a = answers.clone();
+        let rt = runtime(runner(None), &wall).with_resolver(Arc::new(move |name, _, _| {
+            assert_eq!(name, "vpn.example.org");
+            a.lock().unwrap().remove(0)
+        }));
+        let c = controller(&dir, Some(rt), &mono, json!([]));
+        let k = key();
+        let text = format!("[Interface]\nPrivateKey={k}\nAddress=10.5.0.2/32, fd00::2/128\nPostUp=id\n[Peer]\nPublicKey={k}\nEndpoint=vpn.example.org:51820\nAllowedIPs=0.0.0.0/0, ::/0\n");
+        assert_eq!(c.wireguard_check(Some(&json!(text))), json!({"valid": true, "notes": ["ignored_ipv6", "dns_fallback", "hostname_endpoint", "ignored_hooks"], "details": {}}));
+        assert_eq!(c.wireguard_check(Some(&json!(format!("{text}[Peer]\n")))), json!({"valid": false, "error": "missing_profile_fields"}));
+        let split = text.replace("0.0.0.0/0, ::/0", "10.88.0.0/24");
+        assert_eq!(c.wireguard_check(Some(&json!(split)))["details"], json!({"dns_outside_allowed_ips": ["1.1.1.1"]}));
+        assert_eq!(c.wireguard_check(None), json!({"valid": false, "error": "invalid_profile"}));
+        c.command(&json!({"action": "wireguard", "profile": text})).unwrap();
+        let status = c.vpn_status();
+        assert_eq!(status["endpoint"], "192.0.2.1:51820");
+        assert_eq!(status["server"], "vpn.example.org:51820");
+        assert_eq!(status["profile_notes"], json!(["ignored_ipv6", "dns_fallback", "hostname_endpoint", "ignored_hooks"]));
+        let peers = status["peers"].as_array().unwrap();
+        assert_eq!(peers.len(), 1);
+        assert_eq!(peers[0]["endpoint"], "vpn.example.org:51820");
+        assert_eq!(peers[0]["address"], "192.0.2.1");
+        assert_eq!((peers[0]["active"].clone(), peers[0]["group"].clone()), (json!(true), json!(0)));
+        assert!(!crate::json::dumps(&status).contains(&k), "no keys, only a public fingerprint");
+        // Reconnect resolves again; a DoH failure blocks with a specific error.
+        let error = c.command(&json!({"action": "connect"})).unwrap_err();
+        assert_eq!(error.code(), "endpoint_resolution_failed");
+        c.command_failed("connect", &error);
+        assert_eq!(c.vpn_status()["error"], "endpoint_resolution_failed");
+        assert_eq!(c.runtime.as_ref().unwrap().mode(), Mode::Blocked);
+        assert!(answers.lock().unwrap().is_empty());
     }
 
     #[test]
@@ -966,6 +1158,74 @@ mod tests {
         assert_eq!(c.runtime.as_ref().unwrap().mode(), Mode::Blocked);
         assert!(!c.st().enabled);
         assert!(c.st().retry_at.is_some());
+    }
+
+    /// Exit failover group: a dead first member is replaced after 30 s
+    /// without touching the site group; history records the alternate. When
+    /// every exit member has failed, the single-peer rule applies again:
+    /// block and retry with backoff.
+    #[test]
+    fn failover_rotates_the_exit_group_then_reconnects() {
+        let dir = TempDir::new();
+        let wall = Arc::new(AtomicU64::new(1010));
+        let mono = Arc::new(AtomicU64::new(100));
+        let peer = |n: u8| base64::engine::general_purpose::STANDARD.encode([n; 32]);
+        let handshakes = Arc::new(std::sync::Mutex::new(vec![(peer(2), 1000i64)]));
+        let h = handshakes.clone();
+        let fake = Arc::new(FakeRunner::with(move |argv, _| {
+            if argv.len() >= 4 && argv[..4] == ["ip", "-j", "route", "get"] {
+                return ok(r#"[{"dev":"end0"}]"#);
+            }
+            if argv.len() >= 3 && argv[..3] == ["wg", "show", "phwg0"] {
+                return ok(&h.lock().unwrap().iter().map(|(k, at)| format!("{k}\t{at}\n")).collect::<String>());
+            }
+            None
+        }));
+        let rt = runtime(fake.clone(), &wall).with_resolver(Arc::new(|_, _, _| Ok(std::net::Ipv4Addr::new(192, 0, 2, 21))));
+        let c = controller(&dir, Some(rt), &mono, json!([]));
+        let text = crate::runtime::tests::multi_peer_text();
+        assert_eq!(c.wireguard_check(Some(&json!(text)))["details"], json!({"multiple_peers": {"peers": 3, "groups": 2}}));
+        c.command(&json!({"action": "wireguard", "profile": text})).unwrap();
+        c.tick().unwrap();
+        let status = c.vpn_status();
+        assert_eq!(status["state"], "connecting", "site up, exit member silent");
+        let peers = status["peers"].as_array().unwrap();
+        assert_eq!(peers.iter().map(|p| (p["group"].as_u64().unwrap(), p["active"].as_bool().unwrap())).collect::<Vec<_>>(), [(0, true), (1, true), (0, false)]);
+        assert_eq!(peers[1]["connected"], true);
+        assert_eq!(peers[2]["endpoint"], "backup.example.org:51821");
+
+        fake.calls.lock().unwrap().clear();
+        mono.store(131, Ordering::SeqCst);
+        c.tick().unwrap();
+        let argvs: Vec<String> = fake.calls.lock().unwrap().iter().map(|c| c.argv.join(" ")).collect();
+        assert!(argvs.contains(&format!("wg set phwg0 peer {} remove", peer(1))), "{argvs:?}");
+        assert!(argvs.contains(&"wg addconf phwg0 /dev/stdin".to_string()));
+        assert!(argvs.iter().all(|a| !a.contains(&peer(2)) && !a.starts_with("ip link delete")), "site group and tunnel untouched: {argvs:?}");
+        assert!(c.st().enabled && c.runtime.as_ref().unwrap().mode() == Mode::Vpn, "no full reconnect while an alternate is left");
+        assert_eq!(c.st().location.server, "backup.example.org:51821");
+
+        handshakes.lock().unwrap().push((peer(3), 1005));
+        c.tick().unwrap();
+        let status = c.vpn_status();
+        assert_eq!(status["state"], "connected");
+        assert_eq!(status["endpoint"], "192.0.2.21:51821");
+        let history = c.history.page(0).unwrap();
+        assert_eq!(history["entries"].as_array().unwrap().len(), 1);
+        assert!(crate::json::dumps(&history).contains("backup.example.org:51821"));
+        assert_eq!(c.st().group_tries, vec![0, 0]);
+
+        // Alternate lost too: one more switch (back to the first member),
+        // then the round is over and the gateway blocks and retries.
+        wall.store(1500, Ordering::SeqCst);
+        mono.store(400, Ordering::SeqCst);
+        c.tick().unwrap();
+        assert!(c.st().enabled, "first failure of the round only switches");
+        assert_eq!(c.runtime.as_ref().unwrap().profile().unwrap().primary().public_key, peer(1));
+        assert_eq!(c.runtime.as_ref().unwrap().profile().unwrap().active, vec![0, 0], "a single-member group never switches");
+        mono.store(440, Ordering::SeqCst);
+        c.tick().unwrap();
+        assert_eq!(c.runtime.as_ref().unwrap().mode(), Mode::Blocked);
+        assert!(!c.st().enabled && c.st().retry_at.is_some());
     }
 
     #[test]

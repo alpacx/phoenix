@@ -35,9 +35,26 @@ pub fn get_with(path: &str, headers: &[(String, String)], device: &str, mark: u3
     if !path.starts_with("/v1/") || path.chars().any(|c| (c as u32) < 32) {
         return invalid("invalid_api_path");
     }
+    let address = resolve_with("api.nordvpn.com", device, mark, fetch)?;
+    // TLS still authenticates api.nordvpn.com; a DNS result is not a trust anchor.
+    let api = Target { host: "api.nordvpn.com", address: SocketAddrV4::new(address, 443), device: Some(device), mark, timeout: TIMEOUT };
+    let headers: Vec<(&str, &str)> = headers.iter().map(|(n, v)| (n.as_str(), v.as_str())).collect();
+    read_json(fetch, &api, path, &headers)
+}
+
+/// First A record of `name` via authenticated DoH at 1.1.1.1, bound to
+/// `device` (and `mark`): never the host resolver or another interface.
+/// Used for api.nordvpn.com and for WireGuard endpoint host names.
+pub fn resolve(name: &str, device: &str, mark: u32) -> Result<Ipv4Addr> {
+    resolve_with(name, device, mark, &|target, path, headers| httpc::get(target, path, headers, &Trust::System, LIMIT))
+}
+
+pub fn resolve_with(name: &str, device: &str, mark: u32, fetch: Fetch) -> Result<Ipv4Addr> {
     crate::firewall::interface(device)?;
+    // Validated RFC 1123 name: safe to place in the query string as is.
+    let name = crate::wireguard::hostname(name)?;
     let doh = Target { host: "1.1.1.1", address: SocketAddrV4::new(Ipv4Addr::new(1, 1, 1, 1), 443), device: Some(device), mark, timeout: TIMEOUT };
-    let dns = read_json(fetch, &doh, "/dns-query?name=api.nordvpn.com&type=A", &[("Accept", "application/dns-json")])?;
+    let dns = read_json(fetch, &doh, &format!("/dns-query?name={name}&type=A"), &[("Accept", "application/dns-json")])?;
     if dns.get("Status").and_then(Value::as_i64) != Some(0) || !json::is_int(&dns["Status"]) {
         return invalid("uplink_dns_failed");
     }
@@ -49,13 +66,7 @@ pub fn get_with(path: &str, headers: &[(String, String)], device: &str, mark: u3
             address.get_or_insert(parsed);
         }
     }
-    let Some(address) = address else {
-        return invalid("uplink_dns_failed");
-    };
-    // TLS still authenticates api.nordvpn.com; a DNS result is not a trust anchor.
-    let api = Target { host: "api.nordvpn.com", address: SocketAddrV4::new(address, 443), device: Some(device), mark, timeout: TIMEOUT };
-    let headers: Vec<(&str, &str)> = headers.iter().map(|(n, v)| (n.as_str(), v.as_str())).collect();
-    read_json(fetch, &api, path, &headers)
+    address.ok_or_else(|| crate::error::Error::Invalid("uplink_dns_failed".into()))
 }
 
 #[cfg(test)]
@@ -99,6 +110,20 @@ mod tests {
     }
 
     #[test]
+    fn resolves_endpoint_names_on_the_uplink() {
+        let seen = Seen::default();
+        let replies = Mutex::new(vec![(200, r#"{"Status":0,"Answer":[{"type":5,"data":"edge.example."},{"type":1,"data":"198.51.100.7"}]}"#)]);
+        assert_eq!(resolve_with("VPN.Example.org", "end0", 0, &fake(&seen, &replies)).unwrap(), Ipv4Addr::new(198, 51, 100, 7));
+        assert_eq!(seen.lock().unwrap()[0], ("1.1.1.1".into(), "1.1.1.1:443".into(), Some("end0".into()), 0, "/dns-query?name=vpn.example.org&type=A".into()));
+        let seen = Seen::default();
+        let replies = Mutex::new(vec![]);
+        for name in ["a b", "x&type=AAAA", "1.2.3", ""] {
+            assert!(resolve_with(name, "end0", 0, &fake(&seen, &replies)).is_err(), "{name}");
+        }
+        assert!(seen.lock().unwrap().is_empty(), "invalid names never reach DoH");
+    }
+
+    #[test]
     fn rejects_paths_and_devices() {
         let seen = Seen::default();
         let replies = Mutex::new(vec![]);
@@ -110,7 +135,8 @@ mod tests {
 
     /// Real TLS + DoH only through the selected uplink (tools/rust-kernel-tests.sh):
     /// a peer network namespace answers on 1.1.1.1 and api.nordvpn.com behind
-    /// the uplink gateway while the main table blackholes 1.1.1.1. The roots
+    /// the uplink gateway while the main table blackholes 1.1.1.1. A WireGuard
+    /// endpoint host name is resolved over the same path. The roots
     /// are a throwaway CA given to httpc in this test; production trust
     /// (system roots) is unchanged.
     #[test]
@@ -215,15 +241,26 @@ openssl x509 -req -in leaf.csr -CA ca.pem -CAkey ca.key -CAcreateserial -days 1 
         // Without the selected-uplink route, 1.1.1.1 is unreachable.
         assert!(TcpStream::connect_timeout(&SocketAddr::from(([1, 1, 1, 1], 443)), std::time::Duration::from_secs(2)).is_err());
         let roots = dir.path().join("ca.pem");
+        let endpoint_roots = roots.clone();
         let names = json!({"ap": "apk0", "usb": "usbk0", "uplink": "eth0", "vpn": "phwg0"});
         let policy = json!({"revision": 0, "default_allow": true, "rules": [], "forwards": []});
         let rt = Runtime::new(&names, system.clone(), crate::py::wall_clock()).unwrap().with_nord_transport(Arc::new(move |path, headers, device, mark| {
             get_with(path, headers, device, mark, &|target, path, headers| httpc::get_with_roots(target, path, headers, &Trust::System, LIMIT, &roots))
+        }))
+        .with_resolver(Arc::new(move |name, device, mark| {
+            resolve_with(name, device, mark, &|target, path, headers| httpc::get_with_roots(target, path, headers, &Trust::System, LIMIT, &endpoint_roots))
         }));
+        let key = "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=";
+        let profile = crate::wireguard::parse(&format!(
+            "[Interface]\nPrivateKey={key}\nAddress=10.5.0.2/32\n[Peer]\nPublicKey={key}\nEndpoint=VPN.Phoenix.test:51820\nAllowedIPs=0.0.0.0/0\n"
+        ))
+        .unwrap();
         rt.select_uplink(&policy, "phupk0", "ethernet", Some("192.0.2.20"), None).unwrap();
         let result = rt.nord_request("/v1/fixture", None);
+        let resolved = rt.resolve_endpoint(&profile);
         system.run(&["ip", "link", "set", "phupk0", "down"]).unwrap();
         let after_loss = rt.nord_request("/v1/fixture", None);
+        let resolved_after_loss = rt.resolve_endpoint(&profile);
         stop.store(true, Ordering::SeqCst);
         let served = server.join().unwrap();
         sh("ip netns del phpeerk
@@ -233,10 +270,16 @@ ip route flush table 17710 2>/dev/null || true
 nft delete table inet phoenix 2>/dev/null || true");
         assert_eq!(result.unwrap(), json!({"local_fixture": true}));
         assert_eq!(after_loss.unwrap_err().code(), "nord_api_failed", "no alternate interface after link loss");
+        assert_eq!(resolved.unwrap().primary().endpoint, "192.0.2.20:51820");
+        assert_eq!(resolved_after_loss.unwrap_err().code(), "endpoint_resolution_failed", "no host resolver fallback");
         // No SNI for the IP literal (RFC 6066); its certificate is still verified by IP SAN.
         assert_eq!(
             served,
-            vec![(String::new(), "/dns-query?name=api.nordvpn.com&type=A".to_string()), ("api.nordvpn.com".to_string(), "/v1/fixture".to_string())]
+            vec![
+                (String::new(), "/dns-query?name=api.nordvpn.com&type=A".to_string()),
+                ("api.nordvpn.com".to_string(), "/v1/fixture".to_string()),
+                (String::new(), "/dns-query?name=vpn.phoenix.test&type=A".to_string()),
+            ]
         );
     }
 }

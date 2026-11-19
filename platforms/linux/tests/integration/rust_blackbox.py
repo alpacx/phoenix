@@ -4,7 +4,11 @@ Starts `phoenix control` (root) and `phoenix frontend` (phoenix-web) exactly as
 the systemd units do, drives them only through HTTPS, checks real packets
 (blocked, direct NAT, ordered deny, inbound forwarding with default deny and
 source restriction, WireGuard tunnel with a real handshake, tunnel loss
-without direct fallback, disconnect) and reports RSS. With --soak SECONDS it
+without direct fallback, disconnect, imported wg-quick profiles: IPv6 parts and
+PostUp ignored, PresharedKey, rejection codes, split AllowedIPs without direct
+fallback and DNS warning; multiple peers: a failover group whose dead first
+member is replaced by a live alternate, and a second site peer used together
+with the exit) and reports RSS. With --soak SECONDS it
 then cycles connect/loss/reconnect/disconnect/direct through the API and
 checks that the worker's RSS and file descriptors stay flat. Never uses host
 networking; removes only its own resources.
@@ -143,7 +147,7 @@ def stop(gateway):
 done''')
 
 
-def wireguard_peer(gateway, peer):
+def wireguard_peer(gateway, peer, psk=None):
     """Fresh WireGuard peer `wgtest` (10.77.0.1) on the peer; returns (profile, gateway private key)."""
     private_peer = execute(peer, 'wg', 'genkey').stdout.strip()
     public_peer = execute(peer, 'wg', 'pubkey', data=private_peer).stdout.strip()
@@ -151,7 +155,8 @@ def wireguard_peer(gateway, peer):
     public_gateway = execute(gateway, 'wg', 'pubkey', data=private_gateway).stdout.strip()
     sh(peer, 'ip link delete wgtest 2>/dev/null || true')
     execute(peer, 'ip', 'link', 'add', 'wgtest', 'type', 'wireguard')
-    execute(peer, 'wg', 'setconf', 'wgtest', '/dev/stdin', data=f'[Interface]\nPrivateKey={private_peer}\nListenPort=51820\n[Peer]\nPublicKey={public_gateway}\nAllowedIPs=10.77.0.2/32\n')
+    shared = f'PresharedKey={psk}\n' if psk else ''
+    execute(peer, 'wg', 'setconf', 'wgtest', '/dev/stdin', data=f'[Interface]\nPrivateKey={private_peer}\nListenPort=51820\n[Peer]\nPublicKey={public_gateway}\n{shared}AllowedIPs=10.77.0.2/32\n')
     execute(peer, 'ip', 'address', 'add', '10.77.0.1/24', 'dev', 'wgtest')
     execute(peer, 'ip', 'link', 'set', 'wgtest', 'up')
     profile = f'[Interface]\nPrivateKey={private_gateway}\nAddress=10.77.0.2/32\nDNS=10.77.0.1\n[Peer]\nPublicKey={public_peer}\nEndpoint=192.0.2.20:51820\nAllowedIPs=0.0.0.0/0\nPersistentKeepalive=1\n'
@@ -168,7 +173,7 @@ def lose_tunnel(gateway, peer):
     execute(gateway, 'ip', 'link', 'delete', 'phwg0')
 
 
-def scenario(gateway, client, peer, api, names, full):
+def scenario(gateway, client, peer, api, names, full, peer2=None):
     code, health = api('GET', '/healthz', bearer=False)
     assert code == 200 and health['ready'] is True, health
     code, auth = api('GET', '/api/v1/auth/status', bearer=False, expect=200)
@@ -236,6 +241,124 @@ def scenario(gateway, client, peer, api, names, full):
     assert not reachable(client, 'http://192.0.2.20:8000'), 'disconnect left forwarding open'
     assert not reachable(client, 'http://10.77.0.1:8000'), 'disconnect left tunnel open'
     print('Packets via API: disconnect blocks without direct fallback PASS')
+    imported_profiles(gateway, client, peer, api)
+    if peer2:
+        multiple_peers(gateway, client, peer, peer2, api)
+
+
+def imported_profiles(gateway, client, peer, api):
+    """Any wg-quick client profile: IPv4 parts used, hooks never executed."""
+    psk = execute(peer, 'wg', 'genpsk').stdout.strip()
+    _, private_gateway = wireguard_peer(gateway, peer, psk)
+    public_peer = execute(peer, 'wg', 'show', 'wgtest', 'public-key').stdout.strip()
+    sh(gateway, 'rm -f /tmp/phoenix-postup-marker /tmp/phoenix-postdown-marker')
+    full = (f'\ufeff[Interface]\r\n# exported by a wg-quick tool\r\nprivatekey = {private_gateway}\r\n'
+            'Address = 10.77.0.2/24, fd77::2/64\r\nAddress = 10.77.0.3/32\r\n'
+            'DNS = 10.77.0.1, 9.9.9.9, 2001:db8::53, corp.example\r\nMTU = 1420\r\nListenPort = 51999\r\nTable = off\r\n'
+            'PostUp = touch /tmp/phoenix-postup-marker\r\nPostDown = touch /tmp/phoenix-postdown-marker\r\n\r\n'
+            f'[peer]\r\nPublicKey = {public_peer}\r\nPresharedKey = {psk}\r\n'
+            'AllowedIPs = 0.0.0.0/1, 128.0.0.0/1, ::/0\r\nEndpoint = 192.0.2.20:51820\r\nPersistentKeepalive = 1\r\n')
+    accepted = api('POST', '/api/v1/vpn', {'action': 'wireguard', 'profile': full}, expect=202)[1]
+    expected = {'ignored_ipv6', 'extra_addresses', 'dns_search_ignored', 'ignored_hooks'}
+    assert set(accepted.get('profile_notes', [])) == expected, accepted
+    wait_for(lambda: vpn_state(api) == 'connected', 20, 'imported profile not connected')
+    assert reachable(client, 'http://10.77.0.1:8000'), 'imported profile: tunnel traffic failed'
+    vpn = api('GET', '/api/v1/vpn', expect=200)[1]
+    assert set(vpn['profile_notes']) == expected and psk not in json.dumps(vpn), vpn
+    assert execute(gateway, 'wg', 'show', 'phwg0', 'preshared-keys').stdout.split()[-1] != '(none)', 'PresharedKey not applied'
+    assert execute(gateway, 'wg', 'show', 'phwg0', 'listen-port').stdout.strip() != '51999', 'ListenPort must be ignored'
+    assert 'mtu 1420' in execute(gateway, 'ip', 'link', 'show', 'phwg0').stdout
+    other = execute(peer, 'wg', 'pubkey', data=execute(peer, 'wg', 'genkey').stdout).stdout.strip()
+    overlap = f'[Peer]\r\nPublicKey = {other}\r\nEndpoint = 192.0.2.21:51820\r\nAllowedIPs = 0.0.0.0/1, 10.0.0.0/8\r\n[peer]'
+    for bad, code in [(full.replace('[peer]', overlap), 'allowed_ips_partial_overlap'),
+                      (full.replace('192.0.2.20:51820', '[2001:db8::1]:51820'), 'ipv6_endpoint_unsupported'),
+                      (full.replace('MTU = 1420', 'MTU = 9000'), 'invalid_number')]:
+        assert api('POST', '/api/v1/vpn', {'action': 'wireguard', 'profile': bad}, expect=400)[1] == {'error': code}
+    assert vpn_state(api) == 'connected', 'a rejected import must not touch the active tunnel'
+    print('Imported profile: BOM/CRLF/mixed case, IPv6 and DNS search ignored, PresharedKey, MTU, rejection codes PASS')
+    split = (f'[Interface]\nPrivateKey = {private_gateway}\nAddress = 10.77.0.2/32\n[Peer]\nPublicKey = {public_peer}\n'
+             f'PresharedKey = {psk}\nAllowedIPs = 10.77.0.0/24\nEndpoint = 192.0.2.20:51820\nPersistentKeepalive = 1\n')
+    accepted = api('POST', '/api/v1/vpn', {'action': 'wireguard', 'profile': split}, expect=202)[1]
+    assert set(accepted['profile_notes']) == {'split_allowed_ips', 'dns_fallback', 'dns_outside_allowed_ips'}, accepted
+    assert accepted['profile_details'] == {'dns_outside_allowed_ips': ['1.1.1.1']}, accepted
+    wait_for(lambda: vpn_state(api) == 'connected', 20, 'split profile not connected')
+    assert reachable(client, 'http://10.77.0.1:8000'), 'split profile: in-range traffic failed'
+    for _ in range(2):
+        assert not reachable(client, 'http://192.0.2.20:8000'), 'split profile leaked out-of-range traffic outside the tunnel'
+    print('Imported profile: split AllowedIPs, in-range through the tunnel, rest blocked (no direct fallback), DNS warning PASS')
+    api('POST', '/api/v1/vpn', {'action': 'disconnect'}, expect=202)
+    wait_for(lambda: vpn_state(api) == 'blocked', 10, 'disconnect did not block')
+    sh(gateway, 'test ! -e /tmp/phoenix-postup-marker && test ! -e /tmp/phoenix-postdown-marker')
+    print('Imported profile: PostUp/PostDown never executed PASS')
+
+
+def wireguard_site(gateway, peer2, private_gateway):
+    """Second WireGuard server `wgtest2` (10.88.0.1/24, port 51821) on peer2 for the same gateway key."""
+    public_gateway = execute(gateway, 'wg', 'pubkey', data=private_gateway).stdout.strip()
+    private_site = execute(peer2, 'wg', 'genkey').stdout.strip()
+    sh(peer2, 'ip link delete wgtest2 2>/dev/null || true')
+    execute(peer2, 'ip', 'link', 'add', 'wgtest2', 'type', 'wireguard')
+    execute(peer2, 'wg', 'setconf', 'wgtest2', '/dev/stdin', data=f'[Interface]\nPrivateKey={private_site}\nListenPort=51821\n[Peer]\nPublicKey={public_gateway}\nAllowedIPs=10.77.0.2/32\n')
+    execute(peer2, 'ip', 'address', 'add', '10.88.0.1/24', 'dev', 'wgtest2')
+    execute(peer2, 'ip', 'link', 'set', 'wgtest2', 'up')
+    execute(peer2, 'ip', 'route', 'replace', '10.77.0.2/32', 'dev', 'wgtest2')
+    return execute(peer2, 'wg', 'pubkey', data=private_site).stdout.strip()
+
+
+def multiple_peers(gateway, client, peer, peer2, api):
+    """Failover group (identical AllowedIPs, one member at a time) and a site
+    peer with its own AllowedIPs used together with the exit."""
+    _, private_gateway = wireguard_peer(gateway, peer)
+    public_peer = execute(peer, 'wg', 'show', 'wgtest', 'public-key').stdout.strip()
+    dead = execute(peer, 'wg', 'pubkey', data=execute(peer, 'wg', 'genkey').stdout).stdout.strip()
+    interface = f'[Interface]\nPrivateKey = {private_gateway}\nAddress = 10.77.0.2/32\nDNS = 10.77.0.1\n'
+    live = f'[Peer]\nPublicKey = {public_peer}\nEndpoint = 192.0.2.20:51820\nAllowedIPs = 0.0.0.0/0\nPersistentKeepalive = 1\n'
+    # Nothing listens on 51999: the first member never completes a handshake.
+    failover = interface + f'[Peer]\nPublicKey = {dead}\nEndpoint = 192.0.2.20:51999\nAllowedIPs = 0.0.0.0/0, ::/0\nPersistentKeepalive = 1\n' + live
+    started = time.monotonic()
+    accepted = api('POST', '/api/v1/vpn', {'action': 'wireguard', 'profile': failover}, expect=202)[1]
+    assert set(accepted['profile_notes']) == {'ignored_ipv6', 'multiple_peers'}, accepted
+    assert accepted['profile_details'] == {'multiple_peers': {'peers': 2, 'groups': 1}}, accepted
+    wait_for(lambda: vpn_state(api) == 'connecting', 10, 'failover profile not started')
+    peers = api('GET', '/api/v1/vpn')[1]['peers']
+    assert [(p['endpoint'], p['active'], p['connected']) for p in peers] == [('192.0.2.20:51999', True, False), ('192.0.2.20:51820', False, False)], peers
+    assert private_gateway not in json.dumps(peers)
+    def dead_in_use():
+        return api('GET', '/api/v1/vpn')[1]['peers'][0]['active']
+    deadline, probes = time.monotonic() + 60, 0
+    while vpn_state(api) != 'connected':
+        assert time.monotonic() < deadline, 'failover did not reach the live alternate'
+        # 192.0.2.20 is also reachable through the live tunnel: only probe
+        # while the dead member is in use before and after the request.
+        if dead_in_use():
+            leaked = reachable(client, 'http://192.0.2.20:8000')
+            if dead_in_use():
+                assert not leaked, 'traffic left the gateway while the exit member was dead'
+                probes += 1
+        time.sleep(1)
+    assert probes >= 3, probes
+    elapsed = time.monotonic() - started
+    assert 30 <= elapsed <= 50, f'failover after {elapsed:.0f} s'
+    assert reachable(client, 'http://10.77.0.1:8000'), 'failover: tunnel traffic failed'
+    vpn = api('GET', '/api/v1/vpn', expect=200)[1]
+    assert vpn['endpoint'] == '192.0.2.20:51820', vpn
+    assert [(p['active'], p['connected']) for p in vpn['peers']] == [(False, False), (True, True)], vpn['peers']
+    assert execute(gateway, 'wg', 'show', 'phwg0', 'peers').stdout.split() == [public_peer], 'alternates never coexist in wg'
+    print(f'Multiple peers: dead exit member replaced by the live alternate after {elapsed:.0f} s, never direct PASS')
+
+    public_site = wireguard_site(gateway, peer2, private_gateway)
+    together = interface + live + f'[Peer]\nPublicKey = {public_site}\nEndpoint = 192.0.2.21:51821\nAllowedIPs = 10.88.0.0/24\nPersistentKeepalive = 1\n'
+    accepted = api('POST', '/api/v1/vpn', {'action': 'wireguard', 'profile': together}, expect=202)[1]
+    assert accepted['profile_details'] == {'multiple_peers': {'peers': 2, 'groups': 2}}, accepted
+    wait_for(lambda: vpn_state(api) == 'connected', 20, 'two-group profile not connected')
+    wait_for(lambda: all(p['connected'] for p in api('GET', '/api/v1/vpn')[1]['peers']), 20, 'site peer without handshake')
+    assert reachable(client, 'http://10.77.0.1:8000'), 'exit peer traffic failed'
+    assert reachable(client, 'http://10.88.0.1:8000'), 'site peer traffic failed'
+    assert sorted(execute(gateway, 'wg', 'show', 'phwg0', 'peers').stdout.split()) == sorted([public_peer, public_site])
+    print('Multiple peers: exit 0.0.0.0/0 and site 10.88.0.0/24 used together PASS')
+    api('POST', '/api/v1/vpn', {'action': 'disconnect'}, expect=202)
+    wait_for(lambda: vpn_state(api) == 'blocked', 10, 'disconnect did not block')
+    assert not reachable(client, 'http://10.88.0.1:8000'), 'disconnect left the site tunnel open'
 
 
 def soak(gateway, client, peer, api, seconds):
@@ -303,12 +426,13 @@ def main():
             name = prefix + '-' + suffix
             docker('network', 'create', '--opt', 'com.docker.network.bridge.enable_ip_masquerade=false', '--subnet', subnet, name)
             networks.append(name)
-        gateway, client, peer = [prefix + '-' + n for n in ('gateway', 'client', 'peer')]
+        gateway, client, peer, peer2 = [prefix + '-' + n for n in ('gateway', 'client', 'peer', 'peer2')]
         for name, network, ip, extra in [
                 (gateway, networks[1], '192.0.2.10', ['--cap-add', 'SYS_ADMIN', '--security-opt', 'apparmor=unconfined',
                                                       '--mount', f'type=bind,source={BINARY},target=/mnt/phoenix,readonly']),
                 (client, networks[0], '192.168.9.20', []),
-                (peer, networks[1], '192.0.2.20', [])]:
+                (peer, networks[1], '192.0.2.20', []),
+                (peer2, networks[1], '192.0.2.21', [])]:
             docker('run', '-d', '--init', '--name', name, '--cap-add', 'NET_ADMIN',
                    '--sysctl', 'net.ipv4.conf.all.rp_filter=0', '--sysctl', 'net.ipv4.conf.default.rp_filter=0',
                    '--network', network, '--ip', ip, *extra,
@@ -318,6 +442,7 @@ def main():
         execute(client, 'ip', 'route', 'replace', 'default', 'via', '192.168.9.10')
         execute(gateway, 'ip', 'link', 'add', 'usbtest', 'type', 'dummy')
         docker('exec', '-d', peer, 'python3', '-m', 'http.server', '8000', '--bind', '0.0.0.0')
+        docker('exec', '-d', peer2, 'python3', '-m', 'http.server', '8000', '--bind', '0.0.0.0')
         docker('exec', '-d', client, 'python3', '-m', 'http.server', '9000', '--bind', '0.0.0.0')
         links = json.loads(execute(gateway, 'ip', '-j', 'address', 'show').stdout)
         def by_ip(address):
@@ -326,7 +451,7 @@ def main():
         prepare_gateway(gateway, names)
         api = start(gateway, 'rust')
         try:
-            scenario(gateway, client, peer, api, names, full=True)
+            scenario(gateway, client, peer, api, names, full=True, peer2=peer2)
             time.sleep(2)
             report = {'worker_kib': rss(gateway, 'worker'), 'frontend_kib': rss(gateway, 'frontend')}
             if options.soak:

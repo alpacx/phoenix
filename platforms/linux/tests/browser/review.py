@@ -65,6 +65,45 @@ with sync_playwright() as p:
     for target in ('forwarding', 'nord', 'vpn', 'network', 'system'):
         page.goto(BASE + '/#' + target)
         expect(page.locator('#page-' + target)).to_be_visible()
+    # Extended WireGuard import (Linux capability): help text, and a rejected
+    # profile reports its specific reason without touching the gateway state.
+    page.goto(BASE + '/#vpn')
+    expect(page.locator('#wg-help')).to_contain_text('anche con più [Peer]')
+    expect(page.locator('#wg-peers-card')).to_be_hidden()
+    duplicate_peers = ('[Interface]\nPrivateKey = AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=\nAddress = 10.5.0.2/32\n'
+                 '[Peer]\nPublicKey = ICEiIyQlJicoKSorLC0uLzAxMjM0NTY3ODk6Ozw9Pj8=\nEndpoint = 192.0.2.20:51820\nAllowedIPs = 0.0.0.0/0\n'
+                 '[Peer]\nPublicKey = ICEiIyQlJicoKSorLC0uLzAxMjM0NTY3ODk6Ozw9Pj8=\nEndpoint = 192.0.2.21:51820\nAllowedIPs = 0.0.0.0/0\n')
+    page.locator('#wg-profile').fill(duplicate_peers)
+    page.locator('#wg-form [type=submit]').click()
+    page.locator('#confirm-ok').click()
+    expect(page.locator('#notice')).to_contain_text('stessa chiave pubblica')
+    expect(page.locator('#wg-profile')).not_to_have_value('')
+    page.locator('#wg-profile').fill('')
+    # Peer list (multi-peer profiles): status augmented in the browser only.
+    peers = [
+        {'group': 0, 'public_key_fingerprint': 'AQEBAQEB…', 'endpoint': '192.0.2.20:51999', 'address': None,
+         'allowed_ips': ['0.0.0.0/0'], 'active': False, 'latest_handshake_age_s': None, 'connected': False},
+        {'group': 1, 'public_key_fingerprint': 'AgICAgIC…', 'endpoint': '<b>site</b>.example:51821', 'address': '192.0.2.21',
+         'allowed_ips': ['10.88.0.0/24'], 'active': True, 'latest_handshake_age_s': None, 'connected': False},
+        {'group': 0, 'public_key_fingerprint': 'AwMDAwMD…', 'endpoint': '192.0.2.20:51820', 'address': '192.0.2.20',
+         'allowed_ips': ['0.0.0.0/0'], 'active': True, 'latest_handshake_age_s': 4, 'connected': True},
+    ]
+    def with_peers(route):
+        response = route.fetch()
+        body = response.json()
+        body.update(provider='wireguard', peers=peers)
+        route.fulfill(response=response, json=body)
+    page.route('**/api/v1/vpn', with_peers)
+    page.evaluate('poll()')
+    card = page.locator('#wg-peers-card')
+    expect(card).to_be_visible()
+    expect(page.locator('#wg-peers .rule-item')).to_have_count(3)
+    for text in ('Riserva', 'Senza handshake', 'Attivo', 'handshake 0m 4s fa', '<b>site</b>.example:51821 · 192.0.2.21'):
+        expect(card).to_contain_text(text)
+    assert page.locator('#wg-peers b').count() == 0, 'peer fields must be rendered as text'
+    page.unroute('**/api/v1/vpn')
+    page.evaluate('poll()')
+    expect(card).to_be_hidden()
     page.goto(BASE + '/#network')
     expect(page.locator('#save-uplink')).to_be_disabled()
     page.locator('[data-action="direct"]').click()
@@ -92,6 +131,6 @@ with sync_playwright() as p:
     expect(page.locator('#app')).to_be_hidden()
     assert not errors, errors
     print(json.dumps({'browser': engine, 'pages': 7, 'widths': [1440, 390, 320], 'policy_roundtrip': True,
-                      'forwarding_roundtrip': True, 'reload_without_login_flash': True, 'offline_recovery': True, 'logout_invalid_login': True,
+                      'forwarding_roundtrip': True, 'reload_without_login_flash': True, 'wireguard_import_rejection': True, 'peer_list': True, 'offline_recovery': True, 'logout_invalid_login': True,
                       'javascript_errors': errors}))
     browser.close()

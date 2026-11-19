@@ -186,7 +186,7 @@ impl Lan {
 
     pub fn usb(name: &str, dns: &str, directory: &Path, runner: SharedRunner) -> Result<Lan> {
         let name = interface(name)?;
-        let dns = ipv4::address(dns)?.to_string();
+        let dns = ipv4::dns_list(dns)?;
         let mut lan = Lan::base(Kind::Usb, name, directory, runner);
         lan.dns = dns.clone();
         lan.default_dns = dns;
@@ -316,7 +316,7 @@ impl Lan {
                 Ok(configs)
             }
             Kind::Usb => {
-                let dns = ipv4::address(dns)?;
+                let dns = ipv4::dns_list(dns)?;
                 Ok(vec![(
                     "dnsmasq.conf",
                     format!(
@@ -726,7 +726,8 @@ pub mod tests {
         lan.stop();
     }
 
-    /// One busybox udhcpc exchange on `interface`: (address, router, dns).
+    /// One busybox udhcpc exchange on `interface`: (address, router, dns
+    /// servers separated by spaces).
     fn udhcpc_lease(directory: &Path, interface: &str) -> (String, String, String) {
         use std::os::unix::fs::PermissionsExt;
         let lease = directory.join("lease");
@@ -745,8 +746,8 @@ pub mod tests {
         assert!(status.success(), "no DHCP lease on {interface}");
         let text = std::fs::read_to_string(&lease).unwrap();
         let fields: Vec<String> = text.split_whitespace().map(str::to_string).collect();
-        assert_eq!(fields.len(), 3, "{text}");
-        (fields[0].clone(), fields[1].clone(), fields[2].clone())
+        assert!(fields.len() >= 3, "{text}");
+        (fields[0].clone(), fields[1].clone(), fields[2..].join(" "))
     }
 
     /// Real ip + dnsmasq on a veth pair, with a real DHCP client on the peer
@@ -780,6 +781,10 @@ pub mod tests {
         assert!(lan.healthy());
         let (renewed, router, dns) = udhcpc_lease(tmp.path(), "phclientk0");
         assert_eq!((renewed.as_str(), router.as_str(), dns.as_str()), (address.as_str(), "192.168.7.1", "9.9.9.9"));
+        // Imported WireGuard profiles may carry up to three resolvers.
+        lan.set_dns("10.64.0.1,9.9.9.9,1.0.0.1").unwrap();
+        let (_, _, dns) = udhcpc_lease(tmp.path(), "phclientk0");
+        assert_eq!(dns.split_whitespace().collect::<Vec<_>>(), ["10.64.0.1", "9.9.9.9", "1.0.0.1"]);
         lan.stop();
         assert!(!lan.healthy());
         let addresses = system.run(&["ip", "-4", "address", "show", "dev", "phusbk0"]).unwrap().stdout;

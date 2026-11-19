@@ -11,7 +11,7 @@ use crate::firewall::{compile_rules, interface, Mode, Names};
 use crate::json::{self, json, Map, Value};
 use crate::py::{self, Clock};
 use crate::runner::SharedRunner;
-use crate::wireguard::Profile;
+use crate::wireguard::{Peer, Profile};
 use crate::{ipv4, nord, speedcheck, uplink_http};
 use std::path::{Path, PathBuf};
 use std::sync::{Arc, Mutex};
@@ -32,12 +32,16 @@ pub struct RuntimeState {
 /// (path, headers, uplink device, fwmark) -> JSON; production uplink_http::get.
 pub type NordTransport = Arc<dyn Fn(&str, &[(String, String)], &str, u32) -> Result<Value> + Send + Sync>;
 
+/// (host name, uplink device, fwmark) -> IPv4; production uplink_http::resolve.
+pub type EndpointResolver = Arc<dyn Fn(&str, &str, u32) -> Result<std::net::Ipv4Addr> + Send + Sync>;
+
 pub struct Runtime {
     pub run: SharedRunner,
     clock: Clock,
     state: Mutex<RuntimeState>,
     root: PathBuf,
     transport: NordTransport,
+    resolver: EndpointResolver,
 }
 
 const MARK: &str = "0x5048";
@@ -72,7 +76,14 @@ impl Runtime {
             policy: None,
             enforced: false,
         };
-        Ok(Runtime { run: runner, clock, state: Mutex::new(state), root: PathBuf::from("/"), transport: Arc::new(uplink_http::get) })
+        Ok(Runtime {
+            run: runner,
+            clock,
+            state: Mutex::new(state),
+            root: PathBuf::from("/"),
+            transport: Arc::new(uplink_http::get),
+            resolver: Arc::new(uplink_http::resolve),
+        })
     }
 
     /// Test hook: read /proc and /sys/class/thermal below `root`.
@@ -85,6 +96,41 @@ impl Runtime {
     pub fn with_nord_transport(mut self, transport: NordTransport) -> Self {
         self.transport = transport;
         self
+    }
+
+    /// Test hook: replace the bound DoH resolver for endpoint host names.
+    pub fn with_resolver(mut self, resolver: EndpointResolver) -> Self {
+        self.resolver = resolver;
+        self
+    }
+
+    /// Profile whose members in use have numeric endpoints. Host names are
+    /// resolved at every connect and member switch through DoH on the
+    /// selected uplink (same path and mark as the NordVPN API), never the
+    /// system resolver.
+    pub fn resolve_endpoint(&self, profile: &Profile) -> Result<Profile> {
+        let mut resolved = profile.clone();
+        for group in 0..profile.groups.len() {
+            resolved = self.resolve_member(&resolved, group)?;
+        }
+        Ok(resolved)
+    }
+
+    fn resolve_member(&self, profile: &Profile, group: usize) -> Result<Profile> {
+        let index = profile.active_index(group);
+        let peer = &profile.peers[index];
+        if peer.endpoint_name.is_empty() {
+            return Ok(profile.clone());
+        }
+        let (uplink, selected) = {
+            let state = self.state.lock().unwrap();
+            (state.names.uplink.clone(), state.selected_route)
+        };
+        let mark = if selected { 0x5048 } else { 0 };
+        match (self.resolver)(&peer.endpoint_name, &uplink, mark) {
+            Ok(address) => Ok(profile.with_peer(index, peer.resolved(address))),
+            Err(_) => Err(network_error("endpoint_resolution_failed")),
+        }
     }
 
     pub fn state(&self) -> RuntimeState {
@@ -161,7 +207,26 @@ impl Runtime {
         }
     }
 
+    /// Endpoint packets originate locally and must keep using the uplink route.
+    fn check_endpoint_route(&self, peer: &Peer, names: &Names, selected: bool) -> Result<()> {
+        let endpoint = peer.endpoint_ip().ok_or_else(|| network_error("endpoint_not_resolved"))?.to_string();
+        let mut command = vec!["ip", "-j", "route", "get", endpoint.as_str()];
+        if selected {
+            command.extend(["mark", MARK]);
+        }
+        let routes = json::parse(self.run.run(&command)?.stdout.as_bytes())?;
+        let dev = routes.as_array().and_then(|r| r.first()).and_then(|r| r.get("dev")).and_then(Value::as_str);
+        if dev != Some(names.uplink.as_str()) {
+            return Err(network_error("endpoint_route_not_selected_uplink"));
+        }
+        Ok(())
+    }
+
     fn connect_steps(&self, policy: &Value, profile: &Profile) -> Result<()> {
+        if !profile.resolved() {
+            // wg would otherwise resolve the name with the system resolver.
+            return Err(network_error("endpoint_not_resolved"));
+        }
         let (names, selected) = {
             let state = self.state.lock().unwrap();
             (state.names.clone(), state.selected_route)
@@ -183,20 +248,43 @@ impl Runtime {
         }
         run.optional(&["ip", "rule", "del", "priority", "17702"])?;
         run.run(&["ip", "rule", "add", "priority", "17702", "oif", "phwg0", "lookup", "17700"])?;
-        // Endpoint packets originate locally and continue to use the existing uplink route.
-        let endpoint = profile.endpoint.split(':').next().unwrap_or("");
-        let mut command = vec!["ip", "-j", "route", "get", endpoint];
-        if selected {
-            command.extend(["mark", MARK]);
-        }
-        let routes = json::parse(run.run(&command)?.stdout.as_bytes())?;
-        let dev = routes.as_array().and_then(|r| r.first()).and_then(|r| r.get("dev")).and_then(Value::as_str);
-        if dev != Some(names.uplink.as_str()) {
-            return Err(network_error("endpoint_route_not_selected_uplink"));
+        for peer in profile.active_peers() {
+            self.check_endpoint_route(peer, &names, selected)?;
         }
         self.set_profile(Some(profile.clone()));
         // WG mode sends clients only to phwg0, never plaintext to the uplink.
         self.firewall(policy, Mode::Vpn)
+    }
+
+    /// Failover: replace the member in use for `group` with the next
+    /// alternate (round robin), leaving the other groups' peers untouched.
+    /// The old peer is removed first; keys travel only on stdin. When the
+    /// next member's host name does not resolve, the group stays without a
+    /// peer (its traffic is dropped) and the error is returned; the next
+    /// switch moves on from it.
+    pub fn switch_member(&self, group: usize) -> Result<()> {
+        let (mode, profile, names, selected) = {
+            let state = self.state.lock().unwrap();
+            (state.mode, state.profile.clone(), state.names.clone(), state.selected_route)
+        };
+        let Some(profile) = profile.filter(|p| mode == Mode::Vpn && group < p.groups.len()) else {
+            return Err(network_error("vpn_not_connected"));
+        };
+        let old = profile.active_peer(group).public_key.clone();
+        let next = profile.with_member(group, profile.active[group] + 1);
+        self.run.optional(&["wg", "set", "phwg0", "peer", &old, "remove"])?;
+        let resolved = match self.resolve_member(&next, group) {
+            Ok(resolved) => resolved,
+            Err(error) => {
+                self.set_profile(Some(next));
+                return Err(error);
+            }
+        };
+        let peer = resolved.active_peer(group).clone();
+        self.set_profile(Some(resolved));
+        self.check_endpoint_route(&peer, &names, selected)?;
+        self.run.input(&["wg", "addconf", "phwg0", "/dev/stdin"], &peer.block())?;
+        Ok(())
     }
 
     pub fn disconnect(&self, policy: &Value) -> Result<()> {
@@ -214,35 +302,57 @@ impl Runtime {
         self.firewall(policy, Mode::Direct)
     }
 
-    /// Latest handshake for our peer at most 180 s old. A failing `wg` reads
-    /// as "not connected" (Python let runner exceptions escape here).
-    pub fn handshake(&self) -> bool {
+    /// The tunnel profile in use and, per group, the age in seconds of its
+    /// active member's latest handshake (None: never, or unreadable). None
+    /// outside VPN mode or when `wg` fails.
+    pub fn group_handshakes(&self) -> Option<(Profile, Vec<Option<f64>>)> {
         let (mode, profile) = {
             let state = self.state.lock().unwrap();
             (state.mode, state.profile.clone())
         };
-        let Some(profile) = profile.filter(|_| mode == Mode::Vpn) else {
-            return false;
-        };
-        let Ok(result) = self.run.optional(&["wg", "show", "phwg0", "latest-handshakes"]) else {
-            return false;
-        };
+        let profile = profile.filter(|_| mode == Mode::Vpn)?;
+        let result = self.run.optional(&["wg", "show", "phwg0", "latest-handshakes"]).ok()?;
         if result.code != 0 {
-            return false;
+            return None;
         }
+        let now = (self.clock)();
+        let mut latest = std::collections::HashMap::new();
         for row in py::splitlines(&result.stdout) {
             let fields = py::split_ws(row);
-            if fields.len() == 2 && fields[0] == profile.public_key {
-                return match fields[1].parse::<i64>() {
-                    Ok(at) => {
-                        let age = (self.clock)() - at as f64;
-                        (0.0..=180.0).contains(&age) && at > 0
-                    }
-                    Err(_) => false,
-                };
+            if fields.len() == 2 {
+                if let Ok(at) = fields[1].parse::<i64>() {
+                    latest.insert(fields[0].to_string(), at);
+                }
             }
         }
-        false
+        let ages = profile
+            .active_peers()
+            .iter()
+            .map(|peer| latest.get(&peer.public_key).filter(|at| **at > 0).map(|at| now - *at as f64))
+            .collect();
+        Some((profile, ages))
+    }
+
+    /// A handshake at most 180 s old.
+    pub fn recent(age: Option<f64>) -> bool {
+        age.map(|a| (0.0..=180.0).contains(&a)).unwrap_or(false)
+    }
+
+    /// Connected: some member in use has a recent handshake and, when a
+    /// group is the Internet exit (AllowedIPs cover everything), that
+    /// group's member has one.
+    pub fn connected(profile: &Profile, ages: &[Option<f64>]) -> bool {
+        let any = ages.iter().any(|a| Runtime::recent(*a));
+        match profile.exit_group() {
+            Some(group) => any && Runtime::recent(ages[group]),
+            None => any,
+        }
+    }
+
+    /// See `connected`. A failing `wg` reads as "not connected" (Python let
+    /// runner exceptions escape here).
+    pub fn handshake(&self) -> bool {
+        self.group_handshakes().map(|(profile, ages)| Runtime::connected(&profile, &ages)).unwrap_or(false)
     }
 
     fn read(&self, relative: &str) -> Result<String> {
@@ -510,6 +620,153 @@ pub mod tests {
         assert_eq!(argvs[3..7], ["conntrack -D -f ipv4 -s 192.168.7.0/24", "conntrack -D -f ipv4 -d 192.168.7.0/24", "conntrack -D -f ipv4 -s 192.168.9.0/24", "conntrack -D -f ipv4 -d 192.168.9.0/24"]);
         let last = calls.last().unwrap();
         assert!(last.input.as_ref().unwrap().contains("masquerade"));
+    }
+
+    /// Host-name endpoints: resolved by the injected DoH resolver on the
+    /// uplink (mark only with a selected route), never handed to wg.
+    #[test]
+    fn hostname_endpoint_is_resolved_on_the_uplink() {
+        let key = key();
+        let text = format!("[Interface]\nPrivateKey={key}\nAddress=10.5.0.2/32\n[Peer]\nPublicKey={key}\nEndpoint=vpn.example.org:51821\nAllowedIPs=0.0.0.0/0\n");
+        let profile = parse(&text).unwrap();
+        let seen = Arc::new(Mutex::new(Vec::new()));
+        let s = seen.clone();
+        let runner = fake(None);
+        let rt = runtime(runner.clone(), 1010.0).with_resolver(Arc::new(move |name, device, mark| {
+            s.lock().unwrap().push((name.to_string(), device.to_string(), mark));
+            Ok(std::net::Ipv4Addr::new(192, 0, 2, 1))
+        }));
+        // Never connects with the name: wg would use the system resolver.
+        assert_eq!(rt.connect(&base(), &profile).unwrap_err().code(), "endpoint_not_resolved");
+        assert!(runner.calls.lock().unwrap().iter().all(|c| c.argv[0] != "wg"));
+        assert_eq!(rt.mode(), Mode::Blocked);
+        let resolved = rt.resolve_endpoint(&profile).unwrap();
+        assert_eq!((resolved.primary().endpoint.as_str(), resolved.primary().endpoint_name.as_str()), ("192.0.2.1:51821", "vpn.example.org"));
+        rt.connect(&base(), &resolved).unwrap();
+        let calls = runner.calls.lock().unwrap().clone();
+        let setconf = calls.iter().find(|c| c.argv[0] == "wg").unwrap().input.clone().unwrap();
+        assert!(setconf.contains("Endpoint = 192.0.2.1:51821\n") && !setconf.contains("example"), "{setconf}");
+        assert!(calls.iter().any(|c| c.argv.join(" ") == "ip -j route get 192.0.2.1"));
+        rt.state.lock().unwrap().selected_route = true;
+        rt.resolve_endpoint(&profile).unwrap();
+        assert_eq!(seen.lock().unwrap().clone(), vec![("vpn.example.org".to_string(), "end0".to_string(), 0), ("vpn.example.org".to_string(), "end0".to_string(), 0x5048)]);
+        let numeric = parse(&profile_text()).unwrap();
+        assert_eq!(rt.resolve_endpoint(&numeric).unwrap(), numeric, "numeric endpoints need no lookup");
+        assert_eq!(seen.lock().unwrap().len(), 2);
+        let failing = runtime(fake(None), 0.0).with_resolver(Arc::new(|_, _, _| Err(Error::Network("boom".into()))));
+        assert_eq!(failing.resolve_endpoint(&profile).unwrap_err().code(), "endpoint_resolution_failed");
+    }
+
+    /// Split AllowedIPs reach wg verbatim; Phoenix still sends every client
+    /// packet into phwg0 (kill switch), so the rest is dropped, not leaked.
+    #[test]
+    fn split_allowed_ips_keep_the_kill_switch() {
+        let key = key();
+        let text = format!("[Interface]\nPrivateKey={key}\nAddress=10.5.0.2/32,fd00::2/128\nDNS=10.0.0.1,9.9.9.9\nPostUp=touch /tmp/never\n[Peer]\nPublicKey={key}\nEndpoint=192.0.2.1:51820\nAllowedIPs=10.0.0.0/24, 192.168.50.0/24, ::/0\n");
+        let runner = fake(None);
+        let rt = runtime(runner.clone(), 1010.0);
+        rt.connect(&base(), &parse(&text).unwrap()).unwrap();
+        let calls = runner.calls.lock().unwrap().clone();
+        let setconf = calls.iter().find(|c| c.argv[0] == "wg").unwrap().input.clone().unwrap();
+        assert!(setconf.contains("AllowedIPs = 10.0.0.0/24, 192.168.50.0/24\n"), "{setconf}");
+        let argvs: Vec<String> = calls.iter().map(|c| c.argv.join(" ")).collect();
+        assert!(argvs.contains(&"ip route replace table 17700 default dev phwg0".to_string()));
+        assert!(argvs.contains(&"ip address add 10.5.0.2/32 dev phwg0".to_string()));
+        assert!(argvs.iter().all(|a| !a.contains("touch") && !a.contains("fd00")), "{argvs:?}");
+        assert_eq!(rt.mode(), Mode::Vpn);
+    }
+
+    /// Multi-peer profile: exit failover group (two 0.0.0.0/0 alternates, the
+    /// second with a host name and a preshared key) plus a site group.
+    pub fn multi_peer_text() -> String {
+        let key = key();
+        let peer = |n: u8| base64::engine::general_purpose::STANDARD.encode([n; 32]);
+        let psk = base64::engine::general_purpose::STANDARD.encode([9u8; 32]);
+        format!(
+            "[Interface]\nPrivateKey={key}\nAddress=10.5.0.2/32\nDNS=10.88.0.1\n\
+             [Peer]\nPublicKey={}\nEndpoint=192.0.2.1:51820\nAllowedIPs=0.0.0.0/0\nPersistentKeepalive=25\n\
+             [Peer]\nPublicKey={}\nEndpoint=site.example.org:51822\nAllowedIPs=10.88.0.0/24\n\
+             [Peer]\nPublicKey={}\nPresharedKey={psk}\nEndpoint=backup.example.org:51821\nAllowedIPs=0.0.0.0/0\nPersistentKeepalive=25\n",
+            peer(1),
+            peer(2),
+            peer(3)
+        )
+    }
+
+    /// Handshakes per public key (epoch seconds; 0 = never).
+    fn multi_fake(handshakes: Arc<Mutex<Vec<(String, i64)>>>) -> Arc<FakeRunner> {
+        Arc::new(FakeRunner::with(move |argv, _| {
+            if argv.len() >= 4 && argv[..4] == ["ip", "-j", "route", "get"] {
+                return ok(r#"[{"dev":"end0"}]"#);
+            }
+            if argv.len() >= 3 && argv[..3] == ["wg", "show", "phwg0"] {
+                return ok(&handshakes.lock().unwrap().iter().map(|(k, at)| format!("{k}\t{at}\n")).collect::<String>());
+            }
+            ok("")
+        }))
+    }
+
+    #[test]
+    fn multi_peer_connect_switch_and_handshakes() {
+        let peer = |n: u8| base64::engine::general_purpose::STANDARD.encode([n; 32]);
+        let psk = base64::engine::general_purpose::STANDARD.encode([9u8; 32]);
+        let handshakes = Arc::new(Mutex::new(vec![(peer(1), 0), (peer(2), 1000)]));
+        let runner = multi_fake(handshakes.clone());
+        let lookups = Arc::new(Mutex::new(Vec::new()));
+        let l = lookups.clone();
+        let rt = runtime(runner.clone(), 1010.0).with_resolver(Arc::new(move |name, _, _| {
+            l.lock().unwrap().push(name.to_string());
+            Ok(if name == "site.example.org" { std::net::Ipv4Addr::new(192, 0, 2, 22) } else { std::net::Ipv4Addr::new(192, 0, 2, 21) })
+        }));
+        let profile = rt.resolve_endpoint(&parse(&multi_peer_text()).unwrap()).unwrap();
+        assert_eq!(lookups.lock().unwrap().clone(), vec!["site.example.org"], "only members in use are resolved");
+        rt.connect(&base(), &profile).unwrap();
+        let calls = runner.calls.lock().unwrap().clone();
+        let setconf = calls.iter().find(|c| c.argv[..2] == ["wg", "setconf"]).unwrap().input.clone().unwrap();
+        assert_eq!(setconf.matches("[Peer]").count(), 2, "one member per group: {setconf}");
+        assert!(setconf.contains(&peer(1)) && setconf.contains(&peer(2)) && !setconf.contains(&peer(3)));
+        let routes: Vec<String> = calls.iter().map(|c| c.argv.join(" ")).filter(|a| a.starts_with("ip -j route get")).collect();
+        assert_eq!(routes, ["ip -j route get 192.0.2.1", "ip -j route get 192.0.2.22"], "every endpoint in use stays on the uplink");
+
+        // Site group up, exit member without handshake: not connected.
+        let (_, ages) = rt.group_handshakes().unwrap();
+        assert_eq!(ages, vec![None, Some(10.0)]);
+        assert!(!rt.handshake());
+
+        runner.calls.lock().unwrap().clear();
+        rt.switch_member(0).unwrap();
+        let calls = runner.calls.lock().unwrap().clone();
+        let argvs: Vec<String> = calls.iter().map(|c| c.argv.join(" ")).collect();
+        assert_eq!(argvs, [format!("wg set phwg0 peer {} remove", peer(1)), "ip -j route get 192.0.2.21".to_string(), "wg addconf phwg0 /dev/stdin".to_string()]);
+        let added = calls[2].input.clone().unwrap();
+        assert!(added.contains(&peer(3)) && added.contains(&format!("PresharedKey = {psk}")) && added.contains("Endpoint = 192.0.2.21:51821"), "{added}");
+        assert!(argvs.iter().all(|a| !a.contains(&psk) && !a.contains(&key())), "no secrets in argv");
+        assert!(argvs.iter().all(|a| !a.contains(&peer(2))), "the site group is untouched");
+        assert_eq!(lookups.lock().unwrap().last().unwrap(), "backup.example.org", "resolved again at the switch");
+        let current = rt.profile().unwrap();
+        assert_eq!(current.primary().public_key, peer(3));
+
+        handshakes.lock().unwrap().push((peer(3), 1005));
+        assert!(rt.handshake(), "exit alternate and site both up");
+        handshakes.lock().unwrap()[1].1 = 0;
+        assert!(rt.handshake(), "a failing site group does not disconnect the exit");
+
+        // Round robin back to the first member.
+        rt.switch_member(0).unwrap();
+        assert_eq!(rt.profile().unwrap().primary().public_key, peer(1));
+
+        // Unresolvable alternate: group left without a peer, next switch moves on.
+        let failing = runtime(multi_fake(handshakes.clone()), 1010.0).with_resolver(Arc::new(|name, _, _| {
+            if name == "backup.example.org" { Err(Error::Network("down".into())) } else { Ok(std::net::Ipv4Addr::new(192, 0, 2, 22)) }
+        }));
+        let profile = failing.resolve_endpoint(&parse(&multi_peer_text()).unwrap()).unwrap();
+        failing.connect(&base(), &profile).unwrap();
+        assert_eq!(failing.switch_member(0).unwrap_err().code(), "endpoint_resolution_failed");
+        assert_eq!(failing.profile().unwrap().active, vec![1, 0]);
+        failing.switch_member(0).unwrap();
+        assert_eq!(failing.profile().unwrap().active, vec![0, 0]);
+        failing.disconnect(&base()).unwrap();
+        assert_eq!(failing.switch_member(0).unwrap_err().code(), "vpn_not_connected");
     }
 
     #[test]

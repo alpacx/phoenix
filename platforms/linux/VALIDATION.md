@@ -38,8 +38,32 @@ ancora stata eseguita perché il workflow non è pubblicato.
   caricato dal pannello e attivato (release `11-5faa8de28eeb0f62`), vedere
   [BRINGUP](boards/rock4c-plus/BRINGUP.md).
 
+- **Import WireGuard esteso (19/11)**: 154 test unitari + 5 parità (profili tipo Mullvad,
+  Proton, wg-easy, Surfshark; rifiuti con codice), parità con le categorie di
+  rilassamento documentate, risoluzione del nome dell'endpoint via DoH
+  sull'uplink nel namespace di test, DHCP reale con 3 DNS, black-box con
+  profilo wg-quick completo (PresharedKey, MTU 1420, IPv6 e PostUp ignorati:
+  nessun file marcatore creato), rifiuti 400 senza toccare il tunnel attivo e
+  AllowedIPs parziali (10.77.0.0/24 raggiungibile, resto bloccato). Browser ×3:
+  testo esteso e messaggio specifico di rifiuto.
+- **Più `[Peer]` e avviso DNS (19/11)**: 159 test unitari + 5 parità invariati
+  (raggruppamento, sovrapposizione parziale, chiavi duplicate, limite 16,
+  avviso DNS anche sul ripiego; runtime: un membro per gruppo in `setconf`,
+  cambio con `wg set … remove` + `wg addconf` da stdin senza chiavi in argv,
+  altri gruppi intatti, nuova risoluzione del nome; controller: rotazione dopo
+  30 s, storico sull'alternativa, blocco e riconnessione a giro esaurito).
+  Black-box: gruppo di failover con primo membro morto (porta senza
+  listener) → alternativa connessa dopo **33 s**, nessuna uscita diretta nel
+  frattempo, mai due alternative in `wg`; uscita 0.0.0.0/0 + sito
+  10.88.0.0/24 su un secondo server, entrambi raggiungibili dal client; nota e
+  dettaglio `dns_outside_allowed_ips` (1.1.1.1) sul profilo parziale. Kernel
+  6/6. Browser ×3: elenco peer (Attivo/Riserva/Senza handshake, campi resi
+  come testo) e flusso password.
+
 Non provati: enumerazione USB, radio/AP reali in questi test, handshake con un
 provider VPN reale, throughput, power loss durante scritture.
+L'endpoint per nome con un DNS pubblico reale non è provato (solo fixture DoH
+locale).
 
 ### Riproduzione (dalla root, solo Docker sul Mac)
 
