@@ -1,0 +1,39 @@
+{
+  "board_sha256": "4d60ab3de2dbc0e695f5e87d2293bd2f0bdd2409fdf1df987a795e910a651fa4",
+  "pairs": [
+    "C515.1/C518.1",
+    "C518.1/U5.40",
+    "R530.2/C515.1",
+    "C511.1/U5.38",
+    "C518.2/C511.2"
+  ],
+  "intact": [
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "tests": [
+    {
+      "cut": "distribution",
+      "checks": [
+        false,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "cut": "local_plated_via",
+      "checks": [
+        false,
+        false,
+        true,
+        true,
+        true
+      ]
+    }
+  ]
+}

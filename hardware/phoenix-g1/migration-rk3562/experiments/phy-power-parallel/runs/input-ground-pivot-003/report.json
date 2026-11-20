@@ -1,0 +1,310 @@
+{
+  "source": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/load-c513-16v/phy-joint.kicad_pcb",
+  "source_sha256": "5c1a9dc6f24f6edb4a36dbd185c412bc4c22793d600fa9e0f9161609c1501137",
+  "candidate": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/input-ground-pivot-003/phy-joint.kicad_pcb",
+  "candidate_sha256": "3eeb17051014827e68ea9a7312cded30d6428098164cb51b5af5208e7938ce80",
+  "removed": [
+    "1ad19a1a-0863-4aaa-b893-28fb4962b352",
+    "2094f0ff-47bd-4fd3-af6a-bd317e21fe3f",
+    "22caef1c-b892-4935-9b62-bd39a5862037",
+    "4b31d0b4-74e4-4dc3-bd20-9fbb9550e710",
+    "4d4868b9-878f-48b6-885c-777a060c8a01",
+    "54026eb4-3728-4b0f-976d-5de1ff350cc9",
+    "5f25f381-9865-46a1-bd4b-535d2ab52098",
+    "6834c2c2-b08b-42bd-8852-d837134d1fbe",
+    "7ade26e3-e5a4-45fb-8953-f5817e0ad61c",
+    "8d6c583c-2608-48bc-93a1-55e0b248ff36",
+    "ac9188c5-cef1-4059-bbbb-89fd39cabc41",
+    "ada26e02-1595-4645-9e22-f405bb52a0d2",
+    "c30195fc-d36b-4b0c-b416-8e3121ecd49d",
+    "d4de54cd-e2f7-4f51-af19-20935565404f",
+    "d4eaa731-ddb7-40e7-b9db-59b3b7d503fc",
+    "d88ff393-d177-48bf-9227-95175de167b2",
+    "e0858fed-9677-4a70-a508-f0923fd9ef81",
+    "ecb7af68-4403-4cd1-b8cc-4f825372db8f",
+    "f6a34e68-f559-4f2a-bc54-6beb2fbaa680",
+    "f9c74745-ce09-48b4-a5d6-a2e00ab0ff9d",
+    "fbdc4a58-bd91-49b9-8a58-91ec587b842b"
+  ],
+  "required_pairs": [
+    [
+      [
+        "C2007",
+        "2"
+      ],
+      [
+        "Y2001",
+        "2"
+      ]
+    ]
+  ],
+  "new_ground_via_uuid": "bac894f1-ffe4-4ffe-82f5-baa26ffa7fa4",
+  "new_ground_track_uuid": "8749f696-0555-4cd8-a08e-048c0f222c3d",
+  "power_layout_accepted": false,
+  "assembly_ready": false,
+  "limitations": [
+    "Local ground return change only; RF/clock impedance and via manufacturing still unqualified.",
+    "Power corridor remains incomplete."
+  ],
+  "new_violations": [
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "23abe3f9-3e81-447f-81d4-3c5abe1c5c42",
+        "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "49695a2b-88a8-47bf-b793-6b9af8a459eb",
+        "8749f696-0555-4cd8-a08e-048c0f222c3d"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5",
+        "8749f696-0555-4cd8-a08e-048c0f222c3d"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "8749f696-0555-4cd8-a08e-048c0f222c3d",
+        "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+      ],
+      "count": 1
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "items": [
+        "23abe3f9-3e81-447f-81d4-3c5abe1c5c42",
+        "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "23abe3f9-3e81-447f-81d4-3c5abe1c5c42",
+        "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "23abe3f9-3e81-447f-81d4-3c5abe1c5c42",
+        "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "23abe3f9-3e81-447f-81d4-3c5abe1c5c42",
+        "49695a2b-88a8-47bf-b793-6b9af8a459eb"
+      ],
+      "count": 1
+    }
+  ],
+  "details": [
+    {
+      "description": "Elementi che cortocircuitano (coll GND e +3V3_IO)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di C2007 su F.Cu",
+          "pos": {
+            "x": 51.52,
+            "y": 28.96
+          },
+          "uuid": "23abe3f9-3e81-447f-81d4-3c5abe1c5c42"
+        },
+        {
+          "description": "Via [+3V3_IO] su F.Cu - B.Cu",
+          "pos": {
+            "x": 51.8,
+            "y": 28.9
+          },
+          "uuid": "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.0864 mm)",
+      "items": [
+        {
+          "description": "Pista [+3V3_IO] su F.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 51.85,
+            "y": 28.85
+          },
+          "uuid": "49695a2b-88a8-47bf-b793-6b9af8a459eb"
+        },
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.7155 mm",
+          "pos": {
+            "x": 51.52,
+            "y": 28.96
+          },
+          "uuid": "8749f696-0555-4cd8-a08e-048c0f222c3d"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1479 mm)",
+      "items": [
+        {
+          "description": "Pista [+3V3_IO] su F.Cu, lung. 1.5000 mm",
+          "pos": {
+            "x": 51.85,
+            "y": 27.35
+          },
+          "uuid": "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5"
+        },
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.7155 mm",
+          "pos": {
+            "x": 51.52,
+            "y": 28.96
+          },
+          "uuid": "8749f696-0555-4cd8-a08e-048c0f222c3d"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e +3V3_IO)",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.7155 mm",
+          "pos": {
+            "x": 51.52,
+            "y": 28.96
+          },
+          "uuid": "8749f696-0555-4cd8-a08e-048c0f222c3d"
+        },
+        {
+          "description": "Via [+3V3_IO] su F.Cu - B.Cu",
+          "pos": {
+            "x": 51.8,
+            "y": 28.9
+          },
+          "uuid": "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance foro (vincoli impostazioni scheda fori clearance 0.2500 mm; reale 0.0000 mm)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di C2007 su F.Cu",
+          "pos": {
+            "x": 51.52,
+            "y": 28.96
+          },
+          "uuid": "23abe3f9-3e81-447f-81d4-3c5abe1c5c42"
+        },
+        {
+          "description": "Via [+3V3_IO] su F.Cu - B.Cu",
+          "pos": {
+            "x": 51.8,
+            "y": 28.9
+          },
+          "uuid": "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+        }
+      ],
+      "severity": "error",
+      "type": "hole_clearance"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Via [+3V3_IO] su F.Cu - B.Cu",
+          "pos": {
+            "x": 51.8,
+            "y": 28.9
+          },
+          "uuid": "f0d1bbfd-8e9b-4de4-a356-ae66aa3d0f8a"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C2007 su F.Cu",
+          "pos": {
+            "x": 51.52,
+            "y": 28.96
+          },
+          "uuid": "23abe3f9-3e81-447f-81d4-3c5abe1c5c42"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+3V3_IO] su F.Cu, lung. 1.5000 mm",
+          "pos": {
+            "x": 51.85,
+            "y": 27.35
+          },
+          "uuid": "2e0fee0a-3e1a-469d-bfd5-c81c11c595c5"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C2007 su F.Cu",
+          "pos": {
+            "x": 51.52,
+            "y": 28.96
+          },
+          "uuid": "23abe3f9-3e81-447f-81d4-3c5abe1c5c42"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+3V3_IO] su F.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 51.85,
+            "y": 28.85
+          },
+          "uuid": "49695a2b-88a8-47bf-b793-6b9af8a459eb"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C2007 su F.Cu",
+          "pos": {
+            "x": 51.52,
+            "y": 28.96
+          },
+          "uuid": "23abe3f9-3e81-447f-81d4-3c5abe1c5c42"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    }
+  ],
+  "status": "JOINT_SW_GEOMETRY_REJECTED"
+}

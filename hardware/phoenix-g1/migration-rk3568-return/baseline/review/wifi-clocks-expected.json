@@ -1,0 +1,110 @@
+[
+  {
+    "ref": "Y2001",
+    "pin": "4",
+    "pin_name": "VDD",
+    "net": "+3V3_IO"
+  },
+  {
+    "ref": "Y2001",
+    "pin": "3",
+    "pin_name": "OUT",
+    "net": "WIFI_LPO_SRC"
+  },
+  {
+    "ref": "Y2001",
+    "pin": "2",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "Y2001",
+    "pin": "1",
+    "pin_name": "Tri-State",
+    "net": "+3V3_IO"
+  },
+  {
+    "ref": "R2003",
+    "pin": "1",
+    "pin_name": "",
+    "net": "WIFI_LPO_SRC"
+  },
+  {
+    "ref": "R2003",
+    "pin": "2",
+    "pin_name": "",
+    "net": "WIFI_LPO"
+  },
+  {
+    "ref": "C2007",
+    "pin": "1",
+    "pin_name": "",
+    "net": "+3V3_IO"
+  },
+  {
+    "ref": "C2007",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "Y2002",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "WIFI_XIN"
+  },
+  {
+    "ref": "Y2002",
+    "pin": "3",
+    "pin_name": "3",
+    "net": "WIFI_XTAL_OUT"
+  },
+  {
+    "ref": "Y2002",
+    "pin": "4",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "Y2002",
+    "pin": "2",
+    "pin_name": "GND",
+    "net": "GND"
+  },
+  {
+    "ref": "R2004",
+    "pin": "1",
+    "pin_name": "",
+    "net": "WIFI_XOUT"
+  },
+  {
+    "ref": "R2004",
+    "pin": "2",
+    "pin_name": "",
+    "net": "WIFI_XTAL_OUT"
+  },
+  {
+    "ref": "C2008",
+    "pin": "1",
+    "pin_name": "",
+    "net": "WIFI_XIN"
+  },
+  {
+    "ref": "C2008",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  },
+  {
+    "ref": "C2009",
+    "pin": "1",
+    "pin_name": "",
+    "net": "WIFI_XTAL_OUT"
+  },
+  {
+    "ref": "C2009",
+    "pin": "2",
+    "pin_name": "",
+    "net": "GND"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "status": "0805_NOT_DROP_IN",
+  "candidate": "runs/joint-0805/phy-joint.kicad_pcb",
+  "candidate_sha256": "08f5aa33e4b9b784863bcc59fbb7b5584079049cba8d913a27eaa13b3529efb3",
+  "component": "CL21A475KAQNNNE",
+  "jlc": "C1779",
+  "requires_joint_relayout": [
+    "C515",
+    "R509",
+    "R1002",
+    "R516",
+    "existing GND corridor y=23.3"
+  ],
+  "drc_new_count": 8,
+  "main_modified": false,
+  "assembly_ready": false
+}

@@ -1,0 +1,2105 @@
+{
+  "source": "migration-rk3562/experiments/pmic-ldo-inputs/pcb/parallel-local-copper.kicad_pcb",
+  "sha256": "c29d07e1eca29d367b1194504bc58288253b281572404bd8820ac6b030a12824",
+  "screen": "Conservative rectangular envelope, 1mm edge sweep; not a geometric impossibility proof",
+  "status": "RELOCATION_REQUIRED",
+  "zones_not_screened": true,
+  "assembly_ready": false,
+  "best_candidates": [
+    {
+      "side": "right",
+      "box_mm": [
+        82.6,
+        12,
+        90,
+        26.15
+      ],
+      "components": [
+        "J2"
+      ],
+      "copper_objects": [],
+      "component_count": 1,
+      "copper_count": 0
+    },
+    {
+      "side": "right",
+      "box_mm": [
+        82.6,
+        13,
+        90,
+        27.15
+      ],
+      "components": [
+        "J2"
+      ],
+      "copper_objects": [],
+      "component_count": 1,
+      "copper_count": 0
+    },
+    {
+      "side": "right",
+      "box_mm": [
+        82.6,
+        14,
+        90,
+        28.15
+      ],
+      "components": [
+        "J2"
+      ],
+      "copper_objects": [],
+      "component_count": 1,
+      "copper_count": 0
+    },
+    {
+      "side": "right",
+      "box_mm": [
+        82.6,
+        15,
+        90,
+        29.15
+      ],
+      "components": [
+        "J2"
+      ],
+      "copper_objects": [],
+      "component_count": 1,
+      "copper_count": 0
+    },
+    {
+      "side": "right",
+      "box_mm": [
+        82.6,
+        11,
+        90,
+        25.15
+      ],
+      "components": [
+        "J2"
+      ],
+      "copper_objects": [
+        {
+          "uuid": "0808300b-0862-48ab-b9dd-7a06aaff7c05",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "223b4e7d-ee35-456e-a979-ae8fd4d514dc",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "67de11b4-d599-4a35-957e-a25f15b0ccf2",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "b91ae0a4-510d-432d-9040-5482eaf6128f",
+          "net": "EXP_GPIO1"
+        }
+      ],
+      "component_count": 1,
+      "copper_count": 4
+    },
+    {
+      "side": "right",
+      "box_mm": [
+        82.6,
+        10,
+        90,
+        24.15
+      ],
+      "components": [
+        "L404",
+        "J2"
+      ],
+      "copper_objects": [
+        {
+          "uuid": "146a454f-08b2-434e-a56b-1e895ecf4658",
+          "net": "GND"
+        },
+        {
+          "uuid": "63655e6f-e988-42d5-a715-cac4e6d0a621",
+          "net": "GND"
+        },
+        {
+          "uuid": "0808300b-0862-48ab-b9dd-7a06aaff7c05",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "223b4e7d-ee35-456e-a979-ae8fd4d514dc",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "366ff912-1302-4ecf-b6d2-bd56ffa361a7",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "67de11b4-d599-4a35-957e-a25f15b0ccf2",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "907cef22-d55d-4ecf-aa46-eb4b8c000fe3",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "a5ecd45b-665c-4b5b-9088-a2366c5fad1c",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "b91ae0a4-510d-432d-9040-5482eaf6128f",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "d5d40765-15be-42b7-ac53-59461a82f8c1",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "d66d0340-c935-457d-88e4-832739639577",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "d9e37ac9-5c9b-4d2d-b4c8-907e832ed4ee",
+          "net": "EXP_GPIO1"
+        }
+      ],
+      "component_count": 2,
+      "copper_count": 12
+    },
+    {
+      "side": "right",
+      "box_mm": [
+        82.6,
+        16,
+        90,
+        30.15
+      ],
+      "components": [
+        "C451",
+        "C454",
+        "J2"
+      ],
+      "copper_objects": [],
+      "component_count": 3,
+      "copper_count": 0
+    },
+    {
+      "side": "right",
+      "box_mm": [
+        82.6,
+        17,
+        90,
+        31.15
+      ],
+      "components": [
+        "C452",
+        "C451",
+        "C454",
+        "J2"
+      ],
+      "copper_objects": [],
+      "component_count": 4,
+      "copper_count": 0
+    },
+    {
+      "side": "right",
+      "box_mm": [
+        82.6,
+        18,
+        90,
+        32.15
+      ],
+      "components": [
+        "C452",
+        "C451",
+        "C454",
+        "J2"
+      ],
+      "copper_objects": [],
+      "component_count": 4,
+      "copper_count": 0
+    },
+    {
+      "side": "right",
+      "box_mm": [
+        82.6,
+        8,
+        90,
+        22.15
+      ],
+      "components": [
+        "L404",
+        "R421",
+        "J2",
+        "R8103"
+      ],
+      "copper_objects": [
+        {
+          "uuid": "146a454f-08b2-434e-a56b-1e895ecf4658",
+          "net": "GND"
+        },
+        {
+          "uuid": "63655e6f-e988-42d5-a715-cac4e6d0a621",
+          "net": "GND"
+        },
+        {
+          "uuid": "bfc83cb0-c91e-4651-884e-bc5beae7cbdf",
+          "net": "GND"
+        },
+        {
+          "uuid": "0808300b-0862-48ab-b9dd-7a06aaff7c05",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "223b4e7d-ee35-456e-a979-ae8fd4d514dc",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "366ff912-1302-4ecf-b6d2-bd56ffa361a7",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "67de11b4-d599-4a35-957e-a25f15b0ccf2",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "907cef22-d55d-4ecf-aa46-eb4b8c000fe3",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "a5ecd45b-665c-4b5b-9088-a2366c5fad1c",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "b91ae0a4-510d-432d-9040-5482eaf6128f",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "d5d40765-15be-42b7-ac53-59461a82f8c1",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "d66d0340-c935-457d-88e4-832739639577",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "d9e37ac9-5c9b-4d2d-b4c8-907e832ed4ee",
+          "net": "EXP_GPIO1"
+        }
+      ],
+      "component_count": 4,
+      "copper_count": 13
+    },
+    {
+      "side": "right",
+      "box_mm": [
+        82.6,
+        9,
+        90,
+        23.15
+      ],
+      "components": [
+        "L404",
+        "R421",
+        "J2",
+        "R8103"
+      ],
+      "copper_objects": [
+        {
+          "uuid": "146a454f-08b2-434e-a56b-1e895ecf4658",
+          "net": "GND"
+        },
+        {
+          "uuid": "63655e6f-e988-42d5-a715-cac4e6d0a621",
+          "net": "GND"
+        },
+        {
+          "uuid": "bfc83cb0-c91e-4651-884e-bc5beae7cbdf",
+          "net": "GND"
+        },
+        {
+          "uuid": "0808300b-0862-48ab-b9dd-7a06aaff7c05",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "223b4e7d-ee35-456e-a979-ae8fd4d514dc",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "366ff912-1302-4ecf-b6d2-bd56ffa361a7",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "67de11b4-d599-4a35-957e-a25f15b0ccf2",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "907cef22-d55d-4ecf-aa46-eb4b8c000fe3",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "a5ecd45b-665c-4b5b-9088-a2366c5fad1c",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "b91ae0a4-510d-432d-9040-5482eaf6128f",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "d5d40765-15be-42b7-ac53-59461a82f8c1",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "d66d0340-c935-457d-88e4-832739639577",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "d9e37ac9-5c9b-4d2d-b4c8-907e832ed4ee",
+          "net": "EXP_GPIO1"
+        }
+      ],
+      "component_count": 4,
+      "copper_count": 13
+    },
+    {
+      "side": "left",
+      "box_mm": [
+        0,
+        12,
+        7.4,
+        26.15
+      ],
+      "components": [
+        "C1902",
+        "R1903",
+        "J1",
+        "C603"
+      ],
+      "copper_objects": [
+        {
+          "uuid": "28018120-d3b5-4f14-9cf2-9e5e9d10653f",
+          "net": "GND"
+        },
+        {
+          "uuid": "8fbbdb94-6066-4f57-b13e-d64502a753c2",
+          "net": "GND"
+        },
+        {
+          "uuid": "a3b171f0-25d5-4c82-8dd8-69a0a0ca7069",
+          "net": "GND"
+        },
+        {
+          "uuid": "a5b4c306-70b0-4fef-8942-35d78bee74d5",
+          "net": "GND"
+        },
+        {
+          "uuid": "a6e265ba-5210-40b8-ad1b-102a3b24844d",
+          "net": "GND"
+        },
+        {
+          "uuid": "b688b952-ef03-474c-be08-34059061cb16",
+          "net": "GND"
+        },
+        {
+          "uuid": "d49c9e5a-38ab-4236-ab54-9fe2b77409b0",
+          "net": "GND"
+        },
+        {
+          "uuid": "dde92691-cf0f-4de2-98e4-7b7c7ea038ad",
+          "net": "GND"
+        },
+        {
+          "uuid": "0e836e39-7dee-46dc-bb66-5152b51e8048",
+          "net": "GND"
+        },
+        {
+          "uuid": "2dd1fceb-ac7c-44af-b335-8b19cb59b017",
+          "net": "GND"
+        },
+        {
+          "uuid": "7e22e832-e4c0-417d-ada4-815395ff8ab2",
+          "net": "AON_READY"
+        },
+        {
+          "uuid": "ca6a80ad-434b-4671-a64b-05e2176bb363",
+          "net": "AON_READY"
+        },
+        {
+          "uuid": "49f610e4-45ba-45b9-8f6f-bb0bb19bb97a",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "99328231-0489-4e3d-94b5-836eb87645d9",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "cd7e4ecd-4e8a-4446-b1cd-0332ee50f2fa",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "f1d08593-92d8-46ec-abde-645ac60d03e3",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "7934d715-92b5-46e7-b3c1-8f6f658e23cb",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "83f86b0b-1594-415b-bde4-db5891518518",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "859f801b-88b3-41f1-a0d3-5d2a084748ec",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "af982c78-e815-4ad8-bcc4-11705049e8f3",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "ba31c7ef-fe3b-48aa-a81e-4a0a056aef11",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "c6010b39-6185-4a95-b286-53281c1b34c6",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "db7f7d00-caa9-476b-b53d-5b6a561815f1",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "e51d1f4a-4548-40b6-92db-7e493e9f487c",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "48a08630-a636-4137-9174-531ead3b6c3b",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "160adbb7-57c8-4977-85e7-b545354f0c5f",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "3b8df206-5dcb-49ff-8729-6570f1e974ce",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "62a85e01-d5a1-485f-9237-0f92a62f0477",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "6e6cff5a-eb3e-4a21-9029-9121f5fa7786",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "74afcbfc-2376-40c8-996f-1547ac046236",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "8d9541f5-dd35-46a2-84af-145298cc0aa8",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "a2e935be-434f-4891-a961-7216d3349f7c",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "c8c26003-9970-4491-a347-0b7b5d5de7f3",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "5ac50265-5632-493b-9447-7eaa67bb3d79",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "c47c6ebd-95df-4974-9248-e265f2d059fe",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "d55b2e96-fbf5-4d48-a565-787adaa47744",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "6146fc9f-0d48-4f1d-bded-dff50d8f8d24",
+          "net": "USB_MAIN_ENABLE"
+        },
+        {
+          "uuid": "cc9d802a-4bec-4b4d-85c8-bbeaace41112",
+          "net": "USB_MAIN_ENABLE"
+        },
+        {
+          "uuid": "150a951c-65d9-4282-b97c-ad734f0d3aa4",
+          "net": "VBUS_OVP"
+        },
+        {
+          "uuid": "2299b1a9-95ac-4193-901c-e3f8e65645bc",
+          "net": "VBUS_OVP"
+        },
+        {
+          "uuid": "922e2177-b950-4e88-9d48-1241052f50f6",
+          "net": "VBUS_OVP"
+        },
+        {
+          "uuid": "0595cf30-7437-4af1-80d9-56361ca89762",
+          "net": "VBUS_OVP"
+        },
+        {
+          "uuid": "df1e6d7b-ab49-4554-b817-f745335f8eee",
+          "net": "VBUS_OVP"
+        },
+        {
+          "uuid": "861d1e32-87c0-4914-9bcc-2ec46bb67684",
+          "net": "VBUS_GUARD_ILIM"
+        },
+        {
+          "uuid": "90483370-49f5-4229-8107-675c0a37e69a",
+          "net": "VBUS_GUARD_ILIM"
+        },
+        {
+          "uuid": "bf22665f-5f62-4469-bde4-098af682fa26",
+          "net": "VBUS_GUARD_ILIM"
+        },
+        {
+          "uuid": "dcbe94af-e1d5-4120-a1b9-58a68afcc03f",
+          "net": "VBUS_GUARD_ILIM"
+        },
+        {
+          "uuid": "f5ac0109-51ba-42a2-b4e3-20a7d569d85f",
+          "net": "VBUS_GUARD_ILIM"
+        },
+        {
+          "uuid": "0cd03017-7a47-435c-809c-0932accb433d",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "cd40213e-5cea-40d0-babe-8dc01d2c5f9d",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "fbd8e1cb-c4ff-4df4-afbf-80e74d3de64a",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "4b352c41-58d4-4276-a34f-6cade39070fc",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "91b792df-6f39-409d-9c58-8d573b6e17a1",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "1d3ff7a1-86c3-48fc-9abb-3ede403dc049",
+          "net": "USB_CC1"
+        },
+        {
+          "uuid": "1ed6081b-f2af-45fa-8546-f02f33e9ca9e",
+          "net": "USB_CC1"
+        },
+        {
+          "uuid": "b09680be-6f1b-4e80-b8f0-11af6d89dc3d",
+          "net": "USB_CC1"
+        },
+        {
+          "uuid": "b7d9244b-cf38-446e-8704-6217e7e16ac8",
+          "net": "USB_CC1"
+        }
+      ],
+      "component_count": 4,
+      "copper_count": 57
+    },
+    {
+      "side": "left",
+      "box_mm": [
+        0,
+        11,
+        7.4,
+        25.15
+      ],
+      "components": [
+        "C1902",
+        "R1903",
+        "J1",
+        "C603"
+      ],
+      "copper_objects": [
+        {
+          "uuid": "28018120-d3b5-4f14-9cf2-9e5e9d10653f",
+          "net": "GND"
+        },
+        {
+          "uuid": "8fbbdb94-6066-4f57-b13e-d64502a753c2",
+          "net": "GND"
+        },
+        {
+          "uuid": "a3b171f0-25d5-4c82-8dd8-69a0a0ca7069",
+          "net": "GND"
+        },
+        {
+          "uuid": "a5b4c306-70b0-4fef-8942-35d78bee74d5",
+          "net": "GND"
+        },
+        {
+          "uuid": "a6e265ba-5210-40b8-ad1b-102a3b24844d",
+          "net": "GND"
+        },
+        {
+          "uuid": "b688b952-ef03-474c-be08-34059061cb16",
+          "net": "GND"
+        },
+        {
+          "uuid": "d49c9e5a-38ab-4236-ab54-9fe2b77409b0",
+          "net": "GND"
+        },
+        {
+          "uuid": "dde92691-cf0f-4de2-98e4-7b7c7ea038ad",
+          "net": "GND"
+        },
+        {
+          "uuid": "0e836e39-7dee-46dc-bb66-5152b51e8048",
+          "net": "GND"
+        },
+        {
+          "uuid": "2dd1fceb-ac7c-44af-b335-8b19cb59b017",
+          "net": "GND"
+        },
+        {
+          "uuid": "42fe794b-0a16-4b04-bd56-a41e90579fec",
+          "net": "AON_READY"
+        },
+        {
+          "uuid": "7e22e832-e4c0-417d-ada4-815395ff8ab2",
+          "net": "AON_READY"
+        },
+        {
+          "uuid": "ca6a80ad-434b-4671-a64b-05e2176bb363",
+          "net": "AON_READY"
+        },
+        {
+          "uuid": "49f610e4-45ba-45b9-8f6f-bb0bb19bb97a",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "70823891-645e-4c6a-bb17-8cb5de9c6e4a",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "99328231-0489-4e3d-94b5-836eb87645d9",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "cd7e4ecd-4e8a-4446-b1cd-0332ee50f2fa",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "f1d08593-92d8-46ec-abde-645ac60d03e3",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "0ec366a6-2c50-45a7-9cf4-be991072e1b9",
+          "net": "VBUS_PROTECTED"
+        },
+        {
+          "uuid": "0ee61cf7-da27-4cb5-8ea8-a101cc21d7e4",
+          "net": "VBUS_PROTECTED"
+        },
+        {
+          "uuid": "40b0659a-c410-4ad0-bf95-30db409f20a2",
+          "net": "VBUS_PROTECTED"
+        },
+        {
+          "uuid": "7934d715-92b5-46e7-b3c1-8f6f658e23cb",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "83f86b0b-1594-415b-bde4-db5891518518",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "859f801b-88b3-41f1-a0d3-5d2a084748ec",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "af982c78-e815-4ad8-bcc4-11705049e8f3",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "ba31c7ef-fe3b-48aa-a81e-4a0a056aef11",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "c6010b39-6185-4a95-b286-53281c1b34c6",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "db7f7d00-caa9-476b-b53d-5b6a561815f1",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "e51d1f4a-4548-40b6-92db-7e493e9f487c",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "48a08630-a636-4137-9174-531ead3b6c3b",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "160adbb7-57c8-4977-85e7-b545354f0c5f",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "3b8df206-5dcb-49ff-8729-6570f1e974ce",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "62a85e01-d5a1-485f-9237-0f92a62f0477",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "6e6cff5a-eb3e-4a21-9029-9121f5fa7786",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "74afcbfc-2376-40c8-996f-1547ac046236",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "8d9541f5-dd35-46a2-84af-145298cc0aa8",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "a2e935be-434f-4891-a961-7216d3349f7c",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "c8c26003-9970-4491-a347-0b7b5d5de7f3",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "1a304269-bb6e-4cf1-94e6-1757e3980108",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "5ac50265-5632-493b-9447-7eaa67bb3d79",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "c47c6ebd-95df-4974-9248-e265f2d059fe",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "d55b2e96-fbf5-4d48-a565-787adaa47744",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "6146fc9f-0d48-4f1d-bded-dff50d8f8d24",
+          "net": "USB_MAIN_ENABLE"
+        },
+        {
+          "uuid": "cc9d802a-4bec-4b4d-85c8-bbeaace41112",
+          "net": "USB_MAIN_ENABLE"
+        },
+        {
+          "uuid": "150a951c-65d9-4282-b97c-ad734f0d3aa4",
+          "net": "VBUS_OVP"
+        },
+        {
+          "uuid": "2299b1a9-95ac-4193-901c-e3f8e65645bc",
+          "net": "VBUS_OVP"
+        },
+        {
+          "uuid": "922e2177-b950-4e88-9d48-1241052f50f6",
+          "net": "VBUS_OVP"
+        },
+        {
+          "uuid": "0595cf30-7437-4af1-80d9-56361ca89762",
+          "net": "VBUS_OVP"
+        },
+        {
+          "uuid": "df1e6d7b-ab49-4554-b817-f745335f8eee",
+          "net": "VBUS_OVP"
+        },
+        {
+          "uuid": "861d1e32-87c0-4914-9bcc-2ec46bb67684",
+          "net": "VBUS_GUARD_ILIM"
+        },
+        {
+          "uuid": "87f98a08-c4de-4b32-b2e9-a07d7dd7c9e2",
+          "net": "VBUS_GUARD_ILIM"
+        },
+        {
+          "uuid": "90483370-49f5-4229-8107-675c0a37e69a",
+          "net": "VBUS_GUARD_ILIM"
+        },
+        {
+          "uuid": "bf22665f-5f62-4469-bde4-098af682fa26",
+          "net": "VBUS_GUARD_ILIM"
+        },
+        {
+          "uuid": "dcbe94af-e1d5-4120-a1b9-58a68afcc03f",
+          "net": "VBUS_GUARD_ILIM"
+        },
+        {
+          "uuid": "f5ac0109-51ba-42a2-b4e3-20a7d569d85f",
+          "net": "VBUS_GUARD_ILIM"
+        },
+        {
+          "uuid": "0cd03017-7a47-435c-809c-0932accb433d",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "cd40213e-5cea-40d0-babe-8dc01d2c5f9d",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "fbd8e1cb-c4ff-4df4-afbf-80e74d3de64a",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "4b352c41-58d4-4276-a34f-6cade39070fc",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "91b792df-6f39-409d-9c58-8d573b6e17a1",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "1d3ff7a1-86c3-48fc-9abb-3ede403dc049",
+          "net": "USB_CC1"
+        },
+        {
+          "uuid": "1ed6081b-f2af-45fa-8546-f02f33e9ca9e",
+          "net": "USB_CC1"
+        },
+        {
+          "uuid": "b09680be-6f1b-4e80-b8f0-11af6d89dc3d",
+          "net": "USB_CC1"
+        },
+        {
+          "uuid": "b7d9244b-cf38-446e-8704-6217e7e16ac8",
+          "net": "USB_CC1"
+        }
+      ],
+      "component_count": 4,
+      "copper_count": 64
+    },
+    {
+      "side": "left",
+      "box_mm": [
+        0,
+        14,
+        7.4,
+        28.15
+      ],
+      "components": [
+        "U11",
+        "J1",
+        "C603",
+        "C466",
+        "C1202"
+      ],
+      "copper_objects": [
+        {
+          "uuid": "1c7f145b-553d-48ee-82ec-31116446e4ee",
+          "net": "GND"
+        },
+        {
+          "uuid": "28018120-d3b5-4f14-9cf2-9e5e9d10653f",
+          "net": "GND"
+        },
+        {
+          "uuid": "609e5460-9576-4a5f-a49d-4ecc283d48e0",
+          "net": "GND"
+        },
+        {
+          "uuid": "8fbbdb94-6066-4f57-b13e-d64502a753c2",
+          "net": "GND"
+        },
+        {
+          "uuid": "a3b171f0-25d5-4c82-8dd8-69a0a0ca7069",
+          "net": "GND"
+        },
+        {
+          "uuid": "a5b4c306-70b0-4fef-8942-35d78bee74d5",
+          "net": "GND"
+        },
+        {
+          "uuid": "a6e265ba-5210-40b8-ad1b-102a3b24844d",
+          "net": "GND"
+        },
+        {
+          "uuid": "b688b952-ef03-474c-be08-34059061cb16",
+          "net": "GND"
+        },
+        {
+          "uuid": "d49c9e5a-38ab-4236-ab54-9fe2b77409b0",
+          "net": "GND"
+        },
+        {
+          "uuid": "dde92691-cf0f-4de2-98e4-7b7c7ea038ad",
+          "net": "GND"
+        },
+        {
+          "uuid": "0e836e39-7dee-46dc-bb66-5152b51e8048",
+          "net": "GND"
+        },
+        {
+          "uuid": "2dd1fceb-ac7c-44af-b335-8b19cb59b017",
+          "net": "GND"
+        },
+        {
+          "uuid": "3b0d66a6-a79b-402b-9c77-f7bb9f0dc6f5",
+          "net": "GND"
+        },
+        {
+          "uuid": "f13a1d8d-2fbd-4f95-9d68-ac7781fa9046",
+          "net": "GND"
+        },
+        {
+          "uuid": "2a7f7ec5-60ee-4f52-9a23-90776b2284b3",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "49f610e4-45ba-45b9-8f6f-bb0bb19bb97a",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "4ee66670-a9b6-49b3-9114-1bac3c580dc8",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "99328231-0489-4e3d-94b5-836eb87645d9",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "f1d08593-92d8-46ec-abde-645ac60d03e3",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "1e5653ec-fbf0-422d-81c0-7b7b65fb0678",
+          "net": "VBUS_PROTECTED"
+        },
+        {
+          "uuid": "32c68242-bbe9-48ef-92a5-9e563ca79bff",
+          "net": "VBUS_PROTECTED"
+        },
+        {
+          "uuid": "e80cafb1-0a71-4981-bf78-8448ab019f7e",
+          "net": "VBUS_PROTECTED"
+        },
+        {
+          "uuid": "7934d715-92b5-46e7-b3c1-8f6f658e23cb",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "af982c78-e815-4ad8-bcc4-11705049e8f3",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "ba31c7ef-fe3b-48aa-a81e-4a0a056aef11",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "c6010b39-6185-4a95-b286-53281c1b34c6",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "db7f7d00-caa9-476b-b53d-5b6a561815f1",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "e51d1f4a-4548-40b6-92db-7e493e9f487c",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "160adbb7-57c8-4977-85e7-b545354f0c5f",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "3b8df206-5dcb-49ff-8729-6570f1e974ce",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "62a85e01-d5a1-485f-9237-0f92a62f0477",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "6e6cff5a-eb3e-4a21-9029-9121f5fa7786",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "74afcbfc-2376-40c8-996f-1547ac046236",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "8d9541f5-dd35-46a2-84af-145298cc0aa8",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "a2e935be-434f-4891-a961-7216d3349f7c",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "c8c26003-9970-4491-a347-0b7b5d5de7f3",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "5ac50265-5632-493b-9447-7eaa67bb3d79",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "c47c6ebd-95df-4974-9248-e265f2d059fe",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "d55b2e96-fbf5-4d48-a565-787adaa47744",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "6146fc9f-0d48-4f1d-bded-dff50d8f8d24",
+          "net": "USB_MAIN_ENABLE"
+        },
+        {
+          "uuid": "cc9d802a-4bec-4b4d-85c8-bbeaace41112",
+          "net": "USB_MAIN_ENABLE"
+        },
+        {
+          "uuid": "0cd03017-7a47-435c-809c-0932accb433d",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "cd40213e-5cea-40d0-babe-8dc01d2c5f9d",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "fbd8e1cb-c4ff-4df4-afbf-80e74d3de64a",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "4b352c41-58d4-4276-a34f-6cade39070fc",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "91b792df-6f39-409d-9c58-8d573b6e17a1",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "1d3ff7a1-86c3-48fc-9abb-3ede403dc049",
+          "net": "USB_CC1"
+        },
+        {
+          "uuid": "1ed6081b-f2af-45fa-8546-f02f33e9ca9e",
+          "net": "USB_CC1"
+        },
+        {
+          "uuid": "b09680be-6f1b-4e80-b8f0-11af6d89dc3d",
+          "net": "USB_CC1"
+        },
+        {
+          "uuid": "b7d9244b-cf38-446e-8704-6217e7e16ac8",
+          "net": "USB_CC1"
+        }
+      ],
+      "component_count": 5,
+      "copper_count": 50
+    },
+    {
+      "side": "left",
+      "box_mm": [
+        0,
+        13,
+        7.4,
+        27.15
+      ],
+      "components": [
+        "C1902",
+        "U11",
+        "J1",
+        "C603",
+        "C466"
+      ],
+      "copper_objects": [
+        {
+          "uuid": "28018120-d3b5-4f14-9cf2-9e5e9d10653f",
+          "net": "GND"
+        },
+        {
+          "uuid": "8fbbdb94-6066-4f57-b13e-d64502a753c2",
+          "net": "GND"
+        },
+        {
+          "uuid": "a3b171f0-25d5-4c82-8dd8-69a0a0ca7069",
+          "net": "GND"
+        },
+        {
+          "uuid": "a5b4c306-70b0-4fef-8942-35d78bee74d5",
+          "net": "GND"
+        },
+        {
+          "uuid": "a6e265ba-5210-40b8-ad1b-102a3b24844d",
+          "net": "GND"
+        },
+        {
+          "uuid": "b688b952-ef03-474c-be08-34059061cb16",
+          "net": "GND"
+        },
+        {
+          "uuid": "d49c9e5a-38ab-4236-ab54-9fe2b77409b0",
+          "net": "GND"
+        },
+        {
+          "uuid": "dde92691-cf0f-4de2-98e4-7b7c7ea038ad",
+          "net": "GND"
+        },
+        {
+          "uuid": "0e836e39-7dee-46dc-bb66-5152b51e8048",
+          "net": "GND"
+        },
+        {
+          "uuid": "2dd1fceb-ac7c-44af-b335-8b19cb59b017",
+          "net": "GND"
+        },
+        {
+          "uuid": "3b0d66a6-a79b-402b-9c77-f7bb9f0dc6f5",
+          "net": "GND"
+        },
+        {
+          "uuid": "f13a1d8d-2fbd-4f95-9d68-ac7781fa9046",
+          "net": "GND"
+        },
+        {
+          "uuid": "2a7f7ec5-60ee-4f52-9a23-90776b2284b3",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "49f610e4-45ba-45b9-8f6f-bb0bb19bb97a",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "99328231-0489-4e3d-94b5-836eb87645d9",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "f1d08593-92d8-46ec-abde-645ac60d03e3",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "e80cafb1-0a71-4981-bf78-8448ab019f7e",
+          "net": "VBUS_PROTECTED"
+        },
+        {
+          "uuid": "7934d715-92b5-46e7-b3c1-8f6f658e23cb",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "af982c78-e815-4ad8-bcc4-11705049e8f3",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "ba31c7ef-fe3b-48aa-a81e-4a0a056aef11",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "c6010b39-6185-4a95-b286-53281c1b34c6",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "db7f7d00-caa9-476b-b53d-5b6a561815f1",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "e51d1f4a-4548-40b6-92db-7e493e9f487c",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "160adbb7-57c8-4977-85e7-b545354f0c5f",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "3b8df206-5dcb-49ff-8729-6570f1e974ce",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "62a85e01-d5a1-485f-9237-0f92a62f0477",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "6e6cff5a-eb3e-4a21-9029-9121f5fa7786",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "74afcbfc-2376-40c8-996f-1547ac046236",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "8d9541f5-dd35-46a2-84af-145298cc0aa8",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "a2e935be-434f-4891-a961-7216d3349f7c",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "c8c26003-9970-4491-a347-0b7b5d5de7f3",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "5ac50265-5632-493b-9447-7eaa67bb3d79",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "c47c6ebd-95df-4974-9248-e265f2d059fe",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "d55b2e96-fbf5-4d48-a565-787adaa47744",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "6146fc9f-0d48-4f1d-bded-dff50d8f8d24",
+          "net": "USB_MAIN_ENABLE"
+        },
+        {
+          "uuid": "cc9d802a-4bec-4b4d-85c8-bbeaace41112",
+          "net": "USB_MAIN_ENABLE"
+        },
+        {
+          "uuid": "150a951c-65d9-4282-b97c-ad734f0d3aa4",
+          "net": "VBUS_OVP"
+        },
+        {
+          "uuid": "0595cf30-7437-4af1-80d9-56361ca89762",
+          "net": "VBUS_OVP"
+        },
+        {
+          "uuid": "df1e6d7b-ab49-4554-b817-f745335f8eee",
+          "net": "VBUS_OVP"
+        },
+        {
+          "uuid": "861d1e32-87c0-4914-9bcc-2ec46bb67684",
+          "net": "VBUS_GUARD_ILIM"
+        },
+        {
+          "uuid": "90483370-49f5-4229-8107-675c0a37e69a",
+          "net": "VBUS_GUARD_ILIM"
+        },
+        {
+          "uuid": "bf22665f-5f62-4469-bde4-098af682fa26",
+          "net": "VBUS_GUARD_ILIM"
+        },
+        {
+          "uuid": "f5ac0109-51ba-42a2-b4e3-20a7d569d85f",
+          "net": "VBUS_GUARD_ILIM"
+        },
+        {
+          "uuid": "0cd03017-7a47-435c-809c-0932accb433d",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "cd40213e-5cea-40d0-babe-8dc01d2c5f9d",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "fbd8e1cb-c4ff-4df4-afbf-80e74d3de64a",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "4b352c41-58d4-4276-a34f-6cade39070fc",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "91b792df-6f39-409d-9c58-8d573b6e17a1",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "1d3ff7a1-86c3-48fc-9abb-3ede403dc049",
+          "net": "USB_CC1"
+        },
+        {
+          "uuid": "1ed6081b-f2af-45fa-8546-f02f33e9ca9e",
+          "net": "USB_CC1"
+        },
+        {
+          "uuid": "b09680be-6f1b-4e80-b8f0-11af6d89dc3d",
+          "net": "USB_CC1"
+        },
+        {
+          "uuid": "b7d9244b-cf38-446e-8704-6217e7e16ac8",
+          "net": "USB_CC1"
+        }
+      ],
+      "component_count": 5,
+      "copper_count": 52
+    },
+    {
+      "side": "right",
+      "box_mm": [
+        82.6,
+        19,
+        90,
+        33.15
+      ],
+      "components": [
+        "C452",
+        "C451",
+        "C454",
+        "C411",
+        "J2",
+        "C414"
+      ],
+      "copper_objects": [],
+      "component_count": 6,
+      "copper_count": 0
+    },
+    {
+      "side": "right",
+      "box_mm": [
+        82.6,
+        6,
+        90,
+        20.15
+      ],
+      "components": [
+        "R424",
+        "R431",
+        "L404",
+        "R421",
+        "J2",
+        "R8103"
+      ],
+      "copper_objects": [
+        {
+          "uuid": "146a454f-08b2-434e-a56b-1e895ecf4658",
+          "net": "GND"
+        },
+        {
+          "uuid": "63655e6f-e988-42d5-a715-cac4e6d0a621",
+          "net": "GND"
+        },
+        {
+          "uuid": "bfc83cb0-c91e-4651-884e-bc5beae7cbdf",
+          "net": "GND"
+        },
+        {
+          "uuid": "0808300b-0862-48ab-b9dd-7a06aaff7c05",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "223b4e7d-ee35-456e-a979-ae8fd4d514dc",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "366ff912-1302-4ecf-b6d2-bd56ffa361a7",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "67de11b4-d599-4a35-957e-a25f15b0ccf2",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "907cef22-d55d-4ecf-aa46-eb4b8c000fe3",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "a5ecd45b-665c-4b5b-9088-a2366c5fad1c",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "b91ae0a4-510d-432d-9040-5482eaf6128f",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "d5d40765-15be-42b7-ac53-59461a82f8c1",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "d66d0340-c935-457d-88e4-832739639577",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "d9e37ac9-5c9b-4d2d-b4c8-907e832ed4ee",
+          "net": "EXP_GPIO1"
+        }
+      ],
+      "component_count": 6,
+      "copper_count": 13
+    },
+    {
+      "side": "right",
+      "box_mm": [
+        82.6,
+        7,
+        90,
+        21.15
+      ],
+      "components": [
+        "R424",
+        "R431",
+        "L404",
+        "R421",
+        "J2",
+        "R8103"
+      ],
+      "copper_objects": [
+        {
+          "uuid": "146a454f-08b2-434e-a56b-1e895ecf4658",
+          "net": "GND"
+        },
+        {
+          "uuid": "63655e6f-e988-42d5-a715-cac4e6d0a621",
+          "net": "GND"
+        },
+        {
+          "uuid": "bfc83cb0-c91e-4651-884e-bc5beae7cbdf",
+          "net": "GND"
+        },
+        {
+          "uuid": "0808300b-0862-48ab-b9dd-7a06aaff7c05",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "223b4e7d-ee35-456e-a979-ae8fd4d514dc",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "366ff912-1302-4ecf-b6d2-bd56ffa361a7",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "67de11b4-d599-4a35-957e-a25f15b0ccf2",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "907cef22-d55d-4ecf-aa46-eb4b8c000fe3",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "a5ecd45b-665c-4b5b-9088-a2366c5fad1c",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "b91ae0a4-510d-432d-9040-5482eaf6128f",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "d5d40765-15be-42b7-ac53-59461a82f8c1",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "d66d0340-c935-457d-88e4-832739639577",
+          "net": "EXP_GPIO1"
+        },
+        {
+          "uuid": "d9e37ac9-5c9b-4d2d-b4c8-907e832ed4ee",
+          "net": "EXP_GPIO1"
+        }
+      ],
+      "component_count": 6,
+      "copper_count": 13
+    },
+    {
+      "side": "left",
+      "box_mm": [
+        0,
+        15,
+        7.4,
+        29.15
+      ],
+      "components": [
+        "U11",
+        "C1102",
+        "J1",
+        "C603",
+        "C466",
+        "C1202"
+      ],
+      "copper_objects": [
+        {
+          "uuid": "1c7f145b-553d-48ee-82ec-31116446e4ee",
+          "net": "GND"
+        },
+        {
+          "uuid": "2637bae2-52c5-42b4-b36a-3e54c26dc31f",
+          "net": "GND"
+        },
+        {
+          "uuid": "28018120-d3b5-4f14-9cf2-9e5e9d10653f",
+          "net": "GND"
+        },
+        {
+          "uuid": "37b4e8ef-628a-41b9-84e5-edf5af75bada",
+          "net": "GND"
+        },
+        {
+          "uuid": "609e5460-9576-4a5f-a49d-4ecc283d48e0",
+          "net": "GND"
+        },
+        {
+          "uuid": "8fbbdb94-6066-4f57-b13e-d64502a753c2",
+          "net": "GND"
+        },
+        {
+          "uuid": "93306e39-81b9-4be2-9e5c-edb43920a554",
+          "net": "GND"
+        },
+        {
+          "uuid": "a3b171f0-25d5-4c82-8dd8-69a0a0ca7069",
+          "net": "GND"
+        },
+        {
+          "uuid": "a5b4c306-70b0-4fef-8942-35d78bee74d5",
+          "net": "GND"
+        },
+        {
+          "uuid": "a6e265ba-5210-40b8-ad1b-102a3b24844d",
+          "net": "GND"
+        },
+        {
+          "uuid": "b688b952-ef03-474c-be08-34059061cb16",
+          "net": "GND"
+        },
+        {
+          "uuid": "d49c9e5a-38ab-4236-ab54-9fe2b77409b0",
+          "net": "GND"
+        },
+        {
+          "uuid": "dde92691-cf0f-4de2-98e4-7b7c7ea038ad",
+          "net": "GND"
+        },
+        {
+          "uuid": "e015e56d-a15c-4119-9381-bf4ee318fbc8",
+          "net": "GND"
+        },
+        {
+          "uuid": "0e836e39-7dee-46dc-bb66-5152b51e8048",
+          "net": "GND"
+        },
+        {
+          "uuid": "16bfcb7a-bf49-4dd5-9179-d0245522aea3",
+          "net": "GND"
+        },
+        {
+          "uuid": "2dd1fceb-ac7c-44af-b335-8b19cb59b017",
+          "net": "GND"
+        },
+        {
+          "uuid": "46106e65-4afb-442e-925b-03fdfa7d3208",
+          "net": "GND"
+        },
+        {
+          "uuid": "e7441712-e983-4c5e-b0f6-9466e46e9732",
+          "net": "GND"
+        },
+        {
+          "uuid": "3b0d66a6-a79b-402b-9c77-f7bb9f0dc6f5",
+          "net": "GND"
+        },
+        {
+          "uuid": "77b10d2e-3124-42a1-b4b2-44f877cee611",
+          "net": "GND"
+        },
+        {
+          "uuid": "ed4b3454-b75e-4d69-b1b2-3cb249deaeb9",
+          "net": "GND"
+        },
+        {
+          "uuid": "f0741584-5f2c-4bcd-bf6e-70287ee0e144",
+          "net": "GND"
+        },
+        {
+          "uuid": "f13a1d8d-2fbd-4f95-9d68-ac7781fa9046",
+          "net": "GND"
+        },
+        {
+          "uuid": "166c7604-14c7-4307-a63a-4f93aea110b7",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "1ff52ba7-3d71-426a-a973-3762a6b12b77",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "2a7f7ec5-60ee-4f52-9a23-90776b2284b3",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "49f610e4-45ba-45b9-8f6f-bb0bb19bb97a",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "4ee66670-a9b6-49b3-9114-1bac3c580dc8",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "f07f2058-b796-4d30-95e5-67db757d1a11",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "1e5653ec-fbf0-422d-81c0-7b7b65fb0678",
+          "net": "VBUS_PROTECTED"
+        },
+        {
+          "uuid": "32c68242-bbe9-48ef-92a5-9e563ca79bff",
+          "net": "VBUS_PROTECTED"
+        },
+        {
+          "uuid": "33656038-e57b-47b3-893d-d62a5374eaa2",
+          "net": "VBUS_PROTECTED"
+        },
+        {
+          "uuid": "852b3727-fa31-4928-b309-ad58b7018efb",
+          "net": "VBUS_PROTECTED"
+        },
+        {
+          "uuid": "e80cafb1-0a71-4981-bf78-8448ab019f7e",
+          "net": "VBUS_PROTECTED"
+        },
+        {
+          "uuid": "ecfcb0d2-9d18-495f-85b6-e62d8ad9e146",
+          "net": "VBUS_PROTECTED"
+        },
+        {
+          "uuid": "7934d715-92b5-46e7-b3c1-8f6f658e23cb",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "af982c78-e815-4ad8-bcc4-11705049e8f3",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "ba31c7ef-fe3b-48aa-a81e-4a0a056aef11",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "c6010b39-6185-4a95-b286-53281c1b34c6",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "db7f7d00-caa9-476b-b53d-5b6a561815f1",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "e51d1f4a-4548-40b6-92db-7e493e9f487c",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "160adbb7-57c8-4977-85e7-b545354f0c5f",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "3b8df206-5dcb-49ff-8729-6570f1e974ce",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "62a85e01-d5a1-485f-9237-0f92a62f0477",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "6e6cff5a-eb3e-4a21-9029-9121f5fa7786",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "74afcbfc-2376-40c8-996f-1547ac046236",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "8d9541f5-dd35-46a2-84af-145298cc0aa8",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "a2e935be-434f-4891-a961-7216d3349f7c",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "c8c26003-9970-4491-a347-0b7b5d5de7f3",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "5cb66e4d-0a83-4c1c-ba3f-7e0944c2fad9",
+          "net": "USB_DVDT"
+        },
+        {
+          "uuid": "6146fc9f-0d48-4f1d-bded-dff50d8f8d24",
+          "net": "USB_MAIN_ENABLE"
+        },
+        {
+          "uuid": "cc9d802a-4bec-4b4d-85c8-bbeaace41112",
+          "net": "USB_MAIN_ENABLE"
+        },
+        {
+          "uuid": "0cd03017-7a47-435c-809c-0932accb433d",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "cd40213e-5cea-40d0-babe-8dc01d2c5f9d",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "fbd8e1cb-c4ff-4df4-afbf-80e74d3de64a",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "4b352c41-58d4-4276-a34f-6cade39070fc",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "91b792df-6f39-409d-9c58-8d573b6e17a1",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "1d3ff7a1-86c3-48fc-9abb-3ede403dc049",
+          "net": "USB_CC1"
+        },
+        {
+          "uuid": "1ed6081b-f2af-45fa-8546-f02f33e9ca9e",
+          "net": "USB_CC1"
+        },
+        {
+          "uuid": "b09680be-6f1b-4e80-b8f0-11af6d89dc3d",
+          "net": "USB_CC1"
+        },
+        {
+          "uuid": "b7d9244b-cf38-446e-8704-6217e7e16ac8",
+          "net": "USB_CC1"
+        }
+      ],
+      "component_count": 6,
+      "copper_count": 62
+    },
+    {
+      "side": "left",
+      "box_mm": [
+        0,
+        10,
+        7.4,
+        24.15
+      ],
+      "components": [
+        "C1902",
+        "R1903",
+        "U24",
+        "R1101",
+        "J1",
+        "C603"
+      ],
+      "copper_objects": [
+        {
+          "uuid": "28018120-d3b5-4f14-9cf2-9e5e9d10653f",
+          "net": "GND"
+        },
+        {
+          "uuid": "8fbbdb94-6066-4f57-b13e-d64502a753c2",
+          "net": "GND"
+        },
+        {
+          "uuid": "a3b171f0-25d5-4c82-8dd8-69a0a0ca7069",
+          "net": "GND"
+        },
+        {
+          "uuid": "a5b4c306-70b0-4fef-8942-35d78bee74d5",
+          "net": "GND"
+        },
+        {
+          "uuid": "a6e265ba-5210-40b8-ad1b-102a3b24844d",
+          "net": "GND"
+        },
+        {
+          "uuid": "b688b952-ef03-474c-be08-34059061cb16",
+          "net": "GND"
+        },
+        {
+          "uuid": "d49c9e5a-38ab-4236-ab54-9fe2b77409b0",
+          "net": "GND"
+        },
+        {
+          "uuid": "dde92691-cf0f-4de2-98e4-7b7c7ea038ad",
+          "net": "GND"
+        },
+        {
+          "uuid": "0e836e39-7dee-46dc-bb66-5152b51e8048",
+          "net": "GND"
+        },
+        {
+          "uuid": "2dd1fceb-ac7c-44af-b335-8b19cb59b017",
+          "net": "GND"
+        },
+        {
+          "uuid": "42fe794b-0a16-4b04-bd56-a41e90579fec",
+          "net": "AON_READY"
+        },
+        {
+          "uuid": "68bb3d07-82ba-4f64-8454-919ede73f663",
+          "net": "AON_READY"
+        },
+        {
+          "uuid": "7e22e832-e4c0-417d-ada4-815395ff8ab2",
+          "net": "AON_READY"
+        },
+        {
+          "uuid": "ca6a80ad-434b-4671-a64b-05e2176bb363",
+          "net": "AON_READY"
+        },
+        {
+          "uuid": "cfab261c-ae44-4a91-9606-515c14c26594",
+          "net": "AON_READY"
+        },
+        {
+          "uuid": "0372d6f1-9470-4adc-bb12-0737f2f3522f",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "04210550-018d-4178-877f-ce4af61207fc",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "1c3647fd-40e2-4c4d-be5a-203086f8803b",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "233e155c-dbfc-4766-b69b-c9435fbc53de",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "70823891-645e-4c6a-bb17-8cb5de9c6e4a",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "87a7350a-4d8b-485a-bf7c-690081df21e3",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "99328231-0489-4e3d-94b5-836eb87645d9",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "beb971f6-1146-411f-81f0-f1d4852ae907",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "cd7e4ecd-4e8a-4446-b1cd-0332ee50f2fa",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "f1d08593-92d8-46ec-abde-645ac60d03e3",
+          "net": "+3V3_AON"
+        },
+        {
+          "uuid": "0ec366a6-2c50-45a7-9cf4-be991072e1b9",
+          "net": "VBUS_PROTECTED"
+        },
+        {
+          "uuid": "0ee61cf7-da27-4cb5-8ea8-a101cc21d7e4",
+          "net": "VBUS_PROTECTED"
+        },
+        {
+          "uuid": "40b0659a-c410-4ad0-bf95-30db409f20a2",
+          "net": "VBUS_PROTECTED"
+        },
+        {
+          "uuid": "5bf5d893-66aa-4813-b936-bc9a5caf2bcf",
+          "net": "VBUS_PROTECTED"
+        },
+        {
+          "uuid": "204fb4f3-34ed-4ba1-afec-9cc575c2db68",
+          "net": "VBUS_PROTECTED"
+        },
+        {
+          "uuid": "5fc8e8ef-d619-4c82-b9f9-13bb614db9f8",
+          "net": "VBUS_PROTECTED"
+        },
+        {
+          "uuid": "cf51aa99-2af1-4293-b592-b197644857ce",
+          "net": "VBUS_PROTECTED"
+        },
+        {
+          "uuid": "e81a6aae-3ef6-4692-b336-a26e58303782",
+          "net": "VBUS_PROTECTED"
+        },
+        {
+          "uuid": "ead6a9a7-ec45-464a-a5c3-96b99a019635",
+          "net": "VBUS_PROTECTED"
+        },
+        {
+          "uuid": "effff1ce-f008-47d2-83a3-78ef1133c2cc",
+          "net": "VBUS_PROTECTED"
+        },
+        {
+          "uuid": "7934d715-92b5-46e7-b3c1-8f6f658e23cb",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "83f86b0b-1594-415b-bde4-db5891518518",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "859f801b-88b3-41f1-a0d3-5d2a084748ec",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "af982c78-e815-4ad8-bcc4-11705049e8f3",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "ba31c7ef-fe3b-48aa-a81e-4a0a056aef11",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "c6010b39-6185-4a95-b286-53281c1b34c6",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "db7f7d00-caa9-476b-b53d-5b6a561815f1",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "e51d1f4a-4548-40b6-92db-7e493e9f487c",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "48a08630-a636-4137-9174-531ead3b6c3b",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "160adbb7-57c8-4977-85e7-b545354f0c5f",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "3b8df206-5dcb-49ff-8729-6570f1e974ce",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "62a85e01-d5a1-485f-9237-0f92a62f0477",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "6e6cff5a-eb3e-4a21-9029-9121f5fa7786",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "74afcbfc-2376-40c8-996f-1547ac046236",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "8d9541f5-dd35-46a2-84af-145298cc0aa8",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "a2e935be-434f-4891-a961-7216d3349f7c",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "c8c26003-9970-4491-a347-0b7b5d5de7f3",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "1a304269-bb6e-4cf1-94e6-1757e3980108",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "5ac50265-5632-493b-9447-7eaa67bb3d79",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "c47c6ebd-95df-4974-9248-e265f2d059fe",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "d55b2e96-fbf5-4d48-a565-787adaa47744",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "eaf88e68-ce38-436f-9858-271e5198fe01",
+          "net": "VBUS_RAW"
+        },
+        {
+          "uuid": "6146fc9f-0d48-4f1d-bded-dff50d8f8d24",
+          "net": "USB_MAIN_ENABLE"
+        },
+        {
+          "uuid": "cc9d802a-4bec-4b4d-85c8-bbeaace41112",
+          "net": "USB_MAIN_ENABLE"
+        },
+        {
+          "uuid": "150a951c-65d9-4282-b97c-ad734f0d3aa4",
+          "net": "VBUS_OVP"
+        },
+        {
+          "uuid": "2299b1a9-95ac-4193-901c-e3f8e65645bc",
+          "net": "VBUS_OVP"
+        },
+        {
+          "uuid": "922e2177-b950-4e88-9d48-1241052f50f6",
+          "net": "VBUS_OVP"
+        },
+        {
+          "uuid": "0595cf30-7437-4af1-80d9-56361ca89762",
+          "net": "VBUS_OVP"
+        },
+        {
+          "uuid": "df1e6d7b-ab49-4554-b817-f745335f8eee",
+          "net": "VBUS_OVP"
+        },
+        {
+          "uuid": "861d1e32-87c0-4914-9bcc-2ec46bb67684",
+          "net": "VBUS_GUARD_ILIM"
+        },
+        {
+          "uuid": "87f98a08-c4de-4b32-b2e9-a07d7dd7c9e2",
+          "net": "VBUS_GUARD_ILIM"
+        },
+        {
+          "uuid": "90483370-49f5-4229-8107-675c0a37e69a",
+          "net": "VBUS_GUARD_ILIM"
+        },
+        {
+          "uuid": "bf22665f-5f62-4469-bde4-098af682fa26",
+          "net": "VBUS_GUARD_ILIM"
+        },
+        {
+          "uuid": "dcbe94af-e1d5-4120-a1b9-58a68afcc03f",
+          "net": "VBUS_GUARD_ILIM"
+        },
+        {
+          "uuid": "f5ac0109-51ba-42a2-b4e3-20a7d569d85f",
+          "net": "VBUS_GUARD_ILIM"
+        },
+        {
+          "uuid": "0cd03017-7a47-435c-809c-0932accb433d",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "cd40213e-5cea-40d0-babe-8dc01d2c5f9d",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "fbd8e1cb-c4ff-4df4-afbf-80e74d3de64a",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "4b352c41-58d4-4276-a34f-6cade39070fc",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "91b792df-6f39-409d-9c58-8d573b6e17a1",
+          "net": "USB_CC2"
+        },
+        {
+          "uuid": "1d3ff7a1-86c3-48fc-9abb-3ede403dc049",
+          "net": "USB_CC1"
+        },
+        {
+          "uuid": "1ed6081b-f2af-45fa-8546-f02f33e9ca9e",
+          "net": "USB_CC1"
+        },
+        {
+          "uuid": "b09680be-6f1b-4e80-b8f0-11af6d89dc3d",
+          "net": "USB_CC1"
+        },
+        {
+          "uuid": "b7d9244b-cf38-446e-8704-6217e7e16ac8",
+          "net": "USB_CC1"
+        }
+      ],
+      "component_count": 6,
+      "copper_count": 79
+    }
+  ],
+  "sample_count": 204
+}

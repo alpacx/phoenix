@@ -1,0 +1,39 @@
+{
+  "board_sha256": "4ac6c9393eeb01ce60907f68ee0ee24f729c7227e6073924ed5fad7ad5ed1b6e",
+  "pairs": [
+    "U5.30/L501.1",
+    "L501.2/C511.1",
+    "C511.1/C522.1",
+    "C522.1/U5.38",
+    "R530.2/C518.1"
+  ],
+  "intact": [
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "tests": [
+    {
+      "cut": "switch_entry",
+      "checks": [
+        false,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "cut": "inductor_output",
+      "checks": [
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    }
+  ]
+}

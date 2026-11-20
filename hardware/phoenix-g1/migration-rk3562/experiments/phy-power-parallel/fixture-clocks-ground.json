@@ -1,0 +1,31 @@
+{
+  "board": "runs/fixture-clock-ground/phy-joint.kicad_pcb",
+  "sha256": "8176e0abbd36708a844c2479536222e90155bcb6886c506157bb5ac3fb95038d",
+  "parent_sha256": "a05db7851a8cc62a5756cdd0941b4b278ceb844edffe9b117ef78a781696dc83",
+  "added": [
+    {
+      "ref": "TP1",
+      "pad": "1",
+      "via_nm": [
+        42000000,
+        27400000
+      ],
+      "length_mm": 0.9
+    }
+  ],
+  "unresolved": [
+    "Y1",
+    "Y1",
+    "Y2002",
+    "Y2002"
+  ],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 6081,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 2,
+    "existing_connected_pad_groups_preserved": 79
+  },
+  "new_drc": [],
+  "assembly_ready": false
+}

@@ -1,3 +1,103 @@
+## Checkpoint corrente delle derivazioni di alimentazione
+
+Il [PCB ricaricato](experiments/phy-power-parallel/layout-bank-feeds.json) comprende il ramo da 0,50 mm tra R8001.1 e R8006.2 su EMMC_IO_1V8 e 12 ulteriori collegamenti fra condensatori. Sono verificate 520 coppie. Restano 610 unioni minime su 213 reti. Il ritorno locale delle alimentazioni e la regolazione sotto carico restano da misurare.
+
+## Checkpoint dei fissaggi USB-C
+
+Sul [PCB verificato](experiments/phy-power-parallel/layout-usb-shell.json) i quattro terminali della schermatura di J1 formano un unico gruppo. Due tratti da 1 mm sono sul retro e il terzo è su In3.Cu. Le verifiche usano gli UUID dei quattro pad perché condividono tutti il numero SH. Restano 623 unioni minime su 213 reti. La terminazione dello schermo e la compatibilità elettromagnetica restano da qualificare.
+
+## Checkpoint delle alimentazioni locali
+
+Il [PCB verificato](experiments/phy-power-parallel/layout-peripheral-supply-balls.json) collega 27 coppie di sfere di alimentazione adiacenti e aggiunge 15 collegamenti locali tra condensatori. Le piste sono larghe 0,50 mm. La continuità di questi gruppi lascia ancora aperta la distribuzione dai regolatori. Restano 626 unioni minime su 214 reti e 123 segnalazioni di vie pendenti. Sono verificate 507 coppie sul PCB ricaricato.
+
+## Checkpoint di alimentazione del PHY
+
+Il [PCB ricaricato](experiments/phy-power-parallel/layout-phy-pin40-powered.json) collega C515, R530, C518 e U5.40. Il nuovo ramo su In2.Cu è largo 1,05 mm e lungo 5,719 mm. La deviazione di +5V_MAIN mantiene 0,80 mm su tutto il percorso sostituito. Due [prove di interruzione su copie del PCB](experiments/phy-power-parallel/phy-pin40-cut-tests.json) distinguono il tronco di distribuzione dalla via locale di C518. Sul PCB integro passano 465 verifiche di coppia. Restano 668 unioni minime su 214 reti. Le verifiche CAD non misurano ripple, stabilità del regolatore o avvio del quarzo.
+
+## Checkpoint del pin 40 del PHY
+
+Nel [PCB verificato](experiments/phy-power-parallel/layout-phy-pin40.json) C518 è sul retro. Il terminale di alimentazione raggiunge U5.40 con una via riempita e ricoperta. Il ritorno di C518 e quello del condensatore di carico C520 raggiungono la massa di C511. Il ramo C518–U5.40 deve ancora raggiungere il tronco +3V3_PHY. Restano 669 unioni minime su 215 reti. Le 464 verifiche di coppia includono i collegamenti del regolatore già validati. La geometria del ritorno e il circuito del quarzo richiedono verifica sul prototipo.
+
+## Checkpoint dei ritorni BGA
+
+Il [PCB verificato](experiments/phy-power-parallel/layout-outer-ground-mesh.json) include otto nuove vie di massa fuori piazzola e quattro rami sul SoC. Restano 670 unioni minime su 215 reti. Verificate 461 coppie sul PCB ricaricato, con 123 segnalazioni di vie pendenti.
+
+## Checkpoint del SoC
+
+Il [PCB con ritorni di massa del SoC](experiments/phy-power-parallel/layout-core-ground-mesh.json) aggiunge 13 vie passanti fuori piazzola (rame 0,45 mm, foro 0,20 mm) e 45 ulteriori rami verso la massa esistente. Le nuove vie sono distanti almeno 1 mm dai centri dei pad LPDDR4 vicini. Sono verificate 449 coppie sul PCB ricaricato. Restano 682 unioni minime su 215 reti e 123 segnalazioni di vie pendenti. Distribuzione della corrente, impedenza dei ritorni e producibilità del fanout richiedono ulteriori verifiche.
+
+## Checkpoint dei ritorni di massa
+
+Il [PCB ricaricato e verificato](experiments/phy-power-parallel/layout-all-ground-surface.json) include 15 nuovi rami di massa, dodici sul SoC e tre sui condensatori C1641, C1628 e C1636. Sono verificate 391 coppie. Restano 742 unioni minime su 215 reti e 123 segnalazioni di vie pendenti. La continuità in rame lascia da valutare impedenza e corrente dei ritorni condivisi.
+
+## Checkpoint del tronco +3V3_PHY verso C516
+
+Il [PCB verificato](experiments/phy-power-parallel/layout-phy-full-feed.json) collega R530 e C515 a C516 e U5.11. Il tronco su In2.Cu è lungo 8,817 mm e largo 1,05 mm. Due vie da 0,60/0,30 mm trasferiscono la corrente al lato componenti. Il ramo locale da C516 a U5.11 è lungo 1,248 mm. Le [cinque prove di interruzione](experiments/phy-power-parallel/phy-full-feed-proof.json) verificano il funzionamento delle vie in parallelo e la continuità del tronco anche isolandolo dal vecchio rame In2 della stessa rete.
+
+La posizione del supporto ausiliario H8105 sul PCB corrente è **(70,20; 34,00) mm**. Il foro M2 da 2,20 mm e l’intera riserva meccanica sono traslati insieme di +0,20 mm lungo X. Le posizioni dei fissaggi della scheda figlia sono conservate. Per la staffa e il case usare le [coordinate dei cinque fori M2](experiments/phy-power-parallel/mounting-interface-current.json), confrontate con l’esportazione di foratura Excellon. C516 è a (66,90; 33,20) mm. Quote riferite alle coordinate KiCad.
+
+Verificate 376 coppie sul PCB ricaricato. Rimangono 758 unioni minime su 215 reti e 123 avvisi di via pendente. La continuità CAD del nuovo ramo richiede ancora la verifica della caduta di tensione e della risposta ai transitori. Restano separati C518.1 e U5.40.
+
+## Checkpoint del bypass LPDDR4
+
+[PCB e audit cumulativo](experiments/phy-power-parallel/layout-opposite-bypass.json). C2308.1 raggiunge U2.F1 su +1V8_SYS con due tratti da 0,50 mm, lunghi complessivamente 1,563 mm, e una via da 0,60/0,30 mm. Le 374 verifiche di coppia sono passate sul PCB ricaricato. Restano almeno 759 unioni su 215 reti e 123 avvisi di via pendente. La ricerca di un ritorno aggiuntivo entro 1,20 mm dalla via di alimentazione non ha prodotto una geometria accettabile. Impedenza della distribuzione e risposta ai transitori restano da verificare.
+
+### Vincoli verificati sullo stesso PCB
+
+La [ricerca congiunta di C516 e del tronco da 1,05 mm](experiments/phy-power-parallel/phy-joint-pad-entry.json) include l’orientamento del condensatore, il suo ramo su U5.11 e le due coppie di vie di alimentazione esistenti. Nessun ingresso raggiunto nella finestra esplorata. Lo [spostamento di prova di H8105](experiments/phy-power-parallel/phy-bracket-trial.json) supera il DRC a +0,20 mm su X, ma non risolve il passaggio del tronco. Nel checkpoint del bypass LPDDR4 il foro conserva la posizione originale.
+
+Su 64 segnali LPDDR4 aperti esaminati, [59 hanno una via collegata a entrambe le estremità](experiments/phy-power-parallel/ddr-reference-corridors.json). Cinque DQ mancano ancora della via dal lato SoC. Una [prova separata su In3](experiments/phy-power-parallel/ddr-byte-b1-maze-inner-all-data.json) collega tre segnali con verifica di continuità. Il controllo campiona il piano In4 lungo le piste, esclusi i primi e gli ultimi 0,60 mm. Impedenza, lunghezze interne ai package, temporizzazione del gruppo e ritorno alle transizioni restano aperti. Questo rame è salvato solo sulla copia di prova.
+
+## Checkpoint dei ritorni dei package
+
+[PCB e inventario](experiments/phy-power-parallel/layout-package-local.json). Rispetto al checkpoint R514, 34 unioni GND chiuse. Il CAD ricaricato conserva 373 verifiche di coppia, 215 reti con gruppi separati e 760 unioni residue. I sette nuovi fori sono esterni al rettangolo delle sfere con margine sul centro del foro di 0,35 mm. Tre sfere interne del SoC raggiungono vie già presenti. Restano aperti la verifica dei ritorni ad alta frequenza e il fanout dei segnali.
+
+## Checkpoint dei ritorni sul rame esistente
+
+[PCB ricaricato e verificato](experiments/phy-power-parallel/layout-ground-bends.json). Aggiunti 15 ritorni GND. Le 354 verifiche di coppia includono entrambi i pad di massa di J2001. Restano almeno 779 unioni su 215 reti e 123 avvisi di via pendente. Le prove di continuità non qualificano impedenza RF o induttanza di disaccoppiamento. Lo schema Ethernet con R514 da 1,5 kΩ è nel checkpoint precedente.
+
+## Checkpoint R514
+
+[PCB e foglio Ethernet](experiments/phy-power-parallel/layout-mdio-pullup.json). R514 da 1,5 kΩ, Yageo C114759. Netlist esportata e DRC verificati.
+
+## Checkpoint corrente dei ritorni di massa
+
+Il [PCB con l’audit cumulativo](experiments/phy-power-parallel/layout-peripheral-returns.json) aggiunge i ritorni al piano di J2001.2 e U23.3, lunghi rispettivamente 0,70 e 0,65 mm. Dopo la ricarica da disco risultano 339 verifiche di coppia superate e almeno 794 unioni residue su 215 reti. Rimangono 123 avvisi di via pendente. Il segnale RF di J2001 resta aperto.
+
+La ricerca inversa del corridoio +3V3_PHY su griglia da 0,10 mm conserva C516 isolato dal tronco. La verifica documentale ha individuato una differenza indipendente sul bus di gestione Ethernet. R514 sul PCB vale 1,8 kΩ, mentre il datasheet RTL8211F rev. 1.9 prescrive 1,5 kΩ per MDIO. Il candidato 0402 da 1% è [Yageo RC0402FR-071K5L, C114759](https://jlcpcb.com/partdetail/YAGEO-RC0402FR071K5L/C114759). Il valore presente nel checkpoint resta 1,8 kΩ.
+
+## Checkpoint corrente del regolatore PHY
+
+Il [PCB verificato e l’inventario delle reti](experiments/phy-power-parallel/layout-regulator-joint.json) conservano le connessioni del checkpoint storage/I/O. Sul PCB ricaricato risultano 337 controlli di coppia superati, 215 reti ancora separate in più gruppi e almeno 796 unioni da completare. Il DRC cumulativo conserva i 123 avvisi di via pendente. Le 796 unioni sono una misura topologica distinta dagli avvisi.
+
+C516 raggiunge U5.11 con un tratto da 1,04 mm. Sul ramo U5.30–L501.1 la lunghezza esposta prima del rame da 1,55 mm è 0,360 mm. Il detour da 1,55 mm su +1V0_PHY lascia spazio a una via GND da 0,55/0,30 mm nel pad esposto U5.41, salvata con riempimento e copertura. Restano da qualificare il processo di assemblaggio, la saldatura del pad e la dissipazione. Lo spostamento della via di ritorno accanto a C516 mantiene il ramo a 0,65 mm. La ricerca multistrato del collegamento da 1,05 mm tra il tronco +3V3_PHY e C516 rimane aperta. Gli esiti geometrici precedenti sono in [phy-c516-wide-ground-pad-entry.json](experiments/phy-power-parallel/phy-c516-wide-ground-pad-entry.json).
+
+## Checkpoint del bus PMIC, dei controlli e della distribuzione eMMC
+
+Il [checkpoint cumulativo](experiments/phy-power-parallel/layout-pmic-bus.json) include SCL tra U4.1 e R414.2 e SDA tra U4.2 e R415.2. Due prove di interruzione, in processi KiCad separati, rimuovono una via per ramo e verificano la perdita della sola continuità attesa rispetto ai controlli PHY. Restano aperti il collegamento dal SoC e la verifica dei tempi I²C. Sono inclusi sei tratti locali da 0,50 mm tra link e condensatori eMMC, senza qualifica della distribuzione completa né dei transitori.
+
+## Checkpoint cumulativo dopo il routing dei ritorni e del reset
+
+Il [PCB e il suo inventario di connettività](experiments/phy-power-parallel/layout-reset-connectivity.json) comprendono 42 ritorni di condensatori, la massa di R432 e il punto di prova TP1. R412 raggiunge C411 sul lato RESET_N e il gruppo di pull-up R416/R417 sul lato +3V3_PMU. La distribuzione a monte del gruppo è ancora aperta. Il conteggio delle unioni residue deriva dai gruppi di pad fisici ricalcolati sul PCB ricaricato.
+
+## Ripresa della variante cumulativa PHY e memoria
+
+Il [checkpoint del bus di gestione](experiments/phy-power-parallel/pmic-control-bus.json) identifica il PCB su disco. Comprende la riconciliazione dei fissaggi H8104/H8105 e del ritorno C1623, il reset LPDDR4, il collegamento locale di R201 e tre rami delle resistenze I²C. Gli otto collegamenti elencati in `held` restano aperti nella ricerca con componenti fissi. Il riferimento VDDQ di R201 e la distribuzione a monte dei pull-up richiedono ancora routing.
+
+## Checkpoint della variante con punti di prova e polarizzazioni
+
+La variante cumulativa verificata è identificata da [integrated-fixture-trunk.json](experiments/phy-power-parallel/integrated-fixture-trunk.json). Il file contiene il percorso relativo del PCB, SHA-256, 18 coppie di pad verificate, cinque prove di interruzione e le otto interferenze meccaniche residue. Il PCB principale conserva il proprio checkpoint separato.
+
+Il controllo su disco preserva le 5.814 piste e vie e i 70 gruppi di pad del checkpoint C522. Tutte e cinque le resistenze di polarizzazione toccano il ramo +3V3_PHY e R521 raggiunge R510 sul lato RXD3. I restanti segnali e il bus RGMII completo richiedono ancora routing e verifica temporale. TP14, TP5 e TP9 raggiungono rispettivamente U17.4, C465.1 e U16.2. TP14 ha superficie di contatto libera dal foro di via. Il filtro C1503 e il partitore R1505/R1506 sono connessi localmente. Il ball U1.1P14 resta isolato. Lo schema porta al partitore +3V3_IO: prima di collegarlo al SoC occorre confermare la semantica di VBUSDET rispetto a inserzione USB e alimentazioni alternative.
+
+I tentativi di escape non sovrapposti alle piazzole per i cinque bypass SoC interferenti sono registrati in [soc-bypass-escape.json](experiments/phy-power-parallel/soc-bypass-escape.json). Lo screening riguarda 13 ball, finestra ±1,2 mm, griglia 0,05 mm, traccia e clearance 0,20 mm, vie 0,45/0,20 mm. In tale finestra nessuna uscita rettilinea soddisfa i controlli. La qualifica del fanout BGA richiede il processo PCB e la geometria appropriati.
+
+## Variante PHY verificata in CAD — 19 novembre 2026
+
+La variante più avanzata della revisione congiunta di L501 e dei bypass PHY è identificata da [c522-verified.json](experiments/phy-power-parallel/c522-verified.json). Le modifiche restano nello studio isolato. Il [checkpoint di ingresso](experiments/phy-power-parallel/phy-upstream-verified.json) copre R530–C515 e le sue due coppie di vie. Il checkpoint successivo aggiunge la distribuzione a C522, il pin 38 e il ritorno a massa. Le prove di rimozione delle vie sono state eseguite su copie in memoria del PCB ricaricato da disco.
+
+Il percorso a monte da 1,05 mm comprende 27,44 mm su In2. Il ramo a valle da 1,55 mm misura 5,40 mm, con ritorno di C522 da 3,43 mm. La modifica al quarzo porta XIN da 8,83 a 9,98 mm. Restano da qualificare il comportamento del convertitore, il fanout locale, il quarzo e l'assemblaggio delle vie in prossimità delle piazzole. I conteggi del checkpoint principale seguente si riferiscono al PCB principale.
+
 ## Salvataggio parziale — 17 novembre 2026, RXCLK e corridoi PHY
 
 Checkpoint principale: `bdeb44f58dea3d0261469c1d3f7eeb5a9e6df03e95648710393c9e09c83f6aeb`.

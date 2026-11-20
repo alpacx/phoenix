@@ -1,0 +1,289 @@
+[
+  {
+    "board": "runs/phy-directed-link-0/phy-joint.kicad_pcb",
+    "sha256": "9310899468b738e9e64e63e8458ef300e31b566fc3c56e92a916e7368cda60b0",
+    "preservation": {
+      "existing_pad_instances_preserved": 2006,
+      "existing_tracks_vias_preserved": 5824,
+      "explicitly_replaced_copper": {},
+      "added_tracks_vias": 3,
+      "existing_connected_pad_groups_preserved": 70
+    },
+    "new_mount_conflicts": [],
+    "input_connected": true,
+    "new_drc": [],
+    "short_departure_blockers": [
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "R530.1"
+        ],
+        "count": 126
+      },
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "C2007.2",
+          "GND/PCB_TRACK",
+          "R530.1"
+        ],
+        "count": 112
+      },
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "R530.1",
+          "Y2001.1"
+        ],
+        "count": 72
+      },
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "GND/PCB_TRACK"
+        ],
+        "count": 64
+      },
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "C2007.2",
+          "R530.1"
+        ],
+        "count": 43
+      },
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "GND/PCB_VIA"
+        ],
+        "count": 35
+      },
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK"
+        ],
+        "count": 30
+      },
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "C2007.2",
+          "GND/PCB_TRACK"
+        ],
+        "count": 29
+      },
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "Y2001.2"
+        ],
+        "count": 28
+      },
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "GND/PCB_TRACK",
+          "GND/PCB_VIA"
+        ],
+        "count": 21
+      },
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "GND/PCB_TRACK",
+          "R530.1"
+        ],
+        "count": 20
+      },
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "GND/PCB_VIA",
+          "Y2001.2"
+        ],
+        "count": 18
+      },
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "R530.1",
+          "Y2001.2"
+        ],
+        "count": 14
+      },
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "GND/PCB_TRACK",
+          "GND/PCB_VIA",
+          "Y2001.2"
+        ],
+        "count": 13
+      },
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "Y2001.1",
+          "Y2001.2"
+        ],
+        "count": 9
+      },
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "Y2001.1"
+        ],
+        "count": 5
+      },
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "R530.1",
+          "Y2001.1",
+          "Y2001.2"
+        ],
+        "count": 4
+      },
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "GND/PCB_VIA",
+          "R530.1"
+        ],
+        "count": 4
+      },
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "GND/PCB_VIA",
+          "R530.1",
+          "Y2001.2"
+        ],
+        "count": 1
+      }
+    ],
+    "clear_output_paths": [],
+    "power_layout_accepted": false,
+    "assembly_ready": false
+  },
+  {
+    "board": "runs/phy-directed-link-1/phy-joint.kicad_pcb",
+    "sha256": "f57fe0d790b81e420ba9d7cd5654aae8cd2e450e8647eb9ac48ef2b717006293",
+    "preservation": {
+      "existing_pad_instances_preserved": 2006,
+      "existing_tracks_vias_preserved": 5824,
+      "explicitly_replaced_copper": {},
+      "added_tracks_vias": 3,
+      "existing_connected_pad_groups_preserved": 70
+    },
+    "new_mount_conflicts": [],
+    "input_connected": true,
+    "new_drc": [],
+    "short_departure_blockers": [
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "GND/PCB_TRACK",
+          "GND/PCB_VIA"
+        ],
+        "count": 154
+      },
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "GND/PCB_TRACK",
+          "GND/PCB_VIA",
+          "R530.1"
+        ],
+        "count": 117
+      },
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "GND/PCB_TRACK",
+          "GND/PCB_VIA",
+          "Y2001.2"
+        ],
+        "count": 85
+      },
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "R530.1"
+        ],
+        "count": 65
+      },
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "GND/PCB_TRACK",
+          "R530.1"
+        ],
+        "count": 58
+      },
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "GND/PCB_VIA",
+          "R530.1"
+        ],
+        "count": 47
+      },
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "GND/PCB_TRACK",
+          "GND/PCB_VIA",
+          "R530.1",
+          "Y2001.2"
+        ],
+        "count": 43
+      },
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "GND/PCB_VIA",
+          "R530.1",
+          "Y2001.2"
+        ],
+        "count": 33
+      },
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "C2007.2",
+          "GND/PCB_TRACK",
+          "R530.1"
+        ],
+        "count": 20
+      },
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "GND/PCB_TRACK"
+        ],
+        "count": 13
+      },
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "R530.1",
+          "Y2001.2"
+        ],
+        "count": 12
+      },
+      {
+        "items": [
+          "+3V3_IO/PCB_TRACK",
+          "C2007.2",
+          "R530.1"
+        ],
+        "count": 1
+      }
+    ],
+    "clear_output_paths": [],
+    "power_layout_accepted": false,
+    "assembly_ready": false
+  }
+]

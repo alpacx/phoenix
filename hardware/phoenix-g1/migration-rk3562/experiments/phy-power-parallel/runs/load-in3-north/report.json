@@ -1,0 +1,143 @@
+{
+  "source": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/joint-002/phy-joint.kicad_pcb",
+  "source_sha256": "253e2dea16603193c59ab20c8edb7f824edfc5be42ba74ac4623444fb66e6b63",
+  "candidate": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/load-in3-north/phy-joint.kicad_pcb",
+  "candidate_sha256": "0166111dcb367ed1a789d0786ba4144a235b52d1aecf8c0f8c3eff037bbed1a0",
+  "removed": [],
+  "required_pairs": [
+    [
+      [
+        "C511",
+        "1"
+      ],
+      [
+        "C512",
+        "1"
+      ]
+    ]
+  ],
+  "routes": [
+    {
+      "label": "load-in3-north",
+      "path_mm": [
+        [
+          56.2,
+          31.1
+        ],
+        [
+          56.6,
+          30.7
+        ],
+        [
+          56.6,
+          29.5
+        ],
+        [
+          61.8,
+          29.5
+        ],
+        [
+          62.425,
+          30.125
+        ],
+        [
+          62.425,
+          34.5
+        ]
+      ],
+      "width_mm": 1.55,
+      "net": "+1V0_PHY",
+      "layer": "In3.Cu",
+      "guard": {
+        "net": "+1V0_PHY",
+        "width_mm": 1.55,
+        "segments": 5,
+        "width_preserved": true,
+        "current_rating_qualified": false
+      },
+      "uuids": [
+        "09ba62ba-7240-453c-bc76-c7780a8afbf1",
+        "24140f10-0da2-4d24-98b1-4d1316d77c7d",
+        "7c0220ac-7f0c-4a0f-92c8-85f72d8126dc",
+        "1d3a99fb-e1bc-4c30-9e25-8f642260c5e0",
+        "e611f9d5-d596-4ba7-91d8-78599574b172"
+      ]
+    }
+  ],
+  "historical_60mil_width_met_on_entire_path": false,
+  "main_checkpoint_modified": false,
+  "power_layout_accepted": false,
+  "assembly_ready": false,
+  "limitations": [
+    "Manual full-width same-layer geometric probe only. Rejected geometry must not be adopted."
+  ],
+  "new_violations": [
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "24140f10-0da2-4d24-98b1-4d1316d77c7d",
+        "decd2621-ad18-4a23-aa33-46a4ade955a5"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "7c0220ac-7f0c-4a0f-92c8-85f72d8126dc",
+        "decd2621-ad18-4a23-aa33-46a4ade955a5"
+      ],
+      "count": 1
+    }
+  ],
+  "details": [
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.0050 mm)",
+      "items": [
+        {
+          "description": "Pista [+1V0_PHY] su In3.Cu, lung. 1.2000 mm",
+          "pos": {
+            "x": 56.6,
+            "y": 30.7
+          },
+          "uuid": "24140f10-0da2-4d24-98b1-4d1316d77c7d"
+        },
+        {
+          "description": "Via [VDD_CPU] su F.Cu - B.Cu",
+          "pos": {
+            "x": 56.5,
+            "y": 28.5
+          },
+          "uuid": "decd2621-ad18-4a23-aa33-46a4ade955a5"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.0050 mm)",
+      "items": [
+        {
+          "description": "Pista [+1V0_PHY] su In3.Cu, lung. 5.2000 mm",
+          "pos": {
+            "x": 56.6,
+            "y": 29.5
+          },
+          "uuid": "7c0220ac-7f0c-4a0f-92c8-85f72d8126dc"
+        },
+        {
+          "description": "Via [VDD_CPU] su F.Cu - B.Cu",
+          "pos": {
+            "x": 56.5,
+            "y": 28.5
+          },
+          "uuid": "decd2621-ad18-4a23-aa33-46a4ade955a5"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    }
+  ],
+  "status": "JOINT_SW_GEOMETRY_REJECTED"
+}

@@ -10,6 +10,7 @@ def screen(board):
   if not z.GetIsRuleArea() or not z.GetZoneName().endswith(' mechanical reservation'):continue
   box=z.GetBoundingBox();x=p.ToMM(box.GetX()+box.GetWidth()/2);y=p.ToMM(box.GetY()+box.GetHeight()/2);r=p.ToMM(max(box.GetWidth(),box.GetHeight()))/2
   for f in board.GetFootprints():
+   if f.GetReference()==z.GetZoneName().removesuffix(' mechanical reservation'):continue
    box=f.GetCourtyard(f.GetLayer()).BBox()
    if box.GetWidth()<=0 or box.GetHeight()<=0:continue
    left,top,right,bottom=[p.ToMM(v) for v in (box.GetX(),box.GetY(),box.GetRight(),box.GetBottom())]

@@ -1,0 +1,188 @@
+{
+  "board": "runs/local-cap-bank/phy-joint.kicad_pcb",
+  "sha256": "2afdc3768432d7a72931c918d466a96cd1349b4871910c1237584ada88b2c51d",
+  "parent_sha256": "2afdc3768432d7a72931c918d466a96cd1349b4871910c1237584ada88b2c51d",
+  "placement_stages": {
+    "courtyard": 0,
+    "pads": 0,
+    "signal": 0,
+    "cap_land": 0,
+    "ground_bore": 0
+  },
+  "return_conflicts": [],
+  "rotated_load": false,
+  "load_courtyard_conflicts": [],
+  "clock_return_found": false,
+  "free_barrel_sites": 0,
+  "bore_conflicts": [
+    {
+      "objects": [
+        "PHY_XIN B.Cu",
+        "PHY_XOUT F.Cu"
+      ],
+      "example": [
+        1029563.0140987001,
+        [
+          59700000,
+          32900000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "PHY_XIN B.Cu",
+        "PHY_XIN F.Cu"
+      ],
+      "example": [
+        1612451.54965971,
+        [
+          59800000,
+          31000000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+3V3_PHY In2.Cu",
+        "PHY_XIN B.Cu"
+      ],
+      "example": [
+        1726267.6501632067,
+        [
+          60900000,
+          34100000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "GND B.Cu",
+        "PHY_XOUT F.Cu"
+      ],
+      "example": [
+        1772004.5146669352,
+        [
+          58900000,
+          32900000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+3V3_PHY F.Cu",
+        "PHY_XIN B.Cu",
+        "U5.40"
+      ],
+      "example": [
+        860232.5267042627,
+        [
+          59900000,
+          32900000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+1V0_PHY F.Cu",
+        "PHY_XIN B.Cu",
+        "PHY_XOUT F.Cu"
+      ],
+      "example": [
+        921954.4457292889,
+        [
+          59700000,
+          32600000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+3V3_PHY F.Cu",
+        "PHY_XIN B.Cu",
+        "PHY_XOUT F.Cu"
+      ],
+      "example": [
+        943398.1132056604,
+        [
+          59800000,
+          32900000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+3V3_PHY In2.Cu",
+        "PHY_XIN B.Cu",
+        "U5.1"
+      ],
+      "example": [
+        1019803.902718557,
+        [
+          60800000,
+          33400000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "PHY_XIN B.Cu",
+        "PHY_XOUT F.Cu",
+        "Y501.1"
+      ],
+      "example": [
+        1166190.37896906,
+        [
+          59600000,
+          33000000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "GND B.Cu",
+        "PHY_XIN B.Cu",
+        "PHY_XOUT F.Cu"
+      ],
+      "example": [
+        1170469.9910719625,
+        [
+          59500000,
+          32800000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "PHY_XIN B.Cu",
+        "PHY_XIN F.Cu",
+        "PHY_XOUT F.Cu"
+      ],
+      "example": [
+        1442220.5101855958,
+        [
+          59800000,
+          31200000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+3V3_PHY F.Cu",
+        "+3V3_PHY In2.Cu",
+        "C518.1"
+      ],
+      "example": [
+        1503329.637837291,
+        [
+          60700000,
+          33900000
+        ]
+      ]
+    }
+  ],
+  "obstacle_sets": [],
+  "local_landings": 0,
+  "placements": 0,
+  "change": null,
+  "assembly_ready": false
+}

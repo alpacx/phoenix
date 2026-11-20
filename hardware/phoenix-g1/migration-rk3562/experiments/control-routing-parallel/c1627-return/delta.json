@@ -1,0 +1,46 @@
+{
+  "baseline_sha256": "75e1b85c569a2619f37e2c418d7868b897cee2f1b490602a80f9bb47f2281545",
+  "candidate_sha256": "0558a58ceb4ef47a55ed8cf9025550e89d9fea2300c460e80315364480106198",
+  "tracks": [
+    {
+      "uuid": "6169948d-fe23-4ad8-bc16-c7008b2119b6",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.6,
+      "via": true,
+      "drill_mm": 0.3,
+      "start_mm": [
+        50.65,
+        29.75
+      ],
+      "end_mm": [
+        50.65,
+        29.75
+      ]
+    },
+    {
+      "uuid": "424f7192-282c-45f7-a3b5-6563796c855d",
+      "net": "GND",
+      "layer": "B.Cu",
+      "width_mm": 0.3,
+      "via": false,
+      "drill_mm": null,
+      "start_mm": [
+        50.02,
+        28.0
+      ],
+      "end_mm": [
+        50.65,
+        29.75
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "from": "C1627.2",
+      "to": "C435.2"
+    }
+  ],
+  "assembly_ready": false,
+  "qualification": "Ground continuity and DRC only; power integrity not qualified."
+}

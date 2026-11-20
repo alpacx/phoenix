@@ -1,0 +1,68 @@
+{
+  "source": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/load-in3-c513d/phy-joint.kicad_pcb",
+  "source_sha256": "ed62235bbb029f795503ecc0f4e9b3e505adea246f7f73883a52165a9438a378",
+  "candidate": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/input-in2-001/phy-joint.kicad_pcb",
+  "candidate_sha256": "528f59d07546753d84fc1cfc2ff5b94233b74ae17d822f8796953b8f9c7d262e",
+  "removed": [],
+  "required_pairs": [
+    [
+      [
+        "R530",
+        "2"
+      ],
+      [
+        "C515",
+        "1"
+      ]
+    ]
+  ],
+  "routes": [
+    {
+      "label": "input-in2-001",
+      "path_mm": [
+        [
+          54,
+          26.4
+        ],
+        [
+          54,
+          25.5
+        ],
+        [
+          55.5,
+          24
+        ],
+        [
+          60.9,
+          24
+        ],
+        [
+          60.9,
+          24.2
+        ]
+      ],
+      "width_mm": 1.05,
+      "net": "+3V3_PHY",
+      "layer": "In2.Cu",
+      "guard": {
+        "net": "+3V3_PHY",
+        "width_mm": 1.05,
+        "segments": 4,
+        "width_preserved": true,
+        "current_rating_qualified": false
+      },
+      "uuids": [
+        "773393d3-75a4-487e-8aa3-4cd1b2670a49",
+        "e2bbe105-bfb2-4653-b1e0-37268fdede15",
+        "2c7d4086-1b1d-440a-af8e-ecc9e0ff9a38",
+        "a18b7ef3-a1c6-47ec-9e35-ef5470921952"
+      ]
+    }
+  ],
+  "power_layout_accepted": false,
+  "assembly_ready": false,
+  "limitations": [
+    "Via current, manufacturing clearance, input loop and PI not qualified.",
+    "Inherited SW QFN neck hold remains."
+  ]
+}

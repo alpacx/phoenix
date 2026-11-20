@@ -1,0 +1,26 @@
+{
+  "status": "C513_LOCAL_BYPASS_GEOMETRY_PASSED_PI_FANOUT_HOLD",
+  "board": "runs/load-in3-c513d/phy-joint.kicad_pcb",
+  "sha256": "ed62235bbb029f795503ecc0f4e9b3e505adea246f7f73883a52165a9438a378",
+  "report": "runs/load-in3-c513d/report.json",
+  "tests": "tests-c513.json",
+  "tests_passed": 6,
+  "moved": {
+    "C513": {
+      "xy_mm": [
+        65.4,
+        34.5
+      ],
+      "rotation_deg": 0
+    }
+  },
+  "power_layout_accepted": false,
+  "assembly_ready": false,
+  "remaining": [
+    "REG_OUT QFN fanout qualification",
+    "post-inductor via current/PI/pad-overlap qualification",
+    "U5.8 branch fanout qualification",
+    "C515 effective capacitance",
+    "U5.38/C522 input/output remaining distribution"
+  ]
+}

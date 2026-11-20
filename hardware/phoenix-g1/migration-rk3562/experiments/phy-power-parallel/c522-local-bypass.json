@@ -1,0 +1,51 @@
+{
+  "existing_ground_via": true,
+  "site": {
+    "center": [
+      60.8,
+      32.5
+    ],
+    "angle": 0,
+    "return_pad": [
+      61.28,
+      32.5
+    ],
+    "pin_length": 0.5813776741499453
+  },
+  "return_via_mm": [
+    63.95,
+    34.75
+  ],
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5809,
+    "explicitly_replaced_copper": {
+      "5ceae13c-f7e5-428d-a95f-ff53859e346f": [
+        "GND",
+        0,
+        82980000,
+        34500000,
+        83000000,
+        34500000,
+        200000,
+        null
+      ],
+      "78491b2d-2562-496c-83a8-0691e563be30": [
+        "GND",
+        0,
+        83000000,
+        34500000,
+        83700000,
+        34500000,
+        200000,
+        null
+      ]
+    },
+    "added_tracks_vias": 0,
+    "existing_connected_pad_groups_preserved": 70
+  },
+  "new_drc": [],
+  "pin38_connected": true,
+  "return_connected": true,
+  "rail_connected": false
+}

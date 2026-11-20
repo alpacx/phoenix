@@ -1,3 +1,14 @@
+## Ripresa sequenziale — 18 novembre 2026
+
+Decisione utente: continuare la scheda attuale RK3562, senza agenti paralleli. Studi Wi-Fi gigabit e alternative RAM restano non applicati. Nessun commit/push.
+
+Checkpoint autorevole: `pmic-ldo-inputs/working-candidate.json`, SHA `c29d07e1eca29d367b1194504bc58288253b281572404bd8820ac6b030a12824`.
+Corretti due via RAM troppo vicini a pad; integrati cinque ritorni GND aggiuntivi, incluso C1627 con via riposizionato lontano da C2204 e EXP_SPI_MOSI. **246 coppie verificate**, ricostruzione completa di 24 stadi superata, **67 test ereditati + 7 test integrati** superati. Screen conservativo dei **30 nuovi via** superato; aggiunta regressione per overlap con pad della stessa net. Nessun nuovo errore DRC o conflitto meccanico introdotto.
+
+Restano 225 reti multipad aperte e 901 unioni topologiche minime. VDC pin61, distribuzione alimentazioni PHY/RAM, routing restante, display e verifiche SI/PI/assemblaggio restano aperti. Due via preesistenti presso U21.19/C521.2 richiedono revisione assemblaggio separata: il nuovo screen non ne certifica l'idoneità. La scheda non è pronta alla produzione.
+
+Dettagli e tentativi esclusi: `control-routing-parallel/SEQUENTIAL_RESUME.md`. Le sezioni successive sono storico, non attività di agenti attualmente in esecuzione.
+
 ## Salvataggio parziale — 17 novembre 2026, RXCLK e corridoi PHY
 
 Checkpoint principale: `bdeb44f58dea3d0261469c1d3f7eeb5a9e6df03e95648710393c9e09c83f6aeb`.

@@ -1,0 +1,296 @@
+[
+  {
+    "ref": "U1",
+    "pin": "B27",
+    "pin_name": "SARADC_VIN0",
+    "net": "RECOVERY_ADC"
+  },
+  {
+    "ref": "U1",
+    "pin": "C26",
+    "pin_name": "SARADC_VIN1",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "D24",
+    "pin_name": "SARADC_VIN2",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "E23",
+    "pin_name": "SARADC_VIN3",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "G21",
+    "pin_name": "SARADC_VIN4",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "F22",
+    "pin_name": "SARADC_VIN5",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "G20",
+    "pin_name": "SARADC_VIN6",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "F21",
+    "pin_name": "SARADC_VIN7",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "H22",
+    "pin_name": "SARADC_AVDD_1V8",
+    "net": "VCCA_1V8"
+  },
+  {
+    "ref": "U1",
+    "pin": "H20",
+    "pin_name": "OTP_VCC18",
+    "net": "VCCA_1V8"
+  },
+  {
+    "ref": "U1",
+    "pin": "AG12",
+    "pin_name": "MIPI_CSI_RX_D0P",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AH12",
+    "pin_name": "MIPI_CSI_RX_D0N",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AG11",
+    "pin_name": "MIPI_CSI_RX_D1P",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AH11",
+    "pin_name": "MIPI_CSI_RX_D1N",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AE11",
+    "pin_name": "MIPI_CSI_RX_D2P",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AD11",
+    "pin_name": "MIPI_CSI_RX_D2N",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AD9",
+    "pin_name": "MIPI_CSI_RX_D3P",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AE9",
+    "pin_name": "MIPI_CSI_RX_D3N",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AG10",
+    "pin_name": "MIPI_CSI_RX_CLK0P",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AH10",
+    "pin_name": "MIPI_CSI_RX_CLK0N",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AG9",
+    "pin_name": "MIPI_CSI_RX_CLK1P",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AH9",
+    "pin_name": "MIPI_CSI_RX_CLK1N",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "W14",
+    "pin_name": "MIPI_CSI_RX_AVDD_0V9",
+    "net": "GND"
+  },
+  {
+    "ref": "U1",
+    "pin": "Y14",
+    "pin_name": "MIPI_CSI_RX_AVDD_1V8",
+    "net": "GND"
+  },
+  {
+    "ref": "U1",
+    "pin": "AG22",
+    "pin_name": "HDMI_TX_D2P",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AH22",
+    "pin_name": "HDMI_TX_D2N",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AG21",
+    "pin_name": "HDMI_TX_D1P",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AH21",
+    "pin_name": "HDMI_TX_D1N",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AG20",
+    "pin_name": "HDMI_TX_D0P",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AH20",
+    "pin_name": "HDMI_TX_D0N",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AH19",
+    "pin_name": "HDMI_TX_CLKP",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AG19",
+    "pin_name": "HDMI_TX_CLKN",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AB18",
+    "pin_name": "HDMI_TX_HPDIN",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AA18",
+    "pin_name": "HDMI_TX_REXT",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "V17",
+    "pin_name": "HDMI_TX_AVDD_0V9_1",
+    "net": "GND"
+  },
+  {
+    "ref": "U1",
+    "pin": "V18",
+    "pin_name": "HDMI_TX_AVDD_0V9_2",
+    "net": "GND"
+  },
+  {
+    "ref": "U1",
+    "pin": "W18",
+    "pin_name": "HDMI_TX_AVDD_1V8",
+    "net": "GND"
+  },
+  {
+    "ref": "U1",
+    "pin": "AH17",
+    "pin_name": "MIPI_DSI_TX0_D0P",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AG17",
+    "pin_name": "MIPI_DSI_TX0_D0N",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AH16",
+    "pin_name": "MIPI_DSI_TX0_D1P",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AG16",
+    "pin_name": "MIPI_DSI_TX0_D1N",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AH14",
+    "pin_name": "MIPI_DSI_TX0_D2P",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AG14",
+    "pin_name": "MIPI_DSI_TX0_D2N",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AH13",
+    "pin_name": "MIPI_DSI_TX0_D3P",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AG13",
+    "pin_name": "MIPI_DSI_TX0_D3N",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AH15",
+    "pin_name": "MIPI_DSI_TX0_CLKP",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AG15",
+    "pin_name": "MIPI_DSI_TX0_CLKN",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "W16",
+    "pin_name": "MIPI_DSI_TX0",
+    "net": "GND"
+  },
+  {
+    "ref": "U1",
+    "pin": "Y17",
+    "pin_name": "MIPI_DSI_TX0",
+    "net": "GND"
+  }
+]

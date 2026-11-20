@@ -1,0 +1,123 @@
+{
+  "status": "ENGINEERING SCREEN ONLY - NOT A GUARANTEED POWER BUDGET",
+  "source": "https://www.ti.com/lit/ds/symlink/tps2595.pdf",
+  "efuse": {
+    "ref": "U15",
+    "rilm_ohm": 806,
+    "nominal_limit_a": 2.5213895781637716,
+    "screen_low_a": 2.309559762179692,
+    "screen_high_a": 2.737438178309146,
+    "remaining_to_3a_at_screen_high_a": 0.26256182169085385,
+    "ron_max_ohm_at_125c_vin_ge4v": 0.053,
+    "loss_at_2a_w": 0.212,
+    "drop_at_2a_v": 0.106
+  },
+  "direct_shunt_capacitors": {
+    "VBUS_RAW": [
+      {
+        "ref": "C1901",
+        "nominal_uf": 1.0
+      }
+    ],
+    "VBUS_PROTECTED": [
+      {
+        "ref": "C605",
+        "nominal_uf": 0.1
+      },
+      {
+        "ref": "C1201",
+        "nominal_uf": 1.0
+      },
+      {
+        "ref": "C1101",
+        "nominal_uf": 1.0
+      },
+      {
+        "ref": "C1902",
+        "nominal_uf": 1.0
+      }
+    ],
+    "+5V_MAIN": [
+      {
+        "ref": "C1001",
+        "nominal_uf": 22.0
+      },
+      {
+        "ref": "C1002",
+        "nominal_uf": 22.0
+      },
+      {
+        "ref": "C1801",
+        "nominal_uf": 1.0
+      },
+      {
+        "ref": "C1301",
+        "nominal_uf": 10.0
+      },
+      {
+        "ref": "C1302",
+        "nominal_uf": 0.1
+      },
+      {
+        "ref": "C1203",
+        "nominal_uf": 1.0
+      },
+      {
+        "ref": "C2201",
+        "nominal_uf": 10.0
+      },
+      {
+        "ref": "C2202",
+        "nominal_uf": 0.1
+      }
+    ],
+    "+3V3_AON": [
+      {
+        "ref": "C606",
+        "nominal_uf": 0.1
+      },
+      {
+        "ref": "C1102",
+        "nominal_uf": 2.2
+      },
+      {
+        "ref": "C1103",
+        "nominal_uf": 0.1
+      },
+      {
+        "ref": "C1104",
+        "nominal_uf": 0.1
+      },
+      {
+        "ref": "C1105",
+        "nominal_uf": 0.1
+      },
+      {
+        "ref": "C1106",
+        "nominal_uf": 0.1
+      },
+      {
+        "ref": "C1107",
+        "nominal_uf": 0.1
+      }
+    ]
+  },
+  "startup_typical": {
+    "dvdt_cap_nf": 22,
+    "slew_v_per_ms": 1.9090909090909092,
+    "rise_to_5v_ms": 2.619047619047619,
+    "main_direct_cap_nominal_uf": 66.2,
+    "main_direct_cap_charge_current_a": 0.12638181818181818
+  },
+  "limits": [
+    "Current-range calculation combines typical equation with +/-7.5% screening and1% resistor tolerance; it is not a new guaranteed datasheet limit.",
+    "Always-on loads bypass U15 but pass through U24 and must fit in the remaining USB current budget.",
+    "Wi-Fi AP6256 is in the netlist and has a dedicated3.584V converter; the module datasheet specifies1A peak at3.3V; complete RK3568/RAM/PHY worst-case budget is still absent.",
+    "Direct capacitance excludes IC/package capacitance and downstream converters; startup load is greater than the calculated capacitive current.",
+    "MLCC tolerance/DC bias and dVdt tolerance are not included in typical startup figures.",
+    "No per-rail worst-case RK3568/RAM/PHY load characterization or converter efficiency budget exists yet.",
+    "TPS259531 clamp onset can reach5.9V; 5.7V typical onset must not be treated as a guaranteed5.5V supply ceiling.",
+    "U24 upstream guard feeds VBUS_PROTECTED and the always-on loads; U15 separately gates +5V_MAIN. U24 transient response and both-stage loss require qualification.",
+    "UVLO, discharge, load transients, USB suspend and thermal qualification remain open."
+  ]
+}

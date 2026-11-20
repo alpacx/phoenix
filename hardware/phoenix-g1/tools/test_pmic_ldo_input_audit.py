@@ -4,7 +4,7 @@ from pathlib import Path
 def run_case(name):
  import pcbnew as p
  from audit_pmic_ldo_inputs import audit_board,D
- b=p.LoadBoard(str(D/'pcb/ethernet-dvdd33-bypass.kicad_pcb'));held=[]
+ b=p.LoadBoard(str(D/'pcb/parallel-local-copper.kicad_pcb'));held=[]
  if name in ['rxclkstrap','rxclkstrapground']:
   import json
   proof=json.loads((D/'pcb/ethernet-dvdd33-bypass.json').read_text());ids=set(proof['rxclk_route']['new_copper_uuids']);net='PHY_RXCLK' if name=='rxclkstrap' else 'GND'
@@ -37,7 +37,7 @@ def run_case(name):
   else:raise AssertionError('Backside PHY inductor incorrectly accepted')
   return
  if name=='accepted':
-  assert len(audit_board(b)['checks'])==195
+  assert len(audit_board(b)['checks'])==246
   return
  if name in ['bypassdigital','bypassdigitalground','bypassanalog','bypassanalogground','iopower','avdd10','avdd10ground','iobypass','iobypassground','dvdd33','dvdd33ground']:
   stages={'avdd10':('ethernet-io-power-link', 'ethernet-avdd10-escape', '+1V0_PHY'),'avdd10ground':('ethernet-io-power-link', 'ethernet-avdd10-escape', 'GND'),'iobypass':('ethernet-avdd10-escape', 'ethernet-io-bypass-escape', '+3V3_PHY'),'iobypassground':('ethernet-avdd10-escape', 'ethernet-io-bypass-escape', 'GND'),'dvdd33':('ethernet-io-bypass-escape', 'ethernet-dvdd33-bypass', '+3V3_PHY'),'dvdd33ground':('ethernet-io-bypass-escape', 'ethernet-dvdd33-bypass', 'GND'),

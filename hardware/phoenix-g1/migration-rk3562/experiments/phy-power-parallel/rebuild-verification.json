@@ -1,0 +1,22 @@
+{
+  "status": "GEOMETRY_REBUILD_MATCH",
+  "reference": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/load-in3-c513d/phy-joint.kicad_pcb",
+  "rebuild": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/rebuild-c513d/phy-joint.kicad_pcb",
+  "geometry_fingerprint": {
+    "hash": "ea166a6db4c405290e4e02702a168efa7e38b4605aa6fb7525a2beb7194fc12f",
+    "pads": 2006,
+    "footprints": 376,
+    "tracks": 5843
+  },
+  "includes": [
+    "footprint ref/value/id/placement/side",
+    "pad UUID/net/size/placement/drill",
+    "track/via class/net/layer/endpoints/width/drill"
+  ],
+  "excludes": [
+    "generated copper UUIDs",
+    "zone fill polygon serialization"
+  ],
+  "rebuild_drc_new_violations": 0,
+  "power_layout_accepted": false
+}

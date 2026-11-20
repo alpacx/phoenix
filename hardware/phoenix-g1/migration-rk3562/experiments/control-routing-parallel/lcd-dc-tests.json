@@ -1,0 +1,33 @@
+{
+  "tests": [
+    {
+      "test": "accepted_lcd_dc",
+      "passed": true
+    },
+    {
+      "test": "unrouted_source",
+      "passed": true
+    },
+    {
+      "test": "narrowed_signal",
+      "passed": true
+    },
+    {
+      "test": "changed_via_drill",
+      "passed": true
+    },
+    {
+      "test": "removed_via",
+      "passed": true
+    },
+    {
+      "test": "modified_existing_copper",
+      "passed": true
+    },
+    {
+      "test": "unchanged_design_rules",
+      "passed": true
+    }
+  ],
+  "passed": 7
+}

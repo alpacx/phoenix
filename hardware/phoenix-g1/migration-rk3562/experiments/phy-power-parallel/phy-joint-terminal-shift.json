@@ -1,0 +1,89 @@
+{
+  "board": "runs/phy-joint-terminal-shift/phy-joint.kicad_pcb",
+  "sha256": "3bab3f94c671a304822d47601ae49b59b59d3f76e76048437e35e5c7395be975",
+  "parent_sha256": "35e508cea5eeceb1bd17ef0b4a63353ce2ed70f6e2f90a801fa96e5a68aea10e",
+  "terminal_sites": 120,
+  "free_barrels": 315,
+  "layer_landing_sites": 132,
+  "mechanical_ok": 1,
+  "entry_ok": 1,
+  "placements": 41,
+  "reached": 1,
+  "drc_trials": 1,
+  "change": {
+    "location_nm": [
+      66900000,
+      33200000
+    ],
+    "angle": 270,
+    "entry_nm": [
+      66900000,
+      32000000
+    ],
+    "path": [
+      [
+        2,
+        66900000,
+        32000000
+      ],
+      [
+        2,
+        65300000,
+        30700000
+      ],
+      [
+        2,
+        63200000,
+        27200000
+      ],
+      [
+        2,
+        62575000,
+        24600000
+      ]
+    ],
+    "ground_site_nm": [
+      66900000,
+      34380000
+    ],
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 6352,
+      "explicitly_replaced_copper": {
+        "0c0e9ecf-cfbc-49dd-aee5-3f8206518f5a": [
+          "GND",
+          0,
+          66700000,
+          31920000,
+          67400000,
+          31920000,
+          300000,
+          null
+        ],
+        "4be7a273-3951-47a2-b0a0-617d5821b21b": [
+          "GND",
+          0,
+          67400000,
+          31920000,
+          67400000,
+          31920000,
+          600000,
+          300000
+        ],
+        "fa425619-8809-49bc-860b-00120a1848e7": [
+          "+3V3_PHY",
+          0,
+          65660000,
+          32890000,
+          66700000,
+          32880000,
+          200000,
+          null
+        ]
+      },
+      "added_tracks_vias": 8,
+      "existing_connected_pad_groups_preserved": 88
+    }
+  },
+  "assembly_ready": false
+}

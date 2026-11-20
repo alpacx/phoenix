@@ -1,0 +1,74 @@
+{
+  "board": "runs/local-passive-C1503/phy-joint.kicad_pcb",
+  "sha256": "efa44e68fc5fe7391b4113bf42bf92dec84a91615de28153ebecbf09f403a5e4",
+  "records": [
+    {
+      "ref": "C1503",
+      "pad": "2",
+      "node": [
+        "R1506",
+        "2"
+      ],
+      "path": [
+        [
+          0,
+          38020000,
+          34400000
+        ],
+        [
+          0,
+          37600000,
+          36000000
+        ],
+        [
+          0,
+          36800000,
+          36600000
+        ],
+        [
+          0,
+          36600000,
+          37600000
+        ],
+        [
+          0,
+          34800000,
+          37800000
+        ],
+        [
+          0,
+          33600000,
+          36800000
+        ],
+        [
+          0,
+          32800000,
+          35800000
+        ],
+        [
+          0,
+          32800000,
+          35000000
+        ],
+        [
+          0,
+          33400000,
+          34800000
+        ],
+        [
+          0,
+          35020000,
+          34400000
+        ]
+      ],
+      "new_drc": [],
+      "preservation": {
+        "existing_pad_instances_preserved": 2006,
+        "existing_tracks_vias_preserved": 5846,
+        "explicitly_replaced_copper": {},
+        "added_tracks_vias": 9,
+        "existing_connected_pad_groups_preserved": 74
+      }
+    }
+  ]
+}

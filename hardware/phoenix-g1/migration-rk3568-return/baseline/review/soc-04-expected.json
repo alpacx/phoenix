@@ -1,0 +1,560 @@
+[
+  {
+    "ref": "U1",
+    "pin": "E27",
+    "pin_name": "SDMMC1_D0",
+    "net": "WIFI_D0"
+  },
+  {
+    "ref": "U1",
+    "pin": "E28",
+    "pin_name": "SDMMC1_D1",
+    "net": "WIFI_D1"
+  },
+  {
+    "ref": "U1",
+    "pin": "B28",
+    "pin_name": "SDMMC1_D2",
+    "net": "WIFI_D2"
+  },
+  {
+    "ref": "U1",
+    "pin": "C27",
+    "pin_name": "SDMMC1_D3",
+    "net": "WIFI_D3"
+  },
+  {
+    "ref": "U1",
+    "pin": "C28",
+    "pin_name": "SDMMC1_CMD",
+    "net": "WIFI_CMD"
+  },
+  {
+    "ref": "U1",
+    "pin": "D27",
+    "pin_name": "SDMMC1_CLK",
+    "net": "WIFI_CLK"
+  },
+  {
+    "ref": "U1",
+    "pin": "D26",
+    "pin_name": "SDMMC1_PWREN",
+    "net": "WIFI_REG_ON"
+  },
+  {
+    "ref": "U1",
+    "pin": "E25",
+    "pin_name": "SDMMC1_DET",
+    "net": "WIFI_HOST_WAKE"
+  },
+  {
+    "ref": "U1",
+    "pin": "F28",
+    "pin_name": "GMAC0_TXD0",
+    "net": "EXP_UART_RX"
+  },
+  {
+    "ref": "U1",
+    "pin": "G27",
+    "pin_name": "GMAC0_TXD1",
+    "net": "EXP_UART_TX"
+  },
+  {
+    "ref": "U1",
+    "pin": "G28",
+    "pin_name": "GMAC0_TXEN",
+    "net": "LCD_SCLK"
+  },
+  {
+    "ref": "U1",
+    "pin": "F27",
+    "pin_name": "GMAC0_RXD0",
+    "net": "EXP_GPIO0"
+  },
+  {
+    "ref": "U1",
+    "pin": "H25",
+    "pin_name": "I2S2_SCLK_RX_M0",
+    "net": "LCD_MOSI"
+  },
+  {
+    "ref": "U1",
+    "pin": "F24",
+    "pin_name": "I2S2_LRCK_RX_M0",
+    "net": "LCD_CS_N"
+  },
+  {
+    "ref": "U1",
+    "pin": "G23",
+    "pin_name": "I2S2_MCLK_M0",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "F25",
+    "pin_name": "I2S2_SCLK_TX_M0",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "H24",
+    "pin_name": "I2S2_LRCK_TX_M0",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "H23",
+    "pin_name": "I2S2_SDO_M0",
+    "net": "LCD_DC"
+  },
+  {
+    "ref": "U1",
+    "pin": "F26",
+    "pin_name": "I2S2_SDI_M0",
+    "net": "LCD_RESET_N"
+  },
+  {
+    "ref": "U1",
+    "pin": "E26",
+    "pin_name": "CLK32K_OUT1",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "J21",
+    "pin_name": "VCCIO4",
+    "net": "+3V3_IO"
+  },
+  {
+    "ref": "U1",
+    "pin": "AG6",
+    "pin_name": "LCDC_D0",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AD7",
+    "pin_name": "LCDC_D1",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AC8",
+    "pin_name": "LCDC_D2",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AC7",
+    "pin_name": "LCDC_D3",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AF5",
+    "pin_name": "LCDC_D4",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AF6",
+    "pin_name": "LCDC_D5",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AD6",
+    "pin_name": "LCDC_D6",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AH5",
+    "pin_name": "LCDC_D7",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AH4",
+    "pin_name": "LCDC_CLK",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AB8",
+    "pin_name": "LCDC_D8",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AE5",
+    "pin_name": "LCDC_D9",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AG4",
+    "pin_name": "LCDC_D10",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AF4",
+    "pin_name": "LCDC_D11",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AH3",
+    "pin_name": "LCDC_D12",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AG3",
+    "pin_name": "LCDC_D13",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AH2",
+    "pin_name": "LCDC_D14",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AG2",
+    "pin_name": "LCDC_D15",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AG1",
+    "pin_name": "LCDC_D16",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AF2",
+    "pin_name": "LCDC_D17",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AF1",
+    "pin_name": "LCDC_D18",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AE1",
+    "pin_name": "LCDC_D19",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AE2",
+    "pin_name": "LCDC_D20",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AE3",
+    "pin_name": "LCDC_D21",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AD4",
+    "pin_name": "LCDC_D22",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AD2",
+    "pin_name": "LCDC_D23",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AD1",
+    "pin_name": "LCDC_HSYNC",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AA7",
+    "pin_name": "LCDC_VSYNC",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AC4",
+    "pin_name": "LCDC_DEN",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AC3",
+    "pin_name": "PWM14_M0",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AC2",
+    "pin_name": "PWM15_IR_M0",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "V10",
+    "pin_name": "VCCIO5_1",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "V11",
+    "pin_name": "VCCIO5_2",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AC5",
+    "pin_name": "CIF_D0",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AA6",
+    "pin_name": "CIF_D1",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AB5",
+    "pin_name": "CIF_D2",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AB1",
+    "pin_name": "CIF_D3",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "Y7",
+    "pin_name": "CIF_D4",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AC1",
+    "pin_name": "CIF_D5",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AA1",
+    "pin_name": "CIF_D6",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AA5",
+    "pin_name": "CIF_D7",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "Y6",
+    "pin_name": "CIF_D8",
+    "net": "ETH_TXD2"
+  },
+  {
+    "ref": "U1",
+    "pin": "Y5",
+    "pin_name": "CIF_D9",
+    "net": "ETH_TXD3"
+  },
+  {
+    "ref": "U1",
+    "pin": "AA3",
+    "pin_name": "CIF_D10",
+    "net": "ETH_TXCLK"
+  },
+  {
+    "ref": "U1",
+    "pin": "AA2",
+    "pin_name": "CIF_D11",
+    "net": "ETH_RXD2"
+  },
+  {
+    "ref": "U1",
+    "pin": "Y4",
+    "pin_name": "CIF_D12",
+    "net": "ETH_RXD3"
+  },
+  {
+    "ref": "U1",
+    "pin": "Y3",
+    "pin_name": "CIF_D13",
+    "net": "ETH_RXCLK"
+  },
+  {
+    "ref": "U1",
+    "pin": "Y2",
+    "pin_name": "CIF_D14",
+    "net": "ETH_TXD0"
+  },
+  {
+    "ref": "U1",
+    "pin": "Y1",
+    "pin_name": "CIF_D15",
+    "net": "ETH_TXD1"
+  },
+  {
+    "ref": "U1",
+    "pin": "W2",
+    "pin_name": "ISP_FLASHTRIGOUT",
+    "net": "ETH_TXEN"
+  },
+  {
+    "ref": "U1",
+    "pin": "W1",
+    "pin_name": "CAM_CLKOUT0",
+    "net": "ETH_RXD0"
+  },
+  {
+    "ref": "U1",
+    "pin": "V7",
+    "pin_name": "CAM_CLKOUT1",
+    "net": "ETH_RXD1"
+  },
+  {
+    "ref": "U1",
+    "pin": "V2",
+    "pin_name": "ISP_PRELIGHT_TRIG",
+    "net": "ETH_RXDV_CRS"
+  },
+  {
+    "ref": "U1",
+    "pin": "V4",
+    "pin_name": "I2C4_SDA_M0",
+    "net": "EXP_GPIO2"
+  },
+  {
+    "ref": "U1",
+    "pin": "V1",
+    "pin_name": "I2C4_SCL_M0",
+    "net": "EXP_GPIO3"
+  },
+  {
+    "ref": "U1",
+    "pin": "V6",
+    "pin_name": "I2C2_SDA_M1",
+    "net": "EXP_I2C_SDA"
+  },
+  {
+    "ref": "U1",
+    "pin": "V5",
+    "pin_name": "I2C2_SCL_M1",
+    "net": "EXP_I2C_SCL"
+  },
+  {
+    "ref": "U1",
+    "pin": "U5",
+    "pin_name": "CIF_HREF",
+    "net": "ETH_MDC"
+  },
+  {
+    "ref": "U1",
+    "pin": "U4",
+    "pin_name": "CIF_VSYNC",
+    "net": "ETH_MDIO"
+  },
+  {
+    "ref": "U1",
+    "pin": "U3",
+    "pin_name": "CIF_CLKOUT",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "U2",
+    "pin_name": "CIF_CLKIN",
+    "net": "EXP_GPIO1"
+  },
+  {
+    "ref": "U1",
+    "pin": "R9",
+    "pin_name": "VCCIO6_1",
+    "net": "+3V3_IO"
+  },
+  {
+    "ref": "U1",
+    "pin": "U9",
+    "pin_name": "VCCIO6_2",
+    "net": "+3V3_IO"
+  },
+  {
+    "ref": "U1",
+    "pin": "AF8",
+    "pin_name": "PWM14_M1",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AA11",
+    "pin_name": "PWM15_IR_M1",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AH7",
+    "pin_name": "EDP_HPDIN_M0",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AD8",
+    "pin_name": "PWM12_M1",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AE8",
+    "pin_name": "PWM13_M1",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AG8",
+    "pin_name": "HDMITX_SCL",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AG7",
+    "pin_name": "HDMITX_SDA",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AH6",
+    "pin_name": "HDMITX_CEC_M0",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AB9",
+    "pin_name": "GPIO4_D2_d",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "V12",
+    "pin_name": "VCCIO7",
+    "net": null
+  }
+]

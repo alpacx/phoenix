@@ -1,0 +1,189 @@
+{
+  "board": "runs/usb-shell-inner/phy-joint.kicad_pcb",
+  "sha256": "04c07a8c8f6457d6756cf7cad98b8afda4c056eb115e9690bebb03cf6af13ee2",
+  "parent_sha256": "04c07a8c8f6457d6756cf7cad98b8afda4c056eb115e9690bebb03cf6af13ee2",
+  "placement_stages": {
+    "courtyard": 0,
+    "pads": 0,
+    "signal": 0,
+    "cap_land": 0,
+    "ground_bore": 0
+  },
+  "return_conflicts": [],
+  "rotated_load": false,
+  "load_courtyard_conflicts": [],
+  "clock_return_found": false,
+  "free_barrel_sites": 0,
+  "bore_conflicts": [
+    {
+      "objects": [
+        "+3V3_SYS F.Cu",
+        "C470.2"
+      ],
+      "example": [
+        806225.774829855,
+        [
+          64210000,
+          7150000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "C470.2",
+        "GND B.Cu"
+      ],
+      "example": [
+        1081665.3826391967,
+        [
+          64310000,
+          6650000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "C470.2",
+        "U4.51"
+      ],
+      "example": [
+        1300000.0,
+        [
+          63410000,
+          5950000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+3V3_SYS F.Cu",
+        "C470.2",
+        "EXP_I2C_SCL In3.Cu"
+      ],
+      "example": [
+        800000.0,
+        [
+          64210000,
+          7250000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+3V3_SYS F.Cu",
+        "C470.2",
+        "GND B.Cu"
+      ],
+      "example": [
+        948683.2980505138,
+        [
+          64310000,
+          6950000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "C470.2",
+        "GND B.Cu",
+        "U4.50"
+      ],
+      "example": [
+        1000000.0,
+        [
+          64210000,
+          6650000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+3V3_SYS F.Cu",
+        "+3V3_SYS In4.Cu",
+        "EXP_I2C_SCL In3.Cu"
+      ],
+      "example": [
+        1029563.0140987001,
+        [
+          64310000,
+          7750000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "C470.2",
+        "U4.50",
+        "U4.51"
+      ],
+      "example": [
+        1100000.0,
+        [
+          63410000,
+          6150000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "C470.2",
+        "GND B.Cu",
+        "U4.51"
+      ],
+      "example": [
+        1280624.8474865698,
+        [
+          64210000,
+          6250000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+5V_ADDON In3.Cu",
+        "C470.2",
+        "U4.51"
+      ],
+      "example": [
+        1303840.4810405297,
+        [
+          63510000,
+          5950000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+5V_ADDON In3.Cu",
+        "C470.2",
+        "GND B.Cu"
+      ],
+      "example": [
+        1500000.0,
+        [
+          64310000,
+          6050000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "C424.1",
+        "C470.2",
+        "GND B.Cu"
+      ],
+      "example": [
+        1500000.0,
+        [
+          64610000,
+          6350000
+        ]
+      ]
+    }
+  ],
+  "obstacle_sets": [],
+  "local_landings": 0,
+  "placements": 0,
+  "change": null,
+  "assembly_ready": false
+}

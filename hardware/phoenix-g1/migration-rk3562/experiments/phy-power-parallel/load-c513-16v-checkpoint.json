@@ -1,0 +1,18 @@
+{
+  "status": "C513_16V_BULK_GEOMETRY_PASSED_POWER_QUALIFICATION_OPEN",
+  "board": "runs/load-c513-16v/phy-joint.kicad_pcb",
+  "sha256": "5c1a9dc6f24f6edb4a36dbd185c412bc4c22793d600fa9e0f9161609c1501137",
+  "report": "runs/load-c513-16v/report.json",
+  "tests": "tests-c513-16v.json",
+  "tests_passed": 6,
+  "power_layout_accepted": false,
+  "assembly_ready": false,
+  "main_modified": false,
+  "remaining": [
+    "upstream R530 feed needs joint ground/placement redesign",
+    "C522/U5.38 distribution",
+    "SW neck qualification",
+    "inductor current/ripple and effective minimum capacitance",
+    "via/pad manufacturing and PI qualification"
+  ]
+}

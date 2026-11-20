@@ -1,0 +1,65 @@
+{
+  "board": "runs/phy-pin40-5v-clearance/phy-joint.kicad_pcb",
+  "sha256": "671a39e10109ceb3156f0b9bec571342b3d1dbfff2583b0bcfe4179a50341aa8",
+  "parent_sha256": "acf8e3cc92b0674c2ab355bd187b0379c3079482b71fead8b3ff7971375757da",
+  "change": {
+    "path_nm": [
+      [
+        60900000,
+        24900000
+      ],
+      [
+        56900000,
+        32100000
+      ],
+      [
+        56600000,
+        32350000
+      ],
+      [
+        54000000,
+        32950000
+      ]
+    ],
+    "width_mm": 0.8,
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 6480,
+      "explicitly_replaced_copper": {
+        "648803d6-8c67-4ad8-8154-b3d667c6f3c4": [
+          "+5V_MAIN",
+          6,
+          60900000,
+          24900000,
+          60900000,
+          32549999,
+          800000,
+          null
+        ],
+        "85f521dc-7388-42cb-8803-c8f346d7bba3": [
+          "+5V_MAIN",
+          6,
+          60900000,
+          32549999,
+          60500000,
+          32950000,
+          800000,
+          null
+        ],
+        "872b4201-7444-4e84-8d74-332797475a6f": [
+          "+5V_MAIN",
+          6,
+          54000000,
+          32950000,
+          60500000,
+          32950000,
+          800000,
+          null
+        ]
+      },
+      "added_tracks_vias": 0,
+      "existing_connected_pad_groups_preserved": 88
+    }
+  },
+  "assembly_ready": false
+}

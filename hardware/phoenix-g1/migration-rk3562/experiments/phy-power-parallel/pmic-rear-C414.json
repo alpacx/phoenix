@@ -1,0 +1,186 @@
+{
+  "board": "runs/usb-shell-inner/phy-joint.kicad_pcb",
+  "sha256": "04c07a8c8f6457d6756cf7cad98b8afda4c056eb115e9690bebb03cf6af13ee2",
+  "parent_sha256": "04c07a8c8f6457d6756cf7cad98b8afda4c056eb115e9690bebb03cf6af13ee2",
+  "placement_stages": {
+    "courtyard": 0,
+    "pads": 0,
+    "signal": 0,
+    "cap_land": 0,
+    "ground_bore": 0
+  },
+  "return_conflicts": [],
+  "rotated_load": false,
+  "load_courtyard_conflicts": [],
+  "clock_return_found": false,
+  "free_barrel_sites": 0,
+  "bore_conflicts": [
+    {
+      "objects": [
+        "+3V3_SYS B.Cu"
+      ],
+      "example": [
+        1204159.4578792294,
+        [
+          64310000,
+          9450000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+3V3_SYS B.Cu",
+        "C483.2"
+      ],
+      "example": [
+        1220655.5615733704,
+        [
+          64410000,
+          9350000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+3V3_SYS B.Cu",
+        "U4.41"
+      ],
+      "example": [
+        1280624.8474865698,
+        [
+          64210000,
+          9650000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "C483.2",
+        "GND B.Cu"
+      ],
+      "example": [
+        1341640.786499874,
+        [
+          64610000,
+          9250000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+3V3_SYS B.Cu",
+        "U4.40"
+      ],
+      "example": [
+        1526433.752247375,
+        [
+          64210000,
+          9950000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+3V3_IO In2.Cu",
+        "EXP_SPI_MOSI In3.Cu",
+        "U4.43"
+      ],
+      "example": [
+        894427.1909999159,
+        [
+          64210000,
+          9050000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+3V3_IO In2.Cu",
+        "C483.2",
+        "EXP_SPI_MOSI In3.Cu"
+      ],
+      "example": [
+        984885.7801796105,
+        [
+          64310000,
+          9050000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+3V3_IO In2.Cu",
+        "EXP_SPI_MOSI In3.Cu",
+        "U4.42"
+      ],
+      "example": [
+        1000000.0,
+        [
+          64210000,
+          9250000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+3V3_SYS B.Cu",
+        "U4.41",
+        "U4.42"
+      ],
+      "example": [
+        1204159.4578792294,
+        [
+          64210000,
+          9550000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+3V3_IO In2.Cu",
+        "C483.2",
+        "GND B.Cu"
+      ],
+      "example": [
+        1252996.4086141668,
+        [
+          64510000,
+          9250000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+3V3_SYS F.Cu",
+        "+3V3_SYS In4.Cu",
+        "EXP_I2C_SCL In3.Cu"
+      ],
+      "example": [
+        1272792.2061357857,
+        [
+          64310000,
+          7750000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+3V3_SYS B.Cu",
+        "C483.2",
+        "GND B.Cu"
+      ],
+      "example": [
+        1303840.4810405297,
+        [
+          64510000,
+          9350000
+        ]
+      ]
+    }
+  ],
+  "obstacle_sets": [],
+  "local_landings": 0,
+  "placements": 0,
+  "change": null,
+  "assembly_ready": false
+}

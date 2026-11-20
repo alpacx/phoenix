@@ -1,0 +1,64 @@
+[
+  {
+    "source": "Phoenix_Candidates:WQFN-30_L4.5-W2.5-P0.4-BL-EP",
+    "output": "Phoenix_Reviewed:WQFN-30_L4.5-W2.5-P0.4-BL-EP",
+    "changes": [
+      "Removed erroneous 0.1mm stroke inflation from corner copper polygons; rounded coordinates to exact TI 0.2x0.5mm/chamfer geometry.",
+      "Removed erroneous 0.1mm stroke inflation from corner copper polygons; rounded coordinates to exact TI 0.2x0.5mm/chamfer geometry.",
+      "Removed erroneous 0.1mm stroke inflation from corner copper polygons; rounded coordinates to exact TI 0.2x0.5mm/chamfer geometry.",
+      "Removed erroneous 0.1mm stroke inflation from corner copper polygons; rounded coordinates to exact TI 0.2x0.5mm/chamfer geometry.",
+      "Removed erroneous 0.1mm stroke inflation from corner copper polygons; rounded coordinates to exact TI 0.2x0.5mm/chamfer geometry.",
+      "Removed erroneous 0.1mm stroke inflation from corner copper polygons; rounded coordinates to exact TI 0.2x0.5mm/chamfer geometry.",
+      "Removed erroneous 0.1mm stroke inflation from corner copper polygons; rounded coordinates to exact TI 0.2x0.5mm/chamfer geometry.",
+      "Removed erroneous 0.1mm stroke inflation from corner copper polygons; rounded coordinates to exact TI 0.2x0.5mm/chamfer geometry.",
+      "Split EP paste into two 1.39x1.13mm windows per TI stencil example, approximately82% coverage."
+    ],
+    "not_qualified": "Dimensions, copper/stencil geometry, assembly and all remaining DRC need review."
+  },
+  {
+    "source": "Phoenix_Candidates:QFN-68_L7.0-W7.0-P0.35-BL-EP5.5",
+    "output": "Phoenix_Reviewed:QFN-68_L7.0-W7.0-P0.35-BL-EP5.5",
+    "changes": [
+      "Anonymous thermal via assigned EP69/GND; no paste/mask opening on via primitive. Filled/capped process required.",
+      "Anonymous thermal via assigned EP69/GND; no paste/mask opening on via primitive. Filled/capped process required.",
+      "Anonymous thermal via assigned EP69/GND; no paste/mask opening on via primitive. Filled/capped process required.",
+      "Anonymous thermal via assigned EP69/GND; no paste/mask opening on via primitive. Filled/capped process required.",
+      "Anonymous thermal via assigned EP69/GND; no paste/mask opening on via primitive. Filled/capped process required.",
+      "Anonymous thermal via assigned EP69/GND; no paste/mask opening on via primitive. Filled/capped process required.",
+      "Anonymous thermal via assigned EP69/GND; no paste/mask opening on via primitive. Filled/capped process required.",
+      "Anonymous thermal via assigned EP69/GND; no paste/mask opening on via primitive. Filled/capped process required.",
+      "Anonymous thermal via assigned EP69/GND; no paste/mask opening on via primitive. Filled/capped process required."
+    ],
+    "not_qualified": "Dimensions, copper/stencil geometry, assembly and all remaining DRC need review."
+  },
+  {
+    "source": "Import_C97522:WSON-8_L8.0-W6.10-P1.27-BL-EP",
+    "output": "Phoenix_Reviewed:WSON-8_L8.0-W6.10-P1.27-BL-EP",
+    "changes": [
+      "Removed exposed central via per Winbond FAQ; EP9 retained and grounded.",
+      "Removed exposed central via per Winbond FAQ; EP9 retained and grounded.",
+      "Removed exposed central via per Winbond FAQ; EP9 retained and grounded.",
+      "Removed exposed central via per Winbond FAQ; EP9 retained and grounded."
+    ],
+    "not_qualified": "Dimensions, copper/stencil geometry, assembly and all remaining DRC need review."
+  },
+  {
+    "source": "Phoenix_Candidates:RJ45-TH_HR911130A",
+    "output": "Phoenix_Reviewed:RJ45-TH_HR911130A",
+    "changes": [
+      "Plastic locating peg hole changed from plated to non-plated; original diameter/position retained.",
+      "Plastic locating peg hole changed from plated to non-plated; original diameter/position retained."
+    ],
+    "not_qualified": "Dimensions, copper/stencil geometry, assembly and all remaining DRC need review."
+  },
+  {
+    "source": "Phoenix_Candidates:USB-C-SMD_TYPE-C-24P-QT",
+    "output": "Phoenix_Reviewed:USB-C-SMD_TYPE-C-24P-QT",
+    "changes": [
+      "Restored manufacturer page6 contact lands: 0.25x0.95mm, exact0.5mm pitch and0.25mm row stagger. L-shaped shield holes and peg clearances remain unresolved.",
+      "Plastic locating peg hole changed from plated to non-plated; original diameter/position retained.",
+      "Plastic locating peg hole changed from plated to non-plated; original diameter/position retained."
+    ],
+    "not_qualified": "Dimensions, copper/stencil geometry, assembly and all remaining DRC need review."
+  }
+]

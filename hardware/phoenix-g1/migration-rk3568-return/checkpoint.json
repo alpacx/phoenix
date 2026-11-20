@@ -1,0 +1,20 @@
+{
+  "status": "INACTIVE_STUDY_USER_RETURNED_TO_RK3562",
+  "processor": "RK3568",
+  "archive_sha256": "c67a7e4b904b84a7b13f74fc6ef75bb1671e092904c44a85895f3576c4f57495",
+  "baseline": "baseline",
+  "preserved_rk3562_checkpoint": {
+    "status": "DISPLAY_AND_ETHERNET_PASSIVES_ROUTED_VDC_PIN61_OPEN_NOT_POWER_QUALIFIED",
+    "board": "pcb/parallel-local-copper.kicad_pcb",
+    "sha256": "c29d07e1eca29d367b1194504bc58288253b281572404bd8820ac6b030a12824",
+    "verification": "pcb/final-audit.json",
+    "schematic": "../emmc-system/system/kicad/integrated/phoenix-g1.kicad_sch",
+    "assembly_ready": false
+  },
+  "ethernet_requirement": "1000BASE-T full duplex: 1 Gbit/s nominal each direction simultaneously",
+  "usb_requirement": "USB3 device toward Mac concurrent with PCIe Wi-Fi",
+  "wifi_requirement": "Near-gigabit useful throughput target; Wi-Fi shared airtime, no promise of simultaneous 1 Gbit/s upload and download",
+  "vpn_requirement": "Bidirectional performance to measure separately; no guaranteed gigabit WireGuard",
+  "ram_status": "Existing implemented 1 GiB LPDDR4; 512 MiB cost study unqualified; no new memory selection authorized by this processor decision",
+  "production_ready": false
+}

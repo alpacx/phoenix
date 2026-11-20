@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/kicad/display-interface.kicad_sch</source>
+    <date>2026-11-06T20:45:11</date>
+    <tool>Eeschema 10.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Phoenix - non-touch display interface study</title>
+        <company/>
+        <rev>PRELIMINARY</rev>
+        <date>2026-11-06</date>
+        <source>display-interface.kicad_sch</source>
+        <comment number="1" value="NOT FOR FABRICATION - no complete gateway schematic"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="DS1">
+      <value>N096-1608TBBIG11-H13</value>
+      <fields>
+        <field name="JLCPCB">C2890616</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_Display" part="N096-1608TBBIG11-H13" description=""/>
+      <property name="JLCPCB" value="C2890616"/>
+      <property name="Sheetname" value="Principale"/>
+      <property name="Sheetfile" value="hardware/phoenix-g1/kicad/display-interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d74cceb1-937e-4ffb-9bc8-5a6b7cff710b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Phoenix_Display" part="N096-1608TBBIG11-H13">
+      <docs>https://datasheet.lcsc.com/datasheet/pdf/2fcf1691a36c56b1ed6d83dcbd39868e.pdf?productCode=C2890616</docs>
+      <fields>
+        <field name="Reference">DS</field>
+        <field name="Value">N096-1608TBBIG11-H13</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://datasheet.lcsc.com/datasheet/pdf/2fcf1691a36c56b1ed6d83dcbd39868e.pdf?productCode=C2890616</field>
+        <field name="Description"/>
+        <field name="JLCPCB">C2890616</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="SDA" type="bidirectional"/>
+        <pin num="4" name="SCL" type="input"/>
+        <pin num="5" name="RS" type="input"/>
+        <pin num="6" name="RESET_N" type="input"/>
+        <pin num="7" name="CS_N" type="input"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="NC" type="no_connect"/>
+        <pin num="10" name="VDD" type="power_in"/>
+        <pin num="11" name="LEDK" type="passive"/>
+        <pin num="12" name="LEDA" type="passive"/>
+        <pin num="13" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="/GND" class="Default">
+      <node ref="DS1" pin="13" pinfunction="GND_13" pintype="power_in"/>
+      <node ref="DS1" pin="8" pinfunction="GND_8" pintype="power_in"/>
+    </net>
+    <net code="2" name="/LCD_CS_N" class="Default">
+      <node ref="DS1" pin="7" pinfunction="CS_N_7" pintype="input"/>
+    </net>
+    <net code="3" name="/LCD_DC" class="Default">
+      <node ref="DS1" pin="5" pinfunction="RS_5" pintype="input"/>
+    </net>
+    <net code="4" name="/LCD_LED_SINK" class="Default">
+      <node ref="DS1" pin="11" pinfunction="LEDK_11" pintype="passive"/>
+    </net>
+    <net code="5" name="/LCD_LED_SUPPLY" class="Default">
+      <node ref="DS1" pin="12" pinfunction="LEDA_12" pintype="passive"/>
+    </net>
+    <net code="6" name="/LCD_RESET_N" class="Default">
+      <node ref="DS1" pin="6" pinfunction="RESET_N_6" pintype="input"/>
+    </net>
+    <net code="7" name="/LCD_SPI_MOSI" class="Default">
+      <node ref="DS1" pin="3" pinfunction="SDA_3" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/LCD_SPI_SCK" class="Default">
+      <node ref="DS1" pin="4" pinfunction="SCL_4" pintype="input"/>
+    </net>
+    <net code="9" name="/LCD_VDD" class="Default">
+      <node ref="DS1" pin="10" pinfunction="VDD_10" pintype="power_in"/>
+    </net>
+    <net code="10" name="unconnected-(DS1-NC-Pad1)" class="Default">
+      <node ref="DS1" pin="1" pinfunction="NC_1" pintype="no_connect"/>
+    </net>
+    <net code="11" name="unconnected-(DS1-NC-Pad2)" class="Default">
+      <node ref="DS1" pin="2" pinfunction="NC_2" pintype="no_connect"/>
+    </net>
+    <net code="12" name="unconnected-(DS1-NC-Pad9)" class="Default">
+      <node ref="DS1" pin="9" pinfunction="NC_9" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

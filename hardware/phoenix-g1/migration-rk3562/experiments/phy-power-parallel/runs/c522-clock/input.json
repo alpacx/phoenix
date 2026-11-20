@@ -1,0 +1,290 @@
+{
+  "source": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/load-in3-c513d/phy-joint.kicad_pcb",
+  "source_sha256": "ed62235bbb029f795503ecc0f4e9b3e505adea246f7f73883a52165a9438a378",
+  "candidate": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/c522-clock/phy-joint.kicad_pcb",
+  "candidate_sha256": "952c65d0f1ebd2af3568bc32b8f82c3c8b3ecd955bdfde9a61ac340a42e7d6ae",
+  "removed": [
+    "5ceae13c-f7e5-428d-a95f-ff53859e346f",
+    "78491b2d-2562-496c-83a8-0691e563be30",
+    "22125a36-5bc5-418a-a3a5-8790f39f0cd9",
+    "25855b4c-f46f-4a2c-b202-ecd0fc922281",
+    "82f0a8b0-b161-4fb7-a856-0148b470af9b",
+    "876dec46-bc99-4dab-8444-e69f93df4a2c",
+    "add12a58-093b-43f2-a44d-fbd9f22e8f1b",
+    "d781a3f8-f7e5-4ab8-9c55-6875ba3aca47",
+    "d9d2489c-380d-4452-84b4-abcd9324131c",
+    "f7e6ec4d-9619-451f-a4ff-3e7fa910bcc9"
+  ],
+  "routes": [
+    {
+      "label": "clock_pin",
+      "path_mm": [
+        [
+          60.6,
+          31.6
+        ],
+        [
+          59.5,
+          31.6
+        ]
+      ],
+      "net": "PHY_XOUT",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "guard": {
+        "net": "PHY_XOUT",
+        "width_mm": 0.15,
+        "segments": 1,
+        "width_preserved": true,
+        "current_rating_qualified": false
+      },
+      "uuids": [
+        "b1aa1ac5-f3de-4fc4-a485-67532b04051e"
+      ]
+    },
+    {
+      "label": "clock_body",
+      "path_mm": [
+        [
+          59.5,
+          31.6
+        ],
+        [
+          59.5,
+          32.6
+        ],
+        [
+          59.075,
+          33.025
+        ],
+        [
+          57.825,
+          33.025
+        ]
+      ],
+      "net": "PHY_XOUT",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "guard": {
+        "net": "PHY_XOUT",
+        "width_mm": 0.2,
+        "segments": 3,
+        "width_preserved": true,
+        "current_rating_qualified": false
+      },
+      "uuids": [
+        "fdf7a42c-5b53-4556-a439-aa92750ec9f4",
+        "3490f353-8c53-4f74-9f45-9abc65665e41",
+        "bdc24612-31e3-4ad0-90ff-89981cb03833"
+      ]
+    },
+    {
+      "label": "pin38_fanout",
+      "path_mm": [
+        [
+          60.6,
+          32
+        ],
+        [
+          60,
+          32
+        ],
+        [
+          60,
+          32.8
+        ],
+        [
+          59.85,
+          32.95
+        ],
+        [
+          59.85,
+          33.2
+        ]
+      ],
+      "net": "+1V0_PHY",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "guard": {
+        "net": "+1V0_PHY",
+        "width_mm": 0.2,
+        "segments": 4,
+        "width_preserved": true,
+        "current_rating_qualified": false
+      },
+      "uuids": [
+        "d2c111f4-ec3c-4246-bf80-1424cd59eb00",
+        "8d6fc305-1e6d-4a20-af11-87593a98996b",
+        "35aac0df-8fe5-4837-a218-7e817a44f8e2",
+        "727ec9e0-02fb-4026-97cc-b7ee474a2ba5"
+      ]
+    },
+    {
+      "label": "post_inductor",
+      "path_mm": [
+        [
+          56.6,
+          29.75
+        ],
+        [
+          57.4,
+          30.55
+        ],
+        [
+          57.4,
+          34.4
+        ],
+        [
+          59.25,
+          34.4
+        ],
+        [
+          59.25,
+          33.6
+        ]
+      ],
+      "net": "+1V0_PHY",
+      "layer": "In3.Cu",
+      "width_mm": 1.55,
+      "guard": {
+        "net": "+1V0_PHY",
+        "width_mm": 1.55,
+        "segments": 4,
+        "width_preserved": true,
+        "current_rating_qualified": false
+      },
+      "uuids": [
+        "120296d6-f1c1-4b68-8be4-34b75ab4b7b7",
+        "2b2876b2-0887-4f62-8c66-172776323d12",
+        "6b11d46c-f74f-47e5-b713-b472ed3ecf92",
+        "61f70d62-e0ac-4333-9ed9-8b61ac108574"
+      ]
+    },
+    {
+      "label": "back_load",
+      "path_mm": [
+        [
+          59.3,
+          33.2
+        ],
+        [
+          59.3,
+          33.85
+        ]
+      ],
+      "net": "+1V0_PHY",
+      "layer": "B.Cu",
+      "width_mm": 1.55,
+      "guard": {
+        "net": "+1V0_PHY",
+        "width_mm": 1.55,
+        "segments": 1,
+        "width_preserved": true,
+        "current_rating_qualified": false
+      },
+      "uuids": [
+        "58c33fcd-bfd8-4e66-a948-94188a16de05"
+      ]
+    },
+    {
+      "label": "cap_ground",
+      "path_mm": [
+        [
+          59.8,
+          35.13
+        ],
+        [
+          59.8,
+          35.65
+        ]
+      ],
+      "net": "GND",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "guard": {
+        "net": "GND",
+        "width_mm": 0.2,
+        "segments": 1,
+        "width_preserved": true,
+        "current_rating_qualified": false
+      },
+      "uuids": [
+        "f120cd4b-23a1-435e-a97b-2f999d508643"
+      ]
+    }
+  ],
+  "via_array": [
+    {
+      "uuid": "9cb6487d-d355-4fdf-9e09-3465fae3352e",
+      "xy_mm": [
+        59.85,
+        33.2
+      ],
+      "net": "+1V0_PHY",
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2
+    },
+    {
+      "uuid": "a6ab542d-82ea-40d7-b22a-9058a10c67d7",
+      "xy_mm": [
+        59.85,
+        33.65
+      ],
+      "net": "+1V0_PHY",
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2
+    },
+    {
+      "uuid": "3b362016-8c26-4f71-95a0-7f134bd52003",
+      "xy_mm": [
+        59.8,
+        35.65
+      ],
+      "net": "GND",
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2
+    }
+  ],
+  "required_pairs": [
+    [
+      [
+        "C511",
+        "1"
+      ],
+      [
+        "C522",
+        "1"
+      ]
+    ],
+    [
+      [
+        "U5",
+        "38"
+      ],
+      [
+        "C522",
+        "1"
+      ]
+    ],
+    [
+      [
+        "C522",
+        "2"
+      ],
+      [
+        "C515",
+        "2"
+      ]
+    ]
+  ],
+  "current_via_PI_qualified": false,
+  "clock_loop_qualified": false,
+  "via_pad_overlap_manufacturing_qualified": false,
+  "historical_60mil_width_met_on_entire_path": false,
+  "main_checkpoint_modified": false,
+  "limitations": [
+    "Backside decoupler and clock reroute are experimental; loop/clock loading/EMI unqualified.",
+    "Power via pair is 0.45/0.20 mm, not the 0.60/0.30 used elsewhere; current/PI qualification mandatory, no electrical equivalence inferred.",
+    "1.55 mm trunks preserved; 0.20 mm pin38 fanout remains unqualified."
+  ]
+}

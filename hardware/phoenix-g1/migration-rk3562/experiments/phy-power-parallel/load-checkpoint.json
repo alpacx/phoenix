@@ -1,0 +1,18 @@
+{
+  "status": "POST_INDUCTOR_DISTRIBUTION_GEOMETRY_PASSED_PI_HOLD",
+  "board": "runs/load-in3-north2/phy-joint.kicad_pcb",
+  "sha256": "98cd070cdb63314b32763de0a47839cbe506ce86596454014af714cf7e5d0c10",
+  "source_sha256": "253e2dea16603193c59ab20c8edb7f824edfc5be42ba74ac4623444fb66e6b63",
+  "report": "runs/load-in3-north2/report.json",
+  "tests": "tests-load.json",
+  "tests_passed": 6,
+  "width_mm": 1.55,
+  "layer": "In3.Cu",
+  "via_arrays": "2 x 0.60/0.30 mm each end",
+  "source": "C511.1",
+  "load": "C512.1",
+  "power_layout_accepted": false,
+  "assembly_ready": false,
+  "current_via_PI_qualified": false,
+  "via_pad_overlap_manufacturing_qualified": false
+}

@@ -1,0 +1,64 @@
+{
+  "board": "runs/pmic-sda-clearance/phy-joint.kicad_pcb",
+  "sha256": "b2b25ee5cd1042785eb127afafdb402a006964e429616751ad7c4a2fd20753d3",
+  "parent_sha256": "4f57c1b06ee5781257b520708a60fbd7426ed98351d3a5b95165bbf548a2d863",
+  "change": {
+    "site_mm": [
+      55.6,
+      6.85
+    ],
+    "neck_mm": [
+      0.3807886552931954,
+      0.22360679774997896
+    ],
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 6165,
+      "explicitly_replaced_copper": {
+        "06d4ad69-0ae6-4428-9f0f-345d0795cf6d": [
+          "+3V3_SYS",
+          10,
+          55650000,
+          6600000,
+          55650000,
+          5200000,
+          300000,
+          null
+        ],
+        "0e093ef9-b252-448a-97a2-f77adbf4bd42": [
+          "+3V3_SYS",
+          0,
+          55800000,
+          6950000,
+          55650000,
+          6600000,
+          150000,
+          null
+        ],
+        "3fd490d2-b4ca-453a-ba8e-0d530af53a0c": [
+          "+3V3_SYS",
+          0,
+          55650000,
+          6600000,
+          55650000,
+          6600000,
+          450000,
+          200000
+        ],
+        "b9d31e93-5509-4d0d-90ed-5a41c253c7ad": [
+          "+3V3_SYS",
+          10,
+          55650000,
+          6600000,
+          56400000,
+          6600000,
+          300000,
+          null
+        ]
+      },
+      "added_tracks_vias": 0,
+      "existing_connected_pad_groups_preserved": 80
+    }
+  },
+  "assembly_ready": false
+}

@@ -1,0 +1,25 @@
+{
+  "board": "runs/phy-clock-load-window/phy-joint.kicad_pcb",
+  "sha256": "d413f119cbfbf18a42939a0c618740603e16940acfe49dd16b8121ee6ea3004a",
+  "parent_sha256": "d413f119cbfbf18a42939a0c618740603e16940acfe49dd16b8121ee6ea3004a",
+  "courtyard_fits": 4,
+  "blocking_sets": [
+    {
+      "objects": [
+        "+1V0_PHY",
+        "PHY_XIN"
+      ],
+      "example": [
+        0,
+        60810000,
+        34540000
+      ]
+    }
+  ],
+  "fits": 0,
+  "short_bypass_poses": 0,
+  "options": 0,
+  "attempts": 0,
+  "change": null,
+  "assembly_ready": false
+}

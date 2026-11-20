@@ -1,0 +1,159 @@
+{
+  "board": "runs/reconciled-control/phy-joint.kicad_pcb",
+  "sha256": "cf2cefb81af4c27e17360575ac2e81073919ffc9e6688e422936a5472b9aa5ce",
+  "parent": "runs/reconciled-mount/phy-joint.kicad_pcb",
+  "control_sha256": "c29d07e1eca29d367b1194504bc58288253b281572404bd8820ac6b030a12824",
+  "mount": {
+    "moves_mm": {
+      "C1661": [
+        22.5,
+        12
+      ],
+      "C1674": [
+        25,
+        3
+      ],
+      "C2301": [
+        24.5,
+        9.5
+      ]
+    },
+    "reservation_from_mm": [
+      37,
+      31
+    ],
+    "reservation_to_mm": [
+      20.25,
+      9
+    ],
+    "drill_mm": 2.2,
+    "body_radius_mm": 2.7,
+    "reference_C2308_layer": "B.Fab",
+    "assembly_ready": false
+  },
+  "preservation": {
+    "existing_pad_instances_preserved": 2007,
+    "existing_tracks_vias_preserved": 5856,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 129,
+    "existing_connected_pad_groups_preserved": 74
+  },
+  "control_pairs": 246,
+  "unresolved_control_pairs": [
+    [
+      "C1623.2",
+      "C435.2"
+    ]
+  ],
+  "verified_phy_pairs": [
+    [
+      "C511.1",
+      "C522.1"
+    ],
+    [
+      "U5.38",
+      "C522.1"
+    ],
+    [
+      "C511.2",
+      "C522.2"
+    ],
+    [
+      "R530.2",
+      "C515.1"
+    ],
+    [
+      "R521.1",
+      "R510.2"
+    ],
+    [
+      "TP14.1",
+      "U17.4"
+    ],
+    [
+      "TP9.1",
+      "U16.2"
+    ],
+    [
+      "TP5.1",
+      "C465.1"
+    ],
+    [
+      "R1505.1",
+      "C2007.1"
+    ],
+    [
+      "R1505.2",
+      "R1506.1"
+    ],
+    [
+      "R1505.2",
+      "C1503.1"
+    ],
+    [
+      "C1503.2",
+      "C511.2"
+    ],
+    [
+      "R1506.2",
+      "C511.2"
+    ],
+    [
+      "C515.1",
+      "R514.2"
+    ],
+    [
+      "C515.1",
+      "R521.2"
+    ],
+    [
+      "C515.1",
+      "R525.2"
+    ],
+    [
+      "C515.1",
+      "R526.2"
+    ],
+    [
+      "C515.1",
+      "R527.2"
+    ]
+  ],
+  "rejected_copper": [
+    {
+      "issues": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "43f97655-8be5-458c-878f-acfd120b66f5",
+            "87a682c9-80b1-4dd9-b56a-981781e57000"
+          ],
+          "count": 1
+        }
+      ],
+      "uuids": [
+        "87a682c9-80b1-4dd9-b56a-981781e57000"
+      ]
+    },
+    {
+      "issues": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "43f97655-8be5-458c-878f-acfd120b66f5",
+            "b2aeb452-2075-4fd4-b4ea-6b903d871b47"
+          ],
+          "count": 1
+        }
+      ],
+      "uuids": [
+        "b2aeb452-2075-4fd4-b4ea-6b903d871b47"
+      ]
+    }
+  ],
+  "new_drc": [],
+  "mount_screen": [],
+  "assembly_ready": false
+}

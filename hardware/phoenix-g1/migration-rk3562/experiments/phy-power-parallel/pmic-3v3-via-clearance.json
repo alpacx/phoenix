@@ -1,0 +1,51 @@
+{
+  "board": "runs/pmic-3v3-via-clearance/phy-joint.kicad_pcb",
+  "sha256": "b6df8c31a5f3ee4b90f973f4ca6596d9e1157193f31f13eca6767f332b8486fa",
+  "parent_sha256": "04c07a8c8f6457d6756cf7cad98b8afda4c056eb115e9690bebb03cf6af13ee2",
+  "change": {
+    "path_nm": [
+      [
+        63400000,
+        11050000
+      ],
+      [
+        63850000,
+        10450000
+      ],
+      [
+        65980000,
+        9900000
+      ]
+    ],
+    "width_mm": 0.3,
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 6532,
+      "explicitly_replaced_copper": {
+        "0b2d3739-6243-4aba-9de8-dd36755f0601": [
+          "+3V3_SYS",
+          2,
+          63400000,
+          9900000,
+          65980000,
+          9900000,
+          300000,
+          null
+        ],
+        "6584c6e9-e6c6-4f69-bd33-e57362e8b471": [
+          "+3V3_SYS",
+          2,
+          63400000,
+          11050000,
+          63400000,
+          9900000,
+          300000,
+          null
+        ]
+      },
+      "added_tracks_vias": 0,
+      "existing_connected_pad_groups_preserved": 105
+    }
+  },
+  "assembly_ready": false
+}

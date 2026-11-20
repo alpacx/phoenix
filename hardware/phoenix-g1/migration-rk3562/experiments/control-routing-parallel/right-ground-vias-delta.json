@@ -1,0 +1,158 @@
+{
+  "baseline_sha256": "75e1b85c569a2619f37e2c418d7868b897cee2f1b490602a80f9bb47f2281545",
+  "candidate_sha256": "0558a58ceb4ef47a55ed8cf9025550e89d9fea2300c460e80315364480106198",
+  "tracks": [
+    {
+      "uuid": "6169948d-fe23-4ad8-bc16-c7008b2119b6",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.6,
+      "via": true,
+      "drill_mm": 0.3,
+      "start_mm": [
+        49.3,
+        28.0
+      ],
+      "end_mm": [
+        49.3,
+        28.0
+      ]
+    },
+    {
+      "uuid": "e0c43398-2e41-49af-b558-879f70d0bd69",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.6,
+      "via": true,
+      "drill_mm": 0.3,
+      "start_mm": [
+        50.02,
+        12.75
+      ],
+      "end_mm": [
+        50.02,
+        12.75
+      ]
+    },
+    {
+      "uuid": "e0e39aa3-0ce4-4d96-a08a-139c8c7f52dc",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.6,
+      "via": true,
+      "drill_mm": 0.3,
+      "start_mm": [
+        49.3,
+        10.5
+      ],
+      "end_mm": [
+        49.3,
+        10.5
+      ]
+    },
+    {
+      "uuid": "2f2836bf-9b16-4d68-9ca4-682d5886cb93",
+      "net": "GND",
+      "layer": "B.Cu",
+      "width_mm": 0.3,
+      "via": false,
+      "drill_mm": null,
+      "start_mm": [
+        52.52,
+        23.0
+      ],
+      "end_mm": [
+        53.45,
+        24.3
+      ]
+    },
+    {
+      "uuid": "424f7192-282c-45f7-a3b5-6563796c855d",
+      "net": "GND",
+      "layer": "B.Cu",
+      "width_mm": 0.3,
+      "via": false,
+      "drill_mm": null,
+      "start_mm": [
+        50.02,
+        28.0
+      ],
+      "end_mm": [
+        49.3,
+        28.0
+      ]
+    },
+    {
+      "uuid": "579588ee-1b16-496b-bfdb-e59a605b8c45",
+      "net": "GND",
+      "layer": "B.Cu",
+      "width_mm": 0.3,
+      "via": false,
+      "drill_mm": null,
+      "start_mm": [
+        50.02,
+        10.5
+      ],
+      "end_mm": [
+        49.3,
+        10.5
+      ]
+    },
+    {
+      "uuid": "c74a286a-7246-4fd0-a0c5-7f3c5f9a46f1",
+      "net": "GND",
+      "layer": "B.Cu",
+      "width_mm": 0.3,
+      "via": false,
+      "drill_mm": null,
+      "start_mm": [
+        50.02,
+        12.0
+      ],
+      "end_mm": [
+        50.02,
+        12.75
+      ]
+    },
+    {
+      "uuid": "f2d068f1-49de-465a-9224-605301e4592f",
+      "net": "GND",
+      "layer": "B.Cu",
+      "width_mm": 0.3,
+      "via": false,
+      "drill_mm": null,
+      "start_mm": [
+        51.02,
+        26.5
+      ],
+      "end_mm": [
+        50.25,
+        25.8
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "from": "C1627.2",
+      "to": "C435.2"
+    },
+    {
+      "from": "C1626.2",
+      "to": "C435.2"
+    },
+    {
+      "from": "C1643.2",
+      "to": "C435.2"
+    },
+    {
+      "from": "C1637.2",
+      "to": "C435.2"
+    },
+    {
+      "from": "C1602.2",
+      "to": "C435.2"
+    }
+  ],
+  "assembly_ready": false,
+  "qualification": "Ground continuity and DRC only; power integrity not qualified."
+}

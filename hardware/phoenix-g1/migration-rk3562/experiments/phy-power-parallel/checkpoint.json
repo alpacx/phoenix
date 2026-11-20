@@ -1,0 +1,18 @@
+{
+  "status": "JOINT_SW_GEOMETRY_PASSED_PIN_FANOUT_HOLD",
+  "board": "runs/joint-002/phy-joint.kicad_pcb",
+  "sha256": "253e2dea16603193c59ab20c8edb7f824edfc5be42ba74ac4623444fb66e6b63",
+  "source_sha256": "21c11942a68f62c506769caed42e84f3358d85e159f8b7bc2ba2f87e9014b30f",
+  "report": "runs/joint-002/report.json",
+  "tests": "tests.json",
+  "tests_passed": 6,
+  "power_layout_accepted": false,
+  "assembly_ready": false,
+  "main_modified": false,
+  "holds": [
+    "Manufacturer-applicable REG_OUT QFN neck requirement unresolved",
+    "C515 effective DC-bias capacitance and PHY stability unqualified",
+    "Compact inductor DCR/current/ripple unqualified",
+    "Remaining PHY power input/load distribution incomplete"
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "status": "PASS",
+  "checked_pin_dispositions": 1935,
+  "erc_annotations_not_in_physical_netlist": 16,
+  "errors": [],
+  "power_paths": {
+    "+3V58_WIFI": {
+      "source": "U26.1",
+      "source_net": "WIFI_VBAT_SW",
+      "passive_path": [
+        "L2201"
+      ]
+    },
+    "WIFI_VBAT": {
+      "source": "U26.1",
+      "source_net": "WIFI_VBAT_SW",
+      "passive_path": [
+        "FB2001",
+        "L2201"
+      ]
+    },
+    "WIFI_BUCK_OUT": {
+      "source": "U25.21",
+      "source_net": "WIFI_BUCK_SW",
+      "passive_path": [
+        "L2001"
+      ]
+    },
+    "+1V0_PHY": {
+      "source": "U5.30",
+      "source_net": "PHY_SW",
+      "passive_path": [
+        "L501"
+      ]
+    },
+    "+3V3_PHY": {
+      "source": "U4.55",
+      "source_net": "+3V3_IO",
+      "passive_path": [
+        "R530"
+      ]
+    },
+    "+3V3_SYS": {
+      "source": "U17.1",
+      "source_net": "SYS_SW",
+      "passive_path": [
+        "L1301"
+      ]
+    },
+    "VDD_CPU": {
+      "source": "U10.D3",
+      "source_net": "CPU_SW",
+      "passive_path": [
+        "L1001"
+      ]
+    },
+    "VDD_CPU_COM": {
+      "source": "U10.D3",
+      "source_net": "CPU_SW",
+      "passive_path": [
+        "R1001",
+        "L1001"
+      ]
+    },
+    "VDD_LOGIC": {
+      "source": "U4.12",
+      "source_net": "PMIC_SW1",
+      "passive_path": [
+        "L401"
+      ]
+    },
+    "VDD_GPU": {
+      "source": "U4.9",
+      "source_net": "PMIC_SW2",
+      "passive_path": [
+        "L402"
+      ]
+    },
+    "VDD_NPU": {
+      "source": "U4.65",
+      "source_net": "PMIC_SW4",
+      "passive_path": [
+        "L404"
+      ]
+    },
+    "+1V5_DDR": {
+      "source": "U4.25",
+      "source_net": "PMIC_SW3",
+      "passive_path": [
+        "L403"
+      ]
+    },
+    "USB_AVDD_0V9": {
+      "source": "U4.21",
+      "source_net": "VDDA_0V9",
+      "passive_path": [
+        "R1601"
+      ]
+    },
+    "USB_AVDD_1V8": {
+      "source": "U4.3",
+      "source_net": "VCCA_1V8",
+      "passive_path": [
+        "R1602"
+      ]
+    },
+    "VBUS_RAW": {
+      "source": "J1 USB source",
+      "source_net": "VBUS_RAW",
+      "passive_path": []
+    },
+    "GND": {
+      "source": "J1 USB return",
+      "source_net": "GND",
+      "passive_path": []
+    }
+  },
+  "scope": "Net transcription and DC connectivity only. No current, sequencing, stability, signal integrity or thermal qualification."
+}

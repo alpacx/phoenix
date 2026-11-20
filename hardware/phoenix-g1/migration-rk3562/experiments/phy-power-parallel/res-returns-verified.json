@@ -1,0 +1,26 @@
+{
+  "board": "runs/res-ground/phy-joint.kicad_pcb",
+  "sha256": "a05db7851a8cc62a5756cdd0941b4b278ceb844edffe9b117ef78a781696dc83",
+  "parent_sha256": "5c1821a2937c28405d85cf3acda080edea4969f075ac4034e7954ff2d2380d9e",
+  "added": [
+    {
+      "ref": "R432",
+      "pad": "2",
+      "via_nm": [
+        74625000,
+        30500000
+      ],
+      "length_mm": 0.8
+    }
+  ],
+  "unresolved": [],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 6079,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 2,
+    "existing_connected_pad_groups_preserved": 79
+  },
+  "new_drc": [],
+  "assembly_ready": false
+}

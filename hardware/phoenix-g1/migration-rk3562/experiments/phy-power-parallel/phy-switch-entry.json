@@ -1,0 +1,47 @@
+{
+  "board": "runs/phy-switch-entry/phy-joint.kicad_pcb",
+  "sha256": "c96e95ea5e4e61486d39f9e38650d421181f2f35ab95fcc5a3fc7f8374179ee1",
+  "parent_sha256": "a279fc4817d5b422ecbf35c0cdab6389d4007cde9b1de75369dfd61601847ce1",
+  "drc_candidates": 106,
+  "change": {
+    "wide_head_nm": [
+      60350000,
+      27850000
+    ],
+    "narrow_centerline_mm": 0.4796036596211501,
+    "uncovered_centerline_before_mm": 0.6522261053350572,
+    "uncovered_centerline_after_mm": 0.3596041607528919,
+    "wide_width_mm": 1.55,
+    "narrow_width_mm": 0.2,
+    "cut_detected": true,
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 6278,
+      "explicitly_replaced_copper": {
+        "0a0fbf6d-eefc-4546-bada-4cdc39688e7c": [
+          "PHY_SW",
+          0,
+          61200000,
+          28600000,
+          60700000,
+          28100000,
+          200000,
+          null
+        ],
+        "46fb40c4-4bf0-4f43-aed1-623ec66430f2": [
+          "PHY_SW",
+          0,
+          60100000,
+          27700000,
+          58825000,
+          28975000,
+          1550000,
+          null
+        ]
+      },
+      "added_tracks_vias": 0,
+      "existing_connected_pad_groups_preserved": 87
+    }
+  },
+  "assembly_ready": false
+}

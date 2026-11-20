@@ -1,0 +1,49 @@
+{
+  "status": "DOCUMENTED STACKUP CANDIDATE; NOT APPLIED AS QUALIFIED IMPEDANCE STACKUP",
+  "source": "https://jlcpcb.com/impedance",
+  "checked_date": "2026-11-08",
+  "name": "JLC06161H-3313",
+  "nominal_board_mm": 1.6,
+  "copper_layers_mm": [
+    0.035,
+    0.0152,
+    0.0152,
+    0.0152,
+    0.0152,
+    0.035
+  ],
+  "dielectrics_top_to_bottom": [
+    {
+      "material": "3313 prepreg",
+      "mm": 0.0994,
+      "er_published": 4.1
+    },
+    {
+      "material": "core",
+      "mm": 0.55,
+      "er_published": 4.6
+    },
+    {
+      "material": "2116 prepreg",
+      "mm": 0.1088,
+      "er_published": 4.16
+    },
+    {
+      "material": "core",
+      "mm": 0.55,
+      "er_published": 4.6
+    },
+    {
+      "material": "3313 prepreg",
+      "mm": 0.0994,
+      "er_published": 4.1
+    }
+  ],
+  "nominal_material_sum_excluding_soldermask_mm": 1.5384,
+  "limits": [
+    "Do not adjust published dielectric dimensions merely to force nominal1.6mm total.",
+    "Finished copper plating, soldermask geometry, material tolerances and fabrication stackup must be reconciled before impedance release.",
+    "No impedance width/gap has been approved by this record.",
+    "Layer reference planes and BGA escape remain to be designed."
+  ]
+}

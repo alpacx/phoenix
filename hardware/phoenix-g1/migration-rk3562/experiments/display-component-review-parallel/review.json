@@ -1,0 +1,159 @@
+{
+  "status": "NO_PRODUCTION_QUALIFIED_DISPLAY_CONNECTOR_PAIR",
+  "date": "2026-11-18",
+  "scope": "Independent documentary review only; no shared CAD/BOM changes",
+  "baseline": "../../../../review/display-connector-investigation.json",
+  "original_DS1": {
+    "part": "N096-1608TBBIG11-H13",
+    "missing_pads": 13,
+    "decision": "No fictitious13-pad landing or generic0.3mm connector. Exact0.7mm-pitch0.13mm-thick flex attachment remains unqualified."
+  },
+  "new_candidates": [
+    {
+      "part": "FH12-8S-0.5SH(55)",
+      "jlc": "C597995",
+      "status": "REJECT_DIRECT_MATE_TO_C08",
+      "source": "sources/hirose-fh12-catalog.pdf",
+      "page": 10,
+      "reason": "Bottom contact requires3.5mm minimum exposed length and4.5mm stiffener, versus panel maxima2.8/3.7mm. FPC conductor0.35\u00b10.03 differs frompanel0.30\u00b10.05."
+    },
+    {
+      "part": "FPC-05F-8PH20",
+      "jlc": "C2856797",
+      "status": "REJECT_DIRECT_MATE_TO_C08",
+      "source": "sources/C2856797.pdf",
+      "page": 1,
+      "reason": "Required exposed length3.0mm minimum, stiffener6.0mm, width4.5\u00b10.03 and conductor0.30\u00b10.03; panel maxima2.8/3.7mm and wider tolerances do not cover required intervals."
+    },
+    {
+      "part": "FPC-05F-8PH15",
+      "jlc": "C2856815",
+      "status": "HOLD_INVALID_PUBLIC_PDF",
+      "reason": "Downloaded302854-byte PDF cannot parse in Poppler or MuPDF (circularxref/no catalog). No assumed equivalence toH20."
+    },
+    {
+      "part": "XY-FPC-0.5-09-8P",
+      "jlc": "C53244650",
+      "status": "HOLD_NO_MATING_DRAWING",
+      "reason": "Public listing shows0.3mm8pin0.5pitch, no retrieved manufacturer mating drawing; insufficient."
+    },
+    {
+      "part": "HS096T01H13",
+      "jlc": "C18198246",
+      "status": "NOT_A_SOLUTION_TO_ATTACHMENT",
+      "source": "sources/C18198246.pdf",
+      "page": 4,
+      "reason": "Same13pin0.7mm flex geometry, same ambiguity of separately specifiedVDDIO without exposedsupplypin; doesnotresolve currentblock."
+    }
+  ],
+  "fallback": {
+    "part": "Waveshare0.96inchLCDModule",
+    "sku": "15868",
+    "status": "DOCUMENTED_MODULE_ALTERNATIVE_NOT_SELECTED",
+    "dimensions_mm": [
+      32.5,
+      26
+    ],
+    "display": "0.96inch IPS160x80ST7735S",
+    "nominal_input_V": 3.3,
+    "requirement": "Supply and logic voltage must match per manufacturer; use3.3V logic not3.0V without separatequalification",
+    "interface": [
+      "VCC",
+      "GND",
+      "DIN",
+      "CLK",
+      "CS",
+      "DC",
+      "RST",
+      "BL"
+    ],
+    "connector": "PH2.0 8pin percurrentmanufacturer docs; olderrevision has pinheader too. Verify exact deliveredrevision before matinglayout.",
+    "schematic": "sources/waveshare-096-module-schematic.pdf",
+    "public_price_USD": 6.99,
+    "public_JLC_stock": "No matching SKU15868 listing established; no fabricated availability",
+    "changes": [
+      "Separate complete module mount and cable interface",
+      "Existing rawpanel LEDKdriver must not drive BLlogicpin",
+      "Existing3.0V_LCD architecture must be reassessed for module3.3V supply/logic",
+      "Mainboard space/height and fastening study needed"
+    ],
+    "decision": "Useful prototype fallback preserving smallcolor non-touch display and command; not an automaticproductionBOMreplacement.",
+    "schematic_review": {
+      "visually_inspected_page": 1,
+      "J1_pinout": {
+        "1": "VCC",
+        "2": "GND",
+        "3": "DIN",
+        "4": "CLK",
+        "5": "CS",
+        "6": "DC",
+        "7": "RST",
+        "8": "BL"
+      },
+      "J2_pinout": "Reverse ofJ1:1BL,2RST,3DC,4CS,5CLK,6DIN,7GND,8VCC",
+      "backlight": "Q1S8050 low-side withR2=1k onBL andR3=10k pull-up toVCC. Backlight can defaultON whileBLfloating. Must actively holdBLlow or switchmodulepower for Phoenix reset-off requirement.",
+      "raw_panel": "U1 has13contacts, so manufacturer owns assembledpanelbond; usingitsbarepanel footprint alone would not documentPhoenixbondprocess."
+    }
+  },
+  "next_required_evidence": [
+    "Manufacturer-approved mating connector or bondprocess for originalpanel, or completealternative module exactrevision+availability",
+    "VDD/VDDIO relationship for rawpanel",
+    "Mounting/bendradius/strainrelief and casingclearance",
+    "Sample electrical startup, brightness and integration test"
+  ],
+  "stock_note": "RawJLC presale/overseas quantities do not establish immediate PCBAallocation; all retrieved assemblyComponentFlag false",
+  "files": [
+    {
+      "path": "sources/C18198246.json",
+      "sha256": "b798dd573af318bc971645808a893ef4e3e14709722397d6769834153a95fcc8"
+    },
+    {
+      "path": "sources/C18198246.pdf",
+      "sha256": "a43e3f46ffd85b15e53489a00c3d2061215c6ab01e143d3ee8d2c03addde77d7"
+    },
+    {
+      "path": "sources/C18723032.json",
+      "sha256": "9e9e377f169e52149c09d3325186e0d3241ff2b2d244ee00c297723cbfd8b41e"
+    },
+    {
+      "path": "sources/C2856797.json",
+      "sha256": "6ef34dffb09f5668aaffb66db3f1c0c75fd8e01fe25f81904e31af4a6c9d1a85"
+    },
+    {
+      "path": "sources/C2856797.pdf",
+      "sha256": "7b0d4ab96962517dbfab5f46e0049d1044b6fe1e59e861ca924b930be4f752d9"
+    },
+    {
+      "path": "sources/C2856815-invalid-pdf-response.bin",
+      "sha256": "a6c3ee8a72f2c981eca54b953b15a5dfeafef2b34c89870dfdbedefd9a817b21"
+    },
+    {
+      "path": "sources/C2856815.json",
+      "sha256": "f82b8cf7155c89200ae8793403d06447aa971a6621598b1d313e4a8bffd10245"
+    },
+    {
+      "path": "sources/C53244650.json",
+      "sha256": "0658a219ecc77eeaf551815a72e0d5eb153dba6d95f905caaa9e3a754760fb91"
+    },
+    {
+      "path": "sources/C597995.json",
+      "sha256": "3a645846215b1700566d17a090da7d0fa37af9caafcfa5ab85a954a9c258fd6b"
+    },
+    {
+      "path": "sources/C597995.pdf",
+      "sha256": "ed14d17173fac1340292e511e9ad725c3e0240441751d8031f894178b1c65f99"
+    },
+    {
+      "path": "sources/hirose-fh12-catalog.pdf",
+      "sha256": "b952992e6b8051669139e2f57df482dd89120953379e21148ebc85d00c6c078e"
+    },
+    {
+      "path": "sources/waveshare-096-module-doc.html",
+      "sha256": "d38eb4b37ef80ac84a4189e764b5c2dba62a2ca35ec3549cd5bfd49e4b56047b"
+    },
+    {
+      "path": "sources/waveshare-096-module-schematic.pdf",
+      "sha256": "caf96b2e94a2ce153f8f8e12d5287dee097df36ed1d501c2858ebc5bc53463cb"
+    }
+  ]
+}

@@ -1,0 +1,2750 @@
+{
+  "source": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/joint-002/phy-joint.kicad_pcb",
+  "source_sha256": "253e2dea16603193c59ab20c8edb7f824edfc5be42ba74ac4623444fb66e6b63",
+  "candidate": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/load-front/phy-joint.kicad_pcb",
+  "candidate_sha256": "ba3265a1826d5606972e6b9f35f3618038af68fc5de5058930ef623ae77bc676",
+  "removed": [],
+  "routes": [
+    {
+      "label": "load-front",
+      "path_mm": [
+        [
+          56.425,
+          32.2
+        ],
+        [
+          55,
+          32.2
+        ],
+        [
+          55,
+          36.5
+        ],
+        [
+          62.27,
+          36.5
+        ],
+        [
+          62.27,
+          34.75
+        ]
+      ],
+      "width_mm": 1.55,
+      "net": "+1V0_PHY",
+      "layer": "F.Cu",
+      "guard": {
+        "net": "+1V0_PHY",
+        "width_mm": 1.55,
+        "segments": 4,
+        "width_preserved": true,
+        "current_rating_qualified": false
+      },
+      "uuids": [
+        "50556b51-6c10-4686-af13-9de6ee3f96f8",
+        "4a25c03a-f6f5-4a70-9d69-5ea746e48764",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19",
+        "820379de-6652-4e82-8ca5-10dfb6f4e5f6"
+      ]
+    }
+  ],
+  "historical_60mil_width_met_on_entire_path": false,
+  "main_checkpoint_modified": false,
+  "power_layout_accepted": false,
+  "assembly_ready": false,
+  "limitations": [
+    "Manual full-width same-layer geometric probe only. Rejected geometry must not be adopted."
+  ],
+  "new_violations": [
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "cdfed036-1f22-4ebe-ba7d-942a374a0175",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "b3e74aa5-2d34-4bde-84ef-ec245eff0e6e",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "b0847409-6cbc-4068-928b-df257c362fc6",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "bf5d5ed0-5b01-41a9-aa3d-2317e8ae47cc",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "a74bcdbe-b401-48e7-8db3-29f0891d35ba",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "tracks_crossing",
+      "severity": "error",
+      "items": [
+        "c2cb0a5a-b063-4909-b509-b61464a8b953",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "8facd4d3-9739-4d6c-be00-76487aa7971b",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "ccbde6fd-da47-4a5e-865c-e29f2ddee2bd",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "a19dafd5-0c91-4aff-b996-6446339c5b8d",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "a2951eac-07c5-408f-92a5-251e43257d11",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "812aae59-271f-4866-bed7-5ee88e4543bd",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "84ddd674-42c5-4bb8-becd-c0587083e613",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "764e45dc-e97f-4601-9a03-c69df7316e80",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "93d13a58-c30c-4cbe-b465-e348edaaf74a",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "762e2f41-9f63-4f1a-a543-3f4b5910507b",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "83d16d58-77f1-4c43-ae66-858b8ccd35c1",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "7f4e1edd-0b16-40c4-adb1-6a574e3aa57b",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "78be57be-68a3-4d1a-acf7-40fba1e36439",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "75fa65d0-df20-4e5f-b37e-b42aee9eba91",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "7e68a662-6c99-45a1-b2e5-1dfee600acb2",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "74f066f4-c663-49b2-b31e-0b77767d4ff6",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "6569148b-db0f-4983-adfa-d1f0d7e742df",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "6b832cf0-082d-4046-ad2e-e3cf11110710",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "70e18341-a945-4888-a3b8-8c3c104a4126",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "4f34db4b-99c7-42b5-a13a-8992c282d1ef",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "428de519-e49a-46e2-9d4a-ecdec23a9d8b",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "5af9371e-0ed7-496a-8f00-079318afc776",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "28a7a892-caef-483f-925b-99050c96e0cb",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "69e3da5d-9135-40d5-bb04-cec4ca4d3298",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "56e9a6e9-d59a-44d9-89a5-40188dcf059c",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "2705471f-45c7-4ae7-bd21-95f33f345c45",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "480a9b81-219d-4c7e-863c-aac01931433c",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "58facb38-d0f2-4904-9595-30486d7e4fa3",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "350c83af-206f-4e7d-802b-83d450728688",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "tracks_crossing",
+      "severity": "error",
+      "items": [
+        "54486472-3d21-46c0-83f6-875468c0d718",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "722341f5-50dd-4929-907c-a9fa278eeb38",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "2ec2e0a1-a96b-4296-8d71-115e9a8ae628",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "1e71f390-299c-4d7f-aefc-867bac8564f7",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "24c935c9-f330-4265-989c-e499a9bb4a81",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "06560914-c298-429a-a7a8-08973e8e84a2",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "14b2c0ee-b44f-4999-b46f-0af59382c1cc",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "2829fbea-dcea-4ca3-99ad-5b98863a02cd",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "07aa35ee-ae2c-4290-b66e-8374a235615e",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "12cf2959-77b4-40f8-b12d-fd6a39b020e9",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "7f06cbe0-f77b-4c56-99f9-ada748eaabca",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "acdbadd1-20b3-47d5-9808-ffd83c21f3d1",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "75a3eec2-cfb8-403e-84d4-c1ca3e36b269",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "634ece3f-3973-4126-8ec1-776c2175a5ea",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "173fa60c-4226-463f-a3e6-0e8c52e0ce40",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "3163c236-31be-42dd-9b3d-16ad8cfa6b5c",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19",
+        "f3e52f68-54c3-457b-83e2-1f09cd44ef2e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "820379de-6652-4e82-8ca5-10dfb6f4e5f6",
+        "8950041b-eeca-44ab-b67f-02b61411bf91"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "4a25c03a-f6f5-4a70-9d69-5ea746e48764",
+        "58171e25-8bd5-4a0f-8d49-6af6bb56e114"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "50556b51-6c10-4686-af13-9de6ee3f96f8",
+        "97dc450a-f0d9-45c1-8486-9bfd071db80e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "2163e74e-82b8-42a1-ae2f-b1380ac5f65c",
+        "4a25c03a-f6f5-4a70-9d69-5ea746e48764"
+      ],
+      "count": 1
+    },
+    {
+      "type": "tracks_crossing",
+      "severity": "error",
+      "items": [
+        "10713ff8-e170-4fc4-9e76-12c6519144f8",
+        "4a25c03a-f6f5-4a70-9d69-5ea746e48764"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "47b9620f-1297-4b6a-aba5-516c277bcb67",
+        "4a25c03a-f6f5-4a70-9d69-5ea746e48764"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "33878ecc-205c-4d4e-9d06-a3624f726a6c",
+        "4a25c03a-f6f5-4a70-9d69-5ea746e48764"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "82c2426c-5b84-4c58-89d7-a01c31601b2a",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "67a14be0-c1c5-4073-932a-d88a20252a8d",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "81d5ff84-2c8e-4a77-b25e-7cee379375f1",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "6189c894-ba1f-4d7b-949c-189d03bb6b86",
+        "820379de-6652-4e82-8ca5-10dfb6f4e5f6"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "5e5f9476-c5c9-4e94-9812-ac9a0b13d53d",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "482f37a1-05e9-4b5a-a1f0-19027d3e4866",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "tracks_crossing",
+      "severity": "error",
+      "items": [
+        "340c40ed-fd98-4746-bdfd-df21fa4f9a57",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "1c9fbc36-c2f7-4086-a83e-ac6fed6d927a",
+        "4a25c03a-f6f5-4a70-9d69-5ea746e48764"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19",
+        "fbf87a7c-4255-411b-bb33-e8dd29dbb596"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "aaed6d97-5448-4d1b-aeb2-c197e58cbb80",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "45170027-b3d4-4f96-aa5f-3fbec576a51a",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "a84263ba-e07e-46a3-b107-ed096775e986",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "656ad4a1-f26f-4de6-a09a-fb9363663196",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "c04765c2-d2ce-4352-86eb-17cc6892890a",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19",
+        "f044a408-a0a0-4d22-9682-cdf0f4a0eae4"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19",
+        "f30d77f5-70c3-4e76-91cc-f44b3a87045a"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19",
+        "eb2d3b2a-55c0-4f5b-a632-f1fa4129db05"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "3ae77a33-5e91-4262-8e5e-097d2a6e5164",
+        "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "4a25c03a-f6f5-4a70-9d69-5ea746e48764",
+        "aaed6d97-5448-4d1b-aeb2-c197e58cbb80"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "45170027-b3d4-4f96-aa5f-3fbec576a51a",
+        "4a25c03a-f6f5-4a70-9d69-5ea746e48764"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "3fa7791e-26d5-4411-bda5-e30bb120e10b",
+        "4a25c03a-f6f5-4a70-9d69-5ea746e48764"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "4a25c03a-f6f5-4a70-9d69-5ea746e48764",
+        "a84263ba-e07e-46a3-b107-ed096775e986"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "4a25c03a-f6f5-4a70-9d69-5ea746e48764",
+        "b24ebc3b-25d8-46cb-afcf-40f54fecea70"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "4a25c03a-f6f5-4a70-9d69-5ea746e48764",
+        "67d9fc42-42b7-4d33-a7b3-f23b4631d350"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "50556b51-6c10-4686-af13-9de6ee3f96f8",
+        "67d9fc42-42b7-4d33-a7b3-f23b4631d350"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "492544ff-d879-46c1-a60d-bb8bb2ee1019",
+        "820379de-6652-4e82-8ca5-10dfb6f4e5f6"
+      ],
+      "count": 1
+    }
+  ],
+  "details": [
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 57.55,
+            "y": 37.1
+          },
+          "uuid": "cdfed036-1f22-4ebe-ba7d-942a374a0175"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 57.45,
+            "y": 37.225
+          },
+          "uuid": "b3e74aa5-2d34-4bde-84ef-ec245eff0e6e"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 57.725,
+            "y": 36.725
+          },
+          "uuid": "b0847409-6cbc-4068-928b-df257c362fc6"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 57.5,
+            "y": 37.175
+          },
+          "uuid": "bf5d5ed0-5b01-41a9-aa3d-2317e8ae47cc"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 57.8,
+            "y": 36.525
+          },
+          "uuid": "a74bcdbe-b401-48e7-8db3-29f0891d35ba"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Tracks crossing",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 57.825,
+            "y": 36.5
+          },
+          "uuid": "c2cb0a5a-b063-4909-b509-b61464a8b953"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "tracks_crossing"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 57.525,
+            "y": 37.125
+          },
+          "uuid": "8facd4d3-9739-4d6c-be00-76487aa7971b"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 57.375,
+            "y": 37.05
+          },
+          "uuid": "ccbde6fd-da47-4a5e-865c-e29f2ddee2bd"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 57.275,
+            "y": 36.825
+          },
+          "uuid": "a19dafd5-0c91-4aff-b996-6446339c5b8d"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 57.6,
+            "y": 36.95
+          },
+          "uuid": "a2951eac-07c5-408f-92a5-251e43257d11"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 57.75,
+            "y": 36.65
+          },
+          "uuid": "812aae59-271f-4866-bed7-5ee88e4543bd"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 57.65,
+            "y": 36.875
+          },
+          "uuid": "84ddd674-42c5-4bb8-becd-c0587083e613"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 57.775,
+            "y": 36.6
+          },
+          "uuid": "764e45dc-e97f-4601-9a03-c69df7316e80"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 57.45,
+            "y": 37.175
+          },
+          "uuid": "93d13a58-c30c-4cbe-b465-e348edaaf74a"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 57.4,
+            "y": 37.1
+          },
+          "uuid": "762e2f41-9f63-4f1a-a543-3f4b5910507b"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 57.425,
+            "y": 37.125
+          },
+          "uuid": "83d16d58-77f1-4c43-ae66-858b8ccd35c1"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 57.625,
+            "y": 36.925
+          },
+          "uuid": "7f4e1edd-0b16-40c4-adb1-6a574e3aa57b"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 57.575,
+            "y": 37.05
+          },
+          "uuid": "78be57be-68a3-4d1a-acf7-40fba1e36439"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 57.3,
+            "y": 36.875
+          },
+          "uuid": "75fa65d0-df20-4e5f-b37e-b42aee9eba91"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 57.3,
+            "y": 36.85
+          },
+          "uuid": "7e68a662-6c99-45a1-b2e5-1dfee600acb2"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 57.4,
+            "y": 37.075
+          },
+          "uuid": "74f066f4-c663-49b2-b31e-0b77767d4ff6"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.2475 mm",
+          "pos": {
+            "x": 56.65,
+            "y": 35.65
+          },
+          "uuid": "6569148b-db0f-4983-adfa-d1f0d7e742df"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 57.625,
+            "y": 36.9
+          },
+          "uuid": "6b832cf0-082d-4046-ad2e-e3cf11110710"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 57.575,
+            "y": 37.025
+          },
+          "uuid": "70e18341-a945-4888-a3b8-8c3c104a4126"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 57.6,
+            "y": 37.0
+          },
+          "uuid": "4f34db4b-99c7-42b5-a13a-8992c282d1ef"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0000 mm",
+          "pos": {
+            "x": 56.65,
+            "y": 35.65
+          },
+          "uuid": "428de519-e49a-46e2-9d4a-ecdec23a9d8b"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.5250 mm",
+          "pos": {
+            "x": 56.825,
+            "y": 35.825
+          },
+          "uuid": "5af9371e-0ed7-496a-8f00-079318afc776"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 57.8,
+            "y": 36.55
+          },
+          "uuid": "28a7a892-caef-483f-925b-99050c96e0cb"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0750 mm",
+          "pos": {
+            "x": 57.325,
+            "y": 36.9
+          },
+          "uuid": "69e3da5d-9135-40d5-bb04-cec4ca4d3298"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 57.325,
+            "y": 36.975
+          },
+          "uuid": "56e9a6e9-d59a-44d9-89a5-40188dcf059c"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 57.75,
+            "y": 36.625
+          },
+          "uuid": "2705471f-45c7-4ae7-bd21-95f33f345c45"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 57.7,
+            "y": 36.75
+          },
+          "uuid": "480a9b81-219d-4c7e-863c-aac01931433c"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 57.275,
+            "y": 36.8
+          },
+          "uuid": "58facb38-d0f2-4904-9595-30486d7e4fa3"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 57.525,
+            "y": 37.15
+          },
+          "uuid": "350c83af-206f-4e7d-802b-83d450728688"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Tracks crossing",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.6364 mm",
+          "pos": {
+            "x": 56.825,
+            "y": 36.35
+          },
+          "uuid": "54486472-3d21-46c0-83f6-875468c0d718"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "tracks_crossing"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 57.5,
+            "y": 37.225
+          },
+          "uuid": "722341f5-50dd-4929-907c-a9fa278eeb38"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 57.55,
+            "y": 37.075
+          },
+          "uuid": "2ec2e0a1-a96b-4296-8d71-115e9a8ae628"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 57.7,
+            "y": 36.775
+          },
+          "uuid": "1e71f390-299c-4d7f-aefc-867bac8564f7"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 57.775,
+            "y": 36.575
+          },
+          "uuid": "24c935c9-f330-4265-989c-e499a9bb4a81"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 57.675,
+            "y": 36.8
+          },
+          "uuid": "06560914-c298-429a-a7a8-08973e8e84a2"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0050 mm",
+          "pos": {
+            "x": 57.475,
+            "y": 37.25
+          },
+          "uuid": "14b2c0ee-b44f-4999-b46f-0af59382c1cc"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0250 mm",
+          "pos": {
+            "x": 57.65,
+            "y": 36.85
+          },
+          "uuid": "2829fbea-dcea-4ca3-99ad-5b98863a02cd"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 57.675,
+            "y": 36.825
+          },
+          "uuid": "07aa35ee-ae2c-4290-b66e-8374a235615e"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll PHY_XOUT e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [PHY_XOUT] su F.Cu, lung. 0.0050 mm",
+          "pos": {
+            "x": 57.475,
+            "y": 37.25
+          },
+          "uuid": "12cf2959-77b4-40f8-b12d-fd6a39b020e9"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1450 mm)",
+      "items": [
+        {
+          "description": "Pista [PHY_XIN] su F.Cu, lung. 0.0050 mm",
+          "pos": {
+            "x": 60.5,
+            "y": 35.475
+          },
+          "uuid": "7f06cbe0-f77b-4c56-99f9-ada748eaabca"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1500 mm)",
+      "items": [
+        {
+          "description": "Pista [PHY_XIN] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 60.475,
+            "y": 35.45
+          },
+          "uuid": "acdbadd1-20b3-47d5-9808-ffd83c21f3d1"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1750 mm)",
+      "items": [
+        {
+          "description": "Pista [PHY_XIN] su F.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 60.425,
+            "y": 35.45
+          },
+          "uuid": "75a3eec2-cfb8-403e-84d4-c1ca3e36b269"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1750 mm)",
+      "items": [
+        {
+          "description": "Pista [PHY_XIN] su F.Cu, lung. 0.0354 mm",
+          "pos": {
+            "x": 60.4,
+            "y": 35.425
+          },
+          "uuid": "634ece3f-3973-4126-8ec1-776c2175a5ea"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1450 mm)",
+      "items": [
+        {
+          "description": "Pista [PHY_XIN] su F.Cu, lung. 0.0050 mm",
+          "pos": {
+            "x": 60.5,
+            "y": 35.48
+          },
+          "uuid": "173fa60c-4226-463f-a3e6-0e8c52e0ce40"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1500 mm)",
+      "items": [
+        {
+          "description": "Pista [PHY_XIN] su F.Cu, lung. 0.2500 mm",
+          "pos": {
+            "x": 60.5,
+            "y": 35.475
+          },
+          "uuid": "3163c236-31be-42dd-9b3d-16ad8cfa6b5c"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1250 mm)",
+      "items": [
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        },
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.7500 mm",
+          "pos": {
+            "x": 61.0,
+            "y": 37.5
+          },
+          "uuid": "f3e52f68-54c3-457b-83e2-1f09cd44ef2e"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.0850 mm)",
+      "items": [
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 1.7500 mm",
+          "pos": {
+            "x": 62.27,
+            "y": 36.5
+          },
+          "uuid": "820379de-6652-4e82-8ca5-10dfb6f4e5f6"
+        },
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.0200 mm",
+          "pos": {
+            "x": 63.23,
+            "y": 34.75
+          },
+          "uuid": "8950041b-eeca-44ab-b67f-02b61411bf91"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +1V0_PHY e GND)",
+      "items": [
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 4.3000 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 32.2
+          },
+          "uuid": "4a25c03a-f6f5-4a70-9d69-5ea746e48764"
+        },
+        {
+          "description": "Via [GND] su F.Cu - B.Cu",
+          "pos": {
+            "x": 55.5,
+            "y": 33.95
+          },
+          "uuid": "58171e25-8bd5-4a0f-8d49-6af6bb56e114"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.0058 mm)",
+      "items": [
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 1.4250 mm",
+          "pos": {
+            "x": 56.425,
+            "y": 32.2
+          },
+          "uuid": "50556b51-6c10-4686-af13-9de6ee3f96f8"
+        },
+        {
+          "description": "Pista [+5V_MAIN] su F.Cu, lung. 0.1500 mm",
+          "pos": {
+            "x": 54.0,
+            "y": 31.95
+          },
+          "uuid": "97dc450a-f0d9-45c1-8486-9bfd071db80e"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +3V58_WIFI e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Via [+3V58_WIFI] su F.Cu - B.Cu",
+          "pos": {
+            "x": 55.3,
+            "y": 35.8
+          },
+          "uuid": "2163e74e-82b8-42a1-ae2f-b1380ac5f65c"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 4.3000 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 32.2
+          },
+          "uuid": "4a25c03a-f6f5-4a70-9d69-5ea746e48764"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Tracks crossing",
+      "items": [
+        {
+          "description": "Pista [+3V58_WIFI] su F.Cu, lung. 0.8000 mm",
+          "pos": {
+            "x": 54.5,
+            "y": 35.8
+          },
+          "uuid": "10713ff8-e170-4fc4-9e76-12c6519144f8"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 4.3000 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 32.2
+          },
+          "uuid": "4a25c03a-f6f5-4a70-9d69-5ea746e48764"
+        }
+      ],
+      "severity": "error",
+      "type": "tracks_crossing"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.0058 mm)",
+      "items": [
+        {
+          "description": "Pista [+5V_MAIN] su F.Cu, lung. 0.3000 mm",
+          "pos": {
+            "x": 54.0,
+            "y": 31.95
+          },
+          "uuid": "47b9620f-1297-4b6a-aba5-516c277bcb67"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 4.3000 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 32.2
+          },
+          "uuid": "4a25c03a-f6f5-4a70-9d69-5ea746e48764"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1519 mm)",
+      "items": [
+        {
+          "description": "Pista [+5V_MAIN] su F.Cu, lung. 0.2121 mm",
+          "pos": {
+            "x": 53.85,
+            "y": 31.95
+          },
+          "uuid": "33878ecc-205c-4d4e-9d06-a3624f726a6c"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 4.3000 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 32.2
+          },
+          "uuid": "4a25c03a-f6f5-4a70-9d69-5ea746e48764"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Via [GND] su F.Cu - B.Cu",
+          "pos": {
+            "x": 56.25,
+            "y": 37.0
+          },
+          "uuid": "82c2426c-5b84-4c58-89d7-a01c31601b2a"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Via [GND] su F.Cu - B.Cu",
+          "pos": {
+            "x": 58.85,
+            "y": 36.7
+          },
+          "uuid": "67a14be0-c1c5-4073-932a-d88a20252a8d"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.0200 mm",
+          "pos": {
+            "x": 56.52,
+            "y": 37.25
+          },
+          "uuid": "81d5ff84-2c8e-4a77-b25e-7cee379375f1"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1050 mm)",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.7000 mm",
+          "pos": {
+            "x": 63.25,
+            "y": 34.75
+          },
+          "uuid": "6189c894-ba1f-4d7b-949c-189d03bb6b86"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 1.7500 mm",
+          "pos": {
+            "x": 62.27,
+            "y": 36.5
+          },
+          "uuid": "820379de-6652-4e82-8ca5-10dfb6f4e5f6"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1250 mm)",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.0100 mm",
+          "pos": {
+            "x": 61.01,
+            "y": 37.5
+          },
+          "uuid": "5e5f9476-c5c9-4e94-9812-ac9a0b13d53d"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e +1V0_PHY)",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.3536 mm",
+          "pos": {
+            "x": 56.5,
+            "y": 37.25
+          },
+          "uuid": "482f37a1-05e9-4b5a-a1f0-19027d3e4866"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Tracks crossing",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 1.0500 mm",
+          "pos": {
+            "x": 58.85,
+            "y": 35.65
+          },
+          "uuid": "340c40ed-fd98-4746-bdfd-df21fa4f9a57"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        }
+      ],
+      "severity": "error",
+      "type": "tracks_crossing"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1250 mm)",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.0200 mm",
+          "pos": {
+            "x": 54.0,
+            "y": 34.48
+          },
+          "uuid": "1c9fbc36-c2f7-4086-a83e-ac6fed6d927a"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 4.3000 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 32.2
+          },
+          "uuid": "4a25c03a-f6f5-4a70-9d69-5ea746e48764"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        },
+        {
+          "description": "Piazzola 1 [PHY_XIN] di C520 su F.Cu",
+          "pos": {
+            "x": 60.5,
+            "y": 35.48
+          },
+          "uuid": "fbf87a7c-4255-411b-bb33-e8dd29dbb596"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        },
+        {
+          "description": "Piazzola 1 [PHY_CFG_LDO0] di R528 su F.Cu",
+          "pos": {
+            "x": 54.49,
+            "y": 37.0
+          },
+          "uuid": "aaed6d97-5448-4d1b-aeb2-c197e58cbb80"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        },
+        {
+          "description": "Piazzola 2 [GND] di R528 su F.Cu",
+          "pos": {
+            "x": 55.51,
+            "y": 37.0
+          },
+          "uuid": "45170027-b3d4-4f96-aa5f-3fbec576a51a"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        },
+        {
+          "description": "Piazzola 2 [+3V58_WIFI] di R2201 su F.Cu",
+          "pos": {
+            "x": 54.51,
+            "y": 35.8
+          },
+          "uuid": "a84263ba-e07e-46a3-b107-ed096775e986"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        },
+        {
+          "description": "Piazzola 3 [PHY_XOUT] di Y501 su F.Cu",
+          "pos": {
+            "x": 56.65,
+            "y": 35.65
+          },
+          "uuid": "656ad4a1-f26f-4de6-a09a-fb9363663196"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        },
+        {
+          "description": "Piazzola 4 [GND] di Y501 su F.Cu",
+          "pos": {
+            "x": 58.85,
+            "y": 35.65
+          },
+          "uuid": "c04765c2-d2ce-4352-86eb-17cc6892890a"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        },
+        {
+          "description": "Piazzola 1 [PHY_XOUT] di C521 su F.Cu",
+          "pos": {
+            "x": 57.48,
+            "y": 37.25
+          },
+          "uuid": "f044a408-a0a0-4d22-9682-cdf0f4a0eae4"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C521 su F.Cu",
+          "pos": {
+            "x": 56.52,
+            "y": 37.25
+          },
+          "uuid": "f30d77f5-70c3-4e76-91cc-f44b3a87045a"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        },
+        {
+          "description": "Piazzola 1 [PHY_RXD2] di R524 su F.Cu",
+          "pos": {
+            "x": 59.99,
+            "y": 37.5
+          },
+          "uuid": "eb2d3b2a-55c0-4f5b-a632-f1fa4129db05"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 7.2700 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 36.5
+          },
+          "uuid": "d4c0c654-028e-4ca1-a136-4185f0e91f19"
+        },
+        {
+          "description": "Piazzola 2 [GND] di R524 su F.Cu",
+          "pos": {
+            "x": 61.01,
+            "y": 37.5
+          },
+          "uuid": "3ae77a33-5e91-4262-8e5e-097d2a6e5164"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 4.3000 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 32.2
+          },
+          "uuid": "4a25c03a-f6f5-4a70-9d69-5ea746e48764"
+        },
+        {
+          "description": "Piazzola 1 [PHY_CFG_LDO0] di R528 su F.Cu",
+          "pos": {
+            "x": 54.49,
+            "y": 37.0
+          },
+          "uuid": "aaed6d97-5448-4d1b-aeb2-c197e58cbb80"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 4.3000 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 32.2
+          },
+          "uuid": "4a25c03a-f6f5-4a70-9d69-5ea746e48764"
+        },
+        {
+          "description": "Piazzola 2 [GND] di R528 su F.Cu",
+          "pos": {
+            "x": 55.51,
+            "y": 37.0
+          },
+          "uuid": "45170027-b3d4-4f96-aa5f-3fbec576a51a"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 4.3000 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 32.2
+          },
+          "uuid": "4a25c03a-f6f5-4a70-9d69-5ea746e48764"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C2202 su F.Cu",
+          "pos": {
+            "x": 54.0,
+            "y": 34.48
+          },
+          "uuid": "3fa7791e-26d5-4411-bda5-e30bb120e10b"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 4.3000 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 32.2
+          },
+          "uuid": "4a25c03a-f6f5-4a70-9d69-5ea746e48764"
+        },
+        {
+          "description": "Piazzola 2 [+3V58_WIFI] di R2201 su F.Cu",
+          "pos": {
+            "x": 54.51,
+            "y": 35.8
+          },
+          "uuid": "a84263ba-e07e-46a3-b107-ed096775e986"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 4.3000 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 32.2
+          },
+          "uuid": "4a25c03a-f6f5-4a70-9d69-5ea746e48764"
+        },
+        {
+          "description": "Piazzola 1 [+5V_MAIN] di C2202 su F.Cu",
+          "pos": {
+            "x": 54.0,
+            "y": 33.52
+          },
+          "uuid": "b24ebc3b-25d8-46cb-afcf-40f54fecea70"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 4.3000 mm",
+          "pos": {
+            "x": 55.0,
+            "y": 32.2
+          },
+          "uuid": "4a25c03a-f6f5-4a70-9d69-5ea746e48764"
+        },
+        {
+          "description": "Piazzola 1 [+5V_MAIN] di C2201 su F.Cu",
+          "pos": {
+            "x": 54.0,
+            "y": 31.95
+          },
+          "uuid": "67d9fc42-42b7-4d33-a7b3-f23b4631d350"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 1.4250 mm",
+          "pos": {
+            "x": 56.425,
+            "y": 32.2
+          },
+          "uuid": "50556b51-6c10-4686-af13-9de6ee3f96f8"
+        },
+        {
+          "description": "Piazzola 1 [+5V_MAIN] di C2201 su F.Cu",
+          "pos": {
+            "x": 54.0,
+            "y": 31.95
+          },
+          "uuid": "67d9fc42-42b7-4d33-a7b3-f23b4631d350"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+1V0_PHY] su F.Cu, lung. 1.7500 mm",
+          "pos": {
+            "x": 62.27,
+            "y": 36.5
+          },
+          "uuid": "820379de-6652-4e82-8ca5-10dfb6f4e5f6"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C512 su F.Cu",
+          "pos": {
+            "x": 63.23,
+            "y": 34.75
+          },
+          "uuid": "492544ff-d879-46c1-a60d-bb8bb2ee1019"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    }
+  ],
+  "status": "JOINT_SW_GEOMETRY_REJECTED"
+}

@@ -1,0 +1,54 @@
+{
+  "board": "runs/memory-reset-link/phy-joint.kicad_pcb",
+  "sha256": "5118940d06d2de0758947f219582df052cb14f7bdf0dd395aff33708276cb039",
+  "parent_sha256": "c0253abac75d80db673102001fd7e9089a8549d3f760963f4f38ba370b0ef8fc",
+  "new_drc": [],
+  "layer": "In3.Cu",
+  "length_mm": 15.161249361156722,
+  "width_mm": 0.2,
+  "path_nm": [
+    [
+      44799999,
+      16100000
+    ],
+    [
+      42849999,
+      16650000
+    ],
+    [
+      35799999,
+      16850000
+    ],
+    [
+      35499999,
+      16750000
+    ],
+    [
+      35249999,
+      16500000
+    ],
+    [
+      33699999,
+      12000000
+    ],
+    [
+      33349999,
+      11650000
+    ],
+    [
+      33200000,
+      11600000
+    ]
+  ],
+  "cut_detected": true,
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 5987,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 7,
+    "existing_connected_pad_groups_preserved": 74
+  },
+  "unconnected_items": 499,
+  "drc_warning_count": 123,
+  "assembly_ready": false
+}

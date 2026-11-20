@@ -1,0 +1,174 @@
+{
+  "board": "runs/opposite-power-bypass/phy-joint.kicad_pcb",
+  "sha256": "b76dcfcb8ef3b745ddee5997d2b774287cf11614fdd2831b6d5156748aee63fc",
+  "parent_sha256": "b76dcfcb8ef3b745ddee5997d2b774287cf11614fdd2831b6d5156748aee63fc",
+  "rotated_load": false,
+  "load_courtyard_conflicts": [],
+  "clock_return_found": false,
+  "free_barrel_sites": 0,
+  "bore_conflicts": [
+    {
+      "objects": [
+        "GND F.Cu"
+      ],
+      "example": [
+        1400000.0,
+        [
+          60600000,
+          33800000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "Y501.1"
+      ],
+      "example": [
+        1664331.697709324,
+        [
+          59700000,
+          33800000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "GND F.Cu",
+        "U5.1"
+      ],
+      "example": [
+        1403566.88476182,
+        [
+          60700000,
+          33800000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "C520.2",
+        "GND F.Cu"
+      ],
+      "example": [
+        1500000.0,
+        [
+          60600000,
+          33900000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+5V_MAIN In2.Cu",
+        "Y501.1"
+      ],
+      "example": [
+        1555634.9186104047,
+        [
+          59500000,
+          33500000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "GND F.Cu",
+        "Y501.1"
+      ],
+      "example": [
+        1565247.584249853,
+        [
+          59900000,
+          33800000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "PHY_XIN B.Cu",
+        "PHY_XIN F.Cu"
+      ],
+      "example": [
+        1612451.54965971,
+        [
+          59800000,
+          31000000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+5V_MAIN In2.Cu",
+        "PHY_XOUT F.Cu"
+      ],
+      "example": [
+        1772004.5146669352,
+        [
+          58900000,
+          32900000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+5V_MAIN In2.Cu",
+        "PHY_XIN B.Cu",
+        "U5.40"
+      ],
+      "example": [
+        509901.9513592785,
+        [
+          60500000,
+          32900000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+5V_MAIN In2.Cu",
+        "PHY_XIN B.Cu",
+        "PHY_XOUT F.Cu"
+      ],
+      "example": [
+        943398.1132056604,
+        [
+          59800000,
+          32900000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+5V_MAIN In2.Cu",
+        "PHY_XIN B.Cu",
+        "Y501.1"
+      ],
+      "example": [
+        989949.4936611666,
+        [
+          59900000,
+          33100000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+5V_MAIN In2.Cu",
+        "GND F.Cu",
+        "PHY_XIN B.Cu"
+      ],
+      "example": [
+        1000000.0,
+        [
+          60600000,
+          33400000
+        ]
+      ]
+    }
+  ],
+  "obstacle_sets": [],
+  "local_landings": 0,
+  "placements": 0,
+  "change": null,
+  "assembly_ready": false
+}

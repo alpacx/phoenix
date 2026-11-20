@@ -1,0 +1,180 @@
+{
+  "source": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/load-in3-c514c/phy-joint.kicad_pcb",
+  "source_sha256": "c3f859ccec5f1605d89ad490f0528d731635c66c4d7687dd3f8e88d38446a748",
+  "candidate": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/load-in3-c513b/phy-joint.kicad_pcb",
+  "candidate_sha256": "aabfd0510e2dd2b157b71976b8c2645c176402f69a10a52807c0875ebacb97af",
+  "removed": [
+    "f29ee69b-fc7c-440b-9d87-831a9ec7a998"
+  ],
+  "via_array": [
+    {
+      "uuid": "9ec097e6-6674-4e6d-99cb-650b31669fb5",
+      "xy_mm": [
+        64.6,
+        34.4
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "6073e1a8-a497-47ac-add9-fa3cd01c47d5",
+      "xy_mm": [
+        65.2,
+        34.4
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    }
+  ],
+  "current_via_PI_qualified": false,
+  "via_pad_overlap_manufacturing_qualified": false,
+  "required_pairs": [
+    [
+      [
+        "C511",
+        "1"
+      ],
+      [
+        "C513",
+        "1"
+      ]
+    ]
+  ],
+  "routes": [
+    {
+      "label": "load-in3-c513b",
+      "path_mm": [
+        [
+          64.8,
+          28.9
+        ],
+        [
+          64.8,
+          32.8
+        ],
+        [
+          65.2,
+          33.2
+        ],
+        [
+          65.2,
+          34.65
+        ]
+      ],
+      "width_mm": 1.55,
+      "net": "+1V0_PHY",
+      "layer": "In3.Cu",
+      "guard": {
+        "net": "+1V0_PHY",
+        "width_mm": 1.55,
+        "segments": 3,
+        "width_preserved": true,
+        "current_rating_qualified": false
+      },
+      "uuids": [
+        "b70546a1-3533-4831-968c-2edd72f6e041",
+        "6b5fb871-7d75-4bb7-8e17-eac718f9c395",
+        "d3b63355-184b-4156-a321-b7f5358457bb"
+      ]
+    }
+  ],
+  "historical_60mil_width_met_on_entire_path": false,
+  "main_checkpoint_modified": false,
+  "power_layout_accepted": false,
+  "assembly_ready": false,
+  "limitations": [
+    "Manual full-width geometry only; no current/via/PI qualification. In3 studies are post-inductor distribution, not a waiver for local REG_OUT/DVDD33. Ground planes retain their role. Via-to-pad overlap requires fabrication/process review. Rejected geometry must not be adopted."
+  ],
+  "new_violations": [
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "6073e1a8-a497-47ac-add9-fa3cd01c47d5",
+        "9b06ce42-da21-488c-b914-e3aa46b8c9f0"
+      ],
+      "count": 1
+    },
+    {
+      "type": "courtyards_overlap",
+      "severity": "error",
+      "items": [
+        "ac198994-53aa-419c-8783-706cc97dfb60",
+        "fb4e5cf8-78a0-46fc-87ab-826dfbf59b20"
+      ],
+      "count": 1
+    },
+    {
+      "type": "track_dangling",
+      "severity": "warning",
+      "items": [
+        "7fccf105-8323-42a2-8f61-04802d403869"
+      ],
+      "count": 1
+    }
+  ],
+  "details": [
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1000 mm)",
+      "items": [
+        {
+          "description": "Via [+1V0_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 65.2,
+            "y": 34.4
+          },
+          "uuid": "6073e1a8-a497-47ac-add9-fa3cd01c47d5"
+        },
+        {
+          "description": "Piazzola 2 [GND] di C513 su F.Cu",
+          "pos": {
+            "x": 65.88,
+            "y": 34.4
+          },
+          "uuid": "9b06ce42-da21-488c-b914-e3aa46b8c9f0"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Courtyards overlap",
+      "items": [
+        {
+          "description": "Impronta C513",
+          "pos": {
+            "x": 65.4,
+            "y": 34.4
+          },
+          "uuid": "ac198994-53aa-419c-8783-706cc97dfb60"
+        },
+        {
+          "description": "Impronta U5",
+          "pos": {
+            "x": 63.0,
+            "y": 31.0
+          },
+          "uuid": "fb4e5cf8-78a0-46fc-87ab-826dfbf59b20"
+        }
+      ],
+      "severity": "error",
+      "type": "courtyards_overlap"
+    },
+    {
+      "description": "Track has unconnected end",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.7000 mm",
+          "pos": {
+            "x": 77.0,
+            "y": 37.5
+          },
+          "uuid": "7fccf105-8323-42a2-8f61-04802d403869"
+        }
+      ],
+      "severity": "warning",
+      "type": "track_dangling"
+    }
+  ],
+  "status": "JOINT_SW_GEOMETRY_REJECTED"
+}

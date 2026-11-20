@@ -1,0 +1,45 @@
+{
+  "board": "runs/rear-bias-trunk/phy-joint.kicad_pcb",
+  "sha256": "840ade0e69a5f5fce473a7c1f087fe863b102d6590557615a584ff3a7e1bc7f9",
+  "old_mm": 13.910452598348249,
+  "new_mm": 6.432017800443702,
+  "new_drc": [],
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5853,
+    "explicitly_replaced_copper": {
+      "11fec51a-00b1-41ae-8bf5-e498ee80236b": [
+        "+3V3_PHY",
+        2,
+        73000000,
+        32400000,
+        71110000,
+        30600000,
+        200000,
+        null
+      ],
+      "4eed5a4a-a993-4fdd-b1d0-d16e23292784": [
+        "+3V3_PHY",
+        2,
+        73000000,
+        32400000,
+        69600000,
+        28910000,
+        200000,
+        null
+      ],
+      "80bd24c7-be49-407b-842a-8f4ab2b43b95": [
+        "+3V3_PHY",
+        2,
+        73000000,
+        32400000,
+        68510000,
+        27800000,
+        200000,
+        null
+      ]
+    },
+    "added_tracks_vias": 0,
+    "existing_connected_pad_groups_preserved": 74
+  }
+}

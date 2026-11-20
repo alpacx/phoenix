@@ -1,0 +1,45 @@
+{
+  "board": "runs/storage-ground/phy-joint.kicad_pcb",
+  "sha256": "185b00da4af131512e6ee255882506a00aba48ea2051ad52b4c64dfd4354da18",
+  "parent_sha256": "abb0c44623244da4bb0c715809e00c072ee30bd189b717c60248270f5f9557e8",
+  "added": [
+    {
+      "ref": "U8001",
+      "pad": "P4",
+      "via_nm": [
+        36250000,
+        5250000
+      ],
+      "length_mm": 0.5
+    },
+    {
+      "ref": "U8001",
+      "pad": "P6",
+      "via_nm": [
+        37250000,
+        5250000
+      ],
+      "length_mm": 0.5
+    }
+  ],
+  "unresolved": [
+    "U8001.A6",
+    "U8001.C4",
+    "U8001.E7",
+    "U8001.G5",
+    "U8001.H10",
+    "U8001.J5",
+    "U8001.K8",
+    "U8001.N2",
+    "U8001.N5"
+  ],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 6259,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 4,
+    "existing_connected_pad_groups_preserved": 85
+  },
+  "new_drc": [],
+  "assembly_ready": false
+}

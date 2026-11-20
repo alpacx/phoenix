@@ -1,0 +1,51 @@
+{
+  "status": "ACCEPTED",
+  "checks": [
+    {
+      "pad": "C466.2",
+      "ground_reference": "C435.2",
+      "connected": true
+    },
+    {
+      "pad": "C468.2",
+      "ground_reference": "C435.2",
+      "connected": true
+    },
+    {
+      "pad": "C469.2",
+      "ground_reference": "C435.2",
+      "connected": true
+    },
+    {
+      "pad": "C465.2",
+      "ground_reference": "C435.2",
+      "connected": true
+    },
+    {
+      "pad": "C467.2",
+      "ground_reference": "C435.2",
+      "connected": true
+    },
+    {
+      "pad": "C463.2",
+      "ground_reference": "C435.2",
+      "connected": true
+    },
+    {
+      "pad": "C464.2",
+      "ground_reference": "C435.2",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "sha256": "ef72cf8ce8976c80465e5e98c7997371a2007000bb0b37da016b68e273541699",
+  "source_sha256": "bdeb44f58dea3d0261469c1d3f7eeb5a9e6df03e95648710393c9e09c83f6aeb",
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5774,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 13,
+    "existing_connected_pad_groups_preserved": 70
+  }
+}

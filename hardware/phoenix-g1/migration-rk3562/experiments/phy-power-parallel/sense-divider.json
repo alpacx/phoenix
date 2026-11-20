@@ -1,0 +1,50 @@
+{
+  "board": "runs/fixture-via-TP5/phy-joint.kicad_pcb",
+  "sha256": "07fb899c95cd8c01095f597ea0031c577c581ab45ca62fa79a9aee074ef4c4bf",
+  "resolved": [
+    [
+      "H8104 mechanical reservation",
+      "TP5"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "TP9"
+    ]
+  ],
+  "records": [
+    {
+      "ref": "TP9",
+      "anchor": "U16",
+      "pin": "2",
+      "stub_mm": 5.207955667550398,
+      "pos_mm": [
+        29.2,
+        15.4
+      ],
+      "preservation": {
+        "existing_pad_instances_preserved": 2006,
+        "existing_tracks_vias_preserved": 5831,
+        "explicitly_replaced_copper": {},
+        "added_tracks_vias": 3,
+        "existing_connected_pad_groups_preserved": 71
+      }
+    },
+    {
+      "ref": "TP5",
+      "anchor": "C465",
+      "pin": "1",
+      "stub_mm": 1.6,
+      "pos_mm": [
+        6.02,
+        36.3
+      ],
+      "preservation": {
+        "existing_pad_instances_preserved": 2006,
+        "existing_tracks_vias_preserved": 5831,
+        "explicitly_replaced_copper": {},
+        "added_tracks_vias": 6,
+        "existing_connected_pad_groups_preserved": 71
+      }
+    }
+  ]
+}

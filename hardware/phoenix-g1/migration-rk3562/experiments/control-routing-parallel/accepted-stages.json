@@ -1,0 +1,47 @@
+{
+  "stages": [
+    {
+      "stage": "ground-returns",
+      "sha256": "ef72cf8ce8976c80465e5e98c7997371a2007000bb0b37da016b68e273541699",
+      "verified_pairs": 7,
+      "added_copper": 13
+    },
+    {
+      "stage": "ground-returns-two",
+      "sha256": "635c1a0c17d1a2c7bedbe227be6edda5d1ebccf6dc589d7850ddee096fedf1bd",
+      "verified_pairs": 7,
+      "added_copper": 14
+    },
+    {
+      "stage": "ground-returns-three",
+      "sha256": "ef81c2ed49ea43fe43fdad822bc91c5d76b4d84bcb3552ce7afd79023e2dc8d8",
+      "verified_pairs": 5,
+      "added_copper": 11
+    },
+    {
+      "stage": "lcd-dc",
+      "sha256": "8829c427754d9d59c53edf8f783c2fc70d3900f7a5c6f4cb8e1f191b66a34f04",
+      "verified_pairs": 2,
+      "added_copper": 35
+    },
+    {
+      "stage": "ground-vias",
+      "sha256": "0aa53e68dc55c31e844bfd5de4acaaa899b4d79c0116bdd42ba860e42fd7adf4",
+      "verified_pairs": 5,
+      "added_copper": 10
+    },
+    {
+      "stage": "ram-ground-vias",
+      "sha256": "55e20dbd6d145a94482c055849b55b8de0a2b332f55f4ac3445a49ac6569a38d",
+      "verified_pairs": 7,
+      "added_copper": 14
+    },
+    {
+      "stage": "middle-ground-vias",
+      "sha256": "75e1b85c569a2619f37e2c418d7868b897cee2f1b490602a80f9bb47f2281545",
+      "verified_pairs": 13,
+      "added_copper": 26
+    }
+  ],
+  "assembly_ready": false
+}

@@ -1,0 +1,488 @@
+[
+  {
+    "ref": "U1",
+    "pin": "AF27",
+    "pin_name": "XOUT24M",
+    "net": "XOUT24M"
+  },
+  {
+    "ref": "U1",
+    "pin": "AF28",
+    "pin_name": "XIN24M",
+    "net": "XIN24M"
+  },
+  {
+    "ref": "U1",
+    "pin": "AB24",
+    "pin_name": "TVSS",
+    "net": "GND"
+  },
+  {
+    "ref": "U1",
+    "pin": "AE26",
+    "pin_name": "GPIO0_D3_d",
+    "net": "ETH_RESET_GPIO_N"
+  },
+  {
+    "ref": "U1",
+    "pin": "AB23",
+    "pin_name": "GPIO0_D4_d",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AD25",
+    "pin_name": "GPIO0_D5_d",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AC24",
+    "pin_name": "GPIO0_D6_d",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "V21",
+    "pin_name": "PMUPLL_AVDD_0V9",
+    "net": "VDDA0V9_PMU"
+  },
+  {
+    "ref": "U1",
+    "pin": "Y21",
+    "pin_name": "PMUPLL_AVDD_1V8",
+    "net": "VCCA1V8_PMU"
+  },
+  {
+    "ref": "U1",
+    "pin": "V20",
+    "pin_name": "PMUPLL_AVSS",
+    "net": "GND"
+  },
+  {
+    "ref": "U1",
+    "pin": "P11",
+    "pin_name": "SYSPLL_AVDD_0V9",
+    "net": "VDDA_0V9"
+  },
+  {
+    "ref": "U1",
+    "pin": "N10",
+    "pin_name": "SYSPLL_AVDD_1V8",
+    "net": "VCCA_1V8"
+  },
+  {
+    "ref": "U1",
+    "pin": "N11",
+    "pin_name": "SYSPLL_AVSS",
+    "net": "GND"
+  },
+  {
+    "ref": "U1",
+    "pin": "AH27",
+    "pin_name": "nPOR_u",
+    "net": "RESET_N"
+  },
+  {
+    "ref": "U1",
+    "pin": "AG27",
+    "pin_name": "REFCLK_OUT",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AG26",
+    "pin_name": "TSADC_SHUT_M0",
+    "net": "THERMAL_SHUTDOWN"
+  },
+  {
+    "ref": "U1",
+    "pin": "AG28",
+    "pin_name": "PMIC_SLEEP",
+    "net": "PMIC_SLEEP"
+  },
+  {
+    "ref": "U1",
+    "pin": "AA22",
+    "pin_name": "GPIO0_A3_u",
+    "net": "PMIC_INT_N"
+  },
+  {
+    "ref": "U1",
+    "pin": "Y22",
+    "pin_name": "SDMMC0_DET",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AF25",
+    "pin_name": "SDMMC0_PWREN",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AE24",
+    "pin_name": "GPU_PWREN",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AG25",
+    "pin_name": "FLASH_VOL_SEL",
+    "net": "FLASH_VOL_SEL"
+  },
+  {
+    "ref": "U1",
+    "pin": "Y20",
+    "pin_name": "PMUIO1",
+    "net": "+3V3_PMU"
+  },
+  {
+    "ref": "U1",
+    "pin": "AD23",
+    "pin_name": "CLK32K_IN",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AF24",
+    "pin_name": "I2C0_SCL",
+    "net": "I2C0_SCL"
+  },
+  {
+    "ref": "U1",
+    "pin": "AB21",
+    "pin_name": "I2C0_SDA",
+    "net": "I2C0_SDA"
+  },
+  {
+    "ref": "U1",
+    "pin": "AG24",
+    "pin_name": "I2C1_SCL",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AB20",
+    "pin_name": "I2C1_SDA",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AC22",
+    "pin_name": "I2C2_SCL_M0",
+    "net": "EXP_SPI_CLK"
+  },
+  {
+    "ref": "U1",
+    "pin": "AA20",
+    "pin_name": "I2C2_SDA_M0",
+    "net": "EXP_SPI_MOSI"
+  },
+  {
+    "ref": "U1",
+    "pin": "AH26",
+    "pin_name": "PWM0_M0",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AD22",
+    "pin_name": "PWM1_M0",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AF23",
+    "pin_name": "PWM2_M0",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AG23",
+    "pin_name": "PWM3_IR",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AE23",
+    "pin_name": "PWM4",
+    "net": "LCD_BL_PWM"
+  },
+  {
+    "ref": "U1",
+    "pin": "AD21",
+    "pin_name": "PWM5",
+    "net": "EXP_SPI_CS1_N"
+  },
+  {
+    "ref": "U1",
+    "pin": "AC21",
+    "pin_name": "PWM6",
+    "net": "EXP_SPI_MISO"
+  },
+  {
+    "ref": "U1",
+    "pin": "AD20",
+    "pin_name": "PWM7_IR",
+    "net": "EXP_SPI_CS0_N"
+  },
+  {
+    "ref": "U1",
+    "pin": "AH25",
+    "pin_name": "HDMITX_CEC_M1",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "AC20",
+    "pin_name": "UART2_RX_M0",
+    "net": "DEBUG_RX"
+  },
+  {
+    "ref": "U1",
+    "pin": "AH24",
+    "pin_name": "UART2_TX_M0",
+    "net": "DEBUG_TX"
+  },
+  {
+    "ref": "U1",
+    "pin": "W19",
+    "pin_name": "PMUIO2",
+    "net": "+3V3_PMU"
+  },
+  {
+    "ref": "U1",
+    "pin": "V19",
+    "pin_name": "PMU_VDD_LOGIC_0V9",
+    "net": "VDDA0V9_PMU"
+  },
+  {
+    "ref": "U1",
+    "pin": "D18",
+    "pin_name": "I2C3_SDA_M0",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "E18",
+    "pin_name": "I2C3_SCL_M0",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "A19",
+    "pin_name": "I2S1_MCLK_M0",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "B19",
+    "pin_name": "I2S1_SCLK_TX_M0",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "F18",
+    "pin_name": "I2S1_SCLK_RX_M0",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "A20",
+    "pin_name": "I2S1_LRCK_TX_M0",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "C20",
+    "pin_name": "I2S1_LRCK_RX_M0",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "B20",
+    "pin_name": "I2S1_SDO0_M0",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "D20",
+    "pin_name": "I2S1_SDO1_M0",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "E20",
+    "pin_name": "I2S1_SDO2_M0",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "A21",
+    "pin_name": "I2S1_SDO3_M0",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "B21",
+    "pin_name": "I2S1_SDI0_M0",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "H17",
+    "pin_name": "VCCIO1",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "A24",
+    "pin_name": "EMMC_D0",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "C21",
+    "pin_name": "EMMC_D1",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "B24",
+    "pin_name": "EMMC_D2",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "D21",
+    "pin_name": "EMMC_D3",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "A25",
+    "pin_name": "EMMC_D4",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "E21",
+    "pin_name": "EMMC_D5",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "E22",
+    "pin_name": "EMMC_D6",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "B25",
+    "pin_name": "EMMC_D7",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "B22",
+    "pin_name": "EMMC_CMD",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "A23",
+    "pin_name": "EMMC_CLKOUT",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "A26",
+    "pin_name": "EMMC_DATA_STROBE",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "F20",
+    "pin_name": "EMMC_RSTn",
+    "net": "FSPI_D2"
+  },
+  {
+    "ref": "U1",
+    "pin": "A22",
+    "pin_name": "FSPI_CLK",
+    "net": "FSPI_CLK"
+  },
+  {
+    "ref": "U1",
+    "pin": "C24",
+    "pin_name": "FSPI_D0",
+    "net": "FSPI_D0"
+  },
+  {
+    "ref": "U1",
+    "pin": "D23",
+    "pin_name": "FSPI_D1",
+    "net": "FSPI_D1"
+  },
+  {
+    "ref": "U1",
+    "pin": "C23",
+    "pin_name": "FSPI_CS0n",
+    "net": "FSPI_CS_N"
+  },
+  {
+    "ref": "U1",
+    "pin": "A27",
+    "pin_name": "FSPI_D3",
+    "net": "FSPI_D3"
+  },
+  {
+    "ref": "U1",
+    "pin": "H18",
+    "pin_name": "VCCIO2",
+    "net": "+3V3_IO"
+  },
+  {
+    "ref": "U1",
+    "pin": "J25",
+    "pin_name": "SDMMC0_D0",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "J24",
+    "pin_name": "SDMMC0_D1",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "H26",
+    "pin_name": "SDMMC0_D2",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "J23",
+    "pin_name": "SDMMC0_D3",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "H27",
+    "pin_name": "SDMMC0_CMD",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "H28",
+    "pin_name": "SDMMC0_CLK",
+    "net": null
+  },
+  {
+    "ref": "U1",
+    "pin": "L22",
+    "pin_name": "VCCIO3",
+    "net": "+3V3_IO"
+  }
+]

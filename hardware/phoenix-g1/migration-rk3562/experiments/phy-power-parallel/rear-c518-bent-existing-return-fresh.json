@@ -1,0 +1,230 @@
+{
+  "board": "runs/rear-c518-bent-existing-return-fresh/phy-joint.kicad_pcb",
+  "sha256": "dbe36120e7f95a92610de9fbab60bcde923132c9537a9fd9b1ff02ead6537d9a",
+  "parent_sha256": "d413f119cbfbf18a42939a0c618740603e16940acfe49dd16b8121ee6ea3004a",
+  "placement_stages": {
+    "courtyard": 581,
+    "pads": 95,
+    "signal": 95,
+    "cap_land": 95,
+    "ground_bore": 64
+  },
+  "return_conflicts": [],
+  "rotated_load": false,
+  "load_courtyard_conflicts": [],
+  "clock_return_found": false,
+  "free_barrel_sites": 32,
+  "bore_conflicts": [
+    {
+      "objects": [
+        "+5V_MAIN In2.Cu"
+      ],
+      "example": [
+        1000000.0,
+        [
+          60600000,
+          33800000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "PHY_XIN B.Cu"
+      ],
+      "example": [
+        1204159.4578792294,
+        [
+          60700000,
+          34000000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "Y501.1"
+      ],
+      "example": [
+        1252996.4086141668,
+        [
+          60000000,
+          33900000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "PHY_XIN F.Cu"
+      ],
+      "example": [
+        1552417.4696260022,
+        [
+          60200000,
+          34300000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+5V_MAIN In2.Cu",
+        "PHY_XIN B.Cu"
+      ],
+      "example": [
+        500000.0,
+        [
+          60600000,
+          33300000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "PHY_XIN B.Cu",
+        "U5.1"
+      ],
+      "example": [
+        984885.7801796105,
+        [
+          61000000,
+          33700000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+5V_MAIN In2.Cu",
+        "Y501.1"
+      ],
+      "example": [
+        1166190.37896906,
+        [
+          60000000,
+          33800000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "PHY_XIN B.Cu",
+        "PHY_XIN F.Cu"
+      ],
+      "example": [
+        1414213.5623730952,
+        [
+          60800000,
+          34200000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "PHY_XIN F.Cu",
+        "Y501.1"
+      ],
+      "example": [
+        1421267.0403551897,
+        [
+          59700000,
+          33900000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "PHY_XIN F.Cu",
+        "R1504.2"
+      ],
+      "example": [
+        1649242.2502470643,
+        [
+          60200000,
+          34400000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+5V_MAIN In2.Cu",
+        "PHY_XIN B.Cu",
+        "U5.40"
+      ],
+      "example": [
+        223606.79774997898,
+        [
+          60500000,
+          33000000
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "+5V_MAIN In2.Cu",
+        "PHY_XIN B.Cu",
+        "U5.1"
+      ],
+      "example": [
+        509901.9513592785,
+        [
+          60700000,
+          33300000
+        ]
+      ]
+    }
+  ],
+  "obstacle_sets": [],
+  "local_landings": 32,
+  "placements": 35,
+  "change": {
+    "location_nm": [
+      59620001,
+      33899999
+    ],
+    "power_via_nm": [
+      60100000,
+      33900000
+    ],
+    "ground_endpoint_nm": [
+      58850000,
+      32100000
+    ],
+    "new_ground_barrel": false,
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 6359,
+      "explicitly_replaced_copper": {
+        "68d03e85-125d-4d76-a9dd-d8720122c640": [
+          "GND",
+          0,
+          82200000,
+          31500000,
+          82200000,
+          31500000,
+          450000,
+          200000
+        ],
+        "91d7da59-2c3c-4c50-8933-76c2d14a9050": [
+          "GND",
+          0,
+          81480000,
+          31500000,
+          81500000,
+          31500000,
+          200000,
+          null
+        ],
+        "ac0929a2-3fca-4d5e-ba2d-c38b18d6595e": [
+          "GND",
+          0,
+          81500000,
+          31500000,
+          82200000,
+          31500000,
+          200000,
+          null
+        ]
+      },
+      "added_tracks_vias": 1,
+      "existing_connected_pad_groups_preserved": 87
+    }
+  },
+  "assembly_ready": false
+}

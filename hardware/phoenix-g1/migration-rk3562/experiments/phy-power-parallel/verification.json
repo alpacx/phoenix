@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "suites": [
+    {
+      "script": "parallel_phy_test_joint.py",
+      "environment": {},
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "script": "parallel_phy_test_joint.py",
+      "environment": {
+        "PHOENIX_PHY_TEST_VARIANT": "joint-16v"
+      },
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "script": "parallel_phy_test_load.py",
+      "environment": {},
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "script": "parallel_phy_test_load.py",
+      "environment": {
+        "PHOENIX_PHY_LOAD_VARIANT": "load-in3-c514c"
+      },
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "script": "parallel_phy_test_load.py",
+      "environment": {
+        "PHOENIX_PHY_LOAD_VARIANT": "load-in3-c513d"
+      },
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "script": "parallel_phy_geometry_fingerprint.py",
+      "environment": {},
+      "passed": true,
+      "exit_code": 0
+    }
+  ],
+  "fault_tests": 30,
+  "rebuild_checks": 1,
+  "checkpoint_hashes_verified": 5,
+  "main_modified": false,
+  "power_layout_accepted": false
+}

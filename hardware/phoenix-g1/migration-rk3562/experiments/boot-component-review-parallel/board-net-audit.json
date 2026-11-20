@@ -1,0 +1,2167 @@
+{
+  "checkpoint": {
+    "status": "DISPLAY_AND_ETHERNET_PASSIVES_ROUTED_VDC_PIN61_OPEN_NOT_POWER_QUALIFIED",
+    "board": "pcb/parallel-local-copper.kicad_pcb",
+    "sha256": "2fe835aa2905edb0e655b25dcd547c353403d299c3a627a72a009e18ef002cbb",
+    "verification": "pcb/final-audit.json",
+    "schematic": "../emmc-system/system/kicad/integrated/phoenix-g1.kicad_sch",
+    "assembly_ready": false
+  },
+  "checked": 187,
+  "mismatches": [
+    {
+      "ref": "U8001",
+      "pin": "A1",
+      "expected": "unconnected-(U8001C-NC-PadA1)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "A2",
+      "expected": "unconnected-(U8001C-NC-PadA2)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "A7",
+      "expected": "unconnected-(U8001C-RFU-PadA7)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "A8",
+      "expected": "unconnected-(U8001C-NC-PadA8)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "A9",
+      "expected": "unconnected-(U8001C-NC-PadA9)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "A10",
+      "expected": "unconnected-(U8001C-NC-PadA10)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "A11",
+      "expected": "unconnected-(U8001C-NC-PadA11)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "A12",
+      "expected": "unconnected-(U8001C-NC-PadA12)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "A13",
+      "expected": "unconnected-(U8001C-NC-PadA13)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "A14",
+      "expected": "unconnected-(U8001C-NC-PadA14)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "B1",
+      "expected": "unconnected-(U8001C-NC-PadB1)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "B7",
+      "expected": "unconnected-(U8001C-NC-PadB7)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "B8",
+      "expected": "unconnected-(U8001C-NC-PadB8)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "B9",
+      "expected": "unconnected-(U8001C-NC-PadB9)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "B10",
+      "expected": "unconnected-(U8001C-NC-PadB10)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "B11",
+      "expected": "unconnected-(U8001C-NC-PadB11)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "B12",
+      "expected": "unconnected-(U8001C-NC-PadB12)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "B13",
+      "expected": "unconnected-(U8001C-NC-PadB13)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "B14",
+      "expected": "unconnected-(U8001C-NC-PadB14)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "C1",
+      "expected": "unconnected-(U8001C-NC-PadC1)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "C3",
+      "expected": "unconnected-(U8001C-NC-PadC3)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "C5",
+      "expected": "unconnected-(U8001C-NC-PadC5)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "C7",
+      "expected": "unconnected-(U8001C-NC-PadC7)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "C8",
+      "expected": "unconnected-(U8001C-NC-PadC8)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "C9",
+      "expected": "unconnected-(U8001C-NC-PadC9)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "C10",
+      "expected": "unconnected-(U8001C-NC-PadC10)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "C11",
+      "expected": "unconnected-(U8001C-NC-PadC11)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "C12",
+      "expected": "unconnected-(U8001C-NC-PadC12)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "C13",
+      "expected": "unconnected-(U8001C-NC-PadC13)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "C14",
+      "expected": "unconnected-(U8001C-NC-PadC14)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "D1",
+      "expected": "unconnected-(U8001C-NC-PadD1)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "D2",
+      "expected": "unconnected-(U8001C-NC-PadD2)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "D3",
+      "expected": "unconnected-(U8001C-NC-PadD3)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "D4",
+      "expected": "unconnected-(U8001C-NC-PadD4)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "D12",
+      "expected": "unconnected-(U8001C-NC-PadD12)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "D13",
+      "expected": "unconnected-(U8001C-NC-PadD13)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "D14",
+      "expected": "unconnected-(U8001C-NC-PadD14)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "E1",
+      "expected": "unconnected-(U8001C-NC-PadE1)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "E2",
+      "expected": "unconnected-(U8001C-NC-PadE2)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "E3",
+      "expected": "unconnected-(U8001C-NC-PadE3)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "E5",
+      "expected": "unconnected-(U8001D-RFU-PadE5)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "E8",
+      "expected": "unconnected-(U8001D-RFU-PadE8)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "E9",
+      "expected": "unconnected-(U8001D-RFU-PadE9)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "E10",
+      "expected": "unconnected-(U8001D-RFU-PadE10)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "E12",
+      "expected": "unconnected-(U8001D-NC-PadE12)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "E13",
+      "expected": "unconnected-(U8001D-NC-PadE13)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "E14",
+      "expected": "unconnected-(U8001D-NC-PadE14)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "F1",
+      "expected": "unconnected-(U8001D-NC-PadF1)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "F2",
+      "expected": "unconnected-(U8001D-NC-PadF2)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "F3",
+      "expected": "unconnected-(U8001D-NC-PadF3)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "F10",
+      "expected": "unconnected-(U8001D-RFU-PadF10)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "F12",
+      "expected": "unconnected-(U8001D-NC-PadF12)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "F13",
+      "expected": "unconnected-(U8001D-NC-PadF13)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "F14",
+      "expected": "unconnected-(U8001D-NC-PadF14)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "G1",
+      "expected": "unconnected-(U8001D-NC-PadG1)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "G2",
+      "expected": "unconnected-(U8001D-NC-PadG2)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "G3",
+      "expected": "unconnected-(U8001D-RFU-PadG3)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "G10",
+      "expected": "unconnected-(U8001D-RFU-PadG10)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "G12",
+      "expected": "unconnected-(U8001D-NC-PadG12)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "G13",
+      "expected": "unconnected-(U8001D-NC-PadG13)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "G14",
+      "expected": "unconnected-(U8001D-NC-PadG14)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "H1",
+      "expected": "unconnected-(U8001D-NC-PadH1)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "H2",
+      "expected": "unconnected-(U8001D-NC-PadH2)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "H3",
+      "expected": "unconnected-(U8001D-NC-PadH3)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "H12",
+      "expected": "unconnected-(U8001D-NC-PadH12)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "H13",
+      "expected": "unconnected-(U8001D-NC-PadH13)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "H14",
+      "expected": "unconnected-(U8001D-NC-PadH14)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "J1",
+      "expected": "unconnected-(U8001D-NC-PadJ1)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "J2",
+      "expected": "unconnected-(U8001D-NC-PadJ2)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "J3",
+      "expected": "unconnected-(U8001D-NC-PadJ3)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "J12",
+      "expected": "unconnected-(U8001D-NC-PadJ12)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "J13",
+      "expected": "unconnected-(U8001D-NC-PadJ13)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "J14",
+      "expected": "unconnected-(U8001D-NC-PadJ14)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "K1",
+      "expected": "unconnected-(U8001D-NC-PadK1)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "K2",
+      "expected": "unconnected-(U8001D-NC-PadK2)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "K3",
+      "expected": "unconnected-(U8001D-NC-PadK3)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "K6",
+      "expected": "unconnected-(U8001D-RFU-PadK6)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "K7",
+      "expected": "unconnected-(U8001D-RFU-PadK7)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "K10",
+      "expected": "unconnected-(U8001D-RFU-PadK10)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "K12",
+      "expected": "unconnected-(U8001D-NC-PadK12)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "K13",
+      "expected": "unconnected-(U8001E-NC-PadK13)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "K14",
+      "expected": "unconnected-(U8001E-NC-PadK14)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "L1",
+      "expected": "unconnected-(U8001E-NC-PadL1)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "L2",
+      "expected": "unconnected-(U8001E-NC-PadL2)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "L3",
+      "expected": "unconnected-(U8001E-NC-PadL3)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "L12",
+      "expected": "unconnected-(U8001E-NC-PadL12)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "L13",
+      "expected": "unconnected-(U8001E-NC-PadL13)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "L14",
+      "expected": "unconnected-(U8001E-NC-PadL14)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "M1",
+      "expected": "unconnected-(U8001E-NC-PadM1)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "M2",
+      "expected": "unconnected-(U8001E-NC-PadM2)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "M3",
+      "expected": "unconnected-(U8001E-NC-PadM3)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "M7",
+      "expected": "unconnected-(U8001E-NC-PadM7)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "M8",
+      "expected": "unconnected-(U8001E-NC-PadM8)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "M9",
+      "expected": "unconnected-(U8001E-NC-PadM9)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "M10",
+      "expected": "unconnected-(U8001E-NC-PadM10)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "M11",
+      "expected": "unconnected-(U8001E-NC-PadM11)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "M12",
+      "expected": "unconnected-(U8001E-NC-PadM12)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "M13",
+      "expected": "unconnected-(U8001E-NC-PadM13)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "M14",
+      "expected": "unconnected-(U8001E-NC-PadM14)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "N1",
+      "expected": "unconnected-(U8001E-NC-PadN1)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "N3",
+      "expected": "unconnected-(U8001E-NC-PadN3)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "N6",
+      "expected": "unconnected-(U8001E-NC-PadN6)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "N7",
+      "expected": "unconnected-(U8001E-NC-PadN7)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "N8",
+      "expected": "unconnected-(U8001E-NC-PadN8)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "N9",
+      "expected": "unconnected-(U8001E-NC-PadN9)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "N10",
+      "expected": "unconnected-(U8001E-NC-PadN10)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "N11",
+      "expected": "unconnected-(U8001E-NC-PadN11)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "N12",
+      "expected": "unconnected-(U8001E-NC-PadN12)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "N13",
+      "expected": "unconnected-(U8001E-NC-PadN13)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "N14",
+      "expected": "unconnected-(U8001E-NC-PadN14)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "P1",
+      "expected": "unconnected-(U8001E-NC-PadP1)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "P2",
+      "expected": "unconnected-(U8001E-NC-PadP2)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "P7",
+      "expected": "unconnected-(U8001E-RFU-PadP7)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "P8",
+      "expected": "unconnected-(U8001E-NC-PadP8)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "P9",
+      "expected": "unconnected-(U8001E-NC-PadP9)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "P10",
+      "expected": "unconnected-(U8001E-RFU-PadP10)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "P11",
+      "expected": "unconnected-(U8001E-NC-PadP11)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "P12",
+      "expected": "unconnected-(U8001E-NC-PadP12)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "P13",
+      "expected": "unconnected-(U8001E-NC-PadP13)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "P14",
+      "expected": "unconnected-(U8001E-NC-PadP14)",
+      "actual": "",
+      "pass": false
+    }
+  ],
+  "pins": [
+    {
+      "ref": "C8003",
+      "pin": "1",
+      "expected": "EMMC_IO_1V8",
+      "actual": "EMMC_IO_1V8",
+      "pass": true
+    },
+    {
+      "ref": "C8003",
+      "pin": "2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "C8005",
+      "pin": "1",
+      "expected": "EMMC_IO_1V8",
+      "actual": "EMMC_IO_1V8",
+      "pass": true
+    },
+    {
+      "ref": "C8005",
+      "pin": "2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "C8001",
+      "pin": "1",
+      "expected": "EMMC_VDDI",
+      "actual": "EMMC_VDDI",
+      "pass": true
+    },
+    {
+      "ref": "C8001",
+      "pin": "2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "C8008",
+      "pin": "1",
+      "expected": "EMMC_3V3",
+      "actual": "EMMC_3V3",
+      "pass": true
+    },
+    {
+      "ref": "C8008",
+      "pin": "2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "R8001",
+      "pin": "1",
+      "expected": "EMMC_IO_1V8",
+      "actual": "EMMC_IO_1V8",
+      "pass": true
+    },
+    {
+      "ref": "R8001",
+      "pin": "2",
+      "expected": "EMMC_D0",
+      "actual": "EMMC_D0",
+      "pass": true
+    },
+    {
+      "ref": "C8004",
+      "pin": "1",
+      "expected": "EMMC_IO_1V8",
+      "actual": "EMMC_IO_1V8",
+      "pass": true
+    },
+    {
+      "ref": "C8004",
+      "pin": "2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "C8009",
+      "pin": "1",
+      "expected": "EMMC_3V3",
+      "actual": "EMMC_3V3",
+      "pass": true
+    },
+    {
+      "ref": "C8009",
+      "pin": "2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "R8007",
+      "pin": "1",
+      "expected": "+3V3_IO",
+      "actual": "+3V3_IO",
+      "pass": true
+    },
+    {
+      "ref": "R8007",
+      "pin": "2",
+      "expected": "EMMC_3V3",
+      "actual": "EMMC_3V3",
+      "pass": true
+    },
+    {
+      "ref": "C8002",
+      "pin": "1",
+      "expected": "EMMC_IO_1V8",
+      "actual": "EMMC_IO_1V8",
+      "pass": true
+    },
+    {
+      "ref": "C8002",
+      "pin": "2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "C8007",
+      "pin": "1",
+      "expected": "EMMC_3V3",
+      "actual": "EMMC_3V3",
+      "pass": true
+    },
+    {
+      "ref": "C8007",
+      "pin": "2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "R8005",
+      "pin": "1",
+      "expected": "EMMC_STRB",
+      "actual": "EMMC_STRB",
+      "pass": true
+    },
+    {
+      "ref": "R8005",
+      "pin": "2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "A1",
+      "expected": "unconnected-(U8001C-NC-PadA1)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "A2",
+      "expected": "unconnected-(U8001C-NC-PadA2)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "A3",
+      "expected": "EMMC_D0",
+      "actual": "EMMC_D0",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "A4",
+      "expected": "EMMC_D1",
+      "actual": "EMMC_D1",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "A5",
+      "expected": "EMMC_D2",
+      "actual": "EMMC_D2",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "A6",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "A7",
+      "expected": "unconnected-(U8001C-RFU-PadA7)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "A8",
+      "expected": "unconnected-(U8001C-NC-PadA8)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "A9",
+      "expected": "unconnected-(U8001C-NC-PadA9)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "A10",
+      "expected": "unconnected-(U8001C-NC-PadA10)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "A11",
+      "expected": "unconnected-(U8001C-NC-PadA11)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "A12",
+      "expected": "unconnected-(U8001C-NC-PadA12)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "A13",
+      "expected": "unconnected-(U8001C-NC-PadA13)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "A14",
+      "expected": "unconnected-(U8001C-NC-PadA14)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "B1",
+      "expected": "unconnected-(U8001C-NC-PadB1)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "B2",
+      "expected": "EMMC_D3",
+      "actual": "EMMC_D3",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "B3",
+      "expected": "EMMC_D4",
+      "actual": "EMMC_D4",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "B4",
+      "expected": "EMMC_D5",
+      "actual": "EMMC_D5",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "B5",
+      "expected": "EMMC_D6",
+      "actual": "EMMC_D6",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "B6",
+      "expected": "EMMC_D7",
+      "actual": "EMMC_D7",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "B7",
+      "expected": "unconnected-(U8001C-NC-PadB7)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "B8",
+      "expected": "unconnected-(U8001C-NC-PadB8)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "B9",
+      "expected": "unconnected-(U8001C-NC-PadB9)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "B10",
+      "expected": "unconnected-(U8001C-NC-PadB10)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "B11",
+      "expected": "unconnected-(U8001C-NC-PadB11)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "B12",
+      "expected": "unconnected-(U8001C-NC-PadB12)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "B13",
+      "expected": "unconnected-(U8001C-NC-PadB13)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "B14",
+      "expected": "unconnected-(U8001C-NC-PadB14)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "C1",
+      "expected": "unconnected-(U8001C-NC-PadC1)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "C2",
+      "expected": "EMMC_VDDI",
+      "actual": "EMMC_VDDI",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "C3",
+      "expected": "unconnected-(U8001C-NC-PadC3)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "C4",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "C5",
+      "expected": "unconnected-(U8001C-NC-PadC5)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "C6",
+      "expected": "EMMC_IO_1V8",
+      "actual": "EMMC_IO_1V8",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "C7",
+      "expected": "unconnected-(U8001C-NC-PadC7)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "C8",
+      "expected": "unconnected-(U8001C-NC-PadC8)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "C9",
+      "expected": "unconnected-(U8001C-NC-PadC9)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "C10",
+      "expected": "unconnected-(U8001C-NC-PadC10)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "C11",
+      "expected": "unconnected-(U8001C-NC-PadC11)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "C12",
+      "expected": "unconnected-(U8001C-NC-PadC12)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "C13",
+      "expected": "unconnected-(U8001C-NC-PadC13)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "C14",
+      "expected": "unconnected-(U8001C-NC-PadC14)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "D1",
+      "expected": "unconnected-(U8001C-NC-PadD1)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "D2",
+      "expected": "unconnected-(U8001C-NC-PadD2)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "D3",
+      "expected": "unconnected-(U8001C-NC-PadD3)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "D4",
+      "expected": "unconnected-(U8001C-NC-PadD4)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "D12",
+      "expected": "unconnected-(U8001C-NC-PadD12)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "D13",
+      "expected": "unconnected-(U8001C-NC-PadD13)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "D14",
+      "expected": "unconnected-(U8001C-NC-PadD14)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "E1",
+      "expected": "unconnected-(U8001C-NC-PadE1)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "E2",
+      "expected": "unconnected-(U8001C-NC-PadE2)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "E3",
+      "expected": "unconnected-(U8001C-NC-PadE3)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "E5",
+      "expected": "unconnected-(U8001D-RFU-PadE5)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "E6",
+      "expected": "EMMC_3V3",
+      "actual": "EMMC_3V3",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "E7",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "E8",
+      "expected": "unconnected-(U8001D-RFU-PadE8)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "E9",
+      "expected": "unconnected-(U8001D-RFU-PadE9)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "E10",
+      "expected": "unconnected-(U8001D-RFU-PadE10)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "E12",
+      "expected": "unconnected-(U8001D-NC-PadE12)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "E13",
+      "expected": "unconnected-(U8001D-NC-PadE13)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "E14",
+      "expected": "unconnected-(U8001D-NC-PadE14)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "F1",
+      "expected": "unconnected-(U8001D-NC-PadF1)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "F2",
+      "expected": "unconnected-(U8001D-NC-PadF2)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "F3",
+      "expected": "unconnected-(U8001D-NC-PadF3)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "F5",
+      "expected": "EMMC_3V3",
+      "actual": "EMMC_3V3",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "F10",
+      "expected": "unconnected-(U8001D-RFU-PadF10)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "F12",
+      "expected": "unconnected-(U8001D-NC-PadF12)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "F13",
+      "expected": "unconnected-(U8001D-NC-PadF13)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "F14",
+      "expected": "unconnected-(U8001D-NC-PadF14)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "G1",
+      "expected": "unconnected-(U8001D-NC-PadG1)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "G2",
+      "expected": "unconnected-(U8001D-NC-PadG2)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "G3",
+      "expected": "unconnected-(U8001D-RFU-PadG3)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "G5",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "G10",
+      "expected": "unconnected-(U8001D-RFU-PadG10)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "G12",
+      "expected": "unconnected-(U8001D-NC-PadG12)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "G13",
+      "expected": "unconnected-(U8001D-NC-PadG13)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "G14",
+      "expected": "unconnected-(U8001D-NC-PadG14)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "H1",
+      "expected": "unconnected-(U8001D-NC-PadH1)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "H2",
+      "expected": "unconnected-(U8001D-NC-PadH2)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "H3",
+      "expected": "unconnected-(U8001D-NC-PadH3)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "H5",
+      "expected": "EMMC_STRB",
+      "actual": "EMMC_STRB",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "H10",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "H12",
+      "expected": "unconnected-(U8001D-NC-PadH12)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "H13",
+      "expected": "unconnected-(U8001D-NC-PadH13)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "H14",
+      "expected": "unconnected-(U8001D-NC-PadH14)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "J1",
+      "expected": "unconnected-(U8001D-NC-PadJ1)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "J2",
+      "expected": "unconnected-(U8001D-NC-PadJ2)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "J3",
+      "expected": "unconnected-(U8001D-NC-PadJ3)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "J5",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "J10",
+      "expected": "EMMC_3V3",
+      "actual": "EMMC_3V3",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "J12",
+      "expected": "unconnected-(U8001D-NC-PadJ12)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "J13",
+      "expected": "unconnected-(U8001D-NC-PadJ13)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "J14",
+      "expected": "unconnected-(U8001D-NC-PadJ14)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "K1",
+      "expected": "unconnected-(U8001D-NC-PadK1)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "K2",
+      "expected": "unconnected-(U8001D-NC-PadK2)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "K3",
+      "expected": "unconnected-(U8001D-NC-PadK3)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "K5",
+      "expected": "EMMC_RESET_N",
+      "actual": "EMMC_RESET_N",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "K6",
+      "expected": "unconnected-(U8001D-RFU-PadK6)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "K7",
+      "expected": "unconnected-(U8001D-RFU-PadK7)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "K8",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "K9",
+      "expected": "EMMC_3V3",
+      "actual": "EMMC_3V3",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "K10",
+      "expected": "unconnected-(U8001D-RFU-PadK10)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "K12",
+      "expected": "unconnected-(U8001D-NC-PadK12)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "K13",
+      "expected": "unconnected-(U8001E-NC-PadK13)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "K14",
+      "expected": "unconnected-(U8001E-NC-PadK14)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "L1",
+      "expected": "unconnected-(U8001E-NC-PadL1)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "L2",
+      "expected": "unconnected-(U8001E-NC-PadL2)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "L3",
+      "expected": "unconnected-(U8001E-NC-PadL3)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "L12",
+      "expected": "unconnected-(U8001E-NC-PadL12)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "L13",
+      "expected": "unconnected-(U8001E-NC-PadL13)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "L14",
+      "expected": "unconnected-(U8001E-NC-PadL14)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "M1",
+      "expected": "unconnected-(U8001E-NC-PadM1)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "M2",
+      "expected": "unconnected-(U8001E-NC-PadM2)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "M3",
+      "expected": "unconnected-(U8001E-NC-PadM3)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "M4",
+      "expected": "EMMC_IO_1V8",
+      "actual": "EMMC_IO_1V8",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "M5",
+      "expected": "EMMC_CMD",
+      "actual": "EMMC_CMD",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "M6",
+      "expected": "EMMC_CLK",
+      "actual": "EMMC_CLK",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "M7",
+      "expected": "unconnected-(U8001E-NC-PadM7)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "M8",
+      "expected": "unconnected-(U8001E-NC-PadM8)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "M9",
+      "expected": "unconnected-(U8001E-NC-PadM9)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "M10",
+      "expected": "unconnected-(U8001E-NC-PadM10)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "M11",
+      "expected": "unconnected-(U8001E-NC-PadM11)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "M12",
+      "expected": "unconnected-(U8001E-NC-PadM12)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "M13",
+      "expected": "unconnected-(U8001E-NC-PadM13)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "M14",
+      "expected": "unconnected-(U8001E-NC-PadM14)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "N1",
+      "expected": "unconnected-(U8001E-NC-PadN1)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "N2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "N3",
+      "expected": "unconnected-(U8001E-NC-PadN3)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "N4",
+      "expected": "EMMC_IO_1V8",
+      "actual": "EMMC_IO_1V8",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "N5",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "N6",
+      "expected": "unconnected-(U8001E-NC-PadN6)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "N7",
+      "expected": "unconnected-(U8001E-NC-PadN7)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "N8",
+      "expected": "unconnected-(U8001E-NC-PadN8)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "N9",
+      "expected": "unconnected-(U8001E-NC-PadN9)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "N10",
+      "expected": "unconnected-(U8001E-NC-PadN10)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "N11",
+      "expected": "unconnected-(U8001E-NC-PadN11)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "N12",
+      "expected": "unconnected-(U8001E-NC-PadN12)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "N13",
+      "expected": "unconnected-(U8001E-NC-PadN13)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "N14",
+      "expected": "unconnected-(U8001E-NC-PadN14)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "P1",
+      "expected": "unconnected-(U8001E-NC-PadP1)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "P2",
+      "expected": "unconnected-(U8001E-NC-PadP2)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "P3",
+      "expected": "EMMC_IO_1V8",
+      "actual": "EMMC_IO_1V8",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "P4",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "P5",
+      "expected": "EMMC_IO_1V8",
+      "actual": "EMMC_IO_1V8",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "P6",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U8001",
+      "pin": "P7",
+      "expected": "unconnected-(U8001E-RFU-PadP7)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "P8",
+      "expected": "unconnected-(U8001E-NC-PadP8)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "P9",
+      "expected": "unconnected-(U8001E-NC-PadP9)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "P10",
+      "expected": "unconnected-(U8001E-RFU-PadP10)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "P11",
+      "expected": "unconnected-(U8001E-NC-PadP11)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "P12",
+      "expected": "unconnected-(U8001E-NC-PadP12)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "P13",
+      "expected": "unconnected-(U8001E-NC-PadP13)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "U8001",
+      "pin": "P14",
+      "expected": "unconnected-(U8001E-NC-PadP14)",
+      "actual": "",
+      "pass": false
+    },
+    {
+      "ref": "R8006",
+      "pin": "1",
+      "expected": "+1V8_SYS",
+      "actual": "+1V8_SYS",
+      "pass": true
+    },
+    {
+      "ref": "R8006",
+      "pin": "2",
+      "expected": "EMMC_IO_1V8",
+      "actual": "EMMC_IO_1V8",
+      "pass": true
+    },
+    {
+      "ref": "C8010",
+      "pin": "1",
+      "expected": "EMMC_IO_1V8",
+      "actual": "EMMC_IO_1V8",
+      "pass": true
+    },
+    {
+      "ref": "C8010",
+      "pin": "2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "R8002",
+      "pin": "1",
+      "expected": "EMMC_IO_1V8",
+      "actual": "EMMC_IO_1V8",
+      "pass": true
+    },
+    {
+      "ref": "R8002",
+      "pin": "2",
+      "expected": "EMMC_CMD",
+      "actual": "EMMC_CMD",
+      "pass": true
+    },
+    {
+      "ref": "R8003",
+      "pin": "1",
+      "expected": "EMMC_IO_1V8",
+      "actual": "EMMC_IO_1V8",
+      "pass": true
+    },
+    {
+      "ref": "R8003",
+      "pin": "2",
+      "expected": "EMMC_RESET_N",
+      "actual": "EMMC_RESET_N",
+      "pass": true
+    },
+    {
+      "ref": "C8006",
+      "pin": "1",
+      "expected": "EMMC_IO_1V8",
+      "actual": "EMMC_IO_1V8",
+      "pass": true
+    },
+    {
+      "ref": "C8006",
+      "pin": "2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "R8004",
+      "pin": "1",
+      "expected": "SOC_EMMC_CLK",
+      "actual": "SOC_EMMC_CLK",
+      "pass": true
+    },
+    {
+      "ref": "R8004",
+      "pin": "2",
+      "expected": "EMMC_CLK",
+      "actual": "EMMC_CLK",
+      "pass": true
+    }
+  ],
+  "note": "Net identity only; routed connectivity and SI not checked.",
+  "connected_net_mismatches": [],
+  "unconnected_or_unmapped_pad_differences": 120
+}

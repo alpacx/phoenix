@@ -1,0 +1,31 @@
+{
+  "tests": [
+    {
+      "case": "accepted",
+      "passed": true,
+      "output": "accepted True\n"
+    },
+    {
+      "case": "obstruct",
+      "passed": true,
+      "output": "obstruct True\n"
+    },
+    {
+      "case": "wrongdrill",
+      "passed": true,
+      "output": "wrongdrill True\n"
+    },
+    {
+      "case": "movehole",
+      "passed": true,
+      "output": "movehole True\n"
+    },
+    {
+      "case": "tracksallowed",
+      "passed": true,
+      "output": "tracksallowed True\n"
+    }
+  ],
+  "all_passed": true,
+  "board_sha256": "134ca379f5f53b86ade6412665be24a73417af59e2228a75f3989510a3a3d0bc"
+}

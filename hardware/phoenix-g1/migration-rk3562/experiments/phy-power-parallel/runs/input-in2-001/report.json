@@ -1,0 +1,2373 @@
+{
+  "source": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/load-in3-c513d/phy-joint.kicad_pcb",
+  "source_sha256": "ed62235bbb029f795503ecc0f4e9b3e505adea246f7f73883a52165a9438a378",
+  "candidate": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/input-in2-001/phy-joint.kicad_pcb",
+  "candidate_sha256": "528f59d07546753d84fc1cfc2ff5b94233b74ae17d822f8796953b8f9c7d262e",
+  "removed": [],
+  "required_pairs": [
+    [
+      [
+        "R530",
+        "2"
+      ],
+      [
+        "C515",
+        "1"
+      ]
+    ]
+  ],
+  "routes": [
+    {
+      "label": "input-in2-001",
+      "path_mm": [
+        [
+          54,
+          26.4
+        ],
+        [
+          54,
+          25.5
+        ],
+        [
+          55.5,
+          24
+        ],
+        [
+          60.9,
+          24
+        ],
+        [
+          60.9,
+          24.2
+        ]
+      ],
+      "width_mm": 1.05,
+      "net": "+3V3_PHY",
+      "layer": "In2.Cu",
+      "guard": {
+        "net": "+3V3_PHY",
+        "width_mm": 1.05,
+        "segments": 4,
+        "width_preserved": true,
+        "current_rating_qualified": false
+      },
+      "uuids": [
+        "773393d3-75a4-487e-8aa3-4cd1b2670a49",
+        "e2bbe105-bfb2-4653-b1e0-37268fdede15",
+        "2c7d4086-1b1d-440a-af8e-ecc9e0ff9a38",
+        "a18b7ef3-a1c6-47ec-9e35-ef5470921952"
+      ]
+    }
+  ],
+  "power_layout_accepted": false,
+  "assembly_ready": false,
+  "limitations": [
+    "Via current, manufacturing clearance, input loop and PI not qualified.",
+    "Inherited SW QFN neck hold remains."
+  ],
+  "new_violations": [
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "a6b6ace8-d989-4c00-8ad7-c5bf715b8721",
+        "e2bbe105-bfb2-4653-b1e0-37268fdede15"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "2452320b-16a6-4c57-ad22-da671e4b4a31",
+        "2c7d4086-1b1d-440a-af8e-ecc9e0ff9a38"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "b43eea3b-30ee-4379-8b0b-5f8e06c5a0ef",
+        "ec12417c-6d45-4d79-8c74-fa5b3c9f5442"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "3539f2dc-5aa9-4578-a266-e58d86189848",
+        "9ff04a21-28b4-4344-bbf5-29ff60b272cf"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "bee007b5-9a90-401c-9363-02977327e43f",
+        "e2bbe105-bfb2-4653-b1e0-37268fdede15"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "b3bcdef7-1320-4c29-8968-30c6d7e56ed2",
+        "e2bbe105-bfb2-4653-b1e0-37268fdede15"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "b066870e-4ea5-43c4-b311-27ff3c42d700",
+        "e2bbe105-bfb2-4653-b1e0-37268fdede15"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "f03dbdf4-8950-43f9-a0fe-da54dde0b0ba",
+        "f4d6fc60-03c5-40de-bd52-24794b50765e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "de7b5964-9e9e-4425-8f19-aec846cf402c",
+        "f4d6fc60-03c5-40de-bd52-24794b50765e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "cfb423eb-d22b-41ab-be6e-6f017f0151b0",
+        "e2bbe105-bfb2-4653-b1e0-37268fdede15"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "f22649b3-1fcf-4b15-9ee8-5afba10288a7",
+        "f4d6fc60-03c5-40de-bd52-24794b50765e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "b122cba3-58db-4c85-bfef-6d02553c09fe",
+        "e2bbe105-bfb2-4653-b1e0-37268fdede15"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "b553d981-658e-4058-9c8e-a4ea91eea7e9",
+        "f4d6fc60-03c5-40de-bd52-24794b50765e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "eed54147-2d48-4142-83cb-71e7e7b604a8",
+        "f4d6fc60-03c5-40de-bd52-24794b50765e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "ca5233b5-7292-4ba6-bef2-2edc203d1995",
+        "e2bbe105-bfb2-4653-b1e0-37268fdede15"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "a436fb6c-4bfb-4765-aa9c-51aadcfd0fce",
+        "e2bbe105-bfb2-4653-b1e0-37268fdede15"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "94324110-682d-40b7-b178-bb927d4819e4",
+        "e2bbe105-bfb2-4653-b1e0-37268fdede15"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "76e45c00-a956-47be-9c5a-746fb422ea30",
+        "e2bbe105-bfb2-4653-b1e0-37268fdede15"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "67d1a6b4-4759-4dcf-a282-c2aacd5518db",
+        "e2bbe105-bfb2-4653-b1e0-37268fdede15"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "608b29a3-0605-4ccd-a2e6-8f7418962d64",
+        "e2bbe105-bfb2-4653-b1e0-37268fdede15"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "5703cd2c-c2ac-455e-8470-088fe4105992",
+        "f4d6fc60-03c5-40de-bd52-24794b50765e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "449540cc-5114-4e5f-be0d-333dc4e8bdea",
+        "f4d6fc60-03c5-40de-bd52-24794b50765e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "4d73d6f7-95c6-496c-9ad8-bc95b54cf767",
+        "e2bbe105-bfb2-4653-b1e0-37268fdede15"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "3cce4ec2-696a-43d4-a720-dd26837d9085",
+        "e2bbe105-bfb2-4653-b1e0-37268fdede15"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "2c328c6c-d80d-4c4c-9775-736a80cdfb64",
+        "f4d6fc60-03c5-40de-bd52-24794b50765e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "b898f180-efe6-4ee5-82a7-411b941926f6",
+        "f4d6fc60-03c5-40de-bd52-24794b50765e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "ee5696f3-c00e-4209-a63f-0ccbad962135",
+        "f4d6fc60-03c5-40de-bd52-24794b50765e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "138e7744-8941-44ba-a6a6-629e2de709c5",
+        "f4d6fc60-03c5-40de-bd52-24794b50765e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "773393d3-75a4-487e-8aa3-4cd1b2670a49",
+        "a6b6ace8-d989-4c00-8ad7-c5bf715b8721"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "0a02fc67-6b56-4f02-ab1c-0d73b90a0196",
+        "f9d96978-cf72-440e-b21f-2a0401a7ad16"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "2c7d4086-1b1d-440a-af8e-ecc9e0ff9a38",
+        "6d269492-05a0-4edc-8edf-f6e842c3aa90"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "0a02fc67-6b56-4f02-ab1c-0d73b90a0196",
+        "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "1fbf9697-fb98-47ef-aa03-5f78ff960aef",
+        "3539f2dc-5aa9-4578-a266-e58d86189848"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "0a02fc67-6b56-4f02-ab1c-0d73b90a0196",
+        "f4d6fc60-03c5-40de-bd52-24794b50765e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "e2bbe105-bfb2-4653-b1e0-37268fdede15",
+        "eed54147-2d48-4142-83cb-71e7e7b604a8"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "ebd19e56-0191-4633-9e83-84b799ff545d",
+        "ec12417c-6d45-4d79-8c74-fa5b3c9f5442"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "9ff04a21-28b4-4344-bbf5-29ff60b272cf",
+        "b43eea3b-30ee-4379-8b0b-5f8e06c5a0ef"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "ec12417c-6d45-4d79-8c74-fa5b3c9f5442",
+        "f7a6a40c-2d37-465a-9c6c-2602ae5d7cec"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "1fbf9697-fb98-47ef-aa03-5f78ff960aef",
+        "f7a6a40c-2d37-465a-9c6c-2602ae5d7cec"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "1fbf9697-fb98-47ef-aa03-5f78ff960aef",
+        "6d269492-05a0-4edc-8edf-f6e842c3aa90"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "ec12417c-6d45-4d79-8c74-fa5b3c9f5442",
+        "fd44f1de-a3b5-4cf9-8263-b173bd5d4bb6"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "9ca02bda-cda8-484f-8a47-6e5ef48a4bac",
+        "ec12417c-6d45-4d79-8c74-fa5b3c9f5442"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "6d269492-05a0-4edc-8edf-f6e842c3aa90",
+        "ec12417c-6d45-4d79-8c74-fa5b3c9f5442"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "648803d6-8c67-4ad8-8154-b3d667c6f3c4",
+        "a18b7ef3-a1c6-47ec-9e35-ef5470921952"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "629ef0f8-91ca-4751-b57d-9537d4b5d84a",
+        "ec12417c-6d45-4d79-8c74-fa5b3c9f5442"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "79b5046c-8c35-4b9c-b2e8-d930c5132571",
+        "ec12417c-6d45-4d79-8c74-fa5b3c9f5442"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "b6011fd8-559c-44e1-a6a8-14d1470dbe70",
+        "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "b6011fd8-559c-44e1-a6a8-14d1470dbe70",
+        "f9d96978-cf72-440e-b21f-2a0401a7ad16"
+      ],
+      "count": 5
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "25bbb7e1-1376-4ae9-bdf6-417d6253d9ad",
+        "2c7d4086-1b1d-440a-af8e-ecc9e0ff9a38"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "fbdc4a58-bd91-49b9-8a58-91ec587b842b",
+        "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "f6a34e68-f559-4f2a-bc54-6beb2fbaa680",
+        "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "f9c74745-ce09-48b4-a5d6-a2e00ab0ff9d",
+        "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "e0858fed-9677-4a70-a508-f0923fd9ef81",
+        "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "d4de54cd-e2f7-4f51-af19-20935565404f",
+        "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "d88ff393-d177-48bf-9227-95175de167b2",
+        "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "c30195fc-d36b-4b0c-b416-8e3121ecd49d",
+        "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "ada26e02-1595-4645-9e22-f405bb52a0d2",
+        "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "7ade26e3-e5a4-45fb-8953-f5817e0ad61c",
+        "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "65014aeb-7fae-400c-8125-92c442654fa8",
+        "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "5f25f381-9865-46a1-bd4b-535d2ab52098",
+        "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "2094f0ff-47bd-4fd3-af6a-bd317e21fe3f",
+        "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "1ad19a1a-0863-4aaa-b893-28fb4962b352",
+        "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "items": [
+        "1fbf9697-fb98-47ef-aa03-5f78ff960aef",
+        "ebd19e56-0191-4633-9e83-84b799ff545d"
+      ],
+      "count": 1
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "items": [
+        "ebd19e56-0191-4633-9e83-84b799ff545d",
+        "ec12417c-6d45-4d79-8c74-fa5b3c9f5442"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "9ff04a21-28b4-4344-bbf5-29ff60b272cf",
+        "ebd19e56-0191-4633-9e83-84b799ff545d"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "0a02fc67-6b56-4f02-ab1c-0d73b90a0196",
+        "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "1fbf9697-fb98-47ef-aa03-5f78ff960aef",
+        "ebd19e56-0191-4633-9e83-84b799ff545d"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "ebd19e56-0191-4633-9e83-84b799ff545d",
+        "ec12417c-6d45-4d79-8c74-fa5b3c9f5442"
+      ],
+      "count": 1
+    },
+    {
+      "type": "hole_to_hole",
+      "severity": "warning",
+      "items": [
+        "b6011fd8-559c-44e1-a6a8-14d1470dbe70",
+        "f9d96978-cf72-440e-b21f-2a0401a7ad16"
+      ],
+      "count": 1
+    }
+  ],
+  "details": [
+    {
+      "description": "Elementi che cortocircuitano (coll +3V3_IO e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Pista [+3V3_IO] su In2.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 53.35,
+            "y": 25.5
+          },
+          "uuid": "a6b6ace8-d989-4c00-8ad7-c5bf715b8721"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su In2.Cu, lung. 2.1213 mm",
+          "pos": {
+            "x": 54.0,
+            "y": 25.5
+          },
+          "uuid": "e2bbe105-bfb2-4653-b1e0-37268fdede15"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll WIFI_BUCK_OUT e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Via [WIFI_BUCK_OUT] su F.Cu - B.Cu",
+          "pos": {
+            "x": 56.9,
+            "y": 24.2
+          },
+          "uuid": "2452320b-16a6-4c57-ad22-da671e4b4a31"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su In2.Cu, lung. 5.4000 mm",
+          "pos": {
+            "x": 55.5,
+            "y": 24.0
+          },
+          "uuid": "2c7d4086-1b1d-440a-af8e-ecc9e0ff9a38"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll CPU_BUCK_EN e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Pista [CPU_BUCK_EN] su F.Cu, lung. 0.2900 mm",
+          "pos": {
+            "x": 60.71,
+            "y": 24.11
+          },
+          "uuid": "b43eea3b-30ee-4379-8b0b-5f8e06c5a0ef"
+        },
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 60.9,
+            "y": 23.9
+          },
+          "uuid": "ec12417c-6d45-4d79-8c74-fa5b3c9f5442"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll CPU_BUCK_EN e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Pista [CPU_BUCK_EN] su F.Cu, lung. 0.7212 mm",
+          "pos": {
+            "x": 60.2,
+            "y": 23.6
+          },
+          "uuid": "3539f2dc-5aa9-4578-a266-e58d86189848"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 1.0750 mm",
+          "pos": {
+            "x": 60.9,
+            "y": 24.2
+          },
+          "uuid": "9ff04a21-28b4-4344-bbf5-29ff60b272cf"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +3V3_IO e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Pista [+3V3_IO] su In2.Cu, lung. 0.8000 mm",
+          "pos": {
+            "x": 54.15,
+            "y": 23.7
+          },
+          "uuid": "bee007b5-9a90-401c-9363-02977327e43f"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su In2.Cu, lung. 2.1213 mm",
+          "pos": {
+            "x": 54.0,
+            "y": 25.5
+          },
+          "uuid": "e2bbe105-bfb2-4653-b1e0-37268fdede15"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +3V3_IO e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Pista [+3V3_IO] su In2.Cu, lung. 0.1000 mm",
+          "pos": {
+            "x": 53.3,
+            "y": 25.55
+          },
+          "uuid": "b3bcdef7-1320-4c29-8968-30c6d7e56ed2"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su In2.Cu, lung. 2.1213 mm",
+          "pos": {
+            "x": 54.0,
+            "y": 25.5
+          },
+          "uuid": "e2bbe105-bfb2-4653-b1e0-37268fdede15"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +3V3_IO e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Pista [+3V3_IO] su In2.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 53.3,
+            "y": 25.65
+          },
+          "uuid": "b066870e-4ea5-43c4-b311-27ff3c42d700"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su In2.Cu, lung. 2.1213 mm",
+          "pos": {
+            "x": 54.0,
+            "y": 25.5
+          },
+          "uuid": "e2bbe105-bfb2-4653-b1e0-37268fdede15"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1925 mm)",
+      "items": [
+        {
+          "description": "Pista [+3V3_IO] su In2.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 53.2,
+            "y": 25.85
+          },
+          "uuid": "f03dbdf4-8950-43f9-a0fe-da54dde0b0ba"
+        },
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 53.7,
+            "y": 26.4
+          },
+          "uuid": "f4d6fc60-03c5-40de-bd52-24794b50765e"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1571 mm)",
+      "items": [
+        {
+          "description": "Pista [+3V3_IO] su In2.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 53.0,
+            "y": 26.25
+          },
+          "uuid": "de7b5964-9e9e-4425-8f19-aec846cf402c"
+        },
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 53.7,
+            "y": 26.4
+          },
+          "uuid": "f4d6fc60-03c5-40de-bd52-24794b50765e"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1644 mm)",
+      "items": [
+        {
+          "description": "Pista [+3V3_IO] su In2.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 53.15,
+            "y": 25.9
+          },
+          "uuid": "cfb423eb-d22b-41ab-be6e-6f017f0151b0"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su In2.Cu, lung. 2.1213 mm",
+          "pos": {
+            "x": 54.0,
+            "y": 25.5
+          },
+          "uuid": "e2bbe105-bfb2-4653-b1e0-37268fdede15"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1571 mm)",
+      "items": [
+        {
+          "description": "Pista [+3V3_IO] su In2.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 53.0,
+            "y": 26.3
+          },
+          "uuid": "f22649b3-1fcf-4b15-9ee8-5afba10288a7"
+        },
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 53.7,
+            "y": 26.4
+          },
+          "uuid": "f4d6fc60-03c5-40de-bd52-24794b50765e"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1868 mm)",
+      "items": [
+        {
+          "description": "Pista [+3V3_IO] su In2.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 53.15,
+            "y": 25.95
+          },
+          "uuid": "b122cba3-58db-4c85-bfef-6d02553c09fe"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su In2.Cu, lung. 2.1213 mm",
+          "pos": {
+            "x": 54.0,
+            "y": 25.5
+          },
+          "uuid": "e2bbe105-bfb2-4653-b1e0-37268fdede15"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1446 mm)",
+      "items": [
+        {
+          "description": "Pista [+3V3_IO] su In2.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 53.1,
+            "y": 26.0
+          },
+          "uuid": "b553d981-658e-4058-9c8e-a4ea91eea7e9"
+        },
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 53.7,
+            "y": 26.4
+          },
+          "uuid": "f4d6fc60-03c5-40de-bd52-24794b50765e"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1933 mm)",
+      "items": [
+        {
+          "description": "Pista [+3V3_IO] su In2.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 53.2,
+            "y": 25.8
+          },
+          "uuid": "eed54147-2d48-4142-83cb-71e7e7b604a8"
+        },
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 53.7,
+            "y": 26.4
+          },
+          "uuid": "f4d6fc60-03c5-40de-bd52-24794b50765e"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.0156 mm)",
+      "items": [
+        {
+          "description": "Pista [+3V3_IO] su In2.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 53.25,
+            "y": 25.75
+          },
+          "uuid": "ca5233b5-7292-4ba6-bef2-2edc203d1995"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su In2.Cu, lung. 2.1213 mm",
+          "pos": {
+            "x": 54.0,
+            "y": 25.5
+          },
+          "uuid": "e2bbe105-bfb2-4653-b1e0-37268fdede15"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +3V3_IO e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Pista [+3V3_IO] su In2.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 54.0,
+            "y": 24.75
+          },
+          "uuid": "a436fb6c-4bfb-4765-aa9c-51aadcfd0fce"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su In2.Cu, lung. 2.1213 mm",
+          "pos": {
+            "x": 54.0,
+            "y": 25.5
+          },
+          "uuid": "e2bbe105-bfb2-4653-b1e0-37268fdede15"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +3V3_IO e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Pista [+3V3_IO] su In2.Cu, lung. 0.1000 mm",
+          "pos": {
+            "x": 54.1,
+            "y": 24.55
+          },
+          "uuid": "94324110-682d-40b7-b178-bb927d4819e4"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su In2.Cu, lung. 2.1213 mm",
+          "pos": {
+            "x": 54.0,
+            "y": 25.5
+          },
+          "uuid": "e2bbe105-bfb2-4653-b1e0-37268fdede15"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +3V3_IO e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Pista [+3V3_IO] su In2.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 53.35,
+            "y": 25.45
+          },
+          "uuid": "76e45c00-a956-47be-9c5a-746fb422ea30"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su In2.Cu, lung. 2.1213 mm",
+          "pos": {
+            "x": 54.0,
+            "y": 25.5
+          },
+          "uuid": "e2bbe105-bfb2-4653-b1e0-37268fdede15"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.0012 mm)",
+      "items": [
+        {
+          "description": "Pista [+3V3_IO] su In2.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 53.25,
+            "y": 25.7
+          },
+          "uuid": "67d1a6b4-4759-4dcf-a282-c2aacd5518db"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su In2.Cu, lung. 2.1213 mm",
+          "pos": {
+            "x": 54.0,
+            "y": 25.5
+          },
+          "uuid": "e2bbe105-bfb2-4653-b1e0-37268fdede15"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +3V3_IO e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Pista [+3V3_IO] su In2.Cu, lung. 0.1414 mm",
+          "pos": {
+            "x": 54.1,
+            "y": 24.65
+          },
+          "uuid": "608b29a3-0605-4ccd-a2e6-8f7418962d64"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su In2.Cu, lung. 2.1213 mm",
+          "pos": {
+            "x": 54.0,
+            "y": 25.5
+          },
+          "uuid": "e2bbe105-bfb2-4653-b1e0-37268fdede15"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1301 mm)",
+      "items": [
+        {
+          "description": "Pista [+3V3_IO] su In2.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 53.05,
+            "y": 26.2
+          },
+          "uuid": "5703cd2c-c2ac-455e-8470-088fe4105992"
+        },
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 53.7,
+            "y": 26.4
+          },
+          "uuid": "f4d6fc60-03c5-40de-bd52-24794b50765e"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1446 mm)",
+      "items": [
+        {
+          "description": "Pista [+3V3_IO] su In2.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 53.1,
+            "y": 26.05
+          },
+          "uuid": "449540cc-5114-4e5f-be0d-333dc4e8bdea"
+        },
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 53.7,
+            "y": 26.4
+          },
+          "uuid": "f4d6fc60-03c5-40de-bd52-24794b50765e"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +3V3_IO e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Pista [+3V3_IO] su In2.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 54.15,
+            "y": 24.5
+          },
+          "uuid": "4d73d6f7-95c6-496c-9ad8-bc95b54cf767"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su In2.Cu, lung. 2.1213 mm",
+          "pos": {
+            "x": 54.0,
+            "y": 25.5
+          },
+          "uuid": "e2bbe105-bfb2-4653-b1e0-37268fdede15"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +3V3_IO e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Pista [+3V3_IO] su In2.Cu, lung. 0.9192 mm",
+          "pos": {
+            "x": 54.0,
+            "y": 24.8
+          },
+          "uuid": "3cce4ec2-696a-43d4-a720-dd26837d9085"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su In2.Cu, lung. 2.1213 mm",
+          "pos": {
+            "x": 54.0,
+            "y": 25.5
+          },
+          "uuid": "e2bbe105-bfb2-4653-b1e0-37268fdede15"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1301 mm)",
+      "items": [
+        {
+          "description": "Pista [+3V3_IO] su In2.Cu, lung. 0.1000 mm",
+          "pos": {
+            "x": 53.05,
+            "y": 26.1
+          },
+          "uuid": "2c328c6c-d80d-4c4c-9775-736a80cdfb64"
+        },
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 53.7,
+            "y": 26.4
+          },
+          "uuid": "f4d6fc60-03c5-40de-bd52-24794b50765e"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1010 mm)",
+      "items": [
+        {
+          "description": "Pista [+3V3_IO] su B.Cu, lung. 1.6263 mm",
+          "pos": {
+            "x": 52.4,
+            "y": 25.95
+          },
+          "uuid": "b898f180-efe6-4ee5-82a7-411b941926f6"
+        },
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 53.7,
+            "y": 26.4
+          },
+          "uuid": "f4d6fc60-03c5-40de-bd52-24794b50765e"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +3V3_SYS e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Pista [+3V3_SYS] su In4.Cu, lung. 1.6971 mm",
+          "pos": {
+            "x": 53.7,
+            "y": 27.0
+          },
+          "uuid": "ee5696f3-c00e-4209-a63f-0ccbad962135"
+        },
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 53.7,
+            "y": 26.4
+          },
+          "uuid": "f4d6fc60-03c5-40de-bd52-24794b50765e"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +3V3_SYS e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Pista [+3V3_SYS] su In4.Cu, lung. 5.9000 mm",
+          "pos": {
+            "x": 53.7,
+            "y": 32.9
+          },
+          "uuid": "138e7744-8941-44ba-a6a6-629e2de709c5"
+        },
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 53.7,
+            "y": 26.4
+          },
+          "uuid": "f4d6fc60-03c5-40de-bd52-24794b50765e"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +3V3_PHY e +3V3_IO)",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su In2.Cu, lung. 0.9000 mm",
+          "pos": {
+            "x": 54.0,
+            "y": 26.4
+          },
+          "uuid": "773393d3-75a4-487e-8aa3-4cd1b2670a49"
+        },
+        {
+          "description": "Pista [+3V3_IO] su In2.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 53.35,
+            "y": 25.5
+          },
+          "uuid": "a6b6ace8-d989-4c00-8ad7-c5bf715b8721"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1500 mm)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di Y2001 su F.Cu",
+          "pos": {
+            "x": 54.52,
+            "y": 25.35
+          },
+          "uuid": "0a02fc67-6b56-4f02-ab1c-0d73b90a0196"
+        },
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 54.3,
+            "y": 26.4
+          },
+          "uuid": "f9d96978-cf72-440e-b21f-2a0401a7ad16"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +3V3_PHY e +5V_MAIN)",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su In2.Cu, lung. 5.4000 mm",
+          "pos": {
+            "x": 55.5,
+            "y": 24.0
+          },
+          "uuid": "2c7d4086-1b1d-440a-af8e-ecc9e0ff9a38"
+        },
+        {
+          "description": "Pista [+5V_MAIN] su In2.Cu, lung. 5.6569 mm",
+          "pos": {
+            "x": 60.5,
+            "y": 24.5
+          },
+          "uuid": "6d269492-05a0-4edc-8edf-f6e842c3aa90"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di Y2001 su F.Cu",
+          "pos": {
+            "x": 54.52,
+            "y": 25.35
+          },
+          "uuid": "0a02fc67-6b56-4f02-ab1c-0d73b90a0196"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.7747 mm",
+          "pos": {
+            "x": 53.51,
+            "y": 27.0
+          },
+          "uuid": "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.0338 mm)",
+      "items": [
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 60.9,
+            "y": 24.5
+          },
+          "uuid": "1fbf9697-fb98-47ef-aa03-5f78ff960aef"
+        },
+        {
+          "description": "Pista [CPU_BUCK_EN] su F.Cu, lung. 0.7212 mm",
+          "pos": {
+            "x": 60.2,
+            "y": 23.6
+          },
+          "uuid": "3539f2dc-5aa9-4578-a266-e58d86189848"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1554 mm)",
+      "items": [
+        {
+          "description": "Piazzola 2 [GND] di Y2001 su F.Cu",
+          "pos": {
+            "x": 54.52,
+            "y": 25.35
+          },
+          "uuid": "0a02fc67-6b56-4f02-ab1c-0d73b90a0196"
+        },
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 53.7,
+            "y": 26.4
+          },
+          "uuid": "f4d6fc60-03c5-40de-bd52-24794b50765e"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.0794 mm)",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su In2.Cu, lung. 2.1213 mm",
+          "pos": {
+            "x": 54.0,
+            "y": 25.5
+          },
+          "uuid": "e2bbe105-bfb2-4653-b1e0-37268fdede15"
+        },
+        {
+          "description": "Pista [+3V3_IO] su In2.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 53.2,
+            "y": 25.8
+          },
+          "uuid": "eed54147-2d48-4142-83cb-71e7e7b604a8"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll CPU_BUCK_EN e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Piazzola 2 [CPU_BUCK_EN] di R1002 su F.Cu",
+          "pos": {
+            "x": 60.71,
+            "y": 24.4
+          },
+          "uuid": "ebd19e56-0191-4633-9e83-84b799ff545d"
+        },
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 60.9,
+            "y": 23.9
+          },
+          "uuid": "ec12417c-6d45-4d79-8c74-fa5b3c9f5442"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +3V3_PHY e CPU_BUCK_EN)",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 1.0750 mm",
+          "pos": {
+            "x": 60.9,
+            "y": 24.2
+          },
+          "uuid": "9ff04a21-28b4-4344-bbf5-29ff60b272cf"
+        },
+        {
+          "description": "Pista [CPU_BUCK_EN] su F.Cu, lung. 0.2900 mm",
+          "pos": {
+            "x": 60.71,
+            "y": 24.11
+          },
+          "uuid": "b43eea3b-30ee-4379-8b0b-5f8e06c5a0ef"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +3V3_PHY e VDD_CPU)",
+      "items": [
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 60.9,
+            "y": 23.9
+          },
+          "uuid": "ec12417c-6d45-4d79-8c74-fa5b3c9f5442"
+        },
+        {
+          "description": "Pista [VDD_CPU] su In1.Cu, lung. 6.0811 mm",
+          "pos": {
+            "x": 61.0,
+            "y": 23.7
+          },
+          "uuid": "f7a6a40c-2d37-465a-9c6c-2602ae5d7cec"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.0950 mm)",
+      "items": [
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 60.9,
+            "y": 24.5
+          },
+          "uuid": "1fbf9697-fb98-47ef-aa03-5f78ff960aef"
+        },
+        {
+          "description": "Pista [VDD_CPU] su In1.Cu, lung. 6.0811 mm",
+          "pos": {
+            "x": 61.0,
+            "y": 23.7
+          },
+          "uuid": "f7a6a40c-2d37-465a-9c6c-2602ae5d7cec"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +3V3_PHY e +5V_MAIN)",
+      "items": [
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 60.9,
+            "y": 24.5
+          },
+          "uuid": "1fbf9697-fb98-47ef-aa03-5f78ff960aef"
+        },
+        {
+          "description": "Pista [+5V_MAIN] su In2.Cu, lung. 5.6569 mm",
+          "pos": {
+            "x": 60.5,
+            "y": 24.5
+          },
+          "uuid": "6d269492-05a0-4edc-8edf-f6e842c3aa90"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +3V3_PHY e WIFI_VBAT)",
+      "items": [
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 60.9,
+            "y": 23.9
+          },
+          "uuid": "ec12417c-6d45-4d79-8c74-fa5b3c9f5442"
+        },
+        {
+          "description": "Pista [WIFI_VBAT] su In3.Cu, lung. 6.3500 mm",
+          "pos": {
+            "x": 59.4,
+            "y": 23.3
+          },
+          "uuid": "fd44f1de-a3b5-4cf9-8263-b173bd5d4bb6"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.0211 mm)",
+      "items": [
+        {
+          "description": "Pista [+5V_MAIN] su In2.Cu, lung. 0.5657 mm",
+          "pos": {
+            "x": 60.5,
+            "y": 24.5
+          },
+          "uuid": "9ca02bda-cda8-484f-8a47-6e5ef48a4bac"
+        },
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 60.9,
+            "y": 23.9
+          },
+          "uuid": "ec12417c-6d45-4d79-8c74-fa5b3c9f5442"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +5V_MAIN e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Pista [+5V_MAIN] su In2.Cu, lung. 5.6569 mm",
+          "pos": {
+            "x": 60.5,
+            "y": 24.5
+          },
+          "uuid": "6d269492-05a0-4edc-8edf-f6e842c3aa90"
+        },
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 60.9,
+            "y": 23.9
+          },
+          "uuid": "ec12417c-6d45-4d79-8c74-fa5b3c9f5442"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll +5V_MAIN e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Pista [+5V_MAIN] su In2.Cu, lung. 7.6500 mm",
+          "pos": {
+            "x": 60.9,
+            "y": 24.9
+          },
+          "uuid": "648803d6-8c67-4ad8-8154-b3d667c6f3c4"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su In2.Cu, lung. 0.2000 mm",
+          "pos": {
+            "x": 60.9,
+            "y": 24.0
+          },
+          "uuid": "a18b7ef3-a1c6-47ec-9e35-ef5470921952"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.0123 mm)",
+      "items": [
+        {
+          "description": "Pista [VDD_CPU] su In1.Cu, lung. 3.1113 mm",
+          "pos": {
+            "x": 63.2,
+            "y": 21.3
+          },
+          "uuid": "629ef0f8-91ca-4751-b57d-9537d4b5d84a"
+        },
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 60.9,
+            "y": 23.9
+          },
+          "uuid": "ec12417c-6d45-4d79-8c74-fa5b3c9f5442"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll VDD_CPU e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Pista [VDD_CPU] su In1.Cu, lung. 0.2000 mm",
+          "pos": {
+            "x": 61.0,
+            "y": 23.5
+          },
+          "uuid": "79b5046c-8c35-4b9c-b2e8-d930c5132571"
+        },
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 60.9,
+            "y": 23.9
+          },
+          "uuid": "ec12417c-6d45-4d79-8c74-fa5b3c9f5442"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Via [GND] su F.Cu - B.Cu",
+          "pos": {
+            "x": 54.5,
+            "y": 26.45
+          },
+          "uuid": "b6011fd8-559c-44e1-a6a8-14d1470dbe70"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.7747 mm",
+          "pos": {
+            "x": 53.51,
+            "y": 27.0
+          },
+          "uuid": "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Via [GND] su F.Cu - B.Cu",
+          "pos": {
+            "x": 54.5,
+            "y": 26.45
+          },
+          "uuid": "b6011fd8-559c-44e1-a6a8-14d1470dbe70"
+        },
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 54.3,
+            "y": 26.4
+          },
+          "uuid": "f9d96978-cf72-440e-b21f-2a0401a7ad16"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Via [GND] su F.Cu - B.Cu",
+          "pos": {
+            "x": 54.5,
+            "y": 26.45
+          },
+          "uuid": "b6011fd8-559c-44e1-a6a8-14d1470dbe70"
+        },
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 54.3,
+            "y": 26.4
+          },
+          "uuid": "f9d96978-cf72-440e-b21f-2a0401a7ad16"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Via [GND] su F.Cu - B.Cu",
+          "pos": {
+            "x": 54.5,
+            "y": 26.45
+          },
+          "uuid": "b6011fd8-559c-44e1-a6a8-14d1470dbe70"
+        },
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 54.3,
+            "y": 26.4
+          },
+          "uuid": "f9d96978-cf72-440e-b21f-2a0401a7ad16"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Via [GND] su F.Cu - B.Cu",
+          "pos": {
+            "x": 54.5,
+            "y": 26.45
+          },
+          "uuid": "b6011fd8-559c-44e1-a6a8-14d1470dbe70"
+        },
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 54.3,
+            "y": 26.4
+          },
+          "uuid": "f9d96978-cf72-440e-b21f-2a0401a7ad16"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Via [GND] su F.Cu - B.Cu",
+          "pos": {
+            "x": 54.5,
+            "y": 26.45
+          },
+          "uuid": "b6011fd8-559c-44e1-a6a8-14d1470dbe70"
+        },
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 54.3,
+            "y": 26.4
+          },
+          "uuid": "f9d96978-cf72-440e-b21f-2a0401a7ad16"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Via [GND] su F.Cu - B.Cu",
+          "pos": {
+            "x": 58.8,
+            "y": 24.2
+          },
+          "uuid": "25bbb7e1-1376-4ae9-bdf6-417d6253d9ad"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su In2.Cu, lung. 5.4000 mm",
+          "pos": {
+            "x": 55.5,
+            "y": 24.0
+          },
+          "uuid": "2c7d4086-1b1d-440a-af8e-ecc9e0ff9a38"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.0750 mm)",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 1.2000 mm",
+          "pos": {
+            "x": 52.8,
+            "y": 27.7
+          },
+          "uuid": "fbdc4a58-bd91-49b9-8a58-91ec587b842b"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.7747 mm",
+          "pos": {
+            "x": 53.51,
+            "y": 27.0
+          },
+          "uuid": "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 54.25,
+            "y": 25.85
+          },
+          "uuid": "f6a34e68-f559-4f2a-bc54-6beb2fbaa680"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.7747 mm",
+          "pos": {
+            "x": 53.51,
+            "y": 27.0
+          },
+          "uuid": "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.0458 mm)",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 54.3,
+            "y": 25.8
+          },
+          "uuid": "f9c74745-ce09-48b4-a5d6-a2e00ab0ff9d"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.7747 mm",
+          "pos": {
+            "x": 53.51,
+            "y": 27.0
+          },
+          "uuid": "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1576 mm)",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 54.35,
+            "y": 25.7
+          },
+          "uuid": "e0858fed-9677-4a70-a508-f0923fd9ef81"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.7747 mm",
+          "pos": {
+            "x": 53.51,
+            "y": 27.0
+          },
+          "uuid": "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 54.15,
+            "y": 26.1
+          },
+          "uuid": "d4de54cd-e2f7-4f51-af19-20935565404f"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.7747 mm",
+          "pos": {
+            "x": 53.51,
+            "y": 27.0
+          },
+          "uuid": "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 54.1,
+            "y": 26.2
+          },
+          "uuid": "d88ff393-d177-48bf-9227-95175de167b2"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.7747 mm",
+          "pos": {
+            "x": 53.51,
+            "y": 27.0
+          },
+          "uuid": "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 54.2,
+            "y": 26.0
+          },
+          "uuid": "c30195fc-d36b-4b0c-b416-8e3121ecd49d"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.7747 mm",
+          "pos": {
+            "x": 53.51,
+            "y": 27.0
+          },
+          "uuid": "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.1000 mm",
+          "pos": {
+            "x": 54.25,
+            "y": 25.95
+          },
+          "uuid": "ada26e02-1595-4645-9e22-f405bb52a0d2"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.7747 mm",
+          "pos": {
+            "x": 53.51,
+            "y": 27.0
+          },
+          "uuid": "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.0909 mm)",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.0707 mm",
+          "pos": {
+            "x": 54.3,
+            "y": 25.75
+          },
+          "uuid": "7ade26e3-e5a4-45fb-8953-f5817e0ad61c"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.7747 mm",
+          "pos": {
+            "x": 53.51,
+            "y": 27.0
+          },
+          "uuid": "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 1.1000 mm",
+          "pos": {
+            "x": 54.5,
+            "y": 25.35
+          },
+          "uuid": "65014aeb-7fae-400c-8125-92c442654fa8"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.7747 mm",
+          "pos": {
+            "x": 53.51,
+            "y": 27.0
+          },
+          "uuid": "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 54.2,
+            "y": 26.05
+          },
+          "uuid": "5f25f381-9865-46a1-bd4b-535d2ab52098"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.7747 mm",
+          "pos": {
+            "x": 53.51,
+            "y": 27.0
+          },
+          "uuid": "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 1.4500 mm",
+          "pos": {
+            "x": 54.1,
+            "y": 27.65
+          },
+          "uuid": "2094f0ff-47bd-4fd3-af6a-bd317e21fe3f"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.7747 mm",
+          "pos": {
+            "x": 53.51,
+            "y": 27.0
+          },
+          "uuid": "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Elementi che cortocircuitano (coll GND e +3V3_PHY)",
+      "items": [
+        {
+          "description": "Pista [GND] su F.Cu, lung. 0.0500 mm",
+          "pos": {
+            "x": 54.15,
+            "y": 26.15
+          },
+          "uuid": "1ad19a1a-0863-4aaa-b893-28fb4962b352"
+        },
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.7747 mm",
+          "pos": {
+            "x": 53.51,
+            "y": 27.0
+          },
+          "uuid": "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Violazione clearance foro (vincoli impostazioni scheda fori clearance 0.2500 mm; reale 0.0000 mm)",
+      "items": [
+        {
+          "description": "Piazzola 2 [CPU_BUCK_EN] di R1002 su F.Cu",
+          "pos": {
+            "x": 60.71,
+            "y": 24.4
+          },
+          "uuid": "ebd19e56-0191-4633-9e83-84b799ff545d"
+        },
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 60.9,
+            "y": 24.5
+          },
+          "uuid": "1fbf9697-fb98-47ef-aa03-5f78ff960aef"
+        }
+      ],
+      "severity": "error",
+      "type": "hole_clearance"
+    },
+    {
+      "description": "Violazione clearance foro (vincoli impostazioni scheda fori clearance 0.2500 mm; reale 0.0348 mm)",
+      "items": [
+        {
+          "description": "Piazzola 2 [CPU_BUCK_EN] di R1002 su F.Cu",
+          "pos": {
+            "x": 60.71,
+            "y": 24.4
+          },
+          "uuid": "ebd19e56-0191-4633-9e83-84b799ff545d"
+        },
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 60.9,
+            "y": 23.9
+          },
+          "uuid": "ec12417c-6d45-4d79-8c74-fa5b3c9f5442"
+        }
+      ],
+      "severity": "error",
+      "type": "hole_clearance"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 1.0750 mm",
+          "pos": {
+            "x": 60.9,
+            "y": 24.2
+          },
+          "uuid": "9ff04a21-28b4-4344-bbf5-29ff60b272cf"
+        },
+        {
+          "description": "Piazzola 2 [CPU_BUCK_EN] di R1002 su F.Cu",
+          "pos": {
+            "x": 60.71,
+            "y": 24.4
+          },
+          "uuid": "ebd19e56-0191-4633-9e83-84b799ff545d"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Pista [+3V3_PHY] su F.Cu, lung. 0.7747 mm",
+          "pos": {
+            "x": 53.51,
+            "y": 27.0
+          },
+          "uuid": "ff58ab62-b51f-47b7-a615-647360e8cc8e"
+        },
+        {
+          "description": "Piazzola 2 [GND] di Y2001 su F.Cu",
+          "pos": {
+            "x": 54.52,
+            "y": 25.35
+          },
+          "uuid": "0a02fc67-6b56-4f02-ab1c-0d73b90a0196"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 60.9,
+            "y": 24.5
+          },
+          "uuid": "1fbf9697-fb98-47ef-aa03-5f78ff960aef"
+        },
+        {
+          "description": "Piazzola 2 [CPU_BUCK_EN] di R1002 su F.Cu",
+          "pos": {
+            "x": 60.71,
+            "y": 24.4
+          },
+          "uuid": "ebd19e56-0191-4633-9e83-84b799ff545d"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "L'apertura maschera di saldatura fronte fa ponte tra elementi con collegamenti diversi",
+      "items": [
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 60.9,
+            "y": 23.9
+          },
+          "uuid": "ec12417c-6d45-4d79-8c74-fa5b3c9f5442"
+        },
+        {
+          "description": "Piazzola 2 [CPU_BUCK_EN] di R1002 su F.Cu",
+          "pos": {
+            "x": 60.71,
+            "y": 24.4
+          },
+          "uuid": "ebd19e56-0191-4633-9e83-84b799ff545d"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Fori troppo vicini tra loro (vincoli impostazioni scheda min 0.2500 mm; reale 0.0000 mm)",
+      "items": [
+        {
+          "description": "Via [GND] su F.Cu - B.Cu",
+          "pos": {
+            "x": 54.5,
+            "y": 26.45
+          },
+          "uuid": "b6011fd8-559c-44e1-a6a8-14d1470dbe70"
+        },
+        {
+          "description": "Via [+3V3_PHY] su F.Cu - B.Cu",
+          "pos": {
+            "x": 54.3,
+            "y": 26.4
+          },
+          "uuid": "f9d96978-cf72-440e-b21f-2a0401a7ad16"
+        }
+      ],
+      "severity": "warning",
+      "type": "hole_to_hole"
+    }
+  ],
+  "status": "JOINT_SW_GEOMETRY_REJECTED"
+}

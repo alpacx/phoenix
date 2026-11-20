@@ -1,0 +1,118 @@
+{
+  "status": "ALTERNATIVE DISPLAY INVESTIGATION; no schematic replacement approved by engineering checks",
+  "display": {
+    "jlc": "C18723032",
+    "mpn": "N096-1608TBBIG09-C08",
+    "source": "reference/display-C18723032.pdf",
+    "pins": {
+      "1": "LEDA",
+      "2": "GND",
+      "3": "RESET",
+      "4": "RS/DC",
+      "5": "SDA",
+      "6": "SCL",
+      "7": "VDD",
+      "8": "CS"
+    },
+    "pitch_mm": 0.5,
+    "tip_width_mm": [
+      4.43,
+      4.57
+    ],
+    "tip_thickness_mm": [
+      0.27,
+      0.33
+    ],
+    "exposed_contact_length_mm": [
+      2.4,
+      2.8
+    ],
+    "contact_width_mm": [
+      0.25,
+      0.35
+    ],
+    "body_nominal_mm": [
+      13.5,
+      27.95
+    ],
+    "stiffener_length_mm": [
+      3.3,
+      3.7
+    ]
+  },
+  "candidates": [
+    {
+      "jlc": "C5213730",
+      "mpn": "HC-FPC-05-10-8RLTAG",
+      "source": "reference/fpc-C5213730.pdf",
+      "status": "REJECT nominal direct mate",
+      "reason": "Manufacturer applicable FPC drawing requires 3.00mm minimum exposed contact length and 4.00mm minimum reinforced length. Panel has at most 2.8mm exposed and 3.7mm stiffener."
+    },
+    {
+      "jlc": "C293338",
+      "mpn": "5034800800",
+      "source": "reference/fpc-molex-503480-series.pdf",
+      "source_url": "https://assets.rs-online.com/v1687774508/Datasheets/087370cecedef382e4975028461094bb.pdf",
+      "drawing": "SD-503480-003 revision C, 2023-02-27, page 2 visually inspected",
+      "status": "HOLD tolerance and conductor geometry mismatch",
+      "matching": [
+        "0.5mm pitch",
+        "8 circuits",
+        "0.30mm nominal thickness within 0.30+/-0.05",
+        "2mm minimum exposed length",
+        "3mm minimum stiffener length"
+      ],
+      "holds": [
+        "Recommended FPC width 4.50+/-0.05mm; panel tolerance 4.50+/-0.07mm exceeds it. Drawing explicitly calls for insertion confirmation above nominal+0.02mm.",
+        "Recommended FPC conductor width 0.35+/-0.03mm; panel 0.30+/-0.05mm does not meet entire interval. Do not substitute FFC drawing specifications for FPC.",
+        "Retention notches and contact placement still need full overlay and sample test."
+      ]
+    },
+    {
+      "jlc": "C53282325",
+      "status": "HOLD missing manufacturer drawing in JLC public response"
+    }
+  ],
+  "electrical_changes_required": [
+    "No separate LED cathode pin: common ground is an inference to confirm; existing low-side NPN circuit cannot be carried over directly.",
+    "Use validated high-side anode PWM drive or current source with reset-off behavior.",
+    "VDDIO is named in specification but not separately pinned; internal supply relationship remains unresolved."
+  ],
+  "decision": "Keep current DS1 circuit unchanged until a mechanically compatible direct mate or documented adapter design is qualified. Display remains included in product scope.",
+  "stock_note": "See dated public JSON records; catalog quantities do not reserve inventory or prove immediate assembly availability.",
+  "adapter_assessment": {
+    "status": "CONCEPT ONLY; no adapter PCB or connector selected",
+    "original_panel": "N096-1608TBBIG11-H13 / C2890616",
+    "drawing_reviewed": "reference/display-C2890616.pdf page 5, revision B",
+    "fpc": {
+      "contacts": 13,
+      "pitch_mm": 0.7,
+      "pitch_tolerance_mm": 0.04,
+      "contact_width_mm": 0.35,
+      "contact_width_tolerance_mm": 0.04,
+      "first_to_last_center_mm": 8.4,
+      "tail_width_mm": 12.4,
+      "tail_width_tolerance_mm": 0.2,
+      "thickness_mm": 0.13,
+      "thickness_tolerance_mm": 0.03,
+      "front_exposed_length_mm": 2,
+      "front_exposed_length_tolerance_mm": 0.3,
+      "rear_exposed_length_mm": 1.7,
+      "rear_exposed_length_tolerance_mm": 0.3
+    },
+    "usable_electrical_connections": 10,
+    "possibility": "Solder original display flex to a small carrier; use a separate matched cable/connector pair to mainboard. This preserves separate LEDK and the existing driver.",
+    "costs_not_estimated": [
+      "Additional PCB",
+      "Two connector halves and cable",
+      "Display flex solder process",
+      "Mechanical retention"
+    ],
+    "holds": [
+      "Solder process, contact side and pad numbering overlay must be qualified.",
+      "No ordinary 0.3mm FPC connector should be assumed to grip this 0.13mm tail.",
+      "Carrier must not impose bending load on display flex or press on LCD.",
+      "Keep this as an alternative; do not silently add unpriced assembly steps to selected BOM."
+    ]
+  }
+}

@@ -1,3 +1,49 @@
+## 2026-11-18 — Sequential PHY continuation, no architecture change
+
+Latest isolated PHY variant: `hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/load-c513-16v-checkpoint.json`. Existing 16V C515 candidate carried into latest C513 distribution, zero new DRC, preservation/connectivity and six fault-injection tests pass. Main checkpoint hash verified unchanged. New full-width `input-in2-001` rejected at both entry/exit and inner corridor; needs joint R530 / C2007-Y2001 return / C515 escape redesign, not another middle-path-only variation. C522 and electrical qualifications still open. No commit/push, purchase or subagents.
+
+## 2026-11-18 — Internal antenna approved; candidate CAD created
+
+RK3562/AP6256 retained. See `hardware/phoenix-g1/migration-rk3562/experiments/internal-antenna/README.md`. W3006 C5123155 public price $0.9074, positive presale/overseas fields; antenna circuit, footprint and topology check created. Not integrated into active PCB/BOM. 204 conservative edge windows checked: all require relocation; least-conflict windows hit Ethernet J2. No approved routed geometry changed. RF clearance, placement, matching and enclosure validation remain open. No purchase/commit/push. Continue sequentially, no subagents.
+
+## Decisione corrente — mantenere RK3562 e AP6256
+
+L’utente conferma la strada RK3562: Ethernet–USB3 verso il gigabit come obiettivo; Wi-Fi AP6256 sotto il gigabit accettato; VPN da misurare. Lo studio `migration-rk3568-return` è inattivo. Riprendere il checkpoint verificato `migration-rk3562/experiments/pmic-ldo-inputs/working-candidate.json` (246 coppie); nessun agente parallelo, acquisto o commit/push. RAM implementata 1 GiB LPDDR4 invariata; alternative 512 MiB non adottate.
+
+## Ripresa sequenziale — 18 novembre 2026
+
+Decisione utente: continuare la scheda attuale RK3562, senza agenti paralleli. Studi Wi-Fi gigabit e alternative RAM restano non applicati. Nessun commit/push.
+
+Checkpoint autorevole: `pmic-ldo-inputs/working-candidate.json`, SHA `c29d07e1eca29d367b1194504bc58288253b281572404bd8820ac6b030a12824`.
+Corretti due via RAM troppo vicini a pad; integrati cinque ritorni GND aggiuntivi, incluso C1627 con via riposizionato lontano da C2204 e EXP_SPI_MOSI. **246 coppie verificate**, ricostruzione completa di 24 stadi superata, **67 test ereditati + 7 test integrati** superati. Screen conservativo dei **30 nuovi via** superato; aggiunta regressione per overlap con pad della stessa net. Nessun nuovo errore DRC o conflitto meccanico introdotto.
+
+Restano 225 reti multipad aperte e 901 unioni topologiche minime. VDC pin61, distribuzione alimentazioni PHY/RAM, routing restante, display e verifiche SI/PI/assemblaggio restano aperti. Due via preesistenti presso U21.19/C521.2 richiedono revisione assemblaggio separata: il nuovo screen non ne certifica l'idoneità. La scheda non è pronta alla produzione.
+
+Dettagli e tentativi esclusi: `control-routing-parallel/SEQUENTIAL_RESUME.md`. Le sezioni successive sono storico, non attività di agenti attualmente in esecuzione.
+
+## Lavoro parallelo — 18 novembre 2026, in corso
+
+Checkpoint principale: `pmic-ldo-inputs/working-candidate.json`, board
+`pcb/parallel-local-copper.kicad_pcb`, SHA `2fe835aa2905edb0e655b25dcd547c353403d299c3a627a72a009e18ef002cbb`.
+Ricostruzione completa dei **24 stadi** superata: **216 coppie verificate**,
+67 test CAD ereditati e 6 nuovi test integrati; verifiche XIN/5V e meccaniche superate.
+Aggiunti 19 ritorni GND e LCD_DC U1.N1→U21.4/R1813.1.
+Liberate riserve H8103/H8105 spostando cinque resistenze non cablate; creato
+H8105 NPTH M2 da2,2mm con riserva5,4mm invariata. Il report distingue ora
+le autocorrispondenze dei fori: rimangono11 interferenze reali conservative H8104.
+Inventario:225 reti multipad aperte,931 unioni topologiche minime;13 pad DS1 assenti.
+Nessuna qualifica PI/SI, meccanica finale o produzione.
+
+Tre agenti lavorano in ambiti separati: `phy-power-parallel`,
+`control-routing-parallel`, `boot-component-review-parallel`; studi display e componenti
+sono documentati separatamente. Nessun commit/push/ordine autorizzato in questa fase.
+La variante PHY compatta ha ora geometria SW connessa ma neck QFN0,20mm ancora
+non qualificato. Curve Samsung documentate: C1705≈2,100µF a3,3V;
+C19666 stessa0603≈3,269µF; C1779 0805≈3,942µF (tipici,non minimi).
+Le alternative non sono adottate nella BOM principale.
+
+Le sezioni seguenti sono storico; usare sempre il checkpoint corrente.
+
 # Filtro paesi NordVPN — 2026-11-06
 
 Aggiunta opzione exclude_restricted, preset Phoenix da tabella NordVPN

@@ -1,0 +1,56 @@
+{
+  "board": "runs/opposite-power-bypass/phy-joint.kicad_pcb",
+  "sha256": "b76dcfcb8ef3b745ddee5997d2b774287cf11614fdd2831b6d5156748aee63fc",
+  "parent_sha256": "b76dcfcb8ef3b745ddee5997d2b774287cf11614fdd2831b6d5156748aee63fc",
+  "layout_only": true,
+  "grid_results": {
+    "LPDDR4_DM1_B": {
+      "starts": 7,
+      "ends": 9,
+      "visited": 287
+    },
+    "LPDDR4_DQ10_B": {
+      "starts": 9,
+      "ends": 9,
+      "visited": 318
+    },
+    "LPDDR4_DQ11_B": {
+      "starts": 5,
+      "ends": 6,
+      "visited": 174
+    },
+    "LPDDR4_DQ13_B": {
+      "starts": 5,
+      "ends": 9,
+      "visited": 150
+    },
+    "LPDDR4_DQ9_B": {
+      "starts": 7,
+      "ends": 9,
+      "visited": 165
+    },
+    "LPDDR4_DQ12_B": {
+      "starts": 6,
+      "ends": 9,
+      "visited": 184
+    },
+    "LPDDR4_DQ15_B": {
+      "starts": 7,
+      "ends": 6,
+      "visited": 10
+    }
+  },
+  "routes": [],
+  "held": [
+    "LPDDR4_DM1_B",
+    "LPDDR4_DQ10_B",
+    "LPDDR4_DQ11_B",
+    "LPDDR4_DQ13_B",
+    "LPDDR4_DQ9_B",
+    "LPDDR4_DQ12_B",
+    "LPDDR4_DQ15_B"
+  ],
+  "impedance_qualified": false,
+  "timing_qualified": false,
+  "assembly_ready": false
+}

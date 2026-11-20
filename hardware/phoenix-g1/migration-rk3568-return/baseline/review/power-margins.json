@@ -1,0 +1,85 @@
+{
+  "status": "DESIGN CALCULATIONS ONLY - no simulation, measurement or release approval",
+  "ddr_limits_v": [
+    1.425,
+    1.575
+  ],
+  "ddr_feedback_reference_v": [
+    0.784,
+    0.8,
+    0.816
+  ],
+  "ddr_proposed_divider": {
+    "r_top_ohm": 105000,
+    "r_bottom_ohm": 120000,
+    "resistor_tolerance": 0.001,
+    "nominal_v": 1.5,
+    "min_v": 1.4686293706293707,
+    "max_v": 1.5314294294294293,
+    "margin_to_ddr_min_v": 0.04362937062937067,
+    "margin_to_ddr_max_v": 0.04357057057057068
+  },
+  "ddr_divider_with_independent_25ppm_drift_60C": {
+    "r_top_ohm": 105000,
+    "r_bottom_ohm": 120000,
+    "resistor_tolerance": 0.0025,
+    "nominal_v": 1.5,
+    "min_v": 1.4665785536159601,
+    "max_v": 1.5335789473684212,
+    "margin_to_ddr_min_v": 0.04157855361596008,
+    "margin_to_ddr_max_v": 0.0414210526315788
+  },
+  "ddr_rockchip_reference_divider": {
+    "r_top_ohm": 110000,
+    "r_bottom_ohm": 120000,
+    "resistor_tolerance": 0.01,
+    "nominal_v": 1.5333333333333332,
+    "min_v": 1.4884356435643566,
+    "max_v": 1.579111111111111,
+    "margin_to_ddr_min_v": 0.0634356435643566,
+    "margin_to_ddr_max_v": -0.004111111111110954
+  },
+  "ddr_notes": [
+    "Source: RK809 Rev2.3 external-divider Vfb3 limits; Hynix Rev1.2 supply limits.",
+    "Selected RT0603BRD07105KL C861072 and RT0603BRD07120KL C705720: 0603,0.1%,25ppm/C. Stock observation saved.",
+    "Separate temperature screen includes independent25ppm/C drift over60C from reference; ripple, transients, aging and PCB IR drop remain excluded.",
+    "Do not treat the typical 17mV transient number in the PMIC datasheet as a guaranteed maximum."
+  ],
+  "cpu_inductor_screen": {
+    "part": "FNR5020SR24NT",
+    "load_assumption_a": 4,
+    "vin_v": 5.5,
+    "vout_v": 1.5,
+    "switching_frequency_hz": 2200000.0,
+    "inductance_min_h": 1.6799999999999997e-07,
+    "ideal_ripple_peak_to_peak_a": 2.95159386068477,
+    "ideal_peak_a": 5.475796930342385,
+    "ideal_rms_a": 4.08974231378979,
+    "copper_loss_w_at_11_milliohm": 0.1839859141252293,
+    "datasheet_current_values_a": {
+      "isat_column_max": 8,
+      "isat_typical": 10,
+      "irms_column_max": 5.3,
+      "irms_typical": 6
+    },
+    "qualification": "Candidate only. NOT a 6A continuous stage qualification. Hot inductance, derating, fault current and closed-case temperature unresolved."
+  },
+  "cpu_capacitance": {
+    "regulator_nominal_uf": 88,
+    "required_soc_nominal_uf": 132,
+    "total_nominal_uf": 220,
+    "vendor_minimum_uf": 135,
+    "required_total_retention_fraction": 0.6136363636363636,
+    "notes": "Effective capacitance must be checked using exact MPN bias/temperature curves; nominal sums do not establish compliance."
+  },
+  "usb_boot_policy": {
+    "mode": "UFP sink only, no PD",
+    "requested_envelope": "5V, Type-C 3A advertisement",
+    "start_condition": "OUT1==0 AND OUT2==0 AND valid supply sequencing",
+    "notes": [
+      "HD3SS3220 Table6-3: OUT1=1 OUT2=0 is default-current, NOT 3A.",
+      "On insufficient current keep main rails disabled; no assumption that every Mac port provides 3A.",
+      "Current gating, eFuse and always-on supply are drafted; physical ramp and brownout validation remain."
+    ]
+  }
+}

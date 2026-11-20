@@ -1,0 +1,117 @@
+{
+  "board": "runs/off-pad-service-R1103.1/phy-joint.kicad_pcb",
+  "sha256": "fd350d8f585629212a4eb7795760483e69ca4661f68ded7040815db524826c96",
+  "records": [
+    {
+      "pair": [
+        "R412.1",
+        "C465.1"
+      ],
+      "net": "+3V3_PMU",
+      "length_mm": 71.47286977942179,
+      "inner": "In3.Cu",
+      "added": [
+        "25f15d73-7f88-4a99-b3fd-4e1d3bf5ee13",
+        "0d4b64af-5bcb-44df-98cd-4e9264573164",
+        "602dc718-432c-49f9-b42f-390ebfb239e5",
+        "42e83e5b-76a5-4296-9d1d-4799ba397dbc",
+        "084f52e9-05fe-4325-9f26-acb753bdc44f",
+        "cab83e28-5912-45e6-ac83-acd9aa085a79",
+        "cd695dc1-3d23-4c55-bac0-6cf8d9cd02ac",
+        "7f795c89-b69e-4ef8-a6a2-66d6eb21528a",
+        "fa45804c-d1a2-4444-9855-21f86eb13404",
+        "b4e5e106-448d-41ad-a36f-7b60bc1de2ad",
+        "1b38664c-2648-4e8c-9fbe-2eed69dbc080",
+        "47cf38be-dec8-4edb-9798-ef209142144e",
+        "86fb3412-df35-4f5c-99b3-08d477506c75"
+      ]
+    },
+    {
+      "pair": [
+        "R413.1",
+        "R412.1"
+      ],
+      "net": "+3V3_PMU",
+      "length_mm": 29.920228567567886,
+      "inner": "In2.Cu",
+      "added": [
+        "72ebdca4-590b-4521-a7c6-aec79ad26c1e",
+        "f2033507-c60d-4940-b083-c11ec279421b",
+        "6b443e9d-0465-4561-82b5-b587e8b232c8",
+        "cb8be46b-fd78-4e5e-9755-a3aa1b3450ab",
+        "2734f7cf-2a33-4d79-944e-0e0bd9df86e9",
+        "6876fe14-17bb-4047-9011-547959810341",
+        "d326efe3-bff9-466c-9bec-ac9b624b9711"
+      ]
+    },
+    {
+      "pair": [
+        "C411.1",
+        "U16.2"
+      ],
+      "net": "RESET_N",
+      "length_mm": 77.93821329569218,
+      "inner": "In2.Cu",
+      "added": [
+        "7b43dc0a-1ece-43c7-94ea-9f799d4193f2",
+        "71e48f1a-a9d3-4cea-a8fe-5619a428123c",
+        "c1f1da41-62d6-4e6d-b2c5-62e78707bab6",
+        "a7dff0d9-c0b9-4be0-9769-b56a9f404657",
+        "68f0c964-384c-4e05-b896-b27f5f35ccfc",
+        "225a210b-9483-4d3d-8077-c33f9a6ea08f",
+        "8eeedf3f-aabe-4c72-90cb-376353e30c69",
+        "230ff556-23b5-4b60-bfba-9591835aed22",
+        "a018bfe1-cd57-41c7-b7cc-b59adff7cbc2",
+        "cc279ce8-4293-4407-ae11-52021ba5cb47",
+        "36ea3d0e-0708-4939-8957-225417674445",
+        "127d1096-d425-4920-af97-b8414b639887",
+        "65c45d78-c9a2-40b7-b354-a678e9473556",
+        "ab85ae68-4acc-4ab6-882a-cfbd4e58ace4",
+        "0b26d37b-4e55-4cac-bdab-d641b6652027",
+        "6de86372-2755-48fe-ade3-d68188d46726",
+        "b8f2bdd3-ad55-440d-b442-a14832e895f3",
+        "a45737f4-109c-4975-a9e6-3fe0a84f9818",
+        "c56dd57d-be50-4ce4-bb6f-4412bd7df8bc",
+        "1401c29f-ebbf-4767-8e4c-93c4a53c7e8d",
+        "f3e3732b-5877-4685-b35d-39b5f20dd12b",
+        "1b315c18-5c6d-47d3-825f-5ec074c88002",
+        "c1f677ff-5749-4618-a8ff-29c60669f588",
+        "e1126bfd-2d8a-4ce6-95d3-7e75829375fe",
+        "214a710d-04f8-4d1d-bb0b-d11e13b1d655",
+        "031dca8a-e1b9-46d8-9263-e5e54bfb6855",
+        "dbf29368-396b-4a7b-a072-ee76f92a2d08",
+        "2c5b2bf9-a9ee-474b-a155-7ce6d51b972c",
+        "a1cfea77-a486-4302-8447-c60aa1804662",
+        "26cb3b34-c180-453b-bef6-dbadf5d585ad"
+      ]
+    },
+    {
+      "pair": [
+        "R1103.1",
+        "C411.1"
+      ],
+      "net": "RESET_N",
+      "length_mm": 25.262563929164013,
+      "inner": "In2.Cu",
+      "added": [
+        "4c47b982-78ff-4200-a1cb-29ebd49d4a06",
+        "7adc29e4-afbf-4a9e-b032-7f5f2707c20a",
+        "01c6439a-ff12-4fea-ae02-909cf3e0cfef",
+        "f1beed15-973a-4de7-b854-13b527d3cfcf",
+        "20bd3eee-4093-4cc8-8448-1c187eaac8d7",
+        "3d7cb39b-c55b-4088-a673-4e62f9de2b3f",
+        "ff065075-d4ec-4ed8-b81c-5ef0e7b4cbdb",
+        "2ed2ac28-5032-435d-ba6c-cbce2be63a7f",
+        "0667c45c-34c6-4061-b1ef-a66234fc2a0f",
+        "b490f2da-ed27-41fa-8f06-aca70432aa61"
+      ]
+    }
+  ],
+  "held": [
+    [
+      "R1507.2",
+      "U16.2"
+    ]
+  ],
+  "assembly_ready": false
+}

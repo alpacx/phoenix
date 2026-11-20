@@ -37,6 +37,7 @@ STAGES = [
     ('ethernet-avdd10-escape', 'route_ethernet_avdd10_escape.py', 'ETHERNET_AVDD10_ESCAPE_CONNECTED'),
     ('ethernet-io-bypass-escape', 'route_ethernet_io_bypass_escape.py', 'ETHERNET_IO_BYPASS_ESCAPE_CONNECTED'),
     ('ethernet-dvdd33-bypass', 'route_ethernet_dvdd33_bypass.py', 'ETHERNET_DVDD33_BYPASS_CONNECTED'),
+    ('parallel-local-copper', 'integrate_parallel_local_copper.py', 'PARALLEL_LOCAL_COPPER_CONNECTED'),
 ]
 EXTRA = [D/'working-candidate.json'] + [D/'pcb'/name for name in (
     'final-audit.json', 'connectivity-inventory.json', 'display-integration-audit.json',
@@ -76,6 +77,7 @@ def main():
                 print(stem+': accepted geometry and continuity',flush=True)
             run('audit_pmic_ldo_inputs.py')
             run('test_pmic_ldo_input_audit.py')
+            run('test_parallel_local_copper.py')
             run('test_phy_clock_power_clearance.py')
             run('audit_display_integration.py')
             run('report_display_routing.py')

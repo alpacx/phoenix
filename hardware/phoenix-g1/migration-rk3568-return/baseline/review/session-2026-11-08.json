@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-08",
+  "completed": [
+    "Display included in base product; main-board support electronics retained.",
+    "98 additional capacitor positions assigned stocked nominal candidates; explicit X7R requests preserved.",
+    "USB-C replaced with Molex2012670005;1.6mm nominal board;24signal contacts and fourPTHslots,noNPTH.",
+    "USB footprint generated and pin/net verification passed; offset annulus screening added.",
+    "Passive enclosure sensitivity calculation and test protocol added.",
+    "JLC06161H-3313 recorded as documented candidate, not impedance-qualified stackup."
+  ],
+  "validation": {
+    "integrated_pin_dispositions": 1933,
+    "integrated_mismatches": 0,
+    "usb_pin_dispositions": 106,
+    "usb_mismatches": 0,
+    "erc_errors": 0,
+    "erc_warnings": 1,
+    "drc_geometric_violations": 0,
+    "ratsnest_edges": 1354,
+    "tracks": 0
+  },
+  "selected_positions": 297,
+  "unselected_positions": 43,
+  "subtotal_usd": 75.5778,
+  "release_ready": false,
+  "remaining": "See release-gate.json and external-evidence-needed.json; independent engineering work remains, not all work is blocked on suppliers."
+}

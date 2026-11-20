@@ -1,0 +1,752 @@
+[
+  {
+    "index": 0,
+    "position": [
+      57.975,
+      19.2
+    ],
+    "source": [
+      56.65,
+      18.25
+    ],
+    "connected": true,
+    "violations": [
+      {
+        "type": "clearance",
+        "severity": "error",
+        "items": [
+          "21d9acf3-23e0-4299-af65-85eea1766491",
+          "5d78cb67-a047-4513-94ea-e9a356554fa0"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "b8513c8e-f9ce-4947-afa2-4bc5816e79ef",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "c567553f-97cf-462a-aea5-6784720db338",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "5d78cb67-a047-4513-94ea-e9a356554fa0",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "courtyards_overlap",
+        "severity": "error",
+        "items": [
+          "7ff3b3a6-e74b-4e69-824e-3888dfe2f74a",
+          "d6ec2fde-f244-4d7f-bd16-4b6caf8736b0"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "b8513c8e-f9ce-4947-afa2-4bc5816e79ef",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "c567553f-97cf-462a-aea5-6784720db338",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "5d78cb67-a047-4513-94ea-e9a356554fa0",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "silk_over_copper",
+        "severity": "warning",
+        "items": [
+          "97b17153-1bcf-4774-bb7a-ac057019dde0",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "silk_over_copper",
+        "severity": "warning",
+        "items": [
+          "acf6c853-2aef-45d1-aff6-e8bb10a0712a",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "position": [
+      57.975,
+      19.45
+    ],
+    "source": [
+      56.85,
+      17.75
+    ],
+    "connected": true,
+    "violations": [
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "21d9acf3-23e0-4299-af65-85eea1766491",
+          "5d78cb67-a047-4513-94ea-e9a356554fa0"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "75299297-ee01-4631-b9cf-983deaca20ed",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "c567553f-97cf-462a-aea5-6784720db338",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "5d78cb67-a047-4513-94ea-e9a356554fa0",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "courtyards_overlap",
+        "severity": "error",
+        "items": [
+          "7ff3b3a6-e74b-4e69-824e-3888dfe2f74a",
+          "d6ec2fde-f244-4d7f-bd16-4b6caf8736b0"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "c567553f-97cf-462a-aea5-6784720db338",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "5d78cb67-a047-4513-94ea-e9a356554fa0",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "75299297-ee01-4631-b9cf-983deaca20ed",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "21d9acf3-23e0-4299-af65-85eea1766491",
+          "5d78cb67-a047-4513-94ea-e9a356554fa0"
+        ],
+        "count": 1
+      },
+      {
+        "type": "silk_over_copper",
+        "severity": "warning",
+        "items": [
+          "acf6c853-2aef-45d1-aff6-e8bb10a0712a",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "silk_over_copper",
+        "severity": "warning",
+        "items": [
+          "4fc93697-aecd-49f4-9dec-90e4e682164d",
+          "c567553f-97cf-462a-aea5-6784720db338"
+        ],
+        "count": 1
+      },
+      {
+        "type": "silk_over_copper",
+        "severity": "warning",
+        "items": [
+          "97b17153-1bcf-4774-bb7a-ac057019dde0",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "position": [
+      58.225,
+      19.2
+    ],
+    "source": [
+      56.6,
+      18.4
+    ],
+    "connected": true,
+    "violations": [
+      {
+        "type": "clearance",
+        "severity": "error",
+        "items": [
+          "5d78cb67-a047-4513-94ea-e9a356554fa0",
+          "793c9ade-297e-4c94-b677-027cae6de43b"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "21d9acf3-23e0-4299-af65-85eea1766491",
+          "5d78cb67-a047-4513-94ea-e9a356554fa0"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "b9a0eee4-faa9-487d-95a8-2a2d654d0b2d",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "c567553f-97cf-462a-aea5-6784720db338",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "5d78cb67-a047-4513-94ea-e9a356554fa0",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "courtyards_overlap",
+        "severity": "error",
+        "items": [
+          "7ff3b3a6-e74b-4e69-824e-3888dfe2f74a",
+          "d6ec2fde-f244-4d7f-bd16-4b6caf8736b0"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "b9a0eee4-faa9-487d-95a8-2a2d654d0b2d",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "c567553f-97cf-462a-aea5-6784720db338",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "5d78cb67-a047-4513-94ea-e9a356554fa0",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "21d9acf3-23e0-4299-af65-85eea1766491",
+          "5d78cb67-a047-4513-94ea-e9a356554fa0"
+        ],
+        "count": 1
+      },
+      {
+        "type": "silk_over_copper",
+        "severity": "warning",
+        "items": [
+          "acf6c853-2aef-45d1-aff6-e8bb10a0712a",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "silk_over_copper",
+        "severity": "warning",
+        "items": [
+          "97b17153-1bcf-4774-bb7a-ac057019dde0",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "position": [
+      58.225,
+      19.45
+    ],
+    "source": [
+      56.7,
+      18.15
+    ],
+    "connected": true,
+    "violations": [
+      {
+        "type": "clearance",
+        "severity": "error",
+        "items": [
+          "5d78cb67-a047-4513-94ea-e9a356554fa0",
+          "793c9ade-297e-4c94-b677-027cae6de43b"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "21d9acf3-23e0-4299-af65-85eea1766491",
+          "5d78cb67-a047-4513-94ea-e9a356554fa0"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "3fba6fb4-7479-427e-8a9e-c67fc87ec668",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "c567553f-97cf-462a-aea5-6784720db338",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "5d78cb67-a047-4513-94ea-e9a356554fa0",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "courtyards_overlap",
+        "severity": "error",
+        "items": [
+          "7ff3b3a6-e74b-4e69-824e-3888dfe2f74a",
+          "d6ec2fde-f244-4d7f-bd16-4b6caf8736b0"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "21d9acf3-23e0-4299-af65-85eea1766491",
+          "5d78cb67-a047-4513-94ea-e9a356554fa0"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "c567553f-97cf-462a-aea5-6784720db338",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "5d78cb67-a047-4513-94ea-e9a356554fa0",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "3fba6fb4-7479-427e-8a9e-c67fc87ec668",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "silk_over_copper",
+        "severity": "warning",
+        "items": [
+          "acf6c853-2aef-45d1-aff6-e8bb10a0712a",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "silk_over_copper",
+        "severity": "warning",
+        "items": [
+          "97b17153-1bcf-4774-bb7a-ac057019dde0",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "position": [
+      58.225,
+      19.7
+    ],
+    "source": [
+      56.8,
+      17.95
+    ],
+    "connected": true,
+    "violations": [
+      {
+        "type": "clearance",
+        "severity": "error",
+        "items": [
+          "5d78cb67-a047-4513-94ea-e9a356554fa0",
+          "793c9ade-297e-4c94-b677-027cae6de43b"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "21d9acf3-23e0-4299-af65-85eea1766491",
+          "5d78cb67-a047-4513-94ea-e9a356554fa0"
+        ],
+        "count": 1
+      },
+      {
+        "type": "clearance",
+        "severity": "error",
+        "items": [
+          "719b7574-78a2-4bde-8b99-089f91db55e0",
+          "d74fdd00-333c-40c6-8905-37ab391ff2a4"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "d74fdd00-333c-40c6-8905-37ab391ff2a4",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "c567553f-97cf-462a-aea5-6784720db338",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "5d78cb67-a047-4513-94ea-e9a356554fa0",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "courtyards_overlap",
+        "severity": "error",
+        "items": [
+          "7ff3b3a6-e74b-4e69-824e-3888dfe2f74a",
+          "d6ec2fde-f244-4d7f-bd16-4b6caf8736b0"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "d74fdd00-333c-40c6-8905-37ab391ff2a4",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "c567553f-97cf-462a-aea5-6784720db338",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "5d78cb67-a047-4513-94ea-e9a356554fa0",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "21d9acf3-23e0-4299-af65-85eea1766491",
+          "5d78cb67-a047-4513-94ea-e9a356554fa0"
+        ],
+        "count": 1
+      },
+      {
+        "type": "silk_over_copper",
+        "severity": "warning",
+        "items": [
+          "acf6c853-2aef-45d1-aff6-e8bb10a0712a",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "silk_over_copper",
+        "severity": "warning",
+        "items": [
+          "97b17153-1bcf-4774-bb7a-ac057019dde0",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "position": [
+      58.225,
+      19.95
+    ],
+    "source": [
+      56.95,
+      17.6
+    ],
+    "connected": true,
+    "violations": [
+      {
+        "type": "clearance",
+        "severity": "error",
+        "items": [
+          "5d78cb67-a047-4513-94ea-e9a356554fa0",
+          "719b7574-78a2-4bde-8b99-089f91db55e0"
+        ],
+        "count": 1
+      },
+      {
+        "type": "clearance",
+        "severity": "error",
+        "items": [
+          "5d78cb67-a047-4513-94ea-e9a356554fa0",
+          "793c9ade-297e-4c94-b677-027cae6de43b"
+        ],
+        "count": 1
+      },
+      {
+        "type": "clearance",
+        "severity": "error",
+        "items": [
+          "a24a1a53-e2ce-48f6-bf4e-7af30e6eb321",
+          "c567553f-97cf-462a-aea5-6784720db338"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "21d9acf3-23e0-4299-af65-85eea1766491",
+          "5d78cb67-a047-4513-94ea-e9a356554fa0"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "111c3c21-9c1d-4f63-bad7-17e1a988f1f3",
+          "21d9acf3-23e0-4299-af65-85eea1766491"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "c567553f-97cf-462a-aea5-6784720db338",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "5d78cb67-a047-4513-94ea-e9a356554fa0",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "courtyards_overlap",
+        "severity": "error",
+        "items": [
+          "7ff3b3a6-e74b-4e69-824e-3888dfe2f74a",
+          "d6ec2fde-f244-4d7f-bd16-4b6caf8736b0"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "c567553f-97cf-462a-aea5-6784720db338",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "5d78cb67-a047-4513-94ea-e9a356554fa0",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "21d9acf3-23e0-4299-af65-85eea1766491",
+          "5d78cb67-a047-4513-94ea-e9a356554fa0"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "719b7574-78a2-4bde-8b99-089f91db55e0",
+          "c567553f-97cf-462a-aea5-6784720db338"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "111c3c21-9c1d-4f63-bad7-17e1a988f1f3",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "silk_over_copper",
+        "severity": "warning",
+        "items": [
+          "acf6c853-2aef-45d1-aff6-e8bb10a0712a",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      },
+      {
+        "type": "silk_over_copper",
+        "severity": "warning",
+        "items": [
+          "97b17153-1bcf-4774-bb7a-ac057019dde0",
+          "f86a2e02-6a3f-4857-85ec-9b09da9a9256"
+        ],
+        "count": 1
+      }
+    ]
+  }
+]
