@@ -1,0 +1,51 @@
+{
+  "parent_sha256": "c0fe9a19e8153abf3c63e5ad557b7638359520b07b62aff10ee21cce7be0a4ea",
+  "sites": 4,
+  "barriers": [
+    {
+      "copper": [
+        "VIN route"
+      ],
+      "count": 12
+    },
+    {
+      "copper": [
+        "f80f7854-fc66-42cb-be54-0c9d180283a4 VCCIO_ACODEC"
+      ],
+      "count": 8
+    },
+    {
+      "copper": [
+        "e72df3a4-0dfc-4f45-9347-9ec881e40873 +1V1_LPDDR4",
+        "f80f7854-fc66-42cb-be54-0c9d180283a4 VCCIO_ACODEC"
+      ],
+      "count": 3
+    },
+    {
+      "copper": [
+        "2c4d51fa-9b10-4597-8be8-2b22c4f0b14a VDD_CPU"
+      ],
+      "count": 2
+    },
+    {
+      "copper": [
+        "2c4d51fa-9b10-4597-8be8-2b22c4f0b14a VDD_CPU",
+        "VIN route"
+      ],
+      "count": 1
+    },
+    {
+      "copper": [
+        "VIN route",
+        "e72df3a4-0dfc-4f45-9347-9ec881e40873 +1V1_LPDDR4"
+      ],
+      "count": 1
+    },
+    {
+      "copper": [
+        "e72df3a4-0dfc-4f45-9347-9ec881e40873 +1V1_LPDDR4"
+      ],
+      "count": 1
+    }
+  ]
+}

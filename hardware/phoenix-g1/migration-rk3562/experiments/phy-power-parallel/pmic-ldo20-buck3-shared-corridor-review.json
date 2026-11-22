@@ -1,0 +1,26 @@
+{
+  "adopted_board_sha256": "02a1533baeddff4eacdbcbc8b6e6ea209aa1dd280f7ff08d73bccf7d0e228c8d",
+  "hardware_source": "hardware/phoenix-g1/reference/RK809-5-C2939628.pdf",
+  "package_pins": {
+    "U4.20": "VDDA0V9_PMU output",
+    "U4.22": "VCC5 input for LDO1, LDO2 and LDO3",
+    "U4.24": "VCC3 input for BUCK3"
+  },
+  "manufacturer_buck3_max_output_A": 1.5,
+  "dc_limit_note": "Output rating alone does not determine VIN pulse current or shared capacitor ripple. Load, switching duty cycle, copper stackup and transient loop impedance still need qualification.",
+  "adopted_capacitor": "C423, 22 uF nominal",
+  "coupon": "runs/pmic-u4-20-vin-priority/phy-joint.kicad_pcb",
+  "accepted": false,
+  "coupon_findings": {
+    "c423_to_vin_width_mm": 0.5,
+    "positive_via_delta_mm": 0.175,
+    "ground_via_delta_xy_mm": [
+      -0.2,
+      -0.15
+    ],
+    "input_common_bridge_width_mm": 0.5,
+    "partial_output_prelaunch_mm": 0.67485,
+    "complete_analog_cap_poses": 0,
+    "reason": "Even after restoring a 0.50 mm VIN branch, U4.20 has no complete local bypass in the 1,133 mechanically separated C462 poses after copper clearance screening."
+  }
+}

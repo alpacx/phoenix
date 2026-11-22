@@ -1,0 +1,35 @@
+{
+  "sha256": "5c9cd836f3e979e6dc0b9cfccdf73d288299d4156c0554ac32f8570c3a77f487",
+  "parent_sha256": "c0fe9a19e8153abf3c63e5ad557b7638359520b07b62aff10ee21cce7be0a4ea",
+  "nearest_soc_ball_mm_before_after": [
+    11.15044842147615,
+    9.908834442052203
+  ],
+  "return_foil_squares_before_after": [
+    7.803574311003805,
+    3.1729481558953965
+  ],
+  "return_to_plane_mm_before_after": [
+    3.301787155501902,
+    1.5864740779476982
+  ],
+  "existing_ground_via_drill_mm": 0.2,
+  "new_tracks": {
+    "GND": {
+      "length_mm": 1.5864740779476982,
+      "width_mm": 0.5,
+      "missing_ground_samples": 0,
+      "samples": 195
+    },
+    "VDD_GPU": {
+      "length_mm": 1.7201021953651474,
+      "width_mm": 0.8,
+      "missing_ground_samples": 0,
+      "samples": 210
+    }
+  },
+  "verified_pairs": 762,
+  "joins": 402,
+  "native_drc_introduced": [],
+  "mechanical": []
+}

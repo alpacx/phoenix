@@ -1,0 +1,146 @@
+{
+  "parent_sha256": "adb43a51675db12b0ebb2ea4d56fd5c6eae4457ccb6781e1da87468a007c2191",
+  "evaluated": 10034,
+  "free_poses": 0,
+  "best_free": [],
+  "courtyard_only_free": 350,
+  "near_clear": [
+    {
+      "center_nm": [
+        48000000,
+        32000000
+      ],
+      "angle": 135,
+      "leads_mm": [
+        6.886447595959256,
+        4.670436863066773
+      ],
+      "nets": [
+        "+3V58_WIFI",
+        "drilled hole"
+      ]
+    },
+    {
+      "center_nm": [
+        48000000,
+        32000000
+      ],
+      "angle": 315,
+      "leads_mm": [
+        4.176342717245915,
+        7.385933826666267
+      ],
+      "nets": [
+        "+3V58_WIFI",
+        "drilled hole"
+      ]
+    },
+    {
+      "center_nm": [
+        50250000,
+        33750000
+      ],
+      "angle": 225,
+      "leads_mm": [
+        7.734354271165305,
+        7.935460918679708
+      ],
+      "nets": [
+        "WIFI_VBAT_PG",
+        "drilled hole"
+      ]
+    },
+    {
+      "center_nm": [
+        51000000,
+        31500000
+      ],
+      "angle": 225,
+      "leads_mm": [
+        6.189428042387519,
+        5.786428647438159
+      ],
+      "nets": [
+        "+3V58_WIFI",
+        "+5V_MAIN",
+        "drilled hole"
+      ]
+    },
+    {
+      "center_nm": [
+        50750000,
+        31750000
+      ],
+      "angle": 225,
+      "leads_mm": [
+        6.237483626583159,
+        5.990456910110697
+      ],
+      "nets": [
+        "+3V58_WIFI",
+        "+5V_MAIN",
+        "drilled hole"
+      ]
+    },
+    {
+      "center_nm": [
+        50500000,
+        32000000
+      ],
+      "angle": 225,
+      "leads_mm": [
+        6.305028508412392,
+        6.2079297267199305
+      ],
+      "nets": [
+        "+3V58_WIFI",
+        "+5V_MAIN",
+        "drilled hole"
+      ]
+    },
+    {
+      "center_nm": [
+        51000000,
+        31500000
+      ],
+      "angle": 45,
+      "leads_mm": [
+        5.296789545743062,
+        6.586519755674692
+      ],
+      "nets": [
+        "+3V58_WIFI",
+        "+5V_MAIN",
+        "drilled hole"
+      ]
+    },
+    {
+      "center_nm": [
+        50750000,
+        31750000
+      ],
+      "angle": 45,
+      "leads_mm": [
+        5.496252995622836,
+        6.650520655700047
+      ],
+      "nets": [
+        "+3V58_WIFI",
+        "+5V_MAIN",
+        "drilled hole"
+      ]
+    }
+  ],
+  "single_courtyard_blockers": {
+    "TP3": 49,
+    "C1607": 12,
+    "C1682": 220,
+    "C2004": 78,
+    "R1602": 2
+  },
+  "assembly_ready": false,
+  "existing_lead_lower_bounds_mm": [
+    16.285576440519385,
+    13.799275343292488
+  ]
+}

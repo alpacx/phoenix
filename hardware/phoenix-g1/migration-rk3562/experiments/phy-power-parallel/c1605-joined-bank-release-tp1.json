@@ -1,0 +1,221 @@
+{
+  "parent_sha256": "769c8e3c571806eb105988fb5bfdc0e6db35aafb2cbcae9a142010860695f393",
+  "rail_anchor_count": 59,
+  "stats": {
+    "closer_to_load": 13520,
+    "legal_courtyard": 262
+  },
+  "candidates": [],
+  "barriers": [
+    {
+      "items": [
+        [
+          "27238094-6fc8-43c3-b78d-0bb199f326c7",
+          "+3V3_PMU",
+          "PCB_TRACK",
+          ""
+        ]
+      ],
+      "poses": 13,
+      "example": [
+        [
+          40800000,
+          27200000
+        ],
+        0
+      ]
+    },
+    {
+      "items": [
+        [
+          "27238094-6fc8-43c3-b78d-0bb199f326c7",
+          "+3V3_PMU",
+          "PCB_TRACK",
+          ""
+        ],
+        [
+          "d89016e0-cd28-4cad-a0b3-49e43ce20b9a",
+          "WIFI_HOST_WAKE",
+          "PCB_VIA",
+          ""
+        ]
+      ],
+      "poses": 20,
+      "example": [
+        [
+          40800000,
+          27400000
+        ],
+        0
+      ]
+    },
+    {
+      "items": [
+        [
+          "27238094-6fc8-43c3-b78d-0bb199f326c7",
+          "+3V3_PMU",
+          "PCB_TRACK",
+          ""
+        ],
+        [
+          "7340d82d-0837-4241-9762-26f862f03c6f",
+          "EXP_I2C_SDA",
+          "PCB_VIA",
+          ""
+        ]
+      ],
+      "poses": 4,
+      "example": [
+        [
+          41200000,
+          27800000
+        ],
+        0
+      ]
+    },
+    {
+      "items": [
+        [
+          "1e7042c6-b018-4a05-93c6-0f689472014e",
+          "EXP_SPI_CLK",
+          "PCB_VIA",
+          ""
+        ],
+        [
+          "27238094-6fc8-43c3-b78d-0bb199f326c7",
+          "+3V3_PMU",
+          "PCB_TRACK",
+          ""
+        ]
+      ],
+      "poses": 1,
+      "example": [
+        [
+          41400000,
+          27200000
+        ],
+        0
+      ]
+    },
+    {
+      "items": [
+        [
+          "27238094-6fc8-43c3-b78d-0bb199f326c7",
+          "+3V3_PMU",
+          "PCB_TRACK",
+          ""
+        ],
+        [
+          "7340d82d-0837-4241-9762-26f862f03c6f",
+          "EXP_I2C_SDA",
+          "PCB_VIA",
+          ""
+        ],
+        [
+          "d89016e0-cd28-4cad-a0b3-49e43ce20b9a",
+          "WIFI_HOST_WAKE",
+          "PCB_VIA",
+          ""
+        ]
+      ],
+      "poses": 34,
+      "example": [
+        [
+          40400000,
+          28400000
+        ],
+        0
+      ]
+    },
+    {
+      "items": [
+        [
+          "27238094-6fc8-43c3-b78d-0bb199f326c7",
+          "+3V3_PMU",
+          "PCB_TRACK",
+          ""
+        ],
+        [
+          "5fcb3a66-93ee-4b82-9cc9-383d880fef08",
+          "+1V1_LPDDR4",
+          "PCB_VIA",
+          ""
+        ],
+        [
+          "d89016e0-cd28-4cad-a0b3-49e43ce20b9a",
+          "WIFI_HOST_WAKE",
+          "PCB_VIA",
+          ""
+        ]
+      ],
+      "poses": 14,
+      "example": [
+        [
+          40000000,
+          27200000
+        ],
+        0
+      ]
+    },
+    {
+      "items": [
+        [
+          "27238094-6fc8-43c3-b78d-0bb199f326c7",
+          "+3V3_PMU",
+          "PCB_TRACK",
+          ""
+        ],
+        [
+          "b2814055-1dbf-4b51-8bfe-676ad94cdea9",
+          "GND",
+          "PCB_TRACK",
+          ""
+        ],
+        [
+          "e5fb3420-b7eb-42e3-83c9-0db0633e3190",
+          "GND",
+          "PCB_VIA",
+          ""
+        ]
+      ],
+      "poses": 6,
+      "example": [
+        [
+          42000000,
+          25600000
+        ],
+        90
+      ]
+    },
+    {
+      "items": [
+        [
+          "1e7042c6-b018-4a05-93c6-0f689472014e",
+          "EXP_SPI_CLK",
+          "PCB_VIA",
+          ""
+        ],
+        [
+          "27238094-6fc8-43c3-b78d-0bb199f326c7",
+          "+3V3_PMU",
+          "PCB_TRACK",
+          ""
+        ],
+        [
+          "d89016e0-cd28-4cad-a0b3-49e43ce20b9a",
+          "WIFI_HOST_WAKE",
+          "PCB_VIA",
+          ""
+        ]
+      ],
+      "poses": 3,
+      "example": [
+        [
+          41400000,
+          27400000
+        ],
+        0
+      ]
+    }
+  ]
+}

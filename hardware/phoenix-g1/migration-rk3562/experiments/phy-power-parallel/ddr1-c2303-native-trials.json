@@ -1,0 +1,120 @@
+{
+  "parent_sha256": "5c9cd836f3e979e6dc0b9cfccdf73d288299d4156c0554ac32f8570c3a77f487",
+  "trials": [
+    {
+      "opt": [
+        709492.5670375279,
+        [
+          29600000,
+          7800000
+        ],
+        180,
+        [
+          [
+            30080000,
+            7800000
+          ],
+          [
+            30100000,
+            7800000
+          ]
+        ],
+        [
+          [
+            29120000,
+            7800000
+          ],
+          [
+            29350000,
+            7150000
+          ]
+        ]
+      ],
+      "removed": [
+        "86ec9702-7f91-4f3b-ae99-083de98cadf1"
+      ],
+      "new": [
+        {
+          "type": "silk_overlap",
+          "severity": "warning",
+          "items": [
+            "0439283b-60bd-4c1f-8dc1-90b058eb40d7",
+            "d20742d3-7ac0-403b-be7b-fed9b521beef"
+          ],
+          "count": 1
+        },
+        {
+          "type": "silk_overlap",
+          "severity": "warning",
+          "items": [
+            "6369c113-9afe-4b13-866a-24aaed45a27f",
+            "d20742d3-7ac0-403b-be7b-fed9b521beef"
+          ],
+          "count": 1
+        },
+        {
+          "type": "silk_over_copper",
+          "severity": "warning",
+          "items": [
+            "d20742d3-7ac0-403b-be7b-fed9b521beef",
+            "e325d7f2-4073-4e99-97c6-f09fb5b518dd"
+          ],
+          "count": 1
+        },
+        {
+          "type": "silk_over_copper",
+          "severity": "warning",
+          "items": [
+            "7fea6ec6-74f0-4e21-a6df-227bd26dc46b",
+            "d20742d3-7ac0-403b-be7b-fed9b521beef"
+          ],
+          "count": 1
+        }
+      ],
+      "joins": 401,
+      "nearest_ball_mm_before_after": [
+        2.9674273369368285,
+        2.3527908959361437
+      ]
+    },
+    {
+      "opt": [
+        774961.9031641429,
+        [
+          25600000,
+          3400000
+        ],
+        180,
+        [
+          [
+            26080000,
+            3400000
+          ],
+          [
+            26100000,
+            3450000
+          ]
+        ],
+        [
+          [
+            25120000,
+            3400000
+          ],
+          [
+            24520000,
+            3800000
+          ]
+        ]
+      ],
+      "removed": [
+        "86ec9702-7f91-4f3b-ae99-083de98cadf1"
+      ],
+      "new": [],
+      "joins": 401,
+      "nearest_ball_mm_before_after": [
+        2.9674273369368285,
+        2.025
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "parent_sha256": "6a0f0929d81987b8cc76b0a4a6a9de1976bb4d287431b3d565621cb45d960492",
+  "source": "U1.AB2",
+  "destination": "R504.1",
+  "grid_mm": 0.05,
+  "reachable_states": 400,
+  "outgoing_edges": 404,
+  "length_limited_edges": 0,
+  "other_edges": 0,
+  "obstacle_edge_contacts": {
+    "031dca8a-e1b9-46d8-9263-e5e54bfb6855 RESET_N": 110,
+    "U1.AC1 ETH_MDC": 79,
+    "791a0cbf-29fe-4bbd-9973-56ceabc5ddb1 ETH_TXD0": 45,
+    "U1.AD1 ": 37,
+    "U1.AE1 ": 37,
+    "R501.1 ETH_TXD0": 28,
+    "U1.AA1 ETH_TXD0": 26,
+    "U1.AA2 ETH_TXD1": 23,
+    "U1.AC2 ETH_MDIO": 23,
+    "dbf29368-396b-4a7b-a072-ee76f92a2d08 RESET_N": 14,
+    "U1.AB3 ETH_TXD2": 9,
+    "214a710d-04f8-4d1d-bb0b-d11e13b1d655 RESET_N": 8,
+    "U1.AF1 ": 5
+  }
+}

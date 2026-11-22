@@ -1,0 +1,32 @@
+{
+  "parent_sha256": "adb43a51675db12b0ebb2ea4d56fd5c6eae4457ccb6781e1da87468a007c2191",
+  "candidate_sha256": "5a2df3d6739a7aa86399d2ee2837fd714f3d8037d4f7b6b53e8eec645653e350",
+  "nearest_soc_io_ball_mm_before_after": [
+    6.9731628404906765,
+    5.793530875036397
+  ],
+  "ground_contact_nm": [
+    54000000,
+    21800000
+  ],
+  "tracks": [
+    {
+      "net": "GND",
+      "width_mm": 0.5,
+      "length_mm": 0.72,
+      "ground_missing": 0,
+      "ground_samples": 90
+    },
+    {
+      "net": "+3V3_IO",
+      "width_mm": 0.5,
+      "length_mm": 0.52,
+      "ground_missing": 51,
+      "ground_samples": 66
+    }
+  ],
+  "joins": 400,
+  "verified_pairs": 766,
+  "mechanical": [],
+  "new_drc": []
+}

@@ -12,7 +12,7 @@ import pcbnew
 experiments = Path(__file__).resolve().parents[1] / "migration-rk3562/experiments"
 stage = experiments / "phy-power-parallel"
 seed = experiments / "emmc-system/system/kicad/integrated"
-checkpoint = stage / "layout-rgmii-short-source-clock.json"
+checkpoint = stage / "layout-pmic-image-c468.json"
 board_info = json.loads(checkpoint.read_text())
 board_path = stage / board_info["board"]
 assert hashlib.sha256(board_path.read_bytes()).hexdigest() == board_info["sha256"]

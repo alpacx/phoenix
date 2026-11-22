@@ -1,0 +1,172 @@
+{
+  "parent_sha256": "c0fe9a19e8153abf3c63e5ad557b7638359520b07b62aff10ee21cce7be0a4ea",
+  "screen": {
+    "Y2002": {
+      "courtyards": 3514,
+      "within_budget": 2780
+    },
+    "R2004": {
+      "courtyards": 7334,
+      "within_budget": 6089,
+      "all_lands": 77
+    }
+  },
+  "individual": [
+    0,
+    0
+  ],
+  "candidates": [],
+  "barriers": [
+    {
+      "nets": [
+        "ETH_MDI0_N"
+      ],
+      "interference": [
+        [
+          "ETH_MDI0_N",
+          "J2.P3"
+        ]
+      ],
+      "length_mm": 1.5307698226709332,
+      "angle": 90,
+      "xy_nm": [
+        69787500,
+        22800000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI2_P"
+      ],
+      "interference": [
+        [
+          "ETH_MDI2_P",
+          "J2.P5"
+        ]
+      ],
+      "length_mm": 2.3178128159970126,
+      "angle": 90,
+      "xy_nm": [
+        69587500,
+        21000000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI1_P"
+      ],
+      "interference": [
+        [
+          "ETH_MDI1_P",
+          "J2.P4"
+        ]
+      ],
+      "length_mm": 3.759422329294755,
+      "angle": 90,
+      "xy_nm": [
+        71787500,
+        21600000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI1_N"
+      ],
+      "interference": [
+        [
+          "ETH_MDI1_N",
+          "J2.P7"
+        ]
+      ],
+      "length_mm": 4.752184366162576,
+      "angle": 90,
+      "xy_nm": [
+        69787500,
+        18400000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI2_N"
+      ],
+      "interference": [
+        [
+          "ETH_MDI2_N",
+          "J2.P6"
+        ]
+      ],
+      "length_mm": 4.8304509365068595,
+      "angle": 90,
+      "xy_nm": [
+        71787500,
+        19600000
+      ]
+    },
+    {
+      "nets": [
+        "+3V3_IO",
+        "ETH_MDI0_N"
+      ],
+      "interference": [
+        [
+          "+3V3_IO",
+          "b6220e62-e03f-42a0-a5a0-188e2ee5faa8"
+        ],
+        [
+          "ETH_MDI0_N",
+          "J2.P3"
+        ]
+      ],
+      "length_mm": 1.5307698226709332,
+      "angle": 90,
+      "xy_nm": [
+        69787500,
+        23000000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI0_N",
+        "ETH_MDI2_P"
+      ],
+      "interference": [
+        [
+          "ETH_MDI0_N",
+          "J2.P3"
+        ],
+        [
+          "ETH_MDI2_P",
+          "J2.P5"
+        ]
+      ],
+      "length_mm": 1.5566811651715966,
+      "angle": 90,
+      "xy_nm": [
+        69787500,
+        22600000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI0_N",
+        "ETH_MDI1_P"
+      ],
+      "interference": [
+        [
+          "ETH_MDI0_N",
+          "J2.P3"
+        ],
+        [
+          "ETH_MDI1_P",
+          "J2.P4"
+        ]
+      ],
+      "length_mm": 2.3296472372443002,
+      "angle": 90,
+      "xy_nm": [
+        70587500,
+        22800000
+      ]
+    }
+  ]
+}

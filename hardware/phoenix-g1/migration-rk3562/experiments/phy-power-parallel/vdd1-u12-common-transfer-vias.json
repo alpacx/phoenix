@@ -1,0 +1,60 @@
+{
+  "parent_sha256": "adb43a51675db12b0ebb2ea4d56fd5c6eae4457ccb6781e1da87468a007c2191",
+  "shared_xy": 2229,
+  "qualified": 0,
+  "paths": [],
+  "least_blocked": [
+    {
+      "blockers": [
+        "1a25f5cb-11a0-4563-9238-c0041a36a740 LPDDR4_A4_B",
+        "1aea466d-77f2-4c70-8e0f-35c697c982ce +1V1_LPDDR4",
+        "21c5ea38-de79-44d2-8562-2da60af36eda +1V1_LPDDR4",
+        "ad229f2b-252a-472f-bdbc-ce7678aa57ae LPDDR4_A4_B"
+      ],
+      "sites": 18,
+      "example": [
+        34100000,
+        11300000
+      ]
+    },
+    {
+      "blockers": [
+        "1aea466d-77f2-4c70-8e0f-35c697c982ce +1V1_LPDDR4",
+        "21c5ea38-de79-44d2-8562-2da60af36eda +1V1_LPDDR4",
+        "32f44795-8785-4430-832a-04849fee7425 GND",
+        "4e955c5b-69f9-4634-b3ca-89a504890707 "
+      ],
+      "sites": 9,
+      "example": [
+        34350000,
+        11750000
+      ]
+    },
+    {
+      "blockers": [
+        "2f98a5f1-4b5c-4dcd-b852-e491bd8831d0 ",
+        "6ce51681-04ca-489b-8471-dfa600e43d94 GND",
+        "7a079851-0e84-41f9-ba27-7ca2b8dc41e3 GND",
+        "9fece2fa-9f5e-4751-a9fb-5fd3df3bd48d "
+      ],
+      "sites": 5,
+      "example": [
+        35950000,
+        10150000
+      ]
+    },
+    {
+      "blockers": [
+        "035dd3ad-e244-401c-b6de-57e8944bd810 +1V1_LPDDR4",
+        "091bf930-d334-40b4-8f6c-547be9865bc8 +1V1_LPDDR4",
+        "90703629-2e59-4f62-b5f1-86b4851c6b87 +1V1_LPDDR4",
+        "a83f1f8d-77e9-4cf1-a502-5abb2a7b4aeb "
+      ],
+      "sites": 5,
+      "example": [
+        34300000,
+        8300000
+      ]
+    }
+  ]
+}

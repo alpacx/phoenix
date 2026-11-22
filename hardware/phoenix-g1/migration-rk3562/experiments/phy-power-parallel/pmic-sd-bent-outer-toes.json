@@ -1,0 +1,281 @@
+{
+  "parent_sha256": "c0fe9a19e8153abf3c63e5ad557b7638359520b07b62aff10ee21cce7be0a4ea",
+  "rows": [
+    {
+      "pin": "28",
+      "net": "VCCIO_ACODEC",
+      "direction": [
+        0,
+        1
+      ],
+      "width_mm": 0.2,
+      "overlap_allowance_mm": 0.075,
+      "launch_length_mm": 0.3,
+      "open_starts": 7,
+      "examples": [
+        [
+          [
+            60700000,
+            12850000
+          ],
+          [
+            60550000,
+            13150000
+          ]
+        ],
+        [
+          [
+            60700000,
+            12850000
+          ],
+          [
+            60600000,
+            13150000
+          ]
+        ],
+        [
+          [
+            60700000,
+            12850000
+          ],
+          [
+            60650000,
+            13150000
+          ]
+        ]
+      ],
+      "nearest": [
+        [
+          [
+            [
+              "6a7f8482-eaaf-4529-b040-61c7eb762e02",
+              "U4.27"
+            ]
+          ],
+          1504
+        ],
+        [
+          [
+            [
+              "cde326b3-9a9f-4b77-8f0f-b7fd6e172e8a",
+              "U4.29"
+            ]
+          ],
+          1276
+        ],
+        [
+          [
+            [
+              "6a7f8482-eaaf-4529-b040-61c7eb762e02",
+              "U4.27"
+            ],
+            [
+              "cde326b3-9a9f-4b77-8f0f-b7fd6e172e8a",
+              "U4.29"
+            ]
+          ],
+          1033
+        ],
+        [
+          [
+            [
+              "51fcd7f0-55d1-4a19-80e5-c6edf61d6813",
+              "+3V3_SYS"
+            ],
+            [
+              "cde326b3-9a9f-4b77-8f0f-b7fd6e172e8a",
+              "U4.29"
+            ]
+          ],
+          57
+        ]
+      ]
+    },
+    {
+      "pin": "29",
+      "net": "VCCIO_SD",
+      "direction": [
+        0,
+        1
+      ],
+      "width_mm": 0.2,
+      "overlap_allowance_mm": 0.075,
+      "launch_length_mm": 0.3,
+      "open_starts": 0,
+      "examples": [],
+      "nearest": [
+        [
+          [
+            [
+              "23c4d56f-13c9-4cfb-aa0b-857b5cc3d4c2",
+              "U4.28"
+            ],
+            [
+              "33992f54-206a-4945-8c5f-0207f9a4647d",
+              "VCCIO_ACODEC"
+            ],
+            [
+              "65232a07-4bae-4719-952e-5d1e325509c2",
+              "VCCIO_ACODEC"
+            ]
+          ],
+          20
+        ],
+        [
+          [
+            [
+              "076dd4f1-e9a6-46d5-997c-079088d062f5",
+              "+3V3_SYS"
+            ],
+            [
+              "51fcd7f0-55d1-4a19-80e5-c6edf61d6813",
+              "+3V3_SYS"
+            ],
+            [
+              "d68a2f58-6566-408a-b6d4-473b287a41b7",
+              "U4.30"
+            ],
+            [
+              "fc0ed385-b7cd-48d0-b72d-f220f2d4aa9b",
+              "+3V3_SYS"
+            ]
+          ],
+          734
+        ],
+        [
+          [
+            [
+              "23c4d56f-13c9-4cfb-aa0b-857b5cc3d4c2",
+              "U4.28"
+            ],
+            [
+              "33992f54-206a-4945-8c5f-0207f9a4647d",
+              "VCCIO_ACODEC"
+            ],
+            [
+              "65232a07-4bae-4719-952e-5d1e325509c2",
+              "VCCIO_ACODEC"
+            ],
+            [
+              "fc0ed385-b7cd-48d0-b72d-f220f2d4aa9b",
+              "+3V3_SYS"
+            ]
+          ],
+          26
+        ],
+        [
+          [
+            [
+              "23c4d56f-13c9-4cfb-aa0b-857b5cc3d4c2",
+              "U4.28"
+            ],
+            [
+              "33992f54-206a-4945-8c5f-0207f9a4647d",
+              "VCCIO_ACODEC"
+            ],
+            [
+              "65232a07-4bae-4719-952e-5d1e325509c2",
+              "VCCIO_ACODEC"
+            ],
+            [
+              "f3fb31e9-f3be-4a00-a2ec-23428c073829",
+              "VCCIO_ACODEC"
+            ]
+          ],
+          16
+        ]
+      ]
+    },
+    {
+      "pin": "58",
+      "net": "+3V3_SD",
+      "direction": [
+        0,
+        -1
+      ],
+      "width_mm": 0.2,
+      "overlap_allowance_mm": 0.075,
+      "launch_length_mm": 0.3,
+      "open_starts": 0,
+      "examples": [],
+      "nearest": [
+        [
+          [
+            [
+              "89ceeecb-dc90-44e4-ba31-5d1da5d6ea8f",
+              "+3V3_SYS"
+            ],
+            [
+              "9270cda8-a557-4230-8e33-e32511e98541",
+              "U4.57"
+            ],
+            [
+              "f655ffa2-ab07-4df1-a667-870b9639e245",
+              "+3V3_SYS"
+            ]
+          ],
+          1030
+        ],
+        [
+          [
+            [
+              "89ceeecb-dc90-44e4-ba31-5d1da5d6ea8f",
+              "+3V3_SYS"
+            ],
+            [
+              "f471463a-c503-4823-bfc7-b10afe2fe842",
+              "+1V8_SYS"
+            ],
+            [
+              "f655ffa2-ab07-4df1-a667-870b9639e245",
+              "+3V3_SYS"
+            ]
+          ],
+          3
+        ],
+        [
+          [
+            [
+              "6cd2d4ef-add3-4dd5-ad8b-785f3adefabc",
+              "U4.59"
+            ],
+            [
+              "89ceeecb-dc90-44e4-ba31-5d1da5d6ea8f",
+              "+3V3_SYS"
+            ],
+            [
+              "f471463a-c503-4823-bfc7-b10afe2fe842",
+              "+1V8_SYS"
+            ],
+            [
+              "f655ffa2-ab07-4df1-a667-870b9639e245",
+              "+3V3_SYS"
+            ]
+          ],
+          214
+        ],
+        [
+          [
+            [
+              "15580e60-5de3-46c9-a451-12447b0979aa",
+              "+1V8_SYS"
+            ],
+            [
+              "62eef437-e8ae-4f2f-bb18-194ee2414ac0",
+              "+1V8_SYS"
+            ],
+            [
+              "6cd2d4ef-add3-4dd5-ad8b-785f3adefabc",
+              "U4.59"
+            ],
+            [
+              "f471463a-c503-4823-bfc7-b10afe2fe842",
+              "+1V8_SYS"
+            ]
+          ],
+          61
+        ]
+      ]
+    }
+  ]
+}

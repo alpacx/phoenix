@@ -1,0 +1,56 @@
+{
+  "parent_sha256": "02a1533baeddff4eacdbcbc8b6e6ea209aa1dd280f7ff08d73bccf7d0e228c8d",
+  "rows": [
+    {
+      "group": "cap",
+      "starts": 2751,
+      "states": 6833,
+      "width_mm": 0.5,
+      "found": {
+        "via": {
+          "mm": 0.0,
+          "path": [
+            [
+              54050000,
+              9400000
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "group": "p22",
+      "starts": 328,
+      "states": 177,
+      "width_mm": 0.5,
+      "found": {
+        "p24": {
+          "mm": 0.0,
+          "path": [
+            [
+              58450000,
+              13300000
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "group": "p24",
+      "starts": 328,
+      "states": 177,
+      "width_mm": 0.5,
+      "found": {
+        "p22": {
+          "mm": 0.0,
+          "path": [
+            [
+              58450000,
+              13300000
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

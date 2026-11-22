@@ -1,0 +1,52 @@
+{
+  "parent_sha256": "c0fe9a19e8153abf3c63e5ad557b7638359520b07b62aff10ee21cce7be0a4ea",
+  "source": "C1617.2",
+  "centerline_graph_only": true,
+  "target_is_exposed_pad_plated_hole": false,
+  "nearest_reached_ground_barrel_nm": [
+    43150000,
+    28500000
+  ],
+  "path_mm": 3.301787155501902,
+  "segments": [
+    {
+      "start_nm": [
+        45020000,
+        30500000
+      ],
+      "end_nm": [
+        45020000,
+        29470000
+      ],
+      "length_mm": 1.03,
+      "width_mm": 0.5,
+      "uuid": "bac11dd5-4180-4cdb-86ea-56ba0d962d26"
+    },
+    {
+      "start_nm": [
+        45020000,
+        29470000
+      ],
+      "end_nm": [
+        44050000,
+        28500000
+      ],
+      "length_mm": 1.3717871555019023,
+      "width_mm": 0.5,
+      "uuid": "85f1d62d-494c-4805-ba0d-eebe6752cf2e"
+    },
+    {
+      "start_nm": [
+        44050000,
+        28500000
+      ],
+      "end_nm": [
+        43150000,
+        28500000
+      ],
+      "length_mm": 0.9,
+      "width_mm": 0.3,
+      "uuid": "f3929179-076d-4e80-a6ed-9e921c66e494"
+    }
+  ]
+}

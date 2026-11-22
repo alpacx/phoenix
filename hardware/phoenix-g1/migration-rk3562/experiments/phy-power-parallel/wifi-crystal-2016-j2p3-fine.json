@@ -1,0 +1,210 @@
+{
+  "parent_sha256": "c0fe9a19e8153abf3c63e5ad557b7638359520b07b62aff10ee21cce7be0a4ea",
+  "screen": {
+    "Y2002": {
+      "courtyards": 3219,
+      "within_budget": 3219
+    },
+    "R2004": {
+      "courtyards": 5887,
+      "within_budget": 5887
+    }
+  },
+  "individual": [
+    0,
+    0
+  ],
+  "candidates": [],
+  "barriers": [
+    {
+      "nets": [
+        "ETH_MDI0_N"
+      ],
+      "interference": [
+        [
+          "ETH_MDI0_N",
+          "J2.P3"
+        ]
+      ],
+      "length_mm": 1.5025,
+      "angle": 90,
+      "xy_nm": [
+        69762500,
+        22900000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI0_N",
+        "WIFI_VBAT"
+      ],
+      "interference": [
+        [
+          "ETH_MDI0_N",
+          "J2.P3"
+        ],
+        [
+          "WIFI_VBAT",
+          "49b2db3b-ffba-4d21-b558-092651c99c62"
+        ]
+      ],
+      "length_mm": 1.4525,
+      "angle": 90,
+      "xy_nm": [
+        69712500,
+        22900000
+      ]
+    },
+    {
+      "nets": [
+        "+3V3_IO",
+        "ETH_MDI0_N"
+      ],
+      "interference": [
+        [
+          "+3V3_IO",
+          "b6220e62-e03f-42a0-a5a0-188e2ee5faa8"
+        ],
+        [
+          "ETH_MDI0_N",
+          "J2.P3"
+        ]
+      ],
+      "length_mm": 1.5033317165549325,
+      "angle": 90,
+      "xy_nm": [
+        69762500,
+        22950000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI0_N",
+        "ETH_MDI2_P"
+      ],
+      "interference": [
+        [
+          "ETH_MDI0_N",
+          "J2.P3"
+        ],
+        [
+          "ETH_MDI2_P",
+          "J2.P5"
+        ]
+      ],
+      "length_mm": 1.5074849086027362,
+      "angle": 100,
+      "xy_nm": [
+        69637500,
+        22800000
+      ]
+    },
+    {
+      "nets": [
+        "+3V3_IO",
+        "ETH_MDI0_N",
+        "WIFI_VBAT"
+      ],
+      "interference": [
+        [
+          "+3V3_IO",
+          "b6220e62-e03f-42a0-a5a0-188e2ee5faa8"
+        ],
+        [
+          "ETH_MDI0_N",
+          "J2.P3"
+        ],
+        [
+          "WIFI_VBAT",
+          "49b2db3b-ffba-4d21-b558-092651c99c62"
+        ]
+      ],
+      "length_mm": 1.453360330406744,
+      "angle": 90,
+      "xy_nm": [
+        69712500,
+        22950000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI0_N",
+        "ETH_MDI2_P",
+        "WIFI_VBAT"
+      ],
+      "interference": [
+        [
+          "ETH_MDI0_N",
+          "J2.P3"
+        ],
+        [
+          "ETH_MDI2_P",
+          "J2.P5"
+        ],
+        [
+          "WIFI_VBAT",
+          "49b2db3b-ffba-4d21-b558-092651c99c62"
+        ]
+      ],
+      "length_mm": 1.4865357577552583,
+      "angle": 80,
+      "xy_nm": [
+        69837500,
+        22750000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI0_N",
+        "GND"
+      ],
+      "interference": [
+        [
+          "ETH_MDI0_N",
+          "J2.P3"
+        ],
+        [
+          "GND",
+          "276bb3c4-79ba-4dbc-b115-da7d34bbc618"
+        ],
+        [
+          "GND",
+          "8ae02985-1a9b-4a4f-80d4-9218fb470ec9"
+        ]
+      ],
+      "length_mm": 1.5815687595868224,
+      "angle": 70,
+      "xy_nm": [
+        70037500,
+        22950000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI0_N",
+        "ETH_MDI1_P",
+        "ETH_MDI2_P"
+      ],
+      "interference": [
+        [
+          "ETH_MDI0_N",
+          "J2.P3"
+        ],
+        [
+          "ETH_MDI1_P",
+          "J2.P4"
+        ],
+        [
+          "ETH_MDI2_P",
+          "J2.P5"
+        ]
+      ],
+      "length_mm": 1.6992085128435532,
+      "angle": 60,
+      "xy_nm": [
+        70137500,
+        22700000
+      ]
+    }
+  ]
+}

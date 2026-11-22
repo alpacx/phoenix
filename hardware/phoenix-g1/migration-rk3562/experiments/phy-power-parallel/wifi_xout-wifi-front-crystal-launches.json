@@ -1,0 +1,43 @@
+{
+  "parent_sha256": "c0fe9a19e8153abf3c63e5ad557b7638359520b07b62aff10ee21cce7be0a4ea",
+  "network": "WIFI_XOUT",
+  "frontiers": [
+    {
+      "group": 0,
+      "layer": "F.Cu",
+      "nodes": 126
+    },
+    {
+      "group": 1,
+      "layer": "B.Cu",
+      "nodes": 376
+    }
+  ],
+  "pairs": [
+    {
+      "groups": [
+        1,
+        0
+      ],
+      "layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "intersections": 0,
+      "tested": 0,
+      "legal": false
+    }
+  ],
+  "local_exit": {
+    "0-F.Cu": {
+      "sites": 0,
+      "representatives": []
+    },
+    "1-B.Cu": {
+      "sites": 0,
+      "representatives": []
+    }
+  },
+  "near_via": [],
+  "candidates": []
+}

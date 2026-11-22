@@ -1,3 +1,31 @@
+## Condensatore sull’uscita analogica da 1,8 V del PMIC
+
+Il checkpoint adottato è `experiments/phy-power-parallel/layout-pmic-image-c468.json`. Restano 399 unioni su 200 reti. C468 da 1 µF raggiunge U4.6 sulla faccia superiore attraverso 2,494 mm di rame. Il tratto sulla piazzola è largo 0,20 mm e lungo 0,304 mm. Il resto è largo 0,30 mm. Il ritorno GND misura 0,598 mm fino al foro già collegato al piano. C421 è stato traslato di 0,20 mm e mantiene ciascuno dei sei contatti diretti precedenti. Il controllo sui bordi e sul centro delle piste conferma che il piano di riferimento è continuo.
+
+L’inventario indipendente sul PCB ricaricato coincide con il checkpoint. Le 768 coppie sono collegate, il DRC comparativo e il controllo degli ingombri non rilevano regressioni. Il collegamento dell’uscita ai carichi del SoC, la verifica dell’anello di regolazione e le misure fisiche restano aperti.
+
+## Bypass da 1 µF sul banco I/O a 3,3 V
+
+Il checkpoint adottato è `experiments/phy-power-parallel/layout-io-c1628-local.json`. Restano 400 unioni su 200 reti. C1628 raggiunge il banco di distribuzione con 0,72 mm di pista larga 0,50 mm. La sfera SoC a 3,3 V più vicina dista 1,703 mm contro i 6,973 mm precedenti. Il gruppo di distribuzione resta separato dalle sfere del SoC. Tutte le 766 coppie verificate e il rame precedente sono conservati. I due raccordi sul retro hanno riferimento continuo sul piano GND adiacente nei 264 campioni verificati.
+
+Il percorso geometrico stimato dal terminale di massa al primo foro connesso al piano passa da 1,564 a 1,678 mm. L'aumento di 0,114 mm accompagna il collegamento del terminale positivo prima isolato e l'avvicinamento al carico. L'impedenza effettiva resta da qualificare. L'inventario indipendente sul PCB ricaricato coincide con il checkpoint. Il confronto DRC non introduce nuove violazioni.
+
+## Bypass da 100 nF per VDD1 della LPDDR4
+
+Il checkpoint adottato è `experiments/phy-power-parallel/layout-ddr1-c2303-local.json`. Restano 401 unioni. C2303 raggiunge il gruppo da 1,8 V già collegato a U2.F1. Il ramo positivo da 0,50 mm termina sul rame esistente a 0,054 mm dal centro della piazzola. Il ritorno da 0,721 mm raggiunge una via di massa con foro da 0,30 mm. Il centro del condensatore passa da 2,967 a 2,025 mm dalla sfera VDD1 più vicina. Sul file ricaricato risultano verificati il riferimento sotto entrambi i raccordi, tutti i gruppi precedenti e 764 coppie di piazzole. Le altre sette sfere VDD1 della memoria restano separate dal banco.
+
+## Banco di bypass GPU
+
+Il PCB adottato è `experiments/phy-power-parallel/layout-gpu-c1617-bypass.json`. Restano 402 unioni. C1617 da 4,7 µF raggiunge il gruppo C1619–C1620 tramite 1,720 mm di rame da 0,80 mm. Il ritorno alla via di massa misura 1,586 mm contro i precedenti 3,302 mm. La distanza tra il centro del condensatore e la sfera GPU più vicina scende da 11,150 a 9,909 mm. Sul PCB ricaricato sono verificati i gruppi pregressi, 762 coppie di piazzole e il piano di riferimento sotto entrambi i raccordi. Sono ancora aperti il collegamento del banco al carico e la qualifica della distribuzione di alimentazione.
+
+## Bypass VCCIO_ACODEC
+
+Il checkpoint adottato è `experiments/phy-power-parallel/layout-codec-bypass-exposed.json`. Restano 403 unioni su 200 reti aperte. Il condensatore C463 da 1 µF raggiunge U4.28 con 0,591 mm sul fronte, una via e 1,575 mm sul retro. Il ritorno da 1,354 mm termina direttamente su uno dei nove fori metallizzati da 0,30 mm del pad esposto U4.69. Il ricollocamento adiacente conserva entrambi i raccordi di C482. Il percorso da 0,60 mm dell'alimentazione a 3,3 V su In4 misura ora 4,880 mm. Nel confronto locale dei piani, 41 campioni su piste di massa perdono la copertura della massa adiacente; tutti i campioni precedentemente coperti sulle piste di segnale e alimentazione restano coperti. Il DRC ricaricato conserva i risultati precedenti e 760 coppie di piazzole risultano connesse. L’impedenza del bypass e la risposta ai transitori richiedono ancora qualifica elettrica.
+
+## TXD3 e percorso del reset
+
+Il checkpoint adottato è `experiments/phy-power-parallel/layout-rgmii-txd3-reset-referenced.json`. Restano 404 unioni. U1.AB2 raggiunge R504.1 con 2,897 mm sul fronte. Il reset usa due vie esistenti e 28,756 mm su In3. La verifica a PCB ricaricato conserva 758 coppie e tutti i gruppi di piazzole preesistenti, con zero nuove segnalazioni DRC. Il riferimento di massa del reset sulle sezioni piane è stato campionato fino ai due antipad. La continuità delle sezioni complete RGMII verso il PHY e l'effetto elettrico della nuova lunghezza di reset richiedono ancora verifica.
+
 ## Ritorni condivisi sotto i BGA
 
 ## Clock TX del bus RGMII

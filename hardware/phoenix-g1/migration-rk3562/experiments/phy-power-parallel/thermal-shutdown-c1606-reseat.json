@@ -1,0 +1,121 @@
+{
+  "parent_sha256": "adb43a51675db12b0ebb2ea4d56fd5c6eae4457ccb6781e1da87468a007c2191",
+  "prior_copper_contacts_per_pad": [
+    2,
+    4
+  ],
+  "stats": {
+    "preserved_placements": 105
+  },
+  "solutions": 390,
+  "best": [
+    {
+      "pose": [
+        44600000,
+        24300000
+      ],
+      "site": [
+        46450000,
+        24975000
+      ],
+      "remaining": [
+        {
+          "ref": "PCB_TRACK",
+          "net": "EXP_I2C_SDA",
+          "uuid": "4afa1071-9d71-4a9f-9041-795486d6a93f",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "EXP_I2C_SDA",
+          "uuid": "87dd7c6b-dbba-4a0e-b7ba-ec5d12d2247c",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "EXP_I2C_SCL",
+          "uuid": "abc5a357-2fc3-4679-9a90-37d450452838",
+          "layer": "In3.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "WIFI_HOST_WAKE",
+          "uuid": "96172f29-af56-40cf-97d5-e84a5582b077",
+          "layer": "In2.Cu"
+        }
+      ]
+    },
+    {
+      "pose": [
+        44550000,
+        24500000
+      ],
+      "site": [
+        46450000,
+        24975000
+      ],
+      "remaining": [
+        {
+          "ref": "PCB_TRACK",
+          "net": "EXP_I2C_SDA",
+          "uuid": "4afa1071-9d71-4a9f-9041-795486d6a93f",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "EXP_I2C_SDA",
+          "uuid": "87dd7c6b-dbba-4a0e-b7ba-ec5d12d2247c",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "EXP_I2C_SCL",
+          "uuid": "abc5a357-2fc3-4679-9a90-37d450452838",
+          "layer": "In3.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "WIFI_HOST_WAKE",
+          "uuid": "96172f29-af56-40cf-97d5-e84a5582b077",
+          "layer": "In2.Cu"
+        }
+      ]
+    },
+    {
+      "pose": [
+        44550000,
+        24450000
+      ],
+      "site": [
+        46450000,
+        24975000
+      ],
+      "remaining": [
+        {
+          "ref": "PCB_TRACK",
+          "net": "EXP_I2C_SDA",
+          "uuid": "4afa1071-9d71-4a9f-9041-795486d6a93f",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "EXP_I2C_SDA",
+          "uuid": "87dd7c6b-dbba-4a0e-b7ba-ec5d12d2247c",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "EXP_I2C_SCL",
+          "uuid": "abc5a357-2fc3-4679-9a90-37d450452838",
+          "layer": "In3.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "WIFI_HOST_WAKE",
+          "uuid": "96172f29-af56-40cf-97d5-e84a5582b077",
+          "layer": "In2.Cu"
+        }
+      ]
+    }
+  ]
+}

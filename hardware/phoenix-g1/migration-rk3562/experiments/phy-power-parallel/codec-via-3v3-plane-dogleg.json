@@ -1,0 +1,21 @@
+{
+  "parent_sha256": "769c8e3c571806eb105988fb5bfdc0e6db35aafb2cbcae9a142010860695f393",
+  "rail_width_mm": 0.6,
+  "proposed_via_nm": [
+    60500000,
+    13300000
+  ],
+  "passing": 0,
+  "examples": [],
+  "least_conflicts": [
+    {
+      "items": [
+        [
+          "proposed LDO via",
+          "VCCIO_ACODEC"
+        ]
+      ],
+      "count": 348
+    }
+  ]
+}

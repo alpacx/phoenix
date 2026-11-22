@@ -1,0 +1,80 @@
+{
+  "parent_sha256": "e37016ce6952de2aae5f84d393275cd251bdf50b9f89a4d342618b8eb0f5da5b",
+  "candidate_sha256": "02a1533baeddff4eacdbcbc8b6e6ea209aa1dd280f7ff08d73bccf7d0e228c8d",
+  "direct_contacts_retained_C421": {
+    "1": 5,
+    "2": 1
+  },
+  "ground_barrel_nm": [
+    55500000,
+    7500000
+  ],
+  "joined_rail_pads": [
+    "U4.6",
+    "C468.1"
+  ],
+  "ground_endpoint": "C468.2",
+  "ground_verified_with": "U4.69",
+  "tracks": [
+    {
+      "net": "GND",
+      "width_mm": 0.3,
+      "length_mm": 0.5984145720150873,
+      "ground_missing": 0,
+      "samples": 75
+    },
+    {
+      "net": "VCCA1V8_IMAGE",
+      "width_mm": 0.3,
+      "length_mm": 0.07071067811865477,
+      "ground_missing": 0,
+      "samples": 12
+    },
+    {
+      "net": "VCCA1V8_IMAGE",
+      "width_mm": 0.3,
+      "length_mm": 1.1,
+      "ground_missing": 0,
+      "samples": 135
+    },
+    {
+      "net": "VCCA1V8_IMAGE",
+      "width_mm": 0.3,
+      "length_mm": 0.05,
+      "ground_missing": 0,
+      "samples": 9
+    },
+    {
+      "net": "VCCA1V8_IMAGE",
+      "width_mm": 0.3,
+      "length_mm": 0.8485281374238571,
+      "ground_missing": 0,
+      "samples": 105
+    },
+    {
+      "net": "VCCA1V8_IMAGE",
+      "width_mm": 0.3,
+      "length_mm": 0.05,
+      "ground_missing": 0,
+      "samples": 9
+    },
+    {
+      "net": "VCCA1V8_IMAGE",
+      "width_mm": 0.3,
+      "length_mm": 0.07071067811865477,
+      "ground_missing": 0,
+      "samples": 12
+    },
+    {
+      "net": "VCCA1V8_IMAGE",
+      "width_mm": 0.2,
+      "length_mm": 0.30413812651491096,
+      "ground_missing": 0,
+      "samples": 42
+    }
+  ],
+  "mechanical": [],
+  "new_drc": [],
+  "remaining_joins": 399,
+  "verified_pairs": 768
+}

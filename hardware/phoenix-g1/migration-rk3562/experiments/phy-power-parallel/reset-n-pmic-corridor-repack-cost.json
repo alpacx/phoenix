@@ -1,0 +1,623 @@
+{
+  "parent_sha256": "adb43a51675db12b0ebb2ea4d56fd5c6eae4457ccb6781e1da87468a007c2191",
+  "sites": [
+    {
+      "site": [
+        57600000,
+        4870000
+      ],
+      "obstacles": [
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "0bce38e5-b076-4d89-87ce-4be2dea52461",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "711cf528-2b7f-4ffe-90b4-ea174cd40fbd",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "dd1573a2-1365-4441-a992-bbe5130cd3ca",
+          "layer": "F.Cu"
+        }
+      ],
+      "alternate_blockers": [
+        [
+          "648136d3-981e-49b3-ba0f-5ddbf7932b02",
+          "B.Cu"
+        ]
+      ],
+      "mm": 0.29571067811865476
+    },
+    {
+      "site": [
+        57750000,
+        4795000
+      ],
+      "obstacles": [
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "711cf528-2b7f-4ffe-90b4-ea174cd40fbd",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "dd1573a2-1365-4441-a992-bbe5130cd3ca",
+          "layer": "F.Cu"
+        }
+      ],
+      "alternate_blockers": [
+        [
+          "22adbd94-d53e-441a-af57-97409ae98b59",
+          "F.Cu"
+        ],
+        [
+          "648136d3-981e-49b3-ba0f-5ddbf7932b02",
+          "B.Cu"
+        ]
+      ],
+      "mm": 0.43284271247461903
+    },
+    {
+      "site": [
+        57550000,
+        4920000
+      ],
+      "obstacles": [
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "0bce38e5-b076-4d89-87ce-4be2dea52461",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "711cf528-2b7f-4ffe-90b4-ea174cd40fbd",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "dd1573a2-1365-4441-a992-bbe5130cd3ca",
+          "layer": "F.Cu"
+        }
+      ],
+      "alternate_blockers": [
+        [
+          "1505ef02-5571-4ead-9953-b848d2a56f1b",
+          "B.Cu"
+        ],
+        [
+          "648136d3-981e-49b3-ba0f-5ddbf7932b02",
+          "B.Cu"
+        ]
+      ],
+      "mm": 0.225
+    },
+    {
+      "site": [
+        57825000,
+        4795000
+      ],
+      "obstacles": [
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "711cf528-2b7f-4ffe-90b4-ea174cd40fbd",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "dd1573a2-1365-4441-a992-bbe5130cd3ca",
+          "layer": "F.Cu"
+        }
+      ],
+      "alternate_blockers": [
+        [
+          "22adbd94-d53e-441a-af57-97409ae98b59",
+          "F.Cu"
+        ],
+        [
+          "2b4c51b6-4089-4afc-adf2-7897ca97383d",
+          "F.Cu"
+        ],
+        [
+          "648136d3-981e-49b3-ba0f-5ddbf7932b02",
+          "B.Cu"
+        ]
+      ],
+      "mm": 0.46390872965260116
+    },
+    {
+      "site": [
+        56625000,
+        3320000
+      ],
+      "obstacles": [
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "0bce38e5-b076-4d89-87ce-4be2dea52461",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "711cf528-2b7f-4ffe-90b4-ea174cd40fbd",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "dd1573a2-1365-4441-a992-bbe5130cd3ca",
+          "layer": "F.Cu"
+        }
+      ],
+      "alternate_blockers": [
+        [
+          "3de08c26-b287-46ce-b741-783656c657bd",
+          "B.Cu"
+        ],
+        [
+          "79e1a594-1c29-413b-b747-beda52c88237",
+          "B.Cu"
+        ],
+        [
+          "a43fbe4e-9c0d-41d2-ade2-45bec216179a",
+          "B.Cu"
+        ]
+      ],
+      "mm": 2.2081475451951094
+    },
+    {
+      "site": [
+        56750000,
+        2795000
+      ],
+      "obstacles": [
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "0bce38e5-b076-4d89-87ce-4be2dea52461",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "711cf528-2b7f-4ffe-90b4-ea174cd40fbd",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "dd1573a2-1365-4441-a992-bbe5130cd3ca",
+          "layer": "F.Cu"
+        }
+      ],
+      "alternate_blockers": [
+        [
+          "3de08c26-b287-46ce-b741-783656c657bd",
+          "B.Cu"
+        ],
+        [
+          "a43fbe4e-9c0d-41d2-ade2-45bec216179a",
+          "B.Cu"
+        ],
+        [
+          "df74c3a4-3494-4b06-b14b-115b313e4371",
+          "In3.Cu"
+        ]
+      ],
+      "mm": 2.6813708498984727
+    },
+    {
+      "site": [
+        56725000,
+        2745000
+      ],
+      "obstacles": [
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "0bce38e5-b076-4d89-87ce-4be2dea52461",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "711cf528-2b7f-4ffe-90b4-ea174cd40fbd",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "dd1573a2-1365-4441-a992-bbe5130cd3ca",
+          "layer": "F.Cu"
+        }
+      ],
+      "alternate_blockers": [
+        [
+          "58d2b85f-503b-48bd-bf61-f1c077e7c257",
+          "In3.Cu"
+        ],
+        [
+          "a43fbe4e-9c0d-41d2-ade2-45bec216179a",
+          "B.Cu"
+        ],
+        [
+          "df74c3a4-3494-4b06-b14b-115b313e4371",
+          "In3.Cu"
+        ]
+      ],
+      "mm": 2.7417261889578
+    },
+    {
+      "site": [
+        56700000,
+        2920000
+      ],
+      "obstacles": [
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "0bce38e5-b076-4d89-87ce-4be2dea52461",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "711cf528-2b7f-4ffe-90b4-ea174cd40fbd",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "dd1573a2-1365-4441-a992-bbe5130cd3ca",
+          "layer": "F.Cu"
+        }
+      ],
+      "alternate_blockers": [
+        [
+          "3de08c26-b287-46ce-b741-783656c657bd",
+          "B.Cu"
+        ],
+        [
+          "79e1a594-1c29-413b-b747-beda52c88237",
+          "B.Cu"
+        ],
+        [
+          "a43fbe4e-9c0d-41d2-ade2-45bec216179a",
+          "B.Cu"
+        ],
+        [
+          "df74c3a4-3494-4b06-b14b-115b313e4371",
+          "In3.Cu"
+        ]
+      ],
+      "mm": 2.5770815280171275
+    },
+    {
+      "site": [
+        56725000,
+        2770000
+      ],
+      "obstacles": [
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "0bce38e5-b076-4d89-87ce-4be2dea52461",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "711cf528-2b7f-4ffe-90b4-ea174cd40fbd",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "dd1573a2-1365-4441-a992-bbe5130cd3ca",
+          "layer": "F.Cu"
+        }
+      ],
+      "alternate_blockers": [
+        [
+          "3de08c26-b287-46ce-b741-783656c657bd",
+          "B.Cu"
+        ],
+        [
+          "58d2b85f-503b-48bd-bf61-f1c077e7c257",
+          "In3.Cu"
+        ],
+        [
+          "a43fbe4e-9c0d-41d2-ade2-45bec216179a",
+          "B.Cu"
+        ],
+        [
+          "df74c3a4-3494-4b06-b14b-115b313e4371",
+          "In3.Cu"
+        ]
+      ],
+      "mm": 2.7167261889578
+    },
+    {
+      "site": [
+        56700000,
+        2770000
+      ],
+      "obstacles": [
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "0bce38e5-b076-4d89-87ce-4be2dea52461",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "711cf528-2b7f-4ffe-90b4-ea174cd40fbd",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "dd1573a2-1365-4441-a992-bbe5130cd3ca",
+          "layer": "F.Cu"
+        }
+      ],
+      "alternate_blockers": [
+        [
+          "3de08c26-b287-46ce-b741-783656c657bd",
+          "B.Cu"
+        ],
+        [
+          "58d2b85f-503b-48bd-bf61-f1c077e7c257",
+          "In3.Cu"
+        ],
+        [
+          "79e1a594-1c29-413b-b747-beda52c88237",
+          "B.Cu"
+        ],
+        [
+          "a43fbe4e-9c0d-41d2-ade2-45bec216179a",
+          "B.Cu"
+        ],
+        [
+          "df74c3a4-3494-4b06-b14b-115b313e4371",
+          "In3.Cu"
+        ]
+      ],
+      "mm": 2.7270815280171274
+    },
+    {
+      "site": [
+        56775000,
+        2795000
+      ],
+      "obstacles": [
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "0bce38e5-b076-4d89-87ce-4be2dea52461",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "711cf528-2b7f-4ffe-90b4-ea174cd40fbd",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "dd1573a2-1365-4441-a992-bbe5130cd3ca",
+          "layer": "F.Cu"
+        }
+      ],
+      "alternate_blockers": [
+        [
+          "3de08c26-b287-46ce-b741-783656c657bd",
+          "B.Cu"
+        ],
+        [
+          "3e3c8ceb-dbaa-4d19-921d-5ccb675f1af8",
+          "F.Cu"
+        ],
+        [
+          "72c8689e-4fc4-4fa5-8486-9ff4179f25ab",
+          "F.Cu"
+        ],
+        [
+          "a43fbe4e-9c0d-41d2-ade2-45bec216179a",
+          "B.Cu"
+        ],
+        [
+          "df74c3a4-3494-4b06-b14b-115b313e4371",
+          "In3.Cu"
+        ],
+        [
+          "f5bc3314-a143-4c32-8e7c-de550d18ef9a",
+          "In3.Cu"
+        ]
+      ],
+      "mm": 2.6917261889578
+    },
+    {
+      "site": [
+        56775000,
+        2770000
+      ],
+      "obstacles": [
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "0bce38e5-b076-4d89-87ce-4be2dea52461",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "711cf528-2b7f-4ffe-90b4-ea174cd40fbd",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "dd1573a2-1365-4441-a992-bbe5130cd3ca",
+          "layer": "F.Cu"
+        }
+      ],
+      "alternate_blockers": [
+        [
+          "3e3c8ceb-dbaa-4d19-921d-5ccb675f1af8",
+          "F.Cu"
+        ],
+        [
+          "58d2b85f-503b-48bd-bf61-f1c077e7c257",
+          "In3.Cu"
+        ],
+        [
+          "72c8689e-4fc4-4fa5-8486-9ff4179f25ab",
+          "F.Cu"
+        ],
+        [
+          "a43fbe4e-9c0d-41d2-ade2-45bec216179a",
+          "B.Cu"
+        ],
+        [
+          "df74c3a4-3494-4b06-b14b-115b313e4371",
+          "In3.Cu"
+        ],
+        [
+          "f5bc3314-a143-4c32-8e7c-de550d18ef9a",
+          "In3.Cu"
+        ]
+      ],
+      "mm": 2.7167261889578
+    },
+    {
+      "site": [
+        56750000,
+        2770000
+      ],
+      "obstacles": [
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "0bce38e5-b076-4d89-87ce-4be2dea52461",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "711cf528-2b7f-4ffe-90b4-ea174cd40fbd",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "dd1573a2-1365-4441-a992-bbe5130cd3ca",
+          "layer": "F.Cu"
+        }
+      ],
+      "alternate_blockers": [
+        [
+          "3de08c26-b287-46ce-b741-783656c657bd",
+          "B.Cu"
+        ],
+        [
+          "3e3c8ceb-dbaa-4d19-921d-5ccb675f1af8",
+          "F.Cu"
+        ],
+        [
+          "58d2b85f-503b-48bd-bf61-f1c077e7c257",
+          "In3.Cu"
+        ],
+        [
+          "72c8689e-4fc4-4fa5-8486-9ff4179f25ab",
+          "F.Cu"
+        ],
+        [
+          "a43fbe4e-9c0d-41d2-ade2-45bec216179a",
+          "B.Cu"
+        ],
+        [
+          "df74c3a4-3494-4b06-b14b-115b313e4371",
+          "In3.Cu"
+        ],
+        [
+          "f5bc3314-a143-4c32-8e7c-de550d18ef9a",
+          "In3.Cu"
+        ]
+      ],
+      "mm": 2.706370849898473
+    },
+    {
+      "site": [
+        56850000,
+        2720000
+      ],
+      "obstacles": [
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "0bce38e5-b076-4d89-87ce-4be2dea52461",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "711cf528-2b7f-4ffe-90b4-ea174cd40fbd",
+          "layer": "F.Cu"
+        },
+        {
+          "ref": "PCB_TRACK",
+          "net": "+3V3_SYS",
+          "uuid": "dd1573a2-1365-4441-a992-bbe5130cd3ca",
+          "layer": "F.Cu"
+        }
+      ],
+      "alternate_blockers": [
+        [
+          "3e3c8ceb-dbaa-4d19-921d-5ccb675f1af8",
+          "F.Cu"
+        ],
+        [
+          "58d2b85f-503b-48bd-bf61-f1c077e7c257",
+          "In3.Cu"
+        ],
+        [
+          "72c8689e-4fc4-4fa5-8486-9ff4179f25ab",
+          "F.Cu"
+        ],
+        [
+          "a43fbe4e-9c0d-41d2-ade2-45bec216179a",
+          "B.Cu"
+        ],
+        [
+          "d34e5620-dea8-4f9d-b79a-6b657d268b81",
+          "F.Cu"
+        ],
+        [
+          "df74c3a4-3494-4b06-b14b-115b313e4371",
+          "In3.Cu"
+        ],
+        [
+          "f5bc3314-a143-4c32-8e7c-de550d18ef9a",
+          "In3.Cu"
+        ]
+      ],
+      "mm": 2.797792206135782
+    }
+  ]
+}
