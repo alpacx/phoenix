@@ -1,0 +1,57 @@
+{
+  "parent_sha256": "ef5f13be271968f1d22198f3ba00cb8ba0f0ff48be160d504cc7392860fbf966",
+  "pin": "U4.31",
+  "width_mm": 0.2,
+  "grid_mm": 0.025,
+  "via_mm": [
+    0.45,
+    0.2
+  ],
+  "single_obstacle_candidates": [],
+  "reachable_positions": 430,
+  "farthest_mm": 0.4457016939613311,
+  "sites": [],
+  "via_obstacles": [
+    {
+      "names": [
+        "+3V3_SYS",
+        "U4.30",
+        "U4.32",
+        "source pad"
+      ],
+      "positions": 159
+    },
+    {
+      "names": [
+        "+3V3_IO",
+        "+3V3_SYS",
+        "U4.30",
+        "U4.32",
+        "source pad"
+      ],
+      "positions": 178
+    },
+    {
+      "names": [
+        "+3V3_IO",
+        "U4.30",
+        "U4.32",
+        "U4.69",
+        "source pad"
+      ],
+      "positions": 33
+    },
+    {
+      "names": [
+        "+3V3_IO",
+        "+3V3_SYS",
+        "U4.30",
+        "U4.32",
+        "U4.69",
+        "source pad"
+      ],
+      "positions": 60
+    }
+  ],
+  "assembly_ready": false
+}

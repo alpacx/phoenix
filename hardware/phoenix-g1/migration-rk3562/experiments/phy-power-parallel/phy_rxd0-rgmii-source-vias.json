@@ -1,0 +1,63 @@
+{
+  "parent_sha256": "6a0f0929d81987b8cc76b0a4a6a9de1976bb4d287431b3d565621cb45d960492",
+  "network": "PHY_RXD0",
+  "frontiers": [
+    {
+      "group": 1,
+      "layer": "B.Cu",
+      "nodes": 182
+    },
+    {
+      "group": 2,
+      "layer": "B.Cu",
+      "nodes": 403
+    }
+  ],
+  "pairs": [],
+  "local_exit": {
+    "1-B.Cu": {
+      "sites": 0,
+      "representatives": []
+    },
+    "2-B.Cu": {
+      "sites": 7,
+      "representatives": [
+        {
+          "site_nm": [
+            70400000,
+            27600000
+          ],
+          "path_nm": [
+            [
+              69900000,
+              27700000
+            ],
+            [
+              70000000,
+              27700000
+            ],
+            [
+              70100000,
+              27700000
+            ],
+            [
+              70200000,
+              27700000
+            ],
+            [
+              70300000,
+              27700000
+            ],
+            [
+              70400000,
+              27600000
+            ]
+          ],
+          "branch_mm": 0.5414213562373095
+        }
+      ]
+    }
+  },
+  "near_via": [],
+  "candidates": []
+}

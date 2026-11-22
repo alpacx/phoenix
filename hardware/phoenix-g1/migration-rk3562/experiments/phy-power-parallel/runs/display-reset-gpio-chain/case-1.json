@@ -1,0 +1,28 @@
+{
+  "attempt": {
+    "at": [
+      34200000,
+      16700000
+    ],
+    "order": [
+      "LCD_DC",
+      "EXP_GPIO1"
+    ],
+    "branches": [
+      {
+        "net": "LCD_DC",
+        "width": 200000,
+        "code": 11,
+        "length_mm": 0.45
+      },
+      {
+        "net": "EXP_GPIO1",
+        "reason": "closed front channel",
+        "reachable": 8476,
+        "starts": 1,
+        "goals": 49
+      }
+    ]
+  },
+  "candidate": null
+}

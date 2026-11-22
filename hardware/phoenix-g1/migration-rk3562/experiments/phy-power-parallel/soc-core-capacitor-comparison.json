@@ -1,0 +1,285 @@
+{
+  "board_sha256": "55f587d0379a6647e4e4dfbc6dd6cd42ce880906af779b3d9b14b653816e5578",
+  "reference": "reference/rk3562-oomwoo-reference.pdf, sheet 4. VDD_LOGIC_MEM is tied to VDD_LOGIC in this reference; values include both branches.",
+  "rails": {
+    "VDD_CPU": {
+      "parts": [
+        {
+          "ref": "C1601",
+          "selected_mpn": "CL05B104KO5NNNC",
+          "package": "Phoenix_Passives:C_0402_1005Metric",
+          "cap_uf": 0.1,
+          "courtyard_area_mm2": 1.6471,
+          "center_in_soc_courtyard_xy": false,
+          "side": "B.Cu"
+        },
+        {
+          "ref": "C1602",
+          "selected_mpn": "CL05A475MP5NRNC",
+          "package": "Phoenix_Passives:C_0402_1005Metric",
+          "cap_uf": 4.7,
+          "courtyard_area_mm2": 1.6471,
+          "center_in_soc_courtyard_xy": false,
+          "side": "B.Cu"
+        },
+        {
+          "ref": "C1603",
+          "selected_mpn": "CL21A226MOCLRNC",
+          "package": "Phoenix_Passives:C_0805_2012Metric",
+          "cap_uf": 22.0,
+          "courtyard_area_mm2": 6.6105,
+          "center_in_soc_courtyard_xy": true,
+          "side": "B.Cu"
+        },
+        {
+          "ref": "C1604",
+          "selected_mpn": "CL21A226MOCLRNC",
+          "package": "Phoenix_Passives:C_0805_2012Metric",
+          "cap_uf": 22.0,
+          "courtyard_area_mm2": 6.6105,
+          "center_in_soc_courtyard_xy": true,
+          "side": "B.Cu"
+        },
+        {
+          "ref": "C1605",
+          "selected_mpn": "CL21A226MOCLRNC",
+          "package": "Phoenix_Passives:C_0805_2012Metric",
+          "cap_uf": 22.0,
+          "courtyard_area_mm2": 6.6105,
+          "center_in_soc_courtyard_xy": false,
+          "side": "B.Cu"
+        },
+        {
+          "ref": "C1606",
+          "selected_mpn": "CL21A226MOCLRNC",
+          "package": "Phoenix_Passives:C_0805_2012Metric",
+          "cap_uf": 22.0,
+          "courtyard_area_mm2": 6.6105,
+          "center_in_soc_courtyard_xy": true,
+          "side": "B.Cu"
+        },
+        {
+          "ref": "C1607",
+          "selected_mpn": "CL21A226MOCLRNC",
+          "package": "Phoenix_Passives:C_0805_2012Metric",
+          "cap_uf": 22.0,
+          "courtyard_area_mm2": 6.6105,
+          "center_in_soc_courtyard_xy": false,
+          "side": "B.Cu"
+        },
+        {
+          "ref": "C1608",
+          "selected_mpn": "CL21A226MOCLRNC",
+          "package": "Phoenix_Passives:C_0805_2012Metric",
+          "cap_uf": 22.0,
+          "courtyard_area_mm2": 6.6105,
+          "center_in_soc_courtyard_xy": true,
+          "side": "B.Cu"
+        }
+      ],
+      "design_total_uf": 136.8,
+      "reference_total_uf": 47.1,
+      "reference_values_uf": [
+        0.1,
+        1,
+        1,
+        1,
+        22,
+        22
+      ],
+      "design_total_courtyard_mm2": 42.957
+    },
+    "VDD_GPU": {
+      "parts": [
+        {
+          "ref": "C1616",
+          "selected_mpn": "CL05B104KO5NNNC",
+          "package": "Phoenix_Passives:C_0402_1005Metric",
+          "cap_uf": 0.1,
+          "courtyard_area_mm2": 1.6471,
+          "center_in_soc_courtyard_xy": true,
+          "side": "B.Cu"
+        },
+        {
+          "ref": "C1617",
+          "selected_mpn": "CL05A475MP5NRNC",
+          "package": "Phoenix_Passives:C_0402_1005Metric",
+          "cap_uf": 4.7,
+          "courtyard_area_mm2": 1.6471,
+          "center_in_soc_courtyard_xy": false,
+          "side": "B.Cu"
+        },
+        {
+          "ref": "C1618",
+          "selected_mpn": "CL21A226MOCLRNC",
+          "package": "Phoenix_Passives:C_0805_2012Metric",
+          "cap_uf": 22.0,
+          "courtyard_area_mm2": 6.6105,
+          "center_in_soc_courtyard_xy": true,
+          "side": "B.Cu"
+        },
+        {
+          "ref": "C1619",
+          "selected_mpn": "CL21A226MOCLRNC",
+          "package": "Phoenix_Passives:C_0805_2012Metric",
+          "cap_uf": 22.0,
+          "courtyard_area_mm2": 6.6105,
+          "center_in_soc_courtyard_xy": false,
+          "side": "B.Cu"
+        },
+        {
+          "ref": "C1620",
+          "selected_mpn": "CL21A106KAYNNNE",
+          "package": "Phoenix_Passives:C_0805_2012Metric",
+          "cap_uf": 10.0,
+          "courtyard_area_mm2": 6.6105,
+          "center_in_soc_courtyard_xy": false,
+          "side": "B.Cu"
+        }
+      ],
+      "design_total_uf": 58.8,
+      "reference_total_uf": 47.1,
+      "reference_values_uf": [
+        0.1,
+        1,
+        1,
+        1,
+        22,
+        22
+      ],
+      "design_total_courtyard_mm2": 23.126
+    },
+    "VDD_NPU": {
+      "parts": [
+        {
+          "ref": "C1621",
+          "selected_mpn": "CL05B104KO5NNNC",
+          "package": "Phoenix_Passives:C_0402_1005Metric",
+          "cap_uf": 0.1,
+          "courtyard_area_mm2": 1.6471,
+          "center_in_soc_courtyard_xy": true,
+          "side": "B.Cu"
+        },
+        {
+          "ref": "C1622",
+          "selected_mpn": "CL21A226MOCLRNC",
+          "package": "Phoenix_Passives:C_0805_2012Metric",
+          "cap_uf": 22.0,
+          "courtyard_area_mm2": 6.6105,
+          "center_in_soc_courtyard_xy": false,
+          "side": "B.Cu"
+        },
+        {
+          "ref": "C1623",
+          "selected_mpn": "CL21A226MOCLRNC",
+          "package": "Phoenix_Passives:C_0805_2012Metric",
+          "cap_uf": 22.0,
+          "courtyard_area_mm2": 6.6105,
+          "center_in_soc_courtyard_xy": false,
+          "side": "B.Cu"
+        },
+        {
+          "ref": "C1624",
+          "selected_mpn": "CL21A106KAYNNNE",
+          "package": "Phoenix_Passives:C_0805_2012Metric",
+          "cap_uf": 10.0,
+          "courtyard_area_mm2": 6.6105,
+          "center_in_soc_courtyard_xy": false,
+          "side": "B.Cu"
+        }
+      ],
+      "design_total_uf": 54.1,
+      "reference_total_uf": 47.1,
+      "reference_values_uf": [
+        0.1,
+        1,
+        1,
+        1,
+        22,
+        22
+      ],
+      "design_total_courtyard_mm2": 21.479
+    },
+    "VDD_LOGIC": {
+      "parts": [
+        {
+          "ref": "C1609",
+          "selected_mpn": "CL05B104KO5NNNC",
+          "package": "Phoenix_Passives:C_0402_1005Metric",
+          "cap_uf": 0.1,
+          "courtyard_area_mm2": 1.6471,
+          "center_in_soc_courtyard_xy": true,
+          "side": "B.Cu"
+        },
+        {
+          "ref": "C1610",
+          "selected_mpn": "CL05A475MP5NRNC",
+          "package": "Phoenix_Passives:C_0402_1005Metric",
+          "cap_uf": 4.7,
+          "courtyard_area_mm2": 1.6471,
+          "center_in_soc_courtyard_xy": false,
+          "side": "B.Cu"
+        },
+        {
+          "ref": "C1611",
+          "selected_mpn": "CL05A105KA5NQNC",
+          "package": "Phoenix_Passives:C_0402_1005Metric",
+          "cap_uf": 1.0,
+          "courtyard_area_mm2": 1.6471,
+          "center_in_soc_courtyard_xy": false,
+          "side": "B.Cu"
+        },
+        {
+          "ref": "C1612",
+          "selected_mpn": "CL05A105KA5NQNC",
+          "package": "Phoenix_Passives:C_0402_1005Metric",
+          "cap_uf": 1.0,
+          "courtyard_area_mm2": 1.6471,
+          "center_in_soc_courtyard_xy": false,
+          "side": "B.Cu"
+        },
+        {
+          "ref": "C1613",
+          "selected_mpn": "CL21A226MOCLRNC",
+          "package": "Phoenix_Passives:C_0805_2012Metric",
+          "cap_uf": 22.0,
+          "courtyard_area_mm2": 6.6105,
+          "center_in_soc_courtyard_xy": false,
+          "side": "B.Cu"
+        },
+        {
+          "ref": "C1614",
+          "selected_mpn": "CL21A226MOCLRNC",
+          "package": "Phoenix_Passives:C_0805_2012Metric",
+          "cap_uf": 22.0,
+          "courtyard_area_mm2": 6.6105,
+          "center_in_soc_courtyard_xy": true,
+          "side": "B.Cu"
+        },
+        {
+          "ref": "C1615",
+          "selected_mpn": "CL21A106KAYNNNE",
+          "package": "Phoenix_Passives:C_0805_2012Metric",
+          "cap_uf": 10.0,
+          "courtyard_area_mm2": 6.6105,
+          "center_in_soc_courtyard_xy": false,
+          "side": "B.Cu"
+        }
+      ],
+      "design_total_uf": 60.8,
+      "reference_total_uf": 70.1,
+      "reference_values_uf": [
+        0.1,
+        1,
+        1,
+        1,
+        22,
+        22,
+        1,
+        22
+      ],
+      "design_total_courtyard_mm2": 26.42
+    }
+  },
+  "limitations": "Only the SoC bypass sheet. Excludes regulator-side capacitors and all other sheets. Nominal capacitor sums and two-dimensional envelope only. No change in population or schematic authorized by this comparison alone."
+}

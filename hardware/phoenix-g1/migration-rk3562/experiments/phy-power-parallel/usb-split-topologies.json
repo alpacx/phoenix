@@ -1,0 +1,365 @@
+{
+  "source_sha256": "24a5d7a0fb4ec84a9051dc7a183ee3bef1092a4bfcc3159566c727bd8d3705b3",
+  "width_mm": 0.2,
+  "grid_mm": 0.05,
+  "max_local_path_mm": 7.2,
+  "via_land_drill_mm": [
+    0.45,
+    0.2
+  ],
+  "trials": [
+    {
+      "vias_per_signal": [
+        2,
+        2
+      ],
+      "order": [
+        "USB_DP",
+        "USB_DM"
+      ],
+      "inside": [
+        "In2.Cu",
+        "In3.Cu"
+      ],
+      "signals": [
+        {
+          "net": "USB_DP",
+          "route": true,
+          "length_mm": 6.0349242404917485,
+          "barrels_nm": [
+            [
+              5340000,
+              19400000
+            ],
+            [
+              8790000,
+              19750000
+            ]
+          ]
+        },
+        {
+          "net": "USB_DM",
+          "visited": 505,
+          "route": false
+        }
+      ]
+    },
+    {
+      "vias_per_signal": [
+        2,
+        2
+      ],
+      "order": [
+        "USB_DM",
+        "USB_DP"
+      ],
+      "inside": [
+        "In2.Cu",
+        "In3.Cu"
+      ],
+      "signals": [
+        {
+          "net": "USB_DM",
+          "route": true,
+          "length_mm": 5.800609665440986,
+          "barrels_nm": [
+            [
+              5340000,
+              19400000
+            ],
+            [
+              8790000,
+              19850000
+            ]
+          ]
+        },
+        {
+          "net": "USB_DP",
+          "visited": 9723,
+          "route": false
+        }
+      ]
+    },
+    {
+      "vias_per_signal": [
+        2,
+        2
+      ],
+      "order": [
+        "USB_DP",
+        "USB_DM"
+      ],
+      "inside": [
+        "In3.Cu",
+        "In2.Cu"
+      ],
+      "signals": [
+        {
+          "net": "USB_DP",
+          "visited": 10431,
+          "route": false
+        }
+      ]
+    },
+    {
+      "vias_per_signal": [
+        2,
+        2
+      ],
+      "order": [
+        "USB_DM",
+        "USB_DP"
+      ],
+      "inside": [
+        "In3.Cu",
+        "In2.Cu"
+      ],
+      "signals": [
+        {
+          "net": "USB_DM",
+          "visited": 11580,
+          "route": false
+        }
+      ]
+    },
+    {
+      "vias_per_signal": [
+        2,
+        0
+      ],
+      "order": [
+        "USB_DP",
+        "USB_DM"
+      ],
+      "inside": [
+        "In2.Cu",
+        "In2.Cu"
+      ],
+      "signals": [
+        {
+          "net": "USB_DP",
+          "route": true,
+          "length_mm": 6.0349242404917485,
+          "barrels_nm": [
+            [
+              5340000,
+              19400000
+            ],
+            [
+              8790000,
+              19750000
+            ]
+          ]
+        },
+        {
+          "net": "USB_DM",
+          "route": true,
+          "length_mm": 2.0106601717798216,
+          "barrels_nm": []
+        }
+      ],
+      "skew_mm": 4.024264068711927,
+      "new_drc": [
+        {
+          "type": "items_not_allowed",
+          "severity": "error",
+          "items": [
+            "0727f407-225c-41af-a096-14f930f821da"
+          ],
+          "count": 1
+        },
+        {
+          "type": "items_not_allowed",
+          "severity": "error",
+          "items": [
+            "9e3695c2-4528-47b7-954b-6c0db140de4d"
+          ],
+          "count": 1
+        },
+        {
+          "type": "items_not_allowed",
+          "severity": "error",
+          "items": [
+            "e1f4651d-bb50-44ad-aec5-359ef1ff8a47"
+          ],
+          "count": 1
+        },
+        {
+          "type": "items_not_allowed",
+          "severity": "error",
+          "items": [
+            "e89fabd0-60d9-4ecb-991f-2b300fb8003c"
+          ],
+          "count": 1
+        },
+        {
+          "type": "items_not_allowed",
+          "severity": "error",
+          "items": [
+            "e974fa08-8679-4fd6-9bef-90243d0235ef"
+          ],
+          "count": 1
+        },
+        {
+          "type": "items_not_allowed",
+          "severity": "error",
+          "items": [
+            "50d87490-d1a4-43f0-a45f-c2171da6941f"
+          ],
+          "count": 1
+        }
+      ],
+      "board": "runs/usb-split-span-5/phy-joint.kicad_pcb",
+      "sha256": "148c7ea5f3cf65108dc0c4894d5547ec0562ebcff44e5af748690cefa869481a"
+    },
+    {
+      "vias_per_signal": [
+        2,
+        0
+      ],
+      "order": [
+        "USB_DM",
+        "USB_DP"
+      ],
+      "inside": [
+        "In2.Cu",
+        "In2.Cu"
+      ],
+      "signals": [
+        {
+          "net": "USB_DM",
+          "route": true,
+          "length_mm": 5.800609665440986,
+          "barrels_nm": [
+            [
+              5340000,
+              19400000
+            ],
+            [
+              8790000,
+              19850000
+            ]
+          ]
+        },
+        {
+          "net": "USB_DP",
+          "visited": 2406,
+          "route": false
+        }
+      ]
+    },
+    {
+      "vias_per_signal": [
+        0,
+        2
+      ],
+      "order": [
+        "USB_DP",
+        "USB_DM"
+      ],
+      "inside": [
+        "In2.Cu",
+        "In2.Cu"
+      ],
+      "signals": [
+        {
+          "net": "USB_DP",
+          "visited": 2828,
+          "route": false
+        }
+      ]
+    },
+    {
+      "vias_per_signal": [
+        0,
+        2
+      ],
+      "order": [
+        "USB_DM",
+        "USB_DP"
+      ],
+      "inside": [
+        "In2.Cu",
+        "In2.Cu"
+      ],
+      "signals": [
+        {
+          "net": "USB_DM",
+          "route": true,
+          "length_mm": 2.0106601717798216,
+          "barrels_nm": []
+        },
+        {
+          "net": "USB_DP",
+          "route": true,
+          "length_mm": 6.0349242404917485,
+          "barrels_nm": [
+            [
+              5340000,
+              19400000
+            ],
+            [
+              8790000,
+              19750000
+            ]
+          ]
+        }
+      ],
+      "skew_mm": 4.024264068711927,
+      "new_drc": [
+        {
+          "type": "items_not_allowed",
+          "severity": "error",
+          "items": [
+            "144d4b2a-4977-461c-8d05-d309ee4fe4ff"
+          ],
+          "count": 1
+        },
+        {
+          "type": "items_not_allowed",
+          "severity": "error",
+          "items": [
+            "d28921da-67cc-4a95-9d9a-860a32f41207"
+          ],
+          "count": 1
+        },
+        {
+          "type": "items_not_allowed",
+          "severity": "error",
+          "items": [
+            "d46375f4-c292-44a2-9fb8-707a5f6dae2c"
+          ],
+          "count": 1
+        },
+        {
+          "type": "items_not_allowed",
+          "severity": "error",
+          "items": [
+            "e501b0c2-3827-4356-9c8b-1e2965f90326"
+          ],
+          "count": 1
+        },
+        {
+          "type": "items_not_allowed",
+          "severity": "error",
+          "items": [
+            "f4a1462b-4fca-4b99-b734-9ad7f62165fe"
+          ],
+          "count": 1
+        },
+        {
+          "type": "items_not_allowed",
+          "severity": "error",
+          "items": [
+            "212dde71-14ca-4fd2-baa1-ac1d720f0af5"
+          ],
+          "count": 1
+        }
+      ],
+      "board": "runs/usb-split-span-8/phy-joint.kicad_pcb",
+      "sha256": "10df7e8119e8385299c541667e97f88eb6f4668e89b56ab6a10e5e968c2a6aeb"
+    }
+  ],
+  "impedance_qualified": false,
+  "adopted": false
+}

@@ -1,0 +1,24 @@
+{
+  "parent_sha256": "1fb44f12992b5adfc103274d635402048b3b50cbec9567d74e174beb5e5d7f7f",
+  "sha256": "f299dedfe06b2df2e870397cd2797a9aec7baf8cc46701d069ce93d095a283f0",
+  "board": "runs/ddr-ca-group-corridor/phy-joint.kicad_pcb",
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 7322,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 45,
+    "existing_connected_pad_groups_preserved": 121
+  },
+  "joined": [
+    [
+      "U1.B10",
+      "U2.H2"
+    ],
+    [
+      "U1.B18",
+      "U2.R2"
+    ]
+  ],
+  "native_drc_delta": [],
+  "adopted": false
+}

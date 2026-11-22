@@ -1,0 +1,63 @@
+{
+  "parent_sha256": "db84d12e36a96084efe16e5372fd6e522467ecf3c4163b05e52add5287399dc9",
+  "candidate": {
+    "board": "runs/display-mosi-u3-first/phy-joint.kicad_pcb",
+    "sha256": "5aba43cea6f2b3f971bfa18165088142ecbd9a9ee8d590eb2614e62af3016fc7",
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 6748,
+      "explicitly_replaced_copper": {
+        "6841ac21-0249-448b-b073-05b4644b1e46": [
+          "GND",
+          0,
+          37500000,
+          21500000,
+          38250000,
+          21500000,
+          300000,
+          null
+        ],
+        "7743df3c-c137-4076-8d7f-fecf0c0f2619": [
+          "GND",
+          0,
+          38250000,
+          21500000,
+          38450000,
+          21300000,
+          300000,
+          null
+        ]
+      },
+      "added_tracks_vias": 7,
+      "existing_connected_pad_groups_preserved": 113
+    },
+    "new_drc": [],
+    "via_uuid": "4661b631-5ef4-45b6-8c4f-483c971716fb"
+  },
+  "returns": [
+    {
+      "pin": "U3",
+      "new_barrel": false,
+      "at_nm": [
+        38050000,
+        20700000
+      ],
+      "centerline_mm": 0.8303932051423885,
+      "added": [
+        "473c787c-9088-4bf4-8720-01cf731c49b7",
+        "b14ce692-0b52-4160-b5c0-68dad6e2958f",
+        "94b18a1a-c3ce-4ef2-b545-97c6d9fde731",
+        "e62853fe-be0a-462d-9f21-aba2216e12c2",
+        "542c7a98-aa60-4793-9b62-70dac8f71a47",
+        "b2b50813-4f12-44dc-82e7-db01bc941eb1",
+        "72cd4003-d809-4c80-bacf-61d26ae64ea2",
+        "b45830a5-60e3-4dca-b560-75a8264a53b9",
+        "2f9ce59a-9fe3-458b-8cf8-fade6921cc9b"
+      ]
+    }
+  ],
+  "site_distribution": {},
+  "failed": [],
+  "delta": [],
+  "assembly_ready": false
+}

@@ -1,0 +1,66 @@
+{
+  "parent_sha256": "e4caa5e62c150b58ca7c9832727a8c4a723c58a97f84935a40b0150500f8d9e2",
+  "window": {
+    "source_nm": [
+      39750000,
+      19675000
+    ],
+    "elbow_nm": [
+      39750000,
+      19675000
+    ],
+    "via_nm": [
+      40075000,
+      19675000
+    ],
+    "length_mm": 0.325
+  },
+  "back": {
+    "front_nodes": 1490,
+    "path": [
+      [
+        40075000,
+        19675000
+      ],
+      [
+        40075000,
+        21425000
+      ],
+      [
+        40020000,
+        21500000
+      ]
+    ],
+    "closest": [
+      75166.48189186455,
+      [
+        40025000,
+        21425000
+      ],
+      [
+        40020000,
+        21500000
+      ]
+    ],
+    "front": []
+  },
+  "sha256": "8d4848243f47f9d1ddd83ac0fd8fcc8763e94edaece3bf8d69274d55bdacec22",
+  "board": "runs/npu-local-bypass/phy-joint.kicad_pcb",
+  "remaining": 418,
+  "new_drc": [],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 7531,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 4,
+    "existing_connected_pad_groups_preserved": 120
+  },
+  "fast_plane_losses": [],
+  "nearest_ground": [
+    1.408733917388234,
+    [
+      40700000,
+      20937500
+    ]
+  ]
+}

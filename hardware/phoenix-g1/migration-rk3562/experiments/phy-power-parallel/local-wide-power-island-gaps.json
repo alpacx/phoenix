@@ -1,0 +1,1104 @@
+{
+  "parent_sha256": "e4caa5e62c150b58ca7c9832727a8c4a723c58a97f84935a40b0150500f8d9e2",
+  "trials": [
+    {
+      "net": "+1V8_SYS",
+      "source": "C2302.1",
+      "dest": "C2303.1",
+      "layer": "B.Cu",
+      "nearest_mm": 2.5,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V8_SYS",
+      "source": "C2302.1",
+      "dest": "U2.G4",
+      "layer": "F.Cu",
+      "nearest_mm": 2.4864633518312713,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V8_SYS",
+      "source": "U2.F12",
+      "dest": "U2.G9",
+      "layer": "F.Cu",
+      "nearest_mm": 2.4864633518312713,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V8_SYS",
+      "source": "U2.T4",
+      "dest": "U2.U1",
+      "layer": "F.Cu",
+      "nearest_mm": 2.4864633518312713,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V8_SYS",
+      "source": "U2.T9",
+      "dest": "U2.U12",
+      "layer": "F.Cu",
+      "nearest_mm": 2.4864633518312713,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+3V3_IO",
+      "source": "U1.1G15",
+      "dest": "U1.1H14",
+      "layer": "F.Cu",
+      "nearest_mm": 0.9192388155425119,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+3V3_IO",
+      "source": "U1.1K3",
+      "dest": "U1.1L5",
+      "layer": "F.Cu",
+      "nearest_mm": 1.3,
+      "sites": 2,
+      "path_nm": null
+    },
+    {
+      "net": "+3V3_IO",
+      "source": "U1.1K3",
+      "dest": "U1.1M4",
+      "layer": "F.Cu",
+      "nearest_mm": 0.9192388155425119,
+      "sites": 2,
+      "path_nm": null
+    },
+    {
+      "net": "+3V3_IO",
+      "source": "U1.1L5",
+      "dest": "U1.1M4",
+      "layer": "F.Cu",
+      "nearest_mm": 0.9192388155425119,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "VDDA0V9_IMAGE",
+      "source": "U1.1L6",
+      "dest": "U1.1L8",
+      "layer": "F.Cu",
+      "nearest_mm": 1.3,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "VDDA0V9_IMAGE",
+      "source": "U1.1L6",
+      "dest": "U1.1M9",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0554804791094465,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "VDDA0V9_IMAGE",
+      "source": "U1.1L8",
+      "dest": "U1.1M9",
+      "layer": "F.Cu",
+      "nearest_mm": 0.9192388155425119,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "C1646.1",
+      "dest": "U2.AA3",
+      "layer": "F.Cu",
+      "nearest_mm": 1.0307764064044151,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "C1646.1",
+      "dest": "U2.AA5",
+      "layer": "F.Cu",
+      "nearest_mm": 1.0307764064044151,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "C1646.1",
+      "dest": "U2.B3",
+      "layer": "F.Cu",
+      "nearest_mm": 1.0307764064044151,
+      "sites": 7,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "C1646.1",
+      "dest": "U2.B5",
+      "layer": "F.Cu",
+      "nearest_mm": 1.0307764064044151,
+      "sites": 3,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "C1646.1",
+      "dest": "U2.D5",
+      "layer": "F.Cu",
+      "nearest_mm": 2.1077238908357994,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "C1646.1",
+      "dest": "U2.H12",
+      "layer": "F.Cu",
+      "nearest_mm": 1.3,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "C1646.1",
+      "dest": "U2.K10",
+      "layer": "F.Cu",
+      "nearest_mm": 1.6,
+      "sites": 2,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "C1646.1",
+      "dest": "U2.N1",
+      "layer": "F.Cu",
+      "nearest_mm": 2.437339738321271,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "C1646.1",
+      "dest": "U2.N10",
+      "layer": "F.Cu",
+      "nearest_mm": 1.6,
+      "sites": 2,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "C1646.1",
+      "dest": "U2.R1",
+      "layer": "F.Cu",
+      "nearest_mm": 2.401171589037318,
+      "sites": 2,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "C1646.1",
+      "dest": "U2.R12",
+      "layer": "F.Cu",
+      "nearest_mm": 1.3,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "C1646.1",
+      "dest": "U2.W5",
+      "layer": "F.Cu",
+      "nearest_mm": 2.1077238908357994,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U1.1D6",
+      "dest": "U1.1E10",
+      "layer": "F.Cu",
+      "nearest_mm": 0.65,
+      "sites": 8,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U1.1D11",
+      "dest": "U1.1E10",
+      "layer": "F.Cu",
+      "nearest_mm": 0.9192388155425119,
+      "sites": 3,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.A9",
+      "dest": "U2.B8",
+      "layer": "F.Cu",
+      "nearest_mm": 1.0307764064044151,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.A9",
+      "dest": "U2.B10",
+      "layer": "F.Cu",
+      "nearest_mm": 1.0307764064044151,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.A9",
+      "dest": "U2.D8",
+      "layer": "F.Cu",
+      "nearest_mm": 2.1077238908357994,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.AA3",
+      "dest": "U2.AA5",
+      "layer": "F.Cu",
+      "nearest_mm": 1.6,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.AA3",
+      "dest": "U2.W1",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.AA3",
+      "dest": "U2.W5",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.AA5",
+      "dest": "U2.AA8",
+      "layer": "F.Cu",
+      "nearest_mm": 2.4,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.AA5",
+      "dest": "U2.W5",
+      "layer": "F.Cu",
+      "nearest_mm": 1.3,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.AA8",
+      "dest": "U2.AA10",
+      "layer": "F.Cu",
+      "nearest_mm": 1.6,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.AA8",
+      "dest": "U2.AB9",
+      "layer": "F.Cu",
+      "nearest_mm": 1.0307764064044151,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.AA8",
+      "dest": "U2.W8",
+      "layer": "F.Cu",
+      "nearest_mm": 1.3,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.AA10",
+      "dest": "U2.AB9",
+      "layer": "F.Cu",
+      "nearest_mm": 1.0307764064044151,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.AA10",
+      "dest": "U2.W8",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.AA10",
+      "dest": "U2.W12",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.AB9",
+      "dest": "U2.W8",
+      "layer": "F.Cu",
+      "nearest_mm": 2.1077238908357994,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.B3",
+      "dest": "U2.B5",
+      "layer": "F.Cu",
+      "nearest_mm": 1.6,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.B3",
+      "dest": "U2.D1",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.B3",
+      "dest": "U2.D5",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.B5",
+      "dest": "U2.B8",
+      "layer": "F.Cu",
+      "nearest_mm": 2.4,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.B5",
+      "dest": "U2.D5",
+      "layer": "F.Cu",
+      "nearest_mm": 1.3,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.B8",
+      "dest": "U2.B10",
+      "layer": "F.Cu",
+      "nearest_mm": 1.6,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.B8",
+      "dest": "U2.D8",
+      "layer": "F.Cu",
+      "nearest_mm": 1.3,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.B10",
+      "dest": "U2.D8",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.B10",
+      "dest": "U2.D12",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.D1",
+      "dest": "U2.F3",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.D1",
+      "dest": "U2.G2",
+      "layer": "F.Cu",
+      "nearest_mm": 2.1077238908357994,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.D5",
+      "dest": "U2.D8",
+      "layer": "F.Cu",
+      "nearest_mm": 2.4,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.D5",
+      "dest": "U2.F3",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.D5",
+      "dest": "U2.F5",
+      "layer": "F.Cu",
+      "nearest_mm": 1.3,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.D8",
+      "dest": "U2.F8",
+      "layer": "F.Cu",
+      "nearest_mm": 1.3,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.D8",
+      "dest": "U2.F10",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.D12",
+      "dest": "U2.F10",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.F3",
+      "dest": "U2.F5",
+      "layer": "F.Cu",
+      "nearest_mm": 1.6,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.F3",
+      "dest": "U2.G2",
+      "layer": "F.Cu",
+      "nearest_mm": 1.0307764064044151,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.F3",
+      "dest": "U2.H1",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.F3",
+      "dest": "U2.H5",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.F5",
+      "dest": "U2.F8",
+      "layer": "F.Cu",
+      "nearest_mm": 2.4,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.F5",
+      "dest": "U2.G2",
+      "layer": "F.Cu",
+      "nearest_mm": 2.4864633518312713,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.F5",
+      "dest": "U2.H5",
+      "layer": "F.Cu",
+      "nearest_mm": 1.3,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.F8",
+      "dest": "U2.F10",
+      "layer": "F.Cu",
+      "nearest_mm": 1.6,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.F8",
+      "dest": "U2.H8",
+      "layer": "F.Cu",
+      "nearest_mm": 1.3,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.F10",
+      "dest": "U2.H8",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.F10",
+      "dest": "U2.H12",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.G2",
+      "dest": "U2.H1",
+      "layer": "F.Cu",
+      "nearest_mm": 1.0307764064044151,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.G2",
+      "dest": "U2.H5",
+      "layer": "F.Cu",
+      "nearest_mm": 2.4864633518312713,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.G2",
+      "dest": "U2.K1",
+      "layer": "F.Cu",
+      "nearest_mm": 2.1077238908357994,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.G2",
+      "dest": "U2.K3",
+      "layer": "F.Cu",
+      "nearest_mm": 2.1077238908357994,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.H1",
+      "dest": "U2.K1",
+      "layer": "F.Cu",
+      "nearest_mm": 1.3,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.H1",
+      "dest": "U2.K3",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.H5",
+      "dest": "U2.H8",
+      "layer": "F.Cu",
+      "nearest_mm": 2.4,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.H5",
+      "dest": "U2.K3",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.H8",
+      "dest": "U2.K10",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.H12",
+      "dest": "U2.K10",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.K1",
+      "dest": "U2.K3",
+      "layer": "F.Cu",
+      "nearest_mm": 1.6,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.K1",
+      "dest": "U2.N1",
+      "layer": "F.Cu",
+      "nearest_mm": 1.95,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.K1",
+      "dest": "U2.N3",
+      "layer": "F.Cu",
+      "nearest_mm": 2.522399651125888,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.K3",
+      "dest": "U2.N1",
+      "layer": "F.Cu",
+      "nearest_mm": 2.522399651125888,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.K3",
+      "dest": "U2.N3",
+      "layer": "F.Cu",
+      "nearest_mm": 1.95,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.K10",
+      "dest": "U2.N10",
+      "layer": "F.Cu",
+      "nearest_mm": 1.95,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.N1",
+      "dest": "U2.N3",
+      "layer": "F.Cu",
+      "nearest_mm": 1.6,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.N1",
+      "dest": "U2.R1",
+      "layer": "F.Cu",
+      "nearest_mm": 1.3,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.N1",
+      "dest": "U2.T2",
+      "layer": "F.Cu",
+      "nearest_mm": 2.1077238908357994,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.N3",
+      "dest": "U2.R1",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.N3",
+      "dest": "U2.R5",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.N3",
+      "dest": "U2.T2",
+      "layer": "F.Cu",
+      "nearest_mm": 2.1077238908357994,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.N10",
+      "dest": "U2.R8",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.N10",
+      "dest": "U2.R12",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.R1",
+      "dest": "U2.T2",
+      "layer": "F.Cu",
+      "nearest_mm": 1.0307764064044151,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.R1",
+      "dest": "U2.U3",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.R5",
+      "dest": "U2.R8",
+      "layer": "F.Cu",
+      "nearest_mm": 2.4,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.R5",
+      "dest": "U2.T2",
+      "layer": "F.Cu",
+      "nearest_mm": 2.4864633518312713,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.R5",
+      "dest": "U2.U3",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.R5",
+      "dest": "U2.U5",
+      "layer": "F.Cu",
+      "nearest_mm": 1.3,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.R8",
+      "dest": "U2.U8",
+      "layer": "F.Cu",
+      "nearest_mm": 1.3,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.R8",
+      "dest": "U2.U10",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.R12",
+      "dest": "U2.U10",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.T2",
+      "dest": "U2.U3",
+      "layer": "F.Cu",
+      "nearest_mm": 1.0307764064044151,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.T2",
+      "dest": "U2.U5",
+      "layer": "F.Cu",
+      "nearest_mm": 2.4864633518312713,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.T2",
+      "dest": "U2.W1",
+      "layer": "F.Cu",
+      "nearest_mm": 2.1077238908357994,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.U3",
+      "dest": "U2.U5",
+      "layer": "F.Cu",
+      "nearest_mm": 1.6,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.U3",
+      "dest": "U2.W1",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.U3",
+      "dest": "U2.W5",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.U5",
+      "dest": "U2.U8",
+      "layer": "F.Cu",
+      "nearest_mm": 2.4,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.U5",
+      "dest": "U2.W5",
+      "layer": "F.Cu",
+      "nearest_mm": 1.3,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.U8",
+      "dest": "U2.U10",
+      "layer": "F.Cu",
+      "nearest_mm": 1.6,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.U8",
+      "dest": "U2.W8",
+      "layer": "F.Cu",
+      "nearest_mm": 1.3,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.U10",
+      "dest": "U2.W8",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.U10",
+      "dest": "U2.W12",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0615528128088303,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "source": "U2.W5",
+      "dest": "U2.W8",
+      "layer": "F.Cu",
+      "nearest_mm": 2.4,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "VDDA0V9_PMU",
+      "source": "U1.1M11",
+      "dest": "U1.1M13",
+      "layer": "F.Cu",
+      "nearest_mm": 1.3,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "VCCA_1V8",
+      "source": "U1.1G1",
+      "dest": "U1.1K2",
+      "layer": "F.Cu",
+      "nearest_mm": 2.0554804791094465,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "EMMC_IO_1V8",
+      "source": "U8001.M4",
+      "dest": "U8001.P3",
+      "layer": "B.Cu",
+      "nearest_mm": 0.7071067811865476,
+      "sites": 2,
+      "path_nm": null
+    },
+    {
+      "net": "EMMC_IO_1V8",
+      "source": "U8001.M4",
+      "dest": "U8001.P5",
+      "layer": "B.Cu",
+      "nearest_mm": 0.7071067811865476,
+      "sites": 2,
+      "path_nm": null
+    },
+    {
+      "net": "EMMC_IO_1V8",
+      "source": "U8001.P3",
+      "dest": "U8001.P5",
+      "layer": "B.Cu",
+      "nearest_mm": 1.0,
+      "sites": 1,
+      "path_nm": null
+    },
+    {
+      "net": "VCCA1V8_IMAGE",
+      "source": "U1.1M7",
+      "dest": "U1.1N9",
+      "layer": "F.Cu",
+      "nearest_mm": 0.9192388155425119,
+      "sites": 2,
+      "path_nm": null
+    },
+    {
+      "net": "EMMC_3V3",
+      "source": "U8001.E6",
+      "dest": "U8001.F5",
+      "layer": "B.Cu",
+      "nearest_mm": 0.7071067811865476,
+      "sites": 1,
+      "path_nm": null
+    }
+  ],
+  "solutions": []
+}

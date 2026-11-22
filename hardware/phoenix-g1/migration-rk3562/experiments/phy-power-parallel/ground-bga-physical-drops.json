@@ -1,0 +1,92 @@
+{
+  "parent_sha256": "08186d0b398fd980c6d410de610ce92955d6369141dee576aa255be8bb9e02a4",
+  "rows": [
+    {
+      "ref": "U1.A1",
+      "solder_clear_candidates": 16,
+      "attempts": [
+        {
+          "via_nm": [
+            37000000,
+            10750000
+          ],
+          "length_mm": 3.1452795795510737,
+          "delta": [],
+          "connected": true
+        }
+      ]
+    },
+    {
+      "ref": "U1.A12",
+      "solder_clear_candidates": 16,
+      "attempts": [
+        {
+          "via_nm": [
+            42000000,
+            10850000
+          ],
+          "length_mm": 2.55,
+          "delta": [],
+          "connected": true
+        }
+      ]
+    },
+    {
+      "ref": "U1.A16",
+      "solder_clear_candidates": 0,
+      "attempts": []
+    },
+    {
+      "ref": "U1.A27",
+      "solder_clear_candidates": 16,
+      "attempts": [
+        {
+          "via_nm": [
+            50450000,
+            13050000
+          ],
+          "length_mm": 1.0363961030678928,
+          "delta": [],
+          "connected": true
+        }
+      ]
+    },
+    {
+      "ref": "U1.AG15",
+      "solder_clear_candidates": 0,
+      "attempts": []
+    },
+    {
+      "ref": "U2.W4",
+      "solder_clear_candidates": 0,
+      "attempts": []
+    },
+    {
+      "ref": "U2.Y12",
+      "solder_clear_candidates": 2,
+      "attempts": [
+        {
+          "via_nm": [
+            33225000,
+            13575000
+          ],
+          "length_mm": 1.4685028842544392,
+          "delta": [],
+          "connected": true
+        }
+      ]
+    },
+    {
+      "ref": "U8001.A6",
+      "solder_clear_candidates": 0,
+      "attempts": []
+    }
+  ],
+  "accepted": [
+    "U1.A1",
+    "U1.A12",
+    "U1.A27",
+    "U2.Y12"
+  ],
+  "remaining": 434
+}

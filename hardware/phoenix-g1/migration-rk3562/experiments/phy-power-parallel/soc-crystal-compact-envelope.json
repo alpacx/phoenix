@@ -1,0 +1,108 @@
+{
+  "board_sha256": "55f587d0379a6647e4e4dfbc6dd6cd42ce880906af779b3d9b14b653816e5578",
+  "rows": [
+    {
+      "side": "F.Cu",
+      "courtyard_mm": [
+        4.19,
+        3.49
+      ],
+      "options": 0,
+      "closest": null
+    },
+    {
+      "side": "F.Cu",
+      "courtyard_mm": [
+        3.1,
+        2.5
+      ],
+      "options": 0,
+      "closest": null
+    },
+    {
+      "side": "F.Cu",
+      "courtyard_mm": [
+        2.6,
+        2.2
+      ],
+      "options": 28,
+      "closest": [
+        3982461.5503479755,
+        45400000,
+        28500000,
+        0
+      ]
+    },
+    {
+      "side": "F.Cu",
+      "courtyard_mm": [
+        2.2,
+        1.8
+      ],
+      "options": 224,
+      "closest": [
+        3679673.89859482,
+        45800000,
+        28500000,
+        90
+      ]
+    },
+    {
+      "side": "B.Cu",
+      "courtyard_mm": [
+        4.19,
+        3.49
+      ],
+      "options": 2100,
+      "closest": [
+        5603570.29044876,
+        48700000,
+        31600000,
+        0
+      ]
+    },
+    {
+      "side": "B.Cu",
+      "courtyard_mm": [
+        3.1,
+        2.5
+      ],
+      "options": 3225,
+      "closest": [
+        5100000.0,
+        48500000,
+        31100000,
+        0
+      ]
+    },
+    {
+      "side": "B.Cu",
+      "courtyard_mm": [
+        2.6,
+        2.2
+      ],
+      "options": 3842,
+      "closest": [
+        4860041.152089147,
+        51400000,
+        29900000,
+        90
+      ]
+    },
+    {
+      "side": "B.Cu",
+      "courtyard_mm": [
+        2.2,
+        1.8
+      ],
+      "options": 4491,
+      "closest": [
+        3832753.57934736,
+        44700000,
+        26500000,
+        0
+      ]
+    }
+  ],
+  "limits": "Courtyard-only geometry within 8 mm from both SoC balls, additional separation 0.10 mm. Does not include copper, package exits, passive bank, or electrical compatibility. Calculated candidate packages use indicative courtyard dimensions."
+}

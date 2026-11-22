@@ -1,0 +1,59 @@
+{
+  "parent_sha256": "e2e2cede356cdf3edc2cfc99c1093dff03c13b5a32e0c8e746255e500b6aad8b",
+  "legal_return_sites": 78,
+  "legal_site_pairs": 4,
+  "candidate": {
+    "board": "runs/display-cs-gnd-fanout/phy-joint.kicad_pcb",
+    "sha256": "412fbda15e2abb441327e5e5cd09252b10938ddac8fece7bf460573440dec0e1",
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 6739,
+      "explicitly_replaced_copper": {
+        "7decc0c5-9db7-4f7c-aa78-220e76206bfb": [
+          "GND",
+          0,
+          38450000,
+          18700000,
+          38050000,
+          18950000,
+          300000,
+          null
+        ],
+        "a8d9e304-7786-4bf7-b003-2eac2d7e0a14": [
+          "GND",
+          0,
+          38050000,
+          18950000,
+          38050000,
+          18950000,
+          450000,
+          200000
+        ]
+      },
+      "added_tracks_vias": 3,
+      "existing_connected_pad_groups_preserved": 113
+    },
+    "new_drc": [
+      {
+        "type": "via_dangling",
+        "severity": "warning",
+        "items": [
+          "f22be0fe-4238-47f8-8f7b-087429ae1ec3"
+        ],
+        "count": 1
+      }
+    ],
+    "return_nm": [
+      38800000,
+      19025000
+    ],
+    "return_length_mm": 0.47762432936357,
+    "signal_nm": [
+      37925000,
+      18975000
+    ],
+    "via_uuid": "f22be0fe-4238-47f8-8f7b-087429ae1ec3"
+  },
+  "rejections": [],
+  "assembly_ready": false
+}

@@ -1,0 +1,166 @@
+{
+  "rows": [
+    {
+      "checkpoint": "ddr-clock-open-escape-release",
+      "sha256": "2b48b9d0755df32ba73e228e0035b2d2e29e9e0f779ff3ae66084bbb137c2ff4",
+      "channel": "A",
+      "layer": "In3.Cu",
+      "middle": {
+        "points_nm": [
+          [
+            41600000,
+            14100000
+          ],
+          [
+            41500000,
+            14200000
+          ],
+          [
+            40700000,
+            14200000
+          ],
+          [
+            40600000,
+            14100000
+          ],
+          [
+            40500000,
+            14100000
+          ],
+          [
+            39200000,
+            12800000
+          ],
+          [
+            38700000,
+            12800000
+          ],
+          [
+            34900000,
+            9000000
+          ],
+          [
+            34900000,
+            8900000
+          ],
+          [
+            34800000,
+            8900000
+          ],
+          [
+            34800000,
+            8800000
+          ],
+          [
+            34700000,
+            8800000
+          ],
+          [
+            34600000,
+            8700000
+          ],
+          [
+            34500000,
+            8700000
+          ],
+          [
+            34400000,
+            8600000
+          ],
+          [
+            34000000,
+            8600000
+          ],
+          [
+            33900000,
+            8500000
+          ],
+          [
+            33800000,
+            8500000
+          ],
+          [
+            33700000,
+            8400000
+          ],
+          [
+            32600000,
+            8400000
+          ],
+          [
+            32500000,
+            8300000
+          ]
+        ],
+        "length_mm": 11.70243866176395,
+        "released_barrels_within_855um": 10
+      },
+      "separate": {
+        "plane_only": true,
+        "copper_only": true
+      },
+      "nearest_gap": {
+        "mm": 0.0,
+        "positions_nm": [
+          [
+            32200000,
+            7100000
+          ],
+          [
+            32200000,
+            7100000
+          ]
+        ]
+      },
+      "gates_connected": true,
+      "gate_components": [
+        4,
+        2
+      ],
+      "common_cells": 4079
+    },
+    {
+      "checkpoint": "ddr-clock-open-escape-release",
+      "sha256": "2b48b9d0755df32ba73e228e0035b2d2e29e9e0f779ff3ae66084bbb137c2ff4",
+      "channel": "B",
+      "layer": "In3.Cu",
+      "middle": null,
+      "separate": {
+        "plane_only": true,
+        "copper_only": false
+      },
+      "nearest_gap": {
+        "mm": 1.105,
+        "positions_nm": [
+          [
+            41400000,
+            15200000
+          ],
+          [
+            40300000,
+            15100000
+          ]
+        ]
+      },
+      "gates_connected": false,
+      "gate_components": [
+        5,
+        2
+      ],
+      "common_cells": 0
+    }
+  ],
+  "optimistic_transfers": [
+    {
+      "checkpoint": "ddr-clock-open-escape-release",
+      "channel": "A",
+      "transfers": []
+    },
+    {
+      "checkpoint": "ddr-clock-open-escape-release",
+      "channel": "B",
+      "transfers": []
+    }
+  ],
+  "assumptions": "Centerline screens a 0.20+0.25+0.20 mm pair envelope with 0.202 mm outside copper clearance and 0.10 mm lateral return margin. Accessible ideal gates within 1.5 mm of each pair of barrels; specific pair fanout, equal electrical length, differential conversion and impedance remain untested."
+}

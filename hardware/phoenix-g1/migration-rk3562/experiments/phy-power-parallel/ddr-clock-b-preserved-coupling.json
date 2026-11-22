@@ -1,0 +1,52 @@
+{
+  "board_sha256": "fd38b6c9fa9e9bc0323d46a4031ef65cb50c934de42c424fc3c995e592f4d366",
+  "samples_at_most_mm": 0.025,
+  "edge_gap_bins_mm": [
+    "<=0.275",
+    "(0.275,0.5]",
+    ">0.5"
+  ],
+  "rows": [
+    {
+      "layer": "F.Cu",
+      "net": "LPDDR4_CLKN_B",
+      "length_by_spacing_mm": [
+        0.0,
+        0.3708806585152319,
+        0.29450754468697576
+      ],
+      "maximum_edge_gap_mm": 0.6905140642820113
+    },
+    {
+      "layer": "F.Cu",
+      "net": "LPDDR4_CLKP_B",
+      "length_by_spacing_mm": [
+        0.0,
+        0.33873131731082606,
+        1.2509209546103806
+      ],
+      "maximum_edge_gap_mm": 1.3724104452965329
+    },
+    {
+      "layer": "In3.Cu",
+      "net": "LPDDR4_CLKN_B",
+      "length_by_spacing_mm": [
+        12.223174721781527,
+        2.5417008070589056,
+        1.1967514421272196
+      ],
+      "maximum_edge_gap_mm": 1.2481044857015378
+    },
+    {
+      "layer": "In3.Cu",
+      "net": "LPDDR4_CLKP_B",
+      "length_by_spacing_mm": [
+        11.865067076480857,
+        3.635890404191461,
+        1.420720057009853
+      ],
+      "maximum_edge_gap_mm": 0.8238560689862614
+    }
+  ],
+  "scope": "Geometric nearest-edge distances only; no differential field, phase, package or via model."
+}

@@ -1,0 +1,214 @@
+{
+  "parent_sha256": "4434879e3c5aba8f62a14b22c930fe42c80bdd23b63bbb90926d7abff49eb7c5",
+  "surface": "F.Cu",
+  "pin": "U1.H27",
+  "width_mm": 0.2,
+  "grid_mm": 0.025,
+  "via_mm": [
+    0.45,
+    0.2
+  ],
+  "ground_relief": false,
+  "ground_via_relief": false,
+  "existing_tracks_and_vias_included": true,
+  "single_obstacle_candidates": [],
+  "reachable_positions": 907,
+  "farthest_mm": 0.9463746615373848,
+  "sites": [],
+  "via_obstacles": [
+    {
+      "names": [
+        "+3V58_WIFI",
+        "EXP_I2C_SCL"
+      ],
+      "positions": 104
+    },
+    {
+      "names": [
+        "+3V58_WIFI",
+        "EXP_I2C_SCL",
+        "GND"
+      ],
+      "positions": 108
+    },
+    {
+      "names": [
+        "+3V58_WIFI",
+        "EXP_I2C_SCL",
+        "U1.K27"
+      ],
+      "positions": 25
+    },
+    {
+      "names": [
+        "+3V3_IO",
+        "+3V58_WIFI",
+        "EXP_I2C_SCL",
+        "GND"
+      ],
+      "positions": 43
+    },
+    {
+      "names": [
+        "+3V58_WIFI",
+        "EXP_I2C_SCL",
+        "EXP_SPI_CLK",
+        "GND"
+      ],
+      "positions": 29
+    },
+    {
+      "names": [
+        "+3V58_WIFI",
+        "EXP_I2C_SCL",
+        "EXP_SPI_CLK",
+        "U1.K27"
+      ],
+      "positions": 25
+    },
+    {
+      "names": [
+        "+3V58_WIFI",
+        "EXP_I2C_SCL",
+        "GND",
+        "source pad"
+      ],
+      "positions": 16
+    },
+    {
+      "names": [
+        "EXP_I2C_SCL",
+        "EXP_SPI_CLK",
+        "GND",
+        "U1.J26"
+      ],
+      "positions": 6
+    },
+    {
+      "names": [
+        "+3V3_IO",
+        "EXP_I2C_SCL",
+        "EXP_SPI_CLK",
+        "GND",
+        "source pad"
+      ],
+      "positions": 124
+    },
+    {
+      "names": [
+        "+3V3_IO",
+        "EXP_I2C_SCL",
+        "EXP_SPI_CLK",
+        "GND",
+        "U1.J26"
+      ],
+      "positions": 26
+    },
+    {
+      "names": [
+        "+3V58_WIFI",
+        "EXP_I2C_SCL",
+        "EXP_SPI_CLK",
+        "GND",
+        "U1.K27"
+      ],
+      "positions": 25
+    },
+    {
+      "names": [
+        "EXP_I2C_SCL",
+        "EXP_SPI_CLK",
+        "GND",
+        "U1.J26",
+        "U1.K27"
+      ],
+      "positions": 22
+    },
+    {
+      "names": [
+        "+3V3_IO",
+        "+3V58_WIFI",
+        "EXP_I2C_SCL",
+        "GND",
+        "source pad"
+      ],
+      "positions": 15
+    },
+    {
+      "names": [
+        "+3V58_WIFI",
+        "EXP_I2C_SCL",
+        "EXP_SPI_CLK",
+        "GND",
+        "source pad"
+      ],
+      "positions": 13
+    },
+    {
+      "names": [
+        "+3V3_IO",
+        "+3V58_WIFI",
+        "EXP_I2C_SCL",
+        "EXP_SPI_CLK",
+        "GND"
+      ],
+      "positions": 12
+    },
+    {
+      "names": [
+        "+3V58_WIFI",
+        "EXP_I2C_SCL",
+        "EXP_SPI_CLK",
+        "GND",
+        "U1.J26"
+      ],
+      "positions": 7
+    },
+    {
+      "names": [
+        "+3V3_IO",
+        "+3V58_WIFI",
+        "EXP_I2C_SCL",
+        "EXP_SPI_CLK",
+        "GND",
+        "source pad"
+      ],
+      "positions": 111
+    },
+    {
+      "names": [
+        "+3V3_IO",
+        "EXP_I2C_SCL",
+        "EXP_SPI_CLK",
+        "GND",
+        "U1.H26",
+        "source pad"
+      ],
+      "positions": 51
+    },
+    {
+      "names": [
+        "+3V3_IO",
+        "EXP_I2C_SCL",
+        "EXP_SPI_CLK",
+        "GND",
+        "U1.J26",
+        "source pad"
+      ],
+      "positions": 24
+    },
+    {
+      "names": [
+        "EXP_I2C_SCL",
+        "EXP_SPI_CLK",
+        "GND",
+        "U1.J26",
+        "U1.K26",
+        "U1.K27"
+      ],
+      "positions": 24
+    }
+  ],
+  "assembly_ready": false,
+  "source_sha256": "4434879e3c5aba8f62a14b22c930fe42c80bdd23b63bbb90926d7abff49eb7c5"
+}

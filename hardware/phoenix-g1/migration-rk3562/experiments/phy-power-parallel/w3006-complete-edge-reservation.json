@@ -1,0 +1,1050 @@
+{
+  "parent_sha256": "22e9735759bde9eb5efd281f10bfec697cf904e371706acb35b57fa5ede5c364",
+  "board": "runs/w3006-complete-reservation/phy-joint.kicad_pcb",
+  "sha256": "c75d7ff587f535f333aef31d1b29ebadca13ba0fa531fd83ee4716fc86a4321c",
+  "dimensions": {
+    "source": "https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/W3006/doc_part/W3006.pdf",
+    "issue": 2137,
+    "pages": [
+      6,
+      7
+    ],
+    "units": "mm",
+    "ground_polygon": [
+      [
+        0,
+        0
+      ],
+      [
+        12.1,
+        0
+      ],
+      [
+        12.1,
+        3.85
+      ],
+      [
+        11.6,
+        3.85
+      ],
+      [
+        11.6,
+        6.25
+      ],
+      [
+        0,
+        6.25
+      ]
+    ],
+    "signal_polygon": [
+      [
+        -1.47,
+        0
+      ],
+      [
+        13.3,
+        0
+      ],
+      [
+        13.3,
+        0.61
+      ],
+      [
+        15.25,
+        1.67
+      ],
+      [
+        16.14,
+        2.25
+      ],
+      [
+        16.57,
+        2.75
+      ],
+      [
+        16.32,
+        4.05
+      ],
+      [
+        15.76,
+        5.64
+      ],
+      [
+        14.92,
+        7.04
+      ],
+      [
+        13.98,
+        8.02
+      ],
+      [
+        13.29,
+        8.66
+      ],
+      [
+        13.29,
+        5.72
+      ],
+      [
+        12.67,
+        5.4
+      ],
+      [
+        12.67,
+        7.4
+      ],
+      [
+        -1.47,
+        7.4
+      ]
+    ],
+    "signal_readout_guard_mm": 0.12,
+    "land_centers": {
+      "1": [
+        10.75,
+        2.0
+      ],
+      "2": [
+        1.65,
+        2.0
+      ]
+    },
+    "mechanical_fit_width_mm": 18.29
+  },
+  "candidate": {
+    "side": "bottom",
+    "offset_mm": 24.75,
+    "rf_face": "B.Cu",
+    "components": [
+      "R1602",
+      "R1501",
+      "R2002",
+      "R2013",
+      "R1506",
+      "L2201",
+      "C1503",
+      "R2010",
+      "R2004",
+      "R1601",
+      "R1505",
+      "C1801",
+      "R2011",
+      "U20",
+      "R1503",
+      "R1502",
+      "Y1",
+      "TP6",
+      "C1680",
+      "TP12",
+      "C1605",
+      "C1607"
+    ],
+    "nets": {
+      "GND": 17,
+      "+5V_MAIN": 12,
+      "+3V3_SYS": 1,
+      "+3V3_IO": 13,
+      "+3V3_PMU": 2,
+      "LCD_CS_N": 11,
+      "PMIC_INT_N": 3,
+      "WIFI_REG_ON": 3,
+      "SOC_VBUS_DET": 2,
+      "EXP_I2C_SDA": 5,
+      "WIFI_VBAT_PG": 8,
+      "USB_AVDD_0V9": 5
+    },
+    "score": [
+      0,
+      0,
+      12,
+      3,
+      22,
+      82
+    ]
+  },
+  "other_sites": [
+    {
+      "side": "bottom",
+      "offset_mm": 24.75,
+      "rf_face": "B.Cu",
+      "components": [
+        "R1602",
+        "R1501",
+        "R2002",
+        "R2013",
+        "R1506",
+        "L2201",
+        "C1503",
+        "R2010",
+        "R2004",
+        "R1601",
+        "R1505",
+        "C1801",
+        "R2011",
+        "U20",
+        "R1503",
+        "R1502",
+        "Y1",
+        "TP6",
+        "C1680",
+        "TP12",
+        "C1605",
+        "C1607"
+      ],
+      "nets": {
+        "GND": 17,
+        "+5V_MAIN": 12,
+        "+3V3_SYS": 1,
+        "+3V3_IO": 13,
+        "+3V3_PMU": 2,
+        "LCD_CS_N": 11,
+        "PMIC_INT_N": 3,
+        "WIFI_REG_ON": 3,
+        "SOC_VBUS_DET": 2,
+        "EXP_I2C_SDA": 5,
+        "WIFI_VBAT_PG": 8,
+        "USB_AVDD_0V9": 5
+      },
+      "score": [
+        0,
+        0,
+        12,
+        3,
+        22,
+        82
+      ]
+    },
+    {
+      "side": "bottom",
+      "offset_mm": 13.25,
+      "rf_face": "B.Cu",
+      "components": [
+        "C1502",
+        "R1814",
+        "C1501",
+        "R2013",
+        "R2010",
+        "C1802",
+        "C1304",
+        "C1305",
+        "R2004",
+        "L1301",
+        "C1812",
+        "C1801",
+        "R2011",
+        "U20",
+        "U17",
+        "C1301",
+        "TP13",
+        "C1605"
+      ],
+      "nets": {
+        "GND": 25,
+        "+5V_MAIN": 24,
+        "+3V3_SYS": 30,
+        "+3V3_IO": 6,
+        "+3V3_PMU": 4,
+        "LCD_CS_N": 11,
+        "USB_POWER_FAULT_N": 3,
+        "WIFI_VBAT_PG": 4,
+        "+3V0_LCD": 34,
+        "SYS_SW": 1,
+        "SYS_SS": 10
+      },
+      "score": [
+        0,
+        0,
+        14,
+        3,
+        18,
+        152
+      ]
+    },
+    {
+      "side": "bottom",
+      "offset_mm": 21.25,
+      "rf_face": "B.Cu",
+      "components": [
+        "R1602",
+        "R1814",
+        "C1501",
+        "R2002",
+        "R2013",
+        "R1506",
+        "C1503",
+        "R2010",
+        "C1802",
+        "R2004",
+        "C1812",
+        "R1601",
+        "R1505",
+        "C1801",
+        "R2011",
+        "U20",
+        "R1502",
+        "Y1",
+        "TP6",
+        "C1680",
+        "TP12",
+        "C1605"
+      ],
+      "nets": {
+        "GND": 25,
+        "+5V_MAIN": 12,
+        "+3V3_SYS": 1,
+        "+3V3_IO": 13,
+        "LCD_RESET_N": 17,
+        "+3V3_PMU": 3,
+        "LCD_CS_N": 11,
+        "WIFI_REG_ON": 3,
+        "SOC_VBUS_DET": 2,
+        "WIFI_VBAT_PG": 6,
+        "+3V0_LCD": 62,
+        "USB_AVDD_0V9": 5
+      },
+      "score": [
+        0,
+        0,
+        15,
+        2,
+        22,
+        160
+      ]
+    },
+    {
+      "side": "bottom",
+      "offset_mm": 17.0,
+      "rf_face": "B.Cu",
+      "components": [
+        "R1602",
+        "C1502",
+        "R1814",
+        "C1501",
+        "R2002",
+        "R2013",
+        "C1503",
+        "R2010",
+        "C1802",
+        "C1304",
+        "C1305",
+        "R2004",
+        "C1812",
+        "R1601",
+        "C1801",
+        "R2011",
+        "U20",
+        "Y1",
+        "TP6",
+        "C1680",
+        "TP12",
+        "C1605"
+      ],
+      "nets": {
+        "GND": 30,
+        "+5V_MAIN": 16,
+        "+3V3_SYS": 24,
+        "+3V3_IO": 12,
+        "+3V3_PMU": 4,
+        "LCD_CS_N": 11,
+        "WIFI_REG_ON": 2,
+        "WIFI_VBAT_PG": 6,
+        "+3V0_LCD": 34,
+        "USB_AVDD_0V9": 5
+      },
+      "score": [
+        0,
+        0,
+        16,
+        2,
+        22,
+        144
+      ]
+    },
+    {
+      "side": "bottom",
+      "offset_mm": 48.0,
+      "rf_face": "B.Cu",
+      "components": [
+        "C2203",
+        "R514",
+        "R2202",
+        "C2202",
+        "C520",
+        "U22",
+        "R528",
+        "L2201",
+        "C2201",
+        "Y501",
+        "R2201",
+        "C512",
+        "C511",
+        "R2203",
+        "R2102",
+        "C513",
+        "U26",
+        "C521",
+        "R524",
+        "U5",
+        "TP4",
+        "C518",
+        "R1504",
+        "C522",
+        "C1014",
+        "TP10"
+      ],
+      "nets": {
+        "GND": 46,
+        "WIFI_VBAT_SS": 2,
+        "+5V_MAIN": 61,
+        "+3V3_PHY": 12,
+        "+3V3_SYS": 6,
+        "+3V3_IO": 6,
+        "+3V58_WIFI": 3,
+        "WIFI_VBAT_FB": 4,
+        "+3V3_PMU": 8,
+        "+1V0_PHY": 36,
+        "PMIC_INT_N": 1,
+        "WIFI_REG_ON": 5,
+        "PHY_XIN": 33,
+        "PMIC_SDA": 6,
+        "RESET_N": 5,
+        "EXP_I2C_SDA": 5,
+        "EXP_I2C_SCL": 3,
+        "PHY_XOUT": 50,
+        "WIFI_VBAT_PG": 67,
+        "RECOVERY_ADC": 1
+      },
+      "score": [
+        0,
+        0,
+        18,
+        5,
+        26,
+        360
+      ]
+    },
+    {
+      "side": "bottom",
+      "offset_mm": 37.5,
+      "rf_face": "F.Cu",
+      "components": [
+        "C2203",
+        "R2202",
+        "C2202",
+        "R1501",
+        "R1506",
+        "R528",
+        "L2201",
+        "C2201",
+        "R2201",
+        "R2203",
+        "R2102",
+        "R1503",
+        "U26",
+        "R1502",
+        "TP4",
+        "TP3",
+        "C1607"
+      ],
+      "nets": {
+        "GND": 24,
+        "WIFI_VBAT_SS": 2,
+        "+5V_MAIN": 109,
+        "+3V3_SYS": 4,
+        "+3V3_IO": 7,
+        "+3V58_WIFI": 6,
+        "WIFI_VBAT_FB": 4,
+        "+3V3_PMU": 7,
+        "PMIC_INT_N": 4,
+        "WIFI_REG_ON": 6,
+        "PMIC_SDA": 5,
+        "WIFI_VBAT_SW": 6,
+        "RESET_N": 3,
+        "EXP_I2C_SDA": 6,
+        "EXP_I2C_SCL": 5,
+        "WIFI_VBAT_PG": 82
+      },
+      "score": [
+        0,
+        1,
+        6,
+        2,
+        17,
+        280
+      ]
+    }
+  ],
+  "mechanically_eligible": 399,
+  "new_drc": [
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "19195ec5-88ef-426a-8e6d-cc471849e48f"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "290d3c16-2f40-463f-8330-7970d5983b7a"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "2ce710e4-8520-4802-ab63-2c29f3dd19bb"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "40b80c0d-bc8a-4c1b-814e-2423efb12b9e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "51b609f2-cf8d-452d-b04a-a0e0a2458187"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "5b9e0cd4-2b0d-47cb-ad23-c55198279c9c"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "6cb2b3c0-d163-41cf-8929-f3ce8dcc314a"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "82601d39-a3f7-4a4c-a0ce-8f038ae21e0c"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "9d29a3c0-e925-4881-b0e2-4d97c4fd57b1"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "ac2462ac-f832-4af3-993b-2fdcc7f02656"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "ac57cef9-99a8-4bc9-b2a8-1a7b982c4c49"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "d35de5b8-fa08-4b07-a789-68057741271a"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "da48fbad-6343-4b69-ae61-cf0b37b403ee"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "db650435-b81f-46eb-98d6-8002758e7405"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "dc746565-7364-411a-8135-30d5c637ccd7"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "eb3ca9d2-a845-4065-a558-1b5d19f9cebb"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "10623fc2-76e1-456a-9b5b-1c0509a40e9a"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "1b395697-f31f-4f43-848c-6a0fb6547736"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "3f89f004-937c-4612-9af0-70cbbd7062d6"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "4ee8af9c-f342-4d97-8822-18fe7f6b03c4"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "6c1a54ad-cdb6-482b-87c1-241b349c583d"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "90d00bc8-d7fe-4f89-b735-0f7fa45056d5"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "9936630d-96c4-4361-9f08-de66f25c64a3"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "b8c5883c-686b-4f13-98b8-1b82843690f7"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "e2e5bd9e-af6e-481f-b50a-9fd58cea8a5d"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "ff4d62fe-2ca7-4038-81a0-bf0f44898ecd"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "02ec7851-f0d0-456a-9c1e-e4697b41b4d4"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "911b0f10-1531-46eb-af2e-4a6341dfe42a"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "446171a7-93e3-47d0-b92e-83918eba66f2"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "04aa0175-5ba7-4b44-a0a4-803c1302e8d3"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "3628b4ca-26a7-49b9-b8b7-5c96f834c428"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "3bacf690-75dd-40cf-823c-a3333c598997"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "e9cd4661-360a-4ec7-a73a-ab0fbb010083"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "eefa9a86-c9b7-4e77-a400-1ba7f432816d"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "f2716bf8-c905-47b4-8581-59cc901be584"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "13232bb5-da8e-437b-a61b-f979851cb996"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "70b4c468-23c7-4344-b2fb-f2bc59bdbc53"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "d56bd372-932c-4821-99f0-d7d9a1c4533e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "7f795c89-b69e-4ef8-a6a2-66d6eb21528a"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "09c9ad0f-2b5d-42df-9f0f-1a246135bc6c"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "2524076a-6761-46b2-93ef-8f9a4c028b0a"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "2b0c6b06-19de-4a2b-be27-833fde372593"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "2c194b43-8524-45e2-bda0-3e5b35afc6e9"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "74422296-b098-4132-b592-f14877ae38b6"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "7841240e-8cea-4a24-977e-c51ecc48e1bc"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "7cddbf74-a3d0-4bbd-8f7d-38571b60bb52"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "873dfca7-e737-4dc6-96bd-68a6a387cdef"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "a4b9f1db-6f3e-4ea2-9101-e0071a7b8efb"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "b6ea6466-a5f7-483b-878c-ad7371ca2163"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "e7c9882c-097a-41a9-ab9c-6d8c151802ac"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "c52995d0-0545-4bc8-b858-949361b0d699"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "de1bcb20-cb6b-4b46-8814-a50fea2b51d0"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "de5a20f3-8c81-4ed1-84a8-034eba3a3dab"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "0e18fe1c-914c-4059-a1b0-651848d6c951"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "5095902f-ed26-4f60-90f9-9c80b12b8801"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "98453d07-c920-486c-80e6-13b4a8be044e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "0e004bfd-af06-4ab3-944e-57be16370725"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "39be0d57-00e3-4589-8742-7e3b10b8d300"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "29a61133-9606-479c-8102-14e00cde4df0"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "67aa816e-a023-40db-8a03-e8ede266f5a1"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "f60eb14d-353d-454a-8bab-99c92d27df99"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "74a40448-9e64-48b5-8963-4b62e301e3ea"
+      ],
+      "count": 1
+    },
+    {
+      "type": "items_not_allowed",
+      "severity": "error",
+      "items": [
+        "f964380c-eafb-4fb5-9d4d-ff8fe967cdc3"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "41f7512e-6240-43a2-985b-ddc182f356d6",
+        "c024b400-bc46-4504-a86b-3f48ff2257e1"
+      ],
+      "count": 1
+    },
+    {
+      "type": "courtyards_overlap",
+      "severity": "error",
+      "items": [
+        "0714c5d4-deac-4d07-81d0-2742a9105f35",
+        "7ef3f472-6fd6-4c87-bde7-3fbf923c2d08"
+      ],
+      "count": 1
+    },
+    {
+      "type": "courtyards_overlap",
+      "severity": "error",
+      "items": [
+        "3e23bf3c-d8a7-4bae-b12c-7a534d0a522b",
+        "7ef3f472-6fd6-4c87-bde7-3fbf923c2d08"
+      ],
+      "count": 1
+    },
+    {
+      "type": "courtyards_overlap",
+      "severity": "error",
+      "items": [
+        "7ef3f472-6fd6-4c87-bde7-3fbf923c2d08",
+        "b21e359a-0958-495b-b3b9-80878e1512f1"
+      ],
+      "count": 1
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "items": [
+        "41f7512e-6240-43a2-985b-ddc182f356d6",
+        "c024b400-bc46-4504-a86b-3f48ff2257e1"
+      ],
+      "count": 1
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "items": [
+        "74e6b221-0c0e-4e0e-bcbb-7b8f997e0b81",
+        "c8f99940-d2bf-4197-80c0-d432f7e204a4"
+      ],
+      "count": 1
+    }
+  ],
+  "rf_face_restriction": "Only intentional antenna feed, matching network and floating support land may occupy this face; KiCad rule area excludes pours and vias. Existing unrelated traces/land occupancy is recorded by the screening.",
+  "land_centers_nm": {
+    "1": [
+      30675000,
+      38025000
+    ],
+    "2": [
+      39775000,
+      38025000
+    ]
+  },
+  "assembly_ready": false
+}

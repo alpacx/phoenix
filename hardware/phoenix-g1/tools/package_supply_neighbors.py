@@ -4,15 +4,17 @@ from pathlib import Path
 import pcbnew as p
 from audit_mount_component_reservations import screen
 from pcb_preservation import verify_preservation
+from pcb_bounds import inflated_box
 from drc_regression import introduced
 root=Path(__file__).resolve().parents[1]/'migration-rk3562/experiments/phy-power-parallel'
-extended='--bank-feeds' in sys.argv
+package_feeds='--package-feeds' in sys.argv
+extended='--bank-feeds' in sys.argv or package_feeds
 other_banks='--regulator-banks' in sys.argv or extended
 pullups='--emmc-pullups' in sys.argv
 diagonals='--diagonal-neighbors' in sys.argv
 aux='--peripheral-supplies' in sys.argv
 cap_bank='--cap-bank' in sys.argv or other_banks
-meta=json.loads((root/('layout-regulator-banks.json' if extended else 'layout-emmc-pullups.json' if other_banks else 'layout-usb-shell.json' if diagonals or pullups else 'layout-cap-bank.json' if aux else 'layout-adjacent-supplies.json' if cap_bank else 'layout-phy-pin40-powered.json')).read_text())
+meta=json.loads((root/('layout-bank-feeds.json' if package_feeds else 'layout-regulator-banks.json' if extended else 'layout-emmc-pullups.json' if other_banks else 'layout-usb-shell.json' if diagonals or pullups else 'layout-cap-bank.json' if aux else 'layout-adjacent-supplies.json' if cap_bank else 'layout-phy-pin40-powered.json')).read_text())
 src=root/meta['board']
 assert hashlib.sha256(src.read_bytes()).hexdigest()==meta['sha256']
 board=p.LoadBoard(str(src));board.BuildConnectivity()
@@ -32,6 +34,10 @@ if pullups:
     stage='emmc-pullup-supply'
     caps.extend(q for q in pads if q.GetNetname() in rails and q.GetParentFootprint().GetReference() in {'R8001','R8002','R8003','R8006'})
 if other_banks:stage='bank-feeds' if extended else 'regulator-banks'
+if package_feeds:
+    stage='package-feeds'
+    # Connect a grounded bypass to its supply land, keeping branches short.
+    caps.extend(q for q in pads if q.GetNetname() in rails and q.GetParentFootprint().GetReference().startswith('U'))
 records=[]
 for ref in (('front','back') if cap_bank or pullups else ('U1','U2','U8001')):
     chip=board.FindFootprintByReference(ref)
@@ -55,9 +61,12 @@ for ref in (('front','back') if cap_bank or pullups else ('U1','U2','U8001')):
                     if 0<d<=(4000000 if extended else 2800000 if other_banks else 3600000 if pullups else 940000 if diagonals else 1500000 if cap_bank else 660000):candidates.append((d,a,a,z))
         for _,cap,a,z in sorted(candidates,key=lambda k:k[0]):
             if z.m_Uuid.AsString() in group(a):continue
+            if package_feeds:
+                refs=[q.GetParentFootprint().GetReference()[0] for q in (a,z)]
+                if sorted(refs)!=['C','U']:continue
             u,v=a.GetPosition(),z.GetPosition();dx,dy=v-u
             d=min(abs(dx),abs(dy));step=p.VECTOR2I(int(math.copysign(d,dx)),int(math.copysign(d,dy)))
-            obs=[o.GetEffectiveShape(layer) for o in pads+list(board.GetTracks()) if o.IsOnLayer(layer) and o.GetNetCode()!=a.GetNetCode() and o.GetBoundingBox().Inflate(4800000 if extended else 4200000 if pullups or other_banks else 2200000).Contains(u)]
+            obs=[o.GetEffectiveShape(layer) for o in pads+list(board.GetTracks()) if o.IsOnLayer(layer) and o.GetNetCode()!=a.GetNetCode() and inflated_box(o,4800000 if extended else 4200000 if pullups or other_banks else 2200000).Contains(u)]
             for c in (u+step,v-step):
                 tracks=[]
                 for i,j in ((u,c),(c,v)):

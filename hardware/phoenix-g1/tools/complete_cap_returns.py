@@ -8,10 +8,11 @@ from audit_mount_component_reservations import screen
 
 root=Path(__file__).resolve().parents[1]/'migration-rk3562/experiments/phy-power-parallel'
 import sys
+island_barrels='--ground-island-barrels' in sys.argv
 peripheral_bga='--outer-bga-ground' in sys.argv
-compact='--core-interstitial' in sys.argv or peripheral_bga
+compact='--core-interstitial' in sys.argv or peripheral_bga or island_barrels
 core_ground='--core-ground' in sys.argv or compact
-core_stage='outer-bga-ground' if peripheral_bga else 'core-ground-interstitial' if compact else 'core-ground-barrels'
+core_stage='ground-island-barrels' if island_barrels else 'outer-bga-ground' if peripheral_bga else 'core-ground-interstitial' if compact else 'core-ground-barrels'
 peripheral='--peripheral-returns' in sys.argv
 packages='--perimeter-barrels' in sys.argv
 storage='--storage-ground' in sys.argv or packages
@@ -20,7 +21,7 @@ fixtures='--fixture-clocks' in sys.argv
 siblings='--grounded-pads' in sys.argv
 resistors='--resistors' in sys.argv
 reuse='--existing-vias' in sys.argv or siblings
-cp=json.loads((root/('layout-core-ground-mesh.json' if peripheral_bga else 'layout-all-ground-surface.json' if core_ground else 'ground-package-perimeter.json' if packages else 'layout-regulator-joint.json' if peripheral else 'emmc-rail-inputs.json' if storage else 'fixture-clocks-ground.json' if edges else 'res-returns-verified.json' if fixtures else 'cap-grounded-pads.json' if resistors else 'cap-existing-vias.json' if siblings else 'cap-returns-verified.json' if reuse else 'pmic-control-bus.json')).read_text());src=root/cp['board']
+cp=json.loads((root/('layout-island-mesh.json' if island_barrels else 'layout-core-ground-mesh.json' if peripheral_bga else 'layout-all-ground-surface.json' if core_ground else 'ground-package-perimeter.json' if packages else 'layout-regulator-joint.json' if peripheral else 'emmc-rail-inputs.json' if storage else 'fixture-clocks-ground.json' if edges else 'res-returns-verified.json' if fixtures else 'cap-grounded-pads.json' if resistors else 'cap-existing-vias.json' if siblings else 'cap-returns-verified.json' if reuse else 'pmic-control-bus.json')).read_text());src=root/cp['board']
 assert hashlib.sha256(src.read_bytes()).hexdigest()==cp['sha256']
 b=p.LoadBoard(str(src));b.BuildConnectivity()
 def anchor(board):return board.FindFootprintByReference('C511').FindPadByNumber('2')
@@ -44,8 +45,12 @@ for f in b.GetFootprints():
         if core_ground and not peripheral_bga and not q.GetNumber().startswith('1'):continue
         if peripheral_bga and f.GetReference()=='U1' and q.GetNumber().startswith('1'):continue
         if q.GetNetCode()==ref_ground.GetNetCode() and q.m_Uuid.AsString() not in connected:
+            if island_barrels:
+                members={k.m_Uuid.AsString() for k in b.GetConnectivity().GetConnectedItems(q)}
+                if sum(k.m_Uuid.AsString() in members for k in f.Pads())<2:continue
             candidates.append((f.GetReference(),q.GetNumber(),f.GetLayer()))
-offsets=sorted(((x*50000,y*50000) for x in range(-19,20) for y in range(-19,20) if 0<x*x+y*y<=19**2),key=lambda v:math.hypot(*v))
+radius=33 if island_barrels else 19
+offsets=sorted(((x*50000,y*50000) for x in range(-radius,radius+1) for y in range(-radius,radius+1) if 0<x*x+y*y<=radius**2),key=lambda v:math.hypot(*v))
 accepted=[];held=[];current=src
 for ref,num,layer in sorted(candidates):
     q=b.FindFootprintByReference(ref).FindPadByNumber(num);a=q.GetPosition();net=q.GetNetCode()
@@ -56,8 +61,8 @@ for ref,num,layer in sorted(candidates):
         ymin,ymax=min(k.y for k in balls)-350000,max(k.y for k in balls)+350000
         if xmin+350000<a.x<xmax-350000 and ymin+350000<a.y<ymax-350000:
             continue
-    pads=[k for f in b.GetFootprints() for k in f.Pads() if k.GetBoundingBox().Inflate(1800000).Contains(a)]
-    tracks=[k for k in b.GetTracks() if k.GetBoundingBox().Inflate(1800000).Contains(a)]
+    pads=[k for f in b.GetFootprints() for k in f.Pads() if k.GetBoundingBox().Inflate(2900000 if island_barrels else 1800000).Contains(a)]
+    tracks=[k for k in b.GetTracks() if k.GetBoundingBox().Inflate(2900000 if island_barrels else 1800000).Contains(a)]
     shapes={l:[k.GetEffectiveShape(l) for k in pads+tracks if k.GetNetCode()!=net and k.IsOnLayer(l)] for l in layers}
     t=p.PCB_TRACK(b);t.SetStart(a);t.SetWidth(300000);t.SetLayer(layer);t.SetNetCode(net)
     v=p.PCB_VIA(b);v.SetWidth(600000);v.SetDrill(300000);v.SetViaType(p.VIATYPE_THROUGH);v.SetLayerPair(p.F_Cu,p.B_Cu);v.SetNetCode(net)
@@ -71,7 +76,7 @@ for ref,num,layer in sorted(candidates):
     if siblings:
         sites=sorted([(k.GetPosition().x-a.x,k.GetPosition().y-a.y) for k in pads if k.IsOnLayer(layer) and k.m_Uuid.AsString() in connected and math.dist(tuple(k.GetPosition()),tuple(a))<=1000000],key=lambda off:math.hypot(*off))
     starts=[a]
-    if peripheral:
+    if peripheral or island_barrels:
         box=q.GetBoundingBox()
         starts=[p.VECTOR2I(round(box.GetLeft()+fx*box.GetWidth()),round(box.GetTop()+fy*box.GetHeight())) for fx in (.5,.15,.85) for fy in (.5,.15,.85)]
         starts=[start for start in starts if q.HitTest(start)]

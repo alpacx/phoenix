@@ -1,0 +1,100 @@
+{
+  "parent_sha256": "bab072834f8f2e1593ecd159477ec43c0ba686aaf6beb28f38c074c022f4c341",
+  "target_nm": [
+    55812500,
+    23600000
+  ],
+  "placement": {
+    "F.Cu": {
+      "oscillator_poses": [
+        {
+          "pos": [
+            41000000,
+            8000000
+          ],
+          "angle": 90,
+          "series": 0,
+          "bypass": 0
+        },
+        {
+          "pos": [
+            41000000,
+            9000000
+          ],
+          "angle": 90,
+          "series": 0,
+          "bypass": 0
+        },
+        {
+          "pos": [
+            42000000,
+            8000000
+          ],
+          "angle": 90,
+          "series": 0,
+          "bypass": 0
+        },
+        {
+          "pos": [
+            42000000,
+            9000000
+          ],
+          "angle": 90,
+          "series": 0,
+          "bypass": 0
+        },
+        {
+          "pos": [
+            41000000,
+            8000000
+          ],
+          "angle": 270,
+          "series": 0,
+          "bypass": 0
+        },
+        {
+          "pos": [
+            41000000,
+            9000000
+          ],
+          "angle": 270,
+          "series": 0,
+          "bypass": 0
+        },
+        {
+          "pos": [
+            42000000,
+            8000000
+          ],
+          "angle": 270,
+          "series": 0,
+          "bypass": 0
+        },
+        {
+          "pos": [
+            42000000,
+            9000000
+          ],
+          "angle": 270,
+          "series": 0,
+          "bypass": 0
+        }
+      ],
+      "stage_counts": {
+        "courtyard_only": 128,
+        "oscillator_clear": 8
+      },
+      "valid": 0,
+      "best": []
+    },
+    "B.Cu": {
+      "oscillator_poses": [],
+      "stage_counts": {
+        "courtyard_only": 408
+      },
+      "valid": 0,
+      "best": []
+    }
+  },
+  "assembly_ready": false
+}

@@ -1,0 +1,49 @@
+{
+  "parent_sha256": "9de9698380a227da65df97d60be822dcdccaa2ac8b91fdf6a030dd58dfebfa06",
+  "rows": [
+    {
+      "ref": "R528",
+      "pin": "33",
+      "west_toe_nm": [
+        59850000,
+        30350000
+      ],
+      "west_blockers": [
+        [
+          "PHY_SW",
+          "f1dd6464-b754-4958-8b4d-81fe96a54b71"
+        ],
+        [
+          "PHY_SW",
+          "L501.1"
+        ]
+      ],
+      "launches": 1,
+      "reachable": 54,
+      "stats": {},
+      "best": []
+    },
+    {
+      "ref": "R529",
+      "pin": "34",
+      "west_toe_nm": [
+        59850000,
+        30400000
+      ],
+      "west_blockers": [
+        [
+          "PHY_SW",
+          "f1dd6464-b754-4958-8b4d-81fe96a54b71"
+        ],
+        [
+          "PHY_SW",
+          "L501.1"
+        ]
+      ],
+      "launches": 1,
+      "reachable": 53,
+      "stats": {},
+      "best": []
+    }
+  ]
+}

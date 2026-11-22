@@ -1,0 +1,50 @@
+{
+  "parent_sha256": "db84d12e36a96084efe16e5372fd6e522467ecf3c4163b05e52add5287399dc9",
+  "candidate": {
+    "board": "runs/usb-enable-aon-fanout/phy-joint.kicad_pcb",
+    "sha256": "b2f37d100ac6e3d818aac8531b13e7bc413028ba252af3ed8ceb242443fb0292",
+    "via_uuid": "68f4b8b2-fa64-492b-b4fa-21388fa3b8a6",
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 6749,
+      "explicitly_replaced_copper": {
+        "03cfdf46-4da6-49b4-93f5-da1a296aa0ce": [
+          "AON_READY",
+          0,
+          20150000,
+          15850000,
+          20150000,
+          22350000,
+          200000,
+          null
+        ]
+      },
+      "added_tracks_vias": 24,
+      "existing_connected_pad_groups_preserved": 113
+    }
+  },
+  "attempts": [
+    {
+      "via_nm": [
+        19775000,
+        20400000
+      ],
+      "recovery": {
+        "width": 200000,
+        "code": 7,
+        "length_mm": 6.644974746830585
+      },
+      "new_drc": [
+        {
+          "type": "via_dangling",
+          "severity": "warning",
+          "items": [
+            "68f4b8b2-fa64-492b-b4fa-21388fa3b8a6"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "assembly_ready": false
+}

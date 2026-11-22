@@ -1,0 +1,35 @@
+{
+  "board_sha256": "99da0bdc6abdb4e8a12ebcc3c3b38afa472c970184b7599ed83750c8ff9a185f",
+  "search_limit_mm": 2.4,
+  "grid_mm": 0.05,
+  "geometry_margin_mm": 0.001,
+  "capacitors": {
+    "C422": {
+      "width_mm": 0.6,
+      "reachable": [],
+      "cells": 1830
+    },
+    "C431": {
+      "width_mm": 0.6,
+      "reachable": [],
+      "cells": 2028
+    },
+    "C432": {
+      "width_mm": 0.6,
+      "reachable": [
+        {
+          "uuid": "8666cf98-6292-4929-a163-b36f07451882",
+          "path_mm": 2.0717008732545805
+        }
+      ],
+      "cells": 976
+    },
+    "C470": {
+      "width_mm": 0.3,
+      "reachable": [],
+      "cells": 2094
+    }
+  },
+  "qualified": false,
+  "assembly_ready": false
+}

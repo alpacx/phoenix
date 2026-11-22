@@ -1,0 +1,73 @@
+{
+  "parent_sha256": "8b45be4128e7a7947b46b779706005491c2b282e1b85653fe9b44f593a307822",
+  "width_mm": 0.5,
+  "grid_mm": 0.05,
+  "limit_mm": 8.0,
+  "steps": [
+    {
+      "ref": "C1663",
+      "source_land_sites": 87,
+      "target_land_sites": 772,
+      "cells": 9542,
+      "path_nm": null
+    },
+    {
+      "ref": "C1669",
+      "source_land_sites": 34,
+      "target_land_sites": 772,
+      "cells": 1940,
+      "path_nm": [
+        [
+          20580000,
+          24500000
+        ],
+        [
+          21050000,
+          24500000
+        ],
+        [
+          21100000,
+          24450000
+        ],
+        [
+          21400000,
+          24450000
+        ],
+        [
+          21650000,
+          24200000
+        ],
+        [
+          21650000,
+          24150000
+        ],
+        [
+          22400000,
+          23400000
+        ],
+        [
+          22380000,
+          23400000
+        ]
+      ]
+    },
+    {
+      "ref": "C1663",
+      "source_land_sites": 87,
+      "target_land_sites": 830,
+      "cells": 9542,
+      "path_nm": null
+    }
+  ],
+  "board": "runs/memory-bank-rear-taps/phy-joint.kicad_pcb",
+  "sha256": "93f44cdd8b3fa5cebdd76ed1ecf90b3e2ed55e865c6e27f936730a2940132a82",
+  "new_drc": [],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 7009,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 7,
+    "existing_connected_pad_groups_preserved": 122
+  },
+  "mounts": []
+}

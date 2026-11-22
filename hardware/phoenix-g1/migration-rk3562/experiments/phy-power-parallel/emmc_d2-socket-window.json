@@ -1,0 +1,166 @@
+{
+  "parent_sha256": "4434879e3c5aba8f62a14b22c930fe42c80bdd23b63bbb90926d7abff49eb7c5",
+  "surface": "B.Cu",
+  "pin": "U8001.A5",
+  "width_mm": 0.2,
+  "grid_mm": 0.025,
+  "via_mm": [
+    0.45,
+    0.2
+  ],
+  "ground_relief": false,
+  "ground_via_relief": false,
+  "existing_tracks_and_vias_included": true,
+  "single_obstacle_candidates": [],
+  "reachable_positions": 164,
+  "farthest_mm": 0.48541219597368995,
+  "sites": [],
+  "via_obstacles": [
+    {
+      "names": [
+        "EXP_GPIO1",
+        "LPDDR4_DM1_A",
+        "source pad"
+      ],
+      "positions": 3
+    },
+    {
+      "names": [
+        "EMMC_D0",
+        "EXP_GPIO1",
+        "U8001.A6",
+        "source pad"
+      ],
+      "positions": 17
+    },
+    {
+      "names": [
+        "EXP_GPIO1",
+        "LPDDR4_DM1_A",
+        "U8001.A6",
+        "source pad"
+      ],
+      "positions": 17
+    },
+    {
+      "names": [
+        "EMMC_D0",
+        "EXP_GPIO1",
+        "U8001.A4",
+        "source pad"
+      ],
+      "positions": 13
+    },
+    {
+      "names": [
+        "EXP_GPIO1",
+        "LPDDR4_DM1_A",
+        "LPDDR4_DQ15_A",
+        "U8001.A6"
+      ],
+      "positions": 10
+    },
+    {
+      "names": [
+        "EMMC_D0",
+        "EXP_GPIO1",
+        "LPDDR4_DM1_A",
+        "source pad"
+      ],
+      "positions": 2
+    },
+    {
+      "names": [
+        "EXP_GPIO1",
+        "LPDDR4_DM1_A",
+        "U8001.A4",
+        "source pad"
+      ],
+      "positions": 1
+    },
+    {
+      "names": [
+        "EMMC_D0",
+        "EXP_GPIO1",
+        "LPDDR4_DM1_A",
+        "U8001.A4",
+        "source pad"
+      ],
+      "positions": 25
+    },
+    {
+      "names": [
+        "EMMC_D0",
+        "EXP_GPIO1",
+        "U8001.A4",
+        "U8001.A6",
+        "source pad"
+      ],
+      "positions": 13
+    },
+    {
+      "names": [
+        "EMMC_D0",
+        "EXP_GPIO1",
+        "LPDDR4_DM1_A",
+        "U8001.A6",
+        "source pad"
+      ],
+      "positions": 13
+    },
+    {
+      "names": [
+        "EMMC_D0",
+        "EXP_GPIO1",
+        "U8001.A4",
+        "U8001.B5",
+        "source pad"
+      ],
+      "positions": 8
+    },
+    {
+      "names": [
+        "EMMC_D0",
+        "EXP_GPIO1",
+        "U8001.A6",
+        "U8001.B5",
+        "source pad"
+      ],
+      "positions": 8
+    },
+    {
+      "names": [
+        "EXP_GPIO1",
+        "LPDDR4_DM1_A",
+        "LPDDR4_DQ15_A",
+        "U8001.A6",
+        "source pad"
+      ],
+      "positions": 7
+    },
+    {
+      "names": [
+        "EMMC_D0",
+        "EXP_GPIO1",
+        "U8001.A4",
+        "U8001.A6",
+        "U8001.B5",
+        "source pad"
+      ],
+      "positions": 25
+    },
+    {
+      "names": [
+        "EMMC_D0",
+        "EXP_GPIO1",
+        "LPDDR4_DM1_A",
+        "U8001.A4",
+        "U8001.A6",
+        "source pad"
+      ],
+      "positions": 2
+    }
+  ],
+  "assembly_ready": false,
+  "source_sha256": "4434879e3c5aba8f62a14b22c930fe42c80bdd23b63bbb90926d7abff49eb7c5"
+}

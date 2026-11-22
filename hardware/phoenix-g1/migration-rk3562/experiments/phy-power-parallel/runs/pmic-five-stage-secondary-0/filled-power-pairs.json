@@ -1,0 +1,1029 @@
+{
+  "parent_sha256": "b2404b8fa4f7435da3867a99f720319da77ca925b614282fc1977de290752d98",
+  "rows": [
+    {
+      "ref": "C421",
+      "pad": "1",
+      "net": "+3V3_SYS",
+      "checked": 364,
+      "best": {
+        "vias_nm": [
+          [
+            59450000,
+            5190000
+          ],
+          [
+            58850000,
+            5490000
+          ]
+        ],
+        "blockers": [
+          [
+            "039883e0-835c-47b5-abe6-9aadcb8c73f8",
+            "EXP_GPIO1",
+            "In2.Cu"
+          ],
+          [
+            "123e1ee7-8326-4c94-8fc9-2d42268c32e1",
+            "PMIC_SW1",
+            "F.Cu"
+          ],
+          [
+            "93337e6d-585b-4281-ae7a-5ace479463d3",
+            "EXP_SPI_CS0_N",
+            "In3.Cu"
+          ],
+          [
+            "U4.12",
+            "PMIC_SW1",
+            "F.Cu"
+          ],
+          [
+            "U4.13",
+            "VDD_LOGIC_COM",
+            "F.Cu"
+          ]
+        ]
+      }
+    },
+    {
+      "ref": "C421",
+      "pad": "2",
+      "net": "GND",
+      "checked": 364,
+      "best": {
+        "vias_nm": [
+          [
+            59450000,
+            3290000
+          ],
+          [
+            58850000,
+            3290000
+          ]
+        ],
+        "blockers": [
+          [
+            "15e4e6b0-951e-44ba-adbf-dd9c54a136bd",
+            "PMIC_SW1",
+            "F.Cu"
+          ],
+          [
+            "2199365b-633b-46fd-ac21-f44322389692",
+            "+1V8_SYS",
+            "F.Cu"
+          ],
+          [
+            "2ffc605b-7d93-4b82-951c-7ec4933220e1",
+            "PMIC_SW1",
+            "F.Cu"
+          ],
+          [
+            "33ad9635-8636-4ec3-aaf2-7971cd1c6365",
+            "PMIC_SW1",
+            "F.Cu"
+          ],
+          [
+            "35951d45-3d1c-4d8d-9812-98aab4168446",
+            "PMIC_SW1",
+            "F.Cu"
+          ],
+          [
+            "49af1c11-59f8-4c12-bdb0-a67b7ef1bd22",
+            "PMIC_SW1",
+            "F.Cu"
+          ],
+          [
+            "5feaaa99-bd1c-4315-9446-0aee50408725",
+            "PMIC_SW1",
+            "F.Cu"
+          ],
+          [
+            "63653fe5-45ea-43ea-8c22-d14ec6811559",
+            "PMIC_SW1",
+            "F.Cu"
+          ],
+          [
+            "6cb9fdaf-d147-4d2b-a5b9-5cb45f451849",
+            "PMIC_SW1",
+            "F.Cu"
+          ],
+          [
+            "74384b6c-ff13-4f8f-82e4-c19e669d08db",
+            "+1V8_SYS",
+            "F.Cu"
+          ],
+          [
+            "L401.1",
+            "PMIC_SW1",
+            "F.Cu"
+          ],
+          [
+            "a9abbf74-2d98-4a79-8c6d-a33834a28931",
+            "PMIC_SW1",
+            "F.Cu"
+          ],
+          [
+            "af30f817-b597-4c49-9c23-0487d6c23557",
+            "+1V8_SYS",
+            "F.Cu"
+          ],
+          [
+            "b30e3231-54aa-4f1f-b134-0cd83e18df95",
+            "PMIC_SW1",
+            "F.Cu"
+          ],
+          [
+            "c021f161-8762-4ebb-9de3-2b278b2767c8",
+            "+1V8_SYS",
+            "F.Cu"
+          ],
+          [
+            "c2cc3f0b-f66f-4a7e-a076-18d668118a4d",
+            "PMIC_SW1",
+            "F.Cu"
+          ],
+          [
+            "d1d2a988-b6f3-4eac-b8fa-dc09fda38749",
+            "+1V8_SYS",
+            "F.Cu"
+          ],
+          [
+            "e5bba6e4-a5bc-4807-b2ca-958d9d2c0347",
+            "PMIC_SW1",
+            "F.Cu"
+          ],
+          [
+            "e5f976f1-5658-48bf-b5f8-edbcc6003eb2",
+            "PMIC_SW1",
+            "F.Cu"
+          ],
+          [
+            "e78d91c7-62a5-46b1-a75e-d9d7768093c7",
+            "PMIC_SW1",
+            "F.Cu"
+          ],
+          [
+            "fab0d469-9a91-48a7-8da8-4c603d30ac2f",
+            "PMIC_SW1",
+            "F.Cu"
+          ],
+          [
+            "fd267ed4-0f56-4ab2-a02e-e89f1395114f",
+            "PMIC_SW1",
+            "F.Cu"
+          ]
+        ]
+      }
+    },
+    {
+      "ref": "C431",
+      "pad": "2",
+      "net": "GND",
+      "checked": 364,
+      "best": {
+        "vias_nm": [
+          [
+            57525000,
+            5965000
+          ],
+          [
+            56700000,
+            5590000
+          ]
+        ],
+        "blockers": []
+      }
+    },
+    {
+      "ref": "C422",
+      "pad": "1",
+      "net": "+3V3_SYS",
+      "checked": 364,
+      "best": {
+        "vias_nm": [
+          [
+            61850000,
+            4240000
+          ],
+          [
+            61625000,
+            4840000
+          ]
+        ],
+        "blockers": [
+          [
+            "11b150c3-0ddb-40ab-b60b-fc5331dbf017",
+            "+3V3_IO",
+            "In2.Cu"
+          ],
+          [
+            "22793b4e-0ffa-40fa-aa76-0df595bd3db2",
+            "EXP_SPI_CLK",
+            "In3.Cu"
+          ],
+          [
+            "327c34a2-ca42-4655-b1d1-3efaa9d64af6",
+            "EXP_GPIO0",
+            "In2.Cu"
+          ],
+          [
+            "348336f9-6d02-432d-a8a5-f14ba39088cf",
+            "EXP_SPI_CLK",
+            "In3.Cu"
+          ],
+          [
+            "4d67164c-a277-4b02-83de-1da2cd708fd0",
+            "EXP_GPIO0",
+            "In2.Cu"
+          ],
+          [
+            "L402.1",
+            "PMIC_SW2",
+            "F.Cu"
+          ],
+          [
+            "a1866bf9-eb58-4609-95dc-a66a10510798",
+            "+3V3_IO",
+            "In2.Cu"
+          ],
+          [
+            "acdf0bc4-9131-48f4-a83e-63d7c7a65ade",
+            "EXP_GPIO0",
+            "In2.Cu"
+          ],
+          [
+            "dd9a29eb-ce51-4a07-b8b1-02a4ca721091",
+            "+3V3_IO",
+            "F.Cu"
+          ],
+          [
+            "e7969fb9-4d0f-4b4d-8fa1-4d3dce16bb40",
+            "EXP_GPIO0",
+            "In2.Cu"
+          ]
+        ]
+      }
+    },
+    {
+      "ref": "C422",
+      "pad": "2",
+      "net": "GND",
+      "checked": 364,
+      "best": {
+        "vias_nm": [
+          [
+            63525000,
+            4840000
+          ],
+          [
+            63375000,
+            4015000
+          ]
+        ],
+        "blockers": [
+          [
+            "02fe1ae5-dfdc-48be-b989-3b91cadab76e",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "11b150c3-0ddb-40ab-b60b-fc5331dbf017",
+            "+3V3_IO",
+            "In2.Cu"
+          ],
+          [
+            "1b8a0400-dac4-4f75-9714-e406eb1f1a89",
+            "+3V3_IO",
+            "In2.Cu"
+          ],
+          [
+            "21a766ea-9573-4e04-8535-07550a0226e1",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "3e8ddfe0-97b8-4e28-a243-873b3db84eed",
+            "+3V3_IO",
+            "In2.Cu"
+          ],
+          [
+            "3ec70899-1ba1-4c24-b30d-aa7989259e93",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "42606919-71c2-4158-a37b-40871db2e310",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "5543923b-2f16-41c2-a6bd-1d78a6d7d9ca",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "5afd3ed9-d567-4ce2-949a-fb4a19552b7f",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "62888136-7ef1-4361-888e-5cf796c0a4c3",
+            "+3V3_IO",
+            "In2.Cu"
+          ],
+          [
+            "79cf8e92-dd20-4c9d-97ad-cb62bd99f124",
+            "+3V3_IO",
+            "In2.Cu"
+          ],
+          [
+            "J3.2",
+            "+5V_ADDON",
+            "F.Cu"
+          ],
+          [
+            "J3.MP2",
+            "",
+            "F.Cu"
+          ],
+          [
+            "a1728635-d15e-4d3d-ad52-a9cb3f3f449a",
+            "+3V3_IO",
+            "In2.Cu"
+          ],
+          [
+            "a940b884-6fdd-4428-bc5a-acbcd7e0e872",
+            "+3V3_IO",
+            "In2.Cu"
+          ],
+          [
+            "b605cc19-edef-44fb-91df-e83db65ac29c",
+            "+3V3_IO",
+            "In2.Cu"
+          ],
+          [
+            "b6a2a81c-14ba-4bdf-ba31-f95e78785298",
+            "+5V_ADDON",
+            "F.Cu"
+          ],
+          [
+            "bd2e4420-45c4-44f1-bd3f-04663c2c669c",
+            "+5V_ADDON",
+            "F.Cu"
+          ],
+          [
+            "c1f3ba06-a8da-4937-8ec6-5548539f4bb7",
+            "+3V3_IO",
+            "In2.Cu"
+          ],
+          [
+            "c31289f1-1457-4e93-b0d0-358d1c73df22",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "cbfb5212-e224-4f1f-b970-989518971170",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "e1462185-b87d-4b51-aa7e-ac5ab00120b2",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "e7969fb9-4d0f-4b4d-8fa1-4d3dce16bb40",
+            "EXP_GPIO0",
+            "In2.Cu"
+          ]
+        ]
+      }
+    },
+    {
+      "ref": "C432",
+      "pad": "2",
+      "net": "GND",
+      "checked": 364,
+      "best": {
+        "vias_nm": [
+          [
+            63400000,
+            1915000
+          ],
+          [
+            63100000,
+            2440000
+          ]
+        ],
+        "blockers": [
+          [
+            "0975444a-21fd-4ce9-98af-59655fb9fcfd",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "26741859-6f28-4132-90da-5caa2a3aee96",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "2c80a011-0a4a-4501-bd07-55480f2b0b6c",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "2cd877eb-fec2-4a35-ad2d-5f8eb64a59a9",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "3527f125-3eac-4745-87d8-2ff33aad53ff",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "3a78ef28-ba48-4a01-afab-480b4c0e782e",
+            "+5V_ADDON",
+            "F.Cu"
+          ],
+          [
+            "40ef2d35-2372-4cdb-8978-3caf12b77df7",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "42a5a95d-2b57-4b9e-bf0c-cf39ac459537",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "470252ac-5f8a-4141-a29c-4d28ea47d964",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "48015a02-a917-469c-bcbd-3cc753b4ab43",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "54b9f887-e933-44c4-b097-e191a4352447",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "593696a6-b167-4065-93b0-49bf518ca071",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "61d4f120-7635-4477-835e-f663ab1919ea",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "63256cb1-32c6-4389-92f4-2170035c6943",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "65e4ef67-21af-4e83-b7da-33361ee5d677",
+            "+5V_ADDON",
+            "F.Cu"
+          ],
+          [
+            "678b15b0-2fd0-4fc7-8398-65ab9733d92b",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "6b744f27-0618-4dab-b929-c02535253f72",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "71647aa0-3204-45ac-a110-239fd64539a7",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "761dd065-8a2a-4e6e-ab81-c94103b3630d",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "7dbc8c5c-8280-4427-bcca-dc45ae88267c",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "87485db0-83b3-41f5-a55a-2481f2a5e35f",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "8ec0f22c-6cef-4598-a856-162c92e4e782",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "903cb1b8-e9ad-4b0f-b762-55ff0460faf5",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "9a2ec3f1-4886-4304-8864-7582be0839a3",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "a1999893-701a-444b-959e-8dc8866d1096",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "a7f8fa41-3f67-4324-9ca2-be19a187c9a5",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "a92d1fa8-71c1-4f5d-9e7c-6303f062edac",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "ae45b4dd-ad8b-41d2-a095-44e9c5ff381c",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "bd5380c6-879a-420a-a5e0-3d40efdf9d1e",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "c0e86bc7-a327-4cbe-a917-5c233ec6768d",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "cc449a98-8d9c-4fd5-82f0-522794042351",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "d02c9d54-10bb-4599-b38d-c19c6310c92a",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "de4c1e56-d7f2-4028-8ef4-f694f0851810",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "e714f735-5528-462d-97cc-fd726e40df1b",
+            "+5V_ADDON",
+            "In3.Cu"
+          ],
+          [
+            "fca487d5-984a-4723-9005-f9493307936e",
+            "+5V_ADDON",
+            "In3.Cu"
+          ]
+        ]
+      }
+    },
+    {
+      "ref": "C423",
+      "pad": "1",
+      "net": "+3V3_SYS",
+      "checked": 364,
+      "best": {
+        "vias_nm": [
+          [
+            56365000,
+            10575000
+          ],
+          [
+            55840000,
+            10275000
+          ]
+        ],
+        "blockers": [
+          [
+            "1a894cdc-f34b-4f44-961e-ea6d7ca7538a",
+            "EXP_I2C_SCL",
+            "In3.Cu"
+          ],
+          [
+            "2958d4e3-b282-4a4d-8773-5e2ae23948b7",
+            "EXP_I2C_SCL",
+            "In3.Cu"
+          ],
+          [
+            "2ad66e6f-204a-4f45-8d3b-df80f5ec202f",
+            "EXP_I2C_SCL",
+            "In3.Cu"
+          ],
+          [
+            "3592ef67-f438-4f56-bb66-b8f8f755403f",
+            "EXP_I2C_SCL",
+            "In3.Cu"
+          ],
+          [
+            "448c1e1d-3d95-4ed4-b59a-9489e6f376a4",
+            "EXP_I2C_SCL",
+            "In3.Cu"
+          ],
+          [
+            "58c60dce-5a91-4588-bebd-28e2364dc2f8",
+            "EXP_I2C_SCL",
+            "In3.Cu"
+          ],
+          [
+            "8504103a-edad-4d52-8f50-e5d77ed8cc71",
+            "EXP_SPI_CLK",
+            "In3.Cu"
+          ],
+          [
+            "872634e7-ad77-47ed-8198-5c918c0654aa",
+            "EXP_I2C_SCL",
+            "In3.Cu"
+          ],
+          [
+            "91f0efa3-ca07-40fd-bb4c-6bc343b826a0",
+            "EXP_I2C_SCL",
+            "In3.Cu"
+          ],
+          [
+            "U4.31",
+            "+3V3_PMU",
+            "F.Cu"
+          ],
+          [
+            "a7cf4e3c-82d6-4e17-8009-22f9c4cef11b",
+            "EXP_I2C_SCL",
+            "In3.Cu"
+          ],
+          [
+            "ac550cf9-ce33-4626-9a16-d709c861b66c",
+            "EXP_I2C_SCL",
+            "In3.Cu"
+          ],
+          [
+            "b393408d-5fc5-481e-ab5b-f871895590d3",
+            "EXP_I2C_SCL",
+            "In3.Cu"
+          ],
+          [
+            "b6d90a56-1cf6-41c9-b3c4-b98932e94724",
+            "EXP_I2C_SCL",
+            "In3.Cu"
+          ],
+          [
+            "b7332b63-6f70-4dbb-9c16-5ac42704c496",
+            "EXP_I2C_SCL",
+            "In3.Cu"
+          ],
+          [
+            "e324053e-0dba-4941-afae-8e243587aadd",
+            "EXP_SPI_CS0_N",
+            "In3.Cu"
+          ],
+          [
+            "e62033d9-e061-4eaa-99e3-b82a66ea544d",
+            "EXP_I2C_SCL",
+            "In3.Cu"
+          ]
+        ]
+      }
+    },
+    {
+      "ref": "C423",
+      "pad": "2",
+      "net": "GND",
+      "checked": 364,
+      "best": {
+        "vias_nm": [
+          [
+            56365000,
+            12475000
+          ],
+          [
+            55540000,
+            12175000
+          ]
+        ],
+        "blockers": [
+          [
+            "e005d37e-27fa-41b7-9868-b245c69ee3ec",
+            "+3V3_IO",
+            "In2.Cu"
+          ]
+        ]
+      }
+    },
+    {
+      "ref": "C433",
+      "pad": "2",
+      "net": "GND",
+      "checked": 364,
+      "best": {
+        "vias_nm": [
+          [
+            53865000,
+            11450000
+          ],
+          [
+            53340000,
+            11825000
+          ]
+        ],
+        "blockers": [
+          [
+            "1e482073-849f-403d-a743-4471acc7aea7",
+            "+3V3_SYS",
+            "In4.Cu"
+          ],
+          [
+            "b3f426e7-4433-47b6-bb3c-9a40287387be",
+            "EXP_GPIO0",
+            "In2.Cu"
+          ],
+          [
+            "ba99124c-9b41-46b9-aa4c-516dac965d9a",
+            "+3V3_SYS",
+            "In4.Cu"
+          ],
+          [
+            "e324053e-0dba-4941-afae-8e243587aadd",
+            "EXP_SPI_CS0_N",
+            "In3.Cu"
+          ],
+          [
+            "f218fe35-6b98-4a9f-8ada-1782983524f1",
+            "+3V3_SYS",
+            "In4.Cu"
+          ]
+        ]
+      }
+    },
+    {
+      "ref": "C424",
+      "pad": "1",
+      "net": "+3V3_SYS",
+      "checked": 364,
+      "best": {
+        "vias_nm": [
+          [
+            65610000,
+            5525000
+          ],
+          [
+            65235000,
+            6275000
+          ]
+        ],
+        "blockers": [
+          [
+            "0aa1c048-19c1-4993-be1d-7c4cae90a0c2",
+            "GND",
+            "B.Cu"
+          ]
+        ]
+      }
+    },
+    {
+      "ref": "C424",
+      "pad": "2",
+      "net": "GND",
+      "checked": 364,
+      "best": {
+        "vias_nm": [
+          [
+            67285000,
+            6275000
+          ],
+          [
+            67135000,
+            5525000
+          ]
+        ],
+        "blockers": [
+          [
+            "367afb12-261c-46cc-9214-cb320dbb335b",
+            "EXP_I2C_SCL",
+            "In3.Cu"
+          ],
+          [
+            "4d2c4d93-6260-48e3-948e-99ccdd8a0f34",
+            "EXP_I2C_SCL",
+            "In3.Cu"
+          ],
+          [
+            "7e841ed0-ad3b-4431-b822-abfb57cad1af",
+            "EXP_I2C_SCL",
+            "In3.Cu"
+          ],
+          [
+            "91a5f88f-b8e5-4134-a826-097675ce5606",
+            "EXP_I2C_SCL",
+            "In3.Cu"
+          ],
+          [
+            "9b01b780-8959-405f-893d-1579b8e21151",
+            "EXP_I2C_SCL",
+            "In3.Cu"
+          ],
+          [
+            "9be4ce51-10c4-43ce-81c1-2cdeefb7f000",
+            "EXP_I2C_SCL",
+            "In3.Cu"
+          ],
+          [
+            "a2647dfa-6fc6-40dd-871e-9a15d3dbfbc6",
+            "EXP_I2C_SCL",
+            "In3.Cu"
+          ],
+          [
+            "a3a24d1f-6055-4cfe-aa12-378460bc3650",
+            "EXP_I2C_SCL",
+            "In3.Cu"
+          ],
+          [
+            "c4bcb584-6c06-4323-a243-392438a71081",
+            "+3V3_IO",
+            "In2.Cu"
+          ],
+          [
+            "c71e7583-5d82-4d6c-874a-93ac37294ec9",
+            "EXP_I2C_SCL",
+            "In3.Cu"
+          ],
+          [
+            "d6a37b20-58ba-4929-a0e5-7724225d0e44",
+            "EXP_I2C_SCL",
+            "In3.Cu"
+          ],
+          [
+            "e2f2b2fe-99f6-473f-a415-c4be3ec735bd",
+            "EXP_I2C_SCL",
+            "In3.Cu"
+          ],
+          [
+            "e6c1cf80-b856-4d53-b041-d1f20d5dd22a",
+            "EXP_I2C_SCL",
+            "In3.Cu"
+          ],
+          [
+            "ee28208c-bea2-4d64-b988-0b1d33433b1c",
+            "EXP_I2C_SCL",
+            "In3.Cu"
+          ],
+          [
+            "f06d2a9a-c439-4303-9636-cae09041a3ef",
+            "EXP_I2C_SCL",
+            "In3.Cu"
+          ],
+          [
+            "f7745c3b-f6fe-4961-b222-8cc9bcc55f94",
+            "EXP_I2C_SCL",
+            "In3.Cu"
+          ]
+        ]
+      }
+    },
+    {
+      "ref": "C434",
+      "pad": "2",
+      "net": "GND",
+      "checked": 364,
+      "best": {
+        "vias_nm": [
+          [
+            69310000,
+            9300000
+          ],
+          [
+            68935000,
+            8475000
+          ]
+        ],
+        "blockers": [
+          [
+            "250f14e3-f80a-4aa3-b04e-a15b6695f912",
+            "GND",
+            "drill"
+          ],
+          [
+            "8373aecf-1954-4d35-956a-058d85777f75",
+            "GND",
+            "drill"
+          ]
+        ]
+      }
+    },
+    {
+      "ref": "C425",
+      "pad": "1",
+      "net": "+3V3_SYS",
+      "checked": 364,
+      "best": {
+        "vias_nm": [
+          [
+            62710000,
+            12550000
+          ],
+          [
+            62485000,
+            11725000
+          ]
+        ],
+        "blockers": [
+          [
+            "U4.50",
+            "",
+            "F.Cu"
+          ],
+          [
+            "U4.51",
+            "",
+            "F.Cu"
+          ],
+          [
+            "U4.69",
+            "GND",
+            "F.Cu"
+          ]
+        ]
+      }
+    },
+    {
+      "ref": "C425",
+      "pad": "2",
+      "net": "GND",
+      "checked": 364,
+      "best": {
+        "vias_nm": [
+          [
+            60660000,
+            11725000
+          ],
+          [
+            60510000,
+            12550000
+          ]
+        ],
+        "blockers": [
+          [
+            "U4.44",
+            "PMIC_1V8A",
+            "F.Cu"
+          ],
+          [
+            "U4.45",
+            "+3V3_SYS",
+            "F.Cu"
+          ],
+          [
+            "d83a6c7b-dbfa-454a-820b-86281294b112",
+            "+3V3_IO",
+            "In2.Cu"
+          ]
+        ]
+      }
+    },
+    {
+      "ref": "C435",
+      "pad": "2",
+      "net": "GND",
+      "checked": 364,
+      "best": {
+        "vias_nm": [
+          [
+            70210000,
+            11900000
+          ],
+          [
+            69835000,
+            11075000
+          ]
+        ],
+        "blockers": [
+          [
+            "5089c501-7558-4048-9738-611fed4d9a29",
+            "GND",
+            "drill"
+          ],
+          [
+            "de789877-cfac-416a-8c2d-ece7506865df",
+            "GND",
+            "drill"
+          ]
+        ]
+      }
+    }
+  ]
+}

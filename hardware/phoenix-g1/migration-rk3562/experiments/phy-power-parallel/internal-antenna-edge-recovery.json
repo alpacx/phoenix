@@ -1,0 +1,405 @@
+{
+  "sha256": "22e9735759bde9eb5efd281f10bfec697cf904e371706acb35b57fa5ede5c364",
+  "outline_nm": [
+    -25000,
+    -25000,
+    90025000,
+    40025000
+  ],
+  "step_mm": 0.25,
+  "ground_core_mm": [
+    11.6,
+    6.25
+  ],
+  "other_layer_envelope_mm": [
+    14.15,
+    7.4
+  ],
+  "fixed_mechanical_clear": 490,
+  "best": [
+    {
+      "side": "bottom",
+      "offset_mm": 75.75,
+      "mirror": true,
+      "component_refs": [
+        "C460",
+        "R417",
+        "C461",
+        "C413",
+        "C462",
+        "R415",
+        "R412",
+        "C415",
+        "C411",
+        "C414"
+      ],
+      "net_counts": {
+        "GND": 16,
+        "PMIC_INT_N": 1,
+        "PMIC_SDA": 1
+      },
+      "critical_nets": [],
+      "projection_fills": [
+        [
+          "In1.Cu",
+          "GND"
+        ],
+        [
+          "In4.Cu",
+          "GND"
+        ]
+      ],
+      "score": [
+        0,
+        0,
+        10,
+        18,
+        21426487.84215463
+      ]
+    },
+    {
+      "side": "bottom",
+      "offset_mm": 10.25,
+      "mirror": false,
+      "component_refs": [
+        "C1502",
+        "R1814",
+        "C1501",
+        "C1802",
+        "C1304",
+        "C1305",
+        "L1301",
+        "C1812",
+        "C1301",
+        "TP14",
+        "TP13"
+      ],
+      "net_counts": {
+        "GND": 12,
+        "+5V_MAIN": 7,
+        "VBUS_PROTECTED": 2,
+        "+3V3_SYS": 48,
+        "+3V3_PMU": 3,
+        "USB_POWER_FAULT_N": 3,
+        "WIFI_VBAT_PG": 2,
+        "SYS_SW": 2,
+        "SYS_SS": 1
+      },
+      "critical_nets": [],
+      "projection_fills": [
+        [
+          "In1.Cu",
+          "GND"
+        ],
+        [
+          "In4.Cu",
+          "GND"
+        ]
+      ],
+      "score": [
+        0,
+        1,
+        11,
+        80,
+        53237469.24159712
+      ]
+    },
+    {
+      "side": "bottom",
+      "offset_mm": 17.25,
+      "mirror": true,
+      "component_refs": [
+        "C1502",
+        "R1814",
+        "C1501",
+        "R2013",
+        "R2010",
+        "C1802",
+        "C1304",
+        "C1305",
+        "R2004",
+        "C1812",
+        "C1801",
+        "R2011",
+        "U20",
+        "C1301",
+        "C1605"
+      ],
+      "net_counts": {
+        "GND": 14,
+        "+5V_MAIN": 15,
+        "+3V3_SYS": 8,
+        "+3V3_IO": 6,
+        "+3V3_PMU": 4,
+        "LCD_CS_N": 6,
+        "WIFI_VBAT_PG": 4,
+        "+3V0_LCD": 27
+      },
+      "critical_nets": [],
+      "projection_fills": [
+        [
+          "In1.Cu",
+          "GND"
+        ],
+        [
+          "In4.Cu",
+          "GND"
+        ]
+      ],
+      "score": [
+        0,
+        1,
+        15,
+        84,
+        55139884.668450296
+      ]
+    },
+    {
+      "side": "left",
+      "offset_mm": 0.25,
+      "mirror": true,
+      "component_refs": [
+        "U12",
+        "C1902",
+        "R1903",
+        "U24",
+        "R1101",
+        "C1103",
+        "R1904",
+        "R1901",
+        "R1902",
+        "C1903"
+      ],
+      "net_counts": {
+        "GND": 20,
+        "AON_READY": 3,
+        "+3V3_AON": 19,
+        "VBUS_PROTECTED": 3,
+        "VBUS_RAW": 15,
+        "VBUS_OVP": 14,
+        "VBUS_UVLO": 13,
+        "VBUS_GUARD_ILIM": 11,
+        "VBUS_GUARD_DVDT": 7
+      },
+      "critical_nets": [],
+      "projection_fills": [
+        [
+          "In1.Cu",
+          "GND"
+        ],
+        [
+          "In4.Cu",
+          "GND"
+        ]
+      ],
+      "score": [
+        0,
+        2,
+        10,
+        105,
+        67204366.53410254
+      ]
+    },
+    {
+      "side": "bottom",
+      "offset_mm": 38.5,
+      "mirror": false,
+      "component_refs": [
+        "C2203",
+        "R2202",
+        "R1501",
+        "L2201",
+        "R2203",
+        "R1503",
+        "U26",
+        "R1502",
+        "TP3",
+        "C1607"
+      ],
+      "net_counts": {
+        "GND": 5,
+        "+5V_MAIN": 48,
+        "+3V3_SYS": 4,
+        "+3V3_IO": 3,
+        "+3V58_WIFI": 3,
+        "WIFI_VBAT_FB": 4,
+        "+3V3_PMU": 5,
+        "PMIC_INT_N": 3,
+        "WIFI_REG_ON": 4,
+        "PMIC_SDA": 3,
+        "WIFI_VBAT_SW": 3,
+        "RESET_N": 1,
+        "EXP_I2C_SDA": 6,
+        "EXP_I2C_SCL": 2,
+        "WIFI_VBAT_PG": 28
+      },
+      "critical_nets": [],
+      "projection_fills": [
+        [
+          "In1.Cu",
+          "GND"
+        ],
+        [
+          "In4.Cu",
+          "GND"
+        ]
+      ],
+      "score": [
+        0,
+        2,
+        10,
+        122,
+        29136907.544384323
+      ]
+    },
+    {
+      "side": "top",
+      "offset_mm": 0.0,
+      "mirror": false,
+      "component_refs": [
+        "U12",
+        "C1901",
+        "R1103",
+        "U24",
+        "C1103",
+        "R1904",
+        "R1901",
+        "R1902",
+        "R1102",
+        "C1903",
+        "R1905"
+      ],
+      "net_counts": {
+        "GND": 30,
+        "AON_READY": 10,
+        "+3V3_AON": 11,
+        "VBUS_PROTECTED": 4,
+        "VBUS_RAW": 17,
+        "USB_MAIN_ENABLE": 5,
+        "VBUS_OVP": 15,
+        "RESET_N": 2,
+        "VBUS_UVLO": 14
+      },
+      "critical_nets": [],
+      "projection_fills": [
+        [
+          "In1.Cu",
+          "GND"
+        ],
+        [
+          "In4.Cu",
+          "GND"
+        ]
+      ],
+      "score": [
+        0,
+        2,
+        11,
+        108,
+        60324587.70062171
+      ]
+    },
+    {
+      "side": "top",
+      "offset_mm": 3.75,
+      "mirror": true,
+      "component_refs": [
+        "U12",
+        "TP2",
+        "C1901",
+        "R1103",
+        "U24",
+        "C1103",
+        "R1904",
+        "R1901",
+        "R1902",
+        "R1102",
+        "C1903",
+        "R1905"
+      ],
+      "net_counts": {
+        "GND": 20,
+        "AON_READY": 21,
+        "+3V3_AON": 2,
+        "VBUS_PROTECTED": 7,
+        "VBUS_RAW": 15,
+        "USB_MAIN_ENABLE": 5,
+        "VBUS_OVP": 13,
+        "RESET_N": 3,
+        "VBUS_UVLO": 4
+      },
+      "critical_nets": [],
+      "projection_fills": [
+        [
+          "In1.Cu",
+          "GND"
+        ],
+        [
+          "In4.Cu",
+          "GND"
+        ]
+      ],
+      "score": [
+        0,
+        2,
+        12,
+        90,
+        65558968.73235576
+      ]
+    },
+    {
+      "side": "bottom",
+      "offset_mm": 0.5,
+      "mirror": true,
+      "component_refs": [
+        "C1203",
+        "C464",
+        "U15",
+        "C465",
+        "C1201",
+        "C467",
+        "L1301",
+        "R1201",
+        "C469",
+        "C463",
+        "TP14",
+        "C468",
+        "TP5"
+      ],
+      "net_counts": {
+        "GND": 13,
+        "+5V_MAIN": 18,
+        "VBUS_PROTECTED": 9,
+        "+3V3_SYS": 1,
+        "+3V3_PMU": 6,
+        "USB_POWER_FAULT_N": 2,
+        "USB_ILIM": 6,
+        "SYS_SW": 2
+      },
+      "critical_nets": [],
+      "projection_fills": [
+        [
+          "In1.Cu",
+          "GND"
+        ],
+        [
+          "In4.Cu",
+          "GND"
+        ]
+      ],
+      "score": [
+        0,
+        2,
+        13,
+        57,
+        70992521.657214
+      ]
+    }
+  ],
+  "specification": "Pulse/Yageo W3006 issue 2137 p6 layout 1, https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/W3006/doc_part/W3006.pdf",
+  "limitations": [
+    "Alignment of core relative to the conservative envelope is provisional. Confirm the feed-side step and 0.4 mm offsets on the dimensioned drawing before materializing exact layer-specific keepouts.",
+    "Necessary/core geometry and conservative envelope are distinct. Enclosure, ground metallization and RF tuning require separate verification."
+  ],
+  "assembly_ready": false
+}

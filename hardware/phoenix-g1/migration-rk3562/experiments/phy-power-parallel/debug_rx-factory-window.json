@@ -1,0 +1,218 @@
+{
+  "parent_sha256": "789116417fc6fc23feeb0832d79e4ad8df7c0acc3fdda94b65ed70ce0c2131e9",
+  "pin": "U1.AF20",
+  "width_mm": 0.2,
+  "grid_mm": 0.025,
+  "via_mm": [
+    0.45,
+    0.2
+  ],
+  "ground_relief": false,
+  "ground_via_relief": false,
+  "existing_tracks_and_vias_included": true,
+  "single_obstacle_candidates": [],
+  "reachable_positions": 643,
+  "farthest_mm": 0.7566372975210777,
+  "sites": [],
+  "via_obstacles": [
+    {
+      "names": [
+        "EXP_I2C_SDA",
+        "EXP_SPI_CS0_N",
+        "R2103.1"
+      ],
+      "positions": 1
+    },
+    {
+      "names": [
+        "EXP_I2C_SDA",
+        "EXP_SPI_CS0_N",
+        "R2103.1",
+        "R2103.2"
+      ],
+      "positions": 22
+    },
+    {
+      "names": [
+        "+3V3_PMU",
+        "EXP_I2C_SDA",
+        "R2103.2",
+        "source pad"
+      ],
+      "positions": 11
+    },
+    {
+      "names": [
+        "EXP_I2C_SDA",
+        "EXP_SPI_CS0_N",
+        "R2103.2",
+        "source pad"
+      ],
+      "positions": 7
+    },
+    {
+      "names": [
+        "EXP_I2C_SDA",
+        "EXP_SPI_CS0_N",
+        "EXP_SPI_MOSI",
+        "R2103.1"
+      ],
+      "positions": 6
+    },
+    {
+      "names": [
+        "EXP_I2C_SDA",
+        "EXP_SPI_CS0_N",
+        "R2103.1",
+        "R2103.2",
+        "U1.AG21"
+      ],
+      "positions": 64
+    },
+    {
+      "names": [
+        "+3V3_PMU",
+        "EXP_I2C_SDA",
+        "R2103.2",
+        "U1.AF21",
+        "source pad"
+      ],
+      "positions": 57
+    },
+    {
+      "names": [
+        "+3V3_PMU",
+        "EXP_I2C_SDA",
+        "EXP_SPI_CS0_N",
+        "R2103.2",
+        "source pad"
+      ],
+      "positions": 42
+    },
+    {
+      "names": [
+        "EXP_I2C_SDA",
+        "EXP_SPI_CS0_N",
+        "EXP_SPI_MOSI",
+        "R2103.1",
+        "U1.AG19"
+      ],
+      "positions": 26
+    },
+    {
+      "names": [
+        "+3V3_PMU",
+        "EXP_I2C_SDA",
+        "R2103.2",
+        "U1.AF19",
+        "source pad"
+      ],
+      "positions": 12
+    },
+    {
+      "names": [
+        "EXP_I2C_SDA",
+        "EXP_SPI_CS0_N",
+        "R2103.1",
+        "R2103.2",
+        "source pad"
+      ],
+      "positions": 7
+    },
+    {
+      "names": [
+        "+3V3_PMU",
+        "EXP_I2C_SDA",
+        "R2103.2",
+        "U1.AE20",
+        "source pad"
+      ],
+      "positions": 4
+    },
+    {
+      "names": [
+        "EXP_I2C_SDA",
+        "EXP_SPI_CS0_N",
+        "EXP_SPI_MOSI",
+        "R2103.2",
+        "U1.AG19"
+      ],
+      "positions": 3
+    },
+    {
+      "names": [
+        "EXP_I2C_SDA",
+        "EXP_SPI_CS0_N",
+        "R2103.1",
+        "R2103.2",
+        "U1.AG19"
+      ],
+      "positions": 3
+    },
+    {
+      "names": [
+        "EXP_I2C_SDA",
+        "EXP_SPI_CS0_N",
+        "R2103.2",
+        "U1.AG19",
+        "source pad"
+      ],
+      "positions": 2
+    },
+    {
+      "names": [
+        "EXP_I2C_SDA",
+        "EXP_SPI_CS0_N",
+        "R2103.2",
+        "U1.AG21",
+        "source pad"
+      ],
+      "positions": 1
+    },
+    {
+      "names": [
+        "EXP_I2C_SDA",
+        "R2103.2",
+        "U1.AF21",
+        "U1.AG21",
+        "source pad"
+      ],
+      "positions": 1
+    },
+    {
+      "names": [
+        "EXP_I2C_SDA",
+        "EXP_SPI_CS0_N",
+        "EXP_SPI_MOSI",
+        "R2103.1",
+        "R2103.2",
+        "U1.AG19"
+      ],
+      "positions": 33
+    },
+    {
+      "names": [
+        "+3V3_PMU",
+        "EXP_I2C_SDA",
+        "R2103.2",
+        "U1.AE20",
+        "U1.AF21",
+        "source pad"
+      ],
+      "positions": 32
+    },
+    {
+      "names": [
+        "+3V3_PMU",
+        "EXP_I2C_SDA",
+        "EXP_SPI_CS0_N",
+        "R2103.2",
+        "U1.AF19",
+        "source pad"
+      ],
+      "positions": 25
+    }
+  ],
+  "assembly_ready": false,
+  "source_sha256": "789116417fc6fc23feeb0832d79e4ad8df7c0acc3fdda94b65ed70ce0c2131e9"
+}

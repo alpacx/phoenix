@@ -1,0 +1,43 @@
+{
+  "parent_sha256": "260b2c46227963b24facda2548f15a427211c43a478d6533ef2b37aa48723c20",
+  "sha256": "0aabceb209096fd46bed8e5cb290a7518a08980b5d929e93dc4798da7b251c25",
+  "board": "runs/probe-TP7/phy-joint.kicad_pcb",
+  "records": [
+    {
+      "pair": [
+        "TP6.1",
+        "U25.22"
+      ],
+      "rail": "+3V3_IO",
+      "original_nm": [
+        48500000,
+        32500000
+      ],
+      "position_nm": [
+        33400000,
+        37400000
+      ],
+      "sense_length_mm": 1.1313708498984762
+    },
+    {
+      "pair": [
+        "TP7.1",
+        "C1650.1"
+      ],
+      "rail": "+1V1_LPDDR4",
+      "original_nm": [
+        39000000,
+        37000000
+      ],
+      "position_nm": [
+        27400000,
+        28100000
+      ],
+      "sense_length_mm": 0.8
+    }
+  ],
+  "held": [
+    "TP8"
+  ],
+  "assembly_ready": false
+}

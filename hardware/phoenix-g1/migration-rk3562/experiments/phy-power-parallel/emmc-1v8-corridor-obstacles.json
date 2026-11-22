@@ -1,0 +1,1407 @@
+{
+  "parent_sha256": "4718e7b54f5e473727ce23f72bee66f650e41994838e374330d14233cf844863",
+  "trials": [
+    {
+      "layer": "B.Cu",
+      "source_nm": [
+        46500000,
+        12700000
+      ],
+      "load_nm": [
+        43500000,
+        19100000
+      ],
+      "gap_mm": 7.068238818828917,
+      "hits": [
+        {
+          "net": "LPDDR4_RESETN",
+          "type": "PCB_VIA",
+          "id": "ee740707-c90c-4f42-af11-5d0ea456c561",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_DQ2_B",
+          "type": "PCB_VIA",
+          "id": "0712077c-a820-46ef-b75c-3875fc30db98",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_DQ1_B",
+          "type": "PCB_VIA",
+          "id": "4e096641-af01-4f0c-9f20-f28a30abf226",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_DM0_B",
+          "type": "PCB_VIA",
+          "id": "ceb2e8c2-0992-4889-ad15-724ca5d74efd",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A2_B",
+          "type": "PCB_VIA",
+          "id": "ad3dbc77-ef8c-4125-a251-f8758431c5ad",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_DQ3_B",
+          "type": "PCB_VIA",
+          "id": "61ed9cf1-e8d8-47e8-8f46-5e08b6ce1cac",
+          "pad": null
+        },
+        {
+          "net": "EMMC_IO_1V8",
+          "type": "PAD",
+          "id": "c0390265-f84e-451a-8b41-40c99b4272fc",
+          "pad": "C8003.1"
+        },
+        {
+          "net": "VDD_GPU",
+          "type": "PAD",
+          "id": "ab1a08f3-444c-4e29-80dc-9de21b31ddda",
+          "pad": "C1618.1"
+        },
+        {
+          "net": "VDD_LOGIC",
+          "type": "PAD",
+          "id": "f16f3cbc-817a-400f-92f9-e611e737977f",
+          "pad": "C1609.1"
+        }
+      ],
+      "rule_areas": []
+    },
+    {
+      "layer": "B.Cu",
+      "source_nm": [
+        41900000,
+        11400000
+      ],
+      "load_nm": [
+        42000000,
+        18400000
+      ],
+      "gap_mm": 7.000714249274855,
+      "hits": [
+        {
+          "net": "GND",
+          "type": "PCB_VIA",
+          "id": "fcd49475-9a3d-4bf7-8fb3-b03aa9cf1d37",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "8948b8d7-a625-4e1b-a85a-ff08f6623c6f",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "9437b719-28c4-451f-9d5d-d07f52f48834",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "ca5ae2a8-63b9-4646-9e50-09e33e4e784c",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A3_A",
+          "type": "PCB_VIA",
+          "id": "965ba9c2-ca24-420d-b333-e95c35baed89",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A5_A",
+          "type": "PCB_VIA",
+          "id": "9d10f549-f17a-4b02-b51f-d24c8cfb98ae",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CLKN_A",
+          "type": "PCB_VIA",
+          "id": "2cbaea33-3346-4204-9592-1dd1d66570c9",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CS0N_A",
+          "type": "PCB_VIA",
+          "id": "ce59aa49-a16f-4d05-8a7a-eda3545d92b4",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CKE0_A",
+          "type": "PCB_VIA",
+          "id": "aab5640e-50fc-4939-af1d-f4c10358c257",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PAD",
+          "id": "438c7edd-29c5-4e54-a0af-948146f7f715",
+          "pad": "C8003.2"
+        }
+      ],
+      "rule_areas": []
+    },
+    {
+      "layer": "B.Cu",
+      "source_nm": [
+        42000000,
+        10200000
+      ],
+      "load_nm": [
+        42000000,
+        18400000
+      ],
+      "gap_mm": 8.2,
+      "hits": [
+        {
+          "net": "GND",
+          "type": "PCB_VIA",
+          "id": "fcd49475-9a3d-4bf7-8fb3-b03aa9cf1d37",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "8948b8d7-a625-4e1b-a85a-ff08f6623c6f",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "9437b719-28c4-451f-9d5d-d07f52f48834",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "ca5ae2a8-63b9-4646-9e50-09e33e4e784c",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A3_A",
+          "type": "PCB_VIA",
+          "id": "965ba9c2-ca24-420d-b333-e95c35baed89",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A5_A",
+          "type": "PCB_VIA",
+          "id": "9d10f549-f17a-4b02-b51f-d24c8cfb98ae",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CLKN_A",
+          "type": "PCB_VIA",
+          "id": "2cbaea33-3346-4204-9592-1dd1d66570c9",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CS0N_A",
+          "type": "PCB_VIA",
+          "id": "ce59aa49-a16f-4d05-8a7a-eda3545d92b4",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CKE0_A",
+          "type": "PCB_VIA",
+          "id": "aab5640e-50fc-4939-af1d-f4c10358c257",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PAD",
+          "id": "438c7edd-29c5-4e54-a0af-948146f7f715",
+          "pad": "C8003.2"
+        }
+      ],
+      "rule_areas": []
+    },
+    {
+      "layer": "B.Cu",
+      "source_nm": [
+        33300000,
+        18700000
+      ],
+      "load_nm": [
+        41900000,
+        19000000
+      ],
+      "gap_mm": 8.605230967266364,
+      "hits": [
+        {
+          "net": "GND",
+          "type": "PCB_VIA",
+          "id": "2fb9b84a-9a32-4153-b3c0-4c4f714e0a69",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_VIA",
+          "id": "dcb7d9da-6e49-4fa3-88c8-ef3332853298",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "14c9dfd6-2bd6-4eac-82ac-c34c3d7526e5",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "cfd1a510-bf22-41b1-95a3-bced71fe25e4",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "e95f10f0-3b04-43f7-9443-2a01083f35f1",
+          "pad": null
+        },
+        {
+          "net": "VDD_CPU",
+          "type": "PCB_TRACK",
+          "id": "a0916774-9108-465c-a518-616203dfdefe",
+          "pad": null
+        },
+        {
+          "net": "LCD_DC",
+          "type": "PCB_VIA",
+          "id": "7c8edfd0-2b45-4b2b-9086-e9736a525c9b",
+          "pad": null
+        },
+        {
+          "net": "LCD_CS_N",
+          "type": "PCB_VIA",
+          "id": "f22be0fe-4238-47f8-8f7b-087429ae1ec3",
+          "pad": null
+        },
+        {
+          "net": "VDD_CPU",
+          "type": "PAD",
+          "id": "7ba736da-bccb-4ffd-bc84-2928729c3065",
+          "pad": "C1608.1"
+        },
+        {
+          "net": "GND",
+          "type": "PAD",
+          "id": "05ba1a7b-2109-4070-8362-27e977506936",
+          "pad": "C1608.2"
+        },
+        {
+          "net": "VDD_CPU",
+          "type": "PAD",
+          "id": "40864822-f579-46dd-b703-343eab8d84a5",
+          "pad": "C1603.1"
+        }
+      ],
+      "rule_areas": []
+    },
+    {
+      "layer": "B.Cu",
+      "source_nm": [
+        43000000,
+        9500000
+      ],
+      "load_nm": [
+        42000000,
+        18400000
+      ],
+      "gap_mm": 8.956003573022958,
+      "hits": [
+        {
+          "net": "GND",
+          "type": "PCB_VIA",
+          "id": "fcd49475-9a3d-4bf7-8fb3-b03aa9cf1d37",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "8948b8d7-a625-4e1b-a85a-ff08f6623c6f",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "9437b719-28c4-451f-9d5d-d07f52f48834",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "ca5ae2a8-63b9-4646-9e50-09e33e4e784c",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A5_A",
+          "type": "PCB_VIA",
+          "id": "9d10f549-f17a-4b02-b51f-d24c8cfb98ae",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A5_B",
+          "type": "PCB_VIA",
+          "id": "3301f0c1-a55c-40a2-b9ea-ee417f7a264e",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A4_A",
+          "type": "PCB_VIA",
+          "id": "aa769f34-e88b-4ba1-b76e-358d9d0d6755",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CLKN_A",
+          "type": "PCB_VIA",
+          "id": "2cbaea33-3346-4204-9592-1dd1d66570c9",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CLKP_A",
+          "type": "PCB_VIA",
+          "id": "a741c3bd-f47b-47eb-8bee-26fcab7c7a3a",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CKE0_A",
+          "type": "PCB_VIA",
+          "id": "aab5640e-50fc-4939-af1d-f4c10358c257",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PAD",
+          "id": "438c7edd-29c5-4e54-a0af-948146f7f715",
+          "pad": "C8003.2"
+        }
+      ],
+      "rule_areas": []
+    },
+    {
+      "layer": "B.Cu",
+      "source_nm": [
+        44300000,
+        11800000
+      ],
+      "load_nm": [
+        42000000,
+        18400000
+      ],
+      "gap_mm": 6.989277502002621,
+      "hits": [
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "8948b8d7-a625-4e1b-a85a-ff08f6623c6f",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "9437b719-28c4-451f-9d5d-d07f52f48834",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "ca5ae2a8-63b9-4646-9e50-09e33e4e784c",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A5_B",
+          "type": "PCB_VIA",
+          "id": "3301f0c1-a55c-40a2-b9ea-ee417f7a264e",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A4_B",
+          "type": "PCB_VIA",
+          "id": "bac6f921-91c9-462e-9214-56d8f5bf4eba",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A4_A",
+          "type": "PCB_VIA",
+          "id": "aa769f34-e88b-4ba1-b76e-358d9d0d6755",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CLKN_B",
+          "type": "PCB_VIA",
+          "id": "61a418c3-840a-408a-a1c7-01e721384ded",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CLKP_B",
+          "type": "PCB_VIA",
+          "id": "45cc55a9-7be5-4f98-8c42-3658a972536a",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CS0N_B",
+          "type": "PCB_VIA",
+          "id": "8b68e721-0140-49da-9c11-92d4ae9cfa09",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A0_B",
+          "type": "PCB_VIA",
+          "id": "c39c2f4f-f580-4924-a467-af1ec37382f6",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CKE0_B",
+          "type": "PCB_VIA",
+          "id": "6a758a7f-7d5f-4dce-bf57-46643248886b",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PAD",
+          "id": "438c7edd-29c5-4e54-a0af-948146f7f715",
+          "pad": "C8003.2"
+        }
+      ],
+      "rule_areas": []
+    },
+    {
+      "layer": "B.Cu",
+      "source_nm": [
+        38600000,
+        31900000
+      ],
+      "load_nm": [
+        42500000,
+        25000000
+      ],
+      "gap_mm": 7.925906888173744,
+      "hits": [
+        {
+          "net": "GND",
+          "type": "PCB_VIA",
+          "id": "2adc0d6c-ec24-4c0c-95f8-5296127a4682",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_VIA",
+          "id": "e5fb3420-b7eb-42e3-83c9-0db0633e3190",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "b2814055-1dbf-4b51-8bfe-676ad94cdea9",
+          "pad": null
+        },
+        {
+          "net": "+3V3_PMU",
+          "type": "PCB_TRACK",
+          "id": "27238094-6fc8-43c3-b78d-0bb199f326c7",
+          "pad": null
+        },
+        {
+          "net": "+3V3_PMU",
+          "type": "PCB_TRACK",
+          "id": "50919ebd-d574-4e61-b6d5-3f9ccff1d263",
+          "pad": null
+        },
+        {
+          "net": "+3V3_PMU",
+          "type": "PCB_TRACK",
+          "id": "a222f431-de92-4a40-a30c-5e01eef85a32",
+          "pad": null
+        },
+        {
+          "net": "+3V3_PMU",
+          "type": "PCB_TRACK",
+          "id": "bf3bf4d9-d503-4418-9f15-cb028592eba1",
+          "pad": null
+        },
+        {
+          "net": "+3V3_PMU",
+          "type": "PCB_TRACK",
+          "id": "c2591804-4cc0-47df-a4d6-e8e09186001f",
+          "pad": null
+        },
+        {
+          "net": "WIFI_HOST_WAKE",
+          "type": "PCB_VIA",
+          "id": "d89016e0-cd28-4cad-a0b3-49e43ce20b9a",
+          "pad": null
+        },
+        {
+          "net": "+3V3_IO",
+          "type": "PAD",
+          "id": "6706a063-e74d-420d-802b-7fe4e13272a2",
+          "pad": "C1640.1"
+        },
+        {
+          "net": "GND",
+          "type": "PAD",
+          "id": "2359db88-397f-4fea-a201-5391a8ae1881",
+          "pad": "C1631.2"
+        },
+        {
+          "net": "GND",
+          "type": "PAD",
+          "id": "2c47b4c6-f0f7-4618-b360-ff4a2533807a",
+          "pad": "TP1.1"
+        }
+      ],
+      "rule_areas": []
+    },
+    {
+      "layer": "B.Cu",
+      "source_nm": [
+        43200000,
+        12300000
+      ],
+      "load_nm": [
+        42000000,
+        18400000
+      ],
+      "gap_mm": 6.216912416947821,
+      "hits": [
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "8948b8d7-a625-4e1b-a85a-ff08f6623c6f",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "9437b719-28c4-451f-9d5d-d07f52f48834",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "ca5ae2a8-63b9-4646-9e50-09e33e4e784c",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A5_A",
+          "type": "PCB_VIA",
+          "id": "9d10f549-f17a-4b02-b51f-d24c8cfb98ae",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A5_B",
+          "type": "PCB_VIA",
+          "id": "3301f0c1-a55c-40a2-b9ea-ee417f7a264e",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A4_A",
+          "type": "PCB_VIA",
+          "id": "aa769f34-e88b-4ba1-b76e-358d9d0d6755",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CLKN_A",
+          "type": "PCB_VIA",
+          "id": "2cbaea33-3346-4204-9592-1dd1d66570c9",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CLKN_B",
+          "type": "PCB_VIA",
+          "id": "61a418c3-840a-408a-a1c7-01e721384ded",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CLKP_A",
+          "type": "PCB_VIA",
+          "id": "a741c3bd-f47b-47eb-8bee-26fcab7c7a3a",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CLKP_B",
+          "type": "PCB_VIA",
+          "id": "45cc55a9-7be5-4f98-8c42-3658a972536a",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A0_B",
+          "type": "PCB_VIA",
+          "id": "c39c2f4f-f580-4924-a467-af1ec37382f6",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CKE0_A",
+          "type": "PCB_VIA",
+          "id": "aab5640e-50fc-4939-af1d-f4c10358c257",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PAD",
+          "id": "438c7edd-29c5-4e54-a0af-948146f7f715",
+          "pad": "C8003.2"
+        }
+      ],
+      "rule_areas": []
+    },
+    {
+      "layer": "B.Cu",
+      "source_nm": [
+        45100000,
+        12800000
+      ],
+      "load_nm": [
+        42000000,
+        18400000
+      ],
+      "gap_mm": 6.400781202322104,
+      "hits": [
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "8948b8d7-a625-4e1b-a85a-ff08f6623c6f",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "9437b719-28c4-451f-9d5d-d07f52f48834",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "ca5ae2a8-63b9-4646-9e50-09e33e4e784c",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A5_B",
+          "type": "PCB_VIA",
+          "id": "3301f0c1-a55c-40a2-b9ea-ee417f7a264e",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A4_B",
+          "type": "PCB_VIA",
+          "id": "bac6f921-91c9-462e-9214-56d8f5bf4eba",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A3_B",
+          "type": "PCB_VIA",
+          "id": "8bafe7f6-5386-4425-a627-574fb59a7075",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A4_A",
+          "type": "PCB_VIA",
+          "id": "aa769f34-e88b-4ba1-b76e-358d9d0d6755",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A1_B",
+          "type": "PCB_VIA",
+          "id": "6154642e-2f67-4566-9650-503d4d84c4cf",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CLKP_B",
+          "type": "PCB_VIA",
+          "id": "45cc55a9-7be5-4f98-8c42-3658a972536a",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CS0N_B",
+          "type": "PCB_VIA",
+          "id": "8b68e721-0140-49da-9c11-92d4ae9cfa09",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_DQ1_B",
+          "type": "PCB_VIA",
+          "id": "4e096641-af01-4f0c-9f20-f28a30abf226",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CKE0_B",
+          "type": "PCB_VIA",
+          "id": "6a758a7f-7d5f-4dce-bf57-46643248886b",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PAD",
+          "id": "438c7edd-29c5-4e54-a0af-948146f7f715",
+          "pad": "C8003.2"
+        }
+      ],
+      "rule_areas": []
+    },
+    {
+      "layer": "B.Cu",
+      "source_nm": [
+        43100000,
+        11100000
+      ],
+      "load_nm": [
+        42000000,
+        18400000
+      ],
+      "gap_mm": 7.3824115301167,
+      "hits": [
+        {
+          "net": "GND",
+          "type": "PCB_VIA",
+          "id": "fcd49475-9a3d-4bf7-8fb3-b03aa9cf1d37",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "8948b8d7-a625-4e1b-a85a-ff08f6623c6f",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "9437b719-28c4-451f-9d5d-d07f52f48834",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "ca5ae2a8-63b9-4646-9e50-09e33e4e784c",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A5_A",
+          "type": "PCB_VIA",
+          "id": "9d10f549-f17a-4b02-b51f-d24c8cfb98ae",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A5_B",
+          "type": "PCB_VIA",
+          "id": "3301f0c1-a55c-40a2-b9ea-ee417f7a264e",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A4_A",
+          "type": "PCB_VIA",
+          "id": "aa769f34-e88b-4ba1-b76e-358d9d0d6755",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CLKN_A",
+          "type": "PCB_VIA",
+          "id": "2cbaea33-3346-4204-9592-1dd1d66570c9",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CLKN_B",
+          "type": "PCB_VIA",
+          "id": "61a418c3-840a-408a-a1c7-01e721384ded",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CLKP_A",
+          "type": "PCB_VIA",
+          "id": "a741c3bd-f47b-47eb-8bee-26fcab7c7a3a",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CLKP_B",
+          "type": "PCB_VIA",
+          "id": "45cc55a9-7be5-4f98-8c42-3658a972536a",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CKE0_A",
+          "type": "PCB_VIA",
+          "id": "aab5640e-50fc-4939-af1d-f4c10358c257",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PAD",
+          "id": "438c7edd-29c5-4e54-a0af-948146f7f715",
+          "pad": "C8003.2"
+        }
+      ],
+      "rule_areas": []
+    },
+    {
+      "layer": "B.Cu",
+      "source_nm": [
+        44000000,
+        10300000
+      ],
+      "load_nm": [
+        42000000,
+        18400000
+      ],
+      "gap_mm": 8.343260753446462,
+      "hits": [
+        {
+          "net": "GND",
+          "type": "PCB_VIA",
+          "id": "826f86d8-8e10-42e2-8541-1fa9e8dcd7b4",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "8948b8d7-a625-4e1b-a85a-ff08f6623c6f",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "9437b719-28c4-451f-9d5d-d07f52f48834",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "ca5ae2a8-63b9-4646-9e50-09e33e4e784c",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "ce7883cd-9bcd-4409-ab3b-9f02792b3c52",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A5_A",
+          "type": "PCB_VIA",
+          "id": "9d10f549-f17a-4b02-b51f-d24c8cfb98ae",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A5_B",
+          "type": "PCB_VIA",
+          "id": "3301f0c1-a55c-40a2-b9ea-ee417f7a264e",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A4_A",
+          "type": "PCB_VIA",
+          "id": "aa769f34-e88b-4ba1-b76e-358d9d0d6755",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CLKN_A",
+          "type": "PCB_VIA",
+          "id": "2cbaea33-3346-4204-9592-1dd1d66570c9",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CLKN_B",
+          "type": "PCB_VIA",
+          "id": "61a418c3-840a-408a-a1c7-01e721384ded",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CLKP_A",
+          "type": "PCB_VIA",
+          "id": "a741c3bd-f47b-47eb-8bee-26fcab7c7a3a",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CLKP_B",
+          "type": "PCB_VIA",
+          "id": "45cc55a9-7be5-4f98-8c42-3658a972536a",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A0_B",
+          "type": "PCB_VIA",
+          "id": "c39c2f4f-f580-4924-a467-af1ec37382f6",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PAD",
+          "id": "438c7edd-29c5-4e54-a0af-948146f7f715",
+          "pad": "C8003.2"
+        }
+      ],
+      "rule_areas": []
+    },
+    {
+      "layer": "B.Cu",
+      "source_nm": [
+        45200000,
+        10100000
+      ],
+      "load_nm": [
+        42000000,
+        18400000
+      ],
+      "gap_mm": 8.895504482602433,
+      "hits": [
+        {
+          "net": "GND",
+          "type": "PCB_VIA",
+          "id": "826f86d8-8e10-42e2-8541-1fa9e8dcd7b4",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "11e03bbc-1773-4f70-9530-ef0fce817849",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "8948b8d7-a625-4e1b-a85a-ff08f6623c6f",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "9437b719-28c4-451f-9d5d-d07f52f48834",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "ca5ae2a8-63b9-4646-9e50-09e33e4e784c",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "ce7883cd-9bcd-4409-ab3b-9f02792b3c52",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A5_B",
+          "type": "PCB_VIA",
+          "id": "3301f0c1-a55c-40a2-b9ea-ee417f7a264e",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A4_B",
+          "type": "PCB_VIA",
+          "id": "bac6f921-91c9-462e-9214-56d8f5bf4eba",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A4_A",
+          "type": "PCB_VIA",
+          "id": "aa769f34-e88b-4ba1-b76e-358d9d0d6755",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CLKN_B",
+          "type": "PCB_VIA",
+          "id": "61a418c3-840a-408a-a1c7-01e721384ded",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CLKP_B",
+          "type": "PCB_VIA",
+          "id": "45cc55a9-7be5-4f98-8c42-3658a972536a",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CS0N_B",
+          "type": "PCB_VIA",
+          "id": "8b68e721-0140-49da-9c11-92d4ae9cfa09",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A0_B",
+          "type": "PCB_VIA",
+          "id": "c39c2f4f-f580-4924-a467-af1ec37382f6",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_CKE0_B",
+          "type": "PCB_VIA",
+          "id": "6a758a7f-7d5f-4dce-bf57-46643248886b",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PAD",
+          "id": "438c7edd-29c5-4e54-a0af-948146f7f715",
+          "pad": "C8003.2"
+        },
+        {
+          "net": "GND",
+          "type": "PAD",
+          "id": "b2f10c92-1c6b-4f3f-9cff-c7617852b17e",
+          "pad": "C8002.2"
+        }
+      ],
+      "rule_areas": []
+    },
+    {
+      "layer": "B.Cu",
+      "source_nm": [
+        36700000,
+        31600000
+      ],
+      "load_nm": [
+        42500000,
+        25000000
+      ],
+      "gap_mm": 8.78635305459552,
+      "hits": [
+        {
+          "net": "GND",
+          "type": "PCB_VIA",
+          "id": "2adc0d6c-ec24-4c0c-95f8-5296127a4682",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "4413a0e1-abc2-40d7-8249-5da22a308073",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PCB_TRACK",
+          "id": "b2814055-1dbf-4b51-8bfe-676ad94cdea9",
+          "pad": null
+        },
+        {
+          "net": "+3V3_PMU",
+          "type": "PCB_TRACK",
+          "id": "27238094-6fc8-43c3-b78d-0bb199f326c7",
+          "pad": null
+        },
+        {
+          "net": "+3V3_PMU",
+          "type": "PCB_TRACK",
+          "id": "bf3bf4d9-d503-4418-9f15-cb028592eba1",
+          "pad": null
+        },
+        {
+          "net": "+3V3_PMU",
+          "type": "PCB_TRACK",
+          "id": "c2591804-4cc0-47df-a4d6-e8e09186001f",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "00aeaa9e-e1f6-40d8-85ac-6e269ba5bf73",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "01af79f9-877d-4bec-acd7-0e89c1bec58b",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "038f3ff5-a438-4db1-b34a-e6069feb13c9",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "088fd5e6-74f1-4c05-ae69-d9343ceb09cf",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "0c0fd12e-4640-4343-a600-9931d9e760c8",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "0df616f9-c2e8-49d8-b8d8-952098f271e8",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "0fcbddd5-3ca0-4d25-a817-22bee387d292",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "13b23f04-cc3e-4103-93ff-d936952c08de",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "1a7becf6-1d20-4922-bef6-4abb7919fa02",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "1cd79e52-e611-4a1d-9e42-bb833ab1c128",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "1cf28af4-90fe-4b52-af05-324112b9c2a7",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "206731ae-bdd3-47f0-8f44-dad4cd4b1db7",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "2b05a58d-9362-43ad-bc3c-6b34e424a0c7",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "35c78638-3882-46a3-8559-c5aca51fbba9",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "37473ae0-f21d-4185-8695-fc0b58b4b1ce",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "3764df6a-c902-4a74-8ac6-0fa7ad04ab4e",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "3924d680-ce3a-46ec-9d55-c3e66dcd5210",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "40f29f06-67b8-4331-801f-c9a8bb32e463",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "469978c8-a69d-46e2-9f76-4bed5d3d10eb",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "50609362-4743-4a81-b8e3-f709e4cdda57",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "5799bd49-2701-4445-876a-a45a5a9387cc",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "5dadf5fa-5200-455f-a5f6-11ae1736a4ba",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "6dd8b28f-1090-4ce4-add6-028d5e4f64f2",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "799850fd-f2c8-4b0a-8b55-472ec16e2a10",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "7e4813b5-7a52-4819-84cb-1b3a5441146c",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "7f9a7843-05b8-4a48-8858-06b84f9bf954",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "825a090a-a831-444b-84cb-f0526d40d4e4",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "845283b4-b242-48ad-a2de-b15f07659372",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "85fe1fac-0d57-4210-b59e-3918fbb787d3",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "865a79e6-572e-4ff7-8ff0-1ec089d5e9c7",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "87d4590e-28b3-4bfb-ae5c-ce7b531f3888",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "8dd9f26c-677b-43a8-a767-5fbee8c724ab",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "93c8b244-0804-4aa0-ad07-c82999dfaa45",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "93e4fdc8-7069-4f50-a3bf-5a694b9bf988",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "947b1d2b-8ac4-41d5-8707-1e516394e877",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "95971a8b-6de0-484b-ab3c-e9a403674587",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "97dc8d8f-1be4-4440-8259-eac9e3b4a5aa",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "a2e0319d-07a8-47a3-b255-1645cb7469c8",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "a33a8d26-4f77-4c14-8ad3-d220618ff96d",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "a41ce714-7c38-47bf-bcfd-4dfb700a0fc9",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "bad3fe25-5e28-4c10-9d65-9d6834ba31c7",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "d59d8599-dd9f-4e5c-95f7-0d1f0f6408ff",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "d6e5e5c9-10f2-4d8e-983b-7043c659688c",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "e36248df-38cb-4be0-8ef9-a6dd36fd4cab",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "e4023899-eabd-4f73-9898-f4a98b4ec444",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "e90599e5-38a6-4116-ac52-d7b5263c6269",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "f9ac1b35-692a-46ac-a28c-9fa630b050ce",
+          "pad": null
+        },
+        {
+          "net": "USB_AVDD_0V9",
+          "type": "PCB_TRACK",
+          "id": "fd480d9a-5704-4037-a6af-b7b900e9f47a",
+          "pad": null
+        },
+        {
+          "net": "GND",
+          "type": "PAD",
+          "id": "dbc5c932-b426-4d74-a3a5-0f33f3515f77",
+          "pad": "C1640.2"
+        },
+        {
+          "net": "+3V3_PMU",
+          "type": "PAD",
+          "id": "c78be064-f259-4760-8e54-78984b1dafbe",
+          "pad": "C1625.1"
+        },
+        {
+          "net": "GND",
+          "type": "PAD",
+          "id": "2c47b4c6-f0f7-4618-b360-ff4a2533807a",
+          "pad": "TP1.1"
+        }
+      ],
+      "rule_areas": []
+    }
+  ],
+  "assembly_ready": false
+}

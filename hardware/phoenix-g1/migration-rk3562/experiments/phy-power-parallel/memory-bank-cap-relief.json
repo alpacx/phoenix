@@ -1,0 +1,129 @@
+{
+  "parent_sha256": "93f44cdd8b3fa5cebdd76ed1ecf90b3e2ed55e865c6e27f936730a2940132a82",
+  "trials": [
+    {
+      "ref": "C1648",
+      "copper_passes": 0,
+      "stages": {
+        "courtyard": 485,
+        "trunk": 190
+      },
+      "minimum_obstructions": [
+        [
+          [
+            [
+              "GND",
+              "PCB_VIA",
+              "624452ae-bb71-4109-8f93-bee697a812b8",
+              "drill"
+            ]
+          ],
+          185
+        ],
+        [
+          [
+            [
+              "GND",
+              "PCB_VIA",
+              "624452ae-bb71-4109-8f93-bee697a812b8",
+              "copper"
+            ],
+            [
+              "GND",
+              "PCB_VIA",
+              "624452ae-bb71-4109-8f93-bee697a812b8",
+              "drill"
+            ]
+          ],
+          3
+        ],
+        [
+          [
+            [
+              "GND",
+              "PCB_TRACK",
+              "ce6f3d34-4ac1-476f-a3cc-c2d077f53456",
+              "copper"
+            ],
+            [
+              "GND",
+              "PCB_VIA",
+              "624452ae-bb71-4109-8f93-bee697a812b8",
+              "drill"
+            ]
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "ref": "C1653",
+      "copper_passes": 0,
+      "stages": {
+        "courtyard": 708,
+        "trunk": 203
+      },
+      "minimum_obstructions": [
+        [
+          [
+            [
+              "GND",
+              "PCB_VIA",
+              "ab62826f-49c2-4d8f-87b3-733941841164",
+              "drill"
+            ]
+          ],
+          163
+        ],
+        [
+          [
+            [
+              "+1V1_LPDDR4",
+              "PCB_TRACK",
+              "583fcab3-a36c-4b48-b615-22c374245054",
+              "copper"
+            ],
+            [
+              "+1V1_LPDDR4",
+              "PCB_TRACK",
+              "60152625-ec05-40d7-805a-e8a713f653f4",
+              "copper"
+            ],
+            [
+              "GND",
+              "PCB_VIA",
+              "ab62826f-49c2-4d8f-87b3-733941841164",
+              "drill"
+            ]
+          ],
+          10
+        ],
+        [
+          [
+            [
+              "+1V1_LPDDR4",
+              "PCB_TRACK",
+              "442da6ab-8a0c-4f46-b791-4181be649e0c",
+              "copper"
+            ],
+            [
+              "+1V1_LPDDR4",
+              "PCB_TRACK",
+              "dddf48a1-8cbb-4714-a139-5a95b06c9f72",
+              "copper"
+            ],
+            [
+              "GND",
+              "PCB_VIA",
+              "ab62826f-49c2-4d8f-87b3-733941841164",
+              "drill"
+            ]
+          ],
+          8
+        ]
+      ]
+    }
+  ],
+  "candidate": null,
+  "assembly_ready": false
+}

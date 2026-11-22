@@ -1,0 +1,55 @@
+{
+  "parent_sha256": "ed89b72717e33c07c9368ab84b6d9bcd452eec587f16fee84e8aa8685b9fa7b9",
+  "candidate": {
+    "board": "runs/cpu-enable-vbat-elbow/phy-joint.kicad_pcb",
+    "sha256": "baa426305731053f09ed3eba6d91aa92a58a8bfed3cf4ac6485217bca0710846",
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 6713,
+      "explicitly_replaced_copper": {
+        "de5ab765-41c9-484d-bff2-2da7c0dc5ef8": [
+          "WIFI_VBAT",
+          8,
+          58100000,
+          22000000,
+          59400000,
+          23300000,
+          1000000,
+          null
+        ],
+        "fd44f1de-a3b5-4cf9-8263-b173bd5d4bb6": [
+          "WIFI_VBAT",
+          8,
+          59400000,
+          23300000,
+          65750000,
+          23300000,
+          1000000,
+          null
+        ]
+      },
+      "added_tracks_vias": 5,
+      "existing_connected_pad_groups_preserved": 113
+    },
+    "new_drc": [
+      {
+        "type": "via_dangling",
+        "severity": "warning",
+        "items": [
+          "c1a9c7de-e274-4a06-8097-1730b4c38fd9"
+        ],
+        "count": 1
+      }
+    ],
+    "site_nm": [
+      59415000,
+      23800000
+    ],
+    "via_uuid": "c1a9c7de-e274-4a06-8097-1730b4c38fd9",
+    "reworked_net": "WIFI_VBAT",
+    "reworked_width_mm": 1.0,
+    "length_delta_mm": -0.14257950062361918
+  },
+  "attempts": [],
+  "assembly_ready": false
+}

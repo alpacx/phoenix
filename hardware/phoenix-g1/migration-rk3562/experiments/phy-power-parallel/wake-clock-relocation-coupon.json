@@ -1,0 +1,85 @@
+{
+  "parent_sha256": "bab072834f8f2e1593ecd159477ec43c0ba686aaf6beb28f38c074c022f4c341",
+  "candidate": {
+    "board": "runs/relocated-wake-clock/phy-joint.kicad_pcb",
+    "sha256": "6c1b2f07c495a2c8aed9bd7e5874402e8ed591aa71a7d5d3ff8a6daa2db52c3d",
+    "pose": {
+      "score_mm": 23.965763574041574,
+      "oscillator": [
+        [
+          42000000,
+          9250000
+        ],
+        270
+      ],
+      "series": [
+        [
+          45360000,
+          12020000
+        ],
+        0
+      ],
+      "bypass": [
+        [
+          45100000,
+          8960000
+        ],
+        270
+      ]
+    },
+    "new_drc": [
+      {
+        "type": "track_dangling",
+        "severity": "warning",
+        "items": [
+          "607afbe0-e241-4045-8e21-4377929ff6ea"
+        ],
+        "count": 1
+      },
+      {
+        "type": "track_dangling",
+        "severity": "warning",
+        "items": [
+          "b411330c-5690-43d3-9f9e-46fde7c947db"
+        ],
+        "count": 1
+      },
+      {
+        "type": "track_dangling",
+        "severity": "warning",
+        "items": [
+          "484d3727-f308-4313-8278-c330287560d6"
+        ],
+        "count": 1
+      },
+      {
+        "type": "track_dangling",
+        "severity": "warning",
+        "items": [
+          "f451a3b8-1670-4cfc-9f3f-6a238910f02d"
+        ],
+        "count": 1
+      },
+      {
+        "type": "track_dangling",
+        "severity": "warning",
+        "items": [
+          "0997d910-b87a-4fc8-9b8c-6343cb604ed9"
+        ],
+        "count": 1
+      }
+    ],
+    "lost_original_pad_contacts": {
+      "C2007.1": 24,
+      "C2007.2": 471,
+      "Y2001.1": 24,
+      "Y2001.2": 471,
+      "Y2001.3": 1,
+      "Y2001.4": 24,
+      "R2003.1": 1,
+      "R2003.2": 1
+    }
+  },
+  "rejected": [],
+  "assembly_ready": false
+}

@@ -1,0 +1,80 @@
+{
+  "board": "runs/rotated-existing-scl-trunk-R414.2-U4.1/phy-joint.kicad_pcb",
+  "sha256": "62cb5a2a91a04859e0d4f0527669314e8678b4719003de6db466af5554b130b6",
+  "parent_sha256": "62cb5a2a91a04859e0d4f0527669314e8678b4719003de6db466af5554b130b6",
+  "results": [
+    {
+      "net": "+3V3_SYS",
+      "candidates": 60,
+      "retained": [],
+      "passes": [
+        {
+          "types": [
+            "clearance",
+            "hole_clearance",
+            "shorting_items",
+            "solder_mask_bridge",
+            "track_dangling",
+            "tracks_crossing"
+          ],
+          "discarded": 60
+        }
+      ]
+    },
+    {
+      "net": "+3V3_IO",
+      "candidates": 4,
+      "retained": [],
+      "passes": [
+        {
+          "types": [
+            "clearance",
+            "hole_clearance",
+            "shorting_items",
+            "solder_mask_bridge"
+          ],
+          "discarded": 4
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "candidates": 42,
+      "retained": [],
+      "passes": [
+        {
+          "types": [
+            "clearance",
+            "hole_clearance",
+            "shorting_items",
+            "solder_mask_bridge",
+            "track_dangling",
+            "tracks_crossing"
+          ],
+          "discarded": 40
+        },
+        {
+          "types": [
+            "track_dangling"
+          ],
+          "discarded": 2
+        }
+      ]
+    },
+    {
+      "net": "PMIC_PWRON_N",
+      "candidates": 1,
+      "retained": [],
+      "passes": [
+        {
+          "types": [
+            "clearance",
+            "track_dangling"
+          ],
+          "discarded": 1
+        }
+      ]
+    }
+  ],
+  "assembly_ready": false
+}

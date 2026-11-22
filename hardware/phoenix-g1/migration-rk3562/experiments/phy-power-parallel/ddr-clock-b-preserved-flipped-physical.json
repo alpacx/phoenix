@@ -1,0 +1,157 @@
+{
+  "parent_sha256": "2b48b9d0755df32ba73e228e0035b2d2e29e9e0f779ff3ae66084bbb137c2ff4",
+  "attempts": [
+    {
+      "flip": true,
+      "reverse": false,
+      "four_leads_routed": 2,
+      "leads": [
+        {
+          "net": "LPDDR4_CLKP_B",
+          "end": 0,
+          "result": {
+            "path": [
+              [
+                43200000,
+                14950000
+              ],
+              [
+                42225000,
+                13975000
+              ],
+              [
+                41800000,
+                13975000
+              ]
+            ]
+          }
+        },
+        {
+          "net": "LPDDR4_CLKP_B",
+          "end": 1,
+          "result": {
+            "path": [
+              [
+                30800000,
+                10300000
+              ],
+              [
+                31400000,
+                10900000
+              ],
+              [
+                31800000,
+                10900000
+              ],
+              [
+                32200000,
+                10500000
+              ],
+              [
+                32200000,
+                9900000
+              ],
+              [
+                31800000,
+                9500000
+              ],
+              [
+                31800000,
+                9181802
+              ],
+              [
+                31940901,
+                9040901
+              ]
+            ]
+          }
+        },
+        {
+          "net": "LPDDR4_CLKN_B",
+          "end": 0,
+          "result": {
+            "starts": 8,
+            "ends": 6,
+            "visited": 173
+          }
+        },
+        {
+          "net": "LPDDR4_CLKN_B",
+          "end": 1,
+          "result": {
+            "starts": 9,
+            "ends": 5,
+            "visited": 25
+          }
+        }
+      ]
+    },
+    {
+      "flip": true,
+      "reverse": true,
+      "four_leads_routed": 2,
+      "leads": [
+        {
+          "net": "LPDDR4_CLKN_B",
+          "end": 0,
+          "result": {
+            "path": [
+              [
+                43350000,
+                13500000
+              ],
+              [
+                42425000,
+                14425000
+              ],
+              [
+                41800000,
+                14425000
+              ]
+            ]
+          }
+        },
+        {
+          "net": "LPDDR4_CLKN_B",
+          "end": 1,
+          "result": {
+            "path": [
+              [
+                31600000,
+                10300000
+              ],
+              [
+                31600000,
+                10018198
+              ],
+              [
+                32259099,
+                9359099
+              ]
+            ]
+          }
+        },
+        {
+          "net": "LPDDR4_CLKP_B",
+          "end": 0,
+          "result": {
+            "starts": 9,
+            "ends": 6,
+            "visited": 378
+          }
+        },
+        {
+          "net": "LPDDR4_CLKP_B",
+          "end": 1,
+          "result": {
+            "starts": 9,
+            "ends": 8,
+            "visited": 318
+          }
+        }
+      ]
+    }
+  ],
+  "candidate": null,
+  "adopted": false
+}

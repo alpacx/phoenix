@@ -6,12 +6,13 @@ from pcb_preservation import verify_preservation
 from audit_mount_component_reservations import screen
 from drc_regression import introduced
 root=Path(__file__).resolve().parents[1]/'migration-rk3562/experiments/phy-power-parallel'
-bank='--bank-lands' in sys.argv
+new_bank='--updated-bank-lands' in sys.argv
+bank='--bank-lands' in sys.argv or new_bank
 filled='--filled-cap' in sys.argv
 paired='--c2308-return' in sys.argv
 bends='--bends' in sys.argv or paired or filled or bank
-stage='bank-lands' if bank else 'opposite-filled-cap' if filled else 'c2308-paired-return' if paired else 'opposite-bypass-bends' if bends else 'opposite-power-bypass'
-cp=json.loads((root/('layout-cap-bank.json' if bank else 'layout-opposite-bypass.json' if bends else 'layout-package-local.json')).read_text());src=root/cp['board']
+stage='updated-bank-lands' if new_bank else 'bank-lands' if bank else 'opposite-filled-cap' if filled else 'c2308-paired-return' if paired else 'opposite-bypass-bends' if bends else 'opposite-power-bypass'
+cp=json.loads((root/('layout-wifi-sdio-bias.json' if new_bank else 'layout-cap-bank.json' if bank else 'layout-opposite-bypass.json' if bends else 'layout-package-local.json')).read_text());src=root/cp['board']
 assert hashlib.sha256(src.read_bytes()).hexdigest()==cp['sha256']
 b=p.LoadBoard(str(src));b.BuildConnectivity()
 pads=[q for f in b.GetFootprints() for q in f.Pads()]
@@ -30,6 +31,18 @@ for cap in b.GetFootprints():
         for ball in chip.Pads():
             distance=math.dist(tuple(ball.GetPosition()),tuple(q.GetPosition()))
             if q.GetNetCode()==ball.GetNetCode() and distance<=2200000:pairs.append((distance,q,ball))
+if new_bank:
+    # Include the extra supply domains with grounded caps in the expanded bank.
+    extra={'VCCA1V8_IMAGE','VDDA0V9_IMAGE','VCCIO_ACODEC','+3V3_PMU','+3V3_SD','VCCIO_SD'}
+    for cap in b.GetFootprints():
+        if not cap.GetReference().startswith('C'):continue
+        q=cap.FindPadByNumber('1');g=cap.FindPadByNumber('2')
+        if not q or not g or q.GetNetname() not in extra or g.m_Uuid.AsString() not in grounds:continue
+        for chip in chips:
+            if chip.GetLayer()==cap.GetLayer():continue
+            for ball in chip.Pads():
+                distance=(ball.GetPosition()-q.GetPosition()).EuclideanNorm()
+                if q.GetNetCode()==ball.GetNetCode() and distance<=2200000:pairs.append((distance,q,ball))
 layers=[p.F_Cu,p.In1_Cu,p.In2_Cu,p.In3_Cu,p.In4_Cu,p.B_Cu]
 if paired:
     c=b.FindFootprintByReference('C2308').FindPadByNumber('2')

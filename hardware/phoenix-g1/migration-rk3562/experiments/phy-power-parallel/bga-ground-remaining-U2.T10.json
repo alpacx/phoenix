@@ -1,0 +1,299 @@
+{
+  "parent_sha256": "a0074798640d4aa3eca2058eb27623ae779d1f97e4b3ce803f878d0acd383aea",
+  "surface": "F.Cu",
+  "pin": "U2.T10",
+  "width_mm": 0.2,
+  "grid_mm": 0.025,
+  "via_mm": [
+    0.45,
+    0.2
+  ],
+  "ground_relief": false,
+  "ground_via_relief": false,
+  "existing_tracks_and_vias_included": true,
+  "single_obstacle_candidates": [
+    {
+      "name": "U2.R10",
+      "via_nm": [
+        32475000,
+        11575000
+      ],
+      "obstacles": [
+        [
+          "bfb50084-0df2-4267-abc2-5837e42b4452",
+          "F.Cu"
+        ]
+      ],
+      "length_mm": 0.3889087296526012,
+      "path_nm": [
+        [
+          32750000,
+          11850000
+        ],
+        [
+          32725000,
+          11825000
+        ],
+        [
+          32700000,
+          11800000
+        ],
+        [
+          32675000,
+          11775000
+        ],
+        [
+          32650000,
+          11750000
+        ],
+        [
+          32625000,
+          11725000
+        ],
+        [
+          32600000,
+          11700000
+        ],
+        [
+          32575000,
+          11675000
+        ],
+        [
+          32550000,
+          11650000
+        ],
+        [
+          32525000,
+          11625000
+        ],
+        [
+          32500000,
+          11600000
+        ],
+        [
+          32475000,
+          11575000
+        ]
+      ]
+    },
+    {
+      "name": "U2.T9",
+      "via_nm": [
+        32425000,
+        11625000
+      ],
+      "obstacles": [
+        [
+          "ff4ac597-c339-4f2c-96ca-26c9b029a94e",
+          "F.Cu"
+        ]
+      ],
+      "length_mm": 0.4035533905932738,
+      "path_nm": [
+        [
+          32725000,
+          11875000
+        ],
+        [
+          32700000,
+          11875000
+        ],
+        [
+          32675000,
+          11875000
+        ],
+        [
+          32650000,
+          11850000
+        ],
+        [
+          32625000,
+          11825000
+        ],
+        [
+          32600000,
+          11800000
+        ],
+        [
+          32575000,
+          11775000
+        ],
+        [
+          32550000,
+          11750000
+        ],
+        [
+          32525000,
+          11725000
+        ],
+        [
+          32500000,
+          11700000
+        ],
+        [
+          32475000,
+          11675000
+        ],
+        [
+          32450000,
+          11650000
+        ],
+        [
+          32425000,
+          11625000
+        ]
+      ]
+    }
+  ],
+  "reachable_positions": 515,
+  "farthest_mm": 0.7079901129253147,
+  "sites": [],
+  "via_obstacles": [
+    {
+      "names": [
+        "source pad"
+      ],
+      "positions": 56
+    },
+    {
+      "names": [
+        "U2.T9"
+      ],
+      "positions": 6
+    },
+    {
+      "names": [
+        "U2.R10"
+      ],
+      "positions": 5
+    },
+    {
+      "names": [
+        "U2.T9",
+        "source pad"
+      ],
+      "positions": 89
+    },
+    {
+      "names": [
+        "U2.U10",
+        "source pad"
+      ],
+      "positions": 26
+    },
+    {
+      "names": [
+        "U2.R10",
+        "source pad"
+      ],
+      "positions": 26
+    },
+    {
+      "names": [
+        "LPDDR4_RESETN",
+        "source pad"
+      ],
+      "positions": 23
+    },
+    {
+      "names": [
+        "LPDDR4_A3_B",
+        "U2.R10"
+      ],
+      "positions": 14
+    },
+    {
+      "names": [
+        "U2.R9",
+        "U2.T9"
+      ],
+      "positions": 14
+    },
+    {
+      "names": [
+        "U2.T9",
+        "U2.U10"
+      ],
+      "positions": 11
+    },
+    {
+      "names": [
+        "LPDDR4_DQ11_B",
+        "source pad"
+      ],
+      "positions": 7
+    },
+    {
+      "names": [
+        "U2.R10",
+        "U2.T9"
+      ],
+      "positions": 5
+    },
+    {
+      "names": [
+        "U2.T9",
+        "U2.U9"
+      ],
+      "positions": 1
+    },
+    {
+      "names": [
+        "LPDDR4_DQ11_B",
+        "LPDDR4_RESETN",
+        "source pad"
+      ],
+      "positions": 34
+    },
+    {
+      "names": [
+        "LPDDR4_DQ11_B",
+        "U2.U10",
+        "source pad"
+      ],
+      "positions": 27
+    },
+    {
+      "names": [
+        "U2.T9",
+        "U2.U10",
+        "source pad"
+      ],
+      "positions": 26
+    },
+    {
+      "names": [
+        "LPDDR4_RESETN",
+        "U2.R10",
+        "source pad"
+      ],
+      "positions": 22
+    },
+    {
+      "names": [
+        "LPDDR4_A3_B",
+        "U2.R10",
+        "U2.R9"
+      ],
+      "positions": 18
+    },
+    {
+      "names": [
+        "U2.T9",
+        "U2.U10",
+        "U2.U9"
+      ],
+      "positions": 15
+    },
+    {
+      "names": [
+        "LPDDR4_A3_B",
+        "U2.R10",
+        "source pad"
+      ],
+      "positions": 11
+    }
+  ],
+  "assembly_ready": false,
+  "source_sha256": "a0074798640d4aa3eca2058eb27623ae779d1f97e4b3ce803f878d0acd383aea"
+}

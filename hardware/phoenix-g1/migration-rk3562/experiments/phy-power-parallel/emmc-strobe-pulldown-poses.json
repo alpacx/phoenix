@@ -1,0 +1,83 @@
+{
+  "parent_sha256": "a7e7c220910f719477d55f2406c8472e32fff37ffc672855d7c22312d489f329",
+  "coupon_sha256": "5c634fd40f4366782b6c4325011c158e6de00796d216db327cd27fcc9c95320f",
+  "stats": {
+    "courtyard_fit": 3389,
+    "lands_fit": 911,
+    "strobe_reachable": 266
+  },
+  "solutions": 155,
+  "board": "runs/emmc-strobe-pulldown/phy-joint.kicad_pcb",
+  "sha256": "08186d0b398fd980c6d410de610ce92955d6369141dee576aa255be8bb9e02a4",
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 7340,
+    "explicitly_replaced_copper": {
+      "16758ef8-95d8-4812-80d4-826d10c17241": [
+        "GND",
+        2,
+        47490000,
+        5000000,
+        47500000,
+        5000000,
+        200000,
+        null
+      ],
+      "50054298-022f-48b8-8d86-fb9b1fd39f74": [
+        "LPDDR4_A1_A",
+        8,
+        39100000,
+        12100000,
+        33400000,
+        6400000,
+        200000,
+        null
+      ],
+      "97144719-52a6-4ded-8f27-2c1b1b621ed6": [
+        "GND",
+        2,
+        47500000,
+        5000000,
+        46750000,
+        5000000,
+        200000,
+        null
+      ],
+      "cac73c71-c298-4d9b-99c9-37b934261b25": [
+        "LCD_BL_PWM",
+        0,
+        35100000,
+        11700000,
+        38490000,
+        4300000,
+        200000,
+        null
+      ]
+    },
+    "added_tracks_vias": 17,
+    "existing_connected_pad_groups_preserved": 120
+  },
+  "remaining": 439,
+  "selected": {
+    "layer": "F.Cu",
+    "angle": 270,
+    "xy": [
+      36310000,
+      9855000
+    ],
+    "gp": [
+      37700000,
+      9850000
+    ]
+  },
+  "attempts": [
+    {
+      "angle": 270,
+      "xy": [
+        36310000,
+        9855000
+      ],
+      "delta": []
+    }
+  ]
+}

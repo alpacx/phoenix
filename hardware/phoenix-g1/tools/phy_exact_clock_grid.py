@@ -2,13 +2,14 @@
 import heapq,math
 from functools import lru_cache
 import pcbnew as p
+from pcb_bounds import inflated_box
 def solve(board,net,layer,start,end,width,site):
     reserve=p.PCB_VIA(board);reserve.SetPosition(p.VECTOR2I(*site));reserve.SetWidth(450000);reserve.SetDrill(200000);reserve.SetLayerPair(p.F_Cu,p.B_Cu)
     copper=[k for k in list(board.GetTracks())+[q for f in board.GetFootprints() for q in f.Pads()] if k.IsOnLayer(layer) and k.GetNetname()!=net]
     copper.append(reserve)
     shapes={}
     for k in copper:
-        box=k.GetBoundingBox().Inflate(500000)
+        box=inflated_box(k,500000)
         if box.GetRight()<55000000 or box.GetLeft()>64000000 or box.GetBottom()<28000000 or box.GetTop()>37000000:continue
         shape=k.GetEffectiveShape(layer)
         for i in range(box.GetLeft()//500000,box.GetRight()//500000+1):

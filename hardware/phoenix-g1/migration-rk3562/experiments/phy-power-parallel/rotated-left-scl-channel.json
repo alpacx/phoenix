@@ -1,0 +1,39 @@
+{
+  "coupon_sha256": "71a12cdf328f8b8b633e18e4a827b3c90943ce71bdba63f72495db4e458f9e3f",
+  "circuits": [
+    {
+      "label": "U4.1 at 350000 105000",
+      "net": "PMIC_SCL",
+      "width_nm": 200000,
+      "visited": 1535,
+      "via_paths": [],
+      "max_reached_mm": 5.323401871576769,
+      "bounds_nm": [
+        62850000,
+        4500000,
+        67250000,
+        7750000
+      ],
+      "single_copper_blockers": {
+        "C422.2": {
+          "net": "GND",
+          "count": 2,
+          "first_site_nm": [
+            63150000,
+            5450000
+          ],
+          "type": "PAD"
+        },
+        "C470.2": {
+          "net": "GND",
+          "count": 4,
+          "first_site_nm": [
+            63200000,
+            5600000
+          ],
+          "type": "PAD"
+        }
+      }
+    }
+  ]
+}

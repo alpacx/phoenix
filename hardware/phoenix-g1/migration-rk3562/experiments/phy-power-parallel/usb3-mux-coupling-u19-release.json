@@ -1,0 +1,156 @@
+{
+  "parent_sha256": "4434879e3c5aba8f62a14b22c930fe42c80bdd23b63bbb90926d7abff49eb7c5",
+  "pairs": [
+    {
+      "pins": [
+        "17",
+        "16"
+      ],
+      "caps": [
+        "C601",
+        "C602"
+      ],
+      "counts": {
+        "both_courtyards": 531
+      },
+      "trial_poses": 595,
+      "most_frequent_obstacles": [
+        [
+          "C1107",
+          64
+        ]
+      ],
+      "external_copper_blockers": [
+        [
+          "AON_READY + USB_CURRENT_OK",
+          149
+        ],
+        [
+          "AON_READY + GND + USB_CURRENT_OK",
+          107
+        ],
+        [
+          "AON_READY + GND",
+          60
+        ],
+        [
+          "AON_READY + USB_MAIN_ENABLE",
+          47
+        ],
+        [
+          "AON_READY",
+          40
+        ],
+        [
+          "GND + USB_CURRENT_OK",
+          33
+        ],
+        [
+          "AON_READY + USB_CURRENT_OK + USB_MAIN_ENABLE",
+          31
+        ],
+        [
+          "AON_READY + C1107.2 + GND + USB_CURRENT_OK",
+          20
+        ],
+        [
+          "GND",
+          13
+        ],
+        [
+          "AON_READY + C1107.2 + GND",
+          9
+        ],
+        [
+          "USB_CURRENT_OK",
+          8
+        ],
+        [
+          "USB_CURRENT_OK + USB_MAIN_ENABLE",
+          7
+        ]
+      ],
+      "options": []
+    },
+    {
+      "pins": [
+        "21",
+        "20"
+      ],
+      "caps": [
+        "C603",
+        "C604"
+      ],
+      "counts": {
+        "both_courtyards": 56
+      },
+      "trial_poses": 595,
+      "most_frequent_obstacles": [
+        [
+          "U14",
+          475
+        ],
+        [
+          "C1107 + U14",
+          49
+        ],
+        [
+          "C1107",
+          15
+        ]
+      ],
+      "external_copper_blockers": [
+        [
+          "+3V3_AON + AON_READY + C1107.1 + C1107.2 + USB_CURRENT_OK + USB_MAIN_ENABLE",
+          25
+        ],
+        [
+          "+3V3_AON + AON_READY + C1107.1 + C1107.2 + USB_CURRENT_OK",
+          17
+        ],
+        [
+          "+3V3_AON + C1107.1 + C1107.2 + GND + USB_CURRENT_OK",
+          9
+        ],
+        [
+          "+3V3_AON + C1107.1 + C1107.2 + GND",
+          2
+        ],
+        [
+          "+3V3_AON + C1107.1 + C1107.2 + USB_CURRENT_OK",
+          2
+        ],
+        [
+          "+3V3_AON + AON_READY + C1107.1 + C1107.2 + GND + USB_CURRENT_OK",
+          1
+        ]
+      ],
+      "options": []
+    }
+  ],
+  "u19_attached_copper_released": {
+    "USB_CURRENT_OK": [
+      "679249f7-d44e-4cb0-a829-712ea467602e",
+      "d95ebbd1-e340-461d-b22d-475a0c2a1f62"
+    ],
+    "AON_READY": [
+      "5caa0f5f-99f7-48c8-bc86-65fb868d37cb",
+      "6697b6b2-5730-470d-8139-1ae14decb175",
+      "9eaa79bb-3b53-4352-9712-da3b7faf0376",
+      "bcc52d82-ad5f-476b-8527-6c399fbb0257"
+    ],
+    "GND": [
+      "f71c3e71-8055-452a-b8bd-52d1339c81d6"
+    ],
+    "USB_MAIN_ENABLE": [
+      "b55d0865-9ff5-40e2-9b60-2f26dddd203c"
+    ],
+    "+3V3_AON": [
+      "33db89d3-d592-4234-bacb-07d4ae299c27",
+      "6ed23258-fa2d-48d0-ba93-21b9c001320d",
+      "da6de5ad-8d23-4ed0-96fb-86bfe6493727"
+    ]
+  },
+  "board_adopted": false,
+  "conditions": "Simultaneous symmetric 0.20 mm F.Cu routes out of the mux with 45-degree unstacked fanout, no vias, both footprints preserve polarity; courtyard clearance 0.10 mm. Candidate geometry requires field solver, cap transitions, reference plane and native DRC before adoption."
+}

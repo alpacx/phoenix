@@ -1,0 +1,127 @@
+{
+  "parent_sha256": "7623e79a6838934df7f6d441cf01ec91127591fe4a32247673c4e6f30816fe7a",
+  "rows": [
+    {
+      "ref": "C415",
+      "pin": "48",
+      "east_toe_nm": [
+        63830000,
+        7250000
+      ],
+      "east_blockers": [
+        [
+          "+3V3_SYS",
+          "16e17f9c-ea6d-4f6e-8a94-9be4c5deea17"
+        ],
+        [
+          "+3V3_SYS",
+          "7fe50ed4-6f55-4910-bede-86c4d51ef5bd"
+        ],
+        [
+          "+3V3_SYS",
+          "98440e80-1094-4194-948f-53cb64d452ac"
+        ],
+        [
+          "+3V3_SYS",
+          "dafdd263-dbc3-4bf2-91fe-b2f8f391b6f1"
+        ],
+        [
+          "+3V3_SYS",
+          "C424.1"
+        ],
+        [
+          "GND",
+          "U4.47"
+        ],
+        [
+          "PMIC_SLEEP",
+          "U4.49"
+        ]
+      ],
+      "launches": 0,
+      "reachable": 0,
+      "stats": {},
+      "best": []
+    },
+    {
+      "ref": "C414",
+      "pin": "44",
+      "east_toe_nm": [
+        63830000,
+        8650000
+      ],
+      "east_blockers": [
+        [
+          "+3V3_SYS",
+          "62eae54e-b6be-44b5-9a44-3fa73a946cdb"
+        ],
+        [
+          "+3V3_SYS",
+          "6854f379-4274-4387-b0df-0a9deb0b48da"
+        ],
+        [
+          "",
+          "U4.43"
+        ],
+        [
+          "+3V3_SYS",
+          "U4.45"
+        ]
+      ],
+      "launches": 0,
+      "reachable": 0,
+      "stats": {},
+      "best": []
+    },
+    {
+      "ref": "C413",
+      "pin": "46",
+      "east_toe_nm": [
+        63830000,
+        7950000
+      ],
+      "east_blockers": [
+        [
+          "+3V3_SYS",
+          "0a000bc1-115d-40da-a531-cc46fd931777"
+        ],
+        [
+          "+3V3_SYS",
+          "16e17f9c-ea6d-4f6e-8a94-9be4c5deea17"
+        ],
+        [
+          "+3V3_SYS",
+          "62eae54e-b6be-44b5-9a44-3fa73a946cdb"
+        ],
+        [
+          "+3V3_SYS",
+          "6854f379-4274-4387-b0df-0a9deb0b48da"
+        ],
+        [
+          "+3V3_SYS",
+          "7fe50ed4-6f55-4910-bede-86c4d51ef5bd"
+        ],
+        [
+          "+3V3_SYS",
+          "98440e80-1094-4194-948f-53cb64d452ac"
+        ],
+        [
+          "+3V3_SYS",
+          "dafdd263-dbc3-4bf2-91fe-b2f8f391b6f1"
+        ],
+        [
+          "+3V3_SYS",
+          "U4.45"
+        ],
+        [
+          "GND",
+          "U4.47"
+        ]
+      ],
+      "launches": 0,
+      "reachable": 0,
+      "stats": {},
+      "best": []
+    }
+  ]
+}

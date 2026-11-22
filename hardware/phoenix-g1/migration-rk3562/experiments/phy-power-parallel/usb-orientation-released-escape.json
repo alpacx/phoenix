@@ -1,0 +1,31 @@
+{
+  "parent_sha256": "8d352fc8d25bac62484ec2e96929254880a6f142758b812916e271ea9d692790",
+  "candidate": {
+    "board": "runs/usb-orientation-released-escape/phy-joint.kicad_pcb",
+    "sha256": "9b42a48c1822be8dbce30478e060918a47c90a8b823cc9cf0d8e70da9a33c028",
+    "via_uuid": "a829d6fe-3348-4774-8ed6-9234384ab7c0",
+    "via_nm": [
+      19325000,
+      21200000
+    ],
+    "length_mm": 0.3,
+    "new_drc": [
+      {
+        "type": "via_dangling",
+        "severity": "warning",
+        "items": [
+          "a829d6fe-3348-4774-8ed6-9234384ab7c0"
+        ],
+        "count": 1
+      }
+    ],
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 6885,
+      "explicitly_replaced_copper": {},
+      "added_tracks_vias": 2,
+      "existing_connected_pad_groups_preserved": 119
+    }
+  },
+  "assembly_ready": false
+}

@@ -1,0 +1,44 @@
+{
+  "parent_sha256": "789116417fc6fc23feeb0832d79e4ad8df7c0acc3fdda94b65ed70ce0c2131e9",
+  "board": "runs/soc-core-neighbors/phy-joint.kicad_pcb",
+  "sha256": "adc0f8b68d5f0adf1d219f78948091203c481b4794bfb493f5decd3420ec64e6",
+  "accepted": [
+    {
+      "pair": [
+        "U1.1E8",
+        "U1.1E9"
+      ],
+      "net": "+1V1_LPDDR4",
+      "width_mm": 0.5,
+      "length_mm": 0.45
+    },
+    {
+      "pair": [
+        "U1.1G10",
+        "U1.1H10"
+      ],
+      "net": "VDD_LOGIC",
+      "width_mm": 0.5,
+      "length_mm": 0.45
+    }
+  ],
+  "rejected": [
+    [
+      "1E7",
+      "1E8"
+    ],
+    [
+      "1D11",
+      "1E10"
+    ]
+  ],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 6893,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 2,
+    "existing_connected_pad_groups_preserved": 120
+  },
+  "new_drc": [],
+  "assembly_ready": false
+}

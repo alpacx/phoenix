@@ -1,0 +1,119 @@
+{
+  "parent_sha256": "fc771ab152629ebdb639a64d6bbc077e2fb9a5fbdead1d85e67fb77d9a8a7d29",
+  "restore_sha256": "b481154486c7def85012b1ff2bfa2f94d632bcba7ef78ac17afb783ed5717bd6",
+  "board": "runs/vddq-recovered-mosi-trimmed/phy-joint.kicad_pcb",
+  "sha256": "12dcc6c8732781f72e2d91d48b874fe6533bd991ebd328f1fbe14da5b91fad70",
+  "trimmed": [
+    {
+      "id": "43db802f-49f6-4140-ac37-b0e6bccb6d52",
+      "start_nm": [
+        55050000,
+        16350000
+      ],
+      "trim_to_nm": [
+        55000000,
+        16350000
+      ]
+    },
+    {
+      "id": "132e91b3-9678-4f45-8715-a66db7b5f6ca",
+      "start_nm": [
+        55000000,
+        16350000
+      ],
+      "trim_to_nm": [
+        54950000,
+        16400000
+      ]
+    },
+    {
+      "id": "5056dd86-6472-4f29-843d-7b6abe21d29e",
+      "start_nm": [
+        54950000,
+        16400000
+      ],
+      "trim_to_nm": [
+        54750000,
+        16400000
+      ]
+    },
+    {
+      "id": "320c855a-102f-4c12-a231-479d8b62ab75",
+      "start_nm": [
+        54750000,
+        16400000
+      ],
+      "trim_to_nm": [
+        54472222,
+        16677778
+      ]
+    }
+  ],
+  "replaced": [
+    "132e91b3-9678-4f45-8715-a66db7b5f6ca",
+    "320c855a-102f-4c12-a231-479d8b62ab75",
+    "43db802f-49f6-4140-ac37-b0e6bccb6d52",
+    "5056dd86-6472-4f29-843d-7b6abe21d29e",
+    "f4f66a34-0d37-4b6c-a253-3991b3a877a0"
+  ],
+  "new_drc": [],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 7141,
+    "explicitly_replaced_copper": {
+      "132e91b3-9678-4f45-8715-a66db7b5f6ca": [
+        "EXP_SPI_MOSI",
+        8,
+        54950000,
+        16400000,
+        55000000,
+        16350000,
+        200000,
+        null
+      ],
+      "320c855a-102f-4c12-a231-479d8b62ab75": [
+        "EXP_SPI_MOSI",
+        8,
+        52250000,
+        18900000,
+        54750000,
+        16400000,
+        200000,
+        null
+      ],
+      "43db802f-49f6-4140-ac37-b0e6bccb6d52": [
+        "EXP_SPI_MOSI",
+        8,
+        55000000,
+        16350000,
+        55050000,
+        16350000,
+        200000,
+        null
+      ],
+      "5056dd86-6472-4f29-843d-7b6abe21d29e": [
+        "EXP_SPI_MOSI",
+        8,
+        54750000,
+        16400000,
+        54950000,
+        16400000,
+        200000,
+        null
+      ],
+      "f4f66a34-0d37-4b6c-a253-3991b3a877a0": [
+        "EXP_SPI_MOSI",
+        8,
+        55050000,
+        16350000,
+        60300000,
+        11100000,
+        200000,
+        null
+      ]
+    },
+    "added_tracks_vias": 31,
+    "existing_connected_pad_groups_preserved": 120
+  },
+  "assembly_ready": false
+}

@@ -1,0 +1,62 @@
+{
+  "sha256": "ba19b2c78c28da2267967a96514b838ce59154c767bd37d032aa578ca10f7c7b",
+  "route_length_mm": 109.50274357755275,
+  "series_ohms": "22R",
+  "via_count": 11,
+  "length_by_layer_mm": {
+    "F.Cu": 7.736483427202847,
+    "B.Cu": 28.650183287881294,
+    "In2.Cu": 58.58816432910822,
+    "In3.Cu": 14.527912533360396
+  },
+  "reference_mm": {
+    "F.Cu": {
+      "over_ground": 6.4118,
+      "no_ground": 1.3246
+    },
+    "B.Cu": {
+      "over_ground": 26.4325,
+      "no_ground": 2.2176
+    },
+    "In2.Cu": {
+      "over_ground": 54.0544,
+      "no_ground": 4.5338
+    },
+    "In3.Cu": {
+      "over_ground": 12.7351,
+      "no_ground": 1.7928
+    }
+  },
+  "switching_copper_proximity_mm": {
+    "projected_within_1mm_any_layer": 3.8499999999999943
+  },
+  "models": {
+    "JLC06161H-3313": {
+      "trace_pF": 12.051943710344679,
+      "one_way_delay_ns_length_sum": 0.7359345891914174,
+      "remaining_pF_at_receiver_limit_before_vias_and_pads": -2.0519437103446787
+    },
+    "JLC06161H-7628": {
+      "trace_pF": 11.207073298607208,
+      "one_way_delay_ns_length_sum": 0.7368964302832237,
+      "remaining_pF_at_receiver_limit_before_vias_and_pads": -1.2070732986072077
+    }
+  },
+  "source": {
+    "document": "reference/wifi-clock-c5274152.pdf, Taitien OV Rev(17)04/2017",
+    "CMOS_rise_fall_max_ns_at_15pF": 50,
+    "frequency_kHz": 32.768
+  },
+  "receiver": {
+    "document": "reference/wifi-ap6256.pdf section External LPO signal characteristics",
+    "input_capacitance_limit_pF": 5,
+    "jitter_Hz_max_300Hz_15kHz": 1
+  },
+  "limitations": [
+    "Source datasheet gives maximum edge time at 15 pF, not minimum edge time or an RC driver model.",
+    "Pads, via barrels and packages are not included in the 2D trace capacitance.",
+    "Total includes connected branches. Noise distances are geometric screens, not crosstalk simulation.",
+    "36 mm was an exploration bound, not a vendor length limit. Supply transient and receiver jitter remain unmeasured."
+  ],
+  "assembly_ready": false
+}

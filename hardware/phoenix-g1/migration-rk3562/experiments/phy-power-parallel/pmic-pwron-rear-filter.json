@@ -1,0 +1,54 @@
+{
+  "parent_sha256": "006fc4c501a7504961215342f079d845cf75e430173fa94d8c52813f574f78be",
+  "adopted": true,
+  "search_counts": [
+    449,
+    37,
+    8
+  ],
+  "attempts": [
+    {
+      "xy_nm": [
+        63400000,
+        4390000
+      ],
+      "signal_mm": 1.305269119345812,
+      "ground_mm": 1.776223663640862,
+      "delta": []
+    }
+  ],
+  "board": "runs/pmic-pwron-rear-filter/phy-joint.kicad_pcb",
+  "sha256": "ec0cae86786864ee0b90974e897f725df433e94b405c47c47afa5cfb2cf56ddc",
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 6605,
+    "explicitly_replaced_copper": {
+      "62729452-a410-45ec-bf72-699f6a813fe5": [
+        "GND",
+        0,
+        86130000,
+        34500000,
+        86130000,
+        34500000,
+        600000,
+        300000
+      ],
+      "7bf6e5fa-46b7-490b-a63e-fc42414ff413": [
+        "GND",
+        0,
+        85480000,
+        34500000,
+        86130000,
+        34500000,
+        300000,
+        null
+      ]
+    },
+    "added_tracks_vias": 5,
+    "existing_connected_pad_groups_preserved": 111
+  },
+  "pair": [
+    "U4.52",
+    "C412.1"
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "parent_sha256": "22e9735759bde9eb5efd281f10bfec697cf904e371706acb35b57fa5ede5c364",
+  "counts": {
+    "mechanically_clear_footprint": 601
+  },
+  "fixed_single_courtyard_obstructions": {
+    "R2001": 205,
+    "U25": 515,
+    "C2008": 1615,
+    "C2009": 970,
+    "C2002": 36,
+    "U23": 216
+  },
+  "eligible": 0,
+  "best_bounded": [
+    {
+      "pose_nm": [
+        73800000,
+        19325000
+      ],
+      "angle": 0,
+      "signal_nm": [
+        73800000,
+        17800000
+      ],
+      "distance_mm": 2.848528137423857,
+      "conflicts": [
+        {
+          "uuid": "d3ed6222-5c3c-4242-931f-f776d797f832",
+          "kind": "PAD",
+          "net": "ETH_MDI2_N",
+          "ref": "J2"
+        }
+      ],
+      "ground_contacts": {
+        "2": [],
+        "3": []
+      }
+    },
+    {
+      "pose_nm": [
+        73800000,
+        19125000
+      ],
+      "angle": 0,
+      "signal_nm": [
+        73800000,
+        17600000
+      ],
+      "distance_mm": 2.9313708498984763,
+      "conflicts": [
+        {
+          "uuid": "d3ed6222-5c3c-4242-931f-f776d797f832",
+          "kind": "PAD",
+          "net": "ETH_MDI2_N",
+          "ref": "J2"
+        }
+      ],
+      "ground_contacts": {
+        "2": [],
+        "3": []
+      }
+    },
+    {
+      "pose_nm": [
+        73900000,
+        19225000
+      ],
+      "angle": 0,
+      "signal_nm": [
+        73900000,
+        17700000
+      ],
+      "distance_mm": 2.989949493661167,
+      "conflicts": [
+        {
+          "uuid": "d3ed6222-5c3c-4242-931f-f776d797f832",
+          "kind": "PAD",
+          "net": "ETH_MDI2_N",
+          "ref": "J2"
+        }
+      ],
+      "ground_contacts": {
+        "2": [],
+        "3": []
+      }
+    },
+    {
+      "pose_nm": [
+        74000000,
+        19325000
+      ],
+      "angle": 0,
+      "signal_nm": [
+        74000000,
+        17800000
+      ],
+      "distance_mm": 3.0485281374238573,
+      "conflicts": [
+        {
+          "uuid": "d3ed6222-5c3c-4242-931f-f776d797f832",
+          "kind": "PAD",
+          "net": "ETH_MDI2_N",
+          "ref": "J2"
+        }
+      ],
+      "ground_contacts": {
+        "2": [],
+        "3": []
+      }
+    },
+    {
+      "pose_nm": [
+        74000000,
+        19125000
+      ],
+      "angle": 0,
+      "signal_nm": [
+        74000000,
+        17600000
+      ],
+      "distance_mm": 3.131370849898476,
+      "conflicts": [
+        {
+          "uuid": "d3ed6222-5c3c-4242-931f-f776d797f832",
+          "kind": "PAD",
+          "net": "ETH_MDI2_N",
+          "ref": "J2"
+        }
+      ],
+      "ground_contacts": {
+        "2": [],
+        "3": []
+      }
+    },
+    {
+      "pose_nm": [
+        74100000,
+        19225000
+      ],
+      "angle": 0,
+      "signal_nm": [
+        74100000,
+        17700000
+      ],
+      "distance_mm": 3.1899494936611665,
+      "conflicts": [
+        {
+          "uuid": "d3ed6222-5c3c-4242-931f-f776d797f832",
+          "kind": "PAD",
+          "net": "ETH_MDI2_N",
+          "ref": "J2"
+        }
+      ],
+      "ground_contacts": {
+        "2": [],
+        "3": []
+      }
+    },
+    {
+      "pose_nm": [
+        74200000,
+        19325000
+      ],
+      "angle": 0,
+      "signal_nm": [
+        74200000,
+        17800000
+      ],
+      "distance_mm": 3.248528137423857,
+      "conflicts": [
+        {
+          "uuid": "d3ed6222-5c3c-4242-931f-f776d797f832",
+          "kind": "PAD",
+          "net": "ETH_MDI2_N",
+          "ref": "J2"
+        }
+      ],
+      "ground_contacts": {
+        "2": [],
+        "3": []
+      }
+    },
+    {
+      "pose_nm": [
+        74200000,
+        19125000
+      ],
+      "angle": 0,
+      "signal_nm": [
+        74200000,
+        17600000
+      ],
+      "distance_mm": 3.331370849898476,
+      "conflicts": [
+        {
+          "uuid": "d3ed6222-5c3c-4242-931f-f776d797f832",
+          "kind": "PAD",
+          "net": "ETH_MDI2_N",
+          "ref": "J2"
+        }
+      ],
+      "ground_contacts": {
+        "2": [],
+        "3": []
+      }
+    }
+  ],
+  "best": [],
+  "assembly_ready": false
+}

@@ -1,0 +1,53 @@
+{
+  "board": "runs/lcd-select-grid-route-R1815.1-U1.M3/phy-joint.kicad_pcb",
+  "sha256": "db84d12e36a96084efe16e5372fd6e522467ecf3c4163b05e52add5287399dc9",
+  "parent_sha256": "db84d12e36a96084efe16e5372fd6e522467ecf3c4163b05e52add5287399dc9",
+  "records": [],
+  "held": [
+    {
+      "blocked": "source frontier exhausted",
+      "reachable_by_layer": [
+        6003
+      ],
+      "goal_positions": 84,
+      "bridge_probes": 0,
+      "via_probes": 0
+    },
+    {
+      "net": "+3V3_IO",
+      "groups": [
+        [
+          "C1627.1",
+          "C1637.1",
+          "C2004.1",
+          "C2005.1",
+          "C2006.1",
+          "C2007.1",
+          "C470.1",
+          "J3.36",
+          "R1505.1",
+          "R1804.1",
+          "R1815.2",
+          "R2010.2",
+          "R2012.2",
+          "R2013.2",
+          "R2014.2",
+          "R2101.2",
+          "R2102.2",
+          "R530.1",
+          "R8102.2",
+          "TP6.1",
+          "U20.3",
+          "U25.22",
+          "U4.55",
+          "Y2001.1",
+          "Y2001.4"
+        ],
+        [
+          "R8007.1"
+        ]
+      ]
+    }
+  ],
+  "assembly_ready": false
+}

@@ -9,18 +9,21 @@ import subprocess
 import sys
 import pcbnew as p
 from pcb_preservation import verify_preservation
+from pcb_bounds import inflated_box
 from drc_regression import introduced
 from audit_mount_component_reservations import screen
 
 root = Path(__file__).resolve().parents[1] / 'migration-rk3562/experiments/phy-power-parallel'
+offset_mesh='--ground-land-offsets' in sys.argv
+local_island_mesh='--island-mesh' in sys.argv
 outer_mesh = '--outer-ground-mesh' in sys.argv
 core_mesh = '--core-ground-mesh' in sys.argv or outer_mesh
-all_ground = '--all-ground-surface' in sys.argv or core_mesh
+all_ground = '--all-ground-surface' in sys.argv or core_mesh or local_island_mesh or offset_mesh
 interior = '--package-local-vias' in sys.argv
 perimeter = '--package-perimeter' in sys.argv or interior
 surface = '--surface' in sys.argv or all_ground
-stage = 'outer-ground-mesh' if outer_mesh else 'core-ground-mesh' if core_mesh else 'ground-all-local-surface' if all_ground else 'ground-package-local' if interior else 'ground-package-perimeter' if perimeter else 'ground-surface-bends' if surface else 'ground-doglegs'
-prior = json.loads((root/('outer-bga-ground.json' if outer_mesh else 'core-ground-interstitial.json' if core_mesh else 'layout-phy-full-feed.json' if all_ground else 'layout-package-returns.json' if interior else 'layout-ground-bends.json' if perimeter else 'ground-doglegs.json' if surface else 'layout-mdio-pullup.json')).read_text())
+stage = 'ground-land-offsets' if offset_mesh else 'island-mesh' if local_island_mesh else 'outer-ground-mesh' if outer_mesh else 'core-ground-mesh' if core_mesh else 'ground-all-local-surface' if all_ground else 'ground-package-local' if interior else 'ground-package-perimeter' if perimeter else 'ground-surface-bends' if surface else 'ground-doglegs'
+prior = json.loads((root/('layout-memory-ground-neighbors.json' if offset_mesh else 'layout-island-returns.json' if local_island_mesh else 'outer-bga-ground.json' if outer_mesh else 'core-ground-interstitial.json' if core_mesh else 'layout-phy-full-feed.json' if all_ground else 'layout-package-returns.json' if interior else 'layout-ground-bends.json' if perimeter else 'ground-doglegs.json' if surface else 'layout-mdio-pullup.json')).read_text())
 source = root/prior['board']
 assert hashlib.sha256(source.read_bytes()).hexdigest() == prior['sha256']
 board = p.LoadBoard(str(source))
@@ -34,6 +37,7 @@ pads = [q for f in board.GetFootprints() for q in f.Pads()]
 added = []
 for q in pads:
     f = q.GetParentFootprint()
+    if offset_mesh and f.GetReference() not in {"U1","U2","U8001"}:continue
     if perimeter:
         if f.GetReference() not in {'U1','U2','U8001'}:
             continue
@@ -52,7 +56,7 @@ for q in pads:
     if surface:
         near=[]
         for target in pads+list(board.GetTracks()):
-            if target.m_Uuid.AsString() not in ground or not target.IsOnLayer(layer) or not target.GetBoundingBox().Inflate(1900000).Contains(a):
+            if target.m_Uuid.AsString() not in ground or not target.IsOnLayer(layer) or not inflated_box(target,2800000 if local_island_mesh else 1900000).Contains(a):
                 continue
             if isinstance(target,p.PCB_TRACK):
                 u,v=target.GetStart(),target.GetEnd()
@@ -63,14 +67,17 @@ for q in pads:
                 near.append(target.GetPosition())
     if not near:
         continue
-    obstacles = [k.GetEffectiveShape(layer) for k in pads+list(board.GetTracks()) if k.IsOnLayer(layer) and k.GetNetCode()!=q.GetNetCode() and k.GetBoundingBox().Inflate(2500000).Contains(a)]
+    obstacles = [k.GetEffectiveShape(layer) for k in pads+list(board.GetTracks()) if k.IsOnLayer(layer) and k.GetNetCode()!=q.GetNetCode() and inflated_box(k,3500000 if local_island_mesh else 2500000).Contains(a)]
+    holes = [k.GetEffectiveHoleShape() for k in pads+list(board.GetTracks()) if offset_mesh and
+             (isinstance(k,p.PCB_VIA) or isinstance(k,p.PAD) and k.GetDrillSize().x) and k.GetNetCode()!=q.GetNetCode() and inflated_box(k,2500000).Contains(a)]
     def line(first,last):
         t=p.PCB_TRACK(board)
-        t.SetStart(first);t.SetEnd(last);t.SetWidth(300000);t.SetNetCode(q.GetNetCode());t.SetLayer(layer)
+        t.SetStart(first);t.SetEnd(last);t.SetWidth(500000 if local_island_mesh else 300000);t.SetNetCode(q.GetNetCode());t.SetLayer(layer)
         return t
     options=[]
-    for dx in (-150000,0,150000):
-        for dy in (-150000,0,150000):
+    offsets=(-100000,-50000,0,50000,100000) if offset_mesh else (-150000,0,150000)
+    for dx in offsets:
+        for dy in offsets:
             start=a+p.VECTOR2I(dx,dy)
             if not q.HitTest(start):
                 continue
@@ -82,7 +89,7 @@ for q in pads:
                     points=[start,corner,end]
                     segments=[line(u,v) for u,v in zip(points,points[1:]) if u!=v]
                     length=sum(t.GetLength() for t in segments)
-                    if segments and length<=1900000 and all(not t.GetEffectiveShape(layer).Collide(s,200000) for t in segments for s in obstacles):
+                    if segments and length<=(2800000 if local_island_mesh else 1900000) and all(not t.GetEffectiveShape(layer).Collide(s,200000) for t in segments for s in obstacles) and all(not t.GetEffectiveShape(layer).Collide(h,252000) for t in segments for h in holes):
                         options.append((length,segments))
     if not options:
         continue

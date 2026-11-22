@@ -1,0 +1,122 @@
+{
+  "parent_sha256": "e4825a0799883a4161abd63d6988a477c81d3971844e6a2889991a002732df8c",
+  "sha256": "75387554c30fdee02df07f3f828972568e3e7951a0c792c4d41413e2db95755d",
+  "board": "runs/bga-ordinary-returns/phy-joint.kicad_pcb",
+  "terminal_results": [
+    {
+      "signal_via": "66b8b933-35aa-4972-b9c5-30928affb3bf",
+      "signal_center_nm": [
+        [
+          38000000,
+          13000000
+        ]
+      ],
+      "signals": [
+        "LPDDR4_DQ12_A"
+      ],
+      "previous_distances_mm": [
+        3.164253466459348
+      ],
+      "previous_nearest_ground_mm": 3.164253466459348,
+      "candidates": {},
+      "accepted": null,
+      "rejected": []
+    },
+    {
+      "signal_via": "bb915513-84fa-4415-9308-a3043f041214",
+      "signal_center_nm": [
+        [
+          39100000,
+          13000000
+        ]
+      ],
+      "signals": [
+        "LPDDR4_DQ6_A"
+      ],
+      "previous_distances_mm": [
+        2.600480724789169
+      ],
+      "previous_nearest_ground_mm": 2.600480724789169,
+      "candidates": {},
+      "accepted": null,
+      "rejected": []
+    },
+    {
+      "signal_via": "0712077c-a820-46ef-b75c-3875fc30db98",
+      "signal_center_nm": [
+        [
+          46300000,
+          13100000
+        ]
+      ],
+      "signals": [
+        "LPDDR4_DQ2_B"
+      ],
+      "previous_distances_mm": [
+        1.6763054614240211
+      ],
+      "previous_nearest_ground_mm": 1.6763054614240211,
+      "candidates": {},
+      "accepted": null,
+      "rejected": []
+    },
+    {
+      "signal_via": "6fd70686-6635-4fa7-b1b4-f14fd3293816",
+      "signal_center_nm": [
+        [
+          47100000,
+          13000000
+        ]
+      ],
+      "signals": [
+        "LPDDR4_DQ7_B"
+      ],
+      "previous_distances_mm": [
+        1.5297058540778357
+      ],
+      "previous_nearest_ground_mm": 1.5297058540778357,
+      "candidates": {},
+      "accepted": null,
+      "rejected": []
+    },
+    {
+      "signal_via": "f89b2666-064d-48b3-821d-7c0439b8420c",
+      "signal_center_nm": [
+        [
+          50000000,
+          14000000
+        ]
+      ],
+      "signals": [
+        "LPDDR4_DQ10_B"
+      ],
+      "previous_distances_mm": [
+        1.2501599897613107
+      ],
+      "previous_nearest_ground_mm": 1.2501599897613107,
+      "candidates": {
+        "copper_and_drill": 32,
+        "solid_planes": 32
+      },
+      "accepted": {
+        "via_uuid": "193cc953-cec0-43fa-96f0-6c1f36073d21",
+        "center_nm": [
+          50100000,
+          13350000
+        ],
+        "distance_mm": 0.6576473218982952
+      },
+      "rejected": []
+    }
+  ],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 7330,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 1,
+    "existing_connected_pad_groups_preserved": 121
+  },
+  "new_drc": [],
+  "verified_pairs": [],
+  "assembly_ready": false
+}

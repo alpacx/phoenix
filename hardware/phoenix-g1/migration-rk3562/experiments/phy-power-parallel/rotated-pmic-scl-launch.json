@@ -1,0 +1,50 @@
+{
+  "candidate": {
+    "board": "runs/rotated-pmic-scl-launch-0/phy-joint.kicad_pcb",
+    "sha256": "819f7fd76dfc7b5b81fc18eeee27da4394f301e52f6010b16c38c37e62e8af74",
+    "parent_sha256": "5e1f23b4dad7a5e08a1a3f34877fbfa584e170c2f227c1d93bb68506f117fd19",
+    "via_id": "e8738280-67dc-4568-a3d2-86add9fef121",
+    "via_nm": [
+      61100000,
+      800000
+    ],
+    "pin": "U4.1",
+    "length_mm": 5.0541630560342545,
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 6660,
+      "explicitly_replaced_copper": {},
+      "added_tracks_vias": 11,
+      "existing_connected_pad_groups_preserved": 119
+    },
+    "new_drc": [
+      {
+        "type": "via_dangling",
+        "severity": "warning",
+        "items": [
+          "e8738280-67dc-4568-a3d2-86add9fef121"
+        ],
+        "count": 1
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "site": [
+        61100000,
+        800000
+      ],
+      "new_drc": [
+        {
+          "type": "via_dangling",
+          "severity": "warning",
+          "items": [
+            "e8738280-67dc-4568-a3d2-86add9fef121"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "assembly_ready": false
+}

@@ -1,0 +1,1420 @@
+{
+  "parent_sha256": "b2404b8fa4f7435da3867a99f720319da77ca925b614282fc1977de290752d98",
+  "legal_source_sites": 19,
+  "legal_source_pairs": 10,
+  "counts": {
+    "fixed_clear": 988
+  },
+  "alternatives": 37,
+  "ranked": [
+    {
+      "xy_nm": [
+        67100000,
+        7600000
+      ],
+      "angle": 0,
+      "source_vias_nm": [
+        [
+          65500000,
+          10300000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "C434",
+        "C481"
+      ],
+      "copper_conflicts": [],
+      "maximum_branch_mm": 3.391047545052365
+    },
+    {
+      "xy_nm": [
+        67100000,
+        7400000
+      ],
+      "angle": 0,
+      "source_vias_nm": [
+        [
+          65500000,
+          10300000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "C434",
+        "C481"
+      ],
+      "copper_conflicts": [],
+      "maximum_branch_mm": 3.5858609499953173
+    },
+    {
+      "xy_nm": [
+        67300000,
+        7400000
+      ],
+      "angle": 0,
+      "source_vias_nm": [
+        [
+          65500000,
+          10300000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "C434",
+        "C481"
+      ],
+      "copper_conflicts": [],
+      "maximum_branch_mm": 3.6359113769049163
+    },
+    {
+      "xy_nm": [
+        67100000,
+        7800000
+      ],
+      "angle": 0,
+      "source_vias_nm": [
+        [
+          65500000,
+          10300000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "C434",
+        "C481"
+      ],
+      "copper_conflicts": [
+        [
+          "d8664e90-7309-41fc-ab3f-9fea0321d5cb",
+          "VDD_NPU"
+        ]
+      ],
+      "maximum_branch_mm": 3.1970270002704995
+    },
+    {
+      "xy_nm": [
+        67300000,
+        7600000
+      ],
+      "angle": 0,
+      "source_vias_nm": [
+        [
+          65500000,
+          10300000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "C434",
+        "C481"
+      ],
+      "copper_conflicts": [
+        [
+          "d8664e90-7309-41fc-ab3f-9fea0321d5cb",
+          "VDD_NPU"
+        ]
+      ],
+      "maximum_branch_mm": 3.4445447005962335
+    },
+    {
+      "xy_nm": [
+        66900000,
+        7400000
+      ],
+      "angle": 0,
+      "source_vias_nm": [
+        [
+          65500000,
+          10300000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "C434",
+        "C481"
+      ],
+      "copper_conflicts": [
+        [
+          "0aa1c048-19c1-4993-be1d-7c4cae90a0c2",
+          "GND"
+        ]
+      ],
+      "maximum_branch_mm": 3.548614847818439
+    },
+    {
+      "xy_nm": [
+        67500000,
+        7400000
+      ],
+      "angle": 0,
+      "source_vias_nm": [
+        [
+          65500000,
+          10300000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "C434",
+        "C481"
+      ],
+      "copper_conflicts": [
+        [
+          "d8664e90-7309-41fc-ab3f-9fea0321d5cb",
+          "VDD_NPU"
+        ]
+      ],
+      "maximum_branch_mm": 3.6981428323108285
+    },
+    {
+      "xy_nm": [
+        67700000,
+        7400000
+      ],
+      "angle": 0,
+      "source_vias_nm": [
+        [
+          65500000,
+          10300000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "C434",
+        "C481"
+      ],
+      "copper_conflicts": [
+        [
+          "d8664e90-7309-41fc-ab3f-9fea0321d5cb",
+          "VDD_NPU"
+        ]
+      ],
+      "maximum_branch_mm": 3.771835264580227
+    },
+    {
+      "xy_nm": [
+        67500000,
+        7200000
+      ],
+      "angle": 0,
+      "source_vias_nm": [
+        [
+          65500000,
+          10300000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "C434",
+        "C481"
+      ],
+      "copper_conflicts": [
+        [
+          "d6adab3c-33b1-48a8-9557-02702d99705f",
+          "EXP_SPI_MOSI"
+        ]
+      ],
+      "maximum_branch_mm": 3.88690429946323
+    },
+    {
+      "xy_nm": [
+        67700000,
+        7200000
+      ],
+      "angle": 0,
+      "source_vias_nm": [
+        [
+          65500000,
+          10300000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "C434",
+        "C481"
+      ],
+      "copper_conflicts": [
+        [
+          "d6adab3c-33b1-48a8-9557-02702d99705f",
+          "EXP_SPI_MOSI"
+        ]
+      ],
+      "maximum_branch_mm": 3.956437712324255
+    },
+    {
+      "xy_nm": [
+        64500000,
+        8800000
+      ],
+      "angle": 180,
+      "source_vias_nm": [
+        [
+          65500000,
+          10300000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "R410",
+        "R411"
+      ],
+      "copper_conflicts": [
+        [
+          "c51d07dc-6dd0-4dc8-ad10-fa5547938af0",
+          "PMIC_VDC"
+        ],
+        [
+          "f4e7e5a9-7f9e-4c47-858f-2c2df66df870",
+          "PMIC_VDC"
+        ]
+      ],
+      "maximum_branch_mm": 2.1147418316329643
+    },
+    {
+      "xy_nm": [
+        64500000,
+        8600000
+      ],
+      "angle": 180,
+      "source_vias_nm": [
+        [
+          65500000,
+          10300000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "R410",
+        "R411"
+      ],
+      "copper_conflicts": [
+        [
+          "c51d07dc-6dd0-4dc8-ad10-fa5547938af0",
+          "PMIC_VDC"
+        ],
+        [
+          "f4e7e5a9-7f9e-4c47-858f-2c2df66df870",
+          "PMIC_VDC"
+        ]
+      ],
+      "maximum_branch_mm": 2.3146438648220964
+    },
+    {
+      "xy_nm": [
+        67900000,
+        7200000
+      ],
+      "angle": 0,
+      "source_vias_nm": [
+        [
+          65500000,
+          10300000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "C434",
+        "C481"
+      ],
+      "copper_conflicts": [
+        [
+          "d6adab3c-33b1-48a8-9557-02702d99705f",
+          "EXP_SPI_MOSI"
+        ],
+        [
+          "d8664e90-7309-41fc-ab3f-9fea0321d5cb",
+          "VDD_NPU"
+        ]
+      ],
+      "maximum_branch_mm": 4.036261721382122
+    },
+    {
+      "xy_nm": [
+        61900000,
+        12000000
+      ],
+      "angle": 180,
+      "source_vias_nm": [
+        [
+          65500000,
+          10500000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [],
+      "copper_conflicts": [
+        [
+          "1f8cff54-9b59-42c1-aac3-f911010b89bc",
+          "VDD_CPU"
+        ],
+        [
+          "9bce2f37-6f55-469b-af04-1cd69588d3d0",
+          "GND"
+        ],
+        [
+          "C1011",
+          "GND"
+        ],
+        [
+          "dc20d52e-03af-4e5d-ac9f-1e7e572cfb7c",
+          "GND"
+        ]
+      ],
+      "maximum_branch_mm": 3.5761440128950053
+    },
+    {
+      "xy_nm": [
+        61900000,
+        12200000
+      ],
+      "angle": 180,
+      "source_vias_nm": [
+        [
+          65600000,
+          10500000
+        ],
+        [
+          65000000,
+          10300000
+        ]
+      ],
+      "body_moves": [],
+      "copper_conflicts": [
+        [
+          "1f8cff54-9b59-42c1-aac3-f911010b89bc",
+          "VDD_CPU"
+        ],
+        [
+          "51fcd7f0-55d1-4a19-80e5-c6edf61d6813",
+          "+3V3_SYS"
+        ],
+        [
+          "9bce2f37-6f55-469b-af04-1cd69588d3d0",
+          "GND"
+        ],
+        [
+          "C1011",
+          "GND"
+        ]
+      ],
+      "maximum_branch_mm": 3.864098649243424
+    },
+    {
+      "xy_nm": [
+        61500000,
+        12000000
+      ],
+      "angle": 180,
+      "source_vias_nm": [
+        [
+          65500000,
+          10500000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [],
+      "copper_conflicts": [
+        [
+          "1f8cff54-9b59-42c1-aac3-f911010b89bc",
+          "VDD_CPU"
+        ],
+        [
+          "9bce2f37-6f55-469b-af04-1cd69588d3d0",
+          "GND"
+        ],
+        [
+          "C1011",
+          "GND"
+        ],
+        [
+          "dc20d52e-03af-4e5d-ac9f-1e7e572cfb7c",
+          "GND"
+        ]
+      ],
+      "maximum_branch_mm": 3.9299628970494505
+    },
+    {
+      "xy_nm": [
+        66100000,
+        8600000
+      ],
+      "angle": 90,
+      "source_vias_nm": [
+        [
+          65600000,
+          10500000
+        ],
+        [
+          65000000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "C434",
+        "C481"
+      ],
+      "copper_conflicts": [
+        [
+          "1bfe5062-b294-43f5-949d-84a15a98fcce",
+          "VDD_NPU"
+        ],
+        [
+          "43cff81c-d5a2-45d6-bf03-77cf48eae5e7",
+          "VDD_NPU"
+        ],
+        [
+          "ad9264df-c445-4615-8055-d68d23b672c2",
+          "VDD_NPU"
+        ]
+      ],
+      "maximum_branch_mm": 1.7046115448571766
+    },
+    {
+      "xy_nm": [
+        67100000,
+        8200000
+      ],
+      "angle": 0,
+      "source_vias_nm": [
+        [
+          65500000,
+          10300000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "C434",
+        "C481"
+      ],
+      "copper_conflicts": [
+        [
+          "1bfe5062-b294-43f5-949d-84a15a98fcce",
+          "VDD_NPU"
+        ],
+        [
+          "d7ca4047-261e-4988-8d36-2433d8485eba",
+          "VDD_NPU"
+        ],
+        [
+          "d8664e90-7309-41fc-ab3f-9fea0321d5cb",
+          "VDD_NPU"
+        ]
+      ],
+      "maximum_branch_mm": 2.812203523350662
+    },
+    {
+      "xy_nm": [
+        67300000,
+        7800000
+      ],
+      "angle": 0,
+      "source_vias_nm": [
+        [
+          65500000,
+          10300000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "C434",
+        "C481"
+      ],
+      "copper_conflicts": [
+        [
+          "9a23809e-7d5c-428e-a269-642b1c54f3a8",
+          "VDD_NPU"
+        ],
+        [
+          "d7ca4047-261e-4988-8d36-2433d8485eba",
+          "VDD_NPU"
+        ],
+        [
+          "d8664e90-7309-41fc-ab3f-9fea0321d5cb",
+          "VDD_NPU"
+        ]
+      ],
+      "maximum_branch_mm": 3.25445791495478
+    },
+    {
+      "xy_nm": [
+        67700000,
+        7600000
+      ],
+      "angle": 0,
+      "source_vias_nm": [
+        [
+          65500000,
+          10300000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "C434",
+        "C481"
+      ],
+      "copper_conflicts": [
+        [
+          "9a23809e-7d5c-428e-a269-642b1c54f3a8",
+          "VDD_NPU"
+        ],
+        [
+          "d7ca4047-261e-4988-8d36-2433d8485eba",
+          "VDD_NPU"
+        ],
+        [
+          "d8664e90-7309-41fc-ab3f-9fea0321d5cb",
+          "VDD_NPU"
+        ]
+      ],
+      "maximum_branch_mm": 3.5894169260479383
+    },
+    {
+      "xy_nm": [
+        67900000,
+        7400000
+      ],
+      "angle": 0,
+      "source_vias_nm": [
+        [
+          65500000,
+          10300000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "C434",
+        "C481"
+      ],
+      "copper_conflicts": [
+        [
+          "9a23809e-7d5c-428e-a269-642b1c54f3a8",
+          "VDD_NPU"
+        ],
+        [
+          "d7ca4047-261e-4988-8d36-2433d8485eba",
+          "VDD_NPU"
+        ],
+        [
+          "d8664e90-7309-41fc-ab3f-9fea0321d5cb",
+          "VDD_NPU"
+        ]
+      ],
+      "maximum_branch_mm": 3.8678295276532624
+    },
+    {
+      "xy_nm": [
+        68100000,
+        7400000
+      ],
+      "angle": 0,
+      "source_vias_nm": [
+        [
+          65500000,
+          10300000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "C434",
+        "C481"
+      ],
+      "copper_conflicts": [
+        [
+          "9a23809e-7d5c-428e-a269-642b1c54f3a8",
+          "VDD_NPU"
+        ],
+        [
+          "d7ca4047-261e-4988-8d36-2433d8485eba",
+          "VDD_NPU"
+        ],
+        [
+          "d8664e90-7309-41fc-ab3f-9fea0321d5cb",
+          "VDD_NPU"
+        ]
+      ],
+      "maximum_branch_mm": 3.9869117866839003
+    },
+    {
+      "xy_nm": [
+        67100000,
+        9400000
+      ],
+      "angle": 0,
+      "source_vias_nm": [
+        [
+          65500000,
+          10300000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "C434"
+      ],
+      "copper_conflicts": [
+        [
+          "1bfe5062-b294-43f5-949d-84a15a98fcce",
+          "VDD_NPU"
+        ],
+        [
+          "43cff81c-d5a2-45d6-bf03-77cf48eae5e7",
+          "VDD_NPU"
+        ],
+        [
+          "d7ca4047-261e-4988-8d36-2433d8485eba",
+          "VDD_NPU"
+        ],
+        [
+          "d8664e90-7309-41fc-ab3f-9fea0321d5cb",
+          "VDD_NPU"
+        ]
+      ],
+      "maximum_branch_mm": 1.856713536312246
+    },
+    {
+      "xy_nm": [
+        67100000,
+        9000000
+      ],
+      "angle": 0,
+      "source_vias_nm": [
+        [
+          65500000,
+          10300000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "C434"
+      ],
+      "copper_conflicts": [
+        [
+          "1bfe5062-b294-43f5-949d-84a15a98fcce",
+          "VDD_NPU"
+        ],
+        [
+          "43cff81c-d5a2-45d6-bf03-77cf48eae5e7",
+          "VDD_NPU"
+        ],
+        [
+          "d7ca4047-261e-4988-8d36-2433d8485eba",
+          "VDD_NPU"
+        ],
+        [
+          "d8664e90-7309-41fc-ab3f-9fea0321d5cb",
+          "VDD_NPU"
+        ]
+      ],
+      "maximum_branch_mm": 2.119890235924453
+    },
+    {
+      "xy_nm": [
+        67100000,
+        8600000
+      ],
+      "angle": 0,
+      "source_vias_nm": [
+        [
+          65500000,
+          10300000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "C434"
+      ],
+      "copper_conflicts": [
+        [
+          "1bfe5062-b294-43f5-949d-84a15a98fcce",
+          "VDD_NPU"
+        ],
+        [
+          "43cff81c-d5a2-45d6-bf03-77cf48eae5e7",
+          "VDD_NPU"
+        ],
+        [
+          "d7ca4047-261e-4988-8d36-2433d8485eba",
+          "VDD_NPU"
+        ],
+        [
+          "d8664e90-7309-41fc-ab3f-9fea0321d5cb",
+          "VDD_NPU"
+        ]
+      ],
+      "maximum_branch_mm": 2.433936201972731
+    },
+    {
+      "xy_nm": [
+        61900000,
+        11800000
+      ],
+      "angle": 180,
+      "source_vias_nm": [
+        [
+          65500000,
+          10500000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "C412"
+      ],
+      "copper_conflicts": [
+        [
+          "1f8cff54-9b59-42c1-aac3-f911010b89bc",
+          "VDD_CPU"
+        ],
+        [
+          "9bce2f37-6f55-469b-af04-1cd69588d3d0",
+          "GND"
+        ],
+        [
+          "C1011",
+          "GND"
+        ],
+        [
+          "dc20d52e-03af-4e5d-ac9f-1e7e572cfb7c",
+          "GND"
+        ]
+      ],
+      "maximum_branch_mm": 3.4827604458070707
+    },
+    {
+      "xy_nm": [
+        62700000,
+        10800000
+      ],
+      "angle": 90,
+      "source_vias_nm": [
+        [
+          65500000,
+          10500000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "C412"
+      ],
+      "copper_conflicts": [
+        [
+          "1f8cff54-9b59-42c1-aac3-f911010b89bc",
+          "VDD_CPU"
+        ],
+        [
+          "9bce2f37-6f55-469b-af04-1cd69588d3d0",
+          "GND"
+        ],
+        [
+          "C1011",
+          "GND"
+        ],
+        [
+          "dc20d52e-03af-4e5d-ac9f-1e7e572cfb7c",
+          "GND"
+        ]
+      ],
+      "maximum_branch_mm": 3.597415638470375
+    },
+    {
+      "xy_nm": [
+        62500000,
+        11200000
+      ],
+      "angle": 90,
+      "source_vias_nm": [
+        [
+          65500000,
+          10500000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "C412"
+      ],
+      "copper_conflicts": [
+        [
+          "1f8cff54-9b59-42c1-aac3-f911010b89bc",
+          "VDD_CPU"
+        ],
+        [
+          "9bce2f37-6f55-469b-af04-1cd69588d3d0",
+          "GND"
+        ],
+        [
+          "C1011",
+          "GND"
+        ],
+        [
+          "dc20d52e-03af-4e5d-ac9f-1e7e572cfb7c",
+          "GND"
+        ]
+      ],
+      "maximum_branch_mm": 3.9548796803319806
+    },
+    {
+      "xy_nm": [
+        61500000,
+        11800000
+      ],
+      "angle": 180,
+      "source_vias_nm": [
+        [
+          65600000,
+          10500000
+        ],
+        [
+          65000000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "C412"
+      ],
+      "copper_conflicts": [
+        [
+          "1f8cff54-9b59-42c1-aac3-f911010b89bc",
+          "VDD_CPU"
+        ],
+        [
+          "9bce2f37-6f55-469b-af04-1cd69588d3d0",
+          "GND"
+        ],
+        [
+          "C1011",
+          "GND"
+        ],
+        [
+          "dc20d52e-03af-4e5d-ac9f-1e7e572cfb7c",
+          "GND"
+        ]
+      ],
+      "maximum_branch_mm": 4.038777859455729
+    },
+    {
+      "xy_nm": [
+        64700000,
+        8800000
+      ],
+      "angle": 180,
+      "source_vias_nm": [
+        [
+          65500000,
+          10300000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "R410",
+        "R411"
+      ],
+      "copper_conflicts": [
+        [
+          "18d6ac46-db42-4c26-9d28-7cd327eb1d27",
+          "PMIC_VDC"
+        ],
+        [
+          "c51d07dc-6dd0-4dc8-ad10-fa5547938af0",
+          "PMIC_VDC"
+        ],
+        [
+          "f4e7e5a9-7f9e-4c47-858f-2c2df66df870",
+          "PMIC_VDC"
+        ],
+        [
+          "fc21a453-9edf-4762-b716-9ffd949d2e40",
+          "PMIC_VDC"
+        ]
+      ],
+      "maximum_branch_mm": 2.1213900728207347
+    },
+    {
+      "xy_nm": [
+        64300000,
+        8800000
+      ],
+      "angle": 180,
+      "source_vias_nm": [
+        [
+          65500000,
+          10300000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "R410",
+        "R411"
+      ],
+      "copper_conflicts": [
+        [
+          "18d6ac46-db42-4c26-9d28-7cd327eb1d27",
+          "PMIC_VDC"
+        ],
+        [
+          "c51d07dc-6dd0-4dc8-ad10-fa5547938af0",
+          "PMIC_VDC"
+        ],
+        [
+          "f4e7e5a9-7f9e-4c47-858f-2c2df66df870",
+          "PMIC_VDC"
+        ],
+        [
+          "fc21a453-9edf-4762-b716-9ffd949d2e40",
+          "PMIC_VDC"
+        ]
+      ],
+      "maximum_branch_mm": 2.134599362227156
+    },
+    {
+      "xy_nm": [
+        64700000,
+        8600000
+      ],
+      "angle": 180,
+      "source_vias_nm": [
+        [
+          65500000,
+          10300000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "R410",
+        "R411"
+      ],
+      "copper_conflicts": [
+        [
+          "18d6ac46-db42-4c26-9d28-7cd327eb1d27",
+          "PMIC_VDC"
+        ],
+        [
+          "c51d07dc-6dd0-4dc8-ad10-fa5547938af0",
+          "PMIC_VDC"
+        ],
+        [
+          "f4e7e5a9-7f9e-4c47-858f-2c2df66df870",
+          "PMIC_VDC"
+        ],
+        [
+          "fc21a453-9edf-4762-b716-9ffd949d2e40",
+          "PMIC_VDC"
+        ]
+      ],
+      "maximum_branch_mm": 2.3205135462402025
+    },
+    {
+      "xy_nm": [
+        64300000,
+        8600000
+      ],
+      "angle": 180,
+      "source_vias_nm": [
+        [
+          65500000,
+          10300000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "R410",
+        "R411"
+      ],
+      "copper_conflicts": [
+        [
+          "18d6ac46-db42-4c26-9d28-7cd327eb1d27",
+          "PMIC_VDC"
+        ],
+        [
+          "c51d07dc-6dd0-4dc8-ad10-fa5547938af0",
+          "PMIC_VDC"
+        ],
+        [
+          "f4e7e5a9-7f9e-4c47-858f-2c2df66df870",
+          "PMIC_VDC"
+        ],
+        [
+          "fc21a453-9edf-4762-b716-9ffd949d2e40",
+          "PMIC_VDC"
+        ]
+      ],
+      "maximum_branch_mm": 2.3321927573965597
+    },
+    {
+      "xy_nm": [
+        67100000,
+        8400000
+      ],
+      "angle": 0,
+      "source_vias_nm": [
+        [
+          65500000,
+          10300000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "C434",
+        "C481"
+      ],
+      "copper_conflicts": [
+        [
+          "1bfe5062-b294-43f5-949d-84a15a98fcce",
+          "VDD_NPU"
+        ],
+        [
+          "43cff81c-d5a2-45d6-bf03-77cf48eae5e7",
+          "VDD_NPU"
+        ],
+        [
+          "d7ca4047-261e-4988-8d36-2433d8485eba",
+          "VDD_NPU"
+        ],
+        [
+          "d8664e90-7309-41fc-ab3f-9fea0321d5cb",
+          "VDD_NPU"
+        ]
+      ],
+      "maximum_branch_mm": 2.622017292454921
+    },
+    {
+      "xy_nm": [
+        66900000,
+        7800000
+      ],
+      "angle": 0,
+      "source_vias_nm": [
+        [
+          65500000,
+          10300000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "C434",
+        "C481"
+      ],
+      "copper_conflicts": [
+        [
+          "1bfe5062-b294-43f5-949d-84a15a98fcce",
+          "VDD_NPU"
+        ],
+        [
+          "9a23809e-7d5c-428e-a269-642b1c54f3a8",
+          "VDD_NPU"
+        ],
+        [
+          "d7ca4047-261e-4988-8d36-2433d8485eba",
+          "VDD_NPU"
+        ],
+        [
+          "d8664e90-7309-41fc-ab3f-9fea0321d5cb",
+          "VDD_NPU"
+        ]
+      ],
+      "maximum_branch_mm": 3.1540858888287087
+    },
+    {
+      "xy_nm": [
+        67500000,
+        7800000
+      ],
+      "angle": 0,
+      "source_vias_nm": [
+        [
+          65500000,
+          10300000
+        ],
+        [
+          64900000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "C434",
+        "C481"
+      ],
+      "copper_conflicts": [
+        [
+          "1bfe5062-b294-43f5-949d-84a15a98fcce",
+          "VDD_NPU"
+        ],
+        [
+          "9a23809e-7d5c-428e-a269-642b1c54f3a8",
+          "VDD_NPU"
+        ],
+        [
+          "d7ca4047-261e-4988-8d36-2433d8485eba",
+          "VDD_NPU"
+        ],
+        [
+          "d8664e90-7309-41fc-ab3f-9fea0321d5cb",
+          "VDD_NPU"
+        ]
+      ],
+      "maximum_branch_mm": 3.325458102243851
+    },
+    {
+      "xy_nm": [
+        62700000,
+        10600000
+      ],
+      "angle": 90,
+      "source_vias_nm": [
+        [
+          65600000,
+          10500000
+        ],
+        [
+          65000000,
+          10300000
+        ]
+      ],
+      "body_moves": [
+        "C412",
+        "R411"
+      ],
+      "copper_conflicts": [
+        [
+          "1f8cff54-9b59-42c1-aac3-f911010b89bc",
+          "VDD_CPU"
+        ],
+        [
+          "9bce2f37-6f55-469b-af04-1cd69588d3d0",
+          "GND"
+        ],
+        [
+          "C1011",
+          "GND"
+        ],
+        [
+          "dc20d52e-03af-4e5d-ac9f-1e7e572cfb7c",
+          "GND"
+        ]
+      ],
+      "maximum_branch_mm": 3.7153001198362094
+    }
+  ],
+  "blocked_sites": {
+    "(64200000, 10100000)": [
+      "205c282c-44da-4fa5-b4bf-4c987e6e5161",
+      "9bce2f37-6f55-469b-af04-1cd69588d3d0",
+      "bebd1322-558e-42b6-9b48-0a995b664726",
+      "dc20d52e-03af-4e5d-ac9f-1e7e572cfb7c"
+    ],
+    "(64200000, 10200000)": [
+      "205c282c-44da-4fa5-b4bf-4c987e6e5161",
+      "9bce2f37-6f55-469b-af04-1cd69588d3d0",
+      "bebd1322-558e-42b6-9b48-0a995b664726",
+      "dc20d52e-03af-4e5d-ac9f-1e7e572cfb7c"
+    ],
+    "(64300000, 10100000)": [
+      "205c282c-44da-4fa5-b4bf-4c987e6e5161",
+      "9bce2f37-6f55-469b-af04-1cd69588d3d0",
+      "bebd1322-558e-42b6-9b48-0a995b664726",
+      "dc20d52e-03af-4e5d-ac9f-1e7e572cfb7c"
+    ],
+    "(64300000, 10200000)": [
+      "205c282c-44da-4fa5-b4bf-4c987e6e5161",
+      "9bce2f37-6f55-469b-af04-1cd69588d3d0",
+      "bebd1322-558e-42b6-9b48-0a995b664726",
+      "dc20d52e-03af-4e5d-ac9f-1e7e572cfb7c"
+    ],
+    "(64300000, 10300000)": [
+      "205c282c-44da-4fa5-b4bf-4c987e6e5161",
+      "9bce2f37-6f55-469b-af04-1cd69588d3d0",
+      "bebd1322-558e-42b6-9b48-0a995b664726",
+      "dc20d52e-03af-4e5d-ac9f-1e7e572cfb7c"
+    ],
+    "(64400000, 10100000)": [
+      "205c282c-44da-4fa5-b4bf-4c987e6e5161",
+      "9bce2f37-6f55-469b-af04-1cd69588d3d0",
+      "bebd1322-558e-42b6-9b48-0a995b664726",
+      "dc20d52e-03af-4e5d-ac9f-1e7e572cfb7c"
+    ],
+    "(64400000, 10200000)": [
+      "205c282c-44da-4fa5-b4bf-4c987e6e5161",
+      "9bce2f37-6f55-469b-af04-1cd69588d3d0",
+      "bebd1322-558e-42b6-9b48-0a995b664726",
+      "dc20d52e-03af-4e5d-ac9f-1e7e572cfb7c"
+    ],
+    "(64400000, 10300000)": [
+      "205c282c-44da-4fa5-b4bf-4c987e6e5161",
+      "9bce2f37-6f55-469b-af04-1cd69588d3d0",
+      "bebd1322-558e-42b6-9b48-0a995b664726",
+      "dc20d52e-03af-4e5d-ac9f-1e7e572cfb7c"
+    ],
+    "(64500000, 10100000)": [
+      "205c282c-44da-4fa5-b4bf-4c987e6e5161",
+      "9bce2f37-6f55-469b-af04-1cd69588d3d0",
+      "bebd1322-558e-42b6-9b48-0a995b664726",
+      "dc20d52e-03af-4e5d-ac9f-1e7e572cfb7c"
+    ],
+    "(64500000, 10200000)": [
+      "205c282c-44da-4fa5-b4bf-4c987e6e5161",
+      "9bce2f37-6f55-469b-af04-1cd69588d3d0",
+      "bebd1322-558e-42b6-9b48-0a995b664726",
+      "dc20d52e-03af-4e5d-ac9f-1e7e572cfb7c"
+    ],
+    "(64500000, 10300000)": [
+      "205c282c-44da-4fa5-b4bf-4c987e6e5161",
+      "9bce2f37-6f55-469b-af04-1cd69588d3d0",
+      "bebd1322-558e-42b6-9b48-0a995b664726",
+      "dc20d52e-03af-4e5d-ac9f-1e7e572cfb7c"
+    ],
+    "(64600000, 10100000)": [
+      "205c282c-44da-4fa5-b4bf-4c987e6e5161",
+      "9bce2f37-6f55-469b-af04-1cd69588d3d0",
+      "bebd1322-558e-42b6-9b48-0a995b664726",
+      "dc20d52e-03af-4e5d-ac9f-1e7e572cfb7c"
+    ],
+    "(64600000, 10200000)": [
+      "205c282c-44da-4fa5-b4bf-4c987e6e5161",
+      "9bce2f37-6f55-469b-af04-1cd69588d3d0",
+      "bebd1322-558e-42b6-9b48-0a995b664726",
+      "dc20d52e-03af-4e5d-ac9f-1e7e572cfb7c"
+    ],
+    "(64600000, 10300000)": [
+      "9bce2f37-6f55-469b-af04-1cd69588d3d0",
+      "bebd1322-558e-42b6-9b48-0a995b664726",
+      "dc20d52e-03af-4e5d-ac9f-1e7e572cfb7c"
+    ],
+    "(64700000, 10100000)": [
+      "9bce2f37-6f55-469b-af04-1cd69588d3d0",
+      "dc20d52e-03af-4e5d-ac9f-1e7e572cfb7c"
+    ],
+    "(64700000, 10200000)": [
+      "9bce2f37-6f55-469b-af04-1cd69588d3d0",
+      "dc20d52e-03af-4e5d-ac9f-1e7e572cfb7c"
+    ],
+    "(64700000, 10300000)": [
+      "9bce2f37-6f55-469b-af04-1cd69588d3d0",
+      "dc20d52e-03af-4e5d-ac9f-1e7e572cfb7c"
+    ],
+    "(64800000, 10100000)": [
+      "9bce2f37-6f55-469b-af04-1cd69588d3d0"
+    ],
+    "(64800000, 10200000)": [
+      "9bce2f37-6f55-469b-af04-1cd69588d3d0"
+    ],
+    "(64800000, 10300000)": [
+      "9bce2f37-6f55-469b-af04-1cd69588d3d0"
+    ]
+  },
+  "source_obstructions": [
+    [
+      "9bce2f37-6f55-469b-af04-1cd69588d3d0",
+      "GND",
+      20
+    ],
+    [
+      "dc20d52e-03af-4e5d-ac9f-1e7e572cfb7c",
+      "GND",
+      17
+    ],
+    [
+      "bebd1322-558e-42b6-9b48-0a995b664726",
+      "GND",
+      14
+    ],
+    [
+      "205c282c-44da-4fa5-b4bf-4c987e6e5161",
+      "GND",
+      13
+    ]
+  ]
+}

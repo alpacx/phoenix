@@ -1,0 +1,23 @@
+{
+  "parent_sha256": "fc771ab152629ebdb639a64d6bbc077e2fb9a5fbdead1d85e67fb77d9a8a7d29",
+  "board": "runs/vddq-mosi-reserved/phy-joint.kicad_pcb",
+  "sha256": "07fa49c2cf29724935c65ffee733e6dae6ebebc22ddba16f94875a977b2efefe",
+  "removed": {
+    "id": "f4f66a34-0d37-4b6c-a253-3991b3a877a0",
+    "net": "EXP_SPI_MOSI",
+    "layer": "In3.Cu",
+    "anchors_nm": [
+      [
+        55050000,
+        16350000
+      ],
+      [
+        60300000,
+        11100000
+      ]
+    ],
+    "width_nm": 200000
+  },
+  "requires_restoration": true,
+  "assembly_ready": false
+}

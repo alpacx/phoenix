@@ -1,0 +1,57 @@
+{
+  "source_sha256": "d425d5140151d914e668aeae8cb3a62e9778da015a41ab44086a0898df0d6280",
+  "reserved_via_nm": [
+    8800000,
+    19700000
+  ],
+  "stages": [
+    {
+      "net": "+3V3_AON",
+      "width_mm": 0.2,
+      "prior_mm": 6.25,
+      "visited": 1006,
+      "found": true,
+      "length_mm": 6.374264068711927
+    },
+    {
+      "net": "USB_CC2",
+      "width_mm": 0.2,
+      "prior_mm": 1.9798989873223332,
+      "visited": 371,
+      "found": true,
+      "length_mm": 2.5656854249492382
+    }
+  ],
+  "adopted": false,
+  "new_drc": [],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 6740,
+    "explicitly_replaced_copper": {
+      "709faf13-4e37-4ff9-954f-30034099ddfb": [
+        "+3V3_AON",
+        8,
+        8400000,
+        17100000,
+        8400000,
+        23350000,
+        200000,
+        null
+      ],
+      "f32ab76b-213c-40d4-855f-fba2ebf53215": [
+        "USB_CC2",
+        2,
+        8200000,
+        20550000,
+        9600000,
+        19150000,
+        200000,
+        null
+      ]
+    },
+    "added_tracks_vias": 18,
+    "existing_connected_pad_groups_preserved": 109
+  },
+  "board": "runs/usb-contact-corridor/phy-joint.kicad_pcb",
+  "sha256": "24a5d7a0fb4ec84a9051dc7a183ee3bef1092a4bfcc3159566c727bd8d3705b3"
+}

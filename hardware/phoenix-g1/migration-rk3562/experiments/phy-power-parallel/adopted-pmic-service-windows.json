@@ -1,0 +1,365 @@
+{
+  "coupon_sha256": "789116417fc6fc23feeb0832d79e4ad8df7c0acc3fdda94b65ed70ce0c2131e9",
+  "circuits": [
+    {
+      "label": "U4.7 440000 -100000",
+      "net": "PMIC_INT_N",
+      "width_nm": 200000,
+      "visited": 1,
+      "via_paths": [],
+      "max_reached_mm": 0.0,
+      "bounds_nm": [
+        56150000,
+        8400000,
+        56150000,
+        8400000
+      ],
+      "single_copper_blockers": {}
+    },
+    {
+      "label": "U4.7 440000 0",
+      "net": "PMIC_INT_N",
+      "width_nm": 200000,
+      "visited": 97,
+      "via_paths": [],
+      "max_reached_mm": 0.7535533905932738,
+      "bounds_nm": [
+        55500000,
+        7850000,
+        56150000,
+        8800000
+      ],
+      "single_copper_blockers": {}
+    },
+    {
+      "label": "U4.7 440000 100000",
+      "net": "PMIC_INT_N",
+      "width_nm": 200000,
+      "visited": 1,
+      "via_paths": [],
+      "max_reached_mm": 0.0,
+      "bounds_nm": [
+        56150000,
+        8200000,
+        56150000,
+        8200000
+      ],
+      "single_copper_blockers": {}
+    },
+    {
+      "label": "U4.7 -440000 -100000",
+      "net": "PMIC_INT_N",
+      "width_nm": 200000,
+      "visited": 1,
+      "via_paths": [],
+      "max_reached_mm": 0.0,
+      "bounds_nm": [
+        57050000,
+        8400000,
+        57050000,
+        8400000
+      ],
+      "single_copper_blockers": {}
+    },
+    {
+      "label": "U4.7 -440000 0",
+      "net": "PMIC_INT_N",
+      "width_nm": 200000,
+      "visited": 1,
+      "via_paths": [],
+      "max_reached_mm": 0.0,
+      "bounds_nm": [
+        57050000,
+        8300000,
+        57050000,
+        8300000
+      ],
+      "single_copper_blockers": {}
+    },
+    {
+      "label": "U4.7 -440000 100000",
+      "net": "PMIC_INT_N",
+      "width_nm": 200000,
+      "visited": 1,
+      "via_paths": [],
+      "max_reached_mm": 0.0,
+      "bounds_nm": [
+        57050000,
+        8200000,
+        57050000,
+        8200000
+      ],
+      "single_copper_blockers": {}
+    },
+    {
+      "label": "U4.7 350000 -100000",
+      "net": "PMIC_INT_N",
+      "width_nm": 200000,
+      "visited": 1,
+      "via_paths": [],
+      "max_reached_mm": 0.0,
+      "bounds_nm": [
+        56250000,
+        8400000,
+        56250000,
+        8400000
+      ],
+      "single_copper_blockers": {}
+    },
+    {
+      "label": "U4.7 350000 0",
+      "net": "PMIC_INT_N",
+      "width_nm": 200000,
+      "visited": 1,
+      "via_paths": [],
+      "max_reached_mm": 0.0,
+      "bounds_nm": [
+        56250000,
+        8300000,
+        56250000,
+        8300000
+      ],
+      "single_copper_blockers": {}
+    },
+    {
+      "label": "U4.7 350000 100000",
+      "net": "PMIC_INT_N",
+      "width_nm": 200000,
+      "visited": 1,
+      "via_paths": [],
+      "max_reached_mm": 0.0,
+      "bounds_nm": [
+        56250000,
+        8200000,
+        56250000,
+        8200000
+      ],
+      "single_copper_blockers": {}
+    },
+    {
+      "label": "U4.7 -350000 -100000",
+      "net": "PMIC_INT_N",
+      "width_nm": 200000,
+      "visited": 1,
+      "via_paths": [],
+      "max_reached_mm": 0.0,
+      "bounds_nm": [
+        56950000,
+        8400000,
+        56950000,
+        8400000
+      ],
+      "single_copper_blockers": {}
+    },
+    {
+      "label": "U4.7 -350000 0",
+      "net": "PMIC_INT_N",
+      "width_nm": 200000,
+      "visited": 1,
+      "via_paths": [],
+      "max_reached_mm": 0.0,
+      "bounds_nm": [
+        56950000,
+        8300000,
+        56950000,
+        8300000
+      ],
+      "single_copper_blockers": {}
+    },
+    {
+      "label": "U4.7 -350000 100000",
+      "net": "PMIC_INT_N",
+      "width_nm": 200000,
+      "visited": 1,
+      "via_paths": [],
+      "max_reached_mm": 0.0,
+      "bounds_nm": [
+        56950000,
+        8200000,
+        56950000,
+        8200000
+      ],
+      "single_copper_blockers": {}
+    },
+    {
+      "label": "U4.67 440000 -100000",
+      "net": "RESET_N",
+      "width_nm": 200000,
+      "visited": 1,
+      "via_paths": [],
+      "max_reached_mm": 0.0,
+      "bounds_nm": [
+        57450000,
+        5150000,
+        57450000,
+        5150000
+      ],
+      "single_copper_blockers": {}
+    },
+    {
+      "label": "U4.67 440000 0",
+      "net": "RESET_N",
+      "width_nm": 200000,
+      "visited": 1,
+      "via_paths": [],
+      "max_reached_mm": 0.0,
+      "bounds_nm": [
+        57550000,
+        5150000,
+        57550000,
+        5150000
+      ],
+      "single_copper_blockers": {}
+    },
+    {
+      "label": "U4.67 440000 100000",
+      "net": "RESET_N",
+      "width_nm": 200000,
+      "visited": 1,
+      "via_paths": [],
+      "max_reached_mm": 0.0,
+      "bounds_nm": [
+        57650000,
+        5150000,
+        57650000,
+        5150000
+      ],
+      "single_copper_blockers": {}
+    },
+    {
+      "label": "U4.67 -440000 -100000",
+      "net": "RESET_N",
+      "width_nm": 200000,
+      "visited": 1,
+      "via_paths": [],
+      "max_reached_mm": 0.0,
+      "bounds_nm": [
+        57450000,
+        6050000,
+        57450000,
+        6050000
+      ],
+      "single_copper_blockers": {}
+    },
+    {
+      "label": "U4.67 -440000 0",
+      "net": "RESET_N",
+      "width_nm": 200000,
+      "visited": 1,
+      "via_paths": [],
+      "max_reached_mm": 0.0,
+      "bounds_nm": [
+        57550000,
+        6050000,
+        57550000,
+        6050000
+      ],
+      "single_copper_blockers": {}
+    },
+    {
+      "label": "U4.67 -440000 100000",
+      "net": "RESET_N",
+      "width_nm": 200000,
+      "visited": 1,
+      "via_paths": [],
+      "max_reached_mm": 0.0,
+      "bounds_nm": [
+        57650000,
+        6050000,
+        57650000,
+        6050000
+      ],
+      "single_copper_blockers": {}
+    },
+    {
+      "label": "U4.67 350000 -100000",
+      "net": "RESET_N",
+      "width_nm": 200000,
+      "visited": 1,
+      "via_paths": [],
+      "max_reached_mm": 0.0,
+      "bounds_nm": [
+        57450000,
+        5250000,
+        57450000,
+        5250000
+      ],
+      "single_copper_blockers": {}
+    },
+    {
+      "label": "U4.67 350000 0",
+      "net": "RESET_N",
+      "width_nm": 200000,
+      "visited": 1,
+      "via_paths": [],
+      "max_reached_mm": 0.0,
+      "bounds_nm": [
+        57550000,
+        5250000,
+        57550000,
+        5250000
+      ],
+      "single_copper_blockers": {}
+    },
+    {
+      "label": "U4.67 350000 100000",
+      "net": "RESET_N",
+      "width_nm": 200000,
+      "visited": 1,
+      "via_paths": [],
+      "max_reached_mm": 0.0,
+      "bounds_nm": [
+        57650000,
+        5250000,
+        57650000,
+        5250000
+      ],
+      "single_copper_blockers": {}
+    },
+    {
+      "label": "U4.67 -350000 -100000",
+      "net": "RESET_N",
+      "width_nm": 200000,
+      "visited": 1,
+      "via_paths": [],
+      "max_reached_mm": 0.0,
+      "bounds_nm": [
+        57450000,
+        5950000,
+        57450000,
+        5950000
+      ],
+      "single_copper_blockers": {}
+    },
+    {
+      "label": "U4.67 -350000 0",
+      "net": "RESET_N",
+      "width_nm": 200000,
+      "visited": 1,
+      "via_paths": [],
+      "max_reached_mm": 0.0,
+      "bounds_nm": [
+        57550000,
+        5950000,
+        57550000,
+        5950000
+      ],
+      "single_copper_blockers": {}
+    },
+    {
+      "label": "U4.67 -350000 100000",
+      "net": "RESET_N",
+      "width_nm": 200000,
+      "visited": 1,
+      "via_paths": [],
+      "max_reached_mm": 0.0,
+      "bounds_nm": [
+        57650000,
+        5950000,
+        57650000,
+        5950000
+      ],
+      "single_copper_blockers": {}
+    }
+  ]
+}

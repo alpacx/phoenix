@@ -1,0 +1,80 @@
+{
+  "front_nodes": 33508,
+  "path": [
+    [
+      46181429,
+      18357143
+    ],
+    [
+      43231429,
+      18357143
+    ],
+    [
+      42981429,
+      18607143
+    ],
+    [
+      42900000,
+      18650000
+    ]
+  ],
+  "closest": [
+    53146.06749327743,
+    [
+      42931429,
+      18607143
+    ],
+    [
+      42900000,
+      18650000
+    ]
+  ],
+  "front": [],
+  "parent_sha256": "765bb051007799e8d80accc492bca9c9de6bb19bd18ba242a530982998d7dfb2",
+  "grounded_barrels": 1,
+  "terminals": [
+    [
+      45980000,
+      17500000
+    ],
+    [
+      46047143,
+      17785714
+    ],
+    [
+      46114286,
+      18071429
+    ],
+    [
+      46181429,
+      18357143
+    ],
+    [
+      46248571,
+      18642857
+    ],
+    [
+      46315714,
+      18928571
+    ],
+    [
+      46382857,
+      19214286
+    ],
+    [
+      46450000,
+      19500000
+    ]
+  ],
+  "board": "runs/ground-cap-existing-barrel/phy-joint.kicad_pcb",
+  "sha256": "c0a785d217df088b56b557e3a0d9db9b38ebe79a33dab2a65cbbf8b01d4e0c2e",
+  "drc_delta": [],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 7337,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 3,
+    "existing_connected_pad_groups_preserved": 121
+  },
+  "remaining_minimum_joins": 442
+}

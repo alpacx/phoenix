@@ -1,0 +1,74 @@
+{
+  "parent_sha256": "821a473d89c66b7191443c401dfc47a7362c7b2078d76fb9bbd6a9cb67b55753",
+  "width_mm": 0.5,
+  "max_length_mm": 3,
+  "max_bank_projection_mm": 8.5,
+  "barrels_mm": [
+    0.45,
+    0.2
+  ],
+  "tested": [
+    {
+      "ball": "K1",
+      "start_nm": [
+        25600000,
+        8025000
+      ],
+      "bank_target_nm": [
+        24775000,
+        8600000
+      ],
+      "access": {
+        "connected": false,
+        "kind": "two through vias",
+        "legal_sites": 5,
+        "both_faces_reached": 2,
+        "source_reached": 2,
+        "sink_reached": 4,
+        "source_map": [
+          {
+            "pt_nm": [
+              25700000,
+              8500000
+            ],
+            "route_nm": [
+              [
+                25600000,
+                8025000
+              ],
+              [
+                25700000,
+                8125000
+              ],
+              [
+                25700000,
+                8500000
+              ]
+            ]
+          },
+          {
+            "pt_nm": [
+              25700000,
+              8600000
+            ],
+            "route_nm": [
+              [
+                25600000,
+                8025000
+              ],
+              [
+                25700000,
+                8125000
+              ],
+              [
+                25700000,
+                8600000
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "assembly_ready": false
+}

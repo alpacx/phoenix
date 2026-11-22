@@ -1,0 +1,27 @@
+{
+  "parent_sha256": "356b3b2181cde596f3e87fd2aee6299c58ead1b6b6aa8dc3271db3ef769cc1d0",
+  "attempts": [
+    {
+      "sink": "C1679",
+      "distance_mm": 2.9192636057745798,
+      "search": {
+        "reason": "closed front channel",
+        "reachable": 3101,
+        "starts": 49,
+        "goals": 49
+      }
+    },
+    {
+      "sink": "C1680",
+      "distance_mm": 4.293262162971183,
+      "search": {
+        "reason": "closed front channel",
+        "reachable": 3103,
+        "starts": 49,
+        "goals": 49
+      }
+    }
+  ],
+  "result": null,
+  "assembly_ready": false
+}

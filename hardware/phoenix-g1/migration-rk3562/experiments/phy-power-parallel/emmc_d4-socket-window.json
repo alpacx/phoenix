@@ -1,0 +1,135 @@
+{
+  "parent_sha256": "4434879e3c5aba8f62a14b22c930fe42c80bdd23b63bbb90926d7abff49eb7c5",
+  "surface": "B.Cu",
+  "pin": "U8001.B3",
+  "width_mm": 0.2,
+  "grid_mm": 0.025,
+  "via_mm": [
+    0.45,
+    0.2
+  ],
+  "ground_relief": false,
+  "ground_via_relief": false,
+  "existing_tracks_and_vias_included": true,
+  "single_obstacle_candidates": [],
+  "reachable_positions": 53,
+  "farthest_mm": 0.10606601717798214,
+  "sites": [],
+  "via_obstacles": [
+    {
+      "names": [
+        "U8001.B2",
+        "U8001.C3",
+        "source pad"
+      ],
+      "positions": 2
+    },
+    {
+      "names": [
+        "EMMC_D0",
+        "U8001.A3",
+        "U8001.B2",
+        "source pad"
+      ],
+      "positions": 4
+    },
+    {
+      "names": [
+        "U8001.B2",
+        "U8001.B4",
+        "U8001.C3",
+        "source pad"
+      ],
+      "positions": 4
+    },
+    {
+      "names": [
+        "EMMC_D0",
+        "U8001.B4",
+        "U8001.C3",
+        "source pad"
+      ],
+      "positions": 4
+    },
+    {
+      "names": [
+        "EMMC_D0",
+        "U8001.A3",
+        "U8001.B4",
+        "source pad"
+      ],
+      "positions": 4
+    },
+    {
+      "names": [
+        "U8001.A3",
+        "U8001.B2",
+        "U8001.C3",
+        "source pad"
+      ],
+      "positions": 3
+    },
+    {
+      "names": [
+        "LCD_BL_PWM",
+        "U8001.B2",
+        "U8001.C3",
+        "source pad"
+      ],
+      "positions": 2
+    },
+    {
+      "names": [
+        "U8001.A3",
+        "U8001.B2",
+        "U8001.B4",
+        "U8001.C3",
+        "source pad"
+      ],
+      "positions": 5
+    },
+    {
+      "names": [
+        "EMMC_D0",
+        "U8001.A3",
+        "U8001.B2",
+        "U8001.B4",
+        "source pad"
+      ],
+      "positions": 4
+    },
+    {
+      "names": [
+        "EMMC_D0",
+        "U8001.A3",
+        "U8001.B4",
+        "U8001.C3",
+        "source pad"
+      ],
+      "positions": 4
+    },
+    {
+      "names": [
+        "LCD_BL_PWM",
+        "U8001.A3",
+        "U8001.B2",
+        "U8001.C3",
+        "source pad"
+      ],
+      "positions": 1
+    },
+    {
+      "names": [
+        "EMMC_D0",
+        "U8001.A3",
+        "U8001.B2",
+        "U8001.B4",
+        "U8001.C3",
+        "source pad"
+      ],
+      "positions": 16
+    }
+  ],
+  "assembly_ready": false,
+  "source_sha256": "4434879e3c5aba8f62a14b22c930fe42c80bdd23b63bbb90926d7abff49eb7c5"
+}

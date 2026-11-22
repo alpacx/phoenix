@@ -1,0 +1,24 @@
+{
+  "board": "runs/supply-short-islands/phy-joint.kicad_pcb",
+  "sha256": "4754cc3b61ec2d15cb7afbe3af83a0ab681ef5a618139621f887b72aba05d32b",
+  "parent_sha256": "5d3287423e99894dca3a5a1eb2a5895074483f5f14905016bafabd8b07130b0c",
+  "records": [
+    {
+      "pair": [
+        "U1.1G8",
+        "U1.1H8"
+      ],
+      "net": "VDD_CPU",
+      "length_mm": 0.55
+    },
+    {
+      "pair": [
+        "U1.1H10",
+        "U1.1H11"
+      ],
+      "net": "VDD_LOGIC",
+      "length_mm": 0.6914213562373095
+    }
+  ],
+  "assembly_ready": false
+}

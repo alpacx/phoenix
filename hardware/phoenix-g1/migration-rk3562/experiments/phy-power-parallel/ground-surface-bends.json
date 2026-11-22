@@ -1,50 +1,36 @@
 {
-  "board": "runs/ground-surface-bends/phy-joint.kicad_pcb",
-  "sha256": "b78cb2ab05659be77c12375972fc13cf127250686cc19e5ac49fdeb0b9fe7aec",
-  "parent_sha256": "3c2f5bda3e37e8cb66c9e31301f1e9026ce8fda6c2f7086d334bacf2faeb348c",
-  "added": [
-    [
-      "U22",
-      "3",
-      1.7997056274847714
-    ],
-    [
-      "U22",
-      "8",
-      0.8990849459950048
-    ],
-    [
-      "Y1",
-      "2",
-      1.828111831820431
-    ],
-    [
-      "C1634",
-      "2",
-      1.4521320343559643
-    ],
-    [
-      "C1611",
-      "2",
-      1.35
-    ],
-    [
-      "C1612",
-      "2",
-      1.35
-    ],
-    [
-      "C1639",
-      "2",
-      1.5649747468305832
-    ]
+  "parent_sha256": "528fa45b6924c18b55823b011c3c2dc59f47784e2f2766cbcf3de1e2422b68eb",
+  "proposed": 4038,
+  "bridges": [
+    {
+      "first": "C1609.2",
+      "second": "C1618.2",
+      "length_mm": 2.0544829033116825,
+      "layer": "B.Cu",
+      "ends_nm": [
+        [
+          45980000,
+          17500000
+        ],
+        [
+          46450000,
+          19500000
+        ]
+      ]
+    }
   ],
+  "board": "runs/ground-surface-bends/phy-joint.kicad_pcb",
+  "sha256": "765bb051007799e8d80accc492bca9c9de6bb19bd18ba242a530982998d7dfb2",
+  "new_drc": [],
+  "remaining_joins": 443,
+  "violations": {
+    "via_dangling": 121
+  },
   "preservation": {
     "existing_pad_instances_preserved": 2008,
-    "existing_tracks_vias_preserved": 6302,
+    "existing_tracks_vias_preserved": 7336,
     "explicitly_replaced_copper": {},
-    "added_tracks_vias": 12,
-    "existing_connected_pad_groups_preserved": 87
-  },
-  "assembly_ready": false
+    "added_tracks_vias": 1,
+    "existing_connected_pad_groups_preserved": 120
+  }
 }

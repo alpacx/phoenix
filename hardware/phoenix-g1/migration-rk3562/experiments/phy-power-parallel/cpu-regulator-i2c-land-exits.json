@@ -1,0 +1,85 @@
+{
+  "sha256": "1fb44f12992b5adfc103274d635402048b3b50cbec9567d74e174beb5e5d7f7f",
+  "rows": [
+    {
+      "pad": "U1.AG23",
+      "net": "I2C0_SCL",
+      "land_size_mm": [
+        0.25,
+        0.25
+      ],
+      "launches": [],
+      "bent_launches": [],
+      "blocking_incidence": {
+        "U1.AG24": 15,
+        "PMIC_INT_N": 45,
+        "U1.AF22": 5,
+        "U1.AF23": 15,
+        "U1.AF24": 5
+      }
+    },
+    {
+      "pad": "U1.AE23",
+      "net": "I2C0_SDA",
+      "land_size_mm": [
+        0.25,
+        0.25
+      ],
+      "launches": [],
+      "bent_launches": [],
+      "blocking_incidence": {
+        "EXP_I2C_SDA": 251,
+        "U1.AE24": 15,
+        "U1.AF23": 15,
+        "U1.AF24": 5,
+        "U1.AE22": 15,
+        "U1.AF22": 5,
+        "GND": 20
+      }
+    },
+    {
+      "pad": "U10.A3",
+      "net": "I2C0_SCL",
+      "land_size_mm": [
+        0.2,
+        0.2
+      ],
+      "launches": [],
+      "bent_launches": [],
+      "blocking_incidence": {
+        "GND": 70,
+        "CPU_FB_SENSE": 19,
+        "CPU_BUCK_EN": 21,
+        "U10.A1": 4,
+        "U10.A2": 19,
+        "U10.A4": 19,
+        "U10.B2": 12,
+        "U10.B3": 19,
+        "U10.B4": 12,
+        "U10.C3": 4
+      }
+    },
+    {
+      "pad": "U10.B1",
+      "net": "I2C0_SDA",
+      "land_size_mm": [
+        0.2,
+        0.2
+      ],
+      "launches": [],
+      "bent_launches": [],
+      "blocking_incidence": {
+        "GND": 94,
+        "U10.A1": 19,
+        "U10.B2": 19,
+        "U10.C1": 19,
+        "CPU_BUCK_EN": 12,
+        "U10.A2": 12,
+        "U10.B3": 4,
+        "U10.C2": 12,
+        "+5V_MAIN": 4,
+        "U10.D1": 4
+      }
+    }
+  ]
+}

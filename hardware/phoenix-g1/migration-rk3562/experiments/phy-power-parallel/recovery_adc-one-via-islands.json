@@ -1,0 +1,32 @@
+{
+  "parent_sha256": "7623e79a6838934df7f6d441cf01ec91127591fe4a32247673c4e6f30816fe7a",
+  "network": "RECOVERY_ADC",
+  "frontiers": [
+    {
+      "group": 0,
+      "layer": "F.Cu",
+      "nodes": 1
+    },
+    {
+      "group": 1,
+      "layer": "B.Cu",
+      "nodes": 4196
+    }
+  ],
+  "pairs": [
+    {
+      "groups": [
+        1,
+        0
+      ],
+      "layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "intersections": 1,
+      "tested": 1,
+      "legal": false
+    }
+  ],
+  "candidates": []
+}

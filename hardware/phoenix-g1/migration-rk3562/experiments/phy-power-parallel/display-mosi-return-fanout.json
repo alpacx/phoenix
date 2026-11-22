@@ -1,0 +1,42 @@
+{
+  "parent_sha256": "db84d12e36a96084efe16e5372fd6e522467ecf3c4163b05e52add5287399dc9",
+  "candidate": null,
+  "returns": [
+    {
+      "pin": "1N3",
+      "new_barrel": false,
+      "at_nm": [
+        40700000,
+        23600000
+      ],
+      "centerline_mm": 1.021814561379698,
+      "added": [
+        "d49f6b5a-978a-472f-a763-8d78499893af",
+        "2aafb318-11c0-42b2-a449-69c0b8b0a45d",
+        "8d84fe50-3587-442e-a017-d41885adec05"
+      ]
+    },
+    {
+      "pin": "1N2",
+      "new_barrel": false,
+      "at_nm": [
+        38750000,
+        24250000
+      ],
+      "centerline_mm": 0.9475504926677695,
+      "added": [
+        "c4feef7b-4d70-4177-a353-fae6375363ca",
+        "a8bf7962-6a3d-4feb-839a-d4e689bb54da",
+        "894fb2b1-696f-4071-b0d1-71b38b0b30c5"
+      ]
+    }
+  ],
+  "failed": [
+    {
+      "pin": "U3",
+      "reachable": 11
+    }
+  ],
+  "delta": [],
+  "assembly_ready": false
+}

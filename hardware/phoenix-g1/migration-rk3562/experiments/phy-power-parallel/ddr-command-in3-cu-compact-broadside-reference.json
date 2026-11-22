@@ -1,0 +1,29 @@
+{
+  "sha256": "d565d60284966363a04fc9ab727b012d8e7ba9bc11583ae907ac3b0c5e781aa8",
+  "rows": [
+    {
+      "net": "LPDDR4_A1_A",
+      "samples": 899,
+      "centerline_plane_coverage_fraction": 0.95906,
+      "via_returns": [
+        {
+          "position_nm": [
+            41100000,
+            13350000
+          ],
+          "nearest_common_gnd_mm": 2.0336
+        },
+        {
+          "position_nm": [
+            26800000,
+            7699999
+          ],
+          "nearest_common_gnd_mm": 1.3693
+        }
+      ],
+      "projected_near_parallel_mm": {},
+      "longest_segment_local_run_mm": 0.0
+    }
+  ],
+  "scope": "Sampling every 20 \u00b5m. Opposite signal layer In2 is separated by the stack's thin central dielectric. Within 0.20 mm of projected copper at up to 15 degrees; incidence is a geometric proxy, not a crosstalk or timing model. Plane antipads included."
+}

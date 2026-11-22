@@ -1,0 +1,41 @@
+{
+  "board": "runs/soc-vdd1-rear-bank/phy-joint.kicad_pcb",
+  "sha256": "4318afe6eeea7f9ce5dbcf7c8d7c72b721c70f72d562fe88a18963c206070021",
+  "parent_sha256": "4318afe6eeea7f9ce5dbcf7c8d7c72b721c70f72d562fe88a18963c206070021",
+  "records": [],
+  "held": [
+    {
+      "blocked": "source frontier exhausted",
+      "reachable_by_layer": [
+        497,
+        0,
+        0,
+        0
+      ],
+      "goal_positions": 178,
+      "bridge_probes": 0,
+      "via_probes": 497
+    },
+    {
+      "net": "+1V8_SYS",
+      "groups": [
+        [
+          "C435.1",
+          "C445.1",
+          "L405.2",
+          "U4.59"
+        ],
+        [
+          "C2302.1",
+          "C2304.1",
+          "C2305.1",
+          "C2306.1",
+          "C2307.1",
+          "C2308.1",
+          "U2.F1"
+        ]
+      ]
+    }
+  ],
+  "assembly_ready": false
+}

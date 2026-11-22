@@ -1,0 +1,661 @@
+{
+  "source_sha256": "ec0cae86786864ee0b90974e897f725df433e94b405c47c47afa5cfb2cf56ddc",
+  "adopted": false,
+  "model": "courtyard floorplan only; input vias, current delivery, GND, feedback and external joins require copper reconstruction",
+  "failure_modes": {
+    "stage 5 unconnected component set": 4,
+    "CPU inductor clearance": 46,
+    "stage 3 unconnected component set": 4
+  },
+  "states": [
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0,
+        0
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0,
+        0.05
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0,
+        0.15
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0,
+        0.25
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0,
+        0.5
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0,
+        0.75
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.05,
+        0
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.05,
+        0.05
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.05,
+        0.15
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.05,
+        0.25
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.05,
+        0.5
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.05,
+        0.75
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.15,
+        0
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.15,
+        0.05
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.15,
+        0.15
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.15,
+        0.25
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.15,
+        0.5
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.15,
+        0.75
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.25,
+        0
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.25,
+        0.05
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.25,
+        0.15
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.25,
+        0.25
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.25,
+        0.5
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.25,
+        0.75
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.5,
+        0
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.5,
+        0.05
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.5,
+        0.15
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.5,
+        0.25
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.5,
+        0.5
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.5,
+        0.75
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.75,
+        0
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.75,
+        0.05
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.75,
+        0.15
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.75,
+        0.25
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.75,
+        0.5
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        0.75,
+        0.75
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        1,
+        0
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        1,
+        0.05
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        1,
+        0.15
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        1,
+        0.25
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        1,
+        0.5
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        1,
+        0.75
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        -0.25,
+        0
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        -0.25,
+        0.05
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        -0.25,
+        0.15
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        -0.25,
+        0.25
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        -0.25,
+        0.5
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        -0.25,
+        0.75
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        -0.5,
+        0
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        -0.5,
+        0.05
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        -0.5,
+        0.15
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        -0.5,
+        0.25
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        -0.5,
+        0.5
+      ],
+      "complete": false
+    },
+    {
+      "center_mm": [
+        60.0,
+        9.0
+      ],
+      "turn": 0,
+      "cpu_shift_mm": [
+        -0.5,
+        0.75
+      ],
+      "complete": false
+    }
+  ],
+  "solutions": []
+}

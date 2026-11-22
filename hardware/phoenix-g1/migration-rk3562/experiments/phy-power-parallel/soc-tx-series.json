@@ -1,0 +1,91 @@
+{
+  "parent_sha256": "0bd09179938dae9ffeb71cfcee4ffd1c6a6bbcdb66b46e3ed278c726d4192ccc",
+  "board": "runs/soc-tx-R501/phy-joint.kicad_pcb",
+  "sha256": "006fc4c501a7504961215342f079d845cf75e430173fa94d8c52813f574f78be",
+  "records": [
+    {
+      "ref": "R501",
+      "net": "ETH_TXD0",
+      "geometric_options": 188,
+      "counts": {
+        "courtyard_clear": 398,
+        "pads_clear": 104,
+        "path_clear": 234,
+        "quiet": 234
+      },
+      "adopted": true,
+      "replaced_ids": [],
+      "pair": [
+        "R501.1",
+        "U1.AA1"
+      ],
+      "length_mm": 1.19,
+      "xy_nm": [
+        34700000,
+        23500000
+      ],
+      "angle": 180
+    },
+    {
+      "ref": "R502",
+      "net": "ETH_TXD1",
+      "geometric_options": 0,
+      "counts": {
+        "courtyard_clear": 408,
+        "pads_clear": 368,
+        "path_clear": 0,
+        "quiet": 0
+      },
+      "adopted": false
+    },
+    {
+      "ref": "R504",
+      "net": "ETH_TXD3",
+      "geometric_options": 0,
+      "counts": {
+        "courtyard_clear": 1204,
+        "pads_clear": 1138,
+        "path_clear": 464,
+        "quiet": 464
+      },
+      "adopted": false
+    },
+    {
+      "ref": "R506",
+      "net": "ETH_TXCLK",
+      "geometric_options": 0,
+      "counts": {
+        "courtyard_clear": 106,
+        "pads_clear": 66,
+        "path_clear": 21,
+        "quiet": 21
+      },
+      "adopted": false
+    },
+    {
+      "ref": "R503",
+      "net": "ETH_TXD2",
+      "geometric_options": 0,
+      "counts": {
+        "courtyard_clear": 320,
+        "pads_clear": 132,
+        "path_clear": 0,
+        "quiet": 0
+      },
+      "adopted": false
+    },
+    {
+      "ref": "R505",
+      "net": "ETH_TXEN",
+      "geometric_options": 0,
+      "counts": {
+        "courtyard_clear": 600,
+        "pads_clear": 564,
+        "path_clear": 0,
+        "quiet": 0
+      },
+      "adopted": false
+    }
+  ],
+  "assembly_ready": false
+}

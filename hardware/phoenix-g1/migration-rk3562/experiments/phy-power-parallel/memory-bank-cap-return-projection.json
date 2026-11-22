@@ -1,0 +1,103 @@
+{
+  "base_sha256": "93f44cdd8b3fa5cebdd76ed1ecf90b3e2ed55e865c6e27f936730a2940132a82",
+  "sha256": "c5d2a1898f0b33bbc8d3a715c0f46e0f860b83229a6d0e18ac258b4f7570f7fc",
+  "new_barrels": 1,
+  "records": [
+    {
+      "uuid": "593f8a52-9e20-4efc-8fd6-d31126eeaaed",
+      "net": "USB_MUX_ENABLE_N",
+      "layer": "F.Cu",
+      "projection": [
+        {
+          "lateral_mm": 0.0,
+          "before_mm2": 0.096517243202,
+          "after_mm2": 0.096517243202,
+          "increase_mm2": 0.0
+        },
+        {
+          "lateral_mm": 0.1,
+          "before_mm2": 0.226935460342,
+          "after_mm2": 0.226935460342,
+          "increase_mm2": 0.0
+        },
+        {
+          "lateral_mm": 0.2,
+          "before_mm2": 0.375147501305,
+          "after_mm2": 0.375147501305,
+          "increase_mm2": 0.0
+        }
+      ]
+    },
+    {
+      "uuid": "0fc2c39b-49d4-4009-b52e-e5a6b89da9c9",
+      "net": "USB_MUX_ENABLE_N",
+      "layer": "In2.Cu",
+      "projection": [
+        {
+          "lateral_mm": 0.0,
+          "before_mm2": 0.100313171096,
+          "after_mm2": 0.100313171096,
+          "increase_mm2": 0.0
+        },
+        {
+          "lateral_mm": 0.1,
+          "before_mm2": 0.2271320451495,
+          "after_mm2": 0.2271320451495,
+          "increase_mm2": 0.0
+        },
+        {
+          "lateral_mm": 0.2,
+          "before_mm2": 0.374528472413,
+          "after_mm2": 0.374528472413,
+          "increase_mm2": 0.0
+        }
+      ]
+    },
+    {
+      "uuid": "bd429e67-f1b2-4a05-aef3-819839d599b5",
+      "net": "USB_MUX_ENABLE_N",
+      "layer": "In2.Cu",
+      "projection": [
+        {
+          "lateral_mm": 0.0,
+          "before_mm2": 0.1003138899,
+          "after_mm2": 0.1003138899,
+          "increase_mm2": 0.0
+        },
+        {
+          "lateral_mm": 0.1,
+          "before_mm2": 0.227133516258,
+          "after_mm2": 0.227133516258,
+          "increase_mm2": 0.0
+        },
+        {
+          "lateral_mm": 0.2,
+          "before_mm2": 0.3745287199025,
+          "after_mm2": 0.3745287199025,
+          "increase_mm2": 0.0
+        }
+      ]
+    }
+  ],
+  "scope": "Local adjacent-GND plane shadow near newly drilled holes; electrical coupling, unused ball escape and impedance require separate qualification.",
+  "nearby_signal_vias": [
+    {
+      "net": "USB_MUX_ENABLE_N",
+      "via": "592b51a3-43b1-4615-be0c-f5608a59f98f",
+      "nearest_before_mm": 1.110180165558726,
+      "nearest_after_mm": 1.110180165558726
+    },
+    {
+      "net": "USB_MUX_ENABLE_N",
+      "via": "68f4b8b2-fa64-492b-b4fa-21388fa3b8a6",
+      "nearest_before_mm": 1.5757934509319422,
+      "nearest_after_mm": 1.5757934509319422
+    },
+    {
+      "net": "USB_ORIENTATION",
+      "via": "a829d6fe-3348-4774-8ed6-9234384ab7c0",
+      "nearest_before_mm": 1.4100088652203575,
+      "nearest_after_mm": 1.4100088652203575
+    }
+  ]
+}

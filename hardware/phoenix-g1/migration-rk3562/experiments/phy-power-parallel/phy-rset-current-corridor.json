@@ -1,0 +1,36 @@
+{
+  "parent_sha256": "d425d5140151d914e668aeae8cb3a62e9778da015a41ab44086a0898df0d6280",
+  "trials": [
+    {
+      "site_nm": [
+        59700000,
+        32900000
+      ],
+      "signals": [
+        {
+          "net": "PHY_XIN",
+          "original_mm": 5.535469095277484,
+          "original_switch_gap_nm": null,
+          "length_mm": 12.200788232314393,
+          "switch_gap_nm": null,
+          "result": "exceeds_original_length_or_switch_proximity"
+        }
+      ]
+    },
+    {
+      "site_nm": [
+        59800000,
+        31000000
+      ],
+      "signals": [
+        {
+          "net": "PHY_XIN",
+          "original_mm": 5.535469095277484,
+          "original_switch_gap_nm": null,
+          "result": "no_path"
+        }
+      ]
+    }
+  ],
+  "oscillator_qualified": false
+}

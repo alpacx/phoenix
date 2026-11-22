@@ -1,0 +1,496 @@
+{
+  "parent_sha256": "6a0f0929d81987b8cc76b0a4a6a9de1976bb4d287431b3d565621cb45d960492",
+  "rows": [
+    {
+      "pin": "19",
+      "net": "PHY_TXEN",
+      "direction": [
+        1,
+        0
+      ],
+      "width_mm": 0.2,
+      "overlap_allowance_mm": 0.075,
+      "launch_length_mm": 0.3,
+      "open_starts": 4,
+      "examples": [
+        [
+          65740000,
+          29600000
+        ],
+        [
+          65750000,
+          29600000
+        ],
+        [
+          65760000,
+          29600000
+        ]
+      ],
+      "nearest": [
+        [
+          [
+            [
+              "ce86dfdc-c20f-424b-8a6b-9830f31270bc",
+              "U5.20"
+            ]
+          ],
+          98
+        ],
+        [
+          [
+            [
+              "0f8f38d8-0378-444e-9cc0-5f88dc8fb1c4",
+              "U5.18"
+            ]
+          ],
+          16
+        ],
+        [
+          [
+            [
+              "0f8f38d8-0378-444e-9cc0-5f88dc8fb1c4",
+              "U5.18"
+            ],
+            [
+              "34504188-d79c-4f52-96af-08181384a07f",
+              "GND"
+            ]
+          ],
+          114
+        ],
+        [
+          [
+            [
+              "54c5d984-8997-47a2-9d9d-28a9d58a393f",
+              "+1V0_PHY"
+            ],
+            [
+              "ce86dfdc-c20f-424b-8a6b-9830f31270bc",
+              "U5.20"
+            ]
+          ],
+          32
+        ]
+      ]
+    },
+    {
+      "pin": "20",
+      "net": "PHY_TXCLK",
+      "direction": [
+        1,
+        0
+      ],
+      "width_mm": 0.2,
+      "overlap_allowance_mm": 0.075,
+      "launch_length_mm": 0.3,
+      "open_starts": 0,
+      "examples": [],
+      "nearest": [
+        [
+          [
+            [
+              "54c5d984-8997-47a2-9d9d-28a9d58a393f",
+              "+1V0_PHY"
+            ]
+          ],
+          128
+        ],
+        [
+          [
+            [
+              "54c5d984-8997-47a2-9d9d-28a9d58a393f",
+              "+1V0_PHY"
+            ],
+            [
+              "be5f4853-92f8-486f-a73c-b76cbf5d20e6",
+              "U5.19"
+            ]
+          ],
+          139
+        ],
+        [
+          [
+            [
+              "54c5d984-8997-47a2-9d9d-28a9d58a393f",
+              "+1V0_PHY"
+            ],
+            [
+              "beef3e08-900a-4852-a2ca-959802f1fcee",
+              "+1V0_PHY"
+            ],
+            [
+              "f994f264-ac61-4ada-a2fc-2987f8f4a2a1",
+              "+1V0_PHY"
+            ]
+          ],
+          4
+        ],
+        [
+          [
+            [
+              "4996528c-6b4a-424b-a685-82c0586f76c5",
+              "+1V0_PHY"
+            ],
+            [
+              "54c5d984-8997-47a2-9d9d-28a9d58a393f",
+              "+1V0_PHY"
+            ],
+            [
+              "beef3e08-900a-4852-a2ca-959802f1fcee",
+              "+1V0_PHY"
+            ],
+            [
+              "ded01a16-a671-49f2-81fd-3c6600582172",
+              "+1V0_PHY"
+            ],
+            [
+              "f994f264-ac61-4ada-a2fc-2987f8f4a2a1",
+              "+1V0_PHY"
+            ]
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "pin": "22",
+      "net": "PHY_RXD3",
+      "direction": [
+        0,
+        -1
+      ],
+      "width_mm": 0.2,
+      "overlap_allowance_mm": 0.075,
+      "launch_length_mm": 0.3,
+      "open_starts": 2,
+      "examples": [
+        [
+          64400000,
+          28260000
+        ],
+        [
+          64400000,
+          28250000
+        ]
+      ],
+      "nearest": [
+        [
+          [
+            [
+              "8e469025-2ff9-4178-ab16-5f8f2dffe74e",
+              "U5.21"
+            ]
+          ],
+          115
+        ],
+        [
+          [
+            [
+              "102b54c2-4363-4fe7-b332-fdc6d2294ee6",
+              "U5.23"
+            ]
+          ],
+          79
+        ],
+        [
+          [
+            [
+              "102b54c2-4363-4fe7-b332-fdc6d2294ee6",
+              "U5.23"
+            ],
+            [
+              "cb94d987-f347-4ca5-bcf2-d2b7b7ce7fcd",
+              "PHY_RXD1"
+            ]
+          ],
+          21
+        ],
+        [
+          [
+            [
+              "102b54c2-4363-4fe7-b332-fdc6d2294ee6",
+              "U5.23"
+            ],
+            [
+              "8e469025-2ff9-4178-ab16-5f8f2dffe74e",
+              "U5.21"
+            ]
+          ],
+          9
+        ]
+      ]
+    },
+    {
+      "pin": "23",
+      "net": "PHY_RXD2",
+      "direction": [
+        0,
+        -1
+      ],
+      "width_mm": 0.2,
+      "overlap_allowance_mm": 0.075,
+      "launch_length_mm": 0.3,
+      "open_starts": 0,
+      "examples": [],
+      "nearest": [
+        [
+          [
+            [
+              "cb94d987-f347-4ca5-bcf2-d2b7b7ce7fcd",
+              "PHY_RXD1"
+            ],
+            [
+              "d2c87006-a120-47b4-afdf-b4c0a2fdff1b",
+              "U5.22"
+            ]
+          ],
+          126
+        ],
+        [
+          [
+            [
+              "cb94d987-f347-4ca5-bcf2-d2b7b7ce7fcd",
+              "PHY_RXD1"
+            ],
+            [
+              "fba2110d-446f-485b-aa78-ae16f4aa405c",
+              "PHY_RXD1"
+            ]
+          ],
+          4
+        ],
+        [
+          [
+            [
+              "cb94d987-f347-4ca5-bcf2-d2b7b7ce7fcd",
+              "PHY_RXD1"
+            ],
+            [
+              "d0ebea0e-dcc4-450b-a76e-a5a2ba5c0f1b",
+              "U5.24"
+            ],
+            [
+              "fba2110d-446f-485b-aa78-ae16f4aa405c",
+              "PHY_RXD1"
+            ]
+          ],
+          130
+        ],
+        [
+          [
+            [
+              "b6db9163-f9ff-4bcf-bf85-4532d6d444a3",
+              "PHY_RXD1"
+            ],
+            [
+              "cb94d987-f347-4ca5-bcf2-d2b7b7ce7fcd",
+              "PHY_RXD1"
+            ],
+            [
+              "d2c87006-a120-47b4-afdf-b4c0a2fdff1b",
+              "U5.22"
+            ]
+          ],
+          4
+        ]
+      ]
+    },
+    {
+      "pin": "25",
+      "net": "PHY_RXD0",
+      "direction": [
+        0,
+        -1
+      ],
+      "width_mm": 0.2,
+      "overlap_allowance_mm": 0.075,
+      "launch_length_mm": 0.3,
+      "open_starts": 0,
+      "examples": [],
+      "nearest": [
+        [
+          [
+            [
+              "96f7ffaf-52c6-4d69-b1f8-c4197c0fbe71",
+              "U5.26"
+            ]
+          ],
+          130
+        ],
+        [
+          [
+            [
+              "cb94d987-f347-4ca5-bcf2-d2b7b7ce7fcd",
+              "PHY_RXD1"
+            ],
+            [
+              "fba2110d-446f-485b-aa78-ae16f4aa405c",
+              "PHY_RXD1"
+            ]
+          ],
+          4
+        ],
+        [
+          [
+            [
+              "cb94d987-f347-4ca5-bcf2-d2b7b7ce7fcd",
+              "PHY_RXD1"
+            ],
+            [
+              "d0ebea0e-dcc4-450b-a76e-a5a2ba5c0f1b",
+              "U5.24"
+            ],
+            [
+              "fba2110d-446f-485b-aa78-ae16f4aa405c",
+              "PHY_RXD1"
+            ]
+          ],
+          130
+        ],
+        [
+          [
+            [
+              "96f7ffaf-52c6-4d69-b1f8-c4197c0fbe71",
+              "U5.26"
+            ],
+            [
+              "cb94d987-f347-4ca5-bcf2-d2b7b7ce7fcd",
+              "PHY_RXD1"
+            ],
+            [
+              "d0ebea0e-dcc4-450b-a76e-a5a2ba5c0f1b",
+              "U5.24"
+            ],
+            [
+              "fba2110d-446f-485b-aa78-ae16f4aa405c",
+              "PHY_RXD1"
+            ]
+          ],
+          9
+        ]
+      ]
+    },
+    {
+      "pin": "26",
+      "net": "PHY_RXDV_CRS",
+      "direction": [
+        0,
+        -1
+      ],
+      "width_mm": 0.2,
+      "overlap_allowance_mm": 0.075,
+      "launch_length_mm": 0.3,
+      "open_starts": 4,
+      "examples": [
+        [
+          62800000,
+          28260000
+        ],
+        [
+          62800000,
+          28250000
+        ],
+        [
+          62800000,
+          28240000
+        ]
+      ],
+      "nearest": [
+        [
+          [
+            [
+              "cab2c99c-efcd-4ebe-b8e0-05ccf1ca7d84",
+              "U5.25"
+            ]
+          ],
+          130
+        ],
+        [
+          [
+            [
+              "1e1ad506-c3e8-41b0-9305-3e3671f90d04",
+              "U5.27"
+            ]
+          ],
+          130
+        ],
+        [
+          [
+            [
+              "1e1ad506-c3e8-41b0-9305-3e3671f90d04",
+              "U5.27"
+            ],
+            [
+              "cab2c99c-efcd-4ebe-b8e0-05ccf1ca7d84",
+              "U5.25"
+            ]
+          ],
+          9
+        ]
+      ]
+    },
+    {
+      "pin": "27",
+      "net": "PHY_RXCLK",
+      "direction": [
+        0,
+        -1
+      ],
+      "width_mm": 0.2,
+      "overlap_allowance_mm": 0.075,
+      "launch_length_mm": 0.3,
+      "open_starts": 0,
+      "examples": [],
+      "nearest": [
+        [
+          [
+            [
+              "96f7ffaf-52c6-4d69-b1f8-c4197c0fbe71",
+              "U5.26"
+            ]
+          ],
+          130
+        ],
+        [
+          [
+            [
+              "cdf3d8a7-7648-4a02-ac10-35688f2415ef",
+              "+3V3_PHY"
+            ]
+          ],
+          4
+        ],
+        [
+          [
+            [
+              "308ea973-7bb8-441a-84d7-7df0153ba492",
+              "U5.28"
+            ],
+            [
+              "cdf3d8a7-7648-4a02-ac10-35688f2415ef",
+              "+3V3_PHY"
+            ]
+          ],
+          57
+        ],
+        [
+          [
+            [
+              "308ea973-7bb8-441a-84d7-7df0153ba492",
+              "U5.28"
+            ],
+            [
+              "7499beaa-250e-419c-b695-1a1283854a1b",
+              "+3V3_PHY"
+            ],
+            [
+              "cdf3d8a7-7648-4a02-ac10-35688f2415ef",
+              "+3V3_PHY"
+            ]
+          ],
+          70
+        ]
+      ]
+    }
+  ]
+}

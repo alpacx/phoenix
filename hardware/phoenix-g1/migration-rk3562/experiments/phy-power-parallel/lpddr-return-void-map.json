@@ -1,0 +1,165 @@
+{
+  "source_sha256": "a1093c2c991290043f2eaffceec3ec76f7365c7dfd43f1fe6551719d4dc6fe1e",
+  "sample_pitch_mm": 0.025,
+  "estimated_length_mm": {
+    "within_own_via_clearance": 36.46933694979965,
+    "over_ground": 46.171602510353274,
+    "within_other_net_clearance": 0.15
+  },
+  "foreign_or_unattributed": [
+    {
+      "uuid": "22b2ff6e-78a8-407b-80ab-f1ab3e4e34bc",
+      "net": "LPDDR4_DQ0_B",
+      "layer": "F.Cu",
+      "width_mm": 0.0762,
+      "length_mm": 0.05,
+      "not_own_mm": 0.05,
+      "slices": [
+        {
+          "kind": "within_other_net_clearance",
+          "neighbors": [
+            [
+              "LPDDR4_DQ4_B",
+              "6f7f3738-7468-4917-860b-43071e16b0c2"
+            ],
+            [
+              "LPDDR4_DQ5_B",
+              "7e65b016-9ddb-4ea0-8f11-96c1eea9a79d"
+            ]
+          ],
+          "first_nm": [
+            47462500,
+            14250000
+          ],
+          "last_nm": [
+            47487500,
+            14250000
+          ],
+          "mm": 0.05
+        }
+      ]
+    },
+    {
+      "uuid": "50f2d702-04ff-4903-b7f1-1d2325308c58",
+      "net": "LPDDR4_DQ0_B",
+      "layer": "F.Cu",
+      "width_mm": 0.0762,
+      "length_mm": 0.05,
+      "not_own_mm": 0.05,
+      "slices": [
+        {
+          "kind": "within_other_net_clearance",
+          "neighbors": [
+            [
+              "LPDDR4_DQ4_B",
+              "6f7f3738-7468-4917-860b-43071e16b0c2"
+            ],
+            [
+              "LPDDR4_DQ5_B",
+              "7e65b016-9ddb-4ea0-8f11-96c1eea9a79d"
+            ]
+          ],
+          "first_nm": [
+            47512500,
+            14250000
+          ],
+          "last_nm": [
+            47537500,
+            14250000
+          ],
+          "mm": 0.05
+        }
+      ]
+    },
+    {
+      "uuid": "8c59c241-72e3-45d7-8b5d-d77196d90d4d",
+      "net": "LPDDR4_DQ0_B",
+      "layer": "F.Cu",
+      "width_mm": 0.0762,
+      "length_mm": 0.05,
+      "not_own_mm": 0.025,
+      "slices": [
+        {
+          "kind": "within_other_net_clearance",
+          "neighbors": [
+            [
+              "LPDDR4_DQ4_B",
+              "6f7f3738-7468-4917-860b-43071e16b0c2"
+            ],
+            [
+              "LPDDR4_DQ5_B",
+              "7e65b016-9ddb-4ea0-8f11-96c1eea9a79d"
+            ]
+          ],
+          "first_nm": [
+            47562500,
+            14250000
+          ],
+          "last_nm": [
+            47562500,
+            14250000
+          ],
+          "mm": 0.025
+        },
+        {
+          "kind": "over_ground",
+          "neighbors": [],
+          "first_nm": [
+            47587500,
+            14250000
+          ],
+          "last_nm": [
+            47587500,
+            14250000
+          ],
+          "mm": 0.025
+        }
+      ]
+    },
+    {
+      "uuid": "ebd23421-5468-4c39-b4fe-469967099c6c",
+      "net": "LPDDR4_DQ0_B",
+      "layer": "F.Cu",
+      "width_mm": 0.0762,
+      "length_mm": 0.05,
+      "not_own_mm": 0.025,
+      "slices": [
+        {
+          "kind": "over_ground",
+          "neighbors": [],
+          "first_nm": [
+            47412500,
+            14250000
+          ],
+          "last_nm": [
+            47412500,
+            14250000
+          ],
+          "mm": 0.025
+        },
+        {
+          "kind": "within_other_net_clearance",
+          "neighbors": [
+            [
+              "LPDDR4_DQ4_B",
+              "6f7f3738-7468-4917-860b-43071e16b0c2"
+            ],
+            [
+              "LPDDR4_DQ5_B",
+              "7e65b016-9ddb-4ea0-8f11-96c1eea9a79d"
+            ]
+          ],
+          "first_nm": [
+            47437500,
+            14250000
+          ],
+          "last_nm": [
+            47437500,
+            14250000
+          ],
+          "mm": 0.025
+        }
+      ]
+    }
+  ]
+}

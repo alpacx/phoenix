@@ -1,0 +1,461 @@
+{
+  "parent_sha256": "789116417fc6fc23feeb0832d79e4ad8df7c0acc3fdda94b65ed70ce0c2131e9",
+  "board": "runs/ram-supply-perimeter/phy-joint.kicad_pcb",
+  "sha256": "789116417fc6fc23feeb0832d79e4ad8df7c0acc3fdda94b65ed70ce0c2131e9",
+  "accepted": [],
+  "rejected": [
+    {
+      "balls": [
+        "A4",
+        "B3"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 40,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "A4",
+        "B5"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 40,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "A9",
+        "B10"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 40,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "A9",
+        "B8"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 40,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "AA10",
+        "AB9"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "AA3",
+        "AB4"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 39
+      }
+    },
+    {
+      "balls": [
+        "AA5",
+        "AB4"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 39
+      }
+    },
+    {
+      "balls": [
+        "AA8",
+        "AB9"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "F3",
+        "G2"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "G2",
+        "H1"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 27
+      }
+    },
+    {
+      "balls": [
+        "R1",
+        "T2"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 1,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "T2",
+        "U3"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "AA5",
+        "W5"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "AA8",
+        "W8"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "B5",
+        "D5"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "B8",
+        "D8"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "D5",
+        "F5"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "D8",
+        "F8"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "F5",
+        "H5"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "F8",
+        "H8"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "H1",
+        "K1"
+      ],
+      "diagnosis": {
+        "reason": "closed front channel",
+        "reachable": 91,
+        "starts": 27,
+        "goals": 38
+      }
+    },
+    {
+      "balls": [
+        "H12",
+        "K12"
+      ],
+      "diagnosis": {
+        "reason": "closed front channel",
+        "reachable": 7,
+        "starts": 1,
+        "goals": 40
+      }
+    },
+    {
+      "balls": [
+        "N1",
+        "R1"
+      ],
+      "diagnosis": {
+        "reason": "closed front channel",
+        "reachable": 85,
+        "starts": 2,
+        "goals": 1
+      }
+    },
+    {
+      "balls": [
+        "N12",
+        "R12"
+      ],
+      "diagnosis": {
+        "reason": "closed front channel",
+        "reachable": 2955,
+        "starts": 40,
+        "goals": 31
+      }
+    },
+    {
+      "balls": [
+        "R5",
+        "U5"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "R8",
+        "U8"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "U5",
+        "W5"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "U8",
+        "W8"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "AA3",
+        "AA5"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "AA8",
+        "AA10"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "B3",
+        "B5"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "B8",
+        "B10"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "F3",
+        "F5"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "F8",
+        "F10"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "K1",
+        "K3"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 38,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "K10",
+        "K12"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 40
+      }
+    },
+    {
+      "balls": [
+        "N1",
+        "N3"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 2,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "N10",
+        "N12"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 40
+      }
+    },
+    {
+      "balls": [
+        "U3",
+        "U5"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "U8",
+        "U10"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 0
+      }
+    }
+  ],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 6893,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 0,
+    "existing_connected_pad_groups_preserved": 120
+  },
+  "new_drc": [],
+  "assembly_ready": false
+}

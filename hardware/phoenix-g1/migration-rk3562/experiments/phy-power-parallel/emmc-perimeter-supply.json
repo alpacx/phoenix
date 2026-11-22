@@ -1,0 +1,96 @@
+{
+  "parent_sha256": "bc3be04e6e66b26938d17068d301bf21282335da404df8417176a9947e712fb9",
+  "board": "runs/emmc-perimeter-supply/phy-joint.kicad_pcb",
+  "sha256": "b5a083ee68729efe7e98c56574140f211a3b84345ad68f279a9d90ac83a8a074",
+  "accepted": [
+    {
+      "pair": [
+        "U8001.J10",
+        "U8001.K9"
+      ],
+      "net": "EMMC_3V3",
+      "width_mm": 0.3,
+      "length_mm": 2.2435028842544384
+    }
+  ],
+  "rejected": [
+    {
+      "balls": [
+        "E6",
+        "F5"
+      ],
+      "diagnosis": {
+        "reason": "closed front channel",
+        "reachable": 275,
+        "starts": 6,
+        "goals": 10
+      }
+    },
+    {
+      "balls": [
+        "N4",
+        "P3"
+      ],
+      "diagnosis": {
+        "reason": "closed front channel",
+        "reachable": 75,
+        "starts": 8,
+        "goals": 2
+      }
+    },
+    {
+      "balls": [
+        "N4",
+        "P5"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 8,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "P3",
+        "P5"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 2,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "M4",
+        "P3"
+      ],
+      "diagnosis": {
+        "reason": "closed front channel",
+        "reachable": 75,
+        "starts": 10,
+        "goals": 2
+      }
+    },
+    {
+      "balls": [
+        "M4",
+        "P5"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 10,
+        "goals": 0
+      }
+    }
+  ],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 6844,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 41,
+    "existing_connected_pad_groups_preserved": 118
+  },
+  "new_drc": [],
+  "assembly_ready": false
+}

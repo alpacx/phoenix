@@ -1,0 +1,126 @@
+{
+  "base_sha256": "4318afe6eeea7f9ce5dbcf7c8d7c72b721c70f72d562fe88a18963c206070021",
+  "sha256": "e173a225f47ca075d5fbf9a15119144b01069442a9f6f7ef7396cec04df75f19",
+  "new_barrels": 1,
+  "records": [
+    {
+      "uuid": "a924ff34-0b63-4788-b312-3e3bc15c5fd1",
+      "net": "LPDDR4_CKE0_A",
+      "layer": "F.Cu",
+      "projection": [
+        {
+          "lateral_mm": 0.0,
+          "before_mm2": 0.038973911459,
+          "after_mm2": 0.038973911459,
+          "increase_mm2": 0.0
+        },
+        {
+          "lateral_mm": 0.1,
+          "before_mm2": 0.139920250222,
+          "after_mm2": 0.139920250222,
+          "increase_mm2": 0.0
+        },
+        {
+          "lateral_mm": 0.2,
+          "before_mm2": 0.287385531746,
+          "after_mm2": 0.287385531746,
+          "increase_mm2": 0.0
+        }
+      ]
+    },
+    {
+      "uuid": "d41806c9-043a-4378-bd16-f445b7b1452c",
+      "net": "LPDDR4_CKE0_B",
+      "layer": "F.Cu",
+      "projection": [
+        {
+          "lateral_mm": 0.0,
+          "before_mm2": 0.03897413121,
+          "after_mm2": 0.03897413121,
+          "increase_mm2": 0.0
+        },
+        {
+          "lateral_mm": 0.1,
+          "before_mm2": 0.139919738306,
+          "after_mm2": 0.139919738306,
+          "increase_mm2": 0.0
+        },
+        {
+          "lateral_mm": 0.2,
+          "before_mm2": 0.2873854055355,
+          "after_mm2": 0.2873854055355,
+          "increase_mm2": 0.0
+        }
+      ]
+    }
+  ],
+  "scope": "Local adjacent-GND plane shadow near newly drilled holes; electrical coupling, unused ball escape and impedance require separate qualification.",
+  "nearby_signal_vias": [
+    {
+      "net": "LPDDR4_A1_A",
+      "via": "35abb989-6ccf-4109-bed5-e214926e6b1c",
+      "nearest_before_mm": 1.369270827849991,
+      "nearest_after_mm": 1.369270827849991
+    },
+    {
+      "net": "LPDDR4_CLKN_B",
+      "via": "334cb3ff-5cf3-4021-b174-12aa6f1f7eca",
+      "nearest_before_mm": 1.0062305898749053,
+      "nearest_after_mm": 1.0062305898749053
+    },
+    {
+      "net": "LPDDR4_A1_B",
+      "via": "7365480a-4f7a-4c8d-8879-f9bf121f7642",
+      "nearest_before_mm": 1.3692698784388708,
+      "nearest_after_mm": 1.3692698784388708
+    },
+    {
+      "net": "LPDDR4_A0_A",
+      "via": "e2ee3223-07f7-47fc-bd9f-7ec56db5cfd8",
+      "nearest_before_mm": 1.9968475154603065,
+      "nearest_after_mm": 1.9968475154603065
+    },
+    {
+      "net": "LPDDR4_CS0N_A",
+      "via": "3a2063fc-47da-489e-a21d-d5f0a4c45bbd",
+      "nearest_before_mm": 1.6783622970026466,
+      "nearest_after_mm": 1.6783622970026466
+    },
+    {
+      "net": "LPDDR4_CLKP_A",
+      "via": "475b52ed-eae8-4004-b9a9-dd10401aedc3",
+      "nearest_before_mm": 0.9656603957913984,
+      "nearest_after_mm": 0.9656603957913984
+    },
+    {
+      "net": "LPDDR4_CLKP_B",
+      "via": "55ea583d-0b7a-41fd-9bae-babd368ab1c4",
+      "nearest_before_mm": 0.9656603957913984,
+      "nearest_after_mm": 0.9656603957913984
+    },
+    {
+      "net": "LPDDR4_CS0N_B",
+      "via": "80dc1f40-649a-45be-95b7-6d5afe8ea6b4",
+      "nearest_before_mm": 1.1734138229968147,
+      "nearest_after_mm": 1.1734138229968147
+    },
+    {
+      "net": "LPDDR4_A0_B",
+      "via": "16b5a003-bd01-4b83-afe1-cb13fbb622eb",
+      "nearest_before_mm": 1.9968475154603065,
+      "nearest_after_mm": 1.9968475154603065
+    },
+    {
+      "net": "LPDDR4_CKE0_A",
+      "via": "6dd809ab-eff2-41de-9c53-84164f8e5082",
+      "nearest_before_mm": 1.382354006758399,
+      "nearest_after_mm": 1.5576915612537034
+    },
+    {
+      "net": "LPDDR4_CKE0_B",
+      "via": "273fe446-3ea5-456e-a9f7-64675513c199",
+      "nearest_before_mm": 1.3823530663329102,
+      "nearest_after_mm": 1.1774548823628022
+    }
+  ]
+}

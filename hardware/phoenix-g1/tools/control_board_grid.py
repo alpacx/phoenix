@@ -6,6 +6,7 @@ from phy_bias_paths import space
 
 def route(req):
     grid=req['grid_nm'];bounds=req['bounds'];step=grid
+    via_cost=req.get('via_cost_nm',2000000)
     clear=[space(layer,req.get('width_nm',200000)/2+202000,bounds) for layer in req['layers']]
     bore=[space(layer,req.get('via_nm',450000)/2+202000,bounds) for layer in req['through']]
     bore.append(space(req['via_keepouts'],req.get('via_nm',450000)/2+52000,bounds))
@@ -14,7 +15,7 @@ def route(req):
     @lru_cache(None)
     def bridge(l,k,x,y):
         if not req.get('paired_vias'):return (x,y)
-        for dx,dy in ((800000,0),(0,800000),(-800000,0),(0,-800000)):
+        for dx,dy in req.get('pair_offsets_nm',((800000,0),(0,800000),(-800000,0),(0,-800000))):
             end=(x+dx,y+dy)
             if via(*end) and clear[l]((x,y),end) and clear[k]((x,y),end):return end
         return None
@@ -26,7 +27,7 @@ def route(req):
             pos=tuple(raw)
             if not clear[l](pos,pos):continue
             positions.append(pos);goals[l,round(pos[0]/grid),round(pos[1]/grid)].append(pos)
-    if not positions:return {}
+    if not positions:return {'blocked':'target inaccessible','target_candidates':[len(row) for row in req['end']]} if req.get('explain') else {}
     left,bottom=map(min,zip(*positions));right,top=map(max,zip(*positions))
     queue=[];cost={};parent={}
     def push(n,c,prev):
@@ -68,8 +69,10 @@ def route(req):
             u,v=x+i*step,y+j*step
             next_cost=c+math.hypot(i,j)*step
             if bounds[0]<u<bounds[2] and bounds[1]<v<bounds[3] and next_cost<cost.get((l,u,v),math.inf) and edge(l,x,y,u,v):push((l,u,v),next_cost,n)
-        if any(c+2e6<cost.get((k,x,y),math.inf) for k in range(len(clear)) if k!=l) and via(x,y):
+        if any(c+via_cost<cost.get((k,x,y),math.inf) for k in range(len(clear)) if k!=l) and via(x,y):
             for k in range(len(clear)):
-                if k!=l and bridge(l,k,x,y):push((k,x,y),c+2e6,n)
+                if k!=l and bridge(l,k,x,y):push((k,x,y),c+via_cost,n)
+    if req.get('explain'):
+        return dict(frontier_nm=[[l,x,y] for l,x,y in cost] if req.get('export_frontier') else [],blocked='source frontier exhausted',reachable_by_layer=[sum(1 for state in cost if state[0]==l) for l in range(len(clear))],goal_positions=len(positions),bridge_probes=bridge.cache_info().misses,via_probes=via.cache_info().misses)
     return {}
 if __name__=='__main__':print(json.dumps(route(json.load(sys.stdin))))

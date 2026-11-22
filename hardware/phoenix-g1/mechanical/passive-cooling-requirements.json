@@ -10,10 +10,14 @@
       90,
       40
     ],
-    "processor": "RK3568",
+    "processor": "RK3562",
     "display": "included, color, non-touch",
     "cable": "detachable USB-C",
-    "sustained_vpn_target": "approach 1 Gbit/s; not measured or guaranteed"
+    "sustained_vpn_target": "approach 1 Gbit/s; not measured or guaranteed",
+    "target_pcb_mm": [
+      85,
+      35
+    ]
   },
   "thermal_architecture": [
     "Use a metal heat spreader with a compliant electrically insulating TIM on the processor package top.",
@@ -23,18 +27,18 @@
     "Keep RF antenna feed and external antenna isolated from heat-spreader short circuits and mechanically clear."
   ],
   "processor_documentation": {
-    "source": "reference/RK3568-datasheet-v1.0-radxa.pdf",
-    "section": "Chapter 4, printed page 62",
-    "theta_jc_typ_k_per_w": 0.487,
-    "theta_jb_typ_k_per_w": 10.813,
-    "theta_ja_typ_k_per_w": 15.925,
+    "source": "reference/rk3562-cost-study.pdf",
+    "section": "Rockchip RK3562 Datasheet, chapter 4, printed page 30, Table 4-1",
+    "sha256": "1371abe7a5b11558e0473e97def26abe11c9080f155e8a4acd2a49619f565f60",
+    "theta_jc_typ_k_per_w": 3.347,
+    "theta_jb_typ_k_per_w": 15.937,
+    "theta_ja_typ_k_per_w": 22.646,
     "absolute_max_tj_c": 125,
-    "source_limit": "Manufacturer calls thermal data simulation for reference only; test board is 114.3x101.6mm, four layers, 1.6mm at ambient25C. ThetaJA must not be transplanted to this closed enclosure.",
-    "design_note": "125C is an absolute limit, not a sustained operating target or approved firmware trip.",
-    "visual_check": "Chapter4 page62 visually inspected,2026-11-08"
+    "source_limit": "Manufacturer simulation for reference on 114.3 × 101.6 mm, four-layer, 1.6 mm evaluation PCB at 25 °C. Closed Phoenix enclosure has different heat paths.",
+    "design_note": "125 °C is an absolute limit. Select operational and throttle thresholds from qualified operating limits and prototype measurements."
   },
   "software_requirements": [
-    "Enable verified RK3568 thermal sensor calibration and active-low external shutdown path through R1507.",
+    "Enable verified RK3562 thermal sensor calibration and active-low external shutdown path through R1507.",
     "Use CPU DVFS and runtime power management; unused GPU/NPU/video blocks should not run workloads.",
     "Establish throttle/shutdown thresholds from all component operating limits and measured case/display temperatures; not from SoC absolute maximum alone.",
     "Measure throughput during thermal steady state; report any throttling as a performance limitation, not a gigabit pass.",
@@ -56,5 +60,17 @@
     "Approved ambient range and sustained-performance envelope"
   ],
   "production_ready": false,
-  "sizing_study": "review/thermal-path-sizing.json"
+  "sizing_study": "review/rk3562-thermal-path-sizing.json",
+  "reference_geometry": "The routed PCB remains 90 × 40 mm. The 85 × 35 mm target is pending fit and placement validation.",
+  "layout_contact_screen": {
+    "report": "migration-rk3562/experiments/phy-power-parallel/rk3562-spreader-xy.json",
+    "square_16mm_intersects": [
+      "C2204",
+      "FB2001",
+      "R501",
+      "U2",
+      "Y2001"
+    ],
+    "limit": "A centered 12 mm contact projects inside the package with no reported top-side courtyard overlap. Contactable top area, lid geometry and stack compression still require qualification."
+  }
 }

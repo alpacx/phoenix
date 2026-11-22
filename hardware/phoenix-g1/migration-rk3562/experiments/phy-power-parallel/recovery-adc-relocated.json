@@ -1,0 +1,64 @@
+{
+  "parent_sha256": "27a6036e0f04f0e4a865dbdc729e7fe4d8a232326bda876db06654c1ce9810b9",
+  "targets": [
+    [
+      "C1644",
+      [
+        38480000,
+        22000000
+      ]
+    ],
+    [
+      "C1645",
+      [
+        47520000,
+        17500000
+      ]
+    ],
+    [
+      "C1636",
+      [
+        53480000,
+        13500000
+      ]
+    ]
+  ],
+  "stats": {
+    "resistor_and_power_fit": 164
+  },
+  "options": 9,
+  "board": "runs/recovery-adc-relocated/phy-joint.kicad_pcb",
+  "sha256": "a7e7c220910f719477d55f2406c8472e32fff37ffc672855d7c22312d489f329",
+  "new_drc": [],
+  "remaining": 440,
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 7342,
+    "explicitly_replaced_copper": {
+      "7a25fd60-4578-416c-b77f-1922eeda696a": [
+        "RECOVERY_ADC",
+        2,
+        57000000,
+        35000000,
+        58590000,
+        35000000,
+        200000,
+        null
+      ]
+    },
+    "added_tracks_vias": 1,
+    "existing_connected_pad_groups_preserved": 119
+  },
+  "selected": [
+    "C1636",
+    180,
+    [
+      52880000,
+      12300000
+    ],
+    [
+      55290000,
+      12300000
+    ]
+  ]
+}

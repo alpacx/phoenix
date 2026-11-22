@@ -1,0 +1,107 @@
+{
+  "source_sha256": "b2404b8fa4f7435da3867a99f720319da77ca925b614282fc1977de290752d98",
+  "board": "runs/rotated-restore-return-C482/phy-joint.kicad_pcb",
+  "sha256": "cc3bfbbb8f3bfcfc7b1ba6b2c1f9106cab6f192a7195f5ad0d652ae67d236472",
+  "restored": [
+    {
+      "part": "C482",
+      "pair": [
+        "C482.2",
+        "U4.69"
+      ],
+      "width_mm": 0.3,
+      "layout": {
+        "connected": true,
+        "kind": "two existing ground barrels",
+        "anchors_nm": [
+          [
+            59000000,
+            9000000
+          ],
+          [
+            59000000,
+            8000000
+          ]
+        ],
+        "anchor_ids": [
+          "3b9537e8-7788-4ad9-8f1d-36d5f07d0762",
+          "c12d239d-020a-4d09-9385-480f30c88c6d"
+        ]
+      },
+      "existing_groups": 119
+    }
+  ],
+  "attempted": [
+    {
+      "part": "C431",
+      "land_positions": 9,
+      "reason": "no paired via or existing barrel pair"
+    },
+    {
+      "part": "C432",
+      "land_positions": 9,
+      "reason": "no paired via or existing barrel pair"
+    },
+    {
+      "part": "C433",
+      "land_positions": 9,
+      "reason": "no paired via or existing barrel pair"
+    },
+    {
+      "part": "C421",
+      "land_positions": 9,
+      "reason": "no paired via or existing barrel pair"
+    },
+    {
+      "part": "C422",
+      "land_positions": 9,
+      "reason": "no paired via or existing barrel pair"
+    },
+    {
+      "part": "C423",
+      "land_positions": 9,
+      "reason": "no paired via or existing barrel pair"
+    },
+    {
+      "part": "C424",
+      "land_positions": 9,
+      "reason": "no paired via or existing barrel pair"
+    },
+    {
+      "part": "C480",
+      "land_positions": 9,
+      "reason": "no paired via or existing barrel pair"
+    },
+    {
+      "part": "C481",
+      "land_positions": 9,
+      "reason": "no paired via or existing barrel pair"
+    },
+    {
+      "part": "C483",
+      "land_positions": 9,
+      "reason": "no paired via or existing barrel pair"
+    },
+    {
+      "part": "C484",
+      "land_positions": 9,
+      "reason": "no paired via or existing barrel pair"
+    },
+    {
+      "part": "C485",
+      "land_positions": 9,
+      "reason": "no paired via or existing barrel pair"
+    },
+    {
+      "part": "C470",
+      "land_positions": 9,
+      "reason": "no paired via or existing barrel pair"
+    },
+    {
+      "part": "C412",
+      "land_positions": 9,
+      "reason": "no paired via or existing barrel pair"
+    }
+  ],
+  "assembly_ready": false
+}

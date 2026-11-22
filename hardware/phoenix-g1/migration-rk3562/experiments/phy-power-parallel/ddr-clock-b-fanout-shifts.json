@@ -1,0 +1,231 @@
+{
+  "parent_sha256": "05d274fab709568edbc3e7638318838dd884a47dc5da3da0be3baf2219942437",
+  "sha256": "05d274fab709568edbc3e7638318838dd884a47dc5da3da0be3baf2219942437",
+  "board": "runs/ddr-clock-b-fanout-shifts/phy-joint.kicad_pcb",
+  "cases": [
+    {
+      "net": "LPDDR4_A5_A",
+      "retired_location_nm": [
+        42200000,
+        15450000
+      ],
+      "original_uuid": "9d10f549-f17a-4b02-b51f-d24c8cfb98ae",
+      "terminal_tracks": 1,
+      "stages": {},
+      "candidate": null
+    },
+    {
+      "net": "LPDDR4_A5_B",
+      "retired_location_nm": [
+        42850000,
+        15450000
+      ],
+      "original_uuid": "3301f0c1-a55c-40a2-b9ea-ee417f7a264e",
+      "terminal_tracks": 1,
+      "stages": {},
+      "candidate": null
+    },
+    {
+      "net": "LPDDR4_A5_B",
+      "retired_location_nm": [
+        33200000,
+        10300000
+      ],
+      "original_uuid": "736bec16-71a4-4511-86a9-543f628ee8bc",
+      "terminal_tracks": 1,
+      "stages": {
+        "clears_copper_and_holes": 23,
+        "preserves_projected_reference": 7
+      },
+      "candidate": null
+    },
+    {
+      "net": "LPDDR4_A4_B",
+      "retired_location_nm": [
+        33200000,
+        10950000
+      ],
+      "original_uuid": "6c53e1f0-e35e-4e89-b97b-c739e9a87479",
+      "terminal_tracks": 1,
+      "stages": {},
+      "candidate": null
+    },
+    {
+      "net": "LPDDR4_A3_B",
+      "retired_location_nm": [
+        32400000,
+        10950000
+      ],
+      "original_uuid": "6974fe14-fe54-4bfb-a365-522c118d1694",
+      "terminal_tracks": 1,
+      "stages": {},
+      "candidate": null
+    },
+    {
+      "net": "LPDDR4_DM1_A",
+      "retired_location_nm": [
+        36650000,
+        13000000
+      ],
+      "original_uuid": "f7422d4f-71ca-49ce-aa10-c88e72305728",
+      "terminal_tracks": 1,
+      "stages": {
+        "clears_copper_and_holes": 1
+      },
+      "candidate": null
+    },
+    {
+      "net": "LPDDR4_DQ12_A",
+      "retired_location_nm": [
+        37950000,
+        13300000
+      ],
+      "original_uuid": "66b8b933-35aa-4972-b9c5-30928affb3bf",
+      "terminal_tracks": 1,
+      "stages": {},
+      "candidate": null
+    },
+    {
+      "net": "LPDDR4_DQ6_A",
+      "retired_location_nm": [
+        39100000,
+        13350000
+      ],
+      "original_uuid": "bb915513-84fa-4415-9308-a3043f041214",
+      "terminal_tracks": 1,
+      "stages": {},
+      "candidate": null
+    },
+    {
+      "net": "LPDDR4_DQ2_A",
+      "retired_location_nm": [
+        39900000,
+        13350000
+      ],
+      "original_uuid": "6c246d2e-85c3-4a14-ae56-ae1fee7ca2e6",
+      "terminal_tracks": 1,
+      "stages": {},
+      "candidate": null
+    },
+    {
+      "net": "LPDDR4_DQ15_A",
+      "retired_location_nm": [
+        37250000,
+        13050000
+      ],
+      "original_uuid": "2d3b4f85-e890-4c7d-b493-e26bcb5a19e1",
+      "terminal_tracks": 1,
+      "stages": {
+        "clears_copper_and_holes": 1
+      },
+      "candidate": null
+    },
+    {
+      "net": "LPDDR4_DQ0_A",
+      "retired_location_nm": [
+        38500000,
+        13500000
+      ],
+      "original_uuid": "d4c5f20b-cf27-4183-8f2e-0eb16146e219",
+      "terminal_tracks": 1,
+      "stages": {},
+      "candidate": null
+    },
+    {
+      "net": "LPDDR4_DM0_A",
+      "retired_location_nm": [
+        39500000,
+        13850000
+      ],
+      "original_uuid": "16e15de3-48a3-4595-9dc8-ee3f5b10897d",
+      "terminal_tracks": 1,
+      "stages": {},
+      "candidate": null
+    },
+    {
+      "net": "LPDDR4_A0_A",
+      "retired_location_nm": [
+        40500000,
+        13500000
+      ],
+      "original_uuid": "e8e760e8-7d0d-46d1-9b51-54267f50433b",
+      "terminal_tracks": 1,
+      "stages": {},
+      "candidate": null
+    },
+    {
+      "net": "LPDDR4_CS0N_A",
+      "retired_location_nm": [
+        41500000,
+        13850000
+      ],
+      "original_uuid": "ce59aa49-a16f-4d05-8a7a-eda3545d92b4",
+      "terminal_tracks": 1,
+      "stages": {},
+      "candidate": null
+    },
+    {
+      "net": "LPDDR4_A0_B",
+      "retired_location_nm": [
+        43750000,
+        13050000
+      ],
+      "original_uuid": "c39c2f4f-f580-4924-a467-af1ec37382f6",
+      "terminal_tracks": 1,
+      "stages": {},
+      "candidate": null
+    },
+    {
+      "net": "LPDDR4_DQ3_A",
+      "retired_location_nm": [
+        40000000,
+        14650000
+      ],
+      "original_uuid": "5bbc61c5-9bf8-475e-9c74-ffa76a832d7d",
+      "terminal_tracks": 1,
+      "stages": {
+        "clears_copper_and_holes": 2
+      },
+      "candidate": null
+    },
+    {
+      "net": "LPDDR4_A2_A",
+      "retired_location_nm": [
+        41000000,
+        14650000
+      ],
+      "original_uuid": "66d3bd13-851b-48db-a213-70515d70eec4",
+      "terminal_tracks": 1,
+      "stages": {},
+      "candidate": null
+    },
+    {
+      "net": "LPDDR4_CKE0_A",
+      "retired_location_nm": [
+        42000000,
+        14650000
+      ],
+      "original_uuid": "aab5640e-50fc-4939-af1d-f4c10358c257",
+      "terminal_tracks": 1,
+      "stages": {},
+      "candidate": null
+    },
+    {
+      "net": "LPDDR4_A2_B",
+      "retired_location_nm": [
+        31600000,
+        10950000
+      ],
+      "original_uuid": "0deb44db-30a5-4f9e-b57f-a0b4cdb7239d",
+      "terminal_tracks": 1,
+      "stages": {
+        "clears_copper_and_holes": 32,
+        "preserves_projected_reference": 15
+      },
+      "candidate": null
+    }
+  ],
+  "recovered": [],
+  "drc_delta": [],
+  "adopted": false
+}

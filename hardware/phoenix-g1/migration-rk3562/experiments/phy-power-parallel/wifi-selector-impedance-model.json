@@ -1,0 +1,61 @@
+{
+  "board_sha256": "22e9735759bde9eb5efd281f10bfec697cf904e371706acb35b57fa5ede5c364",
+  "line_width_mm": 0.335,
+  "open_stub_to_center_mm": 0.6004769932114385,
+  "frequency_GHz": 5.85,
+  "stacks": {
+    "JLC06161H-3313": {
+      "solutions": [
+        {
+          "mesh_mm": 0.012,
+          "ohms": 32.3533868791955,
+          "effective_er": 3.4004803298274093
+        },
+        {
+          "mesh_mm": 0.008,
+          "ohms": 32.45621419230578,
+          "effective_er": 3.3956807193825176
+        },
+        {
+          "mesh_mm": 0.006,
+          "ohms": 32.500413571047226,
+          "effective_er": 3.395378926388892
+        }
+      ],
+      "stack_specific_width_mm": 0.154,
+      "stack_specific_fine_mesh_ohms": 50.086692858801406,
+      "stub_phase_deg": 7.772811949130919,
+      "stub_only_return_loss_db": 23.338157052863096,
+      "isolated_line_nominal_50ohm_error_pct": -34.99917285790555
+    },
+    "JLC06161H-7628": {
+      "solutions": [
+        {
+          "mesh_mm": 0.012,
+          "ohms": 50.11886192218889,
+          "effective_er": 3.3330660368821525
+        },
+        {
+          "mesh_mm": 0.008,
+          "ohms": 50.24958761531285,
+          "effective_er": 3.328486430642793
+        },
+        {
+          "mesh_mm": 0.006,
+          "ohms": 50.30250106140344,
+          "effective_er": 3.3282564787850157
+        }
+      ],
+      "stack_specific_width_mm": 0.338,
+      "stack_specific_fine_mesh_ohms": 50.069443228715734,
+      "stub_phase_deg": 7.69559899727886,
+      "stub_only_return_loss_db": 23.425531177932292,
+      "isolated_line_nominal_50ohm_error_pct": 0.60500212280688
+    }
+  },
+  "limitations": [
+    "Finite-element section assumes an isolated outer trace over an infinite plane. Actual pour holes, copper edges, coplanar ground, module RF land, 0402 lands, end fringing, material tolerance and case are excluded.",
+    "Use final stack and manufacturer controlled-impedance coupon, 3D connector/selector model and VNA before qualifying performance."
+  ],
+  "assembly_ready": false
+}

@@ -1,0 +1,134 @@
+{
+  "board_sha256": "006fc4c501a7504961215342f079d845cf75e430173fa94d8c52813f574f78be",
+  "footprint": "U1",
+  "pitch_mm": 0.5,
+  "pad_diameter_mm": 0.25,
+  "track_width_mm": 0.2,
+  "local_copper_clearance_mm": 0.0762,
+  "consecutive_exclusion_disk_overlap_mm": 0.1024,
+  "through_via_minimum_mm": [
+    0.45,
+    0.2
+  ],
+  "nonoverlap_center_offset_mm": 0.35,
+  "upper_bound_distance_from_off_land_barrel_to_nearest_foreign_center_mm": 0.35533452771256047,
+  "required_drill_center_to_foreign_land_center_mm": 0.475,
+  "closed_singletons": [
+    {
+      "pin": "AF25",
+      "net": "XOUT24M",
+      "ring": [
+        [
+          "AF26",
+          "USB_DM"
+        ],
+        [
+          "AG26",
+          "GND"
+        ],
+        [
+          "AG25",
+          "XIN24M"
+        ],
+        [
+          "AG24",
+          ""
+        ],
+        [
+          "AF24",
+          "GND"
+        ],
+        [
+          "AE24",
+          ""
+        ],
+        [
+          "AE25",
+          "GND"
+        ],
+        [
+          "AE26",
+          "ADDON_USB_DM"
+        ]
+      ]
+    },
+    {
+      "pin": "AE26",
+      "net": "ADDON_USB_DM",
+      "ring": [
+        [
+          "AE27",
+          "ADDON_USB_DP"
+        ],
+        [
+          "AF27",
+          "USB_DP"
+        ],
+        [
+          "AF26",
+          "USB_DM"
+        ],
+        [
+          "AF25",
+          "XOUT24M"
+        ],
+        [
+          "AE25",
+          "GND"
+        ],
+        [
+          "AD25",
+          "GND"
+        ],
+        [
+          "AD26",
+          "SOC_USB_TX_P"
+        ],
+        [
+          "AD27",
+          "SOC_USB_TX_N"
+        ]
+      ]
+    },
+    {
+      "pin": "AF26",
+      "net": "USB_DM",
+      "ring": [
+        [
+          "AF27",
+          "USB_DP"
+        ],
+        [
+          "AG27",
+          "GND"
+        ],
+        [
+          "AG26",
+          "GND"
+        ],
+        [
+          "AG25",
+          "XIN24M"
+        ],
+        [
+          "AF25",
+          "XOUT24M"
+        ],
+        [
+          "AE25",
+          "GND"
+        ],
+        [
+          "AE26",
+          "ADDON_USB_DM"
+        ],
+        [
+          "AE27",
+          "ADDON_USB_DP"
+        ]
+      ]
+    }
+  ],
+  "restriction": "Current straight/curved surface tracks and off-land through vias. A larger plated and capped solder land, blind/stacked microvias, or a manufacturing process change needs separate review.",
+  "limitations": "Only exact 0.5-mm rings with eight foreign 0.25-mm round lands and isolated non-DDR pads. Counts are a lower bound. No assembly, SI, or thermal claim."
+}

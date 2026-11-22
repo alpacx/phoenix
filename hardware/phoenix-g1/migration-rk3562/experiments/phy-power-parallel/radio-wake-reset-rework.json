@@ -1,0 +1,56 @@
+{
+  "parent_sha256": "217e571fe6431dfb32a395a851840c91b934802e5d355d06e2b0aff393e3b28b",
+  "candidate": {
+    "board": "runs/radio-wake-reset-rework/phy-joint.kicad_pcb",
+    "sha256": "4974fe927d897d8ad079f0b63ee4a4bee17d9b57f5e971a42823796d9c2c52fc",
+    "via_uuid": "0a0c15a1-4bb1-496b-bac8-9638e9bdc6a3",
+    "replaced": [
+      "498c4098-0d3b-4b40-a1e1-b08ba057aad4"
+    ],
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 7033,
+      "explicitly_replaced_copper": {
+        "498c4098-0d3b-4b40-a1e1-b08ba057aad4": [
+          "PHY_RESET_N",
+          0,
+          70075000,
+          29375000,
+          66825000,
+          26125000,
+          200000,
+          null
+        ]
+      },
+      "added_tracks_vias": 43,
+      "existing_connected_pad_groups_preserved": 121
+    }
+  },
+  "trials": [
+    {
+      "via_nm": [
+        67975000,
+        27150000
+      ],
+      "replaced": [
+        "498c4098-0d3b-4b40-a1e1-b08ba057aad4"
+      ],
+      "recovery": {
+        "width": 200000,
+        "code": 61,
+        "length_mm": 4.962310601229368
+      },
+      "new_drc": [
+        {
+          "type": "via_dangling",
+          "severity": "warning",
+          "items": [
+            "0a0c15a1-4bb1-496b-bac8-9638e9bdc6a3"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "assembly_ready": false
+}

@@ -1,0 +1,51 @@
+{
+  "parent_sha256": "789116417fc6fc23feeb0832d79e4ad8df7c0acc3fdda94b65ed70ce0c2131e9",
+  "screen": {
+    "square": 13530,
+    "free": 13530,
+    "via": 10475
+  },
+  "candidate": {
+    "board": "runs/adopted-buck3-feedback-supply-relief/phy-joint.kicad_pcb",
+    "sha256": "f546b66c7ef853a5680579915757e1ba088673f8248602c8a4a12f490e6cf098",
+    "supply_width_mm": 0.7,
+    "old_squares": 6.833333333333333,
+    "new_squares": 6.7447433479423475,
+    "original_uuid": "1f07b4d2-4ab7-45d2-883e-97a44325b443",
+    "via_nm": [
+      60350000,
+      13250000
+    ],
+    "via_uuid": "5b05cc73-7256-43c6-810f-877628384c1e",
+    "new_drc": [
+      {
+        "type": "via_dangling",
+        "severity": "warning",
+        "items": [
+          "5b05cc73-7256-43c6-810f-877628384c1e"
+        ],
+        "count": 1
+      }
+    ],
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 6892,
+      "explicitly_replaced_copper": {
+        "1f07b4d2-4ab7-45d2-883e-97a44325b443": [
+          "+3V3_SYS",
+          10,
+          57300000,
+          13300000,
+          61400000,
+          13300000,
+          600000,
+          null
+        ]
+      },
+      "added_tracks_vias": 4,
+      "existing_connected_pad_groups_preserved": 120
+    }
+  },
+  "rejected": [],
+  "assembly_ready": false
+}

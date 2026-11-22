@@ -1,0 +1,31 @@
+{
+  "parent_sha256": "5c1e48da4724cafa2c15137cdad75218af37bb03b505c5669c7c685a38c1d700",
+  "candidate": {
+    "board": "runs/wifi_host_wake-service-launch/phy-joint.kicad_pcb",
+    "sha256": "217e571fe6431dfb32a395a851840c91b934802e5d355d06e2b0aff393e3b28b",
+    "via_uuid": "072d45d2-7ef6-4f97-966c-0f743140c914",
+    "via_nm": [
+      50650000,
+      22725000
+    ],
+    "length_mm": 1.8545941546018374,
+    "new_drc": [
+      {
+        "type": "via_dangling",
+        "severity": "warning",
+        "items": [
+          "072d45d2-7ef6-4f97-966c-0f743140c914"
+        ],
+        "count": 1
+      }
+    ],
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 7025,
+      "explicitly_replaced_copper": {},
+      "added_tracks_vias": 9,
+      "existing_connected_pad_groups_preserved": 121
+    }
+  },
+  "assembly_ready": false
+}

@@ -1,0 +1,44 @@
+{
+  "parent_sha256": "0bd09179938dae9ffeb71cfcee4ffd1c6a6bbcdb66b46e3ed278c726d4192ccc",
+  "board": "runs/phy-source-R508/phy-joint.kicad_pcb",
+  "sha256": "0bd09179938dae9ffeb71cfcee4ffd1c6a6bbcdb66b46e3ed278c726d4192ccc",
+  "records": [
+    {
+      "ref": "R509",
+      "net": "PHY_RXD2",
+      "geometric_options": 0,
+      "counts": {
+        "courtyard_clear": 438,
+        "pads_clear": 46,
+        "path_clear": 0,
+        "quiet": 0
+      },
+      "adopted": false
+    },
+    {
+      "ref": "R507",
+      "net": "PHY_RXD0",
+      "geometric_options": 0,
+      "counts": {
+        "courtyard_clear": 194,
+        "pads_clear": 0,
+        "path_clear": 0,
+        "quiet": 0
+      },
+      "adopted": false
+    },
+    {
+      "ref": "R511",
+      "net": "PHY_RXDV_CRS",
+      "geometric_options": 0,
+      "counts": {
+        "courtyard_clear": 282,
+        "pads_clear": 2,
+        "path_clear": 0,
+        "quiet": 0
+      },
+      "adopted": false
+    }
+  ],
+  "assembly_ready": false
+}

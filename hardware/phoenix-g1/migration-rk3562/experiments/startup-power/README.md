@@ -50,3 +50,11 @@ I²C/VSEL, distribuzione VDD_CPU al SoC, regolatore 3.3 V di sistema e distribuz
 altre alimentazioni, memoria, routing generale e qualifica SI/PI/termica.
 Il PCB resta 90×40 mm, target 85×35 non dimostrato. Nessun test fisico, ordine o nuovo componente.
 Disponibilità/prezzi non ri-verificati: non c'è una nuova selezione di componenti in questo passaggio.
+
+### Carico complessivo del convertitore CPU
+
+Sul [checkpoint CA1](../phy-power-parallel/layout-command-ca1.json), tre condensatori da 22 µF raggiungono sia L1001.2 sia la massa di U10.B4. La [verifica di tutti i condensatori](../phy-power-parallel/cpu-external-buck-cap-budget.json) trova **66 µF nominali collegati** e **224,8 µF nominali previsti a cablaggio completo**. Il conteggio comprende 88 µF presso il convertitore e 136,8 µF presso il SoC. C1020 appartiene alla compensazione del feedback ed è escluso dalla somma.
+
+La scheda di riferimento RK3562 Oomwoo, foglio 4, usa per VDD_CPU C1000 da 100 nF, C1001–C1003 da 1 µF e C1004–C1005 da 22 µF, pari a 47,1 µF nominali presso il SoC. Il foglio 16 usa una distribuzione di potenza diversa da Phoenix. Copiarne la popolazione sul nostro convertitore richiederebbe comunque una verifica del circuito completo. [Schema di riferimento](../../../reference/rk3562-oomwoo-reference.pdf)
+
+La capacità nominale popolata da Phoenix è 2,55 volte il limite superiore raccomandato, 88 µF. Per rientrare in quel valore per sola riduzione della capacità, i componenti dovrebbero fornire meno del 39,2% della somma nominale. I dieci condensatori da 22 µF sono Samsung CL21A226MOCLRNC. A 1,0 V la caratteristica tipica indica −7,61%, pari a 203,27 µF per i dieci componenti; a 1,5 V indica 185,84 µF complessivi. Samsung dichiara 25 °C, 120 Hz e stimolo di 0,5 V per questa caratteristica. Restano da valutare l’impedenza alla frequenza dell’anello, la distribuzione del rame e la risposta al gradino di carico. [Curva Samsung](https://product.samsungsem.com/mlcc/CL21A226MOCLRN.do) · [Calcolo per la distinta attuale](../phy-power-parallel/cpu-output-cap-bias.json) Il datasheet non fornisce una deroga per i condensatori lato SoC. Il confronto evidenzia un rischio di stabilità e avvio da risolvere prima della produzione. [RK860, pp. 5–6](../../../reference/RK860-0-C19188628.pdf)

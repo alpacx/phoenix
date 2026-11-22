@@ -1,0 +1,2774 @@
+{
+  "source_sha256": "4434879e3c5aba8f62a14b22c930fe42c80bdd23b63bbb90926d7abff49eb7c5",
+  "layer_count": 6,
+  "thickness_mm": 1.6,
+  "cases": [
+    {
+      "name": "current",
+      "board": "runs/emmc-bus-in-pad-current/phy-joint.kicad_pcb",
+      "sha256": "615a59a949a62cf4228258e0b66c7277d0846121039afecc12588d6dc36c8b82",
+      "drill_mm": 0.2,
+      "copper_land_mm": 0.45,
+      "annulus_mm": 0.125,
+      "via_projected_outside_original_land_mm": 0.1,
+      "aspect_ratio": 8.0,
+      "pins": {
+        "U8001.A4": {
+          "center_nm": [
+            36250000,
+            12250000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U8001.A5": {
+          "center_nm": [
+            36750000,
+            12250000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U8001.B2": {
+          "center_nm": [
+            35250000,
+            11750000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U8001.B3": {
+          "center_nm": [
+            35750000,
+            11750000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U8001.B4": {
+          "center_nm": [
+            36250000,
+            11750000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U8001.B5": {
+          "center_nm": [
+            36750000,
+            11750000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U8001.B6": {
+          "center_nm": [
+            37250000,
+            11750000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U8001.M5": {
+          "center_nm": [
+            36750000,
+            6750000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U8001.M6": {
+          "center_nm": [
+            37250000,
+            6750000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U8001.H5": {
+          "center_nm": [
+            36750000,
+            8750000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 0.43,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 0.43,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U1.J25": {
+          "center_nm": [
+            48500000,
+            17500000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U1.J26": {
+          "center_nm": [
+            49000000,
+            17500000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U1.H25": {
+          "center_nm": [
+            48500000,
+            17000000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U1.K27": {
+          "center_nm": [
+            49500000,
+            18000000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U1.K26": {
+          "center_nm": [
+            49000000,
+            18000000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.64,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.64,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U1.K25": {
+          "center_nm": [
+            48500000,
+            18000000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U1.H26": {
+          "center_nm": [
+            49000000,
+            17000000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U1.H27": {
+          "center_nm": [
+            49500000,
+            17000000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U1.M26": {
+          "center_nm": [
+            49000000,
+            19000000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U1.M25": {
+          "center_nm": [
+            48500000,
+            19000000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U1.L26": {
+          "center_nm": [
+            49000000,
+            18500000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        }
+      },
+      "gerber_flash_apertures": {
+        "phy-joint-F_Paste.gbr": {
+          "U8001.A4": [],
+          "U8001.A5": [],
+          "U8001.B2": [],
+          "U8001.B3": [],
+          "U8001.B4": [],
+          "U8001.B5": [],
+          "U8001.B6": [],
+          "U8001.M5": [],
+          "U8001.M6": [],
+          "U8001.H5": [],
+          "U1.J25": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.J26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.H25": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.K27": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.K26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.K25": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.H26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.H27": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.M26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.M25": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.L26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ]
+        },
+        "phy-joint-F_Mask.gbr": {
+          "U8001.A4": [],
+          "U8001.A5": [],
+          "U8001.B2": [],
+          "U8001.B3": [],
+          "U8001.B4": [],
+          "U8001.B5": [],
+          "U8001.B6": [],
+          "U8001.M5": [],
+          "U8001.M6": [],
+          "U8001.H5": [],
+          "U1.J25": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.J26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.H25": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.K27": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.K26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.K25": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.H26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.H27": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.M26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.M25": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.L26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ]
+        },
+        "phy-joint-B_Paste.gbr": {
+          "U8001.A4": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.A5": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B2": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B3": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B4": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B5": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B6": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.M5": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.M6": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.H5": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.J25": [],
+          "U1.J26": [],
+          "U1.H25": [],
+          "U1.K27": [],
+          "U1.K26": [],
+          "U1.K25": [],
+          "U1.H26": [],
+          "U1.H27": [],
+          "U1.M26": [],
+          "U1.M25": [],
+          "U1.L26": []
+        },
+        "phy-joint-B_Cu.gbr": {
+          "U8001.A4": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U8001.A5": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U8001.B2": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U8001.B3": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U8001.B4": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U8001.B5": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U8001.B6": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U8001.M5": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U8001.M6": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U8001.H5": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U1.J25": [
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U1.J26": [
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U1.H25": [
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U1.K27": [
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U1.K26": [
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U1.K25": [
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U1.H26": [
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U1.H27": [
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U1.M26": [
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U1.M25": [
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U1.L26": [
+            [
+              "C",
+              "0.450000"
+            ]
+          ]
+        },
+        "phy-joint-F_Cu.gbr": {
+          "U8001.A4": [
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U8001.A5": [
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U8001.B2": [
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U8001.B3": [
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U8001.B4": [
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U8001.B5": [
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U8001.B6": [
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U8001.M5": [
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U8001.M6": [
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U8001.H5": [
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U1.J25": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U1.J26": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U1.H25": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U1.K27": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U1.K26": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U1.K25": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U1.H26": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U1.H27": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U1.M26": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U1.M25": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "U1.L26": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.450000"
+            ]
+          ]
+        },
+        "phy-joint-B_Mask.gbr": {
+          "U8001.A4": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.A5": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B2": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B3": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B4": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B5": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B6": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.M5": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.M6": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.H5": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.J25": [],
+          "U1.J26": [],
+          "U1.H25": [],
+          "U1.K27": [],
+          "U1.K26": [],
+          "U1.K25": [],
+          "U1.H26": [],
+          "U1.H27": [],
+          "U1.M26": [],
+          "U1.M25": [],
+          "U1.L26": []
+        }
+      },
+      "regressions": {
+        "shorting_items": 44,
+        "clearance": 76,
+        "hole_clearance": 7,
+        "solder_mask_bridge": 5,
+        "via_dangling": 2
+      }
+    },
+    {
+      "name": "supplier-example",
+      "board": "runs/emmc-bus-in-pad-supplier-example/phy-joint.kicad_pcb",
+      "sha256": "1ee0bb03023a80ba6bc458b42e38e663a6c9286f314861cdedb576d8dfc2d6d2",
+      "drill_mm": 0.15,
+      "copper_land_mm": 0.25,
+      "annulus_mm": 0.05,
+      "via_projected_outside_original_land_mm": 0.0,
+      "aspect_ratio": 10.67,
+      "pins": {
+        "U8001.A4": {
+          "center_nm": [
+            36250000,
+            12250000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U8001.A5": {
+          "center_nm": [
+            36750000,
+            12250000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U8001.B2": {
+          "center_nm": [
+            35250000,
+            11750000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U8001.B3": {
+          "center_nm": [
+            35750000,
+            11750000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U8001.B4": {
+          "center_nm": [
+            36250000,
+            11750000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U8001.B5": {
+          "center_nm": [
+            36750000,
+            11750000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U8001.B6": {
+          "center_nm": [
+            37250000,
+            11750000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U8001.M5": {
+          "center_nm": [
+            36750000,
+            6750000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U8001.M6": {
+          "center_nm": [
+            37250000,
+            6750000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U8001.H5": {
+          "center_nm": [
+            36750000,
+            8750000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 0.33,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 0.33,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U1.J25": {
+          "center_nm": [
+            48500000,
+            17500000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U1.J26": {
+          "center_nm": [
+            49000000,
+            17500000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U1.H25": {
+          "center_nm": [
+            48500000,
+            17000000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U1.K27": {
+          "center_nm": [
+            49500000,
+            18000000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U1.K26": {
+          "center_nm": [
+            49000000,
+            18000000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.48,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.48,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U1.K25": {
+          "center_nm": [
+            48500000,
+            18000000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U1.H26": {
+          "center_nm": [
+            49000000,
+            17000000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U1.H27": {
+          "center_nm": [
+            49500000,
+            17000000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U1.M26": {
+          "center_nm": [
+            49000000,
+            19000000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U1.M25": {
+          "center_nm": [
+            48500000,
+            19000000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "U1.L26": {
+          "center_nm": [
+            49000000,
+            18500000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        }
+      },
+      "gerber_flash_apertures": {
+        "phy-joint-F_Paste.gbr": {
+          "U8001.A4": [],
+          "U8001.A5": [],
+          "U8001.B2": [],
+          "U8001.B3": [],
+          "U8001.B4": [],
+          "U8001.B5": [],
+          "U8001.B6": [],
+          "U8001.M5": [],
+          "U8001.M6": [],
+          "U8001.H5": [],
+          "U1.J25": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.J26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.H25": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.K27": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.K26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.K25": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.H26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.H27": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.M26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.M25": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.L26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ]
+        },
+        "phy-joint-F_Mask.gbr": {
+          "U8001.A4": [],
+          "U8001.A5": [],
+          "U8001.B2": [],
+          "U8001.B3": [],
+          "U8001.B4": [],
+          "U8001.B5": [],
+          "U8001.B6": [],
+          "U8001.M5": [],
+          "U8001.M6": [],
+          "U8001.H5": [],
+          "U1.J25": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.J26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.H25": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.K27": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.K26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.K25": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.H26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.H27": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.M26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.M25": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.L26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ]
+        },
+        "phy-joint-B_Paste.gbr": {
+          "U8001.A4": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.A5": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B2": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B3": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B4": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B5": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B6": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.M5": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.M6": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.H5": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.J25": [],
+          "U1.J26": [],
+          "U1.H25": [],
+          "U1.K27": [],
+          "U1.K26": [],
+          "U1.K25": [],
+          "U1.H26": [],
+          "U1.H27": [],
+          "U1.M26": [],
+          "U1.M25": [],
+          "U1.L26": []
+        },
+        "phy-joint-B_Cu.gbr": {
+          "U8001.A4": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.A5": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B2": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B3": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B4": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B5": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B6": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.M5": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.M6": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.H5": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.J25": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.J26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.H25": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.K27": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.K26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.K25": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.H26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.H27": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.M26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.M25": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.L26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ]
+        },
+        "phy-joint-F_Cu.gbr": {
+          "U8001.A4": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.A5": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B2": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B3": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B4": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B5": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B6": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.M5": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.M6": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.H5": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.J25": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.J26": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.H25": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.K27": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.K26": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.K25": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.H26": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.H27": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.M26": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.M25": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.L26": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.250000"
+            ]
+          ]
+        },
+        "phy-joint-B_Mask.gbr": {
+          "U8001.A4": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.A5": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B2": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B3": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B4": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B5": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.B6": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.M5": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.M6": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U8001.H5": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "U1.J25": [],
+          "U1.J26": [],
+          "U1.H25": [],
+          "U1.K27": [],
+          "U1.K26": [],
+          "U1.K25": [],
+          "U1.H26": [],
+          "U1.H27": [],
+          "U1.M26": [],
+          "U1.M25": [],
+          "U1.L26": []
+        }
+      },
+      "regressions": {
+        "annular_width": 21,
+        "shorting_items": 26,
+        "clearance": 64,
+        "hole_clearance": 7,
+        "drill_out_of_range": 21,
+        "via_diameter": 21,
+        "solder_mask_bridge": 2,
+        "via_dangling": 5
+      }
+    }
+  ],
+  "sources": [
+    "https://jlcpcb.com/help/article/bga-design-guidelines---pcb-layout-recommendations-for-bga-packages",
+    "https://jlcpcb.com/help/article/via-in-pad-pofv-guide"
+  ],
+  "notes": [
+    "JLCPCB shows a 0.25/0.15 mm filled example for 0.5 mm pitch and separately advises at least 0.35 mm land where possible. Applicability to the actual 1.6 mm six-layer stack, drill registration, retained annulus and cost are unconfirmed. Standard 6-layer POFV alone does not confirm this geometry.",
+    "Plane radii are sampled every 0.01 mm in 16 directions; 1.01 means no GND encountered within 1 mm.",
+    "No project design rule was changed. No trial is adopted. No DFM approval, electrical/thermal simulation, or physical sample."
+  ],
+  "adopted": false
+}

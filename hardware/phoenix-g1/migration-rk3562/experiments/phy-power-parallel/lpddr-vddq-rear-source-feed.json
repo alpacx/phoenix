@@ -1,0 +1,66 @@
+{
+  "board": "runs/vdd1-external-pair-trunk-L405.2-U2.F1/phy-joint.kicad_pcb",
+  "sha256": "fc771ab152629ebdb639a64d6bbc077e2fb9a5fbdead1d85e67fb77d9a8a7d29",
+  "parent_sha256": "fc771ab152629ebdb639a64d6bbc077e2fb9a5fbdead1d85e67fb77d9a8a7d29",
+  "records": [],
+  "held": [
+    {
+      "blocked": "source frontier exhausted",
+      "reachable_by_layer": [
+        36181,
+        51275,
+        46178,
+        46304
+      ],
+      "goal_positions": 1048,
+      "bridge_probes": 74286,
+      "via_probes": 66837
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "groups": [
+        [
+          "L403.2"
+        ],
+        [
+          "C1646.1",
+          "C1647.1",
+          "C1648.1",
+          "C1649.1",
+          "C1650.1",
+          "C1651.1",
+          "C1652.1",
+          "C1653.1",
+          "C1654.1",
+          "C1655.1",
+          "C1656.1",
+          "C1657.1",
+          "C1658.1",
+          "C1659.1",
+          "C1660.1",
+          "C1661.1",
+          "C1662.1",
+          "C1663.1",
+          "C1664.1",
+          "C1665.1",
+          "C1666.1",
+          "C1667.1",
+          "C1668.1",
+          "C1669.1",
+          "C1670.1",
+          "C1671.1",
+          "C1672.1",
+          "C1673.1",
+          "C1674.1",
+          "C1675.1",
+          "C1676.1",
+          "C1677.1",
+          "C1678.1",
+          "TP7.1",
+          "U2.AB4"
+        ]
+      ]
+    }
+  ],
+  "assembly_ready": false
+}

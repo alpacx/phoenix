@@ -1,0 +1,49 @@
+{
+  "parent_sha256": "1fb44f12992b5adfc103274d635402048b3b50cbec9567d74e174beb5e5d7f7f",
+  "board": "runs/bga-referenced-barrel/phy-joint.kicad_pcb",
+  "sha256": "55f587d0379a6647e4e4dfbc6dd6cd42ce880906af779b3d9b14b653816e5578",
+  "moved": [
+    {
+      "pad": "U1.B27",
+      "uuid": "f89b2666-064d-48b3-821d-7c0439b8420c",
+      "via_site_nm": [
+        50000000,
+        14000000
+      ],
+      "tail_start_nm": [
+        49649999,
+        14000000
+      ]
+    }
+  ],
+  "returns": {
+    "f89b2666-064d-48b3-821d-7c0439b8420c": {
+      "via_uuid": "193cc953-cec0-43fa-96f0-6c1f36073d21",
+      "center_nm": [
+        50100000,
+        13350000
+      ],
+      "distance_mm": 0.6576473218982952
+    }
+  },
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 7321,
+    "explicitly_replaced_copper": {
+      "f89b2666-064d-48b3-821d-7c0439b8420c": [
+        "LPDDR4_DQ10_B",
+        0,
+        49649999,
+        14000000,
+        49649999,
+        14000000,
+        450000,
+        200000
+      ]
+    },
+    "added_tracks_vias": 2,
+    "existing_connected_pad_groups_preserved": 121
+  },
+  "new_drc": [],
+  "adopted": false
+}

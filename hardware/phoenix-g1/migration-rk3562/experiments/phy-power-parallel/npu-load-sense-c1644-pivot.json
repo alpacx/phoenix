@@ -1,0 +1,36 @@
+{
+  "parent_sha256": "7623e79a6838934df7f6d441cf01ec91127591fe4a32247673c4e6f30816fe7a",
+  "RC_slot": {
+    "R424": [
+      [
+        39220000,
+        20300000
+      ],
+      180
+    ],
+    "C454": [
+      [
+        38420000,
+        21700000
+      ],
+      180
+    ]
+  },
+  "slot_clear_if_C1644_absent": false,
+  "RC_fixed_copper_blockers": {
+    "R424.1": [],
+    "R424.2": [],
+    "C454.1": [],
+    "C454.2": [
+      "GND 025907b9-18a3-4722-974c-06d2a42151bf"
+    ],
+    "load-to-R": [],
+    "R-C rail": [],
+    "R-C sense": [
+      "GND 28cca0d2-f87b-4f47-9461-a9a6bef93504",
+      "GND 025907b9-18a3-4722-974c-06d2a42151bf"
+    ]
+  },
+  "original_analog_pad_to_ball_mm": 0.9350935782048767,
+  "pivots": []
+}

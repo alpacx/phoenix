@@ -1,0 +1,104 @@
+{
+  "parent_sha256": "db84d12e36a96084efe16e5372fd6e522467ecf3c4163b05e52add5287399dc9",
+  "pin": "U6.12",
+  "width_mm": 0.2,
+  "grid_mm": 0.025,
+  "via_mm": [
+    0.45,
+    0.2
+  ],
+  "ground_relief": false,
+  "ground_via_relief": false,
+  "existing_tracks_and_vias_included": true,
+  "single_obstacle_candidates": [],
+  "reachable_positions": 207,
+  "farthest_mm": 0.5814851674806504,
+  "sites": [],
+  "via_obstacles": [
+    {
+      "names": [
+        "AON_READY",
+        "U6.11"
+      ],
+      "positions": 2
+    },
+    {
+      "names": [
+        "AON_READY",
+        "source pad"
+      ],
+      "positions": 1
+    },
+    {
+      "names": [
+        "AON_READY",
+        "U6.11",
+        "source pad"
+      ],
+      "positions": 19
+    },
+    {
+      "names": [
+        "U6.11",
+        "U6.13",
+        "source pad"
+      ],
+      "positions": 8
+    },
+    {
+      "names": [
+        "AON_READY",
+        "U6.13",
+        "source pad"
+      ],
+      "positions": 8
+    },
+    {
+      "names": [
+        "AON_READY",
+        "GND",
+        "U6.13"
+      ],
+      "positions": 6
+    },
+    {
+      "names": [
+        "GND",
+        "U6.11",
+        "U6.13",
+        "source pad"
+      ],
+      "positions": 127
+    },
+    {
+      "names": [
+        "AON_READY",
+        "U6.11",
+        "U6.13",
+        "source pad"
+      ],
+      "positions": 13
+    },
+    {
+      "names": [
+        "AON_READY",
+        "GND",
+        "U6.13",
+        "source pad"
+      ],
+      "positions": 10
+    },
+    {
+      "names": [
+        "GND",
+        "U6.11",
+        "U6.13",
+        "U6.31",
+        "source pad"
+      ],
+      "positions": 13
+    }
+  ],
+  "assembly_ready": false,
+  "source_sha256": "db84d12e36a96084efe16e5372fd6e522467ecf3c4163b05e52add5287399dc9"
+}

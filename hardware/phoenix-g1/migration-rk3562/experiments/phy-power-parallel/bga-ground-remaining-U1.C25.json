@@ -1,0 +1,73 @@
+{
+  "parent_sha256": "a0074798640d4aa3eca2058eb27623ae779d1f97e4b3ce803f878d0acd383aea",
+  "surface": "F.Cu",
+  "pin": "U1.C25",
+  "width_mm": 0.2,
+  "grid_mm": 0.025,
+  "via_mm": [
+    0.45,
+    0.2
+  ],
+  "ground_relief": false,
+  "ground_via_relief": false,
+  "existing_tracks_and_vias_included": true,
+  "single_obstacle_candidates": [],
+  "reachable_positions": 112,
+  "farthest_mm": 0.5255949010407159,
+  "sites": [],
+  "via_obstacles": [
+    {
+      "names": [
+        "LPDDR4_DQ0_B",
+        "LPDDR4_DQ13_B"
+      ],
+      "positions": 10
+    },
+    {
+      "names": [
+        "LPDDR4_DQ0_B",
+        "LPDDR4_DQ13_B",
+        "source pad"
+      ],
+      "positions": 72
+    },
+    {
+      "names": [
+        "LPDDR4_DQ0_B",
+        "LPDDR4_DQ13_B",
+        "U1.D26"
+      ],
+      "positions": 2
+    },
+    {
+      "names": [
+        "LPDDR4_DQ0_B",
+        "LPDDR4_DQ13_B",
+        "U1.B25",
+        "source pad"
+      ],
+      "positions": 12
+    },
+    {
+      "names": [
+        "LPDDR4_DQ0_B",
+        "LPDDR4_DQ13_B",
+        "U1.C26",
+        "source pad"
+      ],
+      "positions": 12
+    },
+    {
+      "names": [
+        "LPDDR4_DQ0_B",
+        "LPDDR4_DQ13_B",
+        "U1.B25",
+        "U1.C26",
+        "source pad"
+      ],
+      "positions": 4
+    }
+  ],
+  "assembly_ready": false,
+  "source_sha256": "a0074798640d4aa3eca2058eb27623ae779d1f97e4b3ce803f878d0acd383aea"
+}

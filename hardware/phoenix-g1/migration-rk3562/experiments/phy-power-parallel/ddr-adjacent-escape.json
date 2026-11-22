@@ -1,0 +1,70 @@
+{
+  "source_sha256": "9f4bdc1783542467156a3fb53695942b28156e85bf71882f0464a19d7b63e2c2",
+  "sha256": "77f528640a55817eaf44b6351977af8dc9a94fdc716104355290fbb8fc0b4bca",
+  "board": "runs/ddr-adjacent-escape/phy-joint.kicad_pcb",
+  "is_experiment": true,
+  "adopted": false,
+  "ends": [
+    {
+      "net": "LPDDR4_DQ14_A",
+      "via_nm": [
+        [
+          37800000,
+          13075000
+        ],
+        [
+          31600000,
+          3800000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ12_A",
+      "via_nm": [
+        [
+          38675000,
+          12975000
+        ],
+        [
+          31600000,
+          5750000
+        ]
+      ]
+    }
+  ],
+  "before_counts": {
+    "via_dangling": 123
+  },
+  "after_counts": {
+    "hole_clearance": 21,
+    "via_dangling": 124
+  },
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 6634,
+    "explicitly_replaced_copper": {
+      "66b8b933-35aa-4972-b9c5-30928affb3bf": [
+        "LPDDR4_DQ12_A",
+        0,
+        37950000,
+        13300000,
+        37950000,
+        13300000,
+        450000,
+        200000
+      ],
+      "de855889-1a64-417b-8a06-a42f7ee2fa94": [
+        "LPDDR4_DQ12_A",
+        0,
+        38000000,
+        13500000,
+        37950000,
+        13300000,
+        76200,
+        null
+      ]
+    },
+    "added_tracks_vias": 10,
+    "existing_connected_pad_groups_preserved": 108
+  }
+}

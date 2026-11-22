@@ -2,15 +2,17 @@
 from pathlib import Path
 import hashlib,json,math,os,shutil,subprocess
 import pcbnew as p
+from pcb_bounds import inflated_box
 from pcb_preservation import verify_preservation
 from drc_regression import introduced
 from audit_mount_component_reservations import screen
 root=Path(__file__).resolve().parents[1]/'migration-rk3562/experiments/phy-power-parallel'
 import sys
-vddi='--vddi' in sys.argv
+current='--current-vddi' in sys.argv
+vddi='--vddi' in sys.argv or current
 ref='C8001' if vddi else 'C8003'
 same='--same-face' in sys.argv
-cp=json.loads((root/('layout-regulator-banks.json' if vddi else 'emmc-local-bypass.json' if same else 'storage-ground.json')).read_text());source=root/cp['board']
+cp=json.loads((root/('layout-cpu-load-sense.json' if current else 'layout-regulator-banks.json' if vddi else 'emmc-local-bypass.json' if same else 'storage-ground.json')).read_text());source=root/cp['board']
 assert hashlib.sha256(source.read_bytes()).hexdigest()==cp['sha256']
 b=p.LoadBoard(str(source));baseline=p.LoadBoard(str(source));b.BuildConnectivity();cap=b.FindFootprintByReference(ref);memory=b.FindFootprintByReference('U8001')
 assert len(list(b.GetConnectivity().GetConnectedItems(cap.FindPadByNumber('1'))))==1
@@ -32,12 +34,12 @@ rail=cap.FindPadByNumber('1');gnd=cap.FindPadByNumber('2')
 layers=[p.F_Cu,p.In1_Cu,p.In2_Cu,p.In3_Cu,p.In4_Cu,p.B_Cu]
 anchor=memory.FindPadByNumber('C2' if vddi else 'P5').GetPosition()
 others=[f for f in b.GetFootprints() if f.GetReference()!=ref]
-near=lambda k:k.GetBoundingBox().Inflate(7000000).Contains(anchor)
+near=lambda k:inflated_box(k,7000000).Contains(anchor)
 pads=[k for f in others for k in f.Pads() if near(k)]
 objects=pads+[k for k in b.GetTracks() if near(k)]
 boxes=[f.GetCourtyard(face).BBox() for f in others if f.GetLayer()==face and f.GetCourtyard(face).BBox().Inflate(7000000).Contains(anchor)]
 shapes={l:[(k.GetNetCode(),k.GetEffectiveShape(l)) for k in objects if k.IsOnLayer(l)] for l in layers}
-pad_keep=[q.GetBoundingBox().Inflate(351000) for q in pads]
+pad_keep=[inflated_box(q,351000) for q in pads]
 def free(k,l):
     shape=k.GetEffectiveShape(l);return all(n==k.GetNetCode() or not shape.Collide(s,200000) for n,s in shapes[l])
 def via(site,net):
@@ -63,7 +65,7 @@ for num in (('C2',) if vddi else ('P5','P3')):
                 positions+=1
                 for jx,jy in ((8,0),(-8,0),(0,8),(0,-8),(7,5),(7,-5),(-7,5),(-7,-5),(5,7),(-5,7),(5,-7),(-5,-7)):
                     gs=gnd.GetPosition()+offset(jx,jy);gv=via(gs,gnd.GetNetCode());gt=trace(gnd.GetPosition(),gs,face,gnd.GetNetCode())
-                    if any(q.GetBoundingBox().Inflate(351000).Contains(gs) for q in (rail,gnd)) or not clear_via(gv) or not free(gt,face):continue
+                    if any(inflated_box(q,351000).Contains(gs) for q in (rail,gnd)) or not clear_via(gv) or not free(gt,face):continue
                     if any(k.GetEffectiveShape(face).Collide(other.GetEffectiveShape(face),200000) for k in (gv,gt) for other in (rail,spur)):continue
                     feasible.append((spur.GetLength()+gt.GetLength(),num,angle,tuple(cap.GetPosition()),tuple(site),tuple(gs)))
         continue
@@ -78,18 +80,18 @@ for num in (('C2',) if vddi else ('P5','P3')):
           for ix,iy in ((8,0),(-8,0),(0,8),(0,-8),(7,5),(7,-5),(-7,5),(-7,-5),(5,7),(-5,7),(5,-7),(-5,-7)):
             cap.Move(site+offset(ix,iy)-rail.GetPosition())
             if any(cap.GetCourtyard(p.F_Cu).BBox().Intersects(box) for box in boxes):continue
-            if any(q.GetBoundingBox().Inflate(351000).Contains(site) for q in (rail,gnd)):continue
+            if any(inflated_box(q,351000).Contains(site) for q in (rail,gnd)):continue
             top=trace(site,rail.GetPosition(),p.F_Cu,rail.GetNetCode())
             if not all(free(k,p.F_Cu) for k in (rail,gnd,top)):continue
             if top.GetEffectiveShape(p.F_Cu).Collide(gnd.GetEffectiveShape(p.F_Cu),200000):continue
             positions+=1
             for jx,jy in ((8,0),(-8,0),(0,8),(0,-8),(7,5),(7,-5),(-7,5),(-7,-5),(5,7),(-5,7),(5,-7),(-5,-7)):
                 gs=gnd.GetPosition()+offset(jx,jy);gv=via(gs,gnd.GetNetCode());gt=trace(gnd.GetPosition(),gs,p.F_Cu,gnd.GetNetCode())
-                if any(q.GetBoundingBox().Inflate(351000).Contains(gs) for q in (rail,gnd)) or math.dist(tuple(gs),tuple(site))<810000:continue
+                if any(inflated_box(q,351000).Contains(gs) for q in (rail,gnd)) or math.dist(tuple(gs),tuple(site))<810000:continue
                 if not clear_via(gv) or not free(gt,p.F_Cu):continue
                 if any(k.GetEffectiveShape(p.F_Cu).Collide(other.GetEffectiveShape(p.F_Cu),200000) for k in (gt,gv) for other in (rail,top,v)):continue
                 feasible.append((spur.GetLength()+top.GetLength()+gt.GetLength(),num,angle,tuple(cap.GetPosition()),tuple(site),tuple(gs)))
-folder=root/('runs/emmc-vddi-same' if vddi and same else 'runs/emmc-vddi-opposite' if vddi else 'runs/emmc-vccq-ball-cap' if same else 'runs/emmc-vccq-local-bypass');folder.mkdir(exist_ok=True)
+folder=root/('runs/emmc-current-vddi-same' if current and same else 'runs/emmc-current-vddi-opposite' if current else 'runs/emmc-vddi-same' if vddi and same else 'runs/emmc-vddi-opposite' if vddi else 'runs/emmc-vccq-ball-cap' if same else 'runs/emmc-vccq-local-bypass');folder.mkdir(exist_ok=True)
 for name in ('phy-joint.kicad_pro','phy-joint.kicad_dru','fp-lib-table'):shutil.copy2(source.parent/name,folder/name)
 for _,num,angle,center,site,gs in sorted(feasible)[:12]:
     cap.SetOrientationDegrees(angle);cap.SetPosition(p.VECTOR2I(*center));s=p.VECTOR2I(*site);g=p.VECTOR2I(*gs)
@@ -106,5 +108,5 @@ for _,num,angle,center,site,gs in sorted(feasible)[:12]:
         record=dict(pair=[ref+'.1','U8001.'+num],center_nm=center,vccq_via_nm=None if same else site,ground_via_nm=gs,preservation=pres);break
     for item in items:b.Remove(item)
 if not record:out=source
-(root/('emmc-vddi-same.json' if vddi and same else 'emmc-vddi-opposite.json' if vddi else 'emmc-ball-cap.json' if same else 'emmc-local-bypass.json')).write_text(json.dumps(dict(board=str(out.relative_to(root)),sha256=hashlib.sha256(out.read_bytes()).hexdigest(),change=record,clear_ball_via_sites=sites,clear_surface_positions=positions,testable_geometries=len(feasible),assembly_ready=False),indent=2)+'\n')
+(root/('emmc-current-vddi-same.json' if current and same else 'emmc-current-vddi-opposite.json' if current else 'emmc-vddi-same.json' if vddi and same else 'emmc-vddi-opposite.json' if vddi else 'emmc-ball-cap.json' if same else 'emmc-local-bypass.json')).write_text(json.dumps(dict(board=str(out.relative_to(root)),sha256=hashlib.sha256(out.read_bytes()).hexdigest(),change=record,clear_ball_via_sites=sites,clear_surface_positions=positions,testable_geometries=len(feasible),assembly_ready=False),indent=2)+'\n')
 print(sites,positions,len(feasible),bool(record),flush=True);os._exit(0)

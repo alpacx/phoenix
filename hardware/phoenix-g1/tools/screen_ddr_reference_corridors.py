@@ -2,6 +2,7 @@
 from pathlib import Path
 import argparse,hashlib,json,math,os
 import pcbnew as p
+from pcb_bounds import inflated_box
 root=Path(__file__).resolve().parents[1]/'migration-rk3562/experiments/phy-power-parallel'
 parser=argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--checkpoint', default='layout-opposite-bypass.json')
@@ -37,7 +38,7 @@ for name in sorted(n for n in cp['open_nets'] if n.startswith('LPDDR4_')):
                 t=p.PCB_TRACK(b);t.SetStart(start);t.SetEnd(end);t.SetWidth(200000);t.SetLayer(layer);segs.append(t)
             blockers=set();uncovered=0;covered=0
             for t in segs:
-                near=t.GetBoundingBox().Inflate(200000)
+                near=inflated_box(t,200000)
                 shape=t.GetEffectiveShape(layer)
                 for other in obs:
                     if other.GetNetname()==name or not other.IsOnLayer(layer) or not near.Intersects(other.GetBoundingBox()):continue

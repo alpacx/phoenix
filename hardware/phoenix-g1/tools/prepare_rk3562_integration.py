@@ -2,6 +2,7 @@
 """Reuse support circuits in an explicitly incomplete migration hierarchy."""
 from pathlib import Path
 import json,shutil,hashlib
+from hanrun_pad_stagger import apply as apply_hanrun_pattern, filename as hanrun_footprint
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'migration-rk3562'
 overlays=list((OUT/'overrides/footprints').glob('*.pretty/*.kicad_mod'))
 if overlays:
@@ -25,6 +26,7 @@ for override in overlays:
  target=OUT/'kicad'/override.parent.name/override.name
  target.parent.mkdir(parents=True,exist_ok=True)
  shutil.copy2(override,target)
+apply_hanrun_pattern(OUT/'kicad/Phoenix_Reviewed.pretty'/hanrun_footprint)
 # Candidate library remains explicitly separate from qualified footprints.
 fp_table=OUT/'kicad/fp-lib-table'
 t=fp_table.read_text().rstrip()

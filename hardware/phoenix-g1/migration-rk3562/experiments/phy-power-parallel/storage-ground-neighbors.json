@@ -1,0 +1,37 @@
+{
+  "parent_sha256": "1c37dfb1f067266d16b67276d70fbe3f07db920d63ba96d032587e244f3c4618",
+  "board": "runs/storage-ground-neighbors/phy-joint.kicad_pcb",
+  "sha256": "1c37dfb1f067266d16b67276d70fbe3f07db920d63ba96d032587e244f3c4618",
+  "accepted": [],
+  "rejected": [
+    [
+      "N5",
+      "P4"
+    ],
+    [
+      "N5",
+      "P6"
+    ],
+    [
+      "N2",
+      "P4"
+    ],
+    [
+      "A6",
+      "C4"
+    ],
+    [
+      "N2",
+      "N5"
+    ]
+  ],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 6925,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 0,
+    "existing_connected_pad_groups_preserved": 121
+  },
+  "new_drc": [],
+  "assembly_ready": false
+}

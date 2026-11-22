@@ -1,0 +1,50 @@
+{
+  "candidate": {
+    "board": "runs/rotated-left-sda-launch-0/phy-joint.kicad_pcb",
+    "sha256": "acf6413c517c798b2f4c5a4c854ce08d0ce9d01b6992839d9da1f0b888b049f4",
+    "parent_sha256": "5e1f23b4dad7a5e08a1a3f34877fbfa584e170c2f227c1d93bb68506f117fd19",
+    "via_id": "b540e427-99c2-4457-8ab3-b45d8b10dc44",
+    "via_nm": [
+      60500000,
+      1050000
+    ],
+    "pin": "U4.2",
+    "length_mm": 5.212741699796945,
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 6660,
+      "explicitly_replaced_copper": {},
+      "added_tracks_vias": 17,
+      "existing_connected_pad_groups_preserved": 119
+    },
+    "new_drc": [
+      {
+        "type": "via_dangling",
+        "severity": "warning",
+        "items": [
+          "b540e427-99c2-4457-8ab3-b45d8b10dc44"
+        ],
+        "count": 1
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "site": [
+        60500000,
+        1050000
+      ],
+      "new_drc": [
+        {
+          "type": "via_dangling",
+          "severity": "warning",
+          "items": [
+            "b540e427-99c2-4457-8ab3-b45d8b10dc44"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "assembly_ready": false
+}

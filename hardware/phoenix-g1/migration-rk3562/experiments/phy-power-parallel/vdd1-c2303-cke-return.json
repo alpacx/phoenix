@@ -1,0 +1,36 @@
+{
+  "parent_sha256": "e173a225f47ca075d5fbf9a15119144b01069442a9f6f7ef7396cec04df75f19",
+  "sha256": "e173a225f47ca075d5fbf9a15119144b01069442a9f6f7ef7396cec04df75f19",
+  "board": "runs/vdd1-c2303-cke-return/phy-joint.kicad_pcb",
+  "terminal_results": [
+    {
+      "signal_via": "6dd809ab-eff2-41de-9c53-84164f8e5082",
+      "signal_center_nm": [
+        [
+          28400000,
+          7699999
+        ]
+      ],
+      "signals": [
+        "LPDDR4_CKE0_A"
+      ],
+      "previous_distances_mm": [
+        1.5576915612537034
+      ],
+      "previous_nearest_ground_mm": 1.5576915612537034,
+      "candidates": {},
+      "accepted": null,
+      "rejected": []
+    }
+  ],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 7134,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 0,
+    "existing_connected_pad_groups_preserved": 121
+  },
+  "new_drc": [],
+  "verified_pairs": [],
+  "assembly_ready": false
+}

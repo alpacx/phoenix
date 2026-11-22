@@ -1,0 +1,178 @@
+{
+  "parent_sha256": "09d24d42b7aef3d148d764b143837d4df2cb68f422a9c83d0ee499b6140f549b",
+  "variant": 0,
+  "trials": [
+    {
+      "net": "USB_CC2",
+      "visited": 58,
+      "found": false,
+      "nearest_via_conflicts": [
+        {
+          "blockers": [
+            [
+              "USB_DP",
+              "67e35587-40c0-4da8-9df2-121ccd638019"
+            ],
+            [
+              "VBUS_RAW",
+              "7934d715-92b5-46e7-b3c1-8f6f658e23cb"
+            ],
+            [
+              "VBUS_RAW",
+              "c8c26003-9970-4491-a347-0b7b5d5de7f3"
+            ],
+            [
+              "VBUS_RAW",
+              "e51d1f4a-4548-40b6-92db-7e493e9f487c"
+            ]
+          ],
+          "position_nm": [
+            6950000,
+            20750000
+          ]
+        },
+        {
+          "blockers": [
+            [
+              "",
+              "pad A8"
+            ],
+            [
+              "USB_DM",
+              "pad A7"
+            ],
+            [
+              "USB_DP",
+              "67e35587-40c0-4da8-9df2-121ccd638019"
+            ],
+            [
+              "VBUS_RAW",
+              "c8c26003-9970-4491-a347-0b7b5d5de7f3"
+            ]
+          ],
+          "position_nm": [
+            7250000,
+            20750000
+          ]
+        },
+        {
+          "blockers": [
+            [
+              "USB_DP",
+              "67e35587-40c0-4da8-9df2-121ccd638019"
+            ],
+            [
+              "USB_DP",
+              "c939e275-5278-49d0-9646-40a17dfad514"
+            ],
+            [
+              "VBUS_RAW",
+              "7934d715-92b5-46e7-b3c1-8f6f658e23cb"
+            ],
+            [
+              "VBUS_RAW",
+              "c8c26003-9970-4491-a347-0b7b5d5de7f3"
+            ],
+            [
+              "VBUS_RAW",
+              "e51d1f4a-4548-40b6-92db-7e493e9f487c"
+            ]
+          ],
+          "position_nm": [
+            6950000,
+            20700000
+          ]
+        },
+        {
+          "blockers": [
+            [
+              "",
+              "pad A8"
+            ],
+            [
+              "USB_DP",
+              "67e35587-40c0-4da8-9df2-121ccd638019"
+            ],
+            [
+              "VBUS_RAW",
+              "7934d715-92b5-46e7-b3c1-8f6f658e23cb"
+            ],
+            [
+              "VBUS_RAW",
+              "c8c26003-9970-4491-a347-0b7b5d5de7f3"
+            ],
+            [
+              "VBUS_RAW",
+              "e51d1f4a-4548-40b6-92db-7e493e9f487c"
+            ]
+          ],
+          "position_nm": [
+            7200000,
+            20850000
+          ]
+        },
+        {
+          "blockers": [
+            [
+              "",
+              "pad A8"
+            ],
+            [
+              "USB_DM",
+              "pad A7"
+            ],
+            [
+              "VBUS_RAW",
+              "7934d715-92b5-46e7-b3c1-8f6f658e23cb"
+            ],
+            [
+              "VBUS_RAW",
+              "c8c26003-9970-4491-a347-0b7b5d5de7f3"
+            ],
+            [
+              "VBUS_RAW",
+              "e51d1f4a-4548-40b6-92db-7e493e9f487c"
+            ]
+          ],
+          "position_nm": [
+            7250000,
+            20850000
+          ]
+        },
+        {
+          "blockers": [
+            [
+              "",
+              "pad A8"
+            ],
+            [
+              "USB_DM",
+              "pad A7"
+            ],
+            [
+              "USB_DP",
+              "67e35587-40c0-4da8-9df2-121ccd638019"
+            ],
+            [
+              "VBUS_RAW",
+              "7934d715-92b5-46e7-b3c1-8f6f658e23cb"
+            ],
+            [
+              "VBUS_RAW",
+              "c8c26003-9970-4491-a347-0b7b5d5de7f3"
+            ],
+            [
+              "VBUS_RAW",
+              "e51d1f4a-4548-40b6-92db-7e493e9f487c"
+            ]
+          ],
+          "position_nm": [
+            7200000,
+            20750000
+          ]
+        }
+      ]
+    }
+  ],
+  "adopted": false
+}

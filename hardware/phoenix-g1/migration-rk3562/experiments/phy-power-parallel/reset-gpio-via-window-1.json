@@ -1,0 +1,210 @@
+{
+  "parent_sha256": "485250f88c118e4fe90b14bc6c74a9aa362d9b53ab7980554002064fa633df1a",
+  "pin": "U1.L3",
+  "width_mm": 0.0762,
+  "grid_mm": 0.025,
+  "via_mm": [
+    0.45,
+    0.2
+  ],
+  "ground_relief": false,
+  "ground_via_relief": false,
+  "existing_tracks_and_vias_included": true,
+  "single_obstacle_candidates": [],
+  "reachable_positions": 502,
+  "farthest_mm": 0.8488963423174823,
+  "sites": [],
+  "via_obstacles": [
+    {
+      "names": [
+        "GND",
+        "LCD_CS_N",
+        "source pad"
+      ],
+      "positions": 16
+    },
+    {
+      "names": [
+        "U1.L2",
+        "U1.M2",
+        "VDD_CPU"
+      ],
+      "positions": 4
+    },
+    {
+      "names": [
+        "C1604.1",
+        "U1.L2",
+        "VDD_CPU",
+        "source pad"
+      ],
+      "positions": 34
+    },
+    {
+      "names": [
+        "LCD_CS_N",
+        "U1.M3",
+        "VDD_CPU",
+        "source pad"
+      ],
+      "positions": 14
+    },
+    {
+      "names": [
+        "GND",
+        "LCD_CS_N",
+        "U1.M3",
+        "source pad"
+      ],
+      "positions": 10
+    },
+    {
+      "names": [
+        "C1604.1",
+        "GND",
+        "U1.K3",
+        "source pad"
+      ],
+      "positions": 8
+    },
+    {
+      "names": [
+        "C1604.1",
+        "GND",
+        "LCD_CS_N",
+        "source pad"
+      ],
+      "positions": 6
+    },
+    {
+      "names": [
+        "LCD_RESET_N",
+        "U1.L2",
+        "U1.M2",
+        "VDD_CPU"
+      ],
+      "positions": 5
+    },
+    {
+      "names": [
+        "U1.L2",
+        "U1.M2",
+        "U1.M3",
+        "VDD_CPU"
+      ],
+      "positions": 4
+    },
+    {
+      "names": [
+        "C1604.1",
+        "GND",
+        "U1.K3",
+        "VDD_CPU",
+        "source pad"
+      ],
+      "positions": 49
+    },
+    {
+      "names": [
+        "C1604.1",
+        "U1.K3",
+        "U1.L2",
+        "VDD_CPU",
+        "source pad"
+      ],
+      "positions": 28
+    },
+    {
+      "names": [
+        "LCD_CS_N",
+        "U1.L2",
+        "U1.M3",
+        "VDD_CPU",
+        "source pad"
+      ],
+      "positions": 16
+    },
+    {
+      "names": [
+        "LCD_CS_N",
+        "U1.L2",
+        "U1.M2",
+        "U1.M3",
+        "VDD_CPU"
+      ],
+      "positions": 9
+    },
+    {
+      "names": [
+        "C1604.1",
+        "GND",
+        "LCD_CS_N",
+        "VDD_CPU",
+        "source pad"
+      ],
+      "positions": 8
+    },
+    {
+      "names": [
+        "C1604.1",
+        "GND",
+        "LCD_CS_N",
+        "U1.K3",
+        "source pad"
+      ],
+      "positions": 8
+    },
+    {
+      "names": [
+        "GND",
+        "LCD_CS_N",
+        "U1.M3",
+        "VDD_CPU",
+        "source pad"
+      ],
+      "positions": 7
+    },
+    {
+      "names": [
+        "C1604.1",
+        "LCD_CS_N",
+        "U1.L2",
+        "VDD_CPU",
+        "source pad"
+      ],
+      "positions": 5
+    },
+    {
+      "names": [
+        "C1604.1",
+        "LCD_CS_N",
+        "U1.M3",
+        "VDD_CPU",
+        "source pad"
+      ],
+      "positions": 4
+    },
+    {
+      "names": [
+        "U1.L2",
+        "U1.M2",
+        "U1.M3",
+        "VDD_CPU",
+        "source pad"
+      ],
+      "positions": 3
+    },
+    {
+      "names": [
+        "C1603.1",
+        "LCD_CS_N",
+        "U1.M2",
+        "U1.M3",
+        "VDD_CPU"
+      ],
+      "positions": 3
+    }
+  ],
+  "assembly_ready": false,
+  "source_sha256": "d04b8f6fbbb908c0db16b51a5d2656c34c66bea7482b0013c613e2c3312fe045"
+}

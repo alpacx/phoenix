@@ -1,0 +1,145 @@
+{
+  "source_sha256": "b74843419a42d23d6121f8f47bb4a1dfe6c3bdb918b7120193aeaddec5e7977b",
+  "board": "runs/rotated-bent-plane-C412/phy-joint.kicad_pcb",
+  "sha256": "d3f4d15415e1dc3d8b2a31be76f4cf638e92bfc97363883411a433dfc9e64e8b",
+  "restored": [
+    {
+      "part": "C412",
+      "pair": [
+        "C412.2",
+        "U4.69"
+      ],
+      "width_mm": 0.3,
+      "layout": {
+        "connected": true,
+        "kind": "two existing ground barrels with bent access",
+        "anchors_nm": [
+          [
+            61000000,
+            10000000
+          ],
+          [
+            64200000,
+            10200000
+          ]
+        ],
+        "anchor_ids": [
+          "1e22eb36-1094-4260-9e5e-c911221aa32b",
+          "9bce2f37-6f55-469b-af04-1cd69588d3d0"
+        ],
+        "branches_nm": [
+          [
+            [
+              62940000,
+              10250000
+            ],
+            [
+              62950000,
+              10250000
+            ],
+            [
+              62950000,
+              10200000
+            ],
+            [
+              62500000,
+              9750000
+            ],
+            [
+              62400000,
+              9750000
+            ],
+            [
+              62350000,
+              9700000
+            ],
+            [
+              61300000,
+              9700000
+            ],
+            [
+              61000000,
+              10000000
+            ]
+          ],
+          [
+            [
+              62940000,
+              10250000
+            ],
+            [
+              62990000,
+              10200000
+            ],
+            [
+              64200000,
+              10200000
+            ]
+          ]
+        ]
+      },
+      "existing_groups": 119
+    }
+  ],
+  "attempted": [
+    {
+      "part": "C431",
+      "land_positions": 9,
+      "reason": "no paired via or existing barrel pair"
+    },
+    {
+      "part": "C432",
+      "reason": "saved circuit or DRC",
+      "new_drc": [
+        {
+          "type": "copper_edge_clearance",
+          "severity": "error",
+          "items": [
+            "15d22341-b6f9-4837-9ddf-3d81c6ddcb8a",
+            "96ccf6e6-6c15-4770-9764-ae7f67eb55fe"
+          ],
+          "count": 1
+        },
+        {
+          "type": "copper_edge_clearance",
+          "severity": "error",
+          "items": [
+            "96ccf6e6-6c15-4770-9764-ae7f67eb55fe",
+            "bbac2fe3-7bf9-4712-b5ab-739539441a4c"
+          ],
+          "count": 1
+        },
+        {
+          "type": "copper_edge_clearance",
+          "severity": "error",
+          "items": [
+            "96ccf6e6-6c15-4770-9764-ae7f67eb55fe",
+            "edabf7ef-b467-4509-bcdc-f0dd7ae186ed"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "part": "C421",
+      "land_positions": 9,
+      "reason": "no paired via or existing barrel pair"
+    },
+    {
+      "part": "C422",
+      "land_positions": 9,
+      "reason": "no paired via or existing barrel pair"
+    },
+    {
+      "part": "C483",
+      "land_positions": 9,
+      "reason": "no paired via or existing barrel pair"
+    },
+    {
+      "part": "C470",
+      "land_positions": 9,
+      "reason": "no paired via or existing barrel pair"
+    }
+  ],
+  "assembly_ready": false
+}

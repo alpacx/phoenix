@@ -1,0 +1,48 @@
+{
+  "parent_sha256": "54dfea65166bd3ab1b822be37b8f4a5e64b0ed9aa595f5af0054b73f4a974bf7",
+  "screened_sites": 43,
+  "pair_layer_options": 560,
+  "attempts": [
+    {
+      "pair": [
+        [
+          33400000,
+          9400000
+        ],
+        [
+          34100000,
+          9600000
+        ]
+      ],
+      "new_drc": []
+    }
+  ],
+  "candidate": {
+    "board": "runs/memory-n12-escape/phy-joint.kicad_pcb",
+    "sha256": "40a00f5a2ed10c37bef4521a28fb44d820a57cfe54e26e8d6af07a2955a5c906",
+    "tie": "b9a55964-54e7-412b-bc67-ef5f1927b0e0",
+    "vias": [
+      "7bdb8e93-eae5-4f24-a619-b530c8f8a07d",
+      "f7b8a71e-b1d9-42e4-a9e3-688a397fe0f8"
+    ],
+    "via_nm": [
+      [
+        33400000,
+        9400000
+      ],
+      [
+        34100000,
+        9600000
+      ]
+    ],
+    "layer": "B.Cu",
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 7249,
+      "explicitly_replaced_copper": {},
+      "added_tracks_vias": 14,
+      "existing_connected_pad_groups_preserved": 120
+    }
+  },
+  "assembly_ready": false
+}

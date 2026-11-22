@@ -1,0 +1,99 @@
+{
+  "parent_sha256": "55f587d0379a6647e4e4dfbc6dd6cd42ce880906af779b3d9b14b653816e5578",
+  "ground": {
+    "front_nodes": 16,
+    "path": [
+      [
+        41050000,
+        18700000
+      ],
+      [
+        40400000,
+        18700000
+      ]
+    ],
+    "closest": [
+      100000.0,
+      [
+        40500000,
+        18700000
+      ],
+      [
+        40400000,
+        18700000
+      ]
+    ],
+    "front": []
+  },
+  "cpu_branch": {
+    "front_nodes": 582,
+    "path": [],
+    "closest": [
+      1079351.6572461452,
+      [
+        41500000,
+        19800000
+      ],
+      [
+        41750000,
+        18750000
+      ]
+    ]
+  },
+  "site_nm": [
+    41750000,
+    18750000
+  ],
+  "via_front": {
+    "front_nodes": 36,
+    "path": [],
+    "closest": [
+      1118033.9887498948,
+      [
+        41500000,
+        18900000
+      ],
+      [
+        41700000,
+        20000000
+      ]
+    ]
+  },
+  "closest_fronts": [
+    900000.0,
+    [
+      41500000,
+      19800000
+    ],
+    [
+      41500000,
+      18900000
+    ]
+  ],
+  "front_barriers": [
+    {
+      "uuid": "b954da4c-a02b-46f9-bcdc-56e723afce61",
+      "name": "GND",
+      "kind": "PCB_TRACK",
+      "pad": null
+    },
+    {
+      "uuid": "eae7df9e-e23d-441e-b13c-c497ae986d85",
+      "name": "VDD_NPU",
+      "kind": "PCB_TRACK",
+      "pad": null
+    },
+    {
+      "uuid": "89d062bc-2c9a-418c-bd60-e9363be1b519",
+      "name": "VDD_NPU",
+      "kind": "PAD",
+      "pad": "1G5"
+    },
+    {
+      "uuid": "9a012bfa-a1fa-4304-b6dc-dfa74252f480",
+      "name": "GND",
+      "kind": "PAD",
+      "pad": "1G6"
+    }
+  ]
+}

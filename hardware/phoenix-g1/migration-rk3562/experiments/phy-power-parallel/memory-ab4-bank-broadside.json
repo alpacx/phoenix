@@ -1,0 +1,67 @@
+{
+  "source_sha256": "aee23dedfa8353aeb8a8630d5a7ab3fe38cb6daa79b859f526ee9fa355e05caf",
+  "candidate_sha256": "35771e238e52fac50ed0b195ced4aa171cada22dea1f94bf82ed314fdc18ff4b",
+  "fields": [
+    {
+      "margin_mm": 0.0,
+      "objects": [
+        {
+          "net": "+3V3_IO",
+          "uuid": "40946a14-8166-43a6-a40a-746de92aaada",
+          "overlap_mm2": 0.1571422783835
+        },
+        {
+          "net": "+3V3_IO",
+          "uuid": "c7e8ea9c-08bb-48bd-a41d-0ad2ec8d000a",
+          "overlap_mm2": 0.077627518797
+        }
+      ]
+    },
+    {
+      "margin_mm": 0.1,
+      "objects": [
+        {
+          "net": "+3V3_IO",
+          "uuid": "40946a14-8166-43a6-a40a-746de92aaada",
+          "overlap_mm2": 0.1904853812435
+        },
+        {
+          "net": "+3V3_IO",
+          "uuid": "c7e8ea9c-08bb-48bd-a41d-0ad2ec8d000a",
+          "overlap_mm2": 0.112982918797
+        }
+      ]
+    },
+    {
+      "margin_mm": 0.2,
+      "objects": [
+        {
+          "net": "+3V3_IO",
+          "uuid": "40946a14-8166-43a6-a40a-746de92aaada",
+          "overlap_mm2": 0.2213995557775
+        },
+        {
+          "net": "+3V3_IO",
+          "uuid": "c7e8ea9c-08bb-48bd-a41d-0ad2ec8d000a",
+          "overlap_mm2": 0.148338318797
+        }
+      ]
+    },
+    {
+      "margin_mm": 0.35,
+      "objects": [
+        {
+          "net": "+3V3_IO",
+          "uuid": "40946a14-8166-43a6-a40a-746de92aaada",
+          "overlap_mm2": 0.265026393365
+        },
+        {
+          "net": "+3V3_IO",
+          "uuid": "c7e8ea9c-08bb-48bd-a41d-0ad2ec8d000a",
+          "overlap_mm2": 0.201371418797
+        }
+      ]
+    }
+  ],
+  "scope": "2D projection In3 onto In2, all routed nets. Does not model time-domain coupling."
+}

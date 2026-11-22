@@ -1,0 +1,133 @@
+{
+  "base_sha256": "54dfea65166bd3ab1b822be37b8f4a5e64b0ed9aa595f5af0054b73f4a974bf7",
+  "sha256": "821a473d89c66b7191443c401dfc47a7362c7b2078d76fb9bbd6a9cb67b55753",
+  "new_barrels": 2,
+  "records": [
+    {
+      "uuid": "3d31c7d0-8383-4650-812a-e536e030c427",
+      "net": "LPDDR4_A5_B",
+      "layer": "F.Cu",
+      "projection": [
+        {
+          "lateral_mm": 0.0,
+          "before_mm2": 0.038973983635,
+          "after_mm2": 0.038973983635,
+          "increase_mm2": 0.0
+        },
+        {
+          "lateral_mm": 0.1,
+          "before_mm2": 0.1398619275515,
+          "after_mm2": 0.1398619275515,
+          "increase_mm2": 0.0
+        },
+        {
+          "lateral_mm": 0.2,
+          "before_mm2": 0.2873189194865,
+          "after_mm2": 0.2873189194865,
+          "increase_mm2": 0.0
+        }
+      ]
+    },
+    {
+      "uuid": "1a25f5cb-11a0-4563-9238-c0041a36a740",
+      "net": "LPDDR4_A4_B",
+      "layer": "F.Cu",
+      "projection": [
+        {
+          "lateral_mm": 0.0,
+          "before_mm2": 0.038973983635,
+          "after_mm2": 0.038973983635,
+          "increase_mm2": 0.0
+        },
+        {
+          "lateral_mm": 0.1,
+          "before_mm2": 0.1399197050035,
+          "after_mm2": 0.1399197050035,
+          "increase_mm2": 0.0
+        },
+        {
+          "lateral_mm": 0.2,
+          "before_mm2": 0.2873850274885,
+          "after_mm2": 0.2873850274885,
+          "increase_mm2": 0.0
+        }
+      ]
+    },
+    {
+      "uuid": "0fee06b4-8005-4ec1-820f-12142de4cce7",
+      "net": "LPDDR4_A3_B",
+      "layer": "F.Cu",
+      "projection": [
+        {
+          "lateral_mm": 0.0,
+          "before_mm2": 0.038974142189,
+          "after_mm2": 0.038974142189,
+          "increase_mm2": 0.0
+        },
+        {
+          "lateral_mm": 0.1,
+          "before_mm2": 0.1379237136855,
+          "after_mm2": 0.1379237136855,
+          "increase_mm2": 0.0
+        },
+        {
+          "lateral_mm": 0.2,
+          "before_mm2": 0.306649982411,
+          "after_mm2": 0.306649982411,
+          "increase_mm2": 0.0
+        }
+      ]
+    },
+    {
+      "uuid": "3d9e7744-9ced-45c9-a249-702ac8097fe5",
+      "net": "LPDDR4_CLKN_B",
+      "layer": "F.Cu",
+      "projection": [
+        {
+          "lateral_mm": 0.0,
+          "before_mm2": 0.038973983635,
+          "after_mm2": 0.038973983635,
+          "increase_mm2": 0.0
+        },
+        {
+          "lateral_mm": 0.1,
+          "before_mm2": 0.1399197050035,
+          "after_mm2": 0.1399197050035,
+          "increase_mm2": 0.0
+        },
+        {
+          "lateral_mm": 0.2,
+          "before_mm2": 0.3066138565435,
+          "after_mm2": 0.3066138565435,
+          "increase_mm2": 0.0
+        }
+      ]
+    },
+    {
+      "uuid": "57740804-68e0-4075-9604-9e0cb44b66c6",
+      "net": "LPDDR4_A2_B",
+      "layer": "F.Cu",
+      "projection": [
+        {
+          "lateral_mm": 0.0,
+          "before_mm2": 0.038974142189,
+          "after_mm2": 0.038974142189,
+          "increase_mm2": 0.0
+        },
+        {
+          "lateral_mm": 0.1,
+          "before_mm2": 0.1379237136855,
+          "after_mm2": 0.1379237136855,
+          "increase_mm2": 0.0
+        },
+        {
+          "lateral_mm": 0.2,
+          "before_mm2": 0.285893610444,
+          "after_mm2": 0.285893610444,
+          "increase_mm2": 0.0
+        }
+      ]
+    }
+  ],
+  "scope": "Local adjacent-GND plane shadow near newly drilled holes; electrical coupling, unused ball escape and impedance require separate qualification."
+}

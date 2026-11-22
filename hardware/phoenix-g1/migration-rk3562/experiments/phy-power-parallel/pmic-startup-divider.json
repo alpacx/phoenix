@@ -1,0 +1,48 @@
+{
+  "parent_sha256": "006fc4c501a7504961215342f079d845cf75e430173fa94d8c52813f574f78be",
+  "visited_front": 1,
+  "visited_back": 0,
+  "legal_via_sites": 0,
+  "adopted": false,
+  "obstacles_at_best_sites": [],
+  "toe_probes": [
+    {
+      "toe_nm": [
+        59650000,
+        5150000
+      ],
+      "touches_pin": true,
+      "copper": [
+        [
+          "+1V8_SYS",
+          "708e156f-c7b2-426e-a247-bd3e33cf41fe"
+        ],
+        [
+          "+1V8_SYS",
+          "caaee878-7d5f-4760-9b9d-9db8d804f657"
+        ]
+      ],
+      "coupling": [],
+      "hole": []
+    },
+    {
+      "toe_nm": [
+        59650000,
+        6030000
+      ],
+      "touches_pin": true,
+      "copper": [
+        [
+          "GND",
+          "99b968ef-404b-41ca-b23b-b47e96bb5a46"
+        ],
+        [
+          "GND",
+          "U4.69"
+        ]
+      ],
+      "coupling": [],
+      "hole": []
+    }
+  ]
+}

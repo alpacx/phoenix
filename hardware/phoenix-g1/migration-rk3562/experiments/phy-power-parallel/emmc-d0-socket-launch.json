@@ -1,0 +1,40 @@
+{
+  "parent_sha256": "22ba20838948f2057c8d273274995852b92b9fa29fc3bd573f3e56f813adbc06",
+  "attempts": [
+    {
+      "pos": [
+        34200000,
+        16600000
+      ],
+      "new_drc": [
+        {
+          "type": "via_dangling",
+          "severity": "warning",
+          "items": [
+            "d7baf347-468c-4a15-8a04-e4e06c162af4"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "candidate": {
+    "board": "runs/emmc-d0-socket-launch/phy-joint.kicad_pcb",
+    "sha256": "76b5ac8b0471b761eea37151394d05bb8f79f2d687a30d979a68f4b009826bcc",
+    "via_uid": "d7baf347-468c-4a15-8a04-e4e06c162af4",
+    "via_nm": [
+      34200000,
+      16600000
+    ],
+    "signal_mm": 4.933452377915604,
+    "nearest_return_mm": 0.9013878188659973,
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 7291,
+      "explicitly_replaced_copper": {},
+      "added_tracks_vias": 8,
+      "existing_connected_pad_groups_preserved": 119
+    }
+  },
+  "assembly_ready": false
+}

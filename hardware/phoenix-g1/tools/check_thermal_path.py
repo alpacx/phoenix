@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 """Fanless sizing sensitivity; not CFD, not a temperature guarantee."""
+import argparse
+import hashlib
 import json
 from pathlib import Path
 from check_passive_thermal import rejected_heat, equilibrium
 ROOT=Path(__file__).resolve().parents[1]
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--rk3562", action="store_true", help="Evaluate the current 13.9 mm FCCSP")
+    args = parser.parse_args()
     # Proposed outer envelope for study only, larger than the90x40 PCB.
     l,w,h=.100,.046,.024
     panel=.0135*.02795 # complete display body, conservative exclusion from top metal
@@ -25,7 +30,7 @@ def main():
     pads=[]
     # Effective contact areas and final compressed thicknesses are hypotheses.
     # Bulk-only R excludes both contact resistances: this is optimistic, not an upper bound.
-    for side_mm in [15,20]:
+    for side_mm in ([10, 12, 13.9] if args.rk3562 else [15, 20]):
         for thickness_mm in [.5,1,2]:
             resistance=thickness_mm/1000/(3*(side_mm/1000)**2)
             pads.append(dict(contact_square_mm=side_mm,compressed_thickness_mm=thickness_mm,
@@ -49,7 +54,25 @@ def main():
         ],
         excluded=['spreading/contact resistance','component-to-case paths','thermal coupling into LCD',
                   'local hot spots','real convection/emissivity','actual power and enclosure measurements'])
-    (ROOT/'review/thermal-path-sizing.json').write_text(json.dumps(out,indent=2)+'\n')
+    destination = ROOT / "review/thermal-path-sizing.json"
+    if args.rk3562:
+        source = ROOT / "reference/rk3562-cost-study.pdf"
+        out["processor"] = "RK3562"
+        out["pcb_target_mm"] = [85, 35]
+        out["package_source"] = {
+            "document": str(source.relative_to(ROOT)), "sha256": hashlib.sha256(source.read_bytes()).hexdigest(),
+            "printed_page": 30, "theta_jc_k_per_w": 3.347, "theta_jb_k_per_w": 15.937,
+            "theta_ja_k_per_w": 22.646, "absolute_maximum_tj_c": 125,
+            "test_conditions": "Simulated 114.3 x 101.6 mm, four-layer, 1.6 mm board at 25 C."
+        }
+        for pad in pads:
+            pad["package_plus_bulk_drop_at_3w_k"] = round(3 * 3.347 + pad["bulk_only_drop_at_3w_k"], 3)
+        out["package_model_limit"] = (
+            "Single path example assuming 3 W through the package top. Insulator contacts and lateral spreading "
+            "add thermal resistance. Body size is the ceiling on nominal flat contact; usable area remains unverified."
+        )
+        destination = ROOT / "review/rk3562-thermal-path-sizing.json"
+    destination.write_text(json.dumps(out,indent=2)+'\n')
     for case in cases:
         if case['exposure']=='bottom_blocked_minus_display' and case['ambient_c']==40 and case['h_w_m2k']==8:print(case)
 if __name__=='__main__': main()

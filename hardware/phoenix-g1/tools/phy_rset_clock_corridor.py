@@ -7,8 +7,9 @@ from pcb_preservation import verify_preservation
 from drc_regression import introduced
 from audit_mount_component_reservations import screen
 root=Path(__file__).resolve().parents[1]/'migration-rk3562/experiments/phy-power-parallel'
-exact='--exact' in sys.argv
-meta=json.loads((root/('layout-emmc-pullups.json' if exact else 'layout-usb-shell.json')).read_text());src=root/meta['board']
+current='--current' in sys.argv
+exact='--exact' in sys.argv or current
+meta=json.loads((root/('layout-cpu-load-sense.json' if current else 'layout-emmc-pullups.json' if exact else 'layout-usb-shell.json')).read_text());src=root/meta['board']
 assert hashlib.sha256(src.read_bytes()).hexdigest()==meta['sha256']
 sites=[(59700000,32900000),(59800000,31000000)]
 plans=[('PHY_XIN',p.B_Cu,(59875000,31000000),(61250000,34825000),None),
@@ -52,7 +53,7 @@ for site in sites:
         for t in parts:b.Add(t)
         info['result']='passed_geometry'
     else:
-        folder=root/'runs'/(('phy-rset-exact-' if exact else 'phy-rset-clock-')+str(site[0]));folder.mkdir(exist_ok=True)
+        folder=root/'runs'/(('phy-rset-current-' if current else 'phy-rset-exact-' if exact else 'phy-rset-clock-')+str(site[0]));folder.mkdir(exist_ok=True)
         for n in ('phy-joint.kicad_pro','phy-joint.kicad_dru','fp-lib-table'):shutil.copy2(src.parent/n,folder/n)
         out=folder/src.name;p.ZONE_FILLER(b).Fill(b.Zones());p.SaveBoard(str(out),b)
         subprocess.run(['/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli','pcb','drc','--format','json','-o',str(folder/'drc.json'),str(out)],check=True,capture_output=True)
@@ -60,5 +61,5 @@ for site in sites:
         if not delta:
             saved=p.LoadBoard(str(out));assert not screen(saved)
             trial.update(preservation=verify_preservation(p.LoadBoard(str(src)),saved,replaced_copper=removed),board=str(out.relative_to(root)),sha256=hashlib.sha256(out.read_bytes()).hexdigest())
-(root/('phy-rset-exact-corridor.json' if exact else 'phy-rset-clock-corridor.json')).write_text(json.dumps(dict(parent_sha256=meta['sha256'],trials=results,oscillator_qualified=False),indent=2)+'\n')
+(root/('phy-rset-current-corridor.json' if current else 'phy-rset-exact-corridor.json' if exact else 'phy-rset-clock-corridor.json')).write_text(json.dumps(dict(parent_sha256=meta['sha256'],trials=results,oscillator_qualified=False),indent=2)+'\n')
 print([r['signals'] for r in results],flush=True);os._exit(0)
