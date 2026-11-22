@@ -1,0 +1,60 @@
+{
+  "parent_sha256": "93f44cdd8b3fa5cebdd76ed1ecf90b3e2ed55e865c6e27f936730a2940132a82",
+  "trials": [
+    {
+      "ref": "C1648",
+      "copper_passes": 1,
+      "stages": {
+        "barrel": 30,
+        "courtyard": 30,
+        "trunk": 1,
+        "land": 1,
+        "rail_connected": 1,
+        "gnd_connected": 1,
+        "banks_connected": 1
+      },
+      "minimum_obstructions": []
+    }
+  ],
+  "candidate": {
+    "board": "runs/memory-bank-cap-relief/phy-joint.kicad_pcb",
+    "sha256": "c5d2a1898f0b33bbc8d3a715c0f46e0f860b83229a6d0e18ac258b4f7570f7fc",
+    "changed_ref": "C1648",
+    "shift_nm": [
+      -75000,
+      75000
+    ],
+    "width_mm": 0.5,
+    "length_mm": 2.408318915758459,
+    "new_drc": [],
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 7014,
+      "explicitly_replaced_copper": {
+        "624452ae-bb71-4109-8f93-bee697a812b8": [
+          "GND",
+          0,
+          21020000,
+          19250000,
+          21020000,
+          19250000,
+          600000,
+          300000
+        ],
+        "ce6f3d34-4ac1-476f-a3cc-c2d077f53456": [
+          "GND",
+          2,
+          21020000,
+          18500000,
+          21020000,
+          19250000,
+          300000,
+          null
+        ]
+      },
+      "added_tracks_vias": 1,
+      "existing_connected_pad_groups_preserved": 121
+    }
+  },
+  "assembly_ready": false
+}

@@ -1,0 +1,190 @@
+{
+  "parent_sha256": "a0074798640d4aa3eca2058eb27623ae779d1f97e4b3ce803f878d0acd383aea",
+  "surface": "F.Cu",
+  "pin": "U2.T12",
+  "width_mm": 0.2,
+  "grid_mm": 0.025,
+  "via_mm": [
+    0.45,
+    0.2
+  ],
+  "ground_relief": false,
+  "ground_via_relief": false,
+  "existing_tracks_and_vias_included": true,
+  "single_obstacle_candidates": [],
+  "reachable_positions": 832,
+  "farthest_mm": 0.7945124291035351,
+  "sites": [],
+  "via_obstacles": [
+    {
+      "names": [
+        "+1V1_LPDDR4",
+        "source pad"
+      ],
+      "positions": 30
+    },
+    {
+      "names": [
+        "+1V1_LPDDR4",
+        "U2.R12"
+      ],
+      "positions": 7
+    },
+    {
+      "names": [
+        "+1V1_LPDDR4",
+        "LPDDR4_RESETN",
+        "U2.T11"
+      ],
+      "positions": 44
+    },
+    {
+      "names": [
+        "+1V1_LPDDR4",
+        "U2.R12",
+        "source pad"
+      ],
+      "positions": 36
+    },
+    {
+      "names": [
+        "+1V1_LPDDR4",
+        "LPDDR4_RESETN",
+        "source pad"
+      ],
+      "positions": 26
+    },
+    {
+      "names": [
+        "+1V1_LPDDR4",
+        "U8001.B1",
+        "source pad"
+      ],
+      "positions": 22
+    },
+    {
+      "names": [
+        "+1V1_LPDDR4",
+        "U2.R11",
+        "U2.R12"
+      ],
+      "positions": 15
+    },
+    {
+      "names": [
+        "+1V1_LPDDR4",
+        "LPDDR4_RESETN",
+        "U2.U12"
+      ],
+      "positions": 7
+    },
+    {
+      "names": [
+        "+1V1_LPDDR4",
+        "U2.U12",
+        "source pad"
+      ],
+      "positions": 3
+    },
+    {
+      "names": [
+        "+1V1_LPDDR4",
+        "U2.R12",
+        "U2.T11"
+      ],
+      "positions": 3
+    },
+    {
+      "names": [
+        "+1V1_LPDDR4",
+        "LPDDR4_RESETN",
+        "U2.T11",
+        "source pad"
+      ],
+      "positions": 97
+    },
+    {
+      "names": [
+        "+1V1_LPDDR4",
+        "U8001.A1",
+        "U8001.B1",
+        "source pad"
+      ],
+      "positions": 75
+    },
+    {
+      "names": [
+        "+1V1_LPDDR4",
+        "U2.R12",
+        "U8001.B1",
+        "source pad"
+      ],
+      "positions": 48
+    },
+    {
+      "names": [
+        "+1V1_LPDDR4",
+        "LPDDR4_RESETN",
+        "U2.U12",
+        "source pad"
+      ],
+      "positions": 39
+    },
+    {
+      "names": [
+        "+1V1_LPDDR4",
+        "LPDDR4_RESETN",
+        "U2.R11",
+        "U2.T11"
+      ],
+      "positions": 22
+    },
+    {
+      "names": [
+        "+1V1_LPDDR4",
+        "LPDDR4_RESETN",
+        "U2.T11",
+        "U2.U11"
+      ],
+      "positions": 21
+    },
+    {
+      "names": [
+        "+1V1_LPDDR4",
+        "LPDDR4_A4_B",
+        "U2.R11",
+        "U2.R12"
+      ],
+      "positions": 20
+    },
+    {
+      "names": [
+        "+1V1_LPDDR4",
+        "U2.U12",
+        "U8001.A1",
+        "source pad"
+      ],
+      "positions": 15
+    },
+    {
+      "names": [
+        "+1V1_LPDDR4",
+        "LPDDR4_RESETN",
+        "U2.U11",
+        "U2.U12"
+      ],
+      "positions": 15
+    },
+    {
+      "names": [
+        "+1V1_LPDDR4",
+        "U2.R11",
+        "U2.R12",
+        "U2.T11"
+      ],
+      "positions": 6
+    }
+  ],
+  "assembly_ready": false,
+  "source_sha256": "a0074798640d4aa3eca2058eb27623ae779d1f97e4b3ce803f878d0acd383aea"
+}

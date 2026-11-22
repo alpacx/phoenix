@@ -1,0 +1,340 @@
+{
+  "board": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/pmic-ldo-inputs/pcb/parallel-local-copper.kicad_pcb",
+  "baseline": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/pmic-ldo-inputs/pcb/ethernet-dvdd33-bypass.kicad_pcb",
+  "checked_new_vias": 30,
+  "passed": true,
+  "conservative_minimum_gap_mm": 0.07643060449437533,
+  "checks": [
+    {
+      "via": "0229d53b-6231-4fd0-9984-e1f86bca47cf",
+      "xy_mm": [
+        29.52,
+        25.75
+      ],
+      "nearest_pad_box": {
+        "pad": "C1675.2",
+        "copper_gap_mm": 0.1400000000000013
+      }
+    },
+    {
+      "via": "158ff1b3-042f-4893-9245-b9a9b087250f",
+      "xy_mm": [
+        24.52,
+        25.75
+      ],
+      "nearest_pad_box": {
+        "pad": "C1658.2",
+        "copper_gap_mm": 0.1400000000000013
+      }
+    },
+    {
+      "via": "2202435f-a15d-4e81-9873-83ac00c76f48",
+      "xy_mm": [
+        28.02,
+        23.95
+      ],
+      "nearest_pad_box": {
+        "pad": "C1656.2",
+        "copper_gap_mm": 0.3400000000000006
+      }
+    },
+    {
+      "via": "283f1e9b-8b1b-463c-80d3-7a62b58ee031",
+      "xy_mm": [
+        31.3,
+        25.0
+      ],
+      "nearest_pad_box": {
+        "pad": "C1633.2",
+        "copper_gap_mm": 0.13999999999999774
+      }
+    },
+    {
+      "via": "323c67a8-3128-45a3-8aee-0aa6377075f0",
+      "xy_mm": [
+        23.3,
+        20.6
+      ],
+      "nearest_pad_box": {
+        "pad": "C1106.2",
+        "copper_gap_mm": 0.07643060449437533
+      }
+    },
+    {
+      "via": "3b32db48-ae7f-4f1b-8cab-e07387356182",
+      "xy_mm": [
+        31.05,
+        24.3
+      ],
+      "nearest_pad_box": {
+        "pad": "C1675.1",
+        "copper_gap_mm": 0.18600411520891463
+      }
+    },
+    {
+      "via": "49dbae96-04c3-42b2-aa74-2c5fb11e8a72",
+      "xy_mm": [
+        27.3,
+        17.0
+      ],
+      "nearest_pad_box": {
+        "pad": "C1655.2",
+        "copper_gap_mm": 0.13999999999999774
+      }
+    },
+    {
+      "via": "4ca821bc-a93e-465b-bf11-c17dc5cbab75",
+      "xy_mm": [
+        30.0,
+        20.0
+      ],
+      "nearest_pad_box": {
+        "pad": "C1620.2",
+        "copper_gap_mm": 0.2500000000000007
+      }
+    },
+    {
+      "via": "53c71483-a79c-4312-aa2d-c22deb4e8cdf",
+      "xy_mm": [
+        23.8,
+        25.0
+      ],
+      "nearest_pad_box": {
+        "pad": "C1658.2",
+        "copper_gap_mm": 0.13999999999999774
+      }
+    },
+    {
+      "via": "5d7eedc5-450e-440a-80fc-c09a7f3af13e",
+      "xy_mm": [
+        26.3,
+        26.5
+      ],
+      "nearest_pad_box": {
+        "pad": "C1673.2",
+        "copper_gap_mm": 0.13999999999999774
+      }
+    },
+    {
+      "via": "6169948d-fe23-4ad8-bc16-c7008b2119b6",
+      "xy_mm": [
+        50.65,
+        29.75
+      ],
+      "nearest_pad_box": {
+        "pad": "C2204.2",
+        "copper_gap_mm": 0.5749999999999957
+      }
+    },
+    {
+      "via": "624452ae-bb71-4109-8f93-bee697a812b8",
+      "xy_mm": [
+        21.02,
+        19.25
+      ],
+      "nearest_pad_box": {
+        "pad": "R201.1",
+        "copper_gap_mm": 0.12999999999999973
+      }
+    },
+    {
+      "via": "7177e59d-9578-4591-ae3a-1abb5ae05127",
+      "xy_mm": [
+        30.5,
+        27.0
+      ],
+      "nearest_pad_box": {
+        "pad": "C1619.2",
+        "copper_gap_mm": 0.2500000000000007
+      }
+    },
+    {
+      "via": "7e0e91fb-c4cf-47c8-9bbf-20cd689ff62d",
+      "xy_mm": [
+        21.3,
+        15.0
+      ],
+      "nearest_pad_box": {
+        "pad": "C1659.2",
+        "copper_gap_mm": 0.13999999999999774
+      }
+    },
+    {
+      "via": "82cee1fc-4d50-460a-8143-72229c30840c",
+      "xy_mm": [
+        23.8,
+        13.5
+      ],
+      "nearest_pad_box": {
+        "pad": "C1666.2",
+        "copper_gap_mm": 0.13999999999999774
+      }
+    },
+    {
+      "via": "87a682c9-80b1-4dd9-b56a-981781e57000",
+      "xy_mm": [
+        30.0,
+        17.0
+      ],
+      "nearest_pad_box": {
+        "pad": "C1623.2",
+        "copper_gap_mm": 0.2500000000000007
+      }
+    },
+    {
+      "via": "8d49986a-35a0-4266-94b5-7a129ebd49db",
+      "xy_mm": [
+        27.52,
+        17.75
+      ],
+      "nearest_pad_box": {
+        "pad": "C1651.2",
+        "copper_gap_mm": 0.1400000000000013
+      }
+    },
+    {
+      "via": "94aeefb1-2a59-4deb-a624-d48589e67c51",
+      "xy_mm": [
+        28.02,
+        20.75
+      ],
+      "nearest_pad_box": {
+        "pad": "C1652.2",
+        "copper_gap_mm": 0.1400000000000013
+      }
+    },
+    {
+      "via": "ab62826f-49c2-4d8f-87b3-733941841164",
+      "xy_mm": [
+        21.02,
+        16.25
+      ],
+      "nearest_pad_box": {
+        "pad": "C1653.2",
+        "copper_gap_mm": 0.1400000000000013
+      }
+    },
+    {
+      "via": "ac5857cf-70d8-4370-9802-599439e179b5",
+      "xy_mm": [
+        27.4,
+        19.25
+      ],
+      "nearest_pad_box": {
+        "pad": "C1651.2",
+        "copper_gap_mm": 0.1400000000000013
+      }
+    },
+    {
+      "via": "b6c4cb0f-a3bd-475c-a50a-2b61e7c4f44c",
+      "xy_mm": [
+        23.8,
+        12.0
+      ],
+      "nearest_pad_box": {
+        "pad": "C1672.2",
+        "copper_gap_mm": 0.13999999999999774
+      }
+    },
+    {
+      "via": "d843469e-f429-4e5f-9165-da38590198d3",
+      "xy_mm": [
+        21.15,
+        25.25
+      ],
+      "nearest_pad_box": {
+        "pad": "C1669.1",
+        "copper_gap_mm": 0.28796258384356305
+      }
+    },
+    {
+      "via": "df915b88-b86d-4a49-a22b-8c3fa4f7b3b3",
+      "xy_mm": [
+        23.15,
+        17.0
+      ],
+      "nearest_pad_box": {
+        "pad": "C1664.2",
+        "copper_gap_mm": 0.10000000000000214
+      }
+    },
+    {
+      "via": "e0c43398-2e41-49af-b558-879f70d0bd69",
+      "xy_mm": [
+        50.02,
+        12.75
+      ],
+      "nearest_pad_box": {
+        "pad": "C1626.2",
+        "copper_gap_mm": 0.1399999999999995
+      }
+    },
+    {
+      "via": "e0e39aa3-0ce4-4d96-a08a-139c8c7f52dc",
+      "xy_mm": [
+        49.3,
+        10.5
+      ],
+      "nearest_pad_box": {
+        "pad": "C1643.2",
+        "copper_gap_mm": 0.14000000000000484
+      }
+    },
+    {
+      "via": "e1571756-1785-4bdc-a196-12f0555f89c9",
+      "xy_mm": [
+        23.8,
+        15.0
+      ],
+      "nearest_pad_box": {
+        "pad": "C1657.2",
+        "copper_gap_mm": 0.13999999999999774
+      }
+    },
+    {
+      "via": "e46dae11-84a4-423f-ac12-d4fcc0de1879",
+      "xy_mm": [
+        21.3,
+        13.5
+      ],
+      "nearest_pad_box": {
+        "pad": "C1670.2",
+        "copper_gap_mm": 0.13999999999999774
+      }
+    },
+    {
+      "via": "f6527cfe-eab1-4fe1-aeb7-e154e086dc92",
+      "xy_mm": [
+        26.3,
+        25.0
+      ],
+      "nearest_pad_box": {
+        "pad": "C1662.2",
+        "copper_gap_mm": 0.13999999999999774
+      }
+    },
+    {
+      "via": "4a317bb0-5ac8-433e-8c49-029a134ec94e",
+      "xy_mm": [
+        24.0,
+        29.2
+      ],
+      "nearest_pad_box": {
+        "pad": "U21.4",
+        "copper_gap_mm": 0.23399999999999962
+      }
+    },
+    {
+      "via": "7c8edfd0-2b45-4b2b-9086-e9736a525c9b",
+      "xy_mm": [
+        35.25,
+        18.8
+      ],
+      "nearest_pad_box": {
+        "pad": "R506.2",
+        "copper_gap_mm": 0.24499999999999886
+      }
+    }
+  ],
+  "qualification": "Bounding-box geometric screen, not final soldermask/assembly qualification"
+}

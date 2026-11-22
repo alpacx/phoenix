@@ -1,0 +1,128 @@
+{
+  "board": "runs/memory-ab4-normalized/phy-joint.kicad_pcb",
+  "sha256": "8b45be4128e7a7947b46b779706005491c2b282e1b85653fe9b44f593a307822",
+  "parent_sha256": "35771e238e52fac50ed0b195ced4aa171cada22dea1f94bf82ed314fdc18ff4b",
+  "wholly_contained_tracks": {
+    "388ff473-eaca-4023-9b89-ba88dc4071ce": "7df8e97b-bede-4f11-8ea2-8087d122da8b",
+    "70f724f6-a519-468f-9f90-fc9b08fa3f95": "fe86862f-4e38-4ffb-a6f3-c95a6924520c",
+    "6b8ece4c-00dd-4427-abfb-b59e32fb9f6e": "da400200-5e42-41bc-aab8-853a419e8339",
+    "053459ae-f305-49d8-968a-553ac6fa5160": "2d06ad3a-7a16-4753-8159-78946d414837",
+    "39ccade3-e7d7-441a-b15d-b907b9d468e5": "b4541b45-6558-4b12-b3f9-f3bbbb10cb85",
+    "640c6072-a3d7-4a61-996b-d2e8b58c596a": "7dba2aed-16e5-43a8-91de-9dffb3fa0490",
+    "7db62313-5a75-44f0-8700-2de187ec5269": "a335b234-0f72-4e74-923d-b04343be54c4",
+    "8a615ba6-e37c-490c-97f9-9b7588db8c99": "8a6b992f-250b-4215-87b7-423c1fe0de4f",
+    "ac30a12a-1094-4e4c-acc9-fc56c305f76e": "ad908735-270e-475c-bd81-87b621ae4b31",
+    "bb69f6e8-7e14-4d8d-979e-809d6951ec2e": "f51b6f4c-f9d8-4e25-9350-6bef6d0a1e29"
+  },
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 7009,
+    "explicitly_replaced_copper": {
+      "053459ae-f305-49d8-968a-553ac6fa5160": [
+        "+1V1_LPDDR4",
+        8,
+        29250000,
+        17650000,
+        29150000,
+        17750000,
+        500000,
+        null
+      ],
+      "388ff473-eaca-4023-9b89-ba88dc4071ce": [
+        "GND",
+        2,
+        30800000,
+        14520000,
+        30780000,
+        14500000,
+        300000,
+        null
+      ],
+      "39ccade3-e7d7-441a-b15d-b907b9d468e5": [
+        "+1V1_LPDDR4",
+        8,
+        29250000,
+        17600000,
+        29250000,
+        17650000,
+        500000,
+        null
+      ],
+      "640c6072-a3d7-4a61-996b-d2e8b58c596a": [
+        "+1V1_LPDDR4",
+        8,
+        30200000,
+        15500000,
+        30200000,
+        16650000,
+        500000,
+        null
+      ],
+      "6b8ece4c-00dd-4427-abfb-b59e32fb9f6e": [
+        "+1V1_LPDDR4",
+        0,
+        28600000,
+        16950000,
+        28900000,
+        16950000,
+        500000,
+        null
+      ],
+      "70f724f6-a519-468f-9f90-fc9b08fa3f95": [
+        "GND",
+        2,
+        30780000,
+        14500000,
+        30100000,
+        14500000,
+        300000,
+        null
+      ],
+      "7db62313-5a75-44f0-8700-2de187ec5269": [
+        "+1V1_LPDDR4",
+        8,
+        29100000,
+        17900000,
+        29100000,
+        20300000,
+        500000,
+        null
+      ],
+      "8a615ba6-e37c-490c-97f9-9b7588db8c99": [
+        "+1V1_LPDDR4",
+        8,
+        29150000,
+        17850000,
+        29100000,
+        17900000,
+        500000,
+        null
+      ],
+      "ac30a12a-1094-4e4c-acc9-fc56c305f76e": [
+        "+1V1_LPDDR4",
+        8,
+        30200000,
+        16650000,
+        29250000,
+        17600000,
+        500000,
+        null
+      ],
+      "bb69f6e8-7e14-4d8d-979e-809d6951ec2e": [
+        "+1V1_LPDDR4",
+        8,
+        29150000,
+        17750000,
+        29150000,
+        17850000,
+        500000,
+        null
+      ]
+    },
+    "added_tracks_vias": -10,
+    "existing_connected_pad_groups_preserved": 122
+  },
+  "new_drc": [],
+  "mounts": [],
+  "assembly_ready": false
+}

@@ -1,0 +1,105 @@
+{
+  "parent_sha256": "7623e79a6838934df7f6d441cf01ec91127591fe4a32247673c4e6f30816fe7a",
+  "stats": {
+    "L_courtyard": 107,
+    "C_poses_retaining_both_nets": 15
+  },
+  "switch_geometries": 0,
+  "simultaneous": 0,
+  "examples": [],
+  "best_land_conflicts": [
+    {
+      "at": [
+        53390000,
+        7800000
+      ],
+      "angle": 180,
+      "obstacles": [
+        [
+          "dbd95bb7-1bfc-4d83-8e97-00dcb227e67b",
+          "GND"
+        ]
+      ]
+    },
+    {
+      "at": [
+        53590000,
+        7800000
+      ],
+      "angle": 180,
+      "obstacles": [
+        [
+          "1ca17eba-3abe-46b4-b7c2-961c5e408e8c",
+          "+3V3_SYS"
+        ],
+        [
+          "dbd95bb7-1bfc-4d83-8e97-00dcb227e67b",
+          "GND"
+        ]
+      ]
+    },
+    {
+      "at": [
+        53390000,
+        8000000
+      ],
+      "angle": 180,
+      "obstacles": [
+        [
+          "1ca17eba-3abe-46b4-b7c2-961c5e408e8c",
+          "+3V3_SYS"
+        ],
+        [
+          "8a3e253c-cc3e-4815-9fde-a2bb55621d2b",
+          "+3V3_SYS"
+        ],
+        [
+          "dbd95bb7-1bfc-4d83-8e97-00dcb227e67b",
+          "GND"
+        ]
+      ]
+    },
+    {
+      "at": [
+        53590000,
+        8000000
+      ],
+      "angle": 180,
+      "obstacles": [
+        [
+          "1ca17eba-3abe-46b4-b7c2-961c5e408e8c",
+          "+3V3_SYS"
+        ],
+        [
+          "8a3e253c-cc3e-4815-9fde-a2bb55621d2b",
+          "+3V3_SYS"
+        ],
+        [
+          "dbd95bb7-1bfc-4d83-8e97-00dcb227e67b",
+          "GND"
+        ]
+      ]
+    },
+    {
+      "at": [
+        53790000,
+        8000000
+      ],
+      "angle": 180,
+      "obstacles": [
+        [
+          "1ca17eba-3abe-46b4-b7c2-961c5e408e8c",
+          "+3V3_SYS"
+        ],
+        [
+          "8a3e253c-cc3e-4815-9fde-a2bb55621d2b",
+          "+3V3_SYS"
+        ],
+        [
+          "dbd95bb7-1bfc-4d83-8e97-00dcb227e67b",
+          "GND"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "parent_sha256": "bab072834f8f2e1593ecd159477ec43c0ba686aaf6beb28f38c074c022f4c341",
+  "length_mm": 1.6,
+  "records": {
+    "AG25": {
+      "net": "XIN24M",
+      "tested": 72,
+      "pad_free": 3,
+      "best": [
+        {
+          "degrees": 85,
+          "start_nm": [
+            48507844,
+            26589658
+          ],
+          "end_nm": [
+            48639449,
+            28093912
+          ],
+          "blockers": [
+            {
+              "kind": "PCB_TRACK",
+              "net": "PMIC_INT_N",
+              "pad": null,
+              "uuid": "030132dc-ca11-4dcf-8bef-059a895107d4"
+            },
+            {
+              "kind": "PCB_VIA",
+              "net": "PMIC_INT_N",
+              "pad": null,
+              "uuid": "8291f264-ddb7-4f18-b919-3d206fe286d9"
+            }
+          ]
+        },
+        {
+          "degrees": 90,
+          "start_nm": [
+            48500000,
+            26590000
+          ],
+          "end_nm": [
+            48500000,
+            28100000
+          ],
+          "blockers": [
+            {
+              "kind": "PCB_TRACK",
+              "net": "PMIC_INT_N",
+              "pad": null,
+              "uuid": "030132dc-ca11-4dcf-8bef-059a895107d4"
+            },
+            {
+              "kind": "PCB_VIA",
+              "net": "PMIC_INT_N",
+              "pad": null,
+              "uuid": "8291f264-ddb7-4f18-b919-3d206fe286d9"
+            }
+          ]
+        },
+        {
+          "degrees": 95,
+          "start_nm": [
+            48492156,
+            26589658
+          ],
+          "end_nm": [
+            48360551,
+            28093912
+          ],
+          "blockers": [
+            {
+              "kind": "PCB_TRACK",
+              "net": "PMIC_INT_N",
+              "pad": null,
+              "uuid": "030132dc-ca11-4dcf-8bef-059a895107d4"
+            },
+            {
+              "kind": "PCB_VIA",
+              "net": "PMIC_INT_N",
+              "pad": null,
+              "uuid": "8291f264-ddb7-4f18-b919-3d206fe286d9"
+            }
+          ]
+        }
+      ]
+    },
+    "AF25": {
+      "net": "XOUT24M",
+      "tested": 72,
+      "pad_free": 0,
+      "best": []
+    }
+  },
+  "assembly_ready": false
+}

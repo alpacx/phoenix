@@ -1,0 +1,104 @@
+{
+  "source_sha256": "840ade0e69a5f5fce473a7c1f087fe863b102d6590557615a584ff3a7e1bc7f9",
+  "pitch_grid_mm": 0.05,
+  "radius_box_mm": 1.2,
+  "via_mm": [
+    0.45,
+    0.2
+  ],
+  "trace_mm": 0.2,
+  "clearance_mm": 0.2,
+  "balls": [
+    {
+      "ref": "C1625",
+      "ball": "1L11",
+      "net": "+3V3_PMU",
+      "sites": 0,
+      "landings_nm": []
+    },
+    {
+      "ref": "C1625",
+      "ball": "1L12",
+      "net": "+3V3_PMU",
+      "sites": 0,
+      "landings_nm": []
+    },
+    {
+      "ref": "C1631",
+      "ball": "1L13",
+      "net": "VCCA1V8_PMU",
+      "sites": 0,
+      "landings_nm": []
+    },
+    {
+      "ref": "C1640",
+      "ball": "1G15",
+      "net": "+3V3_IO",
+      "sites": 0,
+      "landings_nm": []
+    },
+    {
+      "ref": "C1640",
+      "ball": "1H14",
+      "net": "+3V3_IO",
+      "sites": 0,
+      "landings_nm": []
+    },
+    {
+      "ref": "C1640",
+      "ball": "1K3",
+      "net": "+3V3_IO",
+      "sites": 0,
+      "landings_nm": []
+    },
+    {
+      "ref": "C1640",
+      "ball": "1L3",
+      "net": "+3V3_IO",
+      "sites": 0,
+      "landings_nm": []
+    },
+    {
+      "ref": "C1640",
+      "ball": "1L5",
+      "net": "+3V3_IO",
+      "sites": 0,
+      "landings_nm": []
+    },
+    {
+      "ref": "C1640",
+      "ball": "1M4",
+      "net": "+3V3_IO",
+      "sites": 0,
+      "landings_nm": []
+    },
+    {
+      "ref": "C1640",
+      "ball": "1M14",
+      "net": "+3V3_IO",
+      "sites": 0,
+      "landings_nm": []
+    },
+    {
+      "ref": "C1642",
+      "ball": "1K14",
+      "net": "VDDA_0V9",
+      "sites": 0,
+      "landings_nm": []
+    },
+    {
+      "ref": "C1642",
+      "ball": "1M10",
+      "net": "VDDA_0V9",
+      "sites": 0,
+      "landings_nm": []
+    },
+    {
+      "ref": "C1679",
+      "ball": "1L14",
+      "net": "USB_AVDD_0V9",
+      "sites": 0,
+      "landings_nm": []
+    }
+  ]
+}

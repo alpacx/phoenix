@@ -1,0 +1,233 @@
+{
+  "parent_sha256": "0c2d7839ac08e73d42637f4176a713f2944a8dc6daa02c053cee5e6badb8868f",
+  "width_mm": 0.5,
+  "max_length_mm": 4,
+  "max_bank_projection_mm": 3,
+  "barrels_mm": [
+    0.45,
+    0.2
+  ],
+  "tested": [
+    {
+      "ball": "AA3",
+      "start_nm": [
+        27100000,
+        15175000
+      ],
+      "bank_target_nm": [
+        25950000,
+        15106250
+      ],
+      "access": {
+        "connected": false,
+        "kind": "two through vias",
+        "legal_sites": 21,
+        "both_faces_reached": 0,
+        "source_reached": 0,
+        "sink_reached": 19,
+        "source_map": []
+      }
+    },
+    {
+      "ball": "AA5",
+      "start_nm": [
+        28800000,
+        15175000
+      ],
+      "bank_target_nm": [
+        28980000,
+        17000000
+      ],
+      "access": {
+        "connected": false,
+        "kind": "two through vias",
+        "legal_sites": 72,
+        "both_faces_reached": 0,
+        "source_reached": 0,
+        "sink_reached": 0,
+        "source_map": []
+      }
+    },
+    {
+      "ball": "AA8",
+      "start_nm": [
+        31200000,
+        15175000
+      ],
+      "bank_target_nm": [
+        28980000,
+        17000000
+      ],
+      "access": {
+        "connected": false,
+        "kind": "two through vias",
+        "legal_sites": 102,
+        "both_faces_reached": 0,
+        "source_reached": 0,
+        "sink_reached": 0,
+        "source_map": []
+      }
+    },
+    {
+      "ball": "AB4",
+      "start_nm": [
+        28100000,
+        15825000
+      ],
+      "bank_target_nm": [
+        28980000,
+        17000000
+      ],
+      "access": {
+        "connected": false,
+        "kind": "two through vias",
+        "legal_sites": 14,
+        "both_faces_reached": 0,
+        "source_reached": 14,
+        "sink_reached": 0,
+        "source_map": []
+      }
+    },
+    {
+      "ball": "N1",
+      "start_nm": [
+        25600000,
+        9975000
+      ],
+      "bank_target_nm": [
+        25480000,
+        12000000
+      ],
+      "access": {
+        "connected": false,
+        "kind": "two through vias",
+        "legal_sites": 0,
+        "both_faces_reached": 0,
+        "source_reached": 0,
+        "sink_reached": 0,
+        "source_map": []
+      }
+    },
+    {
+      "ball": "N3",
+      "start_nm": [
+        27200000,
+        9975000
+      ],
+      "bank_target_nm": [
+        25480000,
+        12000000
+      ],
+      "access": {
+        "connected": false,
+        "kind": "two through vias",
+        "legal_sites": 0,
+        "both_faces_reached": 0,
+        "source_reached": 0,
+        "sink_reached": 0,
+        "source_map": []
+      }
+    },
+    {
+      "ball": "R1",
+      "start_nm": [
+        25600000,
+        11275000
+      ],
+      "bank_target_nm": [
+        25480000,
+        12000000
+      ],
+      "access": {
+        "connected": false,
+        "kind": "two through vias",
+        "legal_sites": 4,
+        "both_faces_reached": 0,
+        "source_reached": 0,
+        "sink_reached": 0,
+        "source_map": []
+      }
+    },
+    {
+      "ball": "T2",
+      "start_nm": [
+        26400000,
+        11925000
+      ],
+      "bank_target_nm": [
+        25700000,
+        12400000
+      ],
+      "access": {
+        "connected": false,
+        "kind": "two through vias",
+        "legal_sites": 0,
+        "both_faces_reached": 0,
+        "source_reached": 0,
+        "sink_reached": 0,
+        "source_map": []
+      }
+    },
+    {
+      "ball": "U3",
+      "start_nm": [
+        27200000,
+        12575000
+      ],
+      "bank_target_nm": [
+        25800000,
+        12800000
+      ],
+      "access": {
+        "connected": false,
+        "kind": "two through vias",
+        "legal_sites": 0,
+        "both_faces_reached": 0,
+        "source_reached": 0,
+        "sink_reached": 0,
+        "source_map": []
+      }
+    },
+    {
+      "ball": "W1",
+      "start_nm": [
+        25600000,
+        13875000
+      ],
+      "bank_target_nm": [
+        25715000,
+        13735000
+      ],
+      "access": {
+        "connected": false,
+        "kind": "two through vias",
+        "legal_sites": 8,
+        "both_faces_reached": 0,
+        "source_reached": 0,
+        "sink_reached": 0,
+        "source_map": []
+      }
+    },
+    {
+      "ball": "W5",
+      "start_nm": [
+        28800000,
+        13875000
+      ],
+      "bank_target_nm": [
+        25950000,
+        13970000
+      ],
+      "access": {
+        "connected": false,
+        "kind": "two through vias",
+        "legal_sites": 0,
+        "both_faces_reached": 0,
+        "source_reached": 0,
+        "sink_reached": 0,
+        "source_map": []
+      }
+    }
+  ],
+  "assembly_ready": false
+}

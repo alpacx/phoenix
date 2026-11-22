@@ -1,0 +1,30 @@
+{
+  "board_sha256": "6d5f5c3572208704a5463c1c15e6620338edb089fa9301e1dc69487cc0e9ad05",
+  "board": "runs/ddr-clock-a-split-copper-positive-ram/phy-joint.kicad_pcb",
+  "rows": [
+    {
+      "net": "LPDDR4_CLKP_A",
+      "source": "U1.B13",
+      "sink": "U2.J8",
+      "connected": false
+    },
+    {
+      "net": "LPDDR4_CLKN_A",
+      "source": "U1.A13",
+      "sink": "U2.J9",
+      "connected": true
+    },
+    {
+      "net": "LPDDR4_CLKP_B",
+      "source": "U1.B15",
+      "sink": "U2.P8",
+      "connected": true
+    },
+    {
+      "net": "LPDDR4_CLKN_B",
+      "source": "U1.A15",
+      "sink": "U2.P9",
+      "connected": true
+    }
+  ]
+}

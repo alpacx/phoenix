@@ -1,0 +1,88 @@
+{
+  "parent_sha256": "02a1533baeddff4eacdbcbc8b6e6ea209aa1dd280f7ff08d73bccf7d0e228c8d",
+  "rows": [
+    {
+      "style": "direct",
+      "start": [
+        56100000,
+        16050000
+      ],
+      "end": [
+        57125000,
+        13300000
+      ],
+      "obstacles": [
+        [
+          "GND",
+          "86d79712-16ea-41a0-b8c8-e7837fcd655d"
+        ]
+      ]
+    },
+    {
+      "style": "original-and-new-via",
+      "start": [
+        56100000,
+        16050000
+      ],
+      "end": [
+        57700000,
+        13350000
+      ],
+      "obstacles": [
+        [
+          "VDDA0V9_PMU",
+          "2ec857c3-325f-4c09-a17a-e4477416ecb0"
+        ],
+        [
+          "VDDA0V9_PMU",
+          "533efdae-eab4-41e9-b72d-773f288077d8"
+        ],
+        [
+          "VDDA0V9_PMU",
+          "893ce286-cebd-4680-9d12-d635b362a7b2"
+        ],
+        [
+          "VDDA0V9_PMU",
+          "aa9b23c1-5387-4783-b315-547bdc232c3a"
+        ],
+        [
+          "VDDA0V9_PMU",
+          "fcdb225b-f75a-4e1a-a07c-f894c8a28e3c"
+        ],
+        [
+          "VDDA0V9_PMU",
+          "20794810-8126-4930-b604-f267592b7312"
+        ]
+      ]
+    },
+    {
+      "style": "original-and-new-via",
+      "start": [
+        57700000,
+        13350000
+      ],
+      "end": [
+        57125000,
+        13300000
+      ],
+      "obstacles": [
+        [
+          "VDDA0V9_PMU",
+          "533efdae-eab4-41e9-b72d-773f288077d8"
+        ],
+        [
+          "VDDA0V9_PMU",
+          "893ce286-cebd-4680-9d12-d635b362a7b2"
+        ],
+        [
+          "VDDA0V9_PMU",
+          "aa9b23c1-5387-4783-b315-547bdc232c3a"
+        ],
+        [
+          "VDDA0V9_PMU",
+          "fcdb225b-f75a-4e1a-a07c-f894c8a28e3c"
+        ]
+      ]
+    }
+  ]
+}

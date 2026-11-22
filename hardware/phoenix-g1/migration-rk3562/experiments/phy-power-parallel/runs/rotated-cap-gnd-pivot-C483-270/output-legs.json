@@ -1,0 +1,2305 @@
+{
+  "verified_base_sha256": "ec0cae86786864ee0b90974e897f725df433e94b405c47c47afa5cfb2cf56ddc",
+  "coupon_parent": "a2b9f20b349b10c8aa7d4d567c898700053fff8b8dd410f7c3f0300bd5393b5f",
+  "adopted": false,
+  "rows": [
+    {
+      "stage": 3,
+      "role": "LC output",
+      "net": "+1V1_LPDDR4",
+      "width_mm": 0.6,
+      "connected": true,
+      "kind": "two through vias",
+      "via_centres_nm": [
+        [
+          52700000,
+          8900000
+        ],
+        [
+          52200000,
+          9300000
+        ]
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "spacing_mm": 0.6403124237432849,
+      "branches_nm": [
+        [
+          [
+            [
+              53490000,
+              9850000
+            ],
+            [
+              52700000,
+              9060000
+            ],
+            [
+              52700000,
+              8900000
+            ]
+          ],
+          [
+            [
+              53490000,
+              9700000
+            ],
+            [
+              52700000,
+              8910000
+            ],
+            [
+              52700000,
+              8900000
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              53490000,
+              9850000
+            ],
+            [
+              52940000,
+              9300000
+            ],
+            [
+              52200000,
+              9300000
+            ]
+          ],
+          [
+            [
+              53490000,
+              9700000
+            ],
+            [
+              53090000,
+              9300000
+            ],
+            [
+              52200000,
+              9300000
+            ]
+          ]
+        ]
+      ],
+      "native_connected": true
+    },
+    {
+      "stage": 1,
+      "role": "LC output",
+      "net": "VDD_LOGIC",
+      "width_mm": 0.6,
+      "connected": true,
+      "kind": "two through vias",
+      "via_centres_nm": [
+        [
+          56200000,
+          3300000
+        ],
+        [
+          56100000,
+          3900000
+        ]
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "spacing_mm": 0.6082762530298219,
+      "branches_nm": [
+        [
+          [
+            [
+              57150000,
+              3590000
+            ],
+            [
+              56860000,
+              3300000
+            ],
+            [
+              56200000,
+              3300000
+            ]
+          ],
+          [
+            [
+              57150000,
+              3840000
+            ],
+            [
+              56610000,
+              3300000
+            ],
+            [
+              56200000,
+              3300000
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              57150000,
+              3590000
+            ],
+            [
+              56840000,
+              3900000
+            ],
+            [
+              56100000,
+              3900000
+            ]
+          ],
+          [
+            [
+              57150000,
+              3840000
+            ],
+            [
+              57090000,
+              3900000
+            ],
+            [
+              56100000,
+              3900000
+            ]
+          ]
+        ]
+      ],
+      "native_connected": true
+    },
+    {
+      "stage": 2,
+      "role": "LC output",
+      "net": "VDD_GPU",
+      "width_mm": 0.6,
+      "connected": true,
+      "kind": "two through vias",
+      "via_centres_nm": [
+        [
+          60550000,
+          2515000
+        ],
+        [
+          60500000,
+          1800000
+        ]
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "spacing_mm": 0.7167461196267476,
+      "branches_nm": [
+        [
+          [
+            [
+              60700000,
+              2590000
+            ],
+            [
+              60625000,
+              2515000
+            ],
+            [
+              60550000,
+              2515000
+            ]
+          ],
+          [
+            [
+              61350000,
+              1990000
+            ],
+            [
+              60825000,
+              2515000
+            ],
+            [
+              60550000,
+              2515000
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              60700000,
+              2590000
+            ],
+            [
+              60500000,
+              2390000
+            ],
+            [
+              60500000,
+              1800000
+            ]
+          ],
+          [
+            [
+              61350000,
+              1990000
+            ],
+            [
+              61160000,
+              1800000
+            ],
+            [
+              60500000,
+              1800000
+            ]
+          ]
+        ]
+      ],
+      "native_connected": true
+    },
+    {
+      "stage": 4,
+      "role": "LC output",
+      "net": "VDD_NPU",
+      "width_mm": 0.6,
+      "connected": true,
+      "kind": "two through vias",
+      "via_centres_nm": [
+        [
+          67110000,
+          8550000
+        ],
+        [
+          67110000,
+          9150000
+        ]
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "spacing_mm": 0.6,
+      "branches_nm": [
+        [
+          [
+            [
+              67010000,
+              8850000
+            ],
+            [
+              67110000,
+              8750000
+            ],
+            [
+              67110000,
+              8550000
+            ]
+          ],
+          [
+            [
+              67260000,
+              8850000
+            ],
+            [
+              67110000,
+              8700000
+            ],
+            [
+              67110000,
+              8550000
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              67010000,
+              8850000
+            ],
+            [
+              67110000,
+              8950000
+            ],
+            [
+              67110000,
+              9150000
+            ]
+          ],
+          [
+            [
+              67260000,
+              8850000
+            ],
+            [
+              67110000,
+              9000000
+            ],
+            [
+              67110000,
+              9150000
+            ]
+          ]
+        ]
+      ],
+      "native_connected": true
+    },
+    {
+      "stage": 5,
+      "role": "LC output",
+      "net": "+1V8_SYS",
+      "width_mm": 0.6,
+      "connected": true,
+      "kind": "two through vias",
+      "via_centres_nm": [
+        [
+          67935000,
+          11825000
+        ],
+        [
+          67935000,
+          11225000
+        ]
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "spacing_mm": 0.6,
+      "branches_nm": [
+        [
+          [
+            [
+              66810000,
+              11950000
+            ],
+            [
+              66935000,
+              11825000
+            ],
+            [
+              67935000,
+              11825000
+            ]
+          ],
+          [
+            [
+              68160000,
+              11450000
+            ],
+            [
+              67935000,
+              11675000
+            ],
+            [
+              67935000,
+              11825000
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              66810000,
+              11950000
+            ],
+            [
+              67535000,
+              11225000
+            ],
+            [
+              67935000,
+              11225000
+            ]
+          ],
+          [
+            [
+              68160000,
+              11450000
+            ],
+            [
+              67935000,
+              11225000
+            ],
+            [
+              67935000,
+              11225000
+            ]
+          ]
+        ]
+      ],
+      "native_connected": true
+    },
+    {
+      "stage": 3,
+      "role": "PMIC to input bypass",
+      "net": "+3V3_SYS",
+      "width_mm": 0.5,
+      "connected": false,
+      "launch_candidates": 3,
+      "native_connected": false
+    },
+    {
+      "stage": 1,
+      "role": "PMIC to input bypass",
+      "net": "+3V3_SYS",
+      "width_mm": 0.5,
+      "connected": false,
+      "kind": "two through vias",
+      "legal_sites": 0,
+      "both_faces_reached": 0,
+      "source_reached": 0,
+      "sink_reached": 0,
+      "source_map": [],
+      "native_connected": false
+    },
+    {
+      "stage": 2,
+      "role": "PMIC to input bypass",
+      "net": "+3V3_SYS",
+      "width_mm": 0.5,
+      "connected": false,
+      "kind": "two through vias",
+      "legal_sites": 0,
+      "both_faces_reached": 0,
+      "source_reached": 0,
+      "sink_reached": 0,
+      "source_map": [],
+      "native_connected": false
+    },
+    {
+      "stage": 4,
+      "role": "PMIC to input bypass",
+      "net": "+3V3_SYS",
+      "width_mm": 0.5,
+      "connected": false,
+      "launch_candidates": 0,
+      "native_connected": false
+    },
+    {
+      "stage": 5,
+      "role": "PMIC to input bypass",
+      "net": "+3V3_SYS",
+      "width_mm": 0.5,
+      "connected": false,
+      "kind": "two through vias",
+      "legal_sites": 47,
+      "both_faces_reached": 0,
+      "source_reached": 39,
+      "sink_reached": 0,
+      "source_map": [
+        {
+          "pt_nm": [
+            64200000,
+            10100000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              64525000,
+              10100000
+            ],
+            [
+              64200000,
+              10100000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            64200000,
+            10200000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              64625000,
+              10200000
+            ],
+            [
+              64200000,
+              10200000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            64300000,
+            10100000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              64525000,
+              10100000
+            ],
+            [
+              64300000,
+              10100000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            64300000,
+            10200000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              64625000,
+              10200000
+            ],
+            [
+              64300000,
+              10200000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            64300000,
+            10300000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              64725000,
+              10300000
+            ],
+            [
+              64300000,
+              10300000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            64400000,
+            10100000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              64525000,
+              10100000
+            ],
+            [
+              64400000,
+              10100000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            64400000,
+            10200000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              64625000,
+              10200000
+            ],
+            [
+              64400000,
+              10200000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            64400000,
+            10300000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              64725000,
+              10300000
+            ],
+            [
+              64400000,
+              10300000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            64500000,
+            10100000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              64525000,
+              10100000
+            ],
+            [
+              64500000,
+              10100000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            64500000,
+            10200000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              64625000,
+              10200000
+            ],
+            [
+              64500000,
+              10200000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            64500000,
+            10300000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              64725000,
+              10300000
+            ],
+            [
+              64500000,
+              10300000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            64600000,
+            10100000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              64600000,
+              10175000
+            ],
+            [
+              64600000,
+              10100000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            64600000,
+            10200000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              64625000,
+              10200000
+            ],
+            [
+              64600000,
+              10200000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            64600000,
+            10300000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              64725000,
+              10300000
+            ],
+            [
+              64600000,
+              10300000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            64700000,
+            10100000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              64700000,
+              10275000
+            ],
+            [
+              64700000,
+              10100000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            64700000,
+            10200000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              64700000,
+              10275000
+            ],
+            [
+              64700000,
+              10200000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            64700000,
+            10300000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              64725000,
+              10300000
+            ],
+            [
+              64700000,
+              10300000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            64800000,
+            10100000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              64800000,
+              10375000
+            ],
+            [
+              64800000,
+              10100000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            64800000,
+            10200000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              64800000,
+              10375000
+            ],
+            [
+              64800000,
+              10200000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            64800000,
+            10300000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              64800000,
+              10375000
+            ],
+            [
+              64800000,
+              10300000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            64900000,
+            10200000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              64900000,
+              10475000
+            ],
+            [
+              64900000,
+              10200000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            64900000,
+            10300000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              64900000,
+              10475000
+            ],
+            [
+              64900000,
+              10300000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            65000000,
+            10200000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              65000000,
+              10575000
+            ],
+            [
+              65000000,
+              10200000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            65000000,
+            10300000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              65000000,
+              10575000
+            ],
+            [
+              65000000,
+              10300000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            65100000,
+            10200000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              65100000,
+              10475000
+            ],
+            [
+              65100000,
+              10200000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            65100000,
+            10300000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              65100000,
+              10475000
+            ],
+            [
+              65100000,
+              10300000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            65100000,
+            10400000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              65100000,
+              10475000
+            ],
+            [
+              65100000,
+              10400000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            65200000,
+            10300000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              65200000,
+              10375000
+            ],
+            [
+              65200000,
+              10300000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            65200000,
+            10400000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              65175000,
+              10400000
+            ],
+            [
+              65200000,
+              10400000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            65300000,
+            10300000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              65275000,
+              10300000
+            ],
+            [
+              65300000,
+              10300000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            65300000,
+            10400000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              65175000,
+              10400000
+            ],
+            [
+              65300000,
+              10400000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            65300000,
+            10500000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              65075000,
+              10500000
+            ],
+            [
+              65300000,
+              10500000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            65400000,
+            10300000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              65275000,
+              10300000
+            ],
+            [
+              65400000,
+              10300000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            65400000,
+            10400000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              65175000,
+              10400000
+            ],
+            [
+              65400000,
+              10400000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            65400000,
+            10500000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              65075000,
+              10500000
+            ],
+            [
+              65400000,
+              10500000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            65500000,
+            10300000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              65275000,
+              10300000
+            ],
+            [
+              65500000,
+              10300000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            65500000,
+            10400000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              65175000,
+              10400000
+            ],
+            [
+              65500000,
+              10400000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            65500000,
+            10500000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              65075000,
+              10500000
+            ],
+            [
+              65500000,
+              10500000
+            ]
+          ]
+        },
+        {
+          "pt_nm": [
+            65600000,
+            10500000
+          ],
+          "route_nm": [
+            [
+              65000000,
+              10575000
+            ],
+            [
+              65075000,
+              10500000
+            ],
+            [
+              65600000,
+              10500000
+            ]
+          ]
+        }
+      ],
+      "placement_result": {
+        "connected": false,
+        "counts": {
+          "bodies": 24,
+          "pads": 6,
+          "single_via": 0,
+          "both_vias": 0,
+          "divider": 0
+        },
+        "kind": "relocation screen",
+        "feasible_supply_poses": 0,
+        "ground_failures": 0
+      },
+      "native_connected": false
+    },
+    {
+      "stage": 3,
+      "role": "C42 ground",
+      "net": "GND",
+      "width_mm": 0.5,
+      "connected": false,
+      "kind": "two through vias",
+      "legal_sites": 18,
+      "both_faces_reached": 18,
+      "source_reached": 18,
+      "sink_reached": 18,
+      "source_map": [],
+      "native_connected": false
+    },
+    {
+      "stage": 3,
+      "role": "C43 ground",
+      "net": "GND",
+      "width_mm": 0.5,
+      "connected": false,
+      "kind": "two through vias",
+      "legal_sites": 2,
+      "both_faces_reached": 2,
+      "source_reached": 2,
+      "sink_reached": 2,
+      "source_map": [],
+      "native_connected": false
+    },
+    {
+      "stage": 1,
+      "role": "C42 ground",
+      "net": "GND",
+      "width_mm": 0.5,
+      "connected": false,
+      "kind": "two through vias",
+      "legal_sites": 0,
+      "both_faces_reached": 0,
+      "source_reached": 0,
+      "sink_reached": 0,
+      "source_map": [],
+      "native_connected": false
+    },
+    {
+      "stage": 1,
+      "role": "C43 ground",
+      "net": "GND",
+      "width_mm": 0.5,
+      "connected": false,
+      "kind": "two through vias",
+      "legal_sites": 8,
+      "both_faces_reached": 8,
+      "source_reached": 8,
+      "sink_reached": 8,
+      "source_map": [],
+      "native_connected": false
+    },
+    {
+      "stage": 2,
+      "role": "C42 ground",
+      "net": "GND",
+      "width_mm": 0.5,
+      "connected": false,
+      "kind": "two through vias",
+      "legal_sites": 0,
+      "both_faces_reached": 0,
+      "source_reached": 0,
+      "sink_reached": 0,
+      "source_map": [],
+      "native_connected": false
+    },
+    {
+      "stage": 2,
+      "role": "C43 ground",
+      "net": "GND",
+      "width_mm": 0.5,
+      "connected": false,
+      "kind": "two through vias",
+      "legal_sites": 0,
+      "both_faces_reached": 0,
+      "source_reached": 0,
+      "sink_reached": 0,
+      "source_map": [],
+      "native_connected": false
+    },
+    {
+      "stage": 4,
+      "role": "C42 ground",
+      "net": "GND",
+      "width_mm": 0.5,
+      "connected": false,
+      "kind": "two through vias",
+      "legal_sites": 14,
+      "both_faces_reached": 8,
+      "source_reached": 8,
+      "sink_reached": 14,
+      "source_map": [],
+      "native_connected": false
+    },
+    {
+      "stage": 4,
+      "role": "C43 ground",
+      "net": "GND",
+      "width_mm": 0.5,
+      "connected": true,
+      "kind": "two through vias",
+      "via_centres_nm": [
+        [
+          69160000,
+          8550000
+        ],
+        [
+          69160000,
+          9150000
+        ]
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "spacing_mm": 0.6,
+      "branches_nm": [
+        [
+          [
+            [
+              69160000,
+              8850000
+            ],
+            [
+              69160000,
+              8850000
+            ],
+            [
+              69160000,
+              8550000
+            ]
+          ],
+          [
+            [
+              69160000,
+              8550000
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              69160000,
+              8850000
+            ],
+            [
+              69160000,
+              8850000
+            ],
+            [
+              69160000,
+              9150000
+            ]
+          ],
+          [
+            [
+              69160000,
+              9150000
+            ]
+          ]
+        ]
+      ],
+      "native_connected": true
+    },
+    {
+      "stage": 5,
+      "role": "C42 ground",
+      "net": "GND",
+      "width_mm": 0.5,
+      "connected": true,
+      "kind": "two existing ground barrels",
+      "anchors_nm": [
+        [
+          60000000,
+          10000000
+        ],
+        [
+          61000000,
+          10000000
+        ]
+      ],
+      "anchor_ids": [
+        "270fc93f-0972-402c-81ab-580d0f265e77",
+        "1e22eb36-1094-4260-9e5e-c911221aa32b"
+      ],
+      "native_connected": true
+    },
+    {
+      "stage": 5,
+      "role": "C43 ground",
+      "net": "GND",
+      "width_mm": 0.5,
+      "connected": true,
+      "kind": "two through vias",
+      "via_centres_nm": [
+        [
+          70060000,
+          11150000
+        ],
+        [
+          70060000,
+          11750000
+        ]
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "spacing_mm": 0.6,
+      "branches_nm": [
+        [
+          [
+            [
+              70060000,
+              11450000
+            ],
+            [
+              70060000,
+              11450000
+            ],
+            [
+              70060000,
+              11150000
+            ]
+          ],
+          [
+            [
+              70060000,
+              11150000
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              70060000,
+              11450000
+            ],
+            [
+              70060000,
+              11450000
+            ],
+            [
+              70060000,
+              11750000
+            ]
+          ],
+          [
+            [
+              70060000,
+              11750000
+            ]
+          ]
+        ]
+      ],
+      "native_connected": true
+    }
+  ],
+  "new_delta": [],
+  "board_sha256": "5e1f23b4dad7a5e08a1a3f34877fbfa584e170c2f227c1d93bb68506f117fd19",
+  "boundary_recovery": {
+    "restored": {
+      "413a3628-81f2-4cdc-b25d-e03b824dde60": "VDD_CPU",
+      "c1109a21-93f2-4b8f-b184-be0ed79f61d8": "VDD_CPU"
+    },
+    "introduced": [],
+    "attempts": [
+      {
+        "tested": 12,
+        "blocking": [
+          {
+            "type": "shorting_items",
+            "severity": "error",
+            "items": [
+              "56ffebce-9a2a-4a7d-84f2-fab4941df425",
+              "be534353-feae-4313-8076-dccf4b7c30c8"
+            ],
+            "count": 1
+          },
+          {
+            "type": "shorting_items",
+            "severity": "error",
+            "items": [
+              "091156e0-cf61-4320-901b-220edc1d75d4",
+              "ba78e303-ea2d-4cbf-8d6f-3f20eff43277"
+            ],
+            "count": 1
+          },
+          {
+            "type": "shorting_items",
+            "severity": "error",
+            "items": [
+              "4ac50ca0-aece-4531-8d7d-6b7665a2b750",
+              "b91a5f5e-6b77-4762-b592-c2f62228cd6b"
+            ],
+            "count": 1
+          },
+          {
+            "type": "shorting_items",
+            "severity": "error",
+            "items": [
+              "18e86a3a-2384-44ea-b204-9e4caad3062c",
+              "b566cb28-75ad-4d8d-af5d-75bc479b4e66"
+            ],
+            "count": 1
+          },
+          {
+            "type": "shorting_items",
+            "severity": "error",
+            "items": [
+              "4eceb2ff-1c02-45bb-8ee1-36933ff186b3",
+              "76f76d9f-812f-4e2a-83b7-d568641796a7"
+            ],
+            "count": 1
+          },
+          {
+            "type": "shorting_items",
+            "severity": "error",
+            "items": [
+              "32973b35-c219-48c7-ac20-1baa609dfe8d",
+              "3fb4e36b-f845-4de1-a880-09933bd659eb"
+            ],
+            "count": 1
+          },
+          {
+            "type": "clearance",
+            "severity": "error",
+            "items": [
+              "32973b35-c219-48c7-ac20-1baa609dfe8d",
+              "ad1c2ba2-ccd0-45ff-ac8f-651c971462ae"
+            ],
+            "count": 1
+          },
+          {
+            "type": "clearance",
+            "severity": "error",
+            "items": [
+              "32973b35-c219-48c7-ac20-1baa609dfe8d",
+              "891bfaa1-76f7-4c33-9f73-274ea5b23538"
+            ],
+            "count": 1
+          },
+          {
+            "type": "shorting_items",
+            "severity": "error",
+            "items": [
+              "32973b35-c219-48c7-ac20-1baa609dfe8d",
+              "88b4f149-6e01-4f9b-83c1-b083e4521c93"
+            ],
+            "count": 1
+          },
+          {
+            "type": "shorting_items",
+            "severity": "error",
+            "items": [
+              "7dbdee6c-e552-4499-91a4-74d9c305f451",
+              "b60cbff6-9da0-4e94-825f-938773e7accf"
+            ],
+            "count": 1
+          },
+          {
+            "type": "shorting_items",
+            "severity": "error",
+            "items": [
+              "4b6cb047-8763-4cf2-bcde-e9392ab99d13",
+              "b91a5f5e-6b77-4762-b592-c2f62228cd6b"
+            ],
+            "count": 1
+          },
+          {
+            "type": "shorting_items",
+            "severity": "error",
+            "items": [
+              "4622caf4-0bff-48e1-a182-d5e270e3f763",
+              "b91a5f5e-6b77-4762-b592-c2f62228cd6b"
+            ],
+            "count": 1
+          },
+          {
+            "type": "shorting_items",
+            "severity": "error",
+            "items": [
+              "56fe2f37-6b47-48d4-977a-85027780bf28",
+              "b91a5f5e-6b77-4762-b592-c2f62228cd6b"
+            ],
+            "count": 1
+          },
+          {
+            "type": "shorting_items",
+            "severity": "error",
+            "items": [
+              "45883a8b-86da-49ac-b0bf-fdf3dc31f684",
+              "b91a5f5e-6b77-4762-b592-c2f62228cd6b"
+            ],
+            "count": 1
+          },
+          {
+            "type": "shorting_items",
+            "severity": "error",
+            "items": [
+              "28ef2a0d-0047-438d-b799-279db6159a1f",
+              "56ffebce-9a2a-4a7d-84f2-fab4941df425"
+            ],
+            "count": 1
+          },
+          {
+            "type": "shorting_items",
+            "severity": "error",
+            "items": [
+              "440a28c0-a889-46e0-a35e-35211d2f337d",
+              "56ffebce-9a2a-4a7d-84f2-fab4941df425"
+            ],
+            "count": 1
+          },
+          {
+            "type": "shorting_items",
+            "severity": "error",
+            "items": [
+              "16bca508-57e5-4440-bb15-6b2e4d3766f1",
+              "56ffebce-9a2a-4a7d-84f2-fab4941df425"
+            ],
+            "count": 1
+          },
+          {
+            "type": "clearance",
+            "severity": "error",
+            "items": [
+              "3065714a-65c2-48a6-a8c8-294353f16b01",
+              "56ffebce-9a2a-4a7d-84f2-fab4941df425"
+            ],
+            "count": 1
+          },
+          {
+            "type": "hole_clearance",
+            "severity": "error",
+            "items": [
+              "4eceb2ff-1c02-45bb-8ee1-36933ff186b3",
+              "76f76d9f-812f-4e2a-83b7-d568641796a7"
+            ],
+            "count": 1
+          },
+          {
+            "type": "hole_clearance",
+            "severity": "error",
+            "items": [
+              "18e86a3a-2384-44ea-b204-9e4caad3062c",
+              "b566cb28-75ad-4d8d-af5d-75bc479b4e66"
+            ],
+            "count": 1
+          },
+          {
+            "type": "hole_clearance",
+            "severity": "error",
+            "items": [
+              "32973b35-c219-48c7-ac20-1baa609dfe8d",
+              "3fb4e36b-f845-4de1-a880-09933bd659eb"
+            ],
+            "count": 1
+          },
+          {
+            "type": "solder_mask_bridge",
+            "severity": "error",
+            "items": [
+              "32973b35-c219-48c7-ac20-1baa609dfe8d",
+              "88b4f149-6e01-4f9b-83c1-b083e4521c93"
+            ],
+            "count": 1
+          },
+          {
+            "type": "solder_mask_bridge",
+            "severity": "error",
+            "items": [
+              "7dbdee6c-e552-4499-91a4-74d9c305f451",
+              "b60cbff6-9da0-4e94-825f-938773e7accf"
+            ],
+            "count": 1
+          },
+          {
+            "type": "solder_mask_bridge",
+            "severity": "error",
+            "items": [
+              "32973b35-c219-48c7-ac20-1baa609dfe8d",
+              "3fb4e36b-f845-4de1-a880-09933bd659eb"
+            ],
+            "count": 1
+          },
+          {
+            "type": "solder_mask_bridge",
+            "severity": "error",
+            "items": [
+              "18e86a3a-2384-44ea-b204-9e4caad3062c",
+              "b566cb28-75ad-4d8d-af5d-75bc479b4e66"
+            ],
+            "count": 1
+          },
+          {
+            "type": "solder_mask_bridge",
+            "severity": "error",
+            "items": [
+              "4eceb2ff-1c02-45bb-8ee1-36933ff186b3",
+              "76f76d9f-812f-4e2a-83b7-d568641796a7"
+            ],
+            "count": 1
+          },
+          {
+            "type": "solder_mask_bridge",
+            "severity": "error",
+            "items": [
+              "4ac50ca0-aece-4531-8d7d-6b7665a2b750",
+              "b91a5f5e-6b77-4762-b592-c2f62228cd6b"
+            ],
+            "count": 1
+          },
+          {
+            "type": "solder_mask_bridge",
+            "severity": "error",
+            "items": [
+              "091156e0-cf61-4320-901b-220edc1d75d4",
+              "cae830be-a315-44b1-b74d-872b21e158ed"
+            ],
+            "count": 1
+          },
+          {
+            "type": "solder_mask_bridge",
+            "severity": "error",
+            "items": [
+              "56ffebce-9a2a-4a7d-84f2-fab4941df425",
+              "be534353-feae-4313-8076-dccf4b7c30c8"
+            ],
+            "count": 1
+          },
+          {
+            "type": "solder_mask_bridge",
+            "severity": "error",
+            "items": [
+              "56ffebce-9a2a-4a7d-84f2-fab4941df425",
+              "bcd6a12f-d85c-4027-8c5b-8189036b307b"
+            ],
+            "count": 1
+          },
+          {
+            "type": "solder_mask_bridge",
+            "severity": "error",
+            "items": [
+              "4eceb2ff-1c02-45bb-8ee1-36933ff186b3",
+              "56ffebce-9a2a-4a7d-84f2-fab4941df425"
+            ],
+            "count": 1
+          }
+        ]
+      },
+      {
+        "tested": 2,
+        "blocking": []
+      }
+    ]
+  },
+  "divider_restoration": {
+    "rows": [
+      {
+        "left": "R410.2",
+        "right": "R411.1",
+        "path": [
+          [
+            64.5,
+            8.49
+          ],
+          [
+            64.5,
+            8.5
+          ],
+          [
+            64.45,
+            8.5
+          ],
+          [
+            63.800000000000004,
+            7.8500000000000005
+          ],
+          [
+            62.6,
+            7.8500000000000005
+          ],
+          [
+            62.400000000000006,
+            8.05
+          ],
+          [
+            62.400000000000006,
+            8.1
+          ],
+          [
+            62.35,
+            8.15
+          ],
+          [
+            62.35,
+            8.200000000000001
+          ],
+          [
+            62.300000000000004,
+            8.25
+          ],
+          [
+            62.300000000000004,
+            8.3
+          ],
+          [
+            62.25,
+            8.35
+          ],
+          [
+            62.25,
+            8.450000000000001
+          ],
+          [
+            62.2,
+            8.5
+          ],
+          [
+            62.19,
+            8.5
+          ]
+        ],
+        "length_mm": 3.004924240491752,
+        "connected_after_reload": true
+      },
+      {
+        "left": "R411.1",
+        "right": "C410.1",
+        "reason": "no rear route",
+        "connected_after_reload": false
+      },
+      {
+        "left": "R410.2",
+        "right": "C410.1",
+        "reason": "no rear route",
+        "connected_after_reload": false
+      }
+    ],
+    "delta": []
+  },
+  "filter_fit": {
+    "selected": {
+      "xy_nm": [
+        60200000,
+        7200000
+      ],
+      "angle": 180,
+      "sense_mm": 2.0463455967290596,
+      "ground_mm": 0.9159797974644667
+    },
+    "counts": {
+      "placement": 197,
+      "sense": 35,
+      "combined": 35
+    },
+    "rejected": []
+  },
+  "sense_vias": [
+    {
+      "source": "R411.2",
+      "connected": true,
+      "attempts": [
+        {
+          "via_nm": [
+            64200000,
+            10200000
+          ],
+          "target": "U4.69",
+          "length_mm": 2.1435028842544406,
+          "introduced": [],
+          "connected": true
+        }
+      ]
+    },
+    {
+      "source": "U4.61",
+      "connected": false,
+      "attempts": []
+    },
+    {
+      "source": "U4.59",
+      "connected": false,
+      "attempts": []
+    }
+  ],
+  "inner_sense_vias": [
+    {
+      "source": "U4.59",
+      "connected": true,
+      "possible": 84,
+      "attempts": [
+        {
+          "target": "C435.1",
+          "layer": "In2.Cu",
+          "length_mm": 5.169848480983499,
+          "source_via_nm": [
+            65650000,
+            10600000
+          ],
+          "target_via_nm": [
+            67400000,
+            10800000
+          ],
+          "introduced": [],
+          "connected": true
+        }
+      ]
+    },
+    {
+      "source": "U4.61",
+      "connected": false,
+      "possible": 0,
+      "attempts": []
+    }
+  ],
+  "addon_spine": [
+    {
+      "bank": "1",
+      "via_mm": [
+        0.6,
+        0.3
+      ],
+      "options": 254,
+      "connected": true,
+      "trials": [
+        {
+          "at": [
+            64200000,
+            3150000
+          ],
+          "mm": 2.17634559672906,
+          "delta": [],
+          "connected": true
+        }
+      ]
+    },
+    {
+      "bank": "2",
+      "via_mm": [
+        0.6,
+        0.3
+      ],
+      "options": 647,
+      "connected": true,
+      "trials": [
+        {
+          "at": [
+            64800000,
+            3150000
+          ],
+          "mm": 1.5,
+          "delta": [],
+          "connected": true
+        }
+      ]
+    }
+  ],
+  "secondary_output_fit": {
+    "selected": {
+      "xy_nm": [
+        69800000,
+        13500000
+      ],
+      "angle": 0,
+      "sense_mm": 2.3358073580374357,
+      "ground_mm": 2.035807358037436
+    },
+    "counts": {
+      "placement": 28,
+      "sense": 8,
+      "combined": 8
+    },
+    "rejected": [],
+    "removed_orphan_tracks": [
+      "11b22396-9d62-4be2-9624-809e9465c977",
+      "62802e78-a1b3-43d8-8854-b259bf60fbc4",
+      "ab53a62d-c889-4264-9536-f5511878d6bc",
+      "60300cdf-6616-43a6-9633-aa18a44bf5ee",
+      "4cd017c1-6fd7-4cd4-b3d5-b13e306dfae0"
+    ]
+  },
+  "parent_coupon_sha256": "b74843419a42d23d6121f8f47bb4a1dfe6c3bdb918b7120193aeaddec5e7977b",
+  "restored_ground_banks": [
+    {
+      "part": "C412",
+      "pair": [
+        "C412.2",
+        "U4.69"
+      ],
+      "width_mm": 0.3,
+      "layout": {
+        "connected": true,
+        "kind": "two existing ground barrels with bent access",
+        "anchors_nm": [
+          [
+            61000000,
+            10000000
+          ],
+          [
+            64200000,
+            10200000
+          ]
+        ],
+        "anchor_ids": [
+          "1e22eb36-1094-4260-9e5e-c911221aa32b",
+          "9bce2f37-6f55-469b-af04-1cd69588d3d0"
+        ],
+        "branches_nm": [
+          [
+            [
+              62940000,
+              10250000
+            ],
+            [
+              62950000,
+              10250000
+            ],
+            [
+              62950000,
+              10200000
+            ],
+            [
+              62500000,
+              9750000
+            ],
+            [
+              62400000,
+              9750000
+            ],
+            [
+              62350000,
+              9700000
+            ],
+            [
+              61300000,
+              9700000
+            ],
+            [
+              61000000,
+              10000000
+            ]
+          ],
+          [
+            [
+              62940000,
+              10250000
+            ],
+            [
+              62990000,
+              10200000
+            ],
+            [
+              64200000,
+              10200000
+            ]
+          ]
+        ]
+      },
+      "existing_groups": 119
+    }
+  ],
+  "failed_ground_banks": [
+    {
+      "part": "C431",
+      "land_positions": 9,
+      "reason": "no paired via or existing barrel pair"
+    },
+    {
+      "part": "C432",
+      "reason": "saved circuit or DRC",
+      "new_drc": [
+        {
+          "type": "copper_edge_clearance",
+          "severity": "error",
+          "items": [
+            "15d22341-b6f9-4837-9ddf-3d81c6ddcb8a",
+            "96ccf6e6-6c15-4770-9764-ae7f67eb55fe"
+          ],
+          "count": 1
+        },
+        {
+          "type": "copper_edge_clearance",
+          "severity": "error",
+          "items": [
+            "96ccf6e6-6c15-4770-9764-ae7f67eb55fe",
+            "bbac2fe3-7bf9-4712-b5ab-739539441a4c"
+          ],
+          "count": 1
+        },
+        {
+          "type": "copper_edge_clearance",
+          "severity": "error",
+          "items": [
+            "96ccf6e6-6c15-4770-9764-ae7f67eb55fe",
+            "edabf7ef-b467-4509-bcdc-f0dd7ae186ed"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "part": "C421",
+      "land_positions": 9,
+      "reason": "no paired via or existing barrel pair"
+    },
+    {
+      "part": "C422",
+      "land_positions": 9,
+      "reason": "no paired via or existing barrel pair"
+    },
+    {
+      "part": "C483",
+      "land_positions": 9,
+      "reason": "no paired via or existing barrel pair"
+    },
+    {
+      "part": "C470",
+      "land_positions": 9,
+      "reason": "no paired via or existing barrel pair"
+    }
+  ],
+  "restored_package_ground": {
+    "board_sha256": "b74843419a42d23d6121f8f47bb4a1dfe6c3bdb918b7120193aeaddec5e7977b",
+    "parent_sha256": "fac6a96f08cbb1c0cd79c48de08f0b5fa4ff1289d4fead2a221ad27db8521f69",
+    "rotation_quarter_turns": 1,
+    "sources": {
+      "14": [
+        "a9f9d6fc-2628-4358-a4b2-4381d8108b64"
+      ],
+      "15": [
+        "df2af4a1-2a12-483b-9557-0d3723523db2"
+      ],
+      "16": [
+        "79159114-5366-4960-b38a-ff763e1758f5"
+      ],
+      "17": [
+        "e5388547-0d71-4af6-b60e-5ab0ffe5c359"
+      ],
+      "19": [
+        "d625ef8c-0f22-49ce-84d1-abafa6ed5f23"
+      ],
+      "40": [
+        "07519239-233d-4603-912d-c9badb0ec5f7"
+      ],
+      "47": [
+        "0563ddf5-d0c3-456e-b239-6fa1924934a6"
+      ],
+      "56": [
+        "c91fbad2-3d59-45dd-a2f8-b7169b5ec71b"
+      ],
+      "62": [
+        "99b968ef-404b-41ca-b23b-b47e96bb5a46"
+      ],
+      "63": [
+        "154a10f6-c824-4cc6-9c16-408e2f3f5dac"
+      ]
+    },
+    "restored": [
+      "14",
+      "15",
+      "16",
+      "17",
+      "19",
+      "40",
+      "47",
+      "56",
+      "62",
+      "63"
+    ],
+    "retained_source_traces": [
+      "a9f9d6fc-2628-4358-a4b2-4381d8108b64",
+      "df2af4a1-2a12-483b-9557-0d3723523db2",
+      "79159114-5366-4960-b38a-ff763e1758f5",
+      "e5388547-0d71-4af6-b60e-5ab0ffe5c359",
+      "d625ef8c-0f22-49ce-84d1-abafa6ed5f23",
+      "07519239-233d-4603-912d-c9badb0ec5f7",
+      "0563ddf5-d0c3-456e-b239-6fa1924934a6",
+      "c91fbad2-3d59-45dd-a2f8-b7169b5ec71b",
+      "99b968ef-404b-41ca-b23b-b47e96bb5a46",
+      "154a10f6-c824-4cc6-9c16-408e2f3f5dac"
+    ],
+    "rejected": [],
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 6637,
+      "explicitly_replaced_copper": {},
+      "added_tracks_vias": 10,
+      "existing_connected_pad_groups_preserved": 119
+    },
+    "new_drc": [],
+    "assembly_ready": false
+  },
+  "pivoted_ground_returns": [
+    {
+      "name": "C483",
+      "rotation": 270,
+      "original_positive_nm": [
+        58980000,
+        12500000
+      ],
+      "component_movement_mm": 0.678823,
+      "width_mm": 0.3,
+      "ground": {
+        "connected": true,
+        "kind": "two existing ground barrels",
+        "anchors_nm": [
+          [
+            59000000,
+            10000000
+          ],
+          [
+            60000000,
+            10000000
+          ]
+        ],
+        "anchor_ids": [
+          "2b0eb43f-acdb-4d97-8268-6afdba12bee8",
+          "270fc93f-0972-402c-81ab-580d0f265e77"
+        ]
+      },
+      "groups_preserved": 119
+    }
+  ]
+}

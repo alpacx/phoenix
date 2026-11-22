@@ -1,0 +1,100 @@
+{
+  "parent_sha256": "4434879e3c5aba8f62a14b22c930fe42c80bdd23b63bbb90926d7abff49eb7c5",
+  "trace_mm": 1,
+  "grid_mm": 0.1,
+  "cases": [
+    {
+      "margin_mm": 2.0,
+      "reachable_terminal_cells": {
+        "P10": 0,
+        "SHIELD0": 0,
+        "SHIELD1": 0
+      },
+      "terminal_nearest": {
+        "P10": [
+          "+5V_MAIN In3.Cu 4ad47d4a-4e66-4ccf-8b08-c63bb1606377",
+          "+5V_MAIN In3.Cu 5fbf4cea-c874-4ff6-89cb-baf118c6a5d1",
+          "+5V_MAIN In3.Cu 8765240c-99d7-4768-8266-63f78a1251a8",
+          "+5V_MAIN In3.Cu a683aaed-8833-4014-b8bb-21ad98c3b15c",
+          "EXP_I2C_SDA B.Cu ff4c1f81-3525-4bc3-afaf-b48e96ff2792",
+          "EXP_I2C_SDA F.Cu e2f50664-92e5-4511-ac18-e5e2bc5ac1bd",
+          "EXP_I2C_SDA In3.Cu 0a5a39f1-96c8-4838-ace2-402caf9551d4",
+          "J2.P8",
+          "J2.P9",
+          "PMIC_SCL B.Cu b3e86b5b-dbd5-44cb-a8f3-4e3552f35965"
+        ],
+        "SHIELD0": [
+          "+5V_MAIN In3.Cu 27167b37-1d81-4437-a2eb-43af4b7abd6f",
+          "+5V_MAIN In3.Cu b676abd0-3ed7-451e-a9a1-ba6e8ae59051",
+          "J2."
+        ],
+        "SHIELD1": [
+          "ETH_CENTER_TAP F.Cu 641da52d-c797-4ee1-b879-8d661398c150",
+          "ETH_CENTER_TAP F.Cu 97faa78d-e2bf-4a33-a980-255acbffd8eb",
+          "ETH_CENTER_TAP F.Cu af25e182-bfc5-4867-8af4-927e607fd531",
+          "ETH_CENTER_TAP F.Cu fc0d4010-f48e-4404-9db0-0bdbedac447b",
+          "EXP_I2C_SDA In3.Cu 92092224-41da-4c57-9cea-d3886eaaec6c",
+          "GND B.Cu 0652f191-90d7-43a4-a1ae-14dd763f63af",
+          "J2.",
+          "R414.1",
+          "R422.1",
+          "R422.2",
+          "U23.10",
+          "U23.6",
+          "U23.7",
+          "U23.8",
+          "U23.9"
+        ]
+      },
+      "routing": [
+        {
+          "terminals": [
+            "P10",
+            "SHIELD0"
+          ],
+          "held": "blocked terminal land"
+        },
+        {
+          "terminals": [
+            "SHIELD0",
+            "SHIELD1"
+          ],
+          "held": "blocked terminal land"
+        }
+      ]
+    },
+    {
+      "margin_mm": 0.508,
+      "reachable_terminal_cells": {
+        "P10": 73,
+        "SHIELD0": 208,
+        "SHIELD1": 77
+      },
+      "terminal_nearest": {
+        "P10": [],
+        "SHIELD0": [],
+        "SHIELD1": []
+      },
+      "routing": [
+        {
+          "terminals": [
+            "P10",
+            "SHIELD0"
+          ],
+          "reachable_states": 100,
+          "path_nm": []
+        },
+        {
+          "terminals": [
+            "SHIELD0",
+            "SHIELD1"
+          ],
+          "reachable_states": 2231,
+          "path_nm": []
+        }
+      ]
+    }
+  ],
+  "scope": "Six-layer projected fixed copper; plane fills omitted only to test best-case future plane removal. A path requires refilled-plane, insulation and EMC checks.",
+  "adopted": false
+}

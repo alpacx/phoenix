@@ -1,0 +1,36 @@
+{
+  "parent_sha256": "528fa45b6924c18b55823b011c3c2dc59f47784e2f2766cbcf3de1e2422b68eb",
+  "proposed": 4038,
+  "bridges": [
+    {
+      "first": "C1609.2",
+      "second": "C1618.2",
+      "length_mm": 2.0544829033116825,
+      "layer": "B.Cu",
+      "ends_nm": [
+        [
+          45980000,
+          17500000
+        ],
+        [
+          46450000,
+          19500000
+        ]
+      ]
+    }
+  ],
+  "board": "runs/ground-surface-bends/phy-joint.kicad_pcb",
+  "sha256": "765bb051007799e8d80accc492bca9c9de6bb19bd18ba242a530982998d7dfb2",
+  "new_drc": [],
+  "remaining_joins": 443,
+  "violations": {
+    "via_dangling": 121
+  },
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 7336,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 1,
+    "existing_connected_pad_groups_preserved": 120
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "parent_sha256": "e6738dbd26ad3122394310983b5263bdbab8c90e0e27c6b5a08e8a711b82e750",
+  "board": "runs/phy-source-R508/phy-joint.kicad_pcb",
+  "sha256": "0bd09179938dae9ffeb71cfcee4ffd1c6a6bbcdb66b46e3ed278c726d4192ccc",
+  "records": [
+    {
+      "ref": "R509",
+      "net": "PHY_RXD2",
+      "geometric_options": 0,
+      "counts": {
+        "courtyard_clear": 80,
+        "pads_clear": 12,
+        "path_clear": 0,
+        "quiet": 0
+      },
+      "adopted": false
+    },
+    {
+      "ref": "R508",
+      "net": "PHY_RXD1",
+      "geometric_options": 2,
+      "counts": {
+        "courtyard_clear": 114,
+        "pads_clear": 2,
+        "path_clear": 0,
+        "quiet": 0
+      },
+      "adopted": true,
+      "pair": [
+        "R508.2",
+        "U5.24"
+      ],
+      "length_mm": 2.2287669529663687,
+      "xy_nm": [
+        65600000,
+        26800000
+      ],
+      "angle": 180
+    },
+    {
+      "ref": "R507",
+      "net": "PHY_RXD0",
+      "geometric_options": 0,
+      "counts": {
+        "courtyard_clear": 20,
+        "pads_clear": 0,
+        "path_clear": 0,
+        "quiet": 0
+      },
+      "adopted": false
+    },
+    {
+      "ref": "R511",
+      "net": "PHY_RXDV_CRS",
+      "geometric_options": 0,
+      "counts": {
+        "courtyard_clear": 36,
+        "pads_clear": 0,
+        "path_clear": 0,
+        "quiet": 0
+      },
+      "adopted": false
+    }
+  ],
+  "assembly_ready": false
+}

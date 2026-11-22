@@ -1,0 +1,57 @@
+{
+  "parent_sha256": "9de9698380a227da65df97d60be822dcdccaa2ac8b91fdf6a030dd58dfebfa06",
+  "original_cpu_pins": [
+    "1D6",
+    "1E3",
+    "1E4",
+    "1E5",
+    "1E6",
+    "1E7"
+  ],
+  "sampled_by_obstacle_count": {
+    "8": 152,
+    "6": 499,
+    "7": 461,
+    "5": 238,
+    "4": 141,
+    "2": 50,
+    "3": 75,
+    "1": 3
+  },
+  "single_blockers": {
+    "C1608.1": 3
+  },
+  "removable_cpu_bypasses_only": [
+    {
+      "position_nm": [
+        41325000,
+        17675000
+      ],
+      "obstacles": [
+        "C1608.1"
+      ]
+    },
+    {
+      "position_nm": [
+        41350000,
+        17700000
+      ],
+      "obstacles": [
+        "C1608.1"
+      ]
+    },
+    {
+      "position_nm": [
+        41375000,
+        17725000
+      ],
+      "obstacles": [
+        "C1608.1"
+      ]
+    }
+  ],
+  "ground_only": [],
+  "branch_options": [],
+  "supply": "+1V1_LPDDR4",
+  "anchor": "1D6"
+}

@@ -1,0 +1,103 @@
+{
+  "parent_sha256": "9f4bdc1783542467156a3fb53695942b28156e85bf71882f0464a19d7b63e2c2",
+  "cap_bulk_clearances_nm": [
+    [
+      -600000,
+      0,
+      250000
+    ],
+    [
+      -650000,
+      -50000,
+      250000
+    ],
+    [
+      -700000,
+      -100000,
+      250000
+    ],
+    [
+      -750000,
+      -150000,
+      250000
+    ],
+    [
+      -800000,
+      -200000,
+      250000
+    ],
+    [
+      -850000,
+      -250000,
+      250000
+    ],
+    [
+      -900000,
+      -300000,
+      250000
+    ]
+  ],
+  "courtyard_poses": 144,
+  "trials": [
+    {
+      "blockers": [
+        "+1V0_PHY",
+        "GND",
+        "PHY_XOUT",
+        "RESET_N"
+      ],
+      "bulk_shift_mm": [
+        -0.2,
+        0.25
+      ],
+      "cap_shift_mm": -0.8,
+      "res_pos_nm": [
+        58950000,
+        32400000
+      ],
+      "orientation": 180,
+      "signal_length_mm": 0.89
+    },
+    {
+      "blockers": [
+        "+1V0_PHY",
+        "GND",
+        "PHY_XOUT",
+        "RESET_N",
+        "U5.38"
+      ],
+      "bulk_shift_mm": [
+        -0.2,
+        0.25
+      ],
+      "cap_shift_mm": -0.8,
+      "res_pos_nm": [
+        58950000,
+        32350000
+      ],
+      "orientation": 180,
+      "signal_length_mm": 0.891403
+    },
+    {
+      "blockers": [
+        "+1V0_PHY",
+        "GND",
+        "PHY_XOUT",
+        "RESET_N",
+        "U5.40"
+      ],
+      "bulk_shift_mm": [
+        -0.2,
+        0.25
+      ],
+      "cap_shift_mm": -0.8,
+      "res_pos_nm": [
+        58950000,
+        32450000
+      ],
+      "orientation": 180,
+      "signal_length_mm": 0.891403
+    }
+  ],
+  "adopted": false
+}

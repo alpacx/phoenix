@@ -1,0 +1,216 @@
+{
+  "source": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/baseline/source.kicad_pcb",
+  "source_sha256": "21c11942a68f62c506769caed42e84f3358d85e159f8b7bc2ba2f87e9014b30f",
+  "candidate": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/joint-001/phy-joint.kicad_pcb",
+  "candidate_sha256": "c66b82a71a06ef9d5c064ab33b5ab9b644f12dee854b8db632ad0d9fb46a138f",
+  "removed": [
+    "0c541bf3-bbce-4754-a808-8fae8d6430d8",
+    "1bba38d7-7e73-4fb9-b28a-93188da40984",
+    "316131d1-f85b-45f5-979f-d14027128cb2",
+    "53ab26e7-af4c-400c-9360-058c38da163c",
+    "873e69c1-df4f-4660-8b44-1b4c19886e58",
+    "d1ab6e3a-bf2b-47af-8cbd-3a7cc26d64d4",
+    "ec5ecaf9-677c-40d3-a2b6-014c7c9a9e90",
+    "15d50017-c15b-49c7-9076-31cb6e95077b",
+    "aa474588-ae66-4e85-827a-745e4b105def",
+    "829cb9a5-35f2-4e3b-81ca-07ef2d39bec9"
+  ],
+  "routes": [
+    {
+      "label": "rxclk_ground",
+      "path_mm": [
+        [
+          62.74,
+          29.5
+        ],
+        [
+          62.75,
+          29.5
+        ],
+        [
+          62.75,
+          29.55
+        ],
+        [
+          62.775000000000006,
+          29.575000000000003
+        ],
+        [
+          62.775000000000006,
+          29.725
+        ],
+        [
+          63.175000000000004,
+          30.125
+        ],
+        [
+          66.15,
+          30.125
+        ]
+      ],
+      "width_mm": 0.2,
+      "net": "GND",
+      "layer": "B.Cu",
+      "guard": {
+        "net": "GND",
+        "width_mm": 0.2,
+        "segments": 6,
+        "width_preserved": true,
+        "current_rating_qualified": false
+      },
+      "length_mm": 3.7860407640085674,
+      "uuids": [
+        "ebaf3bea-adb6-42e3-8a70-167dc1573c55",
+        "fc64382e-0cab-4cf5-a91d-f86aff0bfa1e",
+        "a8c9455f-8d5d-499e-81a8-9f02bcb25875",
+        "ed412553-ff86-4ece-bdda-a55e7625f43b",
+        "ecbff864-24ea-42b7-9eef-1de919a3467e",
+        "d6b95dd9-18c9-4f4b-a96a-00c742f71fed"
+      ]
+    },
+    {
+      "label": "output",
+      "path_mm": [
+        [
+          57.025,
+          30
+        ],
+        [
+          56.425,
+          30.60000000000001
+        ],
+        [
+          56.425,
+          32.2
+        ]
+      ],
+      "width_mm": 1.55,
+      "net": "+1V0_PHY",
+      "layer": "F.Cu",
+      "guard": {
+        "net": "+1V0_PHY",
+        "width_mm": 1.55,
+        "segments": 2,
+        "width_preserved": true,
+        "current_rating_qualified": false
+      },
+      "length_mm": 2.4485281374238586,
+      "uuids": [
+        "42de5016-bcae-4c83-857f-78461a0d9d97",
+        "cf77f0cd-9064-41a0-b89c-fd91f1d93350"
+      ]
+    },
+    {
+      "label": "switch_trunk",
+      "path_mm": [
+        [
+          60.3,
+          27.9
+        ],
+        [
+          58.825,
+          29.375
+        ],
+        [
+          58.825,
+          30
+        ]
+      ],
+      "width_mm": 1.55,
+      "net": "PHY_SW",
+      "layer": "F.Cu",
+      "guard": {
+        "net": "PHY_SW",
+        "width_mm": 1.55,
+        "segments": 2,
+        "width_preserved": true,
+        "current_rating_qualified": false
+      },
+      "length_mm": 2.710965004500312,
+      "uuids": [
+        "b2eab6b4-91f9-4224-93a7-5e3dc297c940",
+        "6f1fbae0-6fa1-40c4-9c4f-2035fbd1d9ab"
+      ]
+    },
+    {
+      "label": "pin_fanout",
+      "path_mm": [
+        [
+          61.2,
+          28.6
+        ],
+        [
+          60.9,
+          28.3
+        ]
+      ],
+      "width_mm": 0.2,
+      "net": "PHY_SW",
+      "layer": "F.Cu",
+      "guard": {
+        "net": "PHY_SW",
+        "width_mm": 0.2,
+        "segments": 1,
+        "width_preserved": true,
+        "current_rating_qualified": false
+      },
+      "length_mm": 0.42426406871193206,
+      "uuids": [
+        "76bfb08f-43d1-4f23-b5c7-b8866ecc9de1"
+      ]
+    }
+  ],
+  "new_ground_via_mm": [
+    66.15,
+    30.125
+  ],
+  "new_ground_via_diameter_mm": 0.45,
+  "new_ground_via_drill_mm": 0.2,
+  "new_ground_via_uuid": "b9834009-ad00-4506-a36c-15bb123074f3",
+  "historical_60mil_width_met_on_entire_path": false,
+  "main_checkpoint_modified": false,
+  "limitations": [
+    "QFN pin fanout remains 0.20 mm, 0.424 mm long; historical width requirement is not waived. No power-layout adoption or qualification.",
+    "Output/inductor termination is offset 0.15 mm within its existing pad; both broad branches remain 1.55 mm.",
+    "Need applicable manufacturer fanout guidance and electrical/thermal/ripple qualification."
+  ],
+  "new_violations": [
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "b2eab6b4-91f9-4224-93a7-5e3dc297c940",
+        "f7609c40-061d-483a-a04f-d85815fc4fc0"
+      ],
+      "count": 1
+    }
+  ],
+  "details": [
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.0735 mm)",
+      "items": [
+        {
+          "description": "Pista [PHY_SW] su F.Cu, lung. 2.0860 mm",
+          "pos": {
+            "x": 60.3,
+            "y": 27.9
+          },
+          "uuid": "b2eab6b4-91f9-4224-93a7-5e3dc297c940"
+        },
+        {
+          "description": "Piazzola 31 [<no net>] di U5 su F.Cu",
+          "pos": {
+            "x": 60.6,
+            "y": 29.2
+          },
+          "uuid": "f7609c40-061d-483a-a04f-d85815fc4fc0"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    }
+  ],
+  "status": "JOINT_SW_GEOMETRY_REJECTED",
+  "power_layout_accepted": false,
+  "assembly_ready": false
+}

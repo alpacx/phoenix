@@ -1,0 +1,47 @@
+{
+  "board": "runs/phy-ground-clearance/phy-joint.kicad_pcb",
+  "sha256": "83fa627a931c871aa89fd21fc81679c95a22bf1210ef6f8f4ff96a776504a741",
+  "parent_sha256": "c9f2f4ecf64c1d690b75b3509a910e65c76f6ee85f948c394fa5bd1f778e5ff3",
+  "candidates": 7,
+  "change": {
+    "old_nm": [
+      66500000,
+      34300000
+    ],
+    "site_nm": [
+      66479999,
+      34750000
+    ],
+    "length_before_mm": 0.6514608507047833,
+    "length_after_mm": 0.65,
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 6281,
+      "explicitly_replaced_copper": {
+        "1e522730-8934-4866-bd3a-1cebe35cef28": [
+          "GND",
+          0,
+          65879999,
+          34500000,
+          66500000,
+          34300000,
+          200000,
+          null
+        ],
+        "af45c499-2547-44ca-b089-a3bca2209eae": [
+          "GND",
+          0,
+          66500000,
+          34300000,
+          66500000,
+          34300000,
+          450000,
+          200000
+        ]
+      },
+      "added_tracks_vias": 0,
+      "existing_connected_pad_groups_preserved": 87
+    }
+  },
+  "assembly_ready": false
+}

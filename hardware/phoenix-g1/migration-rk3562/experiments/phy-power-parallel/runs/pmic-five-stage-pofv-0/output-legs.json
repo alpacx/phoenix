@@ -1,0 +1,714 @@
+{
+  "verified_base_sha256": "ec0cae86786864ee0b90974e897f725df433e94b405c47c47afa5cfb2cf56ddc",
+  "coupon_parent": "cc50d14dc31eea444952714677566b057dbcf5678334ea555cf27577637104ec",
+  "adopted": false,
+  "rows": [
+    {
+      "stage": 3,
+      "role": "LC output",
+      "net": "+1V1_LPDDR4",
+      "width_mm": 0.6,
+      "connected": true,
+      "kind": "two through vias",
+      "via_centres_nm": [
+        [
+          52700000,
+          8900000
+        ],
+        [
+          52200000,
+          9300000
+        ]
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "spacing_mm": 0.6403124237432849,
+      "branches_nm": [
+        [
+          [
+            [
+              53490000,
+              9850000
+            ],
+            [
+              52700000,
+              9060000
+            ],
+            [
+              52700000,
+              8900000
+            ]
+          ],
+          [
+            [
+              53490000,
+              9700000
+            ],
+            [
+              52700000,
+              8910000
+            ],
+            [
+              52700000,
+              8900000
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              53490000,
+              9850000
+            ],
+            [
+              52940000,
+              9300000
+            ],
+            [
+              52200000,
+              9300000
+            ]
+          ],
+          [
+            [
+              53490000,
+              9700000
+            ],
+            [
+              53090000,
+              9300000
+            ],
+            [
+              52200000,
+              9300000
+            ]
+          ]
+        ]
+      ],
+      "native_connected": true
+    },
+    {
+      "stage": 1,
+      "role": "LC output",
+      "net": "VDD_LOGIC",
+      "width_mm": 0.6,
+      "connected": true,
+      "kind": "two through vias",
+      "via_centres_nm": [
+        [
+          56200000,
+          3300000
+        ],
+        [
+          56100000,
+          3900000
+        ]
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "spacing_mm": 0.6082762530298219,
+      "branches_nm": [
+        [
+          [
+            [
+              57150000,
+              3590000
+            ],
+            [
+              56860000,
+              3300000
+            ],
+            [
+              56200000,
+              3300000
+            ]
+          ],
+          [
+            [
+              57150000,
+              3840000
+            ],
+            [
+              56610000,
+              3300000
+            ],
+            [
+              56200000,
+              3300000
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              57150000,
+              3590000
+            ],
+            [
+              56840000,
+              3900000
+            ],
+            [
+              56100000,
+              3900000
+            ]
+          ],
+          [
+            [
+              57150000,
+              3840000
+            ],
+            [
+              57090000,
+              3900000
+            ],
+            [
+              56100000,
+              3900000
+            ]
+          ]
+        ]
+      ],
+      "native_connected": true
+    },
+    {
+      "stage": 2,
+      "role": "LC output",
+      "net": "VDD_GPU",
+      "width_mm": 0.6,
+      "connected": true,
+      "kind": "two through vias",
+      "via_centres_nm": [
+        [
+          60550000,
+          2515000
+        ],
+        [
+          60500000,
+          1800000
+        ]
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "spacing_mm": 0.7167461196267476,
+      "branches_nm": [
+        [
+          [
+            [
+              60700000,
+              2590000
+            ],
+            [
+              60625000,
+              2515000
+            ],
+            [
+              60550000,
+              2515000
+            ]
+          ],
+          [
+            [
+              61350000,
+              1990000
+            ],
+            [
+              60825000,
+              2515000
+            ],
+            [
+              60550000,
+              2515000
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              60700000,
+              2590000
+            ],
+            [
+              60500000,
+              2390000
+            ],
+            [
+              60500000,
+              1800000
+            ]
+          ],
+          [
+            [
+              61350000,
+              1990000
+            ],
+            [
+              61160000,
+              1800000
+            ],
+            [
+              60500000,
+              1800000
+            ]
+          ]
+        ]
+      ],
+      "native_connected": true
+    },
+    {
+      "stage": 4,
+      "role": "LC output",
+      "net": "VDD_NPU",
+      "width_mm": 0.6,
+      "connected": true,
+      "kind": "two through vias",
+      "via_centres_nm": [
+        [
+          67110000,
+          8550000
+        ],
+        [
+          67110000,
+          9150000
+        ]
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "spacing_mm": 0.6,
+      "branches_nm": [
+        [
+          [
+            [
+              67010000,
+              8850000
+            ],
+            [
+              67110000,
+              8750000
+            ],
+            [
+              67110000,
+              8550000
+            ]
+          ],
+          [
+            [
+              67260000,
+              8850000
+            ],
+            [
+              67110000,
+              8700000
+            ],
+            [
+              67110000,
+              8550000
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              67010000,
+              8850000
+            ],
+            [
+              67110000,
+              8950000
+            ],
+            [
+              67110000,
+              9150000
+            ]
+          ],
+          [
+            [
+              67260000,
+              8850000
+            ],
+            [
+              67110000,
+              9000000
+            ],
+            [
+              67110000,
+              9150000
+            ]
+          ]
+        ]
+      ],
+      "native_connected": true
+    },
+    {
+      "stage": 5,
+      "role": "LC output",
+      "net": "+1V8_SYS",
+      "width_mm": 0.6,
+      "connected": true,
+      "kind": "two through vias",
+      "via_centres_nm": [
+        [
+          67935000,
+          11150000
+        ],
+        [
+          67935000,
+          11750000
+        ]
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "spacing_mm": 0.6,
+      "branches_nm": [
+        [
+          [
+            [
+              66410000,
+              11450000
+            ],
+            [
+              66710000,
+              11150000
+            ],
+            [
+              67935000,
+              11150000
+            ]
+          ],
+          [
+            [
+              68160000,
+              11450000
+            ],
+            [
+              67935000,
+              11225000
+            ],
+            [
+              67935000,
+              11150000
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              66410000,
+              11450000
+            ],
+            [
+              66710000,
+              11750000
+            ],
+            [
+              67935000,
+              11750000
+            ]
+          ],
+          [
+            [
+              68160000,
+              11450000
+            ],
+            [
+              67935000,
+              11675000
+            ],
+            [
+              67935000,
+              11750000
+            ]
+          ]
+        ]
+      ],
+      "native_connected": true
+    },
+    {
+      "stage": 3,
+      "role": "PMIC to input bypass",
+      "net": "+3V3_SYS",
+      "width_mm": 0.5,
+      "connected": false,
+      "launch_candidates": 3,
+      "native_connected": false
+    },
+    {
+      "stage": 1,
+      "role": "PMIC to input bypass",
+      "net": "+3V3_SYS",
+      "width_mm": 0.5,
+      "connected": false,
+      "kind": "two through vias",
+      "legal_sites": 0,
+      "both_faces_reached": 0,
+      "native_connected": false
+    },
+    {
+      "stage": 2,
+      "role": "PMIC to input bypass",
+      "net": "+3V3_SYS",
+      "width_mm": 0.5,
+      "connected": false,
+      "kind": "two through vias",
+      "legal_sites": 0,
+      "both_faces_reached": 0,
+      "native_connected": false
+    },
+    {
+      "stage": 4,
+      "role": "PMIC to input bypass",
+      "net": "+3V3_SYS",
+      "width_mm": 0.5,
+      "connected": false,
+      "launch_candidates": 0,
+      "native_connected": false
+    },
+    {
+      "stage": 5,
+      "role": "PMIC to input bypass",
+      "net": "+3V3_SYS",
+      "width_mm": 0.5,
+      "connected": false,
+      "launch_candidates": 0,
+      "native_connected": false
+    },
+    {
+      "stage": 3,
+      "role": "C42 ground",
+      "net": "GND",
+      "width_mm": 0.5,
+      "connected": false,
+      "kind": "two through vias",
+      "legal_sites": 18,
+      "both_faces_reached": 18,
+      "native_connected": false
+    },
+    {
+      "stage": 3,
+      "role": "C43 ground",
+      "net": "GND",
+      "width_mm": 0.5,
+      "connected": false,
+      "kind": "two through vias",
+      "legal_sites": 2,
+      "both_faces_reached": 2,
+      "native_connected": false
+    },
+    {
+      "stage": 1,
+      "role": "C42 ground",
+      "net": "GND",
+      "width_mm": 0.5,
+      "connected": false,
+      "kind": "two through vias",
+      "legal_sites": 0,
+      "both_faces_reached": 0,
+      "native_connected": false
+    },
+    {
+      "stage": 1,
+      "role": "C43 ground",
+      "net": "GND",
+      "width_mm": 0.5,
+      "connected": false,
+      "kind": "two through vias",
+      "legal_sites": 8,
+      "both_faces_reached": 8,
+      "native_connected": false
+    },
+    {
+      "stage": 2,
+      "role": "C42 ground",
+      "net": "GND",
+      "width_mm": 0.5,
+      "connected": false,
+      "kind": "two through vias",
+      "legal_sites": 0,
+      "both_faces_reached": 0,
+      "native_connected": false
+    },
+    {
+      "stage": 2,
+      "role": "C43 ground",
+      "net": "GND",
+      "width_mm": 0.5,
+      "connected": false,
+      "kind": "two through vias",
+      "legal_sites": 0,
+      "both_faces_reached": 0,
+      "native_connected": false
+    },
+    {
+      "stage": 4,
+      "role": "C42 ground",
+      "net": "GND",
+      "width_mm": 0.5,
+      "connected": false,
+      "kind": "two through vias",
+      "legal_sites": 14,
+      "both_faces_reached": 8,
+      "native_connected": false
+    },
+    {
+      "stage": 4,
+      "role": "C43 ground",
+      "net": "GND",
+      "width_mm": 0.5,
+      "connected": true,
+      "kind": "two through vias",
+      "via_centres_nm": [
+        [
+          69160000,
+          8550000
+        ],
+        [
+          69160000,
+          9150000
+        ]
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "spacing_mm": 0.6,
+      "branches_nm": [
+        [
+          [
+            [
+              69160000,
+              8850000
+            ],
+            [
+              69160000,
+              8850000
+            ],
+            [
+              69160000,
+              8550000
+            ]
+          ],
+          [
+            [
+              69160000,
+              8550000
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              69160000,
+              8850000
+            ],
+            [
+              69160000,
+              8850000
+            ],
+            [
+              69160000,
+              9150000
+            ]
+          ],
+          [
+            [
+              69160000,
+              9150000
+            ]
+          ]
+        ]
+      ],
+      "native_connected": true
+    },
+    {
+      "stage": 5,
+      "role": "C42 ground",
+      "net": "GND",
+      "width_mm": 0.5,
+      "connected": true,
+      "kind": "two existing ground barrels",
+      "anchors_nm": [
+        [
+          60000000,
+          10000000
+        ],
+        [
+          61000000,
+          10000000
+        ]
+      ],
+      "anchor_ids": [
+        "270fc93f-0972-402c-81ab-580d0f265e77",
+        "1e22eb36-1094-4260-9e5e-c911221aa32b"
+      ],
+      "native_connected": true
+    },
+    {
+      "stage": 5,
+      "role": "C43 ground",
+      "net": "GND",
+      "width_mm": 0.5,
+      "connected": true,
+      "kind": "two through vias",
+      "via_centres_nm": [
+        [
+          70060000,
+          11150000
+        ],
+        [
+          70060000,
+          11750000
+        ]
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "spacing_mm": 0.6,
+      "branches_nm": [
+        [
+          [
+            [
+              70060000,
+              11450000
+            ],
+            [
+              70060000,
+              11450000
+            ],
+            [
+              70060000,
+              11150000
+            ]
+          ],
+          [
+            [
+              70060000,
+              11150000
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              70060000,
+              11450000
+            ],
+            [
+              70060000,
+              11450000
+            ],
+            [
+              70060000,
+              11750000
+            ]
+          ],
+          [
+            [
+              70060000,
+              11750000
+            ]
+          ]
+        ]
+      ],
+      "native_connected": true
+    }
+  ],
+  "new_delta": [],
+  "board_sha256": "f1652e5f688308184d32daddf134ac590d6ce06a65f1e1f007c4c35912209c09"
+}

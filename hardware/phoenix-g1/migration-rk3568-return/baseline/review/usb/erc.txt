@@ -1,0 +1,45 @@
+ERC report (2026-11-06T21:00:10, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(170.18 mm, 62.23 mm): Symbol U6 Pin 8 [VCC33, Ingresso potenza, Linea]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(170.18 mm, 72.39 mm): Symbol U6 Pin 12 [ENn_MUX, Ingresso, Linea]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(170.18 mm, 74.93 mm): Symbol U6 Pin 13 [GND, Ingresso potenza, Linea]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(223.52 mm, 44.45 mm): Symbol U6 Pin 30 [VDD5, Ingresso potenza, Linea]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(223.52 mm, 46.99 mm): Symbol U6 Pin 29 [ENn_CC, Ingresso, Linea]
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(165.10 mm, 57.15 mm): Etichetta "SOC_USB_TX_P"
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(165.10 mm, 59.69 mm): Etichetta "SOC_USB_TX_N"
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(165.10 mm, 64.77 mm): Etichetta "SOC_USB_RX_P"
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(165.10 mm, 67.31 mm): Etichetta "SOC_USB_RX_N"
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(165.10 mm, 72.39 mm): Etichetta "USB_MUX_ENABLE_N"
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(228.60 mm, 46.99 mm): Etichetta "USB_CC_ENABLE_N"
+
+ ** ERC messages: 11  Errors 5  Warnings 6
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

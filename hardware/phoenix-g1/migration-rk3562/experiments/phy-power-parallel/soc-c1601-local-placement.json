@@ -1,0 +1,51 @@
+{
+  "parent_sha256": "55f587d0379a6647e4e4dfbc6dd6cd42ce880906af779b3d9b14b653816e5578",
+  "tested": {
+    "courtyard": 1130,
+    "land": 963,
+    "power_poses": 414,
+    "return": 1
+  },
+  "candidate": {
+    "board": "runs/soc-c1601-cap-local/phy-joint.kicad_pcb",
+    "sha256": "e658447c7cf1658919478a08633f6132e84d7b58df4e9eae144ed19fe5a875e6",
+    "cap_xy_nm": [
+      42000000,
+      21400000
+    ],
+    "via_pair_nm": [
+      [
+        42025000,
+        20325000
+      ]
+    ],
+    "ground": {
+      "connected": true,
+      "kind": "two existing ground barrels",
+      "anchors_nm": [
+        [
+          40700000,
+          20937500
+        ],
+        [
+          40700000,
+          23600000
+        ]
+      ],
+      "anchor_ids": [
+        "7330d828-6d1f-49da-8ccf-ec7b998ead77",
+        "381a86f3-3710-4bf3-ac48-da008eef5955"
+      ]
+    },
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 7324,
+      "explicitly_replaced_copper": {},
+      "added_tracks_vias": 8,
+      "existing_connected_pad_groups_preserved": 121
+    },
+    "new_drc": [],
+    "backside_branch_mm": 0.5955249784853697
+  },
+  "assembly_ready": false
+}

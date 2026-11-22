@@ -1,0 +1,131 @@
+{
+  "parent_sha256": "2b48b9d0755df32ba73e228e0035b2d2e29e9e0f779ff3ae66084bbb137c2ff4",
+  "attempts": [
+    {
+      "flip": false,
+      "reverse": false,
+      "four_leads_routed": 4,
+      "leads": [
+        {
+          "net": "LPDDR4_CLKP_B",
+          "end": 0,
+          "result": {
+            "path": [
+              [
+                43200000,
+                14950000
+              ],
+              [
+                42325000,
+                14950000
+              ],
+              [
+                41800000,
+                14425000
+              ]
+            ]
+          }
+        },
+        {
+          "net": "LPDDR4_CLKP_B",
+          "end": 1,
+          "result": {
+            "path": [
+              [
+                30800000,
+                10300000
+              ],
+              [
+                31400000,
+                10900000
+              ],
+              [
+                31800000,
+                10900000
+              ],
+              [
+                32259099,
+                10440901
+              ],
+              [
+                32259099,
+                9359099
+              ]
+            ]
+          }
+        },
+        {
+          "net": "LPDDR4_CLKN_B",
+          "end": 0,
+          "result": {
+            "path": [
+              [
+                43350000,
+                13500000
+              ],
+              [
+                42875000,
+                13975000
+              ],
+              [
+                41800000,
+                13975000
+              ]
+            ]
+          }
+        },
+        {
+          "net": "LPDDR4_CLKN_B",
+          "end": 1,
+          "result": {
+            "path": [
+              [
+                31600000,
+                10300000
+              ],
+              [
+                31600000,
+                9700000
+              ],
+              [
+                31700000,
+                9600000
+              ],
+              [
+                31700000,
+                9281802
+              ],
+              [
+                31940901,
+                9040901
+              ]
+            ]
+          }
+        }
+      ],
+      "native_drc_delta": []
+    }
+  ],
+  "candidate": {
+    "board": "runs/ddr-clock-b-preserved-physical/phy-joint.kicad_pcb",
+    "sha256": "6b11cd7884f16dce8b3af143af6e4870f215a8ebae32d0c9bd26e0b879ae52e4",
+    "pairs": [
+      [
+        "U1.B15",
+        "U2.P8"
+      ],
+      [
+        "U1.A15",
+        "U2.P9"
+      ]
+    ],
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 7209,
+      "explicitly_replaced_copper": {},
+      "added_tracks_vias": 44,
+      "existing_connected_pad_groups_preserved": 121
+    }
+  },
+  "adopted": false
+}

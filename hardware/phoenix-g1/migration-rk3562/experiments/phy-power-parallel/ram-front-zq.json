@@ -1,0 +1,48 @@
+{
+  "parent_sha256": "8acf70575612eb2675bbc83f76ac8cafb98d13cf1c2fd8893be901aae82d6d3e",
+  "width_mm": 0.5,
+  "grid_mm": 0.05,
+  "limit_mm": 8.0,
+  "steps": [
+    {
+      "ref": "U2",
+      "pad": "A4",
+      "source_land_sites": 6,
+      "target_land_sites": 9,
+      "cells": 263,
+      "path_nm": [
+        [
+          28000000,
+          2075000
+        ],
+        [
+          28000000,
+          2100000
+        ],
+        [
+          28000000,
+          800000
+        ],
+        [
+          27900000,
+          700000
+        ],
+        [
+          27890000,
+          675000
+        ]
+      ]
+    }
+  ],
+  "board": "runs/ram-front-zq/phy-joint.kicad_pcb",
+  "sha256": "61cc44b8e1ac291264b8f5ab5fd013f58949c31407775586b30e6c9f6e886601",
+  "new_drc": [],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 7229,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 4,
+    "existing_connected_pad_groups_preserved": 120
+  },
+  "mounts": []
+}

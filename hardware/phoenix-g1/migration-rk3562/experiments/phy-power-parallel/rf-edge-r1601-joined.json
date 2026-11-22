@@ -1,0 +1,32 @@
+{
+  "parent_sha256": "5fec7c6fe199a442d4cbf448af7944fde009b93d2291645d59337f8d669e66db",
+  "screen_counts": {
+    "courtyard": 1220,
+    "pad_clearance": 464
+  },
+  "candidates": 28,
+  "two_contact_candidates": 0,
+  "result": [
+    {
+      "board": "runs/rf-edge-r1601-joined/phy-joint.kicad_pcb",
+      "sha256": "4dfde4927a1d404a703a6a0ec907e3ec8f18c7d876c1e10a14899d9b5f0baf69",
+      "r_position_nm": [
+        36780000,
+        27900000
+      ],
+      "angle": 0,
+      "signal_stub_mm": 1.6260688792299052,
+      "rail_contact_nm": null,
+      "rail_trace_mm": 5.52911254969543,
+      "preservation": {
+        "existing_pad_instances_preserved": 2010,
+        "existing_tracks_vias_preserved": 6796,
+        "explicitly_replaced_copper": {},
+        "added_tracks_vias": 63,
+        "existing_connected_pad_groups_preserved": 116
+      },
+      "new_drc": []
+    }
+  ],
+  "assembly_ready": false
+}

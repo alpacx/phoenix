@@ -1,0 +1,38 @@
+{
+  "parent_sha256": "ef5f13be271968f1d22198f3ba00cb8ba0f0ff48be160d504cc7392860fbf966",
+  "candidate": {
+    "board": "runs/lcd-clock-soc-launch/phy-joint.kicad_pcb",
+    "sha256": "97c17728aded354f4a261da28fafd8ead04757e38768c7ba5d01b05c4810ea14",
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 6731,
+      "explicitly_replaced_copper": {},
+      "added_tracks_vias": 3,
+      "existing_connected_pad_groups_preserved": 113
+    },
+    "new_drc": [
+      {
+        "type": "via_dangling",
+        "severity": "warning",
+        "items": [
+          "223282e4-b60a-4dde-9527-61aac73824a5"
+        ],
+        "count": 1
+      }
+    ],
+    "old_pos_nm": [
+      39000000,
+      20000000
+    ],
+    "pos_nm": [
+      39100000,
+      20000000
+    ],
+    "rotation_deg": 0,
+    "via_uuid": "223282e4-b60a-4dde-9527-61aac73824a5",
+    "launch_mm": 0.3621320343559643
+  },
+  "poses": 35,
+  "rejected": [],
+  "assembly_ready": false
+}

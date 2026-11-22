@@ -1,0 +1,857 @@
+{
+  "board_sha256": "bcf0915ed68b88dc19010231d086f32e76fa28882432d6ac8b0e603aff5c8b31",
+  "records": [
+    {
+      "net": "LPDDR4_DQ8_B",
+      "linked_pins": false,
+      "copper_trace_sum_mm": 0.515,
+      "unrouted_via_to_via_straight_distance_mm": null,
+      "barrels": 1,
+      "models": {
+        "JLC06161H-3313": {
+          "estimated_present_planar_delay_ps": 3.07,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              60.0
+            ]
+          ]
+        },
+        "JLC06161H-7628": {
+          "estimated_present_planar_delay_ps": 3.06,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              80.9
+            ]
+          ]
+        },
+        "JLC06161H-2116A": {
+          "estimated_present_planar_delay_ps": 3.07,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              64.3
+            ]
+          ]
+        },
+        "JLC06161H-3313E": {
+          "estimated_present_planar_delay_ps": 3.07,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              60.0
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "net": "LPDDR4_DQ9_B",
+      "linked_pins": false,
+      "copper_trace_sum_mm": 3.435,
+      "unrouted_via_to_via_straight_distance_mm": 17.656,
+      "barrels": 2,
+      "models": {
+        "JLC06161H-3313": {
+          "estimated_present_planar_delay_ps": 20.71,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.0762,
+              0.15,
+              0.0762,
+              66.1
+            ],
+            [
+              "F.Cu",
+              0.2,
+              2.769,
+              0.2,
+              43.7
+            ],
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              60.0
+            ]
+          ]
+        },
+        "JLC06161H-7628": {
+          "estimated_present_planar_delay_ps": 20.53,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.0762,
+              0.15,
+              0.0762,
+              87.2
+            ],
+            [
+              "F.Cu",
+              0.2,
+              2.769,
+              0.2,
+              63.4
+            ],
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              80.9
+            ]
+          ]
+        },
+        "JLC06161H-2116A": {
+          "estimated_present_planar_delay_ps": 20.68,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.0762,
+              0.15,
+              0.0762,
+              70.5
+            ],
+            [
+              "F.Cu",
+              0.2,
+              2.769,
+              0.2,
+              47.7
+            ],
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              64.3
+            ]
+          ]
+        },
+        "JLC06161H-3313E": {
+          "estimated_present_planar_delay_ps": 20.71,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.0762,
+              0.15,
+              0.0762,
+              66.1
+            ],
+            [
+              "F.Cu",
+              0.2,
+              2.769,
+              0.2,
+              43.7
+            ],
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              60.0
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "net": "LPDDR4_DQ10_B",
+      "linked_pins": false,
+      "copper_trace_sum_mm": 1.015,
+      "unrouted_via_to_via_straight_distance_mm": 16.836,
+      "barrels": 2,
+      "models": {
+        "JLC06161H-3313": {
+          "estimated_present_planar_delay_ps": 6.08,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.0762,
+              0.15,
+              0.0762,
+              66.1
+            ],
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              60.0
+            ],
+            [
+              "F.Cu",
+              0.2,
+              0.35,
+              0.2,
+              43.7
+            ]
+          ]
+        },
+        "JLC06161H-7628": {
+          "estimated_present_planar_delay_ps": 6.04,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.0762,
+              0.15,
+              0.0762,
+              87.2
+            ],
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              80.9
+            ],
+            [
+              "F.Cu",
+              0.2,
+              0.35,
+              0.2,
+              63.4
+            ]
+          ]
+        },
+        "JLC06161H-2116A": {
+          "estimated_present_planar_delay_ps": 6.08,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.0762,
+              0.15,
+              0.0762,
+              70.5
+            ],
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              64.3
+            ],
+            [
+              "F.Cu",
+              0.2,
+              0.35,
+              0.2,
+              47.7
+            ]
+          ]
+        },
+        "JLC06161H-3313E": {
+          "estimated_present_planar_delay_ps": 6.08,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.0762,
+              0.15,
+              0.0762,
+              66.1
+            ],
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              60.0
+            ],
+            [
+              "F.Cu",
+              0.2,
+              0.35,
+              0.2,
+              43.7
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "net": "LPDDR4_DQ11_B",
+      "linked_pins": false,
+      "copper_trace_sum_mm": 1.569,
+      "unrouted_via_to_via_straight_distance_mm": 15.571,
+      "barrels": 2,
+      "models": {
+        "JLC06161H-3313": {
+          "estimated_present_planar_delay_ps": 9.34,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.0762,
+              1.054,
+              0.0762,
+              66.1
+            ],
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              60.0
+            ]
+          ]
+        },
+        "JLC06161H-7628": {
+          "estimated_present_planar_delay_ps": 9.3,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.0762,
+              1.054,
+              0.0762,
+              87.2
+            ],
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              80.9
+            ]
+          ]
+        },
+        "JLC06161H-2116A": {
+          "estimated_present_planar_delay_ps": 9.33,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.0762,
+              1.054,
+              0.0762,
+              70.5
+            ],
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              64.3
+            ]
+          ]
+        },
+        "JLC06161H-3313E": {
+          "estimated_present_planar_delay_ps": 9.34,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.0762,
+              1.054,
+              0.0762,
+              66.1
+            ],
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              60.0
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "net": "LPDDR4_DQ12_B",
+      "linked_pins": false,
+      "copper_trace_sum_mm": 0.728,
+      "unrouted_via_to_via_straight_distance_mm": 16.287,
+      "barrels": 2,
+      "models": {
+        "JLC06161H-3313": {
+          "estimated_present_planar_delay_ps": 4.34,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.0762,
+              0.212,
+              0.0762,
+              66.1
+            ],
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              60.0
+            ]
+          ]
+        },
+        "JLC06161H-7628": {
+          "estimated_present_planar_delay_ps": 4.32,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.0762,
+              0.212,
+              0.0762,
+              87.2
+            ],
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              80.9
+            ]
+          ]
+        },
+        "JLC06161H-2116A": {
+          "estimated_present_planar_delay_ps": 4.33,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.0762,
+              0.212,
+              0.0762,
+              70.5
+            ],
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              64.3
+            ]
+          ]
+        },
+        "JLC06161H-3313E": {
+          "estimated_present_planar_delay_ps": 4.34,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.0762,
+              0.212,
+              0.0762,
+              66.1
+            ],
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              60.0
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "net": "LPDDR4_DQ13_B",
+      "linked_pins": false,
+      "copper_trace_sum_mm": 3.109,
+      "unrouted_via_to_via_straight_distance_mm": 16.629,
+      "barrels": 2,
+      "models": {
+        "JLC06161H-3313": {
+          "estimated_present_planar_delay_ps": 18.5,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.0762,
+              2.594,
+              0.0762,
+              66.1
+            ],
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              60.0
+            ]
+          ]
+        },
+        "JLC06161H-7628": {
+          "estimated_present_planar_delay_ps": 18.43,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.0762,
+              2.594,
+              0.0762,
+              87.2
+            ],
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              80.9
+            ]
+          ]
+        },
+        "JLC06161H-2116A": {
+          "estimated_present_planar_delay_ps": 18.48,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.0762,
+              2.594,
+              0.0762,
+              70.5
+            ],
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              64.3
+            ]
+          ]
+        },
+        "JLC06161H-3313E": {
+          "estimated_present_planar_delay_ps": 18.5,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.0762,
+              2.594,
+              0.0762,
+              66.1
+            ],
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              60.0
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "net": "LPDDR4_DQ14_B",
+      "linked_pins": false,
+      "copper_trace_sum_mm": 0.515,
+      "unrouted_via_to_via_straight_distance_mm": null,
+      "barrels": 1,
+      "models": {
+        "JLC06161H-3313": {
+          "estimated_present_planar_delay_ps": 3.07,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              60.0
+            ]
+          ]
+        },
+        "JLC06161H-7628": {
+          "estimated_present_planar_delay_ps": 3.06,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              80.9
+            ]
+          ]
+        },
+        "JLC06161H-2116A": {
+          "estimated_present_planar_delay_ps": 3.07,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              64.3
+            ]
+          ]
+        },
+        "JLC06161H-3313E": {
+          "estimated_present_planar_delay_ps": 3.07,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              60.0
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "net": "LPDDR4_DQ15_B",
+      "linked_pins": false,
+      "copper_trace_sum_mm": 1.919,
+      "unrouted_via_to_via_straight_distance_mm": 16.788,
+      "barrels": 2,
+      "models": {
+        "JLC06161H-3313": {
+          "estimated_present_planar_delay_ps": 11.42,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.0762,
+              1.404,
+              0.0762,
+              66.1
+            ],
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              60.0
+            ]
+          ]
+        },
+        "JLC06161H-7628": {
+          "estimated_present_planar_delay_ps": 11.38,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.0762,
+              1.404,
+              0.0762,
+              87.2
+            ],
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              80.9
+            ]
+          ]
+        },
+        "JLC06161H-2116A": {
+          "estimated_present_planar_delay_ps": 11.41,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.0762,
+              1.404,
+              0.0762,
+              70.5
+            ],
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              64.3
+            ]
+          ]
+        },
+        "JLC06161H-3313E": {
+          "estimated_present_planar_delay_ps": 11.42,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.0762,
+              1.404,
+              0.0762,
+              66.1
+            ],
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              60.0
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "net": "LPDDR4_DQS1P_B",
+      "linked_pins": false,
+      "copper_trace_sum_mm": 0.665,
+      "unrouted_via_to_via_straight_distance_mm": 15.12,
+      "barrels": 2,
+      "models": {
+        "JLC06161H-3313": {
+          "estimated_present_planar_delay_ps": 3.97,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              60.0
+            ],
+            [
+              "F.Cu",
+              0.0762,
+              0.15,
+              0.0762,
+              66.1
+            ]
+          ]
+        },
+        "JLC06161H-7628": {
+          "estimated_present_planar_delay_ps": 3.95,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              80.9
+            ],
+            [
+              "F.Cu",
+              0.0762,
+              0.15,
+              0.0762,
+              87.2
+            ]
+          ]
+        },
+        "JLC06161H-2116A": {
+          "estimated_present_planar_delay_ps": 3.96,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              64.3
+            ],
+            [
+              "F.Cu",
+              0.0762,
+              0.15,
+              0.0762,
+              70.5
+            ]
+          ]
+        },
+        "JLC06161H-3313E": {
+          "estimated_present_planar_delay_ps": 3.97,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              60.0
+            ],
+            [
+              "F.Cu",
+              0.0762,
+              0.15,
+              0.0762,
+              66.1
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "net": "LPDDR4_DQS1N_B",
+      "linked_pins": false,
+      "copper_trace_sum_mm": 0.665,
+      "unrouted_via_to_via_straight_distance_mm": 15.338,
+      "barrels": 2,
+      "models": {
+        "JLC06161H-3313": {
+          "estimated_present_planar_delay_ps": 3.97,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              60.0
+            ],
+            [
+              "F.Cu",
+              0.0762,
+              0.15,
+              0.0762,
+              66.1
+            ]
+          ]
+        },
+        "JLC06161H-7628": {
+          "estimated_present_planar_delay_ps": 3.95,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              80.9
+            ],
+            [
+              "F.Cu",
+              0.0762,
+              0.15,
+              0.0762,
+              87.2
+            ]
+          ]
+        },
+        "JLC06161H-2116A": {
+          "estimated_present_planar_delay_ps": 3.96,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              64.3
+            ],
+            [
+              "F.Cu",
+              0.0762,
+              0.15,
+              0.0762,
+              70.5
+            ]
+          ]
+        },
+        "JLC06161H-3313E": {
+          "estimated_present_planar_delay_ps": 3.97,
+          "sections_layer_width_length_model_width_ohms": [
+            [
+              "F.Cu",
+              0.1,
+              0.515,
+              0.1,
+              60.0
+            ],
+            [
+              "F.Cu",
+              0.0762,
+              0.15,
+              0.0762,
+              66.1
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "timing_closed": false,
+  "interpretation": "Planar copper-length inventory of the connected terminal groups. Uniform-line estimate uses nearest simulated width and ignores via delay, terminal capacitance, reference discontinuities, package delays and PVT. An unrouted clock's straight distance is a geometric lower bound. No setup/hold result is inferred. Source-synchronous package-plus-PCB timing budgets must come from RK3562 and the chosen DRAM."
+}

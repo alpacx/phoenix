@@ -1,0 +1,80 @@
+{
+  "board": "runs/phy-ground-clearance/phy-joint.kicad_pcb",
+  "sha256": "83fa627a931c871aa89fd21fc81679c95a22bf1210ef6f8f4ff96a776504a741",
+  "parent_sha256": "83fa627a931c871aa89fd21fc81679c95a22bf1210ef6f8f4ff96a776504a741",
+  "records": [],
+  "held": [
+    {
+      "net": "PHY_CFG_LDO0",
+      "groups": [
+        [
+          "R528.1"
+        ],
+        [
+          "U5.33"
+        ]
+      ]
+    },
+    {
+      "net": "PHY_CFG_LDO1",
+      "groups": [
+        [
+          "R529.1"
+        ],
+        [
+          "U5.34"
+        ]
+      ]
+    },
+    {
+      "net": "PHY_CFG_EXT",
+      "groups": [
+        [
+          "U5.32"
+        ],
+        [
+          "R527.1"
+        ]
+      ]
+    },
+    {
+      "net": "ETH_MDC",
+      "groups": [
+        [
+          "U1.AC1"
+        ],
+        [
+          "U5.13"
+        ]
+      ]
+    },
+    {
+      "net": "ETH_MDIO",
+      "groups": [
+        [
+          "R514.1"
+        ],
+        [
+          "U1.AC2"
+        ],
+        [
+          "U5.14"
+        ]
+      ]
+    },
+    {
+      "net": "SOC_VBUS_DET",
+      "groups": [
+        [
+          "C1503.1",
+          "R1505.2",
+          "R1506.1"
+        ],
+        [
+          "U1.1P14"
+        ]
+      ]
+    }
+  ],
+  "assembly_ready": false
+}

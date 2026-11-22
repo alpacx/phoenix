@@ -1,0 +1,213 @@
+{
+  "parent_sha256": "5c1e48da4724cafa2c15137cdad75218af37bb03b505c5669c7c685a38c1d700",
+  "pin": "U4.7",
+  "width_mm": 0.2,
+  "grid_mm": 0.025,
+  "via_mm": [
+    0.45,
+    0.2
+  ],
+  "ground_relief": false,
+  "ground_via_relief": false,
+  "existing_tracks_and_vias_included": true,
+  "single_obstacle_candidates": [],
+  "reachable_positions": 820,
+  "farthest_mm": 1.1231762996075014,
+  "sites": [],
+  "via_obstacles": [
+    {
+      "names": [
+        "+3V3_SYS",
+        "C445.1",
+        "EXP_GPIO1"
+      ],
+      "positions": 27
+    },
+    {
+      "names": [
+        "C445.1",
+        "EXP_GPIO1",
+        "GND"
+      ],
+      "positions": 8
+    },
+    {
+      "names": [
+        "+3V3_SYS",
+        "C421.1",
+        "GND"
+      ],
+      "positions": 1
+    },
+    {
+      "names": [
+        "+3V3_SYS",
+        "C421.1",
+        "C445.1",
+        "EXP_GPIO1"
+      ],
+      "positions": 62
+    },
+    {
+      "names": [
+        "+3V3_SYS",
+        "C445.1",
+        "EXP_GPIO1",
+        "U4.6"
+      ],
+      "positions": 38
+    },
+    {
+      "names": [
+        "+3V3_SYS",
+        "C445.1",
+        "EXP_GPIO1",
+        "GND"
+      ],
+      "positions": 16
+    },
+    {
+      "names": [
+        "C445.1",
+        "EXP_GPIO1",
+        "GND",
+        "U4.6"
+      ],
+      "positions": 6
+    },
+    {
+      "names": [
+        "+3V3_SYS",
+        "C421.1",
+        "EXP_GPIO0",
+        "EXP_GPIO1"
+      ],
+      "positions": 5
+    },
+    {
+      "names": [
+        "+3V3_SYS",
+        "C445.1",
+        "EXP_GPIO0",
+        "EXP_GPIO1"
+      ],
+      "positions": 4
+    },
+    {
+      "names": [
+        "+3V3_SYS",
+        "C421.1",
+        "EXP_GPIO1",
+        "GND"
+      ],
+      "positions": 2
+    },
+    {
+      "names": [
+        "+3V3_SYS",
+        "C445.1",
+        "EXP_GPIO0",
+        "EXP_GPIO1",
+        "U4.8"
+      ],
+      "positions": 31
+    },
+    {
+      "names": [
+        "+3V3_SYS",
+        "C421.1",
+        "C445.1",
+        "EXP_GPIO0",
+        "EXP_GPIO1"
+      ],
+      "positions": 30
+    },
+    {
+      "names": [
+        "+3V3_SYS",
+        "C421.1",
+        "C445.1",
+        "EXP_GPIO1",
+        "GND"
+      ],
+      "positions": 28
+    },
+    {
+      "names": [
+        "+3V3_SYS",
+        "C445.1",
+        "EXP_GPIO1",
+        "GND",
+        "U4.6"
+      ],
+      "positions": 19
+    },
+    {
+      "names": [
+        "+3V3_SYS",
+        "C445.1",
+        "EXP_GPIO1",
+        "U4.6",
+        "source pad"
+      ],
+      "positions": 9
+    },
+    {
+      "names": [
+        "+3V3_SYS",
+        "C421.1",
+        "C445.1",
+        "EXP_GPIO0",
+        "EXP_GPIO1",
+        "U4.8"
+      ],
+      "positions": 41
+    },
+    {
+      "names": [
+        "+3V3_SYS",
+        "C445.1",
+        "EXP_GPIO0",
+        "EXP_GPIO1",
+        "U4.8",
+        "source pad"
+      ],
+      "positions": 13
+    },
+    {
+      "names": [
+        "+3V3_SYS",
+        "C445.1",
+        "EXP_GPIO0",
+        "EXP_GPIO1",
+        "U4.8",
+        "U4.9"
+      ],
+      "positions": 10
+    },
+    {
+      "names": [
+        "+3V3_SYS",
+        "C445.1",
+        "EXP_GPIO1",
+        "GND",
+        "U4.5",
+        "U4.6"
+      ],
+      "positions": 5
+    },
+    {
+      "names": [
+        "+3V3_SYS",
+        "C445.1",
+        "EXP_GPIO0",
+        "EXP_GPIO1",
+        "U4.6",
+        "source pad"
+      ],
+      "positions": 4
+    }
+  ],
+  "assembly_ready": false,
+  "source_sha256": "5c1e48da4724cafa2c15137cdad75218af37bb03b505c5669c7c685a38c1d700"
+}

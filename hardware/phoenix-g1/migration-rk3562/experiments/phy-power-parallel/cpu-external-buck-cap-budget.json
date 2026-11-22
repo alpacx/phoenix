@@ -1,0 +1,100 @@
+{
+  "board_sha256": "e658447c7cf1658919478a08633f6132e84d7b58df4e9eae144ed19fe5a875e6",
+  "caps": [
+    {
+      "ref": "C1011",
+      "uf": 22.0,
+      "reaches_processor": false,
+      "reaches_output": true,
+      "reaches_ground": true
+    },
+    {
+      "ref": "C1012",
+      "uf": 22.0,
+      "reaches_processor": false,
+      "reaches_output": true,
+      "reaches_ground": true
+    },
+    {
+      "ref": "C1013",
+      "uf": 22.0,
+      "reaches_processor": false,
+      "reaches_output": true,
+      "reaches_ground": true
+    },
+    {
+      "ref": "C1014",
+      "uf": 22.0,
+      "reaches_processor": false,
+      "reaches_output": false,
+      "reaches_ground": true
+    },
+    {
+      "ref": "C1601",
+      "uf": 0.1,
+      "reaches_processor": true,
+      "reaches_output": false,
+      "reaches_ground": true
+    },
+    {
+      "ref": "C1602",
+      "uf": 4.7,
+      "reaches_processor": false,
+      "reaches_output": false,
+      "reaches_ground": true
+    },
+    {
+      "ref": "C1603",
+      "uf": 22.0,
+      "reaches_processor": false,
+      "reaches_output": false,
+      "reaches_ground": true
+    },
+    {
+      "ref": "C1604",
+      "uf": 22.0,
+      "reaches_processor": false,
+      "reaches_output": false,
+      "reaches_ground": true
+    },
+    {
+      "ref": "C1605",
+      "uf": 22.0,
+      "reaches_processor": false,
+      "reaches_output": false,
+      "reaches_ground": false
+    },
+    {
+      "ref": "C1606",
+      "uf": 22.0,
+      "reaches_processor": false,
+      "reaches_output": false,
+      "reaches_ground": true
+    },
+    {
+      "ref": "C1607",
+      "uf": 22.0,
+      "reaches_processor": false,
+      "reaches_output": false,
+      "reaches_ground": true
+    },
+    {
+      "ref": "C1608",
+      "uf": 22.0,
+      "reaches_processor": false,
+      "reaches_output": false,
+      "reaches_ground": true
+    }
+  ],
+  "processor_grounded_capacitance_uf": 0.1,
+  "processor_connected_to_output": false,
+  "design_total_uf": 224.8,
+  "connected_both_terminals_uf": 66.0,
+  "local_datasheet": "reference/RK860-0-C19188628.pdf, Rev 1.2 pp. 5\u20136",
+  "recommended_cout_uf": [
+    44,
+    88
+  ],
+  "full_population_fraction_at_88uf": 0.39145907473309605,
+  "qualification": "Nominal inventory. The frequency-dependent load at the regulator depends on capacitance versus bias, temperature and tolerance, ESR, ESL, rail distribution and the RK860 loop. C1020 is in the feedback network and excluded. Measure a load transient and qualify the effective load; the local capacitor count alone does not bound the final load."
+}

@@ -1,0 +1,301 @@
+{
+  "source": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/load-in3-c513d/phy-joint.kicad_pcb",
+  "source_sha256": "ed62235bbb029f795503ecc0f4e9b3e505adea246f7f73883a52165a9438a378",
+  "candidate": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/c522-clock2/phy-joint.kicad_pcb",
+  "candidate_sha256": "57932744f75e16e4567563a68dece991d9388095f9ec0927a8334594760a14b6",
+  "removed": [
+    "5ceae13c-f7e5-428d-a95f-ff53859e346f",
+    "78491b2d-2562-496c-83a8-0691e563be30",
+    "0452c5ee-141d-4559-bb1e-460951d90bdf",
+    "0d11c935-34ee-4bc6-b7ca-a91682237df0",
+    "118686ce-f2fb-4fdd-a7bd-63fc3511f3ea",
+    "16f2366b-8fa3-4aa4-a89f-6bb66ca2a76b",
+    "20ba73a0-05bb-480f-8e5e-b3d74ec2abef",
+    "2d70fa58-c1cb-406c-a8cc-ac932a89c368",
+    "4472a54c-3b33-4604-abc9-6e3f968e4a89",
+    "474fdfdf-381e-4c77-a657-a6c9a846bc4e",
+    "4fcdb010-7255-49c5-b95b-787324a0982c",
+    "5c0d02f8-7e8b-402b-945f-59f2ee604d67",
+    "613d5d27-1ad5-4d05-a00e-09b2fbb815f4",
+    "6200c373-1d4d-4b57-a303-ae3dfa8e5ef6",
+    "6b9baad7-7a54-49f4-b70c-531b50df6e02",
+    "6dc6382b-a124-4d71-88c9-00869c4c3257",
+    "7b0a6429-0b9a-4e08-ab27-19f2c2e641d5",
+    "7ef08f7f-13a2-492c-8cd9-213814f16595",
+    "8ada5052-b051-46f0-9dd0-f50d688740c3",
+    "90e80b97-3dcb-41e1-8732-37efc580cf5e",
+    "96976d5c-b550-4e27-bfc4-f2770bd34539",
+    "a6fb6f7a-abde-4b9f-b465-d9cc1600a110",
+    "a9b8cbb3-7323-467b-817b-1f2e19a47649",
+    "c34c87d3-91a4-4286-9550-d075d3008fdc",
+    "c46d6a01-9ea9-47f6-a905-1b30468c9c6b",
+    "c4ddd3e3-bc98-494f-a8cc-3392bfd26edc",
+    "cc0d7ff6-02a6-461e-9534-600061bb85b0",
+    "d145ebb7-7ce1-4ff9-b8c1-41f55031705e",
+    "d2e08f7d-54b6-439f-95d7-5ddca3912f5b",
+    "dc003703-90fc-4bc0-9e61-be16f93a3b33",
+    "e5c2ef2f-7392-4b5f-b33d-9e0291d0ec98",
+    "f1c9e36a-a846-43b1-909c-7015837624df",
+    "f7bca84f-fadc-4527-9297-77cdd4128d4d",
+    "22125a36-5bc5-418a-a3a5-8790f39f0cd9",
+    "25855b4c-f46f-4a2c-b202-ecd0fc922281",
+    "82f0a8b0-b161-4fb7-a856-0148b470af9b",
+    "876dec46-bc99-4dab-8444-e69f93df4a2c",
+    "add12a58-093b-43f2-a44d-fbd9f22e8f1b",
+    "d781a3f8-f7e5-4ab8-9c55-6875ba3aca47",
+    "d9d2489c-380d-4452-84b4-abcd9324131c",
+    "f7e6ec4d-9619-451f-a4ff-3e7fa910bcc9"
+  ],
+  "routes": [
+    {
+      "label": "clock_pin",
+      "path_mm": [
+        [
+          60.6,
+          31.6
+        ],
+        [
+          59.375,
+          31.6
+        ]
+      ],
+      "net": "PHY_XOUT",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "guard": {
+        "net": "PHY_XOUT",
+        "width_mm": 0.15,
+        "segments": 1,
+        "width_preserved": true,
+        "current_rating_qualified": false
+      },
+      "uuids": [
+        "aa3ea7f8-9039-40df-92a7-b89a23812c12"
+      ]
+    },
+    {
+      "label": "clock_body",
+      "path_mm": [
+        [
+          59.375,
+          31.6
+        ],
+        [
+          59.375,
+          32.6
+        ],
+        [
+          58.95,
+          33.025
+        ],
+        [
+          57.825,
+          33.025
+        ]
+      ],
+      "net": "PHY_XOUT",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "guard": {
+        "net": "PHY_XOUT",
+        "width_mm": 0.2,
+        "segments": 3,
+        "width_preserved": true,
+        "current_rating_qualified": false
+      },
+      "uuids": [
+        "11c6f0b3-cc46-4ae0-9ae7-efa588170157",
+        "88efe9e0-d3c0-4912-94dc-63ef5ee353dd",
+        "f7bfb169-e084-4fdd-aa4c-2ed281592700"
+      ]
+    },
+    {
+      "label": "clock_input_back",
+      "path_mm": [
+        [
+          59.875,
+          31
+        ],
+        [
+          59.35,
+          31.525
+        ],
+        [
+          59.35,
+          32.6
+        ],
+        [
+          59.95,
+          33.2
+        ],
+        [
+          61.25,
+          33.2
+        ],
+        [
+          61.25,
+          34.825
+        ]
+      ],
+      "net": "PHY_XIN",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "guard": {
+        "net": "PHY_XIN",
+        "width_mm": 0.2,
+        "segments": 5,
+        "width_preserved": true,
+        "current_rating_qualified": false
+      },
+      "uuids": [
+        "d314189c-e848-4019-a32d-a87282db1894",
+        "619762ff-9323-4a75-bfb2-0ac145f1416f",
+        "af108ddb-ba56-4479-a3f2-ea5f67b3d8c2",
+        "869a6e4d-388f-4d30-9593-f81a2f4932b4",
+        "057c16c0-bb5e-42f9-96ca-7a08b3142ae3"
+      ]
+    },
+    {
+      "label": "pin38_fanout",
+      "path_mm": [
+        [
+          60.6,
+          32
+        ],
+        [
+          59.9,
+          32
+        ]
+      ],
+      "net": "+1V0_PHY",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "guard": {
+        "net": "+1V0_PHY",
+        "width_mm": 0.2,
+        "segments": 1,
+        "width_preserved": true,
+        "current_rating_qualified": false
+      },
+      "uuids": [
+        "25c905bd-6777-43b2-adf4-840f3ceb4a3e"
+      ]
+    },
+    {
+      "label": "post_inductor",
+      "path_mm": [
+        [
+          62.425,
+          32.1
+        ],
+        [
+          60.55,
+          32.1
+        ]
+      ],
+      "net": "+1V0_PHY",
+      "layer": "In3.Cu",
+      "width_mm": 1.55,
+      "guard": {
+        "net": "+1V0_PHY",
+        "width_mm": 1.55,
+        "segments": 1,
+        "width_preserved": true,
+        "current_rating_qualified": false
+      },
+      "uuids": [
+        "448ee1c0-9e1c-4c1c-9a28-2adddb81aa4d"
+      ]
+    },
+    {
+      "label": "back_load",
+      "path_mm": [
+        [
+          60.55,
+          32.1
+        ],
+        [
+          60.7,
+          31.9
+        ]
+      ],
+      "net": "+1V0_PHY",
+      "layer": "B.Cu",
+      "width_mm": 1.55,
+      "guard": {
+        "net": "+1V0_PHY",
+        "width_mm": 1.55,
+        "segments": 1,
+        "width_preserved": true,
+        "current_rating_qualified": false
+      },
+      "uuids": [
+        "875bb1d0-3442-45c4-a19d-e4b7c2da300f"
+      ]
+    }
+  ],
+  "via_array": [
+    {
+      "uuid": "b6f38efb-7fdb-4571-93b1-ce42c2bebec2",
+      "xy_mm": [
+        59.9,
+        32
+      ],
+      "net": "+1V0_PHY",
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2
+    },
+    {
+      "uuid": "4803050c-52a9-4db6-a53b-b6f55335d1d4",
+      "xy_mm": [
+        61.98,
+        31.8
+      ],
+      "net": "GND",
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2
+    }
+  ],
+  "required_pairs": [
+    [
+      [
+        "C511",
+        "1"
+      ],
+      [
+        "C522",
+        "1"
+      ]
+    ],
+    [
+      [
+        "U5",
+        "38"
+      ],
+      [
+        "C522",
+        "1"
+      ]
+    ],
+    [
+      [
+        "C522",
+        "2"
+      ],
+      [
+        "C515",
+        "2"
+      ]
+    ]
+  ],
+  "current_via_PI_qualified": false,
+  "clock_loop_qualified": false,
+  "via_pad_overlap_manufacturing_qualified": false,
+  "historical_60mil_width_met_on_entire_path": false,
+  "main_checkpoint_modified": false,
+  "limitations": [
+    "Backside decoupler and clock reroute are experimental; loop/clock loading/EMI unqualified.",
+    "Single local power fanout via 0.45/0.20 mm due QFN/oscillator escape constraints; not equivalent to two 0.60/0.30 distribution vias. Current/PI qualification mandatory; power layout not accepted.",
+    "1.55 mm trunks preserved; 0.20 mm pin38 fanout remains unqualified."
+  ]
+}

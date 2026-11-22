@@ -1,0 +1,42 @@
+{
+  "parent_sha256": "7623e79a6838934df7f6d441cf01ec91127591fe4a32247673c4e6f30816fe7a",
+  "network": "DEBUG_RX",
+  "frontiers": [
+    {
+      "group": 0,
+      "layer": "F.Cu",
+      "nodes": 12
+    },
+    {
+      "group": 1,
+      "layer": "B.Cu",
+      "nodes": 1283
+    }
+  ],
+  "pairs": [
+    {
+      "groups": [
+        1,
+        0
+      ],
+      "layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "intersections": 0,
+      "tested": 0,
+      "legal": false
+    }
+  ],
+  "local_exit": {
+    "0-F.Cu": {
+      "sites": 0,
+      "representatives": []
+    },
+    "1-B.Cu": {
+      "sites": 0,
+      "representatives": []
+    }
+  },
+  "candidates": []
+}

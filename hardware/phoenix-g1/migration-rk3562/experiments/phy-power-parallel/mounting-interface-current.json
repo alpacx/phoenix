@@ -1,0 +1,32 @@
+{
+  "board": "runs/phy-joint-terminal-shift/phy-joint.kicad_pcb",
+  "sha256": "3bab3f94c671a304822d47601ae49b59b59d3f76e76048437e35e5c7395be975",
+  "units": "mm",
+  "coordinates": "KiCad absolute X,Y (Y down)",
+  "drill_mm": 2.2,
+  "plating": "NPTH",
+  "centers": {
+    "H8101": [
+      53.0,
+      4.0
+    ],
+    "H8102": [
+      83.0,
+      3.0
+    ],
+    "H8103": [
+      21.0,
+      3.0
+    ],
+    "H8104": [
+      20.25,
+      9.0
+    ],
+    "H8105": [
+      70.2,
+      34.0
+    ]
+  },
+  "verification": "Five pad positions match the actual round drill hits in the KiCad Excellon export.",
+  "physical_fit_verified": false
+}

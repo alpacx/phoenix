@@ -1,0 +1,283 @@
+{
+  "parent_sha256": "cee64e9e79713675eb24111a50abaa2f8b6b4860d28f528d9d3bc46385049923",
+  "stacks": {
+    "7628": {
+      "board": "runs/rf-external-usb-direction/phy-joint.kicad_pcb",
+      "sha256": "cee64e9e79713675eb24111a50abaa2f8b6b4860d28f528d9d3bc46385049923",
+      "rf": {
+        "WIFI_RF": {
+          "length_mm": 4.592852290647927,
+          "widths_mm": [
+            0.335
+          ],
+          "reference_plane": "In4.Cu",
+          "projected_areas": [
+            {
+              "lateral_margin_mm": 0.0,
+              "area_mm2": 1.4757477806225,
+              "missing_ground_mm2": 4.2259293e-05
+            },
+            {
+              "lateral_margin_mm": 0.1,
+              "area_mm2": 2.4238822264765,
+              "missing_ground_mm2": 0.103196651257
+            },
+            {
+              "lateral_margin_mm": 0.2,
+              "area_mm2": 3.433383945955,
+              "missing_ground_mm2": 0.28370774601
+            },
+            {
+              "lateral_margin_mm": 0.3,
+              "area_mm2": 4.5047683043605,
+              "missing_ground_mm2": 0.4939513558165
+            },
+            {
+              "lateral_margin_mm": 0.5,
+              "area_mm2": 6.833932807396,
+              "missing_ground_mm2": 1.1323855756555
+            }
+          ]
+        },
+        "WIFI_ANT": {
+          "length_mm": 4.05861160648124,
+          "widths_mm": [
+            0.338
+          ],
+          "reference_plane": "In4.Cu",
+          "projected_areas": [
+            {
+              "lateral_margin_mm": 0.0,
+              "area_mm2": 1.4615621325145,
+              "missing_ground_mm2": 0.0
+            },
+            {
+              "lateral_margin_mm": 0.1,
+              "area_mm2": 2.410836641198,
+              "missing_ground_mm2": 0.113411967771
+            },
+            {
+              "lateral_margin_mm": 0.2,
+              "area_mm2": 3.422822749873,
+              "missing_ground_mm2": 0.35384714751
+            },
+            {
+              "lateral_margin_mm": 0.3,
+              "area_mm2": 4.497565401985,
+              "missing_ground_mm2": 0.6493198918725
+            },
+            {
+              "lateral_margin_mm": 0.5,
+              "area_mm2": 6.835216548311,
+              "missing_ground_mm2": 1.407572950608
+            }
+          ]
+        }
+      },
+      "added_drc": [],
+      "verified_pad_pairs": [
+        [
+          "U25.2",
+          "R2001.1"
+        ],
+        [
+          "U25.2",
+          "R2005.1"
+        ],
+        [
+          "R2001.2",
+          "J2001.1"
+        ],
+        [
+          "U4.69",
+          "J2001.2"
+        ],
+        [
+          "U4.69",
+          "J2001.3"
+        ],
+        [
+          "U4.69",
+          "C2008.2"
+        ],
+        [
+          "U4.69",
+          "C2009.2"
+        ]
+      ]
+    },
+    "3313": {
+      "board": "runs/rf-external-3313-normalized-usb-direction/phy-joint.kicad_pcb",
+      "sha256": "f72e74e3a7829c5d8a1a3133493b698b2f988f4664222ce0c529a024a1df2634",
+      "rf": {
+        "WIFI_RF": {
+          "length_mm": 4.592852290647927,
+          "widths_mm": [
+            0.154
+          ],
+          "reference_plane": "In4.Cu",
+          "projected_areas": [
+            {
+              "lateral_margin_mm": 0.0,
+              "area_mm2": 0.6687467165165,
+              "missing_ground_mm2": 0.0
+            },
+            {
+              "lateral_margin_mm": 0.1,
+              "area_mm2": 1.5632208229825,
+              "missing_ground_mm2": 0.0020578695995
+            },
+            {
+              "lateral_margin_mm": 0.2,
+              "area_mm2": 2.5171416510205,
+              "missing_ground_mm2": 0.119063175541
+            },
+            {
+              "lateral_margin_mm": 0.3,
+              "area_mm2": 3.5325155245995,
+              "missing_ground_mm2": 0.3020605517585
+            },
+            {
+              "lateral_margin_mm": 0.5,
+              "area_mm2": 5.749173138639,
+              "missing_ground_mm2": 0.8198933500935
+            }
+          ]
+        },
+        "WIFI_ANT": {
+          "length_mm": 4.05861160648124,
+          "widths_mm": [
+            0.154
+          ],
+          "reference_plane": "In4.Cu",
+          "projected_areas": [
+            {
+              "lateral_margin_mm": 0.0,
+              "area_mm2": 0.6436977650385,
+              "missing_ground_mm2": 0.0
+            },
+            {
+              "lateral_margin_mm": 0.1,
+              "area_mm2": 1.5351991764615,
+              "missing_ground_mm2": 0.000209043529
+            },
+            {
+              "lateral_margin_mm": 0.2,
+              "area_mm2": 2.489492390639,
+              "missing_ground_mm2": 0.1297906211
+            },
+            {
+              "lateral_margin_mm": 0.3,
+              "area_mm2": 3.5065023417045,
+              "missing_ground_mm2": 0.3757440566015
+            },
+            {
+              "lateral_margin_mm": 0.5,
+              "area_mm2": 5.728733521754,
+              "missing_ground_mm2": 1.026122448745
+            }
+          ]
+        }
+      },
+      "added_drc": [
+        {
+          "type": "track_width",
+          "severity": "error",
+          "items": [
+            "0b5ca3aa-bc9c-4b1e-81de-548f66ae407d"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_width",
+          "severity": "error",
+          "items": [
+            "0c47e933-89ba-441b-9b77-b452fa9920ed"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_width",
+          "severity": "error",
+          "items": [
+            "19e96c72-a267-460f-8c15-c98aae876f62"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_width",
+          "severity": "error",
+          "items": [
+            "484c8df1-2450-4a96-a162-30a156c51bc8"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_width",
+          "severity": "error",
+          "items": [
+            "e51edd53-3e5f-4be7-9905-0718da5dcbcd"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_width",
+          "severity": "error",
+          "items": [
+            "0a55808a-880e-40b7-b0b3-75956e6a628b"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_width",
+          "severity": "error",
+          "items": [
+            "396b7283-584d-4e96-8cef-140789491069"
+          ],
+          "count": 1
+        },
+        {
+          "type": "track_width",
+          "severity": "error",
+          "items": [
+            "9cf9ee39-6a1b-4a4d-85b8-0f45825d20b5"
+          ],
+          "count": 1
+        }
+      ],
+      "verified_pad_pairs": [
+        [
+          "U25.2",
+          "R2001.1"
+        ],
+        [
+          "U25.2",
+          "R2005.1"
+        ],
+        [
+          "R2001.2",
+          "J2001.1"
+        ],
+        [
+          "U4.69",
+          "J2001.2"
+        ],
+        [
+          "U4.69",
+          "J2001.3"
+        ],
+        [
+          "U4.69",
+          "C2008.2"
+        ],
+        [
+          "U4.69",
+          "C2009.2"
+        ]
+      ]
+    }
+  },
+  "polygon_chord_tolerance_mm": 0.0005,
+  "scope": "Saved RF trace copper projected onto the adjacent filled GND zone. Excludes pad and enclosure discontinuities and measured return loss.",
+  "assembly_ready": false
+}

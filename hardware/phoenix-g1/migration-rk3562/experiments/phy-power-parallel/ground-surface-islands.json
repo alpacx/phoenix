@@ -1,0 +1,84 @@
+{
+  "parent_sha256": "e658447c7cf1658919478a08633f6132e84d7b58df4e9eae144ed19fe5a875e6",
+  "proposed": 649,
+  "bridges": [
+    {
+      "first": "U1.1B9",
+      "second": "C1001.2",
+      "length_mm": 0.9192388155425119,
+      "layer": "F.Cu",
+      "ends_nm": [
+        [
+          43650000,
+          16100000
+        ],
+        [
+          44300000,
+          16750000
+        ]
+      ]
+    },
+    {
+      "first": "U1.1F15",
+      "second": "U1.1G13",
+      "length_mm": 0.9192388155425119,
+      "layer": "F.Cu",
+      "ends_nm": [
+        [
+          47550000,
+          18700000
+        ],
+        [
+          46900000,
+          19350000
+        ]
+      ]
+    },
+    {
+      "first": "U1.1L2",
+      "second": "C1001.2",
+      "length_mm": 0.9192388155425119,
+      "layer": "F.Cu",
+      "ends_nm": [
+        [
+          39100000,
+          21950000
+        ],
+        [
+          38450000,
+          21300000
+        ]
+      ]
+    },
+    {
+      "first": "U1.1R12",
+      "second": "C1001.2",
+      "length_mm": 0.9192388155425119,
+      "layer": "F.Cu",
+      "ends_nm": [
+        [
+          45600000,
+          24550000
+        ],
+        [
+          44950000,
+          23900000
+        ]
+      ]
+    }
+  ],
+  "board": "runs/ground-surface-islands/phy-joint.kicad_pcb",
+  "sha256": "528fa45b6924c18b55823b011c3c2dc59f47784e2f2766cbcf3de1e2422b68eb",
+  "new_drc": [],
+  "remaining_joins": 444,
+  "violations": {
+    "via_dangling": 121
+  },
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 7332,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 4,
+    "existing_connected_pad_groups_preserved": 121
+  }
+}

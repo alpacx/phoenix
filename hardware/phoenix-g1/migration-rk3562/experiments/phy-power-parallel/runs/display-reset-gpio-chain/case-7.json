@@ -1,0 +1,21 @@
+{
+  "attempt": {
+    "at": [
+      34875000,
+      22725000
+    ],
+    "order": [
+      "LCD_DC",
+      "EXP_GPIO1"
+    ],
+    "branches": [
+      {
+        "net": "LCD_DC",
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 1
+      }
+    ]
+  },
+  "candidate": null
+}

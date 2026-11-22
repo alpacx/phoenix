@@ -1,0 +1,16 @@
+{
+  "board_sha256": "bcf0915ed68b88dc19010231d086f32e76fa28882432d6ac8b0e603aff5c8b31",
+  "runs": [
+    {
+      "net": "LPDDR4_DQ10_B",
+      "edge_gap_mm": 0.39999999999999997,
+      "run_within_0p6mm": 0.350001
+    },
+    {
+      "net": "LPDDR4_DQ10_B",
+      "edge_gap_mm": 0.4619,
+      "run_within_0p6mm": 0.099999
+    }
+  ],
+  "assumptions": "Planar centerline distance minus radii, angular difference <=15 degrees. Segment-pair proximity; not a coupled-field solver or flight-delay acceptance."
+}

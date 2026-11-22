@@ -1,0 +1,80 @@
+{
+  "status": "COMPARISON COMPLETE FOR CHECKED PARTS; retain existing two-chip DDR3 baseline, no circuit change",
+  "candidates": [
+    {
+      "code": "C2909894",
+      "mpn": "H5TQ2G63GFR-TEC",
+      "quantity": 2,
+      "capacity_MiB": 512,
+      "bus_bits": 32,
+      "price_USD": 7.1797,
+      "RAM_total_USD": 14.3594,
+      "canPresaleNumber": 19,
+      "overseasStockCount": 19,
+      "retrieved_utc": "2026-11-07T17:37:33.703284+00:00",
+      "source_url": "https://jlcpcb.com/partdetail/C2909894"
+    },
+    {
+      "code": "C2803259",
+      "mpn": "H5TQ4G63EFR-RDC",
+      "quantity": 1,
+      "capacity_MiB": 512,
+      "bus_bits": 16,
+      "price_USD": 15.8362,
+      "RAM_total_USD": 15.8362,
+      "canPresaleNumber": 1615,
+      "overseasStockCount": 1642,
+      "retrieved_utc": "2026-11-07T18:18:46.679438+00:00",
+      "source_url": "https://jlcpcb.com/partdetail/C2803259"
+    },
+    {
+      "code": "C500275",
+      "mpn": "K4B4G1646E-BYMA",
+      "quantity": 1,
+      "capacity_MiB": 512,
+      "bus_bits": 16,
+      "price_USD": 15.5156,
+      "RAM_total_USD": 15.5156,
+      "canPresaleNumber": 1708,
+      "overseasStockCount": 1741,
+      "retrieved_utc": "2026-11-07T17:36:56.725074+00:00",
+      "source_url": "https://jlcpcb.com/partdetail/C500275"
+    },
+    {
+      "code": "C861878",
+      "mpn": "NT5CB256M16DP-EK",
+      "quantity": 1,
+      "capacity_MiB": 512,
+      "bus_bits": 16,
+      "price_USD": 5.6424,
+      "RAM_total_USD": 5.6424,
+      "canPresaleNumber": 0,
+      "overseasStockCount": 0,
+      "retrieved_utc": "2026-11-07T18:19:06.096896+00:00",
+      "source_url": "https://jlcpcb.com/partdetail/C861878"
+    }
+  ],
+  "decision": "No stocked single-x16 candidate checked is cheaper in RAM purchase cost than existing two-x16 DDR3. PCB/passive/assembly savings not yet quantified. Zero-stock Nanya excluded from purchasable comparison.",
+  "hardware_evidence": {
+    "file": "reference/Rockchip_RK3568_Hardware_Design_Guide_EN_V1.2_20220126_.pdf",
+    "section": "DDR3/DDR3L byte-swap restrictions",
+    "finding": "16bit and 16bit/32bit compatible designs must follow the Rockchip template exactly. Do not assume deleting U3 is sufficient."
+  },
+  "loader_evidence": {
+    "url": "https://raw.githubusercontent.com/rockchip-linux/rkbin/master/doc/release/RK3568_EN.md",
+    "finding": "Reviewed release notes do not establish exact single-x16 DDR3 board wiring/training. v1.26 single-channel LPDDR4 support is not evidence for DDR3 wiring."
+  },
+  "performance": {
+    "at_1066_MT_s_theoretical_GB_s": {
+      "16bit": 2.132,
+      "32bit": 4.264
+    },
+    "note": "Raw theoretical bandwidth only; not usable sustained bandwidth or a prediction of VPN throughput."
+  },
+  "unresolved": [
+    "Exact Rockchip x16 reference template and loader qualification",
+    "Full subsystem cost including passives and assembly",
+    "Thermal and power measurements",
+    "Live stock confirmation at order time"
+  ]
+}

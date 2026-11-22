@@ -1,0 +1,93 @@
+{
+  "parent_sha256": "08186d0b398fd980c6d410de610ce92955d6369141dee576aa255be8bb9e02a4",
+  "fronts": [
+    {
+      "front_nodes": 64,
+      "path": [],
+      "closest": [
+        15577888.97765034,
+        [
+          48950000,
+          18450000
+        ],
+        [
+          36310000,
+          9345000
+        ]
+      ]
+    },
+    {
+      "front_nodes": 69965,
+      "path": [],
+      "closest": [
+        2878041.869049163,
+        [
+          50010000,
+          15805000
+        ],
+        [
+          49000000,
+          18500000
+        ]
+      ]
+    }
+  ],
+  "minimum_gap": [
+    2558246.4697522796,
+    [
+      49750000,
+      18350000
+    ],
+    [
+      50010000,
+      15805000
+    ]
+  ],
+  "obstacles": [
+    {
+      "type": "PCB_TRACK",
+      "net": "GND",
+      "name": "7cf683e1-589e-4f87-9112-8bee9fa6a4d2"
+    },
+    {
+      "type": "PCB_TRACK",
+      "net": "GND",
+      "name": "c2afaed7-8799-429c-9057-1cb64cf1c0d9"
+    },
+    {
+      "type": "PCB_TRACK",
+      "net": "GND",
+      "name": "c40ef8ac-7089-4f05-8e2b-bb81e0815d33"
+    },
+    {
+      "type": "PCB_TRACK",
+      "net": "GND",
+      "name": "f9555adf-4d18-4e7b-8f47-622801c3e2b9"
+    },
+    {
+      "type": "PCB_TRACK",
+      "net": "+3V58_WIFI",
+      "name": "b2331533-00e6-43cc-8425-2ac7ea49a365"
+    },
+    {
+      "type": "PCB_TRACK",
+      "net": "+3V58_WIFI",
+      "name": "de08976d-b431-417c-b11a-0db1b9b94b36"
+    },
+    {
+      "type": "PCB_VIA",
+      "net": "+3V58_WIFI",
+      "name": "f80dc1f4-65f8-4dfd-98a1-81a2d4c466ff"
+    },
+    {
+      "type": "PAD",
+      "net": "EMMC_D7",
+      "name": "U1.H27"
+    },
+    {
+      "type": "PAD",
+      "net": "EMMC_D3",
+      "name": "U1.K27"
+    }
+  ]
+}

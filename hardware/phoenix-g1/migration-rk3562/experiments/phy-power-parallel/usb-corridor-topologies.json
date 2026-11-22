@@ -1,0 +1,326 @@
+{
+  "source_sha256": "24a5d7a0fb4ec84a9051dc7a183ee3bef1092a4bfcc3159566c727bd8d3705b3",
+  "width_mm": 0.2,
+  "grid_mm": 0.05,
+  "max_local_path_mm": 5.6,
+  "via_land_drill_mm": [
+    0.45,
+    0.2
+  ],
+  "trials": [
+    {
+      "vias_per_signal": [
+        0,
+        0
+      ],
+      "order": [
+        "USB_DP",
+        "USB_DM"
+      ],
+      "inside": [
+        "In2.Cu",
+        "In2.Cu"
+      ],
+      "signals": [
+        {
+          "net": "USB_DP",
+          "visited": 1391,
+          "route": false
+        }
+      ]
+    },
+    {
+      "vias_per_signal": [
+        0,
+        0
+      ],
+      "order": [
+        "USB_DM",
+        "USB_DP"
+      ],
+      "inside": [
+        "In2.Cu",
+        "In2.Cu"
+      ],
+      "signals": [
+        {
+          "net": "USB_DM",
+          "route": true,
+          "length_mm": 2.0106601717798216,
+          "barrels_nm": []
+        },
+        {
+          "net": "USB_DP",
+          "visited": 1390,
+          "route": false
+        }
+      ]
+    },
+    {
+      "vias_per_signal": [
+        2,
+        2
+      ],
+      "order": [
+        "USB_DP",
+        "USB_DM"
+      ],
+      "inside": [
+        "In2.Cu",
+        "In2.Cu"
+      ],
+      "signals": [
+        {
+          "net": "USB_DP",
+          "route": true,
+          "length_mm": 4.334924240491749,
+          "barrels_nm": [
+            [
+              5340000,
+              19400000
+            ],
+            [
+              7240000,
+              19750000
+            ]
+          ]
+        },
+        {
+          "net": "USB_DM",
+          "visited": 19,
+          "route": false
+        }
+      ]
+    },
+    {
+      "vias_per_signal": [
+        2,
+        2
+      ],
+      "order": [
+        "USB_DM",
+        "USB_DP"
+      ],
+      "inside": [
+        "In2.Cu",
+        "In2.Cu"
+      ],
+      "signals": [
+        {
+          "net": "USB_DM",
+          "route": true,
+          "length_mm": 4.100609665440988,
+          "barrels_nm": [
+            [
+              5340000,
+              19400000
+            ],
+            [
+              7140000,
+              19900000
+            ]
+          ]
+        },
+        {
+          "net": "USB_DP",
+          "visited": 3065,
+          "route": false
+        }
+      ]
+    },
+    {
+      "vias_per_signal": [
+        2,
+        2
+      ],
+      "order": [
+        "USB_DP",
+        "USB_DM"
+      ],
+      "inside": [
+        "In2.Cu",
+        "In3.Cu"
+      ],
+      "signals": [
+        {
+          "net": "USB_DP",
+          "route": true,
+          "length_mm": 4.334924240491749,
+          "barrels_nm": [
+            [
+              5340000,
+              19400000
+            ],
+            [
+              7240000,
+              19750000
+            ]
+          ]
+        },
+        {
+          "net": "USB_DM",
+          "visited": 19,
+          "route": false
+        }
+      ]
+    },
+    {
+      "vias_per_signal": [
+        2,
+        2
+      ],
+      "order": [
+        "USB_DM",
+        "USB_DP"
+      ],
+      "inside": [
+        "In2.Cu",
+        "In3.Cu"
+      ],
+      "signals": [
+        {
+          "net": "USB_DM",
+          "route": true,
+          "length_mm": 4.100609665440988,
+          "barrels_nm": [
+            [
+              5340000,
+              19400000
+            ],
+            [
+              7140000,
+              19900000
+            ]
+          ]
+        },
+        {
+          "net": "USB_DP",
+          "visited": 6046,
+          "route": false
+        }
+      ]
+    },
+    {
+      "vias_per_signal": [
+        0,
+        2
+      ],
+      "order": [
+        "USB_DP",
+        "USB_DM"
+      ],
+      "inside": [
+        "In2.Cu",
+        "In2.Cu"
+      ],
+      "signals": [
+        {
+          "net": "USB_DP",
+          "visited": 1391,
+          "route": false
+        }
+      ]
+    },
+    {
+      "vias_per_signal": [
+        0,
+        2
+      ],
+      "order": [
+        "USB_DM",
+        "USB_DP"
+      ],
+      "inside": [
+        "In2.Cu",
+        "In2.Cu"
+      ],
+      "signals": [
+        {
+          "net": "USB_DM",
+          "route": true,
+          "length_mm": 2.0106601717798216,
+          "barrels_nm": []
+        },
+        {
+          "net": "USB_DP",
+          "visited": 5063,
+          "route": false
+        }
+      ]
+    },
+    {
+      "vias_per_signal": [
+        2,
+        0
+      ],
+      "order": [
+        "USB_DP",
+        "USB_DM"
+      ],
+      "inside": [
+        "In2.Cu",
+        "In2.Cu"
+      ],
+      "signals": [
+        {
+          "net": "USB_DP",
+          "route": true,
+          "length_mm": 4.334924240491749,
+          "barrels_nm": [
+            [
+              5340000,
+              19400000
+            ],
+            [
+              7240000,
+              19750000
+            ]
+          ]
+        },
+        {
+          "net": "USB_DM",
+          "visited": 19,
+          "route": false
+        }
+      ]
+    },
+    {
+      "vias_per_signal": [
+        2,
+        0
+      ],
+      "order": [
+        "USB_DM",
+        "USB_DP"
+      ],
+      "inside": [
+        "In2.Cu",
+        "In2.Cu"
+      ],
+      "signals": [
+        {
+          "net": "USB_DM",
+          "route": true,
+          "length_mm": 4.100609665440988,
+          "barrels_nm": [
+            [
+              5340000,
+              19400000
+            ],
+            [
+              7140000,
+              19900000
+            ]
+          ]
+        },
+        {
+          "net": "USB_DP",
+          "visited": 946,
+          "route": false
+        }
+      ]
+    }
+  ],
+  "impedance_qualified": false,
+  "adopted": false
+}

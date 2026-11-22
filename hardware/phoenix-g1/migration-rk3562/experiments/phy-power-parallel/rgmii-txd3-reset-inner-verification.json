@@ -1,0 +1,81 @@
+{
+  "parent_sha256": "6a0f0929d81987b8cc76b0a4a6a9de1976bb4d287431b3d565621cb45d960492",
+  "candidate_sha256": "4b7d98ebc380fce309132548ee1a7c6e9751f65e4dacfaa9412d392972cee4f6",
+  "source_branch": {
+    "RESET_N": {
+      "length_mm": 23.980613254815974,
+      "reference": "In4.Cu",
+      "samples": 2991,
+      "missing_ground_samples": 213
+    },
+    "ETH_TXD3": {
+      "length_mm": 2.8970562748477144,
+      "reference": "In1.Cu",
+      "samples": 375,
+      "missing_ground_samples": 0
+    }
+  },
+  "joins": 404,
+  "pairs_checked": 758,
+  "lost_pairs": [],
+  "new_drc": [],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 7650,
+    "explicitly_replaced_copper": {
+      "031dca8a-e1b9-46d8-9263-e5e54bfb6855": [
+        "RESET_N",
+        0,
+        35800000,
+        26200000,
+        35000000,
+        24400000,
+        200000,
+        null
+      ],
+      "26cb3b34-c180-453b-bef6-dbadf5d585ad": [
+        "RESET_N",
+        0,
+        32600000,
+        21400000,
+        30600000,
+        18400000,
+        200000,
+        null
+      ],
+      "2c5b2bf9-a9ee-474b-a155-7ce6d51b972c": [
+        "RESET_N",
+        0,
+        33200000,
+        24200000,
+        32800000,
+        24000000,
+        200000,
+        null
+      ],
+      "a1cfea77-a486-4302-8447-c60aa1804662": [
+        "RESET_N",
+        0,
+        32800000,
+        24000000,
+        32600000,
+        21400000,
+        200000,
+        null
+      ],
+      "dbf29368-396b-4a7b-a072-ee76f92a2d08": [
+        "RESET_N",
+        0,
+        35000000,
+        24400000,
+        33200000,
+        24200000,
+        200000,
+        null
+      ]
+    },
+    "added_tracks_vias": 35,
+    "existing_connected_pad_groups_preserved": 122
+  },
+  "mechanical": []
+}

@@ -1,0 +1,112 @@
+{
+  "parent_sha256": "c5d2a1898f0b33bbc8d3a715c0f46e0f860b83229a6d0e18ac258b4f7570f7fc",
+  "width_mm": 0.6,
+  "grid_mm": 0.05,
+  "limit_mm": 8.0,
+  "steps": [
+    {
+      "ref": "C1616",
+      "pad": "1",
+      "source_land_sites": 8,
+      "target_land_sites": 9,
+      "cells": 562,
+      "path_nm": null
+    },
+    {
+      "ref": "C1617",
+      "pad": "1",
+      "source_land_sites": 9,
+      "target_land_sites": 9,
+      "cells": 552,
+      "path_nm": null
+    },
+    {
+      "ref": "C1618",
+      "pad": "1",
+      "source_land_sites": 9,
+      "target_land_sites": 9,
+      "cells": 5266,
+      "path_nm": null
+    },
+    {
+      "ref": "C1620",
+      "pad": "1",
+      "source_land_sites": 9,
+      "target_land_sites": 9,
+      "cells": 9014,
+      "path_nm": [
+        [
+          33050000,
+          20100000
+        ],
+        [
+          33050000,
+          21300000
+        ],
+        [
+          33900000,
+          22150000
+        ],
+        [
+          33900000,
+          22250000
+        ],
+        [
+          33950000,
+          22300000
+        ],
+        [
+          33950000,
+          22450000
+        ],
+        [
+          34000000,
+          22500000
+        ],
+        [
+          34000000,
+          26450000
+        ],
+        [
+          33550000,
+          26900000
+        ]
+      ]
+    },
+    {
+      "ref": "C1616",
+      "pad": "1",
+      "source_land_sites": 8,
+      "target_land_sites": 94,
+      "cells": 562,
+      "path_nm": null
+    },
+    {
+      "ref": "C1617",
+      "pad": "1",
+      "source_land_sites": 9,
+      "target_land_sites": 94,
+      "cells": 552,
+      "path_nm": null
+    },
+    {
+      "ref": "C1618",
+      "pad": "1",
+      "source_land_sites": 9,
+      "target_land_sites": 94,
+      "cells": 5266,
+      "path_nm": null
+    }
+  ],
+  "board": "runs/soc-gpu-rear-bank/phy-joint.kicad_pcb",
+  "sha256": "5c1e48da4724cafa2c15137cdad75218af37bb03b505c5669c7c685a38c1d700",
+  "new_drc": [],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 7017,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 8,
+    "existing_connected_pad_groups_preserved": 120
+  },
+  "mounts": []
+}

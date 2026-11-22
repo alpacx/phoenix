@@ -1,0 +1,399 @@
+{
+  "parent_sha256": "adb43a51675db12b0ebb2ea4d56fd5c6eae4457ccb6781e1da87468a007c2191",
+  "rows": [
+    {
+      "net": "+1V8_SYS",
+      "land": [
+        "U2.F12"
+      ],
+      "states": 1,
+      "least_blocked": [
+        {
+          "objects": [
+            [
+              "205ad867-4b89-4efd-8a5a-046974cc822b",
+              "LPDDR4_DQ11_A",
+              "U2.F11"
+            ]
+          ],
+          "edges": 3
+        },
+        {
+          "objects": [
+            [
+              "7f2c1063-f002-4a3c-b67c-22df809e987a",
+              "GND",
+              "PCB_TRACK"
+            ]
+          ],
+          "edges": 1
+        },
+        {
+          "objects": [
+            [
+              "42c11818-d1bd-4a79-92b9-083ce3a1b4f3",
+              "GND",
+              "PCB_TRACK"
+            ],
+            [
+              "d176c69c-631a-4d02-aaf7-f3460f511097",
+              "GND",
+              "U2.E12"
+            ]
+          ],
+          "edges": 1
+        },
+        {
+          "objects": [
+            [
+              "42c11818-d1bd-4a79-92b9-083ce3a1b4f3",
+              "GND",
+              "PCB_TRACK"
+            ],
+            [
+              "76a73d82-59c5-4277-9454-e06474357c1a",
+              "GND",
+              "PCB_TRACK"
+            ],
+            [
+              "d176c69c-631a-4d02-aaf7-f3460f511097",
+              "GND",
+              "U2.E12"
+            ]
+          ],
+          "edges": 2
+        },
+        {
+          "objects": [
+            [
+              "205ad867-4b89-4efd-8a5a-046974cc822b",
+              "LPDDR4_DQ11_A",
+              "U2.F11"
+            ],
+            [
+              "42c11818-d1bd-4a79-92b9-083ce3a1b4f3",
+              "GND",
+              "PCB_TRACK"
+            ],
+            [
+              "d176c69c-631a-4d02-aaf7-f3460f511097",
+              "GND",
+              "U2.E12"
+            ]
+          ],
+          "edges": 1
+        }
+      ],
+      "found": null
+    },
+    {
+      "net": "+1V8_SYS",
+      "land": [
+        "U2.G4"
+      ],
+      "states": 1,
+      "least_blocked": [
+        {
+          "objects": [
+            [
+              "40965ce0-0ff2-4201-bd11-78afc59cc8bb",
+              "LPDDR4_CS0N_A",
+              "U2.H4"
+            ]
+          ],
+          "edges": 3
+        },
+        {
+          "objects": [
+            [
+              "08529fcc-0f16-494a-83c0-42a341704673",
+              "GND",
+              "U2.G3"
+            ]
+          ],
+          "edges": 3
+        },
+        {
+          "objects": [
+            [
+              "c326dc36-c790-4cb1-be04-918f5ce42317",
+              "LPDDR4_DQ4_A",
+              "PCB_VIA"
+            ]
+          ],
+          "edges": 1
+        },
+        {
+          "objects": [
+            [
+              "08529fcc-0f16-494a-83c0-42a341704673",
+              "GND",
+              "U2.G3"
+            ],
+            [
+              "40965ce0-0ff2-4201-bd11-78afc59cc8bb",
+              "LPDDR4_CS0N_A",
+              "U2.H4"
+            ]
+          ],
+          "edges": 1
+        }
+      ],
+      "found": null
+    },
+    {
+      "net": "+1V8_SYS",
+      "land": [
+        "U2.G9"
+      ],
+      "states": 1,
+      "least_blocked": [
+        {
+          "objects": [
+            [
+              "86ec9d29-e9ac-4603-8f3b-e347afbaea38",
+              "GND",
+              "U2.G10"
+            ]
+          ],
+          "edges": 3
+        },
+        {
+          "objects": [
+            [
+              "753a5975-4c5c-4eee-8d97-3b82b36715b0",
+              "LPDDR4_A2_A",
+              "U2.H9"
+            ]
+          ],
+          "edges": 3
+        },
+        {
+          "objects": [
+            [
+              "9b320e69-ccd1-4cf2-9d00-233b006c0c0f",
+              "LPDDR4_DQ12_A",
+              "PCB_VIA"
+            ]
+          ],
+          "edges": 1
+        },
+        {
+          "objects": [
+            [
+              "753a5975-4c5c-4eee-8d97-3b82b36715b0",
+              "LPDDR4_A2_A",
+              "U2.H9"
+            ],
+            [
+              "86ec9d29-e9ac-4603-8f3b-e347afbaea38",
+              "GND",
+              "U2.G10"
+            ]
+          ],
+          "edges": 1
+        }
+      ],
+      "found": null
+    },
+    {
+      "net": "+1V8_SYS",
+      "land": [
+        "U2.T4"
+      ],
+      "states": 1,
+      "least_blocked": [
+        {
+          "objects": [
+            [
+              "b8b8fdba-5748-4bef-8714-94531a241410",
+              "LPDDR4_CS0N_B",
+              "U2.R4"
+            ]
+          ],
+          "edges": 3
+        },
+        {
+          "objects": [
+            [
+              "5bde82e6-c488-415a-a4da-6a1537801d0d",
+              "GND",
+              "U2.T3"
+            ]
+          ],
+          "edges": 3
+        },
+        {
+          "objects": [
+            [
+              "b1c08b49-54db-4267-b902-9c080b700536",
+              "LPDDR4_DQ4_B",
+              "PCB_VIA"
+            ]
+          ],
+          "edges": 1
+        },
+        {
+          "objects": [
+            [
+              "5bde82e6-c488-415a-a4da-6a1537801d0d",
+              "GND",
+              "U2.T3"
+            ],
+            [
+              "b8b8fdba-5748-4bef-8714-94531a241410",
+              "LPDDR4_CS0N_B",
+              "U2.R4"
+            ]
+          ],
+          "edges": 1
+        }
+      ],
+      "found": null
+    },
+    {
+      "net": "+1V8_SYS",
+      "land": [
+        "U2.T9"
+      ],
+      "states": 1,
+      "least_blocked": [
+        {
+          "objects": [
+            [
+              "ede27ae3-0cce-4487-8dd8-6bdfb42f965a",
+              "GND",
+              "U2.T10"
+            ]
+          ],
+          "edges": 3
+        },
+        {
+          "objects": [
+            [
+              "e16c0c1e-3e66-4325-a8e2-a8980b809ae1",
+              "LPDDR4_A2_B",
+              "U2.R9"
+            ]
+          ],
+          "edges": 3
+        },
+        {
+          "objects": [
+            [
+              "d940b99d-dfd8-4fcb-9e71-8e692010e184",
+              "LPDDR4_DQ12_B",
+              "PCB_VIA"
+            ]
+          ],
+          "edges": 1
+        },
+        {
+          "objects": [
+            [
+              "e16c0c1e-3e66-4325-a8e2-a8980b809ae1",
+              "LPDDR4_A2_B",
+              "U2.R9"
+            ],
+            [
+              "ede27ae3-0cce-4487-8dd8-6bdfb42f965a",
+              "GND",
+              "U2.T10"
+            ]
+          ],
+          "edges": 1
+        }
+      ],
+      "found": null
+    },
+    {
+      "net": "+1V8_SYS",
+      "land": [
+        "U2.U1"
+      ],
+      "states": 0,
+      "least_blocked": [],
+      "found": null
+    },
+    {
+      "net": "+1V8_SYS",
+      "land": [
+        "U2.U12"
+      ],
+      "states": 16,
+      "least_blocked": [
+        {
+          "objects": [
+            [
+              "32f44795-8785-4430-832a-04849fee7425",
+              "GND",
+              "U2.T12"
+            ]
+          ],
+          "edges": 22
+        },
+        {
+          "objects": [
+            [
+              "fa913ddb-ed0b-4fb4-b744-dc0fc32ee31f",
+              "GND",
+              "U2.V12"
+            ]
+          ],
+          "edges": 20
+        },
+        {
+          "objects": [
+            [
+              "e9d3d5fe-3b8d-4c96-81ca-bbd37b611613",
+              "LPDDR4_DQ11_B",
+              "U2.U11"
+            ]
+          ],
+          "edges": 10
+        },
+        {
+          "objects": [
+            [
+              "7aa3cff4-dac5-4612-a6f0-a547e9eb32a9",
+              "LCD_BL_PWM",
+              "PCB_TRACK"
+            ]
+          ],
+          "edges": 6
+        },
+        {
+          "objects": [
+            [
+              "666abb71-0caf-4b96-8aa9-70216cd2f2ec",
+              "GND",
+              "PCB_TRACK"
+            ],
+            [
+              "fa913ddb-ed0b-4fb4-b744-dc0fc32ee31f",
+              "GND",
+              "U2.V12"
+            ]
+          ],
+          "edges": 2
+        },
+        {
+          "objects": [
+            [
+              "e9d3d5fe-3b8d-4c96-81ca-bbd37b611613",
+              "LPDDR4_DQ11_B",
+              "U2.U11"
+            ],
+            [
+              "fa913ddb-ed0b-4fb4-b744-dc0fc32ee31f",
+              "GND",
+              "U2.V12"
+            ]
+          ],
+          "edges": 1
+        }
+      ],
+      "found": null
+    }
+  ]
+}

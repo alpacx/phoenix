@@ -1,0 +1,184 @@
+{
+  "source": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/load-in3-c514c/phy-joint.kicad_pcb",
+  "source_sha256": "c3f859ccec5f1605d89ad490f0528d731635c66c4d7687dd3f8e88d38446a748",
+  "candidate": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/load-in3-c513d/phy-joint.kicad_pcb",
+  "candidate_sha256": "ed62235bbb029f795503ecc0f4e9b3e505adea246f7f73883a52165a9438a378",
+  "removed": [
+    "7fccf105-8323-42a2-8f61-04802d403869",
+    "f29ee69b-fc7c-440b-9d87-831a9ec7a998"
+  ],
+  "additional_pin_fanout_qualified": false,
+  "additional_pin_fanout_uuids": [
+    "c58b43ae-831c-4708-b178-830e23b543f4",
+    "ec26526e-42a8-4c20-9205-9c09753e058a",
+    "7b7bbd3e-d068-45fd-9c8b-fc064d4f9af5"
+  ],
+  "via_array": [
+    {
+      "uuid": "ef325adf-2ae9-4aaf-9d0c-56952f1589c2",
+      "xy_mm": [
+        64.55,
+        34.25
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "e080ef91-4b9b-4623-ab26-394684bb2d74",
+      "xy_mm": [
+        65.1,
+        34.25
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    }
+  ],
+  "current_via_PI_qualified": false,
+  "via_pad_overlap_manufacturing_qualified": false,
+  "required_pairs": [
+    [
+      [
+        "C511",
+        "1"
+      ],
+      [
+        "C513",
+        "1"
+      ]
+    ],
+    [
+      [
+        "C513",
+        "2"
+      ],
+      [
+        "C515",
+        "2"
+      ]
+    ]
+  ],
+  "additional_required_pair": [
+    [
+      "U5",
+      "8"
+    ],
+    [
+      "C513",
+      "1"
+    ]
+  ],
+  "routes": [
+    {
+      "label": "load-in3-c513d",
+      "path_mm": [
+        [
+          64.8,
+          28.9
+        ],
+        [
+          64.8,
+          32.8
+        ],
+        [
+          65.2,
+          33.2
+        ],
+        [
+          65.2,
+          34.65
+        ]
+      ],
+      "width_mm": 1.55,
+      "net": "+1V0_PHY",
+      "layer": "In3.Cu",
+      "guard": {
+        "net": "+1V0_PHY",
+        "width_mm": 1.55,
+        "segments": 3,
+        "width_preserved": true,
+        "current_rating_qualified": false
+      },
+      "uuids": [
+        "0f7df32b-0214-461f-9fa1-e928cddb7a53",
+        "26fb48ce-2075-4025-b0e3-6150e16f1d58",
+        "2d5adc21-4b34-4271-8b9e-11b2e834f469"
+      ]
+    }
+  ],
+  "historical_60mil_width_met_on_entire_path": false,
+  "main_checkpoint_modified": false,
+  "power_layout_accepted": false,
+  "assembly_ready": false,
+  "limitations": [
+    "Manual full-width geometry only; no current/via/PI qualification. In3 studies are post-inductor distribution, not a waiver for local REG_OUT/DVDD33. Ground planes retain their role. Via-to-pad overlap requires fabrication/process review. Rejected geometry must not be adopted."
+  ],
+  "new_violations": [],
+  "details": [],
+  "status": "JOINT_SW_GEOMETRY_PASSED_PIN_FANOUT_HOLD",
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5833,
+    "explicitly_replaced_copper": {
+      "7fccf105-8323-42a2-8f61-04802d403869": [
+        "GND",
+        0,
+        77000000,
+        37500000,
+        77700000,
+        37500000,
+        200000,
+        null
+      ],
+      "f29ee69b-fc7c-440b-9d87-831a9ec7a998": [
+        "GND",
+        0,
+        76980000,
+        37500000,
+        77000000,
+        37500000,
+        200000,
+        null
+      ]
+    },
+    "added_tracks_vias": 8,
+    "existing_connected_pad_groups_preserved": 70
+  },
+  "new_mechanical_conflicts": [],
+  "checks": [
+    {
+      "from": "U5.30",
+      "to": "L501.1",
+      "connected": true
+    },
+    {
+      "from": "L501.2",
+      "to": "C511.1",
+      "connected": true
+    },
+    {
+      "from": "R522.2",
+      "to": "C515.2",
+      "connected": true
+    },
+    {
+      "from": "C515.1",
+      "to": "C517.1",
+      "connected": true
+    },
+    {
+      "from": "C511.1",
+      "to": "C513.1",
+      "connected": true
+    },
+    {
+      "from": "C513.2",
+      "to": "C515.2",
+      "connected": true
+    },
+    {
+      "from": "U5.8",
+      "to": "C513.1",
+      "connected": true
+    }
+  ]
+}

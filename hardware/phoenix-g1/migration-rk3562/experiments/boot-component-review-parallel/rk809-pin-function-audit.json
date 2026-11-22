@@ -1,0 +1,416 @@
+[
+  {
+    "pin": 26,
+    "datasheet_function": "VBUCK3",
+    "symbol_function": "VBUCK3_26",
+    "net": "+1V1_LPDDR4"
+  },
+  {
+    "pin": 59,
+    "datasheet_function": "FB5",
+    "symbol_function": "FB5_59",
+    "net": "+1V8_SYS"
+  },
+  {
+    "pin": 55,
+    "datasheet_function": "SWOUT1",
+    "symbol_function": "SWOUT1_55",
+    "net": "+3V3_IO"
+  },
+  {
+    "pin": 31,
+    "datasheet_function": "LDO6",
+    "symbol_function": "LDO6_31",
+    "net": "+3V3_PMU"
+  },
+  {
+    "pin": 58,
+    "datasheet_function": "SWOUT2",
+    "symbol_function": "SWOUT2_58",
+    "net": "+3V3_SD"
+  },
+  {
+    "pin": 10,
+    "datasheet_function": "VCC2",
+    "symbol_function": "VCC2_10",
+    "net": "+3V3_SYS"
+  },
+  {
+    "pin": 11,
+    "datasheet_function": "VCC1",
+    "symbol_function": "VCC1_11",
+    "net": "+3V3_SYS"
+  },
+  {
+    "pin": 22,
+    "datasheet_function": "VCC5",
+    "symbol_function": "VCC5_22",
+    "net": "+3V3_SYS"
+  },
+  {
+    "pin": 24,
+    "datasheet_function": "VCC3",
+    "symbol_function": "VCC3_24",
+    "net": "+3V3_SYS"
+  },
+  {
+    "pin": 30,
+    "datasheet_function": "VCC6",
+    "symbol_function": "VCC6_30",
+    "net": "+3V3_SYS"
+  },
+  {
+    "pin": 33,
+    "datasheet_function": "VCC_SPK_HP",
+    "symbol_function": "VCC_SPK_HP_33",
+    "net": "+3V3_SYS"
+  },
+  {
+    "pin": 4,
+    "datasheet_function": "VCC7",
+    "symbol_function": "VCC7_4",
+    "net": "+3V3_SYS"
+  },
+  {
+    "pin": 45,
+    "datasheet_function": "VCC_RTC",
+    "symbol_function": "VCC_RTC_45",
+    "net": "+3V3_SYS"
+  },
+  {
+    "pin": 54,
+    "datasheet_function": "VCC9",
+    "symbol_function": "VCC9_54",
+    "net": "+3V3_SYS"
+  },
+  {
+    "pin": 57,
+    "datasheet_function": "VCC8",
+    "symbol_function": "VCC8_57",
+    "net": "+3V3_SYS"
+  },
+  {
+    "pin": 66,
+    "datasheet_function": "VCC4",
+    "symbol_function": "VCC4_66",
+    "net": "+3V3_SYS"
+  },
+  {
+    "pin": 27,
+    "datasheet_function": "FB3",
+    "symbol_function": "FB3_27",
+    "net": "DDR_FB"
+  },
+  {
+    "pin": 14,
+    "datasheet_function": "LRCLK",
+    "symbol_function": "LRCLK_14",
+    "net": "GND"
+  },
+  {
+    "pin": 15,
+    "datasheet_function": "BCLK",
+    "symbol_function": "BCLK_15",
+    "net": "GND"
+  },
+  {
+    "pin": 16,
+    "datasheet_function": "MCLK",
+    "symbol_function": "MCLK_16",
+    "net": "GND"
+  },
+  {
+    "pin": 17,
+    "datasheet_function": "SDI",
+    "symbol_function": "SDI_17",
+    "net": "GND"
+  },
+  {
+    "pin": 19,
+    "datasheet_function": "PDMCLK",
+    "symbol_function": "PDMCLK_19",
+    "net": "GND"
+  },
+  {
+    "pin": 40,
+    "datasheet_function": "HP_SNS",
+    "symbol_function": "HP_SNS_40",
+    "net": "GND"
+  },
+  {
+    "pin": 47,
+    "datasheet_function": "GNDREF",
+    "symbol_function": "GNDREF_47",
+    "net": "GND"
+  },
+  {
+    "pin": 56,
+    "datasheet_function": "BATDIV",
+    "symbol_function": "BATDIV_56",
+    "net": "GND"
+  },
+  {
+    "pin": 62,
+    "datasheet_function": "SNSP",
+    "symbol_function": "SNSP_62",
+    "net": "GND"
+  },
+  {
+    "pin": 63,
+    "datasheet_function": "SNSN",
+    "symbol_function": "SNSN_63",
+    "net": "GND"
+  },
+  {
+    "pin": 69,
+    "datasheet_function": "EP",
+    "symbol_function": "EP_69",
+    "net": "GND"
+  },
+  {
+    "pin": 44,
+    "datasheet_function": "VCC_1P8A",
+    "symbol_function": "VCC_1P8A_44",
+    "net": "PMIC_1V8A"
+  },
+  {
+    "pin": 48,
+    "datasheet_function": "VCC_1P8D",
+    "symbol_function": "VCC_1P8D_48",
+    "net": "PMIC_1V8D"
+  },
+  {
+    "pin": 7,
+    "datasheet_function": "INT",
+    "symbol_function": "INT_7",
+    "net": "PMIC_INT_N"
+  },
+  {
+    "pin": 52,
+    "datasheet_function": "PWRON",
+    "symbol_function": "PWRON_52",
+    "net": "PMIC_PWRON_N"
+  },
+  {
+    "pin": 1,
+    "datasheet_function": "SCL",
+    "symbol_function": "SCL_1",
+    "net": "PMIC_SCL"
+  },
+  {
+    "pin": 2,
+    "datasheet_function": "SDA",
+    "symbol_function": "SDA_2",
+    "net": "PMIC_SDA"
+  },
+  {
+    "pin": 49,
+    "datasheet_function": "SLEEP",
+    "symbol_function": "SLEEP_49",
+    "net": "PMIC_SLEEP"
+  },
+  {
+    "pin": 12,
+    "datasheet_function": "SW1",
+    "symbol_function": "SW1_12",
+    "net": "PMIC_SW1"
+  },
+  {
+    "pin": 9,
+    "datasheet_function": "SW2",
+    "symbol_function": "SW2_9",
+    "net": "PMIC_SW2"
+  },
+  {
+    "pin": 25,
+    "datasheet_function": "SW3",
+    "symbol_function": "SW3_25",
+    "net": "PMIC_SW3"
+  },
+  {
+    "pin": 65,
+    "datasheet_function": "SW4",
+    "symbol_function": "SW4_65",
+    "net": "PMIC_SW4"
+  },
+  {
+    "pin": 53,
+    "datasheet_function": "SW5",
+    "symbol_function": "SW5_53",
+    "net": "PMIC_SW5"
+  },
+  {
+    "pin": 61,
+    "datasheet_function": "VDC",
+    "symbol_function": "VDC_61",
+    "net": "PMIC_VDC"
+  },
+  {
+    "pin": 46,
+    "datasheet_function": "VREF",
+    "symbol_function": "VREF_46",
+    "net": "PMIC_VREF"
+  },
+  {
+    "pin": 67,
+    "datasheet_function": "RESETB",
+    "symbol_function": "RESETB_67",
+    "net": "RESET_N"
+  },
+  {
+    "pin": 6,
+    "datasheet_function": "LDO9",
+    "symbol_function": "LDO9_6",
+    "net": "VCCA1V8_IMAGE"
+  },
+  {
+    "pin": 5,
+    "datasheet_function": "LDO8",
+    "symbol_function": "LDO8_5",
+    "net": "VCCA1V8_PMU"
+  },
+  {
+    "pin": 3,
+    "datasheet_function": "LDO7",
+    "symbol_function": "LDO7_3",
+    "net": "VCCA_1V8"
+  },
+  {
+    "pin": 28,
+    "datasheet_function": "LDO4",
+    "symbol_function": "LDO4_28",
+    "net": "VCCIO_ACODEC"
+  },
+  {
+    "pin": 29,
+    "datasheet_function": "LDO5",
+    "symbol_function": "LDO5_29",
+    "net": "VCCIO_SD"
+  },
+  {
+    "pin": 23,
+    "datasheet_function": "LDO1",
+    "symbol_function": "LDO1_23",
+    "net": "VDDA0V9_IMAGE"
+  },
+  {
+    "pin": 20,
+    "datasheet_function": "LDO3",
+    "symbol_function": "LDO3_20",
+    "net": "VDDA0V9_PMU"
+  },
+  {
+    "pin": 21,
+    "datasheet_function": "LDO2",
+    "symbol_function": "LDO2_21",
+    "net": "VDDA_0V9"
+  },
+  {
+    "pin": 8,
+    "datasheet_function": "FB2",
+    "symbol_function": "FB2_8",
+    "net": "VDD_GPU_COM"
+  },
+  {
+    "pin": 13,
+    "datasheet_function": "FB1",
+    "symbol_function": "FB1_13",
+    "net": "VDD_LOGIC_COM"
+  },
+  {
+    "pin": 64,
+    "datasheet_function": "FB4",
+    "symbol_function": "FB4_64",
+    "net": "VDD_NPU_COM"
+  },
+  {
+    "pin": 68,
+    "datasheet_function": "CLK32K",
+    "symbol_function": "CLK32K_68",
+    "net": "unconnected-(U4-CLK32K-Pad68)"
+  },
+  {
+    "pin": 36,
+    "datasheet_function": "CPN",
+    "symbol_function": "CPN_36",
+    "net": "unconnected-(U4-CPN-Pad36)"
+  },
+  {
+    "pin": 37,
+    "datasheet_function": "CPP",
+    "symbol_function": "CPP_37",
+    "net": "unconnected-(U4-CPP-Pad37)"
+  },
+  {
+    "pin": 60,
+    "datasheet_function": "EXT_EN",
+    "symbol_function": "EXT_EN_60",
+    "net": "unconnected-(U4-EXT_EN-Pad60)"
+  },
+  {
+    "pin": 39,
+    "datasheet_function": "HPL_OUT",
+    "symbol_function": "HPL_OUT_39",
+    "net": "unconnected-(U4-HPL_OUT-Pad39)"
+  },
+  {
+    "pin": 41,
+    "datasheet_function": "HPR_OUT",
+    "symbol_function": "HPR_OUT_41",
+    "net": "unconnected-(U4-HPR_OUT-Pad41)"
+  },
+  {
+    "pin": 42,
+    "datasheet_function": "MICIN",
+    "symbol_function": "MICIN_42",
+    "net": "unconnected-(U4-MICIN-Pad42)"
+  },
+  {
+    "pin": 43,
+    "datasheet_function": "MICIP",
+    "symbol_function": "MICIP_43",
+    "net": "unconnected-(U4-MICIP-Pad43)"
+  },
+  {
+    "pin": 18,
+    "datasheet_function": "SDO/PDMDATA",
+    "symbol_function": "SDO/PDMDATA_18",
+    "net": "unconnected-(U4-SDO/PDMDATA-Pad18)"
+  },
+  {
+    "pin": 34,
+    "datasheet_function": "SPKN_OUT",
+    "symbol_function": "SPKN_OUT_34",
+    "net": "unconnected-(U4-SPKN_OUT-Pad34)"
+  },
+  {
+    "pin": 32,
+    "datasheet_function": "SPKP_OUT",
+    "symbol_function": "SPKP_OUT_32",
+    "net": "unconnected-(U4-SPKP_OUT-Pad32)"
+  },
+  {
+    "pin": 38,
+    "datasheet_function": "VCC_CPVDD",
+    "symbol_function": "VCC_CPVDD_38",
+    "net": "unconnected-(U4-VCC_CPVDD-Pad38)"
+  },
+  {
+    "pin": 35,
+    "datasheet_function": "VCC_CPVSS",
+    "symbol_function": "VCC_CPVSS_35",
+    "net": "unconnected-(U4-VCC_CPVSS-Pad35)"
+  },
+  {
+    "pin": 50,
+    "datasheet_function": "XIN",
+    "symbol_function": "XIN_50",
+    "net": "unconnected-(U4-XIN-Pad50)"
+  },
+  {
+    "pin": 51,
+    "datasheet_function": "XOUT",
+    "symbol_function": "XOUT_51",
+    "net": "unconnected-(U4-XOUT-Pad51)"
+  }
+]

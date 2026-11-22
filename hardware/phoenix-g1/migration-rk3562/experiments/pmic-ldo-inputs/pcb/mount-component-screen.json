@@ -1,226 +1,80 @@
 {
   "status": "CONSERVATIVE_COMPONENT_RESERVATION_SCREEN",
-  "board_sha256": "bdeb44f58dea3d0261469c1d3f7eeb5a9e6df03e95648710393c9e09c83f6aeb",
-  "potential_conflicts": [
-    {
-      "reservation": "H8101 mechanical reservation",
-      "ref": "H8101",
-      "layer": "F.Cu",
-      "courtyard_bbox_mm": [
-        50.502488,
-        1.503745,
-        55.494999,
-        6.496254
-      ]
-    },
-    {
-      "reservation": "H8102 mechanical reservation",
-      "ref": "H8102",
-      "layer": "F.Cu",
-      "courtyard_bbox_mm": [
-        80.502488,
-        0.503745,
-        85.494999,
-        5.496254
-      ]
-    },
-    {
-      "reservation": "H8103 mechanical reservation",
-      "ref": "H8103",
-      "layer": "F.Cu",
-      "courtyard_bbox_mm": [
-        18.502488,
-        0.503745,
-        23.494999,
-        5.496254
-      ]
-    },
-    {
-      "reservation": "H8103 mechanical reservation",
-      "ref": "R2014",
-      "layer": "F.Cu",
-      "courtyard_bbox_mm": [
-        22.025,
-        5.485,
-        23.975,
-        6.515
-      ]
-    },
-    {
-      "reservation": "H8104 mechanical reservation",
-      "ref": "C1625",
-      "layer": "B.Cu",
-      "courtyard_bbox_mm": [
-        36.545,
-        28.995,
-        38.455,
-        30.005
-      ]
-    },
-    {
-      "reservation": "H8104 mechanical reservation",
-      "ref": "C1631",
-      "layer": "B.Cu",
-      "courtyard_bbox_mm": [
-        39.545,
-        30.495,
-        41.455,
-        31.505
-      ]
-    },
-    {
-      "reservation": "H8104 mechanical reservation",
-      "ref": "C1640",
-      "layer": "B.Cu",
-      "courtyard_bbox_mm": [
-        37.045,
-        30.495,
-        38.955,
-        31.505
-      ]
-    },
-    {
-      "reservation": "H8104 mechanical reservation",
-      "ref": "C1642",
-      "layer": "B.Cu",
-      "courtyard_bbox_mm": [
-        34.545,
-        28.995,
-        36.455,
-        30.005
-      ]
-    },
-    {
-      "reservation": "H8104 mechanical reservation",
-      "ref": "C1679",
-      "layer": "B.Cu",
-      "courtyard_bbox_mm": [
-        34.545,
-        30.495,
-        36.455,
-        31.505
-      ]
-    },
-    {
-      "reservation": "H8104 mechanical reservation",
-      "ref": "R1506",
-      "layer": "F.Cu",
-      "courtyard_bbox_mm": [
-        34.025,
-        33.485,
-        35.975,
-        34.515
-      ]
-    },
-    {
-      "reservation": "H8104 mechanical reservation",
-      "ref": "TP14",
-      "layer": "B.Cu",
-      "courtyard_bbox_mm": [
-        35.452447,
-        31.953727,
-        37.544998,
-        34.046272
-      ]
-    },
-    {
-      "reservation": "H8104 mechanical reservation",
-      "ref": "TP5",
-      "layer": "B.Cu",
-      "courtyard_bbox_mm": [
-        39.452447,
-        27.953727,
-        41.544998,
-        30.046272
-      ]
-    },
-    {
-      "reservation": "H8104 mechanical reservation",
-      "ref": "TP9",
-      "layer": "B.Cu",
-      "courtyard_bbox_mm": [
-        37.952447,
-        31.953727,
-        40.044998,
-        34.046272
-      ]
-    },
-    {
-      "reservation": "H8104 mechanical reservation",
-      "ref": "Y1",
-      "layer": "F.Cu",
-      "courtyard_bbox_mm": [
-        32.405,
-        30.005,
-        36.595,
-        33.495
-      ]
-    },
-    {
-      "reservation": "H8104 mechanical reservation",
-      "ref": "Y2002",
-      "layer": "F.Cu",
-      "courtyard_bbox_mm": [
-        36.625,
-        27.975,
-        41.375,
-        32.025
-      ]
-    },
-    {
-      "reservation": "H8105 mechanical reservation",
-      "ref": "R521",
-      "layer": "F.Cu",
-      "courtyard_bbox_mm": [
-        68.025,
-        35.485,
-        69.975,
-        36.515
-      ]
-    },
-    {
-      "reservation": "H8105 mechanical reservation",
-      "ref": "R525",
-      "layer": "F.Cu",
-      "courtyard_bbox_mm": [
-        71.525,
-        31.985,
-        73.475,
-        33.015
-      ]
-    },
-    {
-      "reservation": "H8105 mechanical reservation",
-      "ref": "R526",
-      "layer": "F.Cu",
-      "courtyard_bbox_mm": [
-        70.525,
-        35.485,
-        72.475,
-        36.515
-      ]
-    },
-    {
-      "reservation": "H8105 mechanical reservation",
-      "ref": "R527",
-      "layer": "F.Cu",
-      "courtyard_bbox_mm": [
-        71.525,
-        33.485,
-        73.475,
-        34.515
-      ]
-    }
-  ],
+  "board_sha256": "c29d07e1eca29d367b1194504bc58288253b281572404bd8820ac6b030a12824",
+  "potential_conflicts": [],
   "limitations": [
     "Bounding circle and courtyard rectangles can overestimate collision.",
     "Existing rule areas prohibit copper but intentionally do not prohibit pads/footprints.",
     "No actual mounting holes or completed mechanical assembly are implied."
   ],
   "assembly_ready": false,
-  "baseline_sha256": "2d3dc12271c9f98b60ce64bf99f657fed9fba1bf8906c26e2e347065cfb75635",
+  "baseline_sha256": "b3fff654f5c1e62b68511c09fc4f431de5b30ae184ffa45e69ceef5a2a39cc44",
   "introduced_conflicts": [],
   "resolved_conflicts": [
+    [
+      "H8103 mechanical reservation",
+      "R2014"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "C1625"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "C1631"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "C1640"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "C1642"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "C1679"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "R1506"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "TP14"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "TP5"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "TP9"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "Y1"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "Y2002"
+    ],
+    [
+      "H8105 mechanical reservation",
+      "R521"
+    ],
+    [
+      "H8105 mechanical reservation",
+      "R525"
+    ],
+    [
+      "H8105 mechanical reservation",
+      "R526"
+    ],
+    [
+      "H8105 mechanical reservation",
+      "R527"
+    ],
     [
       "H8105 mechanical reservation",
       "Y501"

@@ -1,0 +1,475 @@
+{
+  "status": "PIN_MAPPING_PASS_NOT_BOOT_QUALIFIED",
+  "netlist_sha256": "6b4008d973cd508c6dce5746ab0e5d17c216599dfc876b8b02c45519aababdfd",
+  "pins": [
+    {
+      "component": "U8001",
+      "ball": "A3",
+      "expected_net": "EMMC_D0",
+      "actual_net": "EMMC_D0",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "A4",
+      "expected_net": "EMMC_D1",
+      "actual_net": "EMMC_D1",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "A5",
+      "expected_net": "EMMC_D2",
+      "actual_net": "EMMC_D2",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "B2",
+      "expected_net": "EMMC_D3",
+      "actual_net": "EMMC_D3",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "B3",
+      "expected_net": "EMMC_D4",
+      "actual_net": "EMMC_D4",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "B4",
+      "expected_net": "EMMC_D5",
+      "actual_net": "EMMC_D5",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "B5",
+      "expected_net": "EMMC_D6",
+      "actual_net": "EMMC_D6",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "B6",
+      "expected_net": "EMMC_D7",
+      "actual_net": "EMMC_D7",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "K5",
+      "expected_net": "EMMC_RESET_N",
+      "actual_net": "EMMC_RESET_N",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "M5",
+      "expected_net": "EMMC_CMD",
+      "actual_net": "EMMC_CMD",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "M6",
+      "expected_net": "EMMC_CLK",
+      "actual_net": "EMMC_CLK",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "H5",
+      "expected_net": "EMMC_STRB",
+      "actual_net": "EMMC_STRB",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "C2",
+      "expected_net": "EMMC_VDDI",
+      "actual_net": "EMMC_VDDI",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "C6",
+      "expected_net": "EMMC_IO_1V8",
+      "actual_net": "EMMC_IO_1V8",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "M4",
+      "expected_net": "EMMC_IO_1V8",
+      "actual_net": "EMMC_IO_1V8",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "N4",
+      "expected_net": "EMMC_IO_1V8",
+      "actual_net": "EMMC_IO_1V8",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "P3",
+      "expected_net": "EMMC_IO_1V8",
+      "actual_net": "EMMC_IO_1V8",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "P5",
+      "expected_net": "EMMC_IO_1V8",
+      "actual_net": "EMMC_IO_1V8",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "E6",
+      "expected_net": "EMMC_3V3",
+      "actual_net": "EMMC_3V3",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "F5",
+      "expected_net": "EMMC_3V3",
+      "actual_net": "EMMC_3V3",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "J10",
+      "expected_net": "EMMC_3V3",
+      "actual_net": "EMMC_3V3",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "K9",
+      "expected_net": "EMMC_3V3",
+      "actual_net": "EMMC_3V3",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "J5",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "A6",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "C4",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "E7",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "G5",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "H10",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "K8",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "N2",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "N5",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "P4",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U8001",
+      "ball": "P6",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "pass": true,
+      "evidence": "Samsungrev1.21Table2page5"
+    },
+    {
+      "component": "U1",
+      "ball": "J25",
+      "expected_net": "EMMC_D0",
+      "actual_net": "EMMC_D0",
+      "pass": true,
+      "evidence": "RK3562rev2.1pintable"
+    },
+    {
+      "component": "U1",
+      "ball": "J26",
+      "expected_net": "EMMC_D1",
+      "actual_net": "EMMC_D1",
+      "pass": true,
+      "evidence": "RK3562rev2.1pintable"
+    },
+    {
+      "component": "U1",
+      "ball": "H25",
+      "expected_net": "EMMC_D2",
+      "actual_net": "EMMC_D2",
+      "pass": true,
+      "evidence": "RK3562rev2.1pintable"
+    },
+    {
+      "component": "U1",
+      "ball": "K27",
+      "expected_net": "EMMC_D3",
+      "actual_net": "EMMC_D3",
+      "pass": true,
+      "evidence": "RK3562rev2.1pintable"
+    },
+    {
+      "component": "U1",
+      "ball": "K26",
+      "expected_net": "EMMC_D4",
+      "actual_net": "EMMC_D4",
+      "pass": true,
+      "evidence": "RK3562rev2.1pintable"
+    },
+    {
+      "component": "U1",
+      "ball": "K25",
+      "expected_net": "EMMC_D5",
+      "actual_net": "EMMC_D5",
+      "pass": true,
+      "evidence": "RK3562rev2.1pintable"
+    },
+    {
+      "component": "U1",
+      "ball": "H26",
+      "expected_net": "EMMC_D6",
+      "actual_net": "EMMC_D6",
+      "pass": true,
+      "evidence": "RK3562rev2.1pintable"
+    },
+    {
+      "component": "U1",
+      "ball": "H27",
+      "expected_net": "EMMC_D7",
+      "actual_net": "EMMC_D7",
+      "pass": true,
+      "evidence": "RK3562rev2.1pintable"
+    },
+    {
+      "component": "U1",
+      "ball": "L26",
+      "expected_net": "EMMC_STRB",
+      "actual_net": "EMMC_STRB",
+      "pass": true,
+      "evidence": "RK3562rev2.1pintable"
+    },
+    {
+      "component": "U1",
+      "ball": "M26",
+      "expected_net": "EMMC_CMD",
+      "actual_net": "EMMC_CMD",
+      "pass": true,
+      "evidence": "RK3562rev2.1pintable"
+    },
+    {
+      "component": "U1",
+      "ball": "M25",
+      "expected_net": "SOC_EMMC_CLK",
+      "actual_net": "SOC_EMMC_CLK",
+      "pass": true,
+      "evidence": "RK3562rev2.1pintable"
+    },
+    {
+      "component": "U1",
+      "ball": "1F14",
+      "expected_net": "EMMC_IO_1V8",
+      "actual_net": "EMMC_IO_1V8",
+      "pass": true,
+      "evidence": "RK3562rev2.1pintable"
+    }
+  ],
+  "rfu": [
+    {
+      "ball": "A7",
+      "pass": true,
+      "actual_net": "unconnected-(U8001C-RFU-PadA7)"
+    },
+    {
+      "ball": "E5",
+      "pass": true,
+      "actual_net": "unconnected-(U8001D-RFU-PadE5)"
+    },
+    {
+      "ball": "E8",
+      "pass": true,
+      "actual_net": "unconnected-(U8001D-RFU-PadE8)"
+    },
+    {
+      "ball": "E9",
+      "pass": true,
+      "actual_net": "unconnected-(U8001D-RFU-PadE9)"
+    },
+    {
+      "ball": "E10",
+      "pass": true,
+      "actual_net": "unconnected-(U8001D-RFU-PadE10)"
+    },
+    {
+      "ball": "F10",
+      "pass": true,
+      "actual_net": "unconnected-(U8001D-RFU-PadF10)"
+    },
+    {
+      "ball": "G3",
+      "pass": true,
+      "actual_net": "unconnected-(U8001D-RFU-PadG3)"
+    },
+    {
+      "ball": "G10",
+      "pass": true,
+      "actual_net": "unconnected-(U8001D-RFU-PadG10)"
+    },
+    {
+      "ball": "K6",
+      "pass": true,
+      "actual_net": "unconnected-(U8001D-RFU-PadK6)"
+    },
+    {
+      "ball": "K7",
+      "pass": true,
+      "actual_net": "unconnected-(U8001D-RFU-PadK7)"
+    },
+    {
+      "ball": "K10",
+      "pass": true,
+      "actual_net": "unconnected-(U8001D-RFU-PadK10)"
+    },
+    {
+      "ball": "P7",
+      "pass": true,
+      "actual_net": "unconnected-(U8001E-RFU-PadP7)"
+    },
+    {
+      "ball": "P10",
+      "pass": true,
+      "actual_net": "unconnected-(U8001E-RFU-PadP10)"
+    }
+  ],
+  "all_pin_mapping_pass": true,
+  "support_values": {
+    "C8001": "2.2u candidate",
+    "C8002": "100n candidate",
+    "C8003": "100n candidate",
+    "C8004": "100n candidate",
+    "C8005": "100n candidate",
+    "C8006": "4.7u candidate",
+    "C8007": "100n candidate",
+    "C8008": "100n candidate",
+    "C8009": "4.7u candidate",
+    "C8010": "100n VCCIO2 at SoC candidate",
+    "R8001": "10k candidate",
+    "R8002": "10k candidate",
+    "R8003": "10k candidate",
+    "R8004": "22R candidate",
+    "R8005": "47k candidate",
+    "R8006": "0R 0603 rail link candidate",
+    "R8007": "0R 0603 rail link candidate"
+  },
+  "reset_nodes": [
+    [
+      "R8003",
+      "2"
+    ],
+    [
+      "U8001",
+      "K5"
+    ]
+  ],
+  "VDDI_nodes": [
+    [
+      "C8001",
+      "1"
+    ],
+    [
+      "U8001",
+      "C2"
+    ]
+  ],
+  "flash_present": "KLM8G1GETF_B041_DRAFT",
+  "physical_boot_test": false
+}

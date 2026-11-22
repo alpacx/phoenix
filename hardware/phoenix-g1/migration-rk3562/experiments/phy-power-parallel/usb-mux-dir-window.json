@@ -1,0 +1,245 @@
+{
+  "parent_sha256": "bab072834f8f2e1593ecd159477ec43c0ba686aaf6beb28f38c074c022f4c341",
+  "pin": "U6.11",
+  "width_mm": 0.2,
+  "grid_mm": 0.025,
+  "via_mm": [
+    0.45,
+    0.2
+  ],
+  "ground_relief": false,
+  "ground_via_relief": false,
+  "existing_tracks_and_vias_included": true,
+  "single_obstacle_candidates": [
+    {
+      "name": "C1665.1",
+      "via_nm": [
+        19325000,
+        21200000
+      ],
+      "obstacles": [
+        [
+          "46e7987c-4436-4f65-a543-cf57d382629e",
+          "F.Cu"
+        ]
+      ],
+      "length_mm": 0.3,
+      "path_nm": [
+        [
+          19325000,
+          20900000
+        ],
+        [
+          19325000,
+          20925000
+        ],
+        [
+          19325000,
+          20950000
+        ],
+        [
+          19325000,
+          20975000
+        ],
+        [
+          19325000,
+          21000000
+        ],
+        [
+          19325000,
+          21025000
+        ],
+        [
+          19325000,
+          21050000
+        ],
+        [
+          19325000,
+          21075000
+        ],
+        [
+          19325000,
+          21100000
+        ],
+        [
+          19325000,
+          21125000
+        ],
+        [
+          19325000,
+          21150000
+        ],
+        [
+          19325000,
+          21175000
+        ],
+        [
+          19325000,
+          21200000
+        ]
+      ]
+    }
+  ],
+  "reachable_positions": 1702,
+  "farthest_mm": 1.490385856078888,
+  "sites": [],
+  "via_obstacles": [
+    {
+      "names": [
+        "C1665.1"
+      ],
+      "positions": 36
+    },
+    {
+      "names": [
+        "+3V3_AON",
+        "C1665.1"
+      ],
+      "positions": 535
+    },
+    {
+      "names": [
+        "C1665.1",
+        "source pad"
+      ],
+      "positions": 101
+    },
+    {
+      "names": [
+        "C1665.1",
+        "U6.10"
+      ],
+      "positions": 34
+    },
+    {
+      "names": [
+        "C1665.1",
+        "USB_MUX_ENABLE_N"
+      ],
+      "positions": 1
+    },
+    {
+      "names": [
+        "+3V3_AON",
+        "AON_READY",
+        "C1665.1"
+      ],
+      "positions": 166
+    },
+    {
+      "names": [
+        "+3V3_AON",
+        "C1665.1",
+        "C606.2"
+      ],
+      "positions": 86
+    },
+    {
+      "names": [
+        "C1665.1",
+        "U6.10",
+        "source pad"
+      ],
+      "positions": 55
+    },
+    {
+      "names": [
+        "C1665.1",
+        "USB_MUX_ENABLE_N",
+        "source pad"
+      ],
+      "positions": 54
+    },
+    {
+      "names": [
+        "U6.12",
+        "USB_MUX_ENABLE_N",
+        "source pad"
+      ],
+      "positions": 33
+    },
+    {
+      "names": [
+        "+3V3_AON",
+        "C1665.1",
+        "U6.10"
+      ],
+      "positions": 24
+    },
+    {
+      "names": [
+        "C1665.1",
+        "C1665.2",
+        "U6.10"
+      ],
+      "positions": 21
+    },
+    {
+      "names": [
+        "C1665.2",
+        "C606.2",
+        "GND"
+      ],
+      "positions": 19
+    },
+    {
+      "names": [
+        "+3V3_AON",
+        "C1665.1",
+        "source pad"
+      ],
+      "positions": 11
+    },
+    {
+      "names": [
+        "+3V3_AON",
+        "C1665.1",
+        "USB_MUX_ENABLE_N"
+      ],
+      "positions": 11
+    },
+    {
+      "names": [
+        "C1665.2",
+        "GND",
+        "U6.10"
+      ],
+      "positions": 11
+    },
+    {
+      "names": [
+        "U6.10",
+        "U6.12",
+        "source pad"
+      ],
+      "positions": 1
+    },
+    {
+      "names": [
+        "+3V3_AON",
+        "C1665.1",
+        "GND"
+      ],
+      "positions": 1
+    },
+    {
+      "names": [
+        "+3V3_AON",
+        "C1665.2",
+        "GND"
+      ],
+      "positions": 1
+    },
+    {
+      "names": [
+        "C1665.1",
+        "U6.12",
+        "USB_MUX_ENABLE_N",
+        "source pad"
+      ],
+      "positions": 56
+    }
+  ],
+  "assembly_ready": false,
+  "source_sha256": "bab072834f8f2e1593ecd159477ec43c0ba686aaf6beb28f38c074c022f4c341"
+}

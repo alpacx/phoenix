@@ -1,0 +1,160 @@
+{
+  "parent_sha256": "1dff3dd87bec33f65c282e495e226a1ffc34c5b96506c600d7ea8e8580f5a33a",
+  "width_mm": 0.5,
+  "grid_mm": 0.05,
+  "limit_mm": 8.0,
+  "steps": [
+    {
+      "ref": "C2303",
+      "pad": "1",
+      "source_land_sites": 9,
+      "target_land_sites": 54,
+      "cells": 1175,
+      "path_nm": null
+    },
+    {
+      "ref": "C2302",
+      "pad": "1",
+      "source_land_sites": 87,
+      "target_land_sites": 54,
+      "cells": 29871,
+      "path_nm": [
+        [
+          30380000,
+          3400000
+        ],
+        [
+          30400000,
+          3400000
+        ],
+        [
+          30400000,
+          2600000
+        ],
+        [
+          29950000,
+          2150000
+        ],
+        [
+          29900000,
+          2150000
+        ],
+        [
+          29850000,
+          2100000
+        ],
+        [
+          29800000,
+          2100000
+        ],
+        [
+          29750000,
+          2050000
+        ],
+        [
+          29600000,
+          2050000
+        ],
+        [
+          29550000,
+          2000000
+        ],
+        [
+          27900000,
+          2000000
+        ],
+        [
+          27600000,
+          2300000
+        ],
+        [
+          27550000,
+          2300000
+        ],
+        [
+          27500000,
+          2350000
+        ],
+        [
+          27400000,
+          2350000
+        ],
+        [
+          27350000,
+          2400000
+        ],
+        [
+          26550000,
+          2400000
+        ],
+        [
+          26250000,
+          2700000
+        ],
+        [
+          26250000,
+          2750000
+        ],
+        [
+          26150000,
+          2850000
+        ],
+        [
+          26150000,
+          2950000
+        ],
+        [
+          26100000,
+          3000000
+        ],
+        [
+          26100000,
+          3900000
+        ],
+        [
+          25600000,
+          4400000
+        ],
+        [
+          25580000,
+          4400000
+        ]
+      ]
+    },
+    {
+      "ref": "C2301",
+      "pad": "1",
+      "source_land_sites": 9,
+      "target_land_sites": 223,
+      "cells": 2345,
+      "path_nm": null
+    },
+    {
+      "ref": "L405",
+      "pad": "2",
+      "source_land_sites": 18,
+      "target_land_sites": 223,
+      "cells": 8282,
+      "path_nm": null
+    },
+    {
+      "ref": "C2303",
+      "pad": "1",
+      "source_land_sites": 9,
+      "target_land_sites": 223,
+      "cells": 1175,
+      "path_nm": null
+    }
+  ],
+  "board": "runs/soc-vdd1-rear-bank/phy-joint.kicad_pcb",
+  "sha256": "4318afe6eeea7f9ce5dbcf7c8d7c72b721c70f72d562fe88a18963c206070021",
+  "new_drc": [],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 7109,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 24,
+    "existing_connected_pad_groups_preserved": 122
+  },
+  "mounts": []
+}

@@ -1,7 +1,7 @@
 {
   "status": "ETHERNET_AVDD33_BYPASS_CONNECTED",
-  "sha256": "b4c18b6d44e74f28fc0ccb7eb769f5cbeb14691598e8eb7be959e63b00d4feb9",
-  "source_sha256": "d70f150016975428cc3028d0ef273d9727061ea964f85701fda433b6a107f97b",
+  "sha256": "063a15fbfacece3c76ab99c5ec1e56fd873f86808ac0db5530d5ead54777b06b",
+  "source_sha256": "1914f1eaeae0e1ed5986a3a5bd00f6bd7739c80d7850dd1fd193f07d86d93845",
   "checks": [
     {
       "from": "C516.1",
@@ -24,9 +24,9 @@
     ]
   },
   "replaced_copper": [
-    "425efc7a-e9e5-4864-bba6-4ecedd6dd27e",
-    "c251e4e6-01f0-45c5-bd90-cc23b62c7e3e",
-    "6cb7360c-925d-4563-aa2b-8395001cb1a7"
+    "10f2019d-44ea-4f6e-8adb-d62f8c206067",
+    "6e24042d-cdbc-4945-a82c-ce201493542d",
+    "fcb81794-cdff-4d28-8b15-4d23b378cb9d"
   ],
   "limitations": [
     "Only C516 bypass for U5.11 relocated. Supply sources and other bypass branches remain incomplete.",
@@ -36,7 +36,17 @@
     "existing_pad_instances_preserved": 2006,
     "existing_tracks_vias_preserved": 5616,
     "explicitly_replaced_copper": {
-      "425efc7a-e9e5-4864-bba6-4ecedd6dd27e": [
+      "10f2019d-44ea-4f6e-8adb-d62f8c206067": [
+        "GND",
+        0,
+        79500000,
+        37500000,
+        80200000,
+        37500000,
+        200000,
+        null
+      ],
+      "6e24042d-cdbc-4945-a82c-ce201493542d": [
         "GND",
         0,
         79480000,
@@ -46,7 +56,7 @@
         200000,
         null
       ],
-      "6cb7360c-925d-4563-aa2b-8395001cb1a7": [
+      "fcb81794-cdff-4d28-8b15-4d23b378cb9d": [
         "GND",
         0,
         80200000,
@@ -55,16 +65,6 @@
         37500000,
         450000,
         200000
-      ],
-      "c251e4e6-01f0-45c5-bd90-cc23b62c7e3e": [
-        "GND",
-        0,
-        79500000,
-        37500000,
-        80200000,
-        37500000,
-        200000,
-        null
       ]
     },
     "added_tracks_vias": 24,

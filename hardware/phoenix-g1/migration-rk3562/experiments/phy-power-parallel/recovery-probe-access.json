@@ -1,0 +1,73 @@
+{
+  "cases": [
+    {
+      "sha256": "27a6036e0f04f0e4a865dbdc729e7fe4d8a232326bda876db06654c1ce9810b9",
+      "position_nm": [
+        57000000,
+        35000000
+      ],
+      "contact_pad_nm": [
+        1000000,
+        1000000
+      ],
+      "nearest_courtyards": [
+        [
+          1.175,
+          "R1504"
+        ],
+        [
+          1.8323,
+          "C518"
+        ],
+        [
+          2.5381,
+          "TP11"
+        ],
+        [
+          2.8121,
+          "TP4"
+        ]
+      ],
+      "nearest_ground_probe_mm": [
+        17.24093964956667,
+        "TP1"
+      ],
+      "soc_ball_distance_mm": 21.54065922853802
+    },
+    {
+      "sha256": "a7e7c220910f719477d55f2406c8472e32fff37ffc672855d7c22312d489f329",
+      "position_nm": [
+        55290000,
+        12300000
+      ],
+      "contact_pad_nm": [
+        1000000,
+        1000000
+      ],
+      "nearest_courtyards": [
+        [
+          1.205,
+          "U25"
+        ],
+        [
+          1.305,
+          "C485"
+        ],
+        [
+          1.399,
+          "C480"
+        ],
+        [
+          1.485,
+          "R1504"
+        ]
+      ],
+      "nearest_ground_probe_mm": [
+        19.449012828418823,
+        "TP1"
+      ],
+      "soc_ball_distance_mm": 6.845005478449232
+    }
+  ],
+  "scope": "Planar rear-face clear radius about contact center; fixture approach, stop and probe compression require physical verification."
+}

@@ -1,0 +1,43 @@
+{
+  "board": "runs/bga-c27-offset-return/phy-joint.kicad_pcb",
+  "sha256": "bcf0915ed68b88dc19010231d086f32e76fa28882432d6ac8b0e603aff5c8b31",
+  "parent_sha256": "55f587d0379a6647e4e4dfbc6dd6cd42ce880906af779b3d9b14b653816e5578",
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 7323,
+    "explicitly_replaced_copper": {
+      "418602c2-fff1-458b-bc77-cf2f5d1f2c6f": [
+        "LPDDR4_DQ9_B",
+        0,
+        49500000,
+        14650000,
+        49500000,
+        14650000,
+        450000,
+        200000
+      ]
+    },
+    "added_tracks_vias": 4,
+    "existing_connected_pad_groups_preserved": 121
+  },
+  "native_delta": [],
+  "counts": {
+    "via_dangling": 121
+  },
+  "mechanical_conflicts": [],
+  "moved": [
+    {
+      "pad": "U1.C27",
+      "uuid": "418602c2-fff1-458b-bc77-cf2f5d1f2c6f",
+      "via_site_nm": [
+        50800000,
+        12800000
+      ],
+      "tail_start_nm": [
+        49500000,
+        14650000
+      ]
+    }
+  ],
+  "adopted": false
+}

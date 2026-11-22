@@ -1,0 +1,57 @@
+{
+  "source": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/joint-002/phy-joint.kicad_pcb",
+  "source_sha256": "253e2dea16603193c59ab20c8edb7f824edfc5be42ba74ac4623444fb66e6b63",
+  "candidate": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/feed-front/phy-joint.kicad_pcb",
+  "candidate_sha256": "9afe916766a87d4d67514e856e01061fbfbf8bd646e0a164b9274cb8301de1b4",
+  "removed": [],
+  "routes": [
+    {
+      "label": "feed-front",
+      "path_mm": [
+        [
+          53.56,
+          27
+        ],
+        [
+          54.8,
+          27
+        ],
+        [
+          56.6,
+          25.2
+        ],
+        [
+          61.975,
+          25.2
+        ],
+        [
+          61.975,
+          24.2
+        ]
+      ],
+      "width_mm": 1.05,
+      "net": "+3V3_PHY",
+      "layer": "F.Cu",
+      "guard": {
+        "net": "+3V3_PHY",
+        "width_mm": 1.05,
+        "segments": 4,
+        "width_preserved": true,
+        "current_rating_qualified": false
+      },
+      "uuids": [
+        "8e2b7289-7538-41bc-82d3-8c03dcbe96a2",
+        "ada2bef7-4ed8-4f4b-9cce-2f638cfae976",
+        "5500d80f-6c0b-46e1-bb1c-abc4ae280d97",
+        "bd729ace-a317-47f7-8dfb-bea5d65f5197"
+      ]
+    }
+  ],
+  "historical_60mil_width_met_on_entire_path": false,
+  "main_checkpoint_modified": false,
+  "power_layout_accepted": false,
+  "assembly_ready": false,
+  "limitations": [
+    "Manual full-width same-layer geometric probe only. Rejected geometry must not be adopted."
+  ]
+}

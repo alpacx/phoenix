@@ -1,0 +1,60 @@
+{
+  "parent_sha256": "372ff0905528b1f39eab51f2ec0203f982cb399d86fd38556da0842e9bc2291e",
+  "candidate": {
+    "board": "runs/exp-sda-gpio1-rework/phy-joint.kicad_pcb",
+    "sha256": "63aff33725ad76b9618898faa877541405a5f54833b4946aee147ef8ab0417eb",
+    "site_nm": [
+      68075000,
+      1795000
+    ],
+    "via_uuid": "00edbe7f-65b6-4148-9c17-0270f35313bc",
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 6652,
+      "explicitly_replaced_copper": {
+        "a8c8576a-4d5f-40b0-8bfd-fa4937c01376": [
+          "EXP_GPIO1",
+          6,
+          65050000,
+          1450000,
+          70250000,
+          1450000,
+          200000,
+          null
+        ]
+      },
+      "added_tracks_vias": 6,
+      "existing_connected_pad_groups_preserved": 112
+    },
+    "new_drc": [
+      {
+        "type": "via_dangling",
+        "severity": "warning",
+        "items": [
+          "00edbe7f-65b6-4148-9c17-0270f35313bc"
+        ],
+        "count": 1
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "at": [
+        68075000,
+        1795000
+      ],
+      "dy": 200000,
+      "delta": [
+        {
+          "type": "via_dangling",
+          "severity": "warning",
+          "items": [
+            "00edbe7f-65b6-4148-9c17-0270f35313bc"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "assembly_ready": false
+}

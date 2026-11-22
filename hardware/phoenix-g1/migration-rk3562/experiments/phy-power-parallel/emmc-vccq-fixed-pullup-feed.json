@@ -1,0 +1,39 @@
+{
+  "board": "runs/emmc-vccq-moved-link-source-L405.2-R8006.1/phy-joint.kicad_pcb",
+  "sha256": "22ba20838948f2057c8d273274995852b92b9fa29fc3bd573f3e56f813adbc06",
+  "parent_sha256": "22ba20838948f2057c8d273274995852b92b9fa29fc3bd573f3e56f813adbc06",
+  "records": [],
+  "held": [
+    {
+      "blocked": "source frontier exhausted",
+      "reachable_by_layer": [
+        36376,
+        75529,
+        85946,
+        55373
+      ],
+      "goal_positions": 49,
+      "bridge_probes": 37950,
+      "via_probes": 116043
+    },
+    {
+      "net": "EMMC_IO_1V8",
+      "groups": [
+        [
+          "C8002.1",
+          "C8004.1",
+          "C8005.1",
+          "C8006.1",
+          "C8010.1",
+          "R8002.1",
+          "R8003.1",
+          "R8006.2"
+        ],
+        [
+          "R8001.1"
+        ]
+      ]
+    }
+  ],
+  "assembly_ready": false
+}

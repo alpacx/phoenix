@@ -1,0 +1,148 @@
+{
+  "parent_sha256": "22e9735759bde9eb5efd281f10bfec697cf904e371706acb35b57fa5ede5c364",
+  "candidate": {
+    "displaced_capacitor": "C2008",
+    "board": "runs/local-ufl-pth-safe/phy-joint.kicad_pcb",
+    "sha256": "43b9507e6be1cb9ab96f95902dee000cf589cb08ba109d8dca7a481dede8759f",
+    "ufl_center_nm": [
+      75525000,
+      20200000
+    ],
+    "ufl_angle_deg": 90,
+    "cap_center_nm": [
+      74100000,
+      22800000
+    ],
+    "cap_move_mm": 0.894427190999916,
+    "cap_rotation_deg": 0,
+    "cap_restored_ground": true,
+    "cap_ground_return": {
+      "connected": true,
+      "kind": "existing grounded copper"
+    },
+    "radio_trace_nm": [
+      [
+        71200000,
+        17600000
+      ],
+      [
+        73000000,
+        18400000
+      ],
+      [
+        73400000,
+        18800000
+      ],
+      [
+        74000000,
+        20200000
+      ]
+    ],
+    "trace_width_mm": 0.338,
+    "rf_length_mm": 4.05861160648124,
+    "ufl_grounded": {
+      "2": false,
+      "3": false
+    },
+    "introduced_drc": [
+      {
+        "type": "track_dangling",
+        "severity": "warning",
+        "items": [
+          "7c0134cf-1cec-48be-9640-8426b515683e"
+        ],
+        "count": 1
+      },
+      {
+        "type": "track_dangling",
+        "severity": "warning",
+        "items": [
+          "7cdd95ab-efd3-4819-be45-7973f23ea249"
+        ],
+        "count": 1
+      },
+      {
+        "type": "track_dangling",
+        "severity": "warning",
+        "items": [
+          "c40ef8ac-7089-4f05-8e2b-bb81e0815d33"
+        ],
+        "count": 1
+      },
+      {
+        "type": "track_dangling",
+        "severity": "warning",
+        "items": [
+          "6200a8f5-88e8-41f0-a0af-14222aff5fbf"
+        ],
+        "count": 1
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "reason": "connector shield blocks the incoming RF trace",
+      "pose": [
+        75175000,
+        20900000
+      ]
+    },
+    {
+      "reason": "connector shield blocks the incoming RF trace",
+      "pose": [
+        75275000,
+        20800000
+      ]
+    },
+    {
+      "reason": "connector shield blocks the incoming RF trace",
+      "pose": [
+        75175000,
+        21100000
+      ]
+    },
+    {
+      "reason": "connector shield blocks the incoming RF trace",
+      "pose": [
+        75375000,
+        20700000
+      ]
+    },
+    {
+      "reason": "connector shield blocks the incoming RF trace",
+      "pose": [
+        75275000,
+        21000000
+      ]
+    },
+    {
+      "reason": "connector shield blocks the incoming RF trace",
+      "pose": [
+        75175000,
+        21300000
+      ]
+    },
+    {
+      "reason": "connector shield blocks the incoming RF trace",
+      "pose": [
+        75375000,
+        20900000
+      ]
+    },
+    {
+      "reason": "connector shield blocks the incoming RF trace",
+      "pose": [
+        75275000,
+        21200000
+      ]
+    },
+    {
+      "reason": "connector shield blocks the incoming RF trace",
+      "pose": [
+        75375000,
+        21100000
+      ]
+    }
+  ],
+  "assembly_ready": false
+}

@@ -1,0 +1,189 @@
+{
+  "parent_sha256": "5c1e48da4724cafa2c15137cdad75218af37bb03b505c5669c7c685a38c1d700",
+  "pin": "U1.T2",
+  "width_mm": 0.2,
+  "grid_mm": 0.025,
+  "via_mm": [
+    0.45,
+    0.2
+  ],
+  "ground_relief": false,
+  "ground_via_relief": false,
+  "existing_tracks_and_vias_included": true,
+  "single_obstacle_candidates": [],
+  "reachable_positions": 619,
+  "farthest_mm": 0.6519202405202649,
+  "sites": [],
+  "via_obstacles": [
+    {
+      "names": [
+        "U1.U1",
+        "VDD_CPU"
+      ],
+      "positions": 12
+    },
+    {
+      "names": [
+        "C1603.1",
+        "VDD_CPU"
+      ],
+      "positions": 9
+    },
+    {
+      "names": [
+        "C1603.1",
+        "EXP_GPIO1"
+      ],
+      "positions": 1
+    },
+    {
+      "names": [
+        "C1603.1",
+        "VDD_CPU",
+        "source pad"
+      ],
+      "positions": 67
+    },
+    {
+      "names": [
+        "C1603.1",
+        "U1.R1",
+        "VDD_CPU"
+      ],
+      "positions": 27
+    },
+    {
+      "names": [
+        "EXP_GPIO1",
+        "U1.U1",
+        "VDD_CPU"
+      ],
+      "positions": 22
+    },
+    {
+      "names": [
+        "C1603.1",
+        "U1.U1",
+        "VDD_CPU"
+      ],
+      "positions": 18
+    },
+    {
+      "names": [
+        "C1603.1",
+        "EXP_GPIO1",
+        "VDD_CPU"
+      ],
+      "positions": 14
+    },
+    {
+      "names": [
+        "U1.U2",
+        "VDD_CPU",
+        "source pad"
+      ],
+      "positions": 11
+    },
+    {
+      "names": [
+        "U1.U1",
+        "VDD_CPU",
+        "source pad"
+      ],
+      "positions": 3
+    },
+    {
+      "names": [
+        "C1603.1",
+        "U1.R2",
+        "VDD_CPU",
+        "source pad"
+      ],
+      "positions": 64
+    },
+    {
+      "names": [
+        "C1603.1",
+        "U1.U2",
+        "VDD_CPU",
+        "source pad"
+      ],
+      "positions": 50
+    },
+    {
+      "names": [
+        "U1.U1",
+        "U1.U2",
+        "VDD_CPU",
+        "source pad"
+      ],
+      "positions": 37
+    },
+    {
+      "names": [
+        "C1603.1",
+        "EXP_GPIO1",
+        "U1.R1",
+        "VDD_CPU"
+      ],
+      "positions": 28
+    },
+    {
+      "names": [
+        "C1603.1",
+        "U1.R1",
+        "VDD_CPU",
+        "source pad"
+      ],
+      "positions": 24
+    },
+    {
+      "names": [
+        "C1603.1",
+        "U1.U1",
+        "VDD_CPU",
+        "source pad"
+      ],
+      "positions": 21
+    },
+    {
+      "names": [
+        "C1603.1",
+        "U1.T3",
+        "VDD_CPU",
+        "source pad"
+      ],
+      "positions": 20
+    },
+    {
+      "names": [
+        "C1603.1",
+        "EXP_GPIO1",
+        "U1.U1",
+        "VDD_CPU"
+      ],
+      "positions": 12
+    },
+    {
+      "names": [
+        "GND",
+        "U1.U2",
+        "VDD_CPU",
+        "source pad"
+      ],
+      "positions": 3
+    },
+    {
+      "names": [
+        "C1603.1",
+        "U1.R1",
+        "U1.R2",
+        "VDD_CPU",
+        "source pad"
+      ],
+      "positions": 46
+    }
+  ],
+  "assembly_ready": false,
+  "source_sha256": "5c1e48da4724cafa2c15137cdad75218af37bb03b505c5669c7c685a38c1d700"
+}

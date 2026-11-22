@@ -1,0 +1,495 @@
+{
+  "parent_sha256": "e2ab0d5846277da5bea0f0416dc4d4979ba3a8bf37d2f5796c6dc46c5b166435",
+  "rows": [
+    {
+      "ref": "U1.1E11",
+      "solder_clear_candidates": 5,
+      "attempts": [
+        {
+          "via_nm": [
+            44625000,
+            15100000
+          ],
+          "length_mm": 3.2538582233137645,
+          "delta": [],
+          "connected": true
+        }
+      ]
+    },
+    {
+      "ref": "U1.1L15",
+      "solder_clear_candidates": 16,
+      "attempts": [
+        {
+          "via_nm": [
+            50650000,
+            25575000
+          ],
+          "length_mm": 5.7534271247461914,
+          "delta": [],
+          "connected": true
+        }
+      ]
+    },
+    {
+      "ref": "U1.AF24",
+      "solder_clear_candidates": 16,
+      "attempts": [
+        {
+          "via_nm": [
+            50650000,
+            25575000
+          ],
+          "length_mm": 5.666295090390227,
+          "delta": [
+            {
+              "type": "holes_co_located",
+              "severity": "warning",
+              "items": [
+                "0098e0bb-f052-4e05-90a7-1f9068941fef",
+                "6d4055e3-14c9-4e70-b9f0-9716213e9f5b"
+              ],
+              "count": 1
+            }
+          ],
+          "connected": true
+        },
+        {
+          "via_nm": [
+            50675000,
+            25575000
+          ],
+          "length_mm": 5.676650429449555,
+          "delta": [
+            {
+              "type": "hole_to_hole",
+              "severity": "warning",
+              "items": [
+                "4acbec7e-f8af-4971-950f-fc220042ad94",
+                "6d4055e3-14c9-4e70-b9f0-9716213e9f5b"
+              ],
+              "count": 1
+            }
+          ],
+          "connected": true
+        },
+        {
+          "via_nm": [
+            50675000,
+            25600000
+          ],
+          "length_mm": 5.701650429449555,
+          "delta": [
+            {
+              "type": "hole_to_hole",
+              "severity": "warning",
+              "items": [
+                "6d4055e3-14c9-4e70-b9f0-9716213e9f5b",
+                "932acc52-76dd-44aa-8f00-abff51a2352d"
+              ],
+              "count": 1
+            }
+          ],
+          "connected": true
+        },
+        {
+          "via_nm": [
+            50700000,
+            25600000
+          ],
+          "length_mm": 5.712005768508882,
+          "delta": [
+            {
+              "type": "hole_to_hole",
+              "severity": "warning",
+              "items": [
+                "0874a7b2-8278-4b60-95bd-768750e00fae",
+                "6d4055e3-14c9-4e70-b9f0-9716213e9f5b"
+              ],
+              "count": 1
+            }
+          ],
+          "connected": true
+        }
+      ]
+    },
+    {
+      "ref": "U1.B14",
+      "solder_clear_candidates": 0,
+      "attempts": []
+    },
+    {
+      "ref": "U1.C14",
+      "solder_clear_candidates": 0,
+      "attempts": []
+    },
+    {
+      "ref": "U1.E25",
+      "solder_clear_candidates": 16,
+      "attempts": [
+        {
+          "via_nm": [
+            51650000,
+            16075000
+          ],
+          "length_mm": 3.2881727983645272,
+          "delta": [],
+          "connected": true
+        }
+      ]
+    },
+    {
+      "ref": "U1.E3",
+      "solder_clear_candidates": 0,
+      "attempts": []
+    },
+    {
+      "ref": "U2.D4",
+      "solder_clear_candidates": 16,
+      "attempts": [
+        {
+          "via_nm": [
+            29350000,
+            7150000
+          ],
+          "length_mm": 3.576345596729057,
+          "delta": [],
+          "connected": true
+        }
+      ]
+    },
+    {
+      "ref": "U2.D9",
+      "solder_clear_candidates": 16,
+      "attempts": [
+        {
+          "via_nm": [
+            29450000,
+            7150000
+          ],
+          "length_mm": 4.073401871576766,
+          "delta": [
+            {
+              "type": "hole_to_hole",
+              "severity": "warning",
+              "items": [
+                "12b66e60-b5f1-4c90-bef1-060e43715438",
+                "a805f742-9032-47a5-9fc3-055c3cfcbf29"
+              ],
+              "count": 1
+            }
+          ],
+          "connected": true
+        },
+        {
+          "via_nm": [
+            29425000,
+            7150000
+          ],
+          "length_mm": 4.083757210636093,
+          "delta": [
+            {
+              "type": "hole_to_hole",
+              "severity": "warning",
+              "items": [
+                "a805f742-9032-47a5-9fc3-055c3cfcbf29",
+                "edab8a12-ff0a-4862-a965-c337bdf0773a"
+              ],
+              "count": 1
+            }
+          ],
+          "connected": true
+        },
+        {
+          "via_nm": [
+            29400000,
+            7150000
+          ],
+          "length_mm": 4.094112549695421,
+          "delta": [
+            {
+              "type": "hole_to_hole",
+              "severity": "warning",
+              "items": [
+                "492b91d9-ee3b-4abe-b5d8-e5990ece9a6c",
+                "a805f742-9032-47a5-9fc3-055c3cfcbf29"
+              ],
+              "count": 1
+            }
+          ],
+          "connected": true
+        },
+        {
+          "via_nm": [
+            29450000,
+            7175000
+          ],
+          "length_mm": 4.098401871576766,
+          "delta": [
+            {
+              "type": "hole_to_hole",
+              "severity": "warning",
+              "items": [
+                "15b39884-fa2e-41ff-80d0-bd8ad2e608fd",
+                "a805f742-9032-47a5-9fc3-055c3cfcbf29"
+              ],
+              "count": 1
+            }
+          ],
+          "connected": true
+        }
+      ]
+    },
+    {
+      "ref": "U2.J10",
+      "solder_clear_candidates": 16,
+      "attempts": [
+        {
+          "via_nm": [
+            32325000,
+            8375000
+          ],
+          "length_mm": 1.115685424949238,
+          "delta": [],
+          "connected": true
+        }
+      ]
+    },
+    {
+      "ref": "U2.J3",
+      "solder_clear_candidates": 16,
+      "attempts": [
+        {
+          "via_nm": [
+            26250000,
+            8500000
+          ],
+          "length_mm": 2.489949493661166,
+          "delta": [],
+          "connected": true
+        }
+      ]
+    },
+    {
+      "ref": "U2.P10",
+      "solder_clear_candidates": 16,
+      "attempts": [
+        {
+          "via_nm": [
+            32325000,
+            9625000
+          ],
+          "length_mm": 1.115685424949238,
+          "delta": [],
+          "connected": true
+        }
+      ]
+    },
+    {
+      "ref": "U2.P3",
+      "solder_clear_candidates": 16,
+      "attempts": [
+        {
+          "via_nm": [
+            26725000,
+            9625000
+          ],
+          "length_mm": 2.066726188957802,
+          "delta": [],
+          "connected": true
+        }
+      ]
+    },
+    {
+      "ref": "U2.W4",
+      "solder_clear_candidates": 16,
+      "attempts": [
+        {
+          "via_nm": [
+            29775000,
+            14125000
+          ],
+          "length_mm": 2.176345596729056,
+          "delta": [],
+          "connected": true
+        }
+      ]
+    },
+    {
+      "ref": "U2.Y5",
+      "solder_clear_candidates": 16,
+      "attempts": [
+        {
+          "via_nm": [
+            29775000,
+            14125000
+          ],
+          "length_mm": 1.040685424949238,
+          "delta": [
+            {
+              "type": "holes_co_located",
+              "severity": "warning",
+              "items": [
+                "430d43a8-ef0f-4f99-991b-6983c7e2e8f6",
+                "f45dfdb0-0e94-4e7d-8db7-19d1564d7670"
+              ],
+              "count": 1
+            }
+          ],
+          "connected": true
+        },
+        {
+          "via_nm": [
+            29800000,
+            14150000
+          ],
+          "length_mm": 1.0553300858899108,
+          "delta": [
+            {
+              "type": "hole_to_hole",
+              "severity": "warning",
+              "items": [
+                "4ee7facc-eab4-4b15-9e89-a60f4331b09a",
+                "f45dfdb0-0e94-4e7d-8db7-19d1564d7670"
+              ],
+              "count": 1
+            }
+          ],
+          "connected": true
+        },
+        {
+          "via_nm": [
+            29800000,
+            14125000
+          ],
+          "length_mm": 1.065685424949238,
+          "delta": [
+            {
+              "type": "hole_to_hole",
+              "severity": "warning",
+              "items": [
+                "f45dfdb0-0e94-4e7d-8db7-19d1564d7670",
+                "fedcff36-7c9d-44f0-b10d-546f88221d71"
+              ],
+              "count": 1
+            }
+          ],
+          "connected": true
+        },
+        {
+          "via_nm": [
+            29825000,
+            14125000
+          ],
+          "length_mm": 1.0906854249492381,
+          "delta": [
+            {
+              "type": "hole_to_hole",
+              "severity": "warning",
+              "items": [
+                "82981ced-e01b-435d-8613-ed31f7081ac6",
+                "f45dfdb0-0e94-4e7d-8db7-19d1564d7670"
+              ],
+              "count": 1
+            }
+          ],
+          "connected": true
+        }
+      ]
+    },
+    {
+      "ref": "U2.Y8",
+      "solder_clear_candidates": 16,
+      "attempts": [
+        {
+          "via_nm": [
+            29925000,
+            14075000
+          ],
+          "length_mm": 1.361396103067892,
+          "delta": [
+            {
+              "type": "hole_to_hole",
+              "severity": "warning",
+              "items": [
+                "849fc901-3fc1-415b-838c-bbde3f2c5817",
+                "f45dfdb0-0e94-4e7d-8db7-19d1564d7670"
+              ],
+              "count": 1
+            }
+          ],
+          "connected": true
+        },
+        {
+          "via_nm": [
+            29900000,
+            14075000
+          ],
+          "length_mm": 1.3863961030678917,
+          "delta": [
+            {
+              "type": "hole_to_hole",
+              "severity": "warning",
+              "items": [
+                "02c0000c-d6cf-4ee3-ad33-3ebfb7caf84c",
+                "f45dfdb0-0e94-4e7d-8db7-19d1564d7670"
+              ],
+              "count": 1
+            }
+          ],
+          "connected": true
+        },
+        {
+          "via_nm": [
+            29875000,
+            14100000
+          ],
+          "length_mm": 1.4010407640085645,
+          "delta": [
+            {
+              "type": "hole_to_hole",
+              "severity": "warning",
+              "items": [
+                "ebdd10b6-b2a3-486d-8202-deb1997afd7a",
+                "f45dfdb0-0e94-4e7d-8db7-19d1564d7670"
+              ],
+              "count": 1
+            }
+          ],
+          "connected": true
+        },
+        {
+          "via_nm": [
+            29850000,
+            14100000
+          ],
+          "length_mm": 1.4260407640085644,
+          "delta": [
+            {
+              "type": "hole_to_hole",
+              "severity": "warning",
+              "items": [
+                "9fda2e2f-b5c4-4541-9196-a8b3a51f7292",
+                "f45dfdb0-0e94-4e7d-8db7-19d1564d7670"
+              ],
+              "count": 1
+            }
+          ],
+          "connected": true
+        }
+      ]
+    }
+  ],
+  "accepted": [
+    "U1.1E11",
+    "U1.1L15",
+    "U1.E25",
+    "U2.D4",
+    "U2.J10",
+    "U2.J3",
+    "U2.P10",
+    "U2.P3",
+    "U2.W4"
+  ],
+  "remaining": 419
+}

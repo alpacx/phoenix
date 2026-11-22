@@ -1,0 +1,26 @@
+{
+  "status": "ACCEPTED",
+  "checks": [
+    {
+      "from": "U1.N1",
+      "to": "U21.4",
+      "connected": true
+    },
+    {
+      "from": "U1.N1",
+      "to": "R1813.1",
+      "connected": true
+    }
+  ],
+  "new_violations": [],
+  "sha256": "8829c427754d9d59c53edf8f783c2fc70d3900f7a5c6f4cb8e1f191b66a34f04",
+  "source_sha256": "ef81c2ed49ea43fe43fdad822bc91c5d76b4d84bcb3552ce7afd79023e2dc8d8",
+  "assembly_ready": false,
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5812,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 35,
+    "existing_connected_pad_groups_preserved": 70
+  }
+}

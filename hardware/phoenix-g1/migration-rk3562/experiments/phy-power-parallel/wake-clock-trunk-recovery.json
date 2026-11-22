@@ -1,0 +1,32 @@
+{
+  "parent_sha256": "dc2f2dfd7407db05d24caf47e95bde948d2405e5a8277e2f9f767d9aedafbb4e",
+  "board": "runs/relocated-wake-trunk-C2007.1/phy-joint.kicad_pcb",
+  "sha256": "fecaa6762ed861e0bef76399c977587f3b80b7954d3e8699744bd5147d7aaaec",
+  "records": [
+    {
+      "a": "R2003.2",
+      "z": "U25.24",
+      "screen": {
+        "frontier_nm": [],
+        "blocked": "source frontier exhausted",
+        "reachable_by_layer": [
+          17139,
+          41495,
+          32267,
+          17744
+        ],
+        "goal_positions": 38,
+        "bridge_probes": 16248,
+        "via_probes": 47388
+      }
+    },
+    {
+      "a": "C2007.1",
+      "z": "C470.1",
+      "length_mm": 15.340635183804,
+      "new_drc": [],
+      "joined_on_disk": true
+    }
+  ],
+  "assembly_ready": false
+}

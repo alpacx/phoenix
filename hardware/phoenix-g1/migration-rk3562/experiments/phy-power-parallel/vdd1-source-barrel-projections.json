@@ -1,0 +1,58 @@
+{
+  "base_sha256": "4318afe6eeea7f9ce5dbcf7c8d7c72b721c70f72d562fe88a18963c206070021",
+  "sha256": "fc771ab152629ebdb639a64d6bbc077e2fb9a5fbdead1d85e67fb77d9a8a7d29",
+  "new_barrels": 4,
+  "records": [
+    {
+      "uuid": "81dace57-d21c-418d-9e4f-bea9f308ad90",
+      "net": "LPDDR4_DQ15_A",
+      "layer": "F.Cu",
+      "projection": [
+        {
+          "lateral_mm": 0.0,
+          "before_mm2": 0.0389741784375,
+          "after_mm2": 0.0389741784375,
+          "increase_mm2": 0.0
+        },
+        {
+          "lateral_mm": 0.1,
+          "before_mm2": 0.1375485983995,
+          "after_mm2": 0.1375485983995,
+          "increase_mm2": 0.0
+        },
+        {
+          "lateral_mm": 0.2,
+          "before_mm2": 0.257817827799,
+          "after_mm2": 0.257817827799,
+          "increase_mm2": 0.0
+        }
+      ]
+    },
+    {
+      "uuid": "5f97eb9a-8431-4267-b1c2-fea43d472124",
+      "net": "LPDDR4_DQ8_A",
+      "layer": "F.Cu",
+      "projection": [
+        {
+          "lateral_mm": 0.0,
+          "before_mm2": 0.0389741784375,
+          "after_mm2": 0.0389741784375,
+          "increase_mm2": 0.0
+        },
+        {
+          "lateral_mm": 0.1,
+          "before_mm2": 0.1375485983995,
+          "after_mm2": 0.1375485983995,
+          "increase_mm2": 0.0
+        },
+        {
+          "lateral_mm": 0.2,
+          "before_mm2": 0.257817827799,
+          "after_mm2": 0.257817827799,
+          "increase_mm2": 0.0
+        }
+      ]
+    }
+  ],
+  "scope": "Local adjacent-GND plane shadow near newly drilled holes; electrical coupling, unused ball escape and impedance require separate qualification."
+}

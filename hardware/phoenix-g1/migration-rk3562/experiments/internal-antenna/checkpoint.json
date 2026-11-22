@@ -1,0 +1,33 @@
+{
+  "status": "CIRCUIT_AND_FOOTPRINT_CANDIDATE_NOT_INTEGRATED",
+  "part": "W3006",
+  "jlc": "C5123155",
+  "price_usd_1plus": 0.9074,
+  "public_presale": 623,
+  "public_overseas": 625,
+  "stock_checked": "2026-11-18",
+  "source": "https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/W3006/doc_part/W3006.pdf",
+  "layout": 1,
+  "body_mm": [
+    10,
+    3.2,
+    1.5
+  ],
+  "all_layer_reservation_envelope_mm": [
+    14.15,
+    7.4
+  ],
+  "notes": [
+    "Envelope screening is conservative; final polygon must follow layer-specific drawing p6.",
+    "No auto switching: assembly alternatives, never populate both selectors.",
+    "JLC presale/overseas do not guarantee immediate assembly allocation."
+  ],
+  "holds": [
+    "placement conflict resolution",
+    "controlled-impedance feed and branch stub",
+    "matching component selection and RF tuning",
+    "enclosure/heatsink RF clearance",
+    "integration into active schematic/BOM/rebuild pipeline",
+    "physical RF qualification"
+  ]
+}

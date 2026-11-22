@@ -1,0 +1,87 @@
+{
+  "parent_sha256": "a1093c2c991290043f2eaffceec3ec76f7365c7dfd43f1fe6551719d4dc6fe1e",
+  "source_window_points": 72,
+  "source_supported": 8,
+  "site_stats": [
+    {
+      "target_window_clear": 302,
+      "native_copper_screen": 1
+    },
+    {
+      "target_window_clear": 302,
+      "native_copper_screen": 1
+    }
+  ],
+  "site_counts": [
+    1,
+    1
+  ],
+  "attempts": [
+    {
+      "centers_nm": [
+        [
+          47475000,
+          14750000
+        ],
+        [
+          47425000,
+          13750000
+        ]
+      ],
+      "delta": [],
+      "supported": 72,
+      "new_reference_losses": []
+    }
+  ],
+  "accepted": true,
+  "sha256": "196de267422a9cdc461f395534d6d75ea59dc9eea12c54102c53c3e2d3a57ec7",
+  "board": "runs/lpddr-dq0-return/phy-joint.kicad_pcb",
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 6611,
+    "explicitly_replaced_copper": {
+      "6f7f3738-7468-4917-860b-43071e16b0c2": [
+        "LPDDR4_DQ4_B",
+        0,
+        47500000,
+        14650000,
+        47500000,
+        14650000,
+        450000,
+        200000
+      ],
+      "7a2f0dc0-03d5-401b-9392-6323a5392984": [
+        "LPDDR4_DQ4_B",
+        0,
+        47500000,
+        14500000,
+        47500000,
+        14650000,
+        76200,
+        null
+      ],
+      "7e65b016-9ddb-4ea0-8f11-96c1eea9a79d": [
+        "LPDDR4_DQ5_B",
+        0,
+        47500000,
+        13850000,
+        47500000,
+        13850000,
+        450000,
+        200000
+      ],
+      "e1ec7939-f645-4b86-8a95-fbcb5c28f952": [
+        "LPDDR4_DQ5_B",
+        0,
+        47500000,
+        14000000,
+        47500000,
+        13850000,
+        76200,
+        null
+      ]
+    },
+    "added_tracks_vias": 0,
+    "existing_connected_pad_groups_preserved": 112
+  }
+}

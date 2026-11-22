@@ -1,0 +1,43 @@
+{
+  "status": "DOCUMENTARY CHECK ONLY - no loader built or tested",
+  "checked_date": "2026-11-07",
+  "configuration": {
+    "soc": "RK3568",
+    "memory": "2 x H5TQ2G63GFR-TEC, 512 MiB, 32 bit, single rank",
+    "initial_target_clock_mhz": 533,
+    "initial_target_data_rate_mt_s": 1066,
+    "target_status": "Request for bring-up; supported PLL step and achieved frequency must be read back from the generated loader and boot log.",
+    "storage_bytes": 33554432
+  },
+  "findings": [
+    "Rockchip ddrbin_tool guide explicitly defines ddr3_freq in MHz, not MT/s. RK3566/3568 frequency editing is supported from DDR bin V1.00.",
+    "Current RK3568MINIALL.ini points to regular rk3568_ddr_1560MHz_v1.26.bin, rk356x_usbplug_v1.17.bin and rk356x_spl_v1.14.bin. File name alone does not establish the DDR3 frequency used for this board.",
+    "Rockchip warns that boards without DQSn pull-ups must use regular DDRBIN. WDQS-specific binaries require560 ohm DQSn pull-ups and are not appropriate for the current schematic.",
+    "Hynix TE speed grade is DDR3-2133 (14-14-14), per saved Hynix speed-bin table. The1066 MT/s project target is a conservative bring-up choice, not the component speed limit."
+  ],
+  "required_evidence": [
+    "Pin a specific rkbin revision and record binary hashes before use; current master is mutable.",
+    "Generate full parameter dump from selected regular DDR binary, modify DDR3 target, dump again and compare. Do not infer default drive/ODT settings from the filename.",
+    "Verify UART2 mux0 debug path, voltage sequencing and512 MiB/32-bit/single-rank detection on actual hardware.",
+    "Build real Linux kernel/rootfs including AP6256 firmware, gateway/UI/VPN and signed update policy; measure compressed artifact sizes. No assumption that32 MiB supports A/B updates.",
+    "Validate SPI-NOR ROM boot, address mode, U-Boot support and USB recovery using the exact W25Q256 variant.",
+    "Run memory test, cold/warm starts and load/temperature tests; vendor full-space test is not exhaustive."
+  ],
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/rockchip-linux/rkbin/master/tools/ddrbin_tool_user_guide.txt",
+      "local": "reference/rkbin-ddrbin-tool-guide.txt",
+      "sha256": "7983d39b6bd90a286ac68db53e83f90fa78418da7036665e82e06eeb68f9d259"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rockchip-linux/rkbin/master/specific/rk3568/RK3568_EN.md",
+      "local": "reference/rkbin-rk3568-notes.txt",
+      "sha256": "ab824993f41fe2cfa316291ed355578c6aafa5e66b2dba6d268aa1eb5aad9cd6"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rockchip-linux/rkbin/master/RKBOOT/RK3568MINIALL.ini",
+      "local": "reference/rkbin-rk3568-miniall.ini",
+      "sha256": "0366ae986e218133e14a07355908bb1d3983952b0c26acbedc89745ebe760dfc"
+    }
+  ]
+}

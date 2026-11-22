@@ -1,0 +1,231 @@
+{
+  "status": "SIZING SENSITIVITY ONLY; NOT RELEASE QUALIFICATION",
+  "fan_allowed": false,
+  "proposed_outer_envelope_mm": [
+    100,
+    46,
+    24
+  ],
+  "envelope_final": false,
+  "pcb_mm": [
+    90,
+    40
+  ],
+  "display_body_exclusion_mm": [
+    13.5,
+    27.95
+  ],
+  "surface_screen_c": 55,
+  "power_basis": "5W whole-product heat and3W processor heat are hypothetical independent examples; no measured Phoenix power.",
+  "area_m2": {
+    "all_faces_minus_display": 0.015830675,
+    "bottom_blocked_minus_display": 0.011230675
+  },
+  "enclosure_cases": [
+    {
+      "exposure": "all_faces_minus_display",
+      "ambient_c": 25,
+      "h_w_m2k": 3,
+      "emissivity": 0.1,
+      "heat_at_55c_w": 1.756,
+      "surface_at_5w_c": 106.11,
+      "effective_area_required_for_5w_at_55c_m2": 0.04507
+    },
+    {
+      "exposure": "all_faces_minus_display",
+      "ambient_c": 25,
+      "h_w_m2k": 3,
+      "emissivity": 0.85,
+      "heat_at_55c_w": 4.243,
+      "surface_at_5w_c": 59.8,
+      "effective_area_required_for_5w_at_55c_m2": 0.01866
+    },
+    {
+      "exposure": "all_faces_minus_display",
+      "ambient_c": 25,
+      "h_w_m2k": 8,
+      "emissivity": 0.1,
+      "heat_at_55c_w": 4.131,
+      "surface_at_5w_c": 61.22,
+      "effective_area_required_for_5w_at_55c_m2": 0.01916
+    },
+    {
+      "exposure": "all_faces_minus_display",
+      "ambient_c": 25,
+      "h_w_m2k": 8,
+      "emissivity": 0.85,
+      "heat_at_55c_w": 6.618,
+      "surface_at_5w_c": 48.0,
+      "effective_area_required_for_5w_at_55c_m2": 0.01196
+    },
+    {
+      "exposure": "all_faces_minus_display",
+      "ambient_c": 40,
+      "h_w_m2k": 3,
+      "emissivity": 0.1,
+      "heat_at_55c_w": 0.89,
+      "surface_at_5w_c": 118.83,
+      "effective_area_required_for_5w_at_55c_m2": 0.08893
+    },
+    {
+      "exposure": "all_faces_minus_display",
+      "ambient_c": 40,
+      "h_w_m2k": 3,
+      "emissivity": 0.85,
+      "heat_at_55c_w": 2.223,
+      "surface_at_5w_c": 71.94,
+      "effective_area_required_for_5w_at_55c_m2": 0.03561
+    },
+    {
+      "exposure": "all_faces_minus_display",
+      "ambient_c": 40,
+      "h_w_m2k": 8,
+      "emissivity": 0.1,
+      "heat_at_55c_w": 2.077,
+      "surface_at_5w_c": 75.79,
+      "effective_area_required_for_5w_at_55c_m2": 0.0381
+    },
+    {
+      "exposure": "all_faces_minus_display",
+      "ambient_c": 40,
+      "h_w_m2k": 8,
+      "emissivity": 0.85,
+      "heat_at_55c_w": 3.41,
+      "surface_at_5w_c": 61.69,
+      "effective_area_required_for_5w_at_55c_m2": 0.02321
+    },
+    {
+      "exposure": "bottom_blocked_minus_display",
+      "ambient_c": 25,
+      "h_w_m2k": 3,
+      "emissivity": 0.1,
+      "heat_at_55c_w": 1.246,
+      "surface_at_5w_c": 135.58,
+      "effective_area_required_for_5w_at_55c_m2": 0.04507
+    },
+    {
+      "exposure": "bottom_blocked_minus_display",
+      "ambient_c": 25,
+      "h_w_m2k": 3,
+      "emissivity": 0.85,
+      "heat_at_55c_w": 3.01,
+      "surface_at_5w_c": 72.1,
+      "effective_area_required_for_5w_at_55c_m2": 0.01866
+    },
+    {
+      "exposure": "bottom_blocked_minus_display",
+      "ambient_c": 25,
+      "h_w_m2k": 8,
+      "emissivity": 0.1,
+      "heat_at_55c_w": 2.931,
+      "surface_at_5w_c": 75.75,
+      "effective_area_required_for_5w_at_55c_m2": 0.01916
+    },
+    {
+      "exposure": "bottom_blocked_minus_display",
+      "ambient_c": 25,
+      "h_w_m2k": 8,
+      "emissivity": 0.85,
+      "heat_at_55c_w": 4.695,
+      "surface_at_5w_c": 56.83,
+      "effective_area_required_for_5w_at_55c_m2": 0.01196
+    },
+    {
+      "exposure": "bottom_blocked_minus_display",
+      "ambient_c": 40,
+      "h_w_m2k": 3,
+      "emissivity": 0.1,
+      "heat_at_55c_w": 0.631,
+      "surface_at_5w_c": 147.44,
+      "effective_area_required_for_5w_at_55c_m2": 0.08893
+    },
+    {
+      "exposure": "bottom_blocked_minus_display",
+      "ambient_c": 40,
+      "h_w_m2k": 3,
+      "emissivity": 0.85,
+      "heat_at_55c_w": 1.577,
+      "surface_at_5w_c": 83.36,
+      "effective_area_required_for_5w_at_55c_m2": 0.03561
+    },
+    {
+      "exposure": "bottom_blocked_minus_display",
+      "ambient_c": 40,
+      "h_w_m2k": 8,
+      "emissivity": 0.1,
+      "heat_at_55c_w": 1.474,
+      "surface_at_5w_c": 90.12,
+      "effective_area_required_for_5w_at_55c_m2": 0.0381
+    },
+    {
+      "exposure": "bottom_blocked_minus_display",
+      "ambient_c": 40,
+      "h_w_m2k": 8,
+      "emissivity": 0.85,
+      "heat_at_55c_w": 2.419,
+      "surface_at_5w_c": 70.03,
+      "effective_area_required_for_5w_at_55c_m2": 0.02321
+    }
+  ],
+  "tim_cases": [
+    {
+      "contact_square_mm": 15,
+      "compressed_thickness_mm": 0.5,
+      "bulk_only_r_k_per_w": 0.741,
+      "bulk_only_drop_at_3w_k": 2.222
+    },
+    {
+      "contact_square_mm": 15,
+      "compressed_thickness_mm": 1,
+      "bulk_only_r_k_per_w": 1.481,
+      "bulk_only_drop_at_3w_k": 4.444
+    },
+    {
+      "contact_square_mm": 15,
+      "compressed_thickness_mm": 2,
+      "bulk_only_r_k_per_w": 2.963,
+      "bulk_only_drop_at_3w_k": 8.889
+    },
+    {
+      "contact_square_mm": 20,
+      "compressed_thickness_mm": 0.5,
+      "bulk_only_r_k_per_w": 0.417,
+      "bulk_only_drop_at_3w_k": 1.25
+    },
+    {
+      "contact_square_mm": 20,
+      "compressed_thickness_mm": 1,
+      "bulk_only_r_k_per_w": 0.833,
+      "bulk_only_drop_at_3w_k": 2.5
+    },
+    {
+      "contact_square_mm": 20,
+      "compressed_thickness_mm": 2,
+      "bulk_only_r_k_per_w": 1.667,
+      "bulk_only_drop_at_3w_k": 5.0
+    }
+  ],
+  "tim_reference": {
+    "source": "https://datasheets.tdx.henkel.com/BERGQUIST-GAP-PAD-TGP-3000-en_GL.pdf",
+    "document": "Henkel BERGQUIST GAP PAD TGP3000 April2021",
+    "conductivity_w_mk": 3,
+    "selection": "REFERENCE MATERIAL ONLY; no procurement MPN or JLC availability confirmed"
+  },
+  "constraints": [
+    "No fan, blower or assumed forced convection.",
+    "Metal lid/spreader contacts SoC through insulating compliant TIM; mechanically supported independently of LCD.",
+    "Display must not cover SoC contact zone. Flex bend radius and support clearance must be established from panel supplier.",
+    "Do not rely on coating color alone to establish emissivity; low-emissivity case included.",
+    "No specified TIM compression/force until Rockchip package allowable load and tolerance stack are known.",
+    "No ribs/fins area credit without checking airflow spacing, orientation and fin efficiency.",
+    "No mechanical dimension or mounting-clearance validation follows from this thermal model."
+  ],
+  "excluded": [
+    "spreading/contact resistance",
+    "component-to-case paths",
+    "thermal coupling into LCD",
+    "local hot spots",
+    "real convection/emissivity",
+    "actual power and enclosure measurements"
+  ]
+}

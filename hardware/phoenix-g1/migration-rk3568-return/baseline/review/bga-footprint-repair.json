@@ -1,0 +1,28 @@
+{
+  "source": "kicad/Phoenix_Candidates.pretty/BGA-636_L19.0-W19.0-P0.65-BL.kicad_mod",
+  "output": "Phoenix_Reviewed:BGA-636_L19.0-W19.0-P0.65-BL",
+  "changes": [
+    "Exact0.65mm grid; maximum5um per-axis correction of import rounding.",
+    "Fab outline uses19.15mm maximum body; courtyard19.7mm is a placement allowance, not an assembly approval."
+  ],
+  "orientation_evidence": "Datasheet Fig2-2 TOP VIEW A1 upper-left, Fig2-3 BOTTOM VIEW A1 lower-left, columns1..28 left-to-right. Worksheet04.Ball Map is consistent with top view. Active footprint rotates this270degrees: A1 lower-left, A28 upper-left, AH1 lower-right; no reflection.",
+  "package_dimensions_mm": {
+    "body_max": 19.15,
+    "ball_grid_span": 17.55,
+    "pitch": 0.65,
+    "ball_diameter_min_nom_max": [
+      0.31,
+      0.36,
+      0.41
+    ],
+    "package_height_min_nom_max": [
+      1.36,
+      1.52,
+      1.68
+    ]
+  },
+  "holds": [
+    "Package source is early V1.0; reconcile with actual ordered silicon/package revision.",
+    "Copper land0.35mm retained as draft; NSMD/mask, paste, solder assembly and BGA escape not qualified."
+  ]
+}

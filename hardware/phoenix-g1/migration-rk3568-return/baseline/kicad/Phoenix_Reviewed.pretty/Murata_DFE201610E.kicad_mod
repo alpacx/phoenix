@@ -1,0 +1,8 @@
+(footprint "Murata_DFE201610E" (version 20241229) (generator "pcbnew") (layer "F.Cu") (attr smd)
+(property "Reference" "REF**" (at 0 -8) (layer "F.SilkS") (effects (font (size 1 1) (thickness .15))))
+(property "Value" "Murata_DFE201610E" (at 0 8) (layer "F.Fab") (effects (font (size 1 1) (thickness .15))))
+(fp_rect (start -1.0 -0.8) (end 1.0 0.8) (stroke (width .05) (type default)) (fill none) (layer "F.Fab"))
+(fp_rect (start -1.5 -1.3) (end 1.5 1.3) (stroke (width .05) (type default)) (fill none) (layer "F.CrtYd"))
+(pad "1" smd rect (at -0.8 0) (size 0.8 1.8) (layers "F.Cu" "F.Paste" "F.Mask"))
+(pad "2" smd rect (at 0.8 0) (size 0.8 1.8) (layers "F.Cu" "F.Paste" "F.Mask"))
+)

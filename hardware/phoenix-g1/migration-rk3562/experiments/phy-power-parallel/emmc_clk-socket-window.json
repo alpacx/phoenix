@@ -1,0 +1,181 @@
+{
+  "parent_sha256": "4434879e3c5aba8f62a14b22c930fe42c80bdd23b63bbb90926d7abff49eb7c5",
+  "surface": "B.Cu",
+  "pin": "U8001.M6",
+  "width_mm": 0.2,
+  "grid_mm": 0.025,
+  "via_mm": [
+    0.45,
+    0.2
+  ],
+  "ground_relief": false,
+  "ground_via_relief": false,
+  "existing_tracks_and_vias_included": true,
+  "single_obstacle_candidates": [],
+  "reachable_positions": 647,
+  "farthest_mm": 1.3362728014892769,
+  "sites": [],
+  "via_obstacles": [
+    {
+      "names": [
+        "EMMC_RESET_N",
+        "LCD_BL_PWM"
+      ],
+      "positions": 28
+    },
+    {
+      "names": [
+        "EMMC_RESET_N",
+        "U8001.M7"
+      ],
+      "positions": 12
+    },
+    {
+      "names": [
+        "EMMC_RESET_N",
+        "U8001.K7"
+      ],
+      "positions": 9
+    },
+    {
+      "names": [
+        "EMMC_RESET_N",
+        "U8001.M8"
+      ],
+      "positions": 7
+    },
+    {
+      "names": [
+        "EMMC_RESET_N",
+        "GND"
+      ],
+      "positions": 1
+    },
+    {
+      "names": [
+        "EMMC_RESET_N",
+        "LCD_BL_PWM",
+        "U8001.K6"
+      ],
+      "positions": 75
+    },
+    {
+      "names": [
+        "EMMC_RESET_N",
+        "LCD_BL_PWM",
+        "U8001.M7"
+      ],
+      "positions": 43
+    },
+    {
+      "names": [
+        "EMMC_RESET_N",
+        "LCD_BL_PWM",
+        "source pad"
+      ],
+      "positions": 31
+    },
+    {
+      "names": [
+        "EMMC_RESET_N",
+        "U8001.K7",
+        "U8001.M7"
+      ],
+      "positions": 30
+    },
+    {
+      "names": [
+        "EMMC_RESET_N",
+        "U8001.M7",
+        "U8001.M8"
+      ],
+      "positions": 29
+    },
+    {
+      "names": [
+        "EMMC_RESET_N",
+        "LCD_BL_PWM",
+        "U8001.M5"
+      ],
+      "positions": 15
+    },
+    {
+      "names": [
+        "EMMC_RESET_N",
+        "LCD_BL_PWM",
+        "U8001.K7"
+      ],
+      "positions": 10
+    },
+    {
+      "names": [
+        "EMMC_RESET_N",
+        "GND",
+        "U8001.M8"
+      ],
+      "positions": 9
+    },
+    {
+      "names": [
+        "EMMC_RESET_N",
+        "GND",
+        "U8001.K8"
+      ],
+      "positions": 8
+    },
+    {
+      "names": [
+        "EMMC_RESET_N",
+        "GND",
+        "U8001.K7"
+      ],
+      "positions": 5
+    },
+    {
+      "names": [
+        "EMMC_3V3",
+        "EMMC_RESET_N",
+        "U8001.M8"
+      ],
+      "positions": 3
+    },
+    {
+      "names": [
+        "EMMC_RESET_N",
+        "LCD_BL_PWM",
+        "U8001.M5",
+        "source pad"
+      ],
+      "positions": 60
+    },
+    {
+      "names": [
+        "EMMC_RESET_N",
+        "LCD_BL_PWM",
+        "U8001.M7",
+        "source pad"
+      ],
+      "positions": 60
+    },
+    {
+      "names": [
+        "EMMC_RESET_N",
+        "GND",
+        "U8001.K8",
+        "U8001.M8"
+      ],
+      "positions": 32
+    },
+    {
+      "names": [
+        "EMMC_RESET_N",
+        "LCD_BL_PWM",
+        "U8001.K6",
+        "U8001.K7"
+      ],
+      "positions": 30
+    }
+  ],
+  "assembly_ready": false,
+  "source_sha256": "4434879e3c5aba8f62a14b22c930fe42c80bdd23b63bbb90926d7abff49eb7c5"
+}

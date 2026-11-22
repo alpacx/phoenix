@@ -1,0 +1,39 @@
+{
+  "board_sha256": "bcf0915ed68b88dc19010231d086f32e76fa28882432d6ac8b0e603aff5c8b31",
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 7323,
+    "explicitly_replaced_copper": {
+      "418602c2-fff1-458b-bc77-cf2f5d1f2c6f": [
+        "LPDDR4_DQ9_B",
+        0,
+        49500000,
+        14650000,
+        49500000,
+        14650000,
+        450000,
+        200000
+      ]
+    },
+    "added_tracks_vias": 4,
+    "existing_connected_pad_groups_preserved": 121
+  },
+  "prior_pairs_verified": 698,
+  "nearby_existing_fast_segments": 111,
+  "return_distance": [
+    {
+      "net": "LPDDR4_DQ9_B",
+      "old_nearest_gnd_mm": 1.4317821063276353,
+      "new_nearest_gnd_mm": 0.7816009211867652,
+      "extension_mm": 2.769238815542512,
+      "centerline_samples_without_plane": 14,
+      "centerline_samples": 111
+    }
+  ],
+  "projected_area_losses": [],
+  "via_land_margin_conflicts": [],
+  "drc_counts": {
+    "via_dangling": 121
+  },
+  "minimum_joins": 449
+}

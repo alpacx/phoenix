@@ -1,0 +1,94 @@
+{
+  "parent_sha256": "8e3f7c005bc5dd197d1eaf0c911186b6ff0f7d033bf9fc3c2306916277a9eb1a",
+  "board": "runs/rotated-bypass-source-C483/phy-joint.kicad_pcb",
+  "sha256": "2909f50f5fcf49f0dc92d463fbc4dfef813e4a9f0b248232bc3f264d3ea64569",
+  "records": [
+    {
+      "part": "C483",
+      "tap_nm": [
+        57700000,
+        13350000
+      ],
+      "leg": {
+        "connected": true,
+        "kind": "existing source barrel and new parallel barrel",
+        "existing_uuid": "d16f53a4-a7d0-48aa-85f6-969201b2752d",
+        "existing_nm": [
+          57300000,
+          13300000
+        ],
+        "new_nm": [
+          56700000,
+          13200000
+        ],
+        "spacing_mm": 0.6082762530298219,
+        "branches_nm": [
+          [
+            [
+              58980000,
+              12500000
+            ],
+            [
+              58100000,
+              12500000
+            ],
+            [
+              57300000,
+              13300000
+            ]
+          ],
+          [
+            [
+              58980000,
+              12500000
+            ],
+            [
+              58280000,
+              13200000
+            ],
+            [
+              56700000,
+              13200000
+            ]
+          ],
+          [
+            [
+              57700000,
+              13350000
+            ],
+            [
+              56850000,
+              13350000
+            ],
+            [
+              56700000,
+              13200000
+            ]
+          ]
+        ]
+      },
+      "groups": 123
+    }
+  ],
+  "held": [
+    {
+      "cap": "C483",
+      "tap_nm": [
+        58980000,
+        13350000
+      ],
+      "sites": 3,
+      "both": 1
+    },
+    {
+      "cap": "C485",
+      "tap_nm": [
+        55740000,
+        11550000
+      ],
+      "sites": 16,
+      "both": 0
+    }
+  ],
+  "assembly_ready": false
+}

@@ -1,0 +1,109 @@
+{
+  "optimistic_multilayer_chain": [
+    [
+      0,
+      30
+    ],
+    [
+      1,
+      20
+    ]
+  ],
+  "components_visited": 18,
+  "width_mm": 0.8,
+  "bounds_mm": [
+    29,
+    4,
+    77,
+    36
+  ],
+  "orders": [
+    {
+      "order": [
+        0,
+        1
+      ],
+      "closest_mm": 0.0,
+      "closest_points_nm": [
+        [
+          52247142.58846574,
+          15645635.332320176
+        ],
+        [
+          52247142.58846574,
+          15645635.332320176
+        ]
+      ],
+      "common_area_mm2": 0.07776085203764475,
+      "remaining_area_mm2": 0.0,
+      "boundary_copper": [
+        [
+          {
+            "net": "+3V3_IO",
+            "kind": "PCB_TRACK",
+            "uuid": "a8cb646b-f4b3-4ade-96a6-5c2ef98af994"
+          }
+        ],
+        [
+          {
+            "net": "EXP_I2C_SCL",
+            "kind": "PCB_TRACK",
+            "uuid": "11c07f1e-341e-46e8-a197-93b37542c13e"
+          }
+        ]
+      ]
+    },
+    {
+      "order": [
+        1,
+        0
+      ],
+      "closest_mm": 10.335105660228754,
+      "closest_points_nm": [
+        [
+          47164052.83114449,
+          16891385.313846946
+        ],
+        [
+          57303044.47660737,
+          18895196.038772423
+        ]
+      ],
+      "common_area_mm2": 0.0,
+      "boundary_copper": [
+        [
+          {
+            "net": "PMIC_SDA",
+            "kind": "PCB_TRACK",
+            "uuid": "9f7bc5f7-0fca-4b98-a44c-0239623edcc5"
+          },
+          {
+            "net": "LPDDR4_DQS1N_B",
+            "kind": "PCB_VIA",
+            "uuid": "bd011c4e-f7ef-47c0-827a-6d60ef7058ab"
+          }
+        ],
+        [
+          {
+            "net": "GND",
+            "kind": "PCB_VIA",
+            "uuid": "0a192de9-6210-494b-891c-10535354db14"
+          },
+          {
+            "net": "+3V3_IO",
+            "kind": "PCB_TRACK",
+            "uuid": "1042305d-a619-47b2-8364-3621996cbab4"
+          },
+          {
+            "net": "+3V3_IO",
+            "kind": "PCB_TRACK",
+            "uuid": "b547cae4-b72a-4ea4-ba01-4345ac65bd08"
+          }
+        ]
+      ]
+    }
+  ],
+  "limits": "Planar centerlines, axis-aligned pad envelopes; successful points still require native DRC, keepout and return inspection.",
+  "sha256": "e658447c7cf1658919478a08633f6132e84d7b58df4e9eae144ed19fe5a875e6",
+  "diagnostic_copper_removed": 385
+}

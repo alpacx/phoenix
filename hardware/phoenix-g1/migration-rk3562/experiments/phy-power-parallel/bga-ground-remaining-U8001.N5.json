@@ -1,0 +1,128 @@
+{
+  "parent_sha256": "a0074798640d4aa3eca2058eb27623ae779d1f97e4b3ce803f878d0acd383aea",
+  "surface": "B.Cu",
+  "pin": "U8001.N5",
+  "width_mm": 0.2,
+  "grid_mm": 0.025,
+  "via_mm": [
+    0.45,
+    0.2
+  ],
+  "ground_relief": false,
+  "ground_via_relief": false,
+  "existing_tracks_and_vias_included": true,
+  "single_obstacle_candidates": [],
+  "reachable_positions": 51,
+  "farthest_mm": 0.10606601717798214,
+  "sites": [],
+  "via_obstacles": [
+    {
+      "names": [
+        "EMMC_IO_1V8",
+        "LCD_BL_PWM",
+        "U8001.N6",
+        "U8001.P5",
+        "source pad"
+      ],
+      "positions": 4
+    },
+    {
+      "names": [
+        "EMMC_IO_1V8",
+        "LCD_BL_PWM",
+        "U8001.M5",
+        "U8001.N6",
+        "source pad"
+      ],
+      "positions": 4
+    },
+    {
+      "names": [
+        "EMMC_IO_1V8",
+        "LCD_BL_PWM",
+        "U8001.N4",
+        "U8001.P5",
+        "source pad"
+      ],
+      "positions": 3
+    },
+    {
+      "names": [
+        "EMMC_IO_1V8",
+        "LCD_BL_PWM",
+        "U8001.M5",
+        "U8001.N4",
+        "source pad"
+      ],
+      "positions": 3
+    },
+    {
+      "names": [
+        "LCD_BL_PWM",
+        "U8001.M5",
+        "U8001.N6",
+        "U8001.P5",
+        "source pad"
+      ],
+      "positions": 1
+    },
+    {
+      "names": [
+        "EMMC_IO_1V8",
+        "LCD_BL_PWM",
+        "U8001.M5",
+        "U8001.N4",
+        "U8001.P5",
+        "source pad"
+      ],
+      "positions": 4
+    },
+    {
+      "names": [
+        "EMMC_IO_1V8",
+        "LCD_BL_PWM",
+        "U8001.N4",
+        "U8001.N6",
+        "U8001.P5",
+        "source pad"
+      ],
+      "positions": 4
+    },
+    {
+      "names": [
+        "EMMC_IO_1V8",
+        "LCD_BL_PWM",
+        "U8001.M5",
+        "U8001.N4",
+        "U8001.N6",
+        "source pad"
+      ],
+      "positions": 4
+    },
+    {
+      "names": [
+        "EMMC_IO_1V8",
+        "LCD_BL_PWM",
+        "U8001.M5",
+        "U8001.N6",
+        "U8001.P5",
+        "source pad"
+      ],
+      "positions": 3
+    },
+    {
+      "names": [
+        "EMMC_IO_1V8",
+        "LCD_BL_PWM",
+        "U8001.M5",
+        "U8001.N4",
+        "U8001.N6",
+        "U8001.P5",
+        "source pad"
+      ],
+      "positions": 21
+    }
+  ],
+  "assembly_ready": false,
+  "source_sha256": "a0074798640d4aa3eca2058eb27623ae779d1f97e4b3ce803f878d0acd383aea"
+}

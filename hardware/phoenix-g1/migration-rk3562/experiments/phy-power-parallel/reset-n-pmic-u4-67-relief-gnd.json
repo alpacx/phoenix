@@ -1,0 +1,96 @@
+{
+  "parent_sha256": "adb43a51675db12b0ebb2ea4d56fd5c6eae4457ccb6781e1da87468a007c2191",
+  "surface": "F.Cu",
+  "pin": "U4.67",
+  "width_mm": 0.2,
+  "grid_mm": 0.025,
+  "via_mm": [
+    0.45,
+    0.2
+  ],
+  "ground_relief": false,
+  "ground_via_relief": false,
+  "existing_tracks_and_vias_included": true,
+  "single_obstacle_candidates": [],
+  "reachable_positions": 430,
+  "farthest_mm": 0.4457016939613311,
+  "sites": [],
+  "via_obstacles": [
+    {
+      "names": [
+        "+3V3_SYS",
+        "R410.2",
+        "U4.66",
+        "U4.68",
+        "source pad"
+      ],
+      "positions": 73
+    },
+    {
+      "names": [
+        "+3V3_SYS",
+        "GND",
+        "U4.66",
+        "U4.68",
+        "source pad"
+      ],
+      "positions": 41
+    },
+    {
+      "names": [
+        "PMIC_VDC",
+        "R410.2",
+        "U4.66",
+        "U4.68",
+        "source pad"
+      ],
+      "positions": 12
+    },
+    {
+      "names": [
+        "+3V3_SYS",
+        "PMIC_VDC",
+        "R410.2",
+        "U4.66",
+        "U4.68",
+        "source pad"
+      ],
+      "positions": 167
+    },
+    {
+      "names": [
+        "+3V3_SYS",
+        "GND",
+        "R410.2",
+        "U4.66",
+        "U4.68",
+        "source pad"
+      ],
+      "positions": 47
+    },
+    {
+      "names": [
+        "PMIC_VDC",
+        "R410.2",
+        "U4.66",
+        "U4.68",
+        "U4.69",
+        "source pad"
+      ],
+      "positions": 42
+    },
+    {
+      "names": [
+        "+3V3_SYS",
+        "PMIC_VDC",
+        "R410.2",
+        "U4.66",
+        "U4.68",
+        "U4.69",
+        "source pad"
+      ],
+      "positions": 48
+    }
+  ],
+  "assembly_ready": false
+}

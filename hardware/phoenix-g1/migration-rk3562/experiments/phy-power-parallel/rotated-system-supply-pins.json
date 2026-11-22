@@ -1,0 +1,94 @@
+{
+  "parent_sha256": "62cb5a2a91a04859e0d4f0527669314e8678b4719003de6db466af5554b130b6",
+  "board": "runs/rotated-sys-supply-pin-33/phy-joint.kicad_pcb",
+  "sha256": "442dfbcf5e1dd32754250ffe4409d837130bf3d6bd8ab8176b143a7ee744af7f",
+  "records": [
+    {
+      "pin": "45",
+      "prior_neck_width_mm": 0.127,
+      "actual_neck_width_mm": 0.15,
+      "prior_neck_length_mm": 0.74,
+      "actual_neck_length_mm": 0.35,
+      "trunk_mm": 1.478700576850888,
+      "trunk_width_mm": 0.5,
+      "tap_nm": [
+        59300000,
+        13350000
+      ],
+      "groups": 121
+    },
+    {
+      "pin": "33",
+      "prior_neck_width_mm": 0.15,
+      "actual_neck_width_mm": 0.15,
+      "prior_neck_length_mm": 0.64,
+      "actual_neck_length_mm": 0.4609772228646444,
+      "trunk_mm": 2.9514014942139206,
+      "trunk_width_mm": 0.5,
+      "tap_nm": [
+        57433333,
+        13800000
+      ],
+      "groups": 121
+    }
+  ],
+  "held": [
+    {
+      "pin": "30",
+      "prior_width_nm": 150000,
+      "prior_length_nm": 640000.0,
+      "legal_necks": 2,
+      "wide_targets": 56
+    },
+    {
+      "pin": "24",
+      "prior_width_nm": 127000,
+      "prior_length_nm": 940000.0,
+      "legal_necks": 0,
+      "wide_targets": 43
+    },
+    {
+      "pin": "22",
+      "prior_width_nm": 150000,
+      "prior_length_nm": 640000.0,
+      "legal_necks": 16,
+      "wide_targets": 31
+    },
+    {
+      "pin": "4",
+      "prior_width_nm": 150000,
+      "prior_length_nm": 490000.0,
+      "legal_necks": 0,
+      "wide_targets": 0
+    },
+    {
+      "pin": "57",
+      "prior_width_nm": 150000,
+      "prior_length_nm": 640000.0,
+      "legal_necks": 0,
+      "wide_targets": 17
+    },
+    {
+      "pin": "66",
+      "prior_width_nm": 150000,
+      "prior_length_nm": 590000.0,
+      "legal_necks": 0,
+      "wide_targets": 0
+    },
+    {
+      "pin": "10",
+      "prior_width_nm": 127000,
+      "prior_length_nm": 740000.0,
+      "legal_necks": 0,
+      "wide_targets": 0
+    },
+    {
+      "pin": "54",
+      "prior_width_nm": 127000,
+      "prior_length_nm": 10000.0,
+      "legal_necks": 0,
+      "wide_targets": 21
+    }
+  ],
+  "assembly_ready": false
+}

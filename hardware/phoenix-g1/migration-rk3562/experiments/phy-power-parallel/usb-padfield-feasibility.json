@@ -1,0 +1,741 @@
+{
+  "source_sha256": "09d24d42b7aef3d148d764b143837d4df2cb68f422a9c83d0ee499b6140f549b",
+  "trials": [
+    {
+      "vias_per_signal": [
+        2,
+        2
+      ],
+      "order": [
+        "USB_DP",
+        "USB_DM"
+      ],
+      "inside": [
+        "In2.Cu",
+        "In3.Cu"
+      ],
+      "signals": [
+        {
+          "net": "USB_DP",
+          "route": true,
+          "length_mm": 3.4106601717798206,
+          "barrels_nm": [
+            [
+              7190000,
+              20200000
+            ],
+            [
+              8640000,
+              19600000
+            ]
+          ]
+        },
+        {
+          "net": "USB_DM",
+          "route": true,
+          "length_mm": 3.576345596729059,
+          "barrels_nm": [
+            [
+              6990000,
+              19550000
+            ],
+            [
+              8640000,
+              20400000
+            ]
+          ]
+        }
+      ],
+      "original_copper_conflicts": {
+        "USB_DP": [
+          [
+            "+3V3_AON",
+            "29fa8ee7-b905-4695-b5c0-65329b3cbf26"
+          ],
+          [
+            "+3V3_AON",
+            "816c9a0f-e3fd-4e00-9fee-2aadaa09cf46"
+          ],
+          [
+            "+3V3_AON",
+            "a2164143-bf0a-44c2-8a5d-7b16ea5806a5"
+          ],
+          [
+            "+3V3_AON",
+            "a93ffa77-4e81-4c97-94d5-7131a033e2ca"
+          ],
+          [
+            "+3V3_AON",
+            "feb9819c-5562-4dac-9593-5f6b6064923b"
+          ],
+          [
+            "USB_CC1",
+            "71e5fb2b-6b80-4ec5-bd3a-43e1b848a65b"
+          ],
+          [
+            "USB_CC1",
+            "a9b20252-06a8-404a-b9c2-c6dc8d1b1509"
+          ],
+          [
+            "USB_CC2",
+            "30308486-30db-4eb4-af30-afea2f930d38"
+          ],
+          [
+            "USB_CC2",
+            "57a4ed5a-31b9-414f-bdea-6739480d6191"
+          ],
+          [
+            "USB_CC2",
+            "64fae63c-2ca9-47bd-a597-d534964d451e"
+          ],
+          [
+            "USB_CC2",
+            "660dce80-0941-496c-bc17-0235a9e386ec"
+          ],
+          [
+            "USB_CC2",
+            "6bacafc1-cd03-4959-90cf-659128e8acbc"
+          ],
+          [
+            "USB_CC2",
+            "7c546433-4cc0-417e-ad9d-d46fa63592ed"
+          ],
+          [
+            "USB_CC2",
+            "8b6ab4ce-052e-4ac0-8440-8b17838727b9"
+          ],
+          [
+            "USB_CC2",
+            "a72bcb32-2b07-4666-9539-8ba273a4865f"
+          ],
+          [
+            "USB_CC2",
+            "c3472743-9995-4139-ba6d-7d06ec34c8a6"
+          ],
+          [
+            "USB_CC2",
+            "faf0bdbc-50b0-44ef-baeb-c92bd96d28e3"
+          ]
+        ],
+        "USB_DM": [
+          [
+            "+3V3_AON",
+            "29fa8ee7-b905-4695-b5c0-65329b3cbf26"
+          ],
+          [
+            "USB_CC1",
+            "1ed6081b-f2af-45fa-8546-f02f33e9ca9e"
+          ],
+          [
+            "USB_CC1",
+            "867449b6-6015-4138-8521-40bc29984bbd"
+          ],
+          [
+            "USB_CC1",
+            "b09680be-6f1b-4e80-b8f0-11af6d89dc3d"
+          ],
+          [
+            "USB_CC1",
+            "d25d579b-b953-4b39-b455-9f1af030e98e"
+          ],
+          [
+            "USB_CC2",
+            "57a4ed5a-31b9-414f-bdea-6739480d6191"
+          ],
+          [
+            "USB_CC2",
+            "6bacafc1-cd03-4959-90cf-659128e8acbc"
+          ],
+          [
+            "USB_CC2",
+            "febabc85-77b9-4f15-b8a4-e4a99afa454b"
+          ]
+        ]
+      }
+    },
+    {
+      "vias_per_signal": [
+        2,
+        2
+      ],
+      "order": [
+        "USB_DM",
+        "USB_DP"
+      ],
+      "inside": [
+        "In2.Cu",
+        "In3.Cu"
+      ],
+      "signals": [
+        {
+          "net": "USB_DM",
+          "route": true,
+          "length_mm": 3.4106601717798206,
+          "barrels_nm": [
+            [
+              7190000,
+              19800000
+            ],
+            [
+              8640000,
+              20400000
+            ]
+          ]
+        },
+        {
+          "net": "USB_DP",
+          "route": true,
+          "length_mm": 3.576345596729059,
+          "barrels_nm": [
+            [
+              6990000,
+              20450000
+            ],
+            [
+              8640000,
+              19600000
+            ]
+          ]
+        }
+      ],
+      "original_copper_conflicts": {
+        "USB_DM": [
+          [
+            "+3V3_AON",
+            "29fa8ee7-b905-4695-b5c0-65329b3cbf26"
+          ],
+          [
+            "USB_CC1",
+            "867449b6-6015-4138-8521-40bc29984bbd"
+          ],
+          [
+            "USB_CC1",
+            "d25d579b-b953-4b39-b455-9f1af030e98e"
+          ],
+          [
+            "USB_CC2",
+            "57a4ed5a-31b9-414f-bdea-6739480d6191"
+          ],
+          [
+            "USB_CC2",
+            "6bacafc1-cd03-4959-90cf-659128e8acbc"
+          ],
+          [
+            "USB_CC2",
+            "febabc85-77b9-4f15-b8a4-e4a99afa454b"
+          ]
+        ],
+        "USB_DP": [
+          [
+            "+3V3_AON",
+            "29fa8ee7-b905-4695-b5c0-65329b3cbf26"
+          ],
+          [
+            "+3V3_AON",
+            "816c9a0f-e3fd-4e00-9fee-2aadaa09cf46"
+          ],
+          [
+            "+3V3_AON",
+            "a2164143-bf0a-44c2-8a5d-7b16ea5806a5"
+          ],
+          [
+            "+3V3_AON",
+            "a93ffa77-4e81-4c97-94d5-7131a033e2ca"
+          ],
+          [
+            "+3V3_AON",
+            "feb9819c-5562-4dac-9593-5f6b6064923b"
+          ],
+          [
+            "USB_CC1",
+            "1ed6081b-f2af-45fa-8546-f02f33e9ca9e"
+          ],
+          [
+            "USB_CC1",
+            "71e5fb2b-6b80-4ec5-bd3a-43e1b848a65b"
+          ],
+          [
+            "USB_CC1",
+            "a9b20252-06a8-404a-b9c2-c6dc8d1b1509"
+          ],
+          [
+            "USB_CC2",
+            "30308486-30db-4eb4-af30-afea2f930d38"
+          ],
+          [
+            "USB_CC2",
+            "4fe97fdb-bcbe-4be7-9f9b-84e9ae0f16eb"
+          ],
+          [
+            "USB_CC2",
+            "57a4ed5a-31b9-414f-bdea-6739480d6191"
+          ],
+          [
+            "USB_CC2",
+            "64fae63c-2ca9-47bd-a597-d534964d451e"
+          ],
+          [
+            "USB_CC2",
+            "660dce80-0941-496c-bc17-0235a9e386ec"
+          ],
+          [
+            "USB_CC2",
+            "6bacafc1-cd03-4959-90cf-659128e8acbc"
+          ],
+          [
+            "USB_CC2",
+            "7c546433-4cc0-417e-ad9d-d46fa63592ed"
+          ],
+          [
+            "USB_CC2",
+            "8b6ab4ce-052e-4ac0-8440-8b17838727b9"
+          ],
+          [
+            "USB_CC2",
+            "a72bcb32-2b07-4666-9539-8ba273a4865f"
+          ],
+          [
+            "USB_CC2",
+            "c3472743-9995-4139-ba6d-7d06ec34c8a6"
+          ],
+          [
+            "USB_CC2",
+            "faf0bdbc-50b0-44ef-baeb-c92bd96d28e3"
+          ]
+        ]
+      }
+    },
+    {
+      "vias_per_signal": [
+        2,
+        2
+      ],
+      "order": [
+        "USB_DP",
+        "USB_DM"
+      ],
+      "inside": [
+        "In3.Cu",
+        "In2.Cu"
+      ],
+      "signals": [
+        {
+          "net": "USB_DP",
+          "route": true,
+          "length_mm": 3.4106601717798206,
+          "barrels_nm": [
+            [
+              7190000,
+              20200000
+            ],
+            [
+              8640000,
+              19600000
+            ]
+          ]
+        },
+        {
+          "net": "USB_DM",
+          "route": true,
+          "length_mm": 3.576345596729059,
+          "barrels_nm": [
+            [
+              6990000,
+              19550000
+            ],
+            [
+              8640000,
+              20400000
+            ]
+          ]
+        }
+      ],
+      "original_copper_conflicts": {
+        "USB_DP": [
+          [
+            "+3V3_AON",
+            "29fa8ee7-b905-4695-b5c0-65329b3cbf26"
+          ],
+          [
+            "+3V3_AON",
+            "816c9a0f-e3fd-4e00-9fee-2aadaa09cf46"
+          ],
+          [
+            "+3V3_AON",
+            "a2164143-bf0a-44c2-8a5d-7b16ea5806a5"
+          ],
+          [
+            "+3V3_AON",
+            "a93ffa77-4e81-4c97-94d5-7131a033e2ca"
+          ],
+          [
+            "+3V3_AON",
+            "feb9819c-5562-4dac-9593-5f6b6064923b"
+          ],
+          [
+            "USB_CC1",
+            "71e5fb2b-6b80-4ec5-bd3a-43e1b848a65b"
+          ],
+          [
+            "USB_CC1",
+            "a9b20252-06a8-404a-b9c2-c6dc8d1b1509"
+          ],
+          [
+            "USB_CC2",
+            "30308486-30db-4eb4-af30-afea2f930d38"
+          ],
+          [
+            "USB_CC2",
+            "57a4ed5a-31b9-414f-bdea-6739480d6191"
+          ],
+          [
+            "USB_CC2",
+            "64fae63c-2ca9-47bd-a597-d534964d451e"
+          ],
+          [
+            "USB_CC2",
+            "660dce80-0941-496c-bc17-0235a9e386ec"
+          ],
+          [
+            "USB_CC2",
+            "6bacafc1-cd03-4959-90cf-659128e8acbc"
+          ],
+          [
+            "USB_CC2",
+            "7c546433-4cc0-417e-ad9d-d46fa63592ed"
+          ],
+          [
+            "USB_CC2",
+            "8b6ab4ce-052e-4ac0-8440-8b17838727b9"
+          ],
+          [
+            "USB_CC2",
+            "a72bcb32-2b07-4666-9539-8ba273a4865f"
+          ],
+          [
+            "USB_CC2",
+            "c3472743-9995-4139-ba6d-7d06ec34c8a6"
+          ],
+          [
+            "USB_CC2",
+            "faf0bdbc-50b0-44ef-baeb-c92bd96d28e3"
+          ]
+        ],
+        "USB_DM": [
+          [
+            "+3V3_AON",
+            "29fa8ee7-b905-4695-b5c0-65329b3cbf26"
+          ],
+          [
+            "USB_CC1",
+            "1ed6081b-f2af-45fa-8546-f02f33e9ca9e"
+          ],
+          [
+            "USB_CC1",
+            "867449b6-6015-4138-8521-40bc29984bbd"
+          ],
+          [
+            "USB_CC1",
+            "b09680be-6f1b-4e80-b8f0-11af6d89dc3d"
+          ],
+          [
+            "USB_CC1",
+            "d25d579b-b953-4b39-b455-9f1af030e98e"
+          ],
+          [
+            "USB_CC2",
+            "57a4ed5a-31b9-414f-bdea-6739480d6191"
+          ],
+          [
+            "USB_CC2",
+            "6bacafc1-cd03-4959-90cf-659128e8acbc"
+          ],
+          [
+            "USB_CC2",
+            "febabc85-77b9-4f15-b8a4-e4a99afa454b"
+          ]
+        ]
+      }
+    },
+    {
+      "vias_per_signal": [
+        2,
+        2
+      ],
+      "order": [
+        "USB_DM",
+        "USB_DP"
+      ],
+      "inside": [
+        "In3.Cu",
+        "In2.Cu"
+      ],
+      "signals": [
+        {
+          "net": "USB_DM",
+          "route": true,
+          "length_mm": 3.4106601717798206,
+          "barrels_nm": [
+            [
+              7190000,
+              19800000
+            ],
+            [
+              8640000,
+              20400000
+            ]
+          ]
+        },
+        {
+          "net": "USB_DP",
+          "route": true,
+          "length_mm": 3.576345596729059,
+          "barrels_nm": [
+            [
+              6990000,
+              20450000
+            ],
+            [
+              8640000,
+              19600000
+            ]
+          ]
+        }
+      ],
+      "original_copper_conflicts": {
+        "USB_DM": [
+          [
+            "+3V3_AON",
+            "29fa8ee7-b905-4695-b5c0-65329b3cbf26"
+          ],
+          [
+            "USB_CC1",
+            "867449b6-6015-4138-8521-40bc29984bbd"
+          ],
+          [
+            "USB_CC1",
+            "d25d579b-b953-4b39-b455-9f1af030e98e"
+          ],
+          [
+            "USB_CC2",
+            "57a4ed5a-31b9-414f-bdea-6739480d6191"
+          ],
+          [
+            "USB_CC2",
+            "6bacafc1-cd03-4959-90cf-659128e8acbc"
+          ],
+          [
+            "USB_CC2",
+            "febabc85-77b9-4f15-b8a4-e4a99afa454b"
+          ]
+        ],
+        "USB_DP": [
+          [
+            "+3V3_AON",
+            "29fa8ee7-b905-4695-b5c0-65329b3cbf26"
+          ],
+          [
+            "+3V3_AON",
+            "816c9a0f-e3fd-4e00-9fee-2aadaa09cf46"
+          ],
+          [
+            "+3V3_AON",
+            "a2164143-bf0a-44c2-8a5d-7b16ea5806a5"
+          ],
+          [
+            "+3V3_AON",
+            "a93ffa77-4e81-4c97-94d5-7131a033e2ca"
+          ],
+          [
+            "+3V3_AON",
+            "feb9819c-5562-4dac-9593-5f6b6064923b"
+          ],
+          [
+            "USB_CC1",
+            "1ed6081b-f2af-45fa-8546-f02f33e9ca9e"
+          ],
+          [
+            "USB_CC1",
+            "71e5fb2b-6b80-4ec5-bd3a-43e1b848a65b"
+          ],
+          [
+            "USB_CC1",
+            "a9b20252-06a8-404a-b9c2-c6dc8d1b1509"
+          ],
+          [
+            "USB_CC2",
+            "30308486-30db-4eb4-af30-afea2f930d38"
+          ],
+          [
+            "USB_CC2",
+            "4fe97fdb-bcbe-4be7-9f9b-84e9ae0f16eb"
+          ],
+          [
+            "USB_CC2",
+            "57a4ed5a-31b9-414f-bdea-6739480d6191"
+          ],
+          [
+            "USB_CC2",
+            "64fae63c-2ca9-47bd-a597-d534964d451e"
+          ],
+          [
+            "USB_CC2",
+            "660dce80-0941-496c-bc17-0235a9e386ec"
+          ],
+          [
+            "USB_CC2",
+            "6bacafc1-cd03-4959-90cf-659128e8acbc"
+          ],
+          [
+            "USB_CC2",
+            "7c546433-4cc0-417e-ad9d-d46fa63592ed"
+          ],
+          [
+            "USB_CC2",
+            "8b6ab4ce-052e-4ac0-8440-8b17838727b9"
+          ],
+          [
+            "USB_CC2",
+            "a72bcb32-2b07-4666-9539-8ba273a4865f"
+          ],
+          [
+            "USB_CC2",
+            "c3472743-9995-4139-ba6d-7d06ec34c8a6"
+          ],
+          [
+            "USB_CC2",
+            "faf0bdbc-50b0-44ef-baeb-c92bd96d28e3"
+          ]
+        ]
+      }
+    },
+    {
+      "vias_per_signal": [
+        2,
+        0
+      ],
+      "order": [
+        "USB_DP",
+        "USB_DM"
+      ],
+      "inside": [
+        "In2.Cu",
+        "In2.Cu"
+      ],
+      "signals": [
+        {
+          "net": "USB_DP",
+          "route": true,
+          "length_mm": 3.4106601717798206,
+          "barrels_nm": [
+            [
+              7190000,
+              20200000
+            ],
+            [
+              8640000,
+              19600000
+            ]
+          ]
+        },
+        {
+          "net": "USB_DM",
+          "visited": 407,
+          "route": false
+        }
+      ]
+    },
+    {
+      "vias_per_signal": [
+        2,
+        0
+      ],
+      "order": [
+        "USB_DM",
+        "USB_DP"
+      ],
+      "inside": [
+        "In2.Cu",
+        "In2.Cu"
+      ],
+      "signals": [
+        {
+          "net": "USB_DM",
+          "route": true,
+          "length_mm": 3.4106601717798206,
+          "barrels_nm": [
+            [
+              7190000,
+              19800000
+            ],
+            [
+              8640000,
+              20400000
+            ]
+          ]
+        },
+        {
+          "net": "USB_DP",
+          "visited": 407,
+          "route": false
+        }
+      ]
+    },
+    {
+      "vias_per_signal": [
+        0,
+        2
+      ],
+      "order": [
+        "USB_DP",
+        "USB_DM"
+      ],
+      "inside": [
+        "In2.Cu",
+        "In2.Cu"
+      ],
+      "signals": [
+        {
+          "net": "USB_DP",
+          "route": true,
+          "length_mm": 2.0106601717798216,
+          "barrels_nm": []
+        },
+        {
+          "net": "USB_DM",
+          "visited": 25,
+          "route": false
+        }
+      ]
+    },
+    {
+      "vias_per_signal": [
+        0,
+        2
+      ],
+      "order": [
+        "USB_DM",
+        "USB_DP"
+      ],
+      "inside": [
+        "In2.Cu",
+        "In2.Cu"
+      ],
+      "signals": [
+        {
+          "net": "USB_DM",
+          "route": true,
+          "length_mm": 2.0106601717798216,
+          "barrels_nm": []
+        },
+        {
+          "net": "USB_DP",
+          "visited": 25,
+          "route": false
+        }
+      ]
+    }
+  ],
+  "adopted": false,
+  "unrestricted_existing_tracks": true
+}

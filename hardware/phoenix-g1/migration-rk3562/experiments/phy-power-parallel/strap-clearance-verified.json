@@ -1,0 +1,121 @@
+{
+  "board": "runs/strap-clearance-R527/phy-joint.kicad_pcb",
+  "sha256": "df74e8907f46b4d3a7da3aba1e1fa369eb7972e1d3cf55e8c57972c44b8a1e28",
+  "records": [
+    {
+      "ref": "R525",
+      "layer": "B.Cu",
+      "center_mm": [
+        68.0,
+        27.8
+      ],
+      "preservation": {
+        "existing_pad_instances_preserved": 2006,
+        "existing_tracks_vias_preserved": 5836,
+        "explicitly_replaced_copper": {
+          "baf9ff1f-097e-4239-8035-8981ced4050a": [
+            "+3V3_PHY",
+            0,
+            73000000,
+            32400000,
+            73010000,
+            32500000,
+            200000,
+            null
+          ]
+        },
+        "added_tracks_vias": 0,
+        "existing_connected_pad_groups_preserved": 73
+      }
+    },
+    {
+      "ref": "R527",
+      "layer": "B.Cu",
+      "center_mm": [
+        70.6,
+        30.6
+      ],
+      "preservation": {
+        "existing_pad_instances_preserved": 2006,
+        "existing_tracks_vias_preserved": 5835,
+        "explicitly_replaced_copper": {
+          "baf9ff1f-097e-4239-8035-8981ced4050a": [
+            "+3V3_PHY",
+            0,
+            73000000,
+            32400000,
+            73010000,
+            32500000,
+            200000,
+            null
+          ],
+          "f803078c-d220-4a6d-a60b-c723f8e827f9": [
+            "+3V3_PHY",
+            0,
+            73000000,
+            32400000,
+            73010000,
+            34000000,
+            200000,
+            null
+          ]
+        },
+        "added_tracks_vias": 0,
+        "existing_connected_pad_groups_preserved": 73
+      }
+    }
+  ],
+  "resolved": [
+    [
+      "H8105 mechanical reservation",
+      "R525"
+    ],
+    [
+      "H8105 mechanical reservation",
+      "R527"
+    ]
+  ],
+  "remaining": [
+    [
+      "H8103 mechanical reservation",
+      "R2014"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "C1625"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "C1631"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "C1640"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "C1642"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "C1679"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "R1506"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "Y1"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "Y2002"
+    ],
+    [
+      "H8105 mechanical reservation",
+      "R526"
+    ]
+  ],
+  "assembly_ready": false
+}

@@ -1,0 +1,21 @@
+{
+  "status": "STATIC CURRENT SCREEN ONLY",
+  "ref": "R1803",
+  "value_ohm": 180,
+  "tolerance": 0.01,
+  "package": "0603",
+  "jlc": "C22828",
+  "source_voltage_bound_v": 5.9,
+  "source_basis": "TPS259531 static clamp upper bound; transient overshoot excluded",
+  "led_vf_min_v": 2.9,
+  "vce_assumed_v": 0,
+  "max_current_a": 0.016835016835016838,
+  "max_resistor_power_w": 0.05050505050505052,
+  "rated_power_w_at_up_to_70c": 0.1,
+  "source": "reference/backlight-resistor-C22828.pdf section9 linear derating above70C to zero155C",
+  "derated_power_w_at_85c": 0.08235294117647059,
+  "holds": [
+    "No measured local component temperature; LED and switching transient bounds not validated.",
+    "Full-brightness minimum15mA is not guaranteed at nominal/low USB voltage."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "status": "CANDIDATES; NOT CIRCUIT QUALIFICATION",
+  "choices": [
+    {
+      "jlc": "C17168",
+      "refs": [
+        "R1507",
+        "R530",
+        "R1601",
+        "R1602",
+        "R2001"
+      ],
+      "evidence": "sourcing/public/C17168.json"
+    },
+    {
+      "jlc": "C185338",
+      "refs": [
+        "R1905"
+      ],
+      "evidence": "sourcing/public/C185338.json"
+    },
+    {
+      "jlc": "C273746",
+      "refs": [
+        "R2202"
+      ],
+      "evidence": "sourcing/public/C273746.json"
+    }
+  ],
+  "zero_link": {
+    "source": "reference/zero-link-C17168.pdf",
+    "revision": "2019-02-12 V3, page5 visually inspected",
+    "resistance_max_ohm": 0.05,
+    "rated_current_a": 1,
+    "overload_current_a": 2,
+    "derating_starts_c": 70,
+    "limits": [
+      "Do not treat overload rating as continuous current.",
+      "Rail current, voltage drop and hot derating remain to be qualified.",
+      "R2001 is a prototype RF matching link; no RF impedance claim.",
+      "Generic catalog percent/TCR fields for zero-ohm links were not used as resistance accuracy."
+    ]
+  },
+  "precision_note": "R1905 and R2202 remain1%100ppm; existing static checks do not include all temperature drift."
+}

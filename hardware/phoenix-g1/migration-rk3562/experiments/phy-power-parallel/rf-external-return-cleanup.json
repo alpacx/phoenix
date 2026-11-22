@@ -1,0 +1,62 @@
+{
+  "board": "runs/rf-extant-ground-cleanup/phy-joint.kicad_pcb",
+  "sha256": "5fec7c6fe199a442d4cbf448af7944fde009b93d2291645d59337f8d669e66db",
+  "parent_sha256": "b01b395f97703004f70e173991bb38505c22a95dd3cf43a5eae2d7906be4a912",
+  "baseline_sha256": "22e9735759bde9eb5efd281f10bfec697cf904e371706acb35b57fa5ede5c364",
+  "soc_bank_ground_bridge_mm": [
+    [
+      51.525,
+      17.5
+    ],
+    [
+      51.525,
+      18.27
+    ]
+  ],
+  "bridge_width_mm": 0.5,
+  "removed_ground_tails": [
+    "7c0134cf-1cec-48be-9640-8426b515683e",
+    "6200a8f5-88e8-41f0-a0af-14222aff5fbf",
+    "a80ce997-7bc5-46aa-9b54-0a4ba5619efb"
+  ],
+  "preservation": {
+    "existing_pad_instances_preserved": 2010,
+    "existing_tracks_vias_preserved": 6780,
+    "explicitly_replaced_copper": {
+      "6200a8f5-88e8-41f0-a0af-14222aff5fbf": [
+        "GND",
+        2,
+        74020000,
+        22000000,
+        74020000,
+        21300000,
+        300000,
+        null
+      ],
+      "7c0134cf-1cec-48be-9640-8426b515683e": [
+        "GND",
+        0,
+        54625000,
+        17350000,
+        54700000,
+        17275000,
+        300000,
+        null
+      ],
+      "a80ce997-7bc5-46aa-9b54-0a4ba5619efb": [
+        "GND",
+        0,
+        54700000,
+        17275000,
+        54700000,
+        15800000,
+        300000,
+        null
+      ]
+    },
+    "added_tracks_vias": 13,
+    "existing_connected_pad_groups_preserved": 115
+  },
+  "new_drc": [],
+  "assembly_ready": false
+}

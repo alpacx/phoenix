@@ -1,0 +1,366 @@
+{
+  "board": "runs/io-group-R2002.1-U25.12/phy-joint.kicad_pcb",
+  "sha256": "72fccc625e6f5b6e8a5b7a9f92ecb1ae9271e206c03dd09b7a8eeac8efc7eec9",
+  "parent_sha256": "185b00da4af131512e6ee255882506a00aba48ea2051ad52b4c64dfd4354da18",
+  "records": [
+    {
+      "pair": [
+        "R413.2",
+        "U1.AF22"
+      ],
+      "net": "PMIC_INT_N",
+      "added": [
+        "6be94ec0-a904-47b2-80a8-7621f3eee509",
+        "2a76bcc8-0bbb-41c4-ad34-63b21709f190",
+        "6de889b7-7b6b-495f-b963-c78f495c04df",
+        "28807c58-6e2b-456f-9ab6-1d6f98770064",
+        "746e3662-7ecd-4977-89fe-9999c27740dd",
+        "5126aa72-f911-4876-bcba-a71b1d599bc5",
+        "025faf77-0851-48fa-b656-cb7b0c97dbfc",
+        "bce8171e-7bee-4598-8eef-ebeda826cd6e",
+        "de5a20f3-8c81-4ed1-84a8-034eba3a3dab",
+        "de1bcb20-cb6b-4b46-8814-a50fea2b51d0",
+        "c52995d0-0545-4bc8-b858-949361b0d699",
+        "b18a4eed-7369-4196-9644-2d80c98a2b21",
+        "3a8c8e49-2ac1-4298-9f14-9e235110614f",
+        "8291f264-ddb7-4f18-b919-3d206fe286d9",
+        "030132dc-ca11-4dcf-8bef-059a895107d4",
+        "9fc14180-b1fe-4c66-8a3a-30351f4973cc",
+        "1ea8b54e-b001-4aea-9045-3ca412262e65"
+      ],
+      "length_mm": 84.38525217834484
+    },
+    {
+      "pair": [
+        "R2002.1",
+        "U25.12"
+      ],
+      "net": "WIFI_REG_ON",
+      "added": [
+        "5095902f-ed26-4f60-90f9-9c80b12b8801",
+        "0e18fe1c-914c-4059-a1b0-651848d6c951",
+        "98453d07-c920-486c-80e6-13b4a8be044e",
+        "739ef147-2aff-467b-8f43-9ee89dcbf668",
+        "ceec5abc-1bd8-49b1-b7e8-02be4ed82f95",
+        "83d68f26-bca7-49b5-82e1-8a80fe6fb378",
+        "d028b0ec-6e40-40ba-bc54-a3f9caab75f9",
+        "2ae2d129-00f1-430f-96b9-44d8c954f775",
+        "7b184523-6119-47db-a991-af5caa72ebe6",
+        "c9a8d527-83be-4c0c-bb01-8db5854bf601",
+        "05ce1854-d346-4567-b379-84f84ef1730c",
+        "3aeee4b0-8f55-4771-ab06-237fd39300e0",
+        "34cc3777-2a70-4cfc-b75c-6c72c6af5d45",
+        "6f805706-bf8c-4aae-a45d-0f37beb3f36e",
+        "cbbd1d87-8f4f-4147-be0f-fbe8b7ed14e2",
+        "df86b7af-5316-4e58-843f-2f84158d1fde",
+        "5d840fb5-9045-428a-81a9-bb74f0a34af1",
+        "d55dbcfc-06f6-4ed7-a8ea-680fadb07810",
+        "b57004ae-bf01-4020-8b0e-9ae968e7ba0c",
+        "54fcd643-b84b-4fee-a3bb-809917176ba7",
+        "4ce4a9ed-ac47-426f-9516-910cc61e8f58",
+        "e2af79ab-25df-48b2-af50-995a278c3fd5",
+        "2b7eefd1-6810-4929-b197-727f18244a37",
+        "e6e6fc63-534f-436a-a4f5-2331f56f3f80"
+      ],
+      "length_mm": 67.1654784504851
+    }
+  ],
+  "held": [
+    {
+      "net": "PMIC_INT_N",
+      "groups": [
+        [
+          "R413.2",
+          "U1.AF22"
+        ],
+        [
+          "U4.7"
+        ]
+      ]
+    },
+    {
+      "net": "I2C0_SCL",
+      "groups": [
+        [
+          "R414.1",
+          "R416.2"
+        ],
+        [
+          "U1.AG23"
+        ],
+        [
+          "U10.A3"
+        ]
+      ]
+    },
+    {
+      "net": "I2C0_SDA",
+      "groups": [
+        [
+          "R415.1",
+          "R417.2"
+        ],
+        [
+          "U1.AE23"
+        ],
+        [
+          "U10.B1"
+        ]
+      ]
+    },
+    {
+      "net": "RESET_N",
+      "groups": [
+        [
+          "C411.1",
+          "R1103.1",
+          "R1507.2",
+          "R412.2",
+          "TP9.1",
+          "U16.2"
+        ],
+        [
+          "U1.1P12"
+        ],
+        [
+          "U4.67"
+        ]
+      ]
+    },
+    {
+      "net": "PMIC_SLEEP",
+      "groups": [
+        [
+          "U1.AF23"
+        ],
+        [
+          "U10.A1"
+        ],
+        [
+          "U4.49"
+        ]
+      ]
+    },
+    {
+      "net": "PMIC_PWRON_N",
+      "groups": [
+        [
+          "C412.1"
+        ],
+        [
+          "U4.52"
+        ]
+      ]
+    },
+    {
+      "net": "EXP_I2C_SDA",
+      "groups": [
+        [
+          "J3.23"
+        ],
+        [
+          "U1.AE15"
+        ],
+        [
+          "R2101.1"
+        ]
+      ]
+    },
+    {
+      "net": "EXP_SPI_CS0_N",
+      "groups": [
+        [
+          "J3.34",
+          "U1.AG17"
+        ],
+        [
+          "R2103.1"
+        ]
+      ]
+    },
+    {
+      "net": "EXP_SPI_CS1_N",
+      "groups": [
+        [
+          "J3.35"
+        ],
+        [
+          "U1.AF15"
+        ],
+        [
+          "R2104.1"
+        ]
+      ]
+    },
+    {
+      "net": "EXP_GPIO2",
+      "groups": [
+        [
+          "J3.29"
+        ],
+        [
+          "U1.K3"
+        ]
+      ]
+    },
+    {
+      "net": "EXP_GPIO3",
+      "groups": [
+        [
+          "J3.30"
+        ],
+        [
+          "U1.L2"
+        ]
+      ]
+    },
+    {
+      "net": "EXP_UART_RX",
+      "groups": [
+        [
+          "J3.26"
+        ],
+        [
+          "U1.Y25"
+        ]
+      ]
+    },
+    {
+      "net": "EXP_UART_TX",
+      "groups": [
+        [
+          "J3.25"
+        ],
+        [
+          "U1.Y26"
+        ]
+      ]
+    },
+    {
+      "net": "DEBUG_TX",
+      "groups": [
+        [
+          "U1.AE20"
+        ],
+        [
+          "TP12.1"
+        ]
+      ]
+    },
+    {
+      "net": "DEBUG_RX",
+      "groups": [
+        [
+          "U1.AF20"
+        ],
+        [
+          "TP11.1"
+        ]
+      ]
+    },
+    {
+      "net": "LCD_RESET_N",
+      "groups": [
+        [
+          "R1814.1",
+          "U21.5"
+        ],
+        [
+          "U1.N2"
+        ]
+      ]
+    },
+    {
+      "net": "LCD_CS_N",
+      "groups": [
+        [
+          "R1815.1",
+          "U21.6"
+        ],
+        [
+          "U1.M3"
+        ]
+      ]
+    },
+    {
+      "net": "USB_MUX_ENABLE_N",
+      "groups": [
+        [
+          "U16.4"
+        ],
+        [
+          "U6.12"
+        ]
+      ]
+    },
+    {
+      "net": "USB_ORIENTATION",
+      "groups": [
+        [
+          "R602.2"
+        ],
+        [
+          "U6.11"
+        ]
+      ]
+    },
+    {
+      "net": "ETH_RESET_GPIO_N",
+      "groups": [
+        [
+          "R515.1"
+        ],
+        [
+          "U1.T2"
+        ]
+      ]
+    },
+    {
+      "net": "WIFI_REG_ON",
+      "groups": [
+        [
+          "R2002.1",
+          "U25.12"
+        ],
+        [
+          "U1.1J14"
+        ]
+      ]
+    },
+    {
+      "net": "WIFI_HOST_WAKE",
+      "groups": [
+        [
+          "U1.V26"
+        ],
+        [
+          "U25.13"
+        ]
+      ]
+    },
+    {
+      "net": "THERMAL_SHUTDOWN",
+      "groups": [
+        [
+          "U1.1R13"
+        ],
+        [
+          "R1507.1"
+        ]
+      ]
+    },
+    {
+      "net": "RECOVERY_ADC",
+      "groups": [
+        [
+          "U1.D26"
+        ],
+        [
+          "R1504.1",
+          "TP10.1"
+        ]
+      ]
+    }
+  ],
+  "assembly_ready": false
+}

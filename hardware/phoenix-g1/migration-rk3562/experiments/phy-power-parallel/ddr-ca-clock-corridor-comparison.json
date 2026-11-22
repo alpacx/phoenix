@@ -1,0 +1,855 @@
+{
+  "rows": [
+    {
+      "checkpoint": "layout-command-ca1",
+      "sha256": "1fb44f12992b5adfc103274d635402048b3b50cbec9567d74e174beb5e5d7f7f",
+      "channel": "A",
+      "layer": "F.Cu",
+      "separate": {
+        "plane_only": false,
+        "copper_only": false
+      },
+      "nearest_gap": {
+        "mm": 5.981,
+        "positions_nm": [
+          [
+            35900000,
+            11700000
+          ],
+          [
+            30300000,
+            9600000
+          ]
+        ]
+      },
+      "gates_connected": false,
+      "gate_components": [
+        1,
+        1
+      ],
+      "common_cells": 0
+    },
+    {
+      "checkpoint": "layout-command-ca1",
+      "sha256": "1fb44f12992b5adfc103274d635402048b3b50cbec9567d74e174beb5e5d7f7f",
+      "channel": "A",
+      "layer": "In2.Cu",
+      "separate": {
+        "plane_only": false,
+        "copper_only": false
+      },
+      "nearest_gap": {
+        "mm": 11.2,
+        "positions_nm": [
+          [
+            42800000,
+            14200000
+          ],
+          [
+            32500000,
+            9800000
+          ]
+        ]
+      },
+      "gates_connected": false,
+      "gate_components": [
+        1,
+        2
+      ],
+      "common_cells": 0
+    },
+    {
+      "checkpoint": "layout-command-ca1",
+      "sha256": "1fb44f12992b5adfc103274d635402048b3b50cbec9567d74e174beb5e5d7f7f",
+      "channel": "A",
+      "layer": "In3.Cu",
+      "separate": {
+        "plane_only": false,
+        "copper_only": false
+      },
+      "nearest_gap": {
+        "mm": 5.672,
+        "positions_nm": [
+          [
+            38500000,
+            9500000
+          ],
+          [
+            32900000,
+            8600000
+          ]
+        ]
+      },
+      "gates_connected": false,
+      "gate_components": [
+        2,
+        2
+      ],
+      "common_cells": 0
+    },
+    {
+      "checkpoint": "layout-command-ca1",
+      "sha256": "1fb44f12992b5adfc103274d635402048b3b50cbec9567d74e174beb5e5d7f7f",
+      "channel": "A",
+      "layer": "B.Cu",
+      "separate": {
+        "plane_only": false,
+        "copper_only": false
+      },
+      "nearest_gap": {
+        "mm": 9.1,
+        "positions_nm": [
+          [
+            42000000,
+            8500000
+          ],
+          [
+            32900000,
+            8500000
+          ]
+        ]
+      },
+      "gates_connected": false,
+      "gate_components": [
+        2,
+        1
+      ],
+      "common_cells": 0
+    },
+    {
+      "checkpoint": "layout-command-ca1",
+      "sha256": "1fb44f12992b5adfc103274d635402048b3b50cbec9567d74e174beb5e5d7f7f",
+      "channel": "B",
+      "layer": "F.Cu",
+      "separate": {
+        "plane_only": false,
+        "copper_only": false
+      },
+      "nearest_gap": null,
+      "gates_connected": false,
+      "gate_components": [
+        0,
+        1
+      ],
+      "common_cells": 0
+    },
+    {
+      "checkpoint": "layout-command-ca1",
+      "sha256": "1fb44f12992b5adfc103274d635402048b3b50cbec9567d74e174beb5e5d7f7f",
+      "channel": "B",
+      "layer": "In2.Cu",
+      "separate": {
+        "plane_only": false,
+        "copper_only": false
+      },
+      "nearest_gap": {
+        "mm": 11.2,
+        "positions_nm": [
+          [
+            42800000,
+            14200000
+          ],
+          [
+            32500000,
+            9800000
+          ]
+        ]
+      },
+      "gates_connected": false,
+      "gate_components": [
+        1,
+        3
+      ],
+      "common_cells": 0
+    },
+    {
+      "checkpoint": "layout-command-ca1",
+      "sha256": "1fb44f12992b5adfc103274d635402048b3b50cbec9567d74e174beb5e5d7f7f",
+      "channel": "B",
+      "layer": "In3.Cu",
+      "separate": {
+        "plane_only": false,
+        "copper_only": false
+      },
+      "nearest_gap": {
+        "mm": 11.2,
+        "positions_nm": [
+          [
+            42800000,
+            14200000
+          ],
+          [
+            32500000,
+            9800000
+          ]
+        ]
+      },
+      "gates_connected": false,
+      "gate_components": [
+        1,
+        3
+      ],
+      "common_cells": 0
+    },
+    {
+      "checkpoint": "layout-command-ca1",
+      "sha256": "1fb44f12992b5adfc103274d635402048b3b50cbec9567d74e174beb5e5d7f7f",
+      "channel": "B",
+      "layer": "B.Cu",
+      "separate": {
+        "plane_only": false,
+        "copper_only": false
+      },
+      "nearest_gap": {
+        "mm": 11.2,
+        "positions_nm": [
+          [
+            42800000,
+            14200000
+          ],
+          [
+            32500000,
+            9800000
+          ]
+        ]
+      },
+      "gates_connected": false,
+      "gate_components": [
+        1,
+        2
+      ],
+      "common_cells": 0
+    },
+    {
+      "checkpoint": "ddr-ca-group-shielded",
+      "sha256": "30c26edf703988cce0fc8512aa3720ef3163978e0dbda5c17cb7cb44a0513d91",
+      "channel": "A",
+      "layer": "F.Cu",
+      "separate": {
+        "plane_only": false,
+        "copper_only": false
+      },
+      "nearest_gap": {
+        "mm": 7.511,
+        "positions_nm": [
+          [
+            37900000,
+            7300000
+          ],
+          [
+            30400000,
+            6900000
+          ]
+        ]
+      },
+      "gates_connected": false,
+      "gate_components": [
+        1,
+        1
+      ],
+      "common_cells": 0
+    },
+    {
+      "checkpoint": "ddr-ca-group-shielded",
+      "sha256": "30c26edf703988cce0fc8512aa3720ef3163978e0dbda5c17cb7cb44a0513d91",
+      "channel": "A",
+      "layer": "In2.Cu",
+      "separate": {
+        "plane_only": false,
+        "copper_only": false
+      },
+      "nearest_gap": {
+        "mm": 11.2,
+        "positions_nm": [
+          [
+            42800000,
+            14200000
+          ],
+          [
+            32500000,
+            9800000
+          ]
+        ]
+      },
+      "gates_connected": false,
+      "gate_components": [
+        1,
+        2
+      ],
+      "common_cells": 0
+    },
+    {
+      "checkpoint": "ddr-ca-group-shielded",
+      "sha256": "30c26edf703988cce0fc8512aa3720ef3163978e0dbda5c17cb7cb44a0513d91",
+      "channel": "A",
+      "layer": "In3.Cu",
+      "separate": {
+        "plane_only": false,
+        "copper_only": false
+      },
+      "nearest_gap": {
+        "mm": 6.041,
+        "positions_nm": [
+          [
+            38600000,
+            10600000
+          ],
+          [
+            32900000,
+            8600000
+          ]
+        ]
+      },
+      "gates_connected": false,
+      "gate_components": [
+        3,
+        2
+      ],
+      "common_cells": 0
+    },
+    {
+      "checkpoint": "ddr-ca-group-shielded",
+      "sha256": "30c26edf703988cce0fc8512aa3720ef3163978e0dbda5c17cb7cb44a0513d91",
+      "channel": "A",
+      "layer": "B.Cu",
+      "separate": {
+        "plane_only": false,
+        "copper_only": false
+      },
+      "nearest_gap": {
+        "mm": 10.948,
+        "positions_nm": [
+          [
+            43400000,
+            11700000
+          ],
+          [
+            32900000,
+            8600000
+          ]
+        ]
+      },
+      "gates_connected": false,
+      "gate_components": [
+        2,
+        1
+      ],
+      "common_cells": 0
+    },
+    {
+      "checkpoint": "ddr-ca-group-shielded",
+      "sha256": "30c26edf703988cce0fc8512aa3720ef3163978e0dbda5c17cb7cb44a0513d91",
+      "channel": "B",
+      "layer": "F.Cu",
+      "separate": {
+        "plane_only": false,
+        "copper_only": false
+      },
+      "nearest_gap": null,
+      "gates_connected": false,
+      "gate_components": [
+        0,
+        1
+      ],
+      "common_cells": 0
+    },
+    {
+      "checkpoint": "ddr-ca-group-shielded",
+      "sha256": "30c26edf703988cce0fc8512aa3720ef3163978e0dbda5c17cb7cb44a0513d91",
+      "channel": "B",
+      "layer": "In2.Cu",
+      "separate": {
+        "plane_only": false,
+        "copper_only": false
+      },
+      "nearest_gap": {
+        "mm": 11.2,
+        "positions_nm": [
+          [
+            42800000,
+            14200000
+          ],
+          [
+            32500000,
+            9800000
+          ]
+        ]
+      },
+      "gates_connected": false,
+      "gate_components": [
+        1,
+        3
+      ],
+      "common_cells": 0
+    },
+    {
+      "checkpoint": "ddr-ca-group-shielded",
+      "sha256": "30c26edf703988cce0fc8512aa3720ef3163978e0dbda5c17cb7cb44a0513d91",
+      "channel": "B",
+      "layer": "In3.Cu",
+      "separate": {
+        "plane_only": false,
+        "copper_only": false
+      },
+      "nearest_gap": {
+        "mm": 11.2,
+        "positions_nm": [
+          [
+            42800000,
+            14200000
+          ],
+          [
+            32500000,
+            9800000
+          ]
+        ]
+      },
+      "gates_connected": false,
+      "gate_components": [
+        1,
+        3
+      ],
+      "common_cells": 0
+    },
+    {
+      "checkpoint": "ddr-ca-group-shielded",
+      "sha256": "30c26edf703988cce0fc8512aa3720ef3163978e0dbda5c17cb7cb44a0513d91",
+      "channel": "B",
+      "layer": "B.Cu",
+      "separate": {
+        "plane_only": false,
+        "copper_only": false
+      },
+      "nearest_gap": {
+        "mm": 11.2,
+        "positions_nm": [
+          [
+            42800000,
+            14200000
+          ],
+          [
+            32500000,
+            9800000
+          ]
+        ]
+      },
+      "gates_connected": false,
+      "gate_components": [
+        1,
+        2
+      ],
+      "common_cells": 0
+    }
+  ],
+  "optimistic_transfers": [
+    {
+      "checkpoint": "layout-command-ca1",
+      "channel": "A",
+      "transfers": [
+        {
+          "layers": [
+            "F.Cu",
+            "In2.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "F.Cu",
+            "In3.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "F.Cu",
+            "B.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In2.Cu",
+            "F.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In2.Cu",
+            "In3.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In2.Cu",
+            "B.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In3.Cu",
+            "F.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In3.Cu",
+            "In2.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In3.Cu",
+            "B.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "B.Cu",
+            "F.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "B.Cu",
+            "In2.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "B.Cu",
+            "In3.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        }
+      ]
+    },
+    {
+      "checkpoint": "layout-command-ca1",
+      "channel": "B",
+      "transfers": [
+        {
+          "layers": [
+            "F.Cu",
+            "In2.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "F.Cu",
+            "In3.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "F.Cu",
+            "B.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In2.Cu",
+            "F.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In2.Cu",
+            "In3.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In2.Cu",
+            "B.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In3.Cu",
+            "F.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In3.Cu",
+            "In2.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In3.Cu",
+            "B.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "B.Cu",
+            "F.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "B.Cu",
+            "In2.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "B.Cu",
+            "In3.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        }
+      ]
+    },
+    {
+      "checkpoint": "ddr-ca-group-shielded",
+      "channel": "A",
+      "transfers": [
+        {
+          "layers": [
+            "F.Cu",
+            "In2.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "F.Cu",
+            "In3.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "F.Cu",
+            "B.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In2.Cu",
+            "F.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In2.Cu",
+            "In3.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In2.Cu",
+            "B.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In3.Cu",
+            "F.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In3.Cu",
+            "In2.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In3.Cu",
+            "B.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "B.Cu",
+            "F.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "B.Cu",
+            "In2.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "B.Cu",
+            "In3.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        }
+      ]
+    },
+    {
+      "checkpoint": "ddr-ca-group-shielded",
+      "channel": "B",
+      "transfers": [
+        {
+          "layers": [
+            "F.Cu",
+            "In2.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "F.Cu",
+            "In3.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "F.Cu",
+            "B.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In2.Cu",
+            "F.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In2.Cu",
+            "In3.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In2.Cu",
+            "B.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In3.Cu",
+            "F.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In3.Cu",
+            "In2.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In3.Cu",
+            "B.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "B.Cu",
+            "F.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "B.Cu",
+            "In2.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "B.Cu",
+            "In3.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        }
+      ]
+    }
+  ],
+  "assumptions": "Centerline screens a 0.20+0.25+0.20 mm pair envelope with 0.202 mm outside copper clearance and 0.10 mm lateral return margin. Accessible ideal gates within 1.5 mm of each pair of barrels; specific pair fanout, equal electrical length, differential conversion and impedance remain untested."
+}

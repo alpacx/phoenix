@@ -1,0 +1,112 @@
+{
+  "parent_sha256": "4434879e3c5aba8f62a14b22c930fe42c80bdd23b63bbb90926d7abff49eb7c5",
+  "rows": [
+    {
+      "pin": "17",
+      "stages": {
+        "barrel_copper_clear": 3,
+        "drill_clear": 3
+      },
+      "reachable_sites": 3,
+      "single_barrel_blockers": [
+        [
+          "GND",
+          167
+        ],
+        [
+          "U19.1",
+          28
+        ],
+        [
+          "+1V1_LPDDR4",
+          24
+        ],
+        [
+          "USB_CURRENT_OK",
+          3
+        ]
+      ]
+    },
+    {
+      "pin": "16",
+      "stages": {
+        "barrel_copper_clear": 7,
+        "drill_clear": 7
+      },
+      "reachable_sites": 7,
+      "single_barrel_blockers": [
+        [
+          "GND",
+          169
+        ],
+        [
+          "+1V1_LPDDR4",
+          39
+        ],
+        [
+          "U19.1",
+          31
+        ],
+        [
+          "USB_CURRENT_OK",
+          3
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "17",
+        "16"
+      ],
+      "simultaneous_options": [],
+      "constraints": {},
+      "spacing_min_max_mm": [
+        0.0025,
+        0.13966477723463422
+      ],
+      "skew_um_ground_mm": []
+    },
+    {
+      "pin": "21",
+      "stages": {},
+      "reachable_sites": 0,
+      "single_barrel_blockers": [
+        [
+          "GND",
+          73
+        ],
+        [
+          "+3V3_AON",
+          49
+        ]
+      ]
+    },
+    {
+      "pin": "20",
+      "stages": {},
+      "reachable_sites": 0,
+      "single_barrel_blockers": [
+        [
+          "GND",
+          148
+        ],
+        [
+          "USB_CURRENT_OK",
+          3
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "21",
+        "20"
+      ],
+      "simultaneous_options": [],
+      "constraints": {},
+      "spacing_min_max_mm": [],
+      "skew_um_ground_mm": []
+    }
+  ],
+  "adopted": false,
+  "scope": "0.45/0.20 mm through vias outside terminals, first 2.05 mm from the mux; two lead orders, both conductors, no changes to existing copper. Coupled stack, return barrel plane membership, native DRC and residual path to AC capacitors need separate validation."
+}

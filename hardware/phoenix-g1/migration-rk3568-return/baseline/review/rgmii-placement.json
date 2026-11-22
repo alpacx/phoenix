@@ -1,0 +1,120 @@
+{
+  "status": "PLACEMENT SCREEN ONLY - NO ROUTE LENGTH OR TIMING CHECK",
+  "rows": [
+    {
+      "signal": "TXD0",
+      "resistor": "R501",
+      "source": "U1",
+      "source_pin": "Y2",
+      "source_net": "ETH_TXD0",
+      "straight_line_pad_distance_mm": 2.9339,
+      "same_board_side": true
+    },
+    {
+      "signal": "TXD1",
+      "resistor": "R502",
+      "source": "U1",
+      "source_pin": "Y1",
+      "source_net": "ETH_TXD1",
+      "straight_line_pad_distance_mm": 2.9356,
+      "same_board_side": true
+    },
+    {
+      "signal": "TXD2",
+      "resistor": "R503",
+      "source": "U1",
+      "source_pin": "Y6",
+      "source_net": "ETH_TXD2",
+      "straight_line_pad_distance_mm": 6.2843,
+      "same_board_side": true
+    },
+    {
+      "signal": "TXD3",
+      "resistor": "R504",
+      "source": "U1",
+      "source_pin": "Y5",
+      "source_net": "ETH_TXD3",
+      "straight_line_pad_distance_mm": 6.352,
+      "same_board_side": true
+    },
+    {
+      "signal": "TXEN",
+      "resistor": "R505",
+      "source": "U1",
+      "source_pin": "W2",
+      "source_net": "ETH_TXEN",
+      "straight_line_pad_distance_mm": 5.007,
+      "same_board_side": true
+    },
+    {
+      "signal": "TXCLK",
+      "resistor": "R506",
+      "source": "U1",
+      "source_pin": "AA3",
+      "source_net": "ETH_TXCLK",
+      "straight_line_pad_distance_mm": 5.1818,
+      "same_board_side": true
+    },
+    {
+      "signal": "RXD0",
+      "resistor": "R507",
+      "source": "U5",
+      "source_pin": "25",
+      "source_net": "PHY_RXD0",
+      "straight_line_pad_distance_mm": 1.6298,
+      "same_board_side": true
+    },
+    {
+      "signal": "RXD1",
+      "resistor": "R508",
+      "source": "U5",
+      "source_pin": "24",
+      "source_net": "PHY_RXD1",
+      "straight_line_pad_distance_mm": 2.8928,
+      "same_board_side": true
+    },
+    {
+      "signal": "RXD2",
+      "resistor": "R509",
+      "source": "U5",
+      "source_pin": "23",
+      "source_net": "PHY_RXD2",
+      "straight_line_pad_distance_mm": 3.1417,
+      "same_board_side": true
+    },
+    {
+      "signal": "RXD3",
+      "resistor": "R510",
+      "source": "U5",
+      "source_pin": "22",
+      "source_net": "PHY_RXD3",
+      "straight_line_pad_distance_mm": 3.872,
+      "same_board_side": true
+    },
+    {
+      "signal": "RXDV_CRS",
+      "resistor": "R511",
+      "source": "U5",
+      "source_pin": "26",
+      "source_net": "PHY_RXDV_CRS",
+      "straight_line_pad_distance_mm": 2.4009,
+      "same_board_side": true
+    },
+    {
+      "signal": "RXCLK",
+      "resistor": "R512",
+      "source": "U5",
+      "source_pin": "27",
+      "source_net": "PHY_RXCLK",
+      "straight_line_pad_distance_mm": 3.1244,
+      "same_board_side": true
+    }
+  ],
+  "max_straight_line_mm": 6.352,
+  "limits": [
+    "Straight-line distance is only a lower bound on required routing length.",
+    "No arbitrary pass distance used: topology and IBIS review still required.",
+    "Source pad may require BGA escape and layer transitions.",
+    "This does not validate package, termination value or operating mode."
+  ]
+}

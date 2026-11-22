@@ -1,0 +1,571 @@
+{
+  "parent_sha256": "e37016ce6952de2aae5f84d393275cd251bdf50b9f89a4d342618b8eb0f5da5b",
+  "rows": [
+    {
+      "pin": "3",
+      "net": "VCCA_1V8",
+      "direction": [
+        -1,
+        0
+      ],
+      "width_mm": 0.3,
+      "overlap_allowance_mm": 0.075,
+      "launch_length_mm": 0.3,
+      "open_starts": 0,
+      "examples": [],
+      "nearest": [
+        [
+          [
+            [
+              "0e093ef9-b252-448a-97a2-f77adbf4bd42",
+              "+3V3_SYS"
+            ],
+            [
+              "3fd490d2-b4ca-453a-ba8e-0d530af53a0c",
+              "+3V3_SYS"
+            ],
+            [
+              "5baf1efa-b0ac-4834-8db6-223e4d935f9b",
+              "+3V3_SYS"
+            ],
+            [
+              "647971d6-88ae-4c80-b6bb-93e3d354ccf5",
+              "+3V3_SYS"
+            ],
+            [
+              "8d1261df-d7fb-4614-a9e8-dd75de25966d",
+              "U4.4"
+            ]
+          ],
+          277
+        ],
+        [
+          [
+            [
+              "3fd490d2-b4ca-453a-ba8e-0d530af53a0c",
+              "+3V3_SYS"
+            ],
+            [
+              "682c4846-9bf9-4e81-9995-5ecb3d90fd7a",
+              "U4.2"
+            ],
+            [
+              "891bfaa1-76f7-4c33-9f73-274ea5b23538",
+              "PMIC_SDA"
+            ],
+            [
+              "ad1c2ba2-ccd0-45ff-ac8f-651c971462ae",
+              "PMIC_SDA"
+            ],
+            [
+              "b60cbff6-9da0-4e94-825f-938773e7accf",
+              "PMIC_SDA"
+            ]
+          ],
+          5
+        ],
+        [
+          [
+            [
+              "0e093ef9-b252-448a-97a2-f77adbf4bd42",
+              "+3V3_SYS"
+            ],
+            [
+              "3fd490d2-b4ca-453a-ba8e-0d530af53a0c",
+              "+3V3_SYS"
+            ],
+            [
+              "5baf1efa-b0ac-4834-8db6-223e4d935f9b",
+              "+3V3_SYS"
+            ],
+            [
+              "647971d6-88ae-4c80-b6bb-93e3d354ccf5",
+              "+3V3_SYS"
+            ],
+            [
+              "8d1261df-d7fb-4614-a9e8-dd75de25966d",
+              "U4.4"
+            ],
+            [
+              "b60cbff6-9da0-4e94-825f-938773e7accf",
+              "PMIC_SDA"
+            ]
+          ],
+          312
+        ],
+        [
+          [
+            [
+              "0e093ef9-b252-448a-97a2-f77adbf4bd42",
+              "+3V3_SYS"
+            ],
+            [
+              "3fd490d2-b4ca-453a-ba8e-0d530af53a0c",
+              "+3V3_SYS"
+            ],
+            [
+              "647971d6-88ae-4c80-b6bb-93e3d354ccf5",
+              "+3V3_SYS"
+            ],
+            [
+              "682c4846-9bf9-4e81-9995-5ecb3d90fd7a",
+              "U4.2"
+            ],
+            [
+              "ad1c2ba2-ccd0-45ff-ac8f-651c971462ae",
+              "PMIC_SDA"
+            ],
+            [
+              "b60cbff6-9da0-4e94-825f-938773e7accf",
+              "PMIC_SDA"
+            ]
+          ],
+          286
+        ]
+      ]
+    },
+    {
+      "pin": "5",
+      "net": "VCCA1V8_PMU",
+      "direction": [
+        -1,
+        0
+      ],
+      "width_mm": 0.3,
+      "overlap_allowance_mm": 0.075,
+      "launch_length_mm": 0.3,
+      "open_starts": 0,
+      "examples": [],
+      "nearest": [
+        [
+          [
+            [
+              "89050174-680b-408e-aa93-3ff16b950228",
+              "U4.6"
+            ]
+          ],
+          421
+        ],
+        [
+          [
+            [
+              "5baf1efa-b0ac-4834-8db6-223e4d935f9b",
+              "+3V3_SYS"
+            ],
+            [
+              "89050174-680b-408e-aa93-3ff16b950228",
+              "U4.6"
+            ]
+          ],
+          16
+        ],
+        [
+          [
+            [
+              "5baf1efa-b0ac-4834-8db6-223e4d935f9b",
+              "+3V3_SYS"
+            ],
+            [
+              "647971d6-88ae-4c80-b6bb-93e3d354ccf5",
+              "+3V3_SYS"
+            ],
+            [
+              "8d1261df-d7fb-4614-a9e8-dd75de25966d",
+              "U4.4"
+            ]
+          ],
+          506
+        ],
+        [
+          [
+            [
+              "5baf1efa-b0ac-4834-8db6-223e4d935f9b",
+              "+3V3_SYS"
+            ],
+            [
+              "647971d6-88ae-4c80-b6bb-93e3d354ccf5",
+              "+3V3_SYS"
+            ],
+            [
+              "89050174-680b-408e-aa93-3ff16b950228",
+              "U4.6"
+            ]
+          ],
+          179
+        ]
+      ]
+    },
+    {
+      "pin": "6",
+      "net": "VCCA1V8_IMAGE",
+      "direction": [
+        -1,
+        0
+      ],
+      "width_mm": 0.3,
+      "overlap_allowance_mm": 0.075,
+      "launch_length_mm": 0.3,
+      "open_starts": 0,
+      "examples": [],
+      "nearest": [
+        [
+          [
+            [
+              "a9ca4ad7-a94d-49a6-81a4-4a5724eed812",
+              "U4.7"
+            ]
+          ],
+          616
+        ],
+        [
+          [
+            [
+              "0d701cbe-c9fa-417e-ad48-714d6d9aa6b0",
+              "U4.5"
+            ]
+          ],
+          573
+        ],
+        [
+          [
+            [
+              "0d701cbe-c9fa-417e-ad48-714d6d9aa6b0",
+              "U4.5"
+            ],
+            [
+              "a9ca4ad7-a94d-49a6-81a4-4a5724eed812",
+              "U4.7"
+            ]
+          ],
+          2818
+        ],
+        [
+          [
+            [
+              "0d701cbe-c9fa-417e-ad48-714d6d9aa6b0",
+              "U4.5"
+            ],
+            [
+              "5baf1efa-b0ac-4834-8db6-223e4d935f9b",
+              "+3V3_SYS"
+            ],
+            [
+              "647971d6-88ae-4c80-b6bb-93e3d354ccf5",
+              "+3V3_SYS"
+            ]
+          ],
+          43
+        ]
+      ]
+    },
+    {
+      "pin": "20",
+      "net": "VDDA0V9_PMU",
+      "direction": [
+        0,
+        1
+      ],
+      "width_mm": 0.3,
+      "overlap_allowance_mm": 0.075,
+      "launch_length_mm": 0.3,
+      "open_starts": 0,
+      "examples": [],
+      "nearest": [
+        [
+          [
+            [
+              "44bb3e2f-a47f-4224-a4db-a687b5169813",
+              "+3V3_SYS"
+            ],
+            [
+              "7dbdee6c-e552-4499-91a4-74d9c305f451",
+              "U4.19"
+            ],
+            [
+              "9551b983-6080-4785-9db4-d05c28543300",
+              "+3V3_SYS"
+            ],
+            [
+              "bedda20a-f95b-4512-8f35-335caacde5ba",
+              "+3V3_SYS"
+            ]
+          ],
+          139
+        ],
+        [
+          [
+            [
+              "43094e2c-5543-4d0f-8539-a9b086fd7156",
+              "U4.21"
+            ],
+            [
+              "44bb3e2f-a47f-4224-a4db-a687b5169813",
+              "+3V3_SYS"
+            ],
+            [
+              "9551b983-6080-4785-9db4-d05c28543300",
+              "+3V3_SYS"
+            ],
+            [
+              "bedda20a-f95b-4512-8f35-335caacde5ba",
+              "+3V3_SYS"
+            ]
+          ],
+          80
+        ],
+        [
+          [
+            [
+              "43094e2c-5543-4d0f-8539-a9b086fd7156",
+              "U4.21"
+            ],
+            [
+              "44bb3e2f-a47f-4224-a4db-a687b5169813",
+              "+3V3_SYS"
+            ],
+            [
+              "bedda20a-f95b-4512-8f35-335caacde5ba",
+              "+3V3_SYS"
+            ],
+            [
+              "cccf024a-94ec-4b9e-9317-27a217ecebc0",
+              "+3V3_SYS"
+            ]
+          ],
+          3
+        ],
+        [
+          [
+            [
+              "43094e2c-5543-4d0f-8539-a9b086fd7156",
+              "U4.21"
+            ],
+            [
+              "44bb3e2f-a47f-4224-a4db-a687b5169813",
+              "+3V3_SYS"
+            ],
+            [
+              "7dbdee6c-e552-4499-91a4-74d9c305f451",
+              "U4.19"
+            ],
+            [
+              "9551b983-6080-4785-9db4-d05c28543300",
+              "+3V3_SYS"
+            ],
+            [
+              "bedda20a-f95b-4512-8f35-335caacde5ba",
+              "+3V3_SYS"
+            ]
+          ],
+          745
+        ]
+      ]
+    },
+    {
+      "pin": "21",
+      "net": "VDDA_0V9",
+      "direction": [
+        0,
+        1
+      ],
+      "width_mm": 0.3,
+      "overlap_allowance_mm": 0.075,
+      "launch_length_mm": 0.3,
+      "open_starts": 0,
+      "examples": [],
+      "nearest": [
+        [
+          [
+            [
+              "26a1ffd0-4486-4bd6-8a92-a93716fd1ef0",
+              "U4.20"
+            ],
+            [
+              "44bb3e2f-a47f-4224-a4db-a687b5169813",
+              "+3V3_SYS"
+            ],
+            [
+              "9551b983-6080-4785-9db4-d05c28543300",
+              "+3V3_SYS"
+            ],
+            [
+              "bedda20a-f95b-4512-8f35-335caacde5ba",
+              "+3V3_SYS"
+            ]
+          ],
+          23
+        ],
+        [
+          [
+            [
+              "26a1ffd0-4486-4bd6-8a92-a93716fd1ef0",
+              "U4.20"
+            ],
+            [
+              "44bb3e2f-a47f-4224-a4db-a687b5169813",
+              "+3V3_SYS"
+            ],
+            [
+              "bedda20a-f95b-4512-8f35-335caacde5ba",
+              "+3V3_SYS"
+            ],
+            [
+              "cccf024a-94ec-4b9e-9317-27a217ecebc0",
+              "+3V3_SYS"
+            ]
+          ],
+          3
+        ],
+        [
+          [
+            [
+              "44bb3e2f-a47f-4224-a4db-a687b5169813",
+              "+3V3_SYS"
+            ],
+            [
+              "bedda20a-f95b-4512-8f35-335caacde5ba",
+              "+3V3_SYS"
+            ],
+            [
+              "cccf024a-94ec-4b9e-9317-27a217ecebc0",
+              "+3V3_SYS"
+            ],
+            [
+              "dc482a90-8d28-4c63-8834-b4a06779e747",
+              "+3V3_SYS"
+            ],
+            [
+              "e1265670-db5a-41ed-a7f0-c590589e4e90",
+              "U4.22"
+            ]
+          ],
+          557
+        ],
+        [
+          [
+            [
+              "26a1ffd0-4486-4bd6-8a92-a93716fd1ef0",
+              "U4.20"
+            ],
+            [
+              "44bb3e2f-a47f-4224-a4db-a687b5169813",
+              "+3V3_SYS"
+            ],
+            [
+              "9551b983-6080-4785-9db4-d05c28543300",
+              "+3V3_SYS"
+            ],
+            [
+              "bedda20a-f95b-4512-8f35-335caacde5ba",
+              "+3V3_SYS"
+            ],
+            [
+              "cccf024a-94ec-4b9e-9317-27a217ecebc0",
+              "+3V3_SYS"
+            ]
+          ],
+          374
+        ]
+      ]
+    },
+    {
+      "pin": "23",
+      "net": "VDDA0V9_IMAGE",
+      "direction": [
+        0,
+        1
+      ],
+      "width_mm": 0.3,
+      "overlap_allowance_mm": 0.075,
+      "launch_length_mm": 0.3,
+      "open_starts": 0,
+      "examples": [],
+      "nearest": [
+        [
+          [
+            [
+              "09477011-0b98-4020-bb6e-c223477e3c04",
+              "U4.24"
+            ],
+            [
+              "15d30107-2c5f-478c-b589-213cd530b76f",
+              "+3V3_SYS"
+            ],
+            [
+              "bedda20a-f95b-4512-8f35-335caacde5ba",
+              "+3V3_SYS"
+            ]
+          ],
+          243
+        ],
+        [
+          [
+            [
+              "bedda20a-f95b-4512-8f35-335caacde5ba",
+              "+3V3_SYS"
+            ],
+            [
+              "cccf024a-94ec-4b9e-9317-27a217ecebc0",
+              "+3V3_SYS"
+            ],
+            [
+              "dc482a90-8d28-4c63-8834-b4a06779e747",
+              "+3V3_SYS"
+            ],
+            [
+              "e1265670-db5a-41ed-a7f0-c590589e4e90",
+              "U4.22"
+            ]
+          ],
+          189
+        ],
+        [
+          [
+            [
+              "09477011-0b98-4020-bb6e-c223477e3c04",
+              "U4.24"
+            ],
+            [
+              "15d30107-2c5f-478c-b589-213cd530b76f",
+              "+3V3_SYS"
+            ],
+            [
+              "bedda20a-f95b-4512-8f35-335caacde5ba",
+              "+3V3_SYS"
+            ],
+            [
+              "cccf024a-94ec-4b9e-9317-27a217ecebc0",
+              "+3V3_SYS"
+            ]
+          ],
+          157
+        ],
+        [
+          [
+            [
+              "44bb3e2f-a47f-4224-a4db-a687b5169813",
+              "+3V3_SYS"
+            ],
+            [
+              "bedda20a-f95b-4512-8f35-335caacde5ba",
+              "+3V3_SYS"
+            ],
+            [
+              "cccf024a-94ec-4b9e-9317-27a217ecebc0",
+              "+3V3_SYS"
+            ],
+            [
+              "dc482a90-8d28-4c63-8834-b4a06779e747",
+              "+3V3_SYS"
+            ],
+            [
+              "e1265670-db5a-41ed-a7f0-c590589e4e90",
+              "U4.22"
+            ]
+          ],
+          250
+        ]
+      ]
+    }
+  ]
+}

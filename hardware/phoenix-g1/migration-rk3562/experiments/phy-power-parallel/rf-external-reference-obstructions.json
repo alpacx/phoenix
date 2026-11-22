@@ -1,0 +1,47 @@
+{
+  "parent_sha256": "cee64e9e79713675eb24111a50abaa2f8b6b4860d28f528d9d3bc46385049923",
+  "projected_margin_mm": 0.2,
+  "assumed_obstruction_clearance_mm": 0.25,
+  "nets": {
+    "WIFI_ANT": {
+      "missing_mm2": 0.35384714751,
+      "blockers": [
+        {
+          "uuid": "d3ed6222-5c3c-4242-931f-f776d797f832",
+          "net": "ETH_MDI2_N",
+          "type": "PAD",
+          "start_nm": [
+            72350000,
+            19360000
+          ],
+          "overlap_mm2": 0.245452446564
+        },
+        {
+          "uuid": "0b156703-5770-4781-8716-2c8a999b4943",
+          "net": "ETH_MDI3_P",
+          "type": "PAD",
+          "start_nm": [
+            72350000,
+            16820000
+          ],
+          "overlap_mm2": 0.108394700946
+        }
+      ]
+    },
+    "WIFI_RF": {
+      "missing_mm2": 0.28370774601,
+      "blockers": [
+        {
+          "uuid": "93bf369e-dcf6-446c-95bd-bf64d59f4e27",
+          "net": "ETH_MDI3_N",
+          "type": "PAD",
+          "start_nm": [
+            69810000,
+            15560000
+          ],
+          "overlap_mm2": 0.28370774601
+        }
+      ]
+    }
+  }
+}

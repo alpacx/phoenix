@@ -1,0 +1,155 @@
+{
+  "board": "runs/phy-clock-load-window/phy-joint.kicad_pcb",
+  "sha256": "d413f119cbfbf18a42939a0c618740603e16940acfe49dd16b8121ee6ea3004a",
+  "parent_sha256": "d413f119cbfbf18a42939a0c618740603e16940acfe49dd16b8121ee6ea3004a",
+  "poses": 0,
+  "obstacles": [
+    {
+      "objects": [
+        "C518-reserved",
+        "R528"
+      ],
+      "example_delta_nm": [
+        0,
+        0
+      ]
+    },
+    {
+      "objects": [
+        "C511",
+        "C518-reserved",
+        "PHY_XOUT"
+      ],
+      "example_delta_nm": [
+        -200000,
+        -150000
+      ]
+    },
+    {
+      "objects": [
+        "C518-reserved",
+        "PHY_XOUT",
+        "R528"
+      ],
+      "example_delta_nm": [
+        -200000,
+        -50000
+      ]
+    },
+    {
+      "objects": [
+        "C518-reserved",
+        "C521",
+        "R528"
+      ],
+      "example_delta_nm": [
+        0,
+        200000
+      ]
+    },
+    {
+      "objects": [
+        "+3V58_WIFI",
+        "C511",
+        "C518-reserved",
+        "PHY_XOUT"
+      ],
+      "example_delta_nm": [
+        -650000,
+        -150000
+      ]
+    },
+    {
+      "objects": [
+        "+3V58_WIFI",
+        "C518-reserved",
+        "PHY_XOUT",
+        "R528"
+      ],
+      "example_delta_nm": [
+        -650000,
+        -50000
+      ]
+    },
+    {
+      "objects": [
+        "+1V0_PHY",
+        "C511",
+        "C518-reserved",
+        "PHY_XOUT"
+      ],
+      "example_delta_nm": [
+        -200000,
+        -350000
+      ]
+    },
+    {
+      "objects": [
+        "C518-reserved",
+        "C521",
+        "PHY_XOUT",
+        "R528"
+      ],
+      "example_delta_nm": [
+        -200000,
+        200000
+      ]
+    },
+    {
+      "objects": [
+        "C518-reserved",
+        "C521",
+        "GND",
+        "R528"
+      ],
+      "example_delta_nm": [
+        0,
+        350000
+      ]
+    },
+    {
+      "objects": [
+        "+3V58_WIFI",
+        "C511",
+        "PHY_XOUT",
+        "R2201",
+        "RESET_N"
+      ],
+      "example_delta_nm": [
+        -1100000,
+        -100000
+      ]
+    },
+    {
+      "objects": [
+        "+3V58_WIFI",
+        "PHY_XOUT",
+        "R2201",
+        "R528",
+        "RESET_N"
+      ],
+      "example_delta_nm": [
+        -1100000,
+        -50000
+      ]
+    },
+    {
+      "objects": [
+        "+3V58_WIFI",
+        "C511",
+        "C518-reserved",
+        "PHY_XOUT",
+        "R2201"
+      ],
+      "example_delta_nm": [
+        -700000,
+        -150000
+      ]
+    }
+  ],
+  "options": 0,
+  "drc_attempts": 0,
+  "change": null,
+  "oscillator_qualified": false,
+  "assembly_ready": false
+}

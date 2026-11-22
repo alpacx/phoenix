@@ -1,0 +1,51 @@
+{
+  "source": "runs/input-ground-local-002",
+  "reports": [
+    "r530-via-exit-results.json",
+    "r530-pivot-results.json",
+    "r530-pivot-fine-results.json"
+  ],
+  "screened": 18,
+  "zero_new_drc": [
+    "r530-pivot--5",
+    "r530-pivot-5"
+  ],
+  "upstream_feed_connected": false,
+  "power_layout_accepted": false,
+  "assembly_ready": false,
+  "front_corridor_2026_11_19": {
+    "source": "runs/input-ground-local-002",
+    "source_sha256": "eb66e188d832ab11cc6deab943403bc1a5b84183bb8674fe25d62ec9f90d4f0e",
+    "reports": [
+      "r530-grid-span.json",
+      "r530-grid-span-c517.json",
+      "r530-dual-grid-C515.json",
+      "r530-dual-grid-C517.json",
+      "r530-remote-vias-C515.json"
+    ],
+    "width_mm": 1.05,
+    "clearance_mm": 0.2,
+    "grid_mm": 0.25,
+    "closest_reachable_regions_mm": 6.792,
+    "front_via_landings_passing_conservative_screen": 0,
+    "limits": "Current placement, local grid search and conservative outside-pad via bounds. Moving a connected passive or rerouting an existing obstacle remains possible."
+  },
+  "inner_taps": {
+    "source": "runs/input-ground-local-002",
+    "report": "r530-inner-tap-drc.json",
+    "connected_sites": 6,
+    "bare_via_drc": "one dangling warning at each unfinished via",
+    "rear_link": "r530-rear-link-drc.json",
+    "front_link": "r530-front-tap-link-drc.json",
+    "bulk_translation": "c515-translation-results.json",
+    "bulk_pivot": "c515-input-pivot-results.json",
+    "selected": null
+  },
+  "input_link_variants": {
+    "evidence": "r530-directed-link-checkpoint.json",
+    "input_connected_and_preserved": 2,
+    "output_complete": false,
+    "selected_for_main": null,
+    "scope": "The two source tap branches both pass differential DRC and physical connection preservation. Neither has a 0.5mm full-width radial escape on the output over the sampled offsets and angles."
+  }
+}

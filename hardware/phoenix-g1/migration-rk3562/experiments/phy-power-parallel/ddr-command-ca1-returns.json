@@ -1,0 +1,75 @@
+{
+  "parent_sha256": "d565d60284966363a04fc9ab727b012d8e7ba9bc11583ae907ac3b0c5e781aa8",
+  "sha256": "1fb44f12992b5adfc103274d635402048b3b50cbec9567d74e174beb5e5d7f7f",
+  "board": "runs/ddr-command-ca1-returns/phy-joint.kicad_pcb",
+  "terminal_results": [
+    {
+      "signal_via": "35abb989-6ccf-4109-bed5-e214926e6b1c",
+      "signal_center_nm": [
+        [
+          26800000,
+          7699999
+        ]
+      ],
+      "signals": [
+        "LPDDR4_A1_A"
+      ],
+      "previous_distances_mm": [
+        1.369270827849991
+      ],
+      "previous_nearest_ground_mm": 1.369270827849991,
+      "candidates": {
+        "copper_and_drill": 5,
+        "solid_planes": 5
+      },
+      "accepted": {
+        "via_uuid": "bac5c1c7-8e04-41e7-90f9-7b9e14ccbd1f",
+        "center_nm": [
+          26700000,
+          8399999
+        ],
+        "distance_mm": 0.7071067811865476
+      },
+      "rejected": []
+    },
+    {
+      "signal_via": "1bb9eb94-baa6-44db-9cd2-bcc3987fe28d",
+      "signal_center_nm": [
+        [
+          41100000,
+          13350000
+        ]
+      ],
+      "signals": [
+        "LPDDR4_A1_A"
+      ],
+      "previous_distances_mm": [
+        2.033623613159525
+      ],
+      "previous_nearest_ground_mm": 2.033623613159525,
+      "candidates": {
+        "copper_and_drill": 11,
+        "solid_planes": 11
+      },
+      "accepted": {
+        "via_uuid": "693eb4c1-d8be-4088-a9d9-9481f87d791c",
+        "center_nm": [
+          41700000,
+          13050000
+        ],
+        "distance_mm": 0.670820393249937
+      },
+      "rejected": []
+    }
+  ],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 7320,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 2,
+    "existing_connected_pad_groups_preserved": 121
+  },
+  "new_drc": [],
+  "verified_pairs": [],
+  "assembly_ready": false
+}

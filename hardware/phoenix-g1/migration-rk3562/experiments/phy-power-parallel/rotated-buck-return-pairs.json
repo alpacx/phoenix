@@ -1,0 +1,27 @@
+{
+  "parent_sha256": "2909f50f5fcf49f0dc92d463fbc4dfef813e4a9f0b248232bc3f264d3ea64569",
+  "board": "runs/rotated-buck-return-pair-C422-C432/phy-joint.kicad_pcb",
+  "sha256": "8b11f19d0a8877a764fb50d956e71b9eef8b87015aec01ff1e224135b92a8f30",
+  "records": [
+    {
+      "left": "C422",
+      "right": "C432",
+      "width_mm": 0.6,
+      "length_mm": 2.349264068711928,
+      "preserved_groups": 122
+    }
+  ],
+  "held": [
+    {
+      "left": "C421",
+      "right": "C431",
+      "reason": {
+        "reason": "closed front channel",
+        "reachable": 3618,
+        "starts": 49,
+        "goals": 49
+      }
+    }
+  ],
+  "assembly_ready": false
+}

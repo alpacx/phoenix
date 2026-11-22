@@ -1,0 +1,35 @@
+{
+  "board": "runs/exp-sda-complete-J3.23-U1.AE15/phy-joint.kicad_pcb",
+  "sha256": "4e28fe5c8758601f14614ce4abccc781e3f30c2c498ff2af88053e7a0683f231",
+  "parent_sha256": "4e28fe5c8758601f14614ce4abccc781e3f30c2c498ff2af88053e7a0683f231",
+  "records": [],
+  "held": [
+    {
+      "net": "EXP_SPI_CS0_N",
+      "groups": [
+        [
+          "J3.34",
+          "U1.AG17"
+        ],
+        [
+          "R2103.1"
+        ]
+      ]
+    },
+    {
+      "net": "EXP_SPI_CS1_N",
+      "groups": [
+        [
+          "J3.35"
+        ],
+        [
+          "U1.AF15"
+        ],
+        [
+          "R2104.1"
+        ]
+      ]
+    }
+  ],
+  "assembly_ready": false
+}

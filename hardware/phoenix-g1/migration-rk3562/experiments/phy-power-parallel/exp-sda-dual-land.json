@@ -1,0 +1,50 @@
+{
+  "parent_sha256": "372ff0905528b1f39eab51f2ec0203f982cb399d86fd38556da0842e9bc2291e",
+  "candidate": {
+    "board": "runs/exp-sda-dual-land/phy-joint.kicad_pcb",
+    "sha256": "485250f88c118e4fe90b14bc6c74a9aa362d9b53ab7980554002064fa633df1a",
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 6651,
+      "explicitly_replaced_copper": {
+        "8bb5df6c-7299-4929-873c-4fd39b6357b0": [
+          "+3V3_IO",
+          0,
+          31200000,
+          28525000,
+          31134200,
+          28275200,
+          250000,
+          null
+        ],
+        "a8c8576a-4d5f-40b0-8bfd-fa4937c01376": [
+          "EXP_GPIO1",
+          6,
+          65050000,
+          1450000,
+          70250000,
+          1450000,
+          200000,
+          null
+        ]
+      },
+      "added_tracks_vias": 9,
+      "existing_connected_pad_groups_preserved": 112
+    },
+    "new_drc": [],
+    "center_nm": [
+      70875000,
+      1795000
+    ],
+    "angle": 270,
+    "rail_pickup_nm": [
+      69800000,
+      5850000
+    ]
+  },
+  "counts": {
+    "signal_poses": 119
+  },
+  "attempts": [],
+  "assembly_ready": false
+}

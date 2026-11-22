@@ -1,0 +1,29 @@
+{
+  "tests": [
+    {
+      "test": "accepted_candidate",
+      "passed": true
+    },
+    {
+      "test": "unrouted_baseline",
+      "passed": true
+    },
+    {
+      "test": "narrowed_return",
+      "passed": true
+    },
+    {
+      "test": "removed_added_segment",
+      "passed": true
+    },
+    {
+      "test": "modified_existing_copper",
+      "passed": true
+    },
+    {
+      "test": "moved_existing_footprint",
+      "passed": true
+    }
+  ],
+  "passed": 6
+}

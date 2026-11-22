@@ -1,0 +1,79 @@
+{
+  "board": "runs/phy-joint-terminal-shift/phy-joint.kicad_pcb",
+  "sha256": "3bab3f94c671a304822d47601ae49b59b59d3f76e76048437e35e5c7395be975",
+  "parent_sha256": "b76dcfcb8ef3b745ddee5997d2b774287cf11614fdd2831b6d5156748aee63fc",
+  "power_vias_nm": [
+    [
+      67700000,
+      31900000
+    ],
+    [
+      66900000,
+      32000000
+    ]
+  ],
+  "trunk_width_mm": 1.05,
+  "trunk_length_mm": 8.817284396444649,
+  "local_spur_mm": 1.2478781991845198,
+  "cut_tests": [
+    {
+      "remove": [
+        "11f16c28-7bfe-4b42-80c1-46fb987a07d9"
+      ],
+      "connected": true
+    },
+    {
+      "remove": [
+        "d4db1853-7518-47d2-998a-a4a9b52815bb"
+      ],
+      "connected": true
+    },
+    {
+      "remove": [
+        "11f16c28-7bfe-4b42-80c1-46fb987a07d9",
+        "d4db1853-7518-47d2-998a-a4a9b52815bb"
+      ],
+      "connected": false
+    },
+    {
+      "remove_existing_inner_power_copper": true,
+      "connected": true
+    },
+    {
+      "remove_existing_inner_power_copper": true,
+      "remove": [
+        "da4ef0b1-bf4f-4655-8f31-dd377218a36d"
+      ],
+      "connected": false
+    }
+  ],
+  "mounts_nm": {
+    "H8105": [
+      70200000,
+      34000000
+    ],
+    "H8102": [
+      83000000,
+      3000000
+    ],
+    "H8101": [
+      53000000,
+      4000000
+    ],
+    "H8103": [
+      21000000,
+      3000000
+    ],
+    "H8104": [
+      20250000,
+      9000000
+    ]
+  },
+  "old_H8105_nm": [
+    70000000,
+    34000000
+  ],
+  "hole_mm": 2.2,
+  "all_reservation_vertices_translated": true,
+  "assembly_ready": false
+}

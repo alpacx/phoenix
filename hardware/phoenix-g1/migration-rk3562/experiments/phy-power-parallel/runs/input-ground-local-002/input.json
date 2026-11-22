@@ -1,0 +1,49 @@
+{
+  "source": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/load-c513-16v/phy-joint.kicad_pcb",
+  "source_sha256": "5c1a9dc6f24f6edb4a36dbd185c412bc4c22793d600fa9e0f9161609c1501137",
+  "candidate": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/input-ground-local-002/phy-joint.kicad_pcb",
+  "candidate_sha256": "eb66e188d832ab11cc6deab943403bc1a5b84183bb8674fe25d62ec9f90d4f0e",
+  "removed": [
+    "1ad19a1a-0863-4aaa-b893-28fb4962b352",
+    "2094f0ff-47bd-4fd3-af6a-bd317e21fe3f",
+    "22caef1c-b892-4935-9b62-bd39a5862037",
+    "4b31d0b4-74e4-4dc3-bd20-9fbb9550e710",
+    "4d4868b9-878f-48b6-885c-777a060c8a01",
+    "54026eb4-3728-4b0f-976d-5de1ff350cc9",
+    "5f25f381-9865-46a1-bd4b-535d2ab52098",
+    "6834c2c2-b08b-42bd-8852-d837134d1fbe",
+    "7ade26e3-e5a4-45fb-8953-f5817e0ad61c",
+    "8d6c583c-2608-48bc-93a1-55e0b248ff36",
+    "ac9188c5-cef1-4059-bbbb-89fd39cabc41",
+    "ada26e02-1595-4645-9e22-f405bb52a0d2",
+    "c30195fc-d36b-4b0c-b416-8e3121ecd49d",
+    "d4de54cd-e2f7-4f51-af19-20935565404f",
+    "d4eaa731-ddb7-40e7-b9db-59b3b7d503fc",
+    "d88ff393-d177-48bf-9227-95175de167b2",
+    "e0858fed-9677-4a70-a508-f0923fd9ef81",
+    "ecb7af68-4403-4cd1-b8cc-4f825372db8f",
+    "f6a34e68-f559-4f2a-bc54-6beb2fbaa680",
+    "f9c74745-ce09-48b4-a5d6-a2e00ab0ff9d",
+    "fbdc4a58-bd91-49b9-8a58-91ec587b842b"
+  ],
+  "required_pairs": [
+    [
+      [
+        "C2007",
+        "2"
+      ],
+      [
+        "Y2001",
+        "2"
+      ]
+    ]
+  ],
+  "new_ground_via_uuid": "49f5741d-a26f-4b5c-9cc3-a933405cee71",
+  "new_ground_track_uuid": "b411330c-5690-43d3-9f9e-46fde7c947db",
+  "power_layout_accepted": false,
+  "assembly_ready": false,
+  "limitations": [
+    "Local ground return change only; RF/clock impedance and via manufacturing still unqualified.",
+    "Power corridor remains incomplete."
+  ]
+}

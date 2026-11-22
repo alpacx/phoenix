@@ -1,0 +1,61 @@
+{
+  "board": "runs/phy-clock-load-window/phy-joint.kicad_pcb",
+  "sha256": "d413f119cbfbf18a42939a0c618740603e16940acfe49dd16b8121ee6ea3004a",
+  "parent_sha256": "3bab3f94c671a304822d47601ae49b59b59d3f76e76048437e35e5c7395be975",
+  "fitting_poses": 43,
+  "return_options": 45,
+  "attempts": 1,
+  "change": {
+    "position_nm": [
+      60700000,
+      36010000
+    ],
+    "angle": 270,
+    "clock_pad_displacement_mm": 0.20615528128088303,
+    "ground_mm": 1.1384062043356595,
+    "ground_new_via": false,
+    "ground_site_nm": [
+      61010000,
+      37500000
+    ],
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 6360,
+      "explicitly_replaced_copper": {
+        "b031e3f6-1250-473e-99ab-1038c94e01d3": [
+          "GND",
+          0,
+          60500000,
+          33800000,
+          60500000,
+          33800000,
+          450000,
+          200000
+        ],
+        "e959cb29-180c-425e-b3b3-e3c6263bbe8d": [
+          "GND",
+          0,
+          60500000,
+          34520000,
+          60500000,
+          34500000,
+          200000,
+          null
+        ],
+        "f8c8dc40-2f58-4aed-b76f-0c719ae26ea0": [
+          "GND",
+          0,
+          60500000,
+          34500000,
+          60500000,
+          33800000,
+          200000,
+          null
+        ]
+      },
+      "added_tracks_vias": -1,
+      "existing_connected_pad_groups_preserved": 87
+    }
+  },
+  "assembly_ready": false
+}

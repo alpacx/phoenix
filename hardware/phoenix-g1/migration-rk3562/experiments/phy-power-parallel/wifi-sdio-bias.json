@@ -1,0 +1,43 @@
+{
+  "parent_sha256": "eb1d2cea6188906d8c5177f1d4d2b7ae7fc635f80972d76d9a84f97f6e3f66cb",
+  "sha256": "260b2c46227963b24facda2548f15a427211c43a478d6533ef2b37aa48723c20",
+  "board": "runs/wifi-bias-R2012/phy-joint.kicad_pcb",
+  "records": [
+    {
+      "pair": [
+        "R2012.1",
+        "U25.14"
+      ],
+      "pos_nm": [
+        65100000,
+        27587500
+      ],
+      "angle_deg": 270,
+      "length_mm": 1.7627922061357857,
+      "net": "WIFI_D2"
+    }
+  ],
+  "held": [
+    {
+      "ref": "R2013",
+      "geometric_poses": 0,
+      "tested": 0
+    },
+    {
+      "ref": "R2014",
+      "geometric_poses": 0,
+      "tested": 0
+    },
+    {
+      "ref": "R2010",
+      "geometric_poses": 0,
+      "tested": 0
+    },
+    {
+      "ref": "R2011",
+      "geometric_poses": 0,
+      "tested": 0
+    }
+  ],
+  "assembly_ready": false
+}

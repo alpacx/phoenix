@@ -1,0 +1,81 @@
+{
+  "parent_sha256": "442dfbcf5e1dd32754250ffe4409d837130bf3d6bd8ab8176b143a7ee744af7f",
+  "board": "runs/rotated-bypass-island-C482-C483/phy-joint.kicad_pcb",
+  "sha256": "8e3f7c005bc5dd197d1eaf0c911186b6ff0f7d033bf9fc3c2306916277a9eb1a",
+  "records": [
+    {
+      "left": "C423",
+      "right": "C482",
+      "width_mm": 0.5,
+      "length_mm": 2.189086868732798,
+      "preserved_groups": 121
+    },
+    {
+      "left": "C421",
+      "right": "C422",
+      "width_mm": 0.5,
+      "length_mm": 2.5977922061357814,
+      "preserved_groups": 122
+    },
+    {
+      "left": "C482",
+      "right": "C483",
+      "width_mm": 0.5,
+      "length_mm": 3.355718645371982,
+      "preserved_groups": 123
+    }
+  ],
+  "held": [
+    {
+      "left": "C481",
+      "right": "C484",
+      "reason": {
+        "reason": "closed front channel",
+        "reachable": 4559,
+        "starts": 49,
+        "goals": 49
+      }
+    },
+    {
+      "left": "C421",
+      "right": "C480",
+      "reason": {
+        "reason": "closed front channel",
+        "reachable": 9899,
+        "starts": 49,
+        "goals": 49
+      }
+    },
+    {
+      "left": "C425",
+      "right": "C483",
+      "reason": {
+        "reason": "closed front channel",
+        "reachable": 6715,
+        "starts": 49,
+        "goals": 49
+      }
+    },
+    {
+      "left": "C422",
+      "right": "C480",
+      "reason": {
+        "reason": "closed front channel",
+        "reachable": 7761,
+        "starts": 49,
+        "goals": 49
+      }
+    },
+    {
+      "left": "C422",
+      "right": "C484",
+      "reason": {
+        "reason": "closed front channel",
+        "reachable": 4124,
+        "starts": 49,
+        "goals": 49
+      }
+    }
+  ],
+  "assembly_ready": false
+}

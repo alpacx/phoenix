@@ -1,0 +1,112 @@
+{
+  "board": "runs/emmc-data-pullup-complete/phy-joint.kicad_pcb",
+  "sha256": "4434879e3c5aba8f62a14b22c930fe42c80bdd23b63bbb90926d7abff49eb7c5",
+  "parent_sha256": "4434879e3c5aba8f62a14b22c930fe42c80bdd23b63bbb90926d7abff49eb7c5",
+  "layout_only": true,
+  "route_layer": "In3.Cu",
+  "reference_layer": "In4.Cu",
+  "grid_results": {
+    "LPDDR4_A5_A": {
+      "starts": 9,
+      "ends": 9,
+      "visited": 189
+    },
+    "LPDDR4_A1_A": {
+      "starts": 6,
+      "ends": 9,
+      "visited": 69
+    },
+    "LPDDR4_A2_A": {
+      "starts": 9,
+      "ends": 9,
+      "visited": 138
+    },
+    "LPDDR4_A4_A": {
+      "starts": 9,
+      "ends": 9,
+      "visited": 60
+    },
+    "LPDDR4_A0_A": {
+      "starts": 5,
+      "ends": 9,
+      "visited": 64
+    },
+    "LPDDR4_A3_A": {
+      "starts": 9,
+      "ends": 9,
+      "visited": 125
+    },
+    "LPDDR4_A3_B": {
+      "starts": 9,
+      "ends": 9,
+      "visited": 982
+    },
+    "LPDDR4_A5_B": {
+      "starts": 5,
+      "ends": 9,
+      "visited": 134
+    },
+    "LPDDR4_CKE0_B": {
+      "starts": 9,
+      "ends": 9,
+      "visited": 723
+    },
+    "LPDDR4_CS0N_A": {
+      "starts": 8,
+      "ends": 9,
+      "visited": 214
+    },
+    "LPDDR4_CS0N_B": {
+      "starts": 6,
+      "ends": 9,
+      "visited": 162
+    },
+    "LPDDR4_A0_B": {
+      "starts": 6,
+      "ends": 9,
+      "visited": 9
+    },
+    "LPDDR4_A1_B": {
+      "starts": 6,
+      "ends": 9,
+      "visited": 197
+    },
+    "LPDDR4_A2_B": {
+      "starts": 9,
+      "ends": 9,
+      "visited": 799
+    },
+    "LPDDR4_A4_B": {
+      "starts": 6,
+      "ends": 6,
+      "visited": 24
+    },
+    "LPDDR4_CKE0_A": {
+      "starts": 9,
+      "ends": 9,
+      "visited": 194
+    }
+  },
+  "routes": [],
+  "held": [
+    "LPDDR4_A5_A",
+    "LPDDR4_A1_A",
+    "LPDDR4_A2_A",
+    "LPDDR4_A4_A",
+    "LPDDR4_A0_A",
+    "LPDDR4_A3_A",
+    "LPDDR4_A3_B",
+    "LPDDR4_A5_B",
+    "LPDDR4_CKE0_B",
+    "LPDDR4_CS0N_A",
+    "LPDDR4_CS0N_B",
+    "LPDDR4_A0_B",
+    "LPDDR4_A1_B",
+    "LPDDR4_A2_B",
+    "LPDDR4_A4_B",
+    "LPDDR4_CKE0_A"
+  ],
+  "impedance_qualified": false,
+  "timing_qualified": false,
+  "assembly_ready": false
+}

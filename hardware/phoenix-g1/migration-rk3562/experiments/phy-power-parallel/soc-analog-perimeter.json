@@ -1,0 +1,72 @@
+{
+  "parent_sha256": "789116417fc6fc23feeb0832d79e4ad8df7c0acc3fdda94b65ed70ce0c2131e9",
+  "board": "runs/soc-analog-perimeter/phy-joint.kicad_pcb",
+  "sha256": "789116417fc6fc23feeb0832d79e4ad8df7c0acc3fdda94b65ed70ce0c2131e9",
+  "accepted": [],
+  "rejected": [
+    {
+      "balls": [
+        "1L8",
+        "1M9"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 2
+      }
+    },
+    {
+      "balls": [
+        "1M8",
+        "1N9"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 30,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "1L6",
+        "1L8"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 19,
+        "goals": 0
+      }
+    },
+    {
+      "balls": [
+        "1M11",
+        "1M13"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 0,
+        "goals": 1
+      }
+    },
+    {
+      "balls": [
+        "1M7",
+        "1N9"
+      ],
+      "diagnosis": {
+        "reason": "anchor blocked",
+        "starts": 21,
+        "goals": 0
+      }
+    }
+  ],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 6893,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 0,
+    "existing_connected_pad_groups_preserved": 120
+  },
+  "new_drc": [],
+  "assembly_ready": false
+}

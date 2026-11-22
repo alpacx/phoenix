@@ -1,0 +1,24 @@
+{
+  "status": "H8105_GEOMETRY_ACCEPTED",
+  "source_sha256": "2dc8caebcf41d00c6212b946668456d152c02a422302e21af653a77f887924e1",
+  "sha256": "134ca379f5f53b86ade6412665be24a73417af59e2228a75f3989510a3a3d0bc",
+  "new_violations": [],
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5774,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 0,
+    "existing_connected_pad_groups_preserved": 70
+  },
+  "hole": {
+    "reference": "H8105",
+    "center_mm": [
+      70,
+      34
+    ],
+    "drill_mm": 2.2,
+    "body_reservation_radius_mm": 2.7
+  },
+  "assembly_ready": false,
+  "standoff_screw_length_enclosure_and_thermal_qualified": false
+}

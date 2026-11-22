@@ -1,0 +1,209 @@
+{
+  "status": "DOCUMENTARY_REVIEW_NOT_QUALIFIED",
+  "date": "2026-11-18",
+  "capacitor": {
+    "mpn": "CL10A475KP8NNNC",
+    "jlc": "C1705",
+    "source": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2783/CL10A475KP8NNNC_Char.pdf",
+    "type": "manufacturer-authored characteristic sheet mirrored by distributor",
+    "method": "visual plot reading, approximately, 1kHz 1Vrms; typical only",
+    "at_1V": {
+      "delta_percent_estimate": [
+        -15,
+        -10
+      ],
+      "effective_uF_estimate": [
+        3.995,
+        4.23
+      ]
+    },
+    "at_3V3": {
+      "delta_percent_estimate": [
+        -60,
+        -50
+      ],
+      "effective_uF_estimate": [
+        1.88,
+        2.35
+      ]
+    },
+    "minimum_guaranteed": false,
+    "decision": "C515 cannot be treated as 4.7uF effective at3.3V; retain unqualified pending minimum capacitance and stability requirements. C511 typical estimate does not include tolerance/temp/aging/AC amplitude."
+  },
+  "layout": {
+    "new_source": "RTL8211F rev1.9",
+    "finding": "section9.1 refers to separate Layout Guide, requires X5R/X7R low ESR and restricts1V source toPHY DVDD10/AVDD10 only",
+    "short_neck_waiver_found": false,
+    "decision": "Do not silently waive historical >60mil rule or mark narrow pad escape qualified."
+  },
+  "stock_note": "Public presale and overseas fields are not immediate PCBA allocation; assemblyComponentFlag false for both reviewed parts",
+  "files": [
+    {
+      "path": "sources/C1705.json",
+      "sha256": "f9258a096cd60148fd2d6ad2c57d7409d00942b75155b2eadf2783f87447d027"
+    },
+    {
+      "path": "sources/C1779.json",
+      "sha256": "298d694f774e10333fa2e89ff24c4e2092b37b36f127c6f804c87dbf65f1995d"
+    },
+    {
+      "path": "sources/C19666.json",
+      "sha256": "39ae037edc7d990a59e202b7b76f6247aec786616fa1304abbe432ecfd323ced"
+    },
+    {
+      "path": "sources/C22459322.json",
+      "sha256": "f8eaca2b9ef69a4d14e7fdc043c7fbaf420ade5e4ea46a24ed272674b4764434"
+    },
+    {
+      "path": "sources/C391305.json",
+      "sha256": "d2255cece68960831f895d19348b3c5849036559577ac5a8c6628f7b106aff05"
+    },
+    {
+      "path": "sources/C45385232.json",
+      "sha256": "a228f1da56926316c814fbfd231913f0381b879b53807510b470bd7152b6721c"
+    },
+    {
+      "path": "sources/CL10A475KO8NNN-DCBias.json",
+      "sha256": "6d4b92122c96db7429e75a4f2edca5cc3afb054825032c505914dbf01d105874"
+    },
+    {
+      "path": "sources/CL10A475KO8NNN-product.html",
+      "sha256": "ec7810389c26c27cc664508b818959d8e167de95fbe0f2cfffd5e70309323237"
+    },
+    {
+      "path": "sources/CL10A475KP8NNN-DCBias.json",
+      "sha256": "c880796951ecb46bb20f8128749e31ff7d16e9e028b4cc2fd8d04154a96faa91"
+    },
+    {
+      "path": "sources/CL10A475KP8NNN-product.html",
+      "sha256": "50d7317fa3c365d9ea8e4ad4cf1f47d2efaadc58c27038e9c96bf18ba3c39fae"
+    },
+    {
+      "path": "sources/CL10A475KP8NNNC-characteristics.pdf",
+      "sha256": "5f7131473f04525f441d7e31072bea5dbc2084e011abd51c0fecbe8a5d991535"
+    },
+    {
+      "path": "sources/CL21A475KAQNNN-DCBias.json",
+      "sha256": "3acd7b37c241722f54d11d6d23ca19a670e262dbd8264745b372260a19feae4c"
+    },
+    {
+      "path": "sources/CL21A475KAQNNN-product.html",
+      "sha256": "67b16ae8e6e75f82c3fa896a7c481208c4a8ef306bbe17353ecf3adfcc385fb9"
+    },
+    {
+      "path": "sources/CL21A475KAQNNNE-characteristics.pdf",
+      "sha256": "3175b67761f01e0646190f39c89f09b7a41c5aae901fe5a02f7facff9bef7fca"
+    },
+    {
+      "path": "sources/RTL8211F-rev1.9.pdf",
+      "sha256": "a8d70133cefc88d231639abc056dd8829aac1a89f8bbf836cd4120bcc45e9c07"
+    }
+  ],
+  "capacitor_comparison": [
+    {
+      "part_family": "CL10A475KP8NNN",
+      "jlc": "C1705",
+      "package": "0603",
+      "source": "https://product.samsungsem.com/mlcc/CL10A475KP8NNN.do",
+      "method": "manufacturer numeric typical curve; linear interpolation only between adjacent samples",
+      "test_conditions": {
+        "degC": 25.0,
+        "dsDcFre": 1000,
+        "dsDcSign": 1.0
+      },
+      "values": [
+        {
+          "Vdc": 1,
+          "deltaC_percent_typical": -10.50578245969394,
+          "effective_uF_typical": 4.206228224394385,
+          "guaranteed_minimum": false
+        },
+        {
+          "Vdc": 3.3,
+          "deltaC_percent_typical": -55.312673447044915,
+          "effective_uF_typical": 2.100304347988889,
+          "guaranteed_minimum": false
+        }
+      ]
+    },
+    {
+      "part_family": "CL10A475KO8NNN",
+      "jlc": "C19666",
+      "package": "0603",
+      "source": "https://product.samsungsem.com/mlcc/CL10A475KO8NNN.do",
+      "method": "manufacturer numeric typical curve; linear interpolation only between adjacent samples",
+      "test_conditions": {
+        "degC": 25.0,
+        "dsDcFre": 1000,
+        "dsDcSign": 1.0
+      },
+      "values": [
+        {
+          "Vdc": 1,
+          "deltaC_percent_typical": -4.004217432052474,
+          "effective_uF_typical": 4.511801780693534,
+          "guaranteed_minimum": false
+        },
+        {
+          "Vdc": 3.3,
+          "deltaC_percent_typical": -30.43829311152764,
+          "effective_uF_typical": 3.2694002237582014,
+          "guaranteed_minimum": false
+        }
+      ]
+    },
+    {
+      "part_family": "CL21A475KAQNNN",
+      "jlc": "C1779",
+      "package": "0805",
+      "source": "https://product.samsungsem.com/mlcc/CL21A475KAQNNN.do",
+      "method": "manufacturer numeric typical curve; linear interpolation only between adjacent samples",
+      "test_conditions": {
+        "degC": 25.0,
+        "dsDcFre": 1000,
+        "dsDcSign": 1.0
+      },
+      "values": [
+        {
+          "Vdc": 1,
+          "deltaC_percent_typical": -0.08856405369134694,
+          "effective_uF_typical": 4.695837489476507,
+          "guaranteed_minimum": false
+        },
+        {
+          "Vdc": 3.3,
+          "deltaC_percent_typical": -16.123278872587854,
+          "effective_uF_typical": 3.942205892988371,
+          "guaranteed_minimum": false
+        }
+      ]
+    }
+  ],
+  "decision": "C19666 is a geometrically compatible investigation candidate with improved typical bias retention; no automatic selection or claim of required minimum capacitance. C1779 needs0805 relayout. No regulator effective-C minimum established.",
+  "inductor_screen": [
+    {
+      "mpn": "DFE252012P-2R2M=P2",
+      "jlc": "C391305",
+      "dimensions_mm": [
+        2.5,
+        2,
+        1.2
+      ],
+      "DCR_max_ohm": 0.084,
+      "Isat_A": 3,
+      "Itemp_A": 2.2,
+      "source": "https://www.mouser.com/datasheet/2/281/product-1023426.pdf",
+      "decision": "No electrical advantage over AFE252012S2R2MBT65mOhm; more expensive, no recommendation."
+    },
+    {
+      "mpn": "PSTMAA3020-2R2MB",
+      "jlc": "C45385232",
+      "dimensions_mm": [
+        3,
+        3
+      ],
+      "catalog_DCR_ohm": 0.045,
+      "decision": "Catalog only, manufacturer datasheet not retrieved; unqualified, larger footprint; no recommendation."
+    }
+  ]
+}

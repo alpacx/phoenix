@@ -1,0 +1,262 @@
+{
+  "baseline_sha256": "1fb44f12992b5adfc103274d635402048b3b50cbec9567d74e174beb5e5d7f7f",
+  "clock_sha256": "874a12a1538b1bcd63539d5e9da7f514f3835afbb5bf0b0291d6c17290b8e850",
+  "units": "mm",
+  "method": "Planar distances to newly added clock sections only. Pad escapes and reference polygons are excluded from classification.",
+  "nearest_counts": {
+    "LPDDR4_CLKP_B processor": 3,
+    "LPDDR4_CLKN_B middle": 4,
+    "LPDDR4_CLKP_B middle": 9,
+    "LPDDR4_CLKP_B memory": 2,
+    "LPDDR4_CLKN_B processor": 1
+  },
+  "entries": [
+    {
+      "uuid": "9d10f549-f17a-4b02-b51f-d24c8cfb98ae",
+      "net": "LPDDR4_A5_A",
+      "nearest_new_section": "LPDDR4_CLKP_B processor",
+      "distance_to_new_centerline_mm": {
+        "LPDDR4_CLKP_B processor": 0.5154,
+        "LPDDR4_CLKP_B middle": 1.1003,
+        "LPDDR4_CLKP_B memory": 10.7007,
+        "LPDDR4_CLKN_B processor": 1.475,
+        "LPDDR4_CLKN_B middle": 1.5283,
+        "LPDDR4_CLKN_B memory": 10.9152
+      }
+    },
+    {
+      "uuid": "3301f0c1-a55c-40a2-b9ea-ee417f7a264e",
+      "net": "LPDDR4_A5_B",
+      "nearest_new_section": "LPDDR4_CLKP_B processor",
+      "distance_to_new_centerline_mm": {
+        "LPDDR4_CLKP_B processor": 0.5,
+        "LPDDR4_CLKP_B middle": 1.4674,
+        "LPDDR4_CLKP_B memory": 11.2818,
+        "LPDDR4_CLKN_B processor": 1.475,
+        "LPDDR4_CLKN_B middle": 1.8106,
+        "LPDDR4_CLKN_B memory": 11.4853
+      }
+    },
+    {
+      "uuid": "736bec16-71a4-4511-86a9-543f628ee8bc",
+      "net": "LPDDR4_A5_B",
+      "nearest_new_section": "LPDDR4_CLKN_B middle",
+      "distance_to_new_centerline_mm": {
+        "LPDDR4_CLKP_B processor": 9.5381,
+        "LPDDR4_CLKP_B middle": 0.3664,
+        "LPDDR4_CLKP_B memory": 0.5483,
+        "LPDDR4_CLKN_B processor": 9.3523,
+        "LPDDR4_CLKN_B middle": 0.0836,
+        "LPDDR4_CLKN_B memory": 0.5483
+      }
+    },
+    {
+      "uuid": "6c53e1f0-e35e-4e89-b97b-c739e9a87479",
+      "net": "LPDDR4_A4_B",
+      "nearest_new_section": "LPDDR4_CLKP_B middle",
+      "distance_to_new_centerline_mm": {
+        "LPDDR4_CLKP_B processor": 9.2755,
+        "LPDDR4_CLKP_B middle": 0.1252,
+        "LPDDR4_CLKP_B memory": 0.6562,
+        "LPDDR4_CLKN_B processor": 9.1165,
+        "LPDDR4_CLKN_B middle": 0.6066,
+        "LPDDR4_CLKN_B memory": 1.0078
+      }
+    },
+    {
+      "uuid": "6974fe14-fe54-4bfb-a365-522c118d1694",
+      "net": "LPDDR4_A3_B",
+      "nearest_new_section": "LPDDR4_CLKP_B memory",
+      "distance_to_new_centerline_mm": {
+        "LPDDR4_CLKP_B processor": 10.0218,
+        "LPDDR4_CLKP_B middle": 0.5202,
+        "LPDDR4_CLKP_B memory": 0.0884,
+        "LPDDR4_CLKN_B processor": 9.8747,
+        "LPDDR4_CLKN_B middle": 0.925,
+        "LPDDR4_CLKN_B memory": 0.875
+      }
+    },
+    {
+      "uuid": "f7422d4f-71ca-49ce-aa10-c88e72305728",
+      "net": "LPDDR4_DM1_A",
+      "nearest_new_section": "LPDDR4_CLKP_B middle",
+      "distance_to_new_centerline_mm": {
+        "LPDDR4_CLKP_B processor": 5.3435,
+        "LPDDR4_CLKP_B middle": 0.675,
+        "LPDDR4_CLKP_B memory": 4.6613,
+        "LPDDR4_CLKN_B processor": 5.2415,
+        "LPDDR4_CLKN_B middle": 1.125,
+        "LPDDR4_CLKN_B memory": 4.9151
+      }
+    },
+    {
+      "uuid": "66b8b933-35aa-4972-b9c5-30928affb3bf",
+      "net": "LPDDR4_DQ12_A",
+      "nearest_new_section": "LPDDR4_CLKP_B middle",
+      "distance_to_new_centerline_mm": {
+        "LPDDR4_CLKP_B processor": 4.011,
+        "LPDDR4_CLKP_B middle": 0.6297,
+        "LPDDR4_CLKP_B memory": 5.9383,
+        "LPDDR4_CLKN_B processor": 3.9087,
+        "LPDDR4_CLKN_B middle": 1.1089,
+        "LPDDR4_CLKN_B memory": 6.1614
+      }
+    },
+    {
+      "uuid": "bb915513-84fa-4415-9308-a3043f041214",
+      "net": "LPDDR4_DQ6_A",
+      "nearest_new_section": "LPDDR4_CLKP_B middle",
+      "distance_to_new_centerline_mm": {
+        "LPDDR4_CLKP_B processor": 2.9061,
+        "LPDDR4_CLKP_B middle": 0.2346,
+        "LPDDR4_CLKP_B memory": 6.9958,
+        "LPDDR4_CLKN_B processor": 2.7714,
+        "LPDDR4_CLKN_B middle": 0.6846,
+        "LPDDR4_CLKN_B memory": 7.1893
+      }
+    },
+    {
+      "uuid": "6c246d2e-85c3-4a14-ae56-ae1fee7ca2e6",
+      "net": "LPDDR4_DQ2_A",
+      "nearest_new_section": "LPDDR4_CLKN_B middle",
+      "distance_to_new_centerline_mm": {
+        "LPDDR4_CLKP_B processor": 2.183,
+        "LPDDR4_CLKP_B middle": 0.3311,
+        "LPDDR4_CLKP_B memory": 7.7344,
+        "LPDDR4_CLKN_B processor": 2.0002,
+        "LPDDR4_CLKN_B middle": 0.1189,
+        "LPDDR4_CLKN_B memory": 7.9098
+      }
+    },
+    {
+      "uuid": "2d3b4f85-e890-4c7d-b493-e26bcb5a19e1",
+      "net": "LPDDR4_DQ15_A",
+      "nearest_new_section": "LPDDR4_CLKP_B middle",
+      "distance_to_new_centerline_mm": {
+        "LPDDR4_CLKP_B processor": 4.7532,
+        "LPDDR4_CLKP_B middle": 0.6276,
+        "LPDDR4_CLKP_B memory": 5.2037,
+        "LPDDR4_CLKN_B processor": 4.6431,
+        "LPDDR4_CLKN_B middle": 1.1022,
+        "LPDDR4_CLKN_B memory": 5.4363
+      }
+    },
+    {
+      "uuid": "d4c5f20b-cf27-4183-8f2e-0eb16146e219",
+      "net": "LPDDR4_DQ0_A",
+      "nearest_new_section": "LPDDR4_CLKP_B middle",
+      "distance_to_new_centerline_mm": {
+        "LPDDR4_CLKP_B processor": 3.4272,
+        "LPDDR4_CLKP_B middle": 0.4869,
+        "LPDDR4_CLKP_B memory": 6.5185,
+        "LPDDR4_CLKN_B processor": 3.334,
+        "LPDDR4_CLKN_B middle": 0.9704,
+        "LPDDR4_CLKN_B memory": 6.7358
+      }
+    },
+    {
+      "uuid": "16e15de3-48a3-4595-9dc8-ee3f5b10897d",
+      "net": "LPDDR4_DM0_A",
+      "nearest_new_section": "LPDDR4_CLKP_B middle",
+      "distance_to_new_centerline_mm": {
+        "LPDDR4_CLKP_B processor": 2.3708,
+        "LPDDR4_CLKP_B middle": 0.3053,
+        "LPDDR4_CLKP_B memory": 7.5694,
+        "LPDDR4_CLKN_B processor": 2.3034,
+        "LPDDR4_CLKN_B middle": 0.7553,
+        "LPDDR4_CLKN_B memory": 7.7776
+      }
+    },
+    {
+      "uuid": "e8e760e8-7d0d-46d1-9b51-54267f50433b",
+      "net": "LPDDR4_A0_A",
+      "nearest_new_section": "LPDDR4_CLKN_B middle",
+      "distance_to_new_centerline_mm": {
+        "LPDDR4_CLKP_B processor": 1.5955,
+        "LPDDR4_CLKP_B middle": 0.6493,
+        "LPDDR4_CLKP_B memory": 8.3481,
+        "LPDDR4_CLKN_B processor": 1.3841,
+        "LPDDR4_CLKN_B middle": 0.1993,
+        "LPDDR4_CLKN_B memory": 8.5188
+      }
+    },
+    {
+      "uuid": "ce59aa49-a16f-4d05-8a7a-eda3545d92b4",
+      "net": "LPDDR4_CS0N_A",
+      "nearest_new_section": "LPDDR4_CLKN_B middle",
+      "distance_to_new_centerline_mm": {
+        "LPDDR4_CLKP_B processor": 0.6486,
+        "LPDDR4_CLKP_B middle": 0.575,
+        "LPDDR4_CLKP_B memory": 9.4072,
+        "LPDDR4_CLKN_B processor": 0.325,
+        "LPDDR4_CLKN_B middle": 0.125,
+        "LPDDR4_CLKN_B memory": 9.5755
+      }
+    },
+    {
+      "uuid": "c39c2f4f-f580-4924-a467-af1ec37382f6",
+      "net": "LPDDR4_A0_B",
+      "nearest_new_section": "LPDDR4_CLKN_B processor",
+      "distance_to_new_centerline_mm": {
+        "LPDDR4_CLKP_B processor": 1.978,
+        "LPDDR4_CLKP_B middle": 2.386,
+        "LPDDR4_CLKP_B memory": 11.3348,
+        "LPDDR4_CLKN_B processor": 0.6021,
+        "LPDDR4_CLKN_B middle": 2.1583,
+        "LPDDR4_CLKN_B memory": 11.4435
+      }
+    },
+    {
+      "uuid": "5bbc61c5-9bf8-475e-9c74-ffa76a832d7d",
+      "net": "LPDDR4_DQ3_A",
+      "nearest_new_section": "LPDDR4_CLKP_B middle",
+      "distance_to_new_centerline_mm": {
+        "LPDDR4_CLKP_B processor": 1.814,
+        "LPDDR4_CLKP_B middle": 0.5175,
+        "LPDDR4_CLKP_B memory": 8.3848,
+        "LPDDR4_CLKN_B processor": 1.9224,
+        "LPDDR4_CLKN_B middle": 0.9675,
+        "LPDDR4_CLKN_B memory": 8.6151
+      }
+    },
+    {
+      "uuid": "66d3bd13-851b-48db-a213-70515d70eec4",
+      "net": "LPDDR4_A2_A",
+      "nearest_new_section": "LPDDR4_CLKP_B middle",
+      "distance_to_new_centerline_mm": {
+        "LPDDR4_CLKP_B processor": 0.831,
+        "LPDDR4_CLKP_B middle": 0.225,
+        "LPDDR4_CLKP_B memory": 9.2685,
+        "LPDDR4_CLKN_B processor": 1.0467,
+        "LPDDR4_CLKN_B middle": 0.675,
+        "LPDDR4_CLKN_B memory": 9.4774
+      }
+    },
+    {
+      "uuid": "aab5640e-50fc-4939-af1d-f4c10358c257",
+      "net": "LPDDR4_CKE0_A",
+      "nearest_new_section": "LPDDR4_CLKP_B processor",
+      "distance_to_new_centerline_mm": {
+        "LPDDR4_CLKP_B processor": 0.0177,
+        "LPDDR4_CLKP_B middle": 0.301,
+        "LPDDR4_CLKP_B memory": 10.1738,
+        "LPDDR4_CLKN_B processor": 0.675,
+        "LPDDR4_CLKN_B middle": 0.704,
+        "LPDDR4_CLKN_B memory": 10.3644
+      }
+    },
+    {
+      "uuid": "0deb44db-30a5-4f9e-b57f-a0b4cdb7239d",
+      "net": "LPDDR4_A2_B",
+      "nearest_new_section": "LPDDR4_CLKP_B memory",
+      "distance_to_new_centerline_mm": {
+        "LPDDR4_CLKP_B processor": 10.7757,
+        "LPDDR4_CLKP_B middle": 1.1792,
+        "LPDDR4_CLKP_B memory": 0.05,
+        "LPDDR4_CLKN_B processor": 10.6391,
+        "LPDDR4_CLKN_B middle": 1.4056,
+        "LPDDR4_CLKN_B memory": 0.65
+      }
+    }
+  ]
+}

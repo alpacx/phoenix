@@ -1,0 +1,167 @@
+{
+  "status": "PASS LIMITED DRILL SCREEN",
+  "checked_drilled_pads": 31,
+  "source": "https://jlcpcb.com/capabilities/pcb-capabilities",
+  "source_checked_date": "2026-11-07",
+  "copper_edge_rule_mm": 0.25,
+  "copper_edge_rule_basis": "0.20 mm published minimum plus 0.05 mm design margin; applies also to NPTH edges in KiCad",
+  "annular_ring_screen": [
+    {
+      "ref": "J1",
+      "pad": "SH",
+      "nominal_min_ring_mm": 0.25,
+      "method": "parallel capsule containment including copper offset"
+    },
+    {
+      "ref": "J1",
+      "pad": "SH",
+      "nominal_min_ring_mm": 0.25,
+      "method": "parallel capsule containment including copper offset"
+    },
+    {
+      "ref": "J1",
+      "pad": "SH",
+      "nominal_min_ring_mm": 0.25,
+      "method": "parallel capsule containment including copper offset"
+    },
+    {
+      "ref": "J1",
+      "pad": "SH",
+      "nominal_min_ring_mm": 0.25,
+      "method": "parallel capsule containment including copper offset"
+    },
+    {
+      "ref": "J2",
+      "pad": "11",
+      "nominal_min_ring_mm": 0.3
+    },
+    {
+      "ref": "J2",
+      "pad": "12",
+      "nominal_min_ring_mm": 0.3
+    },
+    {
+      "ref": "J2",
+      "pad": "13",
+      "nominal_min_ring_mm": 0.3
+    },
+    {
+      "ref": "J2",
+      "pad": "14",
+      "nominal_min_ring_mm": 0.3
+    },
+    {
+      "ref": "J2",
+      "pad": "P1",
+      "nominal_min_ring_mm": 0.307
+    },
+    {
+      "ref": "J2",
+      "pad": "P2",
+      "nominal_min_ring_mm": 0.307
+    },
+    {
+      "ref": "J2",
+      "pad": "P3",
+      "nominal_min_ring_mm": 0.307
+    },
+    {
+      "ref": "J2",
+      "pad": "P4",
+      "nominal_min_ring_mm": 0.307
+    },
+    {
+      "ref": "J2",
+      "pad": "P5",
+      "nominal_min_ring_mm": 0.307
+    },
+    {
+      "ref": "J2",
+      "pad": "P6",
+      "nominal_min_ring_mm": 0.307
+    },
+    {
+      "ref": "J2",
+      "pad": "P7",
+      "nominal_min_ring_mm": 0.307
+    },
+    {
+      "ref": "J2",
+      "pad": "P8",
+      "nominal_min_ring_mm": 0.307
+    },
+    {
+      "ref": "J2",
+      "pad": "P9",
+      "nominal_min_ring_mm": 0.307
+    },
+    {
+      "ref": "J2",
+      "pad": "P10",
+      "nominal_min_ring_mm": 0.307
+    },
+    {
+      "ref": "J2",
+      "pad": "SHIELD0",
+      "nominal_min_ring_mm": 0.2295
+    },
+    {
+      "ref": "J2",
+      "pad": "SHIELD1",
+      "nominal_min_ring_mm": 0.2295
+    },
+    {
+      "ref": "U4",
+      "pad": "69",
+      "nominal_min_ring_mm": 0.15
+    },
+    {
+      "ref": "U4",
+      "pad": "69",
+      "nominal_min_ring_mm": 0.15
+    },
+    {
+      "ref": "U4",
+      "pad": "69",
+      "nominal_min_ring_mm": 0.15
+    },
+    {
+      "ref": "U4",
+      "pad": "69",
+      "nominal_min_ring_mm": 0.15
+    },
+    {
+      "ref": "U4",
+      "pad": "69",
+      "nominal_min_ring_mm": 0.15
+    },
+    {
+      "ref": "U4",
+      "pad": "69",
+      "nominal_min_ring_mm": 0.15
+    },
+    {
+      "ref": "U4",
+      "pad": "69",
+      "nominal_min_ring_mm": 0.15
+    },
+    {
+      "ref": "U4",
+      "pad": "69",
+      "nominal_min_ring_mm": 0.15
+    },
+    {
+      "ref": "U4",
+      "pad": "69",
+      "nominal_min_ring_mm": 0.15
+    }
+  ],
+  "minimum_pth_ring_mm": 0.15,
+  "findings": [],
+  "limitations": [
+    "Nominal pad/drill geometry only: does not assess drill registration, positional tolerances, hole-to-hole spacing, impedance, mask webs, assembly, via filling or mechanical fit.",
+    "Rectangular/rounded pads use an axis-based screen, not a complete minimum polygon-distance proof.",
+    "Does not screen routing vias; use full DRC and fabrication review after routing.",
+    "No DRC exclusions or manufacturer exceptions are inferred."
+  ]
+}

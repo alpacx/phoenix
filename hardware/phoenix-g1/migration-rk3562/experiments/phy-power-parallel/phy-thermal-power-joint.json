@@ -1,0 +1,44 @@
+{
+  "board": "runs/phy-thermal-power-joint/phy-joint.kicad_pcb",
+  "sha256": "c9f2f4ecf64c1d690b75b3509a910e65c76f6ee85f948c394fa5bd1f778e5ff3",
+  "parent_sha256": "c96e95ea5e4e61486d39f9e38650d421181f2f35ab95fcc5a3fc7f8374179ee1",
+  "clear_sites": 2,
+  "change": {
+    "detour_mm": 4.024263068711928,
+    "via_ids": [
+      "daaf8f3c-10ad-4f07-b86b-128b39baf0d3"
+    ],
+    "sites_nm": [
+      [
+        63700000,
+        31000000
+      ]
+    ],
+    "annulus_outer_mm": 0.55,
+    "drill_mm": 0.3,
+    "each_via_tested_alone": true,
+    "all_removed_test": true,
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 6279,
+      "explicitly_replaced_copper": {
+        "0f7df32b-0214-461f-9fa1-e928cddb7a53": [
+          "+1V0_PHY",
+          8,
+          64800000,
+          28900000,
+          64800000,
+          32799999,
+          1550000,
+          null
+        ]
+      },
+      "added_tracks_vias": 3,
+      "existing_connected_pad_groups_preserved": 87
+    }
+  },
+  "process": "Epoxy filled and copper capped, planarized; verify fabrication files and stencil before assembly.",
+  "source": "https://jlcpcb.com/help/article/pcb-via-covering",
+  "thermal_qualified": false,
+  "assembly_ready": false
+}

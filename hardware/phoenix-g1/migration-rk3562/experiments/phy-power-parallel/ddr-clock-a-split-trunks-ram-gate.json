@@ -1,0 +1,58 @@
+{
+  "board_sha256": "fd38b6c9fa9e9bc0323d46a4031ef65cb50c934de42c424fc3c995e592f4d366",
+  "attempts": [
+    {
+      "center": [
+        43700000,
+        10400000
+      ],
+      "site": {
+        "center": [
+          43700000,
+          10400000
+        ],
+        "position_nm": [
+          [
+            43452513,
+            10647487
+          ],
+          [
+            43947487,
+            10152513
+          ]
+        ],
+        "preserves_prior_fast_projections": true,
+        "nearest_ground_barrel_mm": [
+          0.9178777861665463,
+          0.9178777861665463
+        ]
+      },
+      "legs": [
+        {
+          "points_nm": [
+            [
+              43400000,
+              11900000
+            ],
+            [
+              43400000,
+              10600000
+            ],
+            [
+              43600000,
+              10400000
+            ],
+            [
+              43700000,
+              10400000
+            ]
+          ],
+          "length_mm": 1.682842712474619,
+          "released_barrels_within_855um": 0
+        },
+        null
+      ]
+    }
+  ],
+  "whole_pair_qualified": false
+}

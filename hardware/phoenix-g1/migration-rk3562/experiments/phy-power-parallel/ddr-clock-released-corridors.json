@@ -1,0 +1,662 @@
+{
+  "rows": [
+    {
+      "checkpoint": "ddr-clock-open-escape-release",
+      "sha256": "2b48b9d0755df32ba73e228e0035b2d2e29e9e0f779ff3ae66084bbb137c2ff4",
+      "channel": "A",
+      "layer": "F.Cu",
+      "separate": {
+        "plane_only": true,
+        "copper_only": false
+      },
+      "nearest_gap": {
+        "mm": 5.981,
+        "positions_nm": [
+          [
+            35900000,
+            11700000
+          ],
+          [
+            30300000,
+            9600000
+          ]
+        ]
+      },
+      "gates_connected": false,
+      "gate_components": [
+        2,
+        1
+      ],
+      "common_cells": 0
+    },
+    {
+      "checkpoint": "ddr-clock-open-escape-release",
+      "sha256": "2b48b9d0755df32ba73e228e0035b2d2e29e9e0f779ff3ae66084bbb137c2ff4",
+      "channel": "A",
+      "layer": "In2.Cu",
+      "separate": {
+        "plane_only": true,
+        "copper_only": false
+      },
+      "nearest_gap": {
+        "mm": 1.6,
+        "positions_nm": [
+          [
+            45300000,
+            13200000
+          ],
+          [
+            45300000,
+            11600000
+          ]
+        ]
+      },
+      "gates_connected": false,
+      "gate_components": [
+        2,
+        1
+      ],
+      "common_cells": 0
+    },
+    {
+      "checkpoint": "ddr-clock-open-escape-release",
+      "sha256": "2b48b9d0755df32ba73e228e0035b2d2e29e9e0f779ff3ae66084bbb137c2ff4",
+      "channel": "A",
+      "layer": "In3.Cu",
+      "separate": {
+        "plane_only": true,
+        "copper_only": true
+      },
+      "nearest_gap": {
+        "mm": 0.0,
+        "positions_nm": [
+          [
+            32200000,
+            7100000
+          ],
+          [
+            32200000,
+            7100000
+          ]
+        ]
+      },
+      "gates_connected": true,
+      "gate_components": [
+        4,
+        2
+      ],
+      "common_cells": 4401
+    },
+    {
+      "checkpoint": "ddr-clock-open-escape-release",
+      "sha256": "2b48b9d0755df32ba73e228e0035b2d2e29e9e0f779ff3ae66084bbb137c2ff4",
+      "channel": "A",
+      "layer": "B.Cu",
+      "separate": {
+        "plane_only": true,
+        "copper_only": false
+      },
+      "nearest_gap": {
+        "mm": 2.648,
+        "positions_nm": [
+          [
+            35700000,
+            14500000
+          ],
+          [
+            33100000,
+            14000000
+          ]
+        ]
+      },
+      "gates_connected": false,
+      "gate_components": [
+        5,
+        1
+      ],
+      "common_cells": 0
+    },
+    {
+      "checkpoint": "ddr-clock-open-escape-release",
+      "sha256": "2b48b9d0755df32ba73e228e0035b2d2e29e9e0f779ff3ae66084bbb137c2ff4",
+      "channel": "B",
+      "layer": "F.Cu",
+      "separate": {
+        "plane_only": true,
+        "copper_only": false
+      },
+      "nearest_gap": null,
+      "gates_connected": false,
+      "gate_components": [
+        0,
+        1
+      ],
+      "common_cells": 0
+    },
+    {
+      "checkpoint": "ddr-clock-open-escape-release",
+      "sha256": "2b48b9d0755df32ba73e228e0035b2d2e29e9e0f779ff3ae66084bbb137c2ff4",
+      "channel": "B",
+      "layer": "In2.Cu",
+      "separate": {
+        "plane_only": true,
+        "copper_only": false
+      },
+      "nearest_gap": {
+        "mm": 1.5,
+        "positions_nm": [
+          [
+            45400000,
+            13200000
+          ],
+          [
+            45400000,
+            11700000
+          ]
+        ]
+      },
+      "gates_connected": false,
+      "gate_components": [
+        1,
+        2
+      ],
+      "common_cells": 0
+    },
+    {
+      "checkpoint": "ddr-clock-open-escape-release",
+      "sha256": "2b48b9d0755df32ba73e228e0035b2d2e29e9e0f779ff3ae66084bbb137c2ff4",
+      "channel": "B",
+      "layer": "In3.Cu",
+      "separate": {
+        "plane_only": true,
+        "copper_only": true
+      },
+      "nearest_gap": {
+        "mm": 0.0,
+        "positions_nm": [
+          [
+            32500000,
+            7800000
+          ],
+          [
+            32500000,
+            7800000
+          ]
+        ]
+      },
+      "gates_connected": true,
+      "gate_components": [
+        2,
+        2
+      ],
+      "common_cells": 4615
+    },
+    {
+      "checkpoint": "ddr-clock-open-escape-release",
+      "sha256": "2b48b9d0755df32ba73e228e0035b2d2e29e9e0f779ff3ae66084bbb137c2ff4",
+      "channel": "B",
+      "layer": "B.Cu",
+      "separate": {
+        "plane_only": true,
+        "copper_only": false
+      },
+      "nearest_gap": {
+        "mm": 2.648,
+        "positions_nm": [
+          [
+            35700000,
+            14500000
+          ],
+          [
+            33100000,
+            14000000
+          ]
+        ]
+      },
+      "gates_connected": false,
+      "gate_components": [
+        1,
+        2
+      ],
+      "common_cells": 0
+    }
+  ],
+  "optimistic_transfers": [
+    {
+      "checkpoint": "ddr-clock-open-escape-release",
+      "channel": "A",
+      "transfers": [
+        {
+          "layers": [
+            "F.Cu",
+            "In2.Cu"
+          ],
+          "common_grid_centers": 3321,
+          "sample_nm": [
+            [
+              36100000,
+              11200000
+            ],
+            [
+              39600000,
+              5300000
+            ],
+            [
+              40700000,
+              8000000
+            ],
+            [
+              41900000,
+              5600000
+            ],
+            [
+              43000000,
+              10300000
+            ]
+          ]
+        },
+        {
+          "layers": [
+            "F.Cu",
+            "In3.Cu"
+          ],
+          "common_grid_centers": 333,
+          "sample_nm": [
+            [
+              35900000,
+              11700000
+            ],
+            [
+              36300000,
+              11400000
+            ],
+            [
+              36600000,
+              12300000
+            ],
+            [
+              37100000,
+              11200000
+            ],
+            [
+              37600000,
+              12300000
+            ]
+          ]
+        },
+        {
+          "layers": [
+            "F.Cu",
+            "B.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In2.Cu",
+            "F.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In2.Cu",
+            "In3.Cu"
+          ],
+          "common_grid_centers": 1337,
+          "sample_nm": [
+            [
+              35900000,
+              14300000
+            ],
+            [
+              37200000,
+              14500000
+            ],
+            [
+              38200000,
+              15200000
+            ],
+            [
+              39300000,
+              13300000
+            ],
+            [
+              40500000,
+              14100000
+            ]
+          ]
+        },
+        {
+          "layers": [
+            "In2.Cu",
+            "B.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In3.Cu",
+            "F.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In3.Cu",
+            "In2.Cu"
+          ],
+          "common_grid_centers": 4037,
+          "sample_nm": [
+            [
+              28700000,
+              13000000
+            ],
+            [
+              32100000,
+              14800000
+            ],
+            [
+              33600000,
+              7700000
+            ],
+            [
+              39600000,
+              9500000
+            ],
+            [
+              42100000,
+              7800000
+            ]
+          ]
+        },
+        {
+          "layers": [
+            "In3.Cu",
+            "B.Cu"
+          ],
+          "common_grid_centers": 900,
+          "sample_nm": [
+            [
+              31100000,
+              11100000
+            ],
+            [
+              31900000,
+              13400000
+            ],
+            [
+              32300000,
+              9200000
+            ],
+            [
+              32600000,
+              7900000
+            ],
+            [
+              32900000,
+              13400000
+            ]
+          ]
+        },
+        {
+          "layers": [
+            "B.Cu",
+            "F.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "B.Cu",
+            "In2.Cu"
+          ],
+          "common_grid_centers": 971,
+          "sample_nm": [
+            [
+              41700000,
+              5100000
+            ],
+            [
+              42300000,
+              7100000
+            ],
+            [
+              42600000,
+              9700000
+            ],
+            [
+              43000000,
+              6700000
+            ],
+            [
+              43400000,
+              7900000
+            ]
+          ]
+        },
+        {
+          "layers": [
+            "B.Cu",
+            "In3.Cu"
+          ],
+          "common_grid_centers": 1427,
+          "sample_nm": [
+            [
+              35700000,
+              14500000
+            ],
+            [
+              37100000,
+              15200000
+            ],
+            [
+              38100000,
+              15700000
+            ],
+            [
+              39200000,
+              13400000
+            ],
+            [
+              40300000,
+              14700000
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "checkpoint": "ddr-clock-open-escape-release",
+      "channel": "B",
+      "transfers": [
+        {
+          "layers": [
+            "F.Cu",
+            "In2.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "F.Cu",
+            "In3.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "F.Cu",
+            "B.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In2.Cu",
+            "F.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In2.Cu",
+            "In3.Cu"
+          ],
+          "common_grid_centers": 1417,
+          "sample_nm": [
+            [
+              35900000,
+              14300000
+            ],
+            [
+              37200000,
+              15700000
+            ],
+            [
+              38300000,
+              14300000
+            ],
+            [
+              39300000,
+              14600000
+            ],
+            [
+              40600000,
+              14600000
+            ]
+          ]
+        },
+        {
+          "layers": [
+            "In2.Cu",
+            "B.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In3.Cu",
+            "F.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "In3.Cu",
+            "In2.Cu"
+          ],
+          "common_grid_centers": 4167,
+          "sample_nm": [
+            [
+              28700000,
+              13000000
+            ],
+            [
+              32100000,
+              12300000
+            ],
+            [
+              33500000,
+              10700000
+            ],
+            [
+              39600000,
+              9900000
+            ],
+            [
+              42300000,
+              10400000
+            ]
+          ]
+        },
+        {
+          "layers": [
+            "In3.Cu",
+            "B.Cu"
+          ],
+          "common_grid_centers": 823,
+          "sample_nm": [
+            [
+              31100000,
+              11100000
+            ],
+            [
+              31900000,
+              11800000
+            ],
+            [
+              32200000,
+              12900000
+            ],
+            [
+              32500000,
+              12200000
+            ],
+            [
+              32900000,
+              8200000
+            ]
+          ]
+        },
+        {
+          "layers": [
+            "B.Cu",
+            "F.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "B.Cu",
+            "In2.Cu"
+          ],
+          "common_grid_centers": 0,
+          "sample_nm": []
+        },
+        {
+          "layers": [
+            "B.Cu",
+            "In3.Cu"
+          ],
+          "common_grid_centers": 1563,
+          "sample_nm": [
+            [
+              35700000,
+              14500000
+            ],
+            [
+              37200000,
+              13500000
+            ],
+            [
+              38200000,
+              13200000
+            ],
+            [
+              39200000,
+              13400000
+            ],
+            [
+              40300000,
+              15000000
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "assumptions": "Centerline screens a 0.20+0.25+0.20 mm pair envelope with 0.202 mm outside copper clearance and 0.10 mm lateral return margin. Accessible ideal gates within 1.5 mm of each pair of barrels; specific pair fanout, equal electrical length, differential conversion and impedance remain untested."
+}

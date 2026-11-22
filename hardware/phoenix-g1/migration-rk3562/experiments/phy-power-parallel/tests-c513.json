@@ -1,0 +1,38 @@
+[
+  {
+    "case": "nominal",
+    "passed": true,
+    "output": "nominal: PASS",
+    "stderr": "./src/common/stdpbase.cpp(59): assert \"\"traits\"\" failed in Get(): create wxApp before calling this"
+  },
+  {
+    "case": "narrow_track",
+    "passed": true,
+    "output": "narrow_track: PASS",
+    "stderr": "./src/common/stdpbase.cpp(59): assert \"\"traits\"\" failed in Get(): create wxApp before calling this"
+  },
+  {
+    "case": "cut_source_array",
+    "passed": true,
+    "output": "cut_source_array: PASS",
+    "stderr": "./src/common/stdpbase.cpp(59): assert \"\"traits\"\" failed in Get(): create wxApp before calling this"
+  },
+  {
+    "case": "cut_load_array",
+    "passed": true,
+    "output": "cut_load_array: PASS",
+    "stderr": "./src/common/stdpbase.cpp(59): assert \"\"traits\"\" failed in Get(): create wxApp before calling this"
+  },
+  {
+    "case": "ground_plane_roles",
+    "passed": true,
+    "output": "ground_plane_roles: PASS",
+    "stderr": "./src/common/stdpbase.cpp(59): assert \"\"traits\"\" failed in Get(): create wxApp before calling this"
+  },
+  {
+    "case": "qualification_hold",
+    "passed": true,
+    "output": "qualification_hold: PASS",
+    "stderr": "./src/common/stdpbase.cpp(59): assert \"\"traits\"\" failed in Get(): create wxApp before calling this"
+  }
+]

@@ -1,0 +1,142 @@
+{
+  "board_sha256": "02a1533baeddff4eacdbcbc8b6e6ea209aa1dd280f7ff08d73bccf7d0e228c8d",
+  "ldo_count": 9,
+  "complete_local_bypasses": 2,
+  "rows": [
+    {
+      "ldo": 1,
+      "pin": 23,
+      "net": "VDDA0V9_IMAGE",
+      "capacitor": "C460",
+      "nominal_part_value": "1u / 10V",
+      "output_and_capacitor_connected": false,
+      "capacitor_ground_connected": true,
+      "bypass_copper_complete": false,
+      "soc_pads_on_named_rail": [
+        "1L6",
+        "1L8",
+        "1M9"
+      ],
+      "soc_pads_joined_to_output": []
+    },
+    {
+      "ldo": 2,
+      "pin": 21,
+      "net": "VDDA_0V9",
+      "capacitor": "C461",
+      "nominal_part_value": "1u / 10V",
+      "output_and_capacitor_connected": false,
+      "capacitor_ground_connected": true,
+      "bypass_copper_complete": false,
+      "soc_pads_on_named_rail": [
+        "1K14",
+        "1M10"
+      ],
+      "soc_pads_joined_to_output": []
+    },
+    {
+      "ldo": 3,
+      "pin": 20,
+      "net": "VDDA0V9_PMU",
+      "capacitor": "C462",
+      "nominal_part_value": "1u / 10V",
+      "output_and_capacitor_connected": false,
+      "capacitor_ground_connected": true,
+      "bypass_copper_complete": false,
+      "soc_pads_on_named_rail": [
+        "1M11",
+        "1M13"
+      ],
+      "soc_pads_joined_to_output": []
+    },
+    {
+      "ldo": 4,
+      "pin": 28,
+      "net": "VCCIO_ACODEC",
+      "capacitor": "C463",
+      "nominal_part_value": "1u / 10V",
+      "output_and_capacitor_connected": true,
+      "capacitor_ground_connected": true,
+      "bypass_copper_complete": true,
+      "soc_pads_on_named_rail": [],
+      "soc_pads_joined_to_output": []
+    },
+    {
+      "ldo": 5,
+      "pin": 29,
+      "net": "VCCIO_SD",
+      "capacitor": "C464",
+      "nominal_part_value": "1u / 10V",
+      "output_and_capacitor_connected": false,
+      "capacitor_ground_connected": true,
+      "bypass_copper_complete": false,
+      "soc_pads_on_named_rail": [],
+      "soc_pads_joined_to_output": []
+    },
+    {
+      "ldo": 6,
+      "pin": 31,
+      "net": "+3V3_PMU",
+      "capacitor": "C465",
+      "nominal_part_value": "1u / 10V",
+      "output_and_capacitor_connected": false,
+      "capacitor_ground_connected": true,
+      "bypass_copper_complete": false,
+      "soc_pads_on_named_rail": [
+        "1L11",
+        "1L12"
+      ],
+      "soc_pads_joined_to_output": []
+    },
+    {
+      "ldo": 7,
+      "pin": 3,
+      "net": "VCCA_1V8",
+      "capacitor": "C466",
+      "nominal_part_value": "1u / 10V",
+      "output_and_capacitor_connected": false,
+      "capacitor_ground_connected": true,
+      "bypass_copper_complete": false,
+      "soc_pads_on_named_rail": [
+        "1E14",
+        "1E15",
+        "1G1",
+        "1K15",
+        "1K2"
+      ],
+      "soc_pads_joined_to_output": []
+    },
+    {
+      "ldo": 8,
+      "pin": 5,
+      "net": "VCCA1V8_PMU",
+      "capacitor": "C467",
+      "nominal_part_value": "1u / 10V",
+      "output_and_capacitor_connected": false,
+      "capacitor_ground_connected": true,
+      "bypass_copper_complete": false,
+      "soc_pads_on_named_rail": [
+        "1L13"
+      ],
+      "soc_pads_joined_to_output": []
+    },
+    {
+      "ldo": 9,
+      "pin": 6,
+      "net": "VCCA1V8_IMAGE",
+      "capacitor": "C468",
+      "nominal_part_value": "1u / 10V",
+      "output_and_capacitor_connected": true,
+      "capacitor_ground_connected": true,
+      "bypass_copper_complete": true,
+      "soc_pads_on_named_rail": [
+        "1M7",
+        "1M8",
+        "1N9"
+      ],
+      "soc_pads_joined_to_output": []
+    }
+  ],
+  "basis": "RK809-5 pinout, schematic netlist, native KiCad connectivity on reloaded PCB",
+  "loop_stability_or_physical_operation_tested": false
+}

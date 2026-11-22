@@ -1,0 +1,68 @@
+{
+  "parent_sha256": "7623e79a6838934df7f6d441cf01ec91127591fe4a32247673c4e6f30816fe7a",
+  "network": "RESET_N",
+  "frontiers": [
+    {
+      "group": 0,
+      "layer": "In2.Cu",
+      "nodes": 28257
+    },
+    {
+      "group": 0,
+      "layer": "B.Cu",
+      "nodes": 11885
+    },
+    {
+      "group": 0,
+      "layer": "In3.Cu",
+      "nodes": 27989
+    },
+    {
+      "group": 1,
+      "layer": "F.Cu",
+      "nodes": 2
+    }
+  ],
+  "pairs": [
+    {
+      "groups": [
+        1,
+        0
+      ],
+      "layers": [
+        "F.Cu",
+        "In2.Cu"
+      ],
+      "intersections": 0,
+      "tested": 0,
+      "legal": false
+    },
+    {
+      "groups": [
+        1,
+        0
+      ],
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "intersections": 0,
+      "tested": 0,
+      "legal": false
+    },
+    {
+      "groups": [
+        1,
+        0
+      ],
+      "layers": [
+        "F.Cu",
+        "In3.Cu"
+      ],
+      "intersections": 0,
+      "tested": 0,
+      "legal": false
+    }
+  ],
+  "candidates": []
+}

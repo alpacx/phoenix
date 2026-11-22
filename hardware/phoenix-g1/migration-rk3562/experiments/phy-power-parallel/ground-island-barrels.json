@@ -1,0 +1,41 @@
+{
+  "board": "runs/ground-island-barrels/phy-joint.kicad_pcb",
+  "sha256": "9f4bdc1783542467156a3fb53695942b28156e85bf71882f0464a19d7b63e2c2",
+  "parent_sha256": "db67e305836083a621419837eb4fc925519e7ec6014e68b9515fb5a461cd23b2",
+  "added": [
+    {
+      "ref": "U1",
+      "pad": "1J4",
+      "via_nm": [
+        40700000,
+        20937500
+      ],
+      "length_mm": 0.3605551275463989
+    }
+  ],
+  "unresolved": [
+    "U1",
+    "U1",
+    "U1",
+    "U1",
+    "U1",
+    "U1",
+    "U1",
+    "U1",
+    "U1",
+    "U1",
+    "U1",
+    "U1",
+    "U1",
+    "U1"
+  ],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 6634,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 2,
+    "existing_connected_pad_groups_preserved": 109
+  },
+  "new_drc": [],
+  "assembly_ready": false
+}

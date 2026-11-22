@@ -1,0 +1,123 @@
+{
+  "source": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/load-in3-north2/phy-joint.kicad_pcb",
+  "source_sha256": "98cd070cdb63314b32763de0a47839cbe506ce86596454014af714cf7e5d0c10",
+  "candidate": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/load-in3-c514/phy-joint.kicad_pcb",
+  "candidate_sha256": "1d72f3919ddb04c9ca191d21c82f8da9c1ed079235c3d6831600492ae6b63df9",
+  "removed": [],
+  "via_array": [
+    {
+      "uuid": "02d395a7-ec70-4374-9b4a-6024f7dcaade",
+      "xy_mm": [
+        66.45,
+        29.1
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "3dc12376-26c6-428f-8e47-05167ac5af67",
+      "xy_mm": [
+        67.05,
+        29.1
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    }
+  ],
+  "current_via_PI_qualified": false,
+  "via_pad_overlap_manufacturing_qualified": false,
+  "required_pairs": [
+    [
+      [
+        "C511",
+        "1"
+      ],
+      [
+        "C514",
+        "1"
+      ]
+    ]
+  ],
+  "routes": [
+    {
+      "label": "load-in3-c514",
+      "path_mm": [
+        [
+          62.425,
+          30.375
+        ],
+        [
+          63.8,
+          29
+        ],
+        [
+          66.75,
+          29
+        ],
+        [
+          66.75,
+          29.1
+        ]
+      ],
+      "width_mm": 1.55,
+      "net": "+1V0_PHY",
+      "layer": "In3.Cu",
+      "guard": {
+        "net": "+1V0_PHY",
+        "width_mm": 1.55,
+        "segments": 3,
+        "width_preserved": true,
+        "current_rating_qualified": false
+      },
+      "uuids": [
+        "a69da6b9-abab-4e01-9d7e-fa4dbd2122a1",
+        "96afae4c-e3c7-4b7a-aadb-5e9ff1915fa1",
+        "6d01615a-fd5c-42c8-8731-db551ff9c9df"
+      ]
+    }
+  ],
+  "historical_60mil_width_met_on_entire_path": false,
+  "main_checkpoint_modified": false,
+  "power_layout_accepted": false,
+  "assembly_ready": false,
+  "limitations": [
+    "Manual full-width geometry only; no current/via/PI qualification. In3 studies are post-inductor distribution, not a waiver for local REG_OUT/DVDD33. Ground planes retain their role. Via-to-pad overlap requires fabrication/process review. Rejected geometry must not be adopted."
+  ],
+  "new_violations": [
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "34504188-d79c-4f52-96af-08181384a07f",
+        "6d01615a-fd5c-42c8-8731-db551ff9c9df"
+      ],
+      "count": 1
+    }
+  ],
+  "details": [
+    {
+      "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1877 mm)",
+      "items": [
+        {
+          "description": "Via [GND] su F.Cu - B.Cu",
+          "pos": {
+            "x": 66.15,
+            "y": 30.125
+          },
+          "uuid": "34504188-d79c-4f52-96af-08181384a07f"
+        },
+        {
+          "description": "Pista [+1V0_PHY] su In3.Cu, lung. 0.1000 mm",
+          "pos": {
+            "x": 66.75,
+            "y": 29.0
+          },
+          "uuid": "6d01615a-fd5c-42c8-8731-db551ff9c9df"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    }
+  ],
+  "status": "JOINT_SW_GEOMETRY_REJECTED"
+}

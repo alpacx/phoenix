@@ -1,0 +1,91 @@
+{
+  "board_sha256": "12dcc6c8732781f72e2d91d48b874fe6533bd991ebd328f1fbe14da5b91fad70",
+  "copper_resistivity_20C_ohm_m": 1.724e-08,
+  "temperature_coefficient_per_C": 0.00393,
+  "branches": [
+    {
+      "net": "+1V8_SYS",
+      "layer_lengths_mm": {
+        "In3.Cu": 26.164227876777645,
+        "B.Cu": 2.0132688742440736
+      },
+      "series_length_mm": 28.177496751021717,
+      "width_mm": 0.6,
+      "paired_transitions_in_trunk": 1,
+      "trace_only_sensitivity": [
+        {
+          "inner_copper_um": 18,
+          "outer_copper_um": 35,
+          "copper_temperature_C": 20,
+          "resistance_mohm": 43.418657930960464,
+          "drop_mV_at_0_5_A": 21.709328965480232
+        },
+        {
+          "inner_copper_um": 18,
+          "outer_copper_um": 35,
+          "copper_temperature_C": 80,
+          "resistance_mohm": 53.65677747108094,
+          "drop_mV_at_0_5_A": 26.82838873554047
+        },
+        {
+          "inner_copper_um": 35,
+          "outer_copper_um": 35,
+          "copper_temperature_C": 20,
+          "resistance_mohm": 23.13238304702926,
+          "drop_mV_at_0_5_A": 11.56619152351463
+        },
+        {
+          "inner_copper_um": 35,
+          "outer_copper_um": 35,
+          "copper_temperature_C": 80,
+          "resistance_mohm": 28.586998969518767,
+          "drop_mV_at_0_5_A": 14.293499484759383
+        }
+      ]
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer_lengths_mm": {
+        "F.Cu": 8.449354075440743,
+        "In3.Cu": 13.481337949179803,
+        "In2.Cu": 22.375489641969143,
+        "B.Cu": 2.6487555650813075
+      },
+      "series_length_mm": 46.954937231670996,
+      "width_mm": 0.6,
+      "paired_transitions_in_trunk": 4,
+      "trace_only_sensitivity": [
+        {
+          "inner_copper_um": 18,
+          "outer_copper_um": 35,
+          "copper_temperature_C": 20,
+          "resistance_mohm": 66.34914061414307,
+          "drop_mV_at_0_5_A": 33.174570307071534
+        },
+        {
+          "inner_copper_um": 18,
+          "outer_copper_um": 35,
+          "copper_temperature_C": 80,
+          "resistance_mohm": 81.99426797095803,
+          "drop_mV_at_0_5_A": 40.99713398547902
+        },
+        {
+          "inner_copper_um": 35,
+          "outer_copper_um": 35,
+          "copper_temperature_C": 20,
+          "resistance_mohm": 38.547767517809916,
+          "drop_mV_at_0_5_A": 19.273883758904958
+        },
+        {
+          "inner_copper_um": 35,
+          "outer_copper_um": 35,
+          "copper_temperature_C": 80,
+          "resistance_mohm": 47.6373310985095,
+          "drop_mV_at_0_5_A": 23.81866554925475
+        }
+      ]
+    }
+  ],
+  "scope": "Uniform rectangular copper trace only. Thickness, current and temperatures are scenarios. Omits PMIC, inductors, source entrance, via/contact/bank resistance, etch tolerance and transient response. No voltage margin or current capability has been qualified.",
+  "assembly_ready": false
+}

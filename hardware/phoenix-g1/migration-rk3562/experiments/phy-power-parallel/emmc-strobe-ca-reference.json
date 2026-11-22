@@ -1,0 +1,30 @@
+{
+  "nearest_ground_barrel": [
+    1.0013116398005169,
+    [
+      37150000,
+      9200000
+    ]
+  ],
+  "furthest_plane_opening_mm": {
+    "EMMC_STRB": 0.41460143411353517
+  },
+  "sha256": "08186d0b398fd980c6d410de610ce92955d6369141dee576aa255be8bb9e02a4",
+  "via_nm": [
+    36310000,
+    8655000
+  ],
+  "old_fast_reference_losses": [],
+  "new_signals": {
+    "LPDDR4_A1_A": {
+      "length_mm": 8.071510998582992,
+      "samples": 326,
+      "missing_plane": 0
+    },
+    "EMMC_STRB": {
+      "length_mm": 1.140138867462031,
+      "samples": 47,
+      "missing_plane": 35
+    }
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "source_sha256": "006fc4c501a7504961215342f079d845cf75e430173fa94d8c52813f574f78be",
+  "layer_count": 6,
+  "thickness_mm": 1.6,
+  "cases": [
+    {
+      "name": "current",
+      "board": "runs/bga-filled-current/phy-joint.kicad_pcb",
+      "sha256": "cab454c7d895ce8a26967d31f99cac15b7a903d71ea28389c8077e2c6168ccd6",
+      "drill_mm": 0.2,
+      "copper_land_mm": 0.45,
+      "annulus_mm": 0.125,
+      "via_projected_outside_original_land_mm": 0.1,
+      "aspect_ratio": 8.0,
+      "pins": {
+        "AF25": {
+          "center_nm": [
+            48500000,
+            26000000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "AE26": {
+          "center_nm": [
+            49000000,
+            25500000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "AF26": {
+          "center_nm": [
+            49000000,
+            26000000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 0.93,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.43,
+              "max_mm": 0.93,
+              "center_has_plane": false
+            }
+          }
+        }
+      },
+      "gerber_flash_apertures": {
+        "phy-joint-F_Paste.gbr": {
+          "AF25": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "AE26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "AF26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ]
+        },
+        "phy-joint-F_Mask.gbr": {
+          "AF25": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "AE26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "AF26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ]
+        },
+        "phy-joint-F_Cu.gbr": {
+          "AF25": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "AE26": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.450000"
+            ]
+          ],
+          "AF26": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.450000"
+            ]
+          ]
+        }
+      },
+      "regressions": {
+        "clearance": 7,
+        "shorting_items": 2,
+        "hole_clearance": 1,
+        "solder_mask_bridge": 1
+      }
+    },
+    {
+      "name": "supplier-example",
+      "board": "runs/bga-filled-supplier-example/phy-joint.kicad_pcb",
+      "sha256": "1a91b2b747cf12c8e7536fbb399182750b2fca17de2fc8ad7de5ee0eba14cb17",
+      "drill_mm": 0.15,
+      "copper_land_mm": 0.25,
+      "annulus_mm": 0.05,
+      "via_projected_outside_original_land_mm": 0.0,
+      "aspect_ratio": 10.67,
+      "pins": {
+        "AF25": {
+          "center_nm": [
+            48500000,
+            26000000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "AE26": {
+          "center_nm": [
+            49000000,
+            25500000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 1.01,
+              "center_has_plane": false
+            }
+          }
+        },
+        "AF26": {
+          "center_nm": [
+            49000000,
+            26000000
+          ],
+          "pitch_mm": 0.5,
+          "land_mm": 0.25,
+          "nominal_mask_mm": 0.25,
+          "nominal_paste_mm": 0.25,
+          "baseline_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            },
+            "In4.Cu": {
+              "min_mm": 0.0,
+              "max_mm": 0.0,
+              "center_has_plane": true
+            }
+          },
+          "trial_plane_radius_sample": {
+            "In1.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 0.83,
+              "center_has_plane": false
+            },
+            "In4.Cu": {
+              "min_mm": 0.33,
+              "max_mm": 0.83,
+              "center_has_plane": false
+            }
+          }
+        }
+      },
+      "gerber_flash_apertures": {
+        "phy-joint-F_Paste.gbr": {
+          "AF25": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "AE26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "AF26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ]
+        },
+        "phy-joint-F_Mask.gbr": {
+          "AF25": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "AE26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "AF26": [
+            [
+              "C",
+              "0.250000"
+            ]
+          ]
+        },
+        "phy-joint-F_Cu.gbr": {
+          "AF25": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "AE26": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.250000"
+            ]
+          ],
+          "AF26": [
+            [
+              "C",
+              "0.250000"
+            ],
+            [
+              "C",
+              "0.250000"
+            ]
+          ]
+        }
+      },
+      "regressions": {
+        "annular_width": 3,
+        "shorting_items": 2,
+        "clearance": 1,
+        "hole_clearance": 1,
+        "drill_out_of_range": 3,
+        "via_diameter": 3
+      }
+    }
+  ],
+  "sources": [
+    "https://jlcpcb.com/help/article/bga-design-guidelines---pcb-layout-recommendations-for-bga-packages",
+    "https://jlcpcb.com/help/article/via-in-pad-pofv-guide"
+  ],
+  "notes": [
+    "JLCPCB shows a 0.25/0.15 mm filled example for 0.5 mm pitch and separately advises at least 0.35 mm land where possible. Applicability to the actual 1.6 mm six-layer stack, drill registration, retained annulus and cost are unconfirmed. Standard 6-layer POFV alone does not confirm this geometry.",
+    "Plane radii are sampled every 0.01 mm in 16 directions; 1.01 means no GND encountered within 1 mm.",
+    "No project design rule was changed. No trial is adopted. No DFM approval, electrical/thermal simulation, or physical sample."
+  ],
+  "adopted": false
+}

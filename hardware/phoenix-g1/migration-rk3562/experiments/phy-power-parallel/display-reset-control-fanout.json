@@ -1,0 +1,169 @@
+{
+  "parent_sha256": "db84d12e36a96084efe16e5372fd6e522467ecf3c4163b05e52add5287399dc9",
+  "candidate": null,
+  "attempts": [
+    {
+      "at": [
+        34200000,
+        16700000
+      ],
+      "order": [
+        "EXP_GPIO1",
+        "LCD_DC"
+      ],
+      "branches": [
+        {
+          "net": "EXP_GPIO1",
+          "reason": "closed front channel",
+          "reachable": 502,
+          "starts": 1,
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "at": [
+        34200000,
+        16700000
+      ],
+      "order": [
+        "LCD_DC",
+        "EXP_GPIO1"
+      ],
+      "branches": [
+        {
+          "net": "LCD_DC",
+          "width": 200000,
+          "code": 11,
+          "length_mm": 0.45
+        },
+        {
+          "net": "EXP_GPIO1",
+          "reason": "closed front channel",
+          "reachable": 502,
+          "starts": 1,
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "at": [
+        34400000,
+        16475000
+      ],
+      "order": [
+        "EXP_GPIO1",
+        "LCD_DC"
+      ],
+      "branches": [
+        {
+          "net": "EXP_GPIO1",
+          "reason": "closed front channel",
+          "reachable": 502,
+          "starts": 1,
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "at": [
+        34400000,
+        16475000
+      ],
+      "order": [
+        "LCD_DC",
+        "EXP_GPIO1"
+      ],
+      "branches": [
+        {
+          "net": "LCD_DC",
+          "width": 200000,
+          "code": 11,
+          "length_mm": 0.45
+        },
+        {
+          "net": "EXP_GPIO1",
+          "reason": "closed front channel",
+          "reachable": 502,
+          "starts": 1,
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "at": [
+        33450000,
+        18250000
+      ],
+      "order": [
+        "EXP_GPIO1",
+        "LCD_DC"
+      ],
+      "branches": [
+        {
+          "net": "EXP_GPIO1",
+          "reason": "closed front channel",
+          "reachable": 583,
+          "starts": 1,
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "at": [
+        33450000,
+        18250000
+      ],
+      "order": [
+        "LCD_DC",
+        "EXP_GPIO1"
+      ],
+      "branches": [
+        {
+          "net": "LCD_DC",
+          "reason": "anchor blocked",
+          "starts": 0,
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "at": [
+        34875000,
+        22725000
+      ],
+      "order": [
+        "EXP_GPIO1",
+        "LCD_DC"
+      ],
+      "branches": [
+        {
+          "net": "EXP_GPIO1",
+          "reason": "closed front channel",
+          "reachable": 2242,
+          "starts": 1,
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "at": [
+        34875000,
+        22725000
+      ],
+      "order": [
+        "LCD_DC",
+        "EXP_GPIO1"
+      ],
+      "branches": [
+        {
+          "net": "LCD_DC",
+          "reason": "anchor blocked",
+          "starts": 0,
+          "goals": 1
+        }
+      ]
+    }
+  ],
+  "assembly_ready": false
+}

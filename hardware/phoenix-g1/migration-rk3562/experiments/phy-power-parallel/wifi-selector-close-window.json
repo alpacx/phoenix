@@ -1,0 +1,46 @@
+{
+  "parent_sha256": "bab072834f8f2e1593ecd159477ec43c0ba686aaf6beb28f38c074c022f4c341",
+  "land_face": "B.Cu",
+  "module_pad_nm": [
+    67187500,
+    16400000
+  ],
+  "worst_trial_trace_width_mm": 0.335,
+  "counts": {
+    "courtyard_clear": 3530,
+    "lands_clear": 60
+  },
+  "single_obstructions": {
+    "U25": 10846
+  },
+  "single_accessible": 2,
+  "short_candidates": [
+    {
+      "pos_nm": [
+        69787500,
+        16800000
+      ],
+      "angle": 0,
+      "common_nm": [
+        69277500,
+        16800000
+      ],
+      "feed_mm": 1.8536720314014556
+    },
+    {
+      "pos_nm": [
+        69787500,
+        16800000
+      ],
+      "angle": 180,
+      "common_nm": [
+        70297499,
+        16800000
+      ],
+      "feed_mm": 2.8581277683128516
+    }
+  ],
+  "paired": 0,
+  "best": [],
+  "assembly_ready": false
+}

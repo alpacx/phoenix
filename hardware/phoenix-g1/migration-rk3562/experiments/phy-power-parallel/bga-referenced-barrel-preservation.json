@@ -1,0 +1,39 @@
+{
+  "board_sha256": "55f587d0379a6647e4e4dfbc6dd6cd42ce880906af779b3d9b14b653816e5578",
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 7321,
+    "explicitly_replaced_copper": {
+      "f89b2666-064d-48b3-821d-7c0439b8420c": [
+        "LPDDR4_DQ10_B",
+        0,
+        49649999,
+        14000000,
+        49649999,
+        14000000,
+        450000,
+        200000
+      ]
+    },
+    "added_tracks_vias": 2,
+    "existing_connected_pad_groups_preserved": 121
+  },
+  "prior_pairs_verified": 698,
+  "nearby_existing_fast_segments": 107,
+  "return_distance": [
+    {
+      "net": "LPDDR4_DQ10_B",
+      "old_nearest_gnd_mm": 1.3036106550657678,
+      "new_nearest_gnd_mm": 0.6576473218982952,
+      "extension_mm": 0.350001,
+      "centerline_samples_without_plane": 15,
+      "centerline_samples": 15
+    }
+  ],
+  "projected_area_losses": [],
+  "via_land_margin_conflicts": [],
+  "drc_counts": {
+    "via_dangling": 121
+  },
+  "minimum_joins": 449
+}

@@ -1,0 +1,76 @@
+{
+  "parent_sha256": "4318afe6eeea7f9ce5dbcf7c8d7c72b721c70f72d562fe88a18963c206070021",
+  "choices": 11,
+  "candidate": {
+    "board": "runs/vdd1-external-pair/phy-joint.kicad_pcb",
+    "sha256": "fb370a4c569aaeef2ef376974b98ec1e6eb838a63652fc3ae07a18986a47ef85",
+    "barrels": [
+      "3e3c8ceb-dbaa-4d19-921d-5ccb675f1af8",
+      "fe3c99bb-488a-4d64-ad88-7a682d87ae41"
+    ],
+    "resized": "3e3c8ceb-dbaa-4d19-921d-5ccb675f1af8",
+    "bridge": "f5bc3314-a143-4c32-8e7c-de550d18ef9a",
+    "bridge_layer": "In3.Cu",
+    "source_legs": [
+      {
+        "at_nm": [
+          57300000,
+          2300000
+        ],
+        "anchor_nm": [
+          59550000,
+          1950000
+        ],
+        "bend_nm": [
+          59550000,
+          1950000
+        ],
+        "length_mm": 2.27705950734714
+      },
+      {
+        "at_nm": [
+          58225000,
+          2450000
+        ],
+        "anchor_nm": [
+          59550000,
+          1950000
+        ],
+        "bend_nm": [
+          59550000,
+          1950000
+        ],
+        "length_mm": 1.4162009038268546
+      }
+    ],
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 7132,
+      "explicitly_replaced_copper": {
+        "3e3c8ceb-dbaa-4d19-921d-5ccb675f1af8": [
+          "+1V8_SYS",
+          0,
+          57300000,
+          2300000,
+          57300000,
+          2300000,
+          450000,
+          200000
+        ]
+      },
+      "added_tracks_vias": 4,
+      "existing_connected_pad_groups_preserved": 121
+    }
+  },
+  "trials": [
+    {
+      "new_at_nm": [
+        58225000,
+        2450000
+      ],
+      "layer": "In3.Cu",
+      "new_drc": []
+    }
+  ],
+  "assembly_ready": false
+}

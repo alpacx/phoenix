@@ -1,0 +1,66 @@
+{
+  "board": "runs/strap-clearance-R526/phy-joint.kicad_pcb",
+  "sha256": "8f8e3ae287b7de04ef49ba8da92fd235589047068baaef7a9fff97bb33f867f8",
+  "records": [
+    {
+      "ref": "R526",
+      "layer": "B.Cu",
+      "center_mm": [
+        69.6,
+        28.4
+      ],
+      "preservation": {
+        "existing_pad_instances_preserved": 2006,
+        "existing_tracks_vias_preserved": 5837,
+        "explicitly_replaced_copper": {},
+        "added_tracks_vias": 1,
+        "existing_connected_pad_groups_preserved": 73
+      }
+    }
+  ],
+  "resolved": [
+    [
+      "H8105 mechanical reservation",
+      "R526"
+    ]
+  ],
+  "remaining": [
+    [
+      "H8103 mechanical reservation",
+      "R2014"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "C1625"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "C1631"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "C1640"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "C1642"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "C1679"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "R1506"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "Y1"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "Y2002"
+    ]
+  ],
+  "assembly_ready": false
+}

@@ -1,0 +1,79 @@
+{
+  "source_sha256": "d3f4d15415e1dc3d8b2a31be76f4cf638e92bfc97363883411a433dfc9e64e8b",
+  "board": "runs/rotated-cap-gnd-pivot-C483-270/phy-joint.kicad_pcb",
+  "sha256": "5e1f23b4dad7a5e08a1a3f34877fbfa584e170c2f227c1d93bb68506f117fd19",
+  "records": [
+    {
+      "name": "C483",
+      "rotation": 270,
+      "original_positive_nm": [
+        58980000,
+        12500000
+      ],
+      "component_movement_mm": 0.678823,
+      "width_mm": 0.3,
+      "ground": {
+        "connected": true,
+        "kind": "two existing ground barrels",
+        "anchors_nm": [
+          [
+            59000000,
+            10000000
+          ],
+          [
+            60000000,
+            10000000
+          ]
+        ],
+        "anchor_ids": [
+          "2b0eb43f-acdb-4d97-8268-6afdba12bee8",
+          "270fc93f-0972-402c-81ab-580d0f265e77"
+        ]
+      },
+      "groups_preserved": 119
+    }
+  ],
+  "failed": [
+    {
+      "part": "C431",
+      "angles": {
+        "180": "courtyard",
+        "90": "courtyard",
+        "270": "courtyard"
+      }
+    },
+    {
+      "part": "C432",
+      "angles": {
+        "180": "courtyard",
+        "90": "two return barrels unreachable",
+        "270": "courtyard"
+      }
+    },
+    {
+      "part": "C421",
+      "angles": {
+        "180": "courtyard",
+        "90": "courtyard",
+        "270": "courtyard"
+      }
+    },
+    {
+      "part": "C422",
+      "angles": {
+        "180": "courtyard",
+        "90": "courtyard",
+        "270": "courtyard"
+      }
+    },
+    {
+      "part": "C470",
+      "angles": {
+        "180": "courtyard",
+        "90": "courtyard",
+        "270": "courtyard"
+      }
+    }
+  ],
+  "assembly_ready": false
+}

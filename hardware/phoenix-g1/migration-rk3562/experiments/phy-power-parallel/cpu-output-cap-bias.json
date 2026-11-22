@@ -1,0 +1,81 @@
+{
+  "board_sha256": "1fb44f12992b5adfc103274d635402048b3b50cbec9567d74e174beb5e5d7f7f",
+  "mpn": "CL21A226MOCLRNC",
+  "matched_ref": [
+    "C1011",
+    "C1012",
+    "C1013",
+    "C1014",
+    "C1603",
+    "C1604",
+    "C1605",
+    "C1606",
+    "C1607",
+    "C1608"
+  ],
+  "supplier": "https://product.samsungsem.com/mlcc/CL21A226MOCLRN.do",
+  "measurement": {
+    "temperature_c": 25.0,
+    "frequency_hz": 120,
+    "ac_signal_v": 0.5
+  },
+  "rows": [
+    {
+      "vdc": 0.7,
+      "typical_change_percent": -4.644,
+      "single_typical_uf": 20.978,
+      "ten_typical_uf": 209.783,
+      "ten_at_minus_20pct_initial_tolerance_uf": 167.826
+    },
+    {
+      "vdc": 0.8,
+      "typical_change_percent": -5.493,
+      "single_typical_uf": 20.792,
+      "ten_typical_uf": 207.916,
+      "ten_at_minus_20pct_initial_tolerance_uf": 166.332
+    },
+    {
+      "vdc": 0.9,
+      "typical_change_percent": -6.471,
+      "single_typical_uf": 20.576,
+      "ten_typical_uf": 205.764,
+      "ten_at_minus_20pct_initial_tolerance_uf": 164.611
+    },
+    {
+      "vdc": 1.0,
+      "typical_change_percent": -7.607,
+      "single_typical_uf": 20.327,
+      "ten_typical_uf": 203.266,
+      "ten_at_minus_20pct_initial_tolerance_uf": 162.612
+    },
+    {
+      "vdc": 1.1,
+      "typical_change_percent": -8.923,
+      "single_typical_uf": 20.037,
+      "ten_typical_uf": 200.37,
+      "ten_at_minus_20pct_initial_tolerance_uf": 160.296
+    },
+    {
+      "vdc": 1.2,
+      "typical_change_percent": -10.404,
+      "single_typical_uf": 19.711,
+      "ten_typical_uf": 197.112,
+      "ten_at_minus_20pct_initial_tolerance_uf": 157.689
+    },
+    {
+      "vdc": 1.3,
+      "typical_change_percent": -12.019,
+      "single_typical_uf": 19.356,
+      "ten_typical_uf": 193.559,
+      "ten_at_minus_20pct_initial_tolerance_uf": 154.847
+    },
+    {
+      "vdc": 1.5,
+      "typical_change_percent": -15.526,
+      "single_typical_uf": 18.584,
+      "ten_typical_uf": 185.842,
+      "ten_at_minus_20pct_initial_tolerance_uf": 148.674
+    }
+  ],
+  "limitations": "Manufacturer characteristic curve at its specified AC stimulus, applied to marked nominal values. Scaling by tolerance is a sensitivity case and not guaranteed joint worst-case. Excludes remaining capacitors, distribution and full loop dynamics."
+}

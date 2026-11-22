@@ -1,0 +1,40 @@
+{
+  "board": "runs/phy-strap-site-R1504/phy-joint.kicad_pcb",
+  "sha256": "132b952ce53f3a25e09b85779b7e04105885e478059d2ad301e3d35b28c1d607",
+  "records": [
+    {
+      "ref": "R1507",
+      "target": "U16",
+      "center_mm": [
+        30.5,
+        18.2
+      ],
+      "stub_mm": 1.7245579143653018,
+      "new_drc": [],
+      "preservation": {
+        "existing_pad_instances_preserved": 2008,
+        "existing_tracks_vias_preserved": 6152,
+        "explicitly_replaced_copper": {},
+        "added_tracks_vias": 1,
+        "existing_connected_pad_groups_preserved": 78
+      }
+    },
+    {
+      "ref": "R1504",
+      "target": "TP10",
+      "center_mm": [
+        59.1,
+        35.0
+      ],
+      "stub_mm": 1.59,
+      "new_drc": [],
+      "preservation": {
+        "existing_pad_instances_preserved": 2008,
+        "existing_tracks_vias_preserved": 6152,
+        "explicitly_replaced_copper": {},
+        "added_tracks_vias": 2,
+        "existing_connected_pad_groups_preserved": 78
+      }
+    }
+  ]
+}

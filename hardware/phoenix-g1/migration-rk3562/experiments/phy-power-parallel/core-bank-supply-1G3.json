@@ -1,0 +1,49 @@
+{
+  "parent_sha256": "e4caa5e62c150b58ca7c9832727a8c4a723c58a97f84935a40b0150500f8d9e2",
+  "original_cpu_pins": [
+    "1G3",
+    "1G4",
+    "1G5",
+    "1H3",
+    "1H4"
+  ],
+  "sampled_by_obstacle_count": {
+    "7": 299,
+    "9": 8,
+    "8": 131,
+    "6": 491,
+    "5": 274,
+    "4": 215,
+    "3": 46,
+    "1": 8,
+    "2": 19,
+    "0": 1
+  },
+  "single_blockers": {
+    "U1.1G3": 2,
+    "U1.1H3": 2,
+    "U1.1G4": 2,
+    "U1.1H4": 2
+  },
+  "removable_cpu_bypasses_only": [],
+  "ground_only": [],
+  "branch_options": [
+    {
+      "source_nm": [
+        39750000,
+        19675000
+      ],
+      "elbow_nm": [
+        39750000,
+        19675000
+      ],
+      "via_nm": [
+        40075000,
+        19675000
+      ],
+      "length_mm": 0.325
+    }
+  ],
+  "supply": "VDD_NPU",
+  "anchor": "1G3"
+}

@@ -1,0 +1,45 @@
+{
+  "parent_sha256": "7623e79a6838934df7f6d441cf01ec91127591fe4a32247673c4e6f30816fe7a",
+  "base": {
+    "nodes": 25,
+    "max_displacement_mm": 0.5024937810560445,
+    "via_sites": 0,
+    "touch_A6": false
+  },
+  "individual": [
+    {
+      "id": "91edcce5-9029-478a-af1b-3fb165abfa5d",
+      "net": "USB_DM",
+      "kind": "PAD",
+      "label": "J1.B7",
+      "unique_blocked_edges": 57
+    },
+    {
+      "id": "3cb304d2-bf00-4617-99f6-513d449adfd2",
+      "net": "USB_CC2",
+      "kind": "PAD",
+      "label": "J1.B5",
+      "unique_blocked_edges": 51
+    },
+    {
+      "id": "8d7af7aa-0eed-440e-8f83-52f34269749a",
+      "kind": "ZONE",
+      "label": "",
+      "net": "",
+      "unique_blocked_edges": 9
+    },
+    {
+      "id": "4b352c41-58d4-4276-a34f-6cade39070fc",
+      "net": "USB_CC2",
+      "kind": "PCB_VIA",
+      "label": null,
+      "unique_blocked_edges": 5,
+      "with_object_removed": {
+        "nodes": 518,
+        "max_displacement_mm": 2.4,
+        "via_sites": 30,
+        "touch_A6": true
+      }
+    }
+  ]
+}

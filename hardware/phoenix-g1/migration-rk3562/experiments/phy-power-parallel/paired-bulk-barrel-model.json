@@ -1,0 +1,126 @@
+{
+  "board_sha256": "7623e79a6838934df7f6d441cf01ec91127591fe4a32247673c4e6f30816fe7a",
+  "rows": [
+    {
+      "ref": "C431",
+      "feed": [
+        {
+          "site_mm": [
+            72.6,
+            10.2
+          ],
+          "land_mm": 0.65,
+          "drill_mm": 0.3,
+          "front_path_mm": 1.5935028842544405,
+          "rear_path_mm": 0.9962429422585637
+        },
+        {
+          "site_mm": [
+            72.6,
+            9.4
+          ],
+          "land_mm": 0.65,
+          "drill_mm": 0.3,
+          "front_path_mm": 1.115685424949238,
+          "rear_path_mm": 1.0735455276791945
+        }
+      ],
+      "return_site_mm": [
+        74.55,
+        9.0
+      ],
+      "return_drill_mm": 0.3,
+      "rear_ground_trace_mm": 1.2727922061357857,
+      "resistance_cases": [
+        {
+          "foil_um": 35,
+          "plating_um": 25,
+          "temp_c": 20,
+          "isolated_branch_mohm": [
+            2.675190874121461,
+            2.428588144629675
+          ],
+          "ideal_independent_parallel_mohm": 1.2729659371307651,
+          "shorter_branch_only_mohm": 2.428588144629675,
+          "rear_ground_trace_only_mohm": 0.7836763440636053
+        },
+        {
+          "foil_um": 30,
+          "plating_um": 20,
+          "temp_c": 85,
+          "isolated_branch_mohm": [
+            4.057886031041802,
+            3.6966890681779283
+          ],
+          "ideal_independent_parallel_mohm": 1.934437765954905,
+          "shorter_branch_only_mohm": 3.6966890681779283,
+          "rear_ground_trace_only_mohm": 1.147844210513762
+        }
+      ]
+    },
+    {
+      "ref": "C434",
+      "feed": [
+        {
+          "site_mm": [
+            78.2,
+            10.1
+          ],
+          "land_mm": 0.65,
+          "drill_mm": 0.3,
+          "front_path_mm": 1.369238815542512,
+          "rear_path_mm": 2.093442141545832
+        },
+        {
+          "site_mm": [
+            78.9,
+            10.6
+          ],
+          "land_mm": 0.65,
+          "drill_mm": 0.3,
+          "front_path_mm": 2.1591883092036785,
+          "rear_path_mm": 1.2379418403139948
+        }
+      ],
+      "return_site_mm": [
+        80.5,
+        8.6
+      ],
+      "return_drill_mm": 0.3,
+      "rear_ground_trace_mm": 1.1800423721205946,
+      "resistance_cases": [
+        {
+          "foil_um": 35,
+          "plating_um": 25,
+          "temp_c": 20,
+          "isolated_branch_mohm": [
+            3.212669504518563,
+            3.1723089358571928
+          ],
+          "ideal_independent_parallel_mohm": 1.596180828535478,
+          "shorter_branch_only_mohm": 3.1723089358571928,
+          "rear_ground_trace_only_mohm": 0.7265689462628233
+        },
+        {
+          "foil_um": 30,
+          "plating_um": 20,
+          "temp_c": 85,
+          "isolated_branch_mohm": [
+            4.845126501995851,
+            4.786010713415614
+          ],
+          "ideal_independent_parallel_mohm": 2.407693590877303,
+          "shorter_branch_only_mohm": 4.786010713415614,
+          "rear_ground_trace_only_mohm": 1.0641994808499384
+        }
+      ]
+    }
+  ],
+  "assumptions": {
+    "copper_resistivity_ohm_m_at_20C": 1.724e-08,
+    "board_thickness_mm": 1.6,
+    "drill_interpretation": "finished diameter assumed for the annular barrel model",
+    "trace_width_mm": 0.8
+  },
+  "limitations": "DC conductor estimate only. Shared copper at the branch ends, land spreading, planes, capacitor ESR/ESL and switching-loop impedance are excluded. These are not measured operating currents, temperatures or load regulation."
+}

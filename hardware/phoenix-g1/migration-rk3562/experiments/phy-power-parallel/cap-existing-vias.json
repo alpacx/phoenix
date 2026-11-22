@@ -1,0 +1,76 @@
+{
+  "board": "runs/cap-ground-reuse/phy-joint.kicad_pcb",
+  "sha256": "5c1821a2937c28405d85cf3acda080edea4969f075ac4034e7954ff2d2380d9e",
+  "parent_sha256": "a51e48235ce1de2f4981feab8da9ab6ad83717f82299b37561bce34e034d0c6c",
+  "added": [
+    {
+      "ref": "C1613",
+      "pad": "2",
+      "via_nm": [
+        28950000,
+        32000000
+      ],
+      "length_mm": 0.986154146165801
+    },
+    {
+      "ref": "C1683",
+      "pad": "2",
+      "via_nm": [
+        32720000,
+        29300000
+      ],
+      "length_mm": 0.8246211251235321
+    },
+    {
+      "ref": "C444",
+      "pad": "2",
+      "via_nm": [
+        80500000,
+        8600000
+      ],
+      "length_mm": 1.1236102527122116
+    }
+  ],
+  "unresolved": [
+    "C1601",
+    "C1603",
+    "C1605",
+    "C1606",
+    "C1608",
+    "C1609",
+    "C1611",
+    "C1612",
+    "C1614",
+    "C1616",
+    "C1617",
+    "C1618",
+    "C1621",
+    "C1622",
+    "C1628",
+    "C1629",
+    "C1630",
+    "C1634",
+    "C1635",
+    "C1636",
+    "C1638",
+    "C1639",
+    "C1641",
+    "C1644",
+    "C1645",
+    "C1679",
+    "C1680",
+    "C431",
+    "C433",
+    "C434",
+    "C442"
+  ],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 6076,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 3,
+    "existing_connected_pad_groups_preserved": 79
+  },
+  "new_drc": [],
+  "assembly_ready": false
+}

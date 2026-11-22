@@ -1,0 +1,423 @@
+{
+  "parent_sha256": "7623e79a6838934df7f6d441cf01ec91127591fe4a32247673c4e6f30816fe7a",
+  "rows": [
+    {
+      "net": "ETH_MDIO",
+      "layer": "F.Cu",
+      "group": 0,
+      "nodes": 9205,
+      "found": null
+    },
+    {
+      "net": "ETH_MDIO",
+      "layer": "F.Cu",
+      "group": 1,
+      "nodes": 0,
+      "found": null
+    },
+    {
+      "net": "ETH_MDIO",
+      "layer": "F.Cu",
+      "group": 2,
+      "nodes": 21,
+      "found": null
+    },
+    {
+      "net": "ETH_TXEN",
+      "layer": "F.Cu",
+      "group": 0,
+      "nodes": 1597,
+      "found": null
+    },
+    {
+      "net": "ETH_TXEN",
+      "layer": "F.Cu",
+      "group": 1,
+      "nodes": 6,
+      "found": null
+    },
+    {
+      "net": "ETH_TXCLK",
+      "layer": "F.Cu",
+      "group": 0,
+      "nodes": 1552,
+      "found": {
+        "groups": [
+          "R506.1",
+          "U1.Y2"
+        ],
+        "path_nm": [
+          [
+            33700000,
+            19200000
+          ],
+          [
+            33800000,
+            19300000
+          ],
+          [
+            33900000,
+            19400000
+          ],
+          [
+            34000000,
+            19500000
+          ],
+          [
+            34100000,
+            19600000
+          ],
+          [
+            34200000,
+            19600000
+          ],
+          [
+            34300000,
+            19700000
+          ],
+          [
+            34400000,
+            19700000
+          ],
+          [
+            34500000,
+            19700000
+          ],
+          [
+            34600000,
+            19700000
+          ],
+          [
+            34700000,
+            19700000
+          ],
+          [
+            34800000,
+            19800000
+          ],
+          [
+            34900000,
+            19900000
+          ],
+          [
+            35000000,
+            20000000
+          ],
+          [
+            35100000,
+            20100000
+          ],
+          [
+            35100000,
+            20200000
+          ],
+          [
+            35100000,
+            20300000
+          ],
+          [
+            35100000,
+            20400000
+          ],
+          [
+            35100000,
+            20500000
+          ],
+          [
+            35100000,
+            20600000
+          ],
+          [
+            35100000,
+            20700000
+          ],
+          [
+            35100000,
+            20800000
+          ],
+          [
+            35100000,
+            20900000
+          ],
+          [
+            35100000,
+            21000000
+          ],
+          [
+            35100000,
+            21100000
+          ],
+          [
+            35100000,
+            21200000
+          ],
+          [
+            35100000,
+            21300000
+          ],
+          [
+            35100000,
+            21400000
+          ],
+          [
+            35100000,
+            21500000
+          ],
+          [
+            35100000,
+            21600000
+          ],
+          [
+            35100000,
+            21700000
+          ],
+          [
+            35100000,
+            21800000
+          ],
+          [
+            35200000,
+            21900000
+          ],
+          [
+            35300000,
+            22000000
+          ],
+          [
+            35400000,
+            22100000
+          ],
+          [
+            35500000,
+            22200000
+          ],
+          [
+            35600000,
+            22300000
+          ],
+          [
+            35700000,
+            22400000
+          ],
+          [
+            35800000,
+            22500000
+          ],
+          [
+            35900000,
+            22600000
+          ],
+          [
+            36000000,
+            22700000
+          ],
+          [
+            36100000,
+            22800000
+          ],
+          [
+            36200000,
+            22900000
+          ],
+          [
+            36300000,
+            22900000
+          ],
+          [
+            36400000,
+            23000000
+          ],
+          [
+            36500000,
+            23000000
+          ],
+          [
+            36600000,
+            23000000
+          ],
+          [
+            36700000,
+            23000000
+          ],
+          [
+            36800000,
+            23000000
+          ],
+          [
+            36900000,
+            23000000
+          ]
+        ],
+        "length_mm": 5.769848480983498
+      }
+    },
+    {
+      "net": "ETH_TXCLK",
+      "layer": "F.Cu",
+      "group": 1,
+      "nodes": 1609,
+      "found": null
+    },
+    {
+      "net": "PHY_RXD3",
+      "layer": "F.Cu",
+      "group": 0,
+      "nodes": 108,
+      "found": null
+    },
+    {
+      "net": "PHY_RXD3",
+      "layer": "F.Cu",
+      "group": 1,
+      "nodes": 21,
+      "found": null
+    },
+    {
+      "net": "ETH_TXD1",
+      "layer": "F.Cu",
+      "group": 0,
+      "nodes": 1588,
+      "found": null
+    },
+    {
+      "net": "ETH_TXD1",
+      "layer": "F.Cu",
+      "group": 1,
+      "nodes": 5,
+      "found": null
+    },
+    {
+      "net": "ETH_TXD3",
+      "layer": "F.Cu",
+      "group": 0,
+      "nodes": 3616,
+      "found": null
+    },
+    {
+      "net": "ETH_TXD3",
+      "layer": "F.Cu",
+      "group": 1,
+      "nodes": 96,
+      "found": null
+    },
+    {
+      "net": "WIFI_D0",
+      "layer": "F.Cu",
+      "group": 0,
+      "nodes": 250,
+      "found": null
+    },
+    {
+      "net": "WIFI_D0",
+      "layer": "F.Cu",
+      "group": 1,
+      "nodes": 417,
+      "found": null
+    },
+    {
+      "net": "ETH_TXD2",
+      "layer": "F.Cu",
+      "group": 0,
+      "nodes": 14,
+      "found": null
+    },
+    {
+      "net": "ETH_TXD2",
+      "layer": "F.Cu",
+      "group": 1,
+      "nodes": 3788,
+      "found": null
+    },
+    {
+      "net": "EMMC_D0",
+      "layer": "F.Cu",
+      "group": 1,
+      "nodes": 18671,
+      "found": null
+    },
+    {
+      "net": "EMMC_D0",
+      "layer": "F.Cu",
+      "group": 0,
+      "nodes": 17,
+      "found": null
+    },
+    {
+      "net": "EMMC_CMD",
+      "layer": "B.Cu",
+      "group": 1,
+      "nodes": 4,
+      "found": null
+    },
+    {
+      "net": "EMMC_CMD",
+      "layer": "B.Cu",
+      "group": 2,
+      "nodes": 12460,
+      "found": null
+    },
+    {
+      "net": "PHY_RXD2",
+      "layer": "F.Cu",
+      "group": 0,
+      "nodes": 205,
+      "found": null
+    },
+    {
+      "net": "PHY_RXD2",
+      "layer": "F.Cu",
+      "group": 1,
+      "nodes": 7268,
+      "found": null
+    },
+    {
+      "net": "PHY_RXD2",
+      "layer": "F.Cu",
+      "group": 2,
+      "nodes": 21,
+      "found": null
+    },
+    {
+      "net": "PHY_RXDV_CRS",
+      "layer": "F.Cu",
+      "group": 0,
+      "nodes": 11311,
+      "found": null
+    },
+    {
+      "net": "PHY_RXDV_CRS",
+      "layer": "F.Cu",
+      "group": 1,
+      "nodes": 21,
+      "found": null
+    },
+    {
+      "net": "PHY_RXD0",
+      "layer": "B.Cu",
+      "group": 1,
+      "nodes": 183,
+      "found": null
+    },
+    {
+      "net": "PHY_RXD0",
+      "layer": "B.Cu",
+      "group": 2,
+      "nodes": 577,
+      "found": null
+    },
+    {
+      "net": "EMMC_CLK",
+      "layer": "B.Cu",
+      "group": 0,
+      "nodes": 47,
+      "found": null
+    },
+    {
+      "net": "EMMC_CLK",
+      "layer": "B.Cu",
+      "group": 1,
+      "nodes": 4052,
+      "found": null
+    }
+  ]
+}

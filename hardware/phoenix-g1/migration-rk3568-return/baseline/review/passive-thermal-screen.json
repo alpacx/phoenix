@@ -1,0 +1,423 @@
+{
+  "status": "HYPOTHETICAL STEADY-STATE SENSITIVITY; NOT A THERMAL VALIDATION",
+  "reference_envelope_mm": [
+    90,
+    40,
+    20
+  ],
+  "actual_enclosure_dimensions_final": false,
+  "base_sides_area_m2": 0.008800000000000002,
+  "all_faces_area_m2": 0.012400000000000001,
+  "assumed_emissivity": 0.85,
+  "surface_screen_c": 55,
+  "surface_screen_note": "Internal design screening value, not a regulatory or safe-touch limit.",
+  "equation": "Q=A*[h*(Ts-Ta)+epsilon*sigma*((Ts+273.15)^4-(Ta+273.15)^4)]",
+  "power_note": "2/3/5/8W are hypothetical scenarios, not measured or specified Phoenix consumption.",
+  "cases": [
+    {
+      "area_case": "base_and_sides_only",
+      "ambient_c": 25,
+      "h_assumed_w_m2k": 3,
+      "assumed_dissipation_w": 2,
+      "surface_equilibrium_c": 50.79,
+      "heat_at_55c_surface_w": 2.359
+    },
+    {
+      "area_case": "base_and_sides_only",
+      "ambient_c": 25,
+      "h_assumed_w_m2k": 3,
+      "assumed_dissipation_w": 3,
+      "surface_equilibrium_c": 62.26,
+      "heat_at_55c_surface_w": 2.359
+    },
+    {
+      "area_case": "base_and_sides_only",
+      "ambient_c": 25,
+      "h_assumed_w_m2k": 3,
+      "assumed_dissipation_w": 5,
+      "surface_equilibrium_c": 82.96,
+      "heat_at_55c_surface_w": 2.359
+    },
+    {
+      "area_case": "base_and_sides_only",
+      "ambient_c": 25,
+      "h_assumed_w_m2k": 3,
+      "assumed_dissipation_w": 8,
+      "surface_equilibrium_c": 109.73,
+      "heat_at_55c_surface_w": 2.359
+    },
+    {
+      "area_case": "base_and_sides_only",
+      "ambient_c": 25,
+      "h_assumed_w_m2k": 8,
+      "assumed_dissipation_w": 2,
+      "surface_equilibrium_c": 41.76,
+      "heat_at_55c_surface_w": 3.679
+    },
+    {
+      "area_case": "base_and_sides_only",
+      "ambient_c": 25,
+      "h_assumed_w_m2k": 8,
+      "assumed_dissipation_w": 3,
+      "surface_equilibrium_c": 49.74,
+      "heat_at_55c_surface_w": 3.679
+    },
+    {
+      "area_case": "base_and_sides_only",
+      "ambient_c": 25,
+      "h_assumed_w_m2k": 8,
+      "assumed_dissipation_w": 5,
+      "surface_equilibrium_c": 64.93,
+      "heat_at_55c_surface_w": 3.679
+    },
+    {
+      "area_case": "base_and_sides_only",
+      "ambient_c": 25,
+      "h_assumed_w_m2k": 8,
+      "assumed_dissipation_w": 8,
+      "surface_equilibrium_c": 86.0,
+      "heat_at_55c_surface_w": 3.679
+    },
+    {
+      "area_case": "base_and_sides_only",
+      "ambient_c": 25,
+      "h_assumed_w_m2k": 15,
+      "assumed_dissipation_w": 2,
+      "surface_equilibrium_c": 36.14,
+      "heat_at_55c_surface_w": 5.527
+    },
+    {
+      "area_case": "base_and_sides_only",
+      "ambient_c": 25,
+      "h_assumed_w_m2k": 15,
+      "assumed_dissipation_w": 3,
+      "surface_equilibrium_c": 41.59,
+      "heat_at_55c_surface_w": 5.527
+    },
+    {
+      "area_case": "base_and_sides_only",
+      "ambient_c": 25,
+      "h_assumed_w_m2k": 15,
+      "assumed_dissipation_w": 5,
+      "surface_equilibrium_c": 52.25,
+      "heat_at_55c_surface_w": 5.527
+    },
+    {
+      "area_case": "base_and_sides_only",
+      "ambient_c": 25,
+      "h_assumed_w_m2k": 15,
+      "assumed_dissipation_w": 8,
+      "surface_equilibrium_c": 67.65,
+      "heat_at_55c_surface_w": 5.527
+    },
+    {
+      "area_case": "base_and_sides_only",
+      "ambient_c": 40,
+      "h_assumed_w_m2k": 3,
+      "assumed_dissipation_w": 2,
+      "surface_equilibrium_c": 63.61,
+      "heat_at_55c_surface_w": 1.235
+    },
+    {
+      "area_case": "base_and_sides_only",
+      "ambient_c": 40,
+      "h_assumed_w_m2k": 3,
+      "assumed_dissipation_w": 3,
+      "surface_equilibrium_c": 74.22,
+      "heat_at_55c_surface_w": 1.235
+    },
+    {
+      "area_case": "base_and_sides_only",
+      "ambient_c": 40,
+      "h_assumed_w_m2k": 3,
+      "assumed_dissipation_w": 5,
+      "surface_equilibrium_c": 93.51,
+      "heat_at_55c_surface_w": 1.235
+    },
+    {
+      "area_case": "base_and_sides_only",
+      "ambient_c": 40,
+      "h_assumed_w_m2k": 3,
+      "assumed_dissipation_w": 8,
+      "surface_equilibrium_c": 118.71,
+      "heat_at_55c_surface_w": 1.235
+    },
+    {
+      "area_case": "base_and_sides_only",
+      "ambient_c": 40,
+      "h_assumed_w_m2k": 8,
+      "assumed_dissipation_w": 2,
+      "surface_equilibrium_c": 55.8,
+      "heat_at_55c_surface_w": 1.895
+    },
+    {
+      "area_case": "base_and_sides_only",
+      "ambient_c": 40,
+      "h_assumed_w_m2k": 8,
+      "assumed_dissipation_w": 3,
+      "surface_equilibrium_c": 63.33,
+      "heat_at_55c_surface_w": 1.895
+    },
+    {
+      "area_case": "base_and_sides_only",
+      "ambient_c": 40,
+      "h_assumed_w_m2k": 8,
+      "assumed_dissipation_w": 5,
+      "surface_equilibrium_c": 77.68,
+      "heat_at_55c_surface_w": 1.895
+    },
+    {
+      "area_case": "base_and_sides_only",
+      "ambient_c": 40,
+      "h_assumed_w_m2k": 8,
+      "assumed_dissipation_w": 8,
+      "surface_equilibrium_c": 97.66,
+      "heat_at_55c_surface_w": 1.895
+    },
+    {
+      "area_case": "base_and_sides_only",
+      "ambient_c": 40,
+      "h_assumed_w_m2k": 15,
+      "assumed_dissipation_w": 2,
+      "surface_equilibrium_c": 50.7,
+      "heat_at_55c_surface_w": 2.819
+    },
+    {
+      "area_case": "base_and_sides_only",
+      "ambient_c": 40,
+      "h_assumed_w_m2k": 15,
+      "assumed_dissipation_w": 3,
+      "surface_equilibrium_c": 55.94,
+      "heat_at_55c_surface_w": 2.819
+    },
+    {
+      "area_case": "base_and_sides_only",
+      "ambient_c": 40,
+      "h_assumed_w_m2k": 15,
+      "assumed_dissipation_w": 5,
+      "surface_equilibrium_c": 66.18,
+      "heat_at_55c_surface_w": 2.819
+    },
+    {
+      "area_case": "base_and_sides_only",
+      "ambient_c": 40,
+      "h_assumed_w_m2k": 15,
+      "assumed_dissipation_w": 8,
+      "surface_equilibrium_c": 80.97,
+      "heat_at_55c_surface_w": 2.819
+    },
+    {
+      "area_case": "all_faces_isothermal",
+      "ambient_c": 25,
+      "h_assumed_w_m2k": 3,
+      "assumed_dissipation_w": 2,
+      "surface_equilibrium_c": 43.73,
+      "heat_at_55c_surface_w": 3.323
+    },
+    {
+      "area_case": "all_faces_isothermal",
+      "ambient_c": 25,
+      "h_assumed_w_m2k": 3,
+      "assumed_dissipation_w": 3,
+      "surface_equilibrium_c": 52.32,
+      "heat_at_55c_surface_w": 3.323
+    },
+    {
+      "area_case": "all_faces_isothermal",
+      "ambient_c": 25,
+      "h_assumed_w_m2k": 3,
+      "assumed_dissipation_w": 5,
+      "surface_equilibrium_c": 68.21,
+      "heat_at_55c_surface_w": 3.323
+    },
+    {
+      "area_case": "all_faces_isothermal",
+      "ambient_c": 25,
+      "h_assumed_w_m2k": 3,
+      "assumed_dissipation_w": 8,
+      "surface_equilibrium_c": 89.41,
+      "heat_at_55c_surface_w": 3.323
+    },
+    {
+      "area_case": "all_faces_isothermal",
+      "ambient_c": 25,
+      "h_assumed_w_m2k": 8,
+      "assumed_dissipation_w": 2,
+      "surface_equilibrium_c": 37.01,
+      "heat_at_55c_surface_w": 5.183
+    },
+    {
+      "area_case": "all_faces_isothermal",
+      "ambient_c": 25,
+      "h_assumed_w_m2k": 8,
+      "assumed_dissipation_w": 3,
+      "surface_equilibrium_c": 42.81,
+      "heat_at_55c_surface_w": 5.183
+    },
+    {
+      "area_case": "all_faces_isothermal",
+      "ambient_c": 25,
+      "h_assumed_w_m2k": 8,
+      "assumed_dissipation_w": 5,
+      "surface_equilibrium_c": 54.0,
+      "heat_at_55c_surface_w": 5.183
+    },
+    {
+      "area_case": "all_faces_isothermal",
+      "ambient_c": 25,
+      "h_assumed_w_m2k": 8,
+      "assumed_dissipation_w": 8,
+      "surface_equilibrium_c": 69.86,
+      "heat_at_55c_surface_w": 5.183
+    },
+    {
+      "area_case": "all_faces_isothermal",
+      "ambient_c": 25,
+      "h_assumed_w_m2k": 15,
+      "assumed_dissipation_w": 2,
+      "surface_equilibrium_c": 32.94,
+      "heat_at_55c_surface_w": 7.787
+    },
+    {
+      "area_case": "all_faces_isothermal",
+      "ambient_c": 25,
+      "h_assumed_w_m2k": 15,
+      "assumed_dissipation_w": 3,
+      "surface_equilibrium_c": 36.85,
+      "heat_at_55c_surface_w": 7.787
+    },
+    {
+      "area_case": "all_faces_isothermal",
+      "ambient_c": 25,
+      "h_assumed_w_m2k": 15,
+      "assumed_dissipation_w": 5,
+      "surface_equilibrium_c": 44.54,
+      "heat_at_55c_surface_w": 7.787
+    },
+    {
+      "area_case": "all_faces_isothermal",
+      "ambient_c": 25,
+      "h_assumed_w_m2k": 15,
+      "assumed_dissipation_w": 8,
+      "surface_equilibrium_c": 55.79,
+      "heat_at_55c_surface_w": 7.787
+    },
+    {
+      "area_case": "all_faces_isothermal",
+      "ambient_c": 40,
+      "h_assumed_w_m2k": 3,
+      "assumed_dissipation_w": 2,
+      "surface_equilibrium_c": 57.12,
+      "heat_at_55c_surface_w": 1.741
+    },
+    {
+      "area_case": "all_faces_isothermal",
+      "ambient_c": 40,
+      "h_assumed_w_m2k": 3,
+      "assumed_dissipation_w": 3,
+      "surface_equilibrium_c": 65.02,
+      "heat_at_55c_surface_w": 1.741
+    },
+    {
+      "area_case": "all_faces_isothermal",
+      "ambient_c": 40,
+      "h_assumed_w_m2k": 3,
+      "assumed_dissipation_w": 5,
+      "surface_equilibrium_c": 79.74,
+      "heat_at_55c_surface_w": 1.741
+    },
+    {
+      "area_case": "all_faces_isothermal",
+      "ambient_c": 40,
+      "h_assumed_w_m2k": 3,
+      "assumed_dissipation_w": 8,
+      "surface_equilibrium_c": 99.55,
+      "heat_at_55c_surface_w": 1.741
+    },
+    {
+      "area_case": "all_faces_isothermal",
+      "ambient_c": 40,
+      "h_assumed_w_m2k": 8,
+      "assumed_dissipation_w": 2,
+      "surface_equilibrium_c": 51.32,
+      "heat_at_55c_surface_w": 2.671
+    },
+    {
+      "area_case": "all_faces_isothermal",
+      "ambient_c": 40,
+      "h_assumed_w_m2k": 8,
+      "assumed_dissipation_w": 3,
+      "surface_equilibrium_c": 56.79,
+      "heat_at_55c_surface_w": 2.671
+    },
+    {
+      "area_case": "all_faces_isothermal",
+      "ambient_c": 40,
+      "h_assumed_w_m2k": 8,
+      "assumed_dissipation_w": 5,
+      "surface_equilibrium_c": 67.35,
+      "heat_at_55c_surface_w": 2.671
+    },
+    {
+      "area_case": "all_faces_isothermal",
+      "ambient_c": 40,
+      "h_assumed_w_m2k": 8,
+      "assumed_dissipation_w": 8,
+      "surface_equilibrium_c": 82.35,
+      "heat_at_55c_surface_w": 2.671
+    },
+    {
+      "area_case": "all_faces_isothermal",
+      "ambient_c": 40,
+      "h_assumed_w_m2k": 15,
+      "assumed_dissipation_w": 2,
+      "surface_equilibrium_c": 47.63,
+      "heat_at_55c_surface_w": 3.973
+    },
+    {
+      "area_case": "all_faces_isothermal",
+      "ambient_c": 40,
+      "h_assumed_w_m2k": 15,
+      "assumed_dissipation_w": 3,
+      "surface_equilibrium_c": 51.38,
+      "heat_at_55c_surface_w": 3.973
+    },
+    {
+      "area_case": "all_faces_isothermal",
+      "ambient_c": 40,
+      "h_assumed_w_m2k": 15,
+      "assumed_dissipation_w": 5,
+      "surface_equilibrium_c": 58.78,
+      "heat_at_55c_surface_w": 3.973
+    },
+    {
+      "area_case": "all_faces_isothermal",
+      "ambient_c": 40,
+      "h_assumed_w_m2k": 15,
+      "assumed_dissipation_w": 8,
+      "surface_equilibrium_c": 69.58,
+      "heat_at_55c_surface_w": 3.973
+    }
+  ],
+  "conclusions": [
+    "No fanless near-gigabit VPN performance guarantee is justified by current evidence.",
+    "Heat spreading to a small metal enclosure does not by itself ensure an acceptable surface temperature.",
+    "Including a display must not interrupt the SoC-to-base thermal path.",
+    "If measured losses exceed enclosure capability: revise area/fins, clock/power policy or operating ambient; do not silently reduce throughput requirement."
+  ],
+  "not_modelled": [
+    "Component junction-to-case paths and local hotspots",
+    "Pad pressure, thickness, conductivity and contact resistance",
+    "Enclosure spreading resistance and nonuniform temperature",
+    "Desk contact, blocked faces, orientation and nearby objects",
+    "Actual natural-convection coefficient and finish emissivity",
+    "Cable/connector heat flow",
+    "Transient warmup"
+  ],
+  "prototype_protocol": [
+    "Measure input voltage/current at device for idle, Ethernet forwarding, VPN throughput, Wi-Fi plus VPN and display maximum backlight.",
+    "Repeat with closed enclosure at intended maximum ambient and worst supported orientation until thermal equilibrium.",
+    "Log SoC thermal sensors, clocks, throttling, packet loss and throughput; measure case/display/PMIC/PHY/Wi-Fi temperatures.",
+    "Require component ratings and chosen surface-temperature criterion to be met without loss of required sustained throughput."
+  ]
+}

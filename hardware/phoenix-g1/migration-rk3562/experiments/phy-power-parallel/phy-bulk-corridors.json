@@ -1,0 +1,248 @@
+[
+  {
+    "layer": "B.Cu",
+    "preservation": {
+      "existing_pad_instances_preserved": 2006,
+      "existing_tracks_vias_preserved": 5809,
+      "explicitly_replaced_copper": {},
+      "added_tracks_vias": 5,
+      "existing_connected_pad_groups_preserved": 70
+    },
+    "bulk_connected": true,
+    "new_drc": [
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "1215d0a3-147e-4530-a943-29daf6d93c7c",
+          "363e43f5-bb1d-4584-9d22-b44af72b7a90"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "00064a0f-d8dc-45ab-954f-84db442e50aa",
+          "363e43f5-bb1d-4584-9d22-b44af72b7a90"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "324bc9f4-d04c-4b50-8569-bec9881389f7",
+          "363e43f5-bb1d-4584-9d22-b44af72b7a90"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "0188731a-b790-42fd-998b-ddf5b78f92e8",
+          "363e43f5-bb1d-4584-9d22-b44af72b7a90"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "1c26244e-eb02-440c-a2ea-a320e378dc1a",
+          "363e43f5-bb1d-4584-9d22-b44af72b7a90"
+        ],
+        "count": 1
+      },
+      {
+        "type": "clearance",
+        "severity": "error",
+        "items": [
+          "0a00f68a-d8f5-45a5-9c2b-b4735b2af9e6",
+          "c1f6cf95-3ef1-4eaf-bb34-3f11052ae020"
+        ],
+        "count": 1
+      },
+      {
+        "type": "clearance",
+        "severity": "error",
+        "items": [
+          "494437da-9f30-48d0-9b71-4fb2b419cc18",
+          "7520ec11-622b-493b-b576-5b44e6b4a5b6"
+        ],
+        "count": 1
+      },
+      {
+        "type": "clearance",
+        "severity": "error",
+        "items": [
+          "363e43f5-bb1d-4584-9d22-b44af72b7a90",
+          "7520ec11-622b-493b-b576-5b44e6b4a5b6"
+        ],
+        "count": 1
+      },
+      {
+        "type": "tracks_crossing",
+        "severity": "error",
+        "items": [
+          "330568ba-40f4-4dd8-a352-0d847b659fc3",
+          "363e43f5-bb1d-4584-9d22-b44af72b7a90"
+        ],
+        "count": 1
+      },
+      {
+        "type": "tracks_crossing",
+        "severity": "error",
+        "items": [
+          "08558276-9cf2-4f84-8d3b-8ceb6eed4082",
+          "363e43f5-bb1d-4584-9d22-b44af72b7a90"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "0a00f68a-d8f5-45a5-9c2b-b4735b2af9e6",
+          "363e43f5-bb1d-4584-9d22-b44af72b7a90"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "1339a7be-accb-4934-9ced-a7b436fe602c",
+          "363e43f5-bb1d-4584-9d22-b44af72b7a90"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "363e43f5-bb1d-4584-9d22-b44af72b7a90",
+          "492d4afc-3e12-414e-8f3f-13f03629c269"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "363e43f5-bb1d-4584-9d22-b44af72b7a90",
+          "a8c098e4-3186-41a3-ad37-f4157a7ad030"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "363e43f5-bb1d-4584-9d22-b44af72b7a90",
+          "3b7a9cd4-9253-4596-b444-afc8cf812b62"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "363e43f5-bb1d-4584-9d22-b44af72b7a90",
+          "5fa7174a-04ec-446c-a3cd-e96208e959b8"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "02b0b723-f1c4-40f3-94c0-f67559fedbb7",
+          "363e43f5-bb1d-4584-9d22-b44af72b7a90"
+        ],
+        "count": 1
+      }
+    ]
+  },
+  {
+    "layer": "In2.Cu",
+    "preservation": {
+      "existing_pad_instances_preserved": 2006,
+      "existing_tracks_vias_preserved": 5809,
+      "explicitly_replaced_copper": {},
+      "added_tracks_vias": 5,
+      "existing_connected_pad_groups_preserved": 70
+    },
+    "bulk_connected": true,
+    "new_drc": [
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "324bc9f4-d04c-4b50-8569-bec9881389f7",
+          "6be0faa3-c219-4a8a-ba54-fed19428357d"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "1451f5af-ea67-46c3-80ea-a66023d2fe4b",
+          "648803d6-8c67-4ad8-8154-b3d667c6f3c4"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "6be0faa3-c219-4a8a-ba54-fed19428357d",
+          "9ca02bda-cda8-484f-8a47-6e5ef48a4bac"
+        ],
+        "count": 1
+      },
+      {
+        "type": "tracks_crossing",
+        "severity": "error",
+        "items": [
+          "648803d6-8c67-4ad8-8154-b3d667c6f3c4",
+          "6be0faa3-c219-4a8a-ba54-fed19428357d"
+        ],
+        "count": 1
+      }
+    ]
+  },
+  {
+    "layer": "In3.Cu",
+    "preservation": {
+      "existing_pad_instances_preserved": 2006,
+      "existing_tracks_vias_preserved": 5809,
+      "explicitly_replaced_copper": {},
+      "added_tracks_vias": 5,
+      "existing_connected_pad_groups_preserved": 70
+    },
+    "bulk_connected": true,
+    "new_drc": [
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "0b86b8ff-c502-4947-9e0b-830ac51593b7",
+          "324bc9f4-d04c-4b50-8569-bec9881389f7"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "7d2841e4-7c13-4846-a8fe-fbbe009cd1a0",
+          "fd44f1de-a3b5-4cf9-8263-b173bd5d4bb6"
+        ],
+        "count": 1
+      }
+    ]
+  }
+]

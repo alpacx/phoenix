@@ -1,0 +1,156 @@
+{
+  "parent_sha256": "006fc4c501a7504961215342f079d845cf75e430173fa94d8c52813f574f78be",
+  "considered": 81,
+  "sites": [
+    {
+      "ref": "prior or projected landing",
+      "via_nm": [
+        59450000,
+        3250000
+      ],
+      "blockers": []
+    },
+    {
+      "ref": "prior or projected landing",
+      "via_nm": [
+        57150000,
+        6400000
+      ],
+      "blockers": [
+        "GND U4.69",
+        "PMIC_SCL U4.1",
+        "PMIC_SDA U4.2"
+      ]
+    },
+    {
+      "ref": "C410",
+      "via_nm": [
+        57120000,
+        9250000
+      ],
+      "blockers": [
+        "+3V3_SYS U4.10",
+        "EXP_SPI_CLK 8504103a-edad-4d52-8f50-e5d77ed8cc71",
+        "GND U4.69",
+        "PMIC_SW2 U4.9"
+      ]
+    },
+    {
+      "ref": "C410",
+      "via_nm": [
+        57145000,
+        9225000
+      ],
+      "blockers": [
+        "+3V3_SYS U4.10",
+        "EXP_SPI_CLK 8504103a-edad-4d52-8f50-e5d77ed8cc71",
+        "GND U4.69",
+        "PMIC_SW2 U4.9"
+      ]
+    },
+    {
+      "ref": "C410",
+      "via_nm": [
+        57145000,
+        9250000
+      ],
+      "blockers": [
+        "+3V3_SYS U4.10",
+        "EXP_SPI_CLK 8504103a-edad-4d52-8f50-e5d77ed8cc71",
+        "GND U4.69",
+        "PMIC_SW2 U4.9"
+      ]
+    },
+    {
+      "ref": "C410",
+      "via_nm": [
+        57170000,
+        9200000
+      ],
+      "blockers": [
+        "+3V3_SYS U4.10",
+        "EXP_SPI_CLK 8504103a-edad-4d52-8f50-e5d77ed8cc71",
+        "GND U4.69",
+        "PMIC_SW2 U4.9"
+      ]
+    },
+    {
+      "ref": "C410",
+      "via_nm": [
+        57170000,
+        9225000
+      ],
+      "blockers": [
+        "+3V3_SYS U4.10",
+        "EXP_SPI_CLK 8504103a-edad-4d52-8f50-e5d77ed8cc71",
+        "GND U4.69",
+        "PMIC_SW2 U4.9"
+      ]
+    },
+    {
+      "ref": "C410",
+      "via_nm": [
+        57170000,
+        9250000
+      ],
+      "blockers": [
+        "+3V3_SYS U4.10",
+        "EXP_SPI_CLK 8504103a-edad-4d52-8f50-e5d77ed8cc71",
+        "GND U4.69",
+        "PMIC_SW2 U4.9"
+      ]
+    },
+    {
+      "ref": "C410",
+      "via_nm": [
+        57170000,
+        9275000
+      ],
+      "blockers": [
+        "+3V3_SYS U4.10",
+        "EXP_SPI_CLK 8504103a-edad-4d52-8f50-e5d77ed8cc71",
+        "GND U4.69",
+        "PMIC_SW2 U4.9"
+      ]
+    },
+    {
+      "ref": "R410",
+      "via_nm": [
+        57465000,
+        5925000
+      ],
+      "blockers": [
+        " U4.68",
+        "+3V3_SYS U4.66",
+        "GND U4.69",
+        "RESET_N U4.67"
+      ]
+    },
+    {
+      "ref": "R410",
+      "via_nm": [
+        57465000,
+        5950000
+      ],
+      "blockers": [
+        " U4.68",
+        "+3V3_SYS U4.66",
+        "GND U4.69",
+        "RESET_N U4.67"
+      ]
+    },
+    {
+      "ref": "R410",
+      "via_nm": [
+        57465000,
+        5975000
+      ],
+      "blockers": [
+        " U4.68",
+        "+3V3_SYS U4.66",
+        "GND U4.69",
+        "RESET_N U4.67"
+      ]
+    }
+  ]
+}

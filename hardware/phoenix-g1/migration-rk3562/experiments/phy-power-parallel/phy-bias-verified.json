@@ -1,0 +1,148 @@
+{
+  "board": "runs/phy-bias-distribution/pass-2/phy-joint.kicad_pcb",
+  "sha256": "58ec6919dbf9ee5512973dd3f9a38ccc785a60448d81d3b7454eef2a3251ffc2",
+  "records": [
+    {
+      "target": "R525",
+      "path": [
+        [
+          1,
+          66209999,
+          23175000
+        ],
+        [
+          1,
+          68600000,
+          26200000
+        ],
+        [
+          1,
+          68800000,
+          26800000
+        ],
+        [
+          1,
+          73000000,
+          32400000
+        ],
+        [
+          0,
+          73000000,
+          32400000
+        ],
+        [
+          0,
+          73010000,
+          32500000
+        ]
+      ],
+      "added": [
+        [
+          "R525",
+          "2"
+        ]
+      ],
+      "drc": [],
+      "accepted": true,
+      "preservation": {
+        "existing_pad_instances_preserved": 2006,
+        "existing_tracks_vias_preserved": 5814,
+        "explicitly_replaced_copper": {},
+        "added_tracks_vias": 5,
+        "existing_connected_pad_groups_preserved": 70
+      }
+    },
+    {
+      "target": "R527",
+      "path": [
+        [
+          0,
+          73000000,
+          32400000
+        ],
+        [
+          0,
+          73010000,
+          34000000
+        ]
+      ],
+      "added": [
+        [
+          "R525",
+          "2"
+        ],
+        [
+          "R527",
+          "2"
+        ]
+      ],
+      "drc": [],
+      "accepted": true,
+      "preservation": {
+        "existing_pad_instances_preserved": 2006,
+        "existing_tracks_vias_preserved": 5814,
+        "explicitly_replaced_copper": {},
+        "added_tracks_vias": 6,
+        "existing_connected_pad_groups_preserved": 70
+      }
+    },
+    {
+      "target": "R514",
+      "path": [
+        [
+          1,
+          69530435,
+          27773913
+        ],
+        [
+          1,
+          66200000,
+          31200000
+        ],
+        [
+          1,
+          65800000,
+          34600000
+        ],
+        [
+          1,
+          63600000,
+          37800000
+        ],
+        [
+          0,
+          63600000,
+          37800000
+        ],
+        [
+          0,
+          63510000,
+          38000000
+        ]
+      ],
+      "added": [
+        [
+          "R514",
+          "2"
+        ],
+        [
+          "R525",
+          "2"
+        ],
+        [
+          "R527",
+          "2"
+        ]
+      ],
+      "drc": [],
+      "accepted": true,
+      "preservation": {
+        "existing_pad_instances_preserved": 2006,
+        "existing_tracks_vias_preserved": 5814,
+        "explicitly_replaced_copper": {},
+        "added_tracks_vias": 11,
+        "existing_connected_pad_groups_preserved": 70
+      }
+    }
+  ]
+}

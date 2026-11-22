@@ -1,0 +1,586 @@
+{
+  "parent_sha256": "c0fe9a19e8153abf3c63e5ad557b7638359520b07b62aff10ee21cce7be0a4ea",
+  "rows": [
+    {
+      "pin": "12",
+      "net": "PMIC_SW1",
+      "direction": [
+        -1,
+        0
+      ],
+      "width_mm": 0.2,
+      "overlap_allowance_mm": 0.075,
+      "launch_length_mm": 0.3,
+      "open_starts": 0,
+      "examples": [],
+      "nearest": [
+        [
+          [
+            [
+              "72112de9-06d5-4b0a-a44d-ee1bf15e51c3",
+              "U4.13"
+            ],
+            [
+              "c491cc54-795b-4497-94a2-d0b89b239aa1",
+              "+3V3_SYS"
+            ]
+          ],
+          235
+        ],
+        [
+          [
+            [
+              "1437b505-7cd1-4d11-8fbe-b7f672439210",
+              "+3V3_SYS"
+            ],
+            [
+              "72112de9-06d5-4b0a-a44d-ee1bf15e51c3",
+              "U4.13"
+            ],
+            [
+              "c491cc54-795b-4497-94a2-d0b89b239aa1",
+              "+3V3_SYS"
+            ]
+          ],
+          733
+        ],
+        [
+          [
+            [
+              "72112de9-06d5-4b0a-a44d-ee1bf15e51c3",
+              "U4.13"
+            ],
+            [
+              "8f75c6ae-5f7b-42c7-afe1-4d5944aacc59",
+              "+3V3_SYS"
+            ],
+            [
+              "c491cc54-795b-4497-94a2-d0b89b239aa1",
+              "+3V3_SYS"
+            ]
+          ],
+          40
+        ],
+        [
+          [
+            [
+              "72112de9-06d5-4b0a-a44d-ee1bf15e51c3",
+              "U4.13"
+            ],
+            [
+              "c491cc54-795b-4497-94a2-d0b89b239aa1",
+              "+3V3_SYS"
+            ],
+            [
+              "df140d0d-8dd0-44c0-9d39-e8ec993b7cae",
+              "U4.11"
+            ]
+          ],
+          5
+        ]
+      ]
+    },
+    {
+      "pin": "65",
+      "net": "PMIC_SW4",
+      "direction": [
+        0,
+        -1
+      ],
+      "width_mm": 0.2,
+      "overlap_allowance_mm": 0.075,
+      "launch_length_mm": 0.3,
+      "open_starts": 0,
+      "examples": [],
+      "nearest": [
+        [
+          [
+            [
+              "22adbd94-d53e-441a-af57-97409ae98b59",
+              "GND"
+            ],
+            [
+              "2b4c51b6-4089-4afc-adf2-7897ca97383d",
+              "GND"
+            ],
+            [
+              "f7a5f6a5-00e4-4434-a900-e75c41adf1c1",
+              "U4.64"
+            ]
+          ],
+          964
+        ],
+        [
+          [
+            [
+              "22adbd94-d53e-441a-af57-97409ae98b59",
+              "GND"
+            ],
+            [
+              "2b4c51b6-4089-4afc-adf2-7897ca97383d",
+              "GND"
+            ],
+            [
+              "711cf528-2b7f-4ffe-90b4-ea174cd40fbd",
+              "+3V3_SYS"
+            ]
+          ],
+          2
+        ],
+        [
+          [
+            [
+              "22adbd94-d53e-441a-af57-97409ae98b59",
+              "GND"
+            ],
+            [
+              "711cf528-2b7f-4ffe-90b4-ea174cd40fbd",
+              "+3V3_SYS"
+            ],
+            [
+              "892ba95b-15b6-41a5-ac63-0de161c399f8",
+              "U4.66"
+            ],
+            [
+              "dd1573a2-1365-4441-a992-bbe5130cd3ca",
+              "+3V3_SYS"
+            ]
+          ],
+          87
+        ],
+        [
+          [
+            [
+              "22adbd94-d53e-441a-af57-97409ae98b59",
+              "GND"
+            ],
+            [
+              "2b4c51b6-4089-4afc-adf2-7897ca97383d",
+              "GND"
+            ],
+            [
+              "711cf528-2b7f-4ffe-90b4-ea174cd40fbd",
+              "+3V3_SYS"
+            ],
+            [
+              "f7a5f6a5-00e4-4434-a900-e75c41adf1c1",
+              "U4.64"
+            ]
+          ],
+          49
+        ]
+      ]
+    },
+    {
+      "pin": "25",
+      "net": "PMIC_SW3",
+      "direction": [
+        0,
+        1
+      ],
+      "width_mm": 0.2,
+      "overlap_allowance_mm": 0.075,
+      "launch_length_mm": 0.3,
+      "open_starts": 0,
+      "examples": [],
+      "nearest": [
+        [
+          [
+            [
+              "e72df3a4-0dfc-4f45-9347-9ec881e40873",
+              "U4.26"
+            ]
+          ],
+          689
+        ],
+        [
+          [
+            [
+              "bedda20a-f95b-4512-8f35-335caacde5ba",
+              "+3V3_SYS"
+            ],
+            [
+              "e72df3a4-0dfc-4f45-9347-9ec881e40873",
+              "U4.26"
+            ]
+          ],
+          338
+        ],
+        [
+          [
+            [
+              "09477011-0b98-4020-bb6e-c223477e3c04",
+              "U4.24"
+            ],
+            [
+              "e72df3a4-0dfc-4f45-9347-9ec881e40873",
+              "U4.26"
+            ]
+          ],
+          39
+        ],
+        [
+          [
+            [
+              "09477011-0b98-4020-bb6e-c223477e3c04",
+              "U4.24"
+            ],
+            [
+              "15d30107-2c5f-478c-b589-213cd530b76f",
+              "+3V3_SYS"
+            ]
+          ],
+          29
+        ]
+      ]
+    },
+    {
+      "pin": "9",
+      "net": "PMIC_SW2",
+      "direction": [
+        -1,
+        0
+      ],
+      "width_mm": 0.2,
+      "overlap_allowance_mm": 0.075,
+      "launch_length_mm": 0.3,
+      "open_starts": 0,
+      "examples": [],
+      "nearest": [
+        [
+          [
+            [
+              "e491700a-f841-418d-a043-26b6a03ca71c",
+              "U4.8"
+            ]
+          ],
+          275
+        ],
+        [
+          [
+            [
+              "e491700a-f841-418d-a043-26b6a03ca71c",
+              "U4.8"
+            ],
+            [
+              "eff21042-6942-43a5-9c63-cd527962a15f",
+              "+3V3_SYS"
+            ]
+          ],
+          752
+        ],
+        [
+          [
+            [
+              "6d1ff250-72b5-416f-ad0c-898c2b8588d7",
+              "U4.10"
+            ],
+            [
+              "e491700a-f841-418d-a043-26b6a03ca71c",
+              "U4.8"
+            ]
+          ],
+          5
+        ],
+        [
+          [
+            [
+              "c39b8d9a-5988-44a2-9349-cdba719d2b8a",
+              "+3V3_SYS"
+            ],
+            [
+              "eff21042-6942-43a5-9c63-cd527962a15f",
+              "+3V3_SYS"
+            ]
+          ],
+          4
+        ]
+      ]
+    },
+    {
+      "pin": "15",
+      "net": "GND",
+      "direction": [
+        -1,
+        0
+      ],
+      "width_mm": 0.2,
+      "overlap_allowance_mm": 0.075,
+      "launch_length_mm": 0.3,
+      "open_starts": 549,
+      "examples": [
+        [
+          [
+            56340000,
+            11000000
+          ],
+          [
+            56040000,
+            11200000
+          ]
+        ],
+        [
+          [
+            56340000,
+            11010000
+          ],
+          [
+            56040000,
+            11210000
+          ]
+        ],
+        [
+          [
+            56340000,
+            11020000
+          ],
+          [
+            56040000,
+            11220000
+          ]
+        ]
+      ],
+      "nearest": [
+        [
+          [
+            [
+              "8f75c6ae-5f7b-42c7-afe1-4d5944aacc59",
+              "+3V3_SYS"
+            ]
+          ],
+          123
+        ],
+        [
+          [
+            [
+              "8f75c6ae-5f7b-42c7-afe1-4d5944aacc59",
+              "+3V3_SYS"
+            ],
+            [
+              "c491cc54-795b-4497-94a2-d0b89b239aa1",
+              "+3V3_SYS"
+            ]
+          ],
+          3378
+        ]
+      ]
+    },
+    {
+      "pin": "32",
+      "net": "",
+      "direction": [
+        0,
+        1
+      ],
+      "width_mm": 0.2,
+      "overlap_allowance_mm": 0.075,
+      "launch_length_mm": 0.3,
+      "open_starts": 0,
+      "examples": [],
+      "nearest": [
+        [
+          [
+            [
+              "d48c93d0-e6ee-4d7e-ae86-08e2e1b533c1",
+              "U4.31"
+            ]
+          ],
+          285
+        ],
+        [
+          [
+            [
+              "34c64f13-f8e7-4432-92d2-da1bb79e712d",
+              "+3V3_SYS"
+            ],
+            [
+              "d48c93d0-e6ee-4d7e-ae86-08e2e1b533c1",
+              "U4.31"
+            ]
+          ],
+          146
+        ],
+        [
+          [
+            [
+              "51fcd7f0-55d1-4a19-80e5-c6edf61d6813",
+              "+3V3_SYS"
+            ],
+            [
+              "d48c93d0-e6ee-4d7e-ae86-08e2e1b533c1",
+              "U4.31"
+            ]
+          ],
+          37
+        ],
+        [
+          [
+            [
+              "d48c93d0-e6ee-4d7e-ae86-08e2e1b533c1",
+              "U4.31"
+            ],
+            [
+              "fc0ed385-b7cd-48d0-b72d-f220f2d4aa9b",
+              "+3V3_SYS"
+            ]
+          ],
+          26
+        ]
+      ]
+    },
+    {
+      "pin": "47",
+      "net": "GND",
+      "direction": [
+        1,
+        0
+      ],
+      "width_mm": 0.2,
+      "overlap_allowance_mm": 0.075,
+      "launch_length_mm": 0.3,
+      "open_starts": 0,
+      "examples": [],
+      "nearest": [
+        [
+          [
+            [
+              "76eaf0fd-6b7b-46b7-9f17-368dda260a1f",
+              "U4.48"
+            ]
+          ],
+          72
+        ],
+        [
+          [
+            [
+              "76eaf0fd-6b7b-46b7-9f17-368dda260a1f",
+              "U4.48"
+            ],
+            [
+              "7ce9ec97-fbd9-4315-b094-1cabe6a52b07",
+              "U4.46"
+            ]
+          ],
+          9
+        ],
+        [
+          [
+            [
+              "7ce9ec97-fbd9-4315-b094-1cabe6a52b07",
+              "U4.46"
+            ],
+            [
+              "98440e80-1094-4194-948f-53cb64d452ac",
+              "+3V3_SYS"
+            ]
+          ],
+          8
+        ],
+        [
+          [
+            [
+              "76eaf0fd-6b7b-46b7-9f17-368dda260a1f",
+              "U4.48"
+            ],
+            [
+              "98440e80-1094-4194-948f-53cb64d452ac",
+              "+3V3_SYS"
+            ],
+            [
+              "dafdd263-dbc3-4bf2-91fe-b2f8f391b6f1",
+              "+3V3_SYS"
+            ]
+          ],
+          910
+        ]
+      ]
+    },
+    {
+      "pin": "54",
+      "net": "+3V3_SYS",
+      "direction": [
+        0,
+        -1
+      ],
+      "width_mm": 0.2,
+      "overlap_allowance_mm": 0.075,
+      "launch_length_mm": 0.3,
+      "open_starts": 0,
+      "examples": [],
+      "nearest": [
+        [
+          [
+            [
+              "2f2661d0-aced-47a6-8d04-fedba6c6e420",
+              "U4.53"
+            ],
+            [
+              "581ac039-bd83-4ade-b951-00e7e8d54180",
+              "PMIC_SW5"
+            ],
+            [
+              "f64d8a93-7c30-4803-aa8a-0c69a32885c5",
+              "PMIC_SW5"
+            ]
+          ],
+          1
+        ],
+        [
+          [
+            [
+              "2f2661d0-aced-47a6-8d04-fedba6c6e420",
+              "U4.53"
+            ],
+            [
+              "ac8af744-12ef-4997-a3fe-ed5f12592ece",
+              "+3V3_IO"
+            ],
+            [
+              "f64d8a93-7c30-4803-aa8a-0c69a32885c5",
+              "PMIC_SW5"
+            ]
+          ],
+          1
+        ],
+        [
+          [
+            [
+              "9e5debe9-d795-4b86-bc90-914a317d709a",
+              "U4.55"
+            ],
+            [
+              "ac8af744-12ef-4997-a3fe-ed5f12592ece",
+              "+3V3_IO"
+            ],
+            [
+              "f64d8a93-7c30-4803-aa8a-0c69a32885c5",
+              "PMIC_SW5"
+            ]
+          ],
+          1
+        ],
+        [
+          [
+            [
+              "9259d16f-f3a1-445e-bb0b-91b4c8b4a505",
+              "+3V3_IO"
+            ],
+            [
+              "9e5debe9-d795-4b86-bc90-914a317d709a",
+              "U4.55"
+            ],
+            [
+              "ac8af744-12ef-4997-a3fe-ed5f12592ece",
+              "+3V3_IO"
+            ],
+            [
+              "dd9a29eb-ce51-4a07-b8b1-02a4ca721091",
+              "+3V3_IO"
+            ]
+          ],
+          966
+        ]
+      ]
+    }
+  ]
+}

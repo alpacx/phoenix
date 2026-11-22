@@ -1,0 +1,124 @@
+{
+  "parent_sha256": "5aba43cea6f2b3f971bfa18165088142ecbd9a9ee8d590eb2614e62af3016fc7",
+  "pin": "U1.T3",
+  "width_mm": 0.2,
+  "grid_mm": 0.025,
+  "via_mm": [
+    0.45,
+    0.2
+  ],
+  "ground_relief": true,
+  "ground_via_relief": true,
+  "existing_tracks_and_vias_included": false,
+  "single_obstacle_candidates": [],
+  "reachable_positions": 49,
+  "farthest_mm": 0.1,
+  "sites": [],
+  "via_obstacles": [
+    {
+      "names": [
+        "C1603.1",
+        "GND",
+        "source pad"
+      ],
+      "positions": 7
+    },
+    {
+      "names": [
+        "GND",
+        "U1.U3",
+        "source pad"
+      ],
+      "positions": 2
+    },
+    {
+      "names": [
+        "C1603.1",
+        "GND",
+        "U1.R3",
+        "source pad"
+      ],
+      "positions": 3
+    },
+    {
+      "names": [
+        "C1603.1",
+        "GND",
+        "VDD_CPU",
+        "source pad"
+      ],
+      "positions": 2
+    },
+    {
+      "names": [
+        "GND",
+        "U1.U3",
+        "VDD_CPU",
+        "source pad"
+      ],
+      "positions": 2
+    },
+    {
+      "names": [
+        "C1603.1",
+        "GND",
+        "U1.U3",
+        "source pad"
+      ],
+      "positions": 1
+    },
+    {
+      "names": [
+        "C1603.1",
+        "GND",
+        "U1.R3",
+        "VDD_CPU",
+        "source pad"
+      ],
+      "positions": 9
+    },
+    {
+      "names": [
+        "C1603.1",
+        "GND",
+        "U1.T2",
+        "VDD_CPU",
+        "source pad"
+      ],
+      "positions": 8
+    },
+    {
+      "names": [
+        "C1603.1",
+        "GND",
+        "U1.U3",
+        "VDD_CPU",
+        "source pad"
+      ],
+      "positions": 7
+    },
+    {
+      "names": [
+        "C1603.1",
+        "GND",
+        "U1.R3",
+        "U1.T2",
+        "VDD_CPU",
+        "source pad"
+      ],
+      "positions": 4
+    },
+    {
+      "names": [
+        "C1603.1",
+        "GND",
+        "U1.T2",
+        "U1.U3",
+        "VDD_CPU",
+        "source pad"
+      ],
+      "positions": 4
+    }
+  ],
+  "assembly_ready": false
+}

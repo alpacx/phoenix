@@ -1,0 +1,166 @@
+{
+  "parent_sha256": "27a6036e0f04f0e4a865dbdc729e7fe4d8a232326bda876db06654c1ce9810b9",
+  "cases": [
+    {
+      "net": "PMIC_SLEEP",
+      "groups": [
+        "U10.A1",
+        "U1.AF23"
+      ],
+      "layer": "F.Cu",
+      "front": 0,
+      "gap_nm": null,
+      "path": []
+    },
+    {
+      "net": "PMIC_SLEEP",
+      "groups": [
+        "U4.49",
+        "U10.A1"
+      ],
+      "layer": "F.Cu",
+      "front": 0,
+      "gap_nm": null,
+      "path": []
+    },
+    {
+      "net": "RESET_N",
+      "groups": [
+        "U1.1P12",
+        "C411.1"
+      ],
+      "layer": "F.Cu",
+      "front": 8,
+      "gap_nm": [
+        10029207.346545389,
+        [
+          45550000,
+          23850000
+        ],
+        [
+          35800000,
+          26200000
+        ]
+      ],
+      "path": []
+    },
+    {
+      "net": "RESET_N",
+      "groups": [
+        "U4.67",
+        "C411.1"
+      ],
+      "layer": "F.Cu",
+      "front": 0,
+      "gap_nm": null,
+      "path": []
+    },
+    {
+      "net": "LCD_RESET_N",
+      "groups": [
+        "U1.N2",
+        "R1814.1"
+      ],
+      "layer": "F.Cu",
+      "front": 0,
+      "gap_nm": null,
+      "path": []
+    },
+    {
+      "net": "WIFI_REG_ON",
+      "groups": [
+        "U1.1J14",
+        "R2002.1"
+      ],
+      "layer": "F.Cu",
+      "front": 64,
+      "gap_nm": [
+        17278382.447439924,
+        [
+          47200000,
+          20950000
+        ],
+        [
+          50000000,
+          38000000
+        ]
+      ],
+      "path": []
+    },
+    {
+      "net": "THERMAL_SHUTDOWN",
+      "groups": [
+        "R1507.1",
+        "U1.1R13"
+      ],
+      "layer": "F.Cu",
+      "front": 5785,
+      "gap_nm": [
+        9816827.389742574,
+        [
+          36550000,
+          23040000
+        ],
+        [
+          46250000,
+          24550000
+        ]
+      ],
+      "path": []
+    },
+    {
+      "net": "EXP_SPI_CS1_N",
+      "groups": [
+        "R2104.1",
+        "U1.AF15"
+      ],
+      "layer": "F.Cu",
+      "front": 240,
+      "gap_nm": [
+        9849573.594831403,
+        [
+          53040000,
+          28450000
+        ],
+        [
+          43500000,
+          26000000
+        ]
+      ],
+      "path": []
+    },
+    {
+      "net": "I2C0_SCL",
+      "groups": [
+        "U10.A3",
+        "U1.AG23"
+      ],
+      "layer": "F.Cu",
+      "front": 0,
+      "gap_nm": null,
+      "path": []
+    },
+    {
+      "net": "I2C0_SDA",
+      "groups": [
+        "U10.B1",
+        "R415.1"
+      ],
+      "layer": "F.Cu",
+      "front": 0,
+      "gap_nm": null,
+      "path": []
+    },
+    {
+      "net": "I2C0_SDA",
+      "groups": [
+        "U10.B1",
+        "U1.AE23"
+      ],
+      "layer": "F.Cu",
+      "front": 0,
+      "gap_nm": null,
+      "path": []
+    }
+  ]
+}

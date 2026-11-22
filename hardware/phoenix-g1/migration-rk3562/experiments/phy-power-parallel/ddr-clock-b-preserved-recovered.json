@@ -1,0 +1,301 @@
+{
+  "parent_sha256": "6b11cd7884f16dce8b3af143af6e4870f215a8ebae32d0c9bd26e0b879ae52e4",
+  "baseline_sha256": "1fb44f12992b5adfc103274d635402048b3b50cbec9567d74e174beb5e5d7f7f",
+  "board": "runs/ddr-clock-b-preserved-recovered/phy-joint.kicad_pcb",
+  "sha256": "fd38b6c9fa9e9bc0323d46a4031ef65cb50c934de42c424fc3c995e592f4d366",
+  "original_vias_recovered": [
+    "73b2e9af-9c31-4194-9c64-086f82be6269",
+    "e9659de3-acd4-411d-9020-9c2af7bce133",
+    "2491beeb-7d38-4b45-8c75-2df1b93066bf",
+    "b840609f-c0dc-4f05-a792-05b180098a23",
+    "1411ad8a-092c-40cb-b8fe-e8c9c31cfb79",
+    "965ba9c2-ca24-420d-b333-e95c35baed89",
+    "736bec16-71a4-4511-86a9-543f628ee8bc",
+    "6c53e1f0-e35e-4e89-b97b-c739e9a87479",
+    "bac6f921-91c9-462e-9214-56d8f5bf4eba",
+    "8bafe7f6-5386-4425-a627-574fb59a7075",
+    "1b7af2fc-d411-4570-bd5e-70e92f48df68",
+    "5bd9cbd4-df3d-4ad5-b400-5f249794d25d",
+    "69a4f763-9627-4610-9ae3-b0d73e91af93",
+    "b61961b4-760e-4fbc-a117-044c4bd1af1b",
+    "57501f16-a461-4438-864c-714379598eed",
+    "991ef768-f1a4-46d5-8d17-56e50a83c1d1",
+    "4150760d-d9ef-4212-aab7-4af319719a25",
+    "87b312ca-3443-47d0-a66e-1ddd7723a98a",
+    "aa769f34-e88b-4ba1-b76e-358d9d0d6755",
+    "fd2d7720-008f-48c0-8d38-92df3174495a",
+    "291dd667-b53f-4101-9b69-89087274c777",
+    "67e527b1-c50d-47ff-b694-44bf1ba8765a",
+    "15ec3ce2-697d-4a68-8f44-b299662deee7",
+    "bd011c4e-f7ef-47c0-827a-6d60ef7058ab",
+    "3ca8962b-d9c0-48fa-b163-7f409392747a",
+    "f7422d4f-71ca-49ce-aa10-c88e72305728",
+    "db122e67-9a0a-4ed0-bc12-252fff264a93",
+    "9b320e69-ccd1-4cf2-9d00-233b006c0c0f",
+    "a565e466-2d94-439a-b635-f4fa52044d2d",
+    "84443181-31d0-43d3-8a9a-3d81e859bf17",
+    "6154642e-2f67-4566-9650-503d4d84c4cf",
+    "7365480a-4f7a-4c8d-8879-f9bf121f7642",
+    "0712077c-a820-46ef-b75c-3875fc30db98",
+    "ec504dc0-5033-40b1-be72-99bce42b1e94",
+    "6fd70686-6635-4fa7-b1b4-f14fd3293816",
+    "a003725a-eeb6-4f96-bfee-8b5d28e9ce78",
+    "b566056c-5783-4cb5-84db-c8b65c537954",
+    "d940b99d-dfd8-4fcb-9e71-8e692010e184",
+    "9f49fdaf-89e1-4af2-ab76-1eefc4b3341a",
+    "0233ce1c-4c58-4989-938f-3299b5c0b9af",
+    "6a4b1478-1566-4a45-a6cf-b7352f35f94e",
+    "237a2388-a57e-4648-942f-70e2c67dcb47",
+    "9f6bb881-fffc-4a90-b974-cd8abd69e671",
+    "1bdcb438-fd45-480f-a66f-188cbfb746da",
+    "89739a91-9827-45f9-bc75-3a5ac27c07cd",
+    "2d3b4f85-e890-4c7d-b493-e26bcb5a19e1",
+    "c848a81a-227c-462c-81af-c0d3a72310b4",
+    "f803a150-df94-4fba-b8c3-28a0a6765a90",
+    "343243ff-4254-4254-8f86-cc1a0e9aeaa1",
+    "e6a5dbed-c670-47e9-b59d-0f03435ccfeb",
+    "e398de43-dd1f-4ee4-989a-f37dc7a20417",
+    "3e227285-5d94-4ca1-80ac-056f7ef306d5",
+    "32cd8aa3-c7b4-490c-bd92-6b1ace5f1e00",
+    "e2ee3223-07f7-47fc-bd9f-7ec56db5cfd8",
+    "3a2063fc-47da-489e-a21d-d5f0a4c45bbd",
+    "80dc1f40-649a-45be-95b7-6d5afe8ea6b4",
+    "8b68e721-0140-49da-9c11-92d4ae9cfa09",
+    "16b5a003-bd01-4b83-afe1-cb13fbb622eb",
+    "34c47fed-acae-410b-a697-dfdfbdfb08cc",
+    "4e096641-af01-4f0c-9f20-f28a30abf226",
+    "42b6e615-4079-404d-96a8-e6e6508437d0",
+    "ceb2e8c2-0992-4889-ad15-724ca5d74efd",
+    "69cc9a27-0501-47e6-a249-e61b17299ba1",
+    "dcc7a183-0219-4ddf-9679-59b7e8a608df",
+    "7e65b016-9ddb-4ea0-8f11-96c1eea9a79d",
+    "8965c486-2c6a-4514-8720-8f056b39cb2e",
+    "5b04fb4f-d17f-4cf2-9214-f0c9109154cc",
+    "6cf21eec-f4b9-47f7-8f7c-f3a03cf56249",
+    "1b797b8b-cf9e-4273-80f5-8486319afdc4",
+    "9bec51ff-e8b5-44e3-bf2e-97d28dee2dda",
+    "6a70c9c3-8192-4373-983d-2a90bfb08de3",
+    "d99820f0-d858-43bd-9b83-d93bbc1794fc",
+    "4951f674-df66-4b4b-85ae-af7a1096c2f9",
+    "f89b2666-064d-48b3-821d-7c0439b8420c",
+    "120b67e2-a8ab-4e0a-825b-89b157bc26a1",
+    "6eb3f56a-bff6-4a93-aa70-847213b7e899",
+    "1daba8df-5cb6-4ffe-8ac6-2f2b2395b85a",
+    "3ef459e2-9db7-4145-acb8-5d2f7ac61dd8",
+    "74dc27ad-fed0-445c-b1d3-9023c046180c",
+    "c326dc36-c790-4cb1-be04-918f5ce42317",
+    "1a0b7632-efae-4585-b7bc-6398c77f3196",
+    "468f9b90-a47f-495a-a9f5-1ed06b7529c8",
+    "74317f14-1783-411f-a21e-62a1a2da173a",
+    "72b33027-4e59-41c8-acbf-74712c962c1d",
+    "6dd809ab-eff2-41de-9c53-84164f8e5082",
+    "273fe446-3ea5-456e-a9f7-64675513c199",
+    "6a758a7f-7d5f-4dce-bf57-46643248886b",
+    "ad3dbc77-ef8c-4125-a251-f8758431c5ad",
+    "4df0707f-ab36-4828-9858-390a17d6953c",
+    "61ed9cf1-e8d8-47e8-8f46-5e08b6ce1cac",
+    "d2ffed99-3181-46f9-8d1d-a21ef0e462ac",
+    "ebd15138-8aec-41d1-b09e-d1e5ce876f36",
+    "6f7f3738-7468-4917-860b-43071e16b0c2",
+    "b1c08b49-54db-4267-b902-9c080b700536",
+    "7b40aa1e-ae6b-4cf7-b46b-7f80f9886936",
+    "418602c2-fff1-458b-bc77-cf2f5d1f2c6f",
+    "64cd09b4-7c46-4bea-9fc9-bd410da52bff"
+  ],
+  "still_requiring_relocation": [
+    {
+      "net": "LPDDR4_A5_A",
+      "uuid": "9d10f549-f17a-4b02-b51f-d24c8cfb98ae",
+      "location_nm": [
+        42200000,
+        15450000
+      ],
+      "copper": [
+        "LPDDR4_CLKP_B"
+      ],
+      "reference": true
+    },
+    {
+      "net": "LPDDR4_A5_A",
+      "uuid": "b3e6a299-6989-42e8-98f3-6876ce823ef7",
+      "location_nm": [
+        33200000,
+        7699999
+      ],
+      "copper": [
+        "LPDDR4_CLKN_B"
+      ],
+      "reference": true
+    },
+    {
+      "net": "LPDDR4_A5_B",
+      "uuid": "3301f0c1-a55c-40a2-b9ea-ee417f7a264e",
+      "location_nm": [
+        42850000,
+        15450000
+      ],
+      "copper": [
+        "LPDDR4_CLKP_B"
+      ],
+      "reference": true
+    },
+    {
+      "net": "LPDDR4_A3_B",
+      "uuid": "6974fe14-fe54-4bfb-a365-522c118d1694",
+      "location_nm": [
+        32400000,
+        10950000
+      ],
+      "copper": [
+        "LPDDR4_CLKP_B"
+      ],
+      "reference": true
+    },
+    {
+      "net": "LPDDR4_DQ12_A",
+      "uuid": "66b8b933-35aa-4972-b9c5-30928affb3bf",
+      "location_nm": [
+        37950000,
+        13300000
+      ],
+      "copper": [],
+      "reference": true
+    },
+    {
+      "net": "LPDDR4_DQ6_A",
+      "uuid": "bb915513-84fa-4415-9308-a3043f041214",
+      "location_nm": [
+        39100000,
+        13350000
+      ],
+      "copper": [
+        "LPDDR4_CLKP_B"
+      ],
+      "reference": true
+    },
+    {
+      "net": "LPDDR4_DQ2_A",
+      "uuid": "6c246d2e-85c3-4a14-ae56-ae1fee7ca2e6",
+      "location_nm": [
+        39900000,
+        13350000
+      ],
+      "copper": [
+        "LPDDR4_CLKN_B",
+        "LPDDR4_CLKP_B"
+      ],
+      "reference": true
+    },
+    {
+      "net": "LPDDR4_DQ0_A",
+      "uuid": "d4c5f20b-cf27-4183-8f2e-0eb16146e219",
+      "location_nm": [
+        38500000,
+        13500000
+      ],
+      "copper": [
+        "LPDDR4_CLKP_B"
+      ],
+      "reference": true
+    },
+    {
+      "net": "LPDDR4_DM0_A",
+      "uuid": "16e15de3-48a3-4595-9dc8-ee3f5b10897d",
+      "location_nm": [
+        39500000,
+        13850000
+      ],
+      "copper": [
+        "LPDDR4_CLKP_B"
+      ],
+      "reference": true
+    },
+    {
+      "net": "LPDDR4_A0_A",
+      "uuid": "e8e760e8-7d0d-46d1-9b51-54267f50433b",
+      "location_nm": [
+        40500000,
+        13500000
+      ],
+      "copper": [
+        "LPDDR4_CLKN_B"
+      ],
+      "reference": true
+    },
+    {
+      "net": "LPDDR4_CS0N_A",
+      "uuid": "ce59aa49-a16f-4d05-8a7a-eda3545d92b4",
+      "location_nm": [
+        41500000,
+        13850000
+      ],
+      "copper": [
+        "LPDDR4_CLKN_B"
+      ],
+      "reference": true
+    },
+    {
+      "net": "LPDDR4_A0_B",
+      "uuid": "c39c2f4f-f580-4924-a467-af1ec37382f6",
+      "location_nm": [
+        43750000,
+        13050000
+      ],
+      "copper": [],
+      "reference": true
+    },
+    {
+      "net": "LPDDR4_DQ3_A",
+      "uuid": "5bbc61c5-9bf8-475e-9c74-ffa76a832d7d",
+      "location_nm": [
+        40000000,
+        14650000
+      ],
+      "copper": [
+        "LPDDR4_CLKP_B"
+      ],
+      "reference": true
+    },
+    {
+      "net": "LPDDR4_A2_A",
+      "uuid": "66d3bd13-851b-48db-a213-70515d70eec4",
+      "location_nm": [
+        41000000,
+        14650000
+      ],
+      "copper": [
+        "LPDDR4_CLKP_B"
+      ],
+      "reference": true
+    },
+    {
+      "net": "LPDDR4_CKE0_A",
+      "uuid": "aab5640e-50fc-4939-af1d-f4c10358c257",
+      "location_nm": [
+        42000000,
+        14650000
+      ],
+      "copper": [
+        "LPDDR4_CLKP_B"
+      ],
+      "reference": true
+    },
+    {
+      "net": "LPDDR4_A2_B",
+      "uuid": "0deb44db-30a5-4f9e-b57f-a0b4cdb7239d",
+      "location_nm": [
+        31600000,
+        10950000
+      ],
+      "copper": [
+        "LPDDR4_CLKP_B"
+      ],
+      "reference": true
+    }
+  ],
+  "verified_pairs": 700,
+  "drc_relative_to_adopted": {
+    "track_dangling": 9
+  },
+  "adopted": false
+}

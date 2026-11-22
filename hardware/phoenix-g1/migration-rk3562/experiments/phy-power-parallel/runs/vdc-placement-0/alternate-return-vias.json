@@ -1,0 +1,26 @@
+{
+  "coupon_sha256": "f9496439247a21662314cf5e81c96cf0061e9059143622d2e3671b50cef0c627",
+  "circuits": [
+    {
+      "label": "U4.59 sense",
+      "net": "+1V8_SYS",
+      "width_nm": 200000,
+      "visited": 33,
+      "via_paths": []
+    },
+    {
+      "label": "C481 bypass GND",
+      "net": "GND",
+      "width_nm": 300000,
+      "visited": 96,
+      "via_paths": []
+    },
+    {
+      "label": "R410 divider supply",
+      "net": "+3V3_SYS",
+      "width_nm": 200000,
+      "visited": 455,
+      "via_paths": []
+    }
+  ]
+}

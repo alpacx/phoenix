@@ -1,0 +1,47 @@
+{
+  "parent_sha256": "530ee29002e7314b7364d26e1ae6de123ea88d86bb155e4eb2f0383bf8e23000",
+  "board": "runs/emmc-adjacent-supply-lands/phy-joint.kicad_pcb",
+  "sha256": "bc3be04e6e66b26938d17068d301bf21282335da404df8417176a9947e712fb9",
+  "accepted": [
+    {
+      "pair": [
+        "U8001.M4",
+        "U8001.N4"
+      ],
+      "net": "EMMC_IO_1V8",
+      "width_mm": 0.35,
+      "length_mm": 0.3
+    }
+  ],
+  "rejected": [
+    [
+      "E6",
+      "F5"
+    ],
+    [
+      "J10",
+      "K9"
+    ],
+    [
+      "N4",
+      "P3"
+    ],
+    [
+      "N4",
+      "P5"
+    ],
+    [
+      "P3",
+      "P5"
+    ]
+  ],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 6843,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 1,
+    "existing_connected_pad_groups_preserved": 117
+  },
+  "new_drc": [],
+  "assembly_ready": false
+}

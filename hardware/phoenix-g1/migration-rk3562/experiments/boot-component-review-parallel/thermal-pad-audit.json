@@ -1,0 +1,161 @@
+{
+  "checkpoint": {
+    "status": "DISPLAY_AND_ETHERNET_PASSIVES_ROUTED_VDC_PIN61_OPEN_NOT_POWER_QUALIFIED",
+    "board": "pcb/parallel-local-copper.kicad_pcb",
+    "sha256": "15f71fc7047932d73e6942158fe0e60098976904d557b689ce88e4303eef270d",
+    "verification": "pcb/final-audit.json",
+    "schematic": "../emmc-system/system/kicad/integrated/phoenix-g1.kicad_sch",
+    "assembly_ready": false
+  },
+  "large_paste_pads": [
+    {
+      "ref": "U24",
+      "value": "TPS25940ARVCR",
+      "pad": "21",
+      "size_mm": [
+        1.6,
+        2.6
+      ],
+      "paste_margin": null,
+      "paste_ratio": null,
+      "holes_with_centers_inside": []
+    },
+    {
+      "ref": "U6",
+      "value": "HD3SS3220IRNHR",
+      "pad": "",
+      "size_mm": [
+        1.39,
+        1.13
+      ],
+      "paste_margin": null,
+      "paste_ratio": null,
+      "holes_with_centers_inside": []
+    },
+    {
+      "ref": "U6",
+      "value": "HD3SS3220IRNHR",
+      "pad": "",
+      "size_mm": [
+        1.39,
+        1.13
+      ],
+      "paste_margin": null,
+      "paste_ratio": null,
+      "holes_with_centers_inside": []
+    },
+    {
+      "ref": "U4",
+      "value": "RK809-5",
+      "pad": "69",
+      "size_mm": [
+        5.5,
+        5.5
+      ],
+      "paste_margin": null,
+      "paste_ratio": null,
+      "holes_with_centers_inside": [
+        {
+          "number": "69",
+          "drill_mm": [
+            0.3,
+            0.3
+          ]
+        },
+        {
+          "number": "69",
+          "drill_mm": [
+            0.3,
+            0.3
+          ]
+        },
+        {
+          "number": "69",
+          "drill_mm": [
+            0.3,
+            0.3
+          ]
+        },
+        {
+          "number": "69",
+          "drill_mm": [
+            0.3,
+            0.3
+          ]
+        },
+        {
+          "number": "69",
+          "drill_mm": [
+            0.3,
+            0.3
+          ]
+        },
+        {
+          "number": "69",
+          "drill_mm": [
+            0.3,
+            0.3
+          ]
+        },
+        {
+          "number": "69",
+          "drill_mm": [
+            0.3,
+            0.3
+          ]
+        },
+        {
+          "number": "69",
+          "drill_mm": [
+            0.3,
+            0.3
+          ]
+        },
+        {
+          "number": "69",
+          "drill_mm": [
+            0.3,
+            0.3
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "U26",
+      "value": "TPS62130RGTR",
+      "pad": "17",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "paste_margin": null,
+      "paste_ratio": null,
+      "holes_with_centers_inside": []
+    },
+    {
+      "ref": "U17",
+      "value": "TPS62132RGTR",
+      "pad": "17",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "paste_margin": null,
+      "paste_ratio": null,
+      "holes_with_centers_inside": []
+    },
+    {
+      "ref": "U5",
+      "value": "RTL8211F-CG",
+      "pad": "41",
+      "size_mm": [
+        3.6,
+        3.6
+      ],
+      "paste_margin": null,
+      "paste_ratio": null,
+      "holes_with_centers_inside": []
+    }
+  ],
+  "note": "Screening only. Graphics and global paste settings must be reviewed before computing final Gerber aperture."
+}

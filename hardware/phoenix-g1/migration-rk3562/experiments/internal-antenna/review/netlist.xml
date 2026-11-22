@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/internal-antenna/kicad/internal-antenna.kicad_sch</source>
+    <date>2026-11-18T16:00:15</date>
+    <tool>Eeschema 10.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Phoenix - internal/external RF selection candidate</title>
+        <company/>
+        <rev>DRAFT</rev>
+        <date/>
+        <source>internal-antenna.kicad_sch</source>
+        <comment number="1" value="Not for fabrication"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="AE2001">
+      <value>W3006</value>
+      <footprint>Phoenix_Antenna:W3006_Layout1</footprint>
+      <fields>
+        <field name="MPN">W3006</field>
+        <field name="Footprint">Phoenix_Antenna:W3006_Layout1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_Antenna" part="W3006" description=""/>
+      <property name="MPN" value="W3006"/>
+      <property name="Sheetname" value="internal-antenna"/>
+      <property name="Sheetfile" value="internal-antenna.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af2d8b9f-40ca-5d82-8c84-3bf17456ba2b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2010">
+      <value>DNP SHUNT TUNING</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_Antenna" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="internal-antenna"/>
+      <property name="Sheetfile" value="internal-antenna.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b12663a-7e69-56cc-9483-2cd58d5a9a68</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L2002">
+      <value>1.5nH STARTING VALUE - TUNE</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint">Inductor_SMD:L_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_Antenna" part="L" description="Inductor"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="internal-antenna"/>
+      <property name="Sheetfile" value="internal-antenna.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53bc0608-5e24-5009-a064-a5729b00882f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2001">
+      <value>0R EXTERNAL DNP</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_Antenna" part="R" description="Resistor"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="internal-antenna"/>
+      <property name="Sheetfile" value="internal-antenna.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f27d5b6-5fb1-5e82-8607-21b0cf9ee79a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2005">
+      <value>0R INTERNAL FIT</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_Antenna" part="R" description="Resistor"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="internal-antenna"/>
+      <property name="Sheetfile" value="internal-antenna.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f56b97f-4f11-52cb-97ff-3a8a0fbc2372</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2006">
+      <value>0R SERIES TUNING</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">UNQUALIFIED</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phoenix_Antenna" part="R" description="Resistor"/>
+      <property name="MPN" value="UNQUALIFIED"/>
+      <property name="Sheetname" value="internal-antenna"/>
+      <property name="Sheetfile" value="internal-antenna.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9076be4b-ffb9-5e9a-a324-aa122a58c8c5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Phoenix_Antenna" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phoenix_Antenna" part="L">
+      <description>Inductor</description>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Inductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phoenix_Antenna" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phoenix_Antenna" part="W3006">
+      <fields>
+        <field name="Reference">AE</field>
+        <field name="Value">W3006</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="RF_FEED" type="passive"/>
+        <pin num="2" name="SUPPORT_FLOATING" type="no_connect"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Phoenix_Antenna">
+      <uri>${KIPRJMOD}/Phoenix_Antenna.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/GND" class="Default">
+      <node ref="C2010" pin="2" pintype="passive"/>
+      <node ref="L2002" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="2" name="/WIFI_ANT" class="Default">
+      <node ref="R2001" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="/WIFI_INT_ANT" class="Default">
+      <node ref="AE2001" pin="1" pinfunction="RF_FEED_1" pintype="passive"/>
+      <node ref="L2002" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R2006" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="/WIFI_INT_MATCH" class="Default">
+      <node ref="C2010" pin="1" pintype="passive"/>
+      <node ref="R2005" pin="2" pintype="passive"/>
+      <node ref="R2006" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/WIFI_RF" class="Default">
+      <node ref="R2001" pin="1" pintype="passive"/>
+      <node ref="R2005" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="unconnected-(AE2001-SUPPORT_FLOATING-Pad2)" class="Default">
+      <node ref="AE2001" pin="2" pinfunction="SUPPORT_FLOATING_2" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

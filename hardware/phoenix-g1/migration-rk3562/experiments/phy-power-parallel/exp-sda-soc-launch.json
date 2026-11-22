@@ -1,0 +1,60 @@
+{
+  "parent_sha256": "485250f88c118e4fe90b14bc6c74a9aa362d9b53ab7980554002064fa633df1a",
+  "candidate": {
+    "board": "runs/exp-sda-soc-launch/phy-joint.kicad_pcb",
+    "sha256": "0e5ba65a08086508b9782498612fd86916896ae0eba34e3ac61481586913d220",
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 6660,
+      "explicitly_replaced_copper": {
+        "37a43386-1031-406e-bfab-37cf2adfb814": [
+          "GND",
+          2,
+          47520000,
+          25184000,
+          48704000,
+          24000000,
+          500000,
+          null
+        ],
+        "cf2d7db8-6cf6-48ae-846a-272c64fe1138": [
+          "GND",
+          2,
+          47520000,
+          26500000,
+          47520000,
+          25184000,
+          500000,
+          null
+        ]
+      },
+      "added_tracks_vias": 22,
+      "existing_connected_pad_groups_preserved": 113
+    },
+    "new_drc": [
+      {
+        "type": "via_dangling",
+        "severity": "warning",
+        "items": [
+          "e2d652e4-e8c7-4b3a-925a-19181a1fa02c"
+        ],
+        "count": 1
+      }
+    ],
+    "site_nm": [
+      47750000,
+      25075000
+    ],
+    "via_uuid": "e2d652e4-e8c7-4b3a-925a-19181a1fa02c"
+  },
+  "attempts": [
+    {
+      "at": [
+        46000000,
+        26500000
+      ],
+      "reason": "inner route blocked"
+    }
+  ],
+  "assembly_ready": false
+}

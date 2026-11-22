@@ -1,0 +1,38 @@
+{
+  "status": "PLACEMENT_ACCEPTED",
+  "source_sha256": "bdeb44f58dea3d0261469c1d3f7eeb5a9e6df03e95648710393c9e09c83f6aeb",
+  "sha256": "2dc8caebcf41d00c6212b946668456d152c02a422302e21af653a77f887924e1",
+  "new_violations": [],
+  "resolved_reservation_matches": [
+    [
+      "H8103 mechanical reservation",
+      "R2014"
+    ],
+    [
+      "H8105 mechanical reservation",
+      "R521"
+    ],
+    [
+      "H8105 mechanical reservation",
+      "R525"
+    ],
+    [
+      "H8105 mechanical reservation",
+      "R526"
+    ],
+    [
+      "H8105 mechanical reservation",
+      "R527"
+    ]
+  ],
+  "introduced_reservation_matches": [],
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5774,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 0,
+    "existing_connected_pad_groups_preserved": 70
+  },
+  "assembly_ready": false,
+  "signal_routing_and_timing_qualified": false
+}

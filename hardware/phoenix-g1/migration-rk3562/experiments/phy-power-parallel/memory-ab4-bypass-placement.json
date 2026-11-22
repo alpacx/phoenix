@@ -1,0 +1,112 @@
+{
+  "parent_sha256": "0c2d7839ac08e73d42637f4176a713f2944a8dc6daa02c053cee5e6badb8868f",
+  "tested": {
+    "courtyard": 62,
+    "land": 2,
+    "multiple_branches": 2,
+    "two_barrel_poses": 2,
+    "return": 1
+  },
+  "candidate": {
+    "board": "runs/memory-ab4-c1674/phy-joint.kicad_pcb",
+    "sha256": "aee23dedfa8353aeb8a8630d5a7ab3fe38cb6daa79b859f526ee9fa355e05caf",
+    "cap_xy_nm": [
+      30800000,
+      15000000
+    ],
+    "via_pair_nm": [
+      [
+        30200000,
+        15200000
+      ],
+      [
+        30200000,
+        15800000
+      ]
+    ],
+    "ground": {
+      "connected": true,
+      "kind": "two through vias",
+      "via_centres_nm": [
+        [
+          30100000,
+          14500000
+        ],
+        [
+          29500000,
+          14500000
+        ]
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "spacing_mm": 0.6,
+      "branches_nm": [
+        [
+          [
+            [
+              30800000,
+              14520000
+            ],
+            [
+              30780000,
+              14500000
+            ],
+            [
+              30100000,
+              14500000
+            ]
+          ],
+          [
+            [
+              30100000,
+              14500000
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              30800000,
+              14520000
+            ],
+            [
+              30780000,
+              14500000
+            ],
+            [
+              29500000,
+              14500000
+            ]
+          ],
+          [
+            [
+              29500000,
+              14500000
+            ]
+          ]
+        ]
+      ]
+    },
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 6962,
+      "explicitly_replaced_copper": {
+        "61b5eff4-b524-4227-b683-7aab54c086ea": [
+          "GND",
+          2,
+          24520000,
+          3000000,
+          24520000,
+          2300000,
+          300000,
+          null
+        ]
+      },
+      "added_tracks_vias": 33,
+      "existing_connected_pad_groups_preserved": 122
+    },
+    "new_drc": [],
+    "maximum_branch_mm": 4.874123582798755
+  },
+  "assembly_ready": false
+}

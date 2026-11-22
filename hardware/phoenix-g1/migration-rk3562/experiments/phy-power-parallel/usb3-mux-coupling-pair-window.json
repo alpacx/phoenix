@@ -1,0 +1,77 @@
+{
+  "parent_sha256": "4434879e3c5aba8f62a14b22c930fe42c80bdd23b63bbb90926d7abff49eb7c5",
+  "pairs": [
+    {
+      "pins": [
+        "17",
+        "16"
+      ],
+      "caps": [
+        "C601",
+        "C602"
+      ],
+      "counts": {
+        "both_courtyards": 6
+      },
+      "trial_poses": 595,
+      "most_frequent_obstacles": [
+        [
+          "U19",
+          525
+        ],
+        [
+          "C1107 + U19",
+          64
+        ],
+        [
+          "AON_READY + GND + U19.1 + U19.2 + U19.3 + USB_CURRENT_OK + USB_MAIN_ENABLE",
+          6
+        ]
+      ],
+      "options": []
+    },
+    {
+      "pins": [
+        "21",
+        "20"
+      ],
+      "caps": [
+        "C603",
+        "C604"
+      ],
+      "counts": {
+        "both_courtyards": 1
+      },
+      "trial_poses": 595,
+      "most_frequent_obstacles": [
+        [
+          "U14 + U19",
+          470
+        ],
+        [
+          "U19",
+          55
+        ],
+        [
+          "C1107 + U14 + U19",
+          49
+        ],
+        [
+          "C1107 + U19",
+          15
+        ],
+        [
+          "U14",
+          5
+        ],
+        [
+          "+3V3_AON + AON_READY + C1107.1 + C1107.2 + GND + U19.4 + U19.5 + USB_CURRENT_OK + USB_MAIN_ENABLE",
+          1
+        ]
+      ],
+      "options": []
+    }
+  ],
+  "board_adopted": false,
+  "conditions": "Simultaneous symmetric 0.20 mm F.Cu routes out of the mux with 45-degree unstacked fanout, no vias, both footprints preserve polarity; courtyard clearance 0.10 mm. Candidate geometry requires field solver, cap transitions, reference plane and native DRC before adoption."
+}

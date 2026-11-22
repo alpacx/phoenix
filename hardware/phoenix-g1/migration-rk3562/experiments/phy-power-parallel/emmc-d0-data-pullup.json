@@ -1,0 +1,89 @@
+{
+  "parent_sha256": "76b5ac8b0471b761eea37151394d05bb8f79f2d687a30d979a68f4b009826bcc",
+  "candidate": {
+    "board": "runs/emmc-data-pullup-complete/phy-joint.kicad_pcb",
+    "sha256": "4434879e3c5aba8f62a14b22c930fe42c80bdd23b63bbb90926d7abff49eb7c5",
+    "signal_nm": [
+      [
+        2,
+        34200000,
+        16600000
+      ],
+      [
+        2,
+        34800000,
+        13400000
+      ],
+      [
+        2,
+        36100000,
+        12100000
+      ],
+      [
+        2,
+        36700000,
+        12000000
+      ],
+      [
+        2,
+        42800000,
+        11300000
+      ],
+      [
+        2,
+        44400000,
+        11900000
+      ],
+      [
+        3,
+        44400000,
+        11900000
+      ],
+      [
+        3,
+        44690000,
+        12200000
+      ]
+    ],
+    "supply_nm": [
+      [
+        45900000,
+        11900000
+      ],
+      [
+        45900000,
+        11100000
+      ],
+      [
+        45880000,
+        11100000
+      ]
+    ],
+    "signal_vias": [
+      "8574f52a-9915-491f-b745-9211b7eff244"
+    ],
+    "pos_nm": [
+      45200000,
+      12200000
+    ],
+    "angle": 180,
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 7299,
+      "explicitly_replaced_copper": {},
+      "added_tracks_vias": 9,
+      "existing_connected_pad_groups_preserved": 119
+    }
+  },
+  "initial_placements": 954,
+  "tests": [
+    {
+      "pos": [
+        45200000,
+        12200000
+      ],
+      "new_drc": []
+    }
+  ],
+  "assembly_ready": false
+}

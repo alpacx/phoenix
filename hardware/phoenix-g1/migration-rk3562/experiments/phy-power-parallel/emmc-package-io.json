@@ -1,0 +1,71 @@
+{
+  "parent_sha256": "4434879e3c5aba8f62a14b22c930fe42c80bdd23b63bbb90926d7abff49eb7c5",
+  "width_mm": 0.5,
+  "grid_mm": 0.05,
+  "limit_mm": 14.0,
+  "steps": [
+    {
+      "ref": "C8003",
+      "pad": "1",
+      "source_land_sites": 9,
+      "target_land_sites": 190,
+      "cells": 9023,
+      "path_nm": null,
+      "package_exits": []
+    },
+    {
+      "ref": "U8001",
+      "pad": "C6",
+      "source_land_sites": 2,
+      "target_land_sites": 190,
+      "cells": 5,
+      "path_nm": null,
+      "package_exits": [
+        [
+          37250000,
+          10950000
+        ],
+        [
+          37250000,
+          10850000
+        ]
+      ]
+    },
+    {
+      "ref": "U8001",
+      "pad": "M4",
+      "source_land_sites": 0,
+      "target_land_sites": 190,
+      "cells": 0,
+      "path_nm": null,
+      "package_exits": []
+    },
+    {
+      "ref": "U8001",
+      "pad": "N4",
+      "source_land_sites": 0,
+      "target_land_sites": 190,
+      "cells": 0,
+      "path_nm": null,
+      "package_exits": []
+    },
+    {
+      "ref": "U8001",
+      "pad": "P3",
+      "source_land_sites": 0,
+      "target_land_sites": 190,
+      "cells": 0,
+      "path_nm": null,
+      "package_exits": []
+    },
+    {
+      "ref": "U8001",
+      "pad": "P5",
+      "source_land_sites": 0,
+      "target_land_sites": 190,
+      "cells": 0,
+      "path_nm": null,
+      "package_exits": []
+    }
+  ]
+}

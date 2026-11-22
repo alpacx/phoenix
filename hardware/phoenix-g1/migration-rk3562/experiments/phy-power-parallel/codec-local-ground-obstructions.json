@@ -1,0 +1,97 @@
+{
+  "parent_sha256": "769c8e3c571806eb105988fb5bfdc0e6db35aafb2cbcae9a142010860695f393",
+  "rows": [
+    {
+      "blockers": [
+        "2c4d51fa-9b10-4597-8be8-2b22c4f0b14a L1001.2 VDD_CPU",
+        "b3b3a019-4875-438f-872c-da5e96c3bf6b U25.37 "
+      ],
+      "sites": 37,
+      "closest_site": [
+        59900000,
+        13700000
+      ]
+    },
+    {
+      "blockers": [
+        "2c4d51fa-9b10-4597-8be8-2b22c4f0b14a L1001.2 VDD_CPU",
+        "b011fb62-e505-472b-8e22-6820a495eb96 U25.38 "
+      ],
+      "sites": 17,
+      "closest_site": [
+        60800000,
+        13900000
+      ]
+    },
+    {
+      "blockers": [
+        "011953c7-c7fb-449b-82ec-51b1bfd9184c U25.39 ",
+        "2c4d51fa-9b10-4597-8be8-2b22c4f0b14a L1001.2 VDD_CPU"
+      ],
+      "sites": 5,
+      "closest_site": [
+        61300000,
+        14100000
+      ]
+    },
+    {
+      "blockers": [
+        "bedda20a-f95b-4512-8f35-335caacde5ba +3V3_SYS",
+        "d83a6c7b-dbfa-454a-820b-86281294b112 +3V3_IO"
+      ],
+      "sites": 2,
+      "closest_site": [
+        59800000,
+        13300000
+      ]
+    },
+    {
+      "blockers": [
+        "2c4d51fa-9b10-4597-8be8-2b22c4f0b14a L1001.2 VDD_CPU",
+        "b011fb62-e505-472b-8e22-6820a495eb96 U25.38 ",
+        "b3b3a019-4875-438f-872c-da5e96c3bf6b U25.37 "
+      ],
+      "sites": 34,
+      "closest_site": [
+        60200000,
+        13900000
+      ]
+    },
+    {
+      "blockers": [
+        "2c4d51fa-9b10-4597-8be8-2b22c4f0b14a L1001.2 VDD_CPU",
+        "7004ae4d-8d1b-4069-a88a-6eb89b2bbbf8 VDD_CPU",
+        "b011fb62-e505-472b-8e22-6820a495eb96 U25.38 "
+      ],
+      "sites": 25,
+      "closest_site": [
+        60700000,
+        14200000
+      ]
+    },
+    {
+      "blockers": [
+        "011953c7-c7fb-449b-82ec-51b1bfd9184c U25.39 ",
+        "2c4d51fa-9b10-4597-8be8-2b22c4f0b14a L1001.2 VDD_CPU",
+        "7004ae4d-8d1b-4069-a88a-6eb89b2bbbf8 VDD_CPU"
+      ],
+      "sites": 14,
+      "closest_site": [
+        61300000,
+        14200000
+      ]
+    },
+    {
+      "blockers": [
+        "15d30107-2c5f-478c-b589-213cd530b76f +3V3_SYS",
+        "bedda20a-f95b-4512-8f35-335caacde5ba +3V3_SYS",
+        "d83a6c7b-dbfa-454a-820b-86281294b112 +3V3_IO"
+      ],
+      "sites": 11,
+      "closest_site": [
+        59700000,
+        13300000
+      ]
+    }
+  ]
+}

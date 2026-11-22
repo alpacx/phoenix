@@ -1,0 +1,25 @@
+{
+  "board": "runs/solid-fixture-TP14/phy-joint.kicad_pcb",
+  "sha256": "b2a83ae7d91209bc119f95093303c68080b352459e65fb237aa68e9078f4e310",
+  "resolved": [],
+  "records": [
+    {
+      "ref": "TP14",
+      "terminal": "U17",
+      "pad": "4",
+      "net": "SYS_3V3_PG",
+      "pos_mm": [
+        10.347373,
+        32.449999
+      ],
+      "stub_mm": 1.1,
+      "preservation": {
+        "existing_pad_instances_preserved": 2006,
+        "existing_tracks_vias_preserved": 5855,
+        "explicitly_replaced_copper": {},
+        "added_tracks_vias": 1,
+        "existing_connected_pad_groups_preserved": 74
+      }
+    }
+  ]
+}

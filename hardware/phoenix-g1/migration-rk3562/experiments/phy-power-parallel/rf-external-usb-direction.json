@@ -1,0 +1,57 @@
+{
+  "board": "runs/rf-external-usb-direction/phy-joint.kicad_pcb",
+  "sha256": "cee64e9e79713675eb24111a50abaa2f8b6b4860d28f528d9d3bc46385049923",
+  "common_base_sha256": "bab072834f8f2e1593ecd159477ec43c0ba686aaf6beb28f38c074c022f4c341",
+  "adopted_parent_sha256": "789116417fc6fc23feeb0832d79e4ad8df7c0acc3fdda94b65ed70ce0c2131e9",
+  "rf_coupon_sha256": "5fec7c6fe199a442d4cbf448af7944fde009b93d2291645d59337f8d669e66db",
+  "replayed_moves": [
+    "C1665",
+    "C1682",
+    "R1601",
+    "R1602"
+  ],
+  "replayed_tracks_added": 118,
+  "replayed_tracks_removed": 3,
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 6890,
+    "explicitly_replaced_copper": {
+      "6200a8f5-88e8-41f0-a0af-14222aff5fbf": [
+        "GND",
+        2,
+        74020000,
+        22000000,
+        74020000,
+        21300000,
+        300000,
+        null
+      ],
+      "7c0134cf-1cec-48be-9640-8426b515683e": [
+        "GND",
+        0,
+        54625000,
+        17350000,
+        54700000,
+        17275000,
+        300000,
+        null
+      ],
+      "a80ce997-7bc5-46aa-9b54-0a4ba5619efb": [
+        "GND",
+        0,
+        54700000,
+        17275000,
+        54700000,
+        15800000,
+        300000,
+        null
+      ]
+    },
+    "added_tracks_vias": 18,
+    "existing_connected_pad_groups_preserved": 120
+  },
+  "new_drc": [],
+  "mount_conflicts": [],
+  "adopted": false,
+  "assembly_ready": false
+}

@@ -1,0 +1,1032 @@
+{
+  "parent_sha256": "e658447c7cf1658919478a08633f6132e84d7b58df4e9eae144ed19fe5a875e6",
+  "original_cpu_pins": [
+    "1G8",
+    "1H6",
+    "1H7",
+    "1H8",
+    "1J6",
+    "1J7"
+  ],
+  "sampled_by_obstacle_count": {
+    "6": 16,
+    "5": 11,
+    "7": 23,
+    "3": 5,
+    "8": 7,
+    "4": 1,
+    "2": 3,
+    "9": 1
+  },
+  "single_blockers": {},
+  "removable_cpu_bypasses_only": [],
+  "ground_only": [],
+  "branch_options": [],
+  "centers": [
+    {
+      "site_nm": [
+        39425000,
+        19675000
+      ],
+      "blocked_by": [
+        "GND",
+        "U1.1G2",
+        "U1.1G3",
+        "U1.1H2",
+        "U1.1H3",
+        "VDD_NPU"
+      ],
+      "nearest_conductor_mm": 2.298
+    },
+    {
+      "site_nm": [
+        39425000,
+        20325000
+      ],
+      "blocked_by": [
+        "GND",
+        "U1.1H2",
+        "U1.1H3",
+        "U1.1J2",
+        "U1.1J3",
+        "VDD_NPU"
+      ],
+      "nearest_conductor_mm": 2.275
+    },
+    {
+      "site_nm": [
+        39425000,
+        20975000
+      ],
+      "blocked_by": [
+        "+3V3_IO",
+        "GND",
+        "U1.1J2",
+        "U1.1J3",
+        "U1.1K2",
+        "U1.1K3"
+      ],
+      "nearest_conductor_mm": 2.298
+    },
+    {
+      "site_nm": [
+        40075000,
+        18375000
+      ],
+      "blocked_by": [
+        "+1V1_LPDDR4",
+        "GND",
+        "U1.1E3",
+        "U1.1E4",
+        "U1.1F3",
+        "U1.1F4"
+      ],
+      "nearest_conductor_mm": 2.298
+    },
+    {
+      "site_nm": [
+        40075000,
+        19025000
+      ],
+      "blocked_by": [
+        "GND",
+        "U1.1F3",
+        "U1.1F4",
+        "U1.1G3",
+        "U1.1G4",
+        "VDD_NPU"
+      ],
+      "nearest_conductor_mm": 1.895
+    },
+    {
+      "site_nm": [
+        40075000,
+        19675000
+      ],
+      "blocked_by": [
+        "U1.1G3",
+        "U1.1G4",
+        "U1.1H3",
+        "U1.1H4",
+        "VDD_NPU"
+      ],
+      "nearest_conductor_mm": 1.657
+    },
+    {
+      "site_nm": [
+        40075000,
+        20325000
+      ],
+      "blocked_by": [
+        "GND",
+        "U1.1H3",
+        "U1.1H4",
+        "U1.1J3",
+        "U1.1J4",
+        "VDD_NPU"
+      ],
+      "nearest_conductor_mm": 1.625
+    },
+    {
+      "site_nm": [
+        40075000,
+        20975000
+      ],
+      "blocked_by": [
+        "+3V3_IO",
+        "C1621.1",
+        "GND",
+        "U1.1J3",
+        "U1.1J4",
+        "U1.1K3",
+        "U1.1K4"
+      ],
+      "nearest_conductor_mm": 1.657
+    },
+    {
+      "site_nm": [
+        40075000,
+        21625000
+      ],
+      "blocked_by": [
+        "+3V3_IO",
+        "C1621.1",
+        "GND",
+        "U1.1K3",
+        "U1.1K4",
+        "U1.1L3",
+        "U1.1L4"
+      ],
+      "nearest_conductor_mm": 1.895
+    },
+    {
+      "site_nm": [
+        40075000,
+        22275000
+      ],
+      "blocked_by": [
+        "+3V3_IO",
+        "C1638.1",
+        "GND",
+        "U1.1L3",
+        "U1.1L4",
+        "U1.1M3",
+        "U1.1M4"
+      ],
+      "nearest_conductor_mm": 2.298
+    },
+    {
+      "site_nm": [
+        40725000,
+        18375000
+      ],
+      "blocked_by": [
+        "+1V1_LPDDR4",
+        "C1608.1",
+        "GND",
+        "U1.1E4",
+        "U1.1E5",
+        "U1.1F4",
+        "U1.1F5"
+      ],
+      "nearest_conductor_mm": 1.895
+    },
+    {
+      "site_nm": [
+        40725000,
+        19025000
+      ],
+      "blocked_by": [
+        "C1608.1",
+        "GND",
+        "U1.1F4",
+        "U1.1F5",
+        "U1.1G4",
+        "U1.1G5",
+        "VDD_NPU"
+      ],
+      "nearest_conductor_mm": 1.379
+    },
+    {
+      "site_nm": [
+        40725000,
+        19675000
+      ],
+      "blocked_by": [
+        "GND",
+        "U1.1G4",
+        "U1.1G5",
+        "U1.1H4",
+        "U1.1H5",
+        "VDD_NPU"
+      ],
+      "nearest_conductor_mm": 1.028
+    },
+    {
+      "site_nm": [
+        40725000,
+        20325000
+      ],
+      "blocked_by": [
+        "GND",
+        "U1.1H4",
+        "U1.1H5",
+        "U1.1J4",
+        "U1.1J5",
+        "VDD_NPU"
+      ],
+      "nearest_conductor_mm": 0.975
+    },
+    {
+      "site_nm": [
+        40725000,
+        20975000
+      ],
+      "blocked_by": [
+        "C1621.2",
+        "GND",
+        "U1.1J4",
+        "U1.1J5",
+        "U1.1K4",
+        "U1.1K5"
+      ],
+      "nearest_conductor_mm": 1.028
+    },
+    {
+      "site_nm": [
+        40725000,
+        21625000
+      ],
+      "blocked_by": [
+        "C1621.1",
+        "C1621.2",
+        "GND",
+        "U1.1K4",
+        "U1.1K5",
+        "U1.1L4",
+        "U1.1L5"
+      ],
+      "nearest_conductor_mm": 1.379
+    },
+    {
+      "site_nm": [
+        40725000,
+        22275000
+      ],
+      "blocked_by": [
+        "+3V3_IO",
+        "C1638.2",
+        "GND",
+        "U1.1L4",
+        "U1.1L5",
+        "U1.1M4",
+        "U1.1M5"
+      ],
+      "nearest_conductor_mm": 1.895
+    },
+    {
+      "site_nm": [
+        41375000,
+        17725000
+      ],
+      "blocked_by": [
+        "+1V1_LPDDR4",
+        "C1608.1",
+        "U1.1D6",
+        "U1.1E5",
+        "U1.1E6"
+      ],
+      "nearest_conductor_mm": 2.298
+    },
+    {
+      "site_nm": [
+        41375000,
+        18375000
+      ],
+      "blocked_by": [
+        "+1V1_LPDDR4",
+        "C1608.1",
+        "GND",
+        "U1.1E5",
+        "U1.1E6",
+        "U1.1F5"
+      ],
+      "nearest_conductor_mm": 1.657
+    },
+    {
+      "site_nm": [
+        41375000,
+        19025000
+      ],
+      "blocked_by": [
+        "GND",
+        "U1.1F5",
+        "U1.1G5",
+        "U1.1G6",
+        "VDD_NPU"
+      ],
+      "nearest_conductor_mm": 1.028
+    },
+    {
+      "site_nm": [
+        41375000,
+        19675000
+      ],
+      "blocked_by": [
+        "GND",
+        "U1.1G5",
+        "U1.1G6",
+        "U1.1H5",
+        "VDD_NPU"
+      ],
+      "nearest_conductor_mm": 0.46
+    },
+    {
+      "site_nm": [
+        41375000,
+        20325000
+      ],
+      "blocked_by": [
+        "GND",
+        "U1.1H5",
+        "U1.1J5"
+      ],
+      "nearest_conductor_mm": 0.325
+    },
+    {
+      "site_nm": [
+        41375000,
+        20975000
+      ],
+      "blocked_by": [
+        "C1601.1",
+        "C1621.2",
+        "GND",
+        "U1.1J5",
+        "U1.1K5",
+        "U1.1K6"
+      ],
+      "nearest_conductor_mm": 0.46
+    },
+    {
+      "site_nm": [
+        41375000,
+        21625000
+      ],
+      "blocked_by": [
+        "+3V3_IO",
+        "C1601.2",
+        "C1621.2",
+        "GND",
+        "U1.1K5",
+        "U1.1K6",
+        "U1.1L5",
+        "U1.1L6"
+      ],
+      "nearest_conductor_mm": 1.028
+    },
+    {
+      "site_nm": [
+        41375000,
+        22275000
+      ],
+      "blocked_by": [
+        "+3V3_IO",
+        "C1601.2",
+        "GND",
+        "U1.1L5",
+        "U1.1L6",
+        "U1.1M5",
+        "U1.1M6"
+      ],
+      "nearest_conductor_mm": 1.657
+    },
+    {
+      "site_nm": [
+        42025000,
+        17725000
+      ],
+      "blocked_by": [
+        "+1V1_LPDDR4",
+        "C8003.2",
+        "GND",
+        "U1.1D6",
+        "U1.1D7",
+        "U1.1E6",
+        "U1.1E7"
+      ],
+      "nearest_conductor_mm": 1.895
+    },
+    {
+      "site_nm": [
+        42025000,
+        18375000
+      ],
+      "blocked_by": [
+        "+1V1_LPDDR4",
+        "GND",
+        "U1.1E6",
+        "U1.1E7",
+        "U1.1F7"
+      ],
+      "nearest_conductor_mm": 1.379
+    },
+    {
+      "site_nm": [
+        42025000,
+        19025000
+      ],
+      "blocked_by": [
+        "GND",
+        "U1.1F7",
+        "U1.1G6",
+        "U1.1G7"
+      ],
+      "nearest_conductor_mm": 0.975
+    },
+    {
+      "site_nm": [
+        42025000,
+        19675000
+      ],
+      "blocked_by": [
+        "GND",
+        "U1.1G6",
+        "U1.1G7"
+      ],
+      "nearest_conductor_mm": 0.325
+    },
+    {
+      "site_nm": [
+        42025000,
+        20325000
+      ],
+      "blocked_by": [
+        "C1601.1",
+        "VDD_CPU"
+      ],
+      "nearest_conductor_mm": 0.0
+    },
+    {
+      "site_nm": [
+        42025000,
+        20975000
+      ],
+      "blocked_by": [
+        "+3V3_IO",
+        "C1601.1",
+        "GND",
+        "U1.1K6",
+        "U1.1K7"
+      ],
+      "nearest_conductor_mm": 0.46
+    },
+    {
+      "site_nm": [
+        42025000,
+        21625000
+      ],
+      "blocked_by": [
+        "+3V3_IO",
+        "C1601.2",
+        "GND",
+        "U1.1K6",
+        "U1.1K7",
+        "U1.1L6",
+        "U1.1L7"
+      ],
+      "nearest_conductor_mm": 1.028
+    },
+    {
+      "site_nm": [
+        42025000,
+        22275000
+      ],
+      "blocked_by": [
+        "C1601.2",
+        "GND",
+        "U1.1L6",
+        "U1.1L7",
+        "U1.1M6",
+        "U1.1M7",
+        "VCCA1V8_IMAGE"
+      ],
+      "nearest_conductor_mm": 1.657
+    },
+    {
+      "site_nm": [
+        42675000,
+        17725000
+      ],
+      "blocked_by": [
+        "+1V1_LPDDR4",
+        "C8003.2",
+        "GND",
+        "U1.1D7",
+        "U1.1D8",
+        "U1.1E7",
+        "U1.1E8"
+      ],
+      "nearest_conductor_mm": 1.657
+    },
+    {
+      "site_nm": [
+        42675000,
+        18375000
+      ],
+      "blocked_by": [
+        "+1V1_LPDDR4",
+        "GND",
+        "U1.1E7",
+        "U1.1E8",
+        "U1.1F7"
+      ],
+      "nearest_conductor_mm": 1.028
+    },
+    {
+      "site_nm": [
+        42675000,
+        19025000
+      ],
+      "blocked_by": [
+        "GND",
+        "U1.1F7",
+        "U1.1G7"
+      ],
+      "nearest_conductor_mm": 0.46
+    },
+    {
+      "site_nm": [
+        42675000,
+        19675000
+      ],
+      "blocked_by": [
+        "GND",
+        "U1.1G7"
+      ],
+      "nearest_conductor_mm": 0.325
+    },
+    {
+      "site_nm": [
+        42675000,
+        20325000
+      ],
+      "blocked_by": [
+        "GND",
+        "U1.1J8"
+      ],
+      "nearest_conductor_mm": 0.325
+    },
+    {
+      "site_nm": [
+        42675000,
+        20975000
+      ],
+      "blocked_by": [
+        "+3V3_IO",
+        "GND",
+        "U1.1J8",
+        "U1.1K7",
+        "U1.1K8"
+      ],
+      "nearest_conductor_mm": 0.46
+    },
+    {
+      "site_nm": [
+        42675000,
+        21625000
+      ],
+      "blocked_by": [
+        "+3V3_IO",
+        "C1601.2",
+        "GND",
+        "U1.1K7",
+        "U1.1K8",
+        "U1.1L7",
+        "U1.1L8"
+      ],
+      "nearest_conductor_mm": 1.028
+    },
+    {
+      "site_nm": [
+        42675000,
+        22275000
+      ],
+      "blocked_by": [
+        "C1601.2",
+        "GND",
+        "U1.1L7",
+        "U1.1L8",
+        "U1.1M7",
+        "U1.1M8",
+        "VCCA1V8_IMAGE"
+      ],
+      "nearest_conductor_mm": 1.657
+    },
+    {
+      "site_nm": [
+        43325000,
+        17725000
+      ],
+      "blocked_by": [
+        "+1V1_LPDDR4",
+        "C8003.1",
+        "GND",
+        "U1.1D8",
+        "U1.1D9",
+        "U1.1E8",
+        "U1.1E9"
+      ],
+      "nearest_conductor_mm": 1.657
+    },
+    {
+      "site_nm": [
+        43325000,
+        18375000
+      ],
+      "blocked_by": [
+        "+1V1_LPDDR4",
+        "GND",
+        "U1.1E8",
+        "U1.1E9",
+        "U1.1F9"
+      ],
+      "nearest_conductor_mm": 1.028
+    },
+    {
+      "site_nm": [
+        43325000,
+        19025000
+      ],
+      "blocked_by": [
+        "GND",
+        "U1.1F9",
+        "U1.1G9"
+      ],
+      "nearest_conductor_mm": 0.46
+    },
+    {
+      "site_nm": [
+        43325000,
+        19675000
+      ],
+      "blocked_by": [
+        "GND",
+        "U1.1G9",
+        "U1.1H9"
+      ],
+      "nearest_conductor_mm": 0.325
+    },
+    {
+      "site_nm": [
+        43325000,
+        20325000
+      ],
+      "blocked_by": [
+        "+3V3_IO",
+        "GND",
+        "U1.1H9",
+        "U1.1J8",
+        "U1.1J9"
+      ],
+      "nearest_conductor_mm": 0.46
+    },
+    {
+      "site_nm": [
+        43325000,
+        20975000
+      ],
+      "blocked_by": [
+        "+3V3_IO",
+        "GND",
+        "U1.1J8",
+        "U1.1J9",
+        "U1.1K8",
+        "U1.1K9"
+      ],
+      "nearest_conductor_mm": 1.028
+    },
+    {
+      "site_nm": [
+        43325000,
+        21625000
+      ],
+      "blocked_by": [
+        "GND",
+        "U1.1K8",
+        "U1.1K9",
+        "U1.1L8",
+        "U1.1L9"
+      ],
+      "nearest_conductor_mm": 1.379
+    },
+    {
+      "site_nm": [
+        43325000,
+        22275000
+      ],
+      "blocked_by": [
+        "C1630.2",
+        "GND",
+        "U1.1L8",
+        "U1.1L9",
+        "U1.1M8",
+        "U1.1M9",
+        "VCCA1V8_IMAGE"
+      ],
+      "nearest_conductor_mm": 1.895
+    },
+    {
+      "site_nm": [
+        43975000,
+        17725000
+      ],
+      "blocked_by": [
+        "+1V1_LPDDR4",
+        "C8003.1",
+        "GND",
+        "U1.1D10",
+        "U1.1D9",
+        "U1.1E10",
+        "U1.1E9"
+      ],
+      "nearest_conductor_mm": 1.895
+    },
+    {
+      "site_nm": [
+        43975000,
+        18375000
+      ],
+      "blocked_by": [
+        "+1V1_LPDDR4",
+        "GND",
+        "U1.1E10",
+        "U1.1E9",
+        "U1.1F10",
+        "U1.1F9"
+      ],
+      "nearest_conductor_mm": 1.379
+    },
+    {
+      "site_nm": [
+        43975000,
+        19025000
+      ],
+      "blocked_by": [
+        "C1618.1",
+        "GND",
+        "U1.1F10",
+        "U1.1F9",
+        "U1.1G10",
+        "U1.1G9",
+        "VDD_LOGIC"
+      ],
+      "nearest_conductor_mm": 1.028
+    },
+    {
+      "site_nm": [
+        43975000,
+        19675000
+      ],
+      "blocked_by": [
+        "C1618.1",
+        "GND",
+        "U1.1G10",
+        "U1.1G9",
+        "U1.1H10",
+        "U1.1H9",
+        "VDD_LOGIC"
+      ],
+      "nearest_conductor_mm": 0.975
+    },
+    {
+      "site_nm": [
+        43975000,
+        20325000
+      ],
+      "blocked_by": [
+        "+3V3_IO",
+        "C1618.1",
+        "GND",
+        "U1.1H10",
+        "U1.1H9",
+        "U1.1J10",
+        "U1.1J9",
+        "VDD_LOGIC"
+      ],
+      "nearest_conductor_mm": 1.028
+    },
+    {
+      "site_nm": [
+        43975000,
+        20975000
+      ],
+      "blocked_by": [
+        "GND",
+        "U1.1J10",
+        "U1.1J9",
+        "U1.1K10",
+        "U1.1K9",
+        "VDD_LOGIC"
+      ],
+      "nearest_conductor_mm": 1.379
+    },
+    {
+      "site_nm": [
+        43975000,
+        21625000
+      ],
+      "blocked_by": [
+        "GND",
+        "U1.1K10",
+        "U1.1K9",
+        "U1.1L10",
+        "U1.1L9",
+        "VDD_LOGIC"
+      ],
+      "nearest_conductor_mm": 1.895
+    },
+    {
+      "site_nm": [
+        43975000,
+        22275000
+      ],
+      "blocked_by": [
+        "C1630.2",
+        "GND",
+        "PMIC_SDA",
+        "U1.1L10",
+        "U1.1L9",
+        "U1.1M10",
+        "U1.1M9"
+      ],
+      "nearest_conductor_mm": 2.298
+    },
+    {
+      "site_nm": [
+        44625000,
+        17725000
+      ],
+      "blocked_by": [
+        "+1V1_LPDDR4",
+        "C1609.1",
+        "GND",
+        "U1.1D10",
+        "U1.1D11",
+        "U1.1E10",
+        "U1.1E11"
+      ],
+      "nearest_conductor_mm": 2.298
+    },
+    {
+      "site_nm": [
+        44625000,
+        18375000
+      ],
+      "blocked_by": [
+        "+1V1_LPDDR4",
+        "C1618.1",
+        "GND",
+        "U1.1E10",
+        "U1.1E11",
+        "U1.1F10",
+        "U1.1F11",
+        "VDD_GPU"
+      ],
+      "nearest_conductor_mm": 1.895
+    },
+    {
+      "site_nm": [
+        44625000,
+        19025000
+      ],
+      "blocked_by": [
+        "C1618.1",
+        "GND",
+        "U1.1F10",
+        "U1.1F11",
+        "U1.1G10",
+        "U1.1G11",
+        "VDD_GPU",
+        "VDD_LOGIC"
+      ],
+      "nearest_conductor_mm": 1.657
+    },
+    {
+      "site_nm": [
+        44625000,
+        19675000
+      ],
+      "blocked_by": [
+        "+3V3_IO",
+        "C1618.1",
+        "U1.1G10",
+        "U1.1G11",
+        "U1.1H10",
+        "U1.1H11",
+        "VDD_GPU",
+        "VDD_LOGIC"
+      ],
+      "nearest_conductor_mm": 1.625
+    },
+    {
+      "site_nm": [
+        44625000,
+        20325000
+      ],
+      "blocked_by": [
+        "+3V3_IO",
+        "C1618.1",
+        "U1.1H10",
+        "U1.1H11",
+        "U1.1J10",
+        "U1.1J11",
+        "VDD_LOGIC"
+      ],
+      "nearest_conductor_mm": 1.657
+    },
+    {
+      "site_nm": [
+        44625000,
+        20975000
+      ],
+      "blocked_by": [
+        "GND",
+        "U1.1J10",
+        "U1.1J11",
+        "U1.1K10",
+        "U1.1K11",
+        "VDD_LOGIC"
+      ],
+      "nearest_conductor_mm": 1.895
+    },
+    {
+      "site_nm": [
+        44625000,
+        21625000
+      ],
+      "blocked_by": [
+        "+3V3_PMU",
+        "GND",
+        "PMIC_SDA",
+        "U1.1K10",
+        "U1.1K11",
+        "U1.1L10",
+        "U1.1L11",
+        "VDD_LOGIC"
+      ],
+      "nearest_conductor_mm": 2.298
+    },
+    {
+      "site_nm": [
+        45275000,
+        19025000
+      ],
+      "blocked_by": [
+        "+3V3_IO",
+        "C1618.1",
+        "U1.1F11",
+        "U1.1F12",
+        "U1.1G11",
+        "U1.1G12",
+        "VDD_GPU"
+      ],
+      "nearest_conductor_mm": 2.298
+    },
+    {
+      "site_nm": [
+        45275000,
+        19675000
+      ],
+      "blocked_by": [
+        "+3V3_IO",
+        "C1618.1",
+        "GND",
+        "U1.1G11",
+        "U1.1G12",
+        "U1.1H11",
+        "U1.1H12",
+        "VDD_GPU",
+        "VDD_LOGIC"
+      ],
+      "nearest_conductor_mm": 2.275
+    },
+    {
+      "site_nm": [
+        45275000,
+        20325000
+      ],
+      "blocked_by": [
+        "C1618.1",
+        "GND",
+        "PMIC_SDA",
+        "U1.1H11",
+        "U1.1H12",
+        "U1.1J11",
+        "U1.1J12",
+        "VDD_LOGIC"
+      ],
+      "nearest_conductor_mm": 2.298
+    }
+  ]
+}

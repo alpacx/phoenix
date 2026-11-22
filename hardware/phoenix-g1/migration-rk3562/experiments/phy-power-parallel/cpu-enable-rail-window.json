@@ -1,0 +1,240 @@
+{
+  "parent_sha256": "ed89b72717e33c07c9368ab84b6d9bcd452eec587f16fee84e8aa8685b9fa7b9",
+  "pin": "R1002.1",
+  "width_mm": 0.2,
+  "grid_mm": 0.025,
+  "via_mm": [
+    0.45,
+    0.2
+  ],
+  "single_obstacle_candidates": [
+    {
+      "name": "WIFI_VBAT",
+      "via_nm": [
+        59415000,
+        23800000
+      ],
+      "obstacles": [
+        [
+          "de5ab765-41c9-484d-bff2-2da7c0dc5ef8",
+          "In3.Cu"
+        ],
+        [
+          "fd44f1de-a3b5-4cf9-8263-b173bd5d4bb6",
+          "In3.Cu"
+        ]
+      ],
+      "length_mm": 0.3310660171779821,
+      "path_nm": [
+        [
+          59490000,
+          24100000
+        ],
+        [
+          59490000,
+          24075000
+        ],
+        [
+          59490000,
+          24050000
+        ],
+        [
+          59490000,
+          24025000
+        ],
+        [
+          59490000,
+          24000000
+        ],
+        [
+          59490000,
+          23975000
+        ],
+        [
+          59490000,
+          23950000
+        ],
+        [
+          59490000,
+          23925000
+        ],
+        [
+          59490000,
+          23900000
+        ],
+        [
+          59490000,
+          23875000
+        ],
+        [
+          59465000,
+          23850000
+        ],
+        [
+          59440000,
+          23825000
+        ],
+        [
+          59415000,
+          23800000
+        ]
+      ]
+    }
+  ],
+  "reachable_positions": 3018,
+  "farthest_mm": 1.6868980407837337,
+  "sites": [],
+  "via_obstacles": [
+    {
+      "names": [
+        "WIFI_VBAT"
+      ],
+      "positions": 342
+    },
+    {
+      "names": [
+        "CPU_FB_SENSE",
+        "WIFI_VBAT"
+      ],
+      "positions": 89
+    },
+    {
+      "names": [
+        "GND",
+        "WIFI_VBAT"
+      ],
+      "positions": 84
+    },
+    {
+      "names": [
+        "+5V_MAIN",
+        "U25.18"
+      ],
+      "positions": 66
+    },
+    {
+      "names": [
+        "RESET_N",
+        "WIFI_VBAT"
+      ],
+      "positions": 38
+    },
+    {
+      "names": [
+        "CPU_BUCK_EN",
+        "WIFI_VBAT"
+      ],
+      "positions": 38
+    },
+    {
+      "names": [
+        "RESET_N",
+        "source pad"
+      ],
+      "positions": 33
+    },
+    {
+      "names": [
+        "U10.A3",
+        "WIFI_VBAT"
+      ],
+      "positions": 4
+    },
+    {
+      "names": [
+        "WIFI_VBAT",
+        "source pad"
+      ],
+      "positions": 1
+    },
+    {
+      "names": [
+        "RESET_N",
+        "WIFI_VBAT",
+        "source pad"
+      ],
+      "positions": 199
+    },
+    {
+      "names": [
+        "RESET_N",
+        "VDD_CPU",
+        "source pad"
+      ],
+      "positions": 125
+    },
+    {
+      "names": [
+        "+5V_MAIN",
+        "C519.1",
+        "U25.18"
+      ],
+      "positions": 97
+    },
+    {
+      "names": [
+        "+3V3_PHY",
+        "+5V_MAIN",
+        "U25.18"
+      ],
+      "positions": 92
+    },
+    {
+      "names": [
+        "GND",
+        "RESET_N",
+        "source pad"
+      ],
+      "positions": 82
+    },
+    {
+      "names": [
+        "+5V_MAIN",
+        "R1002.2",
+        "U25.18"
+      ],
+      "positions": 82
+    },
+    {
+      "names": [
+        "CPU_FB_SENSE",
+        "U10.A4",
+        "WIFI_VBAT"
+      ],
+      "positions": 66
+    },
+    {
+      "names": [
+        "CPU_BUCK_EN",
+        "RESET_N",
+        "WIFI_VBAT"
+      ],
+      "positions": 56
+    },
+    {
+      "names": [
+        "C519.1",
+        "U25.19",
+        "VDD_CPU"
+      ],
+      "positions": 44
+    },
+    {
+      "names": [
+        "CPU_FB_SENSE",
+        "GND",
+        "WIFI_VBAT"
+      ],
+      "positions": 26
+    },
+    {
+      "names": [
+        "CPU_BUCK_EN",
+        "U10.A3",
+        "WIFI_VBAT"
+      ],
+      "positions": 21
+    }
+  ],
+  "assembly_ready": false
+}

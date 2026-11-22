@@ -1,0 +1,201 @@
+{
+  "parent_sha256": "aee23dedfa8353aeb8a8630d5a7ab3fe38cb6daa79b859f526ee9fa355e05caf",
+  "sample_count": 3,
+  "tested": [
+    {
+      "at_nm": [
+        28980000,
+        19666667
+      ],
+      "layer": "In2.Cu",
+      "connected": false,
+      "legal_sites": 106,
+      "both_faces_reached": 0,
+      "source_reached": 54,
+      "sink_reached": 43
+    },
+    {
+      "at_nm": [
+        25950000,
+        17000000
+      ],
+      "layer": "In2.Cu",
+      "connected": false,
+      "legal_sites": 62,
+      "both_faces_reached": 0,
+      "source_reached": 26,
+      "sink_reached": 32
+    },
+    {
+      "at_nm": [
+        25950000,
+        19250000
+      ],
+      "layer": "In2.Cu",
+      "connected": false,
+      "legal_sites": 144,
+      "both_faces_reached": 0,
+      "source_reached": 63,
+      "sink_reached": 43
+    },
+    {
+      "at_nm": [
+        28980000,
+        19666667
+      ],
+      "layer": "In3.Cu",
+      "connected": true
+    }
+  ],
+  "candidate": {
+    "board": "runs/memory-ab4-bank-rail/phy-joint.kicad_pcb",
+    "sha256": "35771e238e52fac50ed0b195ced4aa171cada22dea1f94bf82ed314fdc18ff4b",
+    "layer": "In3.Cu",
+    "paths": {
+      "connected": true,
+      "kind": "two through vias",
+      "via_centres_nm": [
+        [
+          28900000,
+          20700000
+        ],
+        [
+          29500000,
+          20700000
+        ]
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "spacing_mm": 0.6,
+      "branches_nm": [
+        [
+          [
+            [
+              28980000,
+              19666667
+            ],
+            [
+              28900000,
+              19746667
+            ],
+            [
+              28900000,
+              20700000
+            ]
+          ],
+          [
+            [
+              30200000,
+              15500000
+            ],
+            [
+              30200000,
+              16650000
+            ],
+            [
+              29250000,
+              17600000
+            ],
+            [
+              29250000,
+              17650000
+            ],
+            [
+              29150000,
+              17750000
+            ],
+            [
+              29150000,
+              17850000
+            ],
+            [
+              29100000,
+              17900000
+            ],
+            [
+              29100000,
+              20500000
+            ],
+            [
+              28900000,
+              20700000
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              28980000,
+              19666667
+            ],
+            [
+              28980000,
+              20180000
+            ],
+            [
+              29500000,
+              20700000
+            ]
+          ],
+          [
+            [
+              30200000,
+              15500000
+            ],
+            [
+              30200000,
+              16650000
+            ],
+            [
+              29250000,
+              17600000
+            ],
+            [
+              29250000,
+              17650000
+            ],
+            [
+              29150000,
+              17750000
+            ],
+            [
+              29150000,
+              17850000
+            ],
+            [
+              29100000,
+              17900000
+            ],
+            [
+              29100000,
+              20300000
+            ],
+            [
+              29500000,
+              20700000
+            ]
+          ]
+        ]
+      ]
+    },
+    "target_barrel_centres_nm": [
+      [
+        30200000,
+        15200000
+      ],
+      [
+        30200000,
+        15800000
+      ]
+    ],
+    "new_drc": [],
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 6996,
+      "explicitly_replaced_copper": {},
+      "added_tracks_vias": 23,
+      "existing_connected_pad_groups_preserved": 123
+    }
+  },
+  "assembly_ready": false
+}

@@ -1,0 +1,125 @@
+{
+  "board_sha256": "ecc3f8d5949e26c570152e66724fb034240d561d6f589830e4a68fa04270e3fd",
+  "sources": [
+    "reference/HR911130A.pdf page 1, P10 / 1000 pF 2 kV / four 75 ohm terminations",
+    "native KiCad loaded filled zones"
+  ],
+  "candidates": [
+    {
+      "terminals": [
+        "P10",
+        "SHIELD0"
+      ],
+      "width_mm": 1,
+      "length_mm": 3.919311163967464,
+      "projected_copper_within_2mm": {
+        "F.Cu": [
+          "ETH_MDI3_N",
+          "ETH_MDI3_P",
+          "GND",
+          "unassigned pin / mounting hole"
+        ],
+        "In1.Cu": [
+          "ETH_MDI3_N",
+          "ETH_MDI3_P",
+          "GND",
+          "unassigned pin / mounting hole"
+        ],
+        "In2.Cu": [
+          "ETH_MDI3_N",
+          "ETH_MDI3_P",
+          "GND",
+          "unassigned pin / mounting hole"
+        ],
+        "In3.Cu": [
+          "+5V_MAIN",
+          "ETH_MDI3_N",
+          "ETH_MDI3_P",
+          "GND",
+          "unassigned pin / mounting hole"
+        ],
+        "In4.Cu": [
+          "ETH_MDI3_N",
+          "ETH_MDI3_P",
+          "GND",
+          "unassigned pin / mounting hole"
+        ],
+        "B.Cu": [
+          "ETH_MDI3_N",
+          "ETH_MDI3_P",
+          "GND",
+          "PMIC_SCL",
+          "unassigned pin / mounting hole"
+        ]
+      },
+      "overlapping_filled_zones": [
+        [
+          "In1.Cu",
+          "GND"
+        ],
+        [
+          "In4.Cu",
+          "GND"
+        ]
+      ]
+    },
+    {
+      "terminals": [
+        "SHIELD0",
+        "SHIELD1"
+      ],
+      "width_mm": 1,
+      "length_mm": 15.48,
+      "projected_copper_within_2mm": {
+        "F.Cu": [
+          "ETH_CENTER_TAP",
+          "GND",
+          "RESET_N",
+          "VDD_GPU",
+          "VDD_GPU_COM",
+          "unassigned pin / mounting hole"
+        ],
+        "In1.Cu": [
+          "GND",
+          "unassigned pin / mounting hole"
+        ],
+        "In2.Cu": [
+          "GND",
+          "unassigned pin / mounting hole"
+        ],
+        "In3.Cu": [
+          "+5V_MAIN",
+          "GND",
+          "unassigned pin / mounting hole"
+        ],
+        "In4.Cu": [
+          "GND",
+          "unassigned pin / mounting hole"
+        ],
+        "B.Cu": [
+          "ETH_MDI2_N",
+          "ETH_MDI2_P",
+          "ETH_MDI3_N",
+          "ETH_MDI3_P",
+          "GND",
+          "PMIC_SCL",
+          "WIFI_XIN",
+          "WIFI_XTAL_OUT",
+          "unassigned pin / mounting hole"
+        ]
+      },
+      "overlapping_filled_zones": [
+        [
+          "In1.Cu",
+          "GND"
+        ],
+        [
+          "In4.Cu",
+          "GND"
+        ]
+      ]
+    }
+  ],
+  "geometry_acceptance": "2 mm is an exploratory lateral keepout, not a board insulation rating.",
+  "adopted": false
+}

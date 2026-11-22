@@ -1,0 +1,524 @@
+{
+  "source_sha256": "1fb44f12992b5adfc103274d635402048b3b50cbec9567d74e174beb5e5d7f7f",
+  "stacks": {
+    "JLC06161H-2116A": {
+      "assumptions": {
+        "outer_h": 0.1164,
+        "outer_er": 4.16,
+        "core_h": 0.13,
+        "core_er": 4.6,
+        "middle_h": 0.9328,
+        "middle_er": 4.16,
+        "center_core": 0.7
+      },
+      "outside": [
+        {
+          "width_mm": 0.0762,
+          "gap_mm": null,
+          "mode": "single",
+          "effective_er": 3.172604133753818,
+          "ohms": 70.50788086179328
+        },
+        {
+          "width_mm": 0.1,
+          "gap_mm": null,
+          "mode": "single",
+          "effective_er": 3.1914590227798967,
+          "ohms": 64.33721943145123
+        },
+        {
+          "width_mm": 0.2,
+          "gap_mm": null,
+          "mode": "single",
+          "effective_er": 3.2747706303952016,
+          "ohms": 47.71232313738102
+        },
+        {
+          "width_mm": 0.24,
+          "gap_mm": null,
+          "mode": "single",
+          "effective_er": 3.305180272015985,
+          "ohms": 43.361869841202946
+        },
+        {
+          "width_mm": 0.3,
+          "gap_mm": null,
+          "mode": "single",
+          "effective_er": 3.346090465273625,
+          "ohms": 38.19973644215292
+        },
+        {
+          "width_mm": 0.0762,
+          "gap_mm": 0.0762,
+          "mode": "odd differential",
+          "effective_er": 2.9992267342566024,
+          "ohms": 93.56801985350681
+        },
+        {
+          "width_mm": 0.1,
+          "gap_mm": 0.1,
+          "mode": "odd differential",
+          "effective_er": 2.976424645349458,
+          "ohms": 95.19621419969144
+        },
+        {
+          "width_mm": 0.2,
+          "gap_mm": 0.2,
+          "mode": "odd differential",
+          "effective_er": 3.068228868345583,
+          "ohms": 85.33585215684143
+        },
+        {
+          "width_mm": 0.2,
+          "gap_mm": 0.25,
+          "mode": "odd differential",
+          "effective_er": 3.0946059981484004,
+          "ohms": 87.98789666442399
+        },
+        {
+          "width_mm": 0.24,
+          "gap_mm": 0.25,
+          "mode": "odd differential",
+          "effective_er": 3.1257902810434075,
+          "ohms": 80.28270925215871
+        },
+        {
+          "width_mm": 0.3,
+          "gap_mm": 0.25,
+          "mode": "odd differential",
+          "effective_er": 3.1690048328047573,
+          "ohms": 71.10407060383021
+        },
+        {
+          "width_mm": 0.34,
+          "gap_mm": 0.25,
+          "mode": "odd differential",
+          "effective_er": 3.1960757205667867,
+          "ohms": 66.12026480313682
+        }
+      ],
+      "inner": [
+        {
+          "mode": "single",
+          "width_mm": 0.0762,
+          "gap_mm": null,
+          "mesh_max_mm": 0.012,
+          "wall_mm": 1.6,
+          "opposite_layer_aligned_grounded_track": false,
+          "effective_er": 4.451310775115374,
+          "ohms": 65.89284460217168
+        },
+        {
+          "mode": "single",
+          "width_mm": 0.1,
+          "gap_mm": null,
+          "mesh_max_mm": 0.012,
+          "wall_mm": 1.6,
+          "opposite_layer_aligned_grounded_track": false,
+          "effective_er": 4.460369245152425,
+          "ohms": 60.09893482174745
+        },
+        {
+          "mode": "single",
+          "width_mm": 0.2,
+          "gap_mm": null,
+          "mesh_max_mm": 0.012,
+          "wall_mm": 1.6,
+          "opposite_layer_aligned_grounded_track": false,
+          "effective_er": 4.488141632926076,
+          "ohms": 44.82148716333837
+        },
+        {
+          "mode": "single",
+          "width_mm": 0.24,
+          "gap_mm": null,
+          "mesh_max_mm": 0.012,
+          "wall_mm": 1.6,
+          "opposite_layer_aligned_grounded_track": false,
+          "effective_er": 4.496281636916673,
+          "ohms": 40.86647420768492
+        },
+        {
+          "mode": "single",
+          "width_mm": 0.3,
+          "gap_mm": null,
+          "mesh_max_mm": 0.012,
+          "wall_mm": 1.6,
+          "opposite_layer_aligned_grounded_track": false,
+          "effective_er": 4.506395164559039,
+          "ohms": 36.17378862381241
+        },
+        {
+          "mode": "odd differential",
+          "width_mm": 0.0762,
+          "gap_mm": 0.0762,
+          "mesh_max_mm": 0.012,
+          "wall_mm": 1.6,
+          "opposite_layer_aligned_grounded_track": false,
+          "effective_er": 4.37254486560826,
+          "ohms": 88.01900025549388
+        },
+        {
+          "mode": "odd differential",
+          "width_mm": 0.1,
+          "gap_mm": 0.1,
+          "mesh_max_mm": 0.012,
+          "wall_mm": 1.6,
+          "opposite_layer_aligned_grounded_track": false,
+          "effective_er": 4.389101439016571,
+          "ohms": 88.06961155210254
+        },
+        {
+          "mode": "odd differential",
+          "width_mm": 0.2,
+          "gap_mm": 0.2,
+          "mesh_max_mm": 0.012,
+          "wall_mm": 1.6,
+          "opposite_layer_aligned_grounded_track": false,
+          "effective_er": 4.44514622638963,
+          "ohms": 78.26448552981138
+        },
+        {
+          "mode": "odd differential",
+          "width_mm": 0.2,
+          "gap_mm": 0.25,
+          "mesh_max_mm": 0.012,
+          "wall_mm": 1.6,
+          "opposite_layer_aligned_grounded_track": false,
+          "effective_er": 4.453645766338876,
+          "ohms": 80.85665403664201
+        },
+        {
+          "mode": "odd differential",
+          "width_mm": 0.24,
+          "gap_mm": 0.25,
+          "mesh_max_mm": 0.012,
+          "wall_mm": 1.6,
+          "opposite_layer_aligned_grounded_track": false,
+          "effective_er": 4.463277960202173,
+          "ohms": 73.99448413008878
+        },
+        {
+          "mode": "odd differential",
+          "width_mm": 0.3,
+          "gap_mm": 0.25,
+          "mesh_max_mm": 0.012,
+          "wall_mm": 1.6,
+          "opposite_layer_aligned_grounded_track": false,
+          "effective_er": 4.475570688729935,
+          "ohms": 65.84971867110887
+        },
+        {
+          "mode": "odd differential",
+          "width_mm": 0.34,
+          "gap_mm": 0.25,
+          "mesh_max_mm": 0.012,
+          "wall_mm": 1.6,
+          "opposite_layer_aligned_grounded_track": false,
+          "effective_er": 4.482584739125561,
+          "ohms": 61.440416447529465
+        }
+      ],
+      "aligned_opposite_track": [
+        {
+          "mode": "odd differential",
+          "width_mm": 0.2,
+          "gap_mm": 0.25,
+          "mesh_max_mm": 0.012,
+          "wall_mm": 1.6,
+          "opposite_layer_aligned_grounded_track": true,
+          "effective_er": 4.453583969967154,
+          "ohms": 80.84496783892175
+        },
+        {
+          "mode": "single",
+          "width_mm": 0.2,
+          "gap_mm": null,
+          "mesh_max_mm": 0.012,
+          "wall_mm": 1.6,
+          "opposite_layer_aligned_grounded_track": true,
+          "effective_er": 4.48759000532475,
+          "ohms": 44.754744916061824
+        }
+      ],
+      "inner_refinement": {
+        "mode": "odd differential",
+        "width_mm": 0.2,
+        "gap_mm": 0.25,
+        "mesh_max_mm": 0.006,
+        "wall_mm": 2.0,
+        "opposite_layer_aligned_grounded_track": false,
+        "effective_er": 4.452649835577405,
+        "ohms": 81.47837091524164
+      }
+    },
+    "JLC06161H-3313E": {
+      "assumptions": {
+        "outer_h": 0.0994,
+        "outer_er": 4.1,
+        "core_h": 0.1,
+        "core_er": 4.6,
+        "middle_h": 1.1208,
+        "middle_er": 4.4,
+        "center_core": 0.7
+      },
+      "outside": [
+        {
+          "width_mm": 0.0762,
+          "gap_mm": null,
+          "mode": "single",
+          "effective_er": 3.1776787860179843,
+          "ohms": 66.06529327860115
+        },
+        {
+          "width_mm": 0.1,
+          "gap_mm": null,
+          "mode": "single",
+          "effective_er": 3.198608843413548,
+          "ohms": 59.96121627263674
+        },
+        {
+          "width_mm": 0.2,
+          "gap_mm": null,
+          "mode": "single",
+          "effective_er": 3.2873594956702723,
+          "ohms": 43.74742165714237
+        },
+        {
+          "width_mm": 0.24,
+          "gap_mm": null,
+          "mode": "single",
+          "effective_er": 3.318778295698619,
+          "ohms": 39.57677113527182
+        },
+        {
+          "width_mm": 0.3,
+          "gap_mm": null,
+          "mode": "single",
+          "effective_er": 3.360443169539665,
+          "ohms": 34.6725868427128
+        },
+        {
+          "width_mm": 0.0762,
+          "gap_mm": 0.0762,
+          "mode": "odd differential",
+          "effective_er": 2.996997506169332,
+          "ohms": 91.57250170761247
+        },
+        {
+          "width_mm": 0.1,
+          "gap_mm": 0.1,
+          "mode": "odd differential",
+          "effective_er": 2.982162100514667,
+          "ohms": 92.14817068402164
+        },
+        {
+          "width_mm": 0.2,
+          "gap_mm": 0.2,
+          "mode": "odd differential",
+          "effective_er": 3.0948821262378736,
+          "ohms": 79.73985831460884
+        },
+        {
+          "width_mm": 0.2,
+          "gap_mm": 0.25,
+          "mode": "odd differential",
+          "effective_er": 3.122650450610926,
+          "ohms": 81.84301617157979
+        },
+        {
+          "width_mm": 0.24,
+          "gap_mm": 0.25,
+          "mode": "odd differential",
+          "effective_er": 3.1555213314954367,
+          "ohms": 74.28414252705109
+        },
+        {
+          "width_mm": 0.3,
+          "gap_mm": 0.25,
+          "mode": "odd differential",
+          "effective_er": 3.2001480746631703,
+          "ohms": 65.36827503651512
+        },
+        {
+          "width_mm": 0.34,
+          "gap_mm": 0.25,
+          "mode": "odd differential",
+          "effective_er": 3.2276956572477182,
+          "ohms": 60.56969608997949
+        }
+      ],
+      "inner": [
+        {
+          "mode": "single",
+          "width_mm": 0.0762,
+          "gap_mm": null,
+          "mesh_max_mm": 0.012,
+          "wall_mm": 1.6,
+          "opposite_layer_aligned_grounded_track": false,
+          "effective_er": 4.527969244730948,
+          "ohms": 58.85721590865561
+        },
+        {
+          "mode": "single",
+          "width_mm": 0.1,
+          "gap_mm": null,
+          "mesh_max_mm": 0.012,
+          "wall_mm": 1.6,
+          "opposite_layer_aligned_grounded_track": false,
+          "effective_er": 4.5320776071564755,
+          "ohms": 53.256459401448204
+        },
+        {
+          "mode": "single",
+          "width_mm": 0.2,
+          "gap_mm": null,
+          "mesh_max_mm": 0.012,
+          "wall_mm": 1.6,
+          "opposite_layer_aligned_grounded_track": false,
+          "effective_er": 4.544828355970427,
+          "ohms": 38.76823931718907
+        },
+        {
+          "mode": "single",
+          "width_mm": 0.24,
+          "gap_mm": null,
+          "mesh_max_mm": 0.012,
+          "wall_mm": 1.6,
+          "opposite_layer_aligned_grounded_track": false,
+          "effective_er": 4.548629478773194,
+          "ohms": 35.106119265975416
+        },
+        {
+          "mode": "single",
+          "width_mm": 0.3,
+          "gap_mm": null,
+          "mesh_max_mm": 0.012,
+          "wall_mm": 1.6,
+          "opposite_layer_aligned_grounded_track": false,
+          "effective_er": 4.553413335365105,
+          "ohms": 30.816427794131325
+        },
+        {
+          "mode": "odd differential",
+          "width_mm": 0.0762,
+          "gap_mm": 0.0762,
+          "mesh_max_mm": 0.012,
+          "wall_mm": 1.6,
+          "opposite_layer_aligned_grounded_track": false,
+          "effective_er": 4.49575205505453,
+          "ohms": 83.77653852719003
+        },
+        {
+          "mode": "odd differential",
+          "width_mm": 0.1,
+          "gap_mm": 0.1,
+          "mesh_max_mm": 0.012,
+          "wall_mm": 1.6,
+          "opposite_layer_aligned_grounded_track": false,
+          "effective_er": 4.502817720761989,
+          "ohms": 82.55927726504376
+        },
+        {
+          "mode": "odd differential",
+          "width_mm": 0.2,
+          "gap_mm": 0.2,
+          "mesh_max_mm": 0.012,
+          "wall_mm": 1.6,
+          "opposite_layer_aligned_grounded_track": false,
+          "effective_er": 4.526350916548832,
+          "ohms": 69.81709423936016
+        },
+        {
+          "mode": "odd differential",
+          "width_mm": 0.2,
+          "gap_mm": 0.25,
+          "mesh_max_mm": 0.012,
+          "wall_mm": 1.6,
+          "opposite_layer_aligned_grounded_track": false,
+          "effective_er": 4.529788424703118,
+          "ohms": 71.6567326690651
+        },
+        {
+          "mode": "odd differential",
+          "width_mm": 0.24,
+          "gap_mm": 0.25,
+          "mesh_max_mm": 0.012,
+          "wall_mm": 1.6,
+          "opposite_layer_aligned_grounded_track": false,
+          "effective_er": 4.534067580282618,
+          "ohms": 65.06283183601082
+        },
+        {
+          "mode": "odd differential",
+          "width_mm": 0.3,
+          "gap_mm": 0.25,
+          "mesh_max_mm": 0.012,
+          "wall_mm": 1.6,
+          "opposite_layer_aligned_grounded_track": false,
+          "effective_er": 4.539621496090311,
+          "ohms": 57.33835911482611
+        },
+        {
+          "mode": "odd differential",
+          "width_mm": 0.34,
+          "gap_mm": 0.25,
+          "mesh_max_mm": 0.012,
+          "wall_mm": 1.6,
+          "opposite_layer_aligned_grounded_track": false,
+          "effective_er": 4.542844503176365,
+          "ohms": 53.20613540936764
+        }
+      ],
+      "aligned_opposite_track": [
+        {
+          "mode": "odd differential",
+          "width_mm": 0.2,
+          "gap_mm": 0.25,
+          "mesh_max_mm": 0.012,
+          "wall_mm": 1.6,
+          "opposite_layer_aligned_grounded_track": true,
+          "effective_er": 4.529780246635937,
+          "ohms": 71.65445629133339
+        },
+        {
+          "mode": "single",
+          "width_mm": 0.2,
+          "gap_mm": null,
+          "mesh_max_mm": 0.012,
+          "wall_mm": 1.6,
+          "opposite_layer_aligned_grounded_track": true,
+          "effective_er": 4.544718795040541,
+          "ohms": 38.74935965002159
+        }
+      ],
+      "inner_refinement": {
+        "mode": "odd differential",
+        "width_mm": 0.2,
+        "gap_mm": 0.25,
+        "mesh_max_mm": 0.006,
+        "wall_mm": 2.0,
+        "opposite_layer_aligned_grounded_track": false,
+        "effective_er": 4.5293560813591816,
+        "ohms": 72.21067175172229
+      }
+    }
+  },
+  "parallel_plates": {
+    "expected_pF_per_m": 544.5325508561999,
+    "simulated_pF_per_m": 544.532550856199
+  },
+  "homogeneous_internal_er": 3.500000000000018,
+  "applied_to_board": false,
+  "sources": [
+    "https://jlcpcb.com/impedance",
+    "https://jlcpcb.com/help/article/user-guide-to-the-jlcpcb-impedance-calculator"
+  ],
+  "interpretation": [
+    "Outer signal L1/L6 above nearest reference L2/L5; continuous plane, external solder mask and trapezoid.",
+    "L3/L4 reference L2/L5 respectively. The central 0.70 mm dielectric core is modeled between two prepreg plies. PCB thickness class 1.6 mm, copper according to the JLCPCB public stack diagram.",
+    "Aligned opposite track case holds a trace of equal width at zero potential on the adjacent signal layer. It screens sensitivity; it is neither a switching aggressor model nor worst-case crosstalk.",
+    "Dk assumptions: core 4.6, 2116 4.16, 3313 4.1 and 7628 4.4. Supplier-specific frequency, resin-content and lot tolerances remain open. The published construction does not qualify Phoenix impedances.",
+    "USB target used for screening only: 90 ohms differential. Every PCB data lane in inventory is still open. Pads, vias, antipads, copper fill near connector, loss and three-dimensional discontinuities omitted."
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "parent_sha256": "ec0cae86786864ee0b90974e897f725df433e94b405c47c47afa5cfb2cf56ddc",
+  "adopted": false,
+  "rows": [
+    {
+      "inductor": "L401",
+      "pin": "12",
+      "legal_neck_exits": 0,
+      "central_path_obstacles": [
+        {
+          "neck_nm": 250000,
+          "land_contact": true,
+          "neck": [
+            "+3V3_SYS"
+          ],
+          "wide": [
+            "+3V3_SYS",
+            "U4.11",
+            "U4.13"
+          ]
+        },
+        {
+          "neck_nm": 350000,
+          "land_contact": true,
+          "neck": [
+            "+3V3_SYS"
+          ],
+          "wide": [
+            "+3V3_SYS"
+          ]
+        },
+        {
+          "neck_nm": 450000,
+          "land_contact": true,
+          "neck": [
+            "+3V3_SYS"
+          ],
+          "wide": [
+            "+3V3_SYS"
+          ]
+        },
+        {
+          "neck_nm": 500000,
+          "land_contact": true,
+          "neck": [
+            "+3V3_SYS"
+          ],
+          "wide": [
+            "+3V3_SYS",
+            "C421.1"
+          ]
+        }
+      ],
+      "courtyard_poses": 0,
+      "electrical_poses": 0,
+      "route_options": 0,
+      "best_poses": []
+    },
+    {
+      "inductor": "L402",
+      "pin": "9",
+      "legal_neck_exits": 0,
+      "central_path_obstacles": [
+        {
+          "neck_nm": 250000,
+          "land_contact": true,
+          "neck": [
+            "+3V3_SYS"
+          ],
+          "wide": [
+            "+3V3_SYS",
+            "C421.1",
+            "U4.10",
+            "U4.8"
+          ]
+        },
+        {
+          "neck_nm": 350000,
+          "land_contact": true,
+          "neck": [
+            "+3V3_SYS"
+          ],
+          "wide": [
+            "+3V3_SYS",
+            "C421.1"
+          ]
+        },
+        {
+          "neck_nm": 450000,
+          "land_contact": true,
+          "neck": [
+            "+3V3_SYS",
+            "C421.1"
+          ],
+          "wide": [
+            "+3V3_SYS",
+            "C421.1"
+          ]
+        },
+        {
+          "neck_nm": 500000,
+          "land_contact": true,
+          "neck": [
+            "+3V3_SYS",
+            "C421.1"
+          ],
+          "wide": [
+            "+3V3_SYS",
+            "C421.1"
+          ]
+        }
+      ],
+      "courtyard_poses": 0,
+      "electrical_poses": 0,
+      "route_options": 0,
+      "best_poses": []
+    },
+    {
+      "inductor": "L403",
+      "pin": "25",
+      "legal_neck_exits": 0,
+      "central_path_obstacles": [
+        {
+          "neck_nm": 250000,
+          "land_contact": true,
+          "neck": [
+            "+3V3_SYS"
+          ],
+          "wide": [
+            "+3V3_SYS",
+            "U4.24",
+            "U4.26"
+          ]
+        },
+        {
+          "neck_nm": 350000,
+          "land_contact": true,
+          "neck": [
+            "+3V3_SYS"
+          ],
+          "wide": [
+            "+3V3_SYS"
+          ]
+        },
+        {
+          "neck_nm": 450000,
+          "land_contact": true,
+          "neck": [
+            "+3V3_SYS"
+          ],
+          "wide": [
+            "+3V3_SYS"
+          ]
+        },
+        {
+          "neck_nm": 500000,
+          "land_contact": true,
+          "neck": [
+            "+3V3_SYS"
+          ],
+          "wide": [
+            "+3V3_SYS"
+          ]
+        }
+      ],
+      "courtyard_poses": 0,
+      "electrical_poses": 0,
+      "route_options": 0,
+      "best_poses": []
+    },
+    {
+      "inductor": "L404",
+      "pin": "65",
+      "legal_neck_exits": 0,
+      "central_path_obstacles": [
+        {
+          "neck_nm": 250000,
+          "land_contact": true,
+          "neck": [
+            "+3V3_SYS",
+            "GND"
+          ],
+          "wide": [
+            "+3V3_SYS",
+            "C425.2",
+            "GND",
+            "U4.64",
+            "U4.66"
+          ]
+        },
+        {
+          "neck_nm": 350000,
+          "land_contact": true,
+          "neck": [
+            "+3V3_SYS",
+            "GND"
+          ],
+          "wide": [
+            "+3V3_SYS",
+            "C425.2",
+            "GND"
+          ]
+        },
+        {
+          "neck_nm": 450000,
+          "land_contact": true,
+          "neck": [
+            "+3V3_SYS",
+            "C425.2",
+            "GND"
+          ],
+          "wide": [
+            "+3V3_SYS",
+            "C425.2",
+            "GND"
+          ]
+        },
+        {
+          "neck_nm": 500000,
+          "land_contact": true,
+          "neck": [
+            "+3V3_SYS",
+            "C425.2",
+            "GND"
+          ],
+          "wide": [
+            "+3V3_SYS",
+            "C425.2",
+            "GND"
+          ]
+        }
+      ],
+      "courtyard_poses": 0,
+      "electrical_poses": 0,
+      "route_options": 0,
+      "best_poses": []
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "parent_sha256": "4318afe6eeea7f9ce5dbcf7c8d7c72b721c70f72d562fe88a18963c206070021",
+  "candidate": {
+    "board": "runs/vdd1-c2303-return/phy-joint.kicad_pcb",
+    "sha256": "e173a225f47ca075d5fbf9a15119144b01069442a9f6f7ef7396cec04df75f19",
+    "offset_mm": [
+      -0.05,
+      0.2
+    ],
+    "length_mm": 2.662705391138869,
+    "replaced": [
+      "113d424f-feb1-4512-b897-093ea5e0ac51",
+      "288080f0-2ec9-4bed-a357-93ba2f720caf",
+      "8f1d6a05-e767-4553-ae9c-e80e97a09a6f",
+      "b86a2b34-9210-4ea1-908b-af6cce5dfa11"
+    ],
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 7129,
+      "explicitly_replaced_copper": {
+        "113d424f-feb1-4512-b897-093ea5e0ac51": [
+          "GND",
+          0,
+          28870000,
+          8995000,
+          28870000,
+          9000000,
+          300000,
+          null
+        ],
+        "288080f0-2ec9-4bed-a357-93ba2f720caf": [
+          "GND",
+          2,
+          29520000,
+          9000000,
+          28870000,
+          9000000,
+          300000,
+          null
+        ],
+        "8f1d6a05-e767-4553-ae9c-e80e97a09a6f": [
+          "GND",
+          0,
+          28870000,
+          9005000,
+          28870000,
+          9000000,
+          300000,
+          null
+        ],
+        "b86a2b34-9210-4ea1-908b-af6cce5dfa11": [
+          "GND",
+          0,
+          28870000,
+          9000000,
+          28870000,
+          9000000,
+          600000,
+          300000
+        ]
+      },
+      "added_tracks_vias": 1,
+      "existing_connected_pad_groups_preserved": 121
+    }
+  },
+  "trials": [
+    {
+      "offset_mm": [
+        -0.05,
+        0.2
+      ],
+      "delta": []
+    }
+  ],
+  "assembly_ready": false
+}

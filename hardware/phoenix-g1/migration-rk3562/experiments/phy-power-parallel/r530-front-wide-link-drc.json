@@ -1,0 +1,61 @@
+[
+  {
+    "index": 0,
+    "position": [
+      57.725,
+      16.2
+    ],
+    "source": [
+      57.65,
+      16.1
+    ],
+    "connected": true,
+    "violations": [
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "5d78cb67-a047-4513-94ea-e9a356554fa0",
+          "e7b02b33-6953-4a21-87d9-db4e8a90dcb1"
+        ],
+        "count": 1
+      },
+      {
+        "type": "shorting_items",
+        "severity": "error",
+        "items": [
+          "5d78cb67-a047-4513-94ea-e9a356554fa0",
+          "af255fe6-d693-4b0f-9593-3785fafb7501"
+        ],
+        "count": 1
+      },
+      {
+        "type": "hole_clearance",
+        "severity": "error",
+        "items": [
+          "5d78cb67-a047-4513-94ea-e9a356554fa0",
+          "e7b02b33-6953-4a21-87d9-db4e8a90dcb1"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "5d78cb67-a047-4513-94ea-e9a356554fa0",
+          "af255fe6-d693-4b0f-9593-3785fafb7501"
+        ],
+        "count": 1
+      },
+      {
+        "type": "solder_mask_bridge",
+        "severity": "error",
+        "items": [
+          "5d78cb67-a047-4513-94ea-e9a356554fa0",
+          "e7b02b33-6953-4a21-87d9-db4e8a90dcb1"
+        ],
+        "count": 1
+      }
+    ]
+  }
+]

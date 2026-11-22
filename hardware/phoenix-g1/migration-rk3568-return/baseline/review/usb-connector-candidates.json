@@ -1,0 +1,109 @@
+{
+  "checked_date": "2026-11-08",
+  "selected_remains": "C565324",
+  "selection_status": "2012670005 selected in draft;1.6mm nominal thickness conflict resolved; assembly and SI unqualified",
+  "candidates": [
+    {
+      "jlc": "C2681555",
+      "mpn": "TYPE-C24PQT",
+      "decision": "Superseded in draft",
+      "finding": "24 SMT contacts; restored manufacturer .25x.95mm lands and exact .5mm pitch. L-shaped shield drill implementation and NPTH-to-copper clearance unresolved."
+    },
+    {
+      "jlc": "C456013",
+      "mpn": "TYPE-C 24P QCHT",
+      "decision": "Not selected",
+      "finding": "Hybrid SMT/PTH. Imported A1 offset, PTH diameter and locating holes differ from manufacturer drawing. Board thickness drawing specifies1.0or1.2mm; no drop-in substitution."
+    },
+    {
+      "jlc": "C2880667",
+      "mpn": "USB31-TYPEC-16X7C-1FS",
+      "decision": "Rejected",
+      "finding": "Catalog description claims24P USB3.1, but manufacturer drawing identifies16contacts. Not suitable for SuperSpeed without contradictory documentation resolved."
+    },
+    {
+      "jlc": "C2762992",
+      "mpn": "GT-USB-7013",
+      "decision": "Not selected",
+      "finding": "24contacts, stock verified; same L-shaped rear shield holes, does not eliminate original fabrication ambiguity."
+    },
+    {
+      "jlc": "C48533148",
+      "mpn": "GT-USB-9007A",
+      "decision": "Not selected",
+      "finding": "24contacts, stock verified; mid-mount board cutout and L-shaped rear shield holes require distinct mechanical layout."
+    },
+    {
+      "jlc": "C3197666",
+      "mpn": "12401598E4#2A",
+      "decision": "Superseded: NPTH slot outside standard capability",
+      "finding": "24 SuperSpeed SMT contacts, four straight plated slots. Manufacturer .95x.65 mm NPTH locating slot is narrower than JLC published 1 mm standard minimum. No exception assumed.",
+      "source": "reference/usb-connector-C3197666.pdf"
+    },
+    {
+      "jlc": "C134092",
+      "mpn": "1054500101",
+      "decision": "Selected draft",
+      "finding": "24 SuperSpeed contacts, no NPTH, four straight plated slots. Manufacturer recommends0.8mm PCB; stackup/assembly/current drawing reconciliation pending."
+    },
+    {
+      "jlc": "C165948",
+      "mpn": "TYPE-C-31-M-12",
+      "decision": "Rejected",
+      "finding": "Downloaded manufacturer drawing has16 contacts and no SuperSpeed TX/RX pairs, regardless of third-party24-pin descriptions."
+    },
+    {
+      "jlc": "C3197858",
+      "mpn": "10137062-00021LF",
+      "decision": "Not selected",
+      "finding": "JLC available-order quantity0 at lookup."
+    },
+    {
+      "jlc": "C7407280",
+      "mpn": "USB4056-03-A",
+      "decision": "Not selected",
+      "finding": "Official GCT supports24contacts SuperSpeed; downloaded drawing specifies1.0-1.2mm PCB but includes0.65x0.95mm NPTH slot, below JLC1.0mm standard slot minimum. Hybrid contact annular rings need DFM review.",
+      "source": "reference/usb-connector-C7407280.pdf"
+    },
+    {
+      "jlc": "C319140",
+      "mpn": "USB3.1-TYPE-C-FSABC",
+      "decision": "Not selected",
+      "finding": "Live public available-order and displayed inventory both zero; PDF downloaded but not qualified."
+    },
+    {
+      "jlc": "C5250720",
+      "mpn": "USB4115-03-C",
+      "decision": "Not selected",
+      "finding": "Available but manufacturer drawing is vertical, H=9.25 mm; incompatible with current horizontal end-entry USB envelope."
+    },
+    {
+      "jlc": "C5119948",
+      "mpn": "12401610E4#2A",
+      "decision": "Not selected: NPTH slot below standard capability",
+      "finding": "Manufacturer drawing revisionC recovered from LCSC PDF and visually checked:24contacts, four0.5x1.1mm plated slots,0.65mm round NPTH and0.65x0.95mm NPTH slot. Slot width is below published1mm standard NPTH slot minimum. No fabrication exception assumed.",
+      "source": "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/c12401610_c.pdf",
+      "local_source": "reference/usb-connector-C5119948.pdf"
+    },
+    {
+      "jlc": "C2977809",
+      "mpn": "2199230-4",
+      "decision": "Excluded: unrelated connector",
+      "finding": "Downloaded TE manufacturer drawing identifies M.2 NGFF67-position socket, not USB-C. No selection or cost inclusion.",
+      "source": "reference/usb-connector-C2977809.pdf"
+    },
+    {
+      "jlc": "C5296853",
+      "mpn": "USB4055-30-A",
+      "decision": "Not selected",
+      "finding": "No available-order quantity or displayed stock on2026-11-08."
+    },
+    {
+      "jlc": "C565324",
+      "mpn": "2012670005",
+      "decision": "Selected engineering candidate",
+      "finding": "11852 available-order quantity,11907 displayed stock,1.8694USD;24contacts,fourPTHslots,noNPTH;1.6mm recommended. See usb-201267-footprint.json."
+    }
+  ],
+  "unrelated_lookup": "C211356 resolves to crystal XTL581100-J96-011, not USB. Excluded from connector selection and cost."
+}

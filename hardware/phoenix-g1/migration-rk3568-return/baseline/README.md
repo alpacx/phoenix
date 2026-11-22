@@ -1,0 +1,114 @@
+# Phoenix G1 — progetto in lavorazione, non ordinabile
+
+## Requisiti attivi
+
+RK3568, **512 MiB DDR3 (due dispositivi x16)**, Ethernet Gigabit, una USB-C per alimentazione e USB 3 device verso il Mac, Wi-Fi integrato con antenna esterna, piccolo display a colori non touch e connettore interno per espansioni. Nessun 5G. **Raffreddamento passivo obbligatorio: nessuna ventola.** Il contorno resta **90 × 40 mm**. Gli studi LPDDR4 e 100 × 30 mm sono alternative archiviate, non la configurazione attiva.
+
+L'altezza di 18–22 mm ipotizzata per l'involucro è una stima: display, flex, dissipatore, distanziali e tolleranze non sono ancora verificati insieme.
+
+## Stato verificato l’8 novembre 2026
+
+Lo schema gerarchico comprende 37 fogli funzionali più la radice, **355 componenti fisici** e 1.935 disposizioni di pin controllate contro i contratti degli script. ERC: **0 errori, 1 avviso** per USB_SHIELD isolato. I contratti verificano la trascrizione prevista, non costituiscono una revisione indipendente del circuito.
+
+Il PCB contiene **354 footprint, zero piste e 1.354 connessioni mancanti**. Manca il footprint qualificato del display. Il posizionamento automatico è uno studio di ingombro, non un layout elettrico. Dopo aver riservato entrambi i lati anche per i fori termici del PMIC, il DRC riporta **0 violazioni geometriche**; mostra separatamente 499 connessioni mancanti, elenco limitato rispetto al conteggio completo. Nessuna esclusione aggiunta per nascondere errori.
+
+Lo screening dei 31 pad forati controlla dimensioni e anelli di rame nominali. Non copre tolleranze di foratura, distanza fra fori, maschera, assemblaggio, impedenza o fit meccanico. I fori termici del PMIC sono al minimo nominale di 0,15 mm di anello: il processo resta da qualificare.
+
+**La scheda non è pronta per produzione.** Non sono stati generati Gerber o file d'ordine; non è stato costruito né provato un prototipo custom.
+
+## File da aprire
+
+- `kicad/integrated/phoenix-g1.kicad_pro`: schema completo da revisionare.
+- `kicad/floorplan/phoenix-g1-floorplan.kicad_pcb`: studio di posizionamento non instradato.
+- `review/release-gate.json`: condizioni ancora aperte per il rilascio.
+- `review/integrated-erc.txt`, `integrated-connectivity.json`, `floorplan-drc.txt`, `floorplan.json`: controlli correnti.
+- `review/fabrication-screen.json`: screening dimensionale limitato dei fori e anelli.
+- `review/bom-inventory.json`: inventario di 355 riferimenti, non BOM per ordine.
+- `sourcing/selected-main-parts.json`: prezzi e quantità dei candidati selezionati.
+- `sourcing/public/`: osservazioni delle pagine JLCPCB, incluse alternative non selezionate.
+
+I fogli autonomi sono sorgenti generati; aprire la gerarchia integrata per seguire i collegamenti. Anteprime eventualmente presenti non sostituiscono i file KiCad e i rapporti correnti.
+
+## Circuiti e verifiche recenti
+
+- **Wi-Fi AP6256**: SDIO, controllo accensione, clock a 37,4 MHz e 32,768 kHz, alimentazioni e U.FL nello schema. Pinout confrontato con modulo e riferimento Radxa ROCK 3C. BT disabilitato. Restano RF a 50 ohm, keepout, clock, sequenza di alimentazione, driver/firmware e modalità access point da qualificare.
+- **Alimentazione Wi-Fi**: aggiunto U26 TPS62130RGTR, regolatore dedicato da **3,584 V**, con ferrite TDK da 20 mΩ. Il suo PG, riferito alla propria uscita, abilita il regolatore di sistema U17. Lo screening statico PWM comprende tolleranze dei resistori e leakage del feedback e lascia **210 mV** sul minimo VBAT di 3,2 V. Restano esclusi transitori, temperatura dei passivi, perdite delle piste e dropout con USB bassa; PG non garantisce lo spegnimento sicuro in ogni guasto. Vedere `wifi-power-check.json`.
+- **Espansioni**: header 2×10 a passo 1,27 mm, SPI, I²C, UART e quattro GPIO a 3,3 V; pinout Phoenix, non compatibile HAT/PMOD. Candidato C3975193: 0,1745 USD, corpo 12,7×3,4 mm, riserva preliminare 14×8 mm. Corrente disponibile per espansioni non allocata; niente hot-plug o alimentazione esterna sui rail. Altezza e controparte ancora da qualificare. Vedere `expansion-pinout.json`.
+- **Reset termico**: collegamento TSADC_SHUT_M0 → 0 Ω → RESETn/RESETB coerente con il riferimento Rockchip. Software e comportamento reale del PMIC ancora da provare; vedere `reset-path-check.json`.
+- **DDR3**: H5TQ2G63GFR-TEC, 1,50 V. Feedback PMIC con resistori 0603 da 0,1%, 25 ppm/°C selezionati. Target iniziale 533 MHz / 1066 MT/s, non un risultato misurato né il limite del componente. Il loader e la topologia a due chip devono essere verificati.
+
+## USB, stackup e alimentazione
+
+Il nuovo candidato USB-C è **Molex 2012670005, C565324**, per PCB da **1,6 mm**: 24 contatti, quattro asole metallizzate larghe 0,6 mm, nessun foro non metallizzato. Lo schema e il footprint sono aggiornati. Il conflitto precedente fra connettore da 0,8 mm e spessori JLC a sei strati è risolto nella bozza. Restano da scegliere materiali e spessori dielettrici effettivi e da qualificare impedenza e assemblaggio. Il disegno locale revisione C è stato ispezionato; della C4 corrente sono confrontate le quote testuali, non ancora la grafica completa. Vedere `usb-201267-footprint.json` e `stackup-compatibility.json`.
+
+HD3SS3220 gestisce USB-C UFP/SuperSpeed; non c'è negoziazione USB PD. Il carico principale viene abilitato solo quando la sorgente pubblicizza 3 A Type-C. Non è garantito l'avvio da qualsiasi porta Mac. TPS25940 protegge il ramo VBUS e TPS259531 il carico principale: budget completo, accensione, spegnimento, brownout e dissipazione restano aperti. Lo screening della rampa di 66,2 µF nominali indica circa 126 mA capacitivi durante 2,62 ms tipici, senza includere l'avvio di tutti i carichi.
+
+USB, DDR e RGMII richiedono ancora stackup, escape BGA, vincoli di temporizzazione, piani e routing. Inventario e griglia relativa dei 636 ball RK3568 sono verificati. Il footprint revisionato corregge gli arrotondamenti alla griglia esatta di 0,65 mm; l'orientamento è confrontato con le viste top/bottom del datasheet Rockchip V1.0. Resta da riconciliare la revisione del package realmente ordinato e qualificare land, maschera, stencil ed escape. Un via 0,4/0,2 mm al centro di quattro ball viola il target di clearance da 0,09 mm; 0,35/0,2 mm è un candidato geometrico, non routing verificato. Vedere `bga-geometry-check.json` e `bga-footprint-repair.json`.
+
+## Storage, firmware e display
+
+La flash NOR selezionata è da 32 MiB. Non sono ancora provati boot ROM, loader, U-Boot, immagine Linux completa o aggiornamenti A/B entro questa capacità. `boot-software-check.json` registra fonti Rockchip, hash dei documenti e verifiche necessarie: il tool DDR usa MHz; il circuito senza pull-up DQSn richiede la famiglia DDRBIN regolare, non WDQS. Nessun loader è stato generato o caricato.
+
+Il display IPS SPI da 0,96 pollici, 80×160, ha alimentazione a 3 V, buffer e comando retroilluminazione nello schema. La retroilluminazione usa ora 180 Ω in 0603: screening statico massimo 16,84 mA e 50,51 mW a 5,9 V, senza garanzia della piena luminosità. Il flex ha passo 0,7 mm: metodo di collegamento, assemblaggio, fissaggio e relazione interna VDD/VDDIO restano da chiarire. Non è stato inventato un connettore ZIF equivalente.
+
+Restano inoltre aperti magnetiche Ethernet per l'esatto PHY/BSP, collegamento chassis/schermi, protezioni di sistema, capacità effettive dei condensatori e stabilità dei regolatori. La velocità VPN vicina al gigabit deve essere misurata su hardware, non si deduce dalle interfacce nominali.
+
+## Costo e sourcing
+
+Il subtotale dei candidati selezionati è **76,0362 USD**, con prezzi unitari osservati per riga: **341 posizioni con candidato selezionato, nessuna posizione attuale senza MPN, 14 piazzole di test**. Il completamento nominale non qualifica i componenti né esclude aggiunte necessarie alla revisione. Sono esclusi PCB, assemblaggio, attrezzaggi, scarti, materiale termico, involucro, trasporto e imposte. L'obiettivo di 50 EUR assemblati **non è raggiunto né dimostrato**.
+
+I campi JLC di disponibilità ordinabile e stock visualizzato sono conservati separatamente; non sono una prenotazione o una conferma di disponibilità immediata per PCBA. Per la RAM sono stati osservati 19 chip: al massimo nove schede prima di riserva/scarti. Sono stati assegnati 71 resistori standard da 1% solo a richieste compatibili, escludendo quelle da 0,1%/25 ppm; la selezione non conclude la verifica termica o del circuito. Le alternative scaricate non si sommano automaticamente alla BOM. Capacità effettive, stato di produzione e footprint devono essere qualificati anche quando un componente è disponibile.
+
+## Conferme tecniche esterne necessarie
+
+`review/external-evidence-needed.json` contiene i quesiti precisi per fabbricante e produttori: montaggio flex e VDDIO del display, magnetiche Ethernet. Non è stato inviato alcun messaggio ai fornitori. Questi punti bloccano il rilascio; il file elenca separatamente anche il lavoro di progettazione ancora incompleto.
+
+## Riproducibilità e limiti
+
+`integrate_schematic.py` integra i fogli e annota i candidati dalla mappatura unica `sourcing/selected-references.json`. `check_integrated.py` confronta pin e percorsi DC: non verifica corrente, stabilità o sequenze temporali. I controlli specifici Wi-Fi, espansioni, reset e alimentazioni producono rapporti separati.
+
+`build_floorplan.py` usa il Python KiCad e **ricrea una board senza piste**: non eseguirlo su un layout instradato. Gli script di schema richiedono `sexpdata`. Dopo ogni modifica rigenerare netlist, ERC, controlli pertinenti, floorplan/DRC se applicabile, release gate e inventario BOM.
+
+Fonti primarie: documenti Rockchip, Hynix, TI e produttori dei componenti in `reference/`; [capacità JLCPCB](https://jlcpcb.com/capabilities/pcb-capabilities), [stackup JLCPCB](https://jlcpcb.com/impedance), [rkbin Rockchip](https://github.com/rockchip-linux/rkbin). URL e timestamp dei prezzi sono nei JSON di sourcing. Le verifiche documentali e numeriche non sostituiscono simulazioni SI/PI e collaudo fisico.
+
+## Aggiornamento display e termica — 8 novembre
+
+Il display è incluso nella versione base. Il collegamento rimovibile resta un obiettivo di montaggio/manutenzione; alimentazione, buffer e retroilluminazione restano sulla scheda principale. Il cavo USB-C rimane staccabile.
+
+`check_passive_thermal.py` genera uno studio di sensibilità a convezione e irraggiamento, non una simulazione CFD né una previsione dei consumi Phoenix. Nell’ipotesi di involucro 90×40×20 mm, base e lati isotermi metallici, emissività 0,85, h=8 W/m²K e ambiente 40 °C, il modello smaltisce circa 1,9 W con superficie a 55 °C. Il limite di 55 °C è solo uno screening interno, non una certificazione. Gli scenari di potenza non sono misure: non è garantito che la forma proposta consenta raffreddamento passivo e VPN a piena velocità insieme.
+
+Selezionati 95 candidati MLCC da 1/4,7/10/22 µF e aggiornate tre posizioni da 100 nF. I quattro nuovi MPN Samsung risultano in produzione e con quantità ordinabili JLC osservate; la capacità effettiva con tensione, temperatura e invecchiamento resta da verificare. Nessuna sostituzione X5R nelle posizioni che richiedono esplicitamente X7R.
+
+### Verifica display e distinta — 8 novembre, continuazione
+
+Il display rimane incluso. È stato esaminato il candidato N096-1608TBBIG09-C08 (C18723032), con FPC a 8 contatti da 0,5 mm. Non è ancora sostituito nello schema: il connettore HCTL C5213730 richiede contatti e rinforzo più lunghi; il Molex C293338 presenta differenze nelle tolleranze di larghezza e nella geometria dei conduttori. Il solo passo compatibile non basta. Evidenze e limiti sono in `review/display-connector-investigation.json`; serve anche adattare il driver LED, perché il nuovo pannello non espone LEDK.
+
+Selezionati altri nove resistori da catalogo JLCPCB: tre da 200 kohm, due da 10 kohm con precisione 0,1%/25 ppm, uno da 120 ohm, uno da 51 kohm e due da 2,2 kohm. La selezione automatica controlla anche il valore resistivo dichiarato. La disponibilità osservata non equivale a prenotazione dei componenti né a qualificazione elettrica. Nessuna pista aggiunta in questa continuazione.
+
+### Vincoli dei segnali veloci e piazzamento delle terminazioni
+
+`tools/build_highspeed_plan.py` associa le prescrizioni Rockchip alle 40 reti reali che compongono quattro percorsi USB 3 (due direzioni e due orientamenti del connettore) e dodici percorsi RGMII. Il piano mantiene distinte le lunghezze dei percorsi completi dai singoli segmenti separati da resistenze, condensatori e multiplexer. Le larghezze delle piste e gli spazi delle coppie non sono ancora fissati: dipendono dallo stackup definitivo. Si veda `review/highspeed-routing-plan.json`.
+
+Il generatore del piazzamento ora riserva prima le resistenze R501–R512 vicino alla rispettiva sorgente: RK3568 per TX, PHY per RX. La distanza geometrica massima pin–resistenza scende da 26,9564 a 6,3520 mm; il campo attuale è 1,6298–6,3520 mm. Queste sono distanze in linea retta, non lunghezze di piste né una verifica di integrità del segnale. Il controllo è riproducibile con `tools/check_rgmii_placement.py`; confronto e risultato sono nei report `rgmii-placement-before-source-targeting.json` e `rgmii-placement.json`.
+
+Dopo la modifica: 353 footprint nel perimetro 90×40 mm, nessun fallimento del piazzamento automatico, DRC senza violazioni geometriche; restano 1.354 collegamenti del ratsnest e zero piste. Il display e la meccanica non sono inclusi nella verifica di ingombro. Altre 15 posizioni hanno ricevuto candidati di catalogo, con disponibilità JLCPCB osservata; restano da verificare capacità effettiva sotto tensione, tolleranze dei circuiti e taratura degli oscillatori.
+
+
+### Revisione senza ventola e chiusura della selezione nominale
+
+Il requisito passivo è registrato in `mechanical/passive-cooling-requirements.json`. Il percorso previsto è package del processore → interfaccia termica isolante e comprimibile → diffusore metallico → involucro. Display e flex devono avere supporto separato; non devono trasmettere il serraggio al processore o interrompere questo percorso. Non sono ancora definiti materiale acquistabile, carico di compressione, tolleranze e geometria finale.
+
+`review/thermal-path-sizing.json` confronta un involucro ipotetico 100×46×24 mm, anche con fondo bloccato e superficie del display sottratta. Non modifica il PCB da90×40 mm e non dimostra il fit meccanico. A40°C ambiente, h ipotetico8 W/m²K e fondo bloccato, il modello smaltisce a55°C circa1,47 W con emissività0,1 o2,42 W con emissività0,85. 55°C resta uno screening interno, non una soglia normativa. Le potenze di scenario non sono consumi misurati. Il modello del TIM esclude le resistenze di contatto e non è una garanzia termica.
+
+La verifica documentale del riferimento Henkel TGP3000 (3 W/mK) serve solo al modello: nessun MPN termico è approvato o aggiunto alla BOM, e non è stata verificata disponibilità JLC per questo materiale. La tabella termica Rockchip è stata controllata visivamente: è dichiarata dal produttore come simulazione di riferimento, non come qualifica del nostro involucro.
+
+Eliminato R1701, duplicato della connessione di reset tramite R1507. La resistenza VBUS da900kΩ è ora costituita da R601/R605/R606, tre300kΩ0,1%25ppm in serie; controllo statico896,85–903,15kΩ nel campo termico di screening, entro880–910kΩ richiesti. Scelte precisioni e package disponibili anche per soglie USB e feedback Wi-Fi. Lo screening Wi-Fi comprende ora100ppm/K indipendenti nei due resistori: margine statico minimo circa139mV sopra3,2V dopo la perdita nominale ipotizzata sulla ferrite, prima degli altri effetti esclusi.
+
+Aggiornati78 codici JLCPCB; tutti hanno quantità ordinabili pubbliche positive. `review/inventory-capacity.json` confronta quantità e fabbisogno per scheda: la RAM limita il conteggio nominale a9 schede prima degli scarti, senza prenotazione o conferma PCBA. La distinta resta una selezione di candidati.
+
+Controlli aggiornati:1935 pin della gerarchia,110 del frontendUSB e204 della memoria senza differenze dai contratti; ERC0 errori e1 avviso USB_SHIELD;354 footprint, zero piste,1354 collegamenti del ratsnest. Non sono state risolte qualificazione del display, magnetiche Ethernet, routing, integrità dei segnali/alimentazioni o prove fisiche. Non sono stati prodotti file d'ordine.
+
+
+### Decisione di configurazione — RAM confermata
+
+Su indicazione dell’utente restano512MiB DDR3 e tutte le funzioni attuali, con raffreddamento passivo. La sola alternativa architetturale in valutazione è RK3562. `review/rk3562-migration-assessment.json` registra interfacce, risparmio del solo chip e verifiche necessarie. Il package misto0,5/0,65mm richiede una nuova analisi di escape: non è sostituibile nel footprint RK3568 e non è ancora dimostrato il risparmio netto sulla scheda assemblata. Nessuna sostituzione applicata allo schema.

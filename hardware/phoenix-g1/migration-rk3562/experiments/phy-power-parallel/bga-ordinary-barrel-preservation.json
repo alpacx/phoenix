@@ -1,0 +1,111 @@
+{
+  "board_sha256": "e4825a0799883a4161abd63d6988a477c81d3971844e6a2889991a002732df8c",
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 7317,
+    "explicitly_replaced_copper": {
+      "0712077c-a820-46ef-b75c-3875fc30db98": [
+        "LPDDR4_DQ2_B",
+        0,
+        46100000,
+        13350000,
+        46100000,
+        13350000,
+        450000,
+        200000
+      ],
+      "66b8b933-35aa-4972-b9c5-30928affb3bf": [
+        "LPDDR4_DQ12_A",
+        0,
+        37950000,
+        13300000,
+        37950000,
+        13300000,
+        450000,
+        200000
+      ],
+      "6fd70686-6635-4fa7-b1b4-f14fd3293816": [
+        "LPDDR4_DQ7_B",
+        0,
+        47000000,
+        13350000,
+        47000000,
+        13350000,
+        450000,
+        200000
+      ],
+      "bb915513-84fa-4415-9308-a3043f041214": [
+        "LPDDR4_DQ6_A",
+        0,
+        39100000,
+        13350000,
+        39100000,
+        13350000,
+        450000,
+        200000
+      ],
+      "f89b2666-064d-48b3-821d-7c0439b8420c": [
+        "LPDDR4_DQ10_B",
+        0,
+        49649999,
+        14000000,
+        49649999,
+        14000000,
+        450000,
+        200000
+      ]
+    },
+    "added_tracks_vias": 8,
+    "existing_connected_pad_groups_preserved": 121
+  },
+  "prior_pairs_verified": 698,
+  "nearby_existing_fast_segments": 309,
+  "return_distance": [
+    {
+      "net": "LPDDR4_DQ12_A",
+      "old_nearest_gnd_mm": 3.459046111285595,
+      "new_nearest_gnd_mm": 3.164253466459348,
+      "extension_mm": 0.3207106781186548,
+      "centerline_samples_without_plane": 13,
+      "centerline_samples": 13
+    },
+    {
+      "net": "LPDDR4_DQ6_A",
+      "old_nearest_gnd_mm": 2.61725046566048,
+      "new_nearest_gnd_mm": 2.600480724789169,
+      "extension_mm": 0.35,
+      "centerline_samples_without_plane": 14,
+      "centerline_samples": 14
+    },
+    {
+      "net": "LPDDR4_DQ2_B",
+      "old_nearest_gnd_mm": 1.978004044485248,
+      "new_nearest_gnd_mm": 1.6763054614240211,
+      "extension_mm": 0.33284271247461905,
+      "centerline_samples_without_plane": 14,
+      "centerline_samples": 14
+    },
+    {
+      "net": "LPDDR4_DQ7_B",
+      "old_nearest_gnd_mm": 1.8607794065928394,
+      "new_nearest_gnd_mm": 1.5297058540778357,
+      "extension_mm": 0.3914213562373095,
+      "centerline_samples_without_plane": 15,
+      "centerline_samples": 16
+    },
+    {
+      "net": "LPDDR4_DQ10_B",
+      "old_nearest_gnd_mm": 1.3036106550657678,
+      "new_nearest_gnd_mm": 1.2501599897613107,
+      "extension_mm": 0.350001,
+      "centerline_samples_without_plane": 15,
+      "centerline_samples": 15
+    }
+  ],
+  "projected_area_losses": [],
+  "via_land_margin_conflicts": [],
+  "drc_counts": {
+    "via_dangling": 121
+  },
+  "minimum_joins": 449
+}

@@ -1,0 +1,14 @@
+{
+  "board_checkpoint": "integrated-fixture-trunk.json",
+  "decision": "Current via and SoC land dimensions are incompatible with a centered via fully inside the existing land.",
+  "land_mm": 0.25,
+  "project_via_min_outer_mm": 0.45,
+  "project_min_through_drill_mm": 0.2,
+  "project_copper_layers": 6,
+  "overshoot_radius_mm": 0.1,
+  "process_sources": [
+    "https://jlcpcb.com/help/article/via-in-pad-pofv-guide",
+    "https://jlcpcb.com/capabilities/pcb-capabilities"
+  ],
+  "limits": "Generic supplier process guidance. Exact stackup and assembly have not been qualified. Do not enlarge lands or relax via minima based on this record."
+}

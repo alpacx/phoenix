@@ -1,0 +1,35 @@
+{
+  "source_sha256": "7623e79a6838934df7f6d441cf01ec91127591fe4a32247673c4e6f30816fe7a",
+  "width_mm": 0.2,
+  "grid_mm": 0.05,
+  "max_local_path_mm": 5.6,
+  "via_land_drill_mm": [
+    0.45,
+    0.2
+  ],
+  "trials": [
+    {
+      "vias_per_signal": [
+        2,
+        0
+      ],
+      "order": [
+        "USB_DM",
+        "USB_DP"
+      ],
+      "inside": [
+        "In3.Cu",
+        "In3.Cu"
+      ],
+      "signals": [
+        {
+          "net": "USB_DM",
+          "visited": 6909,
+          "route": false
+        }
+      ]
+    }
+  ],
+  "impedance_qualified": false,
+  "adopted": false
+}

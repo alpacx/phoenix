@@ -1,0 +1,1319 @@
+{
+  "parent_sha256": "372ff0905528b1f39eab51f2ec0203f982cb399d86fd38556da0842e9bc2291e",
+  "land_drill_mm": [
+    0.45,
+    0.2
+  ],
+  "width_mm": 0.2,
+  "single_blocker_windows": {
+    "EXP_GPIO1": [
+      {
+        "point_nm": [
+          68075000,
+          1795000
+        ],
+        "touching": {
+          "a8c8576a-4d5f-40b0-8bfd-fa4937c01376": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68100000,
+          1795000
+        ],
+        "touching": {
+          "a8c8576a-4d5f-40b0-8bfd-fa4937c01376": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68125000,
+          1795000
+        ],
+        "touching": {
+          "a8c8576a-4d5f-40b0-8bfd-fa4937c01376": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68075000,
+          1820000
+        ],
+        "touching": {
+          "a8c8576a-4d5f-40b0-8bfd-fa4937c01376": "In2.Cu"
+        }
+      }
+    ],
+    "EXP_GPIO0": [
+      {
+        "point_nm": [
+          68075000,
+          1995000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68100000,
+          1995000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68125000,
+          1995000
+        ],
+        "touching": {
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68075000,
+          2020000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68100000,
+          2020000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68125000,
+          2020000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68075000,
+          2045000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68100000,
+          2045000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68125000,
+          2045000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68075000,
+          2070000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68100000,
+          2070000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68125000,
+          2070000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68075000,
+          2095000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68100000,
+          2095000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68125000,
+          2095000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68075000,
+          2120000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68100000,
+          2120000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68125000,
+          2120000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "9371e144-0e80-49cd-982b-9239cbc0507d": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68075000,
+          2145000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6a97128a-4165-4fee-bf89-f4c10d0a15bb": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68100000,
+          2145000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68125000,
+          2145000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "9371e144-0e80-49cd-982b-9239cbc0507d": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68075000,
+          2170000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6a97128a-4165-4fee-bf89-f4c10d0a15bb": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68100000,
+          2170000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6a97128a-4165-4fee-bf89-f4c10d0a15bb": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68125000,
+          2170000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "9371e144-0e80-49cd-982b-9239cbc0507d": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68075000,
+          2195000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6a97128a-4165-4fee-bf89-f4c10d0a15bb": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68100000,
+          2195000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6a97128a-4165-4fee-bf89-f4c10d0a15bb": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68125000,
+          2195000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6a97128a-4165-4fee-bf89-f4c10d0a15bb": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "9371e144-0e80-49cd-982b-9239cbc0507d": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68075000,
+          2220000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6a97128a-4165-4fee-bf89-f4c10d0a15bb": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68100000,
+          2220000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6a97128a-4165-4fee-bf89-f4c10d0a15bb": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68125000,
+          2220000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6a97128a-4165-4fee-bf89-f4c10d0a15bb": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68075000,
+          2245000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6a97128a-4165-4fee-bf89-f4c10d0a15bb": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fdcd8388-04d9-41b7-9ed8-2fc8859fb93e": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68100000,
+          2245000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6a97128a-4165-4fee-bf89-f4c10d0a15bb": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68125000,
+          2245000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6a97128a-4165-4fee-bf89-f4c10d0a15bb": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68075000,
+          2270000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6a97128a-4165-4fee-bf89-f4c10d0a15bb": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fdcd8388-04d9-41b7-9ed8-2fc8859fb93e": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68100000,
+          2270000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6a97128a-4165-4fee-bf89-f4c10d0a15bb": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fdcd8388-04d9-41b7-9ed8-2fc8859fb93e": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68125000,
+          2270000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6a97128a-4165-4fee-bf89-f4c10d0a15bb": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68075000,
+          2295000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6a97128a-4165-4fee-bf89-f4c10d0a15bb": "In2.Cu",
+          "6aeefb06-7e1f-4e5a-a6c4-778ae8f0eb67": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fdcd8388-04d9-41b7-9ed8-2fc8859fb93e": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68100000,
+          2295000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6a97128a-4165-4fee-bf89-f4c10d0a15bb": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fdcd8388-04d9-41b7-9ed8-2fc8859fb93e": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68125000,
+          2295000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6a97128a-4165-4fee-bf89-f4c10d0a15bb": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fdcd8388-04d9-41b7-9ed8-2fc8859fb93e": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68075000,
+          2320000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6a97128a-4165-4fee-bf89-f4c10d0a15bb": "In2.Cu",
+          "6aeefb06-7e1f-4e5a-a6c4-778ae8f0eb67": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fdcd8388-04d9-41b7-9ed8-2fc8859fb93e": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68100000,
+          2320000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6a97128a-4165-4fee-bf89-f4c10d0a15bb": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fdcd8388-04d9-41b7-9ed8-2fc8859fb93e": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68125000,
+          2320000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6a97128a-4165-4fee-bf89-f4c10d0a15bb": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fdcd8388-04d9-41b7-9ed8-2fc8859fb93e": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68075000,
+          2345000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6a97128a-4165-4fee-bf89-f4c10d0a15bb": "In2.Cu",
+          "6aeefb06-7e1f-4e5a-a6c4-778ae8f0eb67": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fdcd8388-04d9-41b7-9ed8-2fc8859fb93e": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68100000,
+          2345000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6a97128a-4165-4fee-bf89-f4c10d0a15bb": "In2.Cu",
+          "6aeefb06-7e1f-4e5a-a6c4-778ae8f0eb67": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fdcd8388-04d9-41b7-9ed8-2fc8859fb93e": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68125000,
+          2345000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6a97128a-4165-4fee-bf89-f4c10d0a15bb": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fdcd8388-04d9-41b7-9ed8-2fc8859fb93e": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68075000,
+          2370000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6a97128a-4165-4fee-bf89-f4c10d0a15bb": "In2.Cu",
+          "6aeefb06-7e1f-4e5a-a6c4-778ae8f0eb67": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fdcd8388-04d9-41b7-9ed8-2fc8859fb93e": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68100000,
+          2370000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6a97128a-4165-4fee-bf89-f4c10d0a15bb": "In2.Cu",
+          "6aeefb06-7e1f-4e5a-a6c4-778ae8f0eb67": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fdcd8388-04d9-41b7-9ed8-2fc8859fb93e": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      },
+      {
+        "point_nm": [
+          68125000,
+          2370000
+        ],
+        "touching": {
+          "4274c42f-5d70-45b8-9816-2ac50fa3df95": "In2.Cu",
+          "54574f9d-a1da-4ad9-9c64-27573845feed": "In2.Cu",
+          "6a97128a-4165-4fee-bf89-f4c10d0a15bb": "In2.Cu",
+          "6b2383d5-8e01-47d5-9623-546a2a19e0b5": "In2.Cu",
+          "7c1c8065-0dd2-4496-90cd-30a5e56af49b": "In2.Cu",
+          "8411c43b-aab7-4f58-9c4f-b0c471e25c46": "In2.Cu",
+          "85b56fad-cd25-4edd-80b7-1f0564daff68": "In2.Cu",
+          "8ae75382-daf4-4d9e-b521-400c31d6f535": "In2.Cu",
+          "8b359a72-676e-4cc5-a767-c39d6fd032dd": "In2.Cu",
+          "ae500137-dfc6-47a7-9b60-2b80646f60b8": "In2.Cu",
+          "b63b66e1-ac71-4c9a-a138-87886f56b508": "In2.Cu",
+          "b8efc0bb-6a06-4a4c-887d-4a36595b85ef": "In2.Cu",
+          "c9a544c8-e233-47e2-b96c-68173317d121": "In2.Cu",
+          "cf4a897e-a688-4b60-add3-d93ba3608db3": "In2.Cu",
+          "d0c60b87-5813-4742-a863-b269c7297a0a": "In2.Cu",
+          "eeb1df7a-ee3f-427a-9c1b-58395e26ca1c": "In2.Cu",
+          "fdcd8388-04d9-41b7-9ed8-2fc8859fb93e": "In2.Cu",
+          "fe84ed0e-f2cd-468f-8ae1-6f7e9e4ee99d": "In2.Cu"
+        }
+      }
+    ]
+  },
+  "clear_launches": 267,
+  "legal_via_centers_nm": [],
+  "blockers": [
+    {
+      "obstacles": [
+        "EXP_GPIO0"
+      ],
+      "points": 48
+    },
+    {
+      "obstacles": [
+        "EXP_GPIO1"
+      ],
+      "points": 4
+    },
+    {
+      "obstacles": [
+        "+5V_ADDON",
+        "EXP_GPIO0"
+      ],
+      "points": 63
+    },
+    {
+      "obstacles": [
+        "+5V_ADDON",
+        "C431.1"
+      ],
+      "points": 28
+    },
+    {
+      "obstacles": [
+        "EXP_GPIO0",
+        "EXP_GPIO1"
+      ],
+      "points": 20
+    },
+    {
+      "obstacles": [
+        "EXP_GPIO1",
+        "source solder land"
+      ],
+      "points": 1
+    },
+    {
+      "obstacles": [
+        "+5V_ADDON",
+        "C431.1",
+        "EXP_GPIO0"
+      ],
+      "points": 59
+    },
+    {
+      "obstacles": [
+        "+5V_ADDON",
+        "C431.1",
+        "J3.24"
+      ],
+      "points": 23
+    },
+    {
+      "obstacles": [
+        "+5V_ADDON",
+        "C431.1",
+        "J3.22",
+        "J3.24"
+      ],
+      "points": 6
+    },
+    {
+      "obstacles": [
+        "+5V_ADDON",
+        "C431.1",
+        "J3.24",
+        "J3.26"
+      ],
+      "points": 6
+    },
+    {
+      "obstacles": [
+        "EXP_GPIO1",
+        "J3.21",
+        "J3.25",
+        "source solder land"
+      ],
+      "points": 1
+    },
+    {
+      "obstacles": [
+        "EXP_GPIO1",
+        "EXP_SPI_CLK",
+        "J3.21",
+        "J3.25",
+        "source solder land"
+      ],
+      "points": 8
+    }
+  ],
+  "assembly_ready": false
+}

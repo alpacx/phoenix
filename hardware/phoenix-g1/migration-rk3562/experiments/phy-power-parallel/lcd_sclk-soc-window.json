@@ -1,0 +1,240 @@
+{
+  "parent_sha256": "ef5f13be271968f1d22198f3ba00cb8ba0f0ff48be160d504cc7392860fbf966",
+  "pin": "U1.N3",
+  "width_mm": 0.2,
+  "grid_mm": 0.025,
+  "via_mm": [
+    0.45,
+    0.2
+  ],
+  "single_obstacle_candidates": [
+    {
+      "name": "R8001.2",
+      "via_nm": [
+        37900000,
+        19650000
+      ],
+      "obstacles": [
+        [
+          "3ee6cb1d-e60f-41c6-b852-0cadb7eb9cb3",
+          "F.Cu"
+        ]
+      ],
+      "length_mm": 0.3621320343559643,
+      "path_nm": [
+        [
+          37600000,
+          19500000
+        ],
+        [
+          37625000,
+          19500000
+        ],
+        [
+          37650000,
+          19500000
+        ],
+        [
+          37675000,
+          19500000
+        ],
+        [
+          37700000,
+          19500000
+        ],
+        [
+          37725000,
+          19500000
+        ],
+        [
+          37750000,
+          19500000
+        ],
+        [
+          37775000,
+          19525000
+        ],
+        [
+          37800000,
+          19550000
+        ],
+        [
+          37825000,
+          19575000
+        ],
+        [
+          37850000,
+          19600000
+        ],
+        [
+          37875000,
+          19625000
+        ],
+        [
+          37900000,
+          19650000
+        ]
+      ]
+    }
+  ],
+  "reachable_positions": 493,
+  "farthest_mm": 0.8070006195784487,
+  "sites": [],
+  "via_obstacles": [
+    {
+      "names": [
+        "R8001.2"
+      ],
+      "positions": 20
+    },
+    {
+      "names": [
+        "GND",
+        "R8001.2"
+      ],
+      "positions": 61
+    },
+    {
+      "names": [
+        "C1603.1",
+        "source pad"
+      ],
+      "positions": 14
+    },
+    {
+      "names": [
+        "GND",
+        "source pad"
+      ],
+      "positions": 2
+    },
+    {
+      "names": [
+        "R8001.2",
+        "source pad"
+      ],
+      "positions": 2
+    },
+    {
+      "names": [
+        "C1603.1",
+        "U1.P3"
+      ],
+      "positions": 2
+    },
+    {
+      "names": [
+        "R8001.2",
+        "U1.P3"
+      ],
+      "positions": 2
+    },
+    {
+      "names": [
+        "C1603.1",
+        "R8001.2"
+      ],
+      "positions": 1
+    },
+    {
+      "names": [
+        "GND",
+        "R8001.2",
+        "U1.1G1"
+      ],
+      "positions": 48
+    },
+    {
+      "names": [
+        "C1603.1",
+        "GND",
+        "source pad"
+      ],
+      "positions": 33
+    },
+    {
+      "names": [
+        "C1603.1",
+        "U1.P3",
+        "source pad"
+      ],
+      "positions": 30
+    },
+    {
+      "names": [
+        "GND",
+        "R8001.2",
+        "U1.P3"
+      ],
+      "positions": 25
+    },
+    {
+      "names": [
+        "C1603.1",
+        "R8001.2",
+        "U1.P3"
+      ],
+      "positions": 24
+    },
+    {
+      "names": [
+        "C1603.1",
+        "EXP_GPIO1",
+        "source pad"
+      ],
+      "positions": 14
+    },
+    {
+      "names": [
+        "C1603.1",
+        "R8001.2",
+        "source pad"
+      ],
+      "positions": 10
+    },
+    {
+      "names": [
+        "GND",
+        "R8001.2",
+        "U1.1H1"
+      ],
+      "positions": 8
+    },
+    {
+      "names": [
+        "GND",
+        "R8001.2",
+        "source pad"
+      ],
+      "positions": 4
+    },
+    {
+      "names": [
+        "C1603.1",
+        "EXP_GPIO1",
+        "U1.P3",
+        "source pad"
+      ],
+      "positions": 38
+    },
+    {
+      "names": [
+        "C1603.1",
+        "GND",
+        "R8001.2",
+        "U1.P3"
+      ],
+      "positions": 33
+    },
+    {
+      "names": [
+        "C1603.1",
+        "GND",
+        "U1.P3",
+        "U1.R3"
+      ],
+      "positions": 14
+    }
+  ],
+  "assembly_ready": false
+}

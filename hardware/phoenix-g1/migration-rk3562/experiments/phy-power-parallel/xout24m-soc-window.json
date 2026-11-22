@@ -1,0 +1,151 @@
+{
+  "parent_sha256": "bab072834f8f2e1593ecd159477ec43c0ba686aaf6beb28f38c074c022f4c341",
+  "pin": "U1.AF25",
+  "width_mm": 0.2,
+  "grid_mm": 0.025,
+  "via_mm": [
+    0.45,
+    0.2
+  ],
+  "ground_relief": false,
+  "ground_via_relief": false,
+  "existing_tracks_and_vias_included": true,
+  "single_obstacle_candidates": [],
+  "reachable_positions": 208,
+  "farthest_mm": 0.4100304866714181,
+  "sites": [],
+  "via_obstacles": [
+    {
+      "names": [
+        "+3V58_WIFI",
+        "C1635.1",
+        "GND",
+        "source pad"
+      ],
+      "positions": 1
+    },
+    {
+      "names": [
+        "+3V58_WIFI",
+        "C1635.1",
+        "GND",
+        "U1.AF24",
+        "source pad"
+      ],
+      "positions": 23
+    },
+    {
+      "names": [
+        "+3V58_WIFI",
+        "C1635.1",
+        "GND",
+        "U1.AG25",
+        "source pad"
+      ],
+      "positions": 23
+    },
+    {
+      "names": [
+        "+3V58_WIFI",
+        "C1635.1",
+        "GND",
+        "U1.AF26",
+        "source pad"
+      ],
+      "positions": 23
+    },
+    {
+      "names": [
+        "+3V58_WIFI",
+        "C1635.1",
+        "GND",
+        "U1.AE25",
+        "source pad"
+      ],
+      "positions": 8
+    },
+    {
+      "names": [
+        "+3V58_WIFI",
+        "C1635.1",
+        "GND",
+        "U1.AF24",
+        "U1.AG25",
+        "source pad"
+      ],
+      "positions": 40
+    },
+    {
+      "names": [
+        "+3V58_WIFI",
+        "C1635.1",
+        "GND",
+        "U1.AF26",
+        "U1.AG25",
+        "source pad"
+      ],
+      "positions": 40
+    },
+    {
+      "names": [
+        "+3V58_WIFI",
+        "C1635.1",
+        "GND",
+        "U1.AE25",
+        "U1.AF24",
+        "source pad"
+      ],
+      "positions": 9
+    },
+    {
+      "names": [
+        "+3V58_WIFI",
+        "C1635.1",
+        "GND",
+        "U1.AE25",
+        "U1.AF26",
+        "source pad"
+      ],
+      "positions": 9
+    },
+    {
+      "names": [
+        "+3V58_WIFI",
+        "C1635.1",
+        "GND",
+        "U1.AF24",
+        "U1.AG24",
+        "U1.AG25",
+        "source pad"
+      ],
+      "positions": 27
+    },
+    {
+      "names": [
+        "+3V58_WIFI",
+        "C1635.1",
+        "GND",
+        "U1.AF26",
+        "U1.AG25",
+        "U1.AG26",
+        "source pad"
+      ],
+      "positions": 3
+    },
+    {
+      "names": [
+        "+3V58_WIFI",
+        "C1635.1",
+        "C1635.2",
+        "GND",
+        "U1.AF24",
+        "U1.AG24",
+        "U1.AG25",
+        "source pad"
+      ],
+      "positions": 2
+    }
+  ],
+  "assembly_ready": false,
+  "source_sha256": "bab072834f8f2e1593ecd159477ec43c0ba686aaf6beb28f38c074c022f4c341"
+}

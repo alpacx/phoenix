@@ -1,0 +1,35 @@
+{
+  "source_sha256": "cee64e9e79713675eb24111a50abaa2f8b6b4860d28f528d9d3bc46385049923",
+  "sample_step_mm": 0.02,
+  "clearance_margin_mm": 0.2,
+  "paths": {
+    "WIFI_ANT": {
+      "start_nm": [
+        71200000,
+        17600000
+      ],
+      "end_nm": [
+        74000000,
+        20200000
+      ],
+      "start_reachable": 51,
+      "end_reachable": 275,
+      "grid_mm": 0.1,
+      "path_nm": null
+    },
+    "WIFI_RF": {
+      "start_nm": [
+        67467500,
+        16400000
+      ],
+      "end_nm": [
+        70707188,
+        16324688
+      ],
+      "start_reachable": 125,
+      "end_reachable": 0,
+      "grid_mm": 0.1,
+      "path_nm": null
+    }
+  }
+}

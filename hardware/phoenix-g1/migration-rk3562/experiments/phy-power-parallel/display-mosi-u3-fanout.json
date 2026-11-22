@@ -1,0 +1,38 @@
+{
+  "parent_sha256": "db84d12e36a96084efe16e5372fd6e522467ecf3c4163b05e52add5287399dc9",
+  "candidate": null,
+  "returns": [
+    {
+      "pin": "1H1",
+      "new_barrel": false,
+      "at_nm": [
+        38800000,
+        19025000
+      ],
+      "centerline_mm": 0.934619407771256,
+      "added": [
+        "157a0499-5368-4b83-8a75-7fa67950d0f9",
+        "abeb878d-5ef0-4a8c-bd2a-1150c02f4c17",
+        "87b25ee5-922f-4e74-aef0-fd3f63a00df6",
+        "7ac2dc5c-a56a-4fe6-8d34-8d9a4109f087",
+        "2a7fd8a9-0c72-4740-aa4e-9c4d37fbce99",
+        "33182897-81b6-4413-b4fc-7b00ffdad9c1",
+        "bfd26812-b2a0-4272-b712-b6de3b95f4a4",
+        "62095c6b-dea9-4cb4-b9b1-41686dfbf539",
+        "aae4ea16-bf96-4685-837c-ecfc40ea567b"
+      ]
+    }
+  ],
+  "failed": [
+    {
+      "pin": "1J1",
+      "reachable": 2971
+    },
+    {
+      "pin": "1K1",
+      "reachable": 3184
+    }
+  ],
+  "delta": [],
+  "assembly_ready": false
+}

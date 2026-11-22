@@ -1,0 +1,7689 @@
+{
+  "source_sha256": "4434879e3c5aba8f62a14b22c930fe42c80bdd23b63bbb90926d7abff49eb7c5",
+  "width_screen_mm": 0.2,
+  "spacing_screen_mm": 0.2,
+  "reference_step_mm": 0.1,
+  "excluded_endpoint_radius_mm": 0.6,
+  "nets": [
+    {
+      "net": "LPDDR4_A0_A",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            34050000,
+            7050000
+          ],
+          "length_mm": 16.371677477306463,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_A3_A",
+            "LPDDR4_A4_A",
+            "LPDDR4_A5_A",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_DQ2_A"
+          ],
+          "reference_centerline_samples": 153,
+          "reference_misses": 30
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            33250000,
+            13500000
+          ],
+          "length_mm": 16.371677477306463,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A1_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ12_B",
+            "LPDDR4_DQ14_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQS1N_B"
+          ],
+          "reference_centerline_samples": 153,
+          "reference_misses": 37
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            34050000,
+            7050000
+          ],
+          "length_mm": 16.371677477306463,
+          "obstacle_nets": [
+            "+1V8_SYS",
+            "<mechanical>",
+            "EMMC_3V3",
+            "GND",
+            "LPDDR4_A2_A",
+            "LPDDR4_A3_A",
+            "LPDDR4_A4_A",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_DQ2_A"
+          ],
+          "reference_centerline_samples": 153,
+          "reference_misses": 30
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            33250000,
+            13500000
+          ],
+          "length_mm": 16.371677477306463,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "EMMC_D0",
+            "GND",
+            "LPDDR4_A1_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ12_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQS1N_B"
+          ],
+          "reference_centerline_samples": 153,
+          "reference_misses": 37
+        }
+      ],
+      "via_nm": [
+        [
+          40500000,
+          13500000
+        ],
+        [
+          26800000,
+          7050000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_A0_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            41650000,
+            10950000
+          ],
+          "length_mm": 17.8198484809835,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_B",
+            "LPDDR4_A3_B",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_B",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_CS0N_B"
+          ],
+          "reference_centerline_samples": 167,
+          "reference_misses": 30
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            28900000,
+            13050000
+          ],
+          "length_mm": 17.8198484809835,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_A1_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ4_B",
+            "LPDDR4_DQ5_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQS1N_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 167,
+          "reference_misses": 69
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            41650000,
+            10950000
+          ],
+          "length_mm": 17.8198484809835,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "EMMC_IO_1V8",
+            "EMMC_VDDI",
+            "GND",
+            "LPDDR4_A2_B",
+            "LPDDR4_A3_B",
+            "LPDDR4_A4_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_B"
+          ],
+          "reference_centerline_samples": 167,
+          "reference_misses": 30
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            28900000,
+            13050000
+          ],
+          "length_mm": 17.8198484809835,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "EMMC_VDDI",
+            "GND",
+            "LPDDR4_A0_A",
+            "LPDDR4_A1_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ4_B",
+            "LPDDR4_DQ5_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQS1N_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 167,
+          "reference_misses": 69
+        }
+      ],
+      "via_nm": [
+        [
+          43750000,
+          13050000
+        ],
+        [
+          26800000,
+          10950000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_A1_A",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            35449999,
+            7699999
+          ],
+          "length_mm": 16.64030704162155,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A5_A",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A"
+          ],
+          "reference_centerline_samples": 155,
+          "reference_misses": 29
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            32450001,
+            13350000
+          ],
+          "length_mm": 16.64030704162155,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ12_B",
+            "LPDDR4_DQ13_B",
+            "LPDDR4_DQ14_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQS1N_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 155,
+          "reference_misses": 54
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            35449999,
+            7699999
+          ],
+          "length_mm": 16.64030704162155,
+          "obstacle_nets": [
+            "+1V8_SYS",
+            "<mechanical>",
+            "EMMC_STRB",
+            "GND",
+            "LPDDR4_A5_A",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A"
+          ],
+          "reference_centerline_samples": 155,
+          "reference_misses": 29
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            32450001,
+            13350000
+          ],
+          "length_mm": 16.64030704162155,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "EMMC_D0",
+            "GND",
+            "LPDDR4_A0_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ12_B",
+            "LPDDR4_DQ13_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQS1N_B",
+            "LPDDR4_DQS1P_B",
+            "VCCA1V8_PMU"
+          ],
+          "reference_centerline_samples": 155,
+          "reference_misses": 54
+        }
+      ],
+      "via_nm": [
+        [
+          41100000,
+          13350000
+        ],
+        [
+          26800000,
+          7699999
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_A1_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            41650000,
+            10300000
+          ],
+          "length_mm": 19.375483399593904,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_B",
+            "LPDDR4_A5_B",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_CS0N_B"
+          ],
+          "reference_centerline_samples": 183,
+          "reference_misses": 32
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            30000000,
+            13500000
+          ],
+          "length_mm": 19.375483399593904,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_B",
+            "LPDDR4_DQ14_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ4_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQS1N_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 183,
+          "reference_misses": 70
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            41650000,
+            10300000
+          ],
+          "length_mm": 19.375483399593904,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "EMMC_3V3",
+            "GND",
+            "LPDDR4_A0_B",
+            "LPDDR4_A5_B",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_CS0N_B"
+          ],
+          "reference_centerline_samples": 183,
+          "reference_misses": 32
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            30000000,
+            13500000
+          ],
+          "length_mm": 19.375483399593904,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "EMMC_VDDI",
+            "GND",
+            "LPDDR4_A0_A",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ4_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 183,
+          "reference_misses": 70
+        }
+      ],
+      "via_nm": [
+        [
+          44850000,
+          13500000
+        ],
+        [
+          26800000,
+          10300000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_A2_A",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            33400000,
+            7050000
+          ],
+          "length_mm": 12.548023074035523,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_A3_A",
+            "LPDDR4_A4_A",
+            "LPDDR4_A5_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DQ1_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ6_A"
+          ],
+          "reference_centerline_samples": 115,
+          "reference_misses": 22
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            39200000,
+            14650000
+          ],
+          "length_mm": 12.548023074035523,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_A",
+            "LPDDR4_DQ14_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ7_A"
+          ],
+          "reference_centerline_samples": 115,
+          "reference_misses": 42
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            33400000,
+            7050000
+          ],
+          "length_mm": 12.548023074035523,
+          "obstacle_nets": [
+            "<mechanical>",
+            "EMMC_IO_1V8",
+            "LPDDR4_A0_A",
+            "LPDDR4_A3_A",
+            "LPDDR4_A4_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ6_A"
+          ],
+          "reference_centerline_samples": 115,
+          "reference_misses": 22
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            39200000,
+            14650000
+          ],
+          "length_mm": 12.548023074035523,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "EMMC_D1",
+            "EMMC_D2",
+            "EMMC_D4",
+            "EMMC_D5",
+            "EMMC_D6",
+            "EMMC_VDDI",
+            "GND",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ7_A"
+          ],
+          "reference_centerline_samples": 115,
+          "reference_misses": 42
+        }
+      ],
+      "via_nm": [
+        [
+          41000000,
+          14650000
+        ],
+        [
+          31600000,
+          7050000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_A2_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            41300000,
+            10950000
+          ],
+          "length_mm": 14.932590180780451,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_B",
+            "LPDDR4_A3_B",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_B"
+          ],
+          "reference_centerline_samples": 139,
+          "reference_misses": 25
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            35300000,
+            14650000
+          ],
+          "length_mm": 14.932590180780451,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ9_A"
+          ],
+          "reference_centerline_samples": 139,
+          "reference_misses": 62
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            41300000,
+            10950000
+          ],
+          "length_mm": 14.932590180780451,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "EMMC_IO_1V8",
+            "EMMC_VDDI",
+            "GND",
+            "LPDDR4_A0_B",
+            "LPDDR4_A3_B",
+            "LPDDR4_A4_B",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A"
+          ],
+          "reference_centerline_samples": 139,
+          "reference_misses": 25
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            35300000,
+            14650000
+          ],
+          "length_mm": 14.932590180780451,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "LPDDR4_A2_A",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ9_A"
+          ],
+          "reference_centerline_samples": 139,
+          "reference_misses": 62
+        }
+      ],
+      "via_nm": [
+        [
+          45000000,
+          14650000
+        ],
+        [
+          31600000,
+          10950000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_A3_A",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            33149999,
+            7050000
+          ],
+          "length_mm": 12.629392923933999,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_A4_A",
+            "LPDDR4_A5_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DQ1_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ6_A"
+          ],
+          "reference_centerline_samples": 115,
+          "reference_misses": 22
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            40800000,
+            15450000
+          ],
+          "length_mm": 12.629392923933999,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A5_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ6_A"
+          ],
+          "reference_centerline_samples": 115,
+          "reference_misses": 28
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            33149999,
+            7050000
+          ],
+          "length_mm": 12.629392923933999,
+          "obstacle_nets": [
+            "<mechanical>",
+            "EMMC_D7",
+            "EMMC_IO_1V8",
+            "LPDDR4_A2_A",
+            "LPDDR4_A4_A",
+            "LPDDR4_A5_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ6_A"
+          ],
+          "reference_centerline_samples": 115,
+          "reference_misses": 22
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            40800000,
+            15450000
+          ],
+          "length_mm": 12.629392923933999,
+          "obstacle_nets": [
+            "<mechanical>",
+            "EMMC_D6",
+            "EMMC_D7",
+            "GND",
+            "LPDDR4_A5_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ6_A"
+          ],
+          "reference_centerline_samples": 115,
+          "reference_misses": 28
+        }
+      ],
+      "via_nm": [
+        [
+          41549999,
+          15450000
+        ],
+        [
+          32400000,
+          7050000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_A3_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            39650000,
+            10950000
+          ],
+          "length_mm": 13.613961030678928,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_B",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CLKP_B"
+          ],
+          "reference_centerline_samples": 125,
+          "reference_misses": 11
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            36900000,
+            15450000
+          ],
+          "length_mm": 13.613961030678928,
+          "obstacle_nets": [
+            "+1V8_SYS",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A3_A",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_DQS0P_A",
+            "LPDDR4_DQS1P_A",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 125,
+          "reference_misses": 58
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            39650000,
+            10950000
+          ],
+          "length_mm": 13.613961030678928,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "EMMC_IO_1V8",
+            "EMMC_VDDI",
+            "GND",
+            "LPDDR4_A4_B",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_B"
+          ],
+          "reference_centerline_samples": 125,
+          "reference_misses": 11
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            36900000,
+            15450000
+          ],
+          "length_mm": 13.613961030678928,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "GND",
+            "LPDDR4_A3_A",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_DQS0P_A",
+            "LPDDR4_DQS1P_A",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 125,
+          "reference_misses": 58
+        }
+      ],
+      "via_nm": [
+        [
+          44150000,
+          15450000
+        ],
+        [
+          32400000,
+          10950000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_A4_A",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            33800000,
+            7050000
+          ],
+          "length_mm": 13.398632739476511,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_A2_A",
+            "LPDDR4_A3_A",
+            "LPDDR4_A5_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_DQ2_A"
+          ],
+          "reference_centerline_samples": 123,
+          "reference_misses": 22
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            42250000,
+            16100000
+          ],
+          "length_mm": 13.398632739476511,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_A3_A",
+            "LPDDR4_A5_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DQ1_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ6_A"
+          ],
+          "reference_centerline_samples": 123,
+          "reference_misses": 24
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            33800000,
+            7050000
+          ],
+          "length_mm": 13.398632739476511,
+          "obstacle_nets": [
+            "<mechanical>",
+            "EMMC_3V3",
+            "LPDDR4_A0_A",
+            "LPDDR4_A2_A",
+            "LPDDR4_A3_A",
+            "LPDDR4_A5_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_DQ2_A"
+          ],
+          "reference_centerline_samples": 123,
+          "reference_misses": 22
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            42250000,
+            16100000
+          ],
+          "length_mm": 13.398632739476511,
+          "obstacle_nets": [
+            "<mechanical>",
+            "EMMC_IO_1V8",
+            "LPDDR4_A2_A",
+            "LPDDR4_A3_A",
+            "LPDDR4_A5_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ6_A"
+          ],
+          "reference_centerline_samples": 123,
+          "reference_misses": 24
+        }
+      ],
+      "via_nm": [
+        [
+          42850000,
+          16100000
+        ],
+        [
+          33200000,
+          7050000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_A4_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            39000000,
+            10950000
+          ],
+          "length_mm": 12.163961030678928,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A1_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_CS0N_A"
+          ],
+          "reference_centerline_samples": 111,
+          "reference_misses": 11
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            37700000,
+            15450000
+          ],
+          "length_mm": 12.163961030678928,
+          "obstacle_nets": [
+            "+1V8_SYS",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A3_A",
+            "LPDDR4_A5_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_DQS0P_A",
+            "LPDDR4_DQS1P_A",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 111,
+          "reference_misses": 39
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            39000000,
+            10950000
+          ],
+          "length_mm": 12.163961030678928,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "EMMC_IO_1V8",
+            "EMMC_VDDI",
+            "GND",
+            "LPDDR4_A1_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_CS0N_A"
+          ],
+          "reference_centerline_samples": 111,
+          "reference_misses": 11
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            37700000,
+            15450000
+          ],
+          "length_mm": 12.163961030678928,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "EMMC_D0",
+            "GND",
+            "LPDDR4_A3_A",
+            "LPDDR4_A5_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQS0P_A",
+            "LPDDR4_DQS1P_A",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 111,
+          "reference_misses": 39
+        }
+      ],
+      "via_nm": [
+        [
+          43500000,
+          15450000
+        ],
+        [
+          33200000,
+          10950000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_A5_A",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            34449999,
+            7699999
+          ],
+          "length_mm": 12.210155522605051,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_A2_A",
+            "LPDDR4_A3_A",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_DQ2_A"
+          ],
+          "reference_centerline_samples": 111,
+          "reference_misses": 16
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            40950001,
+            15450000
+          ],
+          "length_mm": 12.210155522605051,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A3_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ1_A",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ6_A"
+          ],
+          "reference_centerline_samples": 111,
+          "reference_misses": 23
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            34449999,
+            7699999
+          ],
+          "length_mm": 12.210155522605051,
+          "obstacle_nets": [
+            "<mechanical>",
+            "EMMC_3V3",
+            "LPDDR4_A0_A",
+            "LPDDR4_A2_A",
+            "LPDDR4_A3_A",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_DQ2_A"
+          ],
+          "reference_centerline_samples": 111,
+          "reference_misses": 16
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            40950001,
+            15450000
+          ],
+          "length_mm": 12.210155522605051,
+          "obstacle_nets": [
+            "<mechanical>",
+            "EMMC_D6",
+            "EMMC_D7",
+            "EMMC_IO_1V8",
+            "GND",
+            "LPDDR4_A3_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ6_A"
+          ],
+          "reference_centerline_samples": 111,
+          "reference_misses": 23
+        }
+      ],
+      "via_nm": [
+        [
+          42200000,
+          15450000
+        ],
+        [
+          33200000,
+          7699999
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_A5_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            37700000,
+            10300000
+          ],
+          "length_mm": 11.78319984622144,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_A1_A",
+            "LPDDR4_A5_A",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CS0N_A"
+          ],
+          "reference_centerline_samples": 107,
+          "reference_misses": 22
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            38350000,
+            15450000
+          ],
+          "length_mm": 11.78319984622144,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A3_A",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQS0P_A",
+            "LPDDR4_DQS1P_A"
+          ],
+          "reference_centerline_samples": 107,
+          "reference_misses": 27
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            37700000,
+            10300000
+          ],
+          "length_mm": 11.78319984622144,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "EMMC_3V3",
+            "GND",
+            "LPDDR4_A0_A",
+            "LPDDR4_A1_A",
+            "LPDDR4_A5_A",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CS0N_A"
+          ],
+          "reference_centerline_samples": 107,
+          "reference_misses": 22
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            38350000,
+            15450000
+          ],
+          "length_mm": 11.78319984622144,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "EMMC_D0",
+            "EMMC_D3",
+            "GND",
+            "LPDDR4_A3_A",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQS0P_A",
+            "LPDDR4_DQS1P_A"
+          ],
+          "reference_centerline_samples": 107,
+          "reference_misses": 27
+        }
+      ],
+      "via_nm": [
+        [
+          42850000,
+          15450000
+        ],
+        [
+          33200000,
+          10300000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_CKE0_A",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            35049999,
+            7699999
+          ],
+          "length_mm": 16.478784672706574,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_A1_A",
+            "LPDDR4_A5_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_A"
+          ],
+          "reference_centerline_samples": 154,
+          "reference_misses": 36
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            35350001,
+            14650000
+          ],
+          "length_mm": 16.478784672706574,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ9_A"
+          ],
+          "reference_centerline_samples": 154,
+          "reference_misses": 56
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            35049999,
+            7699999
+          ],
+          "length_mm": 16.478784672706574,
+          "obstacle_nets": [
+            "+1V8_SYS",
+            "<mechanical>",
+            "EMMC_3V3",
+            "GND",
+            "LPDDR4_A0_A",
+            "LPDDR4_A1_A",
+            "LPDDR4_A5_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_A"
+          ],
+          "reference_centerline_samples": 154,
+          "reference_misses": 36
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            35350001,
+            14650000
+          ],
+          "length_mm": 16.478784672706574,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "EMMC_D0",
+            "GND",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ9_A"
+          ],
+          "reference_centerline_samples": 154,
+          "reference_misses": 56
+        }
+      ],
+      "via_nm": [
+        [
+          42000000,
+          14650000
+        ],
+        [
+          28400000,
+          7699999
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_CKE0_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            39650000,
+            10300000
+          ],
+          "length_mm": 17.401828996322962,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CLKP_B"
+          ],
+          "reference_centerline_samples": 163,
+          "reference_misses": 29
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            32750000,
+            14650000
+          ],
+          "length_mm": 17.401828996322962,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM1_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ13_B",
+            "LPDDR4_DQ14_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ8_B",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_DQ9_B"
+          ],
+          "reference_centerline_samples": 163,
+          "reference_misses": 56
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            39650000,
+            10300000
+          ],
+          "length_mm": 17.401828996322962,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "EMMC_3V3",
+            "GND",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CLKP_B"
+          ],
+          "reference_centerline_samples": 163,
+          "reference_misses": 29
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            32750000,
+            14650000
+          ],
+          "length_mm": 17.401828996322962,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "GND",
+            "LPDDR4_A2_A",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM1_B",
+            "LPDDR4_DQ13_B",
+            "LPDDR4_DQ14_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ8_B",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_DQ9_B",
+            "VCCA1V8_PMU"
+          ],
+          "reference_centerline_samples": 163,
+          "reference_misses": 56
+        }
+      ],
+      "via_nm": [
+        [
+          44000000,
+          14650000
+        ],
+        [
+          28400000,
+          10300000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_CLKN_A",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            36849999,
+            7699999
+          ],
+          "length_mm": 13.24030704162155,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_RESET_N",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A5_A"
+          ],
+          "reference_centerline_samples": 121,
+          "reference_misses": 10
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            37250001,
+            13350000
+          ],
+          "length_mm": 13.24030704162155,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_A1_A",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ14_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ6_A"
+          ],
+          "reference_centerline_samples": 121,
+          "reference_misses": 61
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            36849999,
+            7699999
+          ],
+          "length_mm": 13.24030704162155,
+          "obstacle_nets": [
+            "<mechanical>",
+            "EMMC_RESET_N",
+            "GND",
+            "LPDDR4_A5_A"
+          ],
+          "reference_centerline_samples": 121,
+          "reference_misses": 10
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            37250001,
+            13350000
+          ],
+          "length_mm": 13.24030704162155,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "EMMC_D0",
+            "EMMC_D1",
+            "EMMC_D2",
+            "EMMC_D3",
+            "EMMC_D4",
+            "EMMC_D5",
+            "EMMC_VDDI",
+            "LPDDR4_A0_A",
+            "LPDDR4_A1_A",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ6_A"
+          ],
+          "reference_centerline_samples": 121,
+          "reference_misses": 61
+        }
+      ],
+      "via_nm": [
+        [
+          42500000,
+          13350000
+        ],
+        [
+          31600000,
+          7699999
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_CLKN_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            40150000,
+            10300000
+          ],
+          "length_mm": 13.075483399593905,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A"
+          ],
+          "reference_centerline_samples": 120,
+          "reference_misses": 10
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            34800000,
+            13500000
+          ],
+          "length_mm": 13.075483399593905,
+          "obstacle_nets": [
+            "+1V8_SYS",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_A1_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_A3_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ14_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 120,
+          "reference_misses": 66
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            40150000,
+            10300000
+          ],
+          "length_mm": 13.075483399593905,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "EMMC_3V3",
+            "GND",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A"
+          ],
+          "reference_centerline_samples": 120,
+          "reference_misses": 10
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            34800000,
+            13500000
+          ],
+          "length_mm": 13.075483399593905,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "LPDDR4_A0_A",
+            "LPDDR4_A1_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_A3_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 120,
+          "reference_misses": 66
+        }
+      ],
+      "via_nm": [
+        [
+          43350000,
+          13500000
+        ],
+        [
+          31600000,
+          10300000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_CLKP_A",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            37699999,
+            7699999
+          ],
+          "length_mm": 14.395332294790967,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "EMMC_RESET_N",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A5_A",
+            "LPDDR4_CLKN_A"
+          ],
+          "reference_centerline_samples": 133,
+          "reference_misses": 16
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            36100001,
+            13000000
+          ],
+          "length_mm": 14.395332294790967,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_A1_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ6_A"
+          ],
+          "reference_centerline_samples": 133,
+          "reference_misses": 26
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            37699999,
+            7699999
+          ],
+          "length_mm": 14.395332294790967,
+          "obstacle_nets": [
+            "<mechanical>",
+            "EMMC_RESET_N",
+            "GND",
+            "LPDDR4_A5_A",
+            "LPDDR4_CLKN_A"
+          ],
+          "reference_centerline_samples": 133,
+          "reference_misses": 16
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            36100001,
+            13000000
+          ],
+          "length_mm": 14.395332294790967,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "EMMC_D0",
+            "EMMC_D3",
+            "GND",
+            "LPDDR4_A0_A",
+            "LPDDR4_A1_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ6_A"
+          ],
+          "reference_centerline_samples": 133,
+          "reference_misses": 26
+        }
+      ],
+      "via_nm": [
+        [
+          43000000,
+          13000000
+        ],
+        [
+          30800000,
+          7699999
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_CLKP_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            38550000,
+            10300000
+          ],
+          "length_mm": 14.326093065034893,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A1_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_A"
+          ],
+          "reference_centerline_samples": 132,
+          "reference_misses": 12
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            35450000,
+            14950000
+          ],
+          "length_mm": 14.326093065034893,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_A3_A",
+            "LPDDR4_A5_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_DQS0P_A",
+            "LPDDR4_DQS1P_A"
+          ],
+          "reference_centerline_samples": 132,
+          "reference_misses": 41
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            38550000,
+            10300000
+          ],
+          "length_mm": 14.326093065034893,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "EMMC_3V3",
+            "GND",
+            "LPDDR4_A1_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CS0N_A"
+          ],
+          "reference_centerline_samples": 132,
+          "reference_misses": 12
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            35450000,
+            14950000
+          ],
+          "length_mm": 14.326093065034893,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_A3_A",
+            "LPDDR4_A5_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_DQS0P_A",
+            "LPDDR4_DQS1P_A"
+          ],
+          "reference_centerline_samples": 132,
+          "reference_misses": 41
+        }
+      ],
+      "via_nm": [
+        [
+          43200000,
+          14950000
+        ],
+        [
+          30800000,
+          10300000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_CS0N_A",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            34700000,
+            7050000
+          ],
+          "length_mm": 15.916652224137048,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_A1_A",
+            "LPDDR4_A2_A",
+            "LPDDR4_A3_A",
+            "LPDDR4_A4_A",
+            "LPDDR4_A5_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A"
+          ],
+          "reference_centerline_samples": 149,
+          "reference_misses": 26
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            35200000,
+            13850000
+          ],
+          "length_mm": 15.916652224137048,
+          "obstacle_nets": [
+            "+1V8_SYS",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_A1_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_A3_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_A",
+            "LPDDR4_DQ14_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ1_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 149,
+          "reference_misses": 40
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            34700000,
+            7050000
+          ],
+          "length_mm": 15.916652224137048,
+          "obstacle_nets": [
+            "+1V8_SYS",
+            "<mechanical>",
+            "EMMC_STRB",
+            "GND",
+            "LPDDR4_A0_A",
+            "LPDDR4_A1_A",
+            "LPDDR4_A2_A",
+            "LPDDR4_A3_A",
+            "LPDDR4_A4_A"
+          ],
+          "reference_centerline_samples": 149,
+          "reference_misses": 26
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            35200000,
+            13850000
+          ],
+          "length_mm": 15.916652224137048,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "EMMC_D0",
+            "GND",
+            "LPDDR4_A0_A",
+            "LPDDR4_A1_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_A3_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 149,
+          "reference_misses": 40
+        }
+      ],
+      "via_nm": [
+        [
+          41500000,
+          13850000
+        ],
+        [
+          28400000,
+          7050000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_CS0N_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            42150000,
+            10950000
+          ],
+          "length_mm": 16.86126983722081,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_B",
+            "LPDDR4_A2_B",
+            "LPDDR4_A3_B",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_B"
+          ],
+          "reference_centerline_samples": 158,
+          "reference_misses": 23
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            30600000,
+            13150000
+          ],
+          "length_mm": 16.86126983722081,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_B",
+            "LPDDR4_DQ14_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQS1N_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 158,
+          "reference_misses": 69
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            42150000,
+            10950000
+          ],
+          "length_mm": 16.86126983722081,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "EMMC_IO_1V8",
+            "EMMC_VDDI",
+            "GND",
+            "LPDDR4_A0_B",
+            "LPDDR4_A2_B",
+            "LPDDR4_A3_B",
+            "LPDDR4_A4_B"
+          ],
+          "reference_centerline_samples": 158,
+          "reference_misses": 23
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            30600000,
+            13150000
+          ],
+          "length_mm": 16.86126983722081,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "EMMC_VDDI",
+            "GND",
+            "LPDDR4_A0_A",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQS1N_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 158,
+          "reference_misses": 69
+        }
+      ],
+      "via_nm": [
+        [
+          44350000,
+          13150000
+        ],
+        [
+          28400000,
+          10950000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DM0_A",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            29450000,
+            3800000
+          ],
+          "length_mm": 16.062846301849607,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_A3_A",
+            "LPDDR4_A4_A",
+            "LPDDR4_A5_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ6_A"
+          ],
+          "reference_centerline_samples": 150,
+          "reference_misses": 28
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            37650000,
+            13850000
+          ],
+          "length_mm": 16.062846301849607,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_A",
+            "LPDDR4_DQ14_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQS0P_A"
+          ],
+          "reference_centerline_samples": 150,
+          "reference_misses": 26
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            29450000,
+            3800000
+          ],
+          "length_mm": 16.062846301849607,
+          "obstacle_nets": [
+            "+1V8_SYS",
+            "<mechanical>",
+            "EMMC_D7",
+            "EMMC_IO_1V8",
+            "GND",
+            "LPDDR4_A3_A",
+            "LPDDR4_A4_A",
+            "LPDDR4_A5_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ6_A"
+          ],
+          "reference_centerline_samples": 150,
+          "reference_misses": 28
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            37650000,
+            13850000
+          ],
+          "length_mm": 16.062846301849607,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "<mechanical>",
+            "EMMC_D0",
+            "EMMC_D1",
+            "EMMC_D3",
+            "EMMC_D4",
+            "EMMC_VDDI",
+            "GND",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQS0P_A"
+          ],
+          "reference_centerline_samples": 150,
+          "reference_misses": 26
+        }
+      ],
+      "via_nm": [
+        [
+          39500000,
+          13850000
+        ],
+        [
+          27600000,
+          3800000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DM0_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            46150000,
+            14200000
+          ],
+          "length_mm": 19.044974746830583,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_A0_B",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM1_B",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ13_A",
+            "LPDDR4_DQ14_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ1_A",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ3_B",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ6_B",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_DQ9_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 178,
+          "reference_misses": 37
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            27950000,
+            13850000
+          ],
+          "length_mm": 19.044974746830583,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_A1_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DM1_B",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_A",
+            "LPDDR4_DQ14_A",
+            "LPDDR4_DQ14_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ1_A",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ2_B",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQ6_B",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ9_B",
+            "LPDDR4_DQS0P_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 178,
+          "reference_misses": 32
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            46150000,
+            14200000
+          ],
+          "length_mm": 19.044974746830583,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "GND",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM1_B",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ14_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ3_B",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ6_B",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_DQ9_B"
+          ],
+          "reference_centerline_samples": 178,
+          "reference_misses": 37
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            27950000,
+            13850000
+          ],
+          "length_mm": 19.044974746830583,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "EMMC_VDDI",
+            "GND",
+            "LPDDR4_A0_A",
+            "LPDDR4_A1_A",
+            "LPDDR4_A1_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM1_B",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ14_B",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ2_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQ6_B",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ9_B",
+            "LPDDR4_DQS0P_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 178,
+          "reference_misses": 32
+        }
+      ],
+      "via_nm": [
+        [
+          46500000,
+          13850000
+        ],
+        [
+          27600000,
+          14200000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DM1_A",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            32400000,
+            8750000
+          ],
+          "length_mm": 10.960407640085654,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_A3_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_A",
+            "LPDDR4_DQS1N_A",
+            "LPDDR4_DQS1P_A"
+          ],
+          "reference_centerline_samples": 99,
+          "reference_misses": 24
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            36650000,
+            8050000
+          ],
+          "length_mm": 10.960407640085654,
+          "obstacle_nets": [
+            "+1V8_SYS",
+            "EMMC_RESET_N",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQS1N_A",
+            "LPDDR4_DQS1P_A"
+          ],
+          "reference_centerline_samples": 99,
+          "reference_misses": 2
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            32400000,
+            8750000
+          ],
+          "length_mm": 10.960407640085654,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "EMMC_D0",
+            "EMMC_D1",
+            "EMMC_D3",
+            "EMMC_D4",
+            "EMMC_VDDI",
+            "LPDDR4_A3_A",
+            "LPDDR4_DQS1N_A",
+            "LPDDR4_DQS1P_A"
+          ],
+          "reference_centerline_samples": 99,
+          "reference_misses": 24
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            36650000,
+            8050000
+          ],
+          "length_mm": 10.960407640085654,
+          "obstacle_nets": [
+            "<mechanical>",
+            "EMMC_3V3",
+            "EMMC_D1",
+            "EMMC_D2",
+            "EMMC_D5",
+            "EMMC_D6",
+            "EMMC_RESET_N",
+            "EMMC_STRB",
+            "GND",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQS1P_A"
+          ],
+          "reference_centerline_samples": 99,
+          "reference_misses": 2
+        }
+      ],
+      "via_nm": [
+        [
+          36650000,
+          13000000
+        ],
+        [
+          32400000,
+          3800000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DM1_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            48150000,
+            14200000
+          ],
+          "length_mm": 17.447056274847718,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_A0_B",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM0_B",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ0_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ13_A",
+            "LPDDR4_DQ13_B",
+            "LPDDR4_DQ14_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ15_B",
+            "LPDDR4_DQ1_A",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ3_B",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ4_B",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ5_B",
+            "LPDDR4_DQ6_B",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_DQ9_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 163,
+          "reference_misses": 15
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            33600000,
+            13000000
+          ],
+          "length_mm": 17.447056274847718,
+          "obstacle_nets": [
+            "+1V8_SYS",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_A1_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ12_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ15_B",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ2_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQ7_B",
+            "LPDDR4_DQS1N_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 163,
+          "reference_misses": 53
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            48150000,
+            14200000
+          ],
+          "length_mm": 17.447056274847718,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM0_B",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ3_B",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ5_B",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_DQ9_B"
+          ],
+          "reference_centerline_samples": 163,
+          "reference_misses": 15
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            33600000,
+            13000000
+          ],
+          "length_mm": 17.447056274847718,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "LPDDR4_A0_A",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_A1_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ12_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ15_B",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ2_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQ7_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 163,
+          "reference_misses": 53
+        }
+      ],
+      "via_nm": [
+        [
+          49350000,
+          13000000
+        ],
+        [
+          32400000,
+          14200000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ0_A",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            28150000,
+            3150000
+          ],
+          "length_mm": 15.987110370561535,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_A3_A",
+            "LPDDR4_A5_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQ7_A"
+          ],
+          "reference_centerline_samples": 149,
+          "reference_misses": 26
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            37150000,
+            13500000
+          ],
+          "length_mm": 15.987110370561535,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ14_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ1_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQS0P_A"
+          ],
+          "reference_centerline_samples": 149,
+          "reference_misses": 35
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            28150000,
+            3150000
+          ],
+          "length_mm": 15.987110370561535,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "<mechanical>",
+            "EMMC_D2",
+            "EMMC_D5",
+            "EMMC_D6",
+            "EMMC_D7",
+            "GND",
+            "LPDDR4_A2_A",
+            "LPDDR4_A3_A",
+            "LPDDR4_A5_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQ7_A"
+          ],
+          "reference_centerline_samples": 149,
+          "reference_misses": 26
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            37150000,
+            13500000
+          ],
+          "length_mm": 15.987110370561535,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "<mechanical>",
+            "EMMC_D0",
+            "EMMC_D1",
+            "EMMC_D3",
+            "EMMC_D4",
+            "EMMC_VDDI",
+            "GND",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ1_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQS0P_A"
+          ],
+          "reference_centerline_samples": 149,
+          "reference_misses": 35
+        }
+      ],
+      "via_nm": [
+        [
+          38500000,
+          13500000
+        ],
+        [
+          26800000,
+          3150000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ0_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            47850000,
+            14850000
+          ],
+          "length_mm": 21.262132034355965,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_DM0_B",
+            "LPDDR4_DM1_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ14_B",
+            "LPDDR4_DQ15_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ3_B",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ4_B",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ6_B",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ7_B",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ8_B",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_DQ9_B"
+          ],
+          "reference_centerline_samples": 200,
+          "reference_misses": 95
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            26950000,
+            15000000
+          ],
+          "length_mm": 21.262132034355965,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_A3_A",
+            "LPDDR4_A3_B",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ15_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ3_B",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ4_B",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ6_B",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ7_B",
+            "LPDDR4_DQ8_B",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_DQS0P_A",
+            "LPDDR4_DQS0P_B",
+            "LPDDR4_DQS1P_A",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 200,
+          "reference_misses": 62
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            47850000,
+            14850000
+          ],
+          "length_mm": 21.262132034355965,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "GND",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ15_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ3_B",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ4_B",
+            "LPDDR4_DQ6_B",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ7_B",
+            "LPDDR4_DQ8_B",
+            "LPDDR4_DQ9_A",
+            "RESET_N"
+          ],
+          "reference_centerline_samples": 200,
+          "reference_misses": 95
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            26950000,
+            15000000
+          ],
+          "length_mm": 21.262132034355965,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "GND",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_A3_A",
+            "LPDDR4_A3_B",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ15_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ3_B",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ4_B",
+            "LPDDR4_DQ6_B",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ7_B",
+            "LPDDR4_DQ8_B",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_DQS0P_A",
+            "LPDDR4_DQS0P_B",
+            "LPDDR4_DQS1P_A",
+            "LPDDR4_DQS1P_B",
+            "RESET_N"
+          ],
+          "reference_centerline_samples": 200,
+          "reference_misses": 62
+        }
+      ],
+      "via_nm": [
+        [
+          48000000,
+          15000000
+        ],
+        [
+          26800000,
+          14850000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ10_A",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            33200000,
+            12400000
+          ],
+          "length_mm": 11.330508652763323,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A3_A",
+            "LPDDR4_A3_B",
+            "LPDDR4_A4_A",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 103,
+          "reference_misses": 55
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            36050000,
+            7950000
+          ],
+          "length_mm": 11.330508652763323,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ9_A"
+          ],
+          "reference_centerline_samples": 103,
+          "reference_misses": 13
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            33200000,
+            12400000
+          ],
+          "length_mm": 11.330508652763323,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "LPDDR4_A4_A",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 103,
+          "reference_misses": 55
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            36050000,
+            7950000
+          ],
+          "length_mm": 11.330508652763323,
+          "obstacle_nets": [
+            "<mechanical>",
+            "EMMC_D0",
+            "EMMC_D1",
+            "EMMC_D4",
+            "EMMC_D5",
+            "GND",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ9_A"
+          ],
+          "reference_centerline_samples": 103,
+          "reference_misses": 13
+        }
+      ],
+      "via_nm": [
+        [
+          36050000,
+          15250000
+        ],
+        [
+          33200000,
+          5100000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ10_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            48549999,
+            12900000
+          ],
+          "length_mm": 16.905633918610405,
+          "obstacle_nets": [
+            "+1V8_SYS",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DM1_B",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ12_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ15_B",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ2_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQ7_B"
+          ],
+          "reference_centerline_samples": 158,
+          "reference_misses": 45
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            34300000,
+            14000000
+          ],
+          "length_mm": 16.905633918610405,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_B",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM0_B",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ0_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ13_A",
+            "LPDDR4_DQ13_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ15_B",
+            "LPDDR4_DQ1_A",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ5_B",
+            "LPDDR4_DQ8_A"
+          ],
+          "reference_centerline_samples": 158,
+          "reference_misses": 33
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            48549999,
+            12900000
+          ],
+          "length_mm": 16.905633918610405,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DM1_B",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ12_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ15_B",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ2_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQ7_B"
+          ],
+          "reference_centerline_samples": 158,
+          "reference_misses": 45
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            34300000,
+            14000000
+          ],
+          "length_mm": 16.905633918610405,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "LPDDR4_A0_A",
+            "LPDDR4_A1_B",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM0_B",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ5_B",
+            "LPDDR4_DQ8_A"
+          ],
+          "reference_centerline_samples": 158,
+          "reference_misses": 33
+        }
+      ],
+      "via_nm": [
+        [
+          49649999,
+          14000000
+        ],
+        [
+          33200000,
+          12900000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ11_A",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            33200000,
+            10900000
+          ],
+          "length_mm": 9.180508652763322,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A3_A",
+            "LPDDR4_A4_A",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 81,
+          "reference_misses": 35
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            36050000,
+            8600000
+          ],
+          "length_mm": 9.180508652763322,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A4_A"
+          ],
+          "reference_centerline_samples": 81,
+          "reference_misses": 0
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            33200000,
+            10900000
+          ],
+          "length_mm": 9.180508652763322,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "EMMC_D0",
+            "LPDDR4_A4_A",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 81,
+          "reference_misses": 35
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            36050000,
+            8600000
+          ],
+          "length_mm": 9.180508652763322,
+          "obstacle_nets": [
+            "<mechanical>",
+            "EMMC_D0",
+            "EMMC_D1",
+            "EMMC_D4",
+            "EMMC_D5",
+            "GND"
+          ],
+          "reference_centerline_samples": 81,
+          "reference_misses": 0
+        }
+      ],
+      "via_nm": [
+        [
+          36050000,
+          13750000
+        ],
+        [
+          33200000,
+          5750000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ11_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            47950000,
+            12250000
+          ],
+          "length_mm": 15.881370849898476,
+          "obstacle_nets": [
+            "+1V8_SYS",
+            "EMMC_D0",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_DQ15_B",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 148,
+          "reference_misses": 8
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            34000000,
+            13050000
+          ],
+          "length_mm": 15.881370849898476,
+          "obstacle_nets": [
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_A1_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ12_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ15_B",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ2_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQ7_B"
+          ],
+          "reference_centerline_samples": 148,
+          "reference_misses": 66
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            47950000,
+            12250000
+          ],
+          "length_mm": 15.881370849898476,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "EMMC_D0",
+            "EMMC_D1",
+            "EMMC_D2",
+            "EMMC_IO_1V8",
+            "GND",
+            "LPDDR4_DQ15_B"
+          ],
+          "reference_centerline_samples": 148,
+          "reference_misses": 8
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            34000000,
+            13050000
+          ],
+          "length_mm": 15.881370849898476,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "LPDDR4_A0_A",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_A1_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ12_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ15_B",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ2_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQ7_B"
+          ],
+          "reference_centerline_samples": 148,
+          "reference_misses": 66
+        }
+      ],
+      "via_nm": [
+        [
+          48750000,
+          13050000
+        ],
+        [
+          33200000,
+          12250000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ12_A",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            31600000,
+            6950000
+          ],
+          "length_mm": 10.180256121069153,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_A3_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_DQ15_A"
+          ],
+          "reference_centerline_samples": 91,
+          "reference_misses": 18
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            37950000,
+            12100000
+          ],
+          "length_mm": 10.180256121069153,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_A3_A",
+            "LPDDR4_A4_A",
+            "LPDDR4_A5_A"
+          ],
+          "reference_centerline_samples": 91,
+          "reference_misses": 10
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            31600000,
+            6950000
+          ],
+          "length_mm": 10.180256121069153,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "EMMC_D2",
+            "EMMC_D5",
+            "EMMC_D6",
+            "GND",
+            "LPDDR4_A2_A",
+            "LPDDR4_A3_A",
+            "LPDDR4_DQ15_A"
+          ],
+          "reference_centerline_samples": 91,
+          "reference_misses": 18
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            37950000,
+            12100000
+          ],
+          "length_mm": 10.180256121069153,
+          "obstacle_nets": [
+            "<mechanical>",
+            "EMMC_D7",
+            "EMMC_IO_1V8",
+            "LPDDR4_A3_A",
+            "LPDDR4_A4_A",
+            "LPDDR4_A5_A"
+          ],
+          "reference_centerline_samples": 91,
+          "reference_misses": 10
+        }
+      ],
+      "via_nm": [
+        [
+          37950000,
+          13300000
+        ],
+        [
+          31600000,
+          5750000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ12_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            46750000,
+            12250000
+          ],
+          "length_mm": 16.705634918610404,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "EMMC_D0",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 156,
+          "reference_misses": 12
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            32700000,
+            13350000
+          ],
+          "length_mm": 16.705634918610404,
+          "obstacle_nets": [
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_A1_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM0_B",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_B",
+            "LPDDR4_DQ14_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ2_B",
+            "LPDDR4_DQ5_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQ7_B",
+            "LPDDR4_DQS1N_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 156,
+          "reference_misses": 98
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            46750000,
+            12250000
+          ],
+          "length_mm": 16.705634918610404,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "EMMC_D0",
+            "EMMC_D1",
+            "EMMC_D2",
+            "EMMC_IO_1V8",
+            "GND",
+            "LPDDR4_DQ11_B"
+          ],
+          "reference_centerline_samples": 156,
+          "reference_misses": 12
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            32700000,
+            13350000
+          ],
+          "length_mm": 16.705634918610404,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "LPDDR4_A0_A",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_A1_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM0_B",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ2_B",
+            "LPDDR4_DQ5_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQ7_B",
+            "LPDDR4_DQS1N_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 156,
+          "reference_misses": 98
+        }
+      ],
+      "via_nm": [
+        [
+          47850000,
+          13350000
+        ],
+        [
+          31600000,
+          12250000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ13_A",
+      "escape_via_counts": [
+        0,
+        1
+      ],
+      "paths": []
+    },
+    {
+      "net": "LPDDR4_DQ13_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            45250000,
+            12900000
+          ],
+          "length_mm": 17.53908729652601,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM0_B",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_B",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ12_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ2_B",
+            "LPDDR4_DQ4_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQ6_B",
+            "LPDDR4_DQS1N_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 164,
+          "reference_misses": 68
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            34350000,
+            15650000
+          ],
+          "length_mm": 17.53908729652601,
+          "obstacle_nets": [
+            "<mechanical>",
+            "EXP_GPIO0",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A3_A",
+            "LPDDR4_A3_B",
+            "LPDDR4_A4_A",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_DM1_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ8_B",
+            "LPDDR4_DQ9_B",
+            "LPDDR4_DQS0N_A",
+            "LPDDR4_DQS0N_B",
+            "LPDDR4_DQS0P_A",
+            "LPDDR4_DQS0P_B",
+            "LPDDR4_DQS1N_A",
+            "LPDDR4_DQS1N_B",
+            "LPDDR4_DQS1P_A",
+            "LPDDR4_DQS1P_B",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 164,
+          "reference_misses": 71
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            45250000,
+            12900000
+          ],
+          "length_mm": 17.53908729652601,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM0_B",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_B",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ2_B",
+            "LPDDR4_DQ4_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQ6_B",
+            "LPDDR4_DQS1N_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 164,
+          "reference_misses": 68
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            34350000,
+            15650000
+          ],
+          "length_mm": 17.53908729652601,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "EXP_GPIO0",
+            "GND",
+            "LPDDR4_A3_A",
+            "LPDDR4_A3_B",
+            "LPDDR4_A4_A",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_DM1_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ8_B",
+            "LPDDR4_DQ9_B",
+            "LPDDR4_DQS0N_A",
+            "LPDDR4_DQS0N_B",
+            "LPDDR4_DQS0P_A",
+            "LPDDR4_DQS0P_B",
+            "LPDDR4_DQS1N_A",
+            "LPDDR4_DQS1N_B",
+            "LPDDR4_DQS1P_A",
+            "LPDDR4_DQS1P_B",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 164,
+          "reference_misses": 71
+        }
+      ],
+      "via_nm": [
+        [
+          48000000,
+          15650000
+        ],
+        [
+          31600000,
+          12900000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ14_A",
+      "escape_via_counts": [
+        0,
+        1
+      ],
+      "paths": []
+    },
+    {
+      "net": "LPDDR4_DQ14_B",
+      "escape_via_counts": [
+        0,
+        1
+      ],
+      "paths": []
+    },
+    {
+      "net": "LPDDR4_DQ15_A",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            31600000,
+            7400000
+          ],
+          "length_mm": 12.240306627407987,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_A",
+            "LPDDR4_DQ14_A"
+          ],
+          "reference_centerline_samples": 111,
+          "reference_misses": 44
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            37250000,
+            8800000
+          ],
+          "length_mm": 12.240306627407987,
+          "obstacle_nets": [
+            "+1V8_SYS",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ14_A",
+            "LPDDR4_DQS1N_A",
+            "LPDDR4_DQS1P_A"
+          ],
+          "reference_centerline_samples": 111,
+          "reference_misses": 13
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            31600000,
+            7400000
+          ],
+          "length_mm": 12.240306627407987,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "EMMC_D1",
+            "EMMC_D2",
+            "EMMC_D4",
+            "EMMC_D5",
+            "EMMC_VDDI",
+            "LPDDR4_A2_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_A",
+            "LPDDR4_DQ14_A"
+          ],
+          "reference_centerline_samples": 111,
+          "reference_misses": 44
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            37250000,
+            8800000
+          ],
+          "length_mm": 12.240306627407987,
+          "obstacle_nets": [
+            "<mechanical>",
+            "EMMC_3V3",
+            "EMMC_D7",
+            "EMMC_IO_1V8",
+            "EMMC_RESET_N",
+            "EMMC_STRB",
+            "GND",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ14_A",
+            "LPDDR4_DQS1P_A"
+          ],
+          "reference_centerline_samples": 111,
+          "reference_misses": 13
+        }
+      ],
+      "via_nm": [
+        [
+          37250000,
+          13050000
+        ],
+        [
+          31600000,
+          3150000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ15_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            46100000,
+            14850000
+          ],
+          "length_mm": 17.540559159102152,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_DM0_B",
+            "LPDDR4_DM1_B",
+            "LPDDR4_DQ0_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ12_B",
+            "LPDDR4_DQ14_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ3_B",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ5_B",
+            "LPDDR4_DQ6_B",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ7_B",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ8_B",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_DQ9_B"
+          ],
+          "reference_centerline_samples": 165,
+          "reference_misses": 75
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            33750000,
+            12700000
+          ],
+          "length_mm": 17.540559159102152,
+          "obstacle_nets": [
+            "+1V8_SYS",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DM1_B",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ14_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQS1N_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 165,
+          "reference_misses": 21
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            46100000,
+            14850000
+          ],
+          "length_mm": 17.540559159102152,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_DM0_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ12_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ3_B",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ5_B",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ7_B",
+            "LPDDR4_DQ8_B",
+            "LPDDR4_DQ9_A"
+          ],
+          "reference_centerline_samples": 165,
+          "reference_misses": 75
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            33750000,
+            12700000
+          ],
+          "length_mm": 17.540559159102152,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "EMMC_IO_1V8",
+            "LPDDR4_A0_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DM1_B",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ14_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 165,
+          "reference_misses": 21
+        }
+      ],
+      "via_nm": [
+        [
+          48250000,
+          12700000
+        ],
+        [
+          31600000,
+          14850000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ1_A",
+      "escape_via_counts": [
+        0,
+        1
+      ],
+      "paths": []
+    },
+    {
+      "net": "LPDDR4_DQ1_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            44800000,
+            14200000
+          ],
+          "length_mm": 18.989949493661165,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_B",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM0_B",
+            "LPDDR4_DM1_B",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ13_A",
+            "LPDDR4_DQ14_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ1_A",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ6_B",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_DQ9_B",
+            "LPDDR4_DQS0P_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 179,
+          "reference_misses": 46
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            27500000,
+            13500000
+          ],
+          "length_mm": 18.989949493661165,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_A1_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_B",
+            "LPDDR4_DQ14_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ5_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQS0N_B",
+            "LPDDR4_DQS0P_B",
+            "LPDDR4_DQS1N_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 179,
+          "reference_misses": 79
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            44800000,
+            14200000
+          ],
+          "length_mm": 18.989949493661165,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "GND",
+            "LPDDR4_A1_B",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM0_B",
+            "LPDDR4_DM1_B",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ14_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ6_B",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_DQ9_B"
+          ],
+          "reference_centerline_samples": 179,
+          "reference_misses": 46
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            27500000,
+            13500000
+          ],
+          "length_mm": 18.989949493661165,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "EMMC_VDDI",
+            "GND",
+            "LPDDR4_A0_A",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_A1_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQS0P_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 179,
+          "reference_misses": 79
+        }
+      ],
+      "via_nm": [
+        [
+          45500000,
+          13500000
+        ],
+        [
+          26800000,
+          14200000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ2_A",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            31650000,
+            5100000
+          ],
+          "length_mm": 16.517261889578034,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A3_A",
+            "LPDDR4_A4_A",
+            "LPDDR4_A5_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQS0N_A"
+          ],
+          "reference_centerline_samples": 154,
+          "reference_misses": 26
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            35050000,
+            13350000
+          ],
+          "length_mm": 16.517261889578034,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A3_B",
+            "LPDDR4_A4_B",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ14_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 154,
+          "reference_misses": 45
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            31650000,
+            5100000
+          ],
+          "length_mm": 16.517261889578034,
+          "obstacle_nets": [
+            "+1V8_SYS",
+            "<mechanical>",
+            "EMMC_3V3",
+            "EMMC_IO_1V8",
+            "GND",
+            "LPDDR4_A4_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQS0N_A"
+          ],
+          "reference_centerline_samples": 154,
+          "reference_misses": 26
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            35050000,
+            13350000
+          ],
+          "length_mm": 16.517261889578034,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "EMMC_D0",
+            "GND",
+            "LPDDR4_A3_B",
+            "LPDDR4_A4_B",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 154,
+          "reference_misses": 45
+        }
+      ],
+      "via_nm": [
+        [
+          39900000,
+          13350000
+        ],
+        [
+          26800000,
+          5100000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ2_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            45650000,
+            12900000
+          ],
+          "length_mm": 19.486396103067893,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ12_B",
+            "LPDDR4_DQ13_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ4_B",
+            "LPDDR4_DQ5_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQS0N_B",
+            "LPDDR4_DQS1N_B"
+          ],
+          "reference_centerline_samples": 184,
+          "reference_misses": 67
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            27250000,
+            13350000
+          ],
+          "length_mm": 19.486396103067893,
+          "obstacle_nets": [
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_A1_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_B",
+            "LPDDR4_DQ14_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ5_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQS0N_B",
+            "LPDDR4_DQS0P_B",
+            "LPDDR4_DQS1N_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 184,
+          "reference_misses": 88
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            45650000,
+            12900000
+          ],
+          "length_mm": 19.486396103067893,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "EMMC_VDDI",
+            "GND",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ5_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQS0N_B",
+            "LPDDR4_DQS1N_B"
+          ],
+          "reference_centerline_samples": 184,
+          "reference_misses": 67
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            27250000,
+            13350000
+          ],
+          "length_mm": 19.486396103067893,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "EMMC_VDDI",
+            "GND",
+            "LPDDR4_A0_A",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_A1_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ5_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQS0N_B",
+            "LPDDR4_DQS0P_B",
+            "LPDDR4_DQS1N_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 184,
+          "reference_misses": 88
+        }
+      ],
+      "via_nm": [
+        [
+          46100000,
+          13350000
+        ],
+        [
+          26800000,
+          12900000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ3_A",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            31100000,
+            5750000
+          ],
+          "length_mm": 16.88650070512055,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_A3_A",
+            "LPDDR4_A5_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ6_A"
+          ],
+          "reference_centerline_samples": 158,
+          "reference_misses": 35
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            35700000,
+            14650000
+          ],
+          "length_mm": 16.88650070512055,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_B",
+            "LPDDR4_A3_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 158,
+          "reference_misses": 58
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            31100000,
+            5750000
+          ],
+          "length_mm": 16.88650070512055,
+          "obstacle_nets": [
+            "+1V8_SYS",
+            "<mechanical>",
+            "EMMC_D6",
+            "EMMC_D7",
+            "GND",
+            "LPDDR4_A3_A",
+            "LPDDR4_A5_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ6_A"
+          ],
+          "reference_centerline_samples": 158,
+          "reference_misses": 35
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            35700000,
+            14650000
+          ],
+          "length_mm": 16.88650070512055,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "EMMC_D0",
+            "GND",
+            "LPDDR4_A2_B",
+            "LPDDR4_A3_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 158,
+          "reference_misses": 58
+        }
+      ],
+      "via_nm": [
+        [
+          40000000,
+          14650000
+        ],
+        [
+          26800000,
+          5750000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ3_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            43600000,
+            12250000
+          ],
+          "length_mm": 20.19411254969543,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_B",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ12_B",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ4_B",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 191,
+          "reference_misses": 34
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            29200000,
+            14650000
+          ],
+          "length_mm": 20.19411254969543,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_DM1_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ14_B",
+            "LPDDR4_DQ15_B",
+            "LPDDR4_DQ2_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ5_B",
+            "LPDDR4_DQ6_B",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ8_B",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_DQ9_B",
+            "LPDDR4_DQS0N_B",
+            "LPDDR4_DQS0P_B"
+          ],
+          "reference_centerline_samples": 191,
+          "reference_misses": 82
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            43600000,
+            12250000
+          ],
+          "length_mm": 20.19411254969543,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "EMMC_D0",
+            "EMMC_D1",
+            "EMMC_D2",
+            "GND",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_B",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ12_B",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ4_B",
+            "VCCA1V8_PMU"
+          ],
+          "reference_centerline_samples": 191,
+          "reference_misses": 34
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            29200000,
+            14650000
+          ],
+          "length_mm": 20.19411254969543,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "GND",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_DM1_B",
+            "LPDDR4_DQ14_B",
+            "LPDDR4_DQ15_B",
+            "LPDDR4_DQ2_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ6_B",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ8_B",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_DQ9_B",
+            "LPDDR4_DQS0N_B",
+            "LPDDR4_DQS0P_B",
+            "RESET_N"
+          ],
+          "reference_centerline_samples": 191,
+          "reference_misses": 82
+        }
+      ],
+      "via_nm": [
+        [
+          46000000,
+          14650000
+        ],
+        [
+          26800000,
+          12250000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ4_A",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            29600000,
+            5750000
+          ],
+          "length_mm": 13.786500705120547,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ13_A",
+            "LPDDR4_DQ14_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ5_A"
+          ],
+          "reference_centerline_samples": 127,
+          "reference_misses": 26
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            37300000,
+            14650000
+          ],
+          "length_mm": 13.786500705120547,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ8_A"
+          ],
+          "reference_centerline_samples": 127,
+          "reference_misses": 17
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            29600000,
+            5750000
+          ],
+          "length_mm": 13.786500705120547,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "<mechanical>",
+            "EMMC_D0",
+            "EMMC_D1",
+            "EMMC_D3",
+            "EMMC_D4",
+            "EMMC_VDDI",
+            "GND",
+            "LPDDR4_A2_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ15_A"
+          ],
+          "reference_centerline_samples": 127,
+          "reference_misses": 26
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            37300000,
+            14650000
+          ],
+          "length_mm": 13.786500705120547,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "<mechanical>",
+            "EMMC_D0",
+            "GND",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_DQ11_A"
+          ],
+          "reference_centerline_samples": 127,
+          "reference_misses": 17
+        }
+      ],
+      "via_nm": [
+        [
+          38500000,
+          14650000
+        ],
+        [
+          28400000,
+          5750000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ4_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            44975000,
+            12250000
+          ],
+          "length_mm": 20.11053390593274,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "EMMC_D0",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_DM0_B",
+            "LPDDR4_DQ0_B",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ12_B",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ2_B",
+            "LPDDR4_DQ6_B",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 190,
+          "reference_misses": 33
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            30900000,
+            14750000
+          ],
+          "length_mm": 20.11053390593274,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_DM1_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ14_B",
+            "LPDDR4_DQ15_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ3_B",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ5_B",
+            "LPDDR4_DQ6_B",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ8_B",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_DQ9_B"
+          ],
+          "reference_centerline_samples": 190,
+          "reference_misses": 84
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            44975000,
+            12250000
+          ],
+          "length_mm": 20.11053390593274,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "EMMC_D0",
+            "EMMC_D1",
+            "EMMC_D2",
+            "EMMC_IO_1V8",
+            "GND",
+            "LPDDR4_DM0_B",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ12_B",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ2_B",
+            "LPDDR4_DQ6_B",
+            "VCCA1V8_PMU"
+          ],
+          "reference_centerline_samples": 190,
+          "reference_misses": 33
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            30900000,
+            14750000
+          ],
+          "length_mm": 20.11053390593274,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "EMMC_VDDI",
+            "GND",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ15_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ3_B",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ5_B",
+            "LPDDR4_DQ6_B",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ8_B",
+            "LPDDR4_DQ9_A"
+          ],
+          "reference_centerline_samples": 190,
+          "reference_misses": 84
+        }
+      ],
+      "via_nm": [
+        [
+          47475000,
+          14750000
+        ],
+        [
+          28400000,
+          12250000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ5_A",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            28400000,
+            7900000
+          ],
+          "length_mm": 14.255129855222071,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ4_A"
+          ],
+          "reference_centerline_samples": 132,
+          "reference_misses": 47
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            36500000,
+            13200000
+          ],
+          "length_mm": 14.255129855222071,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ9_A"
+          ],
+          "reference_centerline_samples": 132,
+          "reference_misses": 16
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            28400000,
+            7900000
+          ],
+          "length_mm": 14.255129855222071,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "GND",
+            "LPDDR4_A2_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ4_A"
+          ],
+          "reference_centerline_samples": 132,
+          "reference_misses": 47
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            36500000,
+            13200000
+          ],
+          "length_mm": 14.255129855222071,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "<mechanical>",
+            "EMMC_D0",
+            "EMMC_D3",
+            "GND",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ9_A"
+          ],
+          "reference_centerline_samples": 132,
+          "reference_misses": 16
+        }
+      ],
+      "via_nm": [
+        [
+          36500000,
+          16000000
+        ],
+        [
+          28400000,
+          5100000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ5_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            46575000,
+            12900000
+          ],
+          "length_mm": 19.37708152801713,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ12_B",
+            "LPDDR4_DQ13_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ2_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQ7_B",
+            "LPDDR4_DQS1N_B"
+          ],
+          "reference_centerline_samples": 183,
+          "reference_misses": 59
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            29250000,
+            13750000
+          ],
+          "length_mm": 19.37708152801713,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_A1_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM0_B",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DM1_B",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ0_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_A",
+            "LPDDR4_DQ14_A",
+            "LPDDR4_DQ14_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ1_A",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ2_B",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQ7_B",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ9_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 183,
+          "reference_misses": 58
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            46575000,
+            12900000
+          ],
+          "length_mm": 19.37708152801713,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "EMMC_VDDI",
+            "GND",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ2_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQ7_B",
+            "LPDDR4_DQS1N_B"
+          ],
+          "reference_centerline_samples": 183,
+          "reference_misses": 59
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            29250000,
+            13750000
+          ],
+          "length_mm": 19.37708152801713,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "EMMC_VDDI",
+            "GND",
+            "LPDDR4_A0_A",
+            "LPDDR4_A1_A",
+            "LPDDR4_A1_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM0_B",
+            "LPDDR4_DM1_B",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ14_B",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ2_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQ7_B",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ9_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 183,
+          "reference_misses": 58
+        }
+      ],
+      "via_nm": [
+        [
+          47425000,
+          13750000
+        ],
+        [
+          28400000,
+          12900000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ6_A",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            29550000,
+            3800000
+          ],
+          "length_mm": 14.655739520663058,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_A3_A",
+            "LPDDR4_A4_A",
+            "LPDDR4_A5_A",
+            "LPDDR4_DQ12_A"
+          ],
+          "reference_centerline_samples": 136,
+          "reference_misses": 21
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            37950000,
+            13350000
+          ],
+          "length_mm": 14.655739520663058,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ14_A",
+            "LPDDR4_DQ15_A"
+          ],
+          "reference_centerline_samples": 136,
+          "reference_misses": 34
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            29550000,
+            3800000
+          ],
+          "length_mm": 14.655739520663058,
+          "obstacle_nets": [
+            "+1V8_SYS",
+            "<mechanical>",
+            "EMMC_D7",
+            "EMMC_IO_1V8",
+            "GND",
+            "LPDDR4_A3_A",
+            "LPDDR4_A4_A",
+            "LPDDR4_A5_A",
+            "LPDDR4_DQ12_A"
+          ],
+          "reference_centerline_samples": 136,
+          "reference_misses": 21
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            37950000,
+            13350000
+          ],
+          "length_mm": 14.655739520663058,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "<mechanical>",
+            "EMMC_D1",
+            "EMMC_D2",
+            "EMMC_D4",
+            "EMMC_D5",
+            "EMMC_D6",
+            "EMMC_VDDI",
+            "GND",
+            "LPDDR4_A2_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ15_A"
+          ],
+          "reference_centerline_samples": 136,
+          "reference_misses": 34
+        }
+      ],
+      "via_nm": [
+        [
+          39100000,
+          13350000
+        ],
+        [
+          28400000,
+          3800000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ6_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            46300000,
+            14200000
+          ],
+          "length_mm": 18.748528137423857,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_A0_B",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM0_B",
+            "LPDDR4_DM1_B",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ13_A",
+            "LPDDR4_DQ14_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ1_A",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ3_B",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_DQ9_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 177,
+          "reference_misses": 32
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            29000000,
+            14800000
+          ],
+          "length_mm": 18.748528137423857,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_DM1_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ14_B",
+            "LPDDR4_DQ15_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ3_B",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ7_B",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ8_B",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_DQ9_B"
+          ],
+          "reference_centerline_samples": 177,
+          "reference_misses": 85
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            46300000,
+            14200000
+          ],
+          "length_mm": 18.748528137423857,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "GND",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM0_B",
+            "LPDDR4_DM1_B",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ14_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ3_B",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_DQ9_B"
+          ],
+          "reference_centerline_samples": 177,
+          "reference_misses": 32
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            29000000,
+            14800000
+          ],
+          "length_mm": 18.748528137423857,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "GND",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ15_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ3_B",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ7_B",
+            "LPDDR4_DQ8_B",
+            "LPDDR4_DQ9_A",
+            "RESET_N"
+          ],
+          "reference_centerline_samples": 177,
+          "reference_misses": 85
+        }
+      ],
+      "via_nm": [
+        [
+          46900000,
+          14800000
+        ],
+        [
+          28400000,
+          14200000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ7_A",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            28400000,
+            4100000
+          ],
+          "length_mm": 16.08208511739212,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_A",
+            "LPDDR4_DQ14_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ6_A"
+          ],
+          "reference_centerline_samples": 150,
+          "reference_misses": 42
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            39100000,
+            13850000
+          ],
+          "length_mm": 16.08208511739212,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_A3_A",
+            "LPDDR4_A5_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ6_A"
+          ],
+          "reference_centerline_samples": 150,
+          "reference_misses": 20
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            28400000,
+            4100000
+          ],
+          "length_mm": 16.08208511739212,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "<mechanical>",
+            "EMMC_D1",
+            "EMMC_D2",
+            "EMMC_D4",
+            "EMMC_D5",
+            "EMMC_VDDI",
+            "GND",
+            "LPDDR4_A2_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ6_A"
+          ],
+          "reference_centerline_samples": 150,
+          "reference_misses": 42
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            39100000,
+            13850000
+          ],
+          "length_mm": 16.08208511739212,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "<mechanical>",
+            "EMMC_D6",
+            "EMMC_D7",
+            "GND",
+            "LPDDR4_A2_A",
+            "LPDDR4_A3_A",
+            "LPDDR4_A5_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ6_A"
+          ],
+          "reference_centerline_samples": 150,
+          "reference_misses": 20
+        }
+      ],
+      "via_nm": [
+        [
+          39100000,
+          14800000
+        ],
+        [
+          28400000,
+          3150000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ7_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            45500000,
+            14850000
+          ],
+          "length_mm": 19.22132034355964,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_DM0_B",
+            "LPDDR4_DM1_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ14_B",
+            "LPDDR4_DQ15_B",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ3_B",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ8_B",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_DQ9_B"
+          ],
+          "reference_centerline_samples": 182,
+          "reference_misses": 79
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            29900000,
+            13350000
+          ],
+          "length_mm": 19.22132034355964,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_A1_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM0_B",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_B",
+            "LPDDR4_DQ14_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ2_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQ6_B",
+            "LPDDR4_DQS1N_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 182,
+          "reference_misses": 89
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            45500000,
+            14850000
+          ],
+          "length_mm": 19.22132034355964,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "GND",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_DM0_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ15_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ3_B",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ8_B",
+            "LPDDR4_DQ9_A",
+            "RESET_N"
+          ],
+          "reference_centerline_samples": 182,
+          "reference_misses": 79
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            29900000,
+            13350000
+          ],
+          "length_mm": 19.22132034355964,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "EMMC_VDDI",
+            "GND",
+            "LPDDR4_A0_A",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_A1_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM0_B",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ2_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQ6_B",
+            "LPDDR4_DQS1N_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 182,
+          "reference_misses": 89
+        }
+      ],
+      "via_nm": [
+        [
+          47000000,
+          13350000
+        ],
+        [
+          28400000,
+          14850000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ8_A",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            33200000,
+            11750000
+          ],
+          "length_mm": 12.135533905932737,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A3_A",
+            "LPDDR4_A3_B",
+            "LPDDR4_A4_A",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_DQS1N_A",
+            "LPDDR4_DQS1P_A",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 111,
+          "reference_misses": 64
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            35700000,
+            5650000
+          ],
+          "length_mm": 12.135533905932737,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ9_A"
+          ],
+          "reference_centerline_samples": 111,
+          "reference_misses": 0
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            33200000,
+            11750000
+          ],
+          "length_mm": 12.135533905932737,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "LPDDR4_A4_A",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 111,
+          "reference_misses": 64
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            35700000,
+            5650000
+          ],
+          "length_mm": 12.135533905932737,
+          "obstacle_nets": [
+            "<mechanical>",
+            "EMMC_D0",
+            "EMMC_D4",
+            "EMMC_IO_1V8",
+            "GND",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ9_A"
+          ],
+          "reference_centerline_samples": 111,
+          "reference_misses": 0
+        }
+      ],
+      "via_nm": [
+        [
+          35700000,
+          14250000
+        ],
+        [
+          33200000,
+          3150000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ8_B",
+      "escape_via_counts": [
+        0,
+        1
+      ],
+      "paths": []
+    },
+    {
+      "net": "LPDDR4_DQ9_A",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            33200000,
+            11700000
+          ],
+          "length_mm": 12.071930009000631,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A3_A",
+            "LPDDR4_A3_B",
+            "LPDDR4_A4_A",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQS1N_A",
+            "LPDDR4_DQS1P_A",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 110,
+          "reference_misses": 59
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            36150000,
+            6750000
+          ],
+          "length_mm": 12.071930009000631,
+          "obstacle_nets": [
+            "+1V8_SYS",
+            "EMMC_RESET_N",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ8_A"
+          ],
+          "reference_centerline_samples": 110,
+          "reference_misses": 11
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            33200000,
+            11700000
+          ],
+          "length_mm": 12.071930009000631,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "LPDDR4_A4_A",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 110,
+          "reference_misses": 59
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            36150000,
+            6750000
+          ],
+          "length_mm": 12.071930009000631,
+          "obstacle_nets": [
+            "<mechanical>",
+            "EMMC_D0",
+            "EMMC_D1",
+            "EMMC_D4",
+            "EMMC_D5",
+            "EMMC_IO_1V8",
+            "EMMC_RESET_N",
+            "GND",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ8_A"
+          ],
+          "reference_centerline_samples": 110,
+          "reference_misses": 11
+        }
+      ],
+      "via_nm": [
+        [
+          36150000,
+          14650000
+        ],
+        [
+          33200000,
+          3800000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ9_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            49050000,
+            14200000
+          ],
+          "length_mm": 16.486396103067893,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_A0_B",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM0_B",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ0_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ13_A",
+            "LPDDR4_DQ13_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ15_B",
+            "LPDDR4_DQ1_A",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ3_B",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ4_B",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ5_B",
+            "LPDDR4_DQ6_B",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ8_B",
+            "LPDDR4_DQ9_A"
+          ],
+          "reference_centerline_samples": 154,
+          "reference_misses": 10
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            33650000,
+            14650000
+          ],
+          "length_mm": 16.486396103067893,
+          "obstacle_nets": [
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_DQ0_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ13_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ3_B",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ4_B",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ6_B",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ8_B",
+            "LPDDR4_DQ9_A",
+            "RECOVERY_ADC"
+          ],
+          "reference_centerline_samples": 154,
+          "reference_misses": 79
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            49050000,
+            14200000
+          ],
+          "length_mm": 16.486396103067893,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM0_B",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ3_B",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ5_B",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ9_A"
+          ],
+          "reference_centerline_samples": 154,
+          "reference_misses": 10
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            33650000,
+            14650000
+          ],
+          "length_mm": 16.486396103067893,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "LPDDR4_A2_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_CKE0_A",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_DQ0_B",
+            "LPDDR4_DQ3_A",
+            "LPDDR4_DQ3_B",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ4_B",
+            "LPDDR4_DQ6_B",
+            "LPDDR4_DQ7_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ8_B",
+            "LPDDR4_DQ9_A"
+          ],
+          "reference_centerline_samples": 154,
+          "reference_misses": 79
+        }
+      ],
+      "via_nm": [
+        [
+          49500000,
+          14650000
+        ],
+        [
+          33200000,
+          14200000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQS0N_A",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            28600000,
+            5100000
+          ],
+          "length_mm": 16.556349186104047,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ13_A",
+            "LPDDR4_DQ14_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQS0P_A",
+            "LPDDR4_DQS1P_A"
+          ],
+          "reference_centerline_samples": 155,
+          "reference_misses": 33
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            38600000,
+            16100000
+          ],
+          "length_mm": 16.556349186104047,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_DQS1N_A",
+            "LPDDR4_DQS1P_A"
+          ],
+          "reference_centerline_samples": 155,
+          "reference_misses": 34
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            28600000,
+            5100000
+          ],
+          "length_mm": 16.556349186104047,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "<mechanical>",
+            "EMMC_D0",
+            "EMMC_D1",
+            "EMMC_D3",
+            "EMMC_D4",
+            "EMMC_VDDI",
+            "GND",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQS0P_A",
+            "LPDDR4_DQS1P_A"
+          ],
+          "reference_centerline_samples": 155,
+          "reference_misses": 33
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            38600000,
+            16100000
+          ],
+          "length_mm": 16.556349186104047,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "<mechanical>",
+            "EMMC_D0",
+            "GND",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQS1N_A",
+            "LPDDR4_DQS1P_A"
+          ],
+          "reference_centerline_samples": 155,
+          "reference_misses": 34
+        }
+      ],
+      "via_nm": [
+        [
+          39600000,
+          16100000
+        ],
+        [
+          27600000,
+          5100000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQS0N_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            42900000,
+            12900000
+          ],
+          "length_mm": 19.825483399593903,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ12_B",
+            "LPDDR4_DQ13_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ4_B",
+            "LPDDR4_DQ5_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQS0P_B",
+            "LPDDR4_DQS1N_B"
+          ],
+          "reference_centerline_samples": 188,
+          "reference_misses": 60
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            30800000,
+            16100000
+          ],
+          "length_mm": 19.825483399593903,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "EMMC_D0",
+            "EXP_GPIO0",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A4_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ5_B",
+            "LPDDR4_DQ6_B",
+            "LPDDR4_DQS0N_A",
+            "LPDDR4_DQS0P_B",
+            "LPDDR4_DQS1N_A",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 188,
+          "reference_misses": 56
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            42900000,
+            12900000
+          ],
+          "length_mm": 19.825483399593903,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "EMMC_VDDI",
+            "GND",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_A2_B",
+            "LPDDR4_CKE0_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_B",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ5_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQS0P_B",
+            "LPDDR4_DQS1N_B"
+          ],
+          "reference_centerline_samples": 188,
+          "reference_misses": 60
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            30800000,
+            16100000
+          ],
+          "length_mm": 19.825483399593903,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "EXP_GPIO0",
+            "GND",
+            "LPDDR4_A4_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ6_B",
+            "LPDDR4_DQS0N_A",
+            "LPDDR4_DQS0P_B",
+            "LPDDR4_DQS1N_A",
+            "LPDDR4_RESETN",
+            "RESET_N",
+            "VDD_NPU"
+          ],
+          "reference_centerline_samples": 188,
+          "reference_misses": 56
+        }
+      ],
+      "via_nm": [
+        [
+          46100000,
+          16100000
+        ],
+        [
+          27600000,
+          12900000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQS0P_A",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            28600000,
+            4450000
+          ],
+          "length_mm": 16.556349186104047,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_A",
+            "LPDDR4_DQ14_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ7_A"
+          ],
+          "reference_centerline_samples": 155,
+          "reference_misses": 41
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            38600000,
+            15450000
+          ],
+          "length_mm": 16.556349186104047,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQS0N_A",
+            "LPDDR4_DQS1P_A"
+          ],
+          "reference_centerline_samples": 155,
+          "reference_misses": 27
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            28600000,
+            4450000
+          ],
+          "length_mm": 16.556349186104047,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "<mechanical>",
+            "EMMC_D1",
+            "EMMC_D2",
+            "EMMC_D4",
+            "EMMC_D5",
+            "EMMC_VDDI",
+            "GND",
+            "LPDDR4_A2_A",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ7_A"
+          ],
+          "reference_centerline_samples": 155,
+          "reference_misses": 41
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            38600000,
+            15450000
+          ],
+          "length_mm": 16.556349186104047,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "<mechanical>",
+            "EMMC_D0",
+            "EMMC_D3",
+            "GND",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQS0N_A",
+            "LPDDR4_DQS1P_A"
+          ],
+          "reference_centerline_samples": 155,
+          "reference_misses": 27
+        }
+      ],
+      "via_nm": [
+        [
+          39600000,
+          15450000
+        ],
+        [
+          27600000,
+          4450000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQS0P_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            44200000,
+            13550000
+          ],
+          "length_mm": 19.28700576850888,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_A1_B",
+            "LPDDR4_A2_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_B",
+            "LPDDR4_DQ14_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ3_B",
+            "LPDDR4_DQ5_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQS1N_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 182,
+          "reference_misses": 69
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            29500000,
+            15450000
+          ],
+          "length_mm": 19.28700576850888,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A3_A",
+            "LPDDR4_A3_B",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_DM0_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ15_B",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ6_B",
+            "LPDDR4_DQ7_B",
+            "LPDDR4_DQ8_B",
+            "LPDDR4_DQS0P_A",
+            "LPDDR4_DQS1P_A"
+          ],
+          "reference_centerline_samples": 182,
+          "reference_misses": 69
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            44200000,
+            13550000
+          ],
+          "length_mm": 19.28700576850888,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "EMMC_VDDI",
+            "GND",
+            "LPDDR4_A0_A",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_A1_B",
+            "LPDDR4_A2_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ3_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 182,
+          "reference_misses": 69
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            29500000,
+            15450000
+          ],
+          "length_mm": 19.28700576850888,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "GND",
+            "LPDDR4_A3_A",
+            "LPDDR4_A3_B",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_DM0_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ6_B",
+            "LPDDR4_DQ7_B",
+            "LPDDR4_DQS0P_A",
+            "LPDDR4_DQS1P_A",
+            "RESET_N"
+          ],
+          "reference_centerline_samples": 182,
+          "reference_misses": 69
+        }
+      ],
+      "via_nm": [
+        [
+          46100000,
+          15450000
+        ],
+        [
+          27600000,
+          13550000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQS1N_A",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            32400000,
+            10200000
+          ],
+          "length_mm": 13.443860018001262,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_A3_A",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_DQS1P_A",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 124,
+          "reference_misses": 22
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            38300000,
+            11000000
+          ],
+          "length_mm": 13.443860018001262,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A4_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQS1P_A"
+          ],
+          "reference_centerline_samples": 124,
+          "reference_misses": 24
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            32400000,
+            10200000
+          ],
+          "length_mm": 13.443860018001262,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "EMMC_D0",
+            "LPDDR4_A3_A",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_B",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ9_A",
+            "LPDDR4_DQS1P_A",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 124,
+          "reference_misses": 22
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            38300000,
+            11000000
+          ],
+          "length_mm": 13.443860018001262,
+          "obstacle_nets": [
+            "<mechanical>",
+            "EMMC_3V3",
+            "GND",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQS1P_A"
+          ],
+          "reference_centerline_samples": 124,
+          "reference_misses": 24
+        }
+      ],
+      "via_nm": [
+        [
+          38300000,
+          16100000
+        ],
+        [
+          32400000,
+          5100000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQS1N_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            44200000,
+            12900000
+          ],
+          "length_mm": 16.325483399593903,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_A1_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_B",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ3_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQS0P_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 153,
+          "reference_misses": 55
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            35600000,
+            16100000
+          ],
+          "length_mm": 16.325483399593903,
+          "obstacle_nets": [
+            "<mechanical>",
+            "EXP_GPIO0",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A4_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ9_B",
+            "LPDDR4_DQS0N_A",
+            "LPDDR4_DQS0N_B",
+            "LPDDR4_DQS1N_A",
+            "LPDDR4_DQS1P_B",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 153,
+          "reference_misses": 52
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            44200000,
+            12900000
+          ],
+          "length_mm": 16.325483399593903,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_A1_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ3_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQS0P_B",
+            "LPDDR4_DQS1P_B"
+          ],
+          "reference_centerline_samples": 153,
+          "reference_misses": 55
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            35600000,
+            16100000
+          ],
+          "length_mm": 16.325483399593903,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "EXP_GPIO0",
+            "GND",
+            "LPDDR4_A4_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ9_B",
+            "LPDDR4_DQS0N_A",
+            "LPDDR4_DQS0N_B",
+            "LPDDR4_DQS1N_A",
+            "LPDDR4_DQS1P_B",
+            "LPDDR4_RESETN"
+          ],
+          "reference_centerline_samples": 153,
+          "reference_misses": 52
+        }
+      ],
+      "via_nm": [
+        [
+          47400000,
+          16100000
+        ],
+        [
+          32400000,
+          12900000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQS1P_A",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            32400000,
+            9550000
+          ],
+          "length_mm": 13.443860018001262,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "+1V8_SYS",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A2_A",
+            "LPDDR4_A3_A",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ8_A",
+            "LPDDR4_DQS1N_A"
+          ],
+          "reference_centerline_samples": 124,
+          "reference_misses": 19
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            38300000,
+            10350000
+          ],
+          "length_mm": 13.443860018001262,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ13_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQS1N_A"
+          ],
+          "reference_centerline_samples": 124,
+          "reference_misses": 19
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            32400000,
+            9550000
+          ],
+          "length_mm": 13.443860018001262,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "EMMC_D0",
+            "LPDDR4_A3_A",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_B",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQS1N_A"
+          ],
+          "reference_centerline_samples": 124,
+          "reference_misses": 19
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            38300000,
+            10350000
+          ],
+          "length_mm": 13.443860018001262,
+          "obstacle_nets": [
+            "<mechanical>",
+            "EMMC_STRB",
+            "GND",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ4_A",
+            "LPDDR4_DQS1N_A"
+          ],
+          "reference_centerline_samples": 124,
+          "reference_misses": 19
+        }
+      ],
+      "via_nm": [
+        [
+          38300000,
+          15450000
+        ],
+        [
+          32400000,
+          4450000
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQS1P_B",
+      "escape_via_counts": [
+        1,
+        1
+      ],
+      "paths": [
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            45500000,
+            13550000
+          ],
+          "length_mm": 15.787005768508882,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A0_A",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_A1_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CLKP_A",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM0_B",
+            "LPDDR4_DM1_A",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ10_B",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ14_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ2_B",
+            "LPDDR4_DQ3_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQ6_B",
+            "LPDDR4_DQS1N_B"
+          ],
+          "reference_centerline_samples": 147,
+          "reference_misses": 75
+        },
+        {
+          "layer": "F.Cu",
+          "corner_nm": [
+            34300000,
+            15450000
+          ],
+          "length_mm": 15.787005768508882,
+          "obstacle_nets": [
+            "<mechanical>",
+            "GND",
+            "LCD_BL_PWM",
+            "LPDDR4_A3_A",
+            "LPDDR4_A3_B",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_DM1_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ5_A",
+            "LPDDR4_DQ8_B",
+            "LPDDR4_DQ9_B",
+            "LPDDR4_DQS0P_A",
+            "LPDDR4_DQS0P_B",
+            "LPDDR4_DQS1P_A"
+          ],
+          "reference_centerline_samples": 147,
+          "reference_misses": 69
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            45500000,
+            13550000
+          ],
+          "length_mm": 15.787005768508882,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "LPDDR4_A0_A",
+            "LPDDR4_A0_B",
+            "LPDDR4_A1_A",
+            "LPDDR4_A1_B",
+            "LPDDR4_CLKN_A",
+            "LPDDR4_CLKN_B",
+            "LPDDR4_CS0N_A",
+            "LPDDR4_CS0N_B",
+            "LPDDR4_DM0_A",
+            "LPDDR4_DM0_B",
+            "LPDDR4_DQ0_A",
+            "LPDDR4_DQ11_A",
+            "LPDDR4_DQ12_A",
+            "LPDDR4_DQ15_A",
+            "LPDDR4_DQ1_B",
+            "LPDDR4_DQ2_A",
+            "LPDDR4_DQ3_B",
+            "LPDDR4_DQ6_A",
+            "LPDDR4_DQ6_B"
+          ],
+          "reference_centerline_samples": 147,
+          "reference_misses": 75
+        },
+        {
+          "layer": "B.Cu",
+          "corner_nm": [
+            34300000,
+            15450000
+          ],
+          "length_mm": 15.787005768508882,
+          "obstacle_nets": [
+            "+1V1_LPDDR4",
+            "EMMC_D0",
+            "GND",
+            "LPDDR4_A3_A",
+            "LPDDR4_A3_B",
+            "LPDDR4_A4_B",
+            "LPDDR4_A5_A",
+            "LPDDR4_A5_B",
+            "LPDDR4_CLKP_B",
+            "LPDDR4_DM1_B",
+            "LPDDR4_DQ10_A",
+            "LPDDR4_DQ8_B",
+            "LPDDR4_DQ9_B",
+            "LPDDR4_DQS0P_A",
+            "LPDDR4_DQS0P_B",
+            "LPDDR4_DQS1P_A"
+          ],
+          "reference_centerline_samples": 147,
+          "reference_misses": 69
+        }
+      ],
+      "via_nm": [
+        [
+          47400000,
+          15450000
+        ],
+        [
+          32400000,
+          13550000
+        ]
+      ]
+    }
+  ],
+  "impedance_qualified": false,
+  "timing_qualified": false
+}

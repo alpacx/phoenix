@@ -1,0 +1,35 @@
+{
+  "parent_sha256": "4318afe6eeea7f9ce5dbcf7c8d7c72b721c70f72d562fe88a18963c206070021",
+  "tested": 1,
+  "precheck": {},
+  "number_clear": 1,
+  "paired": 0,
+  "minimum_edge_to_annulus_mm": 0.255,
+  "assumed_min_mask_expansion_mm": 0.05,
+  "drill_to_opening_margin_mm": 0.1,
+  "trace_width_mm": 0.6,
+  "barrel_mm": [
+    0.6,
+    0.3
+  ],
+  "legal": [
+    {
+      "at_nm": [
+        57300000,
+        2300000
+      ],
+      "anchor_nm": [
+        59550000,
+        1950000
+      ],
+      "bend_nm": [
+        59550000,
+        1950000
+      ],
+      "length_mm": 2.27705950734714
+    }
+  ],
+  "shortest_pairs": [],
+  "blocker_distribution": [],
+  "assembly_ready": false
+}

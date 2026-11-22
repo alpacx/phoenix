@@ -1,0 +1,83 @@
+{
+  "source": "reference/HR911130A.pdf, Rev A, p. 2",
+  "parent_sha256": "ecc3f8d5949e26c570152e66724fb034240d561d6f589830e4a68fa04270e3fd",
+  "changes": [
+    {
+      "pad": "P2",
+      "before_nm": [
+        72350000,
+        24550000
+      ],
+      "after_nm": [
+        72350000,
+        24440000
+      ]
+    },
+    {
+      "pad": "P4",
+      "before_nm": [
+        72350000,
+        22010000
+      ],
+      "after_nm": [
+        72350000,
+        21900000
+      ]
+    },
+    {
+      "pad": "P6",
+      "before_nm": [
+        72350000,
+        19470000
+      ],
+      "after_nm": [
+        72350000,
+        19360000
+      ]
+    },
+    {
+      "pad": "P8",
+      "before_nm": [
+        72350000,
+        16930000
+      ],
+      "after_nm": [
+        72350000,
+        16820000
+      ]
+    },
+    {
+      "pad": "P10",
+      "before_nm": [
+        72350000,
+        14390000
+      ],
+      "after_nm": [
+        72350000,
+        14280000
+      ]
+    }
+  ],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 6592,
+    "explicitly_replaced_copper": {
+      "a03ed707-186c-4da8-8c14-f0807808f61f": [
+        "GND",
+        2,
+        71150000,
+        23350000,
+        73550000,
+        23350000,
+        400000,
+        null
+      ]
+    },
+    "added_tracks_vias": 2,
+    "existing_connected_pad_groups_preserved": 109
+  },
+  "new_drc": [],
+  "assembly_ready": false,
+  "board": "runs/hanrun-hole-stagger/phy-joint.kicad_pcb",
+  "sha256": "e6738dbd26ad3122394310983b5263bdbab8c90e0e27c6b5a08e8a711b82e750"
+}

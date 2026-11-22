@@ -1,0 +1,100 @@
+{
+  "board": "runs/package-perimeter-barrels/phy-joint.kicad_pcb",
+  "sha256": "fc17f91c747fe986f142ae9c5fb2b889450dc065b80b4c669d85c20790abd235",
+  "parent_sha256": "e42f621097a7c326d3a05734fdea19e1930ab068ebd5cb2feaba9809c922d0c4",
+  "added": [
+    {
+      "ref": "U1",
+      "pad": "AG1",
+      "via_nm": [
+        35900000,
+        27100000
+      ],
+      "length_mm": 0.8485281374238571
+    },
+    {
+      "ref": "U2",
+      "pad": "A10",
+      "via_nm": [
+        32800000,
+        1625000
+      ],
+      "length_mm": 0.55
+    },
+    {
+      "ref": "U2",
+      "pad": "A3",
+      "via_nm": [
+        27200000,
+        1625000
+      ],
+      "length_mm": 0.55
+    },
+    {
+      "ref": "U2",
+      "pad": "C12",
+      "via_nm": [
+        34950000,
+        3475000
+      ],
+      "length_mm": 0.55
+    },
+    {
+      "ref": "U2",
+      "pad": "E12",
+      "via_nm": [
+        34950000,
+        4775000
+      ],
+      "length_mm": 0.55
+    },
+    {
+      "ref": "U2",
+      "pad": "V1",
+      "via_nm": [
+        24950000,
+        12775000
+      ],
+      "length_mm": 0.7905694150420949
+    },
+    {
+      "ref": "U2",
+      "pad": "Y1",
+      "via_nm": [
+        25000000,
+        14275000
+      ],
+      "length_mm": 0.65
+    }
+  ],
+  "unresolved": [
+    "U1.A1",
+    "U1.A12",
+    "U1.A16",
+    "U1.A27",
+    "U1.AG15",
+    "U1.AG26",
+    "U1.AG27",
+    "U1.E27",
+    "U1.G27",
+    "U1.M27",
+    "U2.AB5",
+    "U2.G12",
+    "U2.J12",
+    "U2.P1",
+    "U2.P12",
+    "U2.T12",
+    "U2.V12",
+    "U2.Y12",
+    "U8001.A6"
+  ],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 6332,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 14,
+    "existing_connected_pad_groups_preserved": 87
+  },
+  "new_drc": [],
+  "assembly_ready": false
+}

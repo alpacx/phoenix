@@ -1,0 +1,651 @@
+{
+  "candidates": 0,
+  "individual": [
+    0,
+    1
+  ],
+  "screen": {
+    "Y2002": {
+      "courtyards": 1894,
+      "within_budget": 1431
+    },
+    "R2004": {
+      "courtyards": 4756,
+      "within_budget": 4104,
+      "all_lands": 49,
+      "from_pin": 1
+    }
+  },
+  "ranked_obstructions": [
+    {
+      "nets": [
+        "ETH_MDI1_P",
+        "ETH_MDI2_N"
+      ],
+      "interference": [
+        [
+          "ETH_MDI1_P",
+          "J2.P4"
+        ],
+        [
+          "ETH_MDI2_N",
+          "J2.P6"
+        ]
+      ],
+      "length_mm": 4.094967185460709,
+      "angle": 90,
+      "xy_nm": [
+        72187500,
+        20600000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI2_N",
+        "ETH_MDI3_P"
+      ],
+      "interference": [
+        [
+          "ETH_MDI2_N",
+          "J2.P6"
+        ],
+        [
+          "ETH_MDI3_P",
+          "J2.P8"
+        ]
+      ],
+      "length_mm": 5.186497493492117,
+      "angle": 90,
+      "xy_nm": [
+        72387500,
+        19000000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI2_N",
+        "GND"
+      ],
+      "interference": [
+        [
+          "ETH_MDI2_N",
+          "J2.P6"
+        ],
+        [
+          "GND",
+          "31e93e11-6b92-4873-a23d-19a09637ad5a"
+        ]
+      ],
+      "length_mm": 6.306505074127825,
+      "angle": 0,
+      "xy_nm": [
+        72587500,
+        19400000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI1_N",
+        "ETH_MDI2_N",
+        "ETH_MDI2_P"
+      ],
+      "interference": [
+        [
+          "ETH_MDI1_N",
+          "J2.P7"
+        ],
+        [
+          "ETH_MDI2_N",
+          "J2.P6"
+        ],
+        [
+          "ETH_MDI2_P",
+          "J2.P5"
+        ]
+      ],
+      "length_mm": 3.50125066940372,
+      "angle": 90,
+      "xy_nm": [
+        70187500,
+        19400000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI1_P",
+        "ETH_MDI2_N",
+        "ETH_MDI2_P"
+      ],
+      "interference": [
+        [
+          "ETH_MDI1_P",
+          "J2.P4"
+        ],
+        [
+          "ETH_MDI2_N",
+          "J2.P6"
+        ],
+        [
+          "ETH_MDI2_P",
+          "J2.P5"
+        ]
+      ],
+      "length_mm": 3.918897325779281,
+      "angle": 90,
+      "xy_nm": [
+        71987500,
+        20600000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI1_P",
+        "ETH_MDI2_N",
+        "GND"
+      ],
+      "interference": [
+        [
+          "ETH_MDI1_P",
+          "J2.P4"
+        ],
+        [
+          "ETH_MDI2_N",
+          "J2.P6"
+        ],
+        [
+          "GND",
+          "276bb3c4-79ba-4dbc-b115-da7d34bbc618"
+        ]
+      ],
+      "length_mm": 4.806636687955519,
+      "angle": 90,
+      "xy_nm": [
+        73187500,
+        21200000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI1_P",
+        "ETH_MDI2_N",
+        "ETH_MDI3_P"
+      ],
+      "interference": [
+        [
+          "ETH_MDI1_P",
+          "J2.P4"
+        ],
+        [
+          "ETH_MDI2_N",
+          "J2.P6"
+        ],
+        [
+          "ETH_MDI3_P",
+          "J2.P8"
+        ]
+      ],
+      "length_mm": 4.925419398386294,
+      "angle": 90,
+      "xy_nm": [
+        72387500,
+        19400000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI1_N",
+        "ETH_MDI2_N",
+        "ETH_MDI3_P"
+      ],
+      "interference": [
+        [
+          "ETH_MDI1_N",
+          "J2.P7"
+        ],
+        [
+          "ETH_MDI2_N",
+          "J2.P6"
+        ],
+        [
+          "ETH_MDI3_P",
+          "J2.P8"
+        ]
+      ],
+      "length_mm": 5.474372680956239,
+      "angle": 90,
+      "xy_nm": [
+        72187500,
+        18400000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI2_N",
+        "ETH_MDI3_P",
+        "GND"
+      ],
+      "interference": [
+        [
+          "ETH_MDI2_N",
+          "J2.P6"
+        ],
+        [
+          "ETH_MDI3_P",
+          "J2.P8"
+        ],
+        [
+          "GND",
+          "e3143585-d6f1-4510-b7ab-106f73ab8176"
+        ]
+      ],
+      "length_mm": 5.60631396284582,
+      "angle": 90,
+      "xy_nm": [
+        72587500,
+        18600000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI0_N",
+        "ETH_MDI0_P",
+        "ETH_MDI1_P",
+        "ETH_MDI2_P"
+      ],
+      "interference": [
+        [
+          "ETH_MDI0_N",
+          "J2.P3"
+        ],
+        [
+          "ETH_MDI0_P",
+          "J2.P2"
+        ],
+        [
+          "ETH_MDI1_P",
+          "J2.P4"
+        ],
+        [
+          "ETH_MDI2_P",
+          "J2.P5"
+        ]
+      ],
+      "length_mm": 1.6305693024217032,
+      "angle": 90,
+      "xy_nm": [
+        70187500,
+        22400000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI0_N",
+        "ETH_MDI1_P",
+        "ETH_MDI2_N",
+        "ETH_MDI2_P"
+      ],
+      "interference": [
+        [
+          "ETH_MDI0_N",
+          "J2.P3"
+        ],
+        [
+          "ETH_MDI1_P",
+          "J2.P4"
+        ],
+        [
+          "ETH_MDI2_N",
+          "J2.P6"
+        ],
+        [
+          "ETH_MDI2_P",
+          "J2.P5"
+        ]
+      ],
+      "length_mm": 1.7716535355424323,
+      "angle": 90,
+      "xy_nm": [
+        70187500,
+        21800000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_CENTER_TAP",
+        "ETH_MDI0_N",
+        "ETH_MDI0_P",
+        "ETH_MDI1_P"
+      ],
+      "interference": [
+        [
+          "ETH_CENTER_TAP",
+          "J2.P1"
+        ],
+        [
+          "ETH_MDI0_N",
+          "J2.P3"
+        ],
+        [
+          "ETH_MDI0_P",
+          "J2.P2"
+        ],
+        [
+          "ETH_MDI1_P",
+          "J2.P4"
+        ]
+      ],
+      "length_mm": 2.5990394860409487,
+      "angle": 0,
+      "xy_nm": [
+        71187500,
+        23400000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI1_N",
+        "ETH_MDI1_P",
+        "ETH_MDI2_N",
+        "ETH_MDI2_P"
+      ],
+      "interference": [
+        [
+          "ETH_MDI1_N",
+          "J2.P7"
+        ],
+        [
+          "ETH_MDI1_P",
+          "J2.P4"
+        ],
+        [
+          "ETH_MDI2_N",
+          "J2.P6"
+        ],
+        [
+          "ETH_MDI2_P",
+          "J2.P5"
+        ]
+      ],
+      "length_mm": 2.656831995064799,
+      "angle": 90,
+      "xy_nm": [
+        70187500,
+        20400000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI1_N",
+        "ETH_MDI2_N",
+        "ETH_MDI2_P",
+        "ETH_MDI3_P"
+      ],
+      "interference": [
+        [
+          "ETH_MDI1_N",
+          "J2.P7"
+        ],
+        [
+          "ETH_MDI2_N",
+          "J2.P6"
+        ],
+        [
+          "ETH_MDI2_P",
+          "J2.P5"
+        ],
+        [
+          "ETH_MDI3_P",
+          "J2.P8"
+        ]
+      ],
+      "length_mm": 3.6795048919657654,
+      "angle": 90,
+      "xy_nm": [
+        70187500,
+        19200000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI1_P",
+        "ETH_MDI2_N",
+        "ETH_MDI2_P",
+        "GND"
+      ],
+      "interference": [
+        [
+          "ETH_MDI1_P",
+          "J2.P4"
+        ],
+        [
+          "ETH_MDI2_N",
+          "J2.P6"
+        ],
+        [
+          "ETH_MDI2_P",
+          "J2.P5"
+        ],
+        [
+          "GND",
+          "31e93e11-6b92-4873-a23d-19a09637ad5a"
+        ]
+      ],
+      "length_mm": 4.867032591836631,
+      "angle": 0,
+      "xy_nm": [
+        71787500,
+        20600000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI1_N",
+        "ETH_MDI2_N",
+        "ETH_MDI3_N",
+        "ETH_MDI3_P"
+      ],
+      "interference": [
+        [
+          "ETH_MDI1_N",
+          "J2.P7"
+        ],
+        [
+          "ETH_MDI2_N",
+          "J2.P6"
+        ],
+        [
+          "ETH_MDI3_N",
+          "J2.P9"
+        ],
+        [
+          "ETH_MDI3_P",
+          "J2.P8"
+        ]
+      ],
+      "length_mm": 4.97380701776818,
+      "angle": 90,
+      "xy_nm": [
+        70187500,
+        17800000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI1_N",
+        "ETH_MDI2_N",
+        "ETH_MDI3_P",
+        "GND"
+      ],
+      "interference": [
+        [
+          "ETH_MDI1_N",
+          "J2.P7"
+        ],
+        [
+          "ETH_MDI2_N",
+          "J2.P6"
+        ],
+        [
+          "ETH_MDI3_P",
+          "J2.P8"
+        ],
+        [
+          "GND",
+          "9958413c-f933-4eb7-81d5-a92f00558990"
+        ]
+      ],
+      "length_mm": 5.937066299949834,
+      "angle": 90,
+      "xy_nm": [
+        72187500,
+        17800000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI1_N",
+        "ETH_MDI2_N",
+        "ETH_MDI2_P",
+        "GND"
+      ],
+      "interference": [
+        [
+          "ETH_MDI1_N",
+          "J2.P7"
+        ],
+        [
+          "ETH_MDI2_N",
+          "J2.P6"
+        ],
+        [
+          "ETH_MDI2_P",
+          "J2.P5"
+        ],
+        [
+          "GND",
+          "31e93e11-6b92-4873-a23d-19a09637ad5a"
+        ]
+      ],
+      "length_mm": 6.075360586006397,
+      "angle": 0,
+      "xy_nm": [
+        72187500,
+        19400000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_CENTER_TAP",
+        "ETH_MDI0_N",
+        "ETH_MDI0_P",
+        "ETH_MDI1_P",
+        "ETH_MDI2_P"
+      ],
+      "interference": [
+        [
+          "ETH_CENTER_TAP",
+          "J2.P1"
+        ],
+        [
+          "ETH_MDI0_N",
+          "J2.P3"
+        ],
+        [
+          "ETH_MDI0_P",
+          "J2.P2"
+        ],
+        [
+          "ETH_MDI1_P",
+          "J2.P4"
+        ],
+        [
+          "ETH_MDI2_P",
+          "J2.P5"
+        ]
+      ],
+      "length_mm": 1.7025734198559543,
+      "angle": 90,
+      "xy_nm": [
+        70187500,
+        23000000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_CENTER_TAP",
+        "ETH_MDI0_N",
+        "ETH_MDI0_P",
+        "ETH_MDI1_P",
+        "GND"
+      ],
+      "interference": [
+        [
+          "ETH_CENTER_TAP",
+          "J2.P1"
+        ],
+        [
+          "ETH_MDI0_N",
+          "J2.P3"
+        ],
+        [
+          "ETH_MDI0_P",
+          "J2.P2"
+        ],
+        [
+          "ETH_MDI1_P",
+          "J2.P4"
+        ],
+        [
+          "GND",
+          "126f20d4-cd21-4f49-9002-278602ddb027"
+        ]
+      ],
+      "length_mm": 1.8926188866224494,
+      "angle": 0,
+      "xy_nm": [
+        70587500,
+        23800000
+      ]
+    }
+  ],
+  "accepted": false,
+  "board_sha256": "ec0cae86786864ee0b90974e897f725df433e94b405c47c47afa5cfb2cf56ddc",
+  "hypothetically_removed": [
+    "49b2db3b-ffba-4d21-b558-092651c99c62",
+    "d2c6849c-714e-47b5-af53-2eb053df2a1d",
+    "0178367e-b980-41a8-a071-c7e5cfb752bd",
+    "084ecdf0-79b6-4108-a598-0a385c90d860",
+    "10067b14-5cfe-4e93-a7d7-a18d92ee5f24",
+    "1720c7ad-55c9-409a-8be9-24b34096f0dc",
+    "21a6a38b-9b5a-45a4-8f4e-183bdf7ae1b3",
+    "25461cd5-85af-4f26-8f20-1993a9a4093f",
+    "26b8a13d-17ac-448f-89fb-247c19402cd1",
+    "2945a6d1-9aca-4bdc-bf9f-e03c6d606c32",
+    "31aa9ce9-4308-4316-b0ac-a2d33e2978e9",
+    "33f29c45-cd17-4e6b-ab06-d2245222beac",
+    "353e0242-3ab2-4c44-9a96-66cb081d5a15",
+    "3fa4d0c6-560e-470a-a90e-c6956616d320",
+    "407fe989-7732-4643-9c0d-0b5b04d69302",
+    "506966df-c0d6-4b0b-91bc-e77ad0e2100f",
+    "53e083e4-b085-475d-b2fe-cd83613a1e3d",
+    "5e010159-4be5-4f4a-a1cd-7321885812d7",
+    "5ef0676f-f854-45e2-82a3-05260296db2e",
+    "66c5a576-ea1d-42c5-80ab-64e1c9cd74ea",
+    "772b2b8f-b548-4eb5-a5e0-c1b64f771c88",
+    "86f4cc23-1a8b-4c90-bd18-e7fcbec5bf18",
+    "9aba4286-4f8a-4d56-bf2b-4f051b5e15b5",
+    "9eb828b4-99ff-47e5-9bd5-7fef0ec974e8",
+    "a7dd26b0-3858-4de0-b677-52461611747b",
+    "a82c1300-5c37-48c7-b947-dc7d9818013c",
+    "b4dd899c-807f-4d9f-be3b-41e8e9561568",
+    "c9857299-60ea-4327-a64d-4e08ff9cc37b",
+    "e62f99d1-9645-4f69-837b-0724e725e31c",
+    "e8a98e3e-9b9d-4c08-aa7e-406673c991eb",
+    "f337877f-7448-4d0f-ab21-fbcff3fe8bd9",
+    "fbc59da3-5d7d-4575-8189-616061a884a9",
+    "fd34d182-82ae-4192-b3cc-6339a4ea2bb1",
+    "fd941575-c94e-43ae-857f-2239e6d144f9",
+    "feb925f3-03b4-4a53-8178-382cbe40a55a"
+  ],
+  "best": []
+}

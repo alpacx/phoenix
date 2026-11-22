@@ -1,0 +1,46 @@
+{
+  "board": "runs/phy-rear-bias-distribution/pass-0/phy-joint.kicad_pcb",
+  "sha256": "c2022b133379859b41faa814deecce7c1011316ac2fdf409566fba9ef5461823",
+  "records": [
+    {
+      "target": "R521",
+      "path": [
+        [
+          1,
+          68198261,
+          29144348
+        ],
+        [
+          1,
+          68200000,
+          29200000
+        ],
+        [
+          0,
+          68200000,
+          29200000
+        ],
+        [
+          0,
+          69020000,
+          30100000
+        ]
+      ],
+      "added": [
+        [
+          "R521",
+          "2"
+        ]
+      ],
+      "drc": [],
+      "accepted": true,
+      "preservation": {
+        "existing_pad_instances_preserved": 2006,
+        "existing_tracks_vias_preserved": 5828,
+        "explicitly_replaced_copper": {},
+        "added_tracks_vias": 3,
+        "existing_connected_pad_groups_preserved": 71
+      }
+    }
+  ]
+}

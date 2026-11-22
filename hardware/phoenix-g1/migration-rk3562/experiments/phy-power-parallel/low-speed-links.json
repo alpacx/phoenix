@@ -1,0 +1,61 @@
+{
+  "board": "runs/control-link-R416.1/phy-joint.kicad_pcb",
+  "sha256": "44d3254ebcdcb5ae0bb6824383c1e4d149f348f2a99737ab7b4c552e16edd21f",
+  "accepted": [
+    {
+      "pair": [
+        "R416.2",
+        "R414.1"
+      ],
+      "net": "I2C0_SCL",
+      "length_mm": 1.8139459749397169,
+      "preservation": {
+        "existing_pad_instances_preserved": 2008,
+        "existing_tracks_vias_preserved": 5995,
+        "explicitly_replaced_copper": {},
+        "added_tracks_vias": 1,
+        "existing_connected_pad_groups_preserved": 76
+      }
+    },
+    {
+      "pair": [
+        "R417.2",
+        "R415.1"
+      ],
+      "net": "I2C0_SDA",
+      "length_mm": 1.8139459749397169,
+      "preservation": {
+        "existing_pad_instances_preserved": 2008,
+        "existing_tracks_vias_preserved": 5995,
+        "explicitly_replaced_copper": {},
+        "added_tracks_vias": 2,
+        "existing_connected_pad_groups_preserved": 76
+      }
+    },
+    {
+      "pair": [
+        "R416.1",
+        "R417.1"
+      ],
+      "net": "+3V3_PMU",
+      "length_mm": 5.871355423807858,
+      "preservation": {
+        "existing_pad_instances_preserved": 2008,
+        "existing_tracks_vias_preserved": 5995,
+        "explicitly_replaced_copper": {},
+        "added_tracks_vias": 7,
+        "existing_connected_pad_groups_preserved": 76
+      }
+    }
+  ],
+  "other": [
+    {
+      "pair": [
+        "R412.1",
+        "R417.1"
+      ],
+      "status": "no planar route in search"
+    }
+  ],
+  "assembly_ready": false
+}

@@ -1,0 +1,71 @@
+{
+  "source_sha256": "24a5d7a0fb4ec84a9051dc7a183ee3bef1092a4bfcc3159566c727bd8d3705b3",
+  "adopted": false,
+  "viable_sites": 11,
+  "board": "runs/usb-cc2-clearance/phy-joint.kicad_pcb",
+  "sha256": "09d24d42b7aef3d148d764b143837d4df2cb68f422a9c83d0ee499b6140f549b",
+  "via_nm": [
+    7150000,
+    20550000
+  ],
+  "path_mm": 2.042842712474619,
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 6755,
+    "explicitly_replaced_copper": {
+      "0cd03017-7a47-435c-809c-0932accb433d": [
+        "USB_CC2",
+        0,
+        6850000,
+        20750000,
+        7050000,
+        20550000,
+        200000,
+        null
+      ],
+      "4b352c41-58d4-4276-a34f-6cade39070fc": [
+        "USB_CC2",
+        0,
+        7050000,
+        20550000,
+        7050000,
+        20550000,
+        450000,
+        200000
+      ],
+      "91b792df-6f39-409d-9c58-8d573b6e17a1": [
+        "USB_CC2",
+        2,
+        7050000,
+        20550000,
+        8200000,
+        20550000,
+        200000,
+        null
+      ],
+      "cd40213e-5cea-40d0-babe-8dc01d2c5f9d": [
+        "USB_CC2",
+        0,
+        6240000,
+        20750000,
+        6250000,
+        20750000,
+        200000,
+        null
+      ],
+      "fbd8e1cb-c4ff-4df4-afbf-80e74d3de64a": [
+        "USB_CC2",
+        0,
+        6250000,
+        20750000,
+        6850000,
+        20750000,
+        200000,
+        null
+      ]
+    },
+    "added_tracks_vias": -1,
+    "existing_connected_pad_groups_preserved": 109
+  },
+  "new_drc": []
+}

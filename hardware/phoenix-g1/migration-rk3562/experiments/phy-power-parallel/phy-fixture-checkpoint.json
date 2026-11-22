@@ -1,0 +1,134 @@
+{
+  "board": "runs/fixture-via-TP5/phy-joint.kicad_pcb",
+  "sha256": "07fb899c95cd8c01095f597ea0031c577c581ab45ca62fa79a9aee074ef4c4bf",
+  "source_sha256": "1267c0f58d8d13ef2c7b08353fcf23b62e49143808a2b3c4c4a854e35f956f4e",
+  "preservation": {
+    "existing_pad_instances_preserved": 2006,
+    "existing_tracks_vias_preserved": 5814,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 23,
+    "existing_connected_pad_groups_preserved": 70
+  },
+  "verified_pad_pairs": [
+    [
+      "R530.2",
+      "C515.1"
+    ],
+    [
+      "C511.1",
+      "C522.1"
+    ],
+    [
+      "C522.1",
+      "U5.38"
+    ],
+    [
+      "C522.2",
+      "C511.2"
+    ],
+    [
+      "R521.1",
+      "R510.2"
+    ],
+    [
+      "TP14.1",
+      "U17.4"
+    ],
+    [
+      "TP9.1",
+      "U16.2"
+    ],
+    [
+      "TP5.1",
+      "C465.1"
+    ],
+    [
+      "C515.1",
+      "R514.2"
+    ],
+    [
+      "C515.1",
+      "R521.2"
+    ],
+    [
+      "C515.1",
+      "R525.2"
+    ],
+    [
+      "C515.1",
+      "R527.2"
+    ]
+  ],
+  "new_drc": [],
+  "mount_conflicts_before": 16,
+  "mount_conflicts_after": 12,
+  "resolved_mount_conflicts": [
+    [
+      "H8104 mechanical reservation",
+      "TP14"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "TP5"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "TP9"
+    ],
+    [
+      "H8105 mechanical reservation",
+      "R521"
+    ]
+  ],
+  "remaining_mount_conflicts": [
+    [
+      "H8103 mechanical reservation",
+      "R2014"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "C1625"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "C1631"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "C1640"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "C1642"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "C1679"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "R1506"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "Y1"
+    ],
+    [
+      "H8104 mechanical reservation",
+      "Y2002"
+    ],
+    [
+      "H8105 mechanical reservation",
+      "R525"
+    ],
+    [
+      "H8105 mechanical reservation",
+      "R526"
+    ],
+    [
+      "H8105 mechanical reservation",
+      "R527"
+    ]
+  ],
+  "assembly_ready": false
+}

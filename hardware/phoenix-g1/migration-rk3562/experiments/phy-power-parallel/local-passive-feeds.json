@@ -1,0 +1,82 @@
+{
+  "board": "runs/local-passive-R1505/phy-joint.kicad_pcb",
+  "sha256": "2523ee5c52ebb7a9ddcfea1f70205e8c6415854bd385e18cb99e1d1810308462",
+  "records": [
+    {
+      "ref": "R1506",
+      "pad": "2",
+      "node": [
+        "C511",
+        "2"
+      ],
+      "path": [
+        [
+          0,
+          49750000,
+          31600000
+        ],
+        [
+          0,
+          47200000,
+          32000000
+        ],
+        [
+          0,
+          45800000,
+          33200000
+        ],
+        [
+          0,
+          38020000,
+          34400000
+        ]
+      ],
+      "new_drc": [],
+      "preservation": {
+        "existing_pad_instances_preserved": 2006,
+        "existing_tracks_vias_preserved": 5839,
+        "explicitly_replaced_copper": {},
+        "added_tracks_vias": 3,
+        "existing_connected_pad_groups_preserved": 74
+      }
+    },
+    {
+      "ref": "R1505",
+      "pad": "1",
+      "node": [
+        "C2007",
+        "1"
+      ],
+      "path": [
+        [
+          1,
+          28300000,
+          30250000
+        ],
+        [
+          1,
+          34200000,
+          36600000
+        ],
+        [
+          0,
+          34200000,
+          36600000
+        ],
+        [
+          0,
+          35990000,
+          35500000
+        ]
+      ],
+      "new_drc": [],
+      "preservation": {
+        "existing_pad_instances_preserved": 2006,
+        "existing_tracks_vias_preserved": 5839,
+        "explicitly_replaced_copper": {},
+        "added_tracks_vias": 6,
+        "existing_connected_pad_groups_preserved": 74
+      }
+    }
+  ]
+}

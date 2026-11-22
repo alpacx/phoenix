@@ -1,0 +1,3310 @@
+{
+  "parent_sha256": "ec0cae86786864ee0b90974e897f725df433e94b405c47c47afa5cfb2cf56ddc",
+  "adopted": false,
+  "board": "runs/pmic-five-stage-placement-0/phy-joint.kicad_pcb",
+  "sha256": "bc1964de39ef60083969dc0c2c71e52d7199c29226f50ce57998ba3f41e42e14",
+  "moves": {
+    "R410": {
+      "old_xy": [
+        58.0,
+        6.0
+      ],
+      "new_xy": [
+        57.5,
+        4.5
+      ],
+      "old_layer": "B.Cu",
+      "new_layer": "B.Cu",
+      "new_angle": 90.0
+    },
+    "C480": {
+      "old_xy": [
+        54.0,
+        10.5
+      ],
+      "new_xy": [
+        55.0,
+        12.5
+      ],
+      "old_layer": "B.Cu",
+      "new_layer": "B.Cu",
+      "new_angle": 180.0
+    },
+    "R411": {
+      "old_xy": [
+        58.5,
+        7.3
+      ],
+      "new_xy": [
+        60.5,
+        7.3
+      ],
+      "old_layer": "B.Cu",
+      "new_layer": "B.Cu",
+      "new_angle": -90.0
+    },
+    "C481": {
+      "old_xy": [
+        60.0,
+        4.0
+      ],
+      "new_xy": [
+        59.0,
+        2.0
+      ],
+      "old_layer": "B.Cu",
+      "new_layer": "B.Cu",
+      "new_angle": 90.0
+    },
+    "C484": {
+      "old_xy": [
+        57.5,
+        4.0
+      ],
+      "new_xy": [
+        57.5,
+        2.0
+      ],
+      "old_layer": "B.Cu",
+      "new_layer": "B.Cu",
+      "new_angle": 90.0
+    },
+    "C485": {
+      "old_xy": [
+        57.5,
+        12.5
+      ],
+      "new_xy": [
+        57.5,
+        12.0
+      ],
+      "old_layer": "B.Cu",
+      "new_layer": "B.Cu",
+      "new_angle": 90.0
+    },
+    "C410": {
+      "old_xy": [
+        57.6,
+        9.2
+      ],
+      "new_xy": [
+        57.1,
+        9.7
+      ],
+      "old_layer": "B.Cu",
+      "new_layer": "B.Cu",
+      "new_angle": 0.0
+    },
+    "C482": {
+      "old_xy": [
+        60.0,
+        12.5
+      ],
+      "new_xy": [
+        61.0,
+        12.0
+      ],
+      "old_layer": "B.Cu",
+      "new_layer": "B.Cu",
+      "new_angle": 90.0
+    },
+    "L403": {
+      "old_xy": [
+        66.5,
+        9.5
+      ],
+      "new_xy": [
+        56.85,
+        14.41
+      ],
+      "old_layer": "F.Cu",
+      "new_layer": "F.Cu",
+      "new_angle": 180.0
+    },
+    "C423": {
+      "old_xy": [
+        56.1,
+        17.0
+      ],
+      "new_xy": [
+        59.3,
+        11.21
+      ],
+      "old_layer": "F.Cu",
+      "new_layer": "B.Cu",
+      "new_angle": 90.0
+    },
+    "C433": {
+      "old_xy": [
+        72.0,
+        6.0
+      ],
+      "new_xy": [
+        56.15,
+        17.56
+      ],
+      "old_layer": "F.Cu",
+      "new_layer": "F.Cu",
+      "new_angle": -90.0
+    },
+    "L401": {
+      "old_xy": [
+        66.0,
+        12.5
+      ],
+      "new_xy": [
+        54.290000000000006,
+        11.65
+      ],
+      "old_layer": "F.Cu",
+      "new_layer": "F.Cu",
+      "new_angle": 180.0
+    },
+    "C421": {
+      "old_xy": [
+        54.0,
+        9.0
+      ],
+      "new_xy": [
+        54.190000000000005,
+        10.7
+      ],
+      "old_layer": "F.Cu",
+      "new_layer": "B.Cu",
+      "new_angle": 180.0
+    },
+    "C431": {
+      "old_xy": [
+        68.0,
+        3.5
+      ],
+      "new_xy": [
+        50.89,
+        10.85
+      ],
+      "old_layer": "B.Cu",
+      "new_layer": "F.Cu",
+      "new_angle": 180.0
+    },
+    "L402": {
+      "old_xy": [
+        53.0,
+        14.0
+      ],
+      "new_xy": [
+        53.690000000000005,
+        8.2
+      ],
+      "old_layer": "F.Cu",
+      "new_layer": "F.Cu",
+      "new_angle": 180.0
+    },
+    "C422": {
+      "old_xy": [
+        54.0,
+        11.5
+      ],
+      "new_xy": [
+        58.39,
+        7.35
+      ],
+      "old_layer": "F.Cu",
+      "new_layer": "B.Cu",
+      "new_angle": 90.0
+    },
+    "C432": {
+      "old_xy": [
+        70.5,
+        9.0
+      ],
+      "new_xy": [
+        51.79,
+        8.2
+      ],
+      "old_layer": "F.Cu",
+      "new_layer": "B.Cu",
+      "new_angle": 180.0
+    },
+    "L405": {
+      "old_xy": [
+        60.5,
+        1.4
+      ],
+      "new_xy": [
+        60.85,
+        2.69
+      ],
+      "old_layer": "F.Cu",
+      "new_layer": "F.Cu",
+      "new_angle": 90.0
+    },
+    "C425": {
+      "old_xy": [
+        59.45,
+        3.7
+      ],
+      "new_xy": [
+        60.1,
+        4.39
+      ],
+      "old_layer": "F.Cu",
+      "new_layer": "B.Cu",
+      "new_angle": 180.0
+    },
+    "C435": {
+      "old_xy": [
+        57.3,
+        1.4
+      ],
+      "new_xy": [
+        61.65,
+        1.389999999999997
+      ],
+      "old_layer": "F.Cu",
+      "new_layer": "B.Cu",
+      "new_angle": 0.0
+    },
+    "L404": {
+      "old_xy": [
+        82.5,
+        9.0
+      ],
+      "new_xy": [
+        57.45,
+        3.29
+      ],
+      "old_layer": "F.Cu",
+      "new_layer": "F.Cu",
+      "new_angle": 180.0
+    },
+    "C424": {
+      "old_xy": [
+        66.5,
+        6.5
+      ],
+      "new_xy": [
+        54.9,
+        5.59
+      ],
+      "old_layer": "F.Cu",
+      "new_layer": "B.Cu",
+      "new_angle": 180.0
+    },
+    "C434": {
+      "old_xy": [
+        48.0,
+        3.5
+      ],
+      "new_xy": [
+        54.35,
+        2.69
+      ],
+      "old_layer": "F.Cu",
+      "new_layer": "B.Cu",
+      "new_angle": 180.0
+    }
+  },
+  "delta_counts": {
+    "shorting_items": 94,
+    "clearance": 28,
+    "hole_clearance": 15,
+    "npth_inside_courtyard": 2,
+    "pth_inside_courtyard": 6,
+    "solder_mask_bridge": 106,
+    "track_dangling": 17,
+    "silk_over_copper": 1
+  },
+  "native_delta": [
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_VDC] su B.Cu, lung. 0.8485 mm",
+        "Piazzola 1 [+3V3_SYS] di C422 su B.Cu"
+      ],
+      "uids": [
+        "4ad9001b-61b1-416b-adfa-4910ce44b8ec",
+        "a8310ec9-ee7e-4086-878c-734adadf0eb4"
+      ]
+    },
+    {
+      "kind": "clearance",
+      "items": [
+        "Piazzola 1 [+3V3_SYS] di C422 su B.Cu",
+        "Pista [PMIC_VDC] su B.Cu, lung. 0.3818 mm"
+      ],
+      "uids": [
+        "a8310ec9-ee7e-4086-878c-734adadf0eb4",
+        "b58fe228-e493-458e-8d90-9580c3240151"
+      ]
+    },
+    {
+      "kind": "clearance",
+      "items": [
+        "Pista [PMIC_VDC] su B.Cu, lung. 0.7071 mm",
+        "Piazzola 2 [GND] di C422 su B.Cu"
+      ],
+      "uids": [
+        "0815ac3f-c18e-4000-8ddf-330ff0cd37d6",
+        "4eceb2ff-1c02-45bb-8ee1-36933ff186b3"
+      ]
+    },
+    {
+      "kind": "clearance",
+      "items": [
+        "Piazzola 2 [GND] di C422 su B.Cu",
+        "Pista [PMIC_VDC] su B.Cu, lung. 0.8000 mm"
+      ],
+      "uids": [
+        "4eceb2ff-1c02-45bb-8ee1-36933ff186b3",
+        "d56e1311-5504-4736-862a-4588124d5f9a"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_VDC] su B.Cu, lung. 0.9300 mm",
+        "Piazzola 1 [+3V3_SYS] di C422 su B.Cu"
+      ],
+      "uids": [
+        "61057e18-0d1e-4bcc-9f02-bff9d13725db",
+        "a8310ec9-ee7e-4086-878c-734adadf0eb4"
+      ]
+    },
+    {
+      "kind": "clearance",
+      "items": [
+        "Piazzola 1 [VDD_NPU] di C434 su B.Cu",
+        "Pista [PMIC_SCL] su B.Cu, lung. 2.0591 mm"
+      ],
+      "uids": [
+        "7a0d3375-6c20-4128-b354-2ba5804b4127",
+        "e38cc1a6-15c5-4b26-80b6-c19d2492ce7a"
+      ]
+    },
+    {
+      "kind": "clearance",
+      "items": [
+        "Via [PMIC_SCL] su F.Cu - B.Cu",
+        "Piazzola 2 [VDD_NPU] di L404 su F.Cu"
+      ],
+      "uids": [
+        "e1078500-35f6-4890-bca6-1acb0709287c",
+        "fbf98f5c-6251-4c8e-8c6f-1ea9e4b4a98b"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 1 [VDD_NPU] di C434 su B.Cu",
+        "Via [PMIC_SCL] su F.Cu - B.Cu"
+      ],
+      "uids": [
+        "7a0d3375-6c20-4128-b354-2ba5804b4127",
+        "e1078500-35f6-4890-bca6-1acb0709287c"
+      ]
+    },
+    {
+      "kind": "clearance",
+      "items": [
+        "Pista [PMIC_SCL] su F.Cu, lung. 3.5545 mm",
+        "Piazzola 2 [VDD_NPU] di L404 su F.Cu"
+      ],
+      "uids": [
+        "b91a5f5e-6b77-4762-b592-c2f62228cd6b",
+        "fbf98f5c-6251-4c8e-8c6f-1ea9e4b4a98b"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SCL] su B.Cu, lung. 9.1236 mm",
+        "Piazzola 2 [GND] di C481 su B.Cu"
+      ],
+      "uids": [
+        "56ffebce-9a2a-4a7d-84f2-fab4941df425",
+        "5882923f-db08-4f39-a0ee-d3ec83e67358"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Via [+5V_ADDON] su F.Cu - B.Cu",
+        "Piazzola 2 [GND] di C435 su B.Cu"
+      ],
+      "uids": [
+        "18e86a3a-2384-44ea-b204-9e4caad3062c",
+        "2182ddfe-fc0b-4915-a173-0ab4b24fe0a8"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [+3V3_IO] su B.Cu, lung. 0.8000 mm",
+        "Piazzola 1 [+3V3_SYS] di C425 su B.Cu"
+      ],
+      "uids": [
+        "b1b9a12c-e92b-44c7-8847-bf54330fdb4d",
+        "b27cf777-8038-41b2-bc08-021df21db3ba"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Via [+3V3_IO] su F.Cu - B.Cu",
+        "Piazzola 1 [+3V3_SYS] di C425 su B.Cu"
+      ],
+      "uids": [
+        "9259d16f-f3a1-445e-bb0b-91b4c8b4a505",
+        "b27cf777-8038-41b2-bc08-021df21db3ba"
+      ]
+    },
+    {
+      "kind": "clearance",
+      "items": [
+        "Piazzola 2 [GND] di C425 su B.Cu",
+        "Pista [+3V3_SYS] su B.Cu, lung. 0.8415 mm"
+      ],
+      "uids": [
+        "cd29a783-fa33-4a85-a7ac-b01086bd75e2",
+        "e368d717-6558-4efc-bde9-454409fb5346"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [+3V3_SYS] su B.Cu, lung. 0.5831 mm",
+        "Piazzola 2 [GND] di C425 su B.Cu"
+      ],
+      "uids": [
+        "c0fe9ed4-f11d-45cc-8807-4dc601b9e864",
+        "cd29a783-fa33-4a85-a7ac-b01086bd75e2"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [+3V3_SYS] su B.Cu, lung. 1.1000 mm",
+        "Piazzola 2 [GND] di C425 su B.Cu"
+      ],
+      "uids": [
+        "912ad462-b391-465b-b54f-02db061aeabf",
+        "cd29a783-fa33-4a85-a7ac-b01086bd75e2"
+      ]
+    },
+    {
+      "kind": "clearance",
+      "items": [
+        "Piazzola 2 [PMIC_VDC] di R410 su B.Cu",
+        "Pista [+3V3_SYS] su B.Cu, lung. 0.9541 mm"
+      ],
+      "uids": [
+        "6e9967d3-2417-4dc8-bf90-47d96973591b",
+        "a57a6004-f5f3-4fbb-aadb-1b7b13274eee"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [+3V3_SYS] su B.Cu, lung. 1.3800 mm",
+        "Piazzola 2 [GND] di C425 su B.Cu"
+      ],
+      "uids": [
+        "48a239b7-982b-4099-bf14-084ba5ebe419",
+        "cd29a783-fa33-4a85-a7ac-b01086bd75e2"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [+3V3_SYS] su B.Cu, lung. 0.6000 mm",
+        "Piazzola 2 [GND] di C425 su B.Cu"
+      ],
+      "uids": [
+        "4d30df45-7da8-46e1-aee4-ac886ba88828",
+        "cd29a783-fa33-4a85-a7ac-b01086bd75e2"
+      ]
+    },
+    {
+      "kind": "clearance",
+      "items": [
+        "Piazzola 1 [PMIC_SW2] di L402 su F.Cu",
+        "Via [+3V3_SYS] su F.Cu - B.Cu"
+      ],
+      "uids": [
+        "59b554f8-098a-47db-a210-aca654c2d996",
+        "f078f46e-1035-40db-a011-d91b0203f089"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 1 [PMIC_SW3] di L403 su F.Cu",
+        "Via [+3V3_SYS] su F.Cu - B.Cu"
+      ],
+      "uids": [
+        "593ba232-2b16-453b-8a6c-33e45051c506",
+        "d16f53a4-a7d0-48aa-85f6-969201b2752d"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 1 [PMIC_SW5] di L405 su F.Cu",
+        "Via [+3V3_SYS] su F.Cu - B.Cu"
+      ],
+      "uids": [
+        "073eefeb-6e83-47ed-96b0-c4a95b9edba2",
+        "e370d732-6f3b-4a24-90b7-349e61f9330a"
+      ]
+    },
+    {
+      "kind": "clearance",
+      "items": [
+        "Piazzola 1 [PMIC_SW4] di L404 su F.Cu",
+        "Via [+3V3_SYS] su F.Cu - B.Cu"
+      ],
+      "uids": [
+        "29cf470e-286b-438f-8f60-4911b72bca7a",
+        "41e0e270-23ba-4e8b-80e1-f740645e596a"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 1 [PMIC_SW5] di L405 su F.Cu",
+        "Pista [+3V3_SYS] su F.Cu, lung. 0.2828 mm"
+      ],
+      "uids": [
+        "073eefeb-6e83-47ed-96b0-c4a95b9edba2",
+        "ea38c7c9-6cd6-46cf-8f6f-25cd212141a8"
+      ]
+    },
+    {
+      "kind": "clearance",
+      "items": [
+        "Pista [+3V3_SYS] su F.Cu, lung. 0.8485 mm",
+        "Piazzola 2 [VDD_NPU] di L404 su F.Cu"
+      ],
+      "uids": [
+        "dd1573a2-1365-4441-a992-bbe5130cd3ca",
+        "fbf98f5c-6251-4c8e-8c6f-1ea9e4b4a98b"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [+3V3_SYS] su F.Cu, lung. 1.2500 mm",
+        "Piazzola 1 [PMIC_SW1] di L401 su F.Cu"
+      ],
+      "uids": [
+        "c491cc54-795b-4497-94a2-d0b89b239aa1",
+        "f8966109-e8dd-4340-908c-b2b2c6090c62"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 1 [PMIC_SW5] di L405 su F.Cu",
+        "Pista [+3V3_SYS] su F.Cu, lung. 0.0354 mm"
+      ],
+      "uids": [
+        "073eefeb-6e83-47ed-96b0-c4a95b9edba2",
+        "cdc93634-102a-4a8d-b98a-b92fef2797d6"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 1 [PMIC_SW3] di L403 su F.Cu",
+        "Pista [+3V3_SYS] su F.Cu, lung. 1.6000 mm"
+      ],
+      "uids": [
+        "593ba232-2b16-453b-8a6c-33e45051c506",
+        "bedda20a-f95b-4512-8f35-335caacde5ba"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 1 [PMIC_SW5] di L405 su F.Cu",
+        "Pista [+3V3_SYS] su F.Cu, lung. 0.6000 mm"
+      ],
+      "uids": [
+        "073eefeb-6e83-47ed-96b0-c4a95b9edba2",
+        "c8941ea0-587d-40c9-b5bf-3623297e22db"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 1 [PMIC_SW3] di L403 su F.Cu",
+        "Pista [+3V3_SYS] su F.Cu, lung. 3.1385 mm"
+      ],
+      "uids": [
+        "593ba232-2b16-453b-8a6c-33e45051c506",
+        "9551b983-6080-4785-9db4-d05c28543300"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 1 [PMIC_SW2] di L402 su F.Cu",
+        "Pista [+3V3_SYS] su F.Cu, lung. 1.0308 mm"
+      ],
+      "uids": [
+        "59b554f8-098a-47db-a210-aca654c2d996",
+        "8a3e253c-cc3e-4815-9fde-a2bb55621d2b"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 1 [PMIC_SW5] di L405 su F.Cu",
+        "Pista [+3V3_SYS] su F.Cu, lung. 0.0354 mm"
+      ],
+      "uids": [
+        "073eefeb-6e83-47ed-96b0-c4a95b9edba2",
+        "bc174ea9-0a38-4acf-bd28-c98df695c93c"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [+3V3_SYS] su F.Cu, lung. 0.9899 mm",
+        "Piazzola 1 [PMIC_SW1] di L401 su F.Cu"
+      ],
+      "uids": [
+        "8f75c6ae-5f7b-42c7-afe1-4d5944aacc59",
+        "f8966109-e8dd-4340-908c-b2b2c6090c62"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 1 [PMIC_SW5] di L405 su F.Cu",
+        "Pista [+3V3_SYS] su F.Cu, lung. 0.5250 mm"
+      ],
+      "uids": [
+        "073eefeb-6e83-47ed-96b0-c4a95b9edba2",
+        "66e67f2f-39eb-4d14-bf62-d41af61b9bbb"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 1 [PMIC_SW5] di L405 su F.Cu",
+        "Pista [+3V3_SYS] su F.Cu, lung. 0.0354 mm"
+      ],
+      "uids": [
+        "073eefeb-6e83-47ed-96b0-c4a95b9edba2",
+        "8535dfd1-ef1e-4daf-bf56-29dbb59f51a6"
+      ]
+    },
+    {
+      "kind": "clearance",
+      "items": [
+        "Pista [+3V3_SYS] su F.Cu, lung. 1.0500 mm",
+        "Piazzola 1 [PMIC_SW3] di L403 su F.Cu"
+      ],
+      "uids": [
+        "44bb3e2f-a47f-4224-a4db-a687b5169813",
+        "593ba232-2b16-453b-8a6c-33e45051c506"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 1 [PMIC_SW5] di L405 su F.Cu",
+        "Pista [+3V3_SYS] su F.Cu, lung. 0.2500 mm"
+      ],
+      "uids": [
+        "073eefeb-6e83-47ed-96b0-c4a95b9edba2",
+        "672f1141-58e3-4400-9192-5a9951c4193e"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [+3V3_SYS] su F.Cu, lung. 0.8902 mm",
+        "Piazzola 1 [PMIC_SW2] di L402 su F.Cu"
+      ],
+      "uids": [
+        "1ca17eba-3abe-46b4-b7c2-961c5e408e8c",
+        "59b554f8-098a-47db-a210-aca654c2d996"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 1 [PMIC_SW5] di L405 su F.Cu",
+        "Pista [+3V3_SYS] su F.Cu, lung. 0.0354 mm"
+      ],
+      "uids": [
+        "073eefeb-6e83-47ed-96b0-c4a95b9edba2",
+        "5b7f1a42-9f10-4e76-8774-2987ccca324e"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 1 [PMIC_SW5] di L405 su F.Cu",
+        "Pista [+3V3_SYS] su F.Cu, lung. 0.0500 mm"
+      ],
+      "uids": [
+        "073eefeb-6e83-47ed-96b0-c4a95b9edba2",
+        "4beac3b9-65ec-413a-8d39-68c06dfe20a9"
+      ]
+    },
+    {
+      "kind": "clearance",
+      "items": [
+        "Piazzola 1 [PMIC_SW5] di L405 su F.Cu",
+        "Pista [+3V3_SYS] su F.Cu, lung. 0.7778 mm"
+      ],
+      "uids": [
+        "073eefeb-6e83-47ed-96b0-c4a95b9edba2",
+        "35c109d6-f3cb-47b1-9858-e76ef174878f"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 1 [PMIC_SW5] di L405 su F.Cu",
+        "Pista [+3V3_SYS] su F.Cu, lung. 0.0250 mm"
+      ],
+      "uids": [
+        "073eefeb-6e83-47ed-96b0-c4a95b9edba2",
+        "2dc5f49c-1b64-4612-bab0-cf5a101ddf1d"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [+3V3_SYS] su F.Cu, lung. 1.2000 mm",
+        "Piazzola 2 [VDD_NPU] di L404 su F.Cu"
+      ],
+      "uids": [
+        "0bce38e5-b076-4d89-87ce-4be2dea52461",
+        "fbf98f5c-6251-4c8e-8c6f-1ea9e4b4a98b"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 1 [PMIC_SW5] di L405 su F.Cu",
+        "Pista [+3V3_SYS] su F.Cu, lung. 0.0250 mm"
+      ],
+      "uids": [
+        "073eefeb-6e83-47ed-96b0-c4a95b9edba2",
+        "0837149a-195d-4a7d-ba1b-fcf39293b0c6"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [+1V8_SYS] su B.Cu, lung. 0.0707 mm",
+        "Piazzola 1 [+3V3_SYS] di C424 su B.Cu"
+      ],
+      "uids": [
+        "a6f402f3-484c-42bd-8810-65ec452b8d3f",
+        "cd82295b-dada-45bd-9218-41606f933c1a"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [+1V8_SYS] su B.Cu, lung. 2.3000 mm",
+        "Piazzola 1 [+3V3_SYS] di C424 su B.Cu"
+      ],
+      "uids": [
+        "899c0e43-71a4-405c-9615-494893cae665",
+        "cd82295b-dada-45bd-9218-41606f933c1a"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [+1V8_SYS] su B.Cu, lung. 1.7000 mm",
+        "Piazzola 1 [+3V3_SYS] di C424 su B.Cu"
+      ],
+      "uids": [
+        "79e1a594-1c29-413b-b747-beda52c88237",
+        "cd82295b-dada-45bd-9218-41606f933c1a"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [+1V8_SYS] su B.Cu, lung. 1.3435 mm",
+        "Piazzola 1 [+3V3_SYS] di C484 su B.Cu"
+      ],
+      "uids": [
+        "a43fbe4e-9c0d-41d2-ade2-45bec216179a",
+        "cd850901-8363-4b45-b722-f196161d4eb8"
+      ]
+    },
+    {
+      "kind": "clearance",
+      "items": [
+        "Piazzola 1 [PMIC_SW4] di L404 su F.Cu",
+        "Via [+1V8_SYS] su F.Cu - B.Cu"
+      ],
+      "uids": [
+        "29cf470e-286b-438f-8f60-4911b72bca7a",
+        "3e3c8ceb-dbaa-4d19-921d-5ccb675f1af8"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Via [+1V8_SYS] su F.Cu - B.Cu",
+        "Piazzola 1 [+3V3_SYS] di C484 su B.Cu"
+      ],
+      "uids": [
+        "3e3c8ceb-dbaa-4d19-921d-5ccb675f1af8",
+        "cd850901-8363-4b45-b722-f196161d4eb8"
+      ]
+    },
+    {
+      "kind": "clearance",
+      "items": [
+        "Piazzola 1 [PMIC_SW4] di L404 su F.Cu",
+        "Pista [+1V8_SYS] su F.Cu, lung. 0.2828 mm"
+      ],
+      "uids": [
+        "29cf470e-286b-438f-8f60-4911b72bca7a",
+        "d34e5620-dea8-4f9d-b79a-6b657d268b81"
+      ]
+    },
+    {
+      "kind": "clearance",
+      "items": [
+        "Piazzola 1 [PMIC_SW4] di L404 su F.Cu",
+        "Pista [+1V8_SYS] su F.Cu, lung. 0.9899 mm"
+      ],
+      "uids": [
+        "29cf470e-286b-438f-8f60-4911b72bca7a",
+        "7dbcbdf3-611c-4082-9fc7-e9c85a7f3682"
+      ]
+    },
+    {
+      "kind": "clearance",
+      "items": [
+        "Pista [+1V8_SYS] su F.Cu, lung. 0.0500 mm",
+        "Piazzola 1 [PMIC_SW4] di L404 su F.Cu"
+      ],
+      "uids": [
+        "0a8adee0-4c39-4f71-a22e-40ae1c08af60",
+        "29cf470e-286b-438f-8f60-4911b72bca7a"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu",
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm"
+      ],
+      "uids": [
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02",
+        "e2dbf03e-b348-4463-a3bb-07ec9d99f28a"
+      ]
+    },
+    {
+      "kind": "clearance",
+      "items": [
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu",
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.8132 mm"
+      ],
+      "uids": [
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02",
+        "f31927d1-df2e-4209-897a-68b3dca31a16"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu",
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm"
+      ],
+      "uids": [
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02",
+        "dabf3cf3-ec89-4a19-8e68-b6381bbd37d3"
+      ]
+    },
+    {
+      "kind": "clearance",
+      "items": [
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu",
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm"
+      ],
+      "uids": [
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02",
+        "dd0c3ee2-d8ea-4d46-886b-5f31b46a2cc8"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu",
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm"
+      ],
+      "uids": [
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02",
+        "ee9ab7e1-af52-4ac2-b35c-0065e84ddca2"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu",
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm"
+      ],
+      "uids": [
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02",
+        "d9c78541-54c9-4719-ab4d-cbb86c2ced9c"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu",
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm"
+      ],
+      "uids": [
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02",
+        "d57d7bf1-9b17-4078-a06e-7b38ce3ab884"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu",
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0500 mm"
+      ],
+      "uids": [
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02",
+        "d8968281-1f2e-4fab-88ea-1c3135afd377"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "ca5f0ebf-07c2-4cd5-8f65-4817d5161b63",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "c72c5c64-09b2-456b-9982-e2bf96848c86",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "c6268d0d-4557-4a97-98a4-da1df36101f2",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu",
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm"
+      ],
+      "uids": [
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02",
+        "d36b66df-fadd-48ef-a06f-1c0097a558ae"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "c177aa16-9db9-4b89-acf9-67d7cedd9483",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "be803da0-e906-4caa-9f35-60b08577cc48",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "a3be4c41-dd59-4568-b35a-98a49cb12faa",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "clearance",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "bff928b5-7f4c-4537-8e88-0517ea8e6924",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "bb17dfc5-0a48-498a-a236-f26966f8eb7a",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "ba7bbab8-7a8f-497d-aa6f-13768da47f29",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "a37b41e2-b465-4a3d-a17b-c6c38e52fc6f",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu",
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm"
+      ],
+      "uids": [
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02",
+        "ec3ee8b2-2c96-4863-9997-3ec01319e8b6"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0500 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "9bb05624-4e7d-43e8-8b09-22e5cb56d81d",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "9b3a4d50-feb0-405e-8d2d-70fb7f0e569e",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "8974074c-4681-42c3-9575-df3c362fb512",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu",
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm"
+      ],
+      "uids": [
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02",
+        "ea0d157e-6066-4488-9a16-8362faa876db"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "9b78606f-90af-451f-873e-97251485e641",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "768702f2-64c8-4886-ae16-619408e6e966",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "9237d00d-9f12-4cf8-87b4-bf63810f0587",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "647aa589-d3d8-4491-a83a-6075bb959858",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "719280b7-da1f-409c-b4d1-441f6026d6f4",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "543e6035-0cc3-4f81-9016-d320647d1dc4",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "8a9daeb1-dbaf-43bf-a037-04f155d6c8c0",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "4dda1f2b-e1f5-49b9-8463-d1b2bbbd55ee",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "7558f507-28a8-4a62-907a-ac3b2eb643cc",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.1414 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "411687b7-4ee9-41ac-84c2-b86424a434b7",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "434394fb-e3da-4e76-b9ee-0b6c119a1385",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "74fb6af4-1fb2-414e-b751-caf4fafaac35",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0500 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "47f6585b-9f99-4de0-99d5-528df70b36c7",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "66ae0181-4bac-4b21-b065-dced860ccce4",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "34d7295b-b735-4994-921e-a17597c5c6fa",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0500 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "411a709e-8aed-4264-b0c1-7c20a137f07a",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "010b7598-322a-443b-8b0d-c694658436a0",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "14f2acfd-8a24-4afa-b526-b7aebe58155a",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.1000 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "08acfeff-8542-438c-a491-a8b843e76e63",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "clearance",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0750 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "46ccc82d-8bba-4503-ab0b-91257ca32fb7",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "377641db-d447-4973-b1ae-fcba83256b30",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "01492d37-d149-4d32-a46d-db25f1b9dc85",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "clearance",
+      "items": [
+        "Piazzola 1 [+3V3_SYS] di C481 su B.Cu",
+        "Pista [GND] su B.Cu, lung. 1.2000 mm"
+      ],
+      "uids": [
+        "95cd3795-5ab1-4d8d-a573-652a4712986f",
+        "cd7aab4a-1a87-4a93-8686-33994d0d4d25"
+      ]
+    },
+    {
+      "kind": "clearance",
+      "items": [
+        "Pista [GND] su B.Cu, lung. 1.5876 mm",
+        "Piazzola 1 [+3V3_SYS] di C423 su B.Cu"
+      ],
+      "uids": [
+        "b77df7c5-f0d1-4782-9059-2fc2574e0146",
+        "e47b25c5-777c-4ca4-a9f8-315962067956"
+      ]
+    },
+    {
+      "kind": "clearance",
+      "items": [
+        "Pista [GND] su B.Cu, lung. 0.9415 mm",
+        "Piazzola 1 [+3V3_SYS] di C422 su B.Cu"
+      ],
+      "uids": [
+        "a58de702-292d-4cee-ae3b-9e57e84f1585",
+        "a8310ec9-ee7e-4086-878c-734adadf0eb4"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [GND] su B.Cu, lung. 1.6800 mm",
+        "Piazzola 1 [VDD_GPU] di C432 su B.Cu"
+      ],
+      "uids": [
+        "9082be61-c5fa-4c72-bfb6-b52f1f2ba236",
+        "bcd6a12f-d85c-4027-8c5b-8189036b307b"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [GND] su B.Cu, lung. 1.0000 mm",
+        "Piazzola 1 [+3V3_SYS] di C423 su B.Cu"
+      ],
+      "uids": [
+        "80f050d7-d9c7-4580-996a-007afa404095",
+        "e47b25c5-777c-4ca4-a9f8-315962067956"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [GND] su B.Cu, lung. 1.3809 mm",
+        "Piazzola 1 [+3V3_SYS] di R410 su B.Cu"
+      ],
+      "uids": [
+        "648136d3-981e-49b3-ba0f-5ddbf7932b02",
+        "c1be1353-4ad3-4b83-b4d8-57020c7b7596"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [GND] su B.Cu, lung. 1.6447 mm",
+        "Piazzola 1 [VDD_GPU] di C432 su B.Cu"
+      ],
+      "uids": [
+        "4cd017c1-6fd7-4cd4-b3d5-b13e306dfae0",
+        "bcd6a12f-d85c-4027-8c5b-8189036b307b"
+      ]
+    },
+    {
+      "kind": "clearance",
+      "items": [
+        "Pista [GND] su B.Cu, lung. 1.5000 mm",
+        "Piazzola 1 [+3V3_SYS] di C485 su B.Cu"
+      ],
+      "uids": [
+        "3f784acb-0e39-4b70-822d-4b91fa3905d7",
+        "df8722fe-bbf2-4fa3-802b-3a16f7d913e6"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [GND] su B.Cu, lung. 0.7001 mm",
+        "Piazzola 1 [+3V3_SYS] di C422 su B.Cu"
+      ],
+      "uids": [
+        "32e4042f-2d47-4672-8bb1-2a5349dcf2c0",
+        "a8310ec9-ee7e-4086-878c-734adadf0eb4"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [GND] su B.Cu, lung. 1.9799 mm",
+        "Piazzola 1 [+3V3_SYS] di C481 su B.Cu"
+      ],
+      "uids": [
+        "271a02a1-76cb-4f5b-a020-e8d66558e0ce",
+        "95cd3795-5ab1-4d8d-a573-652a4712986f"
+      ]
+    },
+    {
+      "kind": "clearance",
+      "items": [
+        "Pista [GND] su B.Cu, lung. 0.7500 mm",
+        "Piazzola 1 [+3V3_SYS] di R410 su B.Cu"
+      ],
+      "uids": [
+        "1505ef02-5571-4ead-9953-b848d2a56f1b",
+        "c1be1353-4ad3-4b83-b4d8-57020c7b7596"
+      ]
+    },
+    {
+      "kind": "clearance",
+      "items": [
+        "Piazzola 2 [+1V1_LPDDR4] di L403 su F.Cu",
+        "Via [GND] su F.Cu - B.Cu"
+      ],
+      "uids": [
+        "165a7492-97bb-4826-8577-9b49d2c5963a",
+        "86d79712-16ea-41a0-b8c8-e7837fcd655d"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Via [GND] su F.Cu - B.Cu",
+        "Piazzola 1 [VDD_LOGIC] di C431 su F.Cu"
+      ],
+      "uids": [
+        "0ec0acc0-0b88-41e4-a530-7e22e6764152",
+        "8098f0c5-b070-4aa7-b365-dba88e4aa4c8"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Via [GND] su F.Cu - B.Cu",
+        "Piazzola 2 [+1V1_LPDDR4] di L403 su F.Cu"
+      ],
+      "uids": [
+        "09aad864-9abc-40ac-85dd-54f1b6b8ae0c",
+        "165a7492-97bb-4826-8577-9b49d2c5963a"
+      ]
+    },
+    {
+      "kind": "clearance",
+      "items": [
+        "Piazzola 1 [VDD_LOGIC] di C431 su F.Cu",
+        "Pista [GND] su F.Cu, lung. 1.3435 mm"
+      ],
+      "uids": [
+        "8098f0c5-b070-4aa7-b365-dba88e4aa4c8",
+        "dbd95bb7-1bfc-4d83-8e97-00dcb227e67b"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 1 [VDD_LOGIC] di C431 su F.Cu",
+        "Pista [GND] su F.Cu, lung. 1.3435 mm"
+      ],
+      "uids": [
+        "8098f0c5-b070-4aa7-b365-dba88e4aa4c8",
+        "d86c9b08-e834-4eef-a3c3-e9d770a0ef7d"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 1 [PMIC_SW4] di L404 su F.Cu",
+        "Pista [GND] su F.Cu, lung. 0.2121 mm"
+      ],
+      "uids": [
+        "29cf470e-286b-438f-8f60-4911b72bca7a",
+        "c77c74ae-702a-4153-baa1-8365b59b177d"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 1 [VDD_LOGIC] di C431 su F.Cu",
+        "Pista [GND] su F.Cu, lung. 0.5500 mm"
+      ],
+      "uids": [
+        "8098f0c5-b070-4aa7-b365-dba88e4aa4c8",
+        "ad456c29-9da3-4b22-bcaf-9b1808d8de31"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 1 [PMIC_SW4] di L404 su F.Cu",
+        "Pista [GND] su F.Cu, lung. 0.1000 mm"
+      ],
+      "uids": [
+        "29cf470e-286b-438f-8f60-4911b72bca7a",
+        "af1bac31-b798-425c-98ed-c00dff2ef102"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 1 [PMIC_SW4] di L404 su F.Cu",
+        "Pista [GND] su F.Cu, lung. 0.8732 mm"
+      ],
+      "uids": [
+        "29cf470e-286b-438f-8f60-4911b72bca7a",
+        "2b4c51b6-4089-4afc-adf2-7897ca97383d"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Pista [GND] su F.Cu, lung. 0.0500 mm",
+        "Piazzola 1 [VDD_LOGIC] di C431 su F.Cu"
+      ],
+      "uids": [
+        "085cbdcf-73d5-4a79-bfc3-ca95b14c2bd0",
+        "8098f0c5-b070-4aa7-b365-dba88e4aa4c8"
+      ]
+    },
+    {
+      "kind": "hole_clearance",
+      "items": [
+        "Piazzola 1 [PMIC_SW5] di L405 su F.Cu",
+        "Via [+3V3_SYS] su F.Cu - B.Cu"
+      ],
+      "uids": [
+        "073eefeb-6e83-47ed-96b0-c4a95b9edba2",
+        "e370d732-6f3b-4a24-90b7-349e61f9330a"
+      ]
+    },
+    {
+      "kind": "hole_clearance",
+      "items": [
+        "Piazzola 1 [PMIC_SW2] di L402 su F.Cu",
+        "Via [+3V3_SYS] su F.Cu - B.Cu"
+      ],
+      "uids": [
+        "59b554f8-098a-47db-a210-aca654c2d996",
+        "f078f46e-1035-40db-a011-d91b0203f089"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola 1 [+3V3_SYS] di C422 su B.Cu",
+        "Piazzola PTH  69 [GND] di U4"
+      ],
+      "uids": [
+        "a8310ec9-ee7e-4086-878c-734adadf0eb4",
+        "b33f85da-1fbd-4241-9c7c-0a19a454fc07"
+      ]
+    },
+    {
+      "kind": "hole_clearance",
+      "items": [
+        "Piazzola 1 [+3V3_SYS] di C484 su B.Cu",
+        "Via [+1V8_SYS] su F.Cu - B.Cu"
+      ],
+      "uids": [
+        "3e3c8ceb-dbaa-4d19-921d-5ccb675f1af8",
+        "cd850901-8363-4b45-b722-f196161d4eb8"
+      ]
+    },
+    {
+      "kind": "hole_clearance",
+      "items": [
+        "Piazzola 2 [GND] di C424 su B.Cu",
+        "Piazzola NPTH di H8101"
+      ],
+      "uids": [
+        "91b22d85-469d-445b-9bd2-239bb2c037a4",
+        "a21c6529-9b3b-455f-8810-c90bc3a5b5b5"
+      ]
+    },
+    {
+      "kind": "hole_clearance",
+      "items": [
+        "Piazzola 2 [GND] di C435 su B.Cu",
+        "Via [+5V_ADDON] su F.Cu - B.Cu"
+      ],
+      "uids": [
+        "18e86a3a-2384-44ea-b204-9e4caad3062c",
+        "2182ddfe-fc0b-4915-a173-0ab4b24fe0a8"
+      ]
+    },
+    {
+      "kind": "hole_clearance",
+      "items": [
+        "Piazzola 1 [VDD_NPU] di C434 su B.Cu",
+        "Via [PMIC_SCL] su F.Cu - B.Cu"
+      ],
+      "uids": [
+        "7a0d3375-6c20-4128-b354-2ba5804b4127",
+        "e1078500-35f6-4890-bca6-1acb0709287c"
+      ]
+    },
+    {
+      "kind": "hole_clearance",
+      "items": [
+        "Piazzola 1 [+3V3_SYS] di C425 su B.Cu",
+        "Via [+3V3_IO] su F.Cu - B.Cu"
+      ],
+      "uids": [
+        "9259d16f-f3a1-445e-bb0b-91b4c8b4a505",
+        "b27cf777-8038-41b2-bc08-021df21db3ba"
+      ]
+    },
+    {
+      "kind": "hole_clearance",
+      "items": [
+        "Piazzola 2 [VDD_NPU] di L404 su F.Cu",
+        "Via [PMIC_SCL] su F.Cu - B.Cu"
+      ],
+      "uids": [
+        "e1078500-35f6-4890-bca6-1acb0709287c",
+        "fbf98f5c-6251-4c8e-8c6f-1ea9e4b4a98b"
+      ]
+    },
+    {
+      "kind": "hole_clearance",
+      "items": [
+        "Piazzola 2 [VDD_NPU] di L404 su F.Cu",
+        "Via [+1V8_SYS] su F.Cu - B.Cu"
+      ],
+      "uids": [
+        "3e3c8ceb-dbaa-4d19-921d-5ccb675f1af8",
+        "fbf98f5c-6251-4c8e-8c6f-1ea9e4b4a98b"
+      ]
+    },
+    {
+      "kind": "hole_clearance",
+      "items": [
+        "Piazzola 2 [VDD_NPU] di L404 su F.Cu",
+        "Via [+3V3_SYS] su F.Cu - B.Cu"
+      ],
+      "uids": [
+        "41e0e270-23ba-4e8b-80e1-f740645e596a",
+        "fbf98f5c-6251-4c8e-8c6f-1ea9e4b4a98b"
+      ]
+    },
+    {
+      "kind": "hole_clearance",
+      "items": [
+        "Piazzola 2 [GND] di C434 su B.Cu",
+        "Piazzola NPTH di H8101"
+      ],
+      "uids": [
+        "a21c6529-9b3b-455f-8810-c90bc3a5b5b5",
+        "cae830be-a315-44b1-b74d-872b21e158ed"
+      ]
+    },
+    {
+      "kind": "hole_clearance",
+      "items": [
+        "Piazzola 1 [VDD_LOGIC] di C431 su F.Cu",
+        "Via [GND] su F.Cu - B.Cu"
+      ],
+      "uids": [
+        "0ec0acc0-0b88-41e4-a530-7e22e6764152",
+        "8098f0c5-b070-4aa7-b365-dba88e4aa4c8"
+      ]
+    },
+    {
+      "kind": "hole_clearance",
+      "items": [
+        "Piazzola 1 [PMIC_SW3] di L403 su F.Cu",
+        "Via [+3V3_SYS] su F.Cu - B.Cu"
+      ],
+      "uids": [
+        "593ba232-2b16-453b-8a6c-33e45051c506",
+        "d16f53a4-a7d0-48aa-85f6-969201b2752d"
+      ]
+    },
+    {
+      "kind": "hole_clearance",
+      "items": [
+        "Piazzola 2 [+1V1_LPDDR4] di L403 su F.Cu",
+        "Via [GND] su F.Cu - B.Cu"
+      ],
+      "uids": [
+        "09aad864-9abc-40ac-85dd-54f1b6b8ae0c",
+        "165a7492-97bb-4826-8577-9b49d2c5963a"
+      ]
+    },
+    {
+      "kind": "hole_clearance",
+      "items": [
+        "Piazzola 2 [+1V1_LPDDR4] di L403 su F.Cu",
+        "Via [GND] su F.Cu - B.Cu"
+      ],
+      "uids": [
+        "165a7492-97bb-4826-8577-9b49d2c5963a",
+        "86d79712-16ea-41a0-b8c8-e7837fcd655d"
+      ]
+    },
+    {
+      "kind": "shorting_items",
+      "items": [
+        "Piazzola PTH  69 [GND] di U4",
+        "Piazzola 1 [+3V3_SYS] di C422 su B.Cu"
+      ],
+      "uids": [
+        "3412fa45-48f2-4387-a518-3c2128acecd5",
+        "a8310ec9-ee7e-4086-878c-734adadf0eb4"
+      ]
+    },
+    {
+      "kind": "npth_inside_courtyard",
+      "items": [
+        "Piazzola NPTH di H8101",
+        "Impronta C434"
+      ],
+      "uids": [
+        "7b236aa3-b7bd-4d49-bbd3-29a76b8d2621",
+        "a21c6529-9b3b-455f-8810-c90bc3a5b5b5"
+      ]
+    },
+    {
+      "kind": "npth_inside_courtyard",
+      "items": [
+        "Piazzola NPTH di H8101",
+        "Impronta C424"
+      ],
+      "uids": [
+        "a21c6529-9b3b-455f-8810-c90bc3a5b5b5",
+        "c0394081-0be8-4e77-94a4-21f272b3da59"
+      ]
+    },
+    {
+      "kind": "pth_inside_courtyard",
+      "items": [
+        "Piazzola PTH  69 [GND] di U4",
+        "Impronta C423"
+      ],
+      "uids": [
+        "c12d239d-020a-4d09-9385-480f30c88c6d",
+        "c3080e08-0b15-4a10-bb66-bd355890dcbe"
+      ]
+    },
+    {
+      "kind": "pth_inside_courtyard",
+      "items": [
+        "Piazzola PTH  69 [GND] di U4",
+        "Impronta C423"
+      ],
+      "uids": [
+        "3b9537e8-7788-4ad9-8f1d-36d5f07d0762",
+        "c3080e08-0b15-4a10-bb66-bd355890dcbe"
+      ]
+    },
+    {
+      "kind": "pth_inside_courtyard",
+      "items": [
+        "Piazzola PTH  69 [GND] di U4",
+        "Impronta R411"
+      ],
+      "uids": [
+        "db03af58-55f7-4be0-8c3c-90f620423856",
+        "ddbf867d-bc8a-4df2-95d0-3a3cada758cf"
+      ]
+    },
+    {
+      "kind": "pth_inside_courtyard",
+      "items": [
+        "Piazzola PTH  69 [GND] di U4",
+        "Impronta R411"
+      ],
+      "uids": [
+        "1e22eb36-1094-4260-9e5e-c911221aa32b",
+        "ddbf867d-bc8a-4df2-95d0-3a3cada758cf"
+      ]
+    },
+    {
+      "kind": "pth_inside_courtyard",
+      "items": [
+        "Piazzola PTH  69 [GND] di U4",
+        "Impronta C422"
+      ],
+      "uids": [
+        "3412fa45-48f2-4387-a518-3c2128acecd5",
+        "e4d4af7c-bb95-4468-8799-591f3235d986"
+      ]
+    },
+    {
+      "kind": "pth_inside_courtyard",
+      "items": [
+        "Piazzola PTH  69 [GND] di U4",
+        "Impronta C422"
+      ],
+      "uids": [
+        "b33f85da-1fbd-4241-9c7c-0a19a454fc07",
+        "e4d4af7c-bb95-4468-8799-591f3235d986"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [GND] su F.Cu, lung. 0.0500 mm",
+        "Piazzola 1 [VDD_LOGIC] di C431 su F.Cu"
+      ],
+      "uids": [
+        "085cbdcf-73d5-4a79-bfc3-ca95b14c2bd0",
+        "8098f0c5-b070-4aa7-b365-dba88e4aa4c8"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Via [GND] su F.Cu - B.Cu",
+        "Piazzola 2 [+1V1_LPDDR4] di L403 su F.Cu"
+      ],
+      "uids": [
+        "09aad864-9abc-40ac-85dd-54f1b6b8ae0c",
+        "165a7492-97bb-4826-8577-9b49d2c5963a"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Via [GND] su F.Cu - B.Cu",
+        "Piazzola 1 [VDD_LOGIC] di C431 su F.Cu"
+      ],
+      "uids": [
+        "0ec0acc0-0b88-41e4-a530-7e22e6764152",
+        "8098f0c5-b070-4aa7-b365-dba88e4aa4c8"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+1V8_SYS] su F.Cu, lung. 0.2828 mm",
+        "Piazzola 2 [VDD_NPU] di L404 su F.Cu"
+      ],
+      "uids": [
+        "d34e5620-dea8-4f9d-b79a-6b657d268b81",
+        "fbf98f5c-6251-4c8e-8c6f-1ea9e4b4a98b"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Via [+1V8_SYS] su F.Cu - B.Cu",
+        "Piazzola 2 [VDD_NPU] di L404 su F.Cu"
+      ],
+      "uids": [
+        "3e3c8ceb-dbaa-4d19-921d-5ccb675f1af8",
+        "fbf98f5c-6251-4c8e-8c6f-1ea9e4b4a98b"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Via [+1V8_SYS] su F.Cu - B.Cu",
+        "Piazzola 1 [+3V3_SYS] di C484 su B.Cu"
+      ],
+      "uids": [
+        "3e3c8ceb-dbaa-4d19-921d-5ccb675f1af8",
+        "cd850901-8363-4b45-b722-f196161d4eb8"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+1V8_SYS] su B.Cu, lung. 1.7000 mm",
+        "Piazzola 1 [+3V3_SYS] di C424 su B.Cu"
+      ],
+      "uids": [
+        "79e1a594-1c29-413b-b747-beda52c88237",
+        "cd82295b-dada-45bd-9218-41606f933c1a"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+1V8_SYS] su B.Cu, lung. 2.3000 mm",
+        "Piazzola 1 [+3V3_SYS] di C424 su B.Cu"
+      ],
+      "uids": [
+        "899c0e43-71a4-405c-9615-494893cae665",
+        "cd82295b-dada-45bd-9218-41606f933c1a"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+1V8_SYS] su B.Cu, lung. 1.3435 mm",
+        "Piazzola 1 [+3V3_SYS] di C484 su B.Cu"
+      ],
+      "uids": [
+        "a43fbe4e-9c0d-41d2-ade2-45bec216179a",
+        "cd850901-8363-4b45-b722-f196161d4eb8"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+1V8_SYS] su B.Cu, lung. 0.0707 mm",
+        "Piazzola 1 [+3V3_SYS] di C424 su B.Cu"
+      ],
+      "uids": [
+        "a6f402f3-484c-42bd-8810-65ec452b8d3f",
+        "cd82295b-dada-45bd-9218-41606f933c1a"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [GND] su F.Cu, lung. 0.8732 mm",
+        "Piazzola 1 [PMIC_SW4] di L404 su F.Cu"
+      ],
+      "uids": [
+        "29cf470e-286b-438f-8f60-4911b72bca7a",
+        "2b4c51b6-4089-4afc-adf2-7897ca97383d"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Via [GND] su F.Cu - B.Cu",
+        "Piazzola 2 [+1V1_LPDDR4] di L403 su F.Cu"
+      ],
+      "uids": [
+        "165a7492-97bb-4826-8577-9b49d2c5963a",
+        "86d79712-16ea-41a0-b8c8-e7837fcd655d"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+3V3_SYS] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 1 [PMIC_SW5] di L405 su F.Cu"
+      ],
+      "uids": [
+        "073eefeb-6e83-47ed-96b0-c4a95b9edba2",
+        "0837149a-195d-4a7d-ba1b-fcf39293b0c6"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+3V3_SYS] su F.Cu, lung. 1.2000 mm",
+        "Piazzola 2 [VDD_NPU] di L404 su F.Cu"
+      ],
+      "uids": [
+        "0bce38e5-b076-4d89-87ce-4be2dea52461",
+        "fbf98f5c-6251-4c8e-8c6f-1ea9e4b4a98b"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+3V3_SYS] su F.Cu, lung. 0.8902 mm",
+        "Piazzola 1 [PMIC_SW2] di L402 su F.Cu"
+      ],
+      "uids": [
+        "1ca17eba-3abe-46b4-b7c2-961c5e408e8c",
+        "59b554f8-098a-47db-a210-aca654c2d996"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+3V3_SYS] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 1 [PMIC_SW5] di L405 su F.Cu"
+      ],
+      "uids": [
+        "073eefeb-6e83-47ed-96b0-c4a95b9edba2",
+        "2dc5f49c-1b64-4612-bab0-cf5a101ddf1d"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+3V3_SYS] su F.Cu, lung. 0.0500 mm",
+        "Piazzola 1 [PMIC_SW5] di L405 su F.Cu"
+      ],
+      "uids": [
+        "073eefeb-6e83-47ed-96b0-c4a95b9edba2",
+        "4beac3b9-65ec-413a-8d39-68c06dfe20a9"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+3V3_SYS] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 1 [PMIC_SW5] di L405 su F.Cu"
+      ],
+      "uids": [
+        "073eefeb-6e83-47ed-96b0-c4a95b9edba2",
+        "5b7f1a42-9f10-4e76-8774-2987ccca324e"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Via [PMIC_SCL] su F.Cu - B.Cu",
+        "Piazzola 1 [VDD_NPU] di C434 su B.Cu"
+      ],
+      "uids": [
+        "7a0d3375-6c20-4128-b354-2ba5804b4127",
+        "e1078500-35f6-4890-bca6-1acb0709287c"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+3V3_SYS] su F.Cu, lung. 0.5250 mm",
+        "Piazzola 1 [PMIC_SW5] di L405 su F.Cu"
+      ],
+      "uids": [
+        "073eefeb-6e83-47ed-96b0-c4a95b9edba2",
+        "66e67f2f-39eb-4d14-bf62-d41af61b9bbb"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+3V3_SYS] su F.Cu, lung. 0.2500 mm",
+        "Piazzola 1 [PMIC_SW5] di L405 su F.Cu"
+      ],
+      "uids": [
+        "073eefeb-6e83-47ed-96b0-c4a95b9edba2",
+        "672f1141-58e3-4400-9192-5a9951c4193e"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+3V3_SYS] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 1 [PMIC_SW5] di L405 su F.Cu"
+      ],
+      "uids": [
+        "073eefeb-6e83-47ed-96b0-c4a95b9edba2",
+        "8535dfd1-ef1e-4daf-bf56-29dbb59f51a6"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+3V3_SYS] su F.Cu, lung. 1.0308 mm",
+        "Piazzola 1 [PMIC_SW2] di L402 su F.Cu"
+      ],
+      "uids": [
+        "59b554f8-098a-47db-a210-aca654c2d996",
+        "8a3e253c-cc3e-4815-9fde-a2bb55621d2b"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SCL] su B.Cu, lung. 9.1236 mm",
+        "Piazzola 2 [GND] di C481 su B.Cu"
+      ],
+      "uids": [
+        "56ffebce-9a2a-4a7d-84f2-fab4941df425",
+        "5882923f-db08-4f39-a0ee-d3ec83e67358"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+3V3_SYS] su F.Cu, lung. 0.9899 mm",
+        "Piazzola 1 [PMIC_SW1] di L401 su F.Cu"
+      ],
+      "uids": [
+        "8f75c6ae-5f7b-42c7-afe1-4d5944aacc59",
+        "f8966109-e8dd-4340-908c-b2b2c6090c62"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SCL] su B.Cu, lung. 9.1236 mm",
+        "Piazzola 1 [+1V8_SYS] di C435 su B.Cu"
+      ],
+      "uids": [
+        "56ffebce-9a2a-4a7d-84f2-fab4941df425",
+        "5da31aff-7d16-4775-9b65-d68660319134"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+3V3_SYS] su F.Cu, lung. 3.1385 mm",
+        "Piazzola 1 [PMIC_SW3] di L403 su F.Cu"
+      ],
+      "uids": [
+        "593ba232-2b16-453b-8a6c-33e45051c506",
+        "9551b983-6080-4785-9db4-d05c28543300"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+3V3_SYS] su F.Cu, lung. 3.1385 mm",
+        "Piazzola 2 [+1V1_LPDDR4] di L403 su F.Cu"
+      ],
+      "uids": [
+        "165a7492-97bb-4826-8577-9b49d2c5963a",
+        "9551b983-6080-4785-9db4-d05c28543300"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+3V3_SYS] su F.Cu, lung. 3.1385 mm",
+        "Piazzola 1 [+1V1_LPDDR4] di C433 su F.Cu"
+      ],
+      "uids": [
+        "80320e51-abc4-4f88-ad0d-d6271341946a",
+        "9551b983-6080-4785-9db4-d05c28543300"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+3V3_SYS] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 1 [PMIC_SW5] di L405 su F.Cu"
+      ],
+      "uids": [
+        "073eefeb-6e83-47ed-96b0-c4a95b9edba2",
+        "bc174ea9-0a38-4acf-bd28-c98df695c93c"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+3V3_SYS] su F.Cu, lung. 1.6000 mm",
+        "Piazzola 1 [PMIC_SW3] di L403 su F.Cu"
+      ],
+      "uids": [
+        "593ba232-2b16-453b-8a6c-33e45051c506",
+        "bedda20a-f95b-4512-8f35-335caacde5ba"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+3V3_SYS] su F.Cu, lung. 1.2500 mm",
+        "Piazzola 1 [PMIC_SW1] di L401 su F.Cu"
+      ],
+      "uids": [
+        "c491cc54-795b-4497-94a2-d0b89b239aa1",
+        "f8966109-e8dd-4340-908c-b2b2c6090c62"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+3V3_SYS] su F.Cu, lung. 0.6000 mm",
+        "Piazzola 1 [PMIC_SW5] di L405 su F.Cu"
+      ],
+      "uids": [
+        "073eefeb-6e83-47ed-96b0-c4a95b9edba2",
+        "c8941ea0-587d-40c9-b5bf-3623297e22db"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+3V3_SYS] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 1 [PMIC_SW5] di L405 su F.Cu"
+      ],
+      "uids": [
+        "073eefeb-6e83-47ed-96b0-c4a95b9edba2",
+        "cdc93634-102a-4a8d-b98a-b92fef2797d6"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+3V3_SYS] su F.Cu, lung. 0.2828 mm",
+        "Piazzola 1 [PMIC_SW5] di L405 su F.Cu"
+      ],
+      "uids": [
+        "073eefeb-6e83-47ed-96b0-c4a95b9edba2",
+        "ea38c7c9-6cd6-46cf-8f6f-25cd212141a8"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Via [+3V3_SYS] su F.Cu - B.Cu",
+        "Piazzola 2 [VDD_NPU] di L404 su F.Cu"
+      ],
+      "uids": [
+        "41e0e270-23ba-4e8b-80e1-f740645e596a",
+        "fbf98f5c-6251-4c8e-8c6f-1ea9e4b4a98b"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Via [+3V3_SYS] su F.Cu - B.Cu",
+        "Piazzola 1 [PMIC_SW3] di L403 su F.Cu"
+      ],
+      "uids": [
+        "593ba232-2b16-453b-8a6c-33e45051c506",
+        "d16f53a4-a7d0-48aa-85f6-969201b2752d"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Via [+3V3_SYS] su F.Cu - B.Cu",
+        "Piazzola 1 [PMIC_SW5] di L405 su F.Cu"
+      ],
+      "uids": [
+        "073eefeb-6e83-47ed-96b0-c4a95b9edba2",
+        "e370d732-6f3b-4a24-90b7-349e61f9330a"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Via [+5V_ADDON] su F.Cu - B.Cu",
+        "Piazzola 2 [GND] di C435 su B.Cu"
+      ],
+      "uids": [
+        "18e86a3a-2384-44ea-b204-9e4caad3062c",
+        "2182ddfe-fc0b-4915-a173-0ab4b24fe0a8"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+3V3_SYS] su B.Cu, lung. 1.3800 mm",
+        "Piazzola 2 [GND] di C425 su B.Cu"
+      ],
+      "uids": [
+        "48a239b7-982b-4099-bf14-084ba5ebe419",
+        "cd29a783-fa33-4a85-a7ac-b01086bd75e2"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+3V3_SYS] su B.Cu, lung. 0.6000 mm",
+        "Piazzola 2 [GND] di C425 su B.Cu"
+      ],
+      "uids": [
+        "4d30df45-7da8-46e1-aee4-ac886ba88828",
+        "cd29a783-fa33-4a85-a7ac-b01086bd75e2"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+3V3_SYS] su B.Cu, lung. 1.1000 mm",
+        "Piazzola 2 [GND] di C425 su B.Cu"
+      ],
+      "uids": [
+        "912ad462-b391-465b-b54f-02db061aeabf",
+        "cd29a783-fa33-4a85-a7ac-b01086bd75e2"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+3V3_SYS] su B.Cu, lung. 0.5831 mm",
+        "Piazzola 2 [GND] di C425 su B.Cu"
+      ],
+      "uids": [
+        "c0fe9ed4-f11d-45cc-8807-4dc601b9e864",
+        "cd29a783-fa33-4a85-a7ac-b01086bd75e2"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+3V3_SYS] su B.Cu, lung. 0.8415 mm",
+        "Piazzola 2 [GND] di C422 su B.Cu"
+      ],
+      "uids": [
+        "4eceb2ff-1c02-45bb-8ee1-36933ff186b3",
+        "e368d717-6558-4efc-bde9-454409fb5346"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Piazzola NPTH di H8101",
+        "Piazzola 2 [GND] di C434 su B.Cu"
+      ],
+      "uids": [
+        "a21c6529-9b3b-455f-8810-c90bc3a5b5b5",
+        "cae830be-a315-44b1-b74d-872b21e158ed"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Piazzola NPTH di H8101",
+        "Piazzola 2 [GND] di C424 su B.Cu"
+      ],
+      "uids": [
+        "91b22d85-469d-445b-9bd2-239bb2c037a4",
+        "a21c6529-9b3b-455f-8810-c90bc3a5b5b5"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Piazzola PTH  69 [GND] di U4",
+        "Piazzola 1 [+3V3_SYS] di C422 su B.Cu"
+      ],
+      "uids": [
+        "3412fa45-48f2-4387-a518-3c2128acecd5",
+        "a8310ec9-ee7e-4086-878c-734adadf0eb4"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [GND] su B.Cu, lung. 1.9799 mm",
+        "Piazzola 1 [+3V3_SYS] di C481 su B.Cu"
+      ],
+      "uids": [
+        "271a02a1-76cb-4f5b-a020-e8d66558e0ce",
+        "95cd3795-5ab1-4d8d-a573-652a4712986f"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Piazzola PTH  69 [GND] di U4",
+        "Piazzola 1 [+3V3_SYS] di C422 su B.Cu"
+      ],
+      "uids": [
+        "a8310ec9-ee7e-4086-878c-734adadf0eb4",
+        "b33f85da-1fbd-4241-9c7c-0a19a454fc07"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Via [+3V3_IO] su F.Cu - B.Cu",
+        "Piazzola 1 [+3V3_SYS] di C425 su B.Cu"
+      ],
+      "uids": [
+        "9259d16f-f3a1-445e-bb0b-91b4c8b4a505",
+        "b27cf777-8038-41b2-bc08-021df21db3ba"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [GND] su B.Cu, lung. 0.7001 mm",
+        "Piazzola 1 [+3V3_SYS] di C422 su B.Cu"
+      ],
+      "uids": [
+        "32e4042f-2d47-4672-8bb1-2a5349dcf2c0",
+        "a8310ec9-ee7e-4086-878c-734adadf0eb4"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "010b7598-322a-443b-8b0d-c694658436a0",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "01492d37-d149-4d32-a46d-db25f1b9dc85",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.1000 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "08acfeff-8542-438c-a491-a8b843e76e63",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "14f2acfd-8a24-4afa-b526-b7aebe58155a",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "34d7295b-b735-4994-921e-a17597c5c6fa",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "377641db-d447-4973-b1ae-fcba83256b30",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.1414 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "411687b7-4ee9-41ac-84c2-b86424a434b7",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0500 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "411a709e-8aed-4264-b0c1-7c20a137f07a",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "434394fb-e3da-4e76-b9ee-0b6c119a1385",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0500 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "47f6585b-9f99-4de0-99d5-528df70b36c7",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "4dda1f2b-e1f5-49b9-8463-d1b2bbbd55ee",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "543e6035-0cc3-4f81-9016-d320647d1dc4",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "647aa589-d3d8-4491-a83a-6075bb959858",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [GND] su B.Cu, lung. 1.6447 mm",
+        "Piazzola 1 [VDD_GPU] di C432 su B.Cu"
+      ],
+      "uids": [
+        "4cd017c1-6fd7-4cd4-b3d5-b13e306dfae0",
+        "bcd6a12f-d85c-4027-8c5b-8189036b307b"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "66ae0181-4bac-4b21-b065-dced860ccce4",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "719280b7-da1f-409c-b4d1-441f6026d6f4",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "74fb6af4-1fb2-414e-b751-caf4fafaac35",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "7558f507-28a8-4a62-907a-ac3b2eb643cc",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "768702f2-64c8-4886-ae16-619408e6e966",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "8974074c-4681-42c3-9575-df3c362fb512",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "8a9daeb1-dbaf-43bf-a037-04f155d6c8c0",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "9237d00d-9f12-4cf8-87b4-bf63810f0587",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "9b3a4d50-feb0-405e-8d2d-70fb7f0e569e",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "9b78606f-90af-451f-873e-97251485e641",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [+3V3_IO] su B.Cu, lung. 0.8000 mm",
+        "Piazzola 1 [+3V3_SYS] di C425 su B.Cu"
+      ],
+      "uids": [
+        "b1b9a12c-e92b-44c7-8847-bf54330fdb4d",
+        "b27cf777-8038-41b2-bc08-021df21db3ba"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0500 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "9bb05624-4e7d-43e8-8b09-22e5cb56d81d",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "a37b41e2-b465-4a3d-a17b-c6c38e52fc6f",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "a3be4c41-dd59-4568-b35a-98a49cb12faa",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "ba7bbab8-7a8f-497d-aa6f-13768da47f29",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "bb17dfc5-0a48-498a-a236-f26966f8eb7a",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "be803da0-e906-4caa-9f35-60b08577cc48",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "c177aa16-9db9-4b89-acf9-67d7cedd9483",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "c6268d0d-4557-4a97-98a4-da1df36101f2",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "c72c5c64-09b2-456b-9982-e2bf96848c86",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "ca5f0ebf-07c2-4cd5-8f65-4817d5161b63",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02",
+        "d36b66df-fadd-48ef-a06f-1c0097a558ae"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [GND] su F.Cu, lung. 0.5500 mm",
+        "Piazzola 1 [VDD_LOGIC] di C431 su F.Cu"
+      ],
+      "uids": [
+        "8098f0c5-b070-4aa7-b365-dba88e4aa4c8",
+        "ad456c29-9da3-4b22-bcaf-9b1808d8de31"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02",
+        "d57d7bf1-9b17-4078-a06e-7b38ce3ab884"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [GND] su F.Cu, lung. 0.1000 mm",
+        "Piazzola 1 [PMIC_SW4] di L404 su F.Cu"
+      ],
+      "uids": [
+        "29cf470e-286b-438f-8f60-4911b72bca7a",
+        "af1bac31-b798-425c-98ed-c00dff2ef102"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0500 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02",
+        "d8968281-1f2e-4fab-88ea-1c3135afd377"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02",
+        "d9c78541-54c9-4719-ab4d-cbb86c2ced9c"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02",
+        "dabf3cf3-ec89-4a19-8e68-b6381bbd37d3"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02",
+        "e2dbf03e-b348-4463-a3bb-07ec9d99f28a"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02",
+        "ea0d157e-6066-4488-9a16-8362faa876db"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0354 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02",
+        "ec3ee8b2-2c96-4863-9997-3ec01319e8b6"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_SW5] su F.Cu, lung. 0.0250 mm",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02",
+        "ee9ab7e1-af52-4ac2-b35c-0065e84ddca2"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [GND] su B.Cu, lung. 1.3809 mm",
+        "Piazzola 1 [+3V3_SYS] di R410 su B.Cu"
+      ],
+      "uids": [
+        "648136d3-981e-49b3-ba0f-5ddbf7932b02",
+        "c1be1353-4ad3-4b83-b4d8-57020c7b7596"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [GND] su F.Cu, lung. 0.2121 mm",
+        "Piazzola 1 [PMIC_SW4] di L404 su F.Cu"
+      ],
+      "uids": [
+        "29cf470e-286b-438f-8f60-4911b72bca7a",
+        "c77c74ae-702a-4153-baa1-8365b59b177d"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [GND] su B.Cu, lung. 1.0000 mm",
+        "Piazzola 1 [+3V3_SYS] di C423 su B.Cu"
+      ],
+      "uids": [
+        "80f050d7-d9c7-4580-996a-007afa404095",
+        "e47b25c5-777c-4ca4-a9f8-315962067956"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_VDC] su B.Cu, lung. 0.8485 mm",
+        "Piazzola 1 [+3V3_SYS] di C422 su B.Cu"
+      ],
+      "uids": [
+        "4ad9001b-61b1-416b-adfa-4910ce44b8ec",
+        "a8310ec9-ee7e-4086-878c-734adadf0eb4"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [PMIC_VDC] su B.Cu, lung. 0.9300 mm",
+        "Piazzola 1 [+3V3_SYS] di C422 su B.Cu"
+      ],
+      "uids": [
+        "61057e18-0d1e-4bcc-9f02-bff9d13725db",
+        "a8310ec9-ee7e-4086-878c-734adadf0eb4"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [GND] su F.Cu, lung. 1.3435 mm",
+        "Piazzola 1 [VDD_LOGIC] di C431 su F.Cu"
+      ],
+      "uids": [
+        "8098f0c5-b070-4aa7-b365-dba88e4aa4c8",
+        "d86c9b08-e834-4eef-a3c3-e9d770a0ef7d"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [GND] su F.Cu, lung. 1.3435 mm",
+        "Piazzola 2 [VDD_LOGIC] di L401 su F.Cu"
+      ],
+      "uids": [
+        "aeeb415d-e6c6-481b-8bdc-03c573066d2a",
+        "d86c9b08-e834-4eef-a3c3-e9d770a0ef7d"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [GND] su B.Cu, lung. 1.6800 mm",
+        "Piazzola 1 [VDD_GPU] di C432 su B.Cu"
+      ],
+      "uids": [
+        "9082be61-c5fa-4c72-bfb6-b52f1f2ba236",
+        "bcd6a12f-d85c-4027-8c5b-8189036b307b"
+      ]
+    },
+    {
+      "kind": "solder_mask_bridge",
+      "items": [
+        "Pista [GND] su F.Cu, lung. 1.3435 mm",
+        "Piazzola 2 [VDD_GPU] di L402 su F.Cu"
+      ],
+      "uids": [
+        "2524ee95-2d2c-415e-9ece-15728a3aa42a",
+        "dbd95bb7-1bfc-4d83-8e97-00dcb227e67b"
+      ]
+    },
+    {
+      "kind": "track_dangling",
+      "items": [
+        "Pista [GND] su F.Cu, lung. 0.9000 mm"
+      ],
+      "uids": [
+        "0442d340-c223-4907-b58e-cbfd70c665f7"
+      ]
+    },
+    {
+      "kind": "track_dangling",
+      "items": [
+        "Pista [GND] su F.Cu, lung. 0.8000 mm"
+      ],
+      "uids": [
+        "92c8e80b-19b0-439f-b727-4d243be9fa5c"
+      ]
+    },
+    {
+      "kind": "track_dangling",
+      "items": [
+        "Pista [GND] su F.Cu, lung. 0.2121 mm"
+      ],
+      "uids": [
+        "c77c74ae-702a-4153-baa1-8365b59b177d"
+      ]
+    },
+    {
+      "kind": "track_dangling",
+      "items": [
+        "Pista [GND] su F.Cu, lung. 0.9000 mm"
+      ],
+      "uids": [
+        "d49b4a76-c113-47eb-8838-71d88e724a94"
+      ]
+    },
+    {
+      "kind": "track_dangling",
+      "items": [
+        "Pista [GND] su F.Cu, lung. 0.1414 mm"
+      ],
+      "uids": [
+        "f8fb4cc3-c926-4e9f-8f76-203495312f78"
+      ]
+    },
+    {
+      "kind": "track_dangling",
+      "items": [
+        "Pista [GND] su F.Cu, lung. 0.9500 mm"
+      ],
+      "uids": [
+        "f96dddca-8ab8-4b82-8852-81b6344d6d4f"
+      ]
+    },
+    {
+      "kind": "track_dangling",
+      "items": [
+        "Pista [GND] su B.Cu, lung. 0.7500 mm"
+      ],
+      "uids": [
+        "1505ef02-5571-4ead-9953-b848d2a56f1b"
+      ]
+    },
+    {
+      "kind": "track_dangling",
+      "items": [
+        "Pista [GND] su B.Cu, lung. 0.7001 mm"
+      ],
+      "uids": [
+        "32e4042f-2d47-4672-8bb1-2a5349dcf2c0"
+      ]
+    },
+    {
+      "kind": "track_dangling",
+      "items": [
+        "Pista [GND] su B.Cu, lung. 1.5000 mm"
+      ],
+      "uids": [
+        "3f784acb-0e39-4b70-822d-4b91fa3905d7"
+      ]
+    },
+    {
+      "kind": "track_dangling",
+      "items": [
+        "Pista [GND] su B.Cu, lung. 1.1705 mm"
+      ],
+      "uids": [
+        "87d9e305-204c-4ada-91ad-6b12e0697635"
+      ]
+    },
+    {
+      "kind": "track_dangling",
+      "items": [
+        "Pista [GND] su B.Cu, lung. 0.9415 mm"
+      ],
+      "uids": [
+        "a58de702-292d-4cee-ae3b-9e57e84f1585"
+      ]
+    },
+    {
+      "kind": "track_dangling",
+      "items": [
+        "Pista [+3V3_SYS] su B.Cu, lung. 1.0500 mm"
+      ],
+      "uids": [
+        "8ff928aa-5f4a-487f-b069-3bdd0ec54cf2"
+      ]
+    },
+    {
+      "kind": "track_dangling",
+      "items": [
+        "Pista [+3V3_SYS] su B.Cu, lung. 0.9541 mm"
+      ],
+      "uids": [
+        "a57a6004-f5f3-4fbb-aadb-1b7b13274eee"
+      ]
+    },
+    {
+      "kind": "track_dangling",
+      "items": [
+        "Pista [+3V3_SYS] su B.Cu, lung. 0.6000 mm"
+      ],
+      "uids": [
+        "ad275229-fb3f-46f4-89f3-4309aa4b5eb4"
+      ]
+    },
+    {
+      "kind": "track_dangling",
+      "items": [
+        "Pista [+3V3_SYS] su B.Cu, lung. 1.2192 mm"
+      ],
+      "uids": [
+        "b2377fc2-16ac-4116-b6b0-cf47651ce134"
+      ]
+    },
+    {
+      "kind": "track_dangling",
+      "items": [
+        "Pista [PMIC_VDC] su B.Cu, lung. 0.8000 mm"
+      ],
+      "uids": [
+        "d56e1311-5504-4736-862a-4588124d5f9a"
+      ]
+    },
+    {
+      "kind": "track_dangling",
+      "items": [
+        "Pista [PMIC_VDC] su B.Cu, lung. 0.1000 mm"
+      ],
+      "uids": [
+        "fe13fd3e-ad4c-4726-88cc-12cd5d330345"
+      ]
+    },
+    {
+      "kind": "silk_over_copper",
+      "items": [
+        "Testo impronta di J3 (1)",
+        "Piazzola 2 [+1V8_SYS] di L405 su F.Cu"
+      ],
+      "uids": [
+        "236dc748-8df6-455b-95f3-08dda156b492",
+        "cfbed162-1397-42fa-a2ac-b18e8aecef02"
+      ]
+    }
+  ],
+  "stage_connectivity": [
+    {
+      "stage": 1,
+      "source_to_cap": false,
+      "switch_to_inductor": false,
+      "inductor_to_cap": false,
+      "input_return": true,
+      "output_return": true
+    },
+    {
+      "stage": 2,
+      "source_to_cap": false,
+      "switch_to_inductor": false,
+      "inductor_to_cap": false,
+      "input_return": false,
+      "output_return": false
+    },
+    {
+      "stage": 3,
+      "source_to_cap": false,
+      "switch_to_inductor": false,
+      "inductor_to_cap": false,
+      "input_return": true,
+      "output_return": true
+    },
+    {
+      "stage": 4,
+      "source_to_cap": false,
+      "switch_to_inductor": false,
+      "inductor_to_cap": false,
+      "input_return": false,
+      "output_return": false
+    },
+    {
+      "stage": 5,
+      "source_to_cap": true,
+      "switch_to_inductor": true,
+      "inductor_to_cap": false,
+      "input_return": true,
+      "output_return": false
+    }
+  ],
+  "mount_conflicts": [
+    {
+      "reservation": "H8101 mechanical reservation",
+      "ref": "C424",
+      "layer": "B.Cu",
+      "courtyard_bbox_mm": [
+        53.155,
+        4.565,
+        56.645,
+        6.615
+      ]
+    },
+    {
+      "reservation": "H8101 mechanical reservation",
+      "ref": "C434",
+      "layer": "B.Cu",
+      "courtyard_bbox_mm": [
+        52.605,
+        1.665,
+        56.095,
+        3.715
+      ]
+    }
+  ]
+}

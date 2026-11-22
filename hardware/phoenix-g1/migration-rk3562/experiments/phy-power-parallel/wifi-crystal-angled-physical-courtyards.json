@@ -1,0 +1,237 @@
+{
+  "parent_sha256": "c0fe9a19e8153abf3c63e5ad557b7638359520b07b62aff10ee21cce7be0a4ea",
+  "screen": {
+    "Y2002": {
+      "courtyards": 890,
+      "within_budget": 682
+    },
+    "R2004": {
+      "courtyards": 7334,
+      "within_budget": 6089,
+      "all_lands": 77
+    }
+  },
+  "individual": [
+    0,
+    0
+  ],
+  "candidates": [],
+  "barriers": [
+    {
+      "nets": [
+        "ETH_MDI2_N",
+        "GND"
+      ],
+      "interference": [
+        [
+          "ETH_MDI2_N",
+          "J2.P6"
+        ],
+        [
+          "GND",
+          "31e93e11-6b92-4873-a23d-19a09637ad5a"
+        ]
+      ],
+      "length_mm": 6.306505074127825,
+      "angle": 0,
+      "xy_nm": [
+        72587500,
+        19400000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI2_N",
+        "ETH_MDI3_P"
+      ],
+      "interference": [
+        [
+          "ETH_MDI2_N",
+          "J2.P6"
+        ],
+        [
+          "ETH_MDI3_P",
+          "J2.P8"
+        ]
+      ],
+      "length_mm": 6.467766712706945,
+      "angle": 0,
+      "xy_nm": [
+        72587500,
+        19200000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI1_P",
+        "ETH_MDI2_N",
+        "ETH_MDI2_P"
+      ],
+      "interference": [
+        [
+          "ETH_MDI1_P",
+          "J2.P4"
+        ],
+        [
+          "ETH_MDI2_N",
+          "J2.P6"
+        ],
+        [
+          "ETH_MDI2_P",
+          "J2.P5"
+        ]
+      ],
+      "length_mm": 3.48784373960374,
+      "angle": 45,
+      "xy_nm": [
+        71387500,
+        20800000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI1_N",
+        "ETH_MDI2_N",
+        "ETH_MDI2_P"
+      ],
+      "interference": [
+        [
+          "ETH_MDI1_N",
+          "J2.P7"
+        ],
+        [
+          "ETH_MDI2_N",
+          "J2.P6"
+        ],
+        [
+          "ETH_MDI2_P",
+          "J2.P5"
+        ]
+      ],
+      "length_mm": 3.50125066940372,
+      "angle": 90,
+      "xy_nm": [
+        70187500,
+        19400000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI1_N",
+        "ETH_MDI2_N",
+        "ETH_MDI3_P"
+      ],
+      "interference": [
+        [
+          "ETH_MDI1_N",
+          "J2.P7"
+        ],
+        [
+          "ETH_MDI2_N",
+          "J2.P6"
+        ],
+        [
+          "ETH_MDI3_P",
+          "J2.P8"
+        ]
+      ],
+      "length_mm": 5.144551465083521,
+      "angle": 135,
+      "xy_nm": [
+        71187500,
+        18600000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI1_P",
+        "ETH_MDI2_N",
+        "ETH_MDI3_P"
+      ],
+      "interference": [
+        [
+          "ETH_MDI1_P",
+          "J2.P4"
+        ],
+        [
+          "ETH_MDI2_N",
+          "J2.P6"
+        ],
+        [
+          "ETH_MDI3_P",
+          "J2.P8"
+        ]
+      ],
+      "length_mm": 5.331680706108816,
+      "angle": 45,
+      "xy_nm": [
+        72587500,
+        19400000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI0_N",
+        "ETH_MDI0_P",
+        "ETH_MDI1_P",
+        "ETH_MDI2_P"
+      ],
+      "interference": [
+        [
+          "ETH_MDI0_N",
+          "J2.P3"
+        ],
+        [
+          "ETH_MDI0_P",
+          "J2.P2"
+        ],
+        [
+          "ETH_MDI1_P",
+          "J2.P4"
+        ],
+        [
+          "ETH_MDI2_P",
+          "J2.P5"
+        ]
+      ],
+      "length_mm": 1.8519601102615575,
+      "angle": 90,
+      "xy_nm": [
+        70387500,
+        22200000
+      ]
+    },
+    {
+      "nets": [
+        "ETH_MDI0_N",
+        "ETH_MDI1_P",
+        "ETH_MDI2_N",
+        "ETH_MDI2_P"
+      ],
+      "interference": [
+        [
+          "ETH_MDI0_N",
+          "J2.P3"
+        ],
+        [
+          "ETH_MDI1_P",
+          "J2.P4"
+        ],
+        [
+          "ETH_MDI2_N",
+          "J2.P6"
+        ],
+        [
+          "ETH_MDI2_P",
+          "J2.P5"
+        ]
+      ],
+      "length_mm": 1.9569763028713456,
+      "angle": 90,
+      "xy_nm": [
+        70387500,
+        21800000
+      ]
+    }
+  ]
+}

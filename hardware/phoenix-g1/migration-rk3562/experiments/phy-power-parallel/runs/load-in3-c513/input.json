@@ -1,0 +1,86 @@
+{
+  "source": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/load-in3-c514c/phy-joint.kicad_pcb",
+  "source_sha256": "c3f859ccec5f1605d89ad490f0528d731635c66c4d7687dd3f8e88d38446a748",
+  "candidate": "/Users/alessandrolaplaca/Documents/Phoenix/hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/load-in3-c513/phy-joint.kicad_pcb",
+  "candidate_sha256": "6a4fdbd2ad9df33dcd84514e583e8f72f2884202496d560fc6504242afce64a7",
+  "removed": [],
+  "via_array": [
+    {
+      "uuid": "16df13c8-3365-45ba-bfaf-d8d85851f4da",
+      "xy_mm": [
+        64.75,
+        34.65
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "e5409513-5c4c-4ff1-bd03-1b182339163d",
+      "xy_mm": [
+        65.35,
+        34.65
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    }
+  ],
+  "current_via_PI_qualified": false,
+  "via_pad_overlap_manufacturing_qualified": false,
+  "required_pairs": [
+    [
+      [
+        "C511",
+        "1"
+      ],
+      [
+        "C513",
+        "1"
+      ]
+    ]
+  ],
+  "routes": [
+    {
+      "label": "load-in3-c513",
+      "path_mm": [
+        [
+          64.8,
+          28.9
+        ],
+        [
+          64.8,
+          32.8
+        ],
+        [
+          65.2,
+          33.2
+        ],
+        [
+          65.2,
+          34.65
+        ]
+      ],
+      "width_mm": 1.55,
+      "net": "+1V0_PHY",
+      "layer": "In3.Cu",
+      "guard": {
+        "net": "+1V0_PHY",
+        "width_mm": 1.55,
+        "segments": 3,
+        "width_preserved": true,
+        "current_rating_qualified": false
+      },
+      "uuids": [
+        "590ac07e-5717-46c1-a681-5c1662b9c67d",
+        "204f8534-eb75-4967-9b64-856dd3e88255",
+        "adc35e24-addf-48dd-b6dc-b6174e240657"
+      ]
+    }
+  ],
+  "historical_60mil_width_met_on_entire_path": false,
+  "main_checkpoint_modified": false,
+  "power_layout_accepted": false,
+  "assembly_ready": false,
+  "limitations": [
+    "Manual full-width geometry only; no current/via/PI qualification. In3 studies are post-inductor distribution, not a waiver for local REG_OUT/DVDD33. Ground planes retain their role. Via-to-pad overlap requires fabrication/process review. Rejected geometry must not be adopted."
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "board": "runs/phy-joint-terminal-shift/phy-joint.kicad_pcb",
+  "sha256": "3bab3f94c671a304822d47601ae49b59b59d3f76e76048437e35e5c7395be975",
+  "parent_sha256": "3bab3f94c671a304822d47601ae49b59b59d3f76e76048437e35e5c7395be975",
+  "records": [],
+  "held": [
+    {
+      "net": "PMIC_INT_N",
+      "groups": [
+        [
+          "R413.2",
+          "U1.AF22"
+        ],
+        [
+          "U4.7"
+        ]
+      ]
+    },
+    {
+      "net": "I2C0_SCL",
+      "groups": [
+        [
+          "R414.1",
+          "R416.2"
+        ],
+        [
+          "U1.AG23"
+        ],
+        [
+          "U10.A3"
+        ]
+      ]
+    },
+    {
+      "net": "I2C0_SDA",
+      "groups": [
+        [
+          "R415.1",
+          "R417.2"
+        ],
+        [
+          "U1.AE23"
+        ],
+        [
+          "U10.B1"
+        ]
+      ]
+    },
+    {
+      "net": "RESET_N",
+      "groups": [
+        [
+          "C411.1",
+          "R1103.1",
+          "R1507.2",
+          "R412.2",
+          "TP9.1",
+          "U16.2"
+        ],
+        [
+          "U1.1P12"
+        ],
+        [
+          "U4.67"
+        ]
+      ]
+    },
+    {
+      "net": "PMIC_SLEEP",
+      "groups": [
+        [
+          "U1.AF23"
+        ],
+        [
+          "U10.A1"
+        ],
+        [
+          "U4.49"
+        ]
+      ]
+    },
+    {
+      "net": "PMIC_PWRON_N",
+      "groups": [
+        [
+          "C412.1"
+        ],
+        [
+          "U4.52"
+        ]
+      ]
+    },
+    {
+      "net": "EXP_I2C_SDA",
+      "groups": [
+        [
+          "J3.23"
+        ],
+        [
+          "U1.AE15"
+        ],
+        [
+          "R2101.1"
+        ]
+      ]
+    },
+    {
+      "net": "EXP_SPI_CS0_N",
+      "groups": [
+        [
+          "J3.34",
+          "U1.AG17"
+        ],
+        [
+          "R2103.1"
+        ]
+      ]
+    },
+    {
+      "net": "EXP_SPI_CS1_N",
+      "groups": [
+        [
+          "J3.35"
+        ],
+        [
+          "U1.AF15"
+        ],
+        [
+          "R2104.1"
+        ]
+      ]
+    },
+    {
+      "net": "EXP_GPIO2",
+      "groups": [
+        [
+          "J3.29"
+        ],
+        [
+          "U1.K3"
+        ]
+      ]
+    },
+    {
+      "net": "EXP_GPIO3",
+      "groups": [
+        [
+          "J3.30"
+        ],
+        [
+          "U1.L2"
+        ]
+      ]
+    },
+    {
+      "net": "EXP_UART_RX",
+      "groups": [
+        [
+          "J3.26"
+        ],
+        [
+          "U1.Y25"
+        ]
+      ]
+    },
+    {
+      "net": "EXP_UART_TX",
+      "groups": [
+        [
+          "J3.25"
+        ],
+        [
+          "U1.Y26"
+        ]
+      ]
+    },
+    {
+      "net": "DEBUG_TX",
+      "groups": [
+        [
+          "U1.AE20"
+        ],
+        [
+          "TP12.1"
+        ]
+      ]
+    },
+    {
+      "net": "DEBUG_RX",
+      "groups": [
+        [
+          "U1.AF20"
+        ],
+        [
+          "TP11.1"
+        ]
+      ]
+    },
+    {
+      "net": "LCD_RESET_N",
+      "groups": [
+        [
+          "R1814.1",
+          "U21.5"
+        ],
+        [
+          "U1.N2"
+        ]
+      ]
+    },
+    {
+      "net": "LCD_CS_N",
+      "groups": [
+        [
+          "R1815.1",
+          "U21.6"
+        ],
+        [
+          "U1.M3"
+        ]
+      ]
+    },
+    {
+      "net": "USB_MUX_ENABLE_N",
+      "groups": [
+        [
+          "U16.4"
+        ],
+        [
+          "U6.12"
+        ]
+      ]
+    },
+    {
+      "net": "USB_ORIENTATION",
+      "groups": [
+        [
+          "R602.2"
+        ],
+        [
+          "U6.11"
+        ]
+      ]
+    },
+    {
+      "net": "ETH_RESET_GPIO_N",
+      "groups": [
+        [
+          "R515.1"
+        ],
+        [
+          "U1.T2"
+        ]
+      ]
+    },
+    {
+      "net": "WIFI_REG_ON",
+      "groups": [
+        [
+          "R2002.1",
+          "U25.12"
+        ],
+        [
+          "U1.1J14"
+        ]
+      ]
+    },
+    {
+      "net": "WIFI_HOST_WAKE",
+      "groups": [
+        [
+          "U1.V26"
+        ],
+        [
+          "U25.13"
+        ]
+      ]
+    },
+    {
+      "net": "THERMAL_SHUTDOWN",
+      "groups": [
+        [
+          "U1.1R13"
+        ],
+        [
+          "R1507.1"
+        ]
+      ]
+    },
+    {
+      "net": "RECOVERY_ADC",
+      "groups": [
+        [
+          "U1.D26"
+        ],
+        [
+          "R1504.1",
+          "TP10.1"
+        ]
+      ]
+    }
+  ],
+  "assembly_ready": false
+}

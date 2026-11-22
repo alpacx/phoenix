@@ -1,0 +1,88 @@
+{
+  "board": "runs/phy-pin40-integrated/phy-joint.kicad_pcb",
+  "sha256": "acf8e3cc92b0674c2ab355bd187b0379c3079482b71fead8b3ff7971375757da",
+  "parent_sha256": "0e0cff72042e5353476fb8ff6ac5dcc57bb7cecb3ea59422b2a7268fe452f4fa",
+  "pairs": [
+    [
+      "U5.40",
+      "C518.1"
+    ],
+    [
+      "C518.2",
+      "C511.2"
+    ],
+    [
+      "C520.2",
+      "C511.2"
+    ]
+  ],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 6477,
+    "explicitly_replaced_copper": {
+      "68d03e85-125d-4d76-a9dd-d8720122c640": [
+        "GND",
+        0,
+        82200000,
+        31500000,
+        82200000,
+        31500000,
+        450000,
+        200000
+      ],
+      "91d7da59-2c3c-4c50-8933-76c2d14a9050": [
+        "GND",
+        0,
+        81480000,
+        31500000,
+        81500000,
+        31500000,
+        200000,
+        null
+      ],
+      "ac0929a2-3fca-4d5e-ba2d-c38b18d6595e": [
+        "GND",
+        0,
+        81500000,
+        31500000,
+        82200000,
+        31500000,
+        200000,
+        null
+      ],
+      "b031e3f6-1250-473e-99ab-1038c94e01d3": [
+        "GND",
+        0,
+        60500000,
+        33800000,
+        60500000,
+        33800000,
+        450000,
+        200000
+      ],
+      "e959cb29-180c-425e-b3b3-e3c6263bbe8d": [
+        "GND",
+        0,
+        60500000,
+        34520000,
+        60500000,
+        34500000,
+        200000,
+        null
+      ],
+      "f8c8dc40-2f58-4aed-b76f-0c719ae26ea0": [
+        "GND",
+        0,
+        60500000,
+        34500000,
+        60500000,
+        33800000,
+        200000,
+        null
+      ]
+    },
+    "added_tracks_vias": 0,
+    "existing_connected_pad_groups_preserved": 87
+  },
+  "assembly_ready": false
+}
