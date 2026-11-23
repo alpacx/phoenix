@@ -5,12 +5,19 @@
   "ram_bus_bits": 32,
   "required_features": [
     "Gigabit Ethernet full duplex (1 Gbit/s nominal per direction)",
-    "USB3 device and5V power via detachable USB-C",
+    "USB 3 device and 5 V power via one detachable USB-C cable",
     "AP6256 Wi-Fi internal dual-band antenna standard, external U.FL optional via exclusive assembly selection; below-gigabit throughput accepted",
     "color non-touch display",
     "expansion connector",
     "passive cooling only"
   ],
+  "usb_power_target": {
+    "scope": "Base gateway with display and Wi-Fi active; optional expansion power requires a separate budget",
+    "required_source_profiles": "5 V USB Type-C with 1.5 A or 3 A advertised",
+    "base_gateway_input_budget_a": 1.5,
+    "nominal_input_budget_w": 7.5,
+    "qualification": "Open: existing main-load enable requires a 3 A advertisement. Verify rail budgets, converter losses, inrush, transients and USB-C current detection before changing the enable circuit."
+  },
   "baseline_archive": "archive/rk3568-before-rk3562-migration.tar.gz",
   "current_work": "migration-rk3562",
   "status": "RK3562_RESUMED_EXISTING_VERIFIED_CHECKPOINT",

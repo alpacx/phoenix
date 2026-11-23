@@ -1,0 +1,291 @@
+{
+  "checkpoint": "migration-rk3562/experiments/phy-power-parallel/runs/pmic-image-ldo-c468/phy-joint.kicad_pcb",
+  "sha256": "02a1533baeddff4eacdbcbc8b6e6ea209aa1dd280f7ff08d73bccf7d0e228c8d",
+  "verified_pairs_rechecked": 768,
+  "scope": "Static screen based on pad net assignments, not completed routing or measurements",
+  "typec_gpio_source": "reference/hd3ss3220.pdf, pin functions SDA/OUT1 and SCL/OUT2 (UFP GPIO mode)",
+  "present_enable": "U14 NOR(OUT1, OUT2) accepts high-current advertisement only",
+  "candidate_current_qualifier": "Invert OUT1 to accept 1.5 A and 3 A; retain downstream attach/readiness checks; do not enable on default current",
+  "main_switch_current_limit_nominal_a": 2.521,
+  "limit_scope": "U15 excludes always-on loads; changing the CC decoder alone does not enforce the 1.5 A input target",
+  "main_nominal_caps_uf": {
+    "C1001": 22.0,
+    "C1002": 22.0,
+    "C1203": 1.0,
+    "C1301": 10.0,
+    "C1302": 0.1,
+    "C1801": 1.0,
+    "C2201": 10.0,
+    "C2202": 0.1,
+    "C8101": 1.0
+  },
+  "total_nominal_uf": 67.2,
+  "typical_cap_charge_ma": 128.29,
+  "ramp_scope": "Capacitance directly assigned to +5V_MAIN on this PCB; excludes regulator startup and tolerance",
+  "wifi_scenarios": [
+    {
+      "assumed_board_input_v": 5.0,
+      "assumed_wifi_efficiency": 0.85,
+      "wifi_input_a_at_assumed_1a_radio_peak": 0.843,
+      "remaining_input_w_for_all_other_loads_and_losses": 3.284
+    },
+    {
+      "assumed_board_input_v": 5.0,
+      "assumed_wifi_efficiency": 0.9,
+      "wifi_input_a_at_assumed_1a_radio_peak": 0.796,
+      "remaining_input_w_for_all_other_loads_and_losses": 3.518
+    },
+    {
+      "assumed_board_input_v": 4.75,
+      "assumed_wifi_efficiency": 0.85,
+      "wifi_input_a_at_assumed_1a_radio_peak": 0.888,
+      "remaining_input_w_for_all_other_loads_and_losses": 2.909
+    },
+    {
+      "assumed_board_input_v": 4.75,
+      "assumed_wifi_efficiency": 0.9,
+      "wifi_input_a_at_assumed_1a_radio_peak": 0.838,
+      "remaining_input_w_for_all_other_loads_and_losses": 3.143
+    }
+  ],
+  "parts_on_checkpoint": {
+    "U1": "RK3562",
+    "U2": "H9HCNNN8KUMLHR-NME",
+    "U5": "RTL8211F-CG",
+    "U25": "AP6256",
+    "U8001": "KLM8G1GETF_B041_DRAFT"
+  },
+  "combined_load_scenarios": [
+    {
+      "dram_read_test_mt_s": "3200",
+      "assumed_vin_v": 5.0,
+      "assumed_conversion_efficiency": 0.85,
+      "dram_rail_power_w": 0.7328,
+      "modeled_input_power_w": 5.7039,
+      "unallocated_input_w": 1.7961
+    },
+    {
+      "dram_read_test_mt_s": "3200",
+      "assumed_vin_v": 5.0,
+      "assumed_conversion_efficiency": 0.9,
+      "dram_rail_power_w": 0.7328,
+      "modeled_input_power_w": 5.3898,
+      "unallocated_input_w": 2.1102
+    },
+    {
+      "dram_read_test_mt_s": "3200",
+      "assumed_vin_v": 4.75,
+      "assumed_conversion_efficiency": 0.85,
+      "dram_rail_power_w": 0.7328,
+      "modeled_input_power_w": 5.7014,
+      "unallocated_input_w": 1.4236
+    },
+    {
+      "dram_read_test_mt_s": "3200",
+      "assumed_vin_v": 4.75,
+      "assumed_conversion_efficiency": 0.9,
+      "dram_rail_power_w": 0.7328,
+      "modeled_input_power_w": 5.3873,
+      "unallocated_input_w": 1.7377
+    },
+    {
+      "dram_read_test_mt_s": "3733",
+      "assumed_vin_v": 5.0,
+      "assumed_conversion_efficiency": 0.85,
+      "dram_rail_power_w": 0.8167,
+      "modeled_input_power_w": 5.8026,
+      "unallocated_input_w": 1.6974
+    },
+    {
+      "dram_read_test_mt_s": "3733",
+      "assumed_vin_v": 5.0,
+      "assumed_conversion_efficiency": 0.9,
+      "dram_rail_power_w": 0.8167,
+      "modeled_input_power_w": 5.483,
+      "unallocated_input_w": 2.017
+    },
+    {
+      "dram_read_test_mt_s": "3733",
+      "assumed_vin_v": 4.75,
+      "assumed_conversion_efficiency": 0.85,
+      "dram_rail_power_w": 0.8167,
+      "modeled_input_power_w": 5.8001,
+      "unallocated_input_w": 1.3249
+    },
+    {
+      "dram_read_test_mt_s": "3733",
+      "assumed_vin_v": 4.75,
+      "assumed_conversion_efficiency": 0.9,
+      "dram_rail_power_w": 0.8167,
+      "modeled_input_power_w": 5.4805,
+      "unallocated_input_w": 1.6445
+    }
+  ],
+  "scenario_sources": {
+    "dram": "experiments/lpddr4-1gb/H9HCNNN8KUMLHR.pdf p.198, IDD4R read pattern, two speed bins evaluated separately. Not measured gateway traffic or boot current.",
+    "emmc": "reference/samsung-klm8g1getf-b041.pdf section 9.1 table 32, 8 GB: VCC 50 mA, VCCQ 180 mA. At board nominal rails: 0.489 W; HS400 x8, 100 ms RMS ratings do not establish instantaneous peak.",
+    "lcd": "Nominal 10 mA backlight branch only, logic and driver excluded.",
+    "usb": "reference/hd3ss3220.pdf active CC and SS mux 0.7 mA typical, 0.9 mA maximum under specified test conditions. Count in remaining AON/system budget, not as entire AON load.",
+    "phy": "RTL8211F datasheet section 7 ALDPS: link-down power values are unsuitable for active Gigabit.",
+    "remaining": "Shared input allowance for SoC, PHY, PMIC overhead not already modeled, Wi-Fi I/O, display logic, AON and all other unmodeled loads. Base board, no expansion. Coincident literature scenarios; no time-domain or thermal validation."
+  },
+  "upstream_guard": {
+    "reference": "reference/tps25940-official.pdf sections 7.5, 9.3.6 and equation 4",
+    "fitted_rilim_kohm": 33.2,
+    "typical_limit_a": 2.681,
+    "ideal_rilim_for_1a5_nominal_kohm": 59.333,
+    "qualification": "Nominal 1.5 A is not a worst-case ceiling. TI lists 42.2 and 88.7 kohm test points surrounding this resistance; neither establishes a guaranteed trip range for an intermediate value.",
+    "two_stage_drop_case": {
+      "assumed_guard_a": 1.5,
+      "assumed_main_a": 1.2,
+      "assumed_board_input_v": 4.75,
+      "guard_drop_v_at_64_mohm": 0.096,
+      "main_drop_v_at_53_mohm": 0.06359999999999999,
+      "vmain_before_trace_losses_v": 4.5904,
+      "basis": "High RON at up to 125 C, imposed currents. Excludes board interconnect, transient and converter dropout."
+    },
+    "monitor_on_current_board": "U24.19 IMON has no routed track; use an external VBUS current measurement for first-board characterization.",
+    "optional_monitor_study": {
+      "assumed_rimon_ohm": 8200,
+      "assumed_current_a": 1.5,
+      "typical_signal_v": 0.643,
+      "scope": "Candidate lab probe only; gain-only nominal voltage, offset and resistor tolerance excluded. No ADC, pad or component committed to PCB."
+    }
+  },
+  "main_branch_cases": [
+    {
+      "dram_mt_s": "3200",
+      "assumed_vmain_v": 5.0,
+      "efficiency": 0.85,
+      "modeled_main_a": 1.1408,
+      "remaining_main_w_at_low_limit": {
+        "1620": 0.136,
+        "1690": -0.099,
+        "1740": -0.254
+      },
+      "remaining_main_w_at_ti_1780_ohm_low_limit": -0.254
+    },
+    {
+      "dram_mt_s": "3200",
+      "assumed_vmain_v": 5.0,
+      "efficiency": 0.9,
+      "modeled_main_a": 1.078,
+      "remaining_main_w_at_low_limit": {
+        "1620": 0.45,
+        "1690": 0.215,
+        "1740": 0.06
+      },
+      "remaining_main_w_at_ti_1780_ohm_low_limit": 0.06
+    },
+    {
+      "dram_mt_s": "3200",
+      "assumed_vmain_v": 4.75,
+      "efficiency": 0.85,
+      "modeled_main_a": 1.2003,
+      "remaining_main_w_at_low_limit": {
+        "1620": -0.153,
+        "1690": -0.377,
+        "1740": -0.524
+      },
+      "remaining_main_w_at_ti_1780_ohm_low_limit": -0.524
+    },
+    {
+      "dram_mt_s": "3200",
+      "assumed_vmain_v": 4.75,
+      "efficiency": 0.9,
+      "modeled_main_a": 1.1342,
+      "remaining_main_w_at_low_limit": {
+        "1620": 0.161,
+        "1690": -0.063,
+        "1740": -0.21
+      },
+      "remaining_main_w_at_ti_1780_ohm_low_limit": -0.21
+    },
+    {
+      "dram_mt_s": "3733",
+      "assumed_vmain_v": 5.0,
+      "efficiency": 0.85,
+      "modeled_main_a": 1.1605,
+      "remaining_main_w_at_low_limit": {
+        "1620": 0.037,
+        "1690": -0.198,
+        "1740": -0.353
+      },
+      "remaining_main_w_at_ti_1780_ohm_low_limit": -0.353
+    },
+    {
+      "dram_mt_s": "3733",
+      "assumed_vmain_v": 5.0,
+      "efficiency": 0.9,
+      "modeled_main_a": 1.0966,
+      "remaining_main_w_at_low_limit": {
+        "1620": 0.357,
+        "1690": 0.122,
+        "1740": -0.033
+      },
+      "remaining_main_w_at_ti_1780_ohm_low_limit": -0.033
+    },
+    {
+      "dram_mt_s": "3733",
+      "assumed_vmain_v": 4.75,
+      "efficiency": 0.85,
+      "modeled_main_a": 1.2211,
+      "remaining_main_w_at_low_limit": {
+        "1620": -0.252,
+        "1690": -0.475,
+        "1740": -0.623
+      },
+      "remaining_main_w_at_ti_1780_ohm_low_limit": -0.623
+    },
+    {
+      "dram_mt_s": "3733",
+      "assumed_vmain_v": 4.75,
+      "efficiency": 0.9,
+      "modeled_main_a": 1.1538,
+      "remaining_main_w_at_low_limit": {
+        "1620": 0.067,
+        "1690": -0.156,
+        "1740": -0.303
+      },
+      "remaining_main_w_at_ti_1780_ohm_low_limit": -0.303
+    }
+  ],
+  "main_branch_basis": "Main branch only; remaining watts cover RK3562, PHY, all other downstream loads and unmodeled losses. Positive residual does not qualify the design. Negative residual is a conflict within the modeled simultaneous-load scenario. Upstream AON and total port current must be checked independently.",
+  "ti_1780_ohm_reference": {
+    "source": "reference/tps2595.pdf section 7.5, ILIMIT table",
+    "test_vin_v": 5,
+    "low_a": 1.09,
+    "typ_a": 1.17,
+    "high_a": 1.24,
+    "scope": "Published test condition; no external resistor tolerance added. Applying low limit at 4.75 V is a sensitivity case, not a guaranteed spec there."
+  },
+  "rilm_candidates_screen_only": [
+    {
+      "rilm_ohm": 806,
+      "main_limit_low_a": 2.31,
+      "main_limit_high_a": 2.737,
+      "input_current_left_for_aon_at_high_limit_ma": -1237.4
+    },
+    {
+      "rilm_ohm": 1620,
+      "main_limit_low_a": 1.168,
+      "main_limit_high_a": 1.384,
+      "input_current_left_for_aon_at_high_limit_ma": 116.4
+    },
+    {
+      "rilm_ohm": 1690,
+      "main_limit_low_a": 1.121,
+      "main_limit_high_a": 1.328,
+      "input_current_left_for_aon_at_high_limit_ma": 172.0
+    },
+    {
+      "rilm_ohm": 1740,
+      "main_limit_low_a": 1.09,
+      "main_limit_high_a": 1.291,
+      "input_current_left_for_aon_at_high_limit_ma": 208.9
+    }
+  ],
+  "rilm_limits": "Typical U15 equation with assumed +/-7.5 percent and 1 percent resistor tolerance; negative headroom means the limit is above the entire source budget. Lower limit must still support startup. No candidate selected.",
+  "wifi_basis": "review/wifi-power-check.json: 1 A peak is specified at 3.3 V; applying it at 3.584 V is a scenario only",
+  "release_gate": "Quantify simultaneous SoC, RAM, PHY, eMMC, LCD and AON input loads, conversion/cable losses and startup transients before enabling 1.5 A in production."
+}

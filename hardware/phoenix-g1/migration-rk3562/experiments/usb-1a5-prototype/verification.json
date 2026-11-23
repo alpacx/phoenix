@@ -1,0 +1,43 @@
+{
+  "integrated_pin_assignments_compared": 1775,
+  "changed_pin": "U14.2: CC_OUT2_N -> GND",
+  "scope": "KiCad logical connectivity and Boolean evaluation; static valid UFP states only",
+  "states": [
+    {
+      "profile": "default",
+      "aon_ready": false,
+      "baseline_main": false,
+      "prototype_main": false
+    },
+    {
+      "profile": "default",
+      "aon_ready": true,
+      "baseline_main": false,
+      "prototype_main": false
+    },
+    {
+      "profile": "1.5 A",
+      "aon_ready": false,
+      "baseline_main": false,
+      "prototype_main": false
+    },
+    {
+      "profile": "1.5 A",
+      "aon_ready": true,
+      "baseline_main": false,
+      "prototype_main": true
+    },
+    {
+      "profile": "3 A",
+      "aon_ready": false,
+      "baseline_main": false,
+      "prototype_main": false
+    },
+    {
+      "profile": "3 A",
+      "aon_ready": true,
+      "baseline_main": true,
+      "prototype_main": true
+    }
+  ]
+}
