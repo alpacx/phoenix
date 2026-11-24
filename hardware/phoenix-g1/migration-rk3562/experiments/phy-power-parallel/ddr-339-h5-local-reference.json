@@ -1,0 +1,95 @@
+{
+  "checkpoint": "fd91c049a5294f021de436682b39e111a00e5f8dd33f884ded685caf600fa450",
+  "paths": [
+    {
+      "net": "GND",
+      "width": 0.2,
+      "new_old": [
+        {
+          "samples": 171,
+          "void": 0,
+          "length_mm": 0.28
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "width": 0.2,
+      "new_old": [
+        {
+          "samples": 60,
+          "void": 0,
+          "length_mm": 0.09192388155425119
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "width": 0.2,
+      "new_old": [
+        {
+          "samples": 36,
+          "void": 0,
+          "length_mm": 0.055
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "width": 0.2,
+      "new_old": [
+        {
+          "samples": 18,
+          "void": 0,
+          "length_mm": 0.025
+        }
+      ]
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "width": 0.35,
+      "new_old": [
+        {
+          "samples": 1050,
+          "void": 0,
+          "length_mm": 1.741034175425629
+        }
+      ]
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "width": 0.35,
+      "new_old": [
+        {
+          "samples": 81,
+          "void": 0,
+          "length_mm": 0.12649110640673517
+        }
+      ]
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "width": 0.35,
+      "new_old": [
+        {
+          "samples": 144,
+          "void": 0,
+          "length_mm": 0.23323807579381203
+        }
+      ]
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "width": 0.35,
+      "new_old": [
+        {
+          "samples": 90,
+          "void": 0,
+          "length_mm": 0.14142135623730953
+        }
+      ]
+    }
+  ],
+  "method": "Euclidean distance to H5-connected 1.1 V vias. Native In1 reference sampled at center and both edges of every added F.Cu track.",
+  "closest_connected_rail_barrels": []
+}

@@ -1,0 +1,63 @@
+[
+  {
+    "case": "adopted",
+    "traces": [
+      {
+        "length": 0.4172529209005013,
+        "layer": "B.Cu",
+        "mean_length_over_void_mm": 0.413279083558594
+      },
+      {
+        "length": 1.7088007490635062,
+        "layer": "In2.Cu",
+        "mean_length_over_void_mm": 0.4197054471384037
+      }
+    ],
+    "total_void": 0.8329845306969976,
+    "length": 2.1260536699640076
+  },
+  {
+    "case": "direct",
+    "traces": [
+      {
+        "length": 0.5818934610390462,
+        "layer": "B.Cu",
+        "mean_length_over_void_mm": 0.41792348232701315
+      },
+      {
+        "length": 1.7356554957709782,
+        "layer": "In2.Cu",
+        "mean_length_over_void_mm": 0.4169563202484297
+      }
+    ],
+    "total_void": 0.8348798025754429,
+    "length": 2.3175489568100245
+  },
+  {
+    "case": "stub",
+    "traces": [
+      {
+        "length": 0.2692582403567252,
+        "layer": "B.Cu",
+        "mean_length_over_void_mm": 0.26925824035672485
+      },
+      {
+        "length": 0.4172529209005013,
+        "layer": "B.Cu",
+        "mean_length_over_void_mm": 0.2245218098178888
+      },
+      {
+        "length": 1.7088007490635062,
+        "layer": "In2.Cu",
+        "mean_length_over_void_mm": 0.30578539720083786
+      },
+      {
+        "length": 0.2692582403567252,
+        "layer": "In2.Cu",
+        "mean_length_over_void_mm": 0.26925824035672485
+      }
+    ],
+    "total_void": 1.0688236877321764,
+    "length": 2.6645701506774584
+  }
+]

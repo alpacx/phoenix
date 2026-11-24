@@ -1,0 +1,191 @@
+{
+  "parent": "6247772208c9093da22eab0a6a5c0fe7831a6af4b28ac3be5b36bbdcca60b1aa",
+  "grid_mm": 0.05,
+  "width_mm": 0.2,
+  "copper_clearance_mm": 0.2,
+  "hole_clearance_mm": 0.25,
+  "via_od_drill_mm": [
+    0.45,
+    0.2
+  ],
+  "raster_margin_mm": 0.04,
+  "allowed_layers": [
+    0,
+    6,
+    8,
+    2
+  ],
+  "results": [
+    {
+      "net": "LCD_CLK_3V",
+      "islands": [
+        {
+          "pads": [
+            "DS1.4"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U21.17"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "net": "LCD_CS_3V",
+      "islands": [
+        {
+          "pads": [
+            "DS1.7"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U21.14"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "net": "LCD_DC_3V",
+      "islands": [
+        {
+          "pads": [
+            "DS1.5"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U21.16"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "net": "LCD_DIN_3V",
+      "islands": [
+        {
+          "pads": [
+            "DS1.3"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U21.18"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "net": "LCD_RST_3V",
+      "islands": [
+        {
+          "pads": [
+            "DS1.6"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U21.15"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "net": "LCD_LEDA",
+      "islands": [
+        {
+          "pads": [
+            "DS1.12"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "R1803.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "net": "LCD_LEDK",
+      "islands": [
+        {
+          "pads": [
+            "DS1.11"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "Q1.3"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    }
+  ],
+  "scope": "Four copper routing layers joined only at qualified through-via sites with foreign-copper and hole clearances, keepouts and off-pad rings. Fans may terminate on previously attached same-net copper. CAD reload required for every positive route; a negative remains limited to this geometry."
+}

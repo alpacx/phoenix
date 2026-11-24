@@ -1,0 +1,198 @@
+{
+  "parent": "6247772208c9093da22eab0a6a5c0fe7831a6af4b28ac3be5b36bbdcca60b1aa",
+  "board": "runs/display-direct-flex-rear-spi/phy-joint.kicad_pcb",
+  "sha256": "5d842de513f019de51d74af2ead2e0ea00c2d906b911bd1fb23ef1916e1a6170",
+  "new_drc": [],
+  "remaining_joins": 355,
+  "checked_pairs": {
+    "DS1.4 U21.17": true,
+    "DS1.7 U21.14": true,
+    "DS1.5 U21.16": true
+  },
+  "nearest_stitches": [
+    {
+      "net": "LCD_CLK_3V",
+      "via_nm": [
+        21900000,
+        38200000
+      ],
+      "nearest_ground_via_mm": 0.89
+    },
+    {
+      "net": "LCD_CLK_3V",
+      "via_nm": [
+        21250000,
+        26100000
+      ],
+      "nearest_ground_via_mm": 0.856
+    },
+    {
+      "net": "LCD_CS_3V",
+      "via_nm": [
+        26300000,
+        37650000
+      ],
+      "nearest_ground_via_mm": 1.481
+    },
+    {
+      "net": "LCD_CS_3V",
+      "via_nm": [
+        27100000,
+        24150000
+      ],
+      "nearest_ground_via_mm": 0.941
+    },
+    {
+      "net": "LCD_DC_3V",
+      "via_nm": [
+        22550000,
+        38600000
+      ],
+      "nearest_ground_via_mm": 1.358
+    },
+    {
+      "net": "LCD_DC_3V",
+      "via_nm": [
+        22450000,
+        31950000
+      ],
+      "nearest_ground_via_mm": 1.201
+    },
+    {
+      "net": "LCD_DC_3V",
+      "via_nm": [
+        20250000,
+        27950000
+      ],
+      "nearest_ground_via_mm": 1.204
+    }
+  ],
+  "plane_samples": {
+    "LCD_CLK_3V": {
+      "sampled": 3936,
+      "other_void": 206,
+      "own_antipad": 372
+    },
+    "LCD_CS_3V": {
+      "sampled": 4248,
+      "other_void": 489,
+      "own_antipad": 361
+    },
+    "LCD_DC_3V": {
+      "sampled": 4377,
+      "other_void": 292,
+      "own_antipad": 553
+    }
+  },
+  "mask": {
+    "F.Cu": 0,
+    "B.Cu": 0
+  },
+  "changed_return_reference": {
+    "changed_via_centers_nm": [
+      [
+        20250000,
+        27950000
+      ],
+      [
+        21250000,
+        26100000
+      ],
+      [
+        21900000,
+        38200000
+      ],
+      [
+        22450000,
+        31950000
+      ],
+      [
+        22550000,
+        38600000
+      ],
+      [
+        26300000,
+        37650000
+      ],
+      [
+        27100000,
+        24150000
+      ]
+    ],
+    "samples_by_net_and_layer": {
+      "+1V1_LPDDR4 B.Cu": {
+        "sampled": 79,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      },
+      "+3V0_LCD B.Cu": {
+        "sampled": 172,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      },
+      "+3V0_LCD F.Cu": {
+        "sampled": 75,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      },
+      "+3V3_IO F.Cu": {
+        "sampled": 239,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      },
+      "+3V3_PMU In3.Cu": {
+        "sampled": 388,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      },
+      "LCD_DC F.Cu": {
+        "sampled": 375,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      },
+      "LCD_RESET_N F.Cu": {
+        "sampled": 79,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      },
+      "LCD_SCLK In3.Cu": {
+        "sampled": 41,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      },
+      "RESET_N In3.Cu": {
+        "sampled": 397,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      }
+    },
+    "sample_pitch_mm": 0.012,
+    "via_window_radius_mm": 1.0,
+    "scope": "Center and edges of unchanged straight copper only. Local ground-fill comparison; no field or impedance simulation."
+  },
+  "preservation": {
+    "existing_pad_instances_preserved": 2021,
+    "existing_tracks_vias_preserved": 8081,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 97,
+    "existing_connected_pad_groups_preserved": 127
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "parent_sha256": "572d6ba53bb0abb0c7e86dd2c158361c9c12bd9cfcacd297c1c752aa674aea3d",
+  "tested": [
+    {
+      "delta": [],
+      "joins": 355,
+      "lengths_mm": [
+        18.044730335575093,
+        19.51957269545157
+      ],
+      "skew_mm": 1.474842359876476,
+      "complete": [
+        true,
+        true
+      ],
+      "ground": null,
+      "proposed_ground": [
+        76350000,
+        18250000
+      ],
+      "signal_vias": [
+        [
+          "70f52acf-2b03-4df3-a5ee-c1fd2f0871e9",
+          "20187541-f33f-4a37-b442-98c47a41be1b"
+        ],
+        [
+          "db652dfb-6df9-4011-afca-2f80ab917dfb",
+          "805765a2-677a-4fa2-8a8a-bd7f1bc06d87"
+        ]
+      ],
+      "signal_tracks": [
+        [
+          "5bafa613-e724-4c98-bc26-b8238e5ab03b",
+          "301cac9a-54a9-4e56-8622-6f4dc2d16b0f",
+          "8b50d53d-7c23-434d-8086-6953f210712e",
+          "9479d970-0455-4bad-8805-5642c9448abd",
+          "b64d8701-a11c-476d-af04-f5d05f7b8074",
+          "0d50115c-72be-4a9a-bb51-a5fe409c56c3",
+          "8a3c8559-0e2a-40b2-85b9-860437aa0e31",
+          "721b745e-e436-4207-afd5-1ff81cf51ae0",
+          "9936b0ae-2fbe-4419-9039-73fba793a600",
+          "84959893-6cb9-4c93-8114-806a5f8f14b6",
+          "0b28bbe8-3abf-4e76-9c8f-bcde48a4e0f3",
+          "8c21a979-774e-4148-b9af-6b0138d59a1e",
+          "cbff9a12-1cf0-4e8e-9fa1-5ff1ef930c57",
+          "38ddda30-4cae-415c-bda6-b73683de2926",
+          "b8855a15-dd04-4b00-9ab0-4b97e8d18872",
+          "0a0a8c3b-c672-4aef-a3e1-915de5bb6e9e",
+          "fb5fa581-9e6f-457f-91df-3cb5857822e2"
+        ],
+        [
+          "14acb075-5638-44b8-9f22-d6db5a58b7fe",
+          "8411e907-97aa-43df-be61-55c10d6ce165",
+          "6eab532e-7837-4bcf-87bc-d8c416618f84",
+          "2809b28f-3641-4ba6-a433-4d8bedc153bc",
+          "8b4fe562-423c-4771-9ace-25bdcb837928",
+          "88458718-5376-49cf-8cfb-2e679cd6b630",
+          "0ed1a917-2aee-47f7-bdfc-e1ba3f88ccb4",
+          "b00d485c-84b6-40cf-a42b-6e88ceb00285",
+          "2c72b0a0-8bd0-4265-8822-10f7daec512d",
+          "b58caa2b-bf2e-4478-8583-73e08c310389",
+          "7c0e3f4c-5684-4e6c-8425-2d3486f96ce3",
+          "c88d751b-40c9-4a32-ac35-1cb3e599b20a",
+          "d367983b-9237-452c-8344-1746d2cf0525",
+          "ab5ecd6f-96be-4838-98e0-17d3c8c403b3",
+          "cf9efb48-9cbe-478c-9627-97e093adb668",
+          "6d680313-43f9-4595-b2fd-623e2120cd3a",
+          "d6acae7f-1cd7-42e5-b0b6-a873206ad621",
+          "afa3dc38-bf63-4c14-b943-310e24b7952b",
+          "f1d4810f-64e9-48f3-a9b1-9558bb9bed7a"
+        ]
+      ],
+      "mid_vias": [
+        [
+          75252513,
+          17647487
+        ],
+        [
+          75747487,
+          17152513
+        ]
+      ]
+    }
+  ],
+  "last_coupon": "runs/mdi3-port-tapers/phy-joint.kicad_pcb"
+}

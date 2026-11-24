@@ -1,0 +1,230 @@
+{
+  "parent": "87cf66583251de1ada11bdf99725038420f3583644b0822482a18c0846dc1c10",
+  "rows": [
+    {
+      "ref": "R502",
+      "pin": "AA2",
+      "net": "ETH_TXD1",
+      "starts": 33,
+      "accessible": 48,
+      "perimeter": {},
+      "single_contacts": [
+        [
+          [
+            "PAD",
+            "ETH_TXEN",
+            "U1.AA3"
+          ],
+          13
+        ],
+        [
+          [
+            "PCB_TRACK",
+            "ETH_TXCLK",
+            "f1644682-2a2c-4adb-be25-91a6963a705d"
+          ],
+          7
+        ],
+        [
+          [
+            "PAD",
+            "ETH_TXD3",
+            "U1.AB2"
+          ],
+          5
+        ],
+        [
+          [
+            "PAD",
+            "ETH_TXD0",
+            "U1.AA1"
+          ],
+          3
+        ],
+        [
+          [
+            "PCB_TRACK",
+            "ETH_TXD3",
+            "88d99c84-9a18-4b88-a9bb-567504c53570"
+          ],
+          3
+        ],
+        [
+          [
+            "PAD",
+            "ETH_RXD3",
+            "U1.Y3"
+          ],
+          1
+        ],
+        [
+          [
+            "PAD",
+            "ETH_TXD2",
+            "U1.AB3"
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "ref": "R503",
+      "pin": "AB3",
+      "net": "ETH_TXD2",
+      "starts": 28,
+      "accessible": 88,
+      "perimeter": {},
+      "single_contacts": [
+        [
+          [
+            "PAD",
+            "ETH_TXEN",
+            "U1.AA3"
+          ],
+          15
+        ],
+        [
+          [
+            "PAD",
+            "ETH_TXD3",
+            "U1.AB2"
+          ],
+          8
+        ],
+        [
+          [
+            "PCB_TRACK",
+            "GND",
+            "de7be3a2-2ab0-4bf8-9776-bf42c26cbfae"
+          ],
+          8
+        ],
+        [
+          [
+            "PCB_TRACK",
+            "GND",
+            "57c80e71-cabb-49bf-ab77-a39bd4e83267"
+          ],
+          6
+        ],
+        [
+          [
+            "PCB_VIA",
+            "GND",
+            "91eae6b3-00d6-4c52-9eb0-a3472a8aad6a"
+          ],
+          6
+        ],
+        [
+          [
+            "PCB_TRACK",
+            "GND",
+            "c1c767a3-11d2-478a-a4a9-75d4b3bcea8c"
+          ],
+          5
+        ],
+        [
+          [
+            "PAD",
+            "ETH_TXD1",
+            "U1.AA2"
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "ref": "R505",
+      "pin": "AA3",
+      "net": "ETH_TXEN",
+      "starts": 32,
+      "accessible": 88,
+      "perimeter": {},
+      "single_contacts": [
+        [
+          [
+            "PAD",
+            "ETH_TXD2",
+            "U1.AB3"
+          ],
+          20
+        ],
+        [
+          [
+            "PCB_VIA",
+            "GND",
+            "91eae6b3-00d6-4c52-9eb0-a3472a8aad6a"
+          ],
+          17
+        ],
+        [
+          [
+            "PAD",
+            "ETH_TXD1",
+            "U1.AA2"
+          ],
+          13
+        ],
+        [
+          [
+            "PCB_TRACK",
+            "GND",
+            "de7be3a2-2ab0-4bf8-9776-bf42c26cbfae"
+          ],
+          8
+        ],
+        [
+          [
+            "PAD",
+            "ETH_RXD3",
+            "U1.Y3"
+          ],
+          7
+        ],
+        [
+          [
+            "PCB_TRACK",
+            "GND",
+            "57c80e71-cabb-49bf-ab77-a39bd4e83267"
+          ],
+          4
+        ],
+        [
+          [
+            "PAD",
+            "ETH_TXD3",
+            "U1.AB2"
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "ref": "R507",
+      "pin": "25",
+      "net": "PHY_RXD0",
+      "starts": 0,
+      "accessible": 0,
+      "perimeter": {},
+      "single_contacts": []
+    },
+    {
+      "ref": "R509",
+      "pin": "23",
+      "net": "PHY_RXD2",
+      "starts": 0,
+      "accessible": 0,
+      "perimeter": {},
+      "single_contacts": []
+    },
+    {
+      "ref": "R511",
+      "pin": "26",
+      "net": "PHY_RXDV_CRS",
+      "starts": 0,
+      "accessible": 0,
+      "perimeter": {},
+      "single_contacts": []
+    }
+  ]
+}

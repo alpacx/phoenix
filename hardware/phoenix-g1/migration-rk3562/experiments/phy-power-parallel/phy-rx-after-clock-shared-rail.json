@@ -1,0 +1,196 @@
+{
+  "parent_sha256": "9ab66bf2fedfccf049ad5aca8f802b27a5d8c7e538af7545e10957b756033dc8",
+  "rows": [
+    {
+      "pin": "22",
+      "net": "PHY_RXD3",
+      "direction": [
+        0,
+        -1
+      ],
+      "width_mm": 0.2,
+      "maximum_center_to_pad_edge_mm": 0.09,
+      "minimum_nominal_copper_overlap_mm": 0.01,
+      "launch_length_mm": 0.3,
+      "open_starts": 8,
+      "examples": [
+        [
+          [
+            64400000,
+            28260000
+          ],
+          [
+            64450000,
+            27960000
+          ]
+        ],
+        [
+          [
+            64400000,
+            28260000
+          ],
+          [
+            64400000,
+            27960000
+          ]
+        ],
+        [
+          [
+            64400000,
+            28250000
+          ],
+          [
+            64450000,
+            27950000
+          ]
+        ]
+      ],
+      "nearest": [
+        [
+          [
+            [
+              "8e469025-2ff9-4178-ab16-5f8f2dffe74e",
+              "U5.21"
+            ]
+          ],
+          1028
+        ],
+        [
+          [
+            [
+              "102b54c2-4363-4fe7-b332-fdc6d2294ee6",
+              "U5.23"
+            ]
+          ],
+          578
+        ],
+        [
+          [
+            [
+              "cb94d987-f347-4ca5-bcf2-d2b7b7ce7fcd",
+              "PHY_RXD1"
+            ]
+          ],
+          1
+        ],
+        [
+          [
+            [
+              "102b54c2-4363-4fe7-b332-fdc6d2294ee6",
+              "U5.23"
+            ],
+            [
+              "cb94d987-f347-4ca5-bcf2-d2b7b7ce7fcd",
+              "PHY_RXD1"
+            ]
+          ],
+          497
+        ]
+      ]
+    },
+    {
+      "pin": "26",
+      "net": "PHY_RXDV_CRS",
+      "direction": [
+        0,
+        -1
+      ],
+      "width_mm": 0.2,
+      "maximum_center_to_pad_edge_mm": 0.09,
+      "minimum_nominal_copper_overlap_mm": 0.01,
+      "launch_length_mm": 0.3,
+      "open_starts": 0,
+      "examples": [],
+      "nearest": [
+        [
+          [
+            [
+              "16ae59dc-0bab-4ef2-9840-f940291eae03",
+              "PHY_RXCLK"
+            ],
+            [
+              "214bf584-ffbb-4ada-b7b2-5e2dda2e5671",
+              "PHY_RXCLK"
+            ],
+            [
+              "34266047-808b-4900-8d93-9403ba1ac1a9",
+              "PHY_RXCLK"
+            ],
+            [
+              "cab2c99c-efcd-4ebe-b8e0-05ccf1ca7d84",
+              "U5.25"
+            ]
+          ],
+          611
+        ],
+        [
+          [
+            [
+              "11af9820-0dff-4844-b48e-945b17c61d59",
+              "PHY_RXCLK"
+            ],
+            [
+              "16ae59dc-0bab-4ef2-9840-f940291eae03",
+              "PHY_RXCLK"
+            ],
+            [
+              "1e1ad506-c3e8-41b0-9305-3e3671f90d04",
+              "U5.27"
+            ],
+            [
+              "214bf584-ffbb-4ada-b7b2-5e2dda2e5671",
+              "PHY_RXCLK"
+            ]
+          ],
+          353
+        ],
+        [
+          [
+            [
+              "11af9820-0dff-4844-b48e-945b17c61d59",
+              "PHY_RXCLK"
+            ],
+            [
+              "16ae59dc-0bab-4ef2-9840-f940291eae03",
+              "PHY_RXCLK"
+            ],
+            [
+              "214bf584-ffbb-4ada-b7b2-5e2dda2e5671",
+              "PHY_RXCLK"
+            ],
+            [
+              "34266047-808b-4900-8d93-9403ba1ac1a9",
+              "PHY_RXCLK"
+            ]
+          ],
+          23
+        ],
+        [
+          [
+            [
+              "11af9820-0dff-4844-b48e-945b17c61d59",
+              "PHY_RXCLK"
+            ],
+            [
+              "16ae59dc-0bab-4ef2-9840-f940291eae03",
+              "PHY_RXCLK"
+            ],
+            [
+              "1e1ad506-c3e8-41b0-9305-3e3671f90d04",
+              "U5.27"
+            ],
+            [
+              "214bf584-ffbb-4ada-b7b2-5e2dda2e5671",
+              "PHY_RXCLK"
+            ],
+            [
+              "34266047-808b-4900-8d93-9403ba1ac1a9",
+              "PHY_RXCLK"
+            ]
+          ],
+          1051
+        ]
+      ]
+    }
+  ]
+}

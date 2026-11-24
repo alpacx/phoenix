@@ -1,0 +1,16 @@
+{
+  "parent_sha256": "532c456a73507d50ee5623bdd648e3a0b989dda76f398229db709e7a9855348b",
+  "radio_end_verified_on_coupon": true,
+  "radio_track_mm": 0.4414213562373095,
+  "rail_detour_extra_mm": 0.663,
+  "pullup_candidate_barrels": 512,
+  "best_pullup_leg_mm": 33.99655121145938,
+  "remaining_xy_lower_bound_mm": 17.36663467687393,
+  "pullup_barrel_nm": [
+    51600000,
+    11400000
+  ],
+  "geometry_only_total_lower_bound_mm": 51.80460724457062,
+  "adopted": false,
+  "reason": "Over 51 mm even before completing the host connection or routing the intervening layer. Continuing the pull-up as an open branch would require a signal-integrity evaluation and a matching topology for the full SDIO bus."
+}

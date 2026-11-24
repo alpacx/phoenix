@@ -1,0 +1,327 @@
+{
+  "parent_sha256": "5e8bc2155e63e8a3e750115aad07d3df4a380e67d233c5680060f245cbb50c1c",
+  "radius_mm": 0.225,
+  "drill_mm": 0.2,
+  "rows": [
+    {
+      "blockers": [
+        [
+          "327c9de1-da94-4b9a-951f-2edf552e08ab",
+          "GND",
+          "U8001.N5"
+        ],
+        [
+          "340d82ff-45b1-4671-8396-f3942ba87eb9",
+          "+3V3_IO",
+          "PCB_TRACK"
+        ],
+        [
+          "35424f7b-5ed1-42e5-aca7-9f118a39e548",
+          "GND",
+          "U8001.P4"
+        ],
+        [
+          "3c9fdc84-a552-4115-aa36-ecbf8f5026d2",
+          "",
+          "U8001.N3"
+        ],
+        [
+          "8d9505a5-a2b3-428f-b38b-60d2de9d983b",
+          "GND",
+          "PCB_TRACK"
+        ],
+        [
+          "de59b5bf-361c-4f2f-83a5-7c24ed06b622",
+          "+3V3_IO",
+          "PCB_TRACK"
+        ],
+        [
+          "e7f71361-6406-4f83-bf0b-b65a14f01414",
+          "+3V3_IO",
+          "PCB_TRACK"
+        ],
+        [
+          "f76d9c4b-c029-4f08-8435-931fac66ecdb",
+          "EMMC_IO_1V8",
+          "U8001.N4"
+        ]
+      ],
+      "sites": 3,
+      "examples": [
+        {
+          "at": [
+            36275000,
+            6225000
+          ],
+          "path": [
+            [
+              36275000,
+              6225000
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "21b2a0a0-6e33-4185-a7fb-39302438fcb3",
+          "GND",
+          "PCB_TRACK"
+        ],
+        [
+          "327c9de1-da94-4b9a-951f-2edf552e08ab",
+          "GND",
+          "U8001.N5"
+        ],
+        [
+          "340d82ff-45b1-4671-8396-f3942ba87eb9",
+          "+3V3_IO",
+          "PCB_TRACK"
+        ],
+        [
+          "35424f7b-5ed1-42e5-aca7-9f118a39e548",
+          "GND",
+          "U8001.P4"
+        ],
+        [
+          "3c9fdc84-a552-4115-aa36-ecbf8f5026d2",
+          "",
+          "U8001.N3"
+        ],
+        [
+          "8d9505a5-a2b3-428f-b38b-60d2de9d983b",
+          "GND",
+          "PCB_TRACK"
+        ],
+        [
+          "e7f71361-6406-4f83-bf0b-b65a14f01414",
+          "+3V3_IO",
+          "PCB_TRACK"
+        ],
+        [
+          "f76d9c4b-c029-4f08-8435-931fac66ecdb",
+          "EMMC_IO_1V8",
+          "U8001.N4"
+        ]
+      ],
+      "sites": 2,
+      "examples": [
+        {
+          "at": [
+            36225000,
+            6225000
+          ],
+          "path": [
+            [
+              36225000,
+              6225000
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "327c9de1-da94-4b9a-951f-2edf552e08ab",
+          "GND",
+          "U8001.N5"
+        ],
+        [
+          "340d82ff-45b1-4671-8396-f3942ba87eb9",
+          "+3V3_IO",
+          "PCB_TRACK"
+        ],
+        [
+          "35424f7b-5ed1-42e5-aca7-9f118a39e548",
+          "GND",
+          "U8001.P4"
+        ],
+        [
+          "3c9fdc84-a552-4115-aa36-ecbf8f5026d2",
+          "",
+          "U8001.N3"
+        ],
+        [
+          "43770da2-a401-4125-9682-7b04b47dd9c1",
+          "LCD_BL_PWM",
+          "PCB_TRACK"
+        ],
+        [
+          "8d9505a5-a2b3-428f-b38b-60d2de9d983b",
+          "GND",
+          "PCB_TRACK"
+        ],
+        [
+          "d2305b52-e783-47e5-81ea-f3cb8e9409ec",
+          "LCD_BL_PWM",
+          "PCB_TRACK"
+        ],
+        [
+          "e7f71361-6406-4f83-bf0b-b65a14f01414",
+          "+3V3_IO",
+          "PCB_TRACK"
+        ],
+        [
+          "f76d9c4b-c029-4f08-8435-931fac66ecdb",
+          "EMMC_IO_1V8",
+          "U8001.N4"
+        ]
+      ],
+      "sites": 1,
+      "examples": [
+        {
+          "at": [
+            36200000,
+            6275000
+          ],
+          "path": [
+            [
+              36200000,
+              6275000
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "0bf9dc7e-ed14-4d50-8689-e90e8fe8391f",
+          "EMMC_IO_1V8",
+          "U8001.M4"
+        ],
+        [
+          "340d82ff-45b1-4671-8396-f3942ba87eb9",
+          "+3V3_IO",
+          "PCB_TRACK"
+        ],
+        [
+          "3c9fdc84-a552-4115-aa36-ecbf8f5026d2",
+          "",
+          "U8001.N3"
+        ],
+        [
+          "43770da2-a401-4125-9682-7b04b47dd9c1",
+          "LCD_BL_PWM",
+          "PCB_TRACK"
+        ],
+        [
+          "62bad5d2-8df3-4ad7-a518-d7ed441e5d2a",
+          "LCD_BL_PWM",
+          "PCB_TRACK"
+        ],
+        [
+          "6c84dc25-3100-42e5-9188-d51eeb5c2699",
+          "LCD_BL_PWM",
+          "PCB_TRACK"
+        ],
+        [
+          "d2305b52-e783-47e5-81ea-f3cb8e9409ec",
+          "LCD_BL_PWM",
+          "PCB_TRACK"
+        ],
+        [
+          "de59b5bf-361c-4f2f-83a5-7c24ed06b622",
+          "+3V3_IO",
+          "PCB_TRACK"
+        ],
+        [
+          "e7f71361-6406-4f83-bf0b-b65a14f01414",
+          "+3V3_IO",
+          "PCB_TRACK"
+        ],
+        [
+          "f76d9c4b-c029-4f08-8435-931fac66ecdb",
+          "EMMC_IO_1V8",
+          "U8001.N4"
+        ]
+      ],
+      "sites": 7,
+      "examples": [
+        {
+          "at": [
+            36200000,
+            6400000
+          ],
+          "path": [
+            [
+              36200000,
+              6400000
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "327c9de1-da94-4b9a-951f-2edf552e08ab",
+          "GND",
+          "U8001.N5"
+        ],
+        [
+          "340d82ff-45b1-4671-8396-f3942ba87eb9",
+          "+3V3_IO",
+          "PCB_TRACK"
+        ],
+        [
+          "35424f7b-5ed1-42e5-aca7-9f118a39e548",
+          "GND",
+          "U8001.P4"
+        ],
+        [
+          "3c9fdc84-a552-4115-aa36-ecbf8f5026d2",
+          "",
+          "U8001.N3"
+        ],
+        [
+          "43770da2-a401-4125-9682-7b04b47dd9c1",
+          "LCD_BL_PWM",
+          "PCB_TRACK"
+        ],
+        [
+          "8d9505a5-a2b3-428f-b38b-60d2de9d983b",
+          "GND",
+          "PCB_TRACK"
+        ],
+        [
+          "d2305b52-e783-47e5-81ea-f3cb8e9409ec",
+          "LCD_BL_PWM",
+          "PCB_TRACK"
+        ],
+        [
+          "de59b5bf-361c-4f2f-83a5-7c24ed06b622",
+          "+3V3_IO",
+          "PCB_TRACK"
+        ],
+        [
+          "e7f71361-6406-4f83-bf0b-b65a14f01414",
+          "+3V3_IO",
+          "PCB_TRACK"
+        ],
+        [
+          "f76d9c4b-c029-4f08-8435-931fac66ecdb",
+          "EMMC_IO_1V8",
+          "U8001.N4"
+        ]
+      ],
+      "sites": 4,
+      "examples": [
+        {
+          "at": [
+            36300000,
+            6250000
+          ],
+          "path": [
+            [
+              36300000,
+              6250000
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

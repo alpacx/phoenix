@@ -1,0 +1,20 @@
+{
+  "parent": "6884bdd5b1ed3a954d6c7eaf9fc36ab1feffa303d78c1e5f06b1d1d35a040aae",
+  "step_mm": 0.0125,
+  "window_radius_mm": 4.0,
+  "positive": [],
+  "negative": [
+    {
+      "ref": "U5.33",
+      "net": "PHY_CFG_LDO0",
+      "seed": 0,
+      "target": 5
+    },
+    {
+      "ref": "U5.34",
+      "net": "PHY_CFG_LDO1",
+      "seed": 0,
+      "target": 5
+    }
+  ]
+}

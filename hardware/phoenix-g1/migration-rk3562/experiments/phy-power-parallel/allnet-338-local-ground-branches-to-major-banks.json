@@ -1,0 +1,321 @@
+{
+  "parent": "8060407058a80eb276a4fb1d0fe8eb08f36f86497dffd1f60f6963723cdc5002",
+  "raster": 0.025,
+  "max_gap_mm": 6,
+  "margin_mm": 1.4,
+  "rows": [
+    {
+      "net": "+1V1_LPDDR4",
+      "pads": [
+        "U2.D1"
+      ],
+      "min_gap": 1.7572358338253864,
+      "ground_removal_sufficient": true,
+      "base": false,
+      "eligible": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pads": [
+        "U2.D5"
+      ],
+      "min_gap": 1.0,
+      "ground_removal_sufficient": true,
+      "base": false,
+      "eligible": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pads": [
+        "U2.D8"
+      ],
+      "min_gap": 1.0,
+      "ground_removal_sufficient": true,
+      "base": false,
+      "eligible": [
+        {
+          "kind": "hub",
+          "items": [
+            150,
+            327,
+            897,
+            953
+          ],
+          "point": [
+            29.52,
+            2.8
+          ]
+        }
+      ]
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pads": [
+        "U2.D12"
+      ],
+      "min_gap": 1.7572358338253864,
+      "ground_removal_sufficient": true,
+      "base": false,
+      "eligible": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pads": [
+        "U2.F3"
+      ],
+      "ground_removal_sufficient": false
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pads": [
+        "U2.F5"
+      ],
+      "ground_removal_sufficient": false
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pads": [
+        "U2.F8"
+      ],
+      "min_gap": 0.8675082771405679,
+      "ground_removal_sufficient": true,
+      "base": false,
+      "eligible": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pads": [
+        "U2.F10"
+      ],
+      "ground_removal_sufficient": false
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pads": [
+        "U2.G2",
+        "U2.H1"
+      ],
+      "min_gap": 1.0,
+      "ground_removal_sufficient": true,
+      "base": false,
+      "eligible": [
+        {
+          "kind": "hub",
+          "items": [
+            518,
+            541,
+            961
+          ],
+          "point": [
+            24.5,
+            7.65
+          ]
+        }
+      ]
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pads": [
+        "U2.H12"
+      ],
+      "ground_removal_sufficient": false
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pads": [
+        "U2.K3"
+      ],
+      "min_gap": 1.257375819869168,
+      "ground_removal_sufficient": true,
+      "base": false,
+      "eligible": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pads": [
+        "U2.N3"
+      ],
+      "min_gap": 1.157940161590911,
+      "ground_removal_sufficient": true,
+      "base": false,
+      "eligible": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pads": [
+        "U2.R5"
+      ],
+      "min_gap": 1.4089611798225121,
+      "ground_removal_sufficient": true,
+      "base": false,
+      "eligible": [
+        {
+          "kind": "hub",
+          "items": [
+            79,
+            153,
+            540,
+            692,
+            1002
+          ],
+          "point": [
+            29.52,
+            11.3
+          ]
+        }
+      ]
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pads": [
+        "U2.U3"
+      ],
+      "ground_removal_sufficient": false
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pads": [
+        "U2.U5"
+      ],
+      "ground_removal_sufficient": false
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pads": [
+        "U2.U8"
+      ],
+      "min_gap": 1.0,
+      "ground_removal_sufficient": true,
+      "base": false,
+      "eligible": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pads": [
+        "U2.U10"
+      ],
+      "ground_removal_sufficient": false
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pads": [
+        "U2.W12"
+      ],
+      "ground_removal_sufficient": false
+    },
+    {
+      "net": "+1V8_SYS",
+      "pads": [
+        "U2.G4"
+      ],
+      "ground_removal_sufficient": false
+    },
+    {
+      "net": "+1V8_SYS",
+      "pads": [
+        "U2.G9"
+      ],
+      "ground_removal_sufficient": false
+    },
+    {
+      "net": "GND",
+      "pads": [
+        "U1.A16"
+      ],
+      "ground_removal_sufficient": false
+    },
+    {
+      "net": "GND",
+      "pads": [
+        "U1.AE21"
+      ],
+      "ground_removal_sufficient": false
+    },
+    {
+      "net": "GND",
+      "pads": [
+        "U1.AG15"
+      ],
+      "ground_removal_sufficient": false
+    },
+    {
+      "net": "GND",
+      "pads": [
+        "U1.C15"
+      ],
+      "ground_removal_sufficient": false
+    },
+    {
+      "net": "GND",
+      "pads": [
+        "U1.C21"
+      ],
+      "ground_removal_sufficient": false
+    },
+    {
+      "net": "GND",
+      "pads": [
+        "U1.C24"
+      ],
+      "ground_removal_sufficient": false
+    },
+    {
+      "net": "GND",
+      "pads": [
+        "U1.C3"
+      ],
+      "ground_removal_sufficient": false
+    },
+    {
+      "net": "GND",
+      "pads": [
+        "U1.C7"
+      ],
+      "ground_removal_sufficient": false
+    },
+    {
+      "net": "GND",
+      "pads": [
+        "U1.D2"
+      ],
+      "ground_removal_sufficient": false
+    },
+    {
+      "net": "GND",
+      "pads": [
+        "U2.G10"
+      ],
+      "ground_removal_sufficient": false
+    },
+    {
+      "net": "GND",
+      "pads": [
+        "U2.T10"
+      ],
+      "ground_removal_sufficient": false
+    },
+    {
+      "net": "GND",
+      "pads": [
+        "U1.C25",
+        "U1.D25"
+      ],
+      "ground_removal_sufficient": false
+    },
+    {
+      "net": "+3V3_IO",
+      "pads": [
+        "U1.1M14"
+      ],
+      "ground_removal_sufficient": false
+    },
+    {
+      "net": "+3V3_IO",
+      "pads": [
+        "U1.1G15",
+        "U1.1H14"
+      ],
+      "ground_removal_sufficient": false
+    }
+  ]
+}

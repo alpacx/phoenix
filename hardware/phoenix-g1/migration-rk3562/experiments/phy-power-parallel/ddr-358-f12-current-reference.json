@@ -1,0 +1,43 @@
+{
+  "sha256": "db86fd8281e8e116e73c4e0bd25ab4d30a2783e1abc3462f3223636e8ec0a166",
+  "checks": {
+    "In1.Cu": {
+      "samples": 561,
+      "without_plane": 95,
+      "outside_same_net_antipads": 0,
+      "length_mm": 2.49675144212722
+    },
+    "In4.Cu": {
+      "samples": 633,
+      "without_plane": 94,
+      "outside_same_net_antipads": 1,
+      "length_mm": 3.0593613630746868
+    }
+  },
+  "max_distance_beyond_own_antipad_mm": {
+    "In4.Cu": 0.000734659148160019
+  },
+  "closest_main_GND_via_mm": [
+    [
+      0.7668930825088984,
+      [
+        34950000,
+        3475000
+      ]
+    ],
+    [
+      1.2759800155174843,
+      [
+        34950000,
+        4775000
+      ]
+    ],
+    [
+      1.629800601300662,
+      [
+        36250000,
+        5250000
+      ]
+    ]
+  ]
+}

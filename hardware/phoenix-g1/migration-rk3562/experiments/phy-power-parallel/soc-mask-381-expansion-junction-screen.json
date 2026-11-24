@@ -1,0 +1,64 @@
+{
+  "parent_sha256": "5e8bc2155e63e8a3e750115aad07d3df4a380e67d233c5680060f245cbb50c1c",
+  "trial_count": 2184,
+  "candidates": [
+    {
+      "net": "WIFI_HOST_WAKE",
+      "junction": [
+        49325000,
+        22250000
+      ],
+      "shift_nm": [
+        -15000,
+        10000
+      ],
+      "keys": [
+        "148752e5-eb92-48d6-9731-562ea28a389f",
+        "bfbfa20c-405a-47f2-a9e3-67712066968d"
+      ],
+      "other_ends": [
+        [
+          49375000,
+          22300000
+        ],
+        [
+          49300000,
+          22250000
+        ]
+      ],
+      "before": 2,
+      "after": 0,
+      "min_before": 80163,
+      "min_after": 95156
+    },
+    {
+      "net": "WIFI_HOST_WAKE",
+      "junction": [
+        49450000,
+        22300000
+      ],
+      "shift_nm": [
+        -15000,
+        25000
+      ],
+      "keys": [
+        "52bf20e4-5b05-4ade-9656-07bfaf72e9ea",
+        "a9694e8c-df82-460a-983d-206ef1032f07"
+      ],
+      "other_ends": [
+        [
+          49475000,
+          22325000
+        ],
+        [
+          49375000,
+          22300000
+        ]
+      ],
+      "before": 2,
+      "after": 0,
+      "min_before": 79138,
+      "min_after": 100000
+    }
+  ]
+}

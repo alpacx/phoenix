@@ -8,7 +8,7 @@ import pcbnew
 
 root = Path(__file__).resolve().parents[1]
 work = root / "migration-rk3562/experiments/phy-power-parallel"
-checkpoint = json.loads((work / "layout-pmic-image-c468.json").read_text())
+checkpoint = json.loads((work / "layout-phy-r521-rear-off-drill.json").read_text())
 source = work / checkpoint["board"]
 assert hashlib.sha256(source.read_bytes()).hexdigest() == checkpoint["sha256"]
 board = pcbnew.LoadBoard(str(source))
@@ -54,5 +54,40 @@ result = {"parent_sha256": checkpoint["sha256"], "front_side_soc_center_mm": [ce
           "package_nominal_side_mm": 13.9, "projected_front_courtyards": rectangles, "mounts": mounts, "auxiliary_support_triangle": support,
           "front_footprints_without_courtyard": sorted(without_courtyard),
           "limits": "Plan view. Display, flex, clamp preload, TIM compression and enclosure heights remain unverified. A metal plate can overhang a courtyard only after a Z-clearance check."}
+# Manufacturer body dimensions at the seating plane. XY is checked against the
+# footprint fabrication rectangle before using the maximum body envelope.
+bodies = {
+    "U2": ((10.0, 15.0), (10.1, 15.1), 1.0, "migration-rk3562/experiments/lpddr4-1gb/H9HCNNN8KUMLHR.pdf p. 7"),
+    "FB2001": ((2.0, 1.25), (2.2, 1.45), 1.05, "reference/wifi-ferrite-c15957.pdf, Shape & Dimensions"),
+    "Y2001": ((5.0, 3.2), (5.2, 3.4), 1.30, "reference/wifi-clock-c5274152.pdf p. 1, OV side view"),
+    "C2204": ((2.0, 1.25), (2.2, 1.45), 0.95, "migration-rk3562/experiments/boot-component-review-parallel/sources/CL21A226MOCLRN-product.html, L/W/T Size"),
+}
+overlaps = {}
+for ref, (nominal, maximum, height, document) in bodies.items():
+    fp = board.FindFootprintByReference(ref)
+    # These four footprints currently use zero rotation and body-centred origins.
+    assert not fp.IsFlipped() and abs(fp.GetOrientationDegrees()) < 1e-6
+    fab, = [item for item in fp.GraphicalItems() if isinstance(item, pcbnew.PCB_SHAPE)
+            and item.GetLayer() == pcbnew.F_Fab and item.GetShape() == pcbnew.SHAPE_T_RECT]
+    a, b = fab.GetStart(), fab.GetEnd()
+    assert a + b == fp.GetPosition() + fp.GetPosition()
+    assert (abs(b.x-a.x), abs(b.y-a.y)) == tuple(round(v*1e6) for v in nominal)
+    fx, fy = fp.GetPosition().x/1e6, fp.GetPosition().y/1e6
+    size = 16.0
+    dx = min(x+size/2, fx+maximum[0]/2) - max(x-size/2, fx-maximum[0]/2)
+    dy = min(y+size/2, fy+maximum[1]/2) - max(y-size/2, fy-maximum[1]/2)
+    overlaps[ref] = {"source": document, "maximum_body_mm": [*maximum, height],
+                     "projected_overlap_with_16mm_plate_mm": [round(max(dx,0),3),round(max(dy,0),3)],
+                     "height_above_minimum_soc_mm": round(height-0.795,3)}
+result["seating_plane_dimensions"] = {
+    "soc_source": "reference/rk3562-datasheet-v2.1.pdf p. 17, figures 2-4 and 2-5",
+    "soc_height_min_nom_max_mm": [0.795, 0.870, 0.947],
+    "soc_body_xy_min_nom_max_mm": [13.80, 13.90, 14.00],
+    "package_height_span_mm": 0.152,
+    "12mm_square_centered_contact_to_minimum_package_edge_mm": 0.90,
+    "16mm_plate_overlapping_bodies": overlaps,
+    "courtyards_with_unverified_body_heights": sorted(set(rectangles[3]["intersecting_front_courtyards"])-set(bodies)),
+    "scope": "Analysis uses drawing heights on a common seating plane. Reflow, tilt, PCB warp, case and fastener tolerances, TIM thickness after compression and acceptable package pressure still require a full assembly tolerance stack. XY contact projection does not establish permissible contact area or thermal resistance."
+}
 (work/"rk3562-spreader-xy.json").write_text(json.dumps(result,indent=2)+"\n")
 print([(row["square_mm"],len(row["intersecting_front_courtyards"])) for row in rectangles])

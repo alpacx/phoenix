@@ -1,0 +1,139 @@
+{
+  "checkpoint": "e423038e29cb08d57c2cdb0188bf6e521d7847925f9d72cd24118cf1d73b6ae9",
+  "rows": [
+    {
+      "ref": "R510",
+      "side": 0,
+      "supplied": [
+        false,
+        true
+      ],
+      "steps": {
+        "body": 36264,
+        "no_drill": 7808
+      },
+      "single_obstacles": [
+        {
+          "ids": [
+            3898,
+            3899
+          ],
+          "nets": [
+            "PHY_RXD3",
+            "PHY_RXD3"
+          ],
+          "count": 4,
+          "examples": [
+            [
+              68.0,
+              30.0,
+              -180
+            ],
+            [
+              68.0,
+              30.0,
+              -5
+            ]
+          ]
+        },
+        {
+          "ids": [
+            2220,
+            4506,
+            4706
+          ],
+          "nets": [
+            "+3V3_PHY",
+            "PHY_RESET_N",
+            "PHY_RESET_N"
+          ],
+          "count": 51,
+          "examples": [
+            [
+              67.15,
+              30.55,
+              -115
+            ],
+            [
+              67.2,
+              30.55,
+              -115
+            ]
+          ]
+        },
+        {
+          "ids": [
+            4506,
+            4524,
+            4706
+          ],
+          "nets": [
+            "PHY_RESET_N",
+            "PHY_RESET_N",
+            "PHY_RESET_N"
+          ],
+          "count": 19,
+          "examples": [
+            [
+              67.3,
+              30.6,
+              -155
+            ],
+            [
+              67.3,
+              30.5,
+              15
+            ]
+          ]
+        },
+        {
+          "ids": [
+            3898,
+            3899,
+            4524
+          ],
+          "nets": [
+            "PHY_RXD3",
+            "PHY_RXD3",
+            "PHY_RESET_N"
+          ],
+          "count": 12,
+          "examples": [
+            [
+              68.0,
+              30.05,
+              -180
+            ],
+            [
+              68.0,
+              30.1,
+              -180
+            ]
+          ]
+        },
+        {
+          "ids": [
+            1092,
+            4524,
+            4706
+          ],
+          "nets": [
+            "GND",
+            "PHY_RESET_N",
+            "PHY_RESET_N"
+          ],
+          "count": 1,
+          "examples": [
+            [
+              67.75,
+              30.5,
+              15
+            ]
+          ]
+        }
+      ],
+      "candidates": 0,
+      "best": []
+    }
+  ]
+}

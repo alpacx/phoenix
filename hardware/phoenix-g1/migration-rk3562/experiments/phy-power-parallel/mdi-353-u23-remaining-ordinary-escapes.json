@@ -1,0 +1,58 @@
+{
+  "sha256": "4977fc7382da95e47c256aa2cc2b0b2635c773a8cad6d42c8bc3bc59f49afe94",
+  "geometry": {
+    "width_mm": 0.2,
+    "via_mm": [
+      0.45,
+      0.2
+    ],
+    "max_axial_mm": 2,
+    "center_spacing_mm": [
+      0.65,
+      0.9
+    ]
+  },
+  "results": [
+    {
+      "pair": 3,
+      "component": "U23",
+      "pair_spacing_valid": 442,
+      "viable": 0,
+      "most_common_obstacles": [
+        [
+          "GND",
+          856
+        ],
+        [
+          "ETH_MDI0_P",
+          435
+        ],
+        [
+          "U23.3",
+          318
+        ],
+        [
+          "U23.6",
+          221
+        ],
+        [
+          "U23.7",
+          221
+        ],
+        [
+          "U23.8",
+          191
+        ],
+        [
+          "J2.SHIELD1",
+          116
+        ],
+        [
+          "ETH_MDI0_N",
+          99
+        ]
+      ],
+      "examples": []
+    }
+  ]
+}

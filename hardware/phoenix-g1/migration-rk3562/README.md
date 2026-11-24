@@ -1,6 +1,234 @@
-## Condensatore sull’uscita analogica da 1,8 V del PMIC
+# Phoenix RK3562 — checkpoint del PCB
 
-Il checkpoint adottato è `experiments/phy-power-parallel/layout-pmic-image-c468.json`. Restano 399 unioni su 200 reti. C468 da 1 µF raggiunge U4.6 sulla faccia superiore attraverso 2,494 mm di rame. Il tratto sulla piazzola è largo 0,20 mm e lungo 0,304 mm. Il resto è largo 0,30 mm. Il ritorno GND misura 0,598 mm fino al foro già collegato al piano. C421 è stato traslato di 0,20 mm e mantiene ciascuno dei sei contatti diretti precedenti. Il controllo sui bordi e sul centro delle piste conferma che il piano di riferimento è continuo.
+## Distribuzione locale di +1V1_LPDDR4
+
+Il [PCB corrente](experiments/phy-power-parallel/layout-phy-r521-rear-off-drill.json) ha **336 unioni aperte su 196 reti**. Sulla LPDDR4 il CAD verifica le sfere collegate al rispettivo banco o piano di massa: 28 su 46 a +1V1_LPDDR4, 2 su 8 a +1V8_SYS, 56 su 58 a GND. Restano da qualificare la risposta ai transitori e la distribuzione della corrente. [Inventario per sfera](experiments/phy-power-parallel/ddr-336-supply-balls-by-physical-bank.json)
+
+Sul PCB ricaricato, i sei interventi su R1507, R514, R2103, C1305, C1011 e R521 hanno distanze minime dal bordo dei fori superiori a 0,11 mm. Restano undici intersezioni foro–rame su passivi. [Distanze misurate nel CAD](experiments/phy-power-parallel/passive-336r-six-reloaded-land-gaps.json) · [Intersezioni residue](experiments/phy-power-parallel/passive-336r-drill-overlap-inventory.json)
+
+Il pull-up RXD3 R521 sul retro raggiunge il via con un ramo da 0,20 mm fuori dalla sua piazzola. Sul fronte il medesimo foro interseca ancora R510.2. Il pin U5.22 resta da collegare.
+
+C1011 è ruotato di 15° sullo stesso centro. Il rame del rail CPU e il ritorno di massa conservano tutte le piste e tutti i via. Il foro del rail è fuori dalla piazzola.
+
+C1305 mantiene il rail da 0,80 mm e ha un ritorno dedicato da 0,40 mm verso un nuovo via 0,60/0,30 mm. Le lunghezze positive e di massa complessive fra le piazzole e i via scendono da 2,801 a 2,666 mm. Il foro di alimentazione è fuori dalla piazzola. [Verifica della disposizione](experiments/phy-power-parallel/bulk-336p-simultaneous-capacitor-and-return-via.json)
+
+Il pull-up R2103 sul retro mantiene CS0 e alimentazione PMU, con il foro CS0 fuori piazzola. Il rame aggiunto è da 0,20 mm sul segnale e 0,35 mm sul rail.
+
+Anche il pull-up MDIO R514 ha il foro di alimentazione fuori piazzola e mantiene il ramo da 0,20 mm verso il via PHY. Il segnale MDIO del resistore resta aperto.
+
+Il resistore R1507 è spostato di 0,60 mm per liberare dal foro di RESET_N la sua piazzola. Il raccordo da 0,20 mm va direttamente al via esistente. Il collegamento THERMAL_SHUTDOWN al SoC è ancora aperto.
+
+Il foro passante sul ramo di alimentazione BUCK5 è stato spostato fuori dalla piazzola positiva di C425. La distanza nominale foro–rame della piazzola è 0,125 mm. Il rame tra condensatore e U4.54 è conservato. Il raccordo tra strati aggiunge 0,95 mm per lato e la distanza dal via di massa più vicino passa da 2,283 a 2,864 mm. La risposta ai transitori resta da misurare.
+
+Il via di massa del condensatore di carico C521 del quarzo PHY ha ora 0,121 mm di distanza nominale fra foro e piazzola. Il percorso di massa si allunga di 0,212 mm. Avvio e frequenza del quarzo restano da misurare sul prototipo.
+
+Sul ramo di pull-up eMMC D0 il foro passante dista ora 0,134 mm dal rame di R8001.2. Il ramo è più lungo di 0,192 mm. Il via di ritorno più vicino dista 0,680 mm. Restano aperte la chiusura e la verifica temporale del bus eMMC.
+
+Le sfere N11 e P12 della LPDDR4 raggiungono la massa comune con un raccordo F.Cu da 0,20 mm lungo 1,975 mm. La pista di alimentazione sulla sfera R12 conserva 0,35 mm di larghezza e termina 30 µm più a est. Il riferimento In1 è continuo in tutti i punti campionati lungo i due percorsi. [Verifica CAD](experiments/phy-power-parallel/ground-343-n11-connected-return.json)
+
+Le sfere R1 e T2 raggiungono ora C1646 e l’uscita di L403 su un ramo F.Cu da 0,35 mm. Per liberare il passaggio, P1 usa un nuovo via di massa da 0,60/0,30 mm. Il vecchio via resta collegato. Sul tratto di massa modificato la resistenza geometrica passa da 3,89 a 3,60 quadri, mentre la distanza fra il nuovo via e il via VDD più vicino cresce da 0,81 a 1,57 mm. L’impedenza del percorso resta da qualificare. [Geometria e riferimento](experiments/phy-power-parallel/ddr-342-r1-barrel-reference-boundary.json)
+
+C1625 raggiunge il banco +3V3_PMU attraverso 1,195 mm di rame. Il ritorno di massa misura 0,674 mm e la piazzola positiva dista 3,155 mm dalla sfera SoC 1L11 in proiezione. Il collegamento alle sfere del SoC e quello a U4.31 restano aperti. [Verifica CAD](experiments/phy-power-parallel/pmu-341-c1625-return-reference.json)
+
+Anche C1626 raggiunge il banco +3V3_PMU. Il rame misura 0,365 mm sul positivo e 0,716 mm dal terminale di massa al nuovo via da 0,45/0,20 mm. Le sfere SoC e U4.31 restano da collegare. [Verifica CAD](experiments/phy-power-parallel/pmu-340-c1626-return-reference.json)
+
+La sfera H5 della LPDDR4 raggiunge H8 e L403.2 tramite 2,242 mm di rame da 0,35 mm. Due rami di massa usano il tronco già collegato al via da 0,60/0,30 mm. Il via di cucitura preesistente è conservato. [Verifica CAD](experiments/phy-power-parallel/ddr-339-h5-local-reference.json)
+
+La sfera R5 è connessa a L403 con due tratti da 0,35 mm e lunghezza totale 1,562 mm. Il via GND riposizionato riunisce le due sfere e il ritorno di C1632. Un secondo via GND da 0,45/0,20 mm porta il ritorno più vicino a CS0N_B da 1,173 a 0,790 mm. [Verifica dei siti](experiments/phy-power-parallel/ddr-336-r5-cs-return-site-screen.json)
+
+Il banco di L403 alimenta ora anche le sfere G2 e H1. Il ramo GND di J1 raggiunge la piazzola K2 e condivide il suo accesso al piano. L’impedenza del ritorno condiviso resta da validare. [Percorsi CAD](experiments/phy-power-parallel/ddr-338-g2-final-paths.json)
+
+Le sfere W5 e W8 della LPDDR4 sono collegate tra loro con 2,168 mm di rame da 0,35 mm. Per alimentarle resta da raccordare questo gruppo al banco. I due rami di massa hanno accessi separati. La distanza dal via di ritorno più vicino è conservata entro 1 µm per i via delle altre reti entro 3 mm dalla modifica. [Verifica dei ritorni](experiments/phy-power-parallel/ddr-338-w5-nearby-return-vias.json)
+
+Il banco di C1646 è già collegato al lato di uscita L403.2. Restano aperti il nodo di commutazione PMIC_SW3 verso L403.1 e il feedback DDR_FB. Caduta complessiva e transitori richiedono verifica elettrica. Il PCB ricaricato conserva 861 coppie fisiche e passa il DRC differenziale. [Verifica dei singoli tratti](experiments/phy-power-parallel/ddr-377-package-branch-native.json) · [Inventario delle connessioni](experiments/phy-power-parallel/phy-r521-rear-off-drill-independent-inventory.json)
+
+Due ulteriori raccordi da 0,30 mm, lunghi 0,711 mm, collegano AA10 al banco alimentato e A9 al gruppo B8–B10. Il gruppo A9–B8–B10 ora raggiunge L403.2. Con rame da 35 µm a 20 °C ciascun tratto vale circa 1,17 mΩ, esclusi pad e package. [Verifica di rame, riferimento e DRC](experiments/phy-power-parallel/ddr-365-local-300um-native.json)
+
+La sfera W1 raggiunge L403.2 con 2,425 mm di rame da 0,30 mm sul fronte, un via da 0,45/0,20 mm e 1,261 mm di rame da 0,50 mm sul retro. I due via di massa più vicini distano 0,805 e 0,850 mm. Tre campioni ai bordi si trovano entro 2,5 µm oltre il raggio nominale degli antipad del rail. [Continuità](experiments/phy-power-parallel/ddr-363-w1-local-feed-native.json) · [Ritorni](experiments/phy-power-parallel/ddr-362-w1-current-reference.json)
+
+Anche H8 raggiunge L403.2. Il ramo corre per 2,070 mm sul fronte e 9,819 mm su In2. La proiezione su In1 conserva il riferimento per le altre piste sui 305 campioni confrontati. La resistenza del ramo e la risposta del carico richiedono verifica sullo stackup definitivo. [Misure geometriche](experiments/phy-power-parallel/ddr-361-h8-current-reference.json)
+
+R8 raggiunge la stessa uscita con 1,994 mm sul fronte e 11,184 mm su In2. Il via GND più vicino dista 1,152 mm. I 59 campioni sugli altri segnali non mostrano perdita di piano rispetto al checkpoint precedente. [Riferimento del ramo R8](experiments/phy-power-parallel/ddr-360-r8-current-reference.json)
+
+K1 e N1 raggiungono L403.2 tramite un nuovo via e un percorso su In3. Nessuna perdita di piano sui 238 campioni delle piste circostanti. La prima variante A9 è stata scartata perché il suo antipad interrompe il riferimento di DM1_A, DQ14_A e DQ15_A in 89 campioni. [Verifica K1](experiments/phy-power-parallel/ddr-359-k1-current-reference.json) · [Esclusione A9](experiments/phy-power-parallel/ddr-358-a9-foreign-track-plane-delta.json)
+
+Sul retro, il condensatore C443 da 22 µF raggiunge i due via di uscita di L403 con piste da 0,8 mm lunghe 1,445 e 2,192 mm. I due rami di massa da 0,985 mm terminano su via da 0,60/0,30 mm collegati a entrambi i piani. Nel campionamento CAD due punti ai bordi delle piste di alimentazione ricadono appena oltre il raggio nominale degli antipad. La risposta ai transitori del convertitore rimane da verificare. [DRC e continuità](experiments/phy-power-parallel/ddr-366-c443-offset-native.json) · [Geometria dei ritorni](experiments/phy-power-parallel/ddr-365-c443-current-loop-reference.json)
+
+Il ramo VDD1 da 1,8 V raggiunge F12. Il collegamento del singolo pin misura 2,497 mm da 0,20 mm sul fronte e 3,059 mm da 0,50 mm su In3. Il via GND più vicino dista 0,767 mm. La geometria conserva il riferimento di tutte le piste vicine nei 224 punti confrontati. [Ramo F12](experiments/phy-power-parallel/ddr-358-f12-current-reference.json)
+
+Il confronto dei riempimenti GND fra i checkpoint a 383 e 358 unioni copre 12 posizioni di via e 3.331 punti sulle piste preesistenti. Le 60 variazioni di copertura ricadono tutte nell’antipad del medesimo rail da 1,1 V sul retro. La stessa verifica sulla variante A9 respinta rileva 89 punti di perdita su tre segnali DDR. [Confronto cumulativo](experiments/phy-power-parallel/return-plane-comparison-383-to-358.json) · [Controprova A9](experiments/phy-power-parallel/return-plane-comparison-a9-exclusion.json)
+
+Per A9 il nuovo passaggio da 0,25 mm conserva il piano sotto tutti i segnali vicini. L’alimentazione percorre 4,835 mm totali sul fronte e su In2. Un via GND da 0,45/0,20 mm riunisce i due piani a 0,707 mm dal via del rail. [Verifica del percorso](experiments/phy-power-parallel/ddr-357-a9-safe-current-reference.json) · [Verifica della cucitura GND](experiments/phy-power-parallel/ddr-357-a9-stitch-native.json)
+
+Il ritorno di C1605.2 raggiunge In1 e In4 con un via ordinario da 0,45/0,20 mm e due tratti da 0,30 mm. La distanza del via di +3V3_IO più vicino da un ritorno GND scende da 6,46 a 1,26 mm. C1605.1, sul rail VDD_CPU, è ancora aperto. [Verifica dei due piani, continuità e DRC](experiments/phy-power-parallel/ground-356-c1605-io-stitch-native.json) · [Coesistenza con il selettore USB](experiments/phy-power-parallel/usb-selector-c1605-io-ground-return-coexistence.json)
+
+Le sfere GND M27 e P26 del processore raggiungono ora la massa principale con 5,748 mm di pista da 0,25 mm sul fronte. Tutti i 1.518 campioni centrali e laterali hanno un piano di riferimento su In1. Il ramo presenta circa 11,3 mΩ di resistenza del rame a 20 °C, ipotizzando 35 µm di spessore. [Continuità, maschera e DRC](experiments/phy-power-parallel/ground-355-m27-p26-native.json) · [Coesistenza del selettore USB](experiments/phy-power-parallel/usb-selector-m27-p26-ground-coexistence.json)
+
+Per G3, T3 e T10 della LPDDR4, il controllo a passo 12,5 µm usa il contorno dell’apertura di maschera e il foro da 0,20 mm. Il miglior margine geometrico foro–apertura raggiunge 0,088 mm su T10 e circa 0,002 mm su G3 e T3. Riservando nominalmente 0,20 mm, tutti i candidati a singolo ostacolo ricadono contro altre piazzole fisse del package. Questi via restano esclusi sulla versione adottata. [Finestre ai bordi delle piazzole](experiments/phy-power-parallel/ground-355-lpddr-offland-mask-web.json) · [Ostacoli rimanenti](experiments/phy-power-parallel/ground-355-lpddr-reserved-mask-obstacles.json)
+
+Il secondo condensatore di uscita da 22 µF, C433, è ora sul retro. Due piste da 0,8 mm raggiungono l’uscita di L403 e due rami da 0,8 mm arrivano ai piani GND mediante fori da 0,30 mm. Il nuovo tratto di PMIC_SCL misura 9,187 mm con pista da 0,20 mm. Il controllo a passo 12 µm dei tre percorsi conserva i riferimenti salvo gli antipad del rispettivo segnale. Il regolatore richiede ancora la chiusura di SW e feedback e la verifica dei transitori. [Verifica su rame e fori](experiments/phy-power-parallel/ddr-354-c433-restored-scl-current-qualification.json) · [DRC e connessioni](experiments/phy-power-parallel/ddr-354-c433-restored-scl-terminals.json)
+
+### Alimentazione eMMC
+
+Il condensatore di bypass da 100 nF C8003 è ora sul fronte e raggiunge la sfera P3 attraverso la via VCCQ esistente. Le due piste nuove sono larghe 0,30 mm. Il ramo di alimentazione misura 1,003 mm fino alla via e il ramo di massa 1,098 mm. Sul PCB ricaricato le due piazzole raggiungono rispettivamente P3 e la massa principale. Restano da collegare alla distribuzione VCCQ i gruppi C6, M4–N4, P5 e il dominio del processore. [Verifica elettrica CAD e DRC](experiments/phy-power-parallel/emmc-353-c8003-native-p3.json)
+
+### Bypass locale del processore
+
+Il condensatore C1602 da 4,7 µF raggiunge il gruppo di sei sfere VDD_CPU attraverso la stessa via del carico. I due rami sul retro hanno larghezza 0,60 mm. Entrambi arrivano ai terminali previsti e conservano il riferimento a In4, salvo l’antipad del via di alimentazione. Il collegamento tra l’uscita dell’induttore L1001 e il gruppo del processore è ancora aperto. [Controllo delle piazzole e dei ritorni](experiments/phy-power-parallel/cpu-352-c1602-local-decoupling.json)
+
+### Alimentazione della sfera P5 della eMMC
+
+La sfera P5 è collegata a P3 sulla rete VCCQ tramite rame da 0,225 mm. I ritorni di P4 e P6 mantengono lo stesso foro passante da 0,30 mm e le stesse larghezze delle piste di massa. Il diametro esterno delle due vie è ora 0,55 mm, con anello nominale da 0,125 mm. Le regole del progetto richiedono almeno 0,10 mm. JLCPCB indica per il multistrato una differenza diametrale preferita di almeno 0,15 mm, qui pari a 0,25 mm. I controlli CAD non sostituiscono l’ispezione e la prova di accensione. [PCB ricaricato e verifiche](experiments/phy-power-parallel/emmc-351-p5-supply-coupon.json) · [Capacità JLCPCB](https://jlcpcb.com/capabilities/pcb-capabilities)
+
+### Alimentazione I/O del processore
+
+Un ramo da 0,30 mm collega le sfere 1G15 e 1H14 di U1. Per ricavare il passaggio è stato spostato di 0,088 mm il terminale di una pista di massa da 0,50 mm entro la sua piazzola. Le connessioni di ritorno di 1F15, 1G14 e 1G13 sono conservate. Il piano di massa copre tutti i 582 campioni del controllo locale. Il collegamento fra queste due sfere lascia aperta l’alimentazione degli altri gruppi I/O. [Verifica CAD](experiments/phy-power-parallel/soc-350-g15-h14-io-native.json)
+
+### Alimentazione LPDDR4 di U2.R12
+
+La sfera R12 ora raggiunge il banco di uscita di L403 attraverso N12. La pista da 0,35 mm misura 1,596 mm. Un tratto del PWM del display è stato spostato lateralmente di 0,225 mm mantenendo entrambi gli estremi e la larghezza da 0,20 mm. I 1.404 campioni su entrambi i percorsi sono coperti da massa su In1. Il percorso di commutazione e il feedback di BUCK3 rimangono aperti. [Verifica CAD e continuità](experiments/phy-power-parallel/ddr-349-n12-r12-pwm-native.json)
+
+### Ritorno di massa della sfera U2.T12
+
+U2.T12 raggiunge la massa principale attraverso U2.V12. I tre tratti sul fronte misurano in totale 1,459 mm e hanno larghezza 0,25 mm. Il piano In1 copre tutti i 378 campioni del ramo. Il controllo ha verificato la continuità fino alla piazzola esposta U4.69 e il rame precedente è conservato per intero. [Verifica sul PCB ricaricato](experiments/phy-power-parallel/ddr-348-t12-ground-native.json)
+
+### Masse G3 e T3 della LPDDR4
+
+Due rami simmetrici da 0,25 mm collegano G3 a J3 e T3 a P3. Ogni ramo misura 1,341 mm, resta su F.Cu e ha un riferimento continuo su In1. L’intersezione geometrica fra rame di pista e piazzola vale 0,0241 mm² alla partenza e 0,0271 mm² all’arrivo. Il PCB ricaricato conferma entrambe le connessioni alla massa principale. [Contatti e continuità](experiments/phy-power-parallel/ddr-348-ground-g3-t3-pad-entry.json)
+
+### Induttore e configurazione del PHY Ethernet
+
+I pin 33 e 34 di U5 raggiungono rispettivamente R528 sul retro e R529 sul fronte. Le due resistenze raggiungono la massa principale. La rotazione di L501 accorcia il percorso commutato a 2,12 mm e porta la sua distanza minima dal rame del quarzo da 0,35 a 1,48 mm. Per l’uscita filtrata la distanza passa da 1,73 a 1,24 mm. Il ramo di distribuzione su In3 passa da 5,20 a 6,26 mm, mantenendo 1,55 mm di larghezza e tutti i gruppi di carico precedenti. Lo spostamento di un via di R528 di 10 µm in X e 20 µm in Y conserva il riferimento di massa su tutti i 2.374 campioni controllati sulle piste preesistenti vicine ai nuovi via. La risposta del convertitore e il campionamento delle strap all’avvio restano da misurare sul prototipo. [Connettività sul PCB](experiments/phy-power-parallel/layout-phy-both-boot-straps.json) · [Distanze dal quarzo](experiments/phy-power-parallel/phy-345-strap34-native-complete.json)
+
+### Dissipatore passivo
+
+Il disegno Rockchip quota il package da 0,795 a 0,947 mm rispetto al piano di appoggio. Un contatto quadrato da 12 mm centrato lascia almeno 0,90 mm per lato rispetto al contorno minimo del package. Una piastra piana da 16 mm si sovrappone invece al corpo di Y2001 per 0,35 × 3,40 mm nel caso dimensionale massimo. L’oscillatore può sporgere di 0,505 mm sopra il processore prima di includere le tolleranze di montaggio. Per quella piastra serve uno scarico locale oppure una distanza verticale che comprenda anche saldature, flessione e tolleranze del case. La verifica della temperatura e del precarico richiede il prototipo. [Quote e sovrapposizioni sul PCB corrente](experiments/phy-power-parallel/rk3562-spreader-xy.json)
+
+### Ethernet Gigabit
+
+Un via GND da 0,45/0,20 mm collega In1 e In4 a 1,154 mm dal passaggio di PHY_RXD3, prima a 1,860 mm dal ritorno più vicino. Sul PCB adottato rimangono 356 unioni. Il controllo conserva i corridoi dei quattro coupon Ethernet e la copertura delle piste vicine. Il ritorno aggiuntivo di PHY_XIN resta sul solo coupon, perché occupa un corridoio MDI0. [Verifica del riferimento e degli ingombri](experiments/phy-power-parallel/phy-356-reserved-return-ethernet-compatibility.json)
+
+Il modello planare dei due stack dà 100,7 Ω sul 3313 e 97,5 Ω sul 7628 per una coppia interna con piste e spazio da 0,20 mm. Il coupon tra U23 e J2 collega entrambe le polarità della coppia MDI3. Il DRC differenziale conserva i controlli precedenti e lo scarto di lunghezza planare è 0,003 mm. La proiezione su strato adiacente mostra però 2,179 mm di sovrapposizione quasi parallela tra la polarità positiva e SDA dell'espansione. Il coupon è separato dal PCB corrente in attesa della correzione o di una verifica elettrica della geometria. Restano da collegare U5 e le altre coppie. [Geometrie sui due stack](experiments/phy-power-parallel/mdi-357-two-stack-geometry.json) · [Continuità e DRC](experiments/phy-power-parallel/mdi-355-matched-native.json) · [Riferimenti e incroci](experiments/phy-power-parallel/mdi-355-matched-reference-map.json)
+
+Sul secondo coupon MDI3 il percorso evita le sovrapposizioni fra conduttori di reti diverse con angolo inferiore a 30°. Le due polarità attraversano ancora il rame di +5V_MAIN per circa 4,97 e 3,59 mm di proiezione complessiva. Lo scarto planare è 0,00274 mm, con ritorno al cambio di strato a 0,75 e 1,34 mm. Le 818 coppie fisiche superano il controllo sul PCB ricaricato. Il coupon rimane separato per verificare la discontinuità locale di impedenza e il fanout del PHY. [DRC e continuità](experiments/phy-power-parallel/mdi-355-opposite-matched-native.json) · [Incroci per lunghezza e angolo](experiments/phy-power-parallel/mdi-355-opposite-matched-map.json) · [Confronto piani di massa](experiments/phy-power-parallel/mdi-355-opposite-matched-foreign-plane.json)
+
+La simulazione elettrostatica della geometria interna da 0,20/0,214 mm dà 103,3 Ω sul 3313 e 99,9 Ω sul 7628. Introducendo un piano equipotenziale continuo sullo strato adiacente i valori diventano rispettivamente 75,0 e 88,8 Ω. Il rame reale attraversa la coppia a tratti e in modo asimmetrico. La simulazione individua una discontinuità da qualificare con il disegno tridimensionale del canale o con un coupon fisico. [Parametri, convergenza e risposte delle sezioni ipotetiche](experiments/phy-power-parallel/mdi-355-adjacent-rail-sensitivity.json)
+
+La prova di riposizionamento della protezione Ethernet U22 trova 74 pose con quattro uscite contemporanee; una, sul retro a (75,25; 18,50) mm con rotazione 180°, ammette anche i due nuovi collegamenti di massa. Sulla copia KiCad questi sei collegamenti sono continui e le 816 coppie precedenti sono conservate. Il controllo segnala due vecchi tratti di massa pendenti e quattro via di segnale in attesa di instradamento. La scheda adottata resta al checkpoint da 357. [Uscite e ritorni](experiments/phy-power-parallel/mdi-357-u22-four-launches-ground.json) · [Verifica nativa](experiments/phy-power-parallel/mdi-357-u22-native-jack-launch.json) · [Pinout TPD4E05U06DQA, tabella 4-2](https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf)
+
+Dalla nuova posizione la prima coppia U22.1/.2 raggiunge J2.P2/P3 nella copia, attraverso In3 e In2. Il controllo nativo scende da 357 a 355 unioni e conserva i due rami di massa. Per la seconda coppia sono stati analizzati 207 corridoi preliminari: ricostruendo le piste con l'ingombro reale entrambe le polarità interferiscono in tutti i casi. La variante resta separata. [Prima coppia ricaricata](experiments/phy-power-parallel/mdi-357-u22-pair0-native.json) · [Controllo reciproco della seconda](experiments/phy-power-parallel/mdi-353-u22-both-pairs-native.json)
+
+La tabella 4-2 di TI consente di proseguire una pista sui piedini NC del package DQA. Facendo passare la polarità negativa sul pad U22.6, si chiude anche il tratto U22–J2 della seconda coppia. Il coupon arriva a 353 unioni residue, con 821 coppie di pad verificate dopo la ricarica e nessuna nuova violazione DRC o apertura di maschera. Il coupon comprende uno schema e una variante locale del simbolo. L’esportazione dell’intero progetto conferma che U22.6 è l’unica assegnazione modificata. Prima dell’adozione occorrono la verifica del percorso fino al PHY e la revisione dell’impedenza al connettore. Sovrapponendo la variante MDI3 si ottengono 22 violazioni aggiuntive, fra cui nove corti: i due disegni non si possono combinare direttamente. [Copia U22 a due coppie](experiments/phy-power-parallel/mdi-353-u22-flowthrough-ground-cleanup.json) · [Confronto delle netlist](experiments/phy-power-parallel/mdi-353-u22-schematic-pin-parity.json) · [Prova di coesistenza con MDI3](experiments/phy-power-parallel/mdi-351-three-jack-pairs-coexistence.json)
+
+La correzione di lunghezza sul coupon da 353 porta gli scarti planari a meno di 0,001 mm per entrambe le coppie. Sono state ricaricate e controllate tutte le 821 coppie di pad; il DRC comparativo non aggiunge violazioni. Questi valori coprono il tratto di rame dalla protezione al connettore e non includono i contatti interni del jack. [Rame salvato e coppie controllate](experiments/phy-power-parallel/coupon-u22-mdi01-matched.json) · [Proiezioni sui piani di riferimento](experiments/phy-power-parallel/mdi-353-u22-final-reference.json)
+
+
+
+
+
+
+
+Con MDI3 mantenuta, una diversa posa di U22 collega MDI1 al jack e ripristina le due masse sul coupon da 353. Per MDI0 il confronto trova 244 finestre per il cambio strato, tutte occupate rispetto alla coppia di via ordinari richiesta. Il coupon resta separato dal layout adottato. [Alternative con MDI3](experiments/phy-power-parallel/coupon-u22-ports-with-mdi3.json) · [Finestre di transizione](experiments/phy-power-parallel/mdi-353-u22-pair0-sliding-transfers.json)
+
+Sul PHY la separazione nominale di 0,200 mm fra i conduttori in uscita dai pin adiacenti permette le otto uscite contemporanee quando si libera temporaneamente il campo di alimentazione. Sulla copia del PCB interamente popolata, KiCad ricollega ciascuno degli otto pad al proprio via senza violazioni reciproche fra le otto uscite. Il rame esistente produce però 52 corti, sei violazioni foro–rame e cinque foro–foro che coinvolgono queste uscite. Per usare la geometria occorre riprogettare i tratti di alimentazione e i bypass presenti nella stessa zona. [Compatibilità combinatoria](experiments/phy-power-parallel/mdi-357-phy-exhaustive-pair-domain-compatibility.json) · [Conflitti per UUID sul PCB popolato](experiments/phy-power-parallel/mdi-357-phy-eight-populated-obstructions.json)
+
+### GPIO di espansione
+
+Il controllo ha considerato sfere libere con pull-down di reset e banco già alimentato a 3,3 V. Nel prolungamento dei sette percorsi che raggiungevano il confine della prima ricerca, U1.L2 e U1.M2 raggiungono un via ordinario rispettivamente dopo 3,761 e 3,719 mm di pista. Sul connettore le regioni accessibili dai contatti J3.29 e J3.30 si chiudono entro 4,225 e 7,382 mm senza un sito per il via. Il calcolo comprende il contorno fisico della scheda e i keepout. Il pinout resta quello del checkpoint. [Selezione e percorsi sul rame](experiments/phy-power-parallel/gpio-357-reaching-boundary-extended-escapes.json)
+
+Su una copia successiva J3.30 raggiunge U1.L2 conservando il pinout. Il tratto di alimentazione +5V_ADDON resta largo 1,00 mm e passa da 5,400 a 5,731 mm per lasciare spazio al via del connettore. Il percorso completo del segnale misura 127,718 mm e conserva tutte le 818 coppie verificate senza violazioni DRC aggiuntive. Il via del connettore conserva il riferimento di EXP_GPIO0. La verifica del segnale ai centri e ai bordi non rileva vuoti al di fuori dei propri antipad. La distanza dal ritorno GND più vicino raggiunge 2,067 mm. Il percorso rimane su coupon in attesa di una geometria più corta e di verifiche dei fronti. [Coupon EXP_GPIO3](experiments/phy-power-parallel/gpio-355-gpio3-referenced-native.json) · [Lunghezza per strato, copertura e continuità](experiments/phy-power-parallel/gpio-355-gpio3-referenced-native-profile.json)
+
+Nel confronto fra audit storico, schema corrente e PCB, dieci sfere precedentemente elencate come inutilizzate servono ora LPDDR4, eMMC o USB di espansione. In particolare L26 porta EMMC_STRB. Lo schema corrente e il PCB concordano su tutte e dieci. [Assegnazioni correnti](experiments/phy-power-parallel/soc-357-legacy-nc-live-assignments.json)
+
+### Massa della eMMC
+
+Il [checkpoint precedente](experiments/phy-power-parallel/layout-emmc-a6-ground.json) ha **377 unioni aperte su 198 reti**. La sfera A6 della flash raggiunge la massa principale con una via ordinaria da 0,45/0,20 mm. Una deviazione locale di 0,050 mm su In2 mantiene EXP_GPIO1 alla larghezza originaria di 0,20 mm. Il controllo su disco conserva le 795 coppie di pad, la copertura di riferimento precedente nei 1.998 campioni e le distanze preesistenti dalle aperture di maschera. [Verifica della connessione](experiments/phy-power-parallel/emmc-378-a6-ground-native.json) · [Coesistenza del selettore USB](experiments/phy-power-parallel/usb-selector-emmc-a6-coexistence.json)
+
+### Collegamenti di massa sotto SoC e LPDDR4
+
+Il [checkpoint precedente](experiments/phy-power-parallel/layout-lpddr-n11-p12-ground.json) ha **378 unioni aperte su 198 reti**. La coppia di massa N11–P12 della LPDDR4 è collegata con un ramo da 0,225 mm lungo 0,791 mm. Resta da portarla al piano GND principale. [Verifica della LPDDR4](experiments/phy-power-parallel/ground-379-lpddr-n11-p12-native.json)
+
+ Due piste frontali da 0,25 mm uniscono C25–D25 e M27–P26 del SoC, rispettivamente per 0,250 e 0,920 mm. Entrambe le coppie richiedono ancora una connessione al piano GND principale. La verifica cumulativa su disco conserva 794 coppie di pad, la copertura del piano In1 e il conteggio delle aperture di maschera. [Verifica delle piste](experiments/phy-power-parallel/ground-381-soc-ddr-land-qualified-native.json) · [Inventario elettrico indipendente](experiments/phy-power-parallel/soc-ground-ball-pairs-independent-inventory.json)
+
+### Aperture della maschera sul SoC
+
+Il [checkpoint precedente](experiments/phy-power-parallel/layout-soc-mask-four-junctions.json) mantiene **381 unioni aperte su 198 reti**. Lo spostamento congiunto di 30 coppie di vertici riduce da 207 a 147 le occorrenze di un segmento entro 90 µm dall’apertura di un altro pad sul fronte. Sul retro il conteggio resta zero. La variazione totale di lunghezza di ogni net LPDDR4 interessata è inferiore a 0,001 mm. I 4.218 campioni di confronto conservano la copertura GND precedente su In1. I conteggi riguardano segmenti e aperture nel CAD; una seconda modifica al percorso di massa elimina altre due occorrenze. Le 145 occorrenze residue e le capacità di fabbricazione restano aperte. [Verifica delle modifiche](experiments/phy-power-parallel/soc-mask-paired-junctions-native.json) · [Verifica del rame GND](experiments/phy-power-parallel/soc-mask-four-junctions-native.json) · [Verifica delle connessioni con selettore USB](experiments/phy-power-parallel/usb-selector-soc-mask-four-coexistence.json)
+
+### Prima alimentazione VCCQ della flash
+
+Il [checkpoint precedente](experiments/phy-power-parallel/layout-soc-mask-hostwake.json) ha **381 unioni aperte su 198 reti**. R8006.2 e il banco C8002 raggiungono la sfera P3 di U8001 sul rail I/O da 1,8 V. La revisione del segnale WIFI_HOST_WAKE elimina due interferenze con le aperture della maschera del SoC. Sul fronte restano 207 casi sotto 90 µm, sul retro zero. [Controllo geometrico](experiments/phy-power-parallel/soc-mask-expansion-hostwake-381-native.json)
+
+I due tratti esterni misurano in totale 3,96 mm, quello interno 5,26 mm. Il percorso usa un’uscita da 0,25 mm sotto il package, un tratto da 0,50 mm e due vie. Entrambi i tratti esterni e In3 hanno come riferimento In4. La tensione dinamica sotto carico e l’avvio restano da misurare. [Verifica del ramo](experiments/phy-power-parallel/emmc-382-p3-vccq-native.json) · [Piano di massa](experiments/phy-power-parallel/emmc-381-p3-reference.json)
+
+### Distribuzione VCC sotto la flash
+
+Il [checkpoint precedente](experiments/phy-power-parallel/layout-emmc-vcc-middle-balls.json) ha **382 unioni aperte su 198 reti**. Le sfere E6 e F5 di U8001 sono collegate tra loro sul retro con una pista da 0,25 mm lunga 0,762 mm. Il percorso mantiene il riferimento GND su In4 e passa il controllo indipendente delle aperture di solder mask. Resta da unire questo gruppo al banco VCC che alimenta J10 e K9. [Verifica CAD](experiments/phy-power-parallel/emmc-383-vcc-middle-balls-native.json) · [Verifica delle 790 coppie con il selettore USB](experiments/phy-power-parallel/usb-selector-emmc-vcc-middle-balls-coexistence.json)
+
+### Ingresso a 3,3 V della eMMC
+
+Il [checkpoint precedente](experiments/phy-power-parallel/layout-emmc-main-return.json) ha **383 unioni aperte su 198 reti**. R8007.1 raggiunge la distribuzione +3V3_IO principale. A ponticello montato, il percorso disegnato alimenta le sfere flash J10 e K9 tramite R8007.2. Due vie GND collegano i piani In1 e In4 a 0,762 e 1,128 mm dalle rispettive vie di alimentazione. Il collegamento al rame di massa è verificato dopo il riempimento. [Verifica delle vie di ritorno](experiments/phy-power-parallel/emmc-383-individual-return-native.json)
+
+Il ramo nuovo contiene circa 13,4 mm di rame sul retro, 19,8 mm su In2 e due vie. Una stima a 20 °C sui soli tratti nuovi da 0,50 mm dà 52 mΩ e 2,6 mV a 50 mA, valore RMS VCC della tabella Samsung su 100 ms. Picchi, ponticello, caduta a monte e transitorio di avvio richiedono verifica. Le sfere E6 e F5 restano aperte. [CAD e stima resistiva](experiments/phy-power-parallel/emmc-383-r8007-reference.json) · [Inventario indipendente](experiments/phy-power-parallel/emmc-r8007-main-supply-independent-inventory.json)
+
+### Alimentazione della eMMC
+
+Il [checkpoint precedente](experiments/phy-power-parallel/layout-emmc-j10-active-bank.json) ha **384 unioni aperte su 198 reti**. Il banco C8007/C8008/C8009 e il ponticello R8007.2 raggiungono le sfere J10 e K9 della flash tramite rame da 0,35 mm e una via da 0,45/0,20 mm. Nei campioni di riferimento sulle piste, le sole interruzioni del piano GND coincidono con i disimpegni delle vie di questo stesso ramo. Restano aperte le sfere E6 e F5, l’ingresso di R8007 e il bus dati. La verifica CAD conserva 788 coppie di pad. [Verifica nativa](experiments/phy-power-parallel/emmc-385-j10-active-bank-native.json) · [Piano di riferimento](experiments/phy-power-parallel/emmc-384-j10-bank-reference.json)
+
+### Alimentazione di C1683
+
+Il [checkpoint precedente](experiments/phy-power-parallel/layout-io-c1683-c1619.json) ha **385 unioni aperte su 198 reti**. C1683.1 raggiunge il banco +3V3_IO con rame da 0,80 mm e via da 0,45/0,20 mm. La rotazione di C1683 attorno al pad di massa e lo spostamento di 0,056 mm del vicino C1619 conservano il contatto dei terminali con il rame precedente. La nuova via dista 0,918 mm dalla via di massa più vicina. Il DRC e la verifica indipendente confermano 787 coppie fisiche sul PCB salvato. [Contatti dei condensatori](experiments/phy-power-parallel/io-385-moved-cap-solder-contacts.json) · [Riferimento di massa](experiments/phy-power-parallel/io-385-c1683-c1619-reference.json) · [Coesistenza selettore USB](experiments/phy-power-parallel/usb-selector-io-c1683-c1619-coexistence.json)
+
+### Alimentazione di C1640
+
+Il [checkpoint precedente](experiments/phy-power-parallel/layout-io-c1640-main-bank.json) ha **386 unioni aperte su 198 reti**. C1640.1 raggiunge il banco principale +3V3_IO con rame da 0,80 mm e due vie da 0,45 mm con foro da 0,20 mm. C1640.2 raggiunge la massa principale. Tutti i 1.167 campioni di riferimento ricadono su massa o nel disimpegno di vie appartenenti allo stesso ramo di alimentazione. Il DRC differenziale e le 786 coppie verificate sul PCB ricaricato confermano la continuità. Restano aperte le connessioni alle sfere del SoC e la qualifica del comportamento elettrico del banco. [Verifica delle piste e delle vie](experiments/phy-power-parallel/io-387-c1640-main-bank-native.json) · [Verifica del riferimento](experiments/phy-power-parallel/io-386-main-bank-reference.json)
+
+### Strap RXD1 del PHY Ethernet
+
+Il [checkpoint precedente](experiments/phy-power-parallel/layout-phy-rxd1-strap.json) ha **387 unioni aperte**. Il resistore di strap R525 da 4,7 kΩ raggiunge la linea U5.24–R508.2. Il ramo sul retro è lungo 3,012 mm. Il collegamento all'alimentazione del resistore misura 1,170 mm. La via GND più vicina che collega entrambi i piani di riferimento dista 0,673 mm dalla nuova via del segnale. Dei 657 campioni del riferimento, 112 ricadono nel disimpegno della via stessa e tutti i rimanenti sul piano di massa. L'integrità del segnale RGMII e il collegamento dal resistore serie al SoC restano da verificare sul bus completo. [Verifica nativa](experiments/phy-power-parallel/phy-388-rxd1-strap-native.json)
+
+### Ritorni di massa del SoC
+
+Il [checkpoint dei ritorni](experiments/phy-power-parallel/layout-soc-ground-e3-c14.json) ha **388 unioni aperte**. Le sfere U1.C14 e U1.E3 raggiungono la massa principale su F.Cu con piste da 0,30 mm, lunghe 0,177 e 0,379 mm. Il controllo della continuità conta 783 coppie sul PCB ricaricato. I nuovi segmenti hanno riferimento In1 continuo e rispettano la distanza da maschere di altre reti. [Misure sul PCB](experiments/phy-power-parallel/ground-390-soc-e3-c14-native.json)
+
+### Alimentazione LPDDR4 a 1,1 V
+
+Il [checkpoint della memoria](experiments/phy-power-parallel/layout-ddr-1v1-aa8-aa5.json) ha **390 unioni aperte**. U2.AA5 e U2.AA8 raggiungono il banco di C1646 con due raccordi rispettivamente di 0,630 e 0,600 mm, larghi 0,50 mm. Sul ramo AA8, 30 campioni della proiezione della pista ricadono nella zona priva di rame attorno alla stessa via di alimentazione collegata al banco. Il ritorno GND più vicino collega In1 e In4 a 0,707 mm da quella via. Restano aperti altri terminali di alimentazione e la verifica dell'integrità dell'alimentazione sotto carico. [Riscontro sul PCB ricaricato](experiments/phy-power-parallel/ddr-aa8-aa5-package-native.json)
+
+### Banco analogico immagini
+
+Il [checkpoint del banco immagini](experiments/phy-power-parallel/layout-vcca-image-package-bank.json) ha **392 unioni aperte**. Sul fronte, U1.1N9 raggiunge il gruppo U1.1M8–U1.1M7 con 0,545 mm di rame da 0,30 mm. Il controllo su In1 conferma il riferimento continuo lungo il percorso. Sono verificate 779 coppie dopo la ricarica. Il collegamento fra questo gruppo e il regolatore resta aperto. [Verifica sul PCB](experiments/phy-power-parallel/image-393-fine-package-native.json)
+
+### Distribuzione VCCA_1V8
+
+Il [checkpoint della distribuzione](experiments/phy-power-parallel/layout-vcca-linked-load-banks.json) ha **393 unioni aperte**. C1644.1 è collegato sul retro al gruppo C1645–U1.1E14–U1.1E15. Il percorso è lungo 12,97 mm e largo 0,30 mm. Il controllo del riferimento In4 ai due bordi e lungo il centro della pista ha trovato copertura continua. Il PCB ricaricato conserva 778 coppie di pad e il DRC differenziale. Rimangono da collegare U4.3 e gli altri carichi della rete. [Misure del percorso](experiments/phy-power-parallel/vcca-394-shared-rear-bank-native.json)
+
+### Bypass VCCA_1V8 del SoC
+
+Il [checkpoint del bypass](experiments/phy-power-parallel/layout-vcca-soc-c1645.json) ha **394 unioni aperte**. C1645 da 100 nF raggiunge entrambe le sfere U1.1E14 e U1.1E15, con 0,65 mm di pista sul retro, una via da 0,45/0,20 mm e 0,30 mm sul fronte. Il ritorno misurato in pianta alla via GND scende da 3,73 a 3,23 mm. Il bypass resta da qualificare alle frequenze operative. Il tratto +3V3_IO spostato su In2 mantiene 0,20 mm di larghezza e conserva tutte le 29 piazzole collegate. Il controllo sul PCB ricaricato conferma 777 coppie e nessuna nuova segnalazione DRC. La sorgente U4.3 resta aperta. [Geometria e controlli](experiments/phy-power-parallel/vcca-c1645-shared-corridor-validation.json)
+
+### Maschera di saldatura del SoC
+
+Il [checkpoint della maschera](experiments/phy-power-parallel/layout-soc-mask-memory-junctions.json) conserva 395 unioni aperte e 774 coppie verificate. Dieci spostamenti di vertici sulle piste di massa o di controllo eliminano 17 accostamenti sotto 90 µm. Una seconda correzione su 25 vertici di segnali LPDDR4 ne elimina altre 25. Restano 209 accostamenti al fronte presso U1. La variazione di lunghezza per segnale è al massimo 0,00635 mm. Il controllo su 2.379 campioni del riferimento In1 non rileva nuove interruzioni. Su 39 passaggi rete/coppia di pad il canale fra aperture misura 0,250 mm. Una pista da 0,0762 mm con 0,090 mm per lato richiede 0,2562 mm. Per quei passaggi serve una topologia di uscita diversa o una geometria di maschera qualificata per il package. Sul retro la ricerca non ne rileva. Il controllo considera piste superficiali di altre reti e aperture delle piazzole in scala 1:1. La qualifica delle aperture per le vie e la verifica CAM restano aperte. [Misure CAD](experiments/phy-power-parallel/pad-mask-memory-junctions-395.json) · [Geometria dei passaggi BGA](experiments/phy-power-parallel/soc-mask-bga-corridor-budget.json) · [Capacità dichiarate da JLCPCB](https://jlcpcb.com/capabilities/Capabilities%2C/)
+
+### Banco analogico del SoC a 0,9 V
+
+Il [checkpoint del banco analogico](experiments/phy-power-parallel/layout-soc-analog-c1633-bank.json) ha 395 unioni aperte. C1633 da 100 nF raggiunge sul retro il gruppo di C1642 e R1601 mediante rame da 0,30 mm e dispone di un ritorno alla massa principale. Il DRC sul file ricaricato conserva le 121 segnalazioni pregresse di via terminali e conferma 774 coppie di pad. La sorgente di alimentazione e le sfere analogiche del SoC restano da raccordare. [Verifica sul PCB](experiments/phy-power-parallel/soc-analog-c1633-native-trials.json)
+
+### Banco analogico USB a 1,8 V
+
+Il checkpoint precedente è [layout-usb-analog-dual-bypass.json](experiments/phy-power-parallel/layout-usb-analog-dual-bypass.json). R1602 alimenta C1681 da 100 nF e C1682 da 1 µF. Il ritorno del 100 nF raggiunge un nuovo foro di massa in 0,68 mm. Il ritorno del condensatore da 1 µF percorre 0,30 mm di pista e circa 1,04 mm di rame esistente fino al foro. La distanza in pianta del 100 nF dalla sfera U1.1M15 scende da 15,90 a 7,66 mm. Restano da chiudere la distribuzione VCCA_1V8 a monte e il collegamento alla sfera del SoC. L’inventario fisico riporta 396 unioni e 199 reti aperte. La [verifica sulla copia combinata con il selettore USB](experiments/phy-power-parallel/usb-selector-dual-bypass-coexistence.json) conferma 772 coppie e 396 unioni residue. I cinque nuovi segmenti hanno riferimento GND continuo nei punti campionati. L’impedenza del banco resta da qualificare sul prototipo.
+
+### Clock di ricezione RGMII
+
+Il checkpoint del clock è `experiments/phy-power-parallel/layout-rgmii-rxclock-source-return.json`, con 397 unioni residue su 199 reti. La sorgente U5.27 raggiunge R512.2 e il relativo strap R522.1; resta da instradare ETH_RXCLK dal resistore al SoC. Il riassetto locale mantiene le sezioni di +3V3_PHY (0,20 mm al pin, 1,05 mm nella distribuzione interna) e la continuità dei 15 pad del ramo. Il tratto interno aumenta di 0,992 mm. Sul file ricaricato sono verificate 770 coppie senza nuove violazioni DRC. Il confronto su copia combinata con il selettore USB è conservato in `usb-selector-rgmii-rxclk-coexistence.json`. Il cambio strato del clock ha un ritorno GND esistente a 1,363 mm; 240 campioni del rame su In1 e In4 risultano coperti oltre il raggio di 0,45 mm attorno alla via. Restano aperte la verifica di integrità del segnale e la temporizzazione del bus completo.
+
+### Alimentazione del pull-up SDIO D1
+
+Il checkpoint intermedio è `experiments/phy-power-parallel/layout-sdio-pullup-supply.json`. R2011 occupa il retro presso il lato host del bus. Una pista da 0,136 mm collega il pin 2 al banco +3V3_IO di C1628. La linea dati fra U1.V25, R2011.1 e U25.19 resta aperta. Sul PCB ricaricato sono conservate 769 coppie di pad, con 398 unioni residue su 200 reti e nessuna nuova violazione DRC rispetto al checkpoint precedente. L’inventario indipendente è in `sdio-pullup-independent-inventory.json`. La variante separata del selettore di corrente USB conserva la propria base a 399 unioni.
+
+### Alimentazione immagine al checkpoint C468
+
+Al checkpoint `experiments/phy-power-parallel/layout-pmic-image-c468.json` restavano 399 unioni su 200 reti. C468 da 1 µF raggiunge U4.6 sulla faccia superiore attraverso 2,494 mm di rame. Il tratto sulla piazzola è largo 0,20 mm e lungo 0,304 mm. Il resto è largo 0,30 mm. Il ritorno GND misura 0,598 mm fino al foro già collegato al piano. C421 è stato traslato di 0,20 mm e mantiene ciascuno dei sei contatti diretti precedenti. Il controllo sui bordi e sul centro delle piste conferma che il piano di riferimento è continuo.
 
 L’inventario indipendente sul PCB ricaricato coincide con il checkpoint. Le 768 coppie sono collegate, il DRC comparativo e il controllo degli ingombri non rilevano regressioni. Il collegamento dell’uscita ai carichi del SoC, la verifica dell’anello di regolazione e le misure fisiche restano aperti.
 

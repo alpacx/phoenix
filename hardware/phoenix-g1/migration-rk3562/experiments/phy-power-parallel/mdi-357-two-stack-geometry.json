@@ -1,0 +1,68 @@
+{
+  "sha256": "572d6ba53bb0abb0c7e86dd2c158361c9c12bd9cfcacd297c1c752aa674aea3d",
+  "source": "usb-ddr-stack-simulation.json",
+  "target_diff_ohm": 100,
+  "modelling": {
+    "JLC06161H-3313": {
+      "inner": [
+        {
+          "width_mm": 0.2,
+          "gap_mm": 0.2,
+          "differential_ohms": 100.67356136039284
+        },
+        {
+          "width_mm": 0.24,
+          "gap_mm": 0.25,
+          "differential_ohms": 101.36975970800002
+        }
+      ],
+      "outside": [
+        {
+          "width_mm": 0.2,
+          "gap_mm": 0.2,
+          "differential_ohms": 79.73985831460884
+        },
+        {
+          "width_mm": 0.24,
+          "gap_mm": 0.25,
+          "differential_ohms": 74.28414252705109
+        }
+      ]
+    },
+    "JLC06161H-7628": {
+      "inner": [
+        {
+          "width_mm": 0.2,
+          "gap_mm": 0.2,
+          "differential_ohms": 97.47850662724906
+        },
+        {
+          "width_mm": 0.24,
+          "gap_mm": 0.25,
+          "differential_ohms": 97.40979602976063
+        }
+      ],
+      "outside": [
+        {
+          "width_mm": 0.2,
+          "gap_mm": 0.2,
+          "differential_ohms": 102.7022681350089
+        },
+        {
+          "width_mm": 0.24,
+          "gap_mm": 0.25,
+          "differential_ohms": 100.43259560789839
+        }
+      ]
+    }
+  },
+  "candidate": {
+    "layer": "In2 or In3",
+    "width_mm": 0.2,
+    "gap_mm": 0.2
+  },
+  "limits": [
+    "Uniform cross section only; opposite-layer traces, via antipads and magnetics/ESD breakouts require layout-specific verification.",
+    "The two stack constructions are candidates, not an agreed manufacturing build."
+  ]
+}

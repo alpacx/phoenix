@@ -1,0 +1,41 @@
+{
+  "sha256": "5e8bc2155e63e8a3e750115aad07d3df4a380e67d233c5680060f245cbb50c1c",
+  "ground_dialog": {
+    "capacitor_ground_reaches_main": true,
+    "ground_group_items": 2078
+  },
+  "center_and_edge_reference_samples": 1443,
+  "missing": 238,
+  "missing_beyond_power_antipads": [],
+  "max_distance_mm": 0.4220189569201838,
+  "nearest_main_ground_vias": [
+    [
+      [
+        1.3867678248358664,
+        [
+          37900000,
+          4650000
+        ]
+      ]
+    ],
+    [
+      [
+        1.7204650534085255,
+        [
+          43000000,
+          2800000
+        ]
+      ]
+    ]
+  ],
+  "scope": "Nominal planar return geometry. No thermal/DC qualification; full decoupling of any SoC I/O ball needs its supply connection.",
+  "void_samples_beyond_all_connected_supply_via_antipads": 0,
+  "other_samples": [],
+  "outside_actual_same_net_via_antipads": 0,
+  "actual_examples": [],
+  "new_track_lengths_mm": {
+    "B.Cu": 3.957411613907041,
+    "In2.Cu": 0,
+    "In3.Cu": 5.260049904706229
+  }
+}

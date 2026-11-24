@@ -1,0 +1,123 @@
+{
+  "parent": "7021a89c0387c55d009eafa00e3ae47aae79581bf6aae8688a7464c41cb19253",
+  "board": "runs/lpddr-g3-t3-pad-entry/phy-joint.kicad_pcb",
+  "sha256": "6884bdd5b1ed3a954d6c7eaf9fc36ab1feffa303d78c1e5f06b1d1d35a040aae",
+  "parts": [
+    {
+      "ref": "U2.G3",
+      "target": "C1001.2",
+      "path": [
+        [
+          27237500,
+          6200000
+        ],
+        [
+          27562500,
+          6562500
+        ],
+        [
+          27600000,
+          6925000
+        ],
+        [
+          27300000,
+          7312500
+        ]
+      ],
+      "length_mm": 1.341350440379409
+    },
+    {
+      "ref": "U2.T3",
+      "target": "C1001.2",
+      "path": [
+        [
+          27237500,
+          11800000
+        ],
+        [
+          27562500,
+          11437500
+        ],
+        [
+          27600000,
+          11075000
+        ],
+        [
+          27300000,
+          10687500
+        ]
+      ],
+      "length_mm": 1.341350440379409
+    }
+  ],
+  "delta": [],
+  "mask": {
+    "F.Cu": 0,
+    "B.Cu": 0
+  },
+  "mech": [],
+  "lost": [],
+  "joins": 346,
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 8082,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 6,
+    "existing_connected_pad_groups_preserved": 128
+  },
+  "qualified": true,
+  "landing_geometry": [
+    {
+      "pin": "U2.G3",
+      "terminal": "source",
+      "end_land_contacts": [
+        {
+          "pin": "U2.G3",
+          "overlap_mm2": 0.024129,
+          "terminal_center_inside_land": true,
+          "inward_distance_to_land_edge_mm": 0.0173
+        }
+      ],
+      "track_contacts": []
+    },
+    {
+      "pin": "U2.G3",
+      "terminal": "existing ground",
+      "end_land_contacts": [
+        {
+          "pin": "U2.J3",
+          "overlap_mm2": 0.027137,
+          "terminal_center_inside_land": true,
+          "inward_distance_to_land_edge_mm": 0.0308
+        }
+      ],
+      "track_contacts": []
+    },
+    {
+      "pin": "U2.T3",
+      "terminal": "source",
+      "end_land_contacts": [
+        {
+          "pin": "U2.T3",
+          "overlap_mm2": 0.024129,
+          "terminal_center_inside_land": true,
+          "inward_distance_to_land_edge_mm": 0.0173
+        }
+      ],
+      "track_contacts": []
+    },
+    {
+      "pin": "U2.T3",
+      "terminal": "existing ground",
+      "end_land_contacts": [
+        {
+          "pin": "U2.P3",
+          "overlap_mm2": 0.027137,
+          "terminal_center_inside_land": true,
+          "inward_distance_to_land_edge_mm": 0.0308
+        }
+      ],
+      "track_contacts": []
+    }
+  ]
+}

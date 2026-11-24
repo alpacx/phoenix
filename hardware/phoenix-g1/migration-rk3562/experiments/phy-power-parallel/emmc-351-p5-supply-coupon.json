@@ -1,0 +1,160 @@
+{
+  "parent": "60421fd41dfb3e8481c425d525788773a0b9a508bb92081f8ab678e6679ed7b1",
+  "board": "runs/emmc-p5-p4-p6-return/phy-joint.kicad_pcb",
+  "sha256": "2fe2813697e3b0592397c59b14558cfec6d1af4ebe5c13aea3254863adfd6cc9",
+  "native": [
+    {
+      "delta": [],
+      "joins": 351,
+      "lost": [],
+      "replaced": [
+        "95127306-ca7d-41e8-a0b6-abea39d525d3",
+        "21b2a0a0-6e33-4185-a7fb-39302438fcb3",
+        "8d9505a5-a2b3-428f-b38b-60d2de9d983b",
+        "0afd9ac4-1f84-448f-b64f-6f44d4ff493b",
+        "a0751056-bccd-4156-ac45-f62a8fb8cfe6"
+      ],
+      "path": [
+        [
+          36750000,
+          5750000
+        ],
+        [
+          36827231,
+          5261409
+        ],
+        [
+          36797769,
+          5063591
+        ],
+        [
+          36750000,
+          3875000
+        ]
+      ],
+      "mech": [],
+      "reference_delta": {
+        "changed_via_centers_nm": [
+          [
+            36225000,
+            5250000
+          ],
+          [
+            36250000,
+            5250000
+          ],
+          [
+            37250000,
+            5250000
+          ],
+          [
+            37400000,
+            5075000
+          ]
+        ],
+        "samples_by_net_and_layer": {
+          "+1V8_SYS F.Cu": {
+            "sampled": 299,
+            "lost": 0,
+            "gained": 0,
+            "lost_in_same_rail_antipad": 0,
+            "lost_examples": []
+          },
+          "+3V3_IO In2.Cu": {
+            "sampled": 248,
+            "lost": 0,
+            "gained": 0,
+            "lost_in_same_rail_antipad": 0,
+            "lost_examples": []
+          },
+          "EMMC_IO_1V8 B.Cu": {
+            "sampled": 477,
+            "lost": 0,
+            "gained": 0,
+            "lost_in_same_rail_antipad": 0,
+            "lost_examples": []
+          },
+          "EMMC_IO_1V8 In3.Cu": {
+            "sampled": 70,
+            "lost": 0,
+            "gained": 0,
+            "lost_in_same_rail_antipad": 0,
+            "lost_examples": []
+          },
+          "LCD_BL_PWM F.Cu": {
+            "sampled": 484,
+            "lost": 0,
+            "gained": 0,
+            "lost_in_same_rail_antipad": 0,
+            "lost_examples": []
+          }
+        },
+        "sample_pitch_mm": 0.012,
+        "via_window_radius_mm": 1.0,
+        "scope": "Center and edges of unchanged straight copper only. Local ground-fill comparison; no field or impedance simulation."
+      },
+      "mask": {
+        "F.Cu": 0,
+        "B.Cu": 0
+      },
+      "guard": {
+        "existing_pad_instances_preserved": 2008,
+        "existing_tracks_vias_preserved": 8065,
+        "explicitly_replaced_copper": {
+          "0afd9ac4-1f84-448f-b64f-6f44d4ff493b": [
+            "GND",
+            0,
+            37250000,
+            5250000,
+            37250000,
+            5250000,
+            600000,
+            300000
+          ],
+          "21b2a0a0-6e33-4185-a7fb-39302438fcb3": [
+            "GND",
+            0,
+            35425000,
+            6075000,
+            36250000,
+            5250000,
+            500000,
+            null
+          ],
+          "8d9505a5-a2b3-428f-b38b-60d2de9d983b": [
+            "GND",
+            2,
+            36250000,
+            5750000,
+            36250000,
+            5250000,
+            300000,
+            null
+          ],
+          "95127306-ca7d-41e8-a0b6-abea39d525d3": [
+            "GND",
+            0,
+            36250000,
+            5250000,
+            36250000,
+            5250000,
+            600000,
+            300000
+          ],
+          "a0751056-bccd-4156-ac45-f62a8fb8cfe6": [
+            "GND",
+            2,
+            37250000,
+            5750000,
+            37250000,
+            5250000,
+            300000,
+            null
+          ]
+        },
+        "added_tracks_vias": 3,
+        "existing_connected_pad_groups_preserved": 127
+      }
+    }
+  ]
+}

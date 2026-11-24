@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "from_kicad_layer": 6,
+      "to_kicad_layer": 8,
+      "forward_nodes": 2959,
+      "reverse_nodes": 368,
+      "coordinate_match": 15,
+      "oriented_match": 23,
+      "closest": {
+        "mm": 0.0,
+        "forward": [
+          71100000,
+          21500000
+        ],
+        "reverse": [
+          71100000,
+          21500000
+        ]
+      }
+    },
+    {
+      "from_kicad_layer": 8,
+      "to_kicad_layer": 6,
+      "forward_nodes": 4657,
+      "reverse_nodes": 5510,
+      "coordinate_match": 2483,
+      "oriented_match": 18267,
+      "closest": {
+        "mm": 0.0,
+        "forward": [
+          78000000,
+          16700000
+        ],
+        "reverse": [
+          78000000,
+          16700000
+        ]
+      }
+    },
+    {
+      "from_kicad_layer": 6,
+      "to_kicad_layer": 6,
+      "forward_nodes": 2959,
+      "reverse_nodes": 5510,
+      "coordinate_match": 0,
+      "oriented_match": 0,
+      "closest": {
+        "mm": 1.3,
+        "forward": [
+          75000000,
+          21300000
+        ],
+        "reverse": [
+          75000000,
+          20000000
+        ]
+      }
+    },
+    {
+      "from_kicad_layer": 8,
+      "to_kicad_layer": 8,
+      "forward_nodes": 4657,
+      "reverse_nodes": 368,
+      "coordinate_match": 0,
+      "oriented_match": 0,
+      "closest": {
+        "mm": 3.1016124838541645,
+        "forward": [
+          74800000,
+          14400000
+        ],
+        "reverse": [
+          71900000,
+          15500000
+        ]
+      }
+    }
+  ]
+}

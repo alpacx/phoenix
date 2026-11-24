@@ -1,0 +1,147 @@
+{
+  "parent_sha256": "7a3f16fdacf133d7feb8d214cbd63f058de083afc0e95566a30400f5b5290b5a",
+  "radius_mm": 0.225,
+  "drill_mm": 0.2,
+  "rows": [
+    {
+      "blockers": [
+        [
+          "8107c38a-1367-4ee8-8a81-a17236cb974f",
+          "GND",
+          "U1.1N2"
+        ],
+        [
+          "e330815f-5d57-41b6-aed8-3b2e97f1591c",
+          "GND",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 3,
+      "examples": [
+        {
+          "at": [
+            39100000,
+            23100000
+          ],
+          "path": []
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "8107c38a-1367-4ee8-8a81-a17236cb974f",
+          "GND",
+          "U1.1N2"
+        ],
+        [
+          "8d87a236-dcc1-422a-8096-4ae6e737a7e0",
+          "",
+          "U1.1M2"
+        ],
+        [
+          "e330815f-5d57-41b6-aed8-3b2e97f1591c",
+          "GND",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 7,
+      "examples": [
+        {
+          "at": [
+            39000000,
+            22900000
+          ],
+          "path": []
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "11b1b6bf-092f-43e5-bff8-0fbdc7a85050",
+          "GND",
+          "PCB_TRACK"
+        ],
+        [
+          "8107c38a-1367-4ee8-8a81-a17236cb974f",
+          "GND",
+          "U1.1N2"
+        ],
+        [
+          "e330815f-5d57-41b6-aed8-3b2e97f1591c",
+          "GND",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 3,
+      "examples": [
+        {
+          "at": [
+            39000000,
+            23100000
+          ],
+          "path": []
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "1a1bd892-ee03-4711-bf65-8f2e8d8d8116",
+          "GND",
+          "PCB_TRACK"
+        ],
+        [
+          "8107c38a-1367-4ee8-8a81-a17236cb974f",
+          "GND",
+          "U1.1N2"
+        ],
+        [
+          "e330815f-5d57-41b6-aed8-3b2e97f1591c",
+          "GND",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 3,
+      "examples": [
+        {
+          "at": [
+            39200000,
+            23100000
+          ],
+          "path": []
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "860cc8b8-1750-4489-86ab-c3f67e994bbb",
+          "GND",
+          "PCB_TRACK"
+        ],
+        [
+          "a26a5f78-0f6c-4946-8573-766e55c33b5a",
+          "GND",
+          "U1.1M3"
+        ],
+        [
+          "e365f929-00b5-4c0b-8a1f-109bcde919d6",
+          "GND",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 2,
+      "examples": [
+        {
+          "at": [
+            39600000,
+            22400000
+          ],
+          "path": []
+        }
+      ]
+    }
+  ]
+}

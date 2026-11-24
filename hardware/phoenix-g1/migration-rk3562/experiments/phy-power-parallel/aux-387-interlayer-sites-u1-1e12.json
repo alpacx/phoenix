@@ -1,0 +1,157 @@
+{
+  "parent_sha256": "7a3f16fdacf133d7feb8d214cbd63f058de083afc0e95566a30400f5b5290b5a",
+  "radius_mm": 0.225,
+  "drill_mm": 0.2,
+  "rows": [
+    {
+      "blockers": [
+        [
+          "15acfb6c-6d9c-412c-a4bf-64503cf5db06",
+          "VDD_GPU",
+          "U1.1F11"
+        ],
+        [
+          "4ac6a210-648a-4192-8b29-c11611c00e83",
+          "GND",
+          "PCB_TRACK"
+        ],
+        [
+          "ab1a08f3-444c-4e29-80dc-9de21b31ddda",
+          "VDD_GPU",
+          "C1618.1"
+        ]
+      ],
+      "sites": 2,
+      "examples": [
+        {
+          "at": [
+            45000000,
+            18900000
+          ],
+          "path": []
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "09221540-0b27-4d17-8d32-a6f37d7c2dde",
+          "+3V3_IO",
+          "PCB_TRACK"
+        ],
+        [
+          "47ba1532-f6a8-4738-b6c9-8f838b45265f",
+          "VDD_GPU",
+          "U1.1G11"
+        ],
+        [
+          "ab1a08f3-444c-4e29-80dc-9de21b31ddda",
+          "VDD_GPU",
+          "C1618.1"
+        ]
+      ],
+      "sites": 2,
+      "examples": [
+        {
+          "at": [
+            45100000,
+            19200000
+          ],
+          "path": []
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "15acfb6c-6d9c-412c-a4bf-64503cf5db06",
+          "VDD_GPU",
+          "U1.1F11"
+        ],
+        [
+          "47ba1532-f6a8-4738-b6c9-8f838b45265f",
+          "VDD_GPU",
+          "U1.1G11"
+        ],
+        [
+          "ab1a08f3-444c-4e29-80dc-9de21b31ddda",
+          "VDD_GPU",
+          "C1618.1"
+        ]
+      ],
+      "sites": 1,
+      "examples": [
+        {
+          "at": [
+            45000000,
+            19000000
+          ],
+          "path": []
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "09221540-0b27-4d17-8d32-a6f37d7c2dde",
+          "+3V3_IO",
+          "PCB_TRACK"
+        ],
+        [
+          "4a5d8bb5-994e-4fbd-9be0-6e9a930d3e7f",
+          "VDD_GPU",
+          "U1.1F12"
+        ],
+        [
+          "ab1a08f3-444c-4e29-80dc-9de21b31ddda",
+          "VDD_GPU",
+          "C1618.1"
+        ]
+      ],
+      "sites": 1,
+      "examples": [
+        {
+          "at": [
+            45300000,
+            19000000
+          ],
+          "path": []
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "09221540-0b27-4d17-8d32-a6f37d7c2dde",
+          "+3V3_IO",
+          "PCB_TRACK"
+        ],
+        [
+          "3da134d2-779a-481d-86f0-f46f8acd99b9",
+          "VDD_GPU",
+          "U1.1G12"
+        ],
+        [
+          "47ba1532-f6a8-4738-b6c9-8f838b45265f",
+          "VDD_GPU",
+          "U1.1G11"
+        ],
+        [
+          "ab1a08f3-444c-4e29-80dc-9de21b31ddda",
+          "VDD_GPU",
+          "C1618.1"
+        ]
+      ],
+      "sites": 4,
+      "examples": [
+        {
+          "at": [
+            45200000,
+            19200000
+          ],
+          "path": []
+        }
+      ]
+    }
+  ]
+}

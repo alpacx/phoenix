@@ -1,0 +1,127 @@
+{
+  "component": "N096-1608TBBIG11-H13",
+  "lcsc": "C2890616",
+  "package": "OLED-SMD_ST7735S",
+  "source_owner": "LCSC",
+  "package_uuid": "eaad19184eae4a769474e7a4bb579c94",
+  "source_url": "https://easyeda.com/api/products/C2890616/components?version=6.5.22",
+  "response_sha256": "5f3f27f93646501ceeb86ec6d05578851c9535a0e7263dea15cc6fbff6852292",
+  "drawing": "../../../reference/display-C2890616.pdf",
+  "coupon": "coupons.pretty/DS1_H13_DirectFlex_Coupon.kicad_mod",
+  "coupon_sha256": "5ea756a8dfdf938e943caf051eeccedff52f0e6f1fc789db95ee9a694053bdef",
+  "verified_on_reload": [
+    [
+      1,
+      4.2,
+      0.0,
+      0.4,
+      2.2
+    ],
+    [
+      2,
+      3.5,
+      0.0,
+      0.4,
+      2.2
+    ],
+    [
+      3,
+      2.8,
+      0.0,
+      0.4,
+      2.2
+    ],
+    [
+      4,
+      2.1,
+      0.0,
+      0.4,
+      2.2
+    ],
+    [
+      5,
+      1.4,
+      0.0,
+      0.4,
+      2.2
+    ],
+    [
+      6,
+      0.7,
+      0.0,
+      0.4,
+      2.2
+    ],
+    [
+      7,
+      0.0,
+      0.0,
+      0.4,
+      2.2
+    ],
+    [
+      8,
+      -0.7,
+      0.0,
+      0.4,
+      2.2
+    ],
+    [
+      9,
+      -1.4,
+      0.0,
+      0.4,
+      2.2
+    ],
+    [
+      10,
+      -2.1,
+      0.0,
+      0.4,
+      2.2
+    ],
+    [
+      11,
+      -2.8,
+      0.0,
+      0.4,
+      2.2
+    ],
+    [
+      12,
+      -3.5,
+      0.0,
+      0.4,
+      2.2
+    ],
+    [
+      13,
+      -4.2,
+      0.0,
+      0.4,
+      2.2
+    ]
+  ],
+  "netlist_pin_map": {
+    "10": "+3V0_LCD",
+    "13": "GND",
+    "8": "GND",
+    "4": "LCD_CLK_3V",
+    "7": "LCD_CS_3V",
+    "5": "LCD_DC_3V",
+    "3": "LCD_DIN_3V",
+    "12": "LCD_LEDA",
+    "11": "LCD_LEDK",
+    "6": "LCD_RST_3V",
+    "1": "unconnected-(DS1-NC-Pad1)",
+    "2": "unconnected-(DS1-NC-Pad2)",
+    "9": "unconnected-(DS1-NC-Pad9)"
+  },
+  "soldermask": "F.Mask windows at copper; actual process controls subject to DFM",
+  "paste": "No paste aperture defined; thermal pressure, flux, stencil/dispense and attachment process unqualified.",
+  "comparison": "Pitch 0.7 mm, order and 8.4 mm span across 13 contact centers agree with module drawing. PCB lands 0.40 x 2.20 mm come from LCSC library; they are not dimensions of flex fingers.",
+  "limitations": [
+    "No placement adopted. Actual fold angle, contact face at assembly, bond recipe, panel support, tool access and sample test remain to be established.",
+    "NC 1,2,9 have physical coupon pads. No new copper on active board."
+  ]
+}

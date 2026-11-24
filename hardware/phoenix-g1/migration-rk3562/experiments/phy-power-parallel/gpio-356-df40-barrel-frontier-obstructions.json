@@ -1,0 +1,619 @@
+{
+  "sha256": "753618b21b24b208fea85ebe93c3e4bee001c67ef7c4bfc0f1c798da2f7f0e2d",
+  "documented_candidates": [
+    {
+      "ball": "AA25",
+      "gpio": "GPIO1_D3_d",
+      "bank": "VCCIO4 Domain",
+      "page": 9
+    },
+    {
+      "ball": "1H15",
+      "gpio": "GPIO1_D7_d",
+      "bank": "VCCIO4 Domain",
+      "page": 9
+    },
+    {
+      "ball": "1J15",
+      "gpio": "GPIO2_A0_d",
+      "bank": "VCCIO4 Domain",
+      "page": 9
+    },
+    {
+      "ball": "1L1",
+      "gpio": "GPIO3_A1_d",
+      "bank": "VCCIO1 Domain",
+      "page": 7
+    },
+    {
+      "ball": "1M1",
+      "gpio": "GPIO3_A0_d",
+      "bank": "VCCIO1 Domain",
+      "page": 7
+    },
+    {
+      "ball": "1M2",
+      "gpio": "GPIO3_B0_d",
+      "bank": "VCCIO1 Domain",
+      "page": 7
+    },
+    {
+      "ball": "J1",
+      "gpio": "GPIO3_A6_d",
+      "bank": "VCCIO1 Domain",
+      "page": 7
+    },
+    {
+      "ball": "J2",
+      "gpio": "GPIO3_B1_d",
+      "bank": "VCCIO1 Domain",
+      "page": 7
+    },
+    {
+      "ball": "L26",
+      "gpio": "GPIO1_B2_d",
+      "bank": "VCCIO2 Domain",
+      "page": 8
+    },
+    {
+      "ball": "M2",
+      "gpio": "GPIO4_B4_d",
+      "bank": "VCCIO6 Domain",
+      "page": 11
+    },
+    {
+      "ball": "P2",
+      "gpio": "GPIO3_C7_d",
+      "bank": "VCCIO6 Domain",
+      "page": 11
+    },
+    {
+      "ball": "P3",
+      "gpio": "GPIO3_C6_d",
+      "bank": "VCCIO6 Domain",
+      "page": 11
+    },
+    {
+      "ball": "R1",
+      "gpio": "GPIO3_D1_d",
+      "bank": "VCCIO6 Domain",
+      "page": 11
+    },
+    {
+      "ball": "R2",
+      "gpio": "GPIO3_D2_d",
+      "bank": "VCCIO6 Domain",
+      "page": 11
+    },
+    {
+      "ball": "R3",
+      "gpio": "GPIO3_D0_d",
+      "bank": "VCCIO6 Domain",
+      "page": 11
+    },
+    {
+      "ball": "U1",
+      "gpio": "GPIO4_B7_d",
+      "bank": "VCCIO6 Domain",
+      "page": 11
+    },
+    {
+      "ball": "V27",
+      "gpio": "GPIO1_D6_d",
+      "bank": "VCCIO4 Domain",
+      "page": 9
+    },
+    {
+      "ball": "V3",
+      "gpio": "GPIO4_B0_d",
+      "bank": "VCCIO6 Domain",
+      "page": 11
+    },
+    {
+      "ball": "W25",
+      "gpio": "GPIO2_A1_d",
+      "bank": "VCCIO4 Domain",
+      "page": 9
+    },
+    {
+      "ball": "W26",
+      "gpio": "GPIO1_D5_d",
+      "bank": "VCCIO4 Domain",
+      "page": 9
+    },
+    {
+      "ball": "Y27",
+      "gpio": "GPIO1_D4_d",
+      "bank": "VCCIO4 Domain",
+      "page": 9
+    }
+  ],
+  "rows": [
+    {
+      "footprint": "J3",
+      "pin": "29",
+      "old_net": "EXP_GPIO2",
+      "position": [
+        69300000,
+        1145000
+      ],
+      "side": "F.Cu",
+      "width_um": 200.0,
+      "reachable": 293,
+      "max_reach_mm": 4.224264068711928,
+      "ordinary_sites": 0,
+      "selected": [],
+      "min_conflicts": 2,
+      "blocker_sets": [
+        {
+          "blockers": [
+            {
+              "id": "6e7b28f5-6a07-400e-8b36-2a102e2a0574",
+              "net": "EXP_SPI_CS0_N",
+              "kind": "PCB_TRACK",
+              "layer": "In3.Cu",
+              "pin": null
+            },
+            {
+              "id": "c6444e51-9bd0-49a3-b421-d2d91fd50402",
+              "net": "EXP_GPIO0",
+              "kind": "PAD",
+              "layer": "F.Cu",
+              "pin": "J3.27"
+            }
+          ],
+          "count": 5,
+          "site": [
+            69100000,
+            495000
+          ],
+          "length_mm": 0.43284271247461903
+        },
+        {
+          "blockers": [
+            {
+              "id": "6e7b28f5-6a07-400e-8b36-2a102e2a0574",
+              "net": "EXP_SPI_CS0_N",
+              "kind": "PCB_TRACK",
+              "layer": "In3.Cu",
+              "pin": null
+            },
+            {
+              "id": "edf8615c-85a1-40f7-81ff-e2e0cb37a179",
+              "net": "EXP_UART_TX",
+              "kind": "PAD",
+              "layer": "F.Cu",
+              "pin": "J3.25"
+            }
+          ],
+          "count": 1,
+          "site": [
+            68500000,
+            495000
+          ],
+          "length_mm": 1.0328427124746191
+        },
+        {
+          "blockers": [
+            {
+              "id": "102ab5d5-42b6-461d-b917-905351cb5e8a",
+              "net": "EXP_I2C_SDA",
+              "kind": "PAD",
+              "layer": "F.Cu",
+              "pin": "J3.23"
+            },
+            {
+              "id": "6e7b28f5-6a07-400e-8b36-2a102e2a0574",
+              "net": "EXP_SPI_CS0_N",
+              "kind": "PCB_TRACK",
+              "layer": "In3.Cu",
+              "pin": null
+            }
+          ],
+          "count": 1,
+          "site": [
+            68100000,
+            495000
+          ],
+          "length_mm": 1.432842712474619
+        },
+        {
+          "blockers": [
+            {
+              "id": "6e7b28f5-6a07-400e-8b36-2a102e2a0574",
+              "net": "EXP_SPI_CS0_N",
+              "kind": "PCB_TRACK",
+              "layer": "In3.Cu",
+              "pin": null
+            },
+            {
+              "id": "a633d4c5-54e7-489b-9d21-db85f8e02f81",
+              "net": "ADDON_USB_DM",
+              "kind": "PAD",
+              "layer": "F.Cu",
+              "pin": "J3.21"
+            }
+          ],
+          "count": 1,
+          "site": [
+            67700000,
+            495000
+          ],
+          "length_mm": 1.832842712474619
+        },
+        {
+          "blockers": [
+            {
+              "id": "6e7b28f5-6a07-400e-8b36-2a102e2a0574",
+              "net": "EXP_SPI_CS0_N",
+              "kind": "PCB_TRACK",
+              "layer": "In3.Cu",
+              "pin": null
+            },
+            {
+              "id": "a33dd36d-447c-4ea9-8825-a36ad6e0fbd2",
+              "net": "ADDON_USB_DP",
+              "kind": "PAD",
+              "layer": "F.Cu",
+              "pin": "J3.19"
+            }
+          ],
+          "count": 1,
+          "site": [
+            67300000,
+            495000
+          ],
+          "length_mm": 2.232842712474619
+        },
+        {
+          "blockers": [
+            {
+              "id": "1dbfe13a-1dc7-4b6d-ba99-25beac0990bf",
+              "net": "GND",
+              "kind": "PAD",
+              "layer": "F.Cu",
+              "pin": "J3.17"
+            },
+            {
+              "id": "6e7b28f5-6a07-400e-8b36-2a102e2a0574",
+              "net": "EXP_SPI_CS0_N",
+              "kind": "PCB_TRACK",
+              "layer": "In3.Cu",
+              "pin": null
+            }
+          ],
+          "count": 1,
+          "site": [
+            66900000,
+            495000
+          ],
+          "length_mm": 2.632842712474619
+        },
+        {
+          "blockers": [
+            {
+              "id": "17bb4e3c-7eb2-4058-829e-8eafdf659282",
+              "net": "GND",
+              "kind": "PAD",
+              "layer": "F.Cu",
+              "pin": "J3.15"
+            },
+            {
+              "id": "6e7b28f5-6a07-400e-8b36-2a102e2a0574",
+              "net": "EXP_SPI_CS0_N",
+              "kind": "PCB_TRACK",
+              "layer": "In3.Cu",
+              "pin": null
+            }
+          ],
+          "count": 1,
+          "site": [
+            66500000,
+            495000
+          ],
+          "length_mm": 3.032842712474619
+        },
+        {
+          "blockers": [
+            {
+              "id": "17b2dda1-68e6-4217-b8e0-f38db6021d60",
+              "net": "GND",
+              "kind": "PAD",
+              "layer": "F.Cu",
+              "pin": "J3.13"
+            },
+            {
+              "id": "6e7b28f5-6a07-400e-8b36-2a102e2a0574",
+              "net": "EXP_SPI_CS0_N",
+              "kind": "PCB_TRACK",
+              "layer": "In3.Cu",
+              "pin": null
+            }
+          ],
+          "count": 1,
+          "site": [
+            66100000,
+            495000
+          ],
+          "length_mm": 3.4328427124746193
+        },
+        {
+          "blockers": [
+            {
+              "id": "4e4d5527-13d8-4e03-b789-ece0ad193a11",
+              "net": "GND",
+              "kind": "PAD",
+              "layer": "F.Cu",
+              "pin": "J3.11"
+            },
+            {
+              "id": "6e7b28f5-6a07-400e-8b36-2a102e2a0574",
+              "net": "EXP_SPI_CS0_N",
+              "kind": "PCB_TRACK",
+              "layer": "In3.Cu",
+              "pin": null
+            }
+          ],
+          "count": 1,
+          "site": [
+            65700000,
+            495000
+          ],
+          "length_mm": 3.832842712474619
+        }
+      ]
+    },
+    {
+      "footprint": "J3",
+      "pin": "30",
+      "old_net": "EXP_GPIO3",
+      "position": [
+        69300000,
+        3855000
+      ],
+      "side": "F.Cu",
+      "width_um": 200.0,
+      "reachable": 2615,
+      "max_reach_mm": 7.381370849898473,
+      "ordinary_sites": 0,
+      "selected": [],
+      "min_conflicts": 1,
+      "blocker_sets": [
+        {
+          "blockers": [
+            {
+              "id": "e9ab9573-d5a0-40cc-8a95-7e25b2cd26e3",
+              "net": "+5V_ADDON",
+              "kind": "PCB_TRACK",
+              "layer": "In3.Cu",
+              "pin": null
+            }
+          ],
+          "count": 102,
+          "site": [
+            69250000,
+            3155000
+          ],
+          "length_mm": 0.42071067811865476
+        },
+        {
+          "blockers": [
+            {
+              "id": "06c51514-f73d-4bff-94c3-4288271e1a7c",
+              "net": "EXP_GPIO0",
+              "kind": "PCB_TRACK",
+              "layer": "In2.Cu",
+              "pin": null
+            },
+            {
+              "id": "e9ab9573-d5a0-40cc-8a95-7e25b2cd26e3",
+              "net": "+5V_ADDON",
+              "kind": "PCB_TRACK",
+              "layer": "In3.Cu",
+              "pin": null
+            }
+          ],
+          "count": 80,
+          "site": [
+            69300000,
+            3105000
+          ],
+          "length_mm": 0.45
+        },
+        {
+          "blockers": [
+            {
+              "id": "3acf1f7d-8dc1-412c-9db3-5e752d79b4af",
+              "net": "EXP_GPIO1",
+              "kind": "PAD",
+              "layer": "F.Cu",
+              "pin": "J3.28"
+            },
+            {
+              "id": "e9ab9573-d5a0-40cc-8a95-7e25b2cd26e3",
+              "net": "+5V_ADDON",
+              "kind": "PCB_TRACK",
+              "layer": "In3.Cu",
+              "pin": null
+            }
+          ],
+          "count": 20,
+          "site": [
+            69100000,
+            3205000
+          ],
+          "length_mm": 0.43284271247461903
+        },
+        {
+          "blockers": [
+            {
+              "id": "69f12d08-a23c-4ed4-bfaf-49ba8627948f",
+              "net": "EXP_UART_RX",
+              "kind": "PAD",
+              "layer": "F.Cu",
+              "pin": "J3.26"
+            },
+            {
+              "id": "e9ab9573-d5a0-40cc-8a95-7e25b2cd26e3",
+              "net": "+5V_ADDON",
+              "kind": "PCB_TRACK",
+              "layer": "In3.Cu",
+              "pin": null
+            }
+          ],
+          "count": 11,
+          "site": [
+            68650000,
+            3105000
+          ],
+          "length_mm": 0.9242640687119286
+        },
+        {
+          "blockers": [
+            {
+              "id": "e137eba1-98a9-493d-9659-84635177ac63",
+              "net": "EXP_I2C_SCL",
+              "kind": "PAD",
+              "layer": "F.Cu",
+              "pin": "J3.24"
+            },
+            {
+              "id": "e9ab9573-d5a0-40cc-8a95-7e25b2cd26e3",
+              "net": "+5V_ADDON",
+              "kind": "PCB_TRACK",
+              "layer": "In3.Cu",
+              "pin": null
+            }
+          ],
+          "count": 11,
+          "site": [
+            68250000,
+            3105000
+          ],
+          "length_mm": 1.3242640687119285
+        },
+        {
+          "blockers": [
+            {
+              "id": "40b10549-304f-40ad-ad22-2c13ee8bac30",
+              "net": "EXP_GPIO0",
+              "kind": "PCB_VIA",
+              "layer": "F.Cu",
+              "pin": null
+            },
+            {
+              "id": "e9ab9573-d5a0-40cc-8a95-7e25b2cd26e3",
+              "net": "+5V_ADDON",
+              "kind": "PCB_TRACK",
+              "layer": "In3.Cu",
+              "pin": null
+            }
+          ],
+          "count": 4,
+          "site": [
+            68850000,
+            2755000
+          ],
+          "length_mm": 0.9863961030678928
+        },
+        {
+          "blockers": [
+            {
+              "id": "24ec24f5-3600-4e85-9607-e4416f53d9e4",
+              "net": "+5V_ADDON",
+              "kind": "PAD",
+              "layer": "F.Cu",
+              "pin": "J3.5"
+            },
+            {
+              "id": "90bff032-bace-4d75-8ab7-5873e7ae9aff",
+              "net": "EXP_GPIO1",
+              "kind": "PCB_TRACK",
+              "layer": "In2.Cu",
+              "pin": null
+            }
+          ],
+          "count": 4,
+          "site": [
+            64550000,
+            1855000
+          ],
+          "length_mm": 5.717766952966364
+        },
+        {
+          "blockers": [
+            {
+              "id": "2f49c619-718d-4c71-bf6f-42bffe8dbe51",
+              "net": "GND",
+              "kind": "PCB_VIA",
+              "layer": "F.Cu",
+              "pin": null
+            },
+            {
+              "id": "e9ab9573-d5a0-40cc-8a95-7e25b2cd26e3",
+              "net": "+5V_ADDON",
+              "kind": "PCB_TRACK",
+              "layer": "In3.Cu",
+              "pin": null
+            }
+          ],
+          "count": 3,
+          "site": [
+            66150000,
+            2705000
+          ],
+          "length_mm": 3.5899494936611642
+        },
+        {
+          "blockers": [
+            {
+              "id": "e9ab9573-d5a0-40cc-8a95-7e25b2cd26e3",
+              "net": "+5V_ADDON",
+              "kind": "PCB_TRACK",
+              "layer": "In3.Cu",
+              "pin": null
+            },
+            {
+              "id": "fe23ee33-c065-4f39-aa71-581a02d67f4e",
+              "net": "GND",
+              "kind": "PAD",
+              "layer": "F.Cu",
+              "pin": "J3.22"
+            }
+          ],
+          "count": 1,
+          "site": [
+            67700000,
+            3205000
+          ],
+          "length_mm": 1.832842712474619
+        },
+        {
+          "blockers": [
+            {
+              "id": "8666cf98-6292-4929-a163-b36f07451882",
+              "net": "GND",
+              "kind": "PCB_VIA",
+              "layer": "F.Cu",
+              "pin": null
+            },
+            {
+              "id": "90bff032-bace-4d75-8ab7-5873e7ae9aff",
+              "net": "EXP_GPIO1",
+              "kind": "PCB_TRACK",
+              "layer": "In2.Cu",
+              "pin": null
+            }
+          ],
+          "count": 1,
+          "site": [
+            64600000,
+            1905000
+          ],
+          "length_mm": 5.64705627484771
+        }
+      ]
+    }
+  ],
+  "scope": "Candidate assignment only; reset-pull-down and existing +3V3_IO rail retained in this study. Local copper with ordinary vias, no firmware or schematic modifications."
+}

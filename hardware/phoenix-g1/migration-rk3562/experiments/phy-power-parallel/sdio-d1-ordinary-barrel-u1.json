@@ -1,0 +1,86 @@
+{
+  "parent_sha256": "532c456a73507d50ee5623bdd648e3a0b989dda76f398229db709e7a9855348b",
+  "radius_mm": 0.225,
+  "drill_mm": 0.2,
+  "rows": [
+    {
+      "blockers": [
+        [
+          "095dee61-2d7d-4dc1-b7eb-24f2735601dc",
+          "",
+          "U1.W25"
+        ],
+        [
+          "1adefda6-9323-4163-9f69-02194ff2eed8",
+          "+1V1_LPDDR4",
+          "PCB_TRACK"
+        ],
+        [
+          "2e277328-37e5-42b9-b673-31dfc23d357f",
+          "+3V3_IO",
+          "C1628.1"
+        ],
+        [
+          "5ae33ed1-8b08-43f5-89d4-24e36228dd84",
+          "WIFI_CLK",
+          "U1.U25"
+        ],
+        [
+          "5f6cbc53-9988-4fb8-a955-029bd50b534a",
+          "WIFI_D1",
+          "U1.V25"
+        ],
+        [
+          "8b2e4914-d4c3-4c5a-8e9c-e193bb1620bf",
+          "WIFI_HOST_WAKE",
+          "U1.V26"
+        ],
+        [
+          "abc5a357-2fc3-4679-9a90-37d450452838",
+          "EXP_I2C_SCL",
+          "PCB_TRACK"
+        ],
+        [
+          "c3dfec40-d597-4b73-b8d6-c321cf7945a7",
+          "EXP_SPI_CLK",
+          "PCB_TRACK"
+        ],
+        [
+          "c673647c-38df-46d9-a5b4-27cf5dbe75fe",
+          "GND",
+          "PCB_TRACK"
+        ],
+        [
+          "c86239b8-9e37-4586-a55f-0d2c63d03c39",
+          "EXP_SPI_CLK",
+          "PCB_TRACK"
+        ],
+        [
+          "cf58f952-ccef-4e70-bd87-9fc9f6fee8ec",
+          "+3V3_IO",
+          "PCB_TRACK"
+        ],
+        [
+          "d9515104-165c-4655-9aca-68256bd7b042",
+          "EXP_I2C_SCL",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 1,
+      "examples": [
+        {
+          "at": [
+            48500000,
+            22000000
+          ],
+          "path": [
+            [
+              48500000,
+              22000000
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

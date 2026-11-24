@@ -1,0 +1,122 @@
+{
+  "parent_sha256": "7a3f16fdacf133d7feb8d214cbd63f058de083afc0e95566a30400f5b5290b5a",
+  "radius_mm": 0.225,
+  "drill_mm": 0.2,
+  "rows": [
+    {
+      "blockers": [
+        [
+          "07fadcde-6747-4c44-a7bf-d5e5de5f0559",
+          "+1V8_SYS",
+          "C2301.1"
+        ]
+      ],
+      "sites": 11,
+      "examples": [
+        {
+          "at": [
+            24200000,
+            10400000
+          ],
+          "path": []
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "6af249fd-801a-4217-b088-87de45eba9c9",
+          "+1V1_LPDDR4",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 1,
+      "examples": [
+        {
+          "at": [
+            23700000,
+            9600000
+          ],
+          "path": []
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "07fadcde-6747-4c44-a7bf-d5e5de5f0559",
+          "+1V8_SYS",
+          "C2301.1"
+        ],
+        [
+          "6af249fd-801a-4217-b088-87de45eba9c9",
+          "+1V1_LPDDR4",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 27,
+      "examples": [
+        {
+          "at": [
+            23800000,
+            9700000
+          ],
+          "path": []
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "07fadcde-6747-4c44-a7bf-d5e5de5f0559",
+          "+1V8_SYS",
+          "C2301.1"
+        ],
+        [
+          "1379e7f7-6313-47ba-9f16-0d8130797977",
+          "GND",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 23,
+      "examples": [
+        {
+          "at": [
+            24200000,
+            10700000
+          ],
+          "path": []
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "07fadcde-6747-4c44-a7bf-d5e5de5f0559",
+          "+1V8_SYS",
+          "C2301.1"
+        ],
+        [
+          "1379e7f7-6313-47ba-9f16-0d8130797977",
+          "GND",
+          "PCB_TRACK"
+        ],
+        [
+          "cc3f7d76-477e-455d-9759-886ddc6ab9c8",
+          "GND",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 4,
+      "examples": [
+        {
+          "at": [
+            24500000,
+            10600000
+          ],
+          "path": []
+        }
+      ]
+    }
+  ]
+}

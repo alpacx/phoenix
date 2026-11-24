@@ -1,0 +1,118 @@
+{
+  "parent_sha256": "9ab66bf2fedfccf049ad5aca8f802b27a5d8c7e538af7545e10957b756033dc8",
+  "candidate_sha256": "d46402b615b9d79f9efd2163159944656b1cf16d410d039f4d259b7e37839afb",
+  "source_100nf_and_1uf_contacts": true,
+  "return_lengths": {
+    "near_100nf": {
+      "trace_to_tap_mm": 0.68,
+      "additional_return_copper_mm": 0.0,
+      "barrel_center_nm": [
+        44700000,
+        29500000
+      ]
+    },
+    "near_1uf": {
+      "trace_to_tap_mm": 0.3008321791298264,
+      "additional_return_copper_mm": 1.0410091258005378,
+      "barrel_center_nm": [
+        50650000,
+        29750000
+      ]
+    }
+  },
+  "nearest_load_xy_mm_before_after": {
+    "C1681.1": [
+      15.897323674128296,
+      7.662564844750092
+    ],
+    "C1682.1": [
+      6.727153930155011,
+      6.571978393147683
+    ]
+  },
+  "reference": [
+    {
+      "net": "GND",
+      "start": [
+        49480000,
+        29100000
+      ],
+      "end": [
+        49760000,
+        29210000
+      ],
+      "width_mm": 0.3,
+      "length_mm": 0.30083217912982646,
+      "samples": 66,
+      "missing": 0,
+      "miss_range": []
+    },
+    {
+      "net": "GND",
+      "start": [
+        45020000,
+        30100000
+      ],
+      "end": [
+        44700000,
+        29500000
+      ],
+      "width_mm": 0.3,
+      "length_mm": 0.68,
+      "samples": 141,
+      "missing": 0,
+      "miss_range": []
+    },
+    {
+      "net": "VCCA_1V8",
+      "start": [
+        47500000,
+        27590001
+      ],
+      "end": [
+        48480000,
+        26640000
+      ],
+      "width_mm": 0.3,
+      "length_mm": 1.3648816432207593,
+      "samples": 276,
+      "missing": 0,
+      "miss_range": []
+    },
+    {
+      "net": "USB_AVDD_1V8",
+      "start": [
+        48520000,
+        29100000
+      ],
+      "end": [
+        47500000,
+        28609999
+      ],
+      "width_mm": 0.3,
+      "length_mm": 1.131592232211321,
+      "samples": 231,
+      "missing": 0,
+      "miss_range": []
+    },
+    {
+      "net": "USB_AVDD_1V8",
+      "start": [
+        45980000,
+        30100000
+      ],
+      "end": [
+        47500000,
+        28609999
+      ],
+      "width_mm": 0.3,
+      "length_mm": 2.128497822409269,
+      "samples": 429,
+      "missing": 0,
+      "miss_range": []
+    }
+  ],
+  "native_pairs": 772,
+  "mechanical": [],
+  "delta": []
+}

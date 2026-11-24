@@ -1,0 +1,83 @@
+{
+  "parent": "ab29fdb0185edc117a17a97bfdc1129749de3ba92e9655c64e54a7e0c1a67fb1",
+  "board": "runs/lpddr-n12-r12-pwm/phy-joint.kicad_pcb",
+  "sha256": "e98487fd1ac7534b297152c476aa8c9d6843481aa09ead6b85f0a4a0f14d5b82",
+  "native": [
+    {
+      "delta": [],
+      "lost": [],
+      "joins": 349,
+      "replaced": [
+        "d7da0c17-4686-4dda-8874-7e87fd4bc822"
+      ],
+      "solution": {
+        "rail": [
+          [
+            34425000,
+            9975000
+          ],
+          [
+            34837500,
+            10475000
+          ],
+          [
+            34837500,
+            10775000
+          ],
+          [
+            34425000,
+            11275000
+          ]
+        ],
+        "w": 350000,
+        "foreign": [
+          [
+            35100000,
+            11700000
+          ],
+          [
+            35325000,
+            11400000
+          ],
+          [
+            35325000,
+            8250000
+          ],
+          [
+            35100000,
+            7950000
+          ]
+        ],
+        "shift": 225000,
+        "rail_length": 1596389.2162464173
+      },
+      "mech": [],
+      "guard": {
+        "existing_pad_instances_preserved": 2008,
+        "existing_tracks_vias_preserved": 8073,
+        "explicitly_replaced_copper": {
+          "d7da0c17-4686-4dda-8874-7e87fd4bc822": [
+            "LCD_BL_PWM",
+            0,
+            35100000,
+            11700000,
+            35100000,
+            7950000,
+            200000,
+            null
+          ]
+        },
+        "added_tracks_vias": 5,
+        "existing_connected_pad_groups_preserved": 128
+      },
+      "mask": {
+        "F.Cu": 0,
+        "B.Cu": 0
+      },
+      "reference_samples": {
+        "sampled": 1404
+      },
+      "qualified": true
+    }
+  ]
+}

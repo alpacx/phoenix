@@ -1,0 +1,79 @@
+{
+  "checkpoint": "0995a9cbd8c58313baf4bd271eb89c89027eaf3432d065dbb39d670197233491",
+  "closest_connected_rail_barrels": [],
+  "paths": [
+    {
+      "net": "GND",
+      "layer": "F.Cu",
+      "width": 0.3,
+      "new_old": [
+        {
+          "samples": 258,
+          "void": 0,
+          "length_mm": 0.42426406871192857
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "layer": "F.Cu",
+      "width": 0.3,
+      "new_old": [
+        {
+          "samples": 801,
+          "void": 0,
+          "length_mm": 1.3290033860002013
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "layer": "F.Cu",
+      "width": 0.3,
+      "new_old": [
+        {
+          "samples": 366,
+          "void": 0,
+          "length_mm": 0.6046693311223913
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "layer": "B.Cu",
+      "width": 0.3,
+      "new_old": [
+        {
+          "samples": 171,
+          "void": 0,
+          "length_mm": 0.27950849718747367
+        }
+      ]
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "width": 0.35,
+      "new_old": [
+        {
+          "samples": 429,
+          "void": 0,
+          "length_mm": 0.7079901129253148
+        }
+      ]
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "width": 0.35,
+      "new_old": [
+        {
+          "samples": 516,
+          "void": 0,
+          "length_mm": 0.8544003745317531
+        }
+      ]
+    }
+  ],
+  "method": "Euclidean proximity of electrically connected supply vias; adjacent GND plane beneath changed outer tracks sampled at both edges and center."
+}

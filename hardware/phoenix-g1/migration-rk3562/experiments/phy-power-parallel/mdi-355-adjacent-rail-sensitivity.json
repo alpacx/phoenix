@@ -1,0 +1,115 @@
+{
+  "pcb_sha256": "44c36cd60476f4dfe61c4f2e6a11dcf7e03b480b4b902420eee39cd6260850b3",
+  "width_um": 200,
+  "gap_um": 214,
+  "results": {
+    "JLC06161H-3313": {
+      "unobstructed_inner_pair": [
+        {
+          "odd_diff_ohms": 102.38398825855013,
+          "delay_ps_mm": 7.012281230695554,
+          "step_mm": 0.014
+        },
+        {
+          "odd_diff_ohms": 103.28518622459045,
+          "delay_ps_mm": 7.01165546395886,
+          "step_mm": 0.007
+        }
+      ],
+      "solid_ac_reference_on_adjacent_layer": [
+        {
+          "odd_diff_ohms": 74.21096178646806,
+          "delay_ps_mm": 6.927243296425045,
+          "step_mm": 0.014
+        },
+        {
+          "odd_diff_ohms": 74.95403605188442,
+          "delay_ps_mm": 6.926882833453367,
+          "step_mm": 0.007
+        }
+      ]
+    },
+    "JLC06161H-7628": {
+      "unobstructed_inner_pair": [
+        {
+          "odd_diff_ohms": 99.04075491083428,
+          "delay_ps_mm": 7.081045727095281,
+          "step_mm": 0.014
+        },
+        {
+          "odd_diff_ohms": 99.9121676607914,
+          "delay_ps_mm": 7.080768348994225,
+          "step_mm": 0.007
+        }
+      ],
+      "solid_ac_reference_on_adjacent_layer": [
+        {
+          "odd_diff_ohms": 88.0196508613132,
+          "delay_ps_mm": 7.064426709258941,
+          "step_mm": 0.014
+        },
+        {
+          "odd_diff_ohms": 88.83390580015322,
+          "delay_ps_mm": 7.06420449250523,
+          "step_mm": 0.007
+        }
+      ]
+    }
+  },
+  "scope": "2D differential odd-mode cross sections, copper uniform hypothetically across both traces and along propagation. An infinite equipotential adjacent sheet and empty adjacent layer bracket topology models, not all possible impedances or 3D crosstalk. Angular intersections differ across polarities and may cause mode conversion. Power-rail AC impedance and offset SDA line excluded.",
+  "uniform_section_reflection": {
+    "JLC06161H-3313": [
+      {
+        "MHz": 62.5,
+        "uniform_section_mm": 4.971,
+        "reflection_magnitude": 0.004409897158537719,
+        "return_loss_dB": 47.11143076846802
+      },
+      {
+        "MHz": 125,
+        "uniform_section_mm": 4.971,
+        "reflection_magnitude": 0.008818730819037722,
+        "return_loss_dB": 41.09187827004035
+      },
+      {
+        "MHz": 250,
+        "uniform_section_mm": 4.971,
+        "reflection_magnitude": 0.017628957807666296,
+        "return_loss_dB": 35.075467233036065
+      },
+      {
+        "MHz": 500,
+        "uniform_section_mm": 4.971,
+        "reflection_magnitude": 0.03519001751188261,
+        "return_loss_dB": 29.07161034086815
+      }
+    ],
+    "JLC06161H-7628": [
+      {
+        "MHz": 62.5,
+        "uniform_section_mm": 4.971,
+        "reflection_magnitude": 0.001624332715382987,
+        "return_loss_dB": 55.78650017116887
+      },
+      {
+        "MHz": 125,
+        "uniform_section_mm": 4.971,
+        "reflection_magnitude": 0.003248343689492575,
+        "return_loss_dB": 49.76676053348478
+      },
+      {
+        "MHz": 250,
+        "uniform_section_mm": 4.971,
+        "reflection_magnitude": 0.006494113950854409,
+        "return_loss_dB": 43.749601903380835
+      },
+      {
+        "MHz": 500,
+        "uniform_section_mm": 4.971,
+        "reflection_magnitude": 0.012967656526109966,
+        "return_loss_dB": 37.742770023015964
+      }
+    ]
+  },
+  "uniform_section_limit": "Lossless matched line with a synthetic 4.971 mm discontinuity. This calculation uses the longest cumulative projected rail overlap on P; it does not model the actual differential/common-mode 3D crossing or qualify a channel."
+}

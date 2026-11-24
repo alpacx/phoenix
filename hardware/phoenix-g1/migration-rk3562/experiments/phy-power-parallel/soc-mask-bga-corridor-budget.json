@@ -1,0 +1,827 @@
+{
+  "parent_sha256": "e02bfeef7e6ff15d302760261b84966c6c6a290fc7d527d4f2852c69c612795c",
+  "scope": "Crossings of straight inter-pad centerlines on front copper only. Positive shortfall means that no translation of a trace of this width between these openings can give 90 um on both sides of that throat.",
+  "actual_crossings": [
+    {
+      "net": "LPDDR4_DQ11_A",
+      "uuid": "1f0ca937-6c45-40c1-84c8-293c045fc9af",
+      "pads": [
+        "A1",
+        "B1"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ11_A",
+      "uuid": "ce0f684a-0b5a-46fb-ac04-b6751c3fd4ef",
+      "pads": [
+        "A1",
+        "B1"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_A0_B",
+      "uuid": "a02f54e4-5077-446b-b033-a12aa2a8f2e7",
+      "pads": [
+        "A15",
+        "A16"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_A0_B",
+      "uuid": "f6068796-1937-44a6-b598-e41482059496",
+      "pads": [
+        "A15",
+        "A16"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_A0_B",
+      "uuid": "33490800-a970-4d9d-b5e5-d4d5f11b96d2",
+      "pads": [
+        "A16",
+        "B16"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_A0_B",
+      "uuid": "fb4e3af8-5db0-48dd-9fff-f874012fb7ed",
+      "pads": [
+        "A16",
+        "B16"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ15_A",
+      "uuid": "3149a901-16a1-43df-8a58-5bb54d3b5612",
+      "pads": [
+        "A2",
+        "A3"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ15_A",
+      "uuid": "f74a7cbb-772f-4493-8e7f-51a03d11f8d8",
+      "pads": [
+        "A2",
+        "A3"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ15_B",
+      "uuid": "aecc5d21-d1fb-49ff-ad47-c66070547374",
+      "pads": [
+        "A24",
+        "A25"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ15_B",
+      "uuid": "c1511e0c-75bc-4dd9-8a65-f056f3ddce6e",
+      "pads": [
+        "A24",
+        "A25"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ11_B",
+      "uuid": "907f1396-71a0-4824-87c8-1f3a73464874",
+      "pads": [
+        "A25",
+        "A26"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ11_B",
+      "uuid": "d96e50ad-5618-4d46-83a9-ded877d79f37",
+      "pads": [
+        "A25",
+        "A26"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "EXP_SPI_CLK",
+      "uuid": "273233db-1257-47db-a8f9-7c2a96c6ea4d",
+      "pads": [
+        "AE15",
+        "AF15"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "EXP_I2C_SDA",
+      "uuid": "17eac454-4c41-442e-8b48-132f18344952",
+      "pads": [
+        "AE21",
+        "AE22"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "EXP_I2C_SDA",
+      "uuid": "1185708a-9c36-45ac-a779-9fcb0ab87ffa",
+      "pads": [
+        "AE22",
+        "AF22"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "EXP_I2C_SDA",
+      "uuid": "1171e0dc-d84e-45cb-826c-326f6dcec041",
+      "pads": [
+        "AE23",
+        "AE24"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "EXP_I2C_SDA",
+      "uuid": "1185708a-9c36-45ac-a779-9fcb0ab87ffa",
+      "pads": [
+        "AE23",
+        "AF23"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "EXP_SPI_CLK",
+      "uuid": "39eb05d7-cf4b-4ceb-bcab-03f64546d198",
+      "pads": [
+        "AF14",
+        "AF15"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "EXP_SPI_CLK",
+      "uuid": "39eb05d7-cf4b-4ceb-bcab-03f64546d198",
+      "pads": [
+        "AG14",
+        "AG15"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ8_A",
+      "uuid": "621b2504-6999-4285-87fa-fba84bfd9b6c",
+      "pads": [
+        "B1",
+        "C1"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ8_A",
+      "uuid": "bbeb3e72-4ec3-48c6-b8f2-c55605e0cc4a",
+      "pads": [
+        "B1",
+        "C1"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_A0_B",
+      "uuid": "0ad46ec9-0cde-47dc-8e49-e8f32c229989",
+      "pads": [
+        "B16",
+        "B17"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_A0_B",
+      "uuid": "f607e8d0-fade-49d4-9459-60e5220bdda7",
+      "pads": [
+        "B16",
+        "B17"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_A0_B",
+      "uuid": "0c8923fd-793d-4647-a056-16a20e5de340",
+      "pads": [
+        "B17",
+        "C17"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_A0_B",
+      "uuid": "337ed758-e39f-48be-80d3-bf40c2099a0f",
+      "pads": [
+        "B17",
+        "C17"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ10_A",
+      "uuid": "ceb26b7a-daaf-4f5f-96a2-d33650baf8d4",
+      "pads": [
+        "B2",
+        "C2"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ10_A",
+      "uuid": "ec9fda74-78d7-4f5e-92f8-84e9d20f33ea",
+      "pads": [
+        "B2",
+        "C2"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ0_B",
+      "uuid": "22b2ff6e-78a8-407b-80ab-f1ab3e4e34bc",
+      "pads": [
+        "B23",
+        "C23"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ0_B",
+      "uuid": "50f2d702-04ff-4903-b7f1-1d2325308c58",
+      "pads": [
+        "B23",
+        "C23"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ0_B",
+      "uuid": "d6323b3c-85ee-4dc2-9049-7719fdceaab1",
+      "pads": [
+        "B24",
+        "C24"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ0_B",
+      "uuid": "e9bc7010-ff9f-40a3-99cf-04faf3ce5453",
+      "pads": [
+        "B24",
+        "C24"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ13_B",
+      "uuid": "62e0523e-47c9-4edc-8e21-735e466afbde",
+      "pads": [
+        "B25",
+        "C25"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ13_B",
+      "uuid": "a53569c2-ebde-411f-bbf0-0efae91e5a3b",
+      "pads": [
+        "B25",
+        "C25"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ5_A",
+      "uuid": "293185dc-9035-47d7-9096-8874283dc051",
+      "pads": [
+        "B4",
+        "C4"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ5_A",
+      "uuid": "d83d452c-2298-437e-a7ff-2e2ab1c945eb",
+      "pads": [
+        "B4",
+        "C4"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_CLKP_B",
+      "uuid": "493012dc-d553-4df5-bd52-a5751319ab5c",
+      "pads": [
+        "C14",
+        "C15"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_CLKP_B",
+      "uuid": "62ec5520-ae7b-4132-9fe7-c125e0898c6e",
+      "pads": [
+        "C14",
+        "C15"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ10_A",
+      "uuid": "1db60433-37db-495a-becc-137a57a29945",
+      "pads": [
+        "C2",
+        "D2"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ10_A",
+      "uuid": "3b659787-9d1a-4b6d-82ae-a554c946ab8d",
+      "pads": [
+        "C2",
+        "D2"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ10_A",
+      "uuid": "85afc18f-8901-42e2-b5d0-172304550574",
+      "pads": [
+        "C2",
+        "C3"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ10_A",
+      "uuid": "93c59d70-9d2b-46e9-af49-3c6fd195249b",
+      "pads": [
+        "C2",
+        "C3"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ0_B",
+      "uuid": "0697379b-5bf2-4968-a8ee-3de70251269d",
+      "pads": [
+        "C24",
+        "C25"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ0_B",
+      "uuid": "6cde8e24-0622-4a02-92e6-cf3ec46ec574",
+      "pads": [
+        "C24",
+        "C25"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ13_B",
+      "uuid": "0092626e-4c29-4a6f-967d-dd209987e134",
+      "pads": [
+        "C25",
+        "C26"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ13_B",
+      "uuid": "5d8365c9-8777-4c59-a56c-562a23bd6327",
+      "pads": [
+        "C25",
+        "C26"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ5_A",
+      "uuid": "48cfa5e1-3f25-4c1e-9020-180a40bd4de0",
+      "pads": [
+        "C3",
+        "D3"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ5_A",
+      "uuid": "a2d11209-bfba-499e-8d3f-dcd3dc44a781",
+      "pads": [
+        "C3",
+        "D3"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ5_A",
+      "uuid": "a8099e7f-6859-4923-8598-e2b176939180",
+      "pads": [
+        "C3",
+        "C4"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ5_A",
+      "uuid": "b74e5798-0f40-4500-8f3e-430b32556527",
+      "pads": [
+        "C3",
+        "C4"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ10_A",
+      "uuid": "a88a4c81-39da-4503-b6cb-690ff6bde5b3",
+      "pads": [
+        "D1",
+        "D2"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ10_A",
+      "uuid": "f4db067a-297a-4c2c-8e82-f0f0147629c4",
+      "pads": [
+        "D1",
+        "D2"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ10_A",
+      "uuid": "f9b460f8-f586-4488-a1c4-6e76a21294cc",
+      "pads": [
+        "D1",
+        "E1"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ10_A",
+      "uuid": "fb0bbbce-8fa4-4a36-9352-022fbcc19166",
+      "pads": [
+        "D1",
+        "E1"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ5_A",
+      "uuid": "56504b5f-04fc-4cdb-b7c2-ac575a846b6d",
+      "pads": [
+        "D2",
+        "E2"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ5_A",
+      "uuid": "b0ffbe81-0204-455b-a6f2-696dafef8d5e",
+      "pads": [
+        "D2",
+        "D3"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ5_A",
+      "uuid": "b1bf4c31-f715-4217-bdfa-70b5a723b050",
+      "pads": [
+        "D2",
+        "D3"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ5_A",
+      "uuid": "d8115cdd-b24a-456f-be15-07a550d9915d",
+      "pads": [
+        "D2",
+        "E2"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ13_B",
+      "uuid": "0302b3b8-b90e-4561-a332-967c3789c1c8",
+      "pads": [
+        "D25",
+        "D26"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ13_B",
+      "uuid": "05b1e227-c277-45d8-a182-2e0054e25bbb",
+      "pads": [
+        "D25",
+        "D26"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ13_B",
+      "uuid": "2f5f1766-534d-4a93-8993-2a2b341eb486",
+      "pads": [
+        "D25",
+        "E25"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ13_B",
+      "uuid": "e0f7632c-373c-40d1-b37f-a2f8f9f4d2fb",
+      "pads": [
+        "D25",
+        "E25"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ5_A",
+      "uuid": "69e8a607-ab3a-478a-a9a2-49554fffb354",
+      "pads": [
+        "E1",
+        "E2"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "LPDDR4_DQ5_A",
+      "uuid": "8ec02d55-af1d-4f50-a0bf-846dcb11c254",
+      "pads": [
+        "E1",
+        "E2"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "EXP_GPIO0",
+      "uuid": "fd82d4b4-52cc-4387-aa7c-f31007b5d76f",
+      "pads": [
+        "J1",
+        "J2"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "EXP_GPIO1",
+      "uuid": "58193dab-6b9b-42ce-9ac9-8d17c9457056",
+      "pads": [
+        "M2",
+        "M3"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "EXP_GPIO1",
+      "uuid": "58193dab-6b9b-42ce-9ac9-8d17c9457056",
+      "pads": [
+        "N2",
+        "N3"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    },
+    {
+      "net": "EXP_GPIO1",
+      "uuid": "8024dc1b-b869-4a67-8114-8202eb2cdc33",
+      "pads": [
+        "N2",
+        "P2"
+      ],
+      "pitch_nm": 500000,
+      "copper_width_nm": 76200,
+      "opening_gap_nm": 250000,
+      "shortfall_nm": 6200
+    }
+  ],
+  "by_net": {
+    "LPDDR4_DQ11_A": 2,
+    "LPDDR4_A0_B": 8,
+    "LPDDR4_DQ15_A": 2,
+    "LPDDR4_DQ15_B": 2,
+    "LPDDR4_DQ11_B": 2,
+    "EXP_SPI_CLK": 3,
+    "EXP_I2C_SDA": 4,
+    "LPDDR4_DQ8_A": 2,
+    "LPDDR4_DQ10_A": 10,
+    "LPDDR4_DQ0_B": 6,
+    "LPDDR4_DQ13_B": 8,
+    "LPDDR4_DQ5_A": 12,
+    "LPDDR4_CLKP_B": 2,
+    "EXP_GPIO0": 1,
+    "EXP_GPIO1": 3
+  }
+}

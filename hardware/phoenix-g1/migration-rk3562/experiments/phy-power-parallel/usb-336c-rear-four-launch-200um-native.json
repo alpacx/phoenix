@@ -1,0 +1,214 @@
+{
+  "parent": "e423038e29cb08d57c2cdb0188bf6e521d7847925f9d72cd24118cf1d73b6ae9",
+  "board": "runs/usb-rear-mux-four-transmit-200um/phy-joint.kicad_pcb",
+  "hash": "9399094c899e37ed19a79fa84190138e528383b4cb64687b9c379af292c92bf0",
+  "open_joins": 347,
+  "introduced": [
+    {
+      "type": "track_dangling",
+      "severity": "warning",
+      "items": [
+        "13c9d193-503f-47b6-a491-398b216f1dfe"
+      ],
+      "count": 1
+    },
+    {
+      "type": "track_dangling",
+      "severity": "warning",
+      "items": [
+        "4db75f29-6bdc-4dfb-b635-90a20b3b56ac"
+      ],
+      "count": 1
+    },
+    {
+      "type": "track_dangling",
+      "severity": "warning",
+      "items": [
+        "7f86d309-64e7-4d9e-9bcc-d6c0b844daa2"
+      ],
+      "count": 1
+    },
+    {
+      "type": "track_dangling",
+      "severity": "warning",
+      "items": [
+        "87080198-da43-4b29-b37b-9c12189a4be8"
+      ],
+      "count": 1
+    },
+    {
+      "type": "track_dangling",
+      "severity": "warning",
+      "items": [
+        "ccd24386-0f37-435b-924f-0a81c208ef51"
+      ],
+      "count": 1
+    },
+    {
+      "type": "track_dangling",
+      "severity": "warning",
+      "items": [
+        "15aec8b2-82d2-4c6f-92af-cf5c6feace24"
+      ],
+      "count": 1
+    },
+    {
+      "type": "track_dangling",
+      "severity": "warning",
+      "items": [
+        "0077e2d1-8f5b-42ad-9889-9858386b841b"
+      ],
+      "count": 1
+    },
+    {
+      "type": "track_dangling",
+      "severity": "warning",
+      "items": [
+        "1e166b23-06fc-4976-aff8-ef50dfcc8453"
+      ],
+      "count": 1
+    },
+    {
+      "type": "track_dangling",
+      "severity": "warning",
+      "items": [
+        "1e1d1023-1201-45af-bf8f-5b9191b31f0a"
+      ],
+      "count": 1
+    },
+    {
+      "type": "track_dangling",
+      "severity": "warning",
+      "items": [
+        "593f8a52-9e20-4efc-8fd6-d31126eeaaed"
+      ],
+      "count": 1
+    },
+    {
+      "type": "track_dangling",
+      "severity": "warning",
+      "items": [
+        "4fc8438c-feac-430a-9d56-518760161dee"
+      ],
+      "count": 1
+    },
+    {
+      "type": "track_dangling",
+      "severity": "warning",
+      "items": [
+        "45db325b-2238-4c54-86ed-c4b358b2adca"
+      ],
+      "count": 1
+    },
+    {
+      "type": "track_dangling",
+      "severity": "warning",
+      "items": [
+        "18d06518-9ca3-4113-9c86-dd91c326e967"
+      ],
+      "count": 1
+    }
+  ],
+  "launches": [
+    {
+      "a": "U6.17",
+      "z": "C601.1",
+      "length_mm": 3.3131980515339463,
+      "xy": [
+        [
+          13.3,
+          12.15
+        ],
+        [
+          12.72,
+          12.15
+        ],
+        [
+          12.495000000000001,
+          11.925
+        ],
+        [
+          10.08,
+          11.925
+        ]
+      ]
+    },
+    {
+      "a": "U6.16",
+      "z": "C602.1",
+      "length_mm": 3.437462120245875,
+      "xy": [
+        [
+          13.3,
+          12.55
+        ],
+        [
+          12.72,
+          12.55
+        ],
+        [
+          12.195,
+          13.075
+        ],
+        [
+          10.08,
+          13.075
+        ]
+      ]
+    },
+    {
+      "a": "U6.21",
+      "z": "C603.1",
+      "length_mm": 1.3374621202458747,
+      "xy": [
+        [
+          13.3,
+          10.55
+        ],
+        [
+          12.72,
+          10.55
+        ],
+        [
+          12.195,
+          10.025
+        ],
+        [
+          12.18,
+          10.025
+        ]
+      ]
+    },
+    {
+      "a": "U6.20",
+      "z": "C604.1",
+      "length_mm": 1.2131980515339464,
+      "xy": [
+        [
+          13.3,
+          10.95
+        ],
+        [
+          12.72,
+          10.95
+        ],
+        [
+          12.495000000000001,
+          11.175
+        ],
+        [
+          12.18,
+          11.175
+        ]
+      ]
+    }
+  ],
+  "moved": [
+    "U6",
+    "C601",
+    "C602",
+    "C603",
+    "C604"
+  ],
+  "adopted": false
+}

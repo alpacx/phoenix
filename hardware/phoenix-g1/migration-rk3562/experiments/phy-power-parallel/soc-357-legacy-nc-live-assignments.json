@@ -1,0 +1,78 @@
+{
+  "sha256": "572d6ba53bb0abb0c7e86dd2c158361c9c12bd9cfcacd297c1c752aa674aea3d",
+  "historical_inventory": "migration-rk3562/review/pending-pin-audit.json",
+  "netlist": "migration-rk3562/experiments/phy-power-parallel/runs/schematic-mdio/netlist.xml",
+  "occupied": [
+    {
+      "pin": "1B8",
+      "legacy": "UNUSED_DDR_ADDRESS_OR_RANK",
+      "live": "LPDDR4_A4_A",
+      "schematic": "LPDDR4_A4_A",
+      "agrees": true
+    },
+    {
+      "pin": "AE26",
+      "legacy": "UNUSED_HIGH_SPEED_INTERFACE",
+      "live": "ADDON_USB_DM",
+      "schematic": "ADDON_USB_DM",
+      "agrees": true
+    },
+    {
+      "pin": "AE27",
+      "legacy": "UNUSED_HIGH_SPEED_INTERFACE",
+      "live": "ADDON_USB_DP",
+      "schematic": "ADDON_USB_DP",
+      "agrees": true
+    },
+    {
+      "pin": "B11",
+      "legacy": "UNUSED_DDR_ADDRESS_OR_RANK",
+      "live": "LPDDR4_CS0N_A",
+      "schematic": "LPDDR4_CS0N_A",
+      "agrees": true
+    },
+    {
+      "pin": "H26",
+      "legacy": "UNUSED_MULTIPLEXED_GPIO",
+      "live": "EMMC_D6",
+      "schematic": "EMMC_D6",
+      "agrees": true
+    },
+    {
+      "pin": "H27",
+      "legacy": "UNUSED_MULTIPLEXED_GPIO",
+      "live": "EMMC_D7",
+      "schematic": "EMMC_D7",
+      "agrees": true
+    },
+    {
+      "pin": "K25",
+      "legacy": "UNUSED_MULTIPLEXED_GPIO",
+      "live": "EMMC_D5",
+      "schematic": "EMMC_D5",
+      "agrees": true
+    },
+    {
+      "pin": "K26",
+      "legacy": "UNUSED_MULTIPLEXED_GPIO",
+      "live": "EMMC_D4",
+      "schematic": "EMMC_D4",
+      "agrees": true
+    },
+    {
+      "pin": "L26",
+      "legacy": "UNUSED_MULTIPLEXED_GPIO",
+      "live": "EMMC_STRB",
+      "schematic": "EMMC_STRB",
+      "agrees": true
+    },
+    {
+      "pin": "A18",
+      "legacy": "UNUSED_DDR_ADDRESS_OR_RANK",
+      "live": "LPDDR4_A1_B",
+      "schematic": "LPDDR4_A1_B",
+      "agrees": true
+    }
+  ],
+  "scope": "The older migration list reflects initial-function-allocation only. Use the active PCB/schematic before any remux. A ball with an assigned net is unavailable regardless of completed copper."
+}

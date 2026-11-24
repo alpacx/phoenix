@@ -1,0 +1,96 @@
+{
+  "parent_sha256": "7a3f16fdacf133d7feb8d214cbd63f058de083afc0e95566a30400f5b5290b5a",
+  "radius_mm": 0.225,
+  "drill_mm": 0.2,
+  "rows": [
+    {
+      "blockers": [],
+      "sites": 184,
+      "examples": [
+        {
+          "at": [
+            35600000,
+            33700000
+          ],
+          "path": []
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "abd77041-62e4-4d75-82fc-c19b4cac665c",
+          "GND",
+          "Y1.2"
+        ]
+      ],
+      "sites": 124,
+      "examples": [
+        {
+          "at": [
+            35600000,
+            33500000
+          ],
+          "path": []
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "dd014a17-2da5-43c4-b92b-0705b004a231",
+          "SOC_VBUS_DET",
+          "R1506.1"
+        ]
+      ],
+      "sites": 21,
+      "examples": [
+        {
+          "at": [
+            36500000,
+            33800000
+          ],
+          "path": []
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "8adb01c5-f99d-47a3-a2e3-798884037253",
+          "SOC_VBUS_DET",
+          "C1503.1"
+        ]
+      ],
+      "sites": 18,
+      "examples": [
+        {
+          "at": [
+            35600000,
+            33800000
+          ],
+          "path": []
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "d3eebdcb-ce0f-40fd-a429-64f277a2fa83",
+          "GND",
+          "R1506.2"
+        ]
+      ],
+      "sites": 18,
+      "examples": [
+        {
+          "at": [
+            37600000,
+            33800000
+          ],
+          "path": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "parent_sha256": "572d6ba53bb0abb0c7e86dd2c158361c9c12bd9cfcacd297c1c752aa674aea3d",
+  "sha256": "05d2292ba389f632b52422d99edf6cdd8d3690acdd8d5db2c1d224cec02cf6aa",
+  "board": "runs/u22-flowthrough-two-pairs-ground-cleanup/phy-joint.kicad_pcb",
+  "native_open": 353,
+  "drc_delta": [],
+  "lost_pairs": [],
+  "verified_pairs": 821,
+  "new_tracks": [
+    [
+      "b4c365af-01dd-477b-9cd2-0e8e67e4804a",
+      "3e25a650-1de7-4569-9897-2d9af6d8c29c"
+    ],
+    [
+      "89d3ed1c-a7b2-4c9d-81b6-670c3a7dfd0b",
+      "fe5fe639-dbc6-4744-bf54-ee540bfa7838"
+    ]
+  ],
+  "mask_regressions": {
+    "F.Cu": [],
+    "B.Cu": []
+  },
+  "experimental_pin_assignment": {
+    "pin": "U22.6",
+    "old": "",
+    "new": "ETH_MDI1_N"
+  },
+  "data_sheet": "https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf",
+  "status": "EXPERIMENT_ONLY_REQUIRES_SCHEMATIC_AND_CHANNEL_REVIEW"
+}

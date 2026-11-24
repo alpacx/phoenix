@@ -1,0 +1,513 @@
+{
+  "sha256": "572d6ba53bb0abb0c7e86dd2c158361c9c12bd9cfcacd297c1c752aa674aea3d",
+  "documented_candidates": [
+    {
+      "ball": "AA25",
+      "gpio": "GPIO1_D3_d",
+      "bank": "VCCIO4 Domain",
+      "page": 9
+    },
+    {
+      "ball": "1H15",
+      "gpio": "GPIO1_D7_d",
+      "bank": "VCCIO4 Domain",
+      "page": 9
+    },
+    {
+      "ball": "1J15",
+      "gpio": "GPIO2_A0_d",
+      "bank": "VCCIO4 Domain",
+      "page": 9
+    },
+    {
+      "ball": "1L1",
+      "gpio": "GPIO3_A1_d",
+      "bank": "VCCIO1 Domain",
+      "page": 7
+    },
+    {
+      "ball": "1M1",
+      "gpio": "GPIO3_A0_d",
+      "bank": "VCCIO1 Domain",
+      "page": 7
+    },
+    {
+      "ball": "1M2",
+      "gpio": "GPIO3_B0_d",
+      "bank": "VCCIO1 Domain",
+      "page": 7
+    },
+    {
+      "ball": "J1",
+      "gpio": "GPIO3_A6_d",
+      "bank": "VCCIO1 Domain",
+      "page": 7
+    },
+    {
+      "ball": "J2",
+      "gpio": "GPIO3_B1_d",
+      "bank": "VCCIO1 Domain",
+      "page": 7
+    },
+    {
+      "ball": "L26",
+      "gpio": "GPIO1_B2_d",
+      "bank": "VCCIO2 Domain",
+      "page": 8
+    },
+    {
+      "ball": "M2",
+      "gpio": "GPIO4_B4_d",
+      "bank": "VCCIO6 Domain",
+      "page": 11
+    },
+    {
+      "ball": "P2",
+      "gpio": "GPIO3_C7_d",
+      "bank": "VCCIO6 Domain",
+      "page": 11
+    },
+    {
+      "ball": "P3",
+      "gpio": "GPIO3_C6_d",
+      "bank": "VCCIO6 Domain",
+      "page": 11
+    },
+    {
+      "ball": "R1",
+      "gpio": "GPIO3_D1_d",
+      "bank": "VCCIO6 Domain",
+      "page": 11
+    },
+    {
+      "ball": "R2",
+      "gpio": "GPIO3_D2_d",
+      "bank": "VCCIO6 Domain",
+      "page": 11
+    },
+    {
+      "ball": "R3",
+      "gpio": "GPIO3_D0_d",
+      "bank": "VCCIO6 Domain",
+      "page": 11
+    },
+    {
+      "ball": "U1",
+      "gpio": "GPIO4_B7_d",
+      "bank": "VCCIO6 Domain",
+      "page": 11
+    },
+    {
+      "ball": "V27",
+      "gpio": "GPIO1_D6_d",
+      "bank": "VCCIO4 Domain",
+      "page": 9
+    },
+    {
+      "ball": "V3",
+      "gpio": "GPIO4_B0_d",
+      "bank": "VCCIO6 Domain",
+      "page": 11
+    },
+    {
+      "ball": "W25",
+      "gpio": "GPIO2_A1_d",
+      "bank": "VCCIO4 Domain",
+      "page": 9
+    },
+    {
+      "ball": "W26",
+      "gpio": "GPIO1_D5_d",
+      "bank": "VCCIO4 Domain",
+      "page": 9
+    },
+    {
+      "ball": "Y27",
+      "gpio": "GPIO1_D4_d",
+      "bank": "VCCIO4 Domain",
+      "page": 9
+    }
+  ],
+  "rows": [
+    {
+      "footprint": "U1",
+      "pin": "AA25",
+      "old_net": "",
+      "position": [
+        48500000,
+        23500000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 12,
+      "max_reach_mm": 0.19142135623730952,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "U1",
+      "pin": "1H15",
+      "old_net": "",
+      "position": [
+        47550000,
+        20000000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 459,
+      "max_reach_mm": 3.1935028842544386,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "U1",
+      "pin": "1J15",
+      "old_net": "",
+      "position": [
+        47550000,
+        20650000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 478,
+      "max_reach_mm": 2.884924240491749,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "U1",
+      "pin": "1L1",
+      "old_net": "",
+      "position": [
+        38450000,
+        21950000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 270,
+      "max_reach_mm": 1.0399494936611666,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "U1",
+      "pin": "1M1",
+      "old_net": "",
+      "position": [
+        38450000,
+        22600000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 315,
+      "max_reach_mm": 0.8278174593052023,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "U1",
+      "pin": "1M2",
+      "old_net": "",
+      "position": [
+        39100000,
+        22600000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 328,
+      "max_reach_mm": 1.6399494936611667,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "U1",
+      "pin": "J1",
+      "old_net": "",
+      "position": [
+        36500000,
+        17500000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 25,
+      "max_reach_mm": 0.6656854249492381,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "U1",
+      "pin": "J2",
+      "old_net": "",
+      "position": [
+        37000000,
+        17500000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 0,
+      "max_reach_mm": 0.0,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "U1",
+      "pin": "L26",
+      "old_net": "EMMC_STRB",
+      "position": [
+        49000000,
+        18500000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 715,
+      "max_reach_mm": 3.1985281374238563,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "U1",
+      "pin": "M2",
+      "old_net": "",
+      "position": [
+        37000000,
+        19000000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 1101,
+      "max_reach_mm": 3.1970562748477116,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "U1",
+      "pin": "P2",
+      "old_net": "",
+      "position": [
+        37000000,
+        20000000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 42,
+      "max_reach_mm": 0.3621320343559643,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "U1",
+      "pin": "P3",
+      "old_net": "",
+      "position": [
+        37500000,
+        20000000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 58,
+      "max_reach_mm": 0.33284271247461905,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "U1",
+      "pin": "R1",
+      "old_net": "",
+      "position": [
+        36500000,
+        20500000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 140,
+      "max_reach_mm": 0.832842712474619,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "U1",
+      "pin": "R2",
+      "old_net": "",
+      "position": [
+        37000000,
+        20500000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 195,
+      "max_reach_mm": 0.8742640687119285,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "U1",
+      "pin": "R3",
+      "old_net": "",
+      "position": [
+        37500000,
+        20500000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 93,
+      "max_reach_mm": 0.4035533905932738,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "U1",
+      "pin": "U1",
+      "old_net": "",
+      "position": [
+        36500000,
+        21500000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 356,
+      "max_reach_mm": 0.8535533905932738,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "U1",
+      "pin": "V27",
+      "old_net": "",
+      "position": [
+        49500000,
+        22000000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 1269,
+      "max_reach_mm": 3.1985281374238554,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "U1",
+      "pin": "V3",
+      "old_net": "",
+      "position": [
+        37500000,
+        22000000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 291,
+      "max_reach_mm": 1.7071067811865477,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "U1",
+      "pin": "W25",
+      "old_net": "",
+      "position": [
+        48500000,
+        22500000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 68,
+      "max_reach_mm": 0.33284271247461905,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "U1",
+      "pin": "W26",
+      "old_net": "",
+      "position": [
+        49000000,
+        22500000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 271,
+      "max_reach_mm": 2.3763455967290588,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "U1",
+      "pin": "Y27",
+      "old_net": "",
+      "position": [
+        49500000,
+        23000000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 274,
+      "max_reach_mm": 1.6399494936611667,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "U1",
+      "pin": "K3",
+      "old_net": "EXP_GPIO2",
+      "position": [
+        37500000,
+        18000000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 42,
+      "max_reach_mm": 0.28284271247461906,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "U1",
+      "pin": "L2",
+      "old_net": "EXP_GPIO3",
+      "position": [
+        37000000,
+        18500000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 1081,
+      "max_reach_mm": 3.199137802864842,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "J3",
+      "pin": "29",
+      "old_net": "EXP_GPIO2",
+      "position": [
+        69300000,
+        1145000
+      ],
+      "side": "F.Cu",
+      "width_um": 200.0,
+      "reachable": 223,
+      "max_reach_mm": 3.1828427124746193,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "J3",
+      "pin": "30",
+      "old_net": "EXP_GPIO3",
+      "position": [
+        69300000,
+        3855000
+      ],
+      "side": "F.Cu",
+      "width_um": 200.0,
+      "reachable": 1029,
+      "max_reach_mm": 3.1985281374238554,
+      "ordinary_sites": 0,
+      "selected": []
+    }
+  ],
+  "scope": "Candidate assignment only; reset-pull-down and existing +3V3_IO rail retained in this study. Local copper with ordinary vias, no firmware or schematic modifications.",
+  "unavailable_as_remaps": {
+    "L26": "EMMC_STRB"
+  },
+  "pin_assignment_guard": "Live PCB pad assignment overrides the unused classifier from the allocation inventory; occupied balls are excluded from remapping."
+}

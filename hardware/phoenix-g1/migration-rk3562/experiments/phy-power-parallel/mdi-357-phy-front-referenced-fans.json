@@ -1,0 +1,101 @@
+{
+  "sha256": "572d6ba53bb0abb0c7e86dd2c158361c9c12bd9cfcacd297c1c752aa674aea3d",
+  "results": [
+    {
+      "pair": 0,
+      "states": 242,
+      "max_mm": 1.7313708498984761,
+      "ordinary_fans": 0,
+      "barriers": [
+        [
+          "+1V0_PHY",
+          84
+        ],
+        [
+          "+3V3_PHY",
+          64
+        ],
+        [
+          "U5.3",
+          50
+        ],
+        [
+          "U5.40",
+          35
+        ],
+        [
+          "PHY_XIN",
+          25
+        ],
+        [
+          "U5.41",
+          22
+        ]
+      ],
+      "best": []
+    },
+    {
+      "pair": 1,
+      "states": 4,
+      "max_mm": 0.3,
+      "ordinary_fans": 0,
+      "barriers": [
+        [
+          "+1V0_PHY",
+          6
+        ],
+        [
+          "U5.6",
+          4
+        ],
+        [
+          "U5.3",
+          4
+        ]
+      ],
+      "best": []
+    },
+    {
+      "pair": 2,
+      "states": 6,
+      "max_mm": 0.5,
+      "ordinary_fans": 0,
+      "barriers": [
+        [
+          "+1V0_PHY",
+          6
+        ],
+        [
+          "U5.8",
+          5
+        ],
+        [
+          "U5.5",
+          5
+        ],
+        [
+          "C512.2",
+          3
+        ]
+      ],
+      "best": []
+    },
+    {
+      "pair": 3,
+      "states": 1,
+      "max_mm": 0.0,
+      "ordinary_fans": 0,
+      "barriers": [
+        [
+          "+1V0_PHY",
+          3
+        ],
+        [
+          "U5.8",
+          1
+        ]
+      ],
+      "best": []
+    }
+  ]
+}

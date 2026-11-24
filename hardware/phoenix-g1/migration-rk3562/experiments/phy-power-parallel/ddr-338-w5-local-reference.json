@@ -1,0 +1,117 @@
+{
+  "checkpoint": "8060407058a80eb276a4fb1d0fe8eb08f36f86497dffd1f60f6963723cdc5002",
+  "closest_connected_rail_barrels": [],
+  "paths": [
+    {
+      "net": "GND",
+      "width": 0.2,
+      "new_old": [
+        {
+          "samples": 33,
+          "void": 0,
+          "length_mm": 0.05
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "width": 0.2,
+      "new_old": [
+        {
+          "samples": 87,
+          "void": 0,
+          "length_mm": 0.14
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "width": 0.2,
+      "new_old": [
+        {
+          "samples": 75,
+          "void": 0,
+          "length_mm": 0.11510864433221339
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "width": 0.2,
+      "new_old": [
+        {
+          "samples": 276,
+          "void": 0,
+          "length_mm": 0.4525483399593905
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "width": 0.2,
+      "new_old": [
+        {
+          "samples": 111,
+          "void": 0,
+          "length_mm": 0.18
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "width": 0.2,
+      "new_old": [
+        {
+          "samples": 27,
+          "void": 0,
+          "length_mm": 0.03535533905932738
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "width": 0.2,
+      "new_old": [
+        {
+          "samples": 21,
+          "void": 0,
+          "length_mm": 0.028284271247461905
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "width": 0.2,
+      "new_old": [
+        {
+          "samples": 39,
+          "void": 0,
+          "length_mm": 0.05656854249492381
+        }
+      ]
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "width": 0.35,
+      "new_old": [
+        {
+          "samples": 21,
+          "void": 0,
+          "length_mm": 0.028284271247461905
+        }
+      ]
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "width": 0.35,
+      "new_old": [
+        {
+          "samples": 1287,
+          "void": 0,
+          "length_mm": 2.14
+        }
+      ]
+    }
+  ],
+  "method": "Euclidean proximity of electrically connected ground vias; plane under changed F.Cu tracks sampled at both edges and center."
+}

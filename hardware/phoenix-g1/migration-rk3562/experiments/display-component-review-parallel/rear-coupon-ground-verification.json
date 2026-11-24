@@ -1,0 +1,70 @@
+{
+  "board": "runs/display-direct-flex-rear-ground/phy-joint.kicad_pcb",
+  "sha256": "c57b2ec0cba679faac41f82c7bf5a6d66e08df28ac4fb4cb5b4032a405f32523",
+  "parent": "156f8d0a7b1b26340516afb57658c31655488111160c7d8d6b89a0d9ad5ba1b1",
+  "added": [
+    [
+      "8",
+      [
+        24450000,
+        35250000
+      ],
+      [
+        24750000,
+        37850000
+      ]
+    ],
+    [
+      "13",
+      [
+        27950000,
+        35250000
+      ],
+      [
+        27750000,
+        37950000
+      ]
+    ]
+  ],
+  "both_ground_pads_join_thermal_pad_U4_69": true,
+  "new_drc": [],
+  "joins": 359,
+  "preservation": {
+    "existing_pad_instances_preserved": 2021,
+    "existing_tracks_vias_preserved": 8073,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 4,
+    "existing_connected_pad_groups_preserved": 127
+  },
+  "reference_coverage": {
+    "changed_via_centers_nm": [
+      [
+        24750000,
+        37850000
+      ],
+      [
+        27750000,
+        37950000
+      ]
+    ],
+    "samples_by_net_and_layer": {
+      "+3V3_IO F.Cu": {
+        "sampled": 378,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      },
+      "+3V3_PMU In3.Cu": {
+        "sampled": 416,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      }
+    },
+    "sample_pitch_mm": 0.012,
+    "via_window_radius_mm": 1.0,
+    "scope": "Center and edges of unchanged straight copper only. Local ground-fill comparison; no field or impedance simulation."
+  }
+}

@@ -1,0 +1,1274 @@
+{
+  "parent": "2fe2813697e3b0592397c59b14558cfec6d1af4ebe5c13aea3254863adfd6cc9",
+  "grid_mm": 0.25,
+  "rule": "Full rectangular contact bank and 0.25 mm working clearance. Exact centerlines and round envelopes for copper; enclosed courtyard and rule AABBs. Half-millimetre board edge assumption. First 50 sites ranked by fewest objects then distance to U21. Tool, flex and glass still unqualified.",
+  "only_gnd_vias": [
+    {
+      "x": 44.75,
+      "y": 9.25,
+      "angle": 0,
+      "blockers": [
+        [
+          "via",
+          "0830b420-131b-45c3-9621-1d806fc18745"
+        ],
+        [
+          "via",
+          "e8f79e6b-c053-4a4e-849b-d6881fe864a2"
+        ],
+        [
+          "via",
+          "eb8ca2a7-13b9-4864-947c-19316b0a96ec"
+        ]
+      ]
+    },
+    {
+      "x": 44.75,
+      "y": 9.0,
+      "angle": 0,
+      "blockers": [
+        [
+          "via",
+          "0830b420-131b-45c3-9621-1d806fc18745"
+        ],
+        [
+          "via",
+          "e8f79e6b-c053-4a4e-849b-d6881fe864a2"
+        ],
+        [
+          "via",
+          "eb8ca2a7-13b9-4864-947c-19316b0a96ec"
+        ]
+      ]
+    },
+    {
+      "x": 45.0,
+      "y": 9.25,
+      "angle": 0,
+      "blockers": [
+        [
+          "via",
+          "0830b420-131b-45c3-9621-1d806fc18745"
+        ],
+        [
+          "via",
+          "e8f79e6b-c053-4a4e-849b-d6881fe864a2"
+        ],
+        [
+          "via",
+          "eb8ca2a7-13b9-4864-947c-19316b0a96ec"
+        ]
+      ]
+    },
+    {
+      "x": 45.0,
+      "y": 9.0,
+      "angle": 0,
+      "blockers": [
+        [
+          "via",
+          "0830b420-131b-45c3-9621-1d806fc18745"
+        ],
+        [
+          "via",
+          "e8f79e6b-c053-4a4e-849b-d6881fe864a2"
+        ],
+        [
+          "via",
+          "eb8ca2a7-13b9-4864-947c-19316b0a96ec"
+        ]
+      ]
+    },
+    {
+      "x": 45.25,
+      "y": 9.25,
+      "angle": 0,
+      "blockers": [
+        [
+          "via",
+          "0830b420-131b-45c3-9621-1d806fc18745"
+        ],
+        [
+          "via",
+          "e8f79e6b-c053-4a4e-849b-d6881fe864a2"
+        ],
+        [
+          "via",
+          "eb8ca2a7-13b9-4864-947c-19316b0a96ec"
+        ]
+      ]
+    },
+    {
+      "x": 45.25,
+      "y": 9.0,
+      "angle": 0,
+      "blockers": [
+        [
+          "via",
+          "0830b420-131b-45c3-9621-1d806fc18745"
+        ],
+        [
+          "via",
+          "e8f79e6b-c053-4a4e-849b-d6881fe864a2"
+        ],
+        [
+          "via",
+          "eb8ca2a7-13b9-4864-947c-19316b0a96ec"
+        ]
+      ]
+    },
+    {
+      "x": 45.5,
+      "y": 9.25,
+      "angle": 0,
+      "blockers": [
+        [
+          "via",
+          "0830b420-131b-45c3-9621-1d806fc18745"
+        ],
+        [
+          "via",
+          "e8f79e6b-c053-4a4e-849b-d6881fe864a2"
+        ],
+        [
+          "via",
+          "eb8ca2a7-13b9-4864-947c-19316b0a96ec"
+        ]
+      ]
+    },
+    {
+      "x": 45.5,
+      "y": 9.0,
+      "angle": 0,
+      "blockers": [
+        [
+          "via",
+          "0830b420-131b-45c3-9621-1d806fc18745"
+        ],
+        [
+          "via",
+          "e8f79e6b-c053-4a4e-849b-d6881fe864a2"
+        ],
+        [
+          "via",
+          "eb8ca2a7-13b9-4864-947c-19316b0a96ec"
+        ]
+      ]
+    },
+    {
+      "x": 45.75,
+      "y": 9.25,
+      "angle": 0,
+      "blockers": [
+        [
+          "via",
+          "0830b420-131b-45c3-9621-1d806fc18745"
+        ],
+        [
+          "via",
+          "e8f79e6b-c053-4a4e-849b-d6881fe864a2"
+        ],
+        [
+          "via",
+          "eb8ca2a7-13b9-4864-947c-19316b0a96ec"
+        ]
+      ]
+    },
+    {
+      "x": 45.75,
+      "y": 9.0,
+      "angle": 0,
+      "blockers": [
+        [
+          "via",
+          "0830b420-131b-45c3-9621-1d806fc18745"
+        ],
+        [
+          "via",
+          "e8f79e6b-c053-4a4e-849b-d6881fe864a2"
+        ],
+        [
+          "via",
+          "eb8ca2a7-13b9-4864-947c-19316b0a96ec"
+        ]
+      ]
+    }
+  ],
+  "clear": 0,
+  "best": [
+    {
+      "x": 73.5,
+      "y": 17.75,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 73.5,
+      "y": 17.5,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 73.75,
+      "y": 17.75,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 73.75,
+      "y": 17.5,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 74.0,
+      "y": 17.75,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 74.25,
+      "y": 18.0,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 74.0,
+      "y": 17.5,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 74.25,
+      "y": 17.75,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 74.5,
+      "y": 18.0,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 74.25,
+      "y": 17.5,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 74.5,
+      "y": 17.75,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 74.75,
+      "y": 18.0,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 74.5,
+      "y": 17.5,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 74.75,
+      "y": 17.75,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 75.0,
+      "y": 18.0,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 76.0,
+      "y": 19.0,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 74.75,
+      "y": 17.5,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 75.0,
+      "y": 17.75,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 75.25,
+      "y": 18.0,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 75.5,
+      "y": 18.25,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 75.75,
+      "y": 18.5,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 76.0,
+      "y": 18.75,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 76.25,
+      "y": 19.0,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 75.0,
+      "y": 17.5,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 75.25,
+      "y": 17.75,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 75.5,
+      "y": 18.0,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 75.75,
+      "y": 18.25,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 76.0,
+      "y": 18.5,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 76.25,
+      "y": 18.75,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 76.5,
+      "y": 19.0,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 75.25,
+      "y": 17.5,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 75.5,
+      "y": 17.75,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 75.75,
+      "y": 18.0,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 76.0,
+      "y": 18.25,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 76.25,
+      "y": 18.5,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 76.5,
+      "y": 18.75,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 76.75,
+      "y": 19.0,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 75.5,
+      "y": 17.5,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 75.75,
+      "y": 17.75,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 76.0,
+      "y": 18.0,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 76.25,
+      "y": 18.25,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 76.5,
+      "y": 18.5,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 76.75,
+      "y": 18.75,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 77.0,
+      "y": 19.0,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 75.75,
+      "y": 17.5,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 76.0,
+      "y": 17.75,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 76.25,
+      "y": 18.0,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 76.5,
+      "y": 18.25,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 76.75,
+      "y": 18.5,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "x": 77.0,
+      "y": 18.75,
+      "angle": 0,
+      "blockers": [
+        [
+          "component",
+          "J2"
+        ]
+      ]
+    }
+  ],
+  "alternatives_without_connectors_soc_or_mounts": [
+    {
+      "x": 48.5,
+      "y": 7.75,
+      "angle": 90,
+      "blockers": [
+        [
+          "via",
+          "d3fe68f2-d3b5-43ab-991d-6217e35ab5fd"
+        ],
+        [
+          "via",
+          "e0e39aa3-0ce4-4d96-a08a-139c8c7f52dc"
+        ]
+      ]
+    },
+    {
+      "x": 48.5,
+      "y": 7.5,
+      "angle": 90,
+      "blockers": [
+        [
+          "via",
+          "d3fe68f2-d3b5-43ab-991d-6217e35ab5fd"
+        ],
+        [
+          "via",
+          "e0e39aa3-0ce4-4d96-a08a-139c8c7f52dc"
+        ]
+      ]
+    },
+    {
+      "x": 48.75,
+      "y": 7.75,
+      "angle": 90,
+      "blockers": [
+        [
+          "via",
+          "d3fe68f2-d3b5-43ab-991d-6217e35ab5fd"
+        ],
+        [
+          "via",
+          "e0e39aa3-0ce4-4d96-a08a-139c8c7f52dc"
+        ]
+      ]
+    },
+    {
+      "x": 48.75,
+      "y": 7.5,
+      "angle": 90,
+      "blockers": [
+        [
+          "via",
+          "d3fe68f2-d3b5-43ab-991d-6217e35ab5fd"
+        ],
+        [
+          "via",
+          "e0e39aa3-0ce4-4d96-a08a-139c8c7f52dc"
+        ]
+      ]
+    },
+    {
+      "x": 48.5,
+      "y": 5.75,
+      "angle": 90,
+      "blockers": [
+        [
+          "via",
+          "d3fe68f2-d3b5-43ab-991d-6217e35ab5fd"
+        ],
+        [
+          "via",
+          "fdc4cb01-d709-48c8-a2a8-9405a862dddb"
+        ]
+      ]
+    },
+    {
+      "x": 48.5,
+      "y": 5.5,
+      "angle": 90,
+      "blockers": [
+        [
+          "via",
+          "d3fe68f2-d3b5-43ab-991d-6217e35ab5fd"
+        ],
+        [
+          "via",
+          "fdc4cb01-d709-48c8-a2a8-9405a862dddb"
+        ]
+      ]
+    },
+    {
+      "x": 48.75,
+      "y": 5.75,
+      "angle": 90,
+      "blockers": [
+        [
+          "via",
+          "d3fe68f2-d3b5-43ab-991d-6217e35ab5fd"
+        ],
+        [
+          "via",
+          "fdc4cb01-d709-48c8-a2a8-9405a862dddb"
+        ]
+      ]
+    },
+    {
+      "x": 48.5,
+      "y": 5.25,
+      "angle": 90,
+      "blockers": [
+        [
+          "via",
+          "d3fe68f2-d3b5-43ab-991d-6217e35ab5fd"
+        ],
+        [
+          "via",
+          "fdc4cb01-d709-48c8-a2a8-9405a862dddb"
+        ]
+      ]
+    },
+    {
+      "x": 48.75,
+      "y": 5.5,
+      "angle": 90,
+      "blockers": [
+        [
+          "via",
+          "d3fe68f2-d3b5-43ab-991d-6217e35ab5fd"
+        ],
+        [
+          "via",
+          "fdc4cb01-d709-48c8-a2a8-9405a862dddb"
+        ]
+      ]
+    },
+    {
+      "x": 48.5,
+      "y": 5.0,
+      "angle": 90,
+      "blockers": [
+        [
+          "via",
+          "d3fe68f2-d3b5-43ab-991d-6217e35ab5fd"
+        ],
+        [
+          "via",
+          "fdc4cb01-d709-48c8-a2a8-9405a862dddb"
+        ]
+      ]
+    },
+    {
+      "x": 48.75,
+      "y": 5.25,
+      "angle": 90,
+      "blockers": [
+        [
+          "via",
+          "d3fe68f2-d3b5-43ab-991d-6217e35ab5fd"
+        ],
+        [
+          "via",
+          "fdc4cb01-d709-48c8-a2a8-9405a862dddb"
+        ]
+      ]
+    },
+    {
+      "x": 48.75,
+      "y": 5.0,
+      "angle": 90,
+      "blockers": [
+        [
+          "via",
+          "d3fe68f2-d3b5-43ab-991d-6217e35ab5fd"
+        ],
+        [
+          "via",
+          "fdc4cb01-d709-48c8-a2a8-9405a862dddb"
+        ]
+      ]
+    },
+    {
+      "x": 15.25,
+      "y": 8.25,
+      "angle": 90,
+      "blockers": [
+        [
+          "trace",
+          "40afb4e2-42bf-4d4d-84e9-0b92b56875ba"
+        ],
+        [
+          "trace",
+          "c18b5200-d3a7-49e9-b936-4c7edc2e9350"
+        ],
+        [
+          "trace",
+          "e6789c58-a523-4df5-84e8-9018d44b4221"
+        ]
+      ]
+    },
+    {
+      "x": 15.0,
+      "y": 8.25,
+      "angle": 90,
+      "blockers": [
+        [
+          "trace",
+          "40afb4e2-42bf-4d4d-84e9-0b92b56875ba"
+        ],
+        [
+          "trace",
+          "c18b5200-d3a7-49e9-b936-4c7edc2e9350"
+        ],
+        [
+          "trace",
+          "e6789c58-a523-4df5-84e8-9018d44b4221"
+        ]
+      ]
+    },
+    {
+      "x": 15.25,
+      "y": 8.0,
+      "angle": 90,
+      "blockers": [
+        [
+          "trace",
+          "40afb4e2-42bf-4d4d-84e9-0b92b56875ba"
+        ],
+        [
+          "trace",
+          "c18b5200-d3a7-49e9-b936-4c7edc2e9350"
+        ],
+        [
+          "trace",
+          "e6789c58-a523-4df5-84e8-9018d44b4221"
+        ]
+      ]
+    },
+    {
+      "x": 14.75,
+      "y": 8.25,
+      "angle": 90,
+      "blockers": [
+        [
+          "trace",
+          "40afb4e2-42bf-4d4d-84e9-0b92b56875ba"
+        ],
+        [
+          "trace",
+          "c18b5200-d3a7-49e9-b936-4c7edc2e9350"
+        ],
+        [
+          "trace",
+          "e6789c58-a523-4df5-84e8-9018d44b4221"
+        ]
+      ]
+    },
+    {
+      "x": 15.0,
+      "y": 8.0,
+      "angle": 90,
+      "blockers": [
+        [
+          "trace",
+          "40afb4e2-42bf-4d4d-84e9-0b92b56875ba"
+        ],
+        [
+          "trace",
+          "c18b5200-d3a7-49e9-b936-4c7edc2e9350"
+        ],
+        [
+          "trace",
+          "e6789c58-a523-4df5-84e8-9018d44b4221"
+        ]
+      ]
+    },
+    {
+      "x": 15.25,
+      "y": 7.75,
+      "angle": 90,
+      "blockers": [
+        [
+          "trace",
+          "40afb4e2-42bf-4d4d-84e9-0b92b56875ba"
+        ],
+        [
+          "trace",
+          "c18b5200-d3a7-49e9-b936-4c7edc2e9350"
+        ],
+        [
+          "trace",
+          "e6789c58-a523-4df5-84e8-9018d44b4221"
+        ]
+      ]
+    },
+    {
+      "x": 14.75,
+      "y": 8.0,
+      "angle": 90,
+      "blockers": [
+        [
+          "trace",
+          "40afb4e2-42bf-4d4d-84e9-0b92b56875ba"
+        ],
+        [
+          "trace",
+          "c18b5200-d3a7-49e9-b936-4c7edc2e9350"
+        ],
+        [
+          "trace",
+          "e6789c58-a523-4df5-84e8-9018d44b4221"
+        ]
+      ]
+    },
+    {
+      "x": 15.0,
+      "y": 7.75,
+      "angle": 90,
+      "blockers": [
+        [
+          "trace",
+          "40afb4e2-42bf-4d4d-84e9-0b92b56875ba"
+        ],
+        [
+          "trace",
+          "c18b5200-d3a7-49e9-b936-4c7edc2e9350"
+        ],
+        [
+          "trace",
+          "e6789c58-a523-4df5-84e8-9018d44b4221"
+        ]
+      ]
+    },
+    {
+      "x": 14.75,
+      "y": 7.75,
+      "angle": 90,
+      "blockers": [
+        [
+          "trace",
+          "40afb4e2-42bf-4d4d-84e9-0b92b56875ba"
+        ],
+        [
+          "trace",
+          "c18b5200-d3a7-49e9-b936-4c7edc2e9350"
+        ],
+        [
+          "trace",
+          "e6789c58-a523-4df5-84e8-9018d44b4221"
+        ]
+      ]
+    },
+    {
+      "x": 44.75,
+      "y": 9.25,
+      "angle": 0,
+      "blockers": [
+        [
+          "via",
+          "0830b420-131b-45c3-9621-1d806fc18745"
+        ],
+        [
+          "via",
+          "e8f79e6b-c053-4a4e-849b-d6881fe864a2"
+        ],
+        [
+          "via",
+          "eb8ca2a7-13b9-4864-947c-19316b0a96ec"
+        ]
+      ]
+    },
+    {
+      "x": 44.75,
+      "y": 9.0,
+      "angle": 0,
+      "blockers": [
+        [
+          "via",
+          "0830b420-131b-45c3-9621-1d806fc18745"
+        ],
+        [
+          "via",
+          "e8f79e6b-c053-4a4e-849b-d6881fe864a2"
+        ],
+        [
+          "via",
+          "eb8ca2a7-13b9-4864-947c-19316b0a96ec"
+        ]
+      ]
+    },
+    {
+      "x": 45.0,
+      "y": 9.25,
+      "angle": 0,
+      "blockers": [
+        [
+          "via",
+          "0830b420-131b-45c3-9621-1d806fc18745"
+        ],
+        [
+          "via",
+          "e8f79e6b-c053-4a4e-849b-d6881fe864a2"
+        ],
+        [
+          "via",
+          "eb8ca2a7-13b9-4864-947c-19316b0a96ec"
+        ]
+      ]
+    },
+    {
+      "x": 45.0,
+      "y": 9.0,
+      "angle": 0,
+      "blockers": [
+        [
+          "via",
+          "0830b420-131b-45c3-9621-1d806fc18745"
+        ],
+        [
+          "via",
+          "e8f79e6b-c053-4a4e-849b-d6881fe864a2"
+        ],
+        [
+          "via",
+          "eb8ca2a7-13b9-4864-947c-19316b0a96ec"
+        ]
+      ]
+    },
+    {
+      "x": 45.25,
+      "y": 9.25,
+      "angle": 0,
+      "blockers": [
+        [
+          "via",
+          "0830b420-131b-45c3-9621-1d806fc18745"
+        ],
+        [
+          "via",
+          "e8f79e6b-c053-4a4e-849b-d6881fe864a2"
+        ],
+        [
+          "via",
+          "eb8ca2a7-13b9-4864-947c-19316b0a96ec"
+        ]
+      ]
+    },
+    {
+      "x": 45.25,
+      "y": 9.0,
+      "angle": 0,
+      "blockers": [
+        [
+          "via",
+          "0830b420-131b-45c3-9621-1d806fc18745"
+        ],
+        [
+          "via",
+          "e8f79e6b-c053-4a4e-849b-d6881fe864a2"
+        ],
+        [
+          "via",
+          "eb8ca2a7-13b9-4864-947c-19316b0a96ec"
+        ]
+      ]
+    },
+    {
+      "x": 45.5,
+      "y": 9.25,
+      "angle": 0,
+      "blockers": [
+        [
+          "via",
+          "0830b420-131b-45c3-9621-1d806fc18745"
+        ],
+        [
+          "via",
+          "e8f79e6b-c053-4a4e-849b-d6881fe864a2"
+        ],
+        [
+          "via",
+          "eb8ca2a7-13b9-4864-947c-19316b0a96ec"
+        ]
+      ]
+    },
+    {
+      "x": 45.5,
+      "y": 9.0,
+      "angle": 0,
+      "blockers": [
+        [
+          "via",
+          "0830b420-131b-45c3-9621-1d806fc18745"
+        ],
+        [
+          "via",
+          "e8f79e6b-c053-4a4e-849b-d6881fe864a2"
+        ],
+        [
+          "via",
+          "eb8ca2a7-13b9-4864-947c-19316b0a96ec"
+        ]
+      ]
+    },
+    {
+      "x": 45.75,
+      "y": 9.25,
+      "angle": 0,
+      "blockers": [
+        [
+          "via",
+          "0830b420-131b-45c3-9621-1d806fc18745"
+        ],
+        [
+          "via",
+          "e8f79e6b-c053-4a4e-849b-d6881fe864a2"
+        ],
+        [
+          "via",
+          "eb8ca2a7-13b9-4864-947c-19316b0a96ec"
+        ]
+      ]
+    }
+  ]
+}

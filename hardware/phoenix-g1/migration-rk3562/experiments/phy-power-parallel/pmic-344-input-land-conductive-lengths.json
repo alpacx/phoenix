@@ -1,0 +1,222 @@
+{
+  "method": "Centerline length with same-net copper contact and via continuity; excludes plane spreading and via Z length. Contact projection approximates wide pads and tracks. Not an impedance model.",
+  "adopted": [
+    {
+      "pin": "U4.54",
+      "land": "C424.1",
+      "planar_mm": 45.3875,
+      "via_centers": [
+        [
+          60.4,
+          2.75
+        ],
+        [
+          57.3,
+          3.2
+        ],
+        [
+          66.099999,
+          8.1
+        ]
+      ]
+    },
+    {
+      "pin": "U4.54",
+      "land": "C425.1",
+      "planar_mm": 3.0691,
+      "via_centers": []
+    },
+    {
+      "pin": "U4.54",
+      "land": "C484.1",
+      "planar_mm": 10.3968,
+      "via_centers": [
+        [
+          60.4,
+          2.75
+        ]
+      ]
+    },
+    {
+      "pin": "U4.66",
+      "land": "C424.1",
+      "planar_mm": 37.3834,
+      "via_centers": [
+        [
+          57.3,
+          3.2
+        ],
+        [
+          66.099999,
+          8.1
+        ]
+      ]
+    },
+    {
+      "pin": "U4.66",
+      "land": "C425.1",
+      "planar_mm": 10.2121,
+      "via_centers": [
+        [
+          57.3,
+          3.2
+        ],
+        [
+          60.4,
+          2.75
+        ]
+      ]
+    },
+    {
+      "pin": "U4.66",
+      "land": "C484.1",
+      "planar_mm": 4.7927,
+      "via_centers": [
+        [
+          57.3,
+          3.2
+        ]
+      ]
+    },
+    {
+      "pin": "U4.45",
+      "land": "C424.1",
+      "planar_mm": 3.1199,
+      "via_centers": []
+    },
+    {
+      "pin": "U4.45",
+      "land": "C425.1",
+      "planar_mm": 42.21,
+      "via_centers": [
+        [
+          66.099999,
+          8.1
+        ],
+        [
+          57.3,
+          3.2
+        ],
+        [
+          60.4,
+          2.75
+        ]
+      ]
+    },
+    {
+      "pin": "U4.45",
+      "land": "C484.1",
+      "planar_mm": 36.7905,
+      "via_centers": [
+        [
+          66.099999,
+          8.1
+        ],
+        [
+          57.3,
+          3.2
+        ]
+      ]
+    }
+  ],
+  "four_cap_candidate": [
+    {
+      "pin": "U4.54",
+      "land": "C424.1",
+      "planar_mm": 3.0691,
+      "via_centers": []
+    },
+    {
+      "pin": "U4.54",
+      "land": "C425.1",
+      "planar_mm": 45.3875,
+      "via_centers": [
+        [
+          60.4,
+          2.75
+        ],
+        [
+          57.3,
+          3.2
+        ],
+        [
+          66.099999,
+          8.1
+        ]
+      ]
+    },
+    {
+      "pin": "U4.54",
+      "land": "C484.1",
+      "planar_mm": null,
+      "via_centers": []
+    },
+    {
+      "pin": "U4.66",
+      "land": "C424.1",
+      "planar_mm": 10.2121,
+      "via_centers": [
+        [
+          57.3,
+          3.2
+        ],
+        [
+          60.4,
+          2.75
+        ]
+      ]
+    },
+    {
+      "pin": "U4.66",
+      "land": "C425.1",
+      "planar_mm": 37.3834,
+      "via_centers": [
+        [
+          57.3,
+          3.2
+        ],
+        [
+          66.099999,
+          8.1
+        ]
+      ]
+    },
+    {
+      "pin": "U4.66",
+      "land": "C484.1",
+      "planar_mm": null,
+      "via_centers": []
+    },
+    {
+      "pin": "U4.45",
+      "land": "C424.1",
+      "planar_mm": 42.21,
+      "via_centers": [
+        [
+          66.099999,
+          8.1
+        ],
+        [
+          57.3,
+          3.2
+        ],
+        [
+          60.4,
+          2.75
+        ]
+      ]
+    },
+    {
+      "pin": "U4.45",
+      "land": "C425.1",
+      "planar_mm": 3.1199,
+      "via_centers": []
+    },
+    {
+      "pin": "U4.45",
+      "land": "C484.1",
+      "planar_mm": null,
+      "via_centers": []
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "parent_sha256": "47c3050bb7b09d0c314ee4cac8d6f883349de3b7419bb89308ad6bb8364eae46",
+  "candidate_sha256": "192ecb1bd584bdbe0a703bfca2a0978aa3fafb1c3acdde8f35d31060d89eaec2",
+  "selected": [
+    {
+      "net": "GND",
+      "junction": [
+        47850000,
+        22550000
+      ],
+      "shift_nm": [
+        25000,
+        -15000
+      ],
+      "keys": [
+        "23dc7906-b513-4ded-8aef-ed89477c831f",
+        "d8aa5ab7-3caa-400c-a12a-4fd029b2409e"
+      ],
+      "other_ends": [
+        [
+          47850000,
+          22475000
+        ],
+        [
+          47875000,
+          22575000
+        ]
+      ],
+      "before": 2,
+      "after": 0,
+      "min_before": 79138,
+      "min_after": 100000
+    },
+    {
+      "net": "GND",
+      "junction": [
+        48300000,
+        25550000
+      ],
+      "shift_nm": [
+        25000,
+        15000
+      ],
+      "keys": [
+        "89c30065-13e5-4485-a6e3-9d0c6e4232d6",
+        "d0aaed9c-94c8-4caa-8e02-d01e5594a74a"
+      ],
+      "other_ends": [
+        [
+          48300000,
+          25625000
+        ],
+        [
+          48325000,
+          25525000
+        ]
+      ],
+      "before": 2,
+      "after": 0,
+      "min_before": 79138,
+      "min_after": 100000
+    },
+    {
+      "net": "GND",
+      "junction": [
+        48450000,
+        23800000
+      ],
+      "shift_nm": [
+        -15000,
+        25000
+      ],
+      "keys": [
+        "9d457c65-96d1-4163-aeb8-a7145bd852b6",
+        "b19ac44c-fa36-42f4-97bc-557511ee9ffd"
+      ],
+      "other_ends": [
+        [
+          48475000,
+          23825000
+        ],
+        [
+          48375000,
+          23800000
+        ]
+      ],
+      "before": 2,
+      "after": 0,
+      "min_before": 79138,
+      "min_after": 100000
+    },
+    {
+      "net": "GND",
+      "junction": [
+        45250000,
+        17450000
+      ],
+      "shift_nm": [
+        25000,
+        15000
+      ],
+      "keys": [
+        "a37b9767-209d-45aa-98a4-5006327ebbef",
+        "c4b16ccc-f1fd-49e9-907e-fce3503c9f22"
+      ],
+      "other_ends": [
+        [
+          45250000,
+          17525000
+        ],
+        [
+          45275000,
+          17425000
+        ]
+      ],
+      "before": 2,
+      "after": 0,
+      "min_before": 79138,
+      "min_after": 100000
+    },
+    {
+      "net": "EXP_I2C_SDA",
+      "junction": [
+        46725000,
+        25400000
+      ],
+      "shift_nm": [
+        10000,
+        -10000
+      ],
+      "keys": [
+        "007a20e1-ce3b-435b-b945-2c3da53ca8a9",
+        "3ed36712-0f74-4888-ac4c-897e130a3f23"
+      ],
+      "other_ends": [
+        [
+          46725000,
+          25375000
+        ],
+        [
+          46750000,
+          25425000
+        ]
+      ],
+      "before": 2,
+      "after": 0,
+      "min_before": 83121,
+      "min_after": 94290
+    },
+    {
+      "net": "EXP_I2C_SDA",
+      "junction": [
+        47725000,
+        25600000
+      ],
+      "shift_nm": [
+        10000,
+        10000
+      ],
+      "keys": [
+        "182ab868-667b-4105-a35a-a64696ada1ae",
+        "df57284a-7aa7-4fbb-b9c9-c285c9c77f7e"
+      ],
+      "other_ends": [
+        [
+          47725000,
+          25625000
+        ],
+        [
+          47750000,
+          25575000
+        ]
+      ],
+      "before": 2,
+      "after": 0,
+      "min_before": 83121,
+      "min_after": 94290
+    },
+    {
+      "net": "EXP_I2C_SDA",
+      "junction": [
+        46900000,
+        25725000
+      ],
+      "shift_nm": [
+        -10000,
+        10000
+      ],
+      "keys": [
+        "481c4b80-6400-4e75-80ef-2204fdbfce1b",
+        "879b740a-178a-4e14-9742-23da52c91a83"
+      ],
+      "other_ends": [
+        [
+          46875000,
+          25725000
+        ],
+        [
+          46925000,
+          25750000
+        ]
+      ],
+      "before": 2,
+      "after": 0,
+      "min_before": 83121,
+      "min_after": 94290
+    },
+    {
+      "net": "EXP_I2C_SDA",
+      "junction": [
+        46550000,
+        25200000
+      ],
+      "shift_nm": [
+        30000,
+        -30000
+      ],
+      "keys": [
+        "4afa1071-9d71-4a9f-9041-795486d6a93f",
+        "87dd7c6b-dbba-4a0e-b7ba-ec5d12d2247c"
+      ],
+      "other_ends": [
+        [
+          43975000,
+          25200000
+        ],
+        [
+          46725000,
+          25375000
+        ]
+      ],
+      "before": 1,
+      "after": 0,
+      "min_before": 84387,
+      "min_after": 92777
+    },
+    {
+      "net": "EXP_I2C_SDA",
+      "junction": [
+        47600000,
+        25750000
+      ],
+      "shift_nm": [
+        25000,
+        0
+      ],
+      "keys": [
+        "4860d556-0adf-419c-8180-b8e51cd07cbe",
+        "8e649495-75da-443a-9668-8125adc89883"
+      ],
+      "other_ends": [
+        [
+          47725000,
+          25625000
+        ],
+        [
+          46925000,
+          25750000
+        ]
+      ],
+      "before": 5,
+      "after": 4,
+      "min_before": 84387,
+      "min_after": 86900
+    },
+    {
+      "net": "EXP_I2C_SDA",
+      "junction": [
+        46750000,
+        25600000
+      ],
+      "shift_nm": [
+        0,
+        25000
+      ],
+      "keys": [
+        "956cb623-f775-4802-a1e1-9bb38a49bb5a",
+        "99df4c48-4019-4450-bf2d-c17570bb5230"
+      ],
+      "other_ends": [
+        [
+          46875000,
+          25725000
+        ],
+        [
+          46750000,
+          25425000
+        ]
+      ],
+      "before": 3,
+      "after": 2,
+      "min_before": 84387,
+      "min_after": 86900
+    }
+  ],
+  "added_to_retired": {
+    "45bf6e5f-f3af-4081-bade-cec79dc49e91": "23dc7906-b513-4ded-8aef-ed89477c831f",
+    "abf0f6bd-2175-4cdb-b089-79e5ed83dfdd": "d8aa5ab7-3caa-400c-a12a-4fd029b2409e",
+    "9d1bfb98-0877-4c58-b4fe-c62a53a48903": "89c30065-13e5-4485-a6e3-9d0c6e4232d6",
+    "c8a98a9f-7f2c-49d2-affc-5b802a674e2d": "d0aaed9c-94c8-4caa-8e02-d01e5594a74a",
+    "2b673736-dd32-4fd5-b51d-dbba50439b94": "9d457c65-96d1-4163-aeb8-a7145bd852b6",
+    "5d6081dd-bd12-43ca-8d1c-2af6ce27b9e0": "b19ac44c-fa36-42f4-97bc-557511ee9ffd",
+    "601eab9a-086b-4836-9c9c-649ca3cf6155": "a37b9767-209d-45aa-98a4-5006327ebbef",
+    "3dbb2aca-7f71-4e51-98d9-45819e3197c9": "c4b16ccc-f1fd-49e9-907e-fce3503c9f22",
+    "d042943f-15bf-4eb8-8f36-ac67183e5eb7": "007a20e1-ce3b-435b-b945-2c3da53ca8a9",
+    "5aa626f6-6b3c-4f35-8251-844ff9a7fcef": "3ed36712-0f74-4888-ac4c-897e130a3f23",
+    "4299384e-1116-4e1b-8769-03abb11f30de": "182ab868-667b-4105-a35a-a64696ada1ae",
+    "a34c762a-877f-4400-9d26-0d8b85765e2c": "df57284a-7aa7-4fbb-b9c9-c285c9c77f7e",
+    "e05387bf-7fd2-48c4-aa24-85e7def64cdb": "481c4b80-6400-4e75-80ef-2204fdbfce1b",
+    "0ce11483-5278-4b48-9e2a-9013547176e4": "879b740a-178a-4e14-9742-23da52c91a83",
+    "51d97e41-fa99-4945-9c2c-ebf8f2d1581b": "4afa1071-9d71-4a9f-9041-795486d6a93f",
+    "d0964f6e-b2b7-497f-a060-38cd54770ad5": "87dd7c6b-dbba-4a0e-b7ba-ec5d12d2247c",
+    "705aa9f1-5b56-4fb7-8187-02d0b9a70152": "4860d556-0adf-419c-8180-b8e51cd07cbe",
+    "1185708a-9c36-45ac-a779-9fcb0ab87ffa": "8e649495-75da-443a-9668-8125adc89883",
+    "ccfe7f20-c38c-4d05-973d-78df6c7809f6": "956cb623-f775-4802-a1e1-9bb38a49bb5a",
+    "17eac454-4c41-442e-8b48-132f18344952": "99df4c48-4019-4450-bf2d-c17570bb5230"
+  },
+  "delta": [],
+  "remaining": 395,
+  "before_occurrences": 251,
+  "after_occurrences": 234,
+  "corrected": 17,
+  "preserved_pairs": 774,
+  "front_mask_web_counts": {
+    "200000": 42
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "parent_sha256": "9ab66bf2fedfccf049ad5aca8f802b27a5d8c7e538af7545e10957b756033dc8",
+  "qualified_before_native": 1192,
+  "samples": [
+    {
+      "poses": [
+        [
+          47500000,
+          28100000
+        ],
+        [
+          45500000,
+          30100000
+        ],
+        [
+          49000000,
+          29100000
+        ]
+      ],
+      "orientation": [
+        270,
+        180,
+        0
+      ],
+      "delta": [],
+      "joins": 396,
+      "retired": [
+        "2e30e983-cb60-4d62-9aa5-cbbb62cd5427",
+        "68fa0078-a000-4fef-8230-9e96b7d7ee28",
+        "4b469f67-38db-4763-ba69-d80dfd66f31f"
+      ],
+      "board": "runs/usb-avdd-three-part-bank/phy-joint.kicad_pcb",
+      "sha256": "d46402b615b9d79f9efd2163159944656b1cf16d410d039f4d259b7e37839afb",
+      "preservation": {
+        "existing_pad_instances_preserved": 2008,
+        "existing_tracks_vias_preserved": 7718,
+        "explicitly_replaced_copper": {
+          "2e30e983-cb60-4d62-9aa5-cbbb62cd5427": [
+            "VCCA_1V8",
+            2,
+            47680000,
+            27590000,
+            48480000,
+            26500000,
+            300000,
+            null
+          ],
+          "4b469f67-38db-4763-ba69-d80dfd66f31f": [
+            "GND",
+            2,
+            32520000,
+            30000000,
+            32720000,
+            29300000,
+            300000,
+            null
+          ],
+          "68fa0078-a000-4fef-8230-9e96b7d7ee28": [
+            "USB_AVDD_1V8",
+            2,
+            48800000,
+            29210000,
+            47680000,
+            28610000,
+            300000,
+            null
+          ]
+        },
+        "added_tracks_vias": 3,
+        "existing_connected_pad_groups_preserved": 125
+      },
+      "link": {
+        "at": [
+          47500000,
+          28100000
+        ],
+        "angle": 270,
+        "one": [
+          47500000,
+          27590001
+        ],
+        "two": [
+          47500000,
+          28609999
+        ],
+        "end": [
+          48480000,
+          26640000
+        ]
+      },
+      "near_100nf": {
+        "at": [
+          45500000,
+          30100000
+        ],
+        "angle": 180,
+        "one": [
+          45980000,
+          30100000
+        ],
+        "two": [
+          45020000,
+          30100000
+        ],
+        "end": [
+          44700000,
+          29500000
+        ]
+      },
+      "near_1uf": {
+        "at": [
+          49000000,
+          29100000
+        ],
+        "angle": 0,
+        "one": [
+          48520000,
+          29100000
+        ],
+        "two": [
+          49480000,
+          29100000
+        ],
+        "end": [
+          49760000,
+          29210000
+        ]
+      }
+    }
+  ]
+}

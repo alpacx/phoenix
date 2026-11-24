@@ -1,0 +1,185 @@
+{
+  "sha256": "572d6ba53bb0abb0c7e86dd2c158361c9c12bd9cfcacd297c1c752aa674aea3d",
+  "geometry": {
+    "width_mm": 0.2,
+    "via_mm": [
+      0.45,
+      0.2
+    ],
+    "max_axial_mm": 2,
+    "center_spacing_mm": [
+      0.65,
+      0.9
+    ]
+  },
+  "results": [
+    {
+      "pair": 0,
+      "component": "U5",
+      "pair_spacing_valid": 306,
+      "viable": 0,
+      "most_common_obstacles": [
+        [
+          "+1V0_PHY",
+          2942
+        ],
+        [
+          "PHY_XIN",
+          700
+        ],
+        [
+          "U5.3",
+          278
+        ],
+        [
+          "+3V3_PHY",
+          236
+        ],
+        [
+          "U5.41",
+          153
+        ],
+        [
+          "U5.40",
+          143
+        ],
+        [
+          "U5.39",
+          134
+        ],
+        [
+          "C512.1",
+          112
+        ]
+      ],
+      "exact_net_families": [],
+      "examples": []
+    },
+    {
+      "pair": 1,
+      "component": "U5",
+      "pair_spacing_valid": 306,
+      "viable": 0,
+      "most_common_obstacles": [
+        [
+          "+1V0_PHY",
+          3771
+        ],
+        [
+          "GND",
+          328
+        ],
+        [
+          "U5.6",
+          278
+        ],
+        [
+          "U5.3",
+          278
+        ],
+        [
+          "+3V3_PHY",
+          225
+        ],
+        [
+          "U5.41",
+          153
+        ],
+        [
+          "C512.2",
+          126
+        ],
+        [
+          "C512.1",
+          126
+        ]
+      ],
+      "exact_net_families": [],
+      "examples": []
+    },
+    {
+      "pair": 2,
+      "component": "U5",
+      "pair_spacing_valid": 306,
+      "viable": 0,
+      "most_common_obstacles": [
+        [
+          "+1V0_PHY",
+          1416
+        ],
+        [
+          "GND",
+          484
+        ],
+        [
+          "U5.5",
+          278
+        ],
+        [
+          "U5.8",
+          278
+        ],
+        [
+          "U5.41",
+          153
+        ],
+        [
+          "+3V3_PHY",
+          132
+        ],
+        [
+          "C512.2",
+          126
+        ],
+        [
+          "C1014.2",
+          54
+        ]
+      ],
+      "exact_net_families": [],
+      "examples": []
+    },
+    {
+      "pair": 3,
+      "component": "U5",
+      "pair_spacing_valid": 306,
+      "viable": 0,
+      "most_common_obstacles": [
+        [
+          "+1V0_PHY",
+          2048
+        ],
+        [
+          "+3V3_PHY",
+          400
+        ],
+        [
+          "GND",
+          299
+        ],
+        [
+          "U5.8",
+          278
+        ],
+        [
+          "U5.41",
+          153
+        ],
+        [
+          "C513.1",
+          153
+        ],
+        [
+          "U5.11",
+          143
+        ],
+        [
+          "U5.12",
+          134
+        ]
+      ],
+      "exact_net_families": [],
+      "examples": []
+    }
+  ]
+}

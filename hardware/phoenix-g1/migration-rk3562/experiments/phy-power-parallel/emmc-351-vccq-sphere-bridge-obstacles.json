@@ -1,0 +1,1179 @@
+{
+  "parent": "2fe2813697e3b0592397c59b14558cfec6d1af4ebe5c13aea3254863adfd6cc9",
+  "screened": [
+    {
+      "source": "U8001.N4",
+      "target": "U8001.P3",
+      "path": [
+        [
+          36250000,
+          6250000
+        ],
+        [
+          35750000,
+          5750000
+        ]
+      ],
+      "blockers": [
+        {
+          "uuid": "8d9505a5-a2b3-428f-b38b-60d2de9d983b",
+          "type": "PCB_TRACK",
+          "net": "GND",
+          "at": [
+            36250000,
+            5750000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "3c9fdc84-a552-4115-aa36-ecbf8f5026d2",
+          "type": "PAD",
+          "net": "",
+          "at": [
+            35750000,
+            6250000
+          ],
+          "part": "U8001.N3"
+        },
+        {
+          "uuid": "35424f7b-5ed1-42e5-aca7-9f118a39e548",
+          "type": "PAD",
+          "net": "GND",
+          "at": [
+            36250000,
+            5750000
+          ],
+          "part": "U8001.P4"
+        }
+      ]
+    },
+    {
+      "source": "U8001.N4",
+      "target": "U8001.P5",
+      "path": [
+        [
+          36250000,
+          6250000
+        ],
+        [
+          36750000,
+          5750000
+        ]
+      ],
+      "blockers": [
+        {
+          "uuid": "8d9505a5-a2b3-428f-b38b-60d2de9d983b",
+          "type": "PCB_TRACK",
+          "net": "GND",
+          "at": [
+            36250000,
+            5750000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "327c9de1-da94-4b9a-951f-2edf552e08ab",
+          "type": "PAD",
+          "net": "GND",
+          "at": [
+            36750000,
+            6250000
+          ],
+          "part": "U8001.N5"
+        },
+        {
+          "uuid": "35424f7b-5ed1-42e5-aca7-9f118a39e548",
+          "type": "PAD",
+          "net": "GND",
+          "at": [
+            36250000,
+            5750000
+          ],
+          "part": "U8001.P4"
+        }
+      ]
+    },
+    {
+      "source": "U8001.N4",
+      "target": "U8001.C6",
+      "path": [
+        [
+          36250000,
+          6250000
+        ],
+        [
+          37250000,
+          11250000
+        ]
+      ],
+      "blockers": [
+        {
+          "uuid": "b45fc0e7-0a27-4bba-81bb-46182f5a8364",
+          "type": "PCB_VIA",
+          "net": "GND",
+          "at": [
+            37000000,
+            10750000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "f16f8003-3137-4da9-a7f1-2dc979605d68",
+          "type": "PCB_VIA",
+          "net": "GND",
+          "at": [
+            37150000,
+            9200000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "3be570f9-8709-4f6b-a44c-db33fe17aa5a",
+          "type": "PCB_TRACK",
+          "net": "GND",
+          "at": [
+            36750000,
+            8250000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "85dcf294-ec2f-43ec-be3c-8b13d30aed4b",
+          "type": "PCB_TRACK",
+          "net": "GND",
+          "at": [
+            36750000,
+            9250000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "44d19fce-05e2-4c16-8d10-e4be08e8657c",
+          "type": "PCB_VIA",
+          "net": "EMMC_STRB",
+          "at": [
+            36310000,
+            8655000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "65f32984-6bef-4365-b340-662c7e1a8976",
+          "type": "PCB_TRACK",
+          "net": "EMMC_STRB",
+          "at": [
+            36750000,
+            8750000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "8f8bef4a-73ca-4cb1-827a-2eb9713f9009",
+          "type": "PCB_TRACK",
+          "net": "EMMC_3V3",
+          "at": [
+            37100000,
+            9900000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "e6da108e-6ec7-4fc3-8806-2fe446a6fbc7",
+          "type": "PCB_TRACK",
+          "net": "EMMC_3V3",
+          "at": [
+            37250000,
+            10250000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "43130775-8562-4afb-8bef-7f10e42669cb",
+          "type": "PCB_VIA",
+          "net": "EMMC_RESET_N",
+          "at": [
+            36500000,
+            7300000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "47d1ce11-1066-4507-8013-8403b7c6d5fa",
+          "type": "PCB_TRACK",
+          "net": "EMMC_RESET_N",
+          "at": [
+            36750000,
+            7650000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "638c52bd-4a9a-40c3-bc6c-48d52e57acc1",
+          "type": "PAD",
+          "net": "",
+          "at": [
+            36750000,
+            10250000
+          ],
+          "part": "U8001.E5"
+        },
+        {
+          "uuid": "5a424373-d13f-426a-ae0f-234b702c3982",
+          "type": "PAD",
+          "net": "EMMC_3V3",
+          "at": [
+            37250000,
+            10250000
+          ],
+          "part": "U8001.E6"
+        },
+        {
+          "uuid": "671c1de3-0848-4e51-bfe1-4d92bd22a9aa",
+          "type": "PAD",
+          "net": "EMMC_3V3",
+          "at": [
+            36750000,
+            9750000
+          ],
+          "part": "U8001.F5"
+        },
+        {
+          "uuid": "b134c32b-fdc6-4f53-a947-a468b68ac0e9",
+          "type": "PAD",
+          "net": "GND",
+          "at": [
+            36750000,
+            9250000
+          ],
+          "part": "U8001.G5"
+        },
+        {
+          "uuid": "40b40ac3-8d99-4ff5-a047-0e9867503aaa",
+          "type": "PAD",
+          "net": "EMMC_STRB",
+          "at": [
+            36750000,
+            8750000
+          ],
+          "part": "U8001.H5"
+        },
+        {
+          "uuid": "88b5a604-9f3a-477c-9e83-1645dcd32063",
+          "type": "PAD",
+          "net": "GND",
+          "at": [
+            36750000,
+            8250000
+          ],
+          "part": "U8001.J5"
+        },
+        {
+          "uuid": "32f85dd3-5cfd-4c00-9880-65133911c438",
+          "type": "PAD",
+          "net": "EMMC_RESET_N",
+          "at": [
+            36750000,
+            7750000
+          ],
+          "part": "U8001.K5"
+        },
+        {
+          "uuid": "3e09f84a-d1d8-4f1b-83ba-5dce4ec00860",
+          "type": "PAD",
+          "net": "EMMC_CMD",
+          "at": [
+            36750000,
+            6750000
+          ],
+          "part": "U8001.M5"
+        }
+      ]
+    },
+    {
+      "source": "U8001.M4",
+      "target": "U8001.P3",
+      "path": [
+        [
+          36250000,
+          6750000
+        ],
+        [
+          35750000,
+          5750000
+        ]
+      ],
+      "blockers": [
+        {
+          "uuid": "8d9505a5-a2b3-428f-b38b-60d2de9d983b",
+          "type": "PCB_TRACK",
+          "net": "GND",
+          "at": [
+            36250000,
+            5750000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "3c9fdc84-a552-4115-aa36-ecbf8f5026d2",
+          "type": "PAD",
+          "net": "",
+          "at": [
+            35750000,
+            6250000
+          ],
+          "part": "U8001.N3"
+        }
+      ]
+    },
+    {
+      "source": "U8001.M4",
+      "target": "U8001.P5",
+      "path": [
+        [
+          36250000,
+          6750000
+        ],
+        [
+          36750000,
+          5750000
+        ]
+      ],
+      "blockers": [
+        {
+          "uuid": "8d9505a5-a2b3-428f-b38b-60d2de9d983b",
+          "type": "PCB_TRACK",
+          "net": "GND",
+          "at": [
+            36250000,
+            5750000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "327c9de1-da94-4b9a-951f-2edf552e08ab",
+          "type": "PAD",
+          "net": "GND",
+          "at": [
+            36750000,
+            6250000
+          ],
+          "part": "U8001.N5"
+        }
+      ]
+    },
+    {
+      "source": "U8001.M4",
+      "target": "U8001.C6",
+      "path": [
+        [
+          36250000,
+          6750000
+        ],
+        [
+          37250000,
+          11250000
+        ]
+      ],
+      "blockers": [
+        {
+          "uuid": "b45fc0e7-0a27-4bba-81bb-46182f5a8364",
+          "type": "PCB_VIA",
+          "net": "GND",
+          "at": [
+            37000000,
+            10750000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "f16f8003-3137-4da9-a7f1-2dc979605d68",
+          "type": "PCB_VIA",
+          "net": "GND",
+          "at": [
+            37150000,
+            9200000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "3be570f9-8709-4f6b-a44c-db33fe17aa5a",
+          "type": "PCB_TRACK",
+          "net": "GND",
+          "at": [
+            36750000,
+            8250000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "85dcf294-ec2f-43ec-be3c-8b13d30aed4b",
+          "type": "PCB_TRACK",
+          "net": "GND",
+          "at": [
+            36750000,
+            9250000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "44d19fce-05e2-4c16-8d10-e4be08e8657c",
+          "type": "PCB_VIA",
+          "net": "EMMC_STRB",
+          "at": [
+            36310000,
+            8655000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "65f32984-6bef-4365-b340-662c7e1a8976",
+          "type": "PCB_TRACK",
+          "net": "EMMC_STRB",
+          "at": [
+            36750000,
+            8750000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "8f8bef4a-73ca-4cb1-827a-2eb9713f9009",
+          "type": "PCB_TRACK",
+          "net": "EMMC_3V3",
+          "at": [
+            37100000,
+            9900000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "e6da108e-6ec7-4fc3-8806-2fe446a6fbc7",
+          "type": "PCB_TRACK",
+          "net": "EMMC_3V3",
+          "at": [
+            37250000,
+            10250000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "43130775-8562-4afb-8bef-7f10e42669cb",
+          "type": "PCB_VIA",
+          "net": "EMMC_RESET_N",
+          "at": [
+            36500000,
+            7300000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "47d1ce11-1066-4507-8013-8403b7c6d5fa",
+          "type": "PCB_TRACK",
+          "net": "EMMC_RESET_N",
+          "at": [
+            36750000,
+            7650000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "638c52bd-4a9a-40c3-bc6c-48d52e57acc1",
+          "type": "PAD",
+          "net": "",
+          "at": [
+            36750000,
+            10250000
+          ],
+          "part": "U8001.E5"
+        },
+        {
+          "uuid": "5a424373-d13f-426a-ae0f-234b702c3982",
+          "type": "PAD",
+          "net": "EMMC_3V3",
+          "at": [
+            37250000,
+            10250000
+          ],
+          "part": "U8001.E6"
+        },
+        {
+          "uuid": "671c1de3-0848-4e51-bfe1-4d92bd22a9aa",
+          "type": "PAD",
+          "net": "EMMC_3V3",
+          "at": [
+            36750000,
+            9750000
+          ],
+          "part": "U8001.F5"
+        },
+        {
+          "uuid": "b134c32b-fdc6-4f53-a947-a468b68ac0e9",
+          "type": "PAD",
+          "net": "GND",
+          "at": [
+            36750000,
+            9250000
+          ],
+          "part": "U8001.G5"
+        },
+        {
+          "uuid": "40b40ac3-8d99-4ff5-a047-0e9867503aaa",
+          "type": "PAD",
+          "net": "EMMC_STRB",
+          "at": [
+            36750000,
+            8750000
+          ],
+          "part": "U8001.H5"
+        },
+        {
+          "uuid": "88b5a604-9f3a-477c-9e83-1645dcd32063",
+          "type": "PAD",
+          "net": "GND",
+          "at": [
+            36750000,
+            8250000
+          ],
+          "part": "U8001.J5"
+        },
+        {
+          "uuid": "32f85dd3-5cfd-4c00-9880-65133911c438",
+          "type": "PAD",
+          "net": "EMMC_RESET_N",
+          "at": [
+            36750000,
+            7750000
+          ],
+          "part": "U8001.K5"
+        }
+      ]
+    },
+    {
+      "source": "U8001.C6",
+      "target": "U8001.P3",
+      "path": [
+        [
+          37250000,
+          11250000
+        ],
+        [
+          35750000,
+          5750000
+        ]
+      ],
+      "blockers": [
+        {
+          "uuid": "b45fc0e7-0a27-4bba-81bb-46182f5a8364",
+          "type": "PCB_VIA",
+          "net": "GND",
+          "at": [
+            37000000,
+            10750000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "f16f8003-3137-4da9-a7f1-2dc979605d68",
+          "type": "PCB_VIA",
+          "net": "GND",
+          "at": [
+            37150000,
+            9200000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "3be570f9-8709-4f6b-a44c-db33fe17aa5a",
+          "type": "PCB_TRACK",
+          "net": "GND",
+          "at": [
+            36750000,
+            8250000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "85dcf294-ec2f-43ec-be3c-8b13d30aed4b",
+          "type": "PCB_TRACK",
+          "net": "GND",
+          "at": [
+            36750000,
+            9250000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "44d19fce-05e2-4c16-8d10-e4be08e8657c",
+          "type": "PCB_VIA",
+          "net": "EMMC_STRB",
+          "at": [
+            36310000,
+            8655000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "65f32984-6bef-4365-b340-662c7e1a8976",
+          "type": "PCB_TRACK",
+          "net": "EMMC_STRB",
+          "at": [
+            36750000,
+            8750000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "8f8bef4a-73ca-4cb1-827a-2eb9713f9009",
+          "type": "PCB_TRACK",
+          "net": "EMMC_3V3",
+          "at": [
+            37100000,
+            9900000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "e6da108e-6ec7-4fc3-8806-2fe446a6fbc7",
+          "type": "PCB_TRACK",
+          "net": "EMMC_3V3",
+          "at": [
+            37250000,
+            10250000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "43130775-8562-4afb-8bef-7f10e42669cb",
+          "type": "PCB_VIA",
+          "net": "EMMC_RESET_N",
+          "at": [
+            36500000,
+            7300000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "47d1ce11-1066-4507-8013-8403b7c6d5fa",
+          "type": "PCB_TRACK",
+          "net": "EMMC_RESET_N",
+          "at": [
+            36750000,
+            7650000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "638c52bd-4a9a-40c3-bc6c-48d52e57acc1",
+          "type": "PAD",
+          "net": "",
+          "at": [
+            36750000,
+            10250000
+          ],
+          "part": "U8001.E5"
+        },
+        {
+          "uuid": "5a424373-d13f-426a-ae0f-234b702c3982",
+          "type": "PAD",
+          "net": "EMMC_3V3",
+          "at": [
+            37250000,
+            10250000
+          ],
+          "part": "U8001.E6"
+        },
+        {
+          "uuid": "671c1de3-0848-4e51-bfe1-4d92bd22a9aa",
+          "type": "PAD",
+          "net": "EMMC_3V3",
+          "at": [
+            36750000,
+            9750000
+          ],
+          "part": "U8001.F5"
+        },
+        {
+          "uuid": "b134c32b-fdc6-4f53-a947-a468b68ac0e9",
+          "type": "PAD",
+          "net": "GND",
+          "at": [
+            36750000,
+            9250000
+          ],
+          "part": "U8001.G5"
+        },
+        {
+          "uuid": "40b40ac3-8d99-4ff5-a047-0e9867503aaa",
+          "type": "PAD",
+          "net": "EMMC_STRB",
+          "at": [
+            36750000,
+            8750000
+          ],
+          "part": "U8001.H5"
+        },
+        {
+          "uuid": "88b5a604-9f3a-477c-9e83-1645dcd32063",
+          "type": "PAD",
+          "net": "GND",
+          "at": [
+            36750000,
+            8250000
+          ],
+          "part": "U8001.J5"
+        },
+        {
+          "uuid": "8409b601-20e8-49bc-8e12-bbee6d168ae4",
+          "type": "PAD",
+          "net": "",
+          "at": [
+            35750000,
+            7250000
+          ],
+          "part": "U8001.L3"
+        },
+        {
+          "uuid": "fdec9902-71a5-4837-b794-59ac9ece28ad",
+          "type": "PAD",
+          "net": "",
+          "at": [
+            35750000,
+            6750000
+          ],
+          "part": "U8001.M3"
+        },
+        {
+          "uuid": "3c9fdc84-a552-4115-aa36-ecbf8f5026d2",
+          "type": "PAD",
+          "net": "",
+          "at": [
+            35750000,
+            6250000
+          ],
+          "part": "U8001.N3"
+        }
+      ]
+    },
+    {
+      "source": "U8001.C6",
+      "target": "U8001.P5",
+      "path": [
+        [
+          37250000,
+          11250000
+        ],
+        [
+          36750000,
+          5750000
+        ]
+      ],
+      "blockers": [
+        {
+          "uuid": "1c2c4697-e047-499a-8ac0-6bfb4e998d5e",
+          "type": "PCB_VIA",
+          "net": "GND",
+          "at": [
+            37250000,
+            8300000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "b45fc0e7-0a27-4bba-81bb-46182f5a8364",
+          "type": "PCB_VIA",
+          "net": "GND",
+          "at": [
+            37000000,
+            10750000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "f16f8003-3137-4da9-a7f1-2dc979605d68",
+          "type": "PCB_VIA",
+          "net": "GND",
+          "at": [
+            37150000,
+            9200000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "3be570f9-8709-4f6b-a44c-db33fe17aa5a",
+          "type": "PCB_TRACK",
+          "net": "GND",
+          "at": [
+            36750000,
+            8250000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "85dcf294-ec2f-43ec-be3c-8b13d30aed4b",
+          "type": "PCB_TRACK",
+          "net": "GND",
+          "at": [
+            36750000,
+            9250000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "65f32984-6bef-4365-b340-662c7e1a8976",
+          "type": "PCB_TRACK",
+          "net": "EMMC_STRB",
+          "at": [
+            36750000,
+            8750000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "8f8bef4a-73ca-4cb1-827a-2eb9713f9009",
+          "type": "PCB_TRACK",
+          "net": "EMMC_3V3",
+          "at": [
+            37100000,
+            9900000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "e6da108e-6ec7-4fc3-8806-2fe446a6fbc7",
+          "type": "PCB_TRACK",
+          "net": "EMMC_3V3",
+          "at": [
+            37250000,
+            10250000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "43130775-8562-4afb-8bef-7f10e42669cb",
+          "type": "PCB_VIA",
+          "net": "EMMC_RESET_N",
+          "at": [
+            36500000,
+            7300000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "47d1ce11-1066-4507-8013-8403b7c6d5fa",
+          "type": "PCB_TRACK",
+          "net": "EMMC_RESET_N",
+          "at": [
+            36750000,
+            7650000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "638c52bd-4a9a-40c3-bc6c-48d52e57acc1",
+          "type": "PAD",
+          "net": "",
+          "at": [
+            36750000,
+            10250000
+          ],
+          "part": "U8001.E5"
+        },
+        {
+          "uuid": "5a424373-d13f-426a-ae0f-234b702c3982",
+          "type": "PAD",
+          "net": "EMMC_3V3",
+          "at": [
+            37250000,
+            10250000
+          ],
+          "part": "U8001.E6"
+        },
+        {
+          "uuid": "671c1de3-0848-4e51-bfe1-4d92bd22a9aa",
+          "type": "PAD",
+          "net": "EMMC_3V3",
+          "at": [
+            36750000,
+            9750000
+          ],
+          "part": "U8001.F5"
+        },
+        {
+          "uuid": "b134c32b-fdc6-4f53-a947-a468b68ac0e9",
+          "type": "PAD",
+          "net": "GND",
+          "at": [
+            36750000,
+            9250000
+          ],
+          "part": "U8001.G5"
+        },
+        {
+          "uuid": "40b40ac3-8d99-4ff5-a047-0e9867503aaa",
+          "type": "PAD",
+          "net": "EMMC_STRB",
+          "at": [
+            36750000,
+            8750000
+          ],
+          "part": "U8001.H5"
+        },
+        {
+          "uuid": "88b5a604-9f3a-477c-9e83-1645dcd32063",
+          "type": "PAD",
+          "net": "GND",
+          "at": [
+            36750000,
+            8250000
+          ],
+          "part": "U8001.J5"
+        },
+        {
+          "uuid": "32f85dd3-5cfd-4c00-9880-65133911c438",
+          "type": "PAD",
+          "net": "EMMC_RESET_N",
+          "at": [
+            36750000,
+            7750000
+          ],
+          "part": "U8001.K5"
+        },
+        {
+          "uuid": "8c9d7073-55b7-41b4-b79a-d5f7b6f84c63",
+          "type": "PAD",
+          "net": "",
+          "at": [
+            37250000,
+            7750000
+          ],
+          "part": "U8001.K6"
+        },
+        {
+          "uuid": "3e09f84a-d1d8-4f1b-83ba-5dce4ec00860",
+          "type": "PAD",
+          "net": "EMMC_CMD",
+          "at": [
+            36750000,
+            6750000
+          ],
+          "part": "U8001.M5"
+        },
+        {
+          "uuid": "1edfdd3d-fc59-4bf4-b614-e2ea91922c68",
+          "type": "PAD",
+          "net": "EMMC_CLK",
+          "at": [
+            37250000,
+            6750000
+          ],
+          "part": "U8001.M6"
+        },
+        {
+          "uuid": "327c9de1-da94-4b9a-951f-2edf552e08ab",
+          "type": "PAD",
+          "net": "GND",
+          "at": [
+            36750000,
+            6250000
+          ],
+          "part": "U8001.N5"
+        }
+      ]
+    },
+    {
+      "source": "U8001.C6",
+      "target": "U8001.N4",
+      "path": [
+        [
+          37250000,
+          11250000
+        ],
+        [
+          36250000,
+          6250000
+        ]
+      ],
+      "blockers": [
+        {
+          "uuid": "b45fc0e7-0a27-4bba-81bb-46182f5a8364",
+          "type": "PCB_VIA",
+          "net": "GND",
+          "at": [
+            37000000,
+            10750000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "f16f8003-3137-4da9-a7f1-2dc979605d68",
+          "type": "PCB_VIA",
+          "net": "GND",
+          "at": [
+            37150000,
+            9200000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "3be570f9-8709-4f6b-a44c-db33fe17aa5a",
+          "type": "PCB_TRACK",
+          "net": "GND",
+          "at": [
+            36750000,
+            8250000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "85dcf294-ec2f-43ec-be3c-8b13d30aed4b",
+          "type": "PCB_TRACK",
+          "net": "GND",
+          "at": [
+            36750000,
+            9250000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "44d19fce-05e2-4c16-8d10-e4be08e8657c",
+          "type": "PCB_VIA",
+          "net": "EMMC_STRB",
+          "at": [
+            36310000,
+            8655000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "65f32984-6bef-4365-b340-662c7e1a8976",
+          "type": "PCB_TRACK",
+          "net": "EMMC_STRB",
+          "at": [
+            36750000,
+            8750000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "8f8bef4a-73ca-4cb1-827a-2eb9713f9009",
+          "type": "PCB_TRACK",
+          "net": "EMMC_3V3",
+          "at": [
+            37100000,
+            9900000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "e6da108e-6ec7-4fc3-8806-2fe446a6fbc7",
+          "type": "PCB_TRACK",
+          "net": "EMMC_3V3",
+          "at": [
+            37250000,
+            10250000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "43130775-8562-4afb-8bef-7f10e42669cb",
+          "type": "PCB_VIA",
+          "net": "EMMC_RESET_N",
+          "at": [
+            36500000,
+            7300000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "47d1ce11-1066-4507-8013-8403b7c6d5fa",
+          "type": "PCB_TRACK",
+          "net": "EMMC_RESET_N",
+          "at": [
+            36750000,
+            7650000
+          ],
+          "part": null
+        },
+        {
+          "uuid": "638c52bd-4a9a-40c3-bc6c-48d52e57acc1",
+          "type": "PAD",
+          "net": "",
+          "at": [
+            36750000,
+            10250000
+          ],
+          "part": "U8001.E5"
+        },
+        {
+          "uuid": "5a424373-d13f-426a-ae0f-234b702c3982",
+          "type": "PAD",
+          "net": "EMMC_3V3",
+          "at": [
+            37250000,
+            10250000
+          ],
+          "part": "U8001.E6"
+        },
+        {
+          "uuid": "671c1de3-0848-4e51-bfe1-4d92bd22a9aa",
+          "type": "PAD",
+          "net": "EMMC_3V3",
+          "at": [
+            36750000,
+            9750000
+          ],
+          "part": "U8001.F5"
+        },
+        {
+          "uuid": "b134c32b-fdc6-4f53-a947-a468b68ac0e9",
+          "type": "PAD",
+          "net": "GND",
+          "at": [
+            36750000,
+            9250000
+          ],
+          "part": "U8001.G5"
+        },
+        {
+          "uuid": "40b40ac3-8d99-4ff5-a047-0e9867503aaa",
+          "type": "PAD",
+          "net": "EMMC_STRB",
+          "at": [
+            36750000,
+            8750000
+          ],
+          "part": "U8001.H5"
+        },
+        {
+          "uuid": "88b5a604-9f3a-477c-9e83-1645dcd32063",
+          "type": "PAD",
+          "net": "GND",
+          "at": [
+            36750000,
+            8250000
+          ],
+          "part": "U8001.J5"
+        },
+        {
+          "uuid": "32f85dd3-5cfd-4c00-9880-65133911c438",
+          "type": "PAD",
+          "net": "EMMC_RESET_N",
+          "at": [
+            36750000,
+            7750000
+          ],
+          "part": "U8001.K5"
+        },
+        {
+          "uuid": "3e09f84a-d1d8-4f1b-83ba-5dce4ec00860",
+          "type": "PAD",
+          "net": "EMMC_CMD",
+          "at": [
+            36750000,
+            6750000
+          ],
+          "part": "U8001.M5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "parent_sha256": "572d6ba53bb0abb0c7e86dd2c158361c9c12bd9cfcacd297c1c752aa674aea3d",
+  "radius_mm": 0.225,
+  "drill_mm": 0.2,
+  "rows": [
+    {
+      "blockers": [
+        [
+          "3a2063fc-47da-489e-a21d-d5f0a4c45bbd",
+          "LPDDR4_CS0N_A",
+          "PCB_VIA"
+        ],
+        [
+          "44692cb5-3202-4a81-8e01-9300cacd1c23",
+          "LPDDR4_A1_A",
+          "PCB_TRACK"
+        ],
+        [
+          "da7ab833-d982-4c54-b5e3-186f966487f6",
+          "+1V1_LPDDR4",
+          "U2.H5"
+        ],
+        [
+          "fa8085bb-5b25-470b-b920-7b9a5fe730c9",
+          "LPDDR4_A1_A",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 1,
+      "examples": [
+        {
+          "at": [
+            28725000,
+            6725000
+          ],
+          "path": [
+            [
+              28725000,
+              6725000
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "3a2063fc-47da-489e-a21d-d5f0a4c45bbd",
+          "LPDDR4_CS0N_A",
+          "PCB_VIA"
+        ],
+        [
+          "44692cb5-3202-4a81-8e01-9300cacd1c23",
+          "LPDDR4_A1_A",
+          "PCB_TRACK"
+        ],
+        [
+          "8256d00f-1bb0-40b5-847b-e0d6322e2941",
+          "GND",
+          "PCB_TRACK"
+        ],
+        [
+          "da7ab833-d982-4c54-b5e3-186f966487f6",
+          "+1V1_LPDDR4",
+          "U2.H5"
+        ],
+        [
+          "fa8085bb-5b25-470b-b920-7b9a5fe730c9",
+          "LPDDR4_A1_A",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 13,
+      "examples": [
+        {
+          "at": [
+            28775000,
+            6750000
+          ],
+          "path": [
+            [
+              28775000,
+              6750000
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "3a2063fc-47da-489e-a21d-d5f0a4c45bbd",
+          "LPDDR4_CS0N_A",
+          "PCB_VIA"
+        ],
+        [
+          "44692cb5-3202-4a81-8e01-9300cacd1c23",
+          "LPDDR4_A1_A",
+          "PCB_TRACK"
+        ],
+        [
+          "61d77190-ed34-4485-8eec-de12d93d1f0d",
+          "LPDDR4_A1_A",
+          "PCB_TRACK"
+        ],
+        [
+          "da7ab833-d982-4c54-b5e3-186f966487f6",
+          "+1V1_LPDDR4",
+          "U2.H5"
+        ],
+        [
+          "fa8085bb-5b25-470b-b920-7b9a5fe730c9",
+          "LPDDR4_A1_A",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 12,
+      "examples": [
+        {
+          "at": [
+            28725000,
+            6675000
+          ],
+          "path": [
+            [
+              28725000,
+              6675000
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "44692cb5-3202-4a81-8e01-9300cacd1c23",
+          "LPDDR4_A1_A",
+          "PCB_TRACK"
+        ],
+        [
+          "4d3c1032-30cf-42fe-9e8d-0459e8151348",
+          "GND",
+          "C2304.2"
+        ],
+        [
+          "8256d00f-1bb0-40b5-847b-e0d6322e2941",
+          "GND",
+          "PCB_TRACK"
+        ],
+        [
+          "da7ab833-d982-4c54-b5e3-186f966487f6",
+          "+1V1_LPDDR4",
+          "U2.H5"
+        ],
+        [
+          "fa8085bb-5b25-470b-b920-7b9a5fe730c9",
+          "LPDDR4_A1_A",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 2,
+      "examples": [
+        {
+          "at": [
+            28850000,
+            6650000
+          ],
+          "path": [
+            [
+              28850000,
+              6650000
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "3a2063fc-47da-489e-a21d-d5f0a4c45bbd",
+          "LPDDR4_CS0N_A",
+          "PCB_VIA"
+        ],
+        [
+          "44692cb5-3202-4a81-8e01-9300cacd1c23",
+          "LPDDR4_A1_A",
+          "PCB_TRACK"
+        ],
+        [
+          "61d77190-ed34-4485-8eec-de12d93d1f0d",
+          "LPDDR4_A1_A",
+          "PCB_TRACK"
+        ],
+        [
+          "da7ab833-d982-4c54-b5e3-186f966487f6",
+          "+1V1_LPDDR4",
+          "U2.H5"
+        ],
+        [
+          "de1f2589-e423-4ce8-8fa2-be1c93484ced",
+          "GND",
+          "U2.G5"
+        ],
+        [
+          "fa8085bb-5b25-470b-b920-7b9a5fe730c9",
+          "LPDDR4_A1_A",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 6,
+      "examples": [
+        {
+          "at": [
+            28700000,
+            6625000
+          ],
+          "path": [
+            [
+              28700000,
+              6625000
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

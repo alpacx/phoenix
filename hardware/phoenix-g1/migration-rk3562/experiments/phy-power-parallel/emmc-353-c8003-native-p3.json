@@ -1,0 +1,77 @@
+{
+  "parent": "87cf66583251de1ada11bdf99725038420f3583644b0822482a18c0846dc1c10",
+  "board": "runs/emmc-c8003-local-p3/phy-joint.kicad_pcb",
+  "sha256": "ef2876801173664b1eb34f2cc09a744a696fabf1ca1f90e72ea1fba422afe28c",
+  "native": [
+    {
+      "score": 4.226557313738434,
+      "placed": [
+        36350000,
+        2875000
+      ],
+      "angle": 180,
+      "removed": [
+        "8948b8d7-a625-4e1b-a85a-ff08f6623c6f",
+        "9437b719-28c4-451f-9d5d-d07f52f48834",
+        "ca5ae2a8-63b9-4646-9e50-09e33e4e784c"
+      ],
+      "delta": [],
+      "joins": 353,
+      "lost": [],
+      "mech": [],
+      "legs": [
+        {
+          "name": "C8003.1",
+          "start": [
+            36830000,
+            2875000
+          ],
+          "end": [
+            36750000,
+            3875000
+          ],
+          "width_mm": 0.3,
+          "length_mm": 1.0031948963187562
+        },
+        {
+          "name": "C8003.2",
+          "start": [
+            35870000,
+            2875000
+          ],
+          "end": [
+            34950000,
+            3475000
+          ],
+          "width_mm": 0.3,
+          "length_mm": 1.0983624174196784
+        }
+      ],
+      "plane_samples": {
+        "C8003.1": {
+          "samples": 255,
+          "own_antipad": 104
+        },
+        "C8003.2": {
+          "samples": 279
+        }
+      },
+      "mask": {
+        "F.Cu": 0,
+        "B.Cu": 0
+      },
+      "reference_delta": {
+        "changed_via_centers_nm": [],
+        "samples_by_net_and_layer": {},
+        "sample_pitch_mm": 0.012,
+        "via_window_radius_mm": 1.0,
+        "scope": "Center and edges of unchanged straight copper only. Local ground-fill comparison; no field or impedance simulation."
+      },
+      "usable": true,
+      "new_ids": [
+        "06fd04cb-8c6f-4d51-9de8-dbb81acdc165",
+        "d2409daa-fb27-46c5-b437-887958a9ab1d"
+      ]
+    }
+  ]
+}

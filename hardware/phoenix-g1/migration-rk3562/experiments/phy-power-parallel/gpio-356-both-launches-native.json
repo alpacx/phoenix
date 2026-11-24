@@ -1,0 +1,134 @@
+{
+  "parent": "753618b21b24b208fea85ebe93c3e4bee001c67ef7c4bfc0f1c798da2f7f0e2d",
+  "board": "runs/exp-gpio3-matched-rail-access/phy-joint.kicad_pcb",
+  "sha256": "3a70b128132aacefef88e0c595b823ab333169d2cdd2ac12dccae6cfabea29b3",
+  "tests": [
+    {
+      "source": [
+        33450000,
+        18300000
+      ],
+      "target": [
+        68700000,
+        2755000
+      ],
+      "trace": [
+        "5c1db52d-b775-4cda-ab66-4f079a8460da",
+        "c27c12f3-f9e7-4487-9cdd-4eee9521f475",
+        "e61faa39-73cf-47b8-bbf5-852aef42426c",
+        "eb0ebbc7-696c-4bfe-bb75-0b14c2c63b9c",
+        "822f7b37-4b93-4c13-a109-a3a2683f8475",
+        "2f76157f-941a-43cb-85e3-62e95a8dc33d",
+        "9d2aa40c-b3b8-49d8-ad5d-12aed9aa7c04",
+        "d8149f89-8510-4e5d-b319-8ce70af5533f",
+        "c323eea1-d0f1-4512-a0d6-63cebef3d498",
+        "8113ec14-7a53-4017-8f4a-5cd65d87e6f0"
+      ],
+      "vias": [
+        "baf5cd47-dcd9-4159-bc3b-cc2dda2d9579",
+        "dc56356e-4f55-47e9-b00f-292d4d097aa2"
+      ],
+      "rerouted_rail": [
+        "80e45266-1204-4b5e-acd8-54c9321be760",
+        "9595d9d2-1965-4c71-9583-5600cb4e637e",
+        "e555f189-275b-4bd7-9f7c-2caa0e2efad1",
+        "093cd9d2-db7e-4560-ad74-2a7bab3cd5ca",
+        "a55632d7-fff6-4f69-b77f-055bc916494c"
+      ],
+      "pad_to_via": [
+        true,
+        true
+      ],
+      "new_drc": [
+        {
+          "type": "via_dangling",
+          "severity": "warning",
+          "items": [
+            "baf5cd47-dcd9-4159-bc3b-cc2dda2d9579"
+          ],
+          "count": 1
+        },
+        {
+          "type": "via_dangling",
+          "severity": "warning",
+          "items": [
+            "dc56356e-4f55-47e9-b00f-292d4d097aa2"
+          ],
+          "count": 1
+        }
+      ],
+      "mask": {
+        "F.Cu": 0,
+        "B.Cu": 0
+      },
+      "plane_delta": {
+        "changed_via_centers_nm": [
+          [
+            33450000,
+            18300000
+          ],
+          [
+            68700000,
+            2755000
+          ]
+        ],
+        "samples_by_net_and_layer": {
+          "+3V3_IO In2.Cu": {
+            "sampled": 43,
+            "lost": 0,
+            "gained": 0,
+            "lost_in_same_rail_antipad": 0,
+            "lost_examples": []
+          },
+          "EXP_GPIO0 F.Cu": {
+            "sampled": 69,
+            "lost": 0,
+            "gained": 0,
+            "lost_in_same_rail_antipad": 0,
+            "lost_examples": []
+          },
+          "EXP_GPIO0 In2.Cu": {
+            "sampled": 722,
+            "lost": 4,
+            "gained": 0,
+            "lost_in_same_rail_antipad": 0,
+            "lost_examples": [
+              {
+                "track": "7c1c8065-0dd2-4496-90cd-30a5e56af49b",
+                "point_nm": [
+                  68479044,
+                  2362377
+                ]
+              },
+              {
+                "track": "7c1c8065-0dd2-4496-90cd-30a5e56af49b",
+                "point_nm": [
+                  68487377,
+                  2354044
+                ]
+              },
+              {
+                "track": "8b359a72-676e-4cc5-a767-c39d6fd032dd",
+                "point_nm": [
+                  68480000,
+                  2350000
+                ]
+              },
+              {
+                "track": "8b359a72-676e-4cc5-a767-c39d6fd032dd",
+                "point_nm": [
+                  68490000,
+                  2350000
+                ]
+              }
+            ]
+          }
+        },
+        "sample_pitch_mm": 0.012,
+        "via_window_radius_mm": 1.0,
+        "scope": "Center and edges of unchanged straight copper only. Local ground-fill comparison; no field or impedance simulation."
+      },
+      "joins": 356
+    }
+  ]
+}

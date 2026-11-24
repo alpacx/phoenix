@@ -1,0 +1,139 @@
+{
+  "parent": "2fe2813697e3b0592397c59b14558cfec6d1af4ebe5c13aea3254863adfd6cc9",
+  "pcb": "runs/display-direct-flex-rear-coupon/phy-joint.kicad_pcb",
+  "sha256": "156f8d0a7b1b26340516afb57658c31655488111160c7d8d6b89a0d9ad5ba1b1",
+  "bank_mm": [
+    23.75,
+    35.25
+  ],
+  "terminals": {
+    "1": {
+      "net": "unconnected-(DS1-NC-Pad1)",
+      "pos": [
+        19550000,
+        35250000
+      ],
+      "rear": true,
+      "front": false
+    },
+    "2": {
+      "net": "unconnected-(DS1-NC-Pad2)",
+      "pos": [
+        20250000,
+        35250000
+      ],
+      "rear": true,
+      "front": false
+    },
+    "3": {
+      "net": "LCD_DIN_3V",
+      "pos": [
+        20950000,
+        35250000
+      ],
+      "rear": true,
+      "front": false
+    },
+    "4": {
+      "net": "LCD_CLK_3V",
+      "pos": [
+        21650000,
+        35250000
+      ],
+      "rear": true,
+      "front": false
+    },
+    "5": {
+      "net": "LCD_DC_3V",
+      "pos": [
+        22350000,
+        35250000
+      ],
+      "rear": true,
+      "front": false
+    },
+    "6": {
+      "net": "LCD_RST_3V",
+      "pos": [
+        23050000,
+        35250000
+      ],
+      "rear": true,
+      "front": false
+    },
+    "7": {
+      "net": "LCD_CS_3V",
+      "pos": [
+        23750000,
+        35250000
+      ],
+      "rear": true,
+      "front": false
+    },
+    "8": {
+      "net": "GND",
+      "pos": [
+        24450000,
+        35250000
+      ],
+      "rear": true,
+      "front": false
+    },
+    "9": {
+      "net": "unconnected-(DS1-NC-Pad9)",
+      "pos": [
+        25150000,
+        35250000
+      ],
+      "rear": true,
+      "front": false
+    },
+    "10": {
+      "net": "+3V0_LCD",
+      "pos": [
+        25850000,
+        35250000
+      ],
+      "rear": true,
+      "front": false
+    },
+    "11": {
+      "net": "LCD_LEDK",
+      "pos": [
+        26550000,
+        35250000
+      ],
+      "rear": true,
+      "front": false
+    },
+    "12": {
+      "net": "LCD_LEDA",
+      "pos": [
+        27250000,
+        35250000
+      ],
+      "rear": true,
+      "front": false
+    },
+    "13": {
+      "net": "GND",
+      "pos": [
+        27950000,
+        35250000
+      ],
+      "rear": true,
+      "front": false
+    }
+  },
+  "new_drc": [],
+  "remaining_joins": 361,
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 8073,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 0,
+    "existing_connected_pad_groups_preserved": 127
+  },
+  "mechanical_only": true,
+  "limits": "Bank geometry on the bottom, panel faces up only if flex can wrap around south edge; bend, support, tool and adhesive not qualified. No schematic adoption or display connection implied."
+}

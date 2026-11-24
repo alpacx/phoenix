@@ -1,0 +1,71 @@
+{
+  "parent": "6884bdd5b1ed3a954d6c7eaf9fc36ab1feffa303d78c1e5f06b1d1d35a040aae",
+  "grid_mm": 0.05,
+  "width_mm": 0.2,
+  "copper_clearance_mm": 0.2,
+  "hole_clearance_mm": 0.25,
+  "via_od_drill_mm": [
+    0.45,
+    0.2
+  ],
+  "raster_margin_mm": 0.012,
+  "allowed_layers": [
+    0,
+    6,
+    8,
+    2
+  ],
+  "results": [
+    {
+      "net": "PHY_CFG_LDO0",
+      "islands": [
+        {
+          "pads": [
+            "R528.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U5.33"
+          ],
+          "launch_components": 4,
+          "connected_regions": 3
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "net": "PHY_CFG_LDO1",
+      "islands": [
+        {
+          "pads": [
+            "R529.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U5.34"
+          ],
+          "launch_components": 5,
+          "connected_regions": 2
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  ],
+  "scope": "Four copper routing layers joined only at qualified through-via sites with foreign-copper and hole clearances, keepouts and off-pad rings. Fans may terminate on previously attached same-net copper. CAD reload required for every positive route; a negative remains limited to this geometry."
+}

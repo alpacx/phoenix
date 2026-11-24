@@ -1,0 +1,506 @@
+{
+  "parent": "aac67c8eea896e6adbe79f57b1ac5eb36a6296a27941590ffd9226ebe807197b",
+  "grid_um": 12.5,
+  "diameter_drill_mm": [
+    0.45,
+    0.2
+  ],
+  "cases": [
+    {
+      "pin": "T10",
+      "land_width_mm": 0.3,
+      "mask_width_mm": 0.3,
+      "count": 790,
+      "best": [
+        {
+          "obstructions": [
+            {
+              "id": "ff4ac597-c339-4f2c-96ca-26c9b029a94e",
+              "net": "+1V8_SYS",
+              "type": "PAD",
+              "pin": "U2.T9"
+            }
+          ],
+          "site": [
+            32150000,
+            11762500
+          ],
+          "hole_to_nominal_mask_mm": 0.419982,
+          "pad_center_mm": 0.6700046641628697,
+          "path": [
+            [
+              32800000,
+              11925000
+            ],
+            [
+              32637500,
+              11762500
+            ],
+            [
+              32150000,
+              11762500
+            ]
+          ]
+        },
+        {
+          "obstructions": [
+            {
+              "id": "ff4ac597-c339-4f2c-96ca-26c9b029a94e",
+              "net": "+1V8_SYS",
+              "type": "PAD",
+              "pin": "U2.T9"
+            }
+          ],
+          "site": [
+            32150000,
+            11775000
+          ],
+          "hole_to_nominal_mask_mm": 0.417052,
+          "pad_center_mm": 0.6670832032063168,
+          "path": [
+            [
+              32800000,
+              11925000
+            ],
+            [
+              32650000,
+              11775000
+            ],
+            [
+              32150000,
+              11775000
+            ]
+          ]
+        }
+      ],
+      "representatives": {
+        "ff4ac597-c339-4f2c-96ca-26c9b029a94e": {
+          "obstructions": [
+            {
+              "id": "ff4ac597-c339-4f2c-96ca-26c9b029a94e",
+              "net": "+1V8_SYS",
+              "type": "PAD",
+              "pin": "U2.T9"
+            }
+          ],
+          "site": [
+            32150000,
+            11762500
+          ],
+          "hole_to_nominal_mask_mm": 0.419982,
+          "pad_center_mm": 0.6700046641628697,
+          "path": [
+            [
+              32800000,
+              11925000
+            ],
+            [
+              32637500,
+              11762500
+            ],
+            [
+              32150000,
+              11762500
+            ]
+          ]
+        },
+        "893e2b2c-dd06-4041-8f1a-a803745b7e7a": {
+          "obstructions": [
+            {
+              "id": "893e2b2c-dd06-4041-8f1a-a803745b7e7a",
+              "net": "+1V1_LPDDR4",
+              "type": "PAD",
+              "pin": "U2.U10"
+            }
+          ],
+          "site": [
+            32450000,
+            12325000
+          ],
+          "hole_to_nominal_mask_mm": 0.281494,
+          "pad_center_mm": 0.5315072906367325,
+          "path": [
+            [
+              32800000,
+              11925000
+            ],
+            [
+              32450000,
+              12275000
+            ],
+            [
+              32450000,
+              12325000
+            ]
+          ]
+        },
+        "bfb50084-0df2-4267-abc2-5837e42b4452": {
+          "obstructions": [
+            {
+              "id": "bfb50084-0df2-4267-abc2-5837e42b4452",
+              "net": "LPDDR4_A3_B",
+              "type": "PAD",
+              "pin": "U2.R10"
+            }
+          ],
+          "site": [
+            32450000,
+            11525000
+          ],
+          "hole_to_nominal_mask_mm": 0.281494,
+          "pad_center_mm": 0.5315072906367325,
+          "path": [
+            [
+              32800000,
+              11925000
+            ],
+            [
+              32450000,
+              11575000
+            ],
+            [
+              32450000,
+              11525000
+            ]
+          ]
+        }
+      },
+      "obstacle_inventory": {
+        "ff4ac597-c339-4f2c-96ca-26c9b029a94e": 702,
+        "bfb50084-0df2-4267-abc2-5837e42b4452": 26,
+        "893e2b2c-dd06-4041-8f1a-a803745b7e7a": 62
+      }
+    },
+    {
+      "pin": "T3",
+      "land_width_mm": 0.3,
+      "mask_width_mm": 0.3,
+      "count": 1341,
+      "best": [
+        {
+          "obstructions": [
+            {
+              "id": "a7007f50-4380-4acf-b4c5-9fcb18b50683",
+              "net": "",
+              "type": "PAD",
+              "pin": "U2.R3"
+            }
+          ],
+          "site": [
+            27487500,
+            11275000
+          ],
+          "hole_to_nominal_mask_mm": 0.460692,
+          "pad_center_mm": 0.7107434487914749,
+          "path": [
+            [
+              27200000,
+              11925000
+            ],
+            [
+              27487500,
+              11637500
+            ],
+            [
+              27487500,
+              11275000
+            ]
+          ]
+        },
+        {
+          "obstructions": [
+            {
+              "id": "a7007f50-4380-4acf-b4c5-9fcb18b50683",
+              "net": "",
+              "type": "PAD",
+              "pin": "U2.R3"
+            }
+          ],
+          "site": [
+            27475000,
+            11275000
+          ],
+          "hole_to_nominal_mask_mm": 0.455749,
+          "pad_center_mm": 0.7057797106746553,
+          "path": [
+            [
+              27200000,
+              11925000
+            ],
+            [
+              27475000,
+              11650000
+            ],
+            [
+              27475000,
+              11275000
+            ]
+          ]
+        }
+      ],
+      "representatives": {
+        "2d28ed20-6454-4c4f-9cdb-23441dd7d909": {
+          "obstructions": [
+            {
+              "id": "2d28ed20-6454-4c4f-9cdb-23441dd7d909",
+              "net": "+1V8_SYS",
+              "type": "PAD",
+              "pin": "U2.T4"
+            }
+          ],
+          "site": [
+            27850000,
+            11762500
+          ],
+          "hole_to_nominal_mask_mm": 0.419982,
+          "pad_center_mm": 0.6700046641628697,
+          "path": [
+            [
+              27200000,
+              11925000
+            ],
+            [
+              27362500,
+              11762500
+            ],
+            [
+              27850000,
+              11762500
+            ]
+          ]
+        },
+        "a7007f50-4380-4acf-b4c5-9fcb18b50683": {
+          "obstructions": [
+            {
+              "id": "a7007f50-4380-4acf-b4c5-9fcb18b50683",
+              "net": "",
+              "type": "PAD",
+              "pin": "U2.R3"
+            }
+          ],
+          "site": [
+            27487500,
+            11275000
+          ],
+          "hole_to_nominal_mask_mm": 0.460692,
+          "pad_center_mm": 0.7107434487914749,
+          "path": [
+            [
+              27200000,
+              11925000
+            ],
+            [
+              27487500,
+              11637500
+            ],
+            [
+              27487500,
+              11275000
+            ]
+          ]
+        },
+        "39cce7ea-2746-4a93-9dbb-cc9a9cbb52c1": {
+          "obstructions": [
+            {
+              "id": "39cce7ea-2746-4a93-9dbb-cc9a9cbb52c1",
+              "net": "+1V1_LPDDR4",
+              "type": "PAD",
+              "pin": "U2.U3"
+            }
+          ],
+          "site": [
+            27550000,
+            12325000
+          ],
+          "hole_to_nominal_mask_mm": 0.281494,
+          "pad_center_mm": 0.5315072906367325,
+          "path": [
+            [
+              27200000,
+              11925000
+            ],
+            [
+              27550000,
+              12275000
+            ],
+            [
+              27550000,
+              12325000
+            ]
+          ]
+        }
+      },
+      "obstacle_inventory": {
+        "a7007f50-4380-4acf-b4c5-9fcb18b50683": 619,
+        "2d28ed20-6454-4c4f-9cdb-23441dd7d909": 660,
+        "39cce7ea-2746-4a93-9dbb-cc9a9cbb52c1": 62
+      }
+    },
+    {
+      "pin": "G3",
+      "land_width_mm": 0.3,
+      "mask_width_mm": 0.3,
+      "count": 932,
+      "best": [
+        {
+          "obstructions": [
+            {
+              "id": "ad9e54e4-db68-488f-80d6-79745cbbe602",
+              "net": "+1V8_SYS",
+              "type": "PAD",
+              "pin": "U2.G4"
+            }
+          ],
+          "site": [
+            27850000,
+            5925000
+          ],
+          "hole_to_nominal_mask_mm": 0.417052,
+          "pad_center_mm": 0.6670832032063168,
+          "path": [
+            [
+              27200000,
+              6075000
+            ],
+            [
+              27350000,
+              5925000
+            ],
+            [
+              27850000,
+              5925000
+            ]
+          ]
+        },
+        {
+          "obstructions": [
+            {
+              "id": "ad9e54e4-db68-488f-80d6-79745cbbe602",
+              "net": "+1V8_SYS",
+              "type": "PAD",
+              "pin": "U2.G4"
+            }
+          ],
+          "site": [
+            27850000,
+            5937500
+          ],
+          "hole_to_nominal_mask_mm": 0.414367,
+          "pad_center_mm": 0.6643841132959155,
+          "path": [
+            [
+              27200000,
+              6075000
+            ],
+            [
+              27337500,
+              5937500
+            ],
+            [
+              27850000,
+              5937500
+            ]
+          ]
+        }
+      ],
+      "representatives": {
+        "ad9e54e4-db68-488f-80d6-79745cbbe602": {
+          "obstructions": [
+            {
+              "id": "ad9e54e4-db68-488f-80d6-79745cbbe602",
+              "net": "+1V8_SYS",
+              "type": "PAD",
+              "pin": "U2.G4"
+            }
+          ],
+          "site": [
+            27850000,
+            5925000
+          ],
+          "hole_to_nominal_mask_mm": 0.417052,
+          "pad_center_mm": 0.6670832032063168,
+          "path": [
+            [
+              27200000,
+              6075000
+            ],
+            [
+              27350000,
+              5925000
+            ],
+            [
+              27850000,
+              5925000
+            ]
+          ]
+        },
+        "feeee3ac-d158-4a4c-9fb1-28202953d930": {
+          "obstructions": [
+            {
+              "id": "feeee3ac-d158-4a4c-9fb1-28202953d930",
+              "net": "",
+              "type": "PAD",
+              "pin": "U2.H3"
+            }
+          ],
+          "site": [
+            27262500,
+            6687500
+          ],
+          "hole_to_nominal_mask_mm": 0.365661,
+          "pad_center_mm": 0.6156805178012376,
+          "path": [
+            [
+              27200000,
+              6075000
+            ],
+            [
+              27262500,
+              6137500
+            ],
+            [
+              27262500,
+              6687500
+            ]
+          ]
+        },
+        "eee90ac6-8ba8-4a24-b2a2-2dbf57261966": {
+          "obstructions": [
+            {
+              "id": "eee90ac6-8ba8-4a24-b2a2-2dbf57261966",
+              "net": "+1V1_LPDDR4",
+              "type": "PAD",
+              "pin": "U2.F3"
+            }
+          ],
+          "site": [
+            27550000,
+            5675000
+          ],
+          "hole_to_nominal_mask_mm": 0.281494,
+          "pad_center_mm": 0.5315072906367325,
+          "path": [
+            [
+              27200000,
+              6075000
+            ],
+            [
+              27550000,
+              5725000
+            ],
+            [
+              27550000,
+              5675000
+            ]
+          ]
+        }
+      },
+      "obstacle_inventory": {
+        "ad9e54e4-db68-488f-80d6-79745cbbe602": 535,
+        "feeee3ac-d158-4a4c-9fb1-28202953d930": 335,
+        "eee90ac6-8ba8-4a24-b2a2-2dbf57261966": 62
+      }
+    }
+  ],
+  "status": "CAD only: best nominal drill to actual KiCad opening. No change to board or board purchase specifications."
+}

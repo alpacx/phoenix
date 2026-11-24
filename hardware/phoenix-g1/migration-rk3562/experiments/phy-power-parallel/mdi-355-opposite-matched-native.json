@@ -1,0 +1,46 @@
+{
+  "parent_sha256": "572d6ba53bb0abb0c7e86dd2c158361c9c12bd9cfcacd297c1c752aa674aea3d",
+  "experiments": [
+    {
+      "failed_pairs": [],
+      "joins": 355,
+      "delta": [],
+      "mask_regressions": {
+        "F.Cu": 0,
+        "B.Cu": 0
+      },
+      "new_terminal_segments": [
+        "ab246297-0d18-414f-8035-a14c9e208222",
+        "7647381a-3513-4ca7-bd97-abed36b15a0a",
+        "dab9b5ad-871d-4958-a128-bd9aa72463c2"
+      ],
+      "candidate": {
+        "path": [
+          [
+            71558371,
+            15241629
+          ],
+          [
+            73026833,
+            15492830
+          ],
+          [
+            73343485,
+            16124179
+          ],
+          [
+            72350000,
+            16820000
+          ]
+        ],
+        "skew_mm": 0.0027385882930257358,
+        "turn_deg": [
+          53.65673934318848,
+          81.62919101607801
+        ],
+        "new_terminal_mm": 3.409021940227527,
+        "spread_mm": 1.2
+      }
+    }
+  ]
+}

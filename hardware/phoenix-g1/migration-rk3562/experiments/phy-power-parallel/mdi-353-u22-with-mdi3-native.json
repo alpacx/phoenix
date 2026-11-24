@@ -1,0 +1,84 @@
+{
+  "parent_sha256": "44c36cd60476f4dfe61c4f2e6a11dcf7e03b480b4b902420eee39cd6260850b3",
+  "trials": [
+    {
+      "option": 0,
+      "joins": 353,
+      "delta": [
+        {
+          "type": "via_dangling",
+          "severity": "warning",
+          "items": [
+            "7fa7b45f-7129-43b7-a338-4732708bd486"
+          ],
+          "count": 1
+        },
+        {
+          "type": "via_dangling",
+          "severity": "warning",
+          "items": [
+            "3a24954f-8388-4c6d-8266-52fc0b84781f"
+          ],
+          "count": 1
+        }
+      ],
+      "lost": [],
+      "added": [
+        {
+          "pin": "2",
+          "net": "ETH_MDI1_P",
+          "tracks": [
+            "a0d1b914-49c4-4c6c-be67-a934e89715d7",
+            "85d4ec16-d341-44e2-a492-72bf47c67341",
+            "ef8f5abc-48d7-4fc9-80c9-e2883d7641d1"
+          ],
+          "via": null
+        },
+        {
+          "pin": "1",
+          "net": "ETH_MDI1_N",
+          "tracks": [
+            "a8cc98d1-edb2-42cb-83d3-e3639e70207b",
+            "79e6fd16-d38b-4c73-8902-b5060cc0be3a",
+            "e020aca2-8340-469f-b453-5cfcfd1795b8"
+          ],
+          "via": null
+        },
+        {
+          "pin": "4",
+          "net": "ETH_MDI0_P",
+          "tracks": [
+            "5e895add-7f8f-4397-8302-30c5fa3e7ce3",
+            "89c6eb06-1f23-48fe-bb7f-64c52001e572"
+          ],
+          "via": "7fa7b45f-7129-43b7-a338-4732708bd486"
+        },
+        {
+          "pin": "5",
+          "net": "ETH_MDI0_N",
+          "tracks": [
+            "6e65237b-165e-42d7-89d5-e35f371ac53d"
+          ],
+          "via": "3a24954f-8388-4c6d-8266-52fc0b84781f"
+        },
+        {
+          "pin": "3",
+          "net": "GND",
+          "tracks": [
+            "9a2bbbde-1d15-4e1f-bc64-ec808c605be9",
+            "a440c801-4e5d-49d8-9b07-5df2b0c722c5"
+          ],
+          "via": "3d976643-33f0-4206-819e-636ad08454a7"
+        },
+        {
+          "pin": "8",
+          "net": "GND",
+          "tracks": [
+            "b243f5a6-6d28-452b-a78a-d17bc3cfabca"
+          ],
+          "via": null
+        }
+      ]
+    }
+  ]
+}

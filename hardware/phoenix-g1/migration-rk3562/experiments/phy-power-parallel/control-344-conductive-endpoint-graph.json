@@ -1,0 +1,496 @@
+{
+  "parent": "2e1fb9239839c738e589cebdfdeb759e05cdf1fa563a0bad3fada5a2580afcc9",
+  "grid_mm": 0.05,
+  "width_mm": 0.2,
+  "copper_clearance_mm": 0.2,
+  "hole_clearance_mm": 0.25,
+  "via_od_drill_mm": [
+    0.45,
+    0.2
+  ],
+  "raster_margin_mm": 0.012,
+  "allowed_layers": [
+    0,
+    6,
+    8,
+    2
+  ],
+  "results": [
+    {
+      "net": "EXP_UART_TX",
+      "islands": [
+        {
+          "pads": [
+            "J3.25"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U1.Y26"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "EXP_UART_RX",
+      "islands": [
+        {
+          "pads": [
+            "J3.26"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U1.Y25"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "EXP_GPIO2",
+      "islands": [
+        {
+          "pads": [
+            "J3.29"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U1.K3"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "EXP_GPIO3",
+      "islands": [
+        {
+          "pads": [
+            "J3.30"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U1.L2"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "EXP_SPI_MISO",
+      "islands": [
+        {
+          "pads": [
+            "J3.33"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U1.AE18"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "EXP_SPI_CS1_N",
+      "islands": [
+        {
+          "pads": [
+            "J3.35"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U1.AF15"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "R2104.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "DEBUG_TX",
+      "islands": [
+        {
+          "pads": [
+            "U1.AE20"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "TP12.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "DEBUG_RX",
+      "islands": [
+        {
+          "pads": [
+            "U1.AF20"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "TP11.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "ETH_RESET_GPIO_N",
+      "islands": [
+        {
+          "pads": [
+            "R515.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.T2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LCD_RESET_N",
+      "islands": [
+        {
+          "pads": [
+            "R1814.1",
+            "U21.5"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.N2"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "PMIC_INT_N",
+      "islands": [
+        {
+          "pads": [
+            "R413.2",
+            "U1.AF22"
+          ],
+          "launch_components": 12,
+          "connected_regions": 7
+        },
+        {
+          "pads": [
+            "U4.7"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "THERMAL_SHUTDOWN",
+      "islands": [
+        {
+          "pads": [
+            "U1.1R13"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "R1507.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "SOC_VBUS_DET",
+      "islands": [
+        {
+          "pads": [
+            "C1503.1",
+            "R1505.2",
+            "R1506.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.1P14"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "WIFI_REG_ON",
+      "islands": [
+        {
+          "pads": [
+            "R2002.1",
+            "U25.12"
+          ],
+          "launch_components": 12,
+          "connected_regions": 7
+        },
+        {
+          "pads": [
+            "U1.1J14"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "RECOVERY_ADC",
+      "islands": [
+        {
+          "pads": [
+            "U1.D26"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "R1504.1",
+            "TP10.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "RESET_N",
+      "islands": [
+        {
+          "pads": [
+            "C411.1",
+            "R1103.1",
+            "R1507.2",
+            "R412.2",
+            "TP9.1",
+            "U16.2"
+          ],
+          "launch_components": 20,
+          "connected_regions": 6
+        },
+        {
+          "pads": [
+            "U1.1P12"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U4.67"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "PMIC_SLEEP",
+      "islands": [
+        {
+          "pads": [
+            "U1.AF23"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U10.A1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U4.49"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "I2C0_SDA",
+      "islands": [
+        {
+          "pads": [
+            "R415.1",
+            "R417.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.AE23"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U10.B1"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "I2C0_SCL",
+      "islands": [
+        {
+          "pads": [
+            "R414.1",
+            "R416.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.AG23"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U10.A3"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "ETH_MDIO",
+      "islands": [
+        {
+          "pads": [
+            "R514.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.AC2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U5.14"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "ETH_MDC",
+      "islands": [
+        {
+          "pads": [
+            "U1.AC1"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U5.13"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    }
+  ],
+  "scope": "Four copper routing layers joined only at qualified through-via sites with foreign-copper and hole clearances, keepouts and off-pad rings. Fans may terminate on previously attached same-net copper. CAD reload required for every positive route; a negative remains limited to this geometry."
+}

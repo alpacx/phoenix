@@ -1,0 +1,84 @@
+{
+  "sha256": "4977fc7382da95e47c256aa2cc2b0b2635c773a8cad6d42c8bc3bc59f49afe94",
+  "projected_centreline_length_mm": {
+    "ETH_MDI0_P In2.Cu / EXP_I2C_SDA / 60\u201390\u00b0": 0.21367319866484047,
+    "ETH_MDI0_P In2.Cu / ETH_MDI0_P / 0\u201330\u00b0": 0.11815789035285121,
+    "ETH_MDI0_P In3.Cu / +3V3_PMU / 60\u201390\u00b0": 0.25856149380935817,
+    "ETH_MDI0_P In3.Cu / ETH_MDI0_P / 0\u201330\u00b0": 0.11755302866154586,
+    "ETH_MDI0_N In2.Cu / EXP_I2C_SDA / 60\u201390\u00b0": 0.19424836242258225,
+    "ETH_MDI0_N In2.Cu / ETH_MDI0_N / 30\u201360\u00b0": 0.11669675853144149,
+    "ETH_MDI0_N In2.Cu / WIFI_REG_ON / 60\u201390\u00b0": 0.19946223109193864,
+    "ETH_MDI0_N In3.Cu / +3V3_PMU / 60\u201390\u00b0": 0.25959930508631207,
+    "ETH_MDI0_N In3.Cu / ETH_MDI0_N / 30\u201360\u00b0": 0.11843559861266287
+  },
+  "sampled": {
+    "ETH_MDI0_P B.Cu": {
+      "samples": 126,
+      "foreign_void": 0,
+      "terminal_void": 64,
+      "opposite_overlap_samples": 0,
+      "planar_length_mm": 0.8139410298049853
+    },
+    "ETH_MDI0_P In2.Cu": {
+      "samples": 819,
+      "foreign_void": 0,
+      "terminal_void": 223,
+      "opposite_overlap_samples": 39,
+      "planar_length_mm": 5.25712783407141
+    },
+    "ETH_MDI0_P In3.Cu": {
+      "samples": 675,
+      "foreign_void": 0,
+      "terminal_void": 130,
+      "opposite_overlap_samples": 46,
+      "planar_length_mm": 4.34313731200404
+    },
+    "ETH_MDI0_N B.Cu": {
+      "samples": 147,
+      "foreign_void": 0,
+      "terminal_void": 66,
+      "opposite_overlap_samples": 0,
+      "planar_length_mm": 0.9156854249492381
+    },
+    "ETH_MDI0_N In2.Cu": {
+      "samples": 891,
+      "foreign_void": 0,
+      "terminal_void": 215,
+      "opposite_overlap_samples": 70,
+      "planar_length_mm": 5.794608314885354
+    },
+    "ETH_MDI0_N In3.Cu": {
+      "samples": 576,
+      "foreign_void": 0,
+      "terminal_void": 129,
+      "opposite_overlap_samples": 46,
+      "planar_length_mm": 3.703623363514707
+    },
+    "ETH_MDI1_P B.Cu": {
+      "samples": 804,
+      "foreign_void": 0,
+      "terminal_void": 147,
+      "opposite_overlap_samples": 0,
+      "planar_length_mm": 5.23951483075786
+    },
+    "ETH_MDI1_N B.Cu": {
+      "samples": 792,
+      "foreign_void": 0,
+      "terminal_void": 147,
+      "opposite_overlap_samples": 0,
+      "planar_length_mm": 5.24
+    }
+  },
+  "examples": {},
+  "opposite_layer_counts": {
+    "ETH_MDI0_P In2.Cu / EXP_I2C_SDA": 31,
+    "ETH_MDI0_P In2.Cu / ETH_MDI0_P": 8,
+    "ETH_MDI0_P In3.Cu / +3V3_PMU": 38,
+    "ETH_MDI0_P In3.Cu / ETH_MDI0_P": 8,
+    "ETH_MDI0_N In2.Cu / EXP_I2C_SDA": 31,
+    "ETH_MDI0_N In2.Cu / ETH_MDI0_N": 9,
+    "ETH_MDI0_N In2.Cu / WIFI_REG_ON": 30,
+    "ETH_MDI0_N In3.Cu / +3V3_PMU": 37,
+    "ETH_MDI0_N In3.Cu / ETH_MDI0_N": 9
+  }
+}

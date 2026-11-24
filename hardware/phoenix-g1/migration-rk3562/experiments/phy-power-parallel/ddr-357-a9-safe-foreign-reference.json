@@ -1,0 +1,72 @@
+{
+  "changed_via_centers_nm": [
+    [
+      29450000,
+      925000
+    ]
+  ],
+  "samples_by_net_and_layer": {
+    "+1V1_LPDDR4 In2.Cu": {
+      "sampled": 816,
+      "lost": 112,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 112,
+      "lost_examples": [
+        {
+          "track": "1291d7f4-1cb5-4944-ba4a-b16fd13c3cfa",
+          "point_nm": [
+            29030508,
+            876955
+          ]
+        },
+        {
+          "track": "1291d7f4-1cb5-4944-ba4a-b16fd13c3cfa",
+          "point_nm": [
+            29038966,
+            885412
+          ]
+        },
+        {
+          "track": "1291d7f4-1cb5-4944-ba4a-b16fd13c3cfa",
+          "point_nm": [
+            29047423,
+            893870
+          ]
+        },
+        {
+          "track": "1291d7f4-1cb5-4944-ba4a-b16fd13c3cfa",
+          "point_nm": [
+            29055881,
+            902328
+          ]
+        },
+        {
+          "track": "1291d7f4-1cb5-4944-ba4a-b16fd13c3cfa",
+          "point_nm": [
+            29064339,
+            910785
+          ]
+        }
+      ]
+    },
+    "+1V8_SYS B.Cu": {
+      "sampled": 79,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "LPDDR4_ZQ_240R F.Cu": {
+      "sampled": 280,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    }
+  },
+  "sample_pitch_mm": 0.012,
+  "via_window_radius_mm": 1.0,
+  "scope": "Center and edges of unchanged straight copper only. Local ground-fill comparison; no field or impedance simulation.",
+  "previous_sha256": "db86fd8281e8e116e73c4e0bd25ab4d30a2783e1abc3462f3223636e8ec0a166",
+  "current_sha256": "7e25a94af93e31125a757fec65a174448b3e17a239aedadceabd7a1c1e55b238"
+}

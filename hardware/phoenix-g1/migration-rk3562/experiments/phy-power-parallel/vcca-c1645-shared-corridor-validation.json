@@ -1,0 +1,55 @@
+{
+  "parent_sha256": "e02bfeef7e6ff15d302760261b84966c6c6a290fc7d527d4f2852c69c612795c",
+  "sha256": "67a90c6a611d604139d6d2fb50a779eb44a67320421c26957c72bf586c6bd961",
+  "native_pairs": 777,
+  "io_rail_connected_pads": 29,
+  "ground_pin_to_barrel_mm": 3.232492174478624,
+  "pad_mask_conflicts": {
+    "front": 209,
+    "back": 0
+  },
+  "surface_plane_samples": [
+    {
+      "net": "GND",
+      "surface": "B.Cu",
+      "length_mm": 2.041378593622457,
+      "backed": 414,
+      "new_via_antipad_window": 0,
+      "other_void": 0
+    },
+    {
+      "net": "VCCA_1V8",
+      "surface": "F.Cu",
+      "length_mm": 0.3,
+      "backed": 0,
+      "new_via_antipad_window": 63,
+      "other_void": 0
+    },
+    {
+      "net": "VCCA_1V8",
+      "surface": "B.Cu",
+      "length_mm": 0.6506919393998976,
+      "backed": 51,
+      "new_via_antipad_window": 84,
+      "other_void": 0
+    }
+  ],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 7724,
+    "explicitly_replaced_copper": {
+      "e005d37e-27fa-41b7-9868-b245c69ee3ec": [
+        "+3V3_IO",
+        6,
+        28300000,
+        30250000,
+        59200000,
+        10650000,
+        200000,
+        null
+      ]
+    },
+    "added_tracks_vias": 8,
+    "existing_connected_pad_groups_preserved": 125
+  }
+}

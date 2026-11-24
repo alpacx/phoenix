@@ -1,0 +1,132 @@
+{
+  "parent_sha256": "7a3f16fdacf133d7feb8d214cbd63f058de083afc0e95566a30400f5b5290b5a",
+  "radius_mm": 0.225,
+  "drill_mm": 0.2,
+  "rows": [
+    {
+      "blockers": [
+        [
+          "14e132f8-3026-4e06-a1d4-08232f207b4f",
+          "+3V3_IO",
+          "C1683.1"
+        ]
+      ],
+      "sites": 1,
+      "examples": [
+        {
+          "at": [
+            33600000,
+            29000000
+          ],
+          "path": []
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "14e132f8-3026-4e06-a1d4-08232f207b4f",
+          "+3V3_IO",
+          "C1683.1"
+        ],
+        [
+          "1b88bece-c8b2-48e8-a828-51522237dd9f",
+          "+1V1_LPDDR4",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 18,
+      "examples": [
+        {
+          "at": [
+            33400000,
+            28700000
+          ],
+          "path": []
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "1b88bece-c8b2-48e8-a828-51522237dd9f",
+          "+1V1_LPDDR4",
+          "PCB_TRACK"
+        ],
+        [
+          "59c0dbe3-ddbe-413e-aea2-58d50582f188",
+          "+1V1_LPDDR4",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 15,
+      "examples": [
+        {
+          "at": [
+            34100000,
+            28300000
+          ],
+          "path": []
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "14e132f8-3026-4e06-a1d4-08232f207b4f",
+          "+3V3_IO",
+          "C1683.1"
+        ],
+        [
+          "1b88bece-c8b2-48e8-a828-51522237dd9f",
+          "+1V1_LPDDR4",
+          "PCB_TRACK"
+        ],
+        [
+          "ba05ce16-bc96-4942-8570-bb61b3795f38",
+          "+1V1_LPDDR4",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 11,
+      "examples": [
+        {
+          "at": [
+            33400000,
+            28500000
+          ],
+          "path": []
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "14e132f8-3026-4e06-a1d4-08232f207b4f",
+          "+3V3_IO",
+          "C1683.1"
+        ],
+        [
+          "1b88bece-c8b2-48e8-a828-51522237dd9f",
+          "+1V1_LPDDR4",
+          "PCB_TRACK"
+        ],
+        [
+          "59c0dbe3-ddbe-413e-aea2-58d50582f188",
+          "+1V1_LPDDR4",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 3,
+      "examples": [
+        {
+          "at": [
+            34000000,
+            28300000
+          ],
+          "path": []
+        }
+      ]
+    }
+  ]
+}

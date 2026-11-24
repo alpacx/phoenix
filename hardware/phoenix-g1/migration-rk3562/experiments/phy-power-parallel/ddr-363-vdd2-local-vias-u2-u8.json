@@ -1,0 +1,56 @@
+{
+  "parent_sha256": "3024a17671425b5ea2890347ac79c904cfc7853455dc5076113167edb7d8fe36",
+  "radius_mm": 0.225,
+  "drill_mm": 0.2,
+  "rows": [
+    {
+      "blockers": [
+        [
+          "0f67d6b0-1283-4386-b811-b62392c16220",
+          "GND",
+          "PCB_VIA"
+        ],
+        [
+          "47616d2e-64f8-45d6-9236-3257ea5d0191",
+          "GND",
+          "PCB_TRACK"
+        ],
+        [
+          "6cf21eec-f4b9-47f7-8f7c-f3a03cf56249",
+          "LPDDR4_DQ13_B",
+          "PCB_VIA"
+        ],
+        [
+          "abc59724-992d-4a33-a886-cadd03bb332b",
+          "GND",
+          "PCB_TRACK"
+        ],
+        [
+          "b36f0a4a-de92-4d66-9b6f-30c26cd5231b",
+          "+1V1_LPDDR4",
+          "U2.U8"
+        ],
+        [
+          "d940b99d-dfd8-4fcb-9e71-8e692010e184",
+          "LPDDR4_DQ12_B",
+          "PCB_VIA"
+        ]
+      ],
+      "sites": 1,
+      "examples": [
+        {
+          "at": [
+            31200000,
+            12575000
+          ],
+          "path": [
+            [
+              31200000,
+              12575000
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

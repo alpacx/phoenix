@@ -1,0 +1,60 @@
+{
+  "sha256": "c32e6649beb68fd3b3e0183566fd673ddc7d2a2278fe3612161c78a2cd44bd87",
+  "sampled": {
+    "ETH_MDI3_P B.Cu": {
+      "samples": 255,
+      "foreign_void": 0,
+      "terminal_void": 64,
+      "opposite_overlap_samples": 0,
+      "planar_length_mm": 1.6414213562373094
+    },
+    "ETH_MDI3_P In3.Cu": {
+      "samples": 939,
+      "foreign_void": 0,
+      "terminal_void": 128,
+      "opposite_overlap_samples": 46,
+      "planar_length_mm": 6.140632830672454
+    },
+    "ETH_MDI3_P In2.Cu": {
+      "samples": 1584,
+      "foreign_void": 0,
+      "terminal_void": 211,
+      "opposite_overlap_samples": 248,
+      "planar_length_mm": 10.262676148665328
+    },
+    "ETH_MDI3_N B.Cu": {
+      "samples": 267,
+      "foreign_void": 0,
+      "terminal_void": 64,
+      "opposite_overlap_samples": 0,
+      "planar_length_mm": 1.7242640687119286
+    },
+    "ETH_MDI3_N In3.Cu": {
+      "samples": 1005,
+      "foreign_void": 0,
+      "terminal_void": 131,
+      "opposite_overlap_samples": 46,
+      "planar_length_mm": 6.560171851166204
+    },
+    "ETH_MDI3_N In2.Cu": {
+      "samples": 1737,
+      "foreign_void": 0,
+      "terminal_void": 213,
+      "opposite_overlap_samples": 335,
+      "planar_length_mm": 11.235136775573439
+    }
+  },
+  "examples": {},
+  "opposite_layer_counts": {
+    "ETH_MDI3_P In3.Cu / +3V3_PMU": 38,
+    "ETH_MDI3_P In3.Cu / ETH_MDI3_P": 8,
+    "ETH_MDI3_P In2.Cu / ETH_MDI3_P": 9,
+    "ETH_MDI3_P In2.Cu / EXP_I2C_SDA": 234,
+    "ETH_MDI3_P In2.Cu / +5V_MAIN": 5,
+    "ETH_MDI3_N In3.Cu / +3V3_PMU": 38,
+    "ETH_MDI3_N In3.Cu / ETH_MDI3_N": 8,
+    "ETH_MDI3_N In2.Cu / ETH_MDI3_N": 8,
+    "ETH_MDI3_N In2.Cu / EXP_I2C_SDA": 121,
+    "ETH_MDI3_N In2.Cu / +5V_MAIN": 206
+  }
+}

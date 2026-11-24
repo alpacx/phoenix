@@ -1,0 +1,118 @@
+{
+  "parent": "87cf66583251de1ada11bdf99725038420f3583644b0822482a18c0846dc1c10",
+  "board": "runs/buck3-feedback-c433-rebase/phy-joint.kicad_pcb",
+  "sha256": "6dd2504a10d73b4dee23e4934e3f10385bcb00663bde2ca59fb8a044c06fe6e0",
+  "via_live": true,
+  "drc": [
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "9f9610a3-3da1-4a1d-9913-6256987c47b8",
+        "f3fb31e9-f3be-4a00-a2ec-23428c073829"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "5b05cc73-7256-43c6-810f-877628384c1e",
+        "65232a07-4bae-4719-952e-5d1e325509c2"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "5b05cc73-7256-43c6-810f-877628384c1e",
+        "f80f7854-fc66-42cb-be54-0c9d180283a4"
+      ],
+      "count": 5
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "65232a07-4bae-4719-952e-5d1e325509c2",
+        "9f9610a3-3da1-4a1d-9913-6256987c47b8"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "33992f54-206a-4945-8c5f-0207f9a4647d",
+        "9f9610a3-3da1-4a1d-9913-6256987c47b8"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "2be3a9f2-8593-4c64-90a1-2e4f18db0503",
+        "5b05cc73-7256-43c6-810f-877628384c1e"
+      ],
+      "count": 1
+    },
+    {
+      "type": "hole_to_hole",
+      "severity": "warning",
+      "items": [
+        "5b05cc73-7256-43c6-810f-877628384c1e",
+        "f80f7854-fc66-42cb-be54-0c9d180283a4"
+      ],
+      "count": 1
+    }
+  ],
+  "joins": 354,
+  "neighbor_plane": {
+    "GND": {
+      "total": 146,
+      "lost": 0,
+      "gained": 0
+    },
+    "+5V_MAIN": {
+      "total": 0,
+      "lost": 0,
+      "gained": 0
+    },
+    "+3V3_SYS": {
+      "total": 531,
+      "lost": 0,
+      "gained": 0
+    },
+    "+1V1_LPDDR4": {
+      "total": 741,
+      "lost": 0,
+      "gained": 0
+    },
+    "EXP_SPI_CLK": {
+      "total": 0,
+      "lost": 0,
+      "gained": 0
+    },
+    "EXP_SPI_MOSI": {
+      "total": 6,
+      "lost": 0,
+      "gained": 0
+    },
+    "EXP_SPI_CS0_N": {
+      "total": 0,
+      "lost": 0,
+      "gained": 0
+    },
+    "VCCIO_ACODEC": {
+      "total": 318,
+      "lost": 28,
+      "gained": 0
+    }
+  },
+  "applied_uuids": [
+    "9f9610a3-3da1-4a1d-9913-6256987c47b8",
+    "5b05cc73-7256-43c6-810f-877628384c1e"
+  ]
+}

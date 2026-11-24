@@ -1,0 +1,159 @@
+{
+  "sha256": "572d6ba53bb0abb0c7e86dd2c158361c9c12bd9cfcacd297c1c752aa674aea3d",
+  "documented_candidates": [
+    {
+      "ball": "1L1",
+      "gpio": "GPIO3_A1_d",
+      "pdf_page": 7
+    },
+    {
+      "ball": "1M1",
+      "gpio": "GPIO3_A0_d",
+      "pdf_page": 7
+    },
+    {
+      "ball": "1M2",
+      "gpio": "GPIO3_B0_d",
+      "pdf_page": 7
+    },
+    {
+      "ball": "J1",
+      "gpio": "GPIO3_A6_d",
+      "pdf_page": 7
+    },
+    {
+      "ball": "J2",
+      "gpio": "GPIO3_B1_d",
+      "pdf_page": 7
+    }
+  ],
+  "rows": [
+    {
+      "footprint": "U1",
+      "pin": "1L1",
+      "old_net": "",
+      "position": [
+        38450000,
+        21950000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 270,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "U1",
+      "pin": "1M1",
+      "old_net": "",
+      "position": [
+        38450000,
+        22600000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 315,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "U1",
+      "pin": "1M2",
+      "old_net": "",
+      "position": [
+        39100000,
+        22600000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 328,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "U1",
+      "pin": "J1",
+      "old_net": "",
+      "position": [
+        36500000,
+        17500000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 25,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "U1",
+      "pin": "J2",
+      "old_net": "",
+      "position": [
+        37000000,
+        17500000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 0,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "U1",
+      "pin": "K3",
+      "old_net": "EXP_GPIO2",
+      "position": [
+        37500000,
+        18000000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 42,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "U1",
+      "pin": "L2",
+      "old_net": "EXP_GPIO3",
+      "position": [
+        37000000,
+        18500000
+      ],
+      "side": "F.Cu",
+      "width_um": 127.0,
+      "reachable": 1081,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "J3",
+      "pin": "29",
+      "old_net": "EXP_GPIO2",
+      "position": [
+        69300000,
+        1145000
+      ],
+      "side": "F.Cu",
+      "width_um": 200.0,
+      "reachable": 223,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "J3",
+      "pin": "30",
+      "old_net": "EXP_GPIO3",
+      "position": [
+        69300000,
+        3855000
+      ],
+      "side": "F.Cu",
+      "width_um": 200.0,
+      "reachable": 1029,
+      "ordinary_sites": 0,
+      "selected": []
+    }
+  ],
+  "scope": "Candidate assignment only; gpio3 reset-pull-down and VCCIO1 supply retained in this study. Local copper with ordinary vias, no firmware or schematic modifications."
+}

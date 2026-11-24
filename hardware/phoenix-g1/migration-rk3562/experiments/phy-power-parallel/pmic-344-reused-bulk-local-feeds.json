@@ -1,0 +1,30 @@
+{
+  "variant": "runs/pmic-bulk-rear-access/phy-joint.kicad_pcb",
+  "grid_mm": 0.025,
+  "rows": [
+    {
+      "source": [
+        64.66,
+        5.75
+      ],
+      "target": "C415.1",
+      "source_nodes": 6,
+      "target_nodes": 431,
+      "length": null
+    },
+    {
+      "source": "U4.66",
+      "target": "C424.1",
+      "source_nodes": 0,
+      "target_nodes": 1946,
+      "length": null
+    },
+    {
+      "source": "U4.54",
+      "target": "C425.1",
+      "source_nodes": 0,
+      "target_nodes": 2072,
+      "length": null
+    }
+  ]
+}

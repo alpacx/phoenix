@@ -1,0 +1,362 @@
+{
+  "parent": "6247772208c9093da22eab0a6a5c0fe7831a6af4b28ac3be5b36bbdcca60b1aa",
+  "board": "runs/display-direct-flex-rear-spi-negotiated/phy-joint.kicad_pcb",
+  "sha256": "bdf9d55be4879ebe0578389971099528746e57fa21c677d2394eb83c4a9406ab",
+  "new_drc": [
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "2c962c70-be2f-476e-918f-7b0602b2e862",
+        "32a99da9-d2d5-492a-92a8-2299c35b64d0"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "6e68567a-7235-4dd2-82f8-2b42ed512280",
+        "8daca91a-6329-4caf-a742-3a1348576a65"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "612e54f2-7e5e-4f6e-a148-aaeca2c87445",
+        "6e68567a-7235-4dd2-82f8-2b42ed512280"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "6f394e03-9c8b-44b6-97ce-10e5aa972081",
+        "761a271c-fecc-4ac3-a246-a58fca1908c4"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "6b9ba5aa-6d6c-4bde-b45e-61ee4a173616",
+        "761a271c-fecc-4ac3-a246-a58fca1908c4"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "52857a5c-a50e-4a2a-bad5-0bcece4402f5",
+        "761a271c-fecc-4ac3-a246-a58fca1908c4"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "0605edc2-dbd0-4806-9bb3-b8b9ed7d63f3",
+        "2c962c70-be2f-476e-918f-7b0602b2e862"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "095d11c5-be4f-4ecd-a897-1cecc6d43583",
+        "761a271c-fecc-4ac3-a246-a58fca1908c4"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "5f72b341-b785-42f4-abba-4c862d0fe46d",
+        "cdfc706e-4bb2-4a6a-bc2a-9a95421dc578"
+      ],
+      "count": 1
+    },
+    {
+      "type": "tracks_crossing",
+      "severity": "error",
+      "items": [
+        "4170ac00-6afc-4f20-a0b1-f338ffb98924",
+        "4f5a1355-aa18-409f-983b-608bf58d0857"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "c80ff122-951c-402c-8058-1e535f665f9e",
+        "cdfc706e-4bb2-4a6a-bc2a-9a95421dc578"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "4c25a9e9-00e2-4207-abf2-95fbc4205433",
+        "cdfc706e-4bb2-4a6a-bc2a-9a95421dc578"
+      ],
+      "count": 6
+    },
+    {
+      "type": "hole_to_hole",
+      "severity": "warning",
+      "items": [
+        "4c25a9e9-00e2-4207-abf2-95fbc4205433",
+        "cdfc706e-4bb2-4a6a-bc2a-9a95421dc578"
+      ],
+      "count": 1
+    }
+  ],
+  "remaining_joins": 353,
+  "checked_pairs": {
+    "DS1.4 U21.17": true,
+    "DS1.3 U21.18": true,
+    "DS1.7 U21.14": true,
+    "DS1.5 U21.16": true,
+    "DS1.6 U21.15": true
+  },
+  "nearest_stitches": [
+    {
+      "net": "LCD_CLK_3V",
+      "via_nm": [
+        21900000,
+        38200000
+      ],
+      "nearest_ground_via_mm": 0.89
+    },
+    {
+      "net": "LCD_CLK_3V",
+      "via_nm": [
+        21000000,
+        26850000
+      ],
+      "nearest_ground_via_mm": 1.097
+    },
+    {
+      "net": "LCD_DIN_3V",
+      "via_nm": [
+        17050000,
+        34000000
+      ],
+      "nearest_ground_via_mm": 0.783
+    },
+    {
+      "net": "LCD_DIN_3V",
+      "via_nm": [
+        19100000,
+        29000000
+      ],
+      "nearest_ground_via_mm": 1.373
+    },
+    {
+      "net": "LCD_CS_3V",
+      "via_nm": [
+        23200000,
+        39250000
+      ],
+      "nearest_ground_via_mm": 1.982
+    },
+    {
+      "net": "LCD_CS_3V",
+      "via_nm": [
+        27200000,
+        24050000
+      ],
+      "nearest_ground_via_mm": 0.826
+    },
+    {
+      "net": "LCD_DC_3V",
+      "via_nm": [
+        21900000,
+        39250000
+      ],
+      "nearest_ground_via_mm": 0.86
+    },
+    {
+      "net": "LCD_DC_3V",
+      "via_nm": [
+        21900000,
+        29650000
+      ],
+      "nearest_ground_via_mm": 1.253
+    },
+    {
+      "net": "LCD_DC_3V",
+      "via_nm": [
+        20500000,
+        27600000
+      ],
+      "nearest_ground_via_mm": 0.982
+    },
+    {
+      "net": "LCD_RST_3V",
+      "via_nm": [
+        26950000,
+        38200000
+      ],
+      "nearest_ground_via_mm": 0.838
+    },
+    {
+      "net": "LCD_RST_3V",
+      "via_nm": [
+        27050000,
+        24200000
+      ],
+      "nearest_ground_via_mm": 1.002
+    }
+  ],
+  "plane_samples": {
+    "LCD_CLK_3V": {
+      "sampled": 4254,
+      "other_void": 214,
+      "own_antipad": 387
+    },
+    "LCD_DIN_3V": {
+      "sampled": 4584,
+      "other_void": 747,
+      "own_antipad": 360
+    },
+    "LCD_CS_3V": {
+      "sampled": 4854,
+      "other_void": 331,
+      "own_antipad": 433
+    },
+    "LCD_DC_3V": {
+      "sampled": 5145,
+      "other_void": 320,
+      "own_antipad": 582
+    },
+    "LCD_RST_3V": {
+      "sampled": 4521,
+      "other_void": 437,
+      "own_antipad": 386
+    }
+  },
+  "mask": {
+    "F.Cu": 0,
+    "B.Cu": 0
+  },
+  "changed_return_reference": {
+    "changed_via_centers_nm": [
+      [
+        17050000,
+        34000000
+      ],
+      [
+        19100000,
+        29000000
+      ],
+      [
+        20500000,
+        27600000
+      ],
+      [
+        21000000,
+        26850000
+      ],
+      [
+        21900000,
+        29650000
+      ],
+      [
+        21900000,
+        38200000
+      ],
+      [
+        21900000,
+        39250000
+      ],
+      [
+        23200000,
+        39250000
+      ],
+      [
+        26950000,
+        38200000
+      ],
+      [
+        27050000,
+        24200000
+      ],
+      [
+        27200000,
+        24050000
+      ]
+    ],
+    "samples_by_net_and_layer": {
+      "+3V3_IO F.Cu": {
+        "sampled": 50,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      },
+      "+5V_MAIN In3.Cu": {
+        "sampled": 145,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      },
+      "CC_VBUS_SERIES_2 F.Cu": {
+        "sampled": 112,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      },
+      "LCD_MOSI F.Cu": {
+        "sampled": 425,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      },
+      "LCD_SCLK In3.Cu": {
+        "sampled": 52,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      },
+      "RESET_N In3.Cu": {
+        "sampled": 450,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      },
+      "USB_POWER_FAULT_N B.Cu": {
+        "sampled": 53,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      }
+    },
+    "sample_pitch_mm": 0.012,
+    "via_window_radius_mm": 1.0,
+    "scope": "Center and edges of unchanged straight copper only. Local ground-fill comparison; no field or impedance simulation."
+  },
+  "preservation": {
+    "existing_pad_instances_preserved": 2021,
+    "existing_tracks_vias_preserved": 8081,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 235,
+    "existing_connected_pad_groups_preserved": 127
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "parent_sha256": "47c3050bb7b09d0c314ee4cac8d6f883349de3b7419bb89308ad6bb8364eae46",
+  "preliminary_normal_through_via_mm": [
+    0.45,
+    0.2
+  ],
+  "ports": {
+    "B2": {
+      "stats": {
+        "front_copper": 9
+      },
+      "via_positions": 0,
+      "blockers": {
+        "VBUS_RAW PCB_TRACK": 9,
+        "Keepout": 9,
+        "J1.B1": 8,
+        "J1.B3": 8,
+        "J1.B2": 9
+      }
+    },
+    "B3": {
+      "stats": {
+        "front_copper": 9
+      },
+      "via_positions": 0,
+      "blockers": {
+        "VBUS_RAW PCB_TRACK": 9,
+        "Keepout": 9,
+        "J1.B4": 8,
+        "J1.B3": 9,
+        "J1.B2": 8
+      }
+    }
+  },
+  "pair_count": 0,
+  "pairs": []
+}

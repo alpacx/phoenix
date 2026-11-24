@@ -1,0 +1,99 @@
+{
+  "sha256": "729fda9c709828a1322726f8643f5d7a70b3a661aa57d1d98ddebef607cf8fff",
+  "ground_dialog": {
+    "capacitor_ground_reaches_main": true,
+    "ground_group_items": 2076
+  },
+  "center_and_edge_reference_samples": 1167,
+  "missing": 234,
+  "missing_beyond_power_antipads": [
+    {
+      "at": [
+        34300000,
+        36400000
+      ],
+      "dist": 4.172529209005012,
+      "layer": "In1.Cu"
+    },
+    {
+      "at": [
+        34300000,
+        36800000
+      ],
+      "dist": 4.459820624195552,
+      "layer": "In1.Cu"
+    },
+    {
+      "at": [
+        34320000,
+        36400000
+      ],
+      "dist": 4.158172675587198,
+      "layer": "In1.Cu"
+    },
+    {
+      "at": [
+        34320000,
+        36800000
+      ],
+      "dist": 4.446391795602363,
+      "layer": "In1.Cu"
+    },
+    {
+      "at": [
+        34340000,
+        36400000
+      ],
+      "dist": 4.14386293209609,
+      "layer": "In1.Cu"
+    },
+    {
+      "at": [
+        34340000,
+        36800000
+      ],
+      "dist": 4.433012519720647,
+      "layer": "In1.Cu"
+    },
+    {
+      "at": [
+        34360000,
+        36400000
+      ],
+      "dist": 4.129600464936045,
+      "layer": "In1.Cu"
+    },
+    {
+      "at": [
+        34360000,
+        36800000
+      ],
+      "dist": 4.419683246568694,
+      "layer": "In1.Cu"
+    }
+  ],
+  "max_distance_mm": 4.459820624195552,
+  "nearest_main_ground_vias": [
+    [
+      [
+        1.0866922287382015,
+        [
+          37520000,
+          31950000
+        ]
+      ]
+    ],
+    [
+      [
+        1.5655350523063996,
+        [
+          37520000,
+          31950000
+        ]
+      ]
+    ]
+  ],
+  "scope": "Nominal planar return geometry. No thermal/DC qualification; full decoupling of any SoC I/O ball needs its supply connection.",
+  "void_samples_beyond_all_connected_supply_via_antipads": 0,
+  "other_samples": []
+}

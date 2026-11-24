@@ -1,0 +1,117 @@
+{
+  "parent_sha256": "6a0b04c3d0c236f39a1cf68616fa45370dbe838b524fafadf2eac4c7742c36a1",
+  "results": [
+    {
+      "source_offset": [
+        0,
+        80000
+      ],
+      "removed_original_ground_tail": true,
+      "delta": [
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "0bac0dea-9183-4abb-95c5-850be8907776",
+            "4dd432ff-e5b4-475b-9a24-532530ad8aaf"
+          ],
+          "count": 1
+        }
+      ],
+      "joins": 365,
+      "full": true,
+      "back_mask_conflicts": [],
+      "placement": {
+        "pose": {
+          "at": [
+            69600000,
+            12300000
+          ],
+          "angle": 270,
+          "plus": [
+            69600000,
+            11350000
+          ],
+          "gnd": [
+            69600000,
+            13250000
+          ],
+          "source_candidates": [
+            [
+              68300000,
+              10800000
+            ]
+          ]
+        },
+        "returns": [
+          [
+            69200000,
+            14150000
+          ],
+          [
+            70000000,
+            14150000
+          ]
+        ],
+        "worst_source_mm": 2.170829334609241,
+        "worst_return_mm": 0.9848857801796105
+      }
+    },
+    {
+      "source_offset": [
+        0,
+        -80000
+      ],
+      "removed_original_ground_tail": true,
+      "delta": [],
+      "joins": 365,
+      "full": true,
+      "back_mask_conflicts": [],
+      "placement": {
+        "pose": {
+          "at": [
+            69600000,
+            12300000
+          ],
+          "angle": 270,
+          "plus": [
+            69600000,
+            11350000
+          ],
+          "gnd": [
+            69600000,
+            13250000
+          ],
+          "source_candidates": [
+            [
+              68300000,
+              10800000
+            ]
+          ]
+        },
+        "returns": [
+          [
+            69200000,
+            14150000
+          ],
+          [
+            70000000,
+            14150000
+          ]
+        ],
+        "worst_source_mm": 2.170829334609241,
+        "worst_return_mm": 0.9848857801796105
+      },
+      "new_tracks": [
+        "5626bbd9-75bd-4820-8878-85f292bdb0b8",
+        "99169749-6b02-401e-a555-7f81c8779fa4",
+        "e54403b5-7de9-4564-8f6b-6f1b801aae87",
+        "a352f1a5-2207-42e7-8030-5a134d62d4ef"
+      ],
+      "new_ground_vias": [
+        "76331d16-b526-44a5-89bc-80d91585b999",
+        "d0f20df1-d105-4b82-ae76-031bff3c2405"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,612 @@
+{
+  "parent": "2fe2813697e3b0592397c59b14558cfec6d1af4ebe5c13aea3254863adfd6cc9",
+  "grid_mm": 0.25,
+  "rule": "Full rectangular contact bank and 0.25 mm working clearance. Exact centerlines and round envelopes for copper; enclosed courtyard and rule AABBs. Half-millimetre board edge assumption. Bottom side, flex-tail normal distance to nearest parallel PCB edge <=10 mm (screening cutoff, no fold radius supplied). First 50 sites ranked by fewest objects then distance to U21. Tool, flex and glass still unqualified.",
+  "only_gnd_vias": [
+    {
+      "x": 23.75,
+      "y": 35.25,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 23.75,
+      "y": 35.5,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 23.75,
+      "y": 35.75,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.5,
+      "y": 37.0,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.25,
+      "y": 37.0,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.5,
+      "y": 37.25,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.0,
+      "y": 37.0,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.25,
+      "y": 37.25,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.5,
+      "y": 37.5,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 13.25,
+      "y": 38.25,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 11.75,
+      "y": 37.0,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.0,
+      "y": 37.25,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.25,
+      "y": 37.5,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.5,
+      "y": 37.75,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.75,
+      "y": 38.0,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 13.0,
+      "y": 38.25,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 11.75,
+      "y": 37.25,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.0,
+      "y": 37.5,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.25,
+      "y": 37.75,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.5,
+      "y": 38.0,
+      "angle": 0,
+      "blockers": []
+    }
+  ],
+  "clear": 753,
+  "best": [
+    {
+      "x": 23.75,
+      "y": 35.25,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 23.75,
+      "y": 35.5,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 23.75,
+      "y": 35.75,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.5,
+      "y": 37.0,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.25,
+      "y": 37.0,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.5,
+      "y": 37.25,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.0,
+      "y": 37.0,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.25,
+      "y": 37.25,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.5,
+      "y": 37.5,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 13.25,
+      "y": 38.25,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 11.75,
+      "y": 37.0,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.0,
+      "y": 37.25,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.25,
+      "y": 37.5,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.5,
+      "y": 37.75,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.75,
+      "y": 38.0,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 13.0,
+      "y": 38.25,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 11.75,
+      "y": 37.25,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.0,
+      "y": 37.5,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.25,
+      "y": 37.75,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.5,
+      "y": 38.0,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.75,
+      "y": 38.25,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 11.75,
+      "y": 37.5,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.0,
+      "y": 37.75,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.25,
+      "y": 38.0,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.5,
+      "y": 38.25,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 11.75,
+      "y": 37.75,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.0,
+      "y": 38.0,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.25,
+      "y": 38.25,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 11.75,
+      "y": 38.0,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.0,
+      "y": 38.25,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 11.75,
+      "y": 38.25,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 86.0,
+      "y": 25.0,
+      "angle": 90,
+      "blockers": []
+    },
+    {
+      "x": 86.0,
+      "y": 24.75,
+      "angle": 90,
+      "blockers": []
+    },
+    {
+      "x": 86.0,
+      "y": 25.25,
+      "angle": 90,
+      "blockers": []
+    },
+    {
+      "x": 86.25,
+      "y": 25.0,
+      "angle": 90,
+      "blockers": []
+    },
+    {
+      "x": 86.0,
+      "y": 24.5,
+      "angle": 90,
+      "blockers": []
+    },
+    {
+      "x": 86.0,
+      "y": 25.5,
+      "angle": 90,
+      "blockers": []
+    },
+    {
+      "x": 86.25,
+      "y": 24.75,
+      "angle": 90,
+      "blockers": []
+    },
+    {
+      "x": 86.25,
+      "y": 25.25,
+      "angle": 90,
+      "blockers": []
+    },
+    {
+      "x": 86.5,
+      "y": 25.0,
+      "angle": 90,
+      "blockers": []
+    },
+    {
+      "x": 86.0,
+      "y": 24.25,
+      "angle": 90,
+      "blockers": []
+    },
+    {
+      "x": 86.0,
+      "y": 25.75,
+      "angle": 90,
+      "blockers": []
+    },
+    {
+      "x": 86.25,
+      "y": 24.5,
+      "angle": 90,
+      "blockers": []
+    },
+    {
+      "x": 86.25,
+      "y": 25.5,
+      "angle": 90,
+      "blockers": []
+    },
+    {
+      "x": 86.5,
+      "y": 24.75,
+      "angle": 90,
+      "blockers": []
+    },
+    {
+      "x": 86.5,
+      "y": 25.25,
+      "angle": 90,
+      "blockers": []
+    },
+    {
+      "x": 86.75,
+      "y": 25.0,
+      "angle": 90,
+      "blockers": []
+    },
+    {
+      "x": 86.0,
+      "y": 24.0,
+      "angle": 90,
+      "blockers": []
+    },
+    {
+      "x": 86.0,
+      "y": 26.0,
+      "angle": 90,
+      "blockers": []
+    },
+    {
+      "x": 86.25,
+      "y": 24.25,
+      "angle": 90,
+      "blockers": []
+    }
+  ],
+  "alternatives_without_connectors_soc_or_mounts": [
+    {
+      "x": 23.75,
+      "y": 35.25,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 23.75,
+      "y": 35.5,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 23.75,
+      "y": 35.75,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.5,
+      "y": 37.0,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.25,
+      "y": 37.0,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.5,
+      "y": 37.25,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.0,
+      "y": 37.0,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.25,
+      "y": 37.25,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.5,
+      "y": 37.5,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 13.25,
+      "y": 38.25,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 11.75,
+      "y": 37.0,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.0,
+      "y": 37.25,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.25,
+      "y": 37.5,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.5,
+      "y": 37.75,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.75,
+      "y": 38.0,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 13.0,
+      "y": 38.25,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 11.75,
+      "y": 37.25,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.0,
+      "y": 37.5,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.25,
+      "y": 37.75,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.5,
+      "y": 38.0,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.75,
+      "y": 38.25,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 11.75,
+      "y": 37.5,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.0,
+      "y": 37.75,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.25,
+      "y": 38.0,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.5,
+      "y": 38.25,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 11.75,
+      "y": 37.75,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.0,
+      "y": 38.0,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.25,
+      "y": 38.25,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 11.75,
+      "y": 38.0,
+      "angle": 0,
+      "blockers": []
+    },
+    {
+      "x": 12.0,
+      "y": 38.25,
+      "angle": 0,
+      "blockers": []
+    }
+  ]
+}

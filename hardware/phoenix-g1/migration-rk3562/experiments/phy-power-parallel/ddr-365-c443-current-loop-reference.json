@@ -1,0 +1,57 @@
+{
+  "sha256": "8eec4cb0680eeb8ab56bedb43e348bcfa1202c5dde3d76ffedc9f1fecf8a781b",
+  "return_rims": {
+    "76331d16-b526-44a5-89bc-80d91585b999": {
+      "In1.Cu": true,
+      "In4.Cu": true
+    },
+    "d0f20df1-d105-4b82-ae76-031bff3c2405": {
+      "In1.Cu": true,
+      "In4.Cu": true
+    }
+  },
+  "tracks": [
+    {
+      "net": "+1V1_LPDDR4",
+      "length_mm": 2.1924643668712154,
+      "full_reference_samples": 194,
+      "total": 333,
+      "foreign_void_samples": 1,
+      "example": [
+        [
+          67786757,
+          10388415
+        ]
+      ]
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "length_mm": 1.4446106741956464,
+      "full_reference_samples": 162,
+      "total": 222,
+      "foreign_void_samples": 1,
+      "example": [
+        [
+          68499531,
+          11261191
+        ]
+      ]
+    },
+    {
+      "net": "GND",
+      "length_mm": 0.9848857801796105,
+      "full_reference_samples": 153,
+      "total": 153,
+      "foreign_void_samples": 0,
+      "example": []
+    },
+    {
+      "net": "GND",
+      "length_mm": 0.9848857801796105,
+      "full_reference_samples": 153,
+      "total": 153,
+      "foreign_void_samples": 0,
+      "example": []
+    }
+  ]
+}

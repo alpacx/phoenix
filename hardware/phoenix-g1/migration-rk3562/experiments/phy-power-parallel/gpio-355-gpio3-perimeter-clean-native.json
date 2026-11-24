@@ -1,0 +1,269 @@
+{
+  "parent": "753618b21b24b208fea85ebe93c3e4bee001c67ef7c4bfc0f1c798da2f7f0e2d",
+  "board": "runs/exp-gpio3-complete-perimeter-clean/phy-joint.kicad_pcb",
+  "sha256": "4571181a6002ed2c180a754a360f62accd47f5a06dfd607e85f30811a0177037",
+  "tests": [
+    {
+      "full": true,
+      "source": [
+        33250000,
+        18750000
+      ],
+      "target": [
+        68725000,
+        2755000
+      ],
+      "trace": [
+        "ac9dbab6-795e-49a8-a2d3-eb8a6640e396",
+        "e2cca4ab-4f24-4bd8-8205-a6d4942ea042",
+        "8ea5a850-e333-4d96-b98e-1136c78d91ae",
+        "ed4ea38e-9e65-4642-be91-81199c295f3e",
+        "9a063792-365e-4725-abdb-233e632cc946",
+        "3514775d-b65a-478d-8536-c1fe121104da",
+        "4b07da65-6e61-40fd-a490-efb4f9fe6bd6",
+        "495aab25-ded2-4326-9905-6bfe0d328722",
+        "f5d61095-d3bc-42c8-bc62-41066badd98d",
+        "52a060f3-6509-4fc7-a172-157e459113b3",
+        "030b14f4-c31a-48d3-a88c-d50abd3ebcd9",
+        "07d5a7f9-1735-467a-8c38-102f908c4d22",
+        "8e4a50f4-99fc-44d2-9989-ba6751b060ef",
+        "b5aa094b-5271-4cc4-a90a-873a509d8949",
+        "941ad22c-0a07-4b65-b086-5768998fb7a1",
+        "1847b639-5cdc-4163-be5d-a1def9e62167",
+        "656223df-820c-497d-8a83-f75a3e5470d5",
+        "b4e53787-c628-4b05-87ae-dd29c92b5928",
+        "12c0047f-2260-4bf4-b2bb-64100b47cdaa",
+        "e7406843-2a65-444e-b732-cbe2a5571cf6",
+        "d60be4a5-2d01-4c93-a455-317766806e14",
+        "8c10517f-c124-4ee4-be26-642bdacfe8e8",
+        "a77cd857-5ca3-4afb-8179-876317882238",
+        "45d608b7-d934-4972-abef-25f03d8a8609",
+        "970c8a7e-e6fe-4fcc-ab37-049b24079f08",
+        "88dd0522-0c59-4690-a1eb-82689def1344",
+        "525bb0ec-abc3-4292-bd44-0d3f02142142",
+        "31f5d8a8-626c-4712-b4b7-19ef3b15e587",
+        "ede72e1c-e49b-4d07-8980-0550de0128fb",
+        "2602a560-58d6-4e2f-90bf-c12e9f53f1cc",
+        "b0e2669f-00f8-4c2a-879f-649cac72c9fc",
+        "ee181513-0d59-4658-8aac-588d7ba53073",
+        "6f5d8cb5-507e-4bfc-ac55-3cb06896d50d",
+        "7446ed11-5a20-45fd-b285-a6abf8719d00",
+        "78f723a4-60cc-4456-867a-27467482113b",
+        "bb88b3c8-479c-41d1-812c-4a9543a12595",
+        "98a0fd27-f872-4dfa-9f86-a41f9c905ecf",
+        "15666b63-8ec0-4f17-8a44-61a46af5a8c6",
+        "162903fe-c929-4043-a1f6-51737c527c42",
+        "7d702ced-cff1-4b80-a95c-2a96db5e171f",
+        "ca2dbcea-9a0f-4975-b5f1-2cf14402a0ed",
+        "16bb6d81-6884-4f25-819b-6166a6d0c6b3",
+        "36c9dd74-0f29-4817-8a26-905c43b97e4f",
+        "b7022727-5b3d-45b4-979a-1f88e14c632a",
+        "fdbf4cfa-f81d-438a-b4a9-daa20cd0f2d5",
+        "8296539c-a90a-4bce-8937-5e561602a690",
+        "1edb3d66-4ed9-4b5d-a7d7-0b38feed5eaa",
+        "798fd4dc-9405-4a63-87e5-cce23d94336f",
+        "cd8af337-f3dd-44a3-9cf4-ce8051465c38",
+        "694a5e17-fbbd-4183-8335-06d6d0bea715",
+        "0ab3856c-64f9-44bf-bcd9-29e77020f6eb",
+        "d455b538-17cd-4de0-92ca-dc5bda7fa3b2",
+        "5e7323c5-e6b0-4879-80e3-bf796090c675",
+        "d49e1e84-fc2b-404f-9b80-01a3e6b806b1",
+        "32f4d35d-18d5-4094-a77b-addaf6a9c421",
+        "49e9d2ea-7201-469a-afb8-bce89fc2873e",
+        "c1770f9f-1d66-4b15-a3a8-2315890ab823",
+        "9d2ae384-de88-43b5-a927-17365f4058ec",
+        "2d88385e-d21d-4b73-aad7-1aac2afce71a",
+        "998c5220-1b3e-4c06-910e-b3bf41698d30",
+        "1deeb4f3-c974-42a2-b183-9de71f0bc9b7",
+        "77fbd752-6990-4c6f-84fe-b75e5b012a46",
+        "c3c67efe-2eae-4613-a76b-5dcee89666e2",
+        "7124ce75-df62-4621-9f2a-7dd3ff4f906c",
+        "bf3f3050-01fc-45a6-8361-6e7ef33f78a1",
+        "5eb84b27-3a4c-4d0a-819e-995c555e6611",
+        "e80e7e29-0034-4130-998e-513ad4c360b7",
+        "eed1c45b-1125-4744-8a90-26ae84facc12",
+        "fad0359d-af92-44bf-b015-0fc1d72bdb46",
+        "5669e723-c763-4e51-b898-ca78015e329f",
+        "f1a2eaec-0b27-4742-8a1c-2a17198545ef",
+        "8d990b34-f5f2-4725-b782-71fea74c1870",
+        "bc961f45-fab8-4192-bb7d-e231584f9c12",
+        "8e71fa94-f343-4b6a-8fea-67804b7ad325",
+        "173808b7-c948-4dce-8707-68ae213f5563",
+        "bf272a68-4a44-4c7d-899b-4a70073330a5",
+        "3b7fb27b-e2b6-485f-9e78-e798f65aad9a",
+        "a219faa3-a649-4c63-8211-20f5c917ac9c",
+        "419b04ba-47d1-46f0-8036-ab9d83a6ded8",
+        "864796b7-b805-4d31-a7e7-b22693576588",
+        "917cc606-5992-416e-88de-0226e66aa31b",
+        "47cc74d0-394e-4cb4-b94a-5644a8ec3bb6",
+        "f898ed92-1338-4bd9-8c7a-e5429ff09c95",
+        "b2e6dfc5-e11d-41f8-94fc-98b9d5019a7c",
+        "bed11316-e2d3-495d-acaf-e0b98ab443c8",
+        "366a05f4-1287-443e-ac84-5dad32c33844",
+        "c2958ccb-97a5-4f2a-b409-f59b488b9dd0",
+        "5702a4c5-9a85-4f48-b07a-1c5c25d4a450",
+        "876237f9-f7c3-41c8-9a2c-6d6cd998c45b",
+        "a6e7b48f-be93-4c13-9b77-d0fe44c2ee27",
+        "9189c4bf-807e-4ba8-a6fd-a316089d76d5",
+        "eba972c0-048b-45de-a699-2f6385df8dcb",
+        "d2f3cb24-2d85-4900-9dcc-2c545e96ad5e",
+        "f09254fd-bade-490a-a84f-2a166a47fa0e",
+        "7c943224-2746-4c3b-9c1a-5e2875840f2c",
+        "4cb1fea1-9c17-4816-888f-d70a893213cf",
+        "834806c1-f93c-462f-a5d8-59dc175d45fb",
+        "119b8457-9c11-4a63-b611-5ffbca60abc4",
+        "e4be3494-4d2b-41bf-98da-ad9d35bd29d0",
+        "8cc9e0b4-0e6b-4465-bdeb-c28e98bc3ad7"
+      ],
+      "vias": [
+        "f5d61095-d3bc-42c8-bc62-41066badd98d",
+        "35b1e426-d71c-480d-be55-216a5cb9df8b"
+      ],
+      "rerouted_rail": [
+        "dab61dde-fc7d-4998-9017-1d9734e79be1",
+        "82df19cb-9edf-49c2-8175-c45dcef93f5f",
+        "d5c1a13d-c19c-4e2a-b082-aed74a4412f1",
+        "de481a84-1a31-4afe-9281-6e4c8a8b65bf",
+        "2b75ef96-d221-436b-aa81-b134ae20a4f8"
+      ],
+      "pad_to_via": [
+        true,
+        true
+      ],
+      "new_drc": [],
+      "mask": {
+        "F.Cu": 0,
+        "B.Cu": 0
+      },
+      "plane_delta": {
+        "changed_via_centers_nm": [
+          [
+            31200000,
+            21200000
+          ],
+          [
+            32800000,
+            38200000
+          ],
+          [
+            68725000,
+            2755000
+          ],
+          [
+            72800000,
+            38200000
+          ],
+          [
+            74400000,
+            2800000
+          ]
+        ],
+        "samples_by_net_and_layer": {
+          "+3V3_IO B.Cu": {
+            "sampled": 226,
+            "lost": 0,
+            "gained": 0,
+            "lost_in_same_rail_antipad": 0,
+            "lost_examples": []
+          },
+          "+3V3_IO F.Cu": {
+            "sampled": 14,
+            "lost": 0,
+            "gained": 0,
+            "lost_in_same_rail_antipad": 0,
+            "lost_examples": []
+          },
+          "+3V3_IO In2.Cu": {
+            "sampled": 397,
+            "lost": 0,
+            "gained": 0,
+            "lost_in_same_rail_antipad": 0,
+            "lost_examples": []
+          },
+          "+3V3_PMU In3.Cu": {
+            "sampled": 45,
+            "lost": 0,
+            "gained": 0,
+            "lost_in_same_rail_antipad": 0,
+            "lost_examples": []
+          },
+          "EXP_GPIO0 F.Cu": {
+            "sampled": 71,
+            "lost": 0,
+            "gained": 0,
+            "lost_in_same_rail_antipad": 0,
+            "lost_examples": []
+          },
+          "EXP_GPIO0 In2.Cu": {
+            "sampled": 721,
+            "lost": 2,
+            "gained": 0,
+            "lost_in_same_rail_antipad": 0,
+            "lost_examples": [
+              {
+                "track": "7c1c8065-0dd2-4496-90cd-30a5e56af49b",
+                "point_nm": [
+                  68487377,
+                  2354044
+                ]
+              },
+              {
+                "track": "8b359a72-676e-4cc5-a767-c39d6fd032dd",
+                "point_nm": [
+                  68490000,
+                  2350000
+                ]
+              }
+            ]
+          },
+          "EXP_GPIO1 In2.Cu": {
+            "sampled": 518,
+            "lost": 0,
+            "gained": 0,
+            "lost_in_same_rail_antipad": 0,
+            "lost_examples": []
+          },
+          "EXP_I2C_SDA In3.Cu": {
+            "sampled": 302,
+            "lost": 0,
+            "gained": 0,
+            "lost_in_same_rail_antipad": 0,
+            "lost_examples": []
+          },
+          "PHY_RESET_N F.Cu": {
+            "sampled": 6,
+            "lost": 0,
+            "gained": 0,
+            "lost_in_same_rail_antipad": 0,
+            "lost_examples": []
+          },
+          "PMIC_INT_N In2.Cu": {
+            "sampled": 195,
+            "lost": 0,
+            "gained": 0,
+            "lost_in_same_rail_antipad": 0,
+            "lost_examples": []
+          },
+          "RESET_N In3.Cu": {
+            "sampled": 41,
+            "lost": 0,
+            "gained": 0,
+            "lost_in_same_rail_antipad": 0,
+            "lost_examples": []
+          },
+          "WIFI_REG_ON F.Cu": {
+            "sampled": 332,
+            "lost": 0,
+            "gained": 0,
+            "lost_in_same_rail_antipad": 0,
+            "lost_examples": []
+          }
+        },
+        "sample_pitch_mm": 0.012,
+        "via_window_radius_mm": 1.0,
+        "scope": "Center and edges of unchanged straight copper only. Local ground-fill comparison; no field or impedance simulation."
+      },
+      "joins": 355
+    }
+  ]
+}

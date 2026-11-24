@@ -1,0 +1,43 @@
+{
+  "parent_sha256": "4462df199b844e2e9c85cbcf5f02c96f8d6ef58a224702896198fd2c081fb6f5",
+  "site": [
+    65075000,
+    27675000
+  ],
+  "targets": [
+    [
+      68010000,
+      30100000
+    ]
+  ],
+  "rows": [
+    {
+      "layer": "In2.Cu",
+      "target": [
+        68010000,
+        30100000
+      ],
+      "path": null,
+      "details": {
+        "reason": "closed front channel",
+        "reachable": 11365,
+        "starts": 1,
+        "goals": 1
+      }
+    },
+    {
+      "layer": "In3.Cu",
+      "target": [
+        68010000,
+        30100000
+      ],
+      "path": null,
+      "details": {
+        "reason": "closed front channel",
+        "reachable": 2215,
+        "starts": 1,
+        "goals": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "checkpoint": "25763b5d1533f9d10252503fd0a5d2aefc1563c500169c33782753ab16a1352a",
+  "closest_connected_ground_barrels": [],
+  "paths": [
+    {
+      "net": "GND",
+      "width": 0.3,
+      "new_old": [
+        {
+          "samples": 435,
+          "void": 0,
+          "length_mm": 0.715898179355137
+        }
+      ]
+    },
+    {
+      "net": "+3V3_PMU",
+      "width": 0.35,
+      "new_old": [
+        {
+          "samples": 222,
+          "void": 0,
+          "length_mm": 0.364713422869244
+        }
+      ]
+    }
+  ],
+  "method": "Euclidean proximity of electrically connected ground vias; plane under changed F.Cu tracks sampled at both edges and center."
+}

@@ -1,0 +1,194 @@
+{
+  "parent": "87cf66583251de1ada11bdf99725038420f3583644b0822482a18c0846dc1c10",
+  "source_endpoints": 2230,
+  "grounded_poses": 37,
+  "current_geometry_vectors": 104,
+  "minimum": 1,
+  "best": [
+    {
+      "pose": [
+        50100000,
+        10200000
+      ],
+      "angle": 150,
+      "a": [
+        53400000,
+        12850000
+      ],
+      "b": [
+        50922724,
+        10675000
+      ],
+      "blockers": [
+        {
+          "uuid": "4eceb2ff-1c02-45bb-8ee1-36933ff186b3",
+          "name": "GND",
+          "kind": "PAD",
+          "part": "C422.2"
+        }
+      ]
+    },
+    {
+      "pose": [
+        50100000,
+        10200000
+      ],
+      "angle": 150,
+      "a": [
+        53450000,
+        12850000
+      ],
+      "b": [
+        50922724,
+        10675000
+      ],
+      "blockers": [
+        {
+          "uuid": "4eceb2ff-1c02-45bb-8ee1-36933ff186b3",
+          "name": "GND",
+          "kind": "PAD",
+          "part": "C422.2"
+        }
+      ]
+    },
+    {
+      "pose": [
+        50100000,
+        10200000
+      ],
+      "angle": 150,
+      "a": [
+        53450000,
+        12900000
+      ],
+      "b": [
+        50922724,
+        10675000
+      ],
+      "blockers": [
+        {
+          "uuid": "4eceb2ff-1c02-45bb-8ee1-36933ff186b3",
+          "name": "GND",
+          "kind": "PAD",
+          "part": "C422.2"
+        }
+      ]
+    },
+    {
+      "pose": [
+        48900000,
+        10000000
+      ],
+      "angle": 210,
+      "a": [
+        53400000,
+        12850000
+      ],
+      "b": [
+        49722724,
+        9525000
+      ],
+      "blockers": [
+        {
+          "uuid": "4eceb2ff-1c02-45bb-8ee1-36933ff186b3",
+          "name": "GND",
+          "kind": "PAD",
+          "part": "C422.2"
+        }
+      ]
+    },
+    {
+      "pose": [
+        48900000,
+        10000000
+      ],
+      "angle": 210,
+      "a": [
+        53450000,
+        12900000
+      ],
+      "b": [
+        49722724,
+        9525000
+      ],
+      "blockers": [
+        {
+          "uuid": "4eceb2ff-1c02-45bb-8ee1-36933ff186b3",
+          "name": "GND",
+          "kind": "PAD",
+          "part": "C422.2"
+        }
+      ]
+    },
+    {
+      "pose": [
+        48700000,
+        10400000
+      ],
+      "angle": 240,
+      "a": [
+        53450000,
+        12850000
+      ],
+      "b": [
+        49175000,
+        9577276
+      ],
+      "blockers": [
+        {
+          "uuid": "4eceb2ff-1c02-45bb-8ee1-36933ff186b3",
+          "name": "GND",
+          "kind": "PAD",
+          "part": "C422.2"
+        }
+      ]
+    },
+    {
+      "pose": [
+        48700000,
+        10200000
+      ],
+      "angle": 240,
+      "a": [
+        53400000,
+        12850000
+      ],
+      "b": [
+        49175000,
+        9377276
+      ],
+      "blockers": [
+        {
+          "uuid": "4eceb2ff-1c02-45bb-8ee1-36933ff186b3",
+          "name": "GND",
+          "kind": "PAD",
+          "part": "C422.2"
+        }
+      ]
+    },
+    {
+      "pose": [
+        48700000,
+        10200000
+      ],
+      "angle": 240,
+      "a": [
+        53450000,
+        12850000
+      ],
+      "b": [
+        49175000,
+        9377276
+      ],
+      "blockers": [
+        {
+          "uuid": "4eceb2ff-1c02-45bb-8ee1-36933ff186b3",
+          "name": "GND",
+          "kind": "PAD",
+          "part": "C422.2"
+        }
+      ]
+    }
+  ],
+  "note": "Placement and earlier ground segments are screening inputs. Only the new positive segment was tested against the current PCB."
+}

@@ -1,0 +1,552 @@
+{
+  "parent": "2e1fb9239839c738e589cebdfdeb759e05cdf1fa563a0bad3fada5a2580afcc9",
+  "warning": "Launch antipads are excepted within 0.55 mm of each endpoint. Eligibility of a single conductor does not validate a differential pair or byte timing.",
+  "rows": [
+    {
+      "net": "LPDDR4_DQS1P_A",
+      "endpoints": [
+        [
+          38.3,
+          15.45
+        ],
+        [
+          32.4,
+          4.45
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQS0P_A",
+      "endpoints": [
+        [
+          39.6,
+          15.45
+        ],
+        [
+          27.6,
+          4.45
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQS0P_B",
+      "endpoints": [
+        [
+          46.1,
+          15.45
+        ],
+        [
+          27.6,
+          13.55
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQS1P_B",
+      "endpoints": [
+        [
+          47.4,
+          15.45
+        ],
+        [
+          32.4,
+          13.55
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQS1N_A",
+      "endpoints": [
+        [
+          38.3,
+          16.1
+        ],
+        [
+          32.4,
+          5.1
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQS0N_A",
+      "endpoints": [
+        [
+          39.6,
+          16.1
+        ],
+        [
+          27.6,
+          5.1
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQS0N_B",
+      "endpoints": [
+        [
+          46.1,
+          16.1
+        ],
+        [
+          27.6,
+          12.9
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQS1N_B",
+      "endpoints": [
+        [
+          47.4,
+          16.1
+        ],
+        [
+          32.4,
+          12.9
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DM1_A",
+      "endpoints": [
+        [
+          36.65,
+          13.0
+        ],
+        [
+          32.4,
+          3.8
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQ12_A",
+      "endpoints": [
+        [
+          37.95,
+          13.3
+        ],
+        [
+          31.6,
+          5.75
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQ6_A",
+      "endpoints": [
+        [
+          39.1,
+          13.35
+        ],
+        [
+          28.4,
+          3.8
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQ2_A",
+      "endpoints": [
+        [
+          39.9,
+          13.35
+        ],
+        [
+          26.8,
+          5.1
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQ2_B",
+      "endpoints": [
+        [
+          46.1,
+          13.35
+        ],
+        [
+          26.8,
+          12.9
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQ7_B",
+      "endpoints": [
+        [
+          47.0,
+          13.35
+        ],
+        [
+          28.4,
+          14.85
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQ12_B",
+      "endpoints": [
+        [
+          47.85,
+          13.35
+        ],
+        [
+          31.6,
+          12.25
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DM1_B",
+      "endpoints": [
+        [
+          49.35,
+          13.0
+        ],
+        [
+          32.4,
+          14.2
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQ10_A",
+      "endpoints": [
+        [
+          36.05,
+          15.25
+        ],
+        [
+          33.2,
+          5.1
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQ11_A",
+      "endpoints": [
+        [
+          36.05,
+          13.75
+        ],
+        [
+          33.2,
+          5.75
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQ15_A",
+      "endpoints": [
+        [
+          37.25,
+          13.05
+        ],
+        [
+          31.6,
+          3.15
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQ5_A",
+      "endpoints": [
+        [
+          36.5,
+          16.0
+        ],
+        [
+          28.4,
+          5.1
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQ0_A",
+      "endpoints": [
+        [
+          38.5,
+          13.5
+        ],
+        [
+          26.8,
+          3.15
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DM0_A",
+      "endpoints": [
+        [
+          39.5,
+          13.85
+        ],
+        [
+          27.6,
+          3.8
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQ1_B",
+      "endpoints": [
+        [
+          45.5,
+          13.5
+        ],
+        [
+          26.8,
+          14.2
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DM0_B",
+      "endpoints": [
+        [
+          46.5,
+          13.85
+        ],
+        [
+          27.6,
+          14.2
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQ0_B",
+      "endpoints": [
+        [
+          48.0,
+          15.0
+        ],
+        [
+          26.8,
+          14.85
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQ5_B",
+      "endpoints": [
+        [
+          47.425,
+          13.75
+        ],
+        [
+          28.4,
+          12.9
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQ13_B",
+      "endpoints": [
+        [
+          48.0,
+          15.65
+        ],
+        [
+          31.6,
+          12.9
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQ15_B",
+      "endpoints": [
+        [
+          48.25,
+          12.7
+        ],
+        [
+          31.6,
+          14.85
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQ11_B",
+      "endpoints": [
+        [
+          48.75,
+          13.05
+        ],
+        [
+          33.2,
+          12.25
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQ10_B",
+      "endpoints": [
+        [
+          50.0,
+          14.0
+        ],
+        [
+          33.2,
+          12.9
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQ9_A",
+      "endpoints": [
+        [
+          36.15,
+          14.65
+        ],
+        [
+          33.2,
+          3.8
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQ8_A",
+      "endpoints": [
+        [
+          35.7,
+          14.25
+        ],
+        [
+          33.2,
+          3.15
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQ4_A",
+      "endpoints": [
+        [
+          38.5,
+          14.65
+        ],
+        [
+          28.4,
+          5.75
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQ7_A",
+      "endpoints": [
+        [
+          39.1,
+          14.8
+        ],
+        [
+          28.4,
+          3.15
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQ3_A",
+      "endpoints": [
+        [
+          40.0,
+          14.65
+        ],
+        [
+          26.8,
+          5.75
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQ3_B",
+      "endpoints": [
+        [
+          46.0,
+          14.65
+        ],
+        [
+          26.8,
+          12.25
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQ6_B",
+      "endpoints": [
+        [
+          46.9,
+          14.8
+        ],
+        [
+          28.4,
+          14.2
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQ4_B",
+      "endpoints": [
+        [
+          47.475,
+          14.75
+        ],
+        [
+          28.4,
+          12.25
+        ]
+      ],
+      "routes": []
+    },
+    {
+      "net": "LPDDR4_DQ9_B",
+      "endpoints": [
+        [
+          49.5,
+          14.65
+        ],
+        [
+          33.2,
+          14.2
+        ]
+      ],
+      "routes": []
+    }
+  ]
+}

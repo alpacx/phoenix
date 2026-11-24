@@ -1,3 +1,7 @@
+## Checkpoint hardware corrente
+
+Per riprendere il routing consultare [il checkpoint RK3562](migration-rk3562/README.md). Il lavoro al 24 novembre 2026 comprende il collegamento del clock PHY a R512 e il banco USB a 1,8 V. I salvataggi del 17 novembre riportati sotto documentano le revisioni precedenti.
+
 ## Salvataggio parziale — 17 novembre 2026, RXCLK e corridoi PHY
 
 Checkpoint principale: `bdeb44f58dea3d0261469c1d3f7eeb5a9e6df03e95648710393c9e09c83f6aeb`.
@@ -332,7 +336,7 @@ Dodici vias termici candidati seguono gli esempi TI RVC0020A/RNH0030A: land/foro
 
 I tentativi precedenti scartati e la successiva revisione accettata come bozza parziale sono registrati in `usb-power-routing-trials.json`. Le viste dei sei strati rame sono in `migration-rk3562/review/pcb-views/`. Il controllo `tools/check_rk3562_release.py` confronta gli hash dei report con il PCB e mantiene il progetto **bloccato per fabbricazione**: DRC geometrico superato non significa scheda completata.
 
-La richiesta tecnica al fornitore, preparata ma non inviata, è `migration-rk3562/review/manufacturer-information-request.txt`: mancano prescrizioni RK3562 specifiche per DDR3 RZQ/VREF, sequenze PMIC e package FCCSP478. I riferimenti RK3568 non qualificano questi aspetti. Restano inoltre routing USB dati/DDR/Ethernet e alimentazioni, footprint/montaggio display, stackup/escape, SI/PI, firmware di avvio e prove termiche passive. Nessun prototipo custom è stato provato.
+La richiesta tecnica al fornitore, preparata ma non inviata, è `migration-rk3562/review/manufacturer-information-request.txt`: la bozza corrente riguarda la LPDDR4 H9HCNNN8KUMLHR-NME, le sequenze PMIC e le quote di rame e maschera del package FCCSP478L. I riferimenti RK3568 non qualificano questi aspetti. Restano inoltre routing USB dati/DDR/Ethernet e alimentazioni, footprint/montaggio display, stackup/escape, SI/PI, firmware di avvio e prove termiche passive. Nessun prototipo custom è stato provato.
 
 Corretti i contorni di assemblaggio di 26 istanze in 20 file delle librerie locali RK3562, mantenendo invariati pad e fori. Il controllo `courtyard-envelope-audit.json` verifica che tutti i pad siano racchiusi dai contorni; questo è un requisito geometrico necessario, non una qualifica completa di package, tolleranze o processo di montaggio. Le correzioni sono conservate anche in `migration-rk3562/overrides/footprints/`; il riuso delle librerie verifica gli hash originali prima di applicarle. La baseline RK3568 non è stata modificata. La ricerca dei percorsi considera ora la distanza dal bordo del rame, incluso il raggio dei vias, mantenendo 0,25 mm di clearance.
 

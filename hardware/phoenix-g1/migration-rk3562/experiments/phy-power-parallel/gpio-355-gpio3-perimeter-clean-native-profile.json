@@ -1,0 +1,61 @@
+{
+  "sha256": "4571181a6002ed2c180a754a360f62accd47f5a06dfd607e85f30811a0177037",
+  "validated_pairs": 818,
+  "lost": [],
+  "signal": {
+    "F.Cu": {
+      "copper_mm": 49.45347942577251,
+      "samples": 7560,
+      "own_void": 268,
+      "foreign_void": 0
+    },
+    "B.Cu": {
+      "copper_mm": 16.219269418873598,
+      "samples": 2520,
+      "own_void": 134,
+      "foreign_void": 0
+    },
+    "In2.Cu": {
+      "copper_mm": 20.645079348883232,
+      "samples": 3147,
+      "own_void": 128,
+      "foreign_void": 0
+    },
+    "In3.Cu": {
+      "copper_mm": 41.4048773235279,
+      "samples": 6339,
+      "own_void": 139,
+      "foreign_void": 0
+    }
+  },
+  "signal_length_mm": 127.72270551705724,
+  "ground_stitch_distances": [
+    {
+      "via": "35b1e426-d71c-480d-be55-216a5cb9df8b",
+      "distance_mm": 1.4569317073905697
+    },
+    {
+      "via": "38405fb3-90aa-4646-b336-2af3b5ceb842",
+      "distance_mm": 1.6970562748477143
+    },
+    {
+      "via": "5f2b7b2e-ed68-41cf-bc3a-2f9cde84598e",
+      "distance_mm": 2.0665490557932564
+    },
+    {
+      "via": "a40faf97-4951-43f7-99b2-41c8037537f9",
+      "distance_mm": 0.8015609770940699
+    },
+    {
+      "via": "e7892297-1431-4259-8625-0e4f7ac4193c",
+      "distance_mm": 2.0124611797498106
+    }
+  ],
+  "rail_original_mm": 5.4,
+  "rail_new_mm": 5.731370849898476,
+  "rail_widths_mm": [
+    1.0
+  ],
+  "new_drc": [],
+  "status": "COUPON: target signal closed but route and return path require review"
+}

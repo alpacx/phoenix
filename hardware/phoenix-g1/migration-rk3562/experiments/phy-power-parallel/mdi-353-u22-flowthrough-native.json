@@ -1,0 +1,48 @@
+{
+  "parent_sha256": "572d6ba53bb0abb0c7e86dd2c158361c9c12bd9cfcacd297c1c752aa674aea3d",
+  "sha256": "58359323933cff82074c4aae0d4fda5d9279ec0238f28d46ef2c61aa3f6a6e71",
+  "board": "runs/u22-flowthrough-two-jack-pairs/phy-joint.kicad_pcb",
+  "native_open": 353,
+  "drc_delta": [
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "1383fc32-22e7-4f68-b9cc-d929ca8b0fef",
+        "78b7c051-2365-441e-9e2b-18ec49c218cc"
+      ],
+      "count": 1
+    },
+    {
+      "type": "track_dangling",
+      "severity": "warning",
+      "items": [
+        "f873137b-fde6-4c06-9578-ba276cace2cc"
+      ],
+      "count": 1
+    }
+  ],
+  "lost_pairs": [],
+  "verified_pairs": 821,
+  "new_tracks": [
+    [
+      "78b7c051-2365-441e-9e2b-18ec49c218cc",
+      "a6545cd5-7973-47a6-888f-61157875b8a8"
+    ],
+    [
+      "96220e8a-43f1-4e59-8058-f54caf6eca9b",
+      "3e50e01c-9a27-4eab-86da-7689f9268cd0"
+    ]
+  ],
+  "mask_regressions": {
+    "F.Cu": [],
+    "B.Cu": []
+  },
+  "experimental_pin_assignment": {
+    "pin": "U22.6",
+    "old": "",
+    "new": "ETH_MDI1_N"
+  },
+  "data_sheet": "https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf",
+  "status": "EXPERIMENT_ONLY_REQUIRES_SCHEMATIC_AND_CHANNEL_REVIEW"
+}

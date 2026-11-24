@@ -1,0 +1,51 @@
+{
+  "sha256": "332819072386a86841bab4079ff2456fc12c44f3636aa3ea2e11c10904e83ae3",
+  "ground_dialog": {
+    "capacitor_ground_reaches_main": true,
+    "ground_group_items": 2076
+  },
+  "center_and_edge_reference_samples": 5112,
+  "missing": 342,
+  "missing_beyond_power_antipads": [],
+  "max_distance_mm": 0.4220189569201838,
+  "nearest_main_ground_vias": [
+    [
+      [
+        2.57390753524675,
+        [
+          37250000,
+          5250000
+        ]
+      ]
+    ],
+    [
+      [
+        1.7846568297574747,
+        [
+          37250000,
+          5250000
+        ]
+      ]
+    ]
+  ],
+  "scope": "Nominal planar return geometry. No thermal/DC qualification; full decoupling of any SoC I/O ball needs its supply connection.",
+  "void_samples_beyond_all_connected_supply_via_antipads": 0,
+  "other_samples": [],
+  "outside_actual_same_net_via_antipads": 0,
+  "actual_examples": [],
+  "new_track_lengths_mm": {
+    "B.Cu": 13.405382386916239,
+    "In2.Cu": 19.840916292848974
+  },
+  "copper_only_20C_estimate": {
+    "width_mm": 0.5,
+    "thickness_mm_assumed": {
+      "B.Cu": 0.035,
+      "In2.Cu": 0.0175
+    },
+    "length_counts_both_short_parallel_links_conservatively": true,
+    "resistance_ohm": 0.05229849063587819,
+    "drop_mV_at_50mA_RMS": 2.6149245317939096,
+    "source": "Samsung KLM8G1GETF-B041 table 32: 8 GB HS400 VCC 50 mA RMS on 100 ms. Excludes vias, upstream supply, 0-ohm resistor and instantaneous write peaks."
+  }
+}

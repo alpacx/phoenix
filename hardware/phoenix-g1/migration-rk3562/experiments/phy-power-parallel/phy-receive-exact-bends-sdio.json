@@ -1,0 +1,358 @@
+{
+  "parent_sha256": "532c456a73507d50ee5623bdd648e3a0b989dda76f398229db709e7a9855348b",
+  "rows": [
+    {
+      "pin": "22",
+      "net": "PHY_RXD3",
+      "direction": [
+        0,
+        -1
+      ],
+      "width_mm": 0.2,
+      "maximum_center_to_pad_edge_mm": 0.09,
+      "minimum_nominal_copper_overlap_mm": 0.01,
+      "launch_length_mm": 0.3,
+      "open_starts": 8,
+      "examples": [
+        [
+          [
+            64400000,
+            28260000
+          ],
+          [
+            64450000,
+            27960000
+          ]
+        ],
+        [
+          [
+            64400000,
+            28260000
+          ],
+          [
+            64400000,
+            27960000
+          ]
+        ],
+        [
+          [
+            64400000,
+            28250000
+          ],
+          [
+            64450000,
+            27950000
+          ]
+        ]
+      ],
+      "nearest": [
+        [
+          [
+            [
+              "8e469025-2ff9-4178-ab16-5f8f2dffe74e",
+              "U5.21"
+            ]
+          ],
+          1028
+        ],
+        [
+          [
+            [
+              "102b54c2-4363-4fe7-b332-fdc6d2294ee6",
+              "U5.23"
+            ]
+          ],
+          578
+        ],
+        [
+          [
+            [
+              "cb94d987-f347-4ca5-bcf2-d2b7b7ce7fcd",
+              "PHY_RXD1"
+            ]
+          ],
+          1
+        ],
+        [
+          [
+            [
+              "102b54c2-4363-4fe7-b332-fdc6d2294ee6",
+              "U5.23"
+            ],
+            [
+              "cb94d987-f347-4ca5-bcf2-d2b7b7ce7fcd",
+              "PHY_RXD1"
+            ]
+          ],
+          497
+        ]
+      ]
+    },
+    {
+      "pin": "23",
+      "net": "PHY_RXD2",
+      "direction": [
+        0,
+        -1
+      ],
+      "width_mm": 0.2,
+      "maximum_center_to_pad_edge_mm": 0.09,
+      "minimum_nominal_copper_overlap_mm": 0.01,
+      "launch_length_mm": 0.3,
+      "open_starts": 0,
+      "examples": [],
+      "nearest": [
+        [
+          [
+            [
+              "d2c87006-a120-47b4-afdf-b4c0a2fdff1b",
+              "U5.22"
+            ]
+          ],
+          22
+        ],
+        [
+          [
+            [
+              "cb94d987-f347-4ca5-bcf2-d2b7b7ce7fcd",
+              "PHY_RXD1"
+            ],
+            [
+              "d2c87006-a120-47b4-afdf-b4c0a2fdff1b",
+              "U5.22"
+            ]
+          ],
+          858
+        ],
+        [
+          [
+            [
+              "cb94d987-f347-4ca5-bcf2-d2b7b7ce7fcd",
+              "PHY_RXD1"
+            ],
+            [
+              "fba2110d-446f-485b-aa78-ae16f4aa405c",
+              "PHY_RXD1"
+            ]
+          ],
+          19
+        ],
+        [
+          [
+            [
+              "cb94d987-f347-4ca5-bcf2-d2b7b7ce7fcd",
+              "PHY_RXD1"
+            ],
+            [
+              "d0ebea0e-dcc4-450b-a76e-a5a2ba5c0f1b",
+              "U5.24"
+            ],
+            [
+              "fba2110d-446f-485b-aa78-ae16f4aa405c",
+              "PHY_RXD1"
+            ]
+          ],
+          1342
+        ]
+      ]
+    },
+    {
+      "pin": "25",
+      "net": "PHY_RXD0",
+      "direction": [
+        0,
+        -1
+      ],
+      "width_mm": 0.2,
+      "maximum_center_to_pad_edge_mm": 0.09,
+      "minimum_nominal_copper_overlap_mm": 0.01,
+      "launch_length_mm": 0.3,
+      "open_starts": 0,
+      "examples": [],
+      "nearest": [
+        [
+          [
+            [
+              "96f7ffaf-52c6-4d69-b1f8-c4197c0fbe71",
+              "U5.26"
+            ]
+          ],
+          1071
+        ],
+        [
+          [
+            [
+              "fba2110d-446f-485b-aa78-ae16f4aa405c",
+              "PHY_RXD1"
+            ]
+          ],
+          9
+        ],
+        [
+          [
+            [
+              "96f7ffaf-52c6-4d69-b1f8-c4197c0fbe71",
+              "U5.26"
+            ],
+            [
+              "d0ebea0e-dcc4-450b-a76e-a5a2ba5c0f1b",
+              "U5.24"
+            ]
+          ],
+          27
+        ],
+        [
+          [
+            [
+              "d0ebea0e-dcc4-450b-a76e-a5a2ba5c0f1b",
+              "U5.24"
+            ],
+            [
+              "fba2110d-446f-485b-aa78-ae16f4aa405c",
+              "PHY_RXD1"
+            ]
+          ],
+          19
+        ]
+      ]
+    },
+    {
+      "pin": "26",
+      "net": "PHY_RXDV_CRS",
+      "direction": [
+        0,
+        -1
+      ],
+      "width_mm": 0.2,
+      "maximum_center_to_pad_edge_mm": 0.09,
+      "minimum_nominal_copper_overlap_mm": 0.01,
+      "launch_length_mm": 0.3,
+      "open_starts": 23,
+      "examples": [
+        [
+          [
+            62800000,
+            28260000
+          ],
+          [
+            62850000,
+            27960000
+          ]
+        ],
+        [
+          [
+            62800000,
+            28260000
+          ],
+          [
+            62800000,
+            27960000
+          ]
+        ],
+        [
+          [
+            62800000,
+            28260000
+          ],
+          [
+            62750000,
+            27960000
+          ]
+        ]
+      ],
+      "nearest": [
+        [
+          [
+            [
+              "cab2c99c-efcd-4ebe-b8e0-05ccf1ca7d84",
+              "U5.25"
+            ]
+          ],
+          1404
+        ],
+        [
+          [
+            [
+              "1e1ad506-c3e8-41b0-9305-3e3671f90d04",
+              "U5.27"
+            ]
+          ],
+          1404
+        ],
+        [
+          [
+            [
+              "1e1ad506-c3e8-41b0-9305-3e3671f90d04",
+              "U5.27"
+            ],
+            [
+              "cab2c99c-efcd-4ebe-b8e0-05ccf1ca7d84",
+              "U5.25"
+            ]
+          ],
+          319
+        ]
+      ]
+    },
+    {
+      "pin": "27",
+      "net": "PHY_RXCLK",
+      "direction": [
+        0,
+        -1
+      ],
+      "width_mm": 0.2,
+      "maximum_center_to_pad_edge_mm": 0.09,
+      "minimum_nominal_copper_overlap_mm": 0.01,
+      "launch_length_mm": 0.3,
+      "open_starts": 0,
+      "examples": [],
+      "nearest": [
+        [
+          [
+            [
+              "96f7ffaf-52c6-4d69-b1f8-c4197c0fbe71",
+              "U5.26"
+            ]
+          ],
+          966
+        ],
+        [
+          [
+            [
+              "cdf3d8a7-7648-4a02-ac10-35688f2415ef",
+              "+3V3_PHY"
+            ]
+          ],
+          14
+        ],
+        [
+          [
+            [
+              "308ea973-7bb8-441a-84d7-7df0153ba492",
+              "U5.28"
+            ],
+            [
+              "cdf3d8a7-7648-4a02-ac10-35688f2415ef",
+              "+3V3_PHY"
+            ]
+          ],
+          538
+        ],
+        [
+          [
+            [
+              "96f7ffaf-52c6-4d69-b1f8-c4197c0fbe71",
+              "U5.26"
+            ],
+            [
+              "cdf3d8a7-7648-4a02-ac10-35688f2415ef",
+              "+3V3_PHY"
+            ]
+          ],
+          168
+        ]
+      ]
+    }
+  ]
+}

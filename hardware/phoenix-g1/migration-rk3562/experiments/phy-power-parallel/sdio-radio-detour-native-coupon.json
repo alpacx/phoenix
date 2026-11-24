@@ -1,0 +1,43 @@
+{
+  "parent_sha256": "532c456a73507d50ee5623bdd648e3a0b989dda76f398229db709e7a9855348b",
+  "coupon_sha256": "40fd5dbc4106ce7c5bbfc3612407604b43b53c8f9b3b9a9a21b3028a439aec1f",
+  "incoming_width_mm": 0.8,
+  "extension_mm": 0.663,
+  "launch_length_mm": 0.4414213562373095,
+  "via_nm": [
+    60000000,
+    26600000
+  ],
+  "radio_to_via": true,
+  "remaining_minimum_joins": 398,
+  "lost_physical_pairs": [],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 7710,
+    "explicitly_replaced_copper": {
+      "661062cc-5842-4edc-9a8b-d56e5622ed5e": [
+        "+5V_MAIN",
+        6,
+        60900000,
+        24900000,
+        56900000,
+        32100000,
+        800000,
+        null
+      ]
+    },
+    "added_tracks_vias": 7,
+    "existing_connected_pad_groups_preserved": 125
+  },
+  "introduced_drc": [
+    {
+      "type": "via_dangling",
+      "severity": "warning",
+      "items": [
+        "a46aa4fc-b8dd-4e0a-9829-6c86dba7b81e"
+      ],
+      "count": 1
+    }
+  ],
+  "adopted": false
+}

@@ -1,0 +1,576 @@
+{
+  "parent": "2fe2813697e3b0592397c59b14558cfec6d1af4ebe5c13aea3254863adfd6cc9",
+  "results": [
+    {
+      "net": "+3V3_IO",
+      "pins": [
+        "U1.1G15",
+        "U1.1H14"
+      ],
+      "solution": null,
+      "near": [
+        {
+          "width": 300000,
+          "path": [
+            [
+              47550000,
+              19350000
+            ],
+            [
+              46900000,
+              20000000
+            ]
+          ],
+          "blockers": [
+            [
+              "PCB_TRACK",
+              "GND",
+              "2bf0f1e2-be28-4b9e-8573-014dbb9d3565"
+            ],
+            [
+              "PCB_TRACK",
+              "GND",
+              "97c65977-7392-44d2-9ecc-f2087d486c05"
+            ]
+          ]
+        },
+        {
+          "width": 300000,
+          "path": [
+            [
+              47550000,
+              19350000
+            ],
+            [
+              47475888,
+              19600888
+            ],
+            [
+              47150888,
+              19925888
+            ],
+            [
+              46900000,
+              20000000
+            ]
+          ],
+          "blockers": [
+            [
+              "PAD",
+              "",
+              "b06bc866-f853-4e41-a3a7-c079227e7ff4"
+            ],
+            [
+              "PCB_TRACK",
+              "GND",
+              "2bf0f1e2-be28-4b9e-8573-014dbb9d3565"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "net": "+3V3_IO",
+      "pins": [
+        "U1.1K3",
+        "U1.1L5"
+      ],
+      "solution": null,
+      "near": [
+        {
+          "width": 300000,
+          "path": [
+            [
+              39750000,
+              21300000
+            ],
+            [
+              39940836,
+              21730828
+            ],
+            [
+              40590836,
+              22055828
+            ],
+            [
+              41050000,
+              21950000
+            ]
+          ],
+          "blockers": [
+            [
+              "PAD",
+              "GND",
+              "1e439c05-db1a-4f48-b575-6afee41b21a9"
+            ],
+            [
+              "PCB_TRACK",
+              "GND",
+              "204ca8ca-5206-46fa-bf87-d56429749224"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "net": "+3V3_IO",
+      "pins": [
+        "U1.1K3",
+        "U1.1M4"
+      ],
+      "solution": null,
+      "near": []
+    },
+    {
+      "net": "+3V3_IO",
+      "pins": [
+        "U1.1L3",
+        "U1.1L5"
+      ],
+      "solution": null,
+      "near": [
+        {
+          "width": 300000,
+          "path": [
+            [
+              39750000,
+              21950000
+            ],
+            [
+              41050000,
+              21950000
+            ]
+          ],
+          "blockers": [
+            [
+              "PAD",
+              "GND",
+              "1e439c05-db1a-4f48-b575-6afee41b21a9"
+            ],
+            [
+              "PCB_TRACK",
+              "GND",
+              "204ca8ca-5206-46fa-bf87-d56429749224"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "net": "+3V3_IO",
+      "pins": [
+        "U1.1L3",
+        "U1.1M4"
+      ],
+      "solution": null,
+      "near": []
+    },
+    {
+      "net": "+3V3_IO",
+      "pins": [
+        "U1.1L5",
+        "U1.1M4"
+      ],
+      "solution": null,
+      "near": []
+    },
+    {
+      "net": "VDDA0V9_IMAGE",
+      "pins": [
+        "U1.1L6",
+        "U1.1L8"
+      ],
+      "solution": null,
+      "near": [
+        {
+          "width": 300000,
+          "path": [
+            [
+              41700000,
+              21950000
+            ],
+            [
+              43000000,
+              21950000
+            ]
+          ],
+          "blockers": [
+            [
+              "PAD",
+              "GND",
+              "79328594-ed06-45e8-ad0d-5a14e1811d62"
+            ],
+            [
+              "PCB_TRACK",
+              "GND",
+              "ed24d168-e928-420d-bf28-21f9c28639fb"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "net": "VDDA0V9_IMAGE",
+      "pins": [
+        "U1.1L8",
+        "U1.1M9"
+      ],
+      "solution": null,
+      "near": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pins": [
+        "U1.1D11",
+        "U1.1E9"
+      ],
+      "solution": null,
+      "near": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pins": [
+        "U1.1D11",
+        "U1.1E10"
+      ],
+      "solution": null,
+      "near": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pins": [
+        "U2.AA5",
+        "U2.W5"
+      ],
+      "solution": null,
+      "near": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pins": [
+        "U2.AA8",
+        "U2.W8"
+      ],
+      "solution": null,
+      "near": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pins": [
+        "U2.B5",
+        "U2.D5"
+      ],
+      "solution": null,
+      "near": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pins": [
+        "U2.B8",
+        "U2.D8"
+      ],
+      "solution": null,
+      "near": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pins": [
+        "U2.D5",
+        "U2.F5"
+      ],
+      "solution": null,
+      "near": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pins": [
+        "U2.D8",
+        "U2.F8"
+      ],
+      "solution": null,
+      "near": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pins": [
+        "U2.F3",
+        "U2.F5"
+      ],
+      "solution": null,
+      "near": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pins": [
+        "U2.F3",
+        "U2.G2"
+      ],
+      "solution": null,
+      "near": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pins": [
+        "U2.F5",
+        "U2.H5"
+      ],
+      "solution": null,
+      "near": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pins": [
+        "U2.F8",
+        "U2.F10"
+      ],
+      "solution": null,
+      "near": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pins": [
+        "U2.F8",
+        "U2.H8"
+      ],
+      "solution": null,
+      "near": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pins": [
+        "U2.H1",
+        "U2.K1"
+      ],
+      "solution": null,
+      "near": [
+        {
+          "width": 350000,
+          "path": [
+            [
+              25600000,
+              6725000
+            ],
+            [
+              25600000,
+              8025000
+            ]
+          ],
+          "blockers": [
+            [
+              "PAD",
+              "GND",
+              "f2f0a727-9e81-4d79-918c-414cecb82c85"
+            ],
+            [
+              "PCB_TRACK",
+              "GND",
+              "985327b6-a2ef-4313-99cb-49ca51a28cb7"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pins": [
+        "U2.H12",
+        "U2.K12"
+      ],
+      "solution": null,
+      "near": [
+        {
+          "width": 350000,
+          "path": [
+            [
+              34400000,
+              6725000
+            ],
+            [
+              34400000,
+              8025000
+            ]
+          ],
+          "blockers": [
+            [
+              "PAD",
+              "GND",
+              "d8043ed3-33c3-4431-bdf2-33c27a3db262"
+            ],
+            [
+              "PCB_TRACK",
+              "GND",
+              "704f28ab-7632-42d0-8219-ed7c1ec2928c"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pins": [
+        "U2.K1",
+        "U2.K3"
+      ],
+      "solution": null,
+      "near": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pins": [
+        "U2.N1",
+        "U2.N3"
+      ],
+      "solution": null,
+      "near": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pins": [
+        "U2.N1",
+        "U2.R1"
+      ],
+      "solution": null,
+      "near": [
+        {
+          "width": 350000,
+          "path": [
+            [
+              25600000,
+              9975000
+            ],
+            [
+              25800000,
+              10300000
+            ],
+            [
+              25800000,
+              10950000
+            ],
+            [
+              25600000,
+              11275000
+            ]
+          ],
+          "blockers": [
+            [
+              "PAD",
+              "GND",
+              "e226afbf-abe5-4fe9-94dc-c10f45909c67"
+            ],
+            [
+              "PCB_TRACK",
+              "GND",
+              "cc3f7d76-477e-455d-9759-886ddc6ab9c8"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pins": [
+        "U2.N12",
+        "U2.R12"
+      ],
+      "solution": null,
+      "near": [
+        {
+          "width": 300000,
+          "path": [
+            [
+              34400000,
+              9975000
+            ],
+            [
+              34650000,
+              10300000
+            ],
+            [
+              34650000,
+              10950000
+            ],
+            [
+              34400000,
+              11275000
+            ]
+          ],
+          "blockers": [
+            [
+              "PAD",
+              "GND",
+              "d9417784-6a8b-4380-aa47-83b1dcd32d33"
+            ],
+            [
+              "PCB_TRACK",
+              "GND",
+              "84976069-bcae-4524-8363-17c58c7ac9ea"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pins": [
+        "U2.R5",
+        "U2.U5"
+      ],
+      "solution": null,
+      "near": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pins": [
+        "U2.R8",
+        "U2.U8"
+      ],
+      "solution": null,
+      "near": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pins": [
+        "U2.T2",
+        "U2.U3"
+      ],
+      "solution": null,
+      "near": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pins": [
+        "U2.U3",
+        "U2.U5"
+      ],
+      "solution": null,
+      "near": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pins": [
+        "U2.U5",
+        "U2.W5"
+      ],
+      "solution": null,
+      "near": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pins": [
+        "U2.U8",
+        "U2.U10"
+      ],
+      "solution": null,
+      "near": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "pins": [
+        "U2.U8",
+        "U2.W8"
+      ],
+      "solution": null,
+      "near": []
+    }
+  ]
+}

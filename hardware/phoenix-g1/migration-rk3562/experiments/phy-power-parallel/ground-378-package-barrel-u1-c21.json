@@ -1,0 +1,192 @@
+{
+  "parent_sha256": "66c2bdaae33894e5e7050d7e1320c5c123d86e38cad9c0ce5baf29c2c6fa26dd",
+  "radius_mm": 0.225,
+  "drill_mm": 0.2,
+  "rows": [
+    {
+      "blockers": [
+        [
+          "0908b84e-cede-4e41-b0fb-c75cddd46c2b",
+          "GND",
+          "U1.C21"
+        ],
+        [
+          "61ed9cf1-e8d8-47e8-8f46-5e08b6ce1cac",
+          "LPDDR4_DQ3_B",
+          "PCB_VIA"
+        ],
+        [
+          "d2ffed99-3181-46f9-8d1d-a21ef0e462ac",
+          "LPDDR4_DQ6_B",
+          "PCB_VIA"
+        ]
+      ],
+      "sites": 8,
+      "examples": [
+        {
+          "at": [
+            46475000,
+            14575000
+          ],
+          "path": [
+            [
+              46475000,
+              14575000
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "0908b84e-cede-4e41-b0fb-c75cddd46c2b",
+          "GND",
+          "U1.C21"
+        ],
+        [
+          "200f31a3-9b80-471f-ba0b-600608cdc1ac",
+          "LPDDR4_DQ6_B",
+          "U1.C22"
+        ],
+        [
+          "d2ffed99-3181-46f9-8d1d-a21ef0e462ac",
+          "LPDDR4_DQ6_B",
+          "PCB_VIA"
+        ]
+      ],
+      "sites": 2,
+      "examples": [
+        {
+          "at": [
+            46575000,
+            14475000
+          ],
+          "path": [
+            [
+              46575000,
+              14475000
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "0908b84e-cede-4e41-b0fb-c75cddd46c2b",
+          "GND",
+          "U1.C21"
+        ],
+        [
+          "61ed9cf1-e8d8-47e8-8f46-5e08b6ce1cac",
+          "LPDDR4_DQ3_B",
+          "PCB_VIA"
+        ],
+        [
+          "d2ffed99-3181-46f9-8d1d-a21ef0e462ac",
+          "LPDDR4_DQ6_B",
+          "PCB_VIA"
+        ],
+        [
+          "e382e6f6-a9a5-42b9-9753-ed8fc4009ce8",
+          "LPDDR4_DQ3_B",
+          "U1.C20"
+        ]
+      ],
+      "sites": 9,
+      "examples": [
+        {
+          "at": [
+            46450000,
+            14600000
+          ],
+          "path": [
+            [
+              46450000,
+              14600000
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "0908b84e-cede-4e41-b0fb-c75cddd46c2b",
+          "GND",
+          "U1.C21"
+        ],
+        [
+          "200f31a3-9b80-471f-ba0b-600608cdc1ac",
+          "LPDDR4_DQ6_B",
+          "U1.C22"
+        ],
+        [
+          "434cd051-4924-430b-a99f-608dad0518b5",
+          "LPDDR4_DM0_B",
+          "U1.B21"
+        ],
+        [
+          "d2ffed99-3181-46f9-8d1d-a21ef0e462ac",
+          "LPDDR4_DQ6_B",
+          "PCB_VIA"
+        ]
+      ],
+      "sites": 6,
+      "examples": [
+        {
+          "at": [
+            46575000,
+            14450000
+          ],
+          "path": [
+            [
+              46575000,
+              14450000
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "0908b84e-cede-4e41-b0fb-c75cddd46c2b",
+          "GND",
+          "U1.C21"
+        ],
+        [
+          "434cd051-4924-430b-a99f-608dad0518b5",
+          "LPDDR4_DM0_B",
+          "U1.B21"
+        ],
+        [
+          "75d55c4f-dbd4-4529-bdca-a99de8c708a8",
+          "LPDDR4_DM0_B",
+          "PCB_TRACK"
+        ],
+        [
+          "ceb2e8c2-0992-4889-ad15-724ca5d74efd",
+          "LPDDR4_DM0_B",
+          "PCB_VIA"
+        ]
+      ],
+      "sites": 5,
+      "examples": [
+        {
+          "at": [
+            46525000,
+            14350000
+          ],
+          "path": [
+            [
+              46525000,
+              14350000
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

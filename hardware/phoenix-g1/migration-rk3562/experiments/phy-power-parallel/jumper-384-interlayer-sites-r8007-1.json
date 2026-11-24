@@ -1,0 +1,96 @@
+{
+  "parent_sha256": "7ef5617c6179916a69a16147809051ba1e2565f09f7b938848636b3ced51fc58",
+  "radius_mm": 0.225,
+  "drill_mm": 0.2,
+  "rows": [
+    {
+      "blockers": [],
+      "sites": 1134,
+      "examples": [
+        {
+          "at": [
+            29500000,
+            400000
+          ],
+          "path": []
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "85573255-e687-4b6d-9a38-7b1027cb8fbf",
+          "+1V8_SYS",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 376,
+      "examples": [
+        {
+          "at": [
+            36400000,
+            1600000
+          ],
+          "path": []
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "079d7d68-83ed-4fe1-aa77-dba994fa91ff",
+          "+1V8_SYS",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 152,
+      "examples": [
+        {
+          "at": [
+            33800000,
+            1600000
+          ],
+          "path": []
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "3be14b8b-2d70-4d93-92cd-deac5f0fe24a",
+          "LCD_LEDK",
+          "Q1.3"
+        ]
+      ],
+      "sites": 67,
+      "examples": [
+        {
+          "at": [
+            40200000,
+            2800000
+          ],
+          "path": []
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "035ebbae-430f-46c5-8e49-77fac19fba28",
+          "LCD_BL_BASE",
+          "R1802.1"
+        ]
+      ],
+      "sites": 50,
+      "examples": [
+        {
+          "at": [
+            37800000,
+            2300000
+          ],
+          "path": []
+        }
+      ]
+    }
+  ]
+}

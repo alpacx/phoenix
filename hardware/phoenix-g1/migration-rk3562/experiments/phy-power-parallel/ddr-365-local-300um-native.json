@@ -1,0 +1,181 @@
+{
+  "parent_sha256": "8eec4cb0680eeb8ab56bedb43e348bcfa1202c5dde3d76ffedc9f1fecf8a781b",
+  "geometries": [
+    {
+      "pair": [
+        "C1646.1",
+        "U2.AA10"
+      ],
+      "path": [
+        [
+          31350000,
+          15300000
+        ],
+        [
+          31375000,
+          15300000
+        ],
+        [
+          31400000,
+          15325000
+        ],
+        [
+          31425000,
+          15325000
+        ],
+        [
+          31450000,
+          15350000
+        ],
+        [
+          31475000,
+          15350000
+        ],
+        [
+          31875000,
+          15750000
+        ]
+      ],
+      "length_mm": 0.7113961030678928,
+      "width_mm": 0.3,
+      "mask": 0,
+      "reference_voids_outside_same_net_antipads": 0,
+      "samples": 168
+    },
+    {
+      "pair": [
+        "U2.A9",
+        "U2.B8"
+      ],
+      "path": [
+        [
+          31350000,
+          2700000
+        ],
+        [
+          31375000,
+          2700000
+        ],
+        [
+          31400000,
+          2675000
+        ],
+        [
+          31425000,
+          2675000
+        ],
+        [
+          31450000,
+          2650000
+        ],
+        [
+          31475000,
+          2650000
+        ],
+        [
+          31875000,
+          2250000
+        ]
+      ],
+      "length_mm": 0.7113961030678928,
+      "width_mm": 0.3,
+      "mask": 0,
+      "reference_voids_outside_same_net_antipads": 0,
+      "samples": 168
+    }
+  ],
+  "accepted": [
+    {
+      "pair": [
+        "C1646.1",
+        "U2.AA10"
+      ],
+      "path": [
+        [
+          31350000,
+          15300000
+        ],
+        [
+          31375000,
+          15300000
+        ],
+        [
+          31400000,
+          15325000
+        ],
+        [
+          31425000,
+          15325000
+        ],
+        [
+          31450000,
+          15350000
+        ],
+        [
+          31475000,
+          15350000
+        ],
+        [
+          31875000,
+          15750000
+        ]
+      ],
+      "length_mm": 0.7113961030678928,
+      "width_mm": 0.3,
+      "mask": 0,
+      "reference_voids_outside_same_net_antipads": 0,
+      "samples": 168,
+      "nominal_resistance_mohm": 1.168
+    },
+    {
+      "pair": [
+        "U2.A9",
+        "U2.B8"
+      ],
+      "path": [
+        [
+          31350000,
+          2700000
+        ],
+        [
+          31375000,
+          2700000
+        ],
+        [
+          31400000,
+          2675000
+        ],
+        [
+          31425000,
+          2675000
+        ],
+        [
+          31450000,
+          2650000
+        ],
+        [
+          31475000,
+          2650000
+        ],
+        [
+          31875000,
+          2250000
+        ]
+      ],
+      "length_mm": 0.7113961030678928,
+      "width_mm": 0.3,
+      "mask": 0,
+      "reference_voids_outside_same_net_antipads": 0,
+      "samples": 168,
+      "nominal_resistance_mohm": 1.168
+    }
+  ],
+  "attempts": [
+    {
+      "pairs": 2,
+      "joins": 363,
+      "delta": []
+    }
+  ],
+  "bounds": "Trace-only at 20 \u00b0C, assumed 35 \u00b5m foil. Datasheet H9HCNNN8KUMLHR IDD4R2/Q gives 345/368 mA for its read test. Upper-bound illustrative 0.713 A through one local spur; omits vias, necks, package current split, hot copper and transient response."
+}

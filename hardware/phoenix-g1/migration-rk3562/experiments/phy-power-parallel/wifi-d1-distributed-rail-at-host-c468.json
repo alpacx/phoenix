@@ -1,0 +1,34 @@
+{
+  "parent_sha256": "02a1533baeddff4eacdbcbc8b6e6ea209aa1dd280f7ff08d73bccf7d0e228c8d",
+  "screen_counts": {
+    "courtyard": 476,
+    "pad_clearance": 43
+  },
+  "candidates": 24,
+  "two_contact_candidates": 0,
+  "result": [
+    {
+      "board": "runs/wifi-d1-distributed-rail-at-host-c468/phy-joint.kicad_pcb",
+      "sha256": "532c456a73507d50ee5623bdd648e3a0b989dda76f398229db709e7a9855348b",
+      "r_position_nm": [
+        46400000,
+        21420000
+      ],
+      "angle": 0,
+      "primary_anchor": "C1628.1",
+      "secondary_connected_pads": [],
+      "signal_stub_mm": 0.13601470508735444,
+      "rail_contact_nm": null,
+      "rail_trace_mm": null,
+      "preservation": {
+        "existing_pad_instances_preserved": 2008,
+        "existing_tracks_vias_preserved": 7710,
+        "explicitly_replaced_copper": {},
+        "added_tracks_vias": 1,
+        "existing_connected_pad_groups_preserved": 125
+      },
+      "new_drc": []
+    }
+  ],
+  "assembly_ready": false
+}

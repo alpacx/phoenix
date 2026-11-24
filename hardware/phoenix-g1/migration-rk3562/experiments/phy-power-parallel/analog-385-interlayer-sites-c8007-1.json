@@ -1,0 +1,96 @@
+{
+  "parent_sha256": "5f1e35c9ba48aa94096402ef3d651906cba989d762f51e2cb0843fc39ce5f2e4",
+  "radius_mm": 0.225,
+  "drill_mm": 0.2,
+  "rows": [
+    {
+      "blockers": [],
+      "sites": 3,
+      "examples": [
+        {
+          "at": [
+            39700000,
+            8100000
+          ],
+          "path": []
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "84b1f29e-bcea-4b60-9b77-8e69903c2176",
+          "EMMC_RESET_N",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 5,
+      "examples": [
+        {
+          "at": [
+            38800000,
+            7300000
+          ],
+          "path": []
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "071d71f7-069f-4b8b-bc46-d7ef56cea642",
+          "",
+          "U8001.K10"
+        ]
+      ],
+      "sites": 2,
+      "examples": [
+        {
+          "at": [
+            39700000,
+            7500000
+          ],
+          "path": []
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "b1b48802-57ee-4547-92e3-e41a31a3fad9",
+          "EMMC_3V3",
+          "U8001.J10"
+        ]
+      ],
+      "sites": 1,
+      "examples": [
+        {
+          "at": [
+            39600000,
+            8200000
+          ],
+          "path": []
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "437106e3-1ecd-4251-ae41-e54a2353ea07",
+          "GND",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 1,
+      "examples": [
+        {
+          "at": [
+            39700000,
+            8400000
+          ],
+          "path": []
+        }
+      ]
+    }
+  ]
+}

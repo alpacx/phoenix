@@ -1,0 +1,59 @@
+{
+  "parent_sha256": "532c456a73507d50ee5623bdd648e3a0b989dda76f398229db709e7a9855348b",
+  "layer": "In2.Cu",
+  "rows": [
+    {
+      "released_uuid": "6d269492-05a0-4edc-8edf-f6e842c3aa90",
+      "point_nm": [
+        63500000,
+        22300000
+      ],
+      "width_mm": 0.8,
+      "candidates_with_barrel_clearance": 89,
+      "clear_fullwidth_shapes": 0,
+      "best": []
+    },
+    {
+      "released_uuid": "661062cc-5842-4edc-9a8b-d56e5622ed5e",
+      "point_nm": [
+        60000000,
+        26600000
+      ],
+      "width_mm": 0.8,
+      "candidates_with_barrel_clearance": 63,
+      "clear_fullwidth_shapes": 43,
+      "best": [
+        [
+          0.663,
+          [
+            [
+              60900000,
+              24900000
+            ],
+            [
+              60548809,
+              25532143
+            ],
+            [
+              59460969,
+              25842955
+            ],
+            [
+              59072455,
+              26542281
+            ],
+            [
+              59383266,
+              27630121
+            ],
+            [
+              56900000,
+              32100000
+            ]
+          ]
+        ]
+      ]
+    }
+  ],
+  "adopted": false
+}

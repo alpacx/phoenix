@@ -1,0 +1,245 @@
+{
+  "checkpoint": "e4fb29a282d8036852c362e2668b05ab2998d73cc0ef99c49af5cb5e94ae95e1",
+  "count": 14,
+  "rows": [
+    {
+      "pad": "C1304.1",
+      "net": "+3V3_SYS",
+      "via_net": "+3V3_SYS",
+      "land": [
+        18.55,
+        38.75
+      ],
+      "via": [
+        18.55,
+        38.75
+      ],
+      "drill": 0.4,
+      "diameter": 0.8,
+      "in_land": true,
+      "hole_fraction": 1.0
+    },
+    {
+      "pad": "C1305.1",
+      "net": "+3V3_SYS",
+      "via_net": "+3V3_SYS",
+      "land": [
+        18.55,
+        36.5
+      ],
+      "via": [
+        18.55,
+        36.65
+      ],
+      "drill": 0.4,
+      "diameter": 0.8,
+      "in_land": true,
+      "hole_fraction": 1.0
+    },
+    {
+      "pad": "C1665.2",
+      "net": "GND",
+      "via_net": "GND",
+      "land": [
+        23.08,
+        19.98
+      ],
+      "via": [
+        23.1,
+        20.0
+      ],
+      "drill": 0.2,
+      "diameter": 0.45,
+      "in_land": true,
+      "hole_fraction": 1.0
+    },
+    {
+      "pad": "C518.1",
+      "net": "+3V3_PHY",
+      "via_net": "+3V3_PHY",
+      "land": [
+        60.100001,
+        33.899999
+      ],
+      "via": [
+        60.1,
+        33.9
+      ],
+      "drill": 0.3,
+      "diameter": 0.55,
+      "in_land": true,
+      "hole_fraction": 1.0
+    },
+    {
+      "pad": "R510.2",
+      "net": "PHY_RXD3",
+      "via_net": "PHY_RXD3",
+      "land": [
+        68.01,
+        30.0
+      ],
+      "via": [
+        68.01,
+        30.1
+      ],
+      "drill": 0.2,
+      "diameter": 0.45,
+      "in_land": true,
+      "hole_fraction": 1.0
+    },
+    {
+      "pad": "R521.1",
+      "net": "PHY_RXD3",
+      "via_net": "PHY_RXD3",
+      "land": [
+        68.0,
+        30.1
+      ],
+      "via": [
+        68.01,
+        30.1
+      ],
+      "drill": 0.2,
+      "diameter": 0.45,
+      "in_land": true,
+      "hole_fraction": 1.0
+    },
+    {
+      "pad": "C515.1",
+      "net": "+3V3_PHY",
+      "via_net": "+3V3_PHY",
+      "land": [
+        61.975,
+        24.2
+      ],
+      "via": [
+        62.015,
+        24.6
+      ],
+      "drill": 0.3,
+      "diameter": 0.6,
+      "in_land": true,
+      "hole_fraction": 0.8047
+    },
+    {
+      "pad": "C512.1",
+      "net": "+1V0_PHY",
+      "via_net": "+1V0_PHY",
+      "land": [
+        62.27,
+        34.75
+      ],
+      "via": [
+        62.45,
+        34.5
+      ],
+      "drill": 0.3,
+      "diameter": 0.6,
+      "in_land": true,
+      "hole_fraction": 0.597
+    },
+    {
+      "pad": "C513.1",
+      "net": "+1V0_PHY",
+      "via_net": "+1V0_PHY",
+      "land": [
+        64.92,
+        34.5
+      ],
+      "via": [
+        65.099999,
+        34.25
+      ],
+      "drill": 0.3,
+      "diameter": 0.6,
+      "in_land": true,
+      "hole_fraction": 0.597
+    },
+    {
+      "pad": "C514.1",
+      "net": "+1V0_PHY",
+      "via_net": "+1V0_PHY",
+      "land": [
+        66.75,
+        28.98
+      ],
+      "via": [
+        67.05,
+        29.1
+      ],
+      "drill": 0.3,
+      "diameter": 0.6,
+      "in_land": true,
+      "hole_fraction": 0.5038
+    },
+    {
+      "pad": "C514.1",
+      "net": "+1V0_PHY",
+      "via_net": "+1V0_PHY",
+      "land": [
+        66.75,
+        28.98
+      ],
+      "via": [
+        66.45,
+        29.1
+      ],
+      "drill": 0.3,
+      "diameter": 0.6,
+      "in_land": true,
+      "hole_fraction": 0.5038
+    },
+    {
+      "pad": "C1011.1",
+      "net": "VDD_CPU",
+      "via_net": "VDD_CPU",
+      "land": [
+        64.55,
+        11.5
+      ],
+      "via": [
+        64.3,
+        12.25
+      ],
+      "drill": 0.3,
+      "diameter": 0.6,
+      "in_land": false,
+      "hole_fraction": 0.3683
+    },
+    {
+      "pad": "C512.1",
+      "net": "+1V0_PHY",
+      "via_net": "+1V0_PHY",
+      "land": [
+        62.27,
+        34.75
+      ],
+      "via": [
+        61.9,
+        34.5
+      ],
+      "drill": 0.3,
+      "diameter": 0.6,
+      "in_land": false,
+      "hole_fraction": 0.0724
+    },
+    {
+      "pad": "C513.1",
+      "net": "+1V0_PHY",
+      "via_net": "+1V0_PHY",
+      "land": [
+        64.92,
+        34.5
+      ],
+      "via": [
+        64.55,
+        34.25
+      ],
+      "drill": 0.3,
+      "diameter": 0.6,
+      "in_land": false,
+      "hole_fraction": 0.0724
+    }
+  ],
+  "interpretation": "Copper-land overlap on surface passives. Determine whether any via is filled and capped from the fabrication specification."
+}

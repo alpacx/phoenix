@@ -1,0 +1,6132 @@
+{
+  "parent": "2e1fb9239839c738e589cebdfdeb759e05cdf1fa563a0bad3fada5a2580afcc9",
+  "grid_mm": 0.05,
+  "width_mm": 0.2,
+  "copper_clearance_mm": 0.2,
+  "hole_clearance_mm": 0.25,
+  "via_od_drill_mm": [
+    0.45,
+    0.2
+  ],
+  "raster_margin_mm": 0.012,
+  "allowed_layers": [
+    0,
+    6,
+    8,
+    2
+  ],
+  "results": [
+    {
+      "net": "DDR_FB",
+      "islands": [
+        {
+          "pads": [
+            "R432.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "R431.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U4.27"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "GND",
+      "islands": [
+        {
+          "pads": [
+            "U1.A16"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U1.AE21"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U1.AG15"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U1.C15"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U1.C21"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U1.C24"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U1.C3"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U1.C7"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U1.D2"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U2.G10"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U2.T10"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U8001.C4"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U8001.N2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U8001.N5"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.C25",
+            "U1.D25"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U2.N11",
+            "U2.P12"
+          ],
+          "launch_components": 2,
+          "connected_regions": 2
+        },
+        {
+          "pads": [
+            "C1001.2",
+            "C1002.2",
+            "C1011.2",
+            "C1012.2",
+            "C1013.2",
+            "C1014.2",
+            "C1101.2",
+            "C1102.2",
+            "C1103.2",
+            "C1104.2",
+            "C1105.2",
+            "C1106.2",
+            "C1107.2",
+            "C1201.2",
+            "C1202.2",
+            "C1203.2",
+            "C1301.2",
+            "C1302.2",
+            "C1303.2",
+            "C1304.2",
+            "C1305.2",
+            "C1501.2",
+            "C1502.2",
+            "C1503.2",
+            "C1601.2",
+            "C1602.2",
+            "C1603.2",
+            "C1604.2",
+            "C1605.2",
+            "C1606.2",
+            "C1607.2",
+            "C1608.2",
+            "C1609.2",
+            "C1610.2",
+            "C1611.2",
+            "C1612.2",
+            "C1613.2",
+            "C1614.2",
+            "C1615.2",
+            "C1616.2",
+            "C1617.2",
+            "C1618.2",
+            "C1619.2",
+            "C1620.2",
+            "C1621.2",
+            "C1622.2",
+            "C1623.2",
+            "C1624.2",
+            "C1625.2",
+            "C1626.2",
+            "C1627.2",
+            "C1628.2",
+            "C1629.2",
+            "C1630.2",
+            "C1631.2",
+            "C1632.2",
+            "C1633.2",
+            "C1634.2",
+            "C1635.2",
+            "C1636.2",
+            "C1637.2",
+            "C1638.2",
+            "C1639.2",
+            "C1640.2",
+            "C1641.2",
+            "C1642.2",
+            "C1643.2",
+            "C1644.2",
+            "C1645.2",
+            "C1646.2",
+            "C1647.2",
+            "C1648.2",
+            "C1649.2",
+            "C1650.2",
+            "C1651.2",
+            "C1652.2",
+            "C1653.2",
+            "C1654.2",
+            "C1655.2",
+            "C1656.2",
+            "C1657.2",
+            "C1658.2",
+            "C1659.2",
+            "C1660.2",
+            "C1661.2",
+            "C1662.2",
+            "C1663.2",
+            "C1664.2",
+            "C1665.2",
+            "C1666.2",
+            "C1667.2",
+            "C1668.2",
+            "C1669.2",
+            "C1670.2",
+            "C1671.2",
+            "C1672.2",
+            "C1673.2",
+            "C1674.2",
+            "C1675.2",
+            "C1676.2",
+            "C1677.2",
+            "C1678.2",
+            "C1679.2",
+            "C1680.2",
+            "C1681.2",
+            "C1682.2",
+            "C1683.2",
+            "C1801.2",
+            "C1802.2",
+            "C1811.2",
+            "C1812.2",
+            "C1901.2",
+            "C1902.2",
+            "C1903.2",
+            "C2001.2",
+            "C2002.2",
+            "C2003.2",
+            "C2004.2",
+            "C2005.2",
+            "C2006.2",
+            "C2007.2",
+            "C2008.2",
+            "C2009.2",
+            "C2201.2",
+            "C2202.2",
+            "C2203.2",
+            "C2204.2",
+            "C2301.2",
+            "C2302.2",
+            "C2303.2",
+            "C2304.2",
+            "C2305.2",
+            "C2306.2",
+            "C2307.2",
+            "C2308.2",
+            "C410.2",
+            "C411.2",
+            "C412.2",
+            "C413.2",
+            "C414.2",
+            "C415.2",
+            "C421.2",
+            "C422.2",
+            "C423.2",
+            "C424.2",
+            "C425.2",
+            "C431.2",
+            "C432.2",
+            "C433.2",
+            "C434.2",
+            "C435.2",
+            "C441.2",
+            "C442.2",
+            "C443.2",
+            "C444.2",
+            "C445.2",
+            "C460.2",
+            "C461.2",
+            "C462.2",
+            "C463.2",
+            "C464.2",
+            "C465.2",
+            "C466.2",
+            "C467.2",
+            "C468.2",
+            "C469.2",
+            "C470.2",
+            "C480.2",
+            "C481.2",
+            "C482.2",
+            "C483.2",
+            "C484.2",
+            "C485.2",
+            "C501.2",
+            "C511.2",
+            "C512.2",
+            "C513.2",
+            "C514.2",
+            "C515.2",
+            "C516.2",
+            "C517.2",
+            "C518.2",
+            "C519.2",
+            "C520.2",
+            "C521.2",
+            "C522.2",
+            "C531.2",
+            "C605.2",
+            "C606.2",
+            "C8001.2",
+            "C8002.2",
+            "C8003.2",
+            "C8004.2",
+            "C8005.2",
+            "C8006.2",
+            "C8007.2",
+            "C8008.2",
+            "C8009.2",
+            "C8010.2",
+            "C8101.2",
+            "C8102.2",
+            "C8103.2",
+            "J1.A1",
+            "J1.A12",
+            "J1.B1",
+            "J1.B12",
+            "J2001.2",
+            "J2001.3",
+            "J3.10",
+            "J3.11",
+            "J3.12",
+            "J3.13",
+            "J3.14",
+            "J3.15",
+            "J3.16",
+            "J3.17",
+            "J3.18",
+            "J3.20",
+            "J3.22",
+            "J3.37",
+            "J3.38",
+            "J3.9",
+            "Q1.2",
+            "R1102.2",
+            "R1103.2",
+            "R1201.2",
+            "R1506.2",
+            "R1802.2",
+            "R1804.2",
+            "R1811.2",
+            "R1812.2",
+            "R1813.2",
+            "R1814.2",
+            "R1902.2",
+            "R1904.2",
+            "R1905.2",
+            "R2002.2",
+            "R2203.2",
+            "R411.2",
+            "R432.2",
+            "R513.2",
+            "R516.2",
+            "R522.2",
+            "R523.2",
+            "R524.2",
+            "R528.2",
+            "R529.2",
+            "R8005.2",
+            "R8101.2",
+            "R8103.2",
+            "TP1.1",
+            "U1.1A11",
+            "U1.1A12",
+            "U1.1A14",
+            "U1.1A2",
+            "U1.1A4",
+            "U1.1A5",
+            "U1.1B12",
+            "U1.1B14",
+            "U1.1B2",
+            "U1.1B4",
+            "U1.1B5",
+            "U1.1B9",
+            "U1.1C1",
+            "U1.1C10",
+            "U1.1C11",
+            "U1.1C12",
+            "U1.1C13",
+            "U1.1C14",
+            "U1.1C15",
+            "U1.1C2",
+            "U1.1C3",
+            "U1.1C4",
+            "U1.1C5",
+            "U1.1C6",
+            "U1.1C7",
+            "U1.1D1",
+            "U1.1D10",
+            "U1.1D12",
+            "U1.1D13",
+            "U1.1D14",
+            "U1.1D15",
+            "U1.1D2",
+            "U1.1D3",
+            "U1.1D7",
+            "U1.1D8",
+            "U1.1D9",
+            "U1.1E1",
+            "U1.1E11",
+            "U1.1E13",
+            "U1.1E2",
+            "U1.1F1",
+            "U1.1F10",
+            "U1.1F15",
+            "U1.1F2",
+            "U1.1F3",
+            "U1.1F4",
+            "U1.1F5",
+            "U1.1F7",
+            "U1.1F9",
+            "U1.1G13",
+            "U1.1G14",
+            "U1.1G2",
+            "U1.1G6",
+            "U1.1G7",
+            "U1.1G9",
+            "U1.1H1",
+            "U1.1H12",
+            "U1.1H13",
+            "U1.1H2",
+            "U1.1H5",
+            "U1.1H9",
+            "U1.1J1",
+            "U1.1J13",
+            "U1.1J2",
+            "U1.1J3",
+            "U1.1J4",
+            "U1.1J5",
+            "U1.1J8",
+            "U1.1J9",
+            "U1.1K1",
+            "U1.1K11",
+            "U1.1K12",
+            "U1.1K13",
+            "U1.1K4",
+            "U1.1K5",
+            "U1.1K6",
+            "U1.1K7",
+            "U1.1K8",
+            "U1.1K9",
+            "U1.1L10",
+            "U1.1L15",
+            "U1.1L2",
+            "U1.1L4",
+            "U1.1L7",
+            "U1.1L9",
+            "U1.1M12",
+            "U1.1M3",
+            "U1.1M5",
+            "U1.1M6",
+            "U1.1N1",
+            "U1.1N10",
+            "U1.1N11",
+            "U1.1N12",
+            "U1.1N13",
+            "U1.1N14",
+            "U1.1N15",
+            "U1.1N2",
+            "U1.1N3",
+            "U1.1N4",
+            "U1.1N5",
+            "U1.1N6",
+            "U1.1N7",
+            "U1.1N8",
+            "U1.1P1",
+            "U1.1P10",
+            "U1.1P11",
+            "U1.1P13",
+            "U1.1P2",
+            "U1.1P4",
+            "U1.1P5",
+            "U1.1P6",
+            "U1.1P8",
+            "U1.1P9",
+            "U1.1R1",
+            "U1.1R10",
+            "U1.1R12",
+            "U1.1R14",
+            "U1.1R2",
+            "U1.1R4",
+            "U1.1R5",
+            "U1.1R6",
+            "U1.1R8",
+            "U1.1R9",
+            "U1.A1",
+            "U1.A12",
+            "U1.A27",
+            "U1.AA26",
+            "U1.AA27",
+            "U1.AB25",
+            "U1.AC3",
+            "U1.AD25",
+            "U1.AD3",
+            "U1.AE10",
+            "U1.AE11",
+            "U1.AE12",
+            "U1.AE13",
+            "U1.AE14",
+            "U1.AE2",
+            "U1.AE25",
+            "U1.AE3",
+            "U1.AE4",
+            "U1.AE5",
+            "U1.AE6",
+            "U1.AE7",
+            "U1.AE8",
+            "U1.AE9",
+            "U1.AF24",
+            "U1.AG1",
+            "U1.AG26",
+            "U1.AG27",
+            "U1.B14",
+            "U1.C13",
+            "U1.C14",
+            "U1.C19",
+            "U1.C4",
+            "U1.C9",
+            "U1.E25",
+            "U1.E26",
+            "U1.E27",
+            "U1.E3",
+            "U1.F25",
+            "U1.F26",
+            "U1.F3",
+            "U1.G25",
+            "U1.G26",
+            "U1.G27",
+            "U1.J3",
+            "U1.L25",
+            "U1.M27",
+            "U1.P26",
+            "U1.U3",
+            "U10.B2",
+            "U10.B3",
+            "U10.B4",
+            "U10.C1",
+            "U10.C2",
+            "U10.C3",
+            "U10.C4",
+            "U11.2",
+            "U12.2",
+            "U13.3",
+            "U14.3",
+            "U15.8",
+            "U15.9",
+            "U16.3",
+            "U17.15",
+            "U17.16",
+            "U17.17",
+            "U17.5",
+            "U17.6",
+            "U17.7",
+            "U17.8",
+            "U19.3",
+            "U2.A10",
+            "U2.A3",
+            "U2.AB10",
+            "U2.AB3",
+            "U2.AB5",
+            "U2.AB8",
+            "U2.C1",
+            "U2.C12",
+            "U2.C5",
+            "U2.C8",
+            "U2.D11",
+            "U2.D2",
+            "U2.D4",
+            "U2.D9",
+            "U2.E1",
+            "U2.E12",
+            "U2.E5",
+            "U2.E8",
+            "U2.G1",
+            "U2.G12",
+            "U2.G3",
+            "U2.G5",
+            "U2.G8",
+            "U2.J1",
+            "U2.J10",
+            "U2.J12",
+            "U2.J3",
+            "U2.K11",
+            "U2.K2",
+            "U2.K4",
+            "U2.K9",
+            "U2.N2",
+            "U2.N4",
+            "U2.N9",
+            "U2.P1",
+            "U2.P10",
+            "U2.P3",
+            "U2.T1",
+            "U2.T12",
+            "U2.T3",
+            "U2.T5",
+            "U2.T8",
+            "U2.V1",
+            "U2.V12",
+            "U2.V5",
+            "U2.V8",
+            "U2.W11",
+            "U2.W2",
+            "U2.W4",
+            "U2.W9",
+            "U2.Y1",
+            "U2.Y12",
+            "U2.Y5",
+            "U2.Y8",
+            "U20.2",
+            "U21.1",
+            "U21.10",
+            "U21.19",
+            "U21.7",
+            "U21.8",
+            "U21.9",
+            "U22.3",
+            "U22.8",
+            "U23.3",
+            "U23.8",
+            "U24.1",
+            "U24.16",
+            "U24.21",
+            "U24.3",
+            "U25.1",
+            "U25.20",
+            "U25.26",
+            "U25.27",
+            "U25.28",
+            "U25.29",
+            "U25.3",
+            "U25.31",
+            "U25.33",
+            "U25.34",
+            "U25.36",
+            "U25.43",
+            "U25.44",
+            "U25.6",
+            "U26.15",
+            "U26.16",
+            "U26.17",
+            "U26.6",
+            "U26.7",
+            "U26.8",
+            "U4.14",
+            "U4.15",
+            "U4.16",
+            "U4.17",
+            "U4.19",
+            "U4.40",
+            "U4.47",
+            "U4.56",
+            "U4.62",
+            "U4.63",
+            "U4.69",
+            "U4.69",
+            "U4.69",
+            "U4.69",
+            "U4.69",
+            "U4.69",
+            "U4.69",
+            "U4.69",
+            "U4.69",
+            "U4.69",
+            "U5.41",
+            "U6.13",
+            "U6.28",
+            "U6.3",
+            "U6.31",
+            "U6.4",
+            "U7.3",
+            "U7.8",
+            "U8.3",
+            "U8.8",
+            "U8001.A6",
+            "U8001.E7",
+            "U8001.G5",
+            "U8001.H10",
+            "U8001.J5",
+            "U8001.K8",
+            "U8001.P4",
+            "U8001.P6",
+            "U8101.8",
+            "U8101.9",
+            "U9.3",
+            "U9.8",
+            "Y1.2",
+            "Y1.4",
+            "Y2001.2",
+            "Y2002.2",
+            "Y2002.4",
+            "Y501.2",
+            "Y501.4"
+          ],
+          "launch_components": 190,
+          "connected_regions": 127
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "VDD_CPU",
+      "islands": [
+        {
+          "pads": [
+            "C1011.1",
+            "C1012.1",
+            "C1013.1",
+            "C1020.1",
+            "L1001.2",
+            "R1001.1"
+          ],
+          "launch_components": 10,
+          "connected_regions": 6
+        },
+        {
+          "pads": [
+            "C1014.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C1603.1",
+            "C1604.1",
+            "TP8.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C1605.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C1607.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C1601.1",
+            "C1602.1",
+            "C1606.1",
+            "C1608.1",
+            "U1.1G8",
+            "U1.1H6",
+            "U1.1H7",
+            "U1.1H8",
+            "U1.1J6",
+            "U1.1J7"
+          ],
+          "launch_components": 4,
+          "connected_regions": 3
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "net": "XTAL24_DRIVE",
+      "islands": [
+        {
+          "pads": [
+            "C1502.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "R1501.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "Y1.3"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "net": "ETH_MDIO",
+      "islands": [
+        {
+          "pads": [
+            "R514.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.AC2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U5.14"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "+1V8_SYS",
+      "islands": [
+        {
+          "pads": [
+            "U2.G4"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U2.G9"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U2.T4"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U2.T9"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U2.U1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U2.U12"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C2301.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C2302.1",
+            "C2303.1",
+            "C2304.1",
+            "C2305.1",
+            "C2306.1",
+            "C2307.1",
+            "C2308.1",
+            "C435.1",
+            "C445.1",
+            "L405.2",
+            "R8006.1",
+            "U2.F1",
+            "U2.F12",
+            "U4.59"
+          ],
+          "launch_components": 11,
+          "connected_regions": 2
+        }
+      ],
+      "possible": [
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "net": "+3V3_IO",
+      "islands": [
+        {
+          "pads": [
+            "U1.1K3",
+            "U1.1L3"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.1L5"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.1M4"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.1M14"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C1638.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C1627.1",
+            "C1628.1",
+            "C1637.1",
+            "C1639.1",
+            "C1640.1",
+            "C1641.1",
+            "C1683.1",
+            "C2004.1",
+            "C2005.1",
+            "C2006.1",
+            "C2007.1",
+            "C470.1",
+            "J3.36",
+            "R1505.1",
+            "R1804.1",
+            "R1815.2",
+            "R2010.2",
+            "R2011.2",
+            "R2012.2",
+            "R2013.2",
+            "R2014.2",
+            "R2101.2",
+            "R2102.2",
+            "R530.1",
+            "R8007.1",
+            "R8102.2",
+            "TP6.1",
+            "U20.3",
+            "U25.22",
+            "U4.55",
+            "Y2001.1",
+            "Y2001.4"
+          ],
+          "launch_components": 36,
+          "connected_regions": 12
+        },
+        {
+          "pads": [
+            "U1.1G15",
+            "U1.1H14"
+          ],
+          "launch_components": 2,
+          "connected_regions": 2
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "VDD_NPU",
+      "islands": [
+        {
+          "pads": [
+            "R424.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C454.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C1624.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C1623.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C1622.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C1621.1",
+            "U1.1G3",
+            "U1.1G4",
+            "U1.1G5",
+            "U1.1H3",
+            "U1.1H4"
+          ],
+          "launch_components": 4,
+          "connected_regions": 3
+        },
+        {
+          "pads": [
+            "C434.1",
+            "C444.1",
+            "L404.2"
+          ],
+          "launch_components": 4,
+          "connected_regions": 1
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "net": "VDD_NPU_COM",
+      "islands": [
+        {
+          "pads": [
+            "R424.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C454.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U4.64"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "net": "ETH_TXEN",
+      "islands": [
+        {
+          "pads": [
+            "R505.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.AA3"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "PHY_TXEN",
+      "islands": [
+        {
+          "pads": [
+            "R505.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U5.19"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "WIFI_RF",
+      "islands": [
+        {
+          "pads": [
+            "R2001.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U25.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "net": "WIFI_ANT",
+      "islands": [
+        {
+          "pads": [
+            "R2001.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "J2001.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "VDDA0V9_IMAGE",
+      "islands": [
+        {
+          "pads": [
+            "C460.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.1L6"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.1L8"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.1M9"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U4.23"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LCD_RESET_N",
+      "islands": [
+        {
+          "pads": [
+            "R1814.1",
+            "U21.5"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.N2"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "VDD_GPU",
+      "islands": [
+        {
+          "pads": [
+            "C452.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C442.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "L402.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.1E12",
+            "U1.1F11",
+            "U1.1F12",
+            "U1.1F13",
+            "U1.1G11",
+            "U1.1G12"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C432.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "R422.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C1618.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C1616.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C1617.1",
+            "C1619.1",
+            "C1620.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          5,
+          8
+        ]
+      ]
+    },
+    {
+      "net": "VDD_GPU_COM",
+      "islands": [
+        {
+          "pads": [
+            "C452.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "R422.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U4.8"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "net": "+3V3_PMU",
+      "islands": [
+        {
+          "pads": [
+            "C465.1",
+            "R1002.1",
+            "R2103.2",
+            "R2104.2",
+            "R412.1",
+            "R413.1",
+            "R416.1",
+            "R417.1",
+            "TP5.1"
+          ],
+          "launch_components": 22,
+          "connected_regions": 8
+        },
+        {
+          "pads": [
+            "U1.1L11",
+            "U1.1L12"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U4.31"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "C1625.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C1626.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "I2C0_SDA",
+      "islands": [
+        {
+          "pads": [
+            "R415.1",
+            "R417.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.AE23"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U10.B1"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "PHY_TXD0",
+      "islands": [
+        {
+          "pads": [
+            "R501.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U5.18"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "VCCIO_SD",
+      "islands": [
+        {
+          "pads": [
+            "C464.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U4.29"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "PHY_TXCLK",
+      "islands": [
+        {
+          "pads": [
+            "R506.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U5.20"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "XIN24M",
+      "islands": [
+        {
+          "pads": [
+            "C1501.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.AG25"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "R1502.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "Y1.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "net": "ETH_RXD3",
+      "islands": [
+        {
+          "pads": [
+            "R510.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.Y3"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "PHY_RXD3",
+      "islands": [
+        {
+          "pads": [
+            "R510.2",
+            "R521.1"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U5.22"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "PMIC_SW3",
+      "islands": [
+        {
+          "pads": [
+            "L403.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U4.25"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "islands": [
+        {
+          "pads": [
+            "R431.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.1D6",
+            "U1.1E10",
+            "U1.1E3",
+            "U1.1E4",
+            "U1.1E5",
+            "U1.1E6",
+            "U1.1E7",
+            "U1.1E8",
+            "U1.1E9"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.1D11"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U2.D1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U2.D5"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U2.D8"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U2.D12"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U2.F3"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U2.F5"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U2.F8"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U2.F10"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U2.G2",
+            "U2.H1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U2.H5"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U2.H12"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U2.K3"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U2.N3"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U2.R1",
+            "U2.T2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U2.R5"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U2.U3"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U2.U5"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U2.U8"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U2.U10"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U2.W5"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U2.W8"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U2.W12"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "R1503.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U4.26"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "C1646.1",
+            "C1647.1",
+            "C1648.1",
+            "C1649.1",
+            "C1650.1",
+            "C1651.1",
+            "C1652.1",
+            "C1653.1",
+            "C1654.1",
+            "C1655.1",
+            "C1656.1",
+            "C1657.1",
+            "C1658.1",
+            "C1659.1",
+            "C1660.1",
+            "C1661.1",
+            "C1662.1",
+            "C1663.1",
+            "C1664.1",
+            "C1665.1",
+            "C1666.1",
+            "C1667.1",
+            "C1668.1",
+            "C1669.1",
+            "C1670.1",
+            "C1671.1",
+            "C1672.1",
+            "C1673.1",
+            "C1674.1",
+            "C1675.1",
+            "C1676.1",
+            "C1677.1",
+            "C1678.1",
+            "C433.1",
+            "C443.1",
+            "L403.2",
+            "R201.2",
+            "TP7.1",
+            "U2.A4",
+            "U2.A9",
+            "U2.AA10",
+            "U2.AA3",
+            "U2.AA5",
+            "U2.AA8",
+            "U2.AB4",
+            "U2.AB9",
+            "U2.B10",
+            "U2.B3",
+            "U2.B5",
+            "U2.B8",
+            "U2.H8",
+            "U2.K1",
+            "U2.K10",
+            "U2.K12",
+            "U2.N1",
+            "U2.N10",
+            "U2.N12",
+            "U2.R12",
+            "U2.R8",
+            "U2.W1"
+          ],
+          "launch_components": 31,
+          "connected_regions": 12
+        }
+      ],
+      "possible": [
+        [
+          0,
+          25
+        ],
+        [
+          0,
+          27
+        ],
+        [
+          25,
+          27
+        ]
+      ]
+    },
+    {
+      "net": "VDD_LOGIC",
+      "islands": [
+        {
+          "pads": [
+            "C451.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.1G10",
+            "U1.1H10",
+            "U1.1H11",
+            "U1.1J10",
+            "U1.1J11",
+            "U1.1J12",
+            "U1.1K10"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "R421.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C1615.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C1613.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C1609.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C1610.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C1611.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C1614.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C1612.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C431.1",
+            "C441.1",
+            "L401.2"
+          ],
+          "launch_components": 4,
+          "connected_regions": 1
+        }
+      ],
+      "possible": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          8,
+          10
+        ]
+      ]
+    },
+    {
+      "net": "VDD_LOGIC_COM",
+      "islands": [
+        {
+          "pads": [
+            "C451.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "R421.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U4.13"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "net": "XOUT24M",
+      "islands": [
+        {
+          "pads": [
+            "R1501.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.AF25"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "R1502.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "net": "LCD_MOSI",
+      "islands": [
+        {
+          "pads": [
+            "R1811.1",
+            "U21.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.T3"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "USB_TX1_P",
+      "islands": [
+        {
+          "pads": [
+            "U7.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "J1.A2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C601.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "USB_TX1_N",
+      "islands": [
+        {
+          "pads": [
+            "U7.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "J1.A3"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C602.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "USB_RX1_P",
+      "islands": [
+        {
+          "pads": [
+            "U7.4"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U6.15"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "J1.B11"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "net": "USB_RX1_N",
+      "islands": [
+        {
+          "pads": [
+            "U7.5"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U6.14"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "J1.B10"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "VDDA_0V9",
+      "islands": [
+        {
+          "pads": [
+            "C461.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.1K14"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.1M10"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U4.21"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "C1643.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C1634.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C1633.1",
+            "C1642.1",
+            "R1601.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": [
+        [
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "net": "PMIC_INT_N",
+      "islands": [
+        {
+          "pads": [
+            "R413.2",
+            "U1.AF22"
+          ],
+          "launch_components": 12,
+          "connected_regions": 7
+        },
+        {
+          "pads": [
+            "U4.7"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "ETH_RESET_GPIO_N",
+      "islands": [
+        {
+          "pads": [
+            "R515.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.T2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "WIFI_REG_ON",
+      "islands": [
+        {
+          "pads": [
+            "R2002.1",
+            "U25.12"
+          ],
+          "launch_components": 12,
+          "connected_regions": 7
+        },
+        {
+          "pads": [
+            "U1.1J14"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "WIFI_D3",
+      "islands": [
+        {
+          "pads": [
+            "R2013.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.T26"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U25.15"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "PMIC_VREF",
+      "islands": [
+        {
+          "pads": [
+            "C413.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U4.46"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "VDDA0V9_PMU",
+      "islands": [
+        {
+          "pads": [
+            "C462.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.1M11"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.1M13"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U4.20"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "C1630.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C1629.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "SOC_VBUS_DET",
+      "islands": [
+        {
+          "pads": [
+            "C1503.1",
+            "R1505.2",
+            "R1506.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.1P14"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "ETH_MDI0_P",
+      "islands": [
+        {
+          "pads": [
+            "U22.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "J2.P2"
+          ],
+          "launch_components": 4,
+          "connected_regions": 2
+        },
+        {
+          "pads": [
+            "U5.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "net": "ETH_MDI0_N",
+      "islands": [
+        {
+          "pads": [
+            "U22.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "J2.P3"
+          ],
+          "launch_components": 4,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U5.2"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "ETH_MDI1_P",
+      "islands": [
+        {
+          "pads": [
+            "U22.4"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "J2.P4"
+          ],
+          "launch_components": 4,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U5.4"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "net": "ETH_MDI1_N",
+      "islands": [
+        {
+          "pads": [
+            "U22.5"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "J2.P7"
+          ],
+          "launch_components": 4,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U5.5"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "net": "RESET_N",
+      "islands": [
+        {
+          "pads": [
+            "C411.1",
+            "R1103.1",
+            "R1507.2",
+            "R412.2",
+            "TP9.1",
+            "U16.2"
+          ],
+          "launch_components": 20,
+          "connected_regions": 6
+        },
+        {
+          "pads": [
+            "U1.1P12"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U4.67"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "ADDON_USB_DP",
+      "islands": [
+        {
+          "pads": [
+            "J3.19"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U1.AE27"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "ADDON_USB_DM",
+      "islands": [
+        {
+          "pads": [
+            "J3.21"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U1.AE26"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "EXP_UART_TX",
+      "islands": [
+        {
+          "pads": [
+            "J3.25"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U1.Y26"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "EXP_UART_RX",
+      "islands": [
+        {
+          "pads": [
+            "J3.26"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U1.Y25"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "EXP_GPIO2",
+      "islands": [
+        {
+          "pads": [
+            "J3.29"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U1.K3"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "EXP_GPIO3",
+      "islands": [
+        {
+          "pads": [
+            "J3.30"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U1.L2"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "EXP_SPI_MISO",
+      "islands": [
+        {
+          "pads": [
+            "J3.33"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U1.AE18"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "EXP_SPI_CS1_N",
+      "islands": [
+        {
+          "pads": [
+            "J3.35"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U1.AF15"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "R2104.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "PMIC_SW2",
+      "islands": [
+        {
+          "pads": [
+            "L402.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U4.9"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "WIFI_CMD",
+      "islands": [
+        {
+          "pads": [
+            "R2014.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.T27"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U25.16"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "ETH_TXD1",
+      "islands": [
+        {
+          "pads": [
+            "R502.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.AA2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "PHY_TXD1",
+      "islands": [
+        {
+          "pads": [
+            "R502.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U5.17"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "PHY_TXD3",
+      "islands": [
+        {
+          "pads": [
+            "R504.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U5.15"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "PMIC_1V8D",
+      "islands": [
+        {
+          "pads": [
+            "C415.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U4.48"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "PHY_RSET",
+      "islands": [
+        {
+          "pads": [
+            "R513.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U5.39"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "I2C0_SCL",
+      "islands": [
+        {
+          "pads": [
+            "R414.1",
+            "R416.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.AG23"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U10.A3"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "WIFI_D0",
+      "islands": [
+        {
+          "pads": [
+            "R2010.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.U26"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U25.18"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "USB_TX2_P",
+      "islands": [
+        {
+          "pads": [
+            "U8.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "J1.B2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C603.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "net": "USB_TX2_N",
+      "islands": [
+        {
+          "pads": [
+            "U8.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "J1.B3"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C604.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "USB_RX2_P",
+      "islands": [
+        {
+          "pads": [
+            "U8.4"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U6.19"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "J1.A11"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "USB_RX2_N",
+      "islands": [
+        {
+          "pads": [
+            "U8.5"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U6.18"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "J1.A10"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "SOC_USB_TX_P",
+      "islands": [
+        {
+          "pads": [
+            "U6.6"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U1.AD26"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "SOC_USB_TX_N",
+      "islands": [
+        {
+          "pads": [
+            "U6.7"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U1.AD27"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "SOC_USB_RX_P",
+      "islands": [
+        {
+          "pads": [
+            "U6.9"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U1.AB26"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "SOC_USB_RX_N",
+      "islands": [
+        {
+          "pads": [
+            "U6.10"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U1.AB27"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "MUX_TX1_N",
+      "islands": [
+        {
+          "pads": [
+            "U6.16"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C602.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "net": "MUX_TX1_P",
+      "islands": [
+        {
+          "pads": [
+            "U6.17"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "C601.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "MUX_TX2_N",
+      "islands": [
+        {
+          "pads": [
+            "U6.20"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "C604.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "MUX_TX2_P",
+      "islands": [
+        {
+          "pads": [
+            "U6.21"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "C603.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "VCCA1V8_PMU",
+      "islands": [
+        {
+          "pads": [
+            "C467.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.1L13"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U4.5"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "C1632.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C1631.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": [
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "net": "WIFI_XOUT",
+      "islands": [
+        {
+          "pads": [
+            "R2004.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U25.11"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "WIFI_XTAL_OUT",
+      "islands": [
+        {
+          "pads": [
+            "R2004.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "Y2002.3"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C2009.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "net": "PMIC_SW1",
+      "islands": [
+        {
+          "pads": [
+            "L401.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U4.12"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQS1P_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.1A1"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.D10"
+          ],
+          "launch_components": 6,
+          "connected_regions": 4
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQS0P_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.1A3"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.D3"
+          ],
+          "launch_components": 6,
+          "connected_regions": 6
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_A3_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.1A6"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.H10"
+          ],
+          "launch_components": 4,
+          "connected_regions": 3
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_A5_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.1A7"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.J11"
+          ],
+          "launch_components": 6,
+          "connected_regions": 4
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_A5_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.1A8"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.P11"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_A4_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.1A9"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.R11"
+          ],
+          "launch_components": 6,
+          "connected_regions": 6
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_A3_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.1A10"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.R10"
+          ],
+          "launch_components": 4,
+          "connected_regions": 2
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQS0P_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.1A13"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.W3"
+          ],
+          "launch_components": 6,
+          "connected_regions": 6
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQS1P_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.1A15"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.W10"
+          ],
+          "launch_components": 5,
+          "connected_regions": 5
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQS1N_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.1B1"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.E10"
+          ],
+          "launch_components": 5,
+          "connected_regions": 4
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQS0N_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.1B3"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.E3"
+          ],
+          "launch_components": 5,
+          "connected_regions": 4
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_A4_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.1B8"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.H11"
+          ],
+          "launch_components": 4,
+          "connected_regions": 3
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQS0N_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.1B13"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.V3"
+          ],
+          "launch_components": 5,
+          "connected_regions": 3
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQS1N_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.1B15"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.V10"
+          ],
+          "launch_components": 5,
+          "connected_regions": 3
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "net": "DDR_RZQ",
+      "islands": [
+        {
+          "pads": [
+            "U1.1D4"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "R1503.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "VCCA_1V8",
+      "islands": [
+        {
+          "pads": [
+            "U1.1G1"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U1.1K2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.1K15"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U4.3"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "C1635.1",
+            "R1602.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C466.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C1636.1",
+            "R1504.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C1644.1",
+            "C1645.1",
+            "U1.1E14",
+            "U1.1E15"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "EMMC_IO_1V8",
+      "islands": [
+        {
+          "pads": [
+            "U1.1F14"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U8001.C6"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U8001.M4",
+            "U8001.N4"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C8002.1",
+            "C8003.1",
+            "C8004.1",
+            "C8005.1",
+            "C8006.1",
+            "C8010.1",
+            "R8001.1",
+            "R8002.1",
+            "R8003.1",
+            "R8006.2",
+            "U8001.P3",
+            "U8001.P5"
+          ],
+          "launch_components": 9,
+          "connected_regions": 5
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "USB_AVDD_0V9",
+      "islands": [
+        {
+          "pads": [
+            "U1.1L14"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C1679.1",
+            "C1680.1",
+            "R1601.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "VCCA1V8_IMAGE",
+      "islands": [
+        {
+          "pads": [
+            "C468.1",
+            "U4.6"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U1.1M7",
+            "U1.1M8",
+            "U1.1N9"
+          ],
+          "launch_components": 2,
+          "connected_regions": 2
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "USB_AVDD_1V8",
+      "islands": [
+        {
+          "pads": [
+            "U1.1M15"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "C1681.1",
+            "C1682.1",
+            "R1602.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "THERMAL_SHUTDOWN",
+      "islands": [
+        {
+          "pads": [
+            "U1.1R13"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "R1507.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DM1_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.A2"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.C10"
+          ],
+          "launch_components": 4,
+          "connected_regions": 2
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ14_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.A3"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U2.C9"
+          ],
+          "launch_components": 5,
+          "connected_regions": 4
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQ12_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.A4"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.F9"
+          ],
+          "launch_components": 6,
+          "connected_regions": 4
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ6_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.A6"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.C4"
+          ],
+          "launch_components": 5,
+          "connected_regions": 5
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ2_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.A8"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.E2"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_CLKN_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.A13"
+          ],
+          "launch_components": 4,
+          "connected_regions": 3
+        },
+        {
+          "pads": [
+            "U2.J9"
+          ],
+          "launch_components": 6,
+          "connected_regions": 4
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_CLKN_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.A15"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.P9"
+          ],
+          "launch_components": 6,
+          "connected_regions": 4
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_A1_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.A18"
+          ],
+          "launch_components": 4,
+          "connected_regions": 3
+        },
+        {
+          "pads": [
+            "U2.P2"
+          ],
+          "launch_components": 6,
+          "connected_regions": 4
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQ2_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.A20"
+          ],
+          "launch_components": 4,
+          "connected_regions": 3
+        },
+        {
+          "pads": [
+            "U2.V2"
+          ],
+          "launch_components": 4,
+          "connected_regions": 3
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQ7_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.A22"
+          ],
+          "launch_components": 4,
+          "connected_regions": 3
+        },
+        {
+          "pads": [
+            "U2.AA4"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQ12_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.A24"
+          ],
+          "launch_components": 4,
+          "connected_regions": 2
+        },
+        {
+          "pads": [
+            "U2.U9"
+          ],
+          "launch_components": 6,
+          "connected_regions": 4
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQ14_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.A25"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U2.Y9"
+          ],
+          "launch_components": 5,
+          "connected_regions": 5
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DM1_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.A26"
+          ],
+          "launch_components": 4,
+          "connected_regions": 2
+        },
+        {
+          "pads": [
+            "U2.Y10"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "ETH_TXD2",
+      "islands": [
+        {
+          "pads": [
+            "U1.AB3"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "R503.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "ETH_MDC",
+      "islands": [
+        {
+          "pads": [
+            "U1.AC1"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U5.13"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "DEBUG_TX",
+      "islands": [
+        {
+          "pads": [
+            "U1.AE20"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "TP12.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "DEBUG_RX",
+      "islands": [
+        {
+          "pads": [
+            "U1.AF20"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "TP11.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "PMIC_SLEEP",
+      "islands": [
+        {
+          "pads": [
+            "U1.AF23"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U10.A1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U4.49"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "USB_DM",
+      "islands": [
+        {
+          "pads": [
+            "U1.AF26"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U9.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "J1.A7"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "J1.B7"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": [
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP",
+      "islands": [
+        {
+          "pads": [
+            "U1.AF27"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U9.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "J1.A6"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "J1.B6"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQ10_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.B1"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.E11"
+          ],
+          "launch_components": 4,
+          "connected_regions": 2
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQ11_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.B2"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.F11"
+          ],
+          "launch_components": 6,
+          "connected_regions": 4
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQ15_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.B3"
+          ],
+          "launch_components": 5,
+          "connected_regions": 5
+        },
+        {
+          "pads": [
+            "U2.B9"
+          ],
+          "launch_components": 6,
+          "connected_regions": 4
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ13_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.B4"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U2.E9"
+          ],
+          "launch_components": 4,
+          "connected_regions": 3
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQ5_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.B5"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.E4"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQ0_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.B6"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.B2"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DM0_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.B7"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.C3"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQ1_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.B8"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U2.C2"
+          ],
+          "launch_components": 6,
+          "connected_regions": 6
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_A0_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.B10"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.H2"
+          ],
+          "launch_components": 4,
+          "connected_regions": 3
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_CS0N_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.B11"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.H4"
+          ],
+          "launch_components": 4,
+          "connected_regions": 2
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_CLKP_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.B13"
+          ],
+          "launch_components": 4,
+          "connected_regions": 2
+        },
+        {
+          "pads": [
+            "U2.J8"
+          ],
+          "launch_components": 4,
+          "connected_regions": 3
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_CLKP_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.B15"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.P8"
+          ],
+          "launch_components": 4,
+          "connected_regions": 2
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_CS0N_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.B17"
+          ],
+          "launch_components": 4,
+          "connected_regions": 2
+        },
+        {
+          "pads": [
+            "U2.R4"
+          ],
+          "launch_components": 4,
+          "connected_regions": 2
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_A0_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.B18"
+          ],
+          "launch_components": 4,
+          "connected_regions": 2
+        },
+        {
+          "pads": [
+            "U2.R2"
+          ],
+          "launch_components": 4,
+          "connected_regions": 2
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQ1_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.B20"
+          ],
+          "launch_components": 4,
+          "connected_regions": 3
+        },
+        {
+          "pads": [
+            "U2.Y2"
+          ],
+          "launch_components": 6,
+          "connected_regions": 6
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DM0_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.B21"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.Y3"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQ0_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.B22"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.AA2"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQ5_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.B23"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.V4"
+          ],
+          "launch_components": 4,
+          "connected_regions": 3
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQ13_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.B24"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.V9"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ15_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.B25"
+          ],
+          "launch_components": 4,
+          "connected_regions": 3
+        },
+        {
+          "pads": [
+            "U2.AA9"
+          ],
+          "launch_components": 6,
+          "connected_regions": 6
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQ11_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.B26"
+          ],
+          "launch_components": 9,
+          "connected_regions": 9
+        },
+        {
+          "pads": [
+            "U2.U11"
+          ],
+          "launch_components": 5,
+          "connected_regions": 3
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQ10_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.B27"
+          ],
+          "launch_components": 4,
+          "connected_regions": 3
+        },
+        {
+          "pads": [
+            "U2.V11"
+          ],
+          "launch_components": 6,
+          "connected_regions": 6
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQ9_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.C1"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.C11"
+          ],
+          "launch_components": 6,
+          "connected_regions": 4
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQ8_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.C2"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.B11"
+          ],
+          "launch_components": 4,
+          "connected_regions": 2
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQ4_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.C5"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.F4"
+          ],
+          "launch_components": 6,
+          "connected_regions": 5
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQ7_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.C6"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.B4"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQ3_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.C8"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.F2"
+          ],
+          "launch_components": 6,
+          "connected_regions": 5
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_A2_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.C10"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.H9"
+          ],
+          "launch_components": 4,
+          "connected_regions": 3
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_CKE0_A",
+      "islands": [
+        {
+          "pads": [
+            "U1.C12"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.J4"
+          ],
+          "launch_components": 6,
+          "connected_regions": 4
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_CKE0_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.C16"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.P4"
+          ],
+          "launch_components": 6,
+          "connected_regions": 4
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_A2_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.C18"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.R9"
+          ],
+          "launch_components": 4,
+          "connected_regions": 2
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQ3_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.C20"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.U2"
+          ],
+          "launch_components": 6,
+          "connected_regions": 4
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQ6_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.C22"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.Y4"
+          ],
+          "launch_components": 5,
+          "connected_regions": 5
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "net": "LPDDR4_DQ4_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.C23"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        },
+        {
+          "pads": [
+            "U2.U4"
+          ],
+          "launch_components": 6,
+          "connected_regions": 4
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQ8_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.C26"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U2.AA11"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "LPDDR4_DQ9_B",
+      "islands": [
+        {
+          "pads": [
+            "U1.C27"
+          ],
+          "launch_components": 4,
+          "connected_regions": 3
+        },
+        {
+          "pads": [
+            "U2.Y11"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "RECOVERY_ADC",
+      "islands": [
+        {
+          "pads": [
+            "U1.D26"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "R1504.1",
+            "TP10.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "EMMC_D2",
+      "islands": [
+        {
+          "pads": [
+            "U1.H25"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U8001.A5"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "EMMC_D6",
+      "islands": [
+        {
+          "pads": [
+            "U1.H26"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U8001.B5"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "EMMC_D7",
+      "islands": [
+        {
+          "pads": [
+            "U1.H27"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U8001.B6"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "EMMC_D0",
+      "islands": [
+        {
+          "pads": [
+            "U1.J25"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "R8001.2",
+            "U8001.A3"
+          ],
+          "launch_components": 7,
+          "connected_regions": 2
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "EMMC_D1",
+      "islands": [
+        {
+          "pads": [
+            "U1.J26"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U8001.A4"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "EMMC_D5",
+      "islands": [
+        {
+          "pads": [
+            "U1.K25"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U8001.B4"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "EMMC_D4",
+      "islands": [
+        {
+          "pads": [
+            "U1.K26"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U8001.B3"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "EMMC_D3",
+      "islands": [
+        {
+          "pads": [
+            "U1.K27"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U8001.B2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "EMMC_STRB",
+      "islands": [
+        {
+          "pads": [
+            "U1.L26"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "R8005.1",
+            "U8001.H5"
+          ],
+          "launch_components": 4,
+          "connected_regions": 2
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "SOC_EMMC_CLK",
+      "islands": [
+        {
+          "pads": [
+            "U1.M25"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "R8004.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "EMMC_CMD",
+      "islands": [
+        {
+          "pads": [
+            "U1.M26"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U8001.M5"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "R8002.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "WIFI_D2",
+      "islands": [
+        {
+          "pads": [
+            "U1.T25"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "R2012.1",
+            "U25.14"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "ETH_RXCLK",
+      "islands": [
+        {
+          "pads": [
+            "U1.U2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "R512.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "WIFI_CLK",
+      "islands": [
+        {
+          "pads": [
+            "U1.U25"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U25.17"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "ETH_RXDV_CRS",
+      "islands": [
+        {
+          "pads": [
+            "U1.V2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "R511.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "WIFI_D1",
+      "islands": [
+        {
+          "pads": [
+            "U1.V25"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "R2011.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U25.19"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "ETH_RXD1",
+      "islands": [
+        {
+          "pads": [
+            "U1.W1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "R508.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "ETH_RXD2",
+      "islands": [
+        {
+          "pads": [
+            "U1.W2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "R509.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "ETH_RXD0",
+      "islands": [
+        {
+          "pads": [
+            "U1.W3"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "R507.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "+3V3_SD",
+      "islands": [
+        {
+          "pads": [
+            "C469.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U4.58"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "PMIC_SW4",
+      "islands": [
+        {
+          "pads": [
+            "L404.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U4.65"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "PHY_RXD2",
+      "islands": [
+        {
+          "pads": [
+            "R509.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "R524.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U5.23"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "PHY_TXD2",
+      "islands": [
+        {
+          "pads": [
+            "R503.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U5.16"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "WIFI_XIN",
+      "islands": [
+        {
+          "pads": [
+            "Y2002.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "C2008.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U25.10"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "net": "ETH_MDI2_P",
+      "islands": [
+        {
+          "pads": [
+            "J2.P5"
+          ],
+          "launch_components": 4,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U5.6"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U23.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "net": "ETH_MDI2_N",
+      "islands": [
+        {
+          "pads": [
+            "J2.P6"
+          ],
+          "launch_components": 4,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U5.7"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U23.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "ETH_MDI3_P",
+      "islands": [
+        {
+          "pads": [
+            "J2.P8"
+          ],
+          "launch_components": 4,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U5.9"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "U23.4"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "ETH_MDI3_N",
+      "islands": [
+        {
+          "pads": [
+            "J2.P9"
+          ],
+          "launch_components": 4,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U5.10"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U23.5"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "net": "CHASSIS",
+      "islands": [
+        {
+          "pads": [
+            "J2.P10"
+          ],
+          "launch_components": 4,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "J2.SHIELD0"
+          ],
+          "launch_components": 4,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "J2.SHIELD1"
+          ],
+          "launch_components": 4,
+          "connected_regions": 1
+        }
+      ],
+      "possible": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "net": "PMIC_1V8A",
+      "islands": [
+        {
+          "pads": [
+            "U4.44"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "C414.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "PMIC_VDC",
+      "islands": [
+        {
+          "pads": [
+            "U4.61"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "C410.1",
+            "R410.2",
+            "R411.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "PHY_RXDV_CRS",
+      "islands": [
+        {
+          "pads": [
+            "R523.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U5.26"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "R511.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "PHY_RXD0",
+      "islands": [
+        {
+          "pads": [
+            "U5.25"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "R507.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "R526.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "PHY_CFG_EXT",
+      "islands": [
+        {
+          "pads": [
+            "U5.32"
+          ],
+          "launch_components": 0,
+          "connected_regions": 0
+        },
+        {
+          "pads": [
+            "R527.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "EMMC_VDDI",
+      "islands": [
+        {
+          "pads": [
+            "C8001.1"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "U8001.C2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "EMMC_3V3",
+      "islands": [
+        {
+          "pads": [
+            "C8007.1",
+            "C8008.1",
+            "C8009.1",
+            "R8007.2",
+            "U8001.J10",
+            "U8001.K9"
+          ],
+          "launch_components": 5,
+          "connected_regions": 2
+        },
+        {
+          "pads": [
+            "U8001.E6",
+            "U8001.F5"
+          ],
+          "launch_components": 4,
+          "connected_regions": 4
+        }
+      ],
+      "possible": []
+    },
+    {
+      "net": "EMMC_CLK",
+      "islands": [
+        {
+          "pads": [
+            "U8001.M6"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        },
+        {
+          "pads": [
+            "R8004.2"
+          ],
+          "launch_components": 1,
+          "connected_regions": 1
+        }
+      ],
+      "possible": []
+    }
+  ],
+  "scope": "Four copper routing layers joined only at qualified through-via sites with foreign-copper and hole clearances, keepouts and off-pad rings. Fans may terminate on previously attached same-net copper. CAD reload required for every positive route; a negative remains limited to this geometry."
+}

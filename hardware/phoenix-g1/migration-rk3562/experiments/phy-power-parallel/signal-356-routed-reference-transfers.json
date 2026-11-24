@@ -1,0 +1,594 @@
+{
+  "sha256": "fb7a58e1f26670f2e45f445ce87d49860b91f2aeb7e3fd0831ce8ddc255a0850",
+  "transfers": [
+    {
+      "net": "WIFI_HOST_WAKE",
+      "signal_via": "aea0ff43-ebc1-416e-ae93-75220a18575b",
+      "position": [
+        47800000,
+        36700000
+      ],
+      "trace_layers": [
+        "In2.Cu",
+        "In3.Cu"
+      ],
+      "nearest_ground": "f79a94df-bae0-469c-9cbb-99943efcd61b",
+      "gap_mm": 3.006659275674582
+    },
+    {
+      "net": "USB_ILIM",
+      "signal_via": "20c238df-af95-4661-a726-459c9bc10046",
+      "position": [
+        3650000,
+        35000000
+      ],
+      "trace_layers": [
+        "F.Cu",
+        "In3.Cu"
+      ],
+      "nearest_ground": "a94d5b10-ec87-4e52-a934-ff5cf32e8d48",
+      "gap_mm": 2.9920728600754365
+    },
+    {
+      "net": "WIFI_VBAT_PG",
+      "signal_via": "26eb072a-dacf-41ed-b36e-d9524b93d6f5",
+      "position": [
+        16250000,
+        29400000
+      ],
+      "trace_layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "nearest_ground": "4d285b8f-52b7-4e17-8dfb-29d5168144e5",
+      "gap_mm": 2.661766330841233
+    },
+    {
+      "net": "USB_ORIENTATION",
+      "signal_via": "9300ce81-5c54-49b6-9f25-77b98dad0d68",
+      "position": [
+        14300000,
+        24900000
+      ],
+      "trace_layers": [
+        "F.Cu",
+        "In3.Cu"
+      ],
+      "nearest_ground": "473a7e75-8e1f-49f9-a40c-8273c3d47460",
+      "gap_mm": 2.553918557824427
+    },
+    {
+      "net": "USB_CC2",
+      "signal_via": "4b352c41-58d4-4276-a34f-6cade39070fc",
+      "position": [
+        7050000,
+        20550000
+      ],
+      "trace_layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "nearest_ground": "3288e1ee-6b7d-4c42-89e5-52288682b18f",
+      "gap_mm": 2.2638462845343543
+    },
+    {
+      "net": "USB_MAIN_ENABLE",
+      "signal_via": "7bf735a7-f5db-4b8f-a363-a2ec851fc744",
+      "position": [
+        4250000,
+        31250000
+      ],
+      "trace_layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "nearest_ground": "3450fb24-fe23-4544-9d96-8b3e345d63f9",
+      "gap_mm": 2.1914607000811124
+    },
+    {
+      "net": "USB_CC_ENABLE_N",
+      "signal_via": "a8c4a958-ad8d-4e4d-aab4-9273bcb70b8e",
+      "position": [
+        16700000,
+        25050000
+      ],
+      "trace_layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "nearest_ground": "4d285b8f-52b7-4e17-8dfb-29d5168144e5",
+      "gap_mm": 2.154065922853802
+    },
+    {
+      "net": "WIFI_LPO",
+      "signal_via": "ab7ad60b-25fe-4635-b534-4632f70c26af",
+      "position": [
+        56800000,
+        23400000
+      ],
+      "trace_layers": [
+        "B.Cu",
+        "In2.Cu"
+      ],
+      "nearest_ground": "25bbb7e1-1376-4ae9-bdf6-417d6253d9ad",
+      "gap_mm": 2.154065922853802
+    },
+    {
+      "net": "USB_CC1",
+      "signal_via": "d5d839da-4629-4e4a-ad53-45b094688677",
+      "position": [
+        9300000,
+        17000000
+      ],
+      "trace_layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "nearest_ground": "0e836e39-7dee-46dc-bb66-5152b51e8048",
+      "gap_mm": 2.15
+    },
+    {
+      "net": "LPDDR4_RESETN",
+      "signal_via": "f6d17d64-ff43-47a0-ba1c-be0aa854cc3b",
+      "position": [
+        33200000,
+        11600000
+      ],
+      "trace_layers": [
+        "F.Cu",
+        "In3.Cu"
+      ],
+      "nearest_ground": "4c5b1e0f-13a9-4f9c-8090-77447ceadc18",
+      "gap_mm": 1.975158221510368
+    },
+    {
+      "net": "PHY_RXD3",
+      "signal_via": "d57e0bda-1a37-4b0d-9ba0-1b81a8d935f9",
+      "position": [
+        68010000,
+        30100000
+      ],
+      "trace_layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "nearest_ground": "34504188-d79c-4f52-96af-08181384a07f",
+      "gap_mm": 1.8601680031653056
+    },
+    {
+      "net": "USB_MAIN_ENABLE",
+      "signal_via": "ba85da03-980e-4466-8464-046a85aec6b3",
+      "position": [
+        16700000,
+        13550000
+      ],
+      "trace_layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "nearest_ground": "3048e4b2-8b79-4801-9afb-3d6bd09375b2",
+      "gap_mm": 1.6031219541881399
+    },
+    {
+      "net": "WIFI_VBAT_PG",
+      "signal_via": "3e40a360-ddd2-4ef5-90d3-0dc332367003",
+      "position": [
+        52700000,
+        35800000
+      ],
+      "trace_layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "nearest_ground": "5dff46fb-ee90-44b2-98fa-c0e729d62935",
+      "gap_mm": 1.562049935181331
+    },
+    {
+      "net": "USB_CC2",
+      "signal_via": "d5d78824-3a9a-4796-962f-e4fca2fb359e",
+      "position": [
+        14100000,
+        19200000
+      ],
+      "trace_layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "nearest_ground": "d62fbb5c-90e0-4f82-9c16-943a0a3b7cd7",
+      "gap_mm": 1.4807092894960845
+    },
+    {
+      "net": "USB_ILIM",
+      "signal_via": "bffd347f-7d1a-4841-a83d-d7506d465157",
+      "position": [
+        8150000,
+        30750000
+      ],
+      "trace_layers": [
+        "F.Cu",
+        "In3.Cu"
+      ],
+      "nearest_ground": "7debc27e-4e59-4cfd-a08c-75b83d1928cc",
+      "gap_mm": 1.4705441169852742
+    },
+    {
+      "net": "WIFI_VBAT_PG",
+      "signal_via": "0a73f9bb-d381-459c-b594-2be7d240a7ae",
+      "position": [
+        49100000,
+        34350000
+      ],
+      "trace_layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "nearest_ground": "12e12f4e-62eb-4fbe-a16e-b2cb8f90569b",
+      "gap_mm": 1.45
+    },
+    {
+      "net": "PHY_XIN",
+      "signal_via": "92a10da6-c83b-4054-a988-523012c0744f",
+      "position": [
+        61250000,
+        34825000
+      ],
+      "trace_layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "nearest_ground": "182f4bcf-5532-46fd-8aa9-6da5647911a1",
+      "gap_mm": 1.4214868975829498
+    },
+    {
+      "net": "USB_ORIENTATION",
+      "signal_via": "a829d6fe-3348-4774-8ed6-9234384ab7c0",
+      "position": [
+        19325000,
+        21200000
+      ],
+      "trace_layers": [
+        "F.Cu",
+        "In3.Cu"
+      ],
+      "nearest_ground": "c990208b-b947-4305-8e54-74c35d76b46b",
+      "gap_mm": 1.4100088652203575
+    },
+    {
+      "net": "USB_POWER_FAULT_N",
+      "signal_via": "51b6068f-6737-4e89-90d9-3f3c1400f63c",
+      "position": [
+        1000000,
+        30000000
+      ],
+      "trace_layers": [
+        "F.Cu",
+        "In3.Cu"
+      ],
+      "nearest_ground": "e7441712-e983-4c5e-b0f6-9466e46e9732",
+      "gap_mm": 1.3892443989449805
+    },
+    {
+      "net": "PHY_RXCLK",
+      "signal_via": "34266047-808b-4900-8d93-9403ba1ac1a9",
+      "position": [
+        63050000,
+        27690000
+      ],
+      "trace_layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "nearest_ground": "6a8c8193-c1c7-4748-85e9-a48cb71b6667",
+      "gap_mm": 1.3626169674563722
+    },
+    {
+      "net": "USB_MAIN_ENABLE",
+      "signal_via": "1c2e9f9b-e109-4476-bb83-da458d1d20ee",
+      "position": [
+        9000000,
+        1250000
+      ],
+      "trace_layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "nearest_ground": "4a0b5183-a781-4290-be24-bf5420f5341e",
+      "gap_mm": 1.2257650672131262
+    },
+    {
+      "net": "WIFI_HOST_WAKE",
+      "signal_via": "d89016e0-cd28-4cad-a0b3-49e43ce20b9a",
+      "position": [
+        41200000,
+        28300000
+      ],
+      "trace_layers": [
+        "In2.Cu",
+        "In3.Cu"
+      ],
+      "nearest_ground": "e5fb3420-b7eb-42e3-83c9-0db0633e3190",
+      "gap_mm": 1.2041594578792294
+    },
+    {
+      "net": "PHY_XIN",
+      "signal_via": "09bf5e47-d9bf-4278-8cff-594a7e96e318",
+      "position": [
+        59875000,
+        31000000
+      ],
+      "trace_layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "nearest_ground": "2a575363-a3e0-4044-bfce-896f6e5d1d64",
+      "gap_mm": 1.2005207203542967
+    },
+    {
+      "net": "USB_DVDT",
+      "signal_via": "0fce651b-b485-4163-91c1-12eff7d23f39",
+      "position": [
+        5050000,
+        30050000
+      ],
+      "trace_layers": [
+        "F.Cu",
+        "In3.Cu"
+      ],
+      "nearest_ground": "16bfcb7a-bf49-4dd5-9179-d0245522aea3",
+      "gap_mm": 1.1401754250991378
+    },
+    {
+      "net": "USB_CC_ENABLE_N",
+      "signal_via": "4c2bd024-8126-4367-9f88-4888c3eeaf3d",
+      "position": [
+        14000000,
+        20900000
+      ],
+      "trace_layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "nearest_ground": "1aa17891-574c-4384-bdcd-cd24464ed68d",
+      "gap_mm": 1.1401754250991378
+    },
+    {
+      "net": "WIFI_VBAT",
+      "signal_via": "d95dbb58-0b04-4744-b2d4-84da533f6bdf",
+      "position": [
+        54000000,
+        20100000
+      ],
+      "trace_layers": [
+        "F.Cu",
+        "In3.Cu"
+      ],
+      "nearest_ground": "11f09e1f-eede-4c85-9cbb-f431b65a34f6",
+      "gap_mm": 1.1401754250991378
+    },
+    {
+      "net": "EMMC_3V3",
+      "signal_via": "64968671-2932-4574-8f01-d1a0b562afc1",
+      "position": [
+        39700000,
+        8100000
+      ],
+      "trace_layers": [
+        "B.Cu",
+        "In2.Cu"
+      ],
+      "nearest_ground": "9c8027a8-3d80-49cd-929b-543847b03693",
+      "gap_mm": 1.0404326023342407
+    },
+    {
+      "net": "LPDDR4_RESETN",
+      "signal_via": "ee740707-c90c-4f42-af11-5d0ea456c561",
+      "position": [
+        44799999,
+        16100000
+      ],
+      "trace_layers": [
+        "F.Cu",
+        "In3.Cu"
+      ],
+      "nearest_ground": "2a5445b9-9a6c-4f3a-b7b8-c5f44798c50d",
+      "gap_mm": 1.0151968528324937
+    },
+    {
+      "net": "EMMC_STRB",
+      "signal_via": "44d19fce-05e2-4c16-8d10-e4be08e8657c",
+      "position": [
+        36310000,
+        8655000
+      ],
+      "trace_layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "nearest_ground": "f16f8003-3137-4da9-a7f1-2dc979605d68",
+      "gap_mm": 1.0013116398005169
+    },
+    {
+      "net": "WIFI_REG_ON",
+      "signal_via": "ceec5abc-1bd8-49b1-b7e8-02be4ed82f95",
+      "position": [
+        50000000,
+        38000000
+      ],
+      "trace_layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "nearest_ground": "a6c339cd-63ff-4ac5-bcc8-24afb18577da",
+      "gap_mm": 1.0
+    },
+    {
+      "net": "WIFI_VBAT",
+      "signal_via": "84a79118-2e60-4dcc-b8d2-3dba04081739",
+      "position": [
+        54000000,
+        20800000
+      ],
+      "trace_layers": [
+        "F.Cu",
+        "In3.Cu"
+      ],
+      "nearest_ground": "9643c59d-5e34-48b7-8e07-37a356593197",
+      "gap_mm": 1.0
+    },
+    {
+      "net": "EMMC_D0",
+      "signal_via": "8574f52a-9915-491f-b745-9211b7eff244",
+      "position": [
+        44400000,
+        11900000
+      ],
+      "trace_layers": [
+        "B.Cu",
+        "In2.Cu"
+      ],
+      "nearest_ground": "826f86d8-8e10-42e2-8541-1fa9e8dcd7b4",
+      "gap_mm": 0.9055385138137416
+    },
+    {
+      "net": "EMMC_D0",
+      "signal_via": "d7baf347-468c-4a15-8a04-e4e06c162af4",
+      "position": [
+        34200000,
+        16600000
+      ],
+      "trace_layers": [
+        "B.Cu",
+        "In2.Cu"
+      ],
+      "nearest_ground": "d522eecc-11b1-435d-acb7-2d37e3822da7",
+      "gap_mm": 0.9013878188659973
+    },
+    {
+      "net": "USB_CC2",
+      "signal_via": "0ec7abaf-5484-47c1-a720-0f4902494958",
+      "position": [
+        13800000,
+        18600000
+      ],
+      "trace_layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "nearest_ground": "d62fbb5c-90e0-4f82-9c16-943a0a3b7cd7",
+      "gap_mm": 0.85
+    },
+    {
+      "net": "WIFI_HOST_WAKE",
+      "signal_via": "c655ba09-e09e-425b-adea-81df700cab9e",
+      "position": [
+        45600000,
+        36700000
+      ],
+      "trace_layers": [
+        "In2.Cu",
+        "In3.Cu"
+      ],
+      "nearest_ground": "f79a94df-bae0-469c-9cbb-99943efcd61b",
+      "gap_mm": 0.8246211251235321
+    },
+    {
+      "net": "WIFI_HOST_WAKE",
+      "signal_via": "c1848ac4-7726-4e94-8d12-c53cc00e2d1b",
+      "position": [
+        61700000,
+        37900000
+      ],
+      "trace_layers": [
+        "B.Cu",
+        "In2.Cu"
+      ],
+      "nearest_ground": "4e3687eb-3d53-4f7b-ba74-eba7dda10d09",
+      "gap_mm": 0.7826237921249265
+    },
+    {
+      "net": "USB_POWER_FAULT_N",
+      "signal_via": "d36deb1b-20bb-4047-885b-c03fd5ada0d1",
+      "position": [
+        8250000,
+        31750000
+      ],
+      "trace_layers": [
+        "F.Cu",
+        "In3.Cu"
+      ],
+      "nearest_ground": "7debc27e-4e59-4cfd-a08c-75b83d1928cc",
+      "gap_mm": 0.7762087348130011
+    },
+    {
+      "net": "USB_CC1",
+      "signal_via": "0f8ce814-bdde-4c72-a64a-5c73ad6e309c",
+      "position": [
+        15700000,
+        21900000
+      ],
+      "trace_layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "nearest_ground": "473a7e75-8e1f-49f9-a40c-8273c3d47460",
+      "gap_mm": 0.7632168761236875
+    },
+    {
+      "net": "LPDDR4_A1_A",
+      "signal_via": "35abb989-6ccf-4109-bed5-e214926e6b1c",
+      "position": [
+        26800000,
+        7699999
+      ],
+      "trace_layers": [
+        "F.Cu",
+        "In3.Cu"
+      ],
+      "nearest_ground": "bac5c1c7-8e04-41e7-90f9-7b9e14ccbd1f",
+      "gap_mm": 0.7071067811865476
+    },
+    {
+      "net": "WIFI_HOST_WAKE",
+      "signal_via": "bb59ddc2-1e24-4d4f-a08d-87c0fa6de7e5",
+      "position": [
+        39800000,
+        33400000
+      ],
+      "trace_layers": [
+        "In2.Cu",
+        "In3.Cu"
+      ],
+      "nearest_ground": "7947e20b-c2c9-4238-838a-ad296d5fd671",
+      "gap_mm": 0.7071067811865476
+    },
+    {
+      "net": "PHY_RXD1",
+      "signal_via": "85ccec25-3dd5-4b37-89cd-65a9f6e22c9f",
+      "position": [
+        64400000,
+        27650000
+      ],
+      "trace_layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "nearest_ground": "6a8c8193-c1c7-4748-85e9-a48cb71b6667",
+      "gap_mm": 0.6731456008918131
+    },
+    {
+      "net": "LPDDR4_A1_A",
+      "signal_via": "1bb9eb94-baa6-44db-9cd2-bcc3987fe28d",
+      "position": [
+        41100000,
+        13350000
+      ],
+      "trace_layers": [
+        "F.Cu",
+        "In3.Cu"
+      ],
+      "nearest_ground": "693eb4c1-d8be-4088-a9d9-9481f87d791c",
+      "gap_mm": 0.670820393249937
+    }
+  ],
+  "scope": "Crossings between reference domains observed at actual track endpoints. Includes grounded plated terminals and ordinary barrels touching both filled planes. Distances are geometry only."
+}

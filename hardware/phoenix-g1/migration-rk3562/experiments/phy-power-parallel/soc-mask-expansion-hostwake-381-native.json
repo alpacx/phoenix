@@ -1,0 +1,54 @@
+{
+  "parent_sha256": "5e8bc2155e63e8a3e750115aad07d3df4a380e67d233c5680060f245cbb50c1c",
+  "candidate_sha256": "0f2793fdb8846bf4a725979b3f1896c0e5128fd0ba905f85048c2e10c5a725e0",
+  "selected": [
+    {
+      "net": "WIFI_HOST_WAKE",
+      "junction": [
+        49450000,
+        22300000
+      ],
+      "shift_nm": [
+        -15000,
+        25000
+      ],
+      "keys": [
+        "52bf20e4-5b05-4ade-9656-07bfaf72e9ea",
+        "a9694e8c-df82-460a-983d-206ef1032f07"
+      ],
+      "other_ends": [
+        [
+          49475000,
+          22325000
+        ],
+        [
+          49375000,
+          22300000
+        ]
+      ],
+      "before": 2,
+      "after": 0,
+      "min_before": 79138,
+      "min_after": 100000,
+      "length_change_nm": -5355.339059327387
+    }
+  ],
+  "added_to_retired": {
+    "021d5c67-2679-453d-bc9a-ea33799f8e35": "52bf20e4-5b05-4ade-9656-07bfaf72e9ea",
+    "da9fe977-2fae-4279-9f7c-48668916229d": "a9694e8c-df82-460a-983d-206ef1032f07"
+  },
+  "delta": [],
+  "remaining": 381,
+  "before_occurrences": 209,
+  "after_occurrences": 207,
+  "corrected": 2,
+  "preserved_pairs": 791,
+  "front_mask_web_counts": {
+    "200000": 42
+  },
+  "new_in1_void_samples": 0,
+  "plane_samples": 75,
+  "length_delta_nm": {
+    "WIFI_HOST_WAKE": -5355.33905932738
+  }
+}

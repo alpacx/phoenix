@@ -1,0 +1,56 @@
+{
+  "changed_via_centers_nm": [
+    [
+      75250000,
+      19650000
+    ],
+    [
+      75252513,
+      23052513
+    ],
+    [
+      75650000,
+      17350000
+    ],
+    [
+      75747487,
+      23547487
+    ],
+    [
+      76150000,
+      19650000
+    ],
+    [
+      76850000,
+      19450000
+    ]
+  ],
+  "samples_by_net_and_layer": {
+    "+3V3_PMU In2.Cu": {
+      "sampled": 137,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "EXP_I2C_SDA In3.Cu": {
+      "sampled": 911,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "PMIC_SCL B.Cu": {
+      "sampled": 599,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    }
+  },
+  "sample_pitch_mm": 0.012,
+  "via_window_radius_mm": 1.0,
+  "scope": "Center and edges of unchanged straight copper only. Local ground-fill comparison; no field or impedance simulation.",
+  "previous_sha256": "572d6ba53bb0abb0c7e86dd2c158361c9c12bd9cfcacd297c1c752aa674aea3d",
+  "current_sha256": "05d2292ba389f632b52422d99edf6cdd8d3690acdd8d5db2c1d224cec02cf6aa"
+}

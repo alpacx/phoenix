@@ -1,0 +1,49 @@
+{
+  "checkpoint": "0995a9cbd8c58313baf4bd271eb89c89027eaf3432d065dbb39d670197233491",
+  "width": 0.2,
+  "grid": 0.02,
+  "rows": [
+    {
+      "ref": "U2.G10",
+      "source_nodes": 1288,
+      "solutions": [
+        {
+          "nets": [
+            "LPDDR4_A4_A"
+          ],
+          "members": [
+            7099,
+            7102
+          ],
+          "reach": 1690
+        },
+        {
+          "nets": [
+            "LPDDR4_A3_A"
+          ],
+          "members": [
+            7064,
+            7065
+          ],
+          "reach": 5524
+        }
+      ]
+    },
+    {
+      "ref": "U2.T10",
+      "source_nodes": 888,
+      "solutions": [
+        {
+          "nets": [
+            "LPDDR4_A3_B"
+          ],
+          "members": [
+            7081,
+            7079
+          ],
+          "reach": 4571
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "changed_via_centers_nm": [
+    [
+      30150000,
+      825000
+    ]
+  ],
+  "samples_by_net_and_layer": {
+    "+1V1_LPDDR4 F.Cu": {
+      "sampled": 314,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "+1V1_LPDDR4 In2.Cu": {
+      "sampled": 271,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "+1V8_SYS B.Cu": {
+      "sampled": 15,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "+1V8_SYS In3.Cu": {
+      "sampled": 15,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    }
+  },
+  "sample_pitch_mm": 0.012,
+  "via_window_radius_mm": 1.0,
+  "scope": "Center and edges of unchanged straight copper only. Local ground-fill comparison; no field or impedance simulation.",
+  "previous_sha256": "7e25a94af93e31125a757fec65a174448b3e17a239aedadceabd7a1c1e55b238",
+  "current_sha256": "572d6ba53bb0abb0c7e86dd2c158361c9c12bd9cfcacd297c1c752aa674aea3d"
+}

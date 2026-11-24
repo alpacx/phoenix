@@ -1,0 +1,72 @@
+{
+  "parent_sha256": "87cf66583251de1ada11bdf99725038420f3583644b0822482a18c0846dc1c10",
+  "rows": [
+    {
+      "ref": "R503",
+      "pin": "AB3",
+      "net": "ETH_TXD2",
+      "source_toes": 28,
+      "resistor_toes": 181,
+      "states": 374,
+      "result": null,
+      "candidates": []
+    },
+    {
+      "ref": "R505",
+      "pin": "AA3",
+      "net": "ETH_TXEN",
+      "source_toes": 37,
+      "resistor_toes": 181,
+      "states": 399,
+      "result": null,
+      "candidates": []
+    }
+  ],
+  "removed": [
+    "91eae6b3-00d6-4c52-9eb0-a3472a8aad6a",
+    "11b1b6bf-092f-43e5-bff8-0fbdc7a85050",
+    "de7be3a2-2ab0-4bf8-9776-bf42c26cbfae",
+    "57c80e71-cabb-49bf-ab77-a39bd4e83267"
+  ],
+  "attached": [
+    [
+      "11b1b6bf-092f-43e5-bff8-0fbdc7a85050",
+      "GND",
+      "F.Cu",
+      [
+        38450000,
+        23250000
+      ],
+      [
+        38050000,
+        23200000
+      ]
+    ],
+    [
+      "2e8f0b51-67b6-4bf7-ba33-4fc49be96d67",
+      "GND",
+      "B.Cu",
+      [
+        36680000,
+        24000000
+      ],
+      [
+        38050000,
+        23200000
+      ]
+    ],
+    [
+      "b8a74d2d-cf78-41d9-8520-37d9552197db",
+      "GND",
+      "B.Cu",
+      [
+        37670000,
+        22820000
+      ],
+      [
+        38050000,
+        23200000
+      ]
+    ]
+  ]
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "layer": 0,
+    "source_states": 8382,
+    "connector_states": 26023,
+    "closest_gap_mm": 2.885849095153799,
+    "source": [
+      34750000,
+      16125000
+    ],
+    "connector": [
+      35625000,
+      13375000
+    ],
+    "intersections": [
+      {
+        "id": "7aa3cff4-dac5-4612-a6f0-a547e9eb32a9",
+        "type": "PCB_TRACK",
+        "net": "LCD_BL_PWM",
+        "width": 0.2
+      },
+      {
+        "id": "89739a91-9827-45f9-bc75-3a5ac27c07cd",
+        "type": "PCB_VIA",
+        "net": "LPDDR4_DQ11_A",
+        "width": 0.45
+      },
+      {
+        "id": "c2c34767-fa49-4731-a889-0e4c1a74be77",
+        "type": "PCB_TRACK",
+        "net": "LPDDR4_DQ8_A",
+        "width": 0.0762
+      },
+      {
+        "id": "3ef459e2-9db7-4145-acb8-5d2f7ac61dd8",
+        "type": "PCB_VIA",
+        "net": "LPDDR4_DQ8_A",
+        "width": 0.45
+      },
+      {
+        "id": "88a99967-ff07-41de-8cc5-72a64720114c",
+        "type": "PAD",
+        "net": "",
+        "width": null
+      }
+    ]
+  },
+  {
+    "layer": 2,
+    "source_states": 7420,
+    "connector_states": 25270,
+    "closest_gap_mm": 2.25,
+    "source": [
+      28875000,
+      6625000
+    ],
+    "connector": [
+      31125000,
+      6625000
+    ],
+    "intersections": [
+      {
+        "id": "a805f742-9032-47a5-9fc3-055c3cfcbf29",
+        "type": "PCB_VIA",
+        "net": "GND",
+        "width": 0.45
+      },
+      {
+        "id": "9a3626c4-ee89-45b4-b81f-a7168963696d",
+        "type": "PCB_TRACK",
+        "net": "GND",
+        "width": 0.3
+      },
+      {
+        "id": "73995e85-2054-43cd-90c2-a575d9f30312",
+        "type": "PCB_TRACK",
+        "net": "+1V8_SYS",
+        "width": 0.5
+      },
+      {
+        "id": "b06ddab7-481f-4970-8e58-92a3b476ec52",
+        "type": "PCB_TRACK",
+        "net": "+1V8_SYS",
+        "width": 0.5
+      },
+      {
+        "id": "c296b7fc-0f99-48dd-9b94-eeee6c6389cd",
+        "type": "PCB_TRACK",
+        "net": "+1V8_SYS",
+        "width": 0.5
+      },
+      {
+        "id": "ebd95421-3ebf-4f78-8380-6a2552d8b5d5",
+        "type": "PCB_TRACK",
+        "net": "+1V8_SYS",
+        "width": 0.5
+      },
+      {
+        "id": "33625ed3-6a3c-4a85-a38c-1338bcd2d38a",
+        "type": "PAD",
+        "net": "+1V8_SYS",
+        "width": null
+      },
+      {
+        "id": "4d3c1032-30cf-42fe-9e8d-0459e8151348",
+        "type": "PAD",
+        "net": "GND",
+        "width": null
+      }
+    ]
+  },
+  {
+    "layer": 6,
+    "source_states": 17907,
+    "connector_states": 32189,
+    "closest_gap_mm": 1.25,
+    "source": [
+      29625000,
+      6625000
+    ],
+    "connector": [
+      30875000,
+      6625000
+    ],
+    "intersections": [
+      {
+        "id": "287a1bcc-4d53-4691-9864-83171ee2874e",
+        "type": "PCB_TRACK",
+        "net": "+1V1_LPDDR4",
+        "width": 0.5
+      },
+      {
+        "id": "5fb0a88d-a7a3-43ee-8153-a3f13f690249",
+        "type": "PCB_TRACK",
+        "net": "+1V1_LPDDR4",
+        "width": 0.5
+      }
+    ]
+  },
+  {
+    "layer": 8,
+    "source_states": 14826,
+    "connector_states": 29205,
+    "closest_gap_mm": 1.0,
+    "source": [
+      30875000,
+      6875000
+    ],
+    "connector": [
+      30875000,
+      5875000
+    ],
+    "intersections": [
+      {
+        "id": "87e3af40-a852-4fca-bcd7-dcc1a482beb3",
+        "type": "PCB_TRACK",
+        "net": "LPDDR4_A1_A",
+        "width": 0.2
+      }
+    ]
+  }
+]

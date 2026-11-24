@@ -1,0 +1,67 @@
+{
+  "board": "runs/u22-mdi1-reoptimize/phy-joint.kicad_pcb",
+  "sha256": "1140544377c6a2ae2a486b910c7361a2a447b9cddb6512692f1bf66aedf9c582",
+  "parent_sha256": "71deeecab01840131fb599891267911ab01d92088df965fcd59b415749364272",
+  "connections": [
+    {
+      "pad": 1,
+      "via": "82f95ba8-91fe-4b10-8bda-1c19ab08948c",
+      "segments": [
+        "2bd1fee2-2f9b-4123-877b-eeefee763c28"
+      ],
+      "fully_connected": true
+    },
+    {
+      "pad": 2,
+      "via": "4953e9da-574d-4e35-aa46-82d228fabed4",
+      "segments": [
+        "0fc40fb1-082f-4cd3-af3b-c1d1f022de18",
+        "eb670c54-a468-471a-8c87-e4a98b0ec9f3"
+      ],
+      "fully_connected": true
+    },
+    {
+      "pad": 4,
+      "via": "f157d240-030a-4269-b2db-91a4ed0de60d",
+      "segments": [
+        "f8245fd9-6e89-4a80-aa88-684f10d72a3b",
+        "8c701f60-5689-449f-bf6b-84dcf24660de"
+      ],
+      "fully_connected": true
+    },
+    {
+      "pad": 5,
+      "via": "40a03839-f9cc-4147-b17a-a74bbe33f68b",
+      "segments": [
+        "a031d07c-61cf-49e3-848a-8feee331c08a"
+      ],
+      "fully_connected": true
+    },
+    {
+      "pad": 3,
+      "via": "1383fc32-22e7-4f68-b9cc-d929ca8b0fef",
+      "segments": [
+        "ed8d4aad-1d85-4f4d-ac5f-f07b7a3f9fe9"
+      ],
+      "fully_connected": true
+    },
+    {
+      "pad": 8,
+      "via": "2007dc85-c0f0-4a7c-ad7d-699cd60c3637",
+      "segments": [
+        "ce3ece6c-656a-48a0-9576-6a381307ab5d",
+        "c5dab0a5-0388-4eda-8094-8ad5e9c35ac6"
+      ],
+      "fully_connected": true
+    }
+  ],
+  "removed_for_probe": [
+    "f8245fd9-6e89-4a80-aa88-684f10d72a3b",
+    "8c701f60-5689-449f-bf6b-84dcf24660de",
+    "f157d240-030a-4269-b2db-91a4ed0de60d",
+    "a031d07c-61cf-49e3-848a-8feee331c08a",
+    "40a03839-f9cc-4147-b17a-a74bbe33f68b",
+    "85d9158d-1901-4c75-8caa-7849efd6f77a",
+    "9b31c480-74ed-4f89-ac38-c0b499604890"
+  ]
+}

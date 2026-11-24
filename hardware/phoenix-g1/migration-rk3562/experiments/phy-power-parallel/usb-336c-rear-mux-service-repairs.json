@@ -1,0 +1,261 @@
+{
+  "reference_sha256": "e423038e29cb08d57c2cdb0188bf6e521d7847925f9d72cd24118cf1d73b6ae9",
+  "coupon_sha256": "9399094c899e37ed19a79fa84190138e528383b4cb64687b9c379af292c92bf0",
+  "rows": [
+    {
+      "pin": "1",
+      "net": "USB_CC2",
+      "old": 3,
+      "now": 1,
+      "lost": 2,
+      "gained": [],
+      "repair_witness": "J1.B5",
+      "xy": [
+        15.7,
+        8.95
+      ]
+    },
+    {
+      "pin": "2",
+      "net": "USB_CC1",
+      "old": 3,
+      "now": 1,
+      "lost": 2,
+      "gained": [],
+      "repair_witness": "J1.A5",
+      "xy": [
+        15.7,
+        9.35
+      ]
+    },
+    {
+      "pin": "3",
+      "net": "GND",
+      "old": 575,
+      "now": 1,
+      "lost": 574,
+      "gained": [],
+      "repair_witness": "C1001.2",
+      "xy": [
+        15.7,
+        9.75
+      ]
+    },
+    {
+      "pin": "4",
+      "net": "GND",
+      "old": 575,
+      "now": 1,
+      "lost": 574,
+      "gained": [],
+      "repair_witness": "C1001.2",
+      "xy": [
+        15.7,
+        10.15
+      ]
+    },
+    {
+      "pin": "5",
+      "net": "CC_VBUS_SENSE",
+      "old": 2,
+      "now": 1,
+      "lost": 1,
+      "gained": [],
+      "repair_witness": "R606.2",
+      "xy": [
+        15.7,
+        10.55
+      ]
+    },
+    {
+      "pin": "8",
+      "net": "+3V3_AON",
+      "old": 21,
+      "now": 1,
+      "lost": 20,
+      "gained": [],
+      "repair_witness": "C1102.1",
+      "xy": [
+        15.7,
+        11.75
+      ]
+    },
+    {
+      "pin": "11",
+      "net": "USB_ORIENTATION",
+      "old": 2,
+      "now": 1,
+      "lost": 1,
+      "gained": [],
+      "repair_witness": "R602.2",
+      "xy": [
+        15.3,
+        12.95
+      ]
+    },
+    {
+      "pin": "12",
+      "net": "USB_MUX_ENABLE_N",
+      "old": 2,
+      "now": 1,
+      "lost": 1,
+      "gained": [],
+      "repair_witness": "U16.4",
+      "xy": [
+        14.9,
+        12.95
+      ]
+    },
+    {
+      "pin": "13",
+      "net": "GND",
+      "old": 575,
+      "now": 1,
+      "lost": 574,
+      "gained": [],
+      "repair_witness": "C1001.2",
+      "xy": [
+        14.5,
+        12.95
+      ]
+    },
+    {
+      "pin": "16",
+      "net": "MUX_TX1_N",
+      "old": 1,
+      "now": 2,
+      "lost": 0,
+      "gained": [
+        "C602.1"
+      ],
+      "repair_witness": null,
+      "xy": [
+        13.3,
+        12.55
+      ]
+    },
+    {
+      "pin": "17",
+      "net": "MUX_TX1_P",
+      "old": 1,
+      "now": 2,
+      "lost": 0,
+      "gained": [
+        "C601.1"
+      ],
+      "repair_witness": null,
+      "xy": [
+        13.3,
+        12.15
+      ]
+    },
+    {
+      "pin": "20",
+      "net": "MUX_TX2_N",
+      "old": 1,
+      "now": 2,
+      "lost": 0,
+      "gained": [
+        "C604.1"
+      ],
+      "repair_witness": null,
+      "xy": [
+        13.3,
+        10.95
+      ]
+    },
+    {
+      "pin": "21",
+      "net": "MUX_TX2_P",
+      "old": 1,
+      "now": 2,
+      "lost": 0,
+      "gained": [
+        "C603.1"
+      ],
+      "repair_witness": null,
+      "xy": [
+        13.3,
+        10.55
+      ]
+    },
+    {
+      "pin": "25",
+      "net": "CC_OUT1_N",
+      "old": 3,
+      "now": 1,
+      "lost": 2,
+      "gained": [],
+      "repair_witness": "R603.2",
+      "xy": [
+        13.3,
+        8.95
+      ]
+    },
+    {
+      "pin": "26",
+      "net": "CC_OUT2_N",
+      "old": 3,
+      "now": 1,
+      "lost": 2,
+      "gained": [],
+      "repair_witness": "R604.2",
+      "xy": [
+        13.7,
+        8.55
+      ]
+    },
+    {
+      "pin": "28",
+      "net": "GND",
+      "old": 575,
+      "now": 1,
+      "lost": 574,
+      "gained": [],
+      "repair_witness": "C1001.2",
+      "xy": [
+        14.5,
+        8.55
+      ]
+    },
+    {
+      "pin": "29",
+      "net": "USB_CC_ENABLE_N",
+      "old": 2,
+      "now": 1,
+      "lost": 1,
+      "gained": [],
+      "repair_witness": "U13.4",
+      "xy": [
+        14.9,
+        8.55
+      ]
+    },
+    {
+      "pin": "30",
+      "net": "VBUS_PROTECTED",
+      "old": 15,
+      "now": 1,
+      "lost": 14,
+      "gained": [],
+      "repair_witness": "C1101.1",
+      "xy": [
+        15.3,
+        8.55
+      ]
+    },
+    {
+      "pin": "31",
+      "net": "GND",
+      "old": 575,
+      "now": 1,
+      "lost": 574,
+      "gained": [],
+      "repair_witness": "C1001.2",
+      "xy": [
+        14.5,
+        10.75
+      ]
+    }
+  ]
+}

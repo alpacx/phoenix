@@ -1,0 +1,102 @@
+{
+  "grid_mm": 0.015,
+  "method": "Shortest path inside union of positive-net or GND footprint lands, trace capsules and barrel lands on F.Cu from capacitor land to U5 power land / GND via center; RLC and plane currents not simulated.",
+  "rows": [
+    {
+      "board": "cpu-c1011-turned-off-drill",
+      "ref": "C512",
+      "power": [
+        [
+          0.765,
+          "U5.3"
+        ]
+      ],
+      "ground": [
+        [
+          0.435,
+          "[63.95, 34.75]"
+        ]
+      ]
+    },
+    {
+      "board": "cpu-c1011-turned-off-drill",
+      "ref": "C514",
+      "power": [
+        [
+          1.5972792206135782,
+          "U5.21"
+        ]
+      ],
+      "ground": [
+        [
+          0.44999999999999996,
+          "[66.75, 27.3]"
+        ]
+      ]
+    },
+    {
+      "board": "phy-c512-dual-feed",
+      "ref": "C512",
+      "power": [
+        [
+          1.29834523779156,
+          "U5.3"
+        ]
+      ],
+      "ground": [
+        [
+          0.285,
+          "[63.95, 34.75]"
+        ]
+      ]
+    },
+    {
+      "board": "phy-c512-dual-feed",
+      "ref": "C514",
+      "power": [
+        [
+          1.5972792206135782,
+          "U5.21"
+        ]
+      ],
+      "ground": [
+        [
+          0.44999999999999996,
+          "[66.75, 27.3]"
+        ]
+      ]
+    },
+    {
+      "board": "phy-c514-dual-feed",
+      "ref": "C512",
+      "power": [
+        [
+          0.765,
+          "U5.3"
+        ]
+      ],
+      "ground": [
+        [
+          0.435,
+          "[63.95, 34.75]"
+        ]
+      ]
+    },
+    {
+      "board": "phy-c514-dual-feed",
+      "ref": "C514",
+      "power": [
+        [
+          2.3431980515339457,
+          "U5.21"
+        ]
+      ],
+      "ground": [
+        [
+          0.32742640687119284,
+          "[66.75, 27.3]"
+        ]
+      ]
+    }
+  ]
+}

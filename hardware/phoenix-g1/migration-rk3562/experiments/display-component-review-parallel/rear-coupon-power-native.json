@@ -1,0 +1,77 @@
+{
+  "board": "runs/display-direct-flex-rear-power/phy-joint.kicad_pcb",
+  "sha256": "6247772208c9093da22eab0a6a5c0fe7831a6af4b28ac3be5b36bbdcca60b1aa",
+  "parent": "c57b2ec0cba679faac41f82c7bf5a6d66e08df28ac4fb4cb5b4032a405f32523",
+  "results": [
+    {
+      "sol": {
+        "s": [
+          25550000,
+          37600000
+        ],
+        "front": [
+          [
+            25550000,
+            37600000
+          ],
+          [
+            24230000,
+            36280000
+          ],
+          [
+            24230000,
+            35000000
+          ]
+        ],
+        "rear": [
+          [
+            25850000,
+            35250000
+          ],
+          [
+            25550000,
+            37600000
+          ]
+        ],
+        "length_mm": 5.515833450428913
+      },
+      "new_drc": [],
+      "joins": 358,
+      "lands": [
+        "C1802.1",
+        "C1811.1",
+        "C1812.1",
+        "DS1.10",
+        "U20.5",
+        "U21.20"
+      ],
+      "reference": {
+        "changed_via_centers_nm": [
+          [
+            25550000,
+            37600000
+          ]
+        ],
+        "samples_by_net_and_layer": {
+          "+3V3_PMU In3.Cu": {
+            "sampled": 401,
+            "lost": 0,
+            "gained": 0,
+            "lost_in_same_rail_antipad": 0,
+            "lost_examples": []
+          }
+        },
+        "sample_pitch_mm": 0.012,
+        "via_window_radius_mm": 1.0,
+        "scope": "Center and edges of unchanged straight copper only. Local ground-fill comparison; no field or impedance simulation."
+      },
+      "preservation": {
+        "existing_pad_instances_preserved": 2021,
+        "existing_tracks_vias_preserved": 8077,
+        "explicitly_replaced_copper": {},
+        "added_tracks_vias": 4,
+        "existing_connected_pad_groups_preserved": 127
+      }
+    }
+  ]
+}

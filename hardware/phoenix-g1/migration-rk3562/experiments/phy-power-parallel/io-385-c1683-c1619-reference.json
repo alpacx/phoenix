@@ -1,0 +1,90 @@
+{
+  "sha256": "5f1e35c9ba48aa94096402ef3d651906cba989d762f51e2cb0843fc39ce5f2e4",
+  "ground_dialog": {
+    "capacitor_ground_reaches_main": true,
+    "ground_group_items": 2076
+  },
+  "center_and_edge_reference_samples": 1242,
+  "missing": 114,
+  "missing_beyond_power_antipads": [
+    {
+      "at": [
+        37200000,
+        33300000
+      ],
+      "dist": 5.608029957123981,
+      "layer": "In4.Cu"
+    },
+    {
+      "at": [
+        37600000,
+        33300000
+      ],
+      "dist": 5.872818744010409,
+      "layer": "In4.Cu"
+    },
+    {
+      "at": [
+        37200000,
+        33280000
+      ],
+      "dist": 5.592709540106655,
+      "layer": "In4.Cu"
+    },
+    {
+      "at": [
+        37600000,
+        33280000
+      ],
+      "dist": 5.858190847010705,
+      "layer": "In4.Cu"
+    },
+    {
+      "at": [
+        37200000,
+        33260000
+      ],
+      "dist": 5.577418757812613,
+      "layer": "In4.Cu"
+    },
+    {
+      "at": [
+        37600000,
+        33260000
+      ],
+      "dist": 5.843594784034909,
+      "layer": "In4.Cu"
+    },
+    {
+      "at": [
+        37200000,
+        33240000
+      ],
+      "dist": 5.562157854645983,
+      "layer": "In4.Cu"
+    },
+    {
+      "at": [
+        37600000,
+        33240000
+      ],
+      "dist": 5.829030794222999,
+      "layer": "In4.Cu"
+    }
+  ],
+  "max_distance_mm": 5.872818744010409,
+  "nearest_main_ground_vias": [
+    [
+      [
+        0.9180958555619343,
+        [
+          34370000,
+          29500000
+        ]
+      ]
+    ]
+  ],
+  "scope": "Nominal planar return geometry. No thermal/DC qualification; full decoupling of any SoC I/O ball needs its supply connection.",
+  "void_samples_beyond_all_connected_supply_via_antipads": 0,
+  "other_samples": []
+}

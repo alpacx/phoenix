@@ -1,0 +1,100 @@
+{
+  "parent_sha256": "532c456a73507d50ee5623bdd648e3a0b989dda76f398229db709e7a9855348b",
+  "candidate_sha256": "9ab66bf2fedfccf049ad5aca8f802b27a5d8c7e538af7545e10957b756033dc8",
+  "front_path_nm": [
+    [
+      62400000,
+      28240000
+    ],
+    [
+      62500000,
+      27940000
+    ],
+    [
+      62800000,
+      27940000
+    ],
+    [
+      63050000,
+      27690000
+    ]
+  ],
+  "via_nm": [
+    63050000,
+    27690000
+  ],
+  "back_options": 21,
+  "back_path": [
+    0.654827560572969,
+    [
+      [
+        63050000,
+        27690000
+      ],
+      [
+        63425000,
+        28065000
+      ],
+      [
+        63425000,
+        28090000
+      ],
+      [
+        63450000,
+        28115000
+      ],
+      [
+        63450000,
+        28165000
+      ],
+      [
+        63460000,
+        28175000
+      ]
+    ]
+  ],
+  "driver_joined": true,
+  "strap_retained": true,
+  "lost": [],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 7708,
+    "explicitly_replaced_copper": {
+      "cdf3d8a7-7648-4a02-ac10-35688f2415ef": [
+        "+3V3_PHY",
+        0,
+        62000000,
+        28600000,
+        62000000,
+        27800000,
+        200000,
+        null
+      ],
+      "d37b3de9-b076-45aa-9dcc-e6efd6facad5": [
+        "+3V3_PHY",
+        6,
+        65300000,
+        30700000,
+        63200000,
+        27200000,
+        1050000,
+        null
+      ],
+      "da4ef0b1-bf4f-4655-8f31-dd377218a36d": [
+        "+3V3_PHY",
+        6,
+        63200000,
+        27200000,
+        62575000,
+        24600000,
+        1050000,
+        null
+      ]
+    },
+    "added_tracks_vias": 10,
+    "existing_connected_pad_groups_preserved": 125
+  },
+  "new_drc": [],
+  "remaining_minimum_joins": 397,
+  "adopted": false
+}

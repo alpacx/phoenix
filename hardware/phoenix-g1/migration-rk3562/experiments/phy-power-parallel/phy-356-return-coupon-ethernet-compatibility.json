@@ -1,0 +1,107 @@
+{
+  "parent_sha256": "fb7a58e1f26670f2e45f445ce87d49860b91f2aeb7e3fd0831ce8ddc255a0850",
+  "experimental_sha256": "a718b0bbd9c4ccd491149929b629419b8624843b77897f5febe6808ed3bedde6",
+  "foreign_copper_screen": {
+    "coupon-u22-mdi01-matched": {
+      "PHY_RXD3": [],
+      "PHY_XIN": []
+    },
+    "coupon-mdi3-opposite-matched": {
+      "PHY_RXD3": [],
+      "PHY_XIN": []
+    },
+    "coupon-u22-ports-with-mdi3": {
+      "PHY_RXD3": [],
+      "PHY_XIN": []
+    },
+    "mdi-357-phy-eight-populated-obstructions": {
+      "PHY_RXD3": [],
+      "PHY_XIN": [
+        {
+          "uuid": "62e66de7-70b2-4ae7-8143-a2a4a5cae102",
+          "net": "ETH_MDI0_P",
+          "type": "PCB_TRACK"
+        },
+        {
+          "uuid": "d61b93a4-5a2f-4947-9eba-50b4a7e3b6f1",
+          "net": "ETH_MDI0_P",
+          "type": "PCB_TRACK"
+        },
+        {
+          "uuid": "e47563cf-1b64-481a-8b96-0bd3ff16e13a",
+          "net": "ETH_MDI0_P",
+          "type": "PCB_VIA"
+        },
+        {
+          "uuid": "9a35176d-db9e-4da5-8074-1b5ae8bc88ab",
+          "net": "ETH_MDI0_N",
+          "type": "PCB_TRACK"
+        },
+        {
+          "uuid": "63512af2-9400-477d-ac6d-d4765cba4511",
+          "net": "ETH_MDI0_N",
+          "type": "PCB_VIA"
+        }
+      ]
+    }
+  },
+  "plane_delta": {
+    "changed_via_centers_nm": [
+      [
+        60550000,
+        34725000
+      ],
+      [
+        68360000,
+        31200000
+      ]
+    ],
+    "samples_by_net_and_layer": {
+      "+3V3_PHY B.Cu": {
+        "sampled": 4,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      },
+      "+3V3_PHY F.Cu": {
+        "sampled": 49,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      },
+      "+3V3_PHY In2.Cu": {
+        "sampled": 111,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      },
+      "PHY_RESET_N F.Cu": {
+        "sampled": 500,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      },
+      "PHY_XIN B.Cu": {
+        "sampled": 204,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      },
+      "PHY_XIN F.Cu": {
+        "sampled": 773,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      }
+    },
+    "sample_pitch_mm": 0.012,
+    "via_window_radius_mm": 1.0,
+    "scope": "Center and edges of unchanged straight copper only. Local ground-fill comparison; no field or impedance simulation."
+  }
+}

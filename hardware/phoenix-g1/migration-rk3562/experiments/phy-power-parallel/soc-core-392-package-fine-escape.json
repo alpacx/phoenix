@@ -1,0 +1,719 @@
+{
+  "parent_sha256": "22d63b545a85d3ee9a4b1ef50b69d0d66256697eb4c664217f7ec5af9e4793fd",
+  "rows": [
+    {
+      "net": "VDD_CPU",
+      "layer": "F.Cu",
+      "group": 6,
+      "nodes": 1250,
+      "found": null
+    },
+    {
+      "net": "VDD_CPU",
+      "layer": "B.Cu",
+      "group": 6,
+      "nodes": 25639,
+      "found": null
+    },
+    {
+      "net": "VDD_GPU",
+      "layer": "F.Cu",
+      "group": 3,
+      "nodes": 1687,
+      "found": null
+    },
+    {
+      "net": "VDD_NPU",
+      "layer": "F.Cu",
+      "group": 5,
+      "nodes": 1103,
+      "found": null
+    },
+    {
+      "net": "VDD_NPU",
+      "layer": "B.Cu",
+      "group": 5,
+      "nodes": 5892,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 0,
+      "nodes": 47959,
+      "found": {
+        "groups": [
+          "C1646.1",
+          "U2.AA8"
+        ],
+        "path_nm": [
+          [
+            30450000,
+            15150000
+          ],
+          [
+            30475000,
+            15150000
+          ],
+          [
+            30500000,
+            15150000
+          ],
+          [
+            30525000,
+            15150000
+          ],
+          [
+            30550000,
+            15150000
+          ],
+          [
+            30575000,
+            15150000
+          ],
+          [
+            30600000,
+            15150000
+          ],
+          [
+            30625000,
+            15150000
+          ],
+          [
+            30650000,
+            15150000
+          ],
+          [
+            30675000,
+            15150000
+          ],
+          [
+            30700000,
+            15150000
+          ],
+          [
+            30725000,
+            15150000
+          ],
+          [
+            30750000,
+            15150000
+          ],
+          [
+            30775000,
+            15150000
+          ],
+          [
+            30800000,
+            15150000
+          ],
+          [
+            30825000,
+            15150000
+          ],
+          [
+            30850000,
+            15150000
+          ],
+          [
+            30875000,
+            15150000
+          ],
+          [
+            30900000,
+            15150000
+          ],
+          [
+            30925000,
+            15150000
+          ],
+          [
+            30950000,
+            15150000
+          ],
+          [
+            30975000,
+            15150000
+          ],
+          [
+            31000000,
+            15150000
+          ],
+          [
+            31025000,
+            15150000
+          ],
+          [
+            31050000,
+            15150000
+          ],
+          [
+            31075000,
+            15150000
+          ]
+        ],
+        "length_mm": 0.625
+      }
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 4,
+      "nodes": 1679,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 6,
+      "nodes": 87,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 5,
+      "nodes": 0,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 7,
+      "nodes": 124,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 8,
+      "nodes": 123,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 9,
+      "nodes": 329,
+      "found": {
+        "groups": [
+          "U2.AA5",
+          "C1646.1"
+        ],
+        "path_nm": [
+          [
+            28975000,
+            15225000
+          ],
+          [
+            29000000,
+            15225000
+          ],
+          [
+            29025000,
+            15225000
+          ],
+          [
+            29050000,
+            15225000
+          ],
+          [
+            29075000,
+            15225000
+          ],
+          [
+            29100000,
+            15250000
+          ],
+          [
+            29125000,
+            15275000
+          ],
+          [
+            29150000,
+            15300000
+          ],
+          [
+            29175000,
+            15325000
+          ],
+          [
+            29200000,
+            15350000
+          ],
+          [
+            29225000,
+            15375000
+          ],
+          [
+            29250000,
+            15400000
+          ],
+          [
+            29275000,
+            15425000
+          ],
+          [
+            29300000,
+            15450000
+          ],
+          [
+            29325000,
+            15475000
+          ],
+          [
+            29350000,
+            15500000
+          ],
+          [
+            29375000,
+            15525000
+          ],
+          [
+            29400000,
+            15550000
+          ],
+          [
+            29425000,
+            15575000
+          ],
+          [
+            29450000,
+            15600000
+          ]
+        ],
+        "length_mm": 0.6303300858899107
+      }
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 10,
+      "nodes": 348,
+      "found": {
+        "groups": [
+          "U2.AA8",
+          "C1646.1"
+        ],
+        "path_nm": [
+          [
+            31025000,
+            15125000
+          ],
+          [
+            31000000,
+            15125000
+          ],
+          [
+            30975000,
+            15125000
+          ],
+          [
+            30950000,
+            15125000
+          ],
+          [
+            30925000,
+            15125000
+          ],
+          [
+            30900000,
+            15125000
+          ],
+          [
+            30875000,
+            15125000
+          ],
+          [
+            30850000,
+            15125000
+          ],
+          [
+            30825000,
+            15125000
+          ],
+          [
+            30800000,
+            15125000
+          ],
+          [
+            30775000,
+            15125000
+          ],
+          [
+            30750000,
+            15125000
+          ],
+          [
+            30725000,
+            15125000
+          ],
+          [
+            30700000,
+            15125000
+          ],
+          [
+            30675000,
+            15125000
+          ],
+          [
+            30650000,
+            15125000
+          ],
+          [
+            30625000,
+            15125000
+          ],
+          [
+            30600000,
+            15125000
+          ],
+          [
+            30575000,
+            15125000
+          ],
+          [
+            30550000,
+            15125000
+          ],
+          [
+            30525000,
+            15125000
+          ],
+          [
+            30500000,
+            15125000
+          ],
+          [
+            30475000,
+            15125000
+          ],
+          [
+            30450000,
+            15125000
+          ],
+          [
+            30425000,
+            15125000
+          ]
+        ],
+        "length_mm": 0.6
+      }
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 11,
+      "nodes": 123,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 12,
+      "nodes": 20,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 13,
+      "nodes": 123,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 14,
+      "nodes": 1,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 15,
+      "nodes": 0,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 16,
+      "nodes": 123,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 17,
+      "nodes": 0,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 18,
+      "nodes": 0,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 19,
+      "nodes": 0,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 20,
+      "nodes": 1,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 21,
+      "nodes": 0,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 22,
+      "nodes": 0,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 23,
+      "nodes": 0,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 24,
+      "nodes": 0,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 25,
+      "nodes": 74,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 26,
+      "nodes": 136,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 27,
+      "nodes": 0,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 28,
+      "nodes": 2337,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 29,
+      "nodes": 25,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 30,
+      "nodes": 777,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 31,
+      "nodes": 0,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 32,
+      "nodes": 0,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 33,
+      "nodes": 23,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 34,
+      "nodes": 0,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 35,
+      "nodes": 0,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 36,
+      "nodes": 29,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 37,
+      "nodes": 0,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 38,
+      "nodes": 2570,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 39,
+      "nodes": 108,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 40,
+      "nodes": 74,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 41,
+      "nodes": 0,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 42,
+      "nodes": 0,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 43,
+      "nodes": 0,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 44,
+      "nodes": 0,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 45,
+      "nodes": 0,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 46,
+      "nodes": 0,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 47,
+      "nodes": 484,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "F.Cu",
+      "group": 48,
+      "nodes": 8,
+      "found": null
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "layer": "B.Cu",
+      "group": 0,
+      "nodes": 233985,
+      "found": null
+    },
+    {
+      "net": "+3V3_IO",
+      "layer": "F.Cu",
+      "group": 2,
+      "nodes": 157,
+      "found": null
+    },
+    {
+      "net": "+3V3_IO",
+      "layer": "F.Cu",
+      "group": 0,
+      "nodes": 0,
+      "found": null
+    },
+    {
+      "net": "+3V3_IO",
+      "layer": "F.Cu",
+      "group": 1,
+      "nodes": 27,
+      "found": null
+    },
+    {
+      "net": "+3V3_IO",
+      "layer": "F.Cu",
+      "group": 3,
+      "nodes": 0,
+      "found": null
+    },
+    {
+      "net": "+3V3_IO",
+      "layer": "F.Cu",
+      "group": 4,
+      "nodes": 0,
+      "found": null
+    },
+    {
+      "net": "+3V3_IO",
+      "layer": "F.Cu",
+      "group": 5,
+      "nodes": 88,
+      "found": null
+    }
+  ]
+}

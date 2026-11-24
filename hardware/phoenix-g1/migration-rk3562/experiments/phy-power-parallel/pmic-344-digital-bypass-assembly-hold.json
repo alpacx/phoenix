@@ -1,0 +1,27 @@
+{
+  "source": "f2a1cb66f6a45b4e6a80d0026f12290fde0efb16add66d90b2861d58bff7114c",
+  "candidate": "runs/pmic-digital-bypass-complete/phy-joint.kicad_pcb",
+  "candidate_sha256": "41166f388b0ccfe50e9b20768808cce8e7e12926cf2d9f5aa671c54a1fa1a4b7",
+  "adopted": false,
+  "cad_joins": 343,
+  "incremental_drc_violations": 0,
+  "covered_samples": 477,
+  "contact_at_pmic_pin_mm2": 0.002519,
+  "ground_hole_exposed_areas_mm2": [
+    0.03321,
+    0.014494
+  ],
+  "affected_ground_drills_mm": [
+    0.3,
+    0.3
+  ],
+  "physical_reason": "Two existing ground drill openings intersect the newly placed C415 soldering land. A standard assembly with a tented via cannot be qualified on the native DRC alone.",
+  "related_reports": [
+    "pmic-343-digital-bypass-return-geometry.json",
+    "pmic-343-c415-offland-ground-drills.json",
+    "pmic-344-c415-offhole-legal-sites.json",
+    "pmic-344-c415-reconnected-input.json",
+    "pmic-344-digital-side-c470-access.json",
+    "pmic-344-digital-rear-local-cap.json"
+  ]
+}

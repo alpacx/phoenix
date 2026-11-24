@@ -1,0 +1,32 @@
+{
+  "parent": "87cf66583251de1ada11bdf99725038420f3583644b0822482a18c0846dc1c10",
+  "width_nm": 200000,
+  "step_nm": 25000,
+  "barrel_nm": [
+    450000,
+    200000
+  ],
+  "rows": [
+    {
+      "pin": "A1",
+      "net": "PMIC_SLEEP",
+      "reachable": 1172,
+      "legal_via_count": 0,
+      "candidates": []
+    },
+    {
+      "pin": "A3",
+      "net": "I2C0_SCL",
+      "reachable": 317,
+      "legal_via_count": 0,
+      "candidates": []
+    },
+    {
+      "pin": "B1",
+      "net": "I2C0_SDA",
+      "reachable": 973,
+      "legal_via_count": 0,
+      "candidates": []
+    }
+  ]
+}

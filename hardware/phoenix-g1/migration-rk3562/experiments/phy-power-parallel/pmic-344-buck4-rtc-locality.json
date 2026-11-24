@@ -1,0 +1,40 @@
+{
+  "source_board": "f2a1cb66f6a45b4e6a80d0026f12290fde0efb16add66d90b2861d58bff7114c",
+  "package_pins": {
+    "45": "VCC_RTC",
+    "48": "VCC_1P8D",
+    "66": "VCC4"
+  },
+  "reference": "RK809-5 Rev2.3, Fig. 1-2, batteryless application and pin table",
+  "reference_RTC_uF": 1.0,
+  "design_BOM": {
+    "C424": "22 uF/10 V, 0805, assigned to BUCK4",
+    "C484": "1 uF/10 V, assigned to VCC_RTC",
+    "C415": "1 uF, internal digital 1.8-V output bypass"
+  },
+  "pcb": {
+    "pin45_mm": [
+      63.41,
+      8.3
+    ],
+    "pin66_mm": [
+      57.9,
+      5.59
+    ],
+    "C424_input_mm": [
+      65.55,
+      6.5
+    ],
+    "C484_input_mm": [
+      57.98,
+      4.0
+    ]
+  },
+  "assessment": "All input terminals are on +3V3_SYS. Electrical connectivity cannot prove bypass placement or local loop inductance. C424 and C484 are physically nearest the opposite functional inputs.",
+  "same_BOM_screen": {
+    "back_sites_report": "pmic-344-buck4-input-blockers.json",
+    "front_sites_report": "pmic-344-buck4-front-input-blockers.json",
+    "two_reused_rail_vias_report": "pmic-344-buck4-buck5-paired-relocation.json"
+  },
+  "remaining": "Find a simultaneous floorplan for C424/C425 at VCC4/VCC9, C484 at VCC_RTC, and C415 at VCC_1P8D, preserving the original regulator load path and return vias. Validate complete supply, geometry and assembly together."
+}

@@ -1,0 +1,99 @@
+{
+  "sha256": "4977fc7382da95e47c256aa2cc2b0b2635c773a8cad6d42c8bc3bc59f49afe94",
+  "geometry": {
+    "width_mm": 0.2,
+    "via_mm": [
+      0.45,
+      0.2
+    ],
+    "max_axial_mm": 2,
+    "center_spacing_mm": [
+      0.65,
+      0.9
+    ]
+  },
+  "results": [
+    {
+      "pair": 2,
+      "component": "U23",
+      "pair_spacing_valid": 567,
+      "viable": 0,
+      "most_common_obstacles": [
+        [
+          "EXP_I2C_SDA",
+          565
+        ],
+        [
+          "J2.SHIELD1",
+          543
+        ],
+        [
+          "U23.8",
+          441
+        ],
+        [
+          "ETH_CENTER_TAP",
+          258
+        ],
+        [
+          "U23.9",
+          53
+        ],
+        [
+          "U23.10",
+          53
+        ],
+        [
+          "GND",
+          22
+        ],
+        [
+          "U23.7",
+          5
+        ]
+      ],
+      "examples": []
+    },
+    {
+      "pair": 3,
+      "component": "U23",
+      "pair_spacing_valid": 567,
+      "viable": 0,
+      "most_common_obstacles": [
+        [
+          "J2.SHIELD1",
+          556
+        ],
+        [
+          "U23.8",
+          441
+        ],
+        [
+          "J2.",
+          221
+        ],
+        [
+          "ETH_CENTER_TAP",
+          63
+        ],
+        [
+          "U23.7",
+          53
+        ],
+        [
+          "U23.6",
+          53
+        ],
+        [
+          "GND",
+          9
+        ],
+        [
+          "U23.9",
+          5
+        ]
+      ],
+      "examples": []
+    }
+  ]
+}

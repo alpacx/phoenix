@@ -1,0 +1,62 @@
+{
+  "parent": "e98487fd1ac7534b297152c476aa8c9d6843481aa09ead6b85f0a4a0f14d5b82",
+  "removed": [
+    "389e8967-d7a6-4fdd-9e80-82b0655c6519",
+    "704f28ab-7632-42d0-8219-ed7c1ec2928c"
+  ],
+  "rail": {
+    "width": 300000,
+    "path": [
+      [
+        34500000,
+        6725000
+      ],
+      [
+        34825000,
+        7250000
+      ],
+      [
+        34825000,
+        7500000
+      ],
+      [
+        34500000,
+        8025000
+      ]
+    ],
+    "blockers": [
+      [
+        "PCB_TRACK",
+        "GND",
+        "704f28ab-7632-42d0-8219-ed7c1ec2928c"
+      ]
+    ],
+    "length_nm": 1484908.9035228468
+  },
+  "alternatives": [
+    {
+      "target": "K11",
+      "grounded": true,
+      "best": [],
+      "single_blockers": []
+    },
+    {
+      "target": "J10",
+      "grounded": true,
+      "best": [],
+      "single_blockers": []
+    },
+    {
+      "target": "G12",
+      "grounded": true,
+      "best": [],
+      "single_blockers": []
+    },
+    {
+      "target": "G10",
+      "grounded": false,
+      "best": [],
+      "single_blockers": []
+    }
+  ]
+}

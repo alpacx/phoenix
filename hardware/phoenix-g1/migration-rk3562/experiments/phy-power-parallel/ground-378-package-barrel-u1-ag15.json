@@ -1,0 +1,299 @@
+{
+  "parent_sha256": "66c2bdaae33894e5e7050d7e1320c5c123d86e38cad9c0ce5baf29c2c6fa26dd",
+  "radius_mm": 0.225,
+  "drill_mm": 0.2,
+  "rows": [
+    {
+      "blockers": [
+        [
+          "39eb05d7-cf4b-4ceb-bcab-03f64546d198",
+          "EXP_SPI_CLK",
+          "PCB_TRACK"
+        ],
+        [
+          "434747b8-e6ae-4c05-a436-9f8ef8a5e7dc",
+          "EXP_SPI_CLK",
+          "PCB_TRACK"
+        ],
+        [
+          "5ac99e3f-8170-4a62-bcbc-8ea2e9a952a6",
+          "EXP_SPI_CS0_N",
+          "PCB_TRACK"
+        ],
+        [
+          "ae108138-682e-4b04-acc3-8a7ffecf78b7",
+          "EXP_I2C_SCL",
+          "PCB_TRACK"
+        ],
+        [
+          "b0f755c6-0313-49a7-b406-e993b8cfe62c",
+          "GND",
+          "U1.AG15"
+        ],
+        [
+          "c3dfec40-d597-4b73-b8d6-c321cf7945a7",
+          "EXP_SPI_CLK",
+          "PCB_TRACK"
+        ],
+        [
+          "fea0ebc3-22b2-47f8-ba8f-2422fadd3e56",
+          "EXP_SPI_CLK",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 14,
+      "examples": [
+        {
+          "at": [
+            43600000,
+            26475000
+          ],
+          "path": [
+            [
+              43600000,
+              26475000
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "39eb05d7-cf4b-4ceb-bcab-03f64546d198",
+          "EXP_SPI_CLK",
+          "PCB_TRACK"
+        ],
+        [
+          "5ac99e3f-8170-4a62-bcbc-8ea2e9a952a6",
+          "EXP_SPI_CS0_N",
+          "PCB_TRACK"
+        ],
+        [
+          "96172f29-af56-40cf-97d5-e84a5582b077",
+          "WIFI_HOST_WAKE",
+          "PCB_TRACK"
+        ],
+        [
+          "ae108138-682e-4b04-acc3-8a7ffecf78b7",
+          "EXP_I2C_SCL",
+          "PCB_TRACK"
+        ],
+        [
+          "b0f755c6-0313-49a7-b406-e993b8cfe62c",
+          "GND",
+          "U1.AG15"
+        ],
+        [
+          "bf2899a9-7aba-4f84-9298-00ccc567dee6",
+          "EXP_SPI_CS1_N",
+          "U1.AF15"
+        ],
+        [
+          "c3dfec40-d597-4b73-b8d6-c321cf7945a7",
+          "EXP_SPI_CLK",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 6,
+      "examples": [
+        {
+          "at": [
+            43625000,
+            26350000
+          ],
+          "path": [
+            [
+              43600000,
+              26375000
+            ],
+            [
+              43625000,
+              26350000
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "39eb05d7-cf4b-4ceb-bcab-03f64546d198",
+          "EXP_SPI_CLK",
+          "PCB_TRACK"
+        ],
+        [
+          "434747b8-e6ae-4c05-a436-9f8ef8a5e7dc",
+          "EXP_SPI_CLK",
+          "PCB_TRACK"
+        ],
+        [
+          "ae108138-682e-4b04-acc3-8a7ffecf78b7",
+          "EXP_I2C_SCL",
+          "PCB_TRACK"
+        ],
+        [
+          "b0f755c6-0313-49a7-b406-e993b8cfe62c",
+          "GND",
+          "U1.AG15"
+        ],
+        [
+          "c3dfec40-d597-4b73-b8d6-c321cf7945a7",
+          "EXP_SPI_CLK",
+          "PCB_TRACK"
+        ],
+        [
+          "fc677e6e-3646-4038-bafe-0e80f6b262e2",
+          "EXP_I2C_SCL",
+          "PCB_VIA"
+        ],
+        [
+          "fea0ebc3-22b2-47f8-ba8f-2422fadd3e56",
+          "EXP_SPI_CLK",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 2,
+      "examples": [
+        {
+          "at": [
+            43650000,
+            26600000
+          ],
+          "path": [
+            [
+              43625000,
+              26600000
+            ],
+            [
+              43650000,
+              26600000
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "1e7042c6-b018-4a05-93c6-0f689472014e",
+          "EXP_SPI_CLK",
+          "PCB_VIA"
+        ],
+        [
+          "39eb05d7-cf4b-4ceb-bcab-03f64546d198",
+          "EXP_SPI_CLK",
+          "PCB_TRACK"
+        ],
+        [
+          "434747b8-e6ae-4c05-a436-9f8ef8a5e7dc",
+          "EXP_SPI_CLK",
+          "PCB_TRACK"
+        ],
+        [
+          "ae108138-682e-4b04-acc3-8a7ffecf78b7",
+          "EXP_I2C_SCL",
+          "PCB_TRACK"
+        ],
+        [
+          "b0f755c6-0313-49a7-b406-e993b8cfe62c",
+          "GND",
+          "U1.AG15"
+        ],
+        [
+          "c3dfec40-d597-4b73-b8d6-c321cf7945a7",
+          "EXP_SPI_CLK",
+          "PCB_TRACK"
+        ],
+        [
+          "fc677e6e-3646-4038-bafe-0e80f6b262e2",
+          "EXP_I2C_SCL",
+          "PCB_VIA"
+        ],
+        [
+          "fea0ebc3-22b2-47f8-ba8f-2422fadd3e56",
+          "EXP_SPI_CLK",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 11,
+      "examples": [
+        {
+          "at": [
+            43625000,
+            26625000
+          ],
+          "path": [
+            [
+              43600000,
+              26625000
+            ],
+            [
+              43625000,
+              26625000
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "39eb05d7-cf4b-4ceb-bcab-03f64546d198",
+          "EXP_SPI_CLK",
+          "PCB_TRACK"
+        ],
+        [
+          "5ac99e3f-8170-4a62-bcbc-8ea2e9a952a6",
+          "EXP_SPI_CS0_N",
+          "PCB_TRACK"
+        ],
+        [
+          "96172f29-af56-40cf-97d5-e84a5582b077",
+          "WIFI_HOST_WAKE",
+          "PCB_TRACK"
+        ],
+        [
+          "ae108138-682e-4b04-acc3-8a7ffecf78b7",
+          "EXP_I2C_SCL",
+          "PCB_TRACK"
+        ],
+        [
+          "b0f755c6-0313-49a7-b406-e993b8cfe62c",
+          "GND",
+          "U1.AG15"
+        ],
+        [
+          "bf2899a9-7aba-4f84-9298-00ccc567dee6",
+          "EXP_SPI_CS1_N",
+          "U1.AF15"
+        ],
+        [
+          "c3dfec40-d597-4b73-b8d6-c321cf7945a7",
+          "EXP_SPI_CLK",
+          "PCB_TRACK"
+        ],
+        [
+          "fea0ebc3-22b2-47f8-ba8f-2422fadd3e56",
+          "EXP_SPI_CLK",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 6,
+      "examples": [
+        {
+          "at": [
+            43600000,
+            26375000
+          ],
+          "path": [
+            [
+              43600000,
+              26375000
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "checkpoint": "64d641828130852be8475aff812642d14636303514bb2b7ca6efbcef28be0855",
+  "closest_connected_ground_barrels": [],
+  "paths": [
+    {
+      "net": "GND",
+      "width": 0.575,
+      "new_old": [
+        {
+          "samples": 372,
+          "void": 0,
+          "length_mm": 0.6144420741615925
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "width": 0.75,
+      "new_old": [
+        {
+          "samples": 153,
+          "void": 0,
+          "length_mm": 0.24577682966463701
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "width": 0.85,
+      "new_old": [
+        {
+          "samples": 447,
+          "void": 0,
+          "length_mm": 0.7373304889939111
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "width": 0.65,
+      "new_old": [
+        {
+          "samples": 300,
+          "void": 0,
+          "length_mm": 0.49155365932927403
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "width": 0.625,
+      "new_old": [
+        {
+          "samples": 153,
+          "void": 0,
+          "length_mm": 0.24577682966463701
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "width": 0.65,
+      "new_old": [
+        {
+          "samples": 78,
+          "void": 0,
+          "length_mm": 0.12288841483231851
+        }
+      ]
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "width": 0.35,
+      "new_old": [
+        {
+          "samples": 801,
+          "void": 291,
+          "length_mm": 1.33
+        }
+      ]
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "width": 0.35,
+      "new_old": [
+        {
+          "samples": 660,
+          "void": 0,
+          "length_mm": 1.095
+        }
+      ]
+    },
+    {
+      "net": "+1V1_LPDDR4",
+      "width": 0.35,
+      "new_old": [
+        {
+          "samples": 132,
+          "void": 0,
+          "length_mm": 0.21213203435596428
+        }
+      ]
+    }
+  ],
+  "method": "Euclidean proximity of electrically connected ground vias; plane under changed F.Cu tracks sampled at both edges and center."
+}

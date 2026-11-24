@@ -1,0 +1,75 @@
+{
+  "parent": "ef2876801173664b1eb34f2cc09a744a696fabf1ca1f90e72ea1fba422afe28c",
+  "board": "runs/cpu-c1602-local-decoupling/phy-joint.kicad_pcb",
+  "sha256": "60421fd41dfb3e8481c425d525788773a0b9a508bb92081f8ab678e6679ed7b1",
+  "native": [
+    {
+      "score": 3.0929449463591703,
+      "placed": [
+        42325000,
+        18825000
+      ],
+      "angle": 90,
+      "removed": [
+        "2f2836bf-9b16-4d68-9ca4-682d5886cb93"
+      ],
+      "delta": [],
+      "joins": 352,
+      "lost": [],
+      "mech": [],
+      "legs": [
+        {
+          "name": "C1602.1",
+          "start": [
+            42325000,
+            19305000
+          ],
+          "end": [
+            42025000,
+            20325000
+          ],
+          "width_mm": 0.6,
+          "length_mm": 1.063202708800161
+        },
+        {
+          "name": "C1602.2",
+          "start": [
+            42325000,
+            18345000
+          ],
+          "end": [
+            42900000,
+            18650000
+          ],
+          "width_mm": 0.6,
+          "length_mm": 0.6508840142452417
+        }
+      ],
+      "plane_samples": {
+        "C1602.1": {
+          "samples": 270,
+          "own_antipad": 88
+        },
+        "C1602.2": {
+          "samples": 168
+        }
+      },
+      "mask": {
+        "F.Cu": 0,
+        "B.Cu": 0
+      },
+      "reference_delta": {
+        "changed_via_centers_nm": [],
+        "samples_by_net_and_layer": {},
+        "sample_pitch_mm": 0.012,
+        "via_window_radius_mm": 1.0,
+        "scope": "Center and edges of unchanged straight copper only. Local ground-fill comparison; no field or impedance simulation."
+      },
+      "usable": true,
+      "new_ids": [
+        "2006a16d-5d01-4d46-9eaf-0058ccfd9d6d",
+        "3cd1bbbe-4f79-47c7-8470-6fad9c262fef"
+      ]
+    }
+  ]
+}

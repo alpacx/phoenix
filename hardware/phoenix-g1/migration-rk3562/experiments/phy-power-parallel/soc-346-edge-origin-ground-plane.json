@@ -1,0 +1,32 @@
+{
+  "parent": "6884bdd5b1ed3a954d6c7eaf9fc36ab1feffa303d78c1e5f06b1d1d35a040aae",
+  "step_mm": 0.00625,
+  "window_radius_mm": 2.75,
+  "positive": [],
+  "negative": [
+    {
+      "ref": "U1.AE21",
+      "net": "GND",
+      "seed": 45,
+      "target": 722
+    },
+    {
+      "ref": "U1.AG15",
+      "net": "GND",
+      "seed": 120,
+      "target": 141
+    },
+    {
+      "ref": "U1.C21",
+      "net": "GND",
+      "seed": 122,
+      "target": 0
+    },
+    {
+      "ref": "U1.C7",
+      "net": "GND",
+      "seed": 116,
+      "target": 0
+    }
+  ]
+}

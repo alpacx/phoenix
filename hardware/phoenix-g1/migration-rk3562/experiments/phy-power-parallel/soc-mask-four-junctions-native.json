@@ -1,0 +1,66 @@
+{
+  "parent_sha256": "d18342a4278c9aa4ea6b85dfb9e03d761f6ffe1cbf2a92fb68e3ba54917395b1",
+  "candidate_sha256": "4bd93bfd0d0574612c56c26b1d9f8c830c0bf4cc54e26a05cb4afe981bdcb8ab",
+  "selected": [
+    {
+      "net": "GND",
+      "before": 2,
+      "after": 0,
+      "keys": [
+        "9bb1e8f1-c021-4e07-b29e-104ef86aa8c8",
+        "e2c4dafe-cebd-4d4c-8b9d-19c7725ea10a",
+        "ac8bb99a-629a-4504-9a6b-7ad45eb79585",
+        "e10019a5-49ca-451b-986b-3defa26c363b",
+        "0a56f76d-70fe-48ad-bce5-9f7dab49fa61"
+      ],
+      "moved": [
+        [
+          49625000,
+          23675000
+        ],
+        [
+          49770000,
+          23750000
+        ],
+        [
+          49770000,
+          23775000
+        ],
+        [
+          50245000,
+          24250000
+        ],
+        [
+          50245000,
+          25100000
+        ],
+        [
+          50650000,
+          25575000
+        ]
+      ],
+      "length_nm": 9650.330539566901
+    }
+  ],
+  "added_to_retired": {
+    "8222e90e-090a-4d1e-aa82-f1fba2de48bc": "9bb1e8f1-c021-4e07-b29e-104ef86aa8c8",
+    "e53261ba-b215-4260-adfa-a802bfeba28a": "e2c4dafe-cebd-4d4c-8b9d-19c7725ea10a",
+    "c8ffd39a-a890-495a-9906-594113577869": "ac8bb99a-629a-4504-9a6b-7ad45eb79585",
+    "b8999519-15e9-4a75-820b-096a4dce725e": "e10019a5-49ca-451b-986b-3defa26c363b",
+    "397aa447-2670-4f50-86a4-cdc3d668136d": "0a56f76d-70fe-48ad-bce5-9f7dab49fa61"
+  },
+  "delta": [],
+  "remaining": 381,
+  "before_occurrences": 147,
+  "after_occurrences": 145,
+  "corrected": 2,
+  "preserved_pairs": 791,
+  "front_mask_web_counts": {
+    "200000": 42
+  },
+  "new_in1_void_samples": 0,
+  "plane_samples": 1428,
+  "length_delta_nm": {
+    "GND": 9650.330539566901
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "parent_sha256": "7a3f16fdacf133d7feb8d214cbd63f058de083afc0e95566a30400f5b5290b5a",
+  "width_nm": 200000,
+  "rows": [
+    {
+      "pad": "U5.22",
+      "net": "PHY_RXD3",
+      "center": [
+        64400000,
+        28600000
+      ],
+      "exit_vector": [
+        0,
+        -1
+      ],
+      "results": {
+        "202000": {
+          "clear": 0,
+          "single_blockers": []
+        },
+        "200000": {
+          "clear": 8,
+          "single_blockers": [
+            [
+              "PHY_RXD2 U5.23",
+              128
+            ],
+            [
+              "+1V0_PHY U5.21",
+              124
+            ],
+            [
+              "PHY_RXD1 PCB_VIA",
+              8
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "pad": "U5.23",
+      "net": "PHY_RXD2",
+      "center": [
+        64000000,
+        28600000
+      ],
+      "exit_vector": [
+        0,
+        -1
+      ],
+      "results": {
+        "202000": {
+          "clear": 0,
+          "single_blockers": []
+        },
+        "200000": {
+          "clear": 1,
+          "single_blockers": [
+            [
+              "PHY_RXD3 U5.22",
+              135
+            ],
+            [
+              "PHY_RXD1 PCB_TRACK",
+              1
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "pad": "U5.25",
+      "net": "PHY_RXD0",
+      "center": [
+        63200000,
+        28600000
+      ],
+      "exit_vector": [
+        0,
+        -1
+      ],
+      "results": {
+        "202000": {
+          "clear": 0,
+          "single_blockers": []
+        },
+        "200000": {
+          "clear": 2,
+          "single_blockers": [
+            [
+              "PHY_RXDV_CRS U5.26",
+              46
+            ],
+            [
+              "PHY_RXD1 PCB_TRACK",
+              6
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "pad": "U5.26",
+      "net": "PHY_RXDV_CRS",
+      "center": [
+        62800000,
+        28600000
+      ],
+      "exit_vector": [
+        0,
+        -1
+      ],
+      "results": {
+        "202000": {
+          "clear": 0,
+          "single_blockers": []
+        },
+        "200000": {
+          "clear": 0,
+          "single_blockers": [
+            [
+              "PHY_RXD0 U5.25",
+              44
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "parent_sha256": "532c456a73507d50ee5623bdd648e3a0b989dda76f398229db709e7a9855348b",
+  "rows": [
+    {
+      "pin": "22",
+      "net": "PHY_RXD3",
+      "direction": [
+        0,
+        -1
+      ],
+      "width_mm": 0.2,
+      "maximum_center_to_pad_edge_mm": 0.09,
+      "minimum_nominal_copper_overlap_mm": 0.01,
+      "launch_length_mm": 0.3,
+      "open_starts": 8,
+      "examples": [
+        [
+          [
+            64400000,
+            28260000
+          ],
+          [
+            64450000,
+            27960000
+          ]
+        ],
+        [
+          [
+            64400000,
+            28260000
+          ],
+          [
+            64400000,
+            27960000
+          ]
+        ],
+        [
+          [
+            64400000,
+            28250000
+          ],
+          [
+            64450000,
+            27950000
+          ]
+        ]
+      ],
+      "nearest": [
+        [
+          [
+            [
+              "cb94d987-f347-4ca5-bcf2-d2b7b7ce7fcd",
+              "PHY_RXD1"
+            ]
+          ],
+          1
+        ],
+        [
+          [
+            [
+              "904f4ede-e97b-4591-9624-efc48dde5b35",
+              "PHY_RXD1"
+            ],
+            [
+              "b6db9163-f9ff-4bcf-bf85-4532d6d444a3",
+              "PHY_RXD1"
+            ]
+          ],
+          6
+        ],
+        [
+          [
+            [
+              "904f4ede-e97b-4591-9624-efc48dde5b35",
+              "PHY_RXD1"
+            ],
+            [
+              "b6db9163-f9ff-4bcf-bf85-4532d6d444a3",
+              "PHY_RXD1"
+            ],
+            [
+              "cb94d987-f347-4ca5-bcf2-d2b7b7ce7fcd",
+              "PHY_RXD1"
+            ]
+          ],
+          8
+        ]
+      ]
+    },
+    {
+      "pin": "23",
+      "net": "PHY_RXD2",
+      "direction": [
+        0,
+        -1
+      ],
+      "width_mm": 0.2,
+      "maximum_center_to_pad_edge_mm": 0.09,
+      "minimum_nominal_copper_overlap_mm": 0.01,
+      "launch_length_mm": 0.3,
+      "open_starts": 0,
+      "examples": [],
+      "nearest": [
+        [
+          [
+            [
+              "cb94d987-f347-4ca5-bcf2-d2b7b7ce7fcd",
+              "PHY_RXD1"
+            ],
+            [
+              "fba2110d-446f-485b-aa78-ae16f4aa405c",
+              "PHY_RXD1"
+            ]
+          ],
+          19
+        ],
+        [
+          [
+            [
+              "b6db9163-f9ff-4bcf-bf85-4532d6d444a3",
+              "PHY_RXD1"
+            ],
+            [
+              "cb94d987-f347-4ca5-bcf2-d2b7b7ce7fcd",
+              "PHY_RXD1"
+            ],
+            [
+              "fba2110d-446f-485b-aa78-ae16f4aa405c",
+              "PHY_RXD1"
+            ]
+          ],
+          4
+        ]
+      ]
+    },
+    {
+      "pin": "25",
+      "net": "PHY_RXD0",
+      "direction": [
+        0,
+        -1
+      ],
+      "width_mm": 0.2,
+      "maximum_center_to_pad_edge_mm": 0.09,
+      "minimum_nominal_copper_overlap_mm": 0.01,
+      "launch_length_mm": 0.3,
+      "open_starts": 0,
+      "examples": [],
+      "nearest": [
+        [
+          [
+            [
+              "fba2110d-446f-485b-aa78-ae16f4aa405c",
+              "PHY_RXD1"
+            ]
+          ],
+          9
+        ],
+        [
+          [
+            [
+              "cb94d987-f347-4ca5-bcf2-d2b7b7ce7fcd",
+              "PHY_RXD1"
+            ],
+            [
+              "fba2110d-446f-485b-aa78-ae16f4aa405c",
+              "PHY_RXD1"
+            ]
+          ],
+          14
+        ]
+      ]
+    },
+    {
+      "pin": "26",
+      "net": "PHY_RXDV_CRS",
+      "direction": [
+        0,
+        -1
+      ],
+      "width_mm": 0.2,
+      "maximum_center_to_pad_edge_mm": 0.09,
+      "minimum_nominal_copper_overlap_mm": 0.01,
+      "launch_length_mm": 0.3,
+      "open_starts": 23,
+      "examples": [
+        [
+          [
+            62800000,
+            28260000
+          ],
+          [
+            62850000,
+            27960000
+          ]
+        ],
+        [
+          [
+            62800000,
+            28260000
+          ],
+          [
+            62800000,
+            27960000
+          ]
+        ],
+        [
+          [
+            62800000,
+            28260000
+          ],
+          [
+            62750000,
+            27960000
+          ]
+        ]
+      ],
+      "nearest": []
+    },
+    {
+      "pin": "27",
+      "net": "PHY_RXCLK",
+      "direction": [
+        0,
+        -1
+      ],
+      "width_mm": 0.2,
+      "maximum_center_to_pad_edge_mm": 0.09,
+      "minimum_nominal_copper_overlap_mm": 0.01,
+      "launch_length_mm": 0.3,
+      "open_starts": 0,
+      "examples": [],
+      "nearest": [
+        [
+          [
+            [
+              "cdf3d8a7-7648-4a02-ac10-35688f2415ef",
+              "+3V3_PHY"
+            ]
+          ],
+          14
+        ],
+        [
+          [
+            [
+              "7499beaa-250e-419c-b695-1a1283854a1b",
+              "+3V3_PHY"
+            ],
+            [
+              "cdf3d8a7-7648-4a02-ac10-35688f2415ef",
+              "+3V3_PHY"
+            ]
+          ],
+          9
+        ]
+      ]
+    }
+  ]
+}

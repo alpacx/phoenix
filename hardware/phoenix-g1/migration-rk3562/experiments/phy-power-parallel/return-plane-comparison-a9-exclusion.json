@@ -1,0 +1,180 @@
+{
+  "changed_via_centers_nm": [
+    [
+      32425000,
+      3125000
+    ]
+  ],
+  "samples_by_net_and_layer": {
+    "+1V1_LPDDR4 F.Cu": {
+      "sampled": 235,
+      "lost": 21,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 21,
+      "lost_examples": [
+        {
+          "track": "ffdbb10d-fe1d-4ed5-b84f-aad369888f65",
+          "point_nm": [
+            32501256,
+            2873744
+          ]
+        },
+        {
+          "track": "ffdbb10d-fe1d-4ed5-b84f-aad369888f65",
+          "point_nm": [
+            32625000,
+            2750000
+          ]
+        },
+        {
+          "track": "ffdbb10d-fe1d-4ed5-b84f-aad369888f65",
+          "point_nm": [
+            32492782,
+            2865269
+          ]
+        },
+        {
+          "track": "ffdbb10d-fe1d-4ed5-b84f-aad369888f65",
+          "point_nm": [
+            32484307,
+            2856795
+          ]
+        },
+        {
+          "track": "ffdbb10d-fe1d-4ed5-b84f-aad369888f65",
+          "point_nm": [
+            32475833,
+            2848320
+          ]
+        }
+      ]
+    },
+    "+1V8_SYS B.Cu": {
+      "sampled": 14,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "LPDDR4_DM1_A F.Cu": {
+      "sampled": 132,
+      "lost": 44,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": [
+        {
+          "track": "6ca94982-01eb-4b24-9d9d-5aebc48211c7",
+          "point_nm": [
+            32831530,
+            3513806
+          ]
+        },
+        {
+          "track": "6ca94982-01eb-4b24-9d9d-5aebc48211c7",
+          "point_nm": [
+            32800000,
+            3475000
+          ]
+        },
+        {
+          "track": "6ca94982-01eb-4b24-9d9d-5aebc48211c7",
+          "point_nm": [
+            32768470,
+            3436194
+          ]
+        },
+        {
+          "track": "6ca94982-01eb-4b24-9d9d-5aebc48211c7",
+          "point_nm": [
+            32822227,
+            3521364
+          ]
+        },
+        {
+          "track": "6ca94982-01eb-4b24-9d9d-5aebc48211c7",
+          "point_nm": [
+            32790698,
+            3482558
+          ]
+        }
+      ]
+    },
+    "LPDDR4_DQ14_A F.Cu": {
+      "sampled": 114,
+      "lost": 44,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": [
+        {
+          "track": "6c13d67b-624c-46eb-bc7d-32e5df59ceb3",
+          "point_nm": [
+            32031530,
+            3513806
+          ]
+        },
+        {
+          "track": "6c13d67b-624c-46eb-bc7d-32e5df59ceb3",
+          "point_nm": [
+            32000000,
+            3475000
+          ]
+        },
+        {
+          "track": "6c13d67b-624c-46eb-bc7d-32e5df59ceb3",
+          "point_nm": [
+            31968470,
+            3436194
+          ]
+        },
+        {
+          "track": "6c13d67b-624c-46eb-bc7d-32e5df59ceb3",
+          "point_nm": [
+            32022227,
+            3521364
+          ]
+        },
+        {
+          "track": "6c13d67b-624c-46eb-bc7d-32e5df59ceb3",
+          "point_nm": [
+            31990698,
+            3482558
+          ]
+        }
+      ]
+    },
+    "LPDDR4_DQ15_A F.Cu": {
+      "sampled": 132,
+      "lost": 1,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": [
+        {
+          "track": "81dace57-d21c-418d-9e4f-bea9f308ad90",
+          "point_nm": [
+            31901297,
+            2969620
+          ]
+        }
+      ]
+    },
+    "LPDDR4_DQ8_A F.Cu": {
+      "sampled": 70,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "LPDDR4_DQ9_A F.Cu": {
+      "sampled": 8,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    }
+  },
+  "sample_pitch_mm": 0.012,
+  "via_window_radius_mm": 1.0,
+  "scope": "Center and edges of unchanged straight copper only. Local ground-fill comparison; no field or impedance simulation.",
+  "previous_sha256": "6c1574e3ca7bff27b188a263636faa1e5a57b2c672e115d69ce95eaa95a21e13",
+  "current_sha256": "e1530e27d915c1de8e1b1b8e3959778cbe0b0ca39ea639925c3665c701208752"
+}

@@ -1,0 +1,430 @@
+{
+  "parent_sha256": "7a3f16fdacf133d7feb8d214cbd63f058de083afc0e95566a30400f5b5290b5a",
+  "rows": [
+    {
+      "net": "VDD_LOGIC",
+      "layer": "F.Cu",
+      "group": 10,
+      "nodes": 3237,
+      "found": null
+    },
+    {
+      "net": "VDD_LOGIC",
+      "layer": "F.Cu",
+      "group": 1,
+      "nodes": 34,
+      "found": null
+    },
+    {
+      "net": "VDD_LOGIC",
+      "layer": "F.Cu",
+      "group": 0,
+      "nodes": 666,
+      "found": null
+    },
+    {
+      "net": "VDD_LOGIC",
+      "layer": "F.Cu",
+      "group": 2,
+      "nodes": 907,
+      "found": null
+    },
+    {
+      "net": "VDD_LOGIC",
+      "layer": "B.Cu",
+      "group": 10,
+      "nodes": 387,
+      "found": null
+    },
+    {
+      "net": "VDD_LOGIC",
+      "layer": "B.Cu",
+      "group": 3,
+      "nodes": 132,
+      "found": null
+    },
+    {
+      "net": "VDD_LOGIC",
+      "layer": "B.Cu",
+      "group": 4,
+      "nodes": 2408,
+      "found": null
+    },
+    {
+      "net": "VDD_LOGIC",
+      "layer": "B.Cu",
+      "group": 5,
+      "nodes": 21,
+      "found": null
+    },
+    {
+      "net": "VDD_LOGIC",
+      "layer": "B.Cu",
+      "group": 6,
+      "nodes": 70,
+      "found": null
+    },
+    {
+      "net": "VDD_LOGIC",
+      "layer": "B.Cu",
+      "group": 7,
+      "nodes": 402,
+      "found": null
+    },
+    {
+      "net": "VDD_LOGIC",
+      "layer": "B.Cu",
+      "group": 8,
+      "nodes": 310,
+      "found": null
+    },
+    {
+      "net": "VDD_LOGIC",
+      "layer": "B.Cu",
+      "group": 9,
+      "nodes": 0,
+      "found": null
+    },
+    {
+      "net": "VDD_LOGIC",
+      "layer": "In2.Cu",
+      "group": 10,
+      "nodes": 5019,
+      "found": null
+    },
+    {
+      "net": "VDD_LOGIC",
+      "layer": "In3.Cu",
+      "group": 10,
+      "nodes": 2120,
+      "found": null
+    },
+    {
+      "net": "VDD_NPU",
+      "layer": "F.Cu",
+      "group": 5,
+      "nodes": 35,
+      "found": null
+    },
+    {
+      "net": "VDD_NPU",
+      "layer": "F.Cu",
+      "group": 6,
+      "nodes": 3412,
+      "found": {
+        "groups": [
+          "C434.1",
+          "R424.1"
+        ],
+        "path_nm": [
+          [
+            83600000,
+            8100000
+          ],
+          [
+            83700000,
+            8100000
+          ],
+          [
+            83800000,
+            8100000
+          ],
+          [
+            83900000,
+            8100000
+          ],
+          [
+            84000000,
+            8100000
+          ],
+          [
+            84100000,
+            8100000
+          ],
+          [
+            84200000,
+            8100000
+          ],
+          [
+            84300000,
+            8100000
+          ],
+          [
+            84400000,
+            8100000
+          ],
+          [
+            84500000,
+            8100000
+          ],
+          [
+            84600000,
+            8100000
+          ],
+          [
+            84700000,
+            8000000
+          ],
+          [
+            84800000,
+            8000000
+          ],
+          [
+            84900000,
+            8000000
+          ],
+          [
+            85000000,
+            8000000
+          ],
+          [
+            85100000,
+            8000000
+          ],
+          [
+            85200000,
+            8000000
+          ],
+          [
+            85300000,
+            8000000
+          ],
+          [
+            85400000,
+            8000000
+          ],
+          [
+            85500000,
+            8000000
+          ],
+          [
+            85600000,
+            8000000
+          ],
+          [
+            85700000,
+            8000000
+          ],
+          [
+            85800000,
+            8000000
+          ],
+          [
+            85900000,
+            8000000
+          ],
+          [
+            86000000,
+            8000000
+          ],
+          [
+            86100000,
+            8000000
+          ],
+          [
+            86200000,
+            7900000
+          ],
+          [
+            86300000,
+            7800000
+          ]
+        ],
+        "length_mm": 2.8242640687119285
+      }
+    },
+    {
+      "net": "VDD_NPU",
+      "layer": "F.Cu",
+      "group": 0,
+      "nodes": 396,
+      "found": {
+        "groups": [
+          "R424.1",
+          "C434.1"
+        ],
+        "path_nm": [
+          [
+            86200000,
+            7700000
+          ],
+          [
+            86100000,
+            7700000
+          ],
+          [
+            86000000,
+            7700000
+          ],
+          [
+            85900000,
+            7700000
+          ],
+          [
+            85800000,
+            7700000
+          ],
+          [
+            85700000,
+            7700000
+          ],
+          [
+            85600000,
+            7700000
+          ],
+          [
+            85500000,
+            7700000
+          ],
+          [
+            85400000,
+            7700000
+          ],
+          [
+            85300000,
+            7700000
+          ],
+          [
+            85200000,
+            7700000
+          ],
+          [
+            85100000,
+            7700000
+          ],
+          [
+            85000000,
+            7700000
+          ],
+          [
+            84900000,
+            7700000
+          ],
+          [
+            84800000,
+            7700000
+          ],
+          [
+            84700000,
+            7700000
+          ],
+          [
+            84600000,
+            7700000
+          ],
+          [
+            84500000,
+            7700000
+          ],
+          [
+            84400000,
+            7700000
+          ],
+          [
+            84300000,
+            7700000
+          ],
+          [
+            84200000,
+            7700000
+          ],
+          [
+            84100000,
+            7700000
+          ],
+          [
+            84000000,
+            7700000
+          ],
+          [
+            83900000,
+            7800000
+          ],
+          [
+            83800000,
+            7900000
+          ],
+          [
+            83700000,
+            8000000
+          ],
+          [
+            83600000,
+            8100000
+          ]
+        ],
+        "length_mm": 2.765685424949238
+      }
+    },
+    {
+      "net": "VDD_NPU",
+      "layer": "F.Cu",
+      "group": 1,
+      "nodes": 7603,
+      "found": null
+    },
+    {
+      "net": "VDD_NPU",
+      "layer": "B.Cu",
+      "group": 6,
+      "nodes": 6900,
+      "found": null
+    },
+    {
+      "net": "VDD_NPU",
+      "layer": "B.Cu",
+      "group": 5,
+      "nodes": 195,
+      "found": null
+    },
+    {
+      "net": "VDD_NPU",
+      "layer": "B.Cu",
+      "group": 2,
+      "nodes": 494,
+      "found": null
+    },
+    {
+      "net": "VDD_NPU",
+      "layer": "B.Cu",
+      "group": 3,
+      "nodes": 231,
+      "found": null
+    },
+    {
+      "net": "VDD_NPU",
+      "layer": "B.Cu",
+      "group": 4,
+      "nodes": 509,
+      "found": null
+    },
+    {
+      "net": "VDD_NPU",
+      "layer": "In2.Cu",
+      "group": 6,
+      "nodes": 3525,
+      "found": null
+    },
+    {
+      "net": "VDD_NPU",
+      "layer": "In2.Cu",
+      "group": 5,
+      "nodes": 2951,
+      "found": null
+    },
+    {
+      "net": "VDD_NPU",
+      "layer": "In3.Cu",
+      "group": 6,
+      "nodes": 6993,
+      "found": null
+    },
+    {
+      "net": "VDD_NPU",
+      "layer": "In3.Cu",
+      "group": 5,
+      "nodes": 3715,
+      "found": null
+    }
+  ]
+}

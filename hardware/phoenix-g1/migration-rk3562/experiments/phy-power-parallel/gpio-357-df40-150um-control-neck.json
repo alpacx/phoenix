@@ -1,0 +1,164 @@
+{
+  "sha256": "572d6ba53bb0abb0c7e86dd2c158361c9c12bd9cfcacd297c1c752aa674aea3d",
+  "documented_candidates": [
+    {
+      "ball": "AA25",
+      "gpio": "GPIO1_D3_d",
+      "bank": "VCCIO4 Domain",
+      "page": 9
+    },
+    {
+      "ball": "1H15",
+      "gpio": "GPIO1_D7_d",
+      "bank": "VCCIO4 Domain",
+      "page": 9
+    },
+    {
+      "ball": "1J15",
+      "gpio": "GPIO2_A0_d",
+      "bank": "VCCIO4 Domain",
+      "page": 9
+    },
+    {
+      "ball": "1L1",
+      "gpio": "GPIO3_A1_d",
+      "bank": "VCCIO1 Domain",
+      "page": 7
+    },
+    {
+      "ball": "1M1",
+      "gpio": "GPIO3_A0_d",
+      "bank": "VCCIO1 Domain",
+      "page": 7
+    },
+    {
+      "ball": "1M2",
+      "gpio": "GPIO3_B0_d",
+      "bank": "VCCIO1 Domain",
+      "page": 7
+    },
+    {
+      "ball": "J1",
+      "gpio": "GPIO3_A6_d",
+      "bank": "VCCIO1 Domain",
+      "page": 7
+    },
+    {
+      "ball": "J2",
+      "gpio": "GPIO3_B1_d",
+      "bank": "VCCIO1 Domain",
+      "page": 7
+    },
+    {
+      "ball": "L26",
+      "gpio": "GPIO1_B2_d",
+      "bank": "VCCIO2 Domain",
+      "page": 8
+    },
+    {
+      "ball": "M2",
+      "gpio": "GPIO4_B4_d",
+      "bank": "VCCIO6 Domain",
+      "page": 11
+    },
+    {
+      "ball": "P2",
+      "gpio": "GPIO3_C7_d",
+      "bank": "VCCIO6 Domain",
+      "page": 11
+    },
+    {
+      "ball": "P3",
+      "gpio": "GPIO3_C6_d",
+      "bank": "VCCIO6 Domain",
+      "page": 11
+    },
+    {
+      "ball": "R1",
+      "gpio": "GPIO3_D1_d",
+      "bank": "VCCIO6 Domain",
+      "page": 11
+    },
+    {
+      "ball": "R2",
+      "gpio": "GPIO3_D2_d",
+      "bank": "VCCIO6 Domain",
+      "page": 11
+    },
+    {
+      "ball": "R3",
+      "gpio": "GPIO3_D0_d",
+      "bank": "VCCIO6 Domain",
+      "page": 11
+    },
+    {
+      "ball": "U1",
+      "gpio": "GPIO4_B7_d",
+      "bank": "VCCIO6 Domain",
+      "page": 11
+    },
+    {
+      "ball": "V27",
+      "gpio": "GPIO1_D6_d",
+      "bank": "VCCIO4 Domain",
+      "page": 9
+    },
+    {
+      "ball": "V3",
+      "gpio": "GPIO4_B0_d",
+      "bank": "VCCIO6 Domain",
+      "page": 11
+    },
+    {
+      "ball": "W25",
+      "gpio": "GPIO2_A1_d",
+      "bank": "VCCIO4 Domain",
+      "page": 9
+    },
+    {
+      "ball": "W26",
+      "gpio": "GPIO1_D5_d",
+      "bank": "VCCIO4 Domain",
+      "page": 9
+    },
+    {
+      "ball": "Y27",
+      "gpio": "GPIO1_D4_d",
+      "bank": "VCCIO4 Domain",
+      "page": 9
+    }
+  ],
+  "rows": [
+    {
+      "footprint": "J3",
+      "pin": "29",
+      "old_net": "EXP_GPIO2",
+      "position": [
+        69300000,
+        1145000
+      ],
+      "side": "F.Cu",
+      "width_um": 150.0,
+      "reachable": 370,
+      "max_reach_mm": 4.1949747468305825,
+      "ordinary_sites": 0,
+      "selected": []
+    },
+    {
+      "footprint": "J3",
+      "pin": "30",
+      "old_net": "EXP_GPIO3",
+      "position": [
+        69300000,
+        3855000
+      ],
+      "side": "F.Cu",
+      "width_um": 150.0,
+      "reachable": 2777,
+      "max_reach_mm": 7.352081528017128,
+      "ordinary_sites": 0,
+      "selected": []
+    }
+  ],
+  "scope": "Candidate assignment only; reset-pull-down and existing +3V3_IO rail retained in this study. Local copper with ordinary vias, no firmware or schematic modifications."
+}

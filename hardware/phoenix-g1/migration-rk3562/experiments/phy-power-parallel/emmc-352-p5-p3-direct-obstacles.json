@@ -1,0 +1,36 @@
+{
+  "parent": "60421fd41dfb3e8481c425d525788773a0b9a508bb92081f8ab678e6679ed7b1",
+  "route": [
+    [
+      36750000,
+      5750000
+    ],
+    [
+      36750000,
+      3875000
+    ]
+  ],
+  "width": 0.225,
+  "obstacles": [
+    {
+      "uuid": "0afd9ac4-1f84-448f-b64f-6f44d4ff493b",
+      "type": "PCB_VIA",
+      "net": "GND",
+      "at": [
+        37250000,
+        5250000
+      ],
+      "part": null
+    },
+    {
+      "uuid": "95127306-ca7d-41e8-a0b6-abea39d525d3",
+      "type": "PCB_VIA",
+      "net": "GND",
+      "at": [
+        36250000,
+        5250000
+      ],
+      "part": null
+    }
+  ]
+}

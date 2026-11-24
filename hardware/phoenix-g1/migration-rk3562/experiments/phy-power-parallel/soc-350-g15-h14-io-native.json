@@ -1,0 +1,77 @@
+{
+  "parent": "2fe2813697e3b0592397c59b14558cfec6d1af4ebe5c13aea3254863adfd6cc9",
+  "board": "runs/soc-g15-h14-io-ground-reseat/phy-joint.kicad_pcb",
+  "sha256": "ab29fdb0185edc117a17a97bfdc1129749de3ba92e9655c64e54a7e0c1a67fb1",
+  "native": [
+    {
+      "delta": [],
+      "lost": [],
+      "joins": 350,
+      "replaced": [
+        "97c65977-7392-44d2-9ecc-f2087d486c05"
+      ],
+      "solution": {
+        "score": 166421.35623730952,
+        "paths": [
+          [
+            [
+              47550000,
+              19375000
+            ],
+            [
+              46937500,
+              20037500
+            ]
+          ],
+          [
+            [
+              47550000,
+              18700000
+            ],
+            [
+              46900000,
+              19350000
+            ]
+          ],
+          [
+            [
+              46350000,
+              19400000
+            ],
+            [
+              46787500,
+              19312500
+            ]
+          ]
+        ]
+      },
+      "mech": [],
+      "guard": {
+        "existing_pad_instances_preserved": 2008,
+        "existing_tracks_vias_preserved": 8072,
+        "explicitly_replaced_copper": {
+          "97c65977-7392-44d2-9ecc-f2087d486c05": [
+            "GND",
+            0,
+            46350000,
+            19400000,
+            46800000,
+            19400000,
+            500000,
+            null
+          ]
+        },
+        "added_tracks_vias": 1,
+        "existing_connected_pad_groups_preserved": 127
+      },
+      "mask": {
+        "F.Cu": 0,
+        "B.Cu": 0
+      },
+      "reference_samples": {
+        "sampled": 582
+      },
+      "qualified": true
+    }
+  ]
+}

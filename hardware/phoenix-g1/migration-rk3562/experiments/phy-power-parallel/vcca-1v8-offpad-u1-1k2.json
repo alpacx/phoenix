@@ -1,0 +1,192 @@
+{
+  "parent_sha256": "e02bfeef7e6ff15d302760261b84966c6c6a290fc7d527d4f2852c69c612795c",
+  "radius_mm": 0.225,
+  "drill_mm": 0.2,
+  "rows": [
+    {
+      "blockers": [
+        [
+          "1d9582c5-59d6-4aea-b6b1-a76f15efec86",
+          "VCCA_1V8",
+          "U1.1K2"
+        ],
+        [
+          "b0d1d5a8-7f00-4705-86b0-ea9e58a079a4",
+          "+3V3_IO",
+          "PCB_TRACK"
+        ],
+        [
+          "d10acc82-9584-499c-a295-167a5a4e263a",
+          "GND",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 3,
+      "examples": [
+        {
+          "at": [
+            39125000,
+            21300000
+          ],
+          "path": [
+            [
+              39125000,
+              21300000
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "0b33c0c7-ae6f-48fe-b361-aaada45fdc85",
+          "GND",
+          "PCB_TRACK"
+        ],
+        [
+          "1d9582c5-59d6-4aea-b6b1-a76f15efec86",
+          "VCCA_1V8",
+          "U1.1K2"
+        ],
+        [
+          "d10acc82-9584-499c-a295-167a5a4e263a",
+          "GND",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 1,
+      "examples": [
+        {
+          "at": [
+            39050000,
+            21225000
+          ],
+          "path": [
+            [
+              39050000,
+              21225000
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "0b33c0c7-ae6f-48fe-b361-aaada45fdc85",
+          "GND",
+          "PCB_TRACK"
+        ],
+        [
+          "1d9582c5-59d6-4aea-b6b1-a76f15efec86",
+          "VCCA_1V8",
+          "U1.1K2"
+        ],
+        [
+          "b0d1d5a8-7f00-4705-86b0-ea9e58a079a4",
+          "+3V3_IO",
+          "PCB_TRACK"
+        ],
+        [
+          "d10acc82-9584-499c-a295-167a5a4e263a",
+          "GND",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 5,
+      "examples": [
+        {
+          "at": [
+            39075000,
+            21250000
+          ],
+          "path": [
+            [
+              39075000,
+              21250000
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "0b33c0c7-ae6f-48fe-b361-aaada45fdc85",
+          "GND",
+          "PCB_TRACK"
+        ],
+        [
+          "1d9582c5-59d6-4aea-b6b1-a76f15efec86",
+          "VCCA_1V8",
+          "U1.1K2"
+        ],
+        [
+          "a7945ad1-407a-45f9-ad25-936d554ac07a",
+          "GND",
+          "PCB_TRACK"
+        ],
+        [
+          "d10acc82-9584-499c-a295-167a5a4e263a",
+          "GND",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 3,
+      "examples": [
+        {
+          "at": [
+            39075000,
+            21225000
+          ],
+          "path": [
+            [
+              39075000,
+              21225000
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "0b33c0c7-ae6f-48fe-b361-aaada45fdc85",
+          "GND",
+          "PCB_TRACK"
+        ],
+        [
+          "1d9582c5-59d6-4aea-b6b1-a76f15efec86",
+          "VCCA_1V8",
+          "U1.1K2"
+        ],
+        [
+          "a7945ad1-407a-45f9-ad25-936d554ac07a",
+          "GND",
+          "PCB_TRACK"
+        ],
+        [
+          "b0d1d5a8-7f00-4705-86b0-ea9e58a079a4",
+          "+3V3_IO",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 1,
+      "examples": [
+        {
+          "at": [
+            39150000,
+            21200000
+          ],
+          "path": [
+            [
+              39150000,
+              21200000
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

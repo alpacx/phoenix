@@ -1,0 +1,461 @@
+{
+  "checkpoint": "e423038e29cb08d57c2cdb0188bf6e521d7847925f9d72cd24118cf1d73b6ae9",
+  "local_names": [
+    "C601",
+    "C602",
+    "C603",
+    "C604"
+  ],
+  "grid_mm": 0.25,
+  "scope": "Rear-side four AC capacitors and mirrored mux body, retained copper against four TX cap launches. No supply/control relocation, reference or full link validated.",
+  "rows": [
+    {
+      "angle": 0,
+      "depths": [
+        2.8,
+        4.9
+      ],
+      "body_cell_count": 2646,
+      "internal_interferences": [
+        [
+          "U6.16",
+          "C601_launch",
+          0.195
+        ],
+        [
+          "C601.1",
+          "C604_launch",
+          0.14
+        ],
+        [
+          "C601.2",
+          "C604_launch",
+          0.14
+        ]
+      ],
+      "passes_line_phase": 0,
+      "all_pad_and_line_clear": 0,
+      "best": []
+    },
+    {
+      "angle": 0,
+      "depths": [
+        4.9,
+        2.8
+      ],
+      "body_cell_count": 2620,
+      "internal_interferences": [
+        [
+          "U6.16",
+          "C601_launch",
+          0.195
+        ],
+        [
+          "C604.1",
+          "C601_launch",
+          0.14
+        ],
+        [
+          "C604.2",
+          "C601_launch",
+          0.14
+        ]
+      ],
+      "passes_line_phase": 0,
+      "all_pad_and_line_clear": 0,
+      "best": []
+    },
+    {
+      "angle": 0,
+      "depths": [
+        3.5,
+        5.7
+      ],
+      "body_cell_count": 2469,
+      "internal_interferences": [
+        [
+          "U6.16",
+          "C601_launch",
+          0.195
+        ],
+        [
+          "C601.1",
+          "C604_launch",
+          0.14
+        ],
+        [
+          "C601.2",
+          "C604_launch",
+          0.14
+        ]
+      ],
+      "passes_line_phase": 0,
+      "all_pad_and_line_clear": 0,
+      "best": []
+    },
+    {
+      "angle": 0,
+      "depths": [
+        5.7,
+        3.5
+      ],
+      "body_cell_count": 2387,
+      "internal_interferences": [
+        [
+          "U6.16",
+          "C601_launch",
+          0.195
+        ],
+        [
+          "C604.1",
+          "C601_launch",
+          0.14
+        ],
+        [
+          "C604.2",
+          "C601_launch",
+          0.14
+        ]
+      ],
+      "passes_line_phase": 0,
+      "all_pad_and_line_clear": 0,
+      "best": []
+    },
+    {
+      "angle": 90,
+      "depths": [
+        2.8,
+        4.9
+      ],
+      "body_cell_count": 2311,
+      "internal_interferences": [
+        [
+          "U6.16",
+          "C601_launch",
+          0.195
+        ],
+        [
+          "C601.1",
+          "C604_launch",
+          0.14
+        ],
+        [
+          "C601.2",
+          "C604_launch",
+          0.14
+        ]
+      ],
+      "passes_line_phase": 0,
+      "all_pad_and_line_clear": 0,
+      "best": []
+    },
+    {
+      "angle": 90,
+      "depths": [
+        4.9,
+        2.8
+      ],
+      "body_cell_count": 2391,
+      "internal_interferences": [
+        [
+          "U6.16",
+          "C601_launch",
+          0.195
+        ],
+        [
+          "C604.1",
+          "C601_launch",
+          0.14
+        ],
+        [
+          "C604.2",
+          "C601_launch",
+          0.14
+        ]
+      ],
+      "passes_line_phase": 0,
+      "all_pad_and_line_clear": 0,
+      "best": []
+    },
+    {
+      "angle": 90,
+      "depths": [
+        3.5,
+        5.7
+      ],
+      "body_cell_count": 2032,
+      "internal_interferences": [
+        [
+          "U6.16",
+          "C601_launch",
+          0.195
+        ],
+        [
+          "C601.1",
+          "C604_launch",
+          0.14
+        ],
+        [
+          "C601.2",
+          "C604_launch",
+          0.14
+        ]
+      ],
+      "passes_line_phase": 0,
+      "all_pad_and_line_clear": 0,
+      "best": []
+    },
+    {
+      "angle": 90,
+      "depths": [
+        5.7,
+        3.5
+      ],
+      "body_cell_count": 2117,
+      "internal_interferences": [
+        [
+          "U6.16",
+          "C601_launch",
+          0.195
+        ],
+        [
+          "C604.1",
+          "C601_launch",
+          0.14
+        ],
+        [
+          "C604.2",
+          "C601_launch",
+          0.14
+        ]
+      ],
+      "passes_line_phase": 0,
+      "all_pad_and_line_clear": 0,
+      "best": []
+    },
+    {
+      "angle": 180,
+      "depths": [
+        2.8,
+        4.9
+      ],
+      "body_cell_count": 2624,
+      "internal_interferences": [
+        [
+          "U6.16",
+          "C601_launch",
+          0.195
+        ],
+        [
+          "C601.1",
+          "C604_launch",
+          0.14
+        ],
+        [
+          "C601.2",
+          "C604_launch",
+          0.14
+        ]
+      ],
+      "passes_line_phase": 0,
+      "all_pad_and_line_clear": 0,
+      "best": []
+    },
+    {
+      "angle": 180,
+      "depths": [
+        4.9,
+        2.8
+      ],
+      "body_cell_count": 2568,
+      "internal_interferences": [
+        [
+          "U6.16",
+          "C601_launch",
+          0.195
+        ],
+        [
+          "C604.1",
+          "C601_launch",
+          0.14
+        ],
+        [
+          "C604.2",
+          "C601_launch",
+          0.14
+        ]
+      ],
+      "passes_line_phase": 0,
+      "all_pad_and_line_clear": 0,
+      "best": []
+    },
+    {
+      "angle": 180,
+      "depths": [
+        3.5,
+        5.7
+      ],
+      "body_cell_count": 2389,
+      "internal_interferences": [
+        [
+          "U6.16",
+          "C601_launch",
+          0.195
+        ],
+        [
+          "C601.1",
+          "C604_launch",
+          0.14
+        ],
+        [
+          "C601.2",
+          "C604_launch",
+          0.14
+        ]
+      ],
+      "passes_line_phase": 0,
+      "all_pad_and_line_clear": 0,
+      "best": []
+    },
+    {
+      "angle": 180,
+      "depths": [
+        5.7,
+        3.5
+      ],
+      "body_cell_count": 2335,
+      "internal_interferences": [
+        [
+          "U6.16",
+          "C601_launch",
+          0.195
+        ],
+        [
+          "C604.1",
+          "C601_launch",
+          0.14
+        ],
+        [
+          "C604.2",
+          "C601_launch",
+          0.14
+        ]
+      ],
+      "passes_line_phase": 0,
+      "all_pad_and_line_clear": 0,
+      "best": []
+    },
+    {
+      "angle": 270,
+      "depths": [
+        2.8,
+        4.9
+      ],
+      "body_cell_count": 2289,
+      "internal_interferences": [
+        [
+          "U6.16",
+          "C601_launch",
+          0.195
+        ],
+        [
+          "C601.1",
+          "C604_launch",
+          0.14
+        ],
+        [
+          "C601.2",
+          "C604_launch",
+          0.14
+        ]
+      ],
+      "passes_line_phase": 0,
+      "all_pad_and_line_clear": 0,
+      "best": []
+    },
+    {
+      "angle": 270,
+      "depths": [
+        4.9,
+        2.8
+      ],
+      "body_cell_count": 2259,
+      "internal_interferences": [
+        [
+          "U6.16",
+          "C601_launch",
+          0.195
+        ],
+        [
+          "C604.1",
+          "C601_launch",
+          0.14
+        ],
+        [
+          "C604.2",
+          "C601_launch",
+          0.14
+        ]
+      ],
+      "passes_line_phase": 0,
+      "all_pad_and_line_clear": 0,
+      "best": []
+    },
+    {
+      "angle": 270,
+      "depths": [
+        3.5,
+        5.7
+      ],
+      "body_cell_count": 2028,
+      "internal_interferences": [
+        [
+          "U6.16",
+          "C601_launch",
+          0.195
+        ],
+        [
+          "C601.1",
+          "C604_launch",
+          0.14
+        ],
+        [
+          "C601.2",
+          "C604_launch",
+          0.14
+        ]
+      ],
+      "passes_line_phase": 0,
+      "all_pad_and_line_clear": 0,
+      "best": []
+    },
+    {
+      "angle": 270,
+      "depths": [
+        5.7,
+        3.5
+      ],
+      "body_cell_count": 1972,
+      "internal_interferences": [
+        [
+          "U6.16",
+          "C601_launch",
+          0.195
+        ],
+        [
+          "C604.1",
+          "C601_launch",
+          0.14
+        ],
+        [
+          "C604.2",
+          "C601_launch",
+          0.14
+        ]
+      ],
+      "passes_line_phase": 0,
+      "all_pad_and_line_clear": 0,
+      "best": []
+    }
+  ]
+}

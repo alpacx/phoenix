@@ -1,0 +1,107 @@
+{
+  "sha256": "87cf66583251de1ada11bdf99725038420f3583644b0822482a18c0846dc1c10",
+  "sample_pitch_mm": 0.012,
+  "groups": {
+    "+1V1_LPDDR4": {
+      "length_mm": 3.732345861824877,
+      "trace_widths_mm": [
+        0.8
+      ],
+      "sample_count": 942,
+      "missing": 183,
+      "foreign_voids": 0
+    },
+    "GND": {
+      "length_mm": 3.6363506372668257,
+      "trace_widths_mm": [
+        0.8
+      ],
+      "sample_count": 942,
+      "missing": 0,
+      "foreign_voids": 0
+    },
+    "PMIC_SCL": {
+      "length_mm": 9.186910557466957,
+      "trace_widths_mm": [
+        0.2
+      ],
+      "sample_count": 2394,
+      "missing": 443,
+      "foreign_voids": 0
+    }
+  },
+  "first_foreign_examples": {},
+  "scl_returns": [
+    {
+      "uuid": "cd13ae2f-1554-4f3c-8047-16e03455fed3",
+      "ground_dist_mm": 0.8732124598286489
+    },
+    {
+      "uuid": "3b45ffa9-cf1f-412c-a35b-0a567f8d1dd4",
+      "ground_dist_mm": 2.3135470602518553
+    }
+  ],
+  "power_in_island": true,
+  "ground_in_island": true,
+  "both_ground_terminals": [
+    {
+      "at": [
+        70550000,
+        9000000
+      ],
+      "linked": true,
+      "holes_mm": [
+        0.3
+      ]
+    },
+    {
+      "at": [
+        67850000,
+        7700000
+      ],
+      "linked": true,
+      "holes_mm": [
+        0.3
+      ]
+    }
+  ],
+  "mechanical": [],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 8036,
+    "explicitly_replaced_copper": {
+      "091156e0-cf61-4320-901b-220edc1d75d4": [
+        "PMIC_SCL",
+        2,
+        66400000,
+        4800000,
+        71200000,
+        10800000,
+        200000,
+        null
+      ],
+      "0d7c5a9d-23b4-43ff-b84e-2e4f4f401933": [
+        "GND",
+        0,
+        72700000,
+        6250000,
+        72700000,
+        7700000,
+        300000,
+        null
+      ],
+      "f8fb4cc3-c926-4e9f-8f76-203495312f78": [
+        "GND",
+        0,
+        72800000,
+        6150000,
+        72700000,
+        6250000,
+        300000,
+        null
+      ]
+    },
+    "added_tracks_vias": 31,
+    "existing_connected_pad_groups_preserved": 127
+  }
+}

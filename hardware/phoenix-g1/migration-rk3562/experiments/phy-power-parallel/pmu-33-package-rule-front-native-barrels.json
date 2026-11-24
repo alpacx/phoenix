@@ -1,0 +1,147 @@
+{
+  "parent_sha256": "02a1533baeddff4eacdbcbc8b6e6ea209aa1dd280f7ff08d73bccf7d0e228c8d",
+  "radius_mm": 0.225,
+  "drill_mm": 0.2,
+  "rows": [
+    {
+      "blockers": [
+        [
+          "4ec5df6c-16bb-42e5-a8f0-97c5bfcbabf2",
+          "+3V3_PMU",
+          "U1.1L12"
+        ]
+      ],
+      "sites": 6,
+      "examples": [
+        {
+          "at": [
+            45550000,
+            21950000
+          ],
+          "path": [
+            [
+              45550000,
+              21950000
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "4ec5df6c-16bb-42e5-a8f0-97c5bfcbabf2",
+          "+3V3_PMU",
+          "U1.1L12"
+        ],
+        [
+          "67bc1d0e-cb09-463f-8549-1f295e76d723",
+          "VDDA0V9_PMU",
+          "C1630.1"
+        ]
+      ],
+      "sites": 8,
+      "examples": [
+        {
+          "at": [
+            45450000,
+            21950000
+          ],
+          "path": [
+            [
+              45450000,
+              21950000
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "4ec5df6c-16bb-42e5-a8f0-97c5bfcbabf2",
+          "+3V3_PMU",
+          "U1.1L12"
+        ],
+        [
+          "87563782-a3a4-4478-a879-9da13f3166fb",
+          "VCCA1V8_PMU",
+          "U1.1L13"
+        ]
+      ],
+      "sites": 6,
+      "examples": [
+        {
+          "at": [
+            45750000,
+            21950000
+          ],
+          "path": [
+            [
+              45750000,
+              21950000
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "4ec5df6c-16bb-42e5-a8f0-97c5bfcbabf2",
+          "+3V3_PMU",
+          "U1.1L12"
+        ],
+        [
+          "f9796159-a322-4ee1-9577-c38523617118",
+          "GND",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 2,
+      "examples": [
+        {
+          "at": [
+            45650000,
+            22050000
+          ],
+          "path": [
+            [
+              45650000,
+              22050000
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "blockers": [
+        [
+          "4ec5df6c-16bb-42e5-a8f0-97c5bfcbabf2",
+          "+3V3_PMU",
+          "U1.1L12"
+        ],
+        [
+          "5614505e-e4ee-423d-a26a-54b972ad8f0d",
+          "GND",
+          "PCB_TRACK"
+        ]
+      ],
+      "sites": 1,
+      "examples": [
+        {
+          "at": [
+            45700000,
+            21900000
+          ],
+          "path": [
+            [
+              45700000,
+              21900000
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

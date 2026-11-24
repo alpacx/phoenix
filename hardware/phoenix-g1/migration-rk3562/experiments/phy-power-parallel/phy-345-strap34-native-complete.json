@@ -1,0 +1,97 @@
+{
+  "board": "runs/phy-strap-34-complete/phy-joint.kicad_pcb",
+  "sha256": "a955aa242b5e2dbfdc1e4d9e452efad266218bac00bf045df0783a2cfe2fea8c",
+  "parent": "6884bdd5b1ed3a954d6c7eaf9fc36ab1feffa303d78c1e5f06b1d1d35a040aae",
+  "old_clock_gap_mm": {
+    "PHY_SW": 0.349999,
+    "+1V0_PHY": 1.731017
+  },
+  "new_clock_gap_mm": {
+    "PHY_SW": 1.475452,
+    "+1V0_PHY": 1.241896
+  },
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 8083,
+    "explicitly_replaced_copper": {
+      "46fb40c4-4bf0-4f43-aed1-623ec66430f2": [
+        "PHY_SW",
+        0,
+        60350000,
+        27850000,
+        58825000,
+        28975000,
+        1550000,
+        null
+      ],
+      "86f9a471-235d-49e5-9e42-09591a4ce81e": [
+        "GND",
+        0,
+        72010000,
+        37500000,
+        72000000,
+        37500000,
+        200000,
+        null
+      ],
+      "8fa21656-fcf4-41aa-92cd-4d405b4f342d": [
+        "GND",
+        0,
+        72000000,
+        37500000,
+        72000000,
+        38250000,
+        200000,
+        null
+      ],
+      "b1c52a0c-3e10-4d38-b2db-6652c09c4626": [
+        "+1V0_PHY",
+        0,
+        57025000,
+        30000000,
+        56425000,
+        30600000,
+        1550000,
+        null
+      ],
+      "f1dd6464-b754-4958-8b4d-81fe96a54b71": [
+        "PHY_SW",
+        0,
+        58825000,
+        28975000,
+        58825000,
+        30000000,
+        1550000,
+        null
+      ]
+    },
+    "added_tracks_vias": 8,
+    "existing_connected_pad_groups_preserved": 128
+  },
+  "pairs": [
+    [
+      "R529.1",
+      "U5.34"
+    ],
+    [
+      "R529.2",
+      "U4.69"
+    ],
+    [
+      "L501.2",
+      "C511.1"
+    ],
+    [
+      "L501.2",
+      "U5.38"
+    ],
+    [
+      "L501.1",
+      "U5.30"
+    ]
+  ],
+  "residual": 345,
+  "drc_delta": [],
+  "mechanical_reserved_collisions": [],
+  "caveat": "The LDO0 strap on pin 33 remains open. Board checks do not verify regulator dynamics or strap startup timing."
+}

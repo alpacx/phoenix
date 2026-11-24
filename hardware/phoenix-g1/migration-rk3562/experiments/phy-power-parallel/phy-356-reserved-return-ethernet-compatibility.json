@@ -1,0 +1,52 @@
+{
+  "parent_sha256": "fb7a58e1f26670f2e45f445ce87d49860b91f2aeb7e3fd0831ce8ddc255a0850",
+  "experimental_sha256": "753618b21b24b208fea85ebe93c3e4bee001c67ef7c4bfc0f1c798da2f7f0e2d",
+  "foreign_copper_screen": {
+    "coupon-u22-mdi01-matched": {
+      "PHY_RXD3": []
+    },
+    "coupon-mdi3-opposite-matched": {
+      "PHY_RXD3": []
+    },
+    "coupon-u22-ports-with-mdi3": {
+      "PHY_RXD3": []
+    },
+    "mdi-357-phy-eight-populated-obstructions": {
+      "PHY_RXD3": []
+    }
+  },
+  "plane_delta": {
+    "changed_via_centers_nm": [
+      [
+        68360000,
+        31200000
+      ]
+    ],
+    "samples_by_net_and_layer": {
+      "+3V3_PHY F.Cu": {
+        "sampled": 27,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      },
+      "+3V3_PHY In2.Cu": {
+        "sampled": 27,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      },
+      "PHY_RESET_N F.Cu": {
+        "sampled": 500,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      }
+    },
+    "sample_pitch_mm": 0.012,
+    "via_window_radius_mm": 1.0,
+    "scope": "Center and edges of unchanged straight copper only. Local ground-fill comparison; no field or impedance simulation."
+  }
+}

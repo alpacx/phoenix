@@ -1,0 +1,45 @@
+{
+  "board_sha256": "9ab66bf2fedfccf049ad5aca8f802b27a5d8c7e538af7545e10957b756033dc8",
+  "family": "RK3562",
+  "reference": "rk3562-oomwoo-reference.pdf, page 6, TSADC_SHUT_M0 and R1202",
+  "documented_pad_functions_and_schematic_topology_match": true,
+  "native_copper_pad_groups": {
+    "PMIC_SLEEP": [
+      [
+        "U1.AF23"
+      ],
+      [
+        "U10.A1"
+      ],
+      [
+        "U4.49"
+      ]
+    ],
+    "RESET_N": [
+      [
+        "C411.1",
+        "R1103.1",
+        "R1507.2",
+        "R412.2",
+        "TP9.1",
+        "U16.2"
+      ],
+      [
+        "U1.1P12"
+      ],
+      [
+        "U4.67"
+      ]
+    ],
+    "THERMAL_SHUTDOWN": [
+      [
+        "R1507.1"
+      ],
+      [
+        "U1.1R13"
+      ]
+    ]
+  },
+  "full_shutdown_copper_path": false,
+  "hardware_trip_and_reset_measured": false
+}

@@ -1,0 +1,200 @@
+{
+  "changed_via_centers_nm": [
+    [
+      23450000,
+      12725000
+    ],
+    [
+      25650000,
+      8875000
+    ],
+    [
+      29400000,
+      7875000
+    ],
+    [
+      30025000,
+      9650000
+    ],
+    [
+      35675000,
+      3725000
+    ],
+    [
+      36750000,
+      3875000
+    ],
+    [
+      37900000,
+      4650000
+    ],
+    [
+      38675000,
+      12950000
+    ],
+    [
+      40500000,
+      5200000
+    ],
+    [
+      42000000,
+      4200000
+    ],
+    [
+      69200000,
+      14150000
+    ],
+    [
+      70000000,
+      14150000
+    ]
+  ],
+  "samples_by_net_and_layer": {
+    "+1V1_LPDDR4 B.Cu": {
+      "sampled": 398,
+      "lost": 60,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 60,
+      "lost_examples": [
+        {
+          "track": "92e649ff-dbd1-4929-a512-3fb695069b8e",
+          "point_nm": [
+            23230000,
+            12372000
+          ]
+        },
+        {
+          "track": "92e649ff-dbd1-4929-a512-3fb695069b8e",
+          "point_nm": [
+            23230000,
+            12384000
+          ]
+        },
+        {
+          "track": "92e649ff-dbd1-4929-a512-3fb695069b8e",
+          "point_nm": [
+            23230000,
+            12396000
+          ]
+        },
+        {
+          "track": "92e649ff-dbd1-4929-a512-3fb695069b8e",
+          "point_nm": [
+            23230000,
+            12408000
+          ]
+        },
+        {
+          "track": "92e649ff-dbd1-4929-a512-3fb695069b8e",
+          "point_nm": [
+            23230000,
+            12420000
+          ]
+        }
+      ]
+    },
+    "+1V1_LPDDR4 In3.Cu": {
+      "sampled": 210,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "+1V8_SYS B.Cu": {
+      "sampled": 363,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "+3V3_IO B.Cu": {
+      "sampled": 387,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "+3V3_IO F.Cu": {
+      "sampled": 178,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "+3V3_IO In2.Cu": {
+      "sampled": 280,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "+5V_MAIN In3.Cu": {
+      "sampled": 193,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "EMMC_3V3 In2.Cu": {
+      "sampled": 48,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "LCD_BL_BASE F.Cu": {
+      "sampled": 520,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "LCD_BL_PWM F.Cu": {
+      "sampled": 429,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "LPDDR4_A1_A In3.Cu": {
+      "sampled": 66,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "LPDDR4_CKE0_A F.Cu": {
+      "sampled": 1,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "LPDDR4_DQ0_A F.Cu": {
+      "sampled": 150,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "LPDDR4_DQ12_A F.Cu": {
+      "sampled": 57,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "LPDDR4_DQ6_A F.Cu": {
+      "sampled": 51,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    }
+  },
+  "sample_pitch_mm": 0.012,
+  "via_window_radius_mm": 1.0,
+  "scope": "Center and edges of unchanged straight copper only. Local ground-fill comparison; no field or impedance simulation.",
+  "previous_sha256": "332819072386a86841bab4079ff2456fc12c44f3636aa3ea2e11c10904e83ae3",
+  "current_sha256": "db86fd8281e8e116e73c4e0bd25ab4d30a2783e1abc3462f3223636e8ec0a166"
+}
