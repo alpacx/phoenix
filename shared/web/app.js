@@ -55,7 +55,7 @@ async function loadCapabilities(){
   $('hotspot-card').hidden=c.hotspot_configuration!==true;if(c.hotspot_configuration===true)await loadHotspot();
   speedSupported=c.speedtest===true;$('speedtest-card').hidden=!speedSupported;if(speedSupported)await refreshSpeed();
   $('application-update').hidden=c.firmware_update!==true;
-  if(c.wireguard_import==='extended'){wgExtended=true;setText('wg-help','Qualunque profilo WireGuard o wg-quick, anche con più [Peer] (fino a 16): peer con le stesse AllowedIPs sono server di riserva, gli altri sono usati insieme. Endpoint numerico o con nome, più server DNS, AllowedIPs anche parziali, PresharedKey, MTU 1280–1500. Parti IPv6 e PostUp/PostDown vengono ignorati, mai eseguiti. Chiavi salvate sul dispositivo e mai restituite dalle API.');}
+  if(c.wireguard_import==='extended'){wgExtended=true;setText('wg-help','Qualunque profilo WireGuard o wg-quick, anche con più [Peer] (fino a 16): peer con le stesse AllowedIPs sono server di riserva, gli altri sono usati insieme. Endpoint numerico o con nome, più server DNS, AllowedIPs anche parziali, PresharedKey, MTU 1280–1500. PersistentKeepalive assente o 0 diventa 25 s, oltre 60 s diventa 60 s: Phoenix verifica il tunnel con l’handshake. Parti IPv6 e PostUp/PostDown vengono ignorati, mai eseguiti. Chiavi salvate sul dispositivo e mai restituite dalle API.');}
   if(c.firmware_update===true){const u=await api('firmware');setText('update-status',u.phase?('Stato: '+u.phase+' · Ultimo pacchetto: '+(u.version||'—')):'Nessun aggiornamento installato.');}
   if(c.wifi_provisioning===false){
    $('wifi-form').querySelectorAll('input,button,select').forEach(e=>e.disabled=true);

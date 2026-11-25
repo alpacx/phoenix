@@ -68,8 +68,22 @@ pub struct Peer {
     pub endpoint_name: String,
     /// Canonical IPv4 networks, file order.
     pub allowed_ips: Vec<String>,
+    /// As written in the profile (0: absent or `off`); `wg` gets
+    /// `effective_keepalive()`.
     pub keepalive: u32,
 }
+
+/// Keepalive given to `wg` for a peer whose profile has none (absent, 0 or
+/// `off`). The supervisor judges each group by its latest handshake
+/// (connected ≤ 180 s), and WireGuard only handshakes when it has something
+/// to send: without a keepalive an idle gateway (no client traffic) never
+/// handshakes with its Internet exit and is reconnected in a loop.
+pub const DEFAULT_KEEPALIVE: u32 = 25;
+
+/// Upper bound for a profile's keepalive. A rekey happens on the first packet
+/// sent 120 s after the last handshake, so an idle peer's handshake ages up
+/// to ceil(120 / K) * K seconds; K ≤ 60 keeps it under the 180 s limit.
+pub const MAX_KEEPALIVE: u32 = 60;
 
 impl fmt::Debug for Peer {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
@@ -91,7 +105,16 @@ impl Peer {
         if !self.preshared_key.is_empty() {
             text += &format!("PresharedKey = {}\n", self.preshared_key);
         }
-        text + &format!("Endpoint = {}\nAllowedIPs = {}\nPersistentKeepalive = {}\n", self.endpoint, self.allowed_ips.join(", "), self.keepalive)
+        text + &format!("Endpoint = {}\nAllowedIPs = {}\nPersistentKeepalive = {}\n", self.endpoint, self.allowed_ips.join(", "), self.effective_keepalive())
+    }
+
+    /// Keepalive applied in `wg`: DEFAULT_KEEPALIVE when the profile has none,
+    /// otherwise its value capped at MAX_KEEPALIVE (see both).
+    pub fn effective_keepalive(&self) -> u32 {
+        match self.keepalive {
+            0 => DEFAULT_KEEPALIVE,
+            k => k.min(MAX_KEEPALIVE),
+        }
     }
 
     /// Numeric endpoint address, None while a hostname is unresolved.
@@ -633,6 +656,46 @@ pub mod tests {
             assert!(!conf.contains(forbidden), "{forbidden} leaked into setconf");
         }
         assert!(!format!("{p:?}").contains(psk) && !format!("{p:?}").contains(PRIVATE));
+    }
+
+    /// Phoenix supervises by handshake age, so every peer handed to `wg`
+    /// keeps handshaking while idle: missing/0/off → 25 s, above 60 s → 60 s,
+    /// explicit values up to 60 s unchanged. The parsed value stays as written.
+    #[test]
+    fn keepalive_always_applied_for_supervision() {
+        let profile = |keepalive: &str| {
+            parse(&format!("[Interface]\nPrivateKey = {PRIVATE}\nAddress = 10.14.0.2/16\n[Peer]\nPublicKey = {PUBLIC}\nEndpoint = 192.0.2.20:51820\nAllowedIPs = 0.0.0.0/0\n{keepalive}")).unwrap()
+        };
+        for (line, parsed, applied) in [
+            ("", 0, 25),
+            ("PersistentKeepalive = 0\n", 0, 25),
+            ("PersistentKeepalive = off\n", 0, 25),
+            ("PersistentKeepalive = 1\n", 1, 1),
+            ("PersistentKeepalive = 10\n", 10, 10),
+            ("PersistentKeepalive = 60\n", 60, 60),
+            ("PersistentKeepalive = 61\n", 61, 60),
+            ("PersistentKeepalive = 65535\n", 65535, 60),
+        ] {
+            let p = profile(line);
+            assert_eq!((p.primary().keepalive, p.primary().effective_keepalive()), (parsed, applied), "{line:?}");
+            assert!(p.setconf().ends_with(&format!("PersistentKeepalive = {applied}\n")), "{line:?}: {}", p.setconf());
+        }
+    }
+
+    /// The reported case: exit peer without keepalive next to a split-route
+    /// peer with one. Both members in use must keep handshaking.
+    #[test]
+    fn every_active_peer_gets_a_keepalive() {
+        let text = format!(
+            "[Interface]\nPrivateKey = {PRIVATE}\nAddress = 10.14.0.2/16\n\
+             [Peer]\nPublicKey = {PUBLIC}\nEndpoint = 192.0.2.20:51820\nAllowedIPs = 0.0.0.0/0\n\
+             [Peer]\nPublicKey = {}\nEndpoint = 192.0.2.21:51820\nAllowedIPs = 192.168.1.79/32, 91.108.4.0/22\nPersistentKeepalive = 25\n",
+            peer_key(9)
+        );
+        let p = parse(&text).unwrap();
+        assert_eq!(p.exit_group(), Some(0));
+        assert_eq!(p.setconf().matches("PersistentKeepalive = 25\n").count(), 2, "{}", p.setconf());
+        assert!(p.peers[0].block().contains("PersistentKeepalive = 25\n"), "wg addconf on failover too");
     }
 
     /// Surfshark-style: hostname endpoint, two DNS lines, no prefix.

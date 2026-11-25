@@ -108,6 +108,15 @@ fn wireguard_profiles_match_python() {
             continue;
         }
         let without_notes = parsed.as_ref().map(|p| p.notes.is_empty()).unwrap_or(false);
+        // Documented divergence (API_STATUS.md, 2026-11-25): a peer without
+        // keepalive gets wireguard::DEFAULT_KEEPALIVE in `wg`, so the
+        // supervisor sees handshakes on an idle gateway. Python wrote 0.
+        let mut case = case.clone();
+        if let Some(setconf) = case.get_mut("ok").and_then(|ok| ok.get_mut("setconf")) {
+            let applied = format!("PersistentKeepalive = {}\n", wireguard::DEFAULT_KEEPALIVE);
+            *setconf = Value::String(setconf.as_str().unwrap().replace("PersistentKeepalive = 0\n", &applied));
+        }
+        let case = &case;
         check("wireguard", case, parsed, |p| {
             let peer = p.primary();
             serde_json::json!({"private_key": p.private_key, "public_key": peer.public_key, "address": p.address,

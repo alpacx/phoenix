@@ -103,8 +103,16 @@ JSON) con 1–16 sezioni `[Peer]`:
   e tutti gli IPv6 ignorati; almeno un IPv4 obbligatorio;
 - `DNS` facoltativo: fino a 3 IPv4 distribuiti via DHCP ad AP/USB; IPv6 e domini
   di ricerca ignorati; nessun IPv4 → 1.1.1.1 raggiunto attraverso il tunnel;
-- `MTU` 1280–1500 (default 1380); `PersistentKeepalive` 0–65535 o `off`;
-  `PresharedKey` applicata;
+- `MTU` 1280–1500 (default 1380); `PresharedKey` applicata;
+- `PersistentKeepalive` 0–65535 o `off`, ma a `wg` arriva sempre un
+  keepalive (dal 2026-11-25, divergenza da wg-quick e dal parser precedente):
+  assente, 0 o `off` → 25 s; oltre 60 s → 60 s; 1–60 s invariato. Motivo:
+  lo stato "connesso" dipende dall'handshake ≤ 180 s del gruppo di uscita e
+  WireGuard fa l'handshake solo se ha qualcosa da inviare; senza keepalive un
+  gateway senza traffico dei client non risultava mai connesso e veniva
+  riconnesso in ciclo (riprodotto sulla ROCK). Con K > 60 l'età dell'handshake
+  di un peer inattivo arriva a ceil(120/K)·K s e può superare 180 s. Il valore
+  scritto nel profilo resta quello salvato;
 - `Endpoint` IPv4:porta o nome:porta (RFC 1123). Il nome viene risolto a ogni
   connessione/riconnessione con DoH autenticato verso 1.1.1.1 vincolato
   all'uplink scelto (come l'API NordVPN), mai con il resolver di sistema né
