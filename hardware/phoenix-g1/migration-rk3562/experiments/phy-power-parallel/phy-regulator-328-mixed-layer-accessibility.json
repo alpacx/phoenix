@@ -1,0 +1,302 @@
+{
+  "parent": "ffed4bc66d03386e5438046b7c38c18651a3702523f2c2cd4e5c17411e1fcd4f",
+  "pitch_mm": 0.055,
+  "width_mm": 0.2,
+  "clearance_mm": 0.2,
+  "reference_checked": false,
+  "results": {
+    "PHY_TXEN": {
+      "groups": [
+        [
+          "R505.2"
+        ],
+        [
+          "U5.19"
+        ]
+      ],
+      "region_paths": []
+    },
+    "PHY_TXD0": {
+      "groups": [
+        [
+          "R501.2"
+        ],
+        [
+          "U5.18"
+        ]
+      ],
+      "region_paths": []
+    },
+    "PHY_TXCLK": {
+      "groups": [
+        [
+          "R506.2"
+        ],
+        [
+          "U5.20"
+        ]
+      ],
+      "region_paths": []
+    },
+    "PHY_RXD3": {
+      "groups": [
+        [
+          "R510.2",
+          "R521.1"
+        ],
+        [
+          "U5.22"
+        ]
+      ],
+      "region_paths": []
+    },
+    "PHY_TXD1": {
+      "groups": [
+        [
+          "R502.2"
+        ],
+        [
+          "U5.17"
+        ]
+      ],
+      "region_paths": []
+    },
+    "PHY_TXD3": {
+      "groups": [
+        [
+          "R504.2"
+        ],
+        [
+          "U5.15"
+        ]
+      ],
+      "region_paths": []
+    },
+    "PHY_RXD2": {
+      "groups": [
+        [
+          "R509.2"
+        ],
+        [
+          "R524.1"
+        ],
+        [
+          "U5.23"
+        ]
+      ],
+      "region_paths": []
+    },
+    "PHY_TXD2": {
+      "groups": [
+        [
+          "R503.2"
+        ],
+        [
+          "U5.16"
+        ]
+      ],
+      "region_paths": []
+    },
+    "PHY_RXDV_CRS": {
+      "groups": [
+        [
+          "R523.1"
+        ],
+        [
+          "U5.26"
+        ],
+        [
+          "R511.2"
+        ]
+      ],
+      "region_paths": []
+    },
+    "PHY_RXD0": {
+      "groups": [
+        [
+          "U5.25"
+        ],
+        [
+          "R507.2"
+        ],
+        [
+          "R526.1"
+        ]
+      ],
+      "region_paths": []
+    },
+    "PHY_CFG_EXT": {
+      "groups": [
+        [
+          "U5.32"
+        ],
+        [
+          "R527.1"
+        ]
+      ],
+      "region_paths": []
+    },
+    "PMIC_VDC": {
+      "groups": [
+        [
+          "U4.61"
+        ],
+        [
+          "C410.1",
+          "R410.2",
+          "R411.1"
+        ]
+      ],
+      "region_paths": []
+    },
+    "VDD_NPU_COM": {
+      "groups": [
+        [
+          "R424.2"
+        ],
+        [
+          "C454.2"
+        ],
+        [
+          "U4.64"
+        ]
+      ],
+      "region_paths": [
+        {
+          "a": [
+            "C454.2"
+          ],
+          "b": [
+            "R424.2"
+          ],
+          "regions": [
+            [
+              "pad",
+              1
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              "pad",
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    "VDD_GPU_COM": {
+      "groups": [
+        [
+          "C452.2"
+        ],
+        [
+          "R422.2"
+        ],
+        [
+          "U4.8"
+        ]
+      ],
+      "region_paths": [
+        {
+          "a": [
+            "R422.2"
+          ],
+          "b": [
+            "C452.2"
+          ],
+          "regions": [
+            [
+              "pad",
+              1
+            ],
+            [
+              0,
+              78
+            ],
+            [
+              2,
+              8
+            ],
+            [
+              0,
+              83
+            ],
+            [
+              "pad",
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    "VDD_LOGIC_COM": {
+      "groups": [
+        [
+          "C451.2"
+        ],
+        [
+          "R421.2"
+        ],
+        [
+          "U4.13"
+        ]
+      ],
+      "region_paths": [
+        {
+          "a": [
+            "R421.2"
+          ],
+          "b": [
+            "C451.2"
+          ],
+          "regions": [
+            [
+              "pad",
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              8
+            ],
+            [
+              0,
+              35
+            ],
+            [
+              "pad",
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    "DDR_FB": {
+      "groups": [
+        [
+          "R432.1"
+        ],
+        [
+          "R431.2"
+        ],
+        [
+          "U4.27"
+        ]
+      ],
+      "region_paths": []
+    }
+  }
+}

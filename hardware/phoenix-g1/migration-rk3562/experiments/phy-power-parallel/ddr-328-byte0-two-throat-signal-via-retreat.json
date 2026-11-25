@@ -1,0 +1,34 @@
+{
+  "parent": "ffed4bc66d03386e5438046b7c38c18651a3702523f2c2cd4e5c17411e1fcd4f",
+  "scope": "Offset through via off all component solder lands, with all existing trace endpoints rejoined. Signal-to-signal separation 0.10 mm. Minimum accepted improvement in the via center spacing 0.10 mm.",
+  "windows": [
+    {
+      "net": "LPDDR4_A5_B",
+      "original": [
+        33.2,
+        10.3
+      ],
+      "opposing": [
+        33.4,
+        9.4
+      ],
+      "native_connected_segments": 1,
+      "valid": 0,
+      "best": []
+    },
+    {
+      "net": "LPDDR4_CLKP_B",
+      "original": [
+        30.8,
+        10.3
+      ],
+      "opposing": [
+        31.15,
+        9.4
+      ],
+      "native_connected_segments": 1,
+      "valid": 0,
+      "best": []
+    }
+  ]
+}

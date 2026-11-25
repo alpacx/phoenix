@@ -1,0 +1,31 @@
+{
+  "parent": "46f9feaf5c8b3a8bb1b831096a9ed529314bb6f5fd2206b4f467ddfc6c748a77",
+  "coupon_hash": "1eebb592530c82d8097261b9b54ec2177e57f3e379f3d1ad7b1eed6893c3fd66",
+  "adopted": false,
+  "reason": "Reference crystal placement still has direct pin separation of roughly 14 and 16 mm to the clock pins. Requires joint relocation and load/loop qualification.",
+  "links": [
+    [
+      "C1501",
+      "XIN24M",
+      1.4436065946094871
+    ],
+    [
+      "C1502",
+      "XTAL24_DRIVE",
+      1.4990663761154808
+    ],
+    [
+      "C1502",
+      "GND",
+      0.6129437168288782
+    ]
+  ],
+  "joins": 331,
+  "native_drc_delta": [],
+  "connected": {
+    "['C1501.1', 'Y1.1']": true,
+    "['C1502.1', 'Y1.3']": true,
+    "['C1501.2', 'C1001.2']": true,
+    "['C1502.2', 'C1001.2']": true
+  }
+}

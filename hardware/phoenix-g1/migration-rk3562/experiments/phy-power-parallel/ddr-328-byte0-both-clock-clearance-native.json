@@ -1,0 +1,43 @@
+{
+  "parent": "ffed4bc66d03386e5438046b7c38c18651a3702523f2c2cd4e5c17411e1fcd4f",
+  "board": "runs/ddr-strobe-b0-dual-clock-clearance/phy-joint.kicad_pcb",
+  "sha256": "50c6afa39069980f32d0a85f7c25b60ae5f8b8db9cd421ebb908c9c38622e966",
+  "joins": 328,
+  "drc_delta": [],
+  "lost": [],
+  "modified": [
+    {
+      "uuid": "8e98e30c-dc0f-4b4f-8c41-f573de6e77ac",
+      "layer": 0,
+      "net": "+1V1_LPDDR4",
+      "width_mm": 0.5,
+      "before_mm": 0.07071067811865477,
+      "after_mm": 0.27950849718747367
+    },
+    {
+      "uuid": "b9a55964-54e7-412b-bc67-ef5f1927b0e0",
+      "layer": 2,
+      "net": "+1V1_LPDDR4",
+      "width_mm": 0.5,
+      "before_mm": 0.7280109889280518,
+      "after_mm": 0.4802343178074636
+    },
+    {
+      "uuid": "5a52cff6-7de6-4ef9-a68d-109c8868bfc4",
+      "layer": 0,
+      "net": "GND",
+      "width_mm": 0.3,
+      "before_mm": 0.375,
+      "after_mm": 0.304138126514911
+    },
+    {
+      "uuid": "ffaac5bc-72d3-466f-a4cb-a9f4a2440574",
+      "layer": 0,
+      "net": "GND",
+      "width_mm": 0.3,
+      "before_mm": 0.375001,
+      "after_mm": 0.024999
+    }
+  ],
+  "adopted": false
+}

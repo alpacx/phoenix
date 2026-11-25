@@ -1,0 +1,56 @@
+{
+  "parent": "4d84d17ac0ca5b0c0c7eb1f9c95afeea8044662462b9d86514e1a539d0aca56a",
+  "pitch_mm": 0.018,
+  "width_mm": 0.2,
+  "results": [
+    {
+      "net": "DEBUG_TX",
+      "first": {
+        "net": "EXP_I2C_SDA",
+        "layer": 0,
+        "pt": [
+          43.975,
+          25.2
+        ],
+        "end": [
+          46.58,
+          25.17
+        ],
+        "w": 0.0762,
+        "drill": 0,
+        "kind": "track"
+      },
+      "first_only": {
+        "nodes": 2714,
+        "via_cells": 0,
+        "farthest": 1.723
+      },
+      "additional": []
+    },
+    {
+      "net": "THERMAL_SHUTDOWN",
+      "first": {
+        "net": "EXP_I2C_SDA",
+        "layer": 0,
+        "pt": [
+          43.975,
+          25.2
+        ],
+        "end": [
+          46.58,
+          25.17
+        ],
+        "w": 0.0762,
+        "drill": 0,
+        "kind": "track"
+      },
+      "first_only": {
+        "nodes": 2565,
+        "via_cells": 0,
+        "farthest": 2.054
+      },
+      "additional": []
+    }
+  ],
+  "scope": "Via mask retains every obstacle; allowing one copper item to move only enlarges the front route region. Pad geometries and every other foil fixed."
+}

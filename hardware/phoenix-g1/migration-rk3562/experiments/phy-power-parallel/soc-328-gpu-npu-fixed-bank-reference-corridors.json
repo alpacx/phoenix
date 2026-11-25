@@ -1,0 +1,30 @@
+{
+  "parent": "ffed4bc66d03386e5438046b7c38c18651a3702523f2c2cd4e5c17411e1fcd4f",
+  "width": 0.35,
+  "results": [
+    {
+      "net": "VDD_NPU",
+      "side": 2,
+      "reachable_groups": 2,
+      "region_pairs": []
+    },
+    {
+      "net": "VDD_NPU",
+      "side": 0,
+      "reachable_groups": 1,
+      "region_pairs": []
+    },
+    {
+      "net": "VDD_GPU",
+      "side": 2,
+      "reachable_groups": 2,
+      "region_pairs": []
+    },
+    {
+      "net": "VDD_GPU",
+      "side": 0,
+      "reachable_groups": 2,
+      "region_pairs": []
+    }
+  ]
+}

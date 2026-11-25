@@ -8,7 +8,7 @@ import pcbnew
 
 root = Path(__file__).resolve().parents[1]
 work = root / "migration-rk3562/experiments/phy-power-parallel"
-checkpoint = json.loads((work / "layout-phy-r521-rear-off-drill.json").read_text())
+checkpoint = json.loads((work / "layout-debug-rx-front-probe.json").read_text())
 source = work / checkpoint["board"]
 assert hashlib.sha256(source.read_bytes()).hexdigest() == checkpoint["sha256"]
 board = pcbnew.LoadBoard(str(source))

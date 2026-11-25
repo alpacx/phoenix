@@ -1,0 +1,95 @@
+{
+  "method": "Saved In4.Cu ground fill sampled below B.Cu track center and edges every 5 micrometers; via proximity is planar Euclidean distance only.",
+  "branches": [
+    {
+      "ref": "C1629",
+      "checkpoint": "3d95c5c6b376f19da23a5cf20bfd30db3288e81336921e0e0b652da65d360e94",
+      "changed_rear_tracks": [
+        {
+          "uuid": "2d487f4c-12ae-491f-8b31-ed78c617e0b2",
+          "net": "GND",
+          "length_mm": 1.1088733020503287,
+          "width_mm": 0.3,
+          "samples": 669,
+          "outside_filled_ground": 0
+        },
+        {
+          "uuid": "e088fe31-dfb0-41aa-8e4c-d70e9e3bc0b1",
+          "net": "GND",
+          "length_mm": 1.55,
+          "width_mm": 0.3,
+          "samples": 933,
+          "outside_filled_ground": 0
+        },
+        {
+          "uuid": "2b810c88-877b-401f-bee0-ffa2c22f07e4",
+          "net": "VDDA0V9_PMU",
+          "length_mm": 1.1088733020503287,
+          "width_mm": 0.35,
+          "samples": 669,
+          "outside_filled_ground": 0
+        }
+      ],
+      "ground_access_on_latest_checkpoint": {
+        "board_sha256": "46f9feaf5c8b3a8bb1b831096a9ed529314bb6f5fd2206b4f467ddfc6c748a77",
+        "closest_same_component_via_center_mm": [
+          42.9,
+          18.65
+        ],
+        "planar_distance_mm": 2.919401
+      }
+    },
+    {
+      "ref": "C1610",
+      "checkpoint": "249850a13ebe5eaf7699ab1d0c123fecd08aa8686fabbd467d2bf876a7d66ad6",
+      "changed_rear_tracks": [
+        {
+          "uuid": "2364220f-40f6-4b07-af78-8998a9ea7f99",
+          "net": "VDD_LOGIC",
+          "length_mm": 1.0692053123698928,
+          "width_mm": 0.35,
+          "samples": 645,
+          "outside_filled_ground": 0
+        }
+      ],
+      "ground_access_on_latest_checkpoint": {
+        "board_sha256": "46f9feaf5c8b3a8bb1b831096a9ed529314bb6f5fd2206b4f467ddfc6c748a77",
+        "closest_same_component_via_center_mm": [
+          51.525,
+          18.97
+        ],
+        "planar_distance_mm": 1.648977
+      }
+    },
+    {
+      "ref": "C1632",
+      "checkpoint": "46f9feaf5c8b3a8bb1b831096a9ed529314bb6f5fd2206b4f467ddfc6c748a77",
+      "changed_rear_tracks": [
+        {
+          "uuid": "946839c5-41f2-4b88-a789-df982ce0182d",
+          "net": "GND",
+          "length_mm": 0.6753517601961218,
+          "width_mm": 0.3,
+          "samples": 411,
+          "outside_filled_ground": 0
+        },
+        {
+          "uuid": "099d3ce4-2130-4a63-b0bd-0fc9336b3dcb",
+          "net": "VCCA1V8_PMU",
+          "length_mm": 1.1637869220780923,
+          "width_mm": 0.35,
+          "samples": 702,
+          "outside_filled_ground": 0
+        }
+      ],
+      "ground_access_on_latest_checkpoint": {
+        "board_sha256": "46f9feaf5c8b3a8bb1b831096a9ed529314bb6f5fd2206b4f467ddfc6c748a77",
+        "closest_same_component_via_center_mm": [
+          41.87,
+          30.5
+        ],
+        "planar_distance_mm": 0.675352
+      }
+    }
+  ]
+}

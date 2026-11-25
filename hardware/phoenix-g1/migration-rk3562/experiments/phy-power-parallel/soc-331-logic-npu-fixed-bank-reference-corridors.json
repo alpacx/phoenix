@@ -1,0 +1,30 @@
+{
+  "parent": "bea0995e2fc2b4f6d31d2770cf472beedbcdddb8afe447c0e5963285a4766b14",
+  "width": 0.35,
+  "results": [
+    {
+      "net": "VDD_NPU",
+      "side": 2,
+      "reachable_groups": 3,
+      "region_pairs": []
+    },
+    {
+      "net": "VDD_NPU",
+      "side": 0,
+      "reachable_groups": 1,
+      "region_pairs": []
+    },
+    {
+      "net": "VDD_LOGIC",
+      "side": 2,
+      "reachable_groups": 5,
+      "region_pairs": []
+    },
+    {
+      "net": "VDD_LOGIC",
+      "side": 0,
+      "reachable_groups": 1,
+      "region_pairs": []
+    }
+  ]
+}

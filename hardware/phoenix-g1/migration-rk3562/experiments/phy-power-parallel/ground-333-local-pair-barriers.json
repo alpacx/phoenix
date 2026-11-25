@@ -1,0 +1,6458 @@
+{
+  "parent": "46f9feaf5c8b3a8bb1b831096a9ed529314bb6f5fd2206b4f467ddfc6c748a77",
+  "width_mm": 0.2,
+  "scope": "Package-side candidate direct center connections, using native package clearances for local obstacle ranking; native DRC remains required.",
+  "rows": [
+    {
+      "pair": [
+        "U1.C7",
+        "U1.1A2"
+      ],
+      "distance": 1.030776406404414,
+      "hits": [
+        {
+          "kind": "via",
+          "net": "LPDDR4_DQ7_A",
+          "ref": null,
+          "pt": [
+            39.1,
+            14.8
+          ],
+          "end": [
+            39.1,
+            14.8
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.C21",
+        "U1.1A14"
+      ],
+      "distance": 1.030776406404414,
+      "hits": [
+        {
+          "kind": "via",
+          "net": "LPDDR4_DQ6_B",
+          "ref": null,
+          "pt": [
+            46.9,
+            14.8
+          ],
+          "end": [
+            46.9,
+            14.8
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.C7",
+        "U1.1A4"
+      ],
+      "distance": 1.3086252328302386,
+      "hits": [
+        {
+          "kind": "via",
+          "net": "LPDDR4_DQ3_A",
+          "ref": null,
+          "pt": [
+            40.0,
+            14.65
+          ],
+          "end": [
+            40.0,
+            14.65
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.C21",
+        "U1.1A12"
+      ],
+      "distance": 1.3086252328302386,
+      "hits": [
+        {
+          "kind": "via",
+          "net": "LPDDR4_DQ3_B",
+          "ref": null,
+          "pt": [
+            46.0,
+            14.65
+          ],
+          "end": [
+            46.0,
+            14.65
+          ]
+        },
+        {
+          "kind": "via",
+          "net": "LPDDR4_DQS0P_B",
+          "ref": null,
+          "pt": [
+            46.1,
+            15.45
+          ],
+          "end": [
+            46.1,
+            15.45
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.AG15",
+        "U1.AE13"
+      ],
+      "distance": 1.4142135623730951,
+      "hits": [
+        {
+          "kind": "pad",
+          "net": "",
+          "ref": "U1.AF14",
+          "pt": [
+            43.0,
+            26.0
+          ],
+          "end": null
+        },
+        {
+          "kind": "track",
+          "net": "EXP_SPI_CLK",
+          "ref": null,
+          "pt": [
+            43.25,
+            25.75
+          ],
+          "end": [
+            43.25,
+            27.15
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U8001.N5",
+        "U8001.P6"
+      ],
+      "distance": 0.7071067811865476,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "EMMC_IO_1V8",
+          "ref": null,
+          "pt": [
+            36.75,
+            5.75
+          ],
+          "end": [
+            36.827231,
+            5.261409
+          ]
+        },
+        {
+          "kind": "pad",
+          "net": "EMMC_IO_1V8",
+          "ref": "U8001.P5",
+          "pt": [
+            36.75,
+            5.75
+          ],
+          "end": null
+        },
+        {
+          "kind": "pad",
+          "net": "",
+          "ref": "U8001.N6",
+          "pt": [
+            37.25,
+            6.25
+          ],
+          "end": null
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.C7",
+        "U1.C9"
+      ],
+      "distance": 1.0,
+      "hits": [
+        {
+          "kind": "pad",
+          "net": "LPDDR4_DQ3_A",
+          "ref": "U1.C8",
+          "pt": [
+            40.0,
+            14.5
+          ],
+          "end": null
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ3_A",
+          "ref": null,
+          "pt": [
+            40.0,
+            14.5
+          ],
+          "end": [
+            40.0,
+            14.65
+          ]
+        },
+        {
+          "kind": "via",
+          "net": "LPDDR4_DQ3_A",
+          "ref": null,
+          "pt": [
+            40.0,
+            14.65
+          ],
+          "end": [
+            40.0,
+            14.65
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.C21",
+        "U1.C19"
+      ],
+      "distance": 1.0,
+      "hits": [
+        {
+          "kind": "pad",
+          "net": "LPDDR4_DQ3_B",
+          "ref": "U1.C20",
+          "pt": [
+            46.0,
+            14.5
+          ],
+          "end": null
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ3_B",
+          "ref": null,
+          "pt": [
+            46.0,
+            14.5
+          ],
+          "end": [
+            46.0,
+            14.65
+          ]
+        },
+        {
+          "kind": "via",
+          "net": "LPDDR4_DQ3_B",
+          "ref": null,
+          "pt": [
+            46.0,
+            14.65
+          ],
+          "end": [
+            46.0,
+            14.65
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U8001.N5",
+        "U8001.P4"
+      ],
+      "distance": 0.7071067811865476,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "EMMC_IO_1V8",
+          "ref": null,
+          "pt": [
+            36.75,
+            5.75
+          ],
+          "end": [
+            36.827231,
+            5.261409
+          ]
+        },
+        {
+          "kind": "pad",
+          "net": "EMMC_IO_1V8",
+          "ref": "U8001.P5",
+          "pt": [
+            36.75,
+            5.75
+          ],
+          "end": null
+        },
+        {
+          "kind": "pad",
+          "net": "EMMC_IO_1V8",
+          "ref": "U8001.N4",
+          "pt": [
+            36.25,
+            6.25
+          ],
+          "end": null
+        },
+        {
+          "kind": "track",
+          "net": "EMMC_IO_1V8",
+          "ref": null,
+          "pt": [
+            36.25,
+            6.65
+          ],
+          "end": [
+            36.25,
+            6.35
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.AG15",
+        "U1.AE14"
+      ],
+      "distance": 1.118033988749895,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "EXP_SPI_CLK",
+          "ref": null,
+          "pt": [
+            43.75,
+            25.75
+          ],
+          "end": [
+            43.25,
+            25.75
+          ]
+        },
+        {
+          "kind": "pad",
+          "net": "EXP_SPI_CS1_N",
+          "ref": "U1.AF15",
+          "pt": [
+            43.5,
+            26.0
+          ],
+          "end": null
+        },
+        {
+          "kind": "pad",
+          "net": "",
+          "ref": "U1.AF14",
+          "pt": [
+            43.0,
+            26.0
+          ],
+          "end": null
+        },
+        {
+          "kind": "track",
+          "net": "EXP_SPI_CLK",
+          "ref": null,
+          "pt": [
+            43.25,
+            25.75
+          ],
+          "end": [
+            43.25,
+            27.15
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U8001.N2",
+        "U8001.P4"
+      ],
+      "distance": 1.118033988749895,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "EMMC_IO_1V8",
+          "ref": null,
+          "pt": [
+            35.7,
+            5.575
+          ],
+          "end": [
+            35.675,
+            5.55
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "EMMC_IO_1V8",
+          "ref": null,
+          "pt": [
+            35.7,
+            5.6
+          ],
+          "end": [
+            35.7,
+            5.575
+          ]
+        },
+        {
+          "kind": "pad",
+          "net": "EMMC_IO_1V8",
+          "ref": "U8001.P3",
+          "pt": [
+            35.75,
+            5.75
+          ],
+          "end": null
+        },
+        {
+          "kind": "pad",
+          "net": "",
+          "ref": "U8001.N3",
+          "pt": [
+            35.75,
+            6.25
+          ],
+          "end": null
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U2.G10",
+        "U2.J10"
+      ],
+      "distance": 1.2999999999999998,
+      "hits": [
+        {
+          "kind": "pad",
+          "net": "LPDDR4_A3_A",
+          "ref": "U2.H10",
+          "pt": [
+            32.8,
+            6.725
+          ],
+          "end": null
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A3_A",
+          "ref": null,
+          "pt": [
+            32.8,
+            6.725
+          ],
+          "end": [
+            32.4,
+            7.05
+          ]
+        },
+        {
+          "kind": "via",
+          "net": "LPDDR4_A4_A",
+          "ref": null,
+          "pt": [
+            33.2,
+            7.05
+          ],
+          "end": [
+            33.2,
+            7.05
+          ]
+        },
+        {
+          "kind": "via",
+          "net": "LPDDR4_A3_A",
+          "ref": null,
+          "pt": [
+            32.4,
+            7.05
+          ],
+          "end": [
+            32.4,
+            7.05
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U2.T10",
+        "U2.P10"
+      ],
+      "distance": 1.3000000000000007,
+      "hits": [
+        {
+          "kind": "via",
+          "net": "LPDDR4_A3_B",
+          "ref": null,
+          "pt": [
+            32.4,
+            10.95
+          ],
+          "end": [
+            32.4,
+            10.95
+          ]
+        },
+        {
+          "kind": "via",
+          "net": "LPDDR4_A4_B",
+          "ref": null,
+          "pt": [
+            33.2,
+            10.95
+          ],
+          "end": [
+            33.2,
+            10.95
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A3_B",
+          "ref": null,
+          "pt": [
+            32.8,
+            11.275
+          ],
+          "end": [
+            32.4,
+            10.95
+          ]
+        },
+        {
+          "kind": "pad",
+          "net": "LPDDR4_A3_B",
+          "ref": "U2.R10",
+          "pt": [
+            32.8,
+            11.275
+          ],
+          "end": null
+        },
+        {
+          "kind": "via",
+          "net": "LPDDR4_RESETN",
+          "ref": null,
+          "pt": [
+            33.2,
+            11.6
+          ],
+          "end": [
+            33.2,
+            11.6
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U8001.C4",
+        "U8001.A6"
+      ],
+      "distance": 1.4142135623730951,
+      "hits": [
+        {
+          "kind": "pad",
+          "net": "",
+          "ref": "U8001.C5",
+          "pt": [
+            36.75,
+            11.25
+          ],
+          "end": null
+        },
+        {
+          "kind": "pad",
+          "net": "EMMC_D7",
+          "ref": "U8001.B6",
+          "pt": [
+            37.25,
+            11.75
+          ],
+          "end": null
+        },
+        {
+          "kind": "pad",
+          "net": "EMMC_D6",
+          "ref": "U8001.B5",
+          "pt": [
+            36.75,
+            11.75
+          ],
+          "end": null
+        },
+        {
+          "kind": "pad",
+          "net": "EMMC_D5",
+          "ref": "U8001.B4",
+          "pt": [
+            36.25,
+            11.75
+          ],
+          "end": null
+        },
+        {
+          "kind": "pad",
+          "net": "EMMC_D2",
+          "ref": "U8001.A5",
+          "pt": [
+            36.75,
+            12.25
+          ],
+          "end": null
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.AE21",
+        "U1.1R14"
+      ],
+      "distance": 1.030776406404414,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "EXP_I2C_SDA",
+          "ref": null,
+          "pt": [
+            43.975,
+            25.2
+          ],
+          "end": [
+            46.58,
+            25.17
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "EXP_I2C_SDA",
+          "ref": null,
+          "pt": [
+            46.725,
+            25.375
+          ],
+          "end": [
+            46.58,
+            25.17
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "EXP_I2C_SDA",
+          "ref": null,
+          "pt": [
+            46.725,
+            25.375
+          ],
+          "end": [
+            46.735,
+            25.39
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "EXP_I2C_SDA",
+          "ref": null,
+          "pt": [
+            46.75,
+            25.425
+          ],
+          "end": [
+            46.735,
+            25.39
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "EXP_I2C_SDA",
+          "ref": null,
+          "pt": [
+            46.75,
+            25.425
+          ],
+          "end": [
+            46.75,
+            25.625
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "EXP_I2C_SDA",
+          "ref": null,
+          "pt": [
+            46.875,
+            25.725
+          ],
+          "end": [
+            46.75,
+            25.625
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.AE21",
+        "U1.1R12"
+      ],
+      "distance": 1.3086252328302386,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "EXP_I2C_SDA",
+          "ref": null,
+          "pt": [
+            43.975,
+            25.2
+          ],
+          "end": [
+            46.58,
+            25.17
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "EXP_I2C_SDA",
+          "ref": null,
+          "pt": [
+            46.725,
+            25.375
+          ],
+          "end": [
+            46.58,
+            25.17
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "EXP_I2C_SDA",
+          "ref": null,
+          "pt": [
+            46.725,
+            25.375
+          ],
+          "end": [
+            46.735,
+            25.39
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "EXP_I2C_SDA",
+          "ref": null,
+          "pt": [
+            46.75,
+            25.425
+          ],
+          "end": [
+            46.735,
+            25.39
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "EXP_I2C_SDA",
+          "ref": null,
+          "pt": [
+            46.75,
+            25.425
+          ],
+          "end": [
+            46.75,
+            25.625
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "EXP_I2C_SDA",
+          "ref": null,
+          "pt": [
+            46.875,
+            25.725
+          ],
+          "end": [
+            46.75,
+            25.625
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.C3",
+        "U1.C4"
+      ],
+      "distance": 0.5,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.84,
+            14.295
+          ],
+          "end": [
+            37.81,
+            14.325
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.81,
+            14.325
+          ],
+          "end": [
+            37.76,
+            14.375
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.76,
+            14.375
+          ],
+          "end": [
+            37.75,
+            14.45
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.75,
+            14.45
+          ],
+          "end": [
+            37.75,
+            14.5
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.75,
+            14.5
+          ],
+          "end": [
+            37.75,
+            14.55
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.75,
+            14.55
+          ],
+          "end": [
+            37.75,
+            14.6
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.75,
+            14.6
+          ],
+          "end": [
+            37.705,
+            14.66
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.705,
+            14.66
+          ],
+          "end": [
+            37.675,
+            14.69
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.675,
+            14.69
+          ],
+          "end": [
+            37.625,
+            14.74
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.9,
+            14.25
+          ],
+          "end": [
+            37.84,
+            14.295
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.C15",
+        "U1.C14"
+      ],
+      "distance": 0.5,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.35,
+            14.25
+          ],
+          "end": [
+            43.35,
+            14.3
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.35,
+            14.3
+          ],
+          "end": [
+            43.3,
+            14.35
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.3,
+            14.35
+          ],
+          "end": [
+            43.25,
+            14.4
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.25,
+            14.4
+          ],
+          "end": [
+            43.25,
+            14.45
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.25,
+            14.45
+          ],
+          "end": [
+            43.25,
+            14.5
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.25,
+            14.5
+          ],
+          "end": [
+            43.25,
+            14.55
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.25,
+            14.55
+          ],
+          "end": [
+            43.25,
+            14.6
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.25,
+            14.6
+          ],
+          "end": [
+            43.25,
+            14.65
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.25,
+            14.65
+          ],
+          "end": [
+            43.25,
+            14.7
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.25,
+            14.7
+          ],
+          "end": [
+            43.25,
+            14.75
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.C24",
+        "U1.C25"
+      ],
+      "distance": 0.5,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.1,
+            14.25
+          ],
+          "end": [
+            48.155,
+            14.29
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.155,
+            14.29
+          ],
+          "end": [
+            48.19,
+            14.325
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.19,
+            14.325
+          ],
+          "end": [
+            48.24,
+            14.375
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.24,
+            14.375
+          ],
+          "end": [
+            48.25,
+            14.45
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.25,
+            14.45
+          ],
+          "end": [
+            48.25,
+            14.5
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.25,
+            14.5
+          ],
+          "end": [
+            48.25,
+            14.55
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.25,
+            14.55
+          ],
+          "end": [
+            48.25,
+            14.6
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.25,
+            14.6
+          ],
+          "end": [
+            48.25,
+            14.65
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.25,
+            14.65
+          ],
+          "end": [
+            48.2,
+            14.7
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.2,
+            14.7
+          ],
+          "end": [
+            48.15,
+            14.75
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.C25",
+        "U1.C24"
+      ],
+      "distance": 0.5,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.1,
+            14.25
+          ],
+          "end": [
+            48.155,
+            14.29
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.155,
+            14.29
+          ],
+          "end": [
+            48.19,
+            14.325
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.19,
+            14.325
+          ],
+          "end": [
+            48.24,
+            14.375
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.24,
+            14.375
+          ],
+          "end": [
+            48.25,
+            14.45
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.25,
+            14.45
+          ],
+          "end": [
+            48.25,
+            14.5
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.25,
+            14.5
+          ],
+          "end": [
+            48.25,
+            14.55
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.25,
+            14.55
+          ],
+          "end": [
+            48.25,
+            14.6
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.25,
+            14.6
+          ],
+          "end": [
+            48.25,
+            14.65
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.25,
+            14.65
+          ],
+          "end": [
+            48.2,
+            14.7
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.2,
+            14.7
+          ],
+          "end": [
+            48.15,
+            14.75
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.D25",
+        "U1.E25"
+      ],
+      "distance": 0.5,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.5,
+            15.25
+          ],
+          "end": [
+            48.45,
+            15.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.45,
+            15.25
+          ],
+          "end": [
+            48.4,
+            15.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.4,
+            15.25
+          ],
+          "end": [
+            48.34,
+            15.295
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.34,
+            15.295
+          ],
+          "end": [
+            48.32,
+            15.31
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.32,
+            15.31
+          ],
+          "end": [
+            48.27,
+            15.36
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            15.1
+          ],
+          "end": [
+            48.705,
+            15.16
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.705,
+            15.16
+          ],
+          "end": [
+            48.675,
+            15.19
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.675,
+            15.19
+          ],
+          "end": [
+            48.625,
+            15.24
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.625,
+            15.24
+          ],
+          "end": [
+            48.55,
+            15.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.55,
+            15.25
+          ],
+          "end": [
+            48.5,
+            15.25
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.C15",
+        "U1.C13"
+      ],
+      "distance": 1.0,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.35,
+            14.25
+          ],
+          "end": [
+            43.35,
+            14.3
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.35,
+            14.3
+          ],
+          "end": [
+            43.3,
+            14.35
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.3,
+            14.35
+          ],
+          "end": [
+            43.25,
+            14.4
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.25,
+            14.4
+          ],
+          "end": [
+            43.25,
+            14.45
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.25,
+            14.45
+          ],
+          "end": [
+            43.25,
+            14.5
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.25,
+            14.5
+          ],
+          "end": [
+            43.25,
+            14.55
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.25,
+            14.55
+          ],
+          "end": [
+            43.25,
+            14.6
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.25,
+            14.6
+          ],
+          "end": [
+            43.25,
+            14.65
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.25,
+            14.65
+          ],
+          "end": [
+            43.25,
+            14.7
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.25,
+            14.7
+          ],
+          "end": [
+            43.25,
+            14.75
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.C25",
+        "U1.E25"
+      ],
+      "distance": 1.0,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.5,
+            15.25
+          ],
+          "end": [
+            48.45,
+            15.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.45,
+            15.25
+          ],
+          "end": [
+            48.4,
+            15.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.4,
+            15.25
+          ],
+          "end": [
+            48.34,
+            15.295
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.34,
+            15.295
+          ],
+          "end": [
+            48.32,
+            15.31
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.32,
+            15.31
+          ],
+          "end": [
+            48.27,
+            15.36
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            15.1
+          ],
+          "end": [
+            48.705,
+            15.16
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.705,
+            15.16
+          ],
+          "end": [
+            48.675,
+            15.19
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.675,
+            15.19
+          ],
+          "end": [
+            48.625,
+            15.24
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.625,
+            15.24
+          ],
+          "end": [
+            48.55,
+            15.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.55,
+            15.25
+          ],
+          "end": [
+            48.5,
+            15.25
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.D25",
+        "U1.F25"
+      ],
+      "distance": 1.0,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.5,
+            15.25
+          ],
+          "end": [
+            48.45,
+            15.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.45,
+            15.25
+          ],
+          "end": [
+            48.4,
+            15.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.4,
+            15.25
+          ],
+          "end": [
+            48.34,
+            15.295
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.34,
+            15.295
+          ],
+          "end": [
+            48.32,
+            15.31
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.32,
+            15.31
+          ],
+          "end": [
+            48.27,
+            15.36
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            15.1
+          ],
+          "end": [
+            48.705,
+            15.16
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.705,
+            15.16
+          ],
+          "end": [
+            48.675,
+            15.19
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.675,
+            15.19
+          ],
+          "end": [
+            48.625,
+            15.24
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.625,
+            15.24
+          ],
+          "end": [
+            48.55,
+            15.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.55,
+            15.25
+          ],
+          "end": [
+            48.5,
+            15.25
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.D2",
+        "U1.F3"
+      ],
+      "distance": 1.118033988749895,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.25,
+            15.0
+          ],
+          "end": [
+            37.25,
+            15.05
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.25,
+            15.05
+          ],
+          "end": [
+            37.25,
+            15.1
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.25,
+            15.1
+          ],
+          "end": [
+            37.205,
+            15.16
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.205,
+            15.16
+          ],
+          "end": [
+            37.175,
+            15.19
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.175,
+            15.19
+          ],
+          "end": [
+            37.124999,
+            15.24
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.124999,
+            15.24
+          ],
+          "end": [
+            37.05,
+            15.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.05,
+            15.25
+          ],
+          "end": [
+            37.0,
+            15.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.0,
+            15.25
+          ],
+          "end": [
+            36.95,
+            15.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            36.95,
+            15.25
+          ],
+          "end": [
+            36.87,
+            15.265
+          ]
+        },
+        {
+          "kind": "pad",
+          "net": "",
+          "ref": "U1.E2",
+          "pt": [
+            37.0,
+            15.5
+          ],
+          "end": null
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.D25",
+        "U1.F26"
+      ],
+      "distance": 1.118033988749895,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.5,
+            15.25
+          ],
+          "end": [
+            48.45,
+            15.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.45,
+            15.25
+          ],
+          "end": [
+            48.4,
+            15.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.4,
+            15.25
+          ],
+          "end": [
+            48.34,
+            15.295
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            15.0
+          ],
+          "end": [
+            48.75,
+            15.05
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            15.05
+          ],
+          "end": [
+            48.75,
+            15.1
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            15.1
+          ],
+          "end": [
+            48.705,
+            15.16
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.705,
+            15.16
+          ],
+          "end": [
+            48.675,
+            15.19
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.675,
+            15.19
+          ],
+          "end": [
+            48.625,
+            15.24
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.625,
+            15.24
+          ],
+          "end": [
+            48.55,
+            15.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.55,
+            15.25
+          ],
+          "end": [
+            48.5,
+            15.25
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.C15",
+        "U1.B14"
+      ],
+      "distance": 0.7071067811865476,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.45,
+            14.05
+          ],
+          "end": [
+            43.4,
+            14.099999
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.4,
+            14.099999
+          ],
+          "end": [
+            43.35,
+            14.15
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.35,
+            14.15
+          ],
+          "end": [
+            43.35,
+            14.2
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.35,
+            14.2
+          ],
+          "end": [
+            43.35,
+            14.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.35,
+            14.25
+          ],
+          "end": [
+            43.35,
+            14.3
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.35,
+            14.3
+          ],
+          "end": [
+            43.3,
+            14.35
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.3,
+            14.35
+          ],
+          "end": [
+            43.25,
+            14.4
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.25,
+            14.4
+          ],
+          "end": [
+            43.25,
+            14.45
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.25,
+            14.45
+          ],
+          "end": [
+            43.25,
+            14.5
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.25,
+            14.5
+          ],
+          "end": [
+            43.25,
+            14.55
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.25,
+            14.55
+          ],
+          "end": [
+            43.25,
+            14.6
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.C24",
+        "U1.D25"
+      ],
+      "distance": 0.7071067811865476,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.24,
+            14.375
+          ],
+          "end": [
+            48.25,
+            14.45
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.25,
+            14.45
+          ],
+          "end": [
+            48.25,
+            14.5
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.25,
+            14.5
+          ],
+          "end": [
+            48.25,
+            14.55
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.25,
+            14.55
+          ],
+          "end": [
+            48.25,
+            14.6
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.25,
+            14.6
+          ],
+          "end": [
+            48.25,
+            14.65
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.25,
+            14.65
+          ],
+          "end": [
+            48.2,
+            14.7
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.2,
+            14.7
+          ],
+          "end": [
+            48.15,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.15,
+            14.75
+          ],
+          "end": [
+            48.1,
+            14.8
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.1,
+            14.8
+          ],
+          "end": [
+            48.05,
+            14.85
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.05,
+            14.85
+          ],
+          "end": [
+            48.0,
+            14.9
+          ]
+        },
+        {
+          "kind": "via",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.0,
+            15.0
+          ],
+          "end": [
+            48.0,
+            15.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.D2",
+        "U1.E3"
+      ],
+      "distance": 0.7071067811865476,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.26,
+            14.875
+          ],
+          "end": [
+            37.25,
+            14.95
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.25,
+            14.95
+          ],
+          "end": [
+            37.25,
+            15.0
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.25,
+            15.0
+          ],
+          "end": [
+            37.25,
+            15.05
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.25,
+            15.05
+          ],
+          "end": [
+            37.25,
+            15.1
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.25,
+            15.1
+          ],
+          "end": [
+            37.205,
+            15.16
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.205,
+            15.16
+          ],
+          "end": [
+            37.175,
+            15.19
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.175,
+            15.19
+          ],
+          "end": [
+            37.124999,
+            15.24
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.124999,
+            15.24
+          ],
+          "end": [
+            37.05,
+            15.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.05,
+            15.25
+          ],
+          "end": [
+            37.0,
+            15.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.0,
+            15.25
+          ],
+          "end": [
+            36.95,
+            15.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            36.95,
+            15.25
+          ],
+          "end": [
+            36.87,
+            15.265
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.D25",
+        "U1.C24"
+      ],
+      "distance": 0.7071067811865476,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.24,
+            14.375
+          ],
+          "end": [
+            48.25,
+            14.45
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.25,
+            14.45
+          ],
+          "end": [
+            48.25,
+            14.5
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.25,
+            14.5
+          ],
+          "end": [
+            48.25,
+            14.55
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.25,
+            14.55
+          ],
+          "end": [
+            48.25,
+            14.6
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.25,
+            14.6
+          ],
+          "end": [
+            48.25,
+            14.65
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.25,
+            14.65
+          ],
+          "end": [
+            48.2,
+            14.7
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.2,
+            14.7
+          ],
+          "end": [
+            48.15,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.15,
+            14.75
+          ],
+          "end": [
+            48.1,
+            14.8
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.1,
+            14.8
+          ],
+          "end": [
+            48.05,
+            14.85
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.05,
+            14.85
+          ],
+          "end": [
+            48.0,
+            14.9
+          ]
+        },
+        {
+          "kind": "via",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.0,
+            15.0
+          ],
+          "end": [
+            48.0,
+            15.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.D25",
+        "U1.E26"
+      ],
+      "distance": 0.7071067811865476,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.5,
+            15.25
+          ],
+          "end": [
+            48.45,
+            15.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.45,
+            15.25
+          ],
+          "end": [
+            48.4,
+            15.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.9
+          ],
+          "end": [
+            48.75,
+            14.95
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.95
+          ],
+          "end": [
+            48.75,
+            15.0
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            15.0
+          ],
+          "end": [
+            48.75,
+            15.05
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            15.05
+          ],
+          "end": [
+            48.75,
+            15.1
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            15.1
+          ],
+          "end": [
+            48.705,
+            15.16
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.705,
+            15.16
+          ],
+          "end": [
+            48.675,
+            15.19
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.675,
+            15.19
+          ],
+          "end": [
+            48.625,
+            15.24
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.625,
+            15.24
+          ],
+          "end": [
+            48.55,
+            15.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.55,
+            15.25
+          ],
+          "end": [
+            48.5,
+            15.25
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.C3",
+        "U1.E3"
+      ],
+      "distance": 1.0,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.75,
+            14.6
+          ],
+          "end": [
+            37.705,
+            14.66
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.705,
+            14.66
+          ],
+          "end": [
+            37.675,
+            14.69
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.675,
+            14.69
+          ],
+          "end": [
+            37.625,
+            14.74
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.625,
+            14.74
+          ],
+          "end": [
+            37.55,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.55,
+            14.75
+          ],
+          "end": [
+            37.5,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.5,
+            14.75
+          ],
+          "end": [
+            37.45,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.45,
+            14.75
+          ],
+          "end": [
+            37.4,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.4,
+            14.75
+          ],
+          "end": [
+            37.34,
+            14.795
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.34,
+            14.795
+          ],
+          "end": [
+            37.31,
+            14.825
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.31,
+            14.825
+          ],
+          "end": [
+            37.26,
+            14.875
+          ]
+        },
+        {
+          "kind": "pad",
+          "net": "",
+          "ref": "U1.D3",
+          "pt": [
+            37.5,
+            15.0
+          ],
+          "end": null
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.A16",
+        "U1.C15"
+      ],
+      "distance": 1.118033988749895,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            43.75,
+            13.55
+          ],
+          "end": [
+            43.75,
+            13.5
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            43.76,
+            13.625
+          ],
+          "end": [
+            43.75,
+            13.55
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            43.81,
+            13.675
+          ],
+          "end": [
+            43.76,
+            13.625
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            43.84,
+            13.705
+          ],
+          "end": [
+            43.81,
+            13.675
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            43.9,
+            13.75
+          ],
+          "end": [
+            43.84,
+            13.705
+          ]
+        },
+        {
+          "kind": "pad",
+          "net": "LPDDR4_CLKP_B",
+          "ref": "U1.B15",
+          "pt": [
+            43.5,
+            14.0
+          ],
+          "end": null
+        },
+        {
+          "kind": "pad",
+          "net": "",
+          "ref": "U1.B16",
+          "pt": [
+            44.0,
+            14.0
+          ],
+          "end": null
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            44.05,
+            13.75
+          ],
+          "end": [
+            44.0,
+            13.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            43.95,
+            13.75
+          ],
+          "end": [
+            43.9,
+            13.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            44.0,
+            13.75
+          ],
+          "end": [
+            43.95,
+            13.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            44.125,
+            13.76
+          ],
+          "end": [
+            44.05,
+            13.75
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.C15",
+        "U1.A16"
+      ],
+      "distance": 1.118033988749895,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            43.75,
+            13.55
+          ],
+          "end": [
+            43.75,
+            13.5
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            43.76,
+            13.625
+          ],
+          "end": [
+            43.75,
+            13.55
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            43.81,
+            13.675
+          ],
+          "end": [
+            43.76,
+            13.625
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            43.84,
+            13.705
+          ],
+          "end": [
+            43.81,
+            13.675
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            43.9,
+            13.75
+          ],
+          "end": [
+            43.84,
+            13.705
+          ]
+        },
+        {
+          "kind": "pad",
+          "net": "LPDDR4_CLKP_B",
+          "ref": "U1.B15",
+          "pt": [
+            43.5,
+            14.0
+          ],
+          "end": null
+        },
+        {
+          "kind": "pad",
+          "net": "",
+          "ref": "U1.B16",
+          "pt": [
+            44.0,
+            14.0
+          ],
+          "end": null
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            44.05,
+            13.75
+          ],
+          "end": [
+            44.0,
+            13.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            43.95,
+            13.75
+          ],
+          "end": [
+            43.9,
+            13.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            44.0,
+            13.75
+          ],
+          "end": [
+            43.95,
+            13.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            44.125,
+            13.76
+          ],
+          "end": [
+            44.05,
+            13.75
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.D25",
+        "U1.E27"
+      ],
+      "distance": 1.118033988749895,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.85
+          ],
+          "end": [
+            48.75,
+            14.9
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.9
+          ],
+          "end": [
+            48.75,
+            14.95
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.95
+          ],
+          "end": [
+            48.75,
+            15.0
+          ]
+        },
+        {
+          "kind": "pad",
+          "net": "RECOVERY_ADC",
+          "ref": "U1.D26",
+          "pt": [
+            49.0,
+            15.0
+          ],
+          "end": null
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            15.0
+          ],
+          "end": [
+            48.75,
+            15.05
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            15.05
+          ],
+          "end": [
+            48.75,
+            15.1
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            15.1
+          ],
+          "end": [
+            48.705,
+            15.16
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.705,
+            15.16
+          ],
+          "end": [
+            48.675,
+            15.19
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.675,
+            15.19
+          ],
+          "end": [
+            48.625,
+            15.24
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.625,
+            15.24
+          ],
+          "end": [
+            48.55,
+            15.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.55,
+            15.25
+          ],
+          "end": [
+            48.5,
+            15.25
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.A16",
+        "U1.B14"
+      ],
+      "distance": 1.118033988749895,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            43.75,
+            13.4
+          ],
+          "end": [
+            43.75,
+            13.35
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            43.75,
+            13.55
+          ],
+          "end": [
+            43.75,
+            13.5
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            43.76,
+            13.625
+          ],
+          "end": [
+            43.75,
+            13.55
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            43.81,
+            13.675
+          ],
+          "end": [
+            43.76,
+            13.625
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            43.84,
+            13.705
+          ],
+          "end": [
+            43.81,
+            13.675
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            43.9,
+            13.75
+          ],
+          "end": [
+            43.84,
+            13.705
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            43.75,
+            13.45
+          ],
+          "end": [
+            43.75,
+            13.4
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            43.75,
+            13.5
+          ],
+          "end": [
+            43.75,
+            13.45
+          ]
+        },
+        {
+          "kind": "pad",
+          "net": "LPDDR4_CLKN_B",
+          "ref": "U1.A15",
+          "pt": [
+            43.5,
+            13.5
+          ],
+          "end": null
+        },
+        {
+          "kind": "via",
+          "net": "LPDDR4_CLKN_B",
+          "ref": null,
+          "pt": [
+            43.35,
+            13.5
+          ],
+          "end": [
+            43.35,
+            13.5
+          ]
+        },
+        {
+          "kind": "pad",
+          "net": "LPDDR4_CLKP_B",
+          "ref": "U1.B15",
+          "pt": [
+            43.5,
+            14.0
+          ],
+          "end": null
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            43.95,
+            13.75
+          ],
+          "end": [
+            43.9,
+            13.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            44.0,
+            13.75
+          ],
+          "end": [
+            43.95,
+            13.75
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.C25",
+        "U1.E27"
+      ],
+      "distance": 1.4142135623730951,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.4
+          ],
+          "end": [
+            48.75,
+            14.45
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.45
+          ],
+          "end": [
+            48.75,
+            14.5
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.5
+          ],
+          "end": [
+            48.75,
+            14.55
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.55
+          ],
+          "end": [
+            48.75,
+            14.6
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.6
+          ],
+          "end": [
+            48.75,
+            14.65
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.65
+          ],
+          "end": [
+            48.75,
+            14.7
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.7
+          ],
+          "end": [
+            48.75,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.75
+          ],
+          "end": [
+            48.75,
+            14.8
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.8
+          ],
+          "end": [
+            48.75,
+            14.85
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.85
+          ],
+          "end": [
+            48.75,
+            14.9
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.9
+          ],
+          "end": [
+            48.75,
+            14.95
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.95
+          ],
+          "end": [
+            48.75,
+            15.0
+          ]
+        },
+        {
+          "kind": "pad",
+          "net": "RECOVERY_ADC",
+          "ref": "U1.D26",
+          "pt": [
+            49.0,
+            15.0
+          ],
+          "end": null
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            15.0
+          ],
+          "end": [
+            48.75,
+            15.05
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            15.05
+          ],
+          "end": [
+            48.75,
+            15.1
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.C25",
+        "U1.E26"
+      ],
+      "distance": 1.118033988749895,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.5
+          ],
+          "end": [
+            48.75,
+            14.55
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.55
+          ],
+          "end": [
+            48.75,
+            14.6
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.6
+          ],
+          "end": [
+            48.75,
+            14.65
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.65
+          ],
+          "end": [
+            48.75,
+            14.7
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.7
+          ],
+          "end": [
+            48.75,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.75
+          ],
+          "end": [
+            48.75,
+            14.8
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.8
+          ],
+          "end": [
+            48.75,
+            14.85
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.85
+          ],
+          "end": [
+            48.75,
+            14.9
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.9
+          ],
+          "end": [
+            48.75,
+            14.95
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.95
+          ],
+          "end": [
+            48.75,
+            15.0
+          ]
+        },
+        {
+          "kind": "pad",
+          "net": "RECOVERY_ADC",
+          "ref": "U1.D26",
+          "pt": [
+            49.0,
+            15.0
+          ],
+          "end": null
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            15.0
+          ],
+          "end": [
+            48.75,
+            15.05
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            15.05
+          ],
+          "end": [
+            48.75,
+            15.1
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            15.1
+          ],
+          "end": [
+            48.705,
+            15.16
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.705,
+            15.16
+          ],
+          "end": [
+            48.675,
+            15.19
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.675,
+            15.19
+          ],
+          "end": [
+            48.625,
+            15.24
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.C25",
+        "U1.A27"
+      ],
+      "distance": 1.4142135623730951,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.375,
+            14.24
+          ],
+          "end": [
+            48.45,
+            14.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.45,
+            14.25
+          ],
+          "end": [
+            48.5,
+            14.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ11_B",
+          "ref": null,
+          "pt": [
+            48.95,
+            13.8
+          ],
+          "end": [
+            48.9,
+            13.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ11_B",
+          "ref": null,
+          "pt": [
+            49.0,
+            13.849999
+          ],
+          "end": [
+            48.95,
+            13.8
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ11_B",
+          "ref": null,
+          "pt": [
+            49.0,
+            13.9
+          ],
+          "end": [
+            49.0,
+            13.849999
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ11_B",
+          "ref": null,
+          "pt": [
+            49.0,
+            13.95
+          ],
+          "end": [
+            49.0,
+            13.9
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ11_B",
+          "ref": null,
+          "pt": [
+            49.0,
+            14.0
+          ],
+          "end": [
+            49.0,
+            13.95
+          ]
+        },
+        {
+          "kind": "pad",
+          "net": "LPDDR4_DQ11_B",
+          "ref": "U1.B26",
+          "pt": [
+            49.0,
+            14.0
+          ],
+          "end": null
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.5,
+            14.25
+          ],
+          "end": [
+            48.55,
+            14.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.55,
+            14.25
+          ],
+          "end": [
+            48.625,
+            14.26
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.625,
+            14.26
+          ],
+          "end": [
+            48.675,
+            14.31
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.675,
+            14.31
+          ],
+          "end": [
+            48.705,
+            14.34
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.4
+          ],
+          "end": [
+            48.705,
+            14.34
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.4
+          ],
+          "end": [
+            48.75,
+            14.45
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.45
+          ],
+          "end": [
+            48.75,
+            14.5
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.5
+          ],
+          "end": [
+            48.75,
+            14.55
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.55
+          ],
+          "end": [
+            48.75,
+            14.6
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.C24",
+        "U1.E25"
+      ],
+      "distance": 1.118033988749895,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.25,
+            14.5
+          ],
+          "end": [
+            48.25,
+            14.55
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.25,
+            14.55
+          ],
+          "end": [
+            48.25,
+            14.6
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.25,
+            14.6
+          ],
+          "end": [
+            48.25,
+            14.65
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.25,
+            14.65
+          ],
+          "end": [
+            48.2,
+            14.7
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.2,
+            14.7
+          ],
+          "end": [
+            48.15,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.15,
+            14.75
+          ],
+          "end": [
+            48.1,
+            14.8
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.1,
+            14.8
+          ],
+          "end": [
+            48.05,
+            14.85
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.05,
+            14.85
+          ],
+          "end": [
+            48.0,
+            14.9
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.0,
+            14.9
+          ],
+          "end": [
+            48.0,
+            14.95
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.0,
+            14.95
+          ],
+          "end": [
+            48.0,
+            15.0
+          ]
+        },
+        {
+          "kind": "via",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.0,
+            15.0
+          ],
+          "end": [
+            48.0,
+            15.0
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.5,
+            15.25
+          ],
+          "end": [
+            48.45,
+            15.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.45,
+            15.25
+          ],
+          "end": [
+            48.4,
+            15.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.4,
+            15.25
+          ],
+          "end": [
+            48.34,
+            15.295
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.34,
+            15.295
+          ],
+          "end": [
+            48.32,
+            15.31
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.32,
+            15.31
+          ],
+          "end": [
+            48.27,
+            15.36
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.27,
+            15.36
+          ],
+          "end": [
+            48.2,
+            15.45
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.625,
+            15.24
+          ],
+          "end": [
+            48.55,
+            15.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.55,
+            15.25
+          ],
+          "end": [
+            48.5,
+            15.25
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.C3",
+        "U1.D2"
+      ],
+      "distance": 0.7071067811865476,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.24,
+            14.375
+          ],
+          "end": [
+            37.25,
+            14.45
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.25,
+            14.45
+          ],
+          "end": [
+            37.25,
+            14.5
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.25,
+            14.5
+          ],
+          "end": [
+            37.25,
+            14.55
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.25,
+            14.55
+          ],
+          "end": [
+            37.25,
+            14.6
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.25,
+            14.6
+          ],
+          "end": [
+            37.205,
+            14.66
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.205,
+            14.66
+          ],
+          "end": [
+            37.175,
+            14.69
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.175,
+            14.69
+          ],
+          "end": [
+            37.124999,
+            14.74
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.124999,
+            14.74
+          ],
+          "end": [
+            37.05,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.625,
+            14.74
+          ],
+          "end": [
+            37.55,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.55,
+            14.75
+          ],
+          "end": [
+            37.5,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.05,
+            14.75
+          ],
+          "end": [
+            37.0,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.5,
+            14.75
+          ],
+          "end": [
+            37.45,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.0,
+            14.75
+          ],
+          "end": [
+            36.95,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.45,
+            14.75
+          ],
+          "end": [
+            37.4,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            36.95,
+            14.75
+          ],
+          "end": [
+            36.875,
+            14.76
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.4,
+            14.75
+          ],
+          "end": [
+            37.34,
+            14.795
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.34,
+            14.795
+          ],
+          "end": [
+            37.31,
+            14.825
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.31,
+            14.825
+          ],
+          "end": [
+            37.26,
+            14.875
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.26,
+            14.875
+          ],
+          "end": [
+            37.25,
+            14.95
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.25,
+            14.95
+          ],
+          "end": [
+            37.25,
+            15.0
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.25,
+            15.0
+          ],
+          "end": [
+            37.25,
+            15.05
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.25,
+            15.05
+          ],
+          "end": [
+            37.25,
+            15.1
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.D2",
+        "U1.C3"
+      ],
+      "distance": 0.7071067811865476,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.24,
+            14.375
+          ],
+          "end": [
+            37.25,
+            14.45
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.25,
+            14.45
+          ],
+          "end": [
+            37.25,
+            14.5
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.25,
+            14.5
+          ],
+          "end": [
+            37.25,
+            14.55
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.25,
+            14.55
+          ],
+          "end": [
+            37.25,
+            14.6
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.25,
+            14.6
+          ],
+          "end": [
+            37.205,
+            14.66
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.205,
+            14.66
+          ],
+          "end": [
+            37.175,
+            14.69
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.175,
+            14.69
+          ],
+          "end": [
+            37.124999,
+            14.74
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.124999,
+            14.74
+          ],
+          "end": [
+            37.05,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.625,
+            14.74
+          ],
+          "end": [
+            37.55,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.55,
+            14.75
+          ],
+          "end": [
+            37.5,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.05,
+            14.75
+          ],
+          "end": [
+            37.0,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.5,
+            14.75
+          ],
+          "end": [
+            37.45,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.0,
+            14.75
+          ],
+          "end": [
+            36.95,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.45,
+            14.75
+          ],
+          "end": [
+            37.4,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            36.95,
+            14.75
+          ],
+          "end": [
+            36.875,
+            14.76
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.4,
+            14.75
+          ],
+          "end": [
+            37.34,
+            14.795
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.34,
+            14.795
+          ],
+          "end": [
+            37.31,
+            14.825
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.31,
+            14.825
+          ],
+          "end": [
+            37.26,
+            14.875
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.26,
+            14.875
+          ],
+          "end": [
+            37.25,
+            14.95
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.25,
+            14.95
+          ],
+          "end": [
+            37.25,
+            15.0
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.25,
+            15.0
+          ],
+          "end": [
+            37.25,
+            15.05
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.25,
+            15.05
+          ],
+          "end": [
+            37.25,
+            15.1
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.C24",
+        "U1.E26"
+      ],
+      "distance": 1.4142135623730951,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.24,
+            14.375
+          ],
+          "end": [
+            48.25,
+            14.45
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.25,
+            14.45
+          ],
+          "end": [
+            48.25,
+            14.5
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.25,
+            14.5
+          ],
+          "end": [
+            48.25,
+            14.55
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.25,
+            14.55
+          ],
+          "end": [
+            48.25,
+            14.6
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.25,
+            14.6
+          ],
+          "end": [
+            48.25,
+            14.65
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.25,
+            14.65
+          ],
+          "end": [
+            48.2,
+            14.7
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.2,
+            14.7
+          ],
+          "end": [
+            48.15,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.15,
+            14.75
+          ],
+          "end": [
+            48.1,
+            14.8
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.1,
+            14.8
+          ],
+          "end": [
+            48.05,
+            14.85
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.05,
+            14.85
+          ],
+          "end": [
+            48.0,
+            14.9
+          ]
+        },
+        {
+          "kind": "via",
+          "net": "LPDDR4_DQ0_B",
+          "ref": null,
+          "pt": [
+            48.0,
+            15.0
+          ],
+          "end": [
+            48.0,
+            15.0
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.5,
+            15.25
+          ],
+          "end": [
+            48.45,
+            15.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.45,
+            15.25
+          ],
+          "end": [
+            48.4,
+            15.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.9
+          ],
+          "end": [
+            48.75,
+            14.95
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            14.95
+          ],
+          "end": [
+            48.75,
+            15.0
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            15.0
+          ],
+          "end": [
+            48.75,
+            15.05
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            15.05
+          ],
+          "end": [
+            48.75,
+            15.1
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.75,
+            15.1
+          ],
+          "end": [
+            48.705,
+            15.16
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.705,
+            15.16
+          ],
+          "end": [
+            48.675,
+            15.19
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.675,
+            15.19
+          ],
+          "end": [
+            48.625,
+            15.24
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.625,
+            15.24
+          ],
+          "end": [
+            48.55,
+            15.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ13_B",
+          "ref": null,
+          "pt": [
+            48.55,
+            15.25
+          ],
+          "end": [
+            48.5,
+            15.25
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.A16",
+        "U1.C14"
+      ],
+      "distance": 1.4142135623730951,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            43.75,
+            13.55
+          ],
+          "end": [
+            43.75,
+            13.5
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            43.76,
+            13.625
+          ],
+          "end": [
+            43.75,
+            13.55
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            43.81,
+            13.675
+          ],
+          "end": [
+            43.76,
+            13.625
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            43.84,
+            13.705
+          ],
+          "end": [
+            43.81,
+            13.675
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            43.9,
+            13.75
+          ],
+          "end": [
+            43.84,
+            13.705
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            43.75,
+            13.45
+          ],
+          "end": [
+            43.75,
+            13.4
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            43.75,
+            13.5
+          ],
+          "end": [
+            43.75,
+            13.45
+          ]
+        },
+        {
+          "kind": "pad",
+          "net": "LPDDR4_CLKP_B",
+          "ref": "U1.B15",
+          "pt": [
+            43.5,
+            14.0
+          ],
+          "end": null
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.5,
+            14.0
+          ],
+          "end": [
+            43.45,
+            14.05
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.45,
+            14.05
+          ],
+          "end": [
+            43.4,
+            14.099999
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.4,
+            14.099999
+          ],
+          "end": [
+            43.35,
+            14.15
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            44.05,
+            13.75
+          ],
+          "end": [
+            44.0,
+            13.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            43.95,
+            13.75
+          ],
+          "end": [
+            43.9,
+            13.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            44.0,
+            13.75
+          ],
+          "end": [
+            43.95,
+            13.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_A0_B",
+          "ref": null,
+          "pt": [
+            44.125,
+            13.76
+          ],
+          "end": [
+            44.05,
+            13.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.35,
+            14.15
+          ],
+          "end": [
+            43.35,
+            14.2
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.35,
+            14.2
+          ],
+          "end": [
+            43.35,
+            14.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.35,
+            14.25
+          ],
+          "end": [
+            43.35,
+            14.3
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.35,
+            14.3
+          ],
+          "end": [
+            43.3,
+            14.35
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.3,
+            14.35
+          ],
+          "end": [
+            43.25,
+            14.4
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.25,
+            14.4
+          ],
+          "end": [
+            43.25,
+            14.45
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.25,
+            14.45
+          ],
+          "end": [
+            43.25,
+            14.5
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.25,
+            14.5
+          ],
+          "end": [
+            43.25,
+            14.55
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_CLKP_B",
+          "ref": null,
+          "pt": [
+            43.25,
+            14.55
+          ],
+          "end": [
+            43.25,
+            14.6
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.C3",
+        "U1.A1"
+      ],
+      "distance": 1.4142135623730951,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ11_A",
+          "ref": null,
+          "pt": [
+            36.45,
+            13.75
+          ],
+          "end": [
+            36.4,
+            13.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ11_A",
+          "ref": null,
+          "pt": [
+            36.599999,
+            13.75
+          ],
+          "end": [
+            36.55,
+            13.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ11_A",
+          "ref": null,
+          "pt": [
+            36.55,
+            13.75
+          ],
+          "end": [
+            36.5,
+            13.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ11_A",
+          "ref": null,
+          "pt": [
+            36.5,
+            13.75
+          ],
+          "end": [
+            36.45,
+            13.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ11_A",
+          "ref": null,
+          "pt": [
+            36.599999,
+            13.75
+          ],
+          "end": [
+            36.67,
+            13.81
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ11_A",
+          "ref": null,
+          "pt": [
+            36.695,
+            13.829999
+          ],
+          "end": [
+            36.67,
+            13.81
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ11_A",
+          "ref": null,
+          "pt": [
+            36.745,
+            13.88
+          ],
+          "end": [
+            36.695,
+            13.829999
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ11_A",
+          "ref": null,
+          "pt": [
+            36.8,
+            13.95
+          ],
+          "end": [
+            36.745,
+            13.88
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ11_A",
+          "ref": null,
+          "pt": [
+            36.849999,
+            14.0
+          ],
+          "end": [
+            36.8,
+            13.95
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ11_A",
+          "ref": null,
+          "pt": [
+            36.95,
+            14.0
+          ],
+          "end": [
+            36.9,
+            14.0
+          ]
+        },
+        {
+          "kind": "pad",
+          "net": "LPDDR4_DQ11_A",
+          "ref": "U1.B2",
+          "pt": [
+            37.0,
+            14.0
+          ],
+          "end": null
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ11_A",
+          "ref": null,
+          "pt": [
+            37.0,
+            14.0
+          ],
+          "end": [
+            36.95,
+            14.0
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ11_A",
+          "ref": null,
+          "pt": [
+            36.9,
+            14.0
+          ],
+          "end": [
+            36.849999,
+            14.0
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            36.9,
+            14.25
+          ],
+          "end": [
+            36.95,
+            14.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.19,
+            14.325
+          ],
+          "end": [
+            37.24,
+            14.375
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.24,
+            14.375
+          ],
+          "end": [
+            37.25,
+            14.45
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.25,
+            14.45
+          ],
+          "end": [
+            37.25,
+            14.5
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.25,
+            14.5
+          ],
+          "end": [
+            37.25,
+            14.55
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.25,
+            14.55
+          ],
+          "end": [
+            37.25,
+            14.6
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.0,
+            14.25
+          ],
+          "end": [
+            37.05,
+            14.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.05,
+            14.25
+          ],
+          "end": [
+            37.099999,
+            14.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            36.95,
+            14.25
+          ],
+          "end": [
+            37.0,
+            14.25
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.099999,
+            14.25
+          ],
+          "end": [
+            37.155,
+            14.29
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.155,
+            14.29
+          ],
+          "end": [
+            37.19,
+            14.325
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "U1.D2",
+        "U1.C4"
+      ],
+      "distance": 1.118033988749895,
+      "hits": [
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.76,
+            14.375
+          ],
+          "end": [
+            37.75,
+            14.45
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.75,
+            14.45
+          ],
+          "end": [
+            37.75,
+            14.5
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.75,
+            14.5
+          ],
+          "end": [
+            37.75,
+            14.55
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.75,
+            14.55
+          ],
+          "end": [
+            37.75,
+            14.6
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.25,
+            14.6
+          ],
+          "end": [
+            37.205,
+            14.66
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.75,
+            14.6
+          ],
+          "end": [
+            37.705,
+            14.66
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.705,
+            14.66
+          ],
+          "end": [
+            37.675,
+            14.69
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.205,
+            14.66
+          ],
+          "end": [
+            37.175,
+            14.69
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.175,
+            14.69
+          ],
+          "end": [
+            37.124999,
+            14.74
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.675,
+            14.69
+          ],
+          "end": [
+            37.625,
+            14.74
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.124999,
+            14.74
+          ],
+          "end": [
+            37.05,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.625,
+            14.74
+          ],
+          "end": [
+            37.55,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.55,
+            14.75
+          ],
+          "end": [
+            37.5,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ10_A",
+          "ref": null,
+          "pt": [
+            37.05,
+            14.75
+          ],
+          "end": [
+            37.0,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.5,
+            14.75
+          ],
+          "end": [
+            37.45,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.45,
+            14.75
+          ],
+          "end": [
+            37.4,
+            14.75
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.4,
+            14.75
+          ],
+          "end": [
+            37.34,
+            14.795
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.34,
+            14.795
+          ],
+          "end": [
+            37.31,
+            14.825
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.31,
+            14.825
+          ],
+          "end": [
+            37.26,
+            14.875
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.26,
+            14.875
+          ],
+          "end": [
+            37.25,
+            14.95
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.25,
+            14.95
+          ],
+          "end": [
+            37.25,
+            15.0
+          ]
+        },
+        {
+          "kind": "pad",
+          "net": "",
+          "ref": "U1.D3",
+          "pt": [
+            37.5,
+            15.0
+          ],
+          "end": null
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.25,
+            15.0
+          ],
+          "end": [
+            37.25,
+            15.05
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.25,
+            15.05
+          ],
+          "end": [
+            37.25,
+            15.1
+          ]
+        },
+        {
+          "kind": "track",
+          "net": "LPDDR4_DQ5_A",
+          "ref": null,
+          "pt": [
+            37.25,
+            15.1
+          ],
+          "end": [
+            37.205,
+            15.16
+          ]
+        }
+      ]
+    }
+  ]
+}

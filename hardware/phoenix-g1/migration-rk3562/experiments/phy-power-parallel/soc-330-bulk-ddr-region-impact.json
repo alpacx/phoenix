@@ -1,0 +1,529 @@
+{
+  "parent": "fc881db94a3c5e3d11fc7cc98e6d5463257efcea91b5dc6a481ea1aee7f884cb",
+  "grid_mm": 0.045,
+  "scope": "One-net-at-a-time surface-to-surface via region reachability on each adjacent-reference inner layer. Nominal projection of new via antipad and copper clearances. Not timing or a jointly routable bus.",
+  "nets": {
+    "LPDDR4_DQS1P_A": {
+      "before": [],
+      "gpu": [],
+      "npu": []
+    },
+    "LPDDR4_DQS0P_A": {
+      "before": [],
+      "gpu": [],
+      "npu": []
+    },
+    "LPDDR4_A3_A": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_A5_A": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_A5_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_A4_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_A3_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_DQS0P_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_DQS1P_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_DQS1N_A": {
+      "before": [],
+      "gpu": [],
+      "npu": []
+    },
+    "LPDDR4_DQS0N_A": {
+      "before": [],
+      "gpu": [],
+      "npu": []
+    },
+    "LPDDR4_A4_A": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_DQS0N_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_DQS1N_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_DM1_A": {
+      "before": [],
+      "gpu": [],
+      "npu": []
+    },
+    "LPDDR4_DQ12_A": {
+      "before": [],
+      "gpu": [],
+      "npu": []
+    },
+    "LPDDR4_DQ6_A": {
+      "before": [],
+      "gpu": [],
+      "npu": []
+    },
+    "LPDDR4_DQ2_A": {
+      "before": [],
+      "gpu": [],
+      "npu": []
+    },
+    "LPDDR4_CLKN_A": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_CLKN_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_A1_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_DQ2_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_DQ7_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_DQ12_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_DM1_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_DQ10_A": {
+      "before": [],
+      "gpu": [],
+      "npu": []
+    },
+    "LPDDR4_DQ11_A": {
+      "before": [],
+      "gpu": [],
+      "npu": []
+    },
+    "LPDDR4_DQ15_A": {
+      "before": [],
+      "gpu": [],
+      "npu": []
+    },
+    "LPDDR4_DQ5_A": {
+      "before": [],
+      "gpu": [],
+      "npu": []
+    },
+    "LPDDR4_DQ0_A": {
+      "before": [],
+      "gpu": [],
+      "npu": []
+    },
+    "LPDDR4_DM0_A": {
+      "before": [],
+      "gpu": [],
+      "npu": []
+    },
+    "LPDDR4_A0_A": {
+      "before": [],
+      "gpu": [],
+      "npu": []
+    },
+    "LPDDR4_CS0N_A": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_CLKP_A": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_CLKP_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_CS0N_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_A0_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_DQ1_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_DM0_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_DQ0_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_DQ5_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_DQ13_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_DQ15_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_DQ11_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_DQ10_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_DQ9_A": {
+      "before": [],
+      "gpu": [],
+      "npu": []
+    },
+    "LPDDR4_DQ8_A": {
+      "before": [],
+      "gpu": [],
+      "npu": []
+    },
+    "LPDDR4_DQ4_A": {
+      "before": [],
+      "gpu": [],
+      "npu": []
+    },
+    "LPDDR4_DQ7_A": {
+      "before": [],
+      "gpu": [],
+      "npu": []
+    },
+    "LPDDR4_DQ3_A": {
+      "before": [],
+      "gpu": [],
+      "npu": []
+    },
+    "LPDDR4_A2_A": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_CKE0_A": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_CKE0_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_A2_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_DQ3_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_DQ6_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_DQ4_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    },
+    "LPDDR4_DQ9_B": {
+      "before": [
+        8
+      ],
+      "gpu": [
+        8
+      ],
+      "npu": [
+        8
+      ]
+    }
+  },
+  "lost": {
+    "gpu": [],
+    "npu": []
+  }
+}

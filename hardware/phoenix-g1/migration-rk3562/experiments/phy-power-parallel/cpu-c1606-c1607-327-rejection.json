@@ -1,0 +1,56 @@
+{
+  "disposition": "REJECTED",
+  "net": "VDD_CPU",
+  "endpoints": [
+    "C1606.1",
+    "C1607.1"
+  ],
+  "endpoints_xy_mm": [
+    [
+      44.05,
+      24.5
+    ],
+    [
+      44.2,
+      32.0
+    ]
+  ],
+  "retained_checkpoint": "layout-gpu-comp-r422-c452.json",
+  "retained_board": "runs/gpu-comp-r422-c452/phy-joint.kicad_pcb",
+  "retained_board_sha256": "e3b837db02660e787de1b36965a2c615fc938239bd26c410d9a6ee13d664c290",
+  "layer": "B.Cu",
+  "track_width_mm": 0.8,
+  "search_clearance_mm": 0.2,
+  "grid_mm": 0.025,
+  "attempts": [
+    {
+      "search_bounds_mm": [
+        38,
+        22,
+        51,
+        35
+      ],
+      "both_endpoints_open_on_grid": true,
+      "result": "No connected path in the searched rear corridor."
+    },
+    {
+      "search_bounds_mm": [
+        32,
+        16,
+        57,
+        38
+      ],
+      "both_endpoints_open_on_grid": true,
+      "result": "No connected path in the searched rear corridor."
+    }
+  ],
+  "retained_verification": {
+    "minimum_open_joins": 327,
+    "open_nets": 196,
+    "checked_pad_pairs": 879,
+    "drc_findings": 121,
+    "introduced_drc": [],
+    "usb_selector_checked_pairs": 4
+  },
+  "assembly_ready": false
+}

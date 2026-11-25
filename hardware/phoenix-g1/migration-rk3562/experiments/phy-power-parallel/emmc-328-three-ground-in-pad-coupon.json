@@ -1,0 +1,98 @@
+{
+  "parent": "ffed4bc66d03386e5438046b7c38c18651a3702523f2c2cd4e5c17411e1fcd4f",
+  "coupon": "c87eb60074caad92033dc45afbd1d37566f4a1c6f911aabd2635f608457b0d29",
+  "joins": 325,
+  "new_violations": [
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "0292ffcd-b3dc-41e9-9cba-8a4e738c58fd",
+        "0a45f944-7833-45e5-9c91-5fb717a9bf31"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "1579314a-7df5-44f5-b1d3-9a702806d37a",
+        "b3d7a3ff-9bb5-4093-acee-0f90721bd5ae"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "67bae889-a2ac-45e1-b927-f9940c5782a0",
+        "8ddd9e06-0af6-4972-963c-da64b70bd35c"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "0a45f944-7833-45e5-9c91-5fb717a9bf31",
+        "a437d13f-2677-4127-9209-3a304918131c"
+      ],
+      "count": 1
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "items": [
+        "0a45f944-7833-45e5-9c91-5fb717a9bf31",
+        "8b27a6f9-5f63-46d4-b9bd-ea7dc2b9491f"
+      ],
+      "count": 1
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "items": [
+        "0a45f944-7833-45e5-9c91-5fb717a9bf31",
+        "de59b5bf-361c-4f2f-83a5-7c24ed06b622"
+      ],
+      "count": 1
+    }
+  ],
+  "ground_checks": [
+    {
+      "ball": "C4",
+      "pad_mm": [
+        0.25,
+        0.25
+      ],
+      "via_land_mm": 0.45,
+      "drill_mm": 0.2,
+      "via_id": "b3d7a3ff-9bb5-4093-acee-0f90721bd5ae",
+      "connected_to_main_ground": true
+    },
+    {
+      "ball": "N2",
+      "pad_mm": [
+        0.25,
+        0.25
+      ],
+      "via_land_mm": 0.45,
+      "drill_mm": 0.2,
+      "via_id": "67bae889-a2ac-45e1-b927-f9940c5782a0",
+      "connected_to_main_ground": true
+    },
+    {
+      "ball": "N5",
+      "pad_mm": [
+        0.25,
+        0.25
+      ],
+      "via_land_mm": 0.45,
+      "drill_mm": 0.2,
+      "via_id": "0a45f944-7833-45e5-9c91-5fb717a9bf31",
+      "connected_to_main_ground": true
+    }
+  ],
+  "adopted": false,
+  "fabrication": "Requires documented via fill/capping and solderable land definition; changing the copper diameter relative to ball pads needs approval from package design. Opposite-side and internal interferences checked by DRC."
+}

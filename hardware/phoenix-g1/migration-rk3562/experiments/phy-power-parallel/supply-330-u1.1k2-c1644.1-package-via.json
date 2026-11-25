@@ -1,0 +1,72 @@
+{
+  "parent": "fc881db94a3c5e3d11fc7cc98e6d5463257efcea91b5dc6a481ea1aee7f884cb",
+  "region_mm": [
+    35.1,
+    17.3,
+    43.09999999999955,
+    25.299999999999546
+  ],
+  "grid_mm": 0.025,
+  "power_trace": 0.3,
+  "via_mm": [
+    0.45,
+    0.2
+  ],
+  "eligible_via_sites": 0,
+  "from_package": 0,
+  "from_existing_rear_cap": 0,
+  "at_both": 0,
+  "closest_package_hole": null,
+  "both_surface_reachable_before_drill": 7,
+  "front_surface_cells": 7,
+  "rear_surface_cells": 7162,
+  "fewest_distinct_obstacles": 3,
+  "least_blocked_sites": 1,
+  "single_item_options": [],
+  "best_sites": [
+    {
+      "xy": [
+        39.12499999999977,
+        21.274999999999775
+      ],
+      "obstacles": [
+        {
+          "ref": "U1.1K2",
+          "net": "VCCA_1V8",
+          "kind": "pad",
+          "pt": [
+            39.1,
+            21.3
+          ],
+          "end": null
+        },
+        {
+          "ref": null,
+          "net": "GND",
+          "kind": "track",
+          "pt": [
+            39.1,
+            21.95
+          ],
+          "end": [
+            38.45,
+            21.3
+          ]
+        },
+        {
+          "ref": null,
+          "net": "+3V3_IO",
+          "kind": "track",
+          "pt": [
+            39.75,
+            21.3
+          ],
+          "end": [
+            39.75,
+            21.95
+          ]
+        }
+      ]
+    }
+  ]
+}

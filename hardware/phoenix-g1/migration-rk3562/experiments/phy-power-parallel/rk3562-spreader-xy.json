@@ -1,5 +1,5 @@
 {
-  "parent_sha256": "d807af266305a2c1f2cb7840d2887bb378b72330f61a62748919de6dbf72acba",
+  "parent_sha256": "4d84d17ac0ca5b0c0c7eb1f9c95afeea8044662462b9d86514e1a539d0aca56a",
   "front_side_soc_center_mm": [
     43.0,
     20.0
@@ -26,6 +26,7 @@
         "R501",
         "R504",
         "R506",
+        "TP11",
         "U2",
         "Y2001"
       ]
@@ -49,6 +50,7 @@
         "R506",
         "R530",
         "R8005",
+        "TP11",
         "U2",
         "Y2001",
         "Y2002"
@@ -79,6 +81,7 @@
         "R506",
         "R530",
         "R8005",
+        "TP11",
         "U2",
         "U26",
         "Y1",
@@ -207,7 +210,8 @@
     "courtyards_with_unverified_body_heights": [
       "R501",
       "R504",
-      "R506"
+      "R506",
+      "TP11"
     ],
     "scope": "Analysis uses drawing heights on a common seating plane. Reflow, tilt, PCB warp, case and fastener tolerances, TIM thickness after compression and acceptable package pressure still require a full assembly tolerance stack. XY contact projection does not establish permissible contact area or thermal resistance."
   }

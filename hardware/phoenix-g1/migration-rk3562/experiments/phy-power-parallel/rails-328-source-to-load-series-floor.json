@@ -1,0 +1,80 @@
+{
+  "sha256": "ffed4bc66d03386e5438046b7c38c18651a3702523f2c2cd4e5c17411e1fcd4f",
+  "assumptions": "Straight line between centers of the closest existing pair of barrels on each group. 0.70 mm constant width at 17.5 um copper, rho=1.724e-8 ohm m at 20 C. Applies to that barrel choice and section only. Detours, contacts and current sharing omitted. Not a load measurement or an ampacity limit.",
+  "results": {
+    "VDD_GPU": {
+      "inductor": "L402.2",
+      "source_vias": 0,
+      "existing_barrel_comparisons": []
+    },
+    "VDD_NPU": {
+      "inductor": "L404.2",
+      "source_vias": 2,
+      "existing_barrel_comparisons": [
+        {
+          "bank": "C1621.1",
+          "from_barrel": [
+            78.2,
+            10.1
+          ],
+          "to_barrel": [
+            40.075,
+            19.675
+          ],
+          "straight_mm": 39.309,
+          "inner_0_70mm_copper_only_milliohm_at20C": 55.32
+        },
+        {
+          "bank": "C1622.1",
+          "from_barrel": [
+            78.2,
+            10.1
+          ],
+          "to_barrel": [
+            40.075,
+            19.675
+          ],
+          "straight_mm": 39.309,
+          "inner_0_70mm_copper_only_milliohm_at20C": 55.32
+        },
+        {
+          "bank": "C1623.1",
+          "from_barrel": [
+            78.2,
+            10.1
+          ],
+          "to_barrel": [
+            40.075,
+            19.675
+          ],
+          "straight_mm": 39.309,
+          "inner_0_70mm_copper_only_milliohm_at20C": 55.32
+        }
+      ]
+    },
+    "VDD_CPU": {
+      "inductor": "L1001.2",
+      "source_vias": 3,
+      "existing_barrel_comparisons": [
+        {
+          "bank": "C1601.1",
+          "from_barrel": [
+            56.5,
+            28.5
+          ],
+          "to_barrel": [
+            42.025,
+            20.325
+          ],
+          "straight_mm": 16.624,
+          "inner_0_70mm_copper_only_milliohm_at20C": 23.4
+        }
+      ]
+    },
+    "VDD_LOGIC": {
+      "inductor": "L401.2",
+      "source_vias": 2,
+      "existing_barrel_comparisons": []
+    }
+  }
+}

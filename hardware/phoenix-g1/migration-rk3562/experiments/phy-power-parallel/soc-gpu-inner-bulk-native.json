@@ -1,0 +1,106 @@
+{
+  "parent": "fc881db94a3c5e3d11fc7cc98e6d5463257efcea91b5dc6a481ea1aee7f884cb",
+  "sha": "1c10f92bfd2134fdac203dce647a2e4d7b972a7e47b23253340ea058b503bafb",
+  "delta": [],
+  "joins": 329,
+  "lost": [],
+  "extras": [
+    [
+      "C1617.1",
+      "C1618.1"
+    ],
+    [
+      "C1617.1",
+      "U1.1F12"
+    ]
+  ],
+  "barrel": "fc7f25a7-2d79-42d9-8b73-0381b947c82e",
+  "tracks": [
+    "29c3017a-0322-4d6a-b687-948bae44c762",
+    "993ab4c9-c0ef-4e7e-8680-07a842827c98",
+    "1d79de0b-798e-4956-9177-0505ee716167",
+    "f9aa8b7e-4340-4d2c-b6fa-b34ba47976e8",
+    "da377ba2-19fb-4091-8725-db1d1baa93d8",
+    "54aa21a3-9c3e-4d78-b1a5-59f4070f8795",
+    "9d3cbab7-744a-4f81-b91d-969497df712c",
+    "cfb83f16-864f-44be-8a1d-4044c213be45"
+  ],
+  "trace_width_mm": 0.4,
+  "trace_mm": 13.676518484615071,
+  "new_via_land_drill_mm": [
+    0.5,
+    0.25
+  ],
+  "audit": {
+    "ground_reference": [
+      {
+        "layer": "B.Cu",
+        "mm": 0.291547594742265,
+        "width_mm": 0.4,
+        "samples": 93,
+        "outside_plane": 93,
+        "max_beyond_nominal_two_antipads_mm": -0.09644616930090888
+      },
+      {
+        "layer": "In2.Cu",
+        "mm": 0.5656854249492381,
+        "width_mm": 0.4,
+        "samples": 174,
+        "outside_plane": 0,
+        "max_beyond_nominal_two_antipads_mm": 0
+      },
+      {
+        "layer": "In2.Cu",
+        "mm": 0.42720018726587655,
+        "width_mm": 0.4,
+        "samples": 132,
+        "outside_plane": 0,
+        "max_beyond_nominal_two_antipads_mm": 0
+      },
+      {
+        "layer": "In2.Cu",
+        "mm": 3.9223717314910376,
+        "width_mm": 0.4,
+        "samples": 1182,
+        "outside_plane": 67,
+        "max_beyond_nominal_two_antipads_mm": 0.00131801747170196
+      },
+      {
+        "layer": "In2.Cu",
+        "mm": 0.3535533905932738,
+        "width_mm": 0.4,
+        "samples": 111,
+        "outside_plane": 0,
+        "max_beyond_nominal_two_antipads_mm": 0
+      },
+      {
+        "layer": "In2.Cu",
+        "mm": 3.106444913401813,
+        "width_mm": 0.4,
+        "samples": 936,
+        "outside_plane": 128,
+        "max_beyond_nominal_two_antipads_mm": -0.0005140638496015648
+      },
+      {
+        "layer": "In2.Cu",
+        "mm": 2.438237068047322,
+        "width_mm": 0.4,
+        "samples": 735,
+        "outside_plane": 0,
+        "max_beyond_nominal_two_antipads_mm": 0
+      },
+      {
+        "layer": "In2.Cu",
+        "mm": 2.571478174124758,
+        "width_mm": 0.4,
+        "samples": 777,
+        "outside_plane": 0,
+        "max_beyond_nominal_two_antipads_mm": 0
+      }
+    ],
+    "least_hole_edge_to_land_mm": 0.375899,
+    "total_dc_track_mohm_at_20C": 33.324291201156335,
+    "dc_drop_mV_at_100mA": 3.3324291201156333,
+    "assumptions": "Copper only at 20 C, 35 um external, 17.5 um internal. Excludes vias, junctions, internal plane spreading, capacitor ESR and inductance. Unloaded shunt bank, not supply ampacity or transient validation."
+  }
+}

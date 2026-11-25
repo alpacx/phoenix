@@ -1,0 +1,57 @@
+{
+  "disposition": "REJECTED",
+  "net": "GND",
+  "groups": [
+    [
+      "U1.C24"
+    ],
+    [
+      "U1.C25",
+      "U1.D25"
+    ]
+  ],
+  "retained_checkpoint": "layout-gpu-comp-debug-rx.json",
+  "retained_board_sha256": "007f405211d2c1fc4c5186074e35fabf62a30238f61652366680e6884835ad14",
+  "accessibility_evidence": "Adjacent C24/C25 lands, with previously verified C25\u2013D25 link on the same face.",
+  "attempts": [
+    {
+      "layer": "F.Cu",
+      "track_width_mm": 0.25,
+      "track_length_mm": 0.5,
+      "new_drc_by_type": {
+        "shorting_items": 5,
+        "clearance": 3,
+        "tracks_crossing": 2
+      },
+      "obstructing_net": "LPDDR4_DQ0_B",
+      "result": "Straight link conflicts with the DDR breakout."
+    },
+    {
+      "layer": "F.Cu",
+      "track_width_mm": 0.25,
+      "search_bounds_mm": [
+        46.5,
+        13,
+        50,
+        17
+      ],
+      "search_grid_mm": 0.025,
+      "search_clearance_mm": 0.2,
+      "blocked_grid_endpoints": [
+        "U1.C24",
+        "U1.C25",
+        "U1.D25"
+      ],
+      "result": "The conservative copper screen found no accessible detour at the tested width and clearance."
+    }
+  ],
+  "retained_verification": {
+    "minimum_open_joins": 326,
+    "open_nets": 195,
+    "checked_pad_pairs": 880,
+    "drc_findings": 121,
+    "introduced_drc": [],
+    "usb_selector_checked_pairs": 4
+  },
+  "assembly_ready": false
+}

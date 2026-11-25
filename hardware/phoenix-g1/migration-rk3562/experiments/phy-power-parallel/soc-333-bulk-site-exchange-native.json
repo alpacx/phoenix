@@ -1,0 +1,58 @@
+{
+  "logic_destination": "C1610.1",
+  "parent": "46f9feaf5c8b3a8bb1b831096a9ed529314bb6f5fd2206b4f467ddfc6c748a77",
+  "coupon_sha256": "bea0995e2fc2b4f6d31d2770cf472beedbcdddb8afe447c0e5963285a4766b14",
+  "joins": 331,
+  "drc_delta": [],
+  "missing_pairs": [],
+  "checked": 872,
+  "soc_proximity": {
+    "C1614.1": [
+      5.710735504293646,
+      7.330552503051868
+    ],
+    "C1622.1": [
+      11.418515665356859,
+      5.003998401278722
+    ]
+  },
+  "added_tracks": [
+    "c6efb552-4fea-4f31-9058-c4353e0e3478",
+    "886efaf1-97d3-425b-a4a8-a57428dfbc23",
+    "4ef403f6-e9bd-4833-9af7-a08a266ae750",
+    "0cc6813d-8a2e-4e8b-b753-87e64b0d07be",
+    "038fb3bd-adc8-4a65-852c-aa3886698a80"
+  ],
+  "reference_plane": [
+    {
+      "net": "GND",
+      "total": 51,
+      "outside_ground": 0,
+      "length_mm": 0.07627419427303052
+    },
+    {
+      "net": "VDD_NPU",
+      "total": 387,
+      "outside_ground": 0,
+      "length_mm": 0.6363961030678928
+    },
+    {
+      "net": "VDD_NPU",
+      "total": 591,
+      "outside_ground": 0,
+      "length_mm": 0.9762812094883319
+    },
+    {
+      "net": "VDD_NPU",
+      "total": 723,
+      "outside_ground": 0,
+      "length_mm": 1.195041840271712
+    },
+    {
+      "net": "VDD_LOGIC",
+      "total": 915,
+      "outside_ground": 0,
+      "length_mm": 1.52
+    }
+  ]
+}

@@ -2,7 +2,21 @@
 
 ## Distribuzione locale di +1V1_LPDDR4
 
-Il [PCB corrente](experiments/phy-power-parallel/layout-phy-r521-rear-off-drill.json) ha **336 unioni aperte su 196 reti**. Sulla LPDDR4 il CAD verifica le sfere collegate al rispettivo banco o piano di massa: 28 su 46 a +1V1_LPDDR4, 2 su 8 a +1V8_SYS, 56 su 58 a GND. Restano da qualificare la risposta ai transitori e la distribuzione della corrente. [Inventario per sfera](experiments/phy-power-parallel/ddr-336-supply-balls-by-physical-bank.json)
+Il [PCB corrente](experiments/phy-power-parallel/layout-debug-rx-front-probe.json) ha **327 unioni aperte su 195 reti**. Sulla LPDDR4 il CAD verifica le sfere collegate al rispettivo banco o piano di massa: 28 su 46 a +1V1_LPDDR4, 2 su 8 a +1V8_SYS, 56 su 58 a GND. Restano da qualificare la risposta ai transitori e la distribuzione della corrente. [Inventario per sfera](experiments/phy-power-parallel/ddr-336-supply-balls-by-physical-bank.json)
+
+Il punto di prova UART RX TP11 da 1 mm è sul lato componenti e raggiunge U1.AF20 con una pista da 0,20 mm lunga 3,25 mm, con riferimento di massa continuo su In1. La via del segnale accessorio CS0 usa rame/foro da 0,45/0,20 mm. I tre raccordi modificati conservano la continuità originale, compreso J3.34. Il punto si sonda prima del montaggio del dissipatore e del case. L’accesso con la dima resta da provare. [DRC e continuità sul PCB ricaricato](experiments/phy-power-parallel/debug-328-rx-front-probe-native.json)
+
+I banchi GPU di C1617/C1619/C1620 e NPU di C1623 raggiungono i rispettivi condensatori locali e le sfere del SoC. I tratti GPU da 0,40 mm e NPU da 0,50 mm coesistono sul PCB ricaricato. La resistenza stimata delle sole piste a 20 °C è rispettivamente 38,4 e 23,2 mΩ. Il modello esclude vie, condensatori e transitori. Restano aperti i raccordi di alimentazione da L402 e L404. [Geometria e ipotesi di calcolo](experiments/phy-power-parallel/soc-dual-inner-bulk-geometry.json) · [Controllo dei corridoi LPDDR4](experiments/phy-power-parallel/soc-328-paired-ddr-region-parity.json)
+
+C1618 da 22 µF raggiunge le sei sfere VDD_GPU del SoC attraverso una via passante e una pista sul retro da 0,27 mm. La piazzola negativa conserva il contatto con la pista di massa esistente. Il foro è esterno alle piazzole su entrambe le facce. Il collegamento del regolatore a questo banco resta aperto. [Verifica della geometria e della continuità](experiments/phy-power-parallel/gpu-331-c1618-package-native.json)
+
+C1622 da 22 µF è collegato al banco VDD_NPU di C1621 e alle cinque sfere SoC servite dal banco. C1614 da 22 µF entra nel banco locale VDD_LOGIC di C1610 e C1611. La distanza in pianta dalla sfera più vicina del rispettivo rail passa da 11,42 a 5,00 mm per C1622 e da 5,71 a 7,33 mm per C1614. Entrambi i collegamenti ai regolatori e il raccordo fra banco VDD_LOGIC e SoC restano aperti. [Verifica del rame](experiments/phy-power-parallel/soc-333-bulk-site-exchange-native.json)
+
+C1632 e C1631 condividono il banco locale VCCA1V8_PMU. La distanza in pianta fra il positivo di C1632 e la sfera SoC più vicina dello stesso rail passa da 18.65 a 9.75 mm. Restano aperti i collegamenti del banco al regolatore e al SoC.
+
+C1610 e C1611 condividono il banco locale VDD_LOGIC. La distanza in pianta fra il positivo di C1610 e la sfera SoC più vicina dello stesso rail passa da 9.24 a 8.33 mm. Restano aperti i collegamenti del banco al regolatore e al SoC.
+
+C1629 e C1630 condividono il banco locale VDDA0V9_PMU. La distanza in pianta fra il positivo di C1629 e la sfera SoC più vicina dello stesso rail passa da 4.81 a 1.21 mm. Restano aperti i collegamenti del banco al regolatore e al SoC.
 
 Sul PCB ricaricato, i sei interventi su R1507, R514, R2103, C1305, C1011 e R521 hanno distanze minime dal bordo dei fori superiori a 0,11 mm. Restano undici intersezioni foro–rame su passivi. [Distanze misurate nel CAD](experiments/phy-power-parallel/passive-336r-six-reloaded-land-gaps.json) · [Intersezioni residue](experiments/phy-power-parallel/passive-336r-drill-overlap-inventory.json)
 
@@ -40,7 +54,7 @@ Il banco di L403 alimenta ora anche le sfere G2 e H1. Il ramo GND di J1 raggiung
 
 Le sfere W5 e W8 della LPDDR4 sono collegate tra loro con 2,168 mm di rame da 0,35 mm. Per alimentarle resta da raccordare questo gruppo al banco. I due rami di massa hanno accessi separati. La distanza dal via di ritorno più vicino è conservata entro 1 µm per i via delle altre reti entro 3 mm dalla modifica. [Verifica dei ritorni](experiments/phy-power-parallel/ddr-338-w5-nearby-return-vias.json)
 
-Il banco di C1646 è già collegato al lato di uscita L403.2. Restano aperti il nodo di commutazione PMIC_SW3 verso L403.1 e il feedback DDR_FB. Caduta complessiva e transitori richiedono verifica elettrica. Il PCB ricaricato conserva 861 coppie fisiche e passa il DRC differenziale. [Verifica dei singoli tratti](experiments/phy-power-parallel/ddr-377-package-branch-native.json) · [Inventario delle connessioni](experiments/phy-power-parallel/phy-r521-rear-off-drill-independent-inventory.json)
+Il banco di C1646 è già collegato al lato di uscita L403.2. Restano aperti il nodo di commutazione PMIC_SW3 verso L403.1 e il feedback DDR_FB. Caduta complessiva e transitori richiedono verifica elettrica. Il PCB ricaricato conserva 880 coppie fisiche e passa il DRC differenziale. [Verifica dei singoli tratti](experiments/phy-power-parallel/ddr-377-package-branch-native.json) · [Inventario delle connessioni](experiments/phy-power-parallel/debug-rx-front-probe-independent-inventory.json)
 
 Due ulteriori raccordi da 0,30 mm, lunghi 0,711 mm, collegano AA10 al banco alimentato e A9 al gruppo B8–B10. Il gruppo A9–B8–B10 ora raggiunge L403.2. Con rame da 35 µm a 20 °C ciascun tratto vale circa 1,17 mΩ, esclusi pad e package. [Verifica di rame, riferimento e DRC](experiments/phy-power-parallel/ddr-365-local-300um-native.json)
 

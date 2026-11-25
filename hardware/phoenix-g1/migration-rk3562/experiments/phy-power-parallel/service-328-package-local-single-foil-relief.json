@@ -1,0 +1,215 @@
+{
+  "parent": "ffed4bc66d03386e5438046b7c38c18651a3702523f2c2cd4e5c17411e1fcd4f",
+  "pitch_mm": 0.018,
+  "width_mm": 0.2,
+  "results": [
+    {
+      "net": "DEBUG_TX",
+      "pin": "U1.AE20",
+      "base": {
+        "nodes": 322,
+        "via_cells": 0,
+        "farthest": 0.4
+      },
+      "single_foil_relief": [
+        {
+          "object": 5140,
+          "net": "EXP_I2C_SDA",
+          "kind": "track",
+          "pt": [
+            43.975,
+            25.2
+          ],
+          "nodes": 2731,
+          "via_cells": 0,
+          "farthest": 1.723
+        }
+      ]
+    },
+    {
+      "net": "DEBUG_RX",
+      "pin": "U1.AF20",
+      "base": {
+        "nodes": 1216,
+        "via_cells": 0,
+        "farthest": 0.741
+      },
+      "single_foil_relief": [
+        {
+          "object": 6305,
+          "net": "EXP_SPI_CS0_N",
+          "kind": "via",
+          "pt": [
+            46.3,
+            27.2
+          ],
+          "nodes": 5558,
+          "via_cells": 6,
+          "farthest": 2.951
+        }
+      ]
+    },
+    {
+      "net": "ETH_RESET_GPIO_N",
+      "pin": "U1.T2",
+      "base": {
+        "nodes": 1179,
+        "via_cells": 0,
+        "farthest": 0.655
+      },
+      "single_foil_relief": [
+        {
+          "object": 5663,
+          "net": "EXP_GPIO1",
+          "kind": "via",
+          "pt": [
+            35.8,
+            21.3
+          ],
+          "nodes": 7797,
+          "via_cells": 0,
+          "farthest": 3.394
+        }
+      ]
+    },
+    {
+      "net": "THERMAL_SHUTDOWN",
+      "pin": "U1.1R13",
+      "base": {
+        "nodes": 573,
+        "via_cells": 0,
+        "farthest": 0.421
+      },
+      "single_foil_relief": [
+        {
+          "object": 5140,
+          "net": "EXP_I2C_SDA",
+          "kind": "track",
+          "pt": [
+            43.975,
+            25.2
+          ],
+          "nodes": 2565,
+          "via_cells": 0,
+          "farthest": 2.054
+        },
+        {
+          "object": 562,
+          "net": "GND",
+          "kind": "track",
+          "pt": [
+            46.9,
+            24.55
+          ],
+          "nodes": 1204,
+          "via_cells": 0,
+          "farthest": 1.384
+        },
+        {
+          "object": 799,
+          "net": "GND",
+          "kind": "track",
+          "pt": [
+            45.6,
+            24.55
+          ],
+          "nodes": 1088,
+          "via_cells": 0,
+          "farthest": 1.209
+        },
+        {
+          "object": 790,
+          "net": "GND",
+          "kind": "track",
+          "pt": [
+            46.25,
+            23.25
+          ],
+          "nodes": 1275,
+          "via_cells": 0,
+          "farthest": 0.824
+        }
+      ]
+    },
+    {
+      "net": "LCD_RESET_N",
+      "pin": "U1.N2",
+      "base": {
+        "nodes": 0,
+        "via_cells": 0,
+        "farthest": 0
+      },
+      "single_foil_relief": [
+        {
+          "object": 5644,
+          "net": "EXP_GPIO1",
+          "kind": "track",
+          "pt": [
+            37.25,
+            18.75
+          ],
+          "nodes": 156,
+          "via_cells": 0,
+          "farthest": 0.383
+        }
+      ]
+    },
+    {
+      "net": "LCD_MOSI",
+      "pin": "U1.T3",
+      "base": {
+        "nodes": 261,
+        "via_cells": 0,
+        "farthest": 0.391
+      },
+      "single_foil_relief": []
+    },
+    {
+      "net": "PMIC_SLEEP",
+      "pin": "U1.AF23",
+      "base": {
+        "nodes": 0,
+        "via_cells": 0,
+        "farthest": 0
+      },
+      "single_foil_relief": [
+        {
+          "object": 5133,
+          "net": "EXP_I2C_SDA",
+          "kind": "track",
+          "pt": [
+            46.925,
+            25.75
+          ],
+          "nodes": 222,
+          "via_cells": 0,
+          "farthest": 0.4
+        }
+      ]
+    },
+    {
+      "net": "RECOVERY_ADC",
+      "pin": "U1.D26",
+      "base": {
+        "nodes": 129,
+        "via_cells": 0,
+        "farthest": 0.228
+      },
+      "single_foil_relief": [
+        {
+          "object": 7796,
+          "net": "LPDDR4_DQ9_B",
+          "kind": "via",
+          "pt": [
+            49.5,
+            14.65
+          ],
+          "nodes": 7976,
+          "via_cells": 0,
+          "farthest": 3.386
+        }
+      ]
+    }
+  ],
+  "scope": "Via mask retains every obstacle; allowing one copper item to move only enlarges the front route region. Pad geometries and every other foil fixed."
+}

@@ -1,0 +1,33 @@
+{
+  "checkpoint": "d807af266305a2c1f2cb7840d2887bb378b72330f61a62748919de6dbf72acba",
+  "rows": [
+    {
+      "net": "LPDDR4_CLKP_A",
+      "fixed_no_tracks": true,
+      "fixed_no_tracks_without_plane": true,
+      "single_net_release": [
+        "EXP_GPIO1"
+      ]
+    },
+    {
+      "net": "LPDDR4_CLKN_A",
+      "fixed_no_tracks": true,
+      "fixed_no_tracks_without_plane": true,
+      "single_net_release": [
+        "EXP_GPIO1"
+      ]
+    },
+    {
+      "net": "LPDDR4_CLKP_B",
+      "fixed_no_tracks": true,
+      "fixed_no_tracks_without_plane": true,
+      "single_net_release": []
+    },
+    {
+      "net": "LPDDR4_CLKN_B",
+      "fixed_no_tracks": true,
+      "fixed_no_tracks_without_plane": true,
+      "single_net_release": []
+    }
+  ]
+}

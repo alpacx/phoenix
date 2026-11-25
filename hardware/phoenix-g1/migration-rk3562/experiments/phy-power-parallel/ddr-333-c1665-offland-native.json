@@ -1,0 +1,212 @@
+{
+  "parent": "46f9feaf5c8b3a8bb1b831096a9ed529314bb6f5fd2206b4f467ddfc6c748a77",
+  "coupon_hash": "75d403c507a20a4a98f60bba861fe4ba10e66125c816154d3f00e8447573a238",
+  "ground_via_center_mm": [
+    23.625,
+    19.475
+  ],
+  "native_drc_delta": [],
+  "joins": 333,
+  "memory_pad_members": {
+    "1": [
+      "U2.AA8",
+      "U2.AA5",
+      "U2.AB9",
+      "U2.AA10",
+      "U2.AB4",
+      "U2.AA3",
+      "U2.K12",
+      "U2.N12",
+      "U2.N10",
+      "U2.R12",
+      "U2.K10",
+      "U2.R1",
+      "U2.T2",
+      "U2.W1",
+      "U2.K1",
+      "U2.N1",
+      "U2.H1",
+      "U2.A4",
+      "U2.G2",
+      "U2.B5",
+      "U2.B3",
+      "U2.B8",
+      "U2.R8",
+      "U2.H8",
+      "U2.R5",
+      "U2.H5",
+      "U2.A9",
+      "U2.B10"
+    ],
+    "2": [
+      "U2.N2",
+      "U2.K2",
+      "U2.V8",
+      "U2.Y5",
+      "U2.E12",
+      "U2.C5",
+      "U2.AB8",
+      "U2.AB10",
+      "U2.C12",
+      "U2.AB3",
+      "U2.T8",
+      "U2.T5",
+      "U2.W11",
+      "U2.Y12",
+      "U2.AB5",
+      "U2.V5",
+      "U2.P3",
+      "U2.A10",
+      "U2.K11",
+      "U2.T1",
+      "U2.K4",
+      "U2.N4",
+      "U2.Y8",
+      "U2.Y1",
+      "U2.E1",
+      "U2.V1",
+      "U2.A3",
+      "U2.G5",
+      "U2.D11",
+      "U2.N9",
+      "U2.C8",
+      "U2.V12",
+      "U2.K9",
+      "U2.T3",
+      "U2.E8",
+      "U2.E5",
+      "U2.J12",
+      "U2.G12",
+      "U2.G1",
+      "U2.C1",
+      "U2.D2",
+      "U2.W2",
+      "U2.G8",
+      "U2.J1",
+      "U2.W9",
+      "U2.P1",
+      "U2.P10",
+      "U2.J10",
+      "U2.D9",
+      "U2.D4",
+      "U2.T12",
+      "U2.W4",
+      "U2.N11",
+      "U2.P12",
+      "U2.J3",
+      "U2.G3"
+    ]
+  },
+  "old_path_mm": 1.837799931344244,
+  "new_path_mm": 2.1159597224595412,
+  "new_individual_lengths_mm": {
+    "power": 0.9878016140255862,
+    "ground_back": 0.5747595179044899,
+    "ground_front": 0.5533985905294653
+  },
+  "adopted": false,
+  "copper_preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 8196,
+    "explicitly_replaced_copper": {
+      "464fa11e-0da6-4662-be85-b03c18cea075": [
+        "GND",
+        0,
+        23800000,
+        20000000,
+        23100000,
+        20000000,
+        200000,
+        null
+      ],
+      "56f27f4c-f9b8-4373-9d53-522d6f86d177": [
+        "GND",
+        2,
+        23080000,
+        19980000,
+        23100000,
+        20000000,
+        300000,
+        null
+      ],
+      "89d95414-49b5-4d30-b83c-7564daf1bde1": [
+        "GND",
+        0,
+        23100000,
+        20000000,
+        23100000,
+        20000000,
+        450000,
+        200000
+      ],
+      "9ad51ad6-f574-4c6c-9311-af8a2283c7b1": [
+        "+1V1_LPDDR4",
+        2,
+        23080000,
+        19020000,
+        21980000,
+        18875000,
+        300000,
+        null
+      ]
+    },
+    "added_tracks_vias": 0,
+    "existing_connected_pad_groups_preserved": 131
+  },
+  "historical_pad_pairs_preserved": 867,
+  "ground_reference": {
+    "before": [
+      {
+        "net": "GND",
+        "layer": "F.Cu",
+        "length_mm": 0.7,
+        "width_mm": 0.2,
+        "outside_ground": 0,
+        "total_samples": 423
+      },
+      {
+        "net": "GND",
+        "layer": "B.Cu",
+        "length_mm": 0.028284271247461905,
+        "width_mm": 0.3,
+        "outside_ground": 0,
+        "total_samples": 21
+      },
+      {
+        "net": "+1V1_LPDDR4",
+        "layer": "B.Cu",
+        "length_mm": 1.109515660096783,
+        "width_mm": 0.3,
+        "outside_ground": 0,
+        "total_samples": 669
+      }
+    ],
+    "after": [
+      {
+        "net": "GND",
+        "layer": "F.Cu",
+        "length_mm": 0.5533985905294664,
+        "width_mm": 0.2,
+        "outside_ground": 0,
+        "total_samples": 336
+      },
+      {
+        "net": "GND",
+        "layer": "B.Cu",
+        "length_mm": 0.5747597693515092,
+        "width_mm": 0.3,
+        "outside_ground": 0,
+        "total_samples": 348
+      },
+      {
+        "net": "+1V1_LPDDR4",
+        "layer": "B.Cu",
+        "length_mm": 0.9878017526128408,
+        "width_mm": 0.3,
+        "outside_ground": 0,
+        "total_samples": 597
+      }
+    ]
+  },
+  "assembly_process": "Relocates the 0.20 mm through drill away from C1665.2. Compare bypass impedance before selecting this variant; the rear ground arm grows by 0.5465 mm."
+}

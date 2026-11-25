@@ -1,0 +1,210 @@
+{
+  "parent": "ffed4bc66d03386e5438046b7c38c18651a3702523f2c2cd4e5c17411e1fcd4f",
+  "pitch_mm": 0.055,
+  "width_mm": 0.2,
+  "clearance_mm": 0.2,
+  "reference_checked": false,
+  "results": {
+    "LCD_RESET_N": {
+      "groups": [
+        [
+          "R1814.1",
+          "U21.5"
+        ],
+        [
+          "U1.N2"
+        ]
+      ],
+      "region_paths": []
+    },
+    "ETH_RESET_GPIO_N": {
+      "groups": [
+        [
+          "R515.1"
+        ],
+        [
+          "U1.T2"
+        ]
+      ],
+      "region_paths": []
+    },
+    "WIFI_REG_ON": {
+      "groups": [
+        [
+          "R2002.1",
+          "U25.12"
+        ],
+        [
+          "U1.1J14"
+        ]
+      ],
+      "region_paths": []
+    },
+    "RESET_N": {
+      "groups": [
+        [
+          "C411.1",
+          "R1103.1",
+          "R1507.2",
+          "R412.2",
+          "TP9.1",
+          "U16.2"
+        ],
+        [
+          "U1.1P12"
+        ],
+        [
+          "U4.67"
+        ]
+      ],
+      "region_paths": []
+    },
+    "EXP_UART_TX": {
+      "groups": [
+        [
+          "J3.25"
+        ],
+        [
+          "U1.Y26"
+        ]
+      ],
+      "region_paths": []
+    },
+    "EXP_UART_RX": {
+      "groups": [
+        [
+          "J3.26"
+        ],
+        [
+          "U1.Y25"
+        ]
+      ],
+      "region_paths": []
+    },
+    "EXP_GPIO2": {
+      "groups": [
+        [
+          "J3.29"
+        ],
+        [
+          "U1.K3"
+        ]
+      ],
+      "region_paths": []
+    },
+    "EXP_GPIO3": {
+      "groups": [
+        [
+          "J3.30"
+        ],
+        [
+          "U1.L2"
+        ]
+      ],
+      "region_paths": []
+    },
+    "RECOVERY_ADC": {
+      "groups": [
+        [
+          "U1.D26"
+        ],
+        [
+          "R1504.1",
+          "TP10.1"
+        ]
+      ],
+      "region_paths": []
+    },
+    "PMIC_INT_N": {
+      "groups": [
+        [
+          "R413.2",
+          "U1.AF22"
+        ],
+        [
+          "U4.7"
+        ]
+      ],
+      "region_paths": []
+    },
+    "THERMAL_SHUTDOWN": {
+      "groups": [
+        [
+          "U1.1R13"
+        ],
+        [
+          "R1507.1"
+        ]
+      ],
+      "region_paths": []
+    },
+    "SOC_VBUS_DET": {
+      "groups": [
+        [
+          "C1503.1",
+          "R1505.2",
+          "R1506.1"
+        ],
+        [
+          "U1.1P14"
+        ]
+      ],
+      "region_paths": []
+    },
+    "EXP_SPI_MISO": {
+      "groups": [
+        [
+          "J3.33"
+        ],
+        [
+          "U1.AE18"
+        ]
+      ],
+      "region_paths": []
+    },
+    "EXP_SPI_CS1_N": {
+      "groups": [
+        [
+          "J3.35"
+        ],
+        [
+          "U1.AF15"
+        ],
+        [
+          "R2104.1"
+        ]
+      ],
+      "region_paths": []
+    },
+    "I2C0_SDA": {
+      "groups": [
+        [
+          "R415.1",
+          "R417.2"
+        ],
+        [
+          "U1.AE23"
+        ],
+        [
+          "U10.B1"
+        ]
+      ],
+      "region_paths": []
+    },
+    "I2C0_SCL": {
+      "groups": [
+        [
+          "R414.1",
+          "R416.2"
+        ],
+        [
+          "U1.AG23"
+        ],
+        [
+          "U10.A3"
+        ]
+      ],
+      "region_paths": []
+    }
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "parent": "fc881db94a3c5e3d11fc7cc98e6d5463257efcea91b5dc6a481ea1aee7f884cb",
+  "region_mm": [
+    40.95,
+    18.6,
+    48.94999999999955,
+    26.599999999999547
+  ],
+  "grid_mm": 0.025,
+  "power_trace": 0.3,
+  "via_mm": [
+    0.45,
+    0.2
+  ],
+  "eligible_via_sites": 0,
+  "from_package": 0,
+  "from_existing_rear_cap": 0,
+  "at_both": 0,
+  "closest_package_hole": null,
+  "both_surface_reachable_before_drill": 32,
+  "front_surface_cells": 47,
+  "rear_surface_cells": 7510,
+  "fewest_distinct_obstacles": 5,
+  "least_blocked_sites": 3,
+  "single_item_options": [],
+  "best_sites": [
+    {
+      "xy": [
+        44.74999999999979,
+        22.549999999999777
+      ],
+      "obstacles": [
+        {
+          "ref": "U1.1M11",
+          "net": "VDDA0V9_PMU",
+          "kind": "pad",
+          "pt": [
+            44.95,
+            22.6
+          ],
+          "end": null
+        },
+        {
+          "ref": null,
+          "net": "+3V3_PMU",
+          "kind": "track",
+          "pt": [
+            44.95,
+            21.95
+          ],
+          "end": [
+            45.6,
+            21.95
+          ]
+        },
+        {
+          "ref": "C1630.1",
+          "net": "VDDA0V9_PMU",
+          "kind": "pad",
+          "pt": [
+            44.98,
+            22.5
+          ],
+          "end": null
+        },
+        {
+          "ref": null,
+          "net": "PMIC_SDA",
+          "kind": "track",
+          "pt": [
+            47.8,
+            17.2
+          ],
+          "end": [
+            41.4,
+            27.2
+          ]
+        },
+        {
+          "ref": null,
+          "net": "GND",
+          "kind": "track",
+          "pt": [
+            43.796,
+            22.5
+          ],
+          "end": [
+            45.796,
+            24.5
+          ]
+        }
+      ]
+    },
+    {
+      "xy": [
+        44.774999999999785,
+        22.549999999999777
+      ],
+      "obstacles": [
+        {
+          "ref": "U1.1M11",
+          "net": "VDDA0V9_PMU",
+          "kind": "pad",
+          "pt": [
+            44.95,
+            22.6
+          ],
+          "end": null
+        },
+        {
+          "ref": null,
+          "net": "+3V3_PMU",
+          "kind": "track",
+          "pt": [
+            44.95,
+            21.95
+          ],
+          "end": [
+            45.6,
+            21.95
+          ]
+        },
+        {
+          "ref": "C1630.1",
+          "net": "VDDA0V9_PMU",
+          "kind": "pad",
+          "pt": [
+            44.98,
+            22.5
+          ],
+          "end": null
+        },
+        {
+          "ref": null,
+          "net": "PMIC_SDA",
+          "kind": "track",
+          "pt": [
+            47.8,
+            17.2
+          ],
+          "end": [
+            41.4,
+            27.2
+          ]
+        },
+        {
+          "ref": null,
+          "net": "GND",
+          "kind": "track",
+          "pt": [
+            43.796,
+            22.5
+          ],
+          "end": [
+            45.796,
+            24.5
+          ]
+        }
+      ]
+    },
+    {
+      "xy": [
+        44.799999999999784,
+        22.549999999999777
+      ],
+      "obstacles": [
+        {
+          "ref": "U1.1M11",
+          "net": "VDDA0V9_PMU",
+          "kind": "pad",
+          "pt": [
+            44.95,
+            22.6
+          ],
+          "end": null
+        },
+        {
+          "ref": null,
+          "net": "+3V3_PMU",
+          "kind": "track",
+          "pt": [
+            44.95,
+            21.95
+          ],
+          "end": [
+            45.6,
+            21.95
+          ]
+        },
+        {
+          "ref": "C1630.1",
+          "net": "VDDA0V9_PMU",
+          "kind": "pad",
+          "pt": [
+            44.98,
+            22.5
+          ],
+          "end": null
+        },
+        {
+          "ref": null,
+          "net": "PMIC_SDA",
+          "kind": "track",
+          "pt": [
+            47.8,
+            17.2
+          ],
+          "end": [
+            41.4,
+            27.2
+          ]
+        },
+        {
+          "ref": null,
+          "net": "GND",
+          "kind": "track",
+          "pt": [
+            43.796,
+            22.5
+          ],
+          "end": [
+            45.796,
+            24.5
+          ]
+        }
+      ]
+    }
+  ]
+}

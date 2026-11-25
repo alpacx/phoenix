@@ -1,0 +1,66 @@
+{
+  "parent": "ffed4bc66d03386e5438046b7c38c18651a3702523f2c2cd4e5c17411e1fcd4f",
+  "results": [
+    {
+      "layers": [
+        6,
+        8
+      ],
+      "unrestricted_transition_length_mm": 26.558136341605802,
+      "minimum_switches_over_path": 4,
+      "bounds": [
+        28.519999999999563,
+        13.610000000000012,
+        45.319999999999204,
+        23.390000000000022
+      ]
+    },
+    {
+      "layers": [
+        0,
+        6,
+        8
+      ],
+      "unrestricted_transition_length_mm": 26.55813634160581,
+      "minimum_switches_over_path": 5,
+      "bounds": [
+        28.519999999999563,
+        13.610000000000012,
+        45.319999999999204,
+        23.390000000000022
+      ]
+    },
+    {
+      "layers": [
+        2,
+        6,
+        8
+      ],
+      "unrestricted_transition_length_mm": 26.45019694921232,
+      "minimum_switches_over_path": 5,
+      "bounds": [
+        28.519999999999563,
+        13.610000000000012,
+        45.319999999999204,
+        23.09000000000002
+      ]
+    },
+    {
+      "layers": [
+        0,
+        2,
+        6,
+        8
+      ],
+      "unrestricted_transition_length_mm": 26.45019694921232,
+      "minimum_switches_over_path": 5,
+      "bounds": [
+        28.519999999999563,
+        13.610000000000012,
+        45.319999999999204,
+        23.09000000000002
+      ]
+    }
+  ],
+  "scope": "Optimistic arbitrary layer transitions and one mm launch discs. No layer jump is qualified. Grid metric used for comparisons; assumes same envelope across layers."
+}

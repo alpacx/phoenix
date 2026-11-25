@@ -1,0 +1,56 @@
+{
+  "parent": "fc881db94a3c5e3d11fc7cc98e6d5463257efcea91b5dc6a481ea1aee7f884cb",
+  "results": [
+    {
+      "candidate": {
+        "xy": [
+          47.13,
+          20.23
+        ],
+        "routes": {
+          "0": [
+            [
+              47.024999999999764,
+              20.099999999999767
+            ],
+            [
+              47.13,
+              20.23
+            ]
+          ],
+          "2": [
+            [
+              47.57499999999973,
+              20.649999999999736
+            ],
+            [
+              47.13,
+              20.23
+            ]
+          ]
+        },
+        "length": 0.7790105197248349
+      },
+      "sha": "ebb7efd6d511bd8129ea4f229e3e69a8ad374f999ed3a2c14ea0a23355365194",
+      "barrel_uuid": "80607b8e-ad96-4422-b42f-43eb2e849c5e",
+      "track_uuids": [
+        "13c6a77a-8526-43fb-9347-cd4dd76c3e0a",
+        "19821e7c-75f8-45df-87eb-556640d6c6a5"
+      ],
+      "joins": 329,
+      "delta": [],
+      "lost": [],
+      "void_samples": 353,
+      "plane_samples": 477,
+      "furthest_void_from_via": 0.4253146996965893
+    }
+  ],
+  "adopted": false,
+  "reason": "Narrow spacing from the same-net BGA land warrants process verification. The comparative CAD rule for foreign copper remains 0.250 mm.",
+  "process_check": {
+    "source": "https://jlcpcb.com/capabilities/pcb-capabilities",
+    "published_hole_position_tolerance_mm": 0.075,
+    "general_plated_through_hole_upper_diameter_tolerance_mm": 0.13,
+    "note": "The PTH diameter range is not a verified tool tolerance for filled and capped vias. Applying half of the positive size tolerance plus position offset gives a 0.140 mm conservative radial screening allowance. Exact CAM registration relative to the solder opening and filled/capped via process remain unconfirmed."
+  }
+}

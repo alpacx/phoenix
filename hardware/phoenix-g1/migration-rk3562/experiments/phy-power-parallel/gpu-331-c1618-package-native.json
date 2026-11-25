@@ -1,0 +1,64 @@
+{
+  "parent": "bea0995e2fc2b4f6d31d2770cf472beedbcdddb8afe447c0e5963285a4766b14",
+  "board_hash": "fc881db94a3c5e3d11fc7cc98e6d5463257efcea91b5dc6a481ea1aee7f884cb",
+  "joins": 330,
+  "delta": [],
+  "lost": [],
+  "via": [
+    44.82499999999981,
+    19.02500000000005
+  ],
+  "barrel_uuid": "bd50776c-53bb-434d-9aae-2e81c3fc24ce",
+  "rear_track_uuids": [
+    "dd34e9ce-45e6-4928-824f-ab9738422eda"
+  ],
+  "power_mm": 0.27045357883965043,
+  "native_hole_land_distance_nm": 365458.0,
+  "pose": [
+    45.175,
+    19.425
+  ],
+  "delta_angle": -15,
+  "nearest_lands": [
+    {
+      "ref": "U1.1F11",
+      "layer": "F.Cu",
+      "hole_edge_to_land_mm": 0.123209
+    },
+    {
+      "ref": "U1.1G11",
+      "layer": "F.Cu",
+      "hole_edge_to_land_mm": 0.123209
+    },
+    {
+      "ref": "C1618.1",
+      "layer": "B.Cu",
+      "hole_edge_to_land_mm": 0.365458
+    },
+    {
+      "ref": "U1.1F10",
+      "layer": "F.Cu",
+      "hole_edge_to_land_mm": 0.392455
+    },
+    {
+      "ref": "U1.1G10",
+      "layer": "F.Cu",
+      "hole_edge_to_land_mm": 0.392455
+    }
+  ],
+  "rear_ground_projection": [
+    {
+      "samples": 168,
+      "outside_ground": 168,
+      "furthest_void_from_new_barrel_mm": 0.30926571870965586
+    }
+  ],
+  "checked_ground_contact": true,
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 8205,
+    "explicitly_replaced_copper": {},
+    "added_tracks_vias": 2,
+    "existing_connected_pad_groups_preserved": 131
+  }
+}

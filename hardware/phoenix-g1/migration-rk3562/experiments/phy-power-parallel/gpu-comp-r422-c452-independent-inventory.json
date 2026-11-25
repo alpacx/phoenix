@@ -1,0 +1,30 @@
+{
+  "source_sha256": "e3b837db02660e787de1b36965a2c615fc938239bd26c410d9a6ee13d664c290",
+  "parent_sha256": "ffed4bc66d03386e5438046b7c38c18651a3702523f2c2cd4e5c17411e1fcd4f",
+  "joins": 327,
+  "open_nets": 196,
+  "group_differences": {
+    "VDD_GPU_COM": {
+      "before": [
+        [
+          "C452.2"
+        ],
+        [
+          "R422.2"
+        ],
+        [
+          "U4.8"
+        ]
+      ],
+      "after": [
+        [
+          "C452.2",
+          "R422.2"
+        ],
+        [
+          "U4.8"
+        ]
+      ]
+    }
+  }
+}

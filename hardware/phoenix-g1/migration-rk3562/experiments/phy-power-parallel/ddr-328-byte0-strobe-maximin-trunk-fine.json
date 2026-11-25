@@ -1,0 +1,40 @@
+{
+  "parent": "ffed4bc66d03386e5438046b7c38c18651a3702523f2c2cd4e5c17411e1fcd4f",
+  "results": [
+    {
+      "layer": 6,
+      "trials": [
+        {
+          "launch_radius_mm": 1.0,
+          "max_extra_center_clearance_mm": 0.0,
+          "required_extra_mm": 0.1025,
+          "grid_error_mm": 0.0318
+        },
+        {
+          "launch_radius_mm": 2.0,
+          "max_extra_center_clearance_mm": 0.0,
+          "required_extra_mm": 0.1025,
+          "grid_error_mm": 0.0318
+        }
+      ]
+    },
+    {
+      "layer": 8,
+      "trials": [
+        {
+          "launch_radius_mm": 1.0,
+          "max_extra_center_clearance_mm": 0.0225,
+          "required_extra_mm": 0.1025,
+          "grid_error_mm": 0.0318
+        },
+        {
+          "launch_radius_mm": 2.0,
+          "max_extra_center_clearance_mm": 0.0225,
+          "required_extra_mm": 0.1025,
+          "grid_error_mm": 0.0318
+        }
+      ]
+    }
+  ],
+  "scope": "Optimistic centerline radius erosion on 22.5 um grid. End discs bypass actual fanout; turns, terminal capture, phase and impedance require further qualification."
+}
