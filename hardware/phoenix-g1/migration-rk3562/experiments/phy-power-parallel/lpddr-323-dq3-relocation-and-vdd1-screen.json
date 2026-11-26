@@ -1,0 +1,343 @@
+{
+  "source_sha256": "990b6eb2e10b4dc5b1612f57429ee009e008a54674850284836ca0ebc4b59033",
+  "source_checkpoint": "layout-lpddr-d12-dual-relief.json",
+  "dq3_relocation_attempts": [
+    {
+      "ball": "F3",
+      "dq_net": "LPDDR4_DQ3_A",
+      "old_via_nm": [
+        26800000,
+        5750000
+      ],
+      "old_launch_mm": 0.7420411039827916,
+      "old_ground_distance_mm": 2.466779276708802,
+      "counts": {
+        "solder_land": 14103,
+        "other_drill": 176,
+        "other_copper": 224,
+        "launch_track": 1
+      },
+      "options_count": 0,
+      "options": [],
+      "power_route_points_nm": [
+        [
+          27150000,
+          5550000
+        ],
+        [
+          27100000,
+          5550000
+        ],
+        [
+          27050000,
+          5600000
+        ],
+        [
+          27000000,
+          5600000
+        ],
+        [
+          26950000,
+          5650000
+        ],
+        [
+          26850000,
+          5650000
+        ],
+        [
+          26500000,
+          6000000
+        ]
+      ],
+      "power_length_mm": 0.8363961030678929
+    },
+    {
+      "ball": "U3",
+      "dq_net": "LPDDR4_DQ3_B",
+      "old_via_nm": [
+        26800000,
+        12250000
+      ],
+      "old_launch_mm": 0.7826237921249265,
+      "old_ground_distance_mm": 1.5316984037335808,
+      "counts": {
+        "solder_land": 14056,
+        "other_drill": 204,
+        "other_copper": 243,
+        "launch_track": 1
+      },
+      "options_count": 0,
+      "options": [],
+      "power_route_points_nm": [
+        [
+          27150000,
+          12450000
+        ],
+        [
+          27100000,
+          12450000
+        ],
+        [
+          27050000,
+          12400000
+        ],
+        [
+          27000000,
+          12400000
+        ],
+        [
+          26950000,
+          12350000
+        ],
+        [
+          26850000,
+          12350000
+        ],
+        [
+          26500000,
+          12000000
+        ]
+      ],
+      "power_length_mm": 0.8363961030678929
+    }
+  ],
+  "dq3_via_search_radius_mm": 1.7,
+  "dq3_front_track_budget_mm": 2.5,
+  "alternate_1v8_two_obstacle_cases": [
+    {
+      "source": [
+        "G4"
+      ],
+      "target": [
+        "F1"
+      ],
+      "width_mm": 0.35,
+      "states": 1673,
+      "solutions": [],
+      "start_centres": 26,
+      "target_centres": 220
+    },
+    {
+      "source": [
+        "G4"
+      ],
+      "target": [
+        "F1"
+      ],
+      "width_mm": 0.3,
+      "states": 3246,
+      "solutions": [],
+      "start_centres": 26,
+      "target_centres": 220
+    },
+    {
+      "source": [
+        "G4"
+      ],
+      "target": [
+        "F1"
+      ],
+      "width_mm": 0.25,
+      "states": 3582,
+      "solutions": [],
+      "start_centres": 26,
+      "target_centres": 220
+    },
+    {
+      "source": [
+        "G9"
+      ],
+      "target": [
+        "F12"
+      ],
+      "width_mm": 0.35,
+      "states": 2338,
+      "solutions": [],
+      "start_centres": 26,
+      "target_centres": 246
+    },
+    {
+      "source": [
+        "G9"
+      ],
+      "target": [
+        "F12"
+      ],
+      "width_mm": 0.3,
+      "states": 4755,
+      "solutions": [],
+      "start_centres": 26,
+      "target_centres": 246
+    },
+    {
+      "source": [
+        "G9"
+      ],
+      "target": [
+        "F12"
+      ],
+      "width_mm": 0.25,
+      "states": 4798,
+      "solutions": [],
+      "start_centres": 26,
+      "target_centres": 246
+    },
+    {
+      "source": [
+        "T4"
+      ],
+      "target": [
+        "U1"
+      ],
+      "width_mm": 0.35,
+      "states": 2027,
+      "solutions": [],
+      "start_centres": 26,
+      "target_centres": 26
+    },
+    {
+      "source": [
+        "T4"
+      ],
+      "target": [
+        "U1"
+      ],
+      "width_mm": 0.3,
+      "states": 2570,
+      "solutions": [],
+      "start_centres": 26,
+      "target_centres": 26
+    },
+    {
+      "source": [
+        "T4"
+      ],
+      "target": [
+        "U1"
+      ],
+      "width_mm": 0.25,
+      "states": 4268,
+      "solutions": [],
+      "start_centres": 26,
+      "target_centres": 26
+    },
+    {
+      "source": [
+        "T9"
+      ],
+      "target": [
+        "U12"
+      ],
+      "width_mm": 0.35,
+      "states": 2805,
+      "solutions": [],
+      "start_centres": 26,
+      "target_centres": 26
+    },
+    {
+      "source": [
+        "T9"
+      ],
+      "target": [
+        "U12"
+      ],
+      "width_mm": 0.3,
+      "states": 3625,
+      "solutions": [],
+      "start_centres": 26,
+      "target_centres": 26
+    },
+    {
+      "source": [
+        "T9"
+      ],
+      "target": [
+        "U12"
+      ],
+      "width_mm": 0.25,
+      "states": 4774,
+      "solutions": [],
+      "start_centres": 26,
+      "target_centres": 26
+    },
+    {
+      "source": [
+        "U1"
+      ],
+      "target": [
+        "F1"
+      ],
+      "width_mm": 0.35,
+      "states": 838,
+      "solutions": [],
+      "start_centres": 26,
+      "target_centres": 0
+    },
+    {
+      "source": [
+        "U1"
+      ],
+      "target": [
+        "F1"
+      ],
+      "width_mm": 0.3,
+      "states": 1416,
+      "solutions": [],
+      "start_centres": 26,
+      "target_centres": 0
+    },
+    {
+      "source": [
+        "U1"
+      ],
+      "target": [
+        "F1"
+      ],
+      "width_mm": 0.25,
+      "states": 1995,
+      "solutions": [],
+      "start_centres": 26,
+      "target_centres": 0
+    },
+    {
+      "source": [
+        "U12"
+      ],
+      "target": [
+        "F12"
+      ],
+      "width_mm": 0.35,
+      "states": 41,
+      "solutions": [],
+      "start_centres": 26,
+      "target_centres": 0
+    },
+    {
+      "source": [
+        "U12"
+      ],
+      "target": [
+        "F12"
+      ],
+      "width_mm": 0.3,
+      "states": 19497,
+      "solutions": [],
+      "start_centres": 26,
+      "target_centres": 0
+    },
+    {
+      "source": [
+        "U12"
+      ],
+      "target": [
+        "F12"
+      ],
+      "width_mm": 0.25,
+      "states": 20986,
+      "solutions": [],
+      "start_centres": 26,
+      "target_centres": 0
+    }
+  ],
+  "result": "Neither DQ3 via is reachable at a legal position in the bounded search, and the six positional 1.8 V cases have no two-object release."
+}

@@ -1,0 +1,274 @@
+{
+  "source_checkpoint": "layout-emmc-3v3-middle-bank-return-reuse.json",
+  "source_sha256": "ea93c28539a71f16e3ee3cb48dc68e038d067aaf53c0b294f98c87c8a23a12bb",
+  "target_net": "+1V1_LPDDR4",
+  "target_pin": "U4.26",
+  "schematic_pin_function": "VBUCK3_26 input",
+  "connected_bank_anchor": "L403.2",
+  "new_route_candidate_count": 0,
+  "toe_sampling": {
+    "rows": 308,
+    "contact_groups": {
+      "25": {
+        "minimum_number_of_blockers": 1,
+        "examples": [
+          {
+            "start_nm": [
+              59950000,
+              12600000
+            ],
+            "end_nm": [
+              59950000,
+              13200000
+            ],
+            "contact_depth_bound_um": 280.0,
+            "hits": [
+              [
+                "cdafc786-b944-430d-94ac-d65d0ec9d764",
+                "PMIC_SW3",
+                "U4.25"
+              ]
+            ]
+          },
+          {
+            "start_nm": [
+              59950000,
+              12610000
+            ],
+            "end_nm": [
+              59950000,
+              13200000
+            ],
+            "contact_depth_bound_um": 270.0,
+            "hits": [
+              [
+                "cdafc786-b944-430d-94ac-d65d0ec9d764",
+                "PMIC_SW3",
+                "U4.25"
+              ]
+            ]
+          },
+          {
+            "start_nm": [
+              59950000,
+              12620000
+            ],
+            "end_nm": [
+              59950000,
+              13200000
+            ],
+            "contact_depth_bound_um": 260.0,
+            "hits": [
+              [
+                "cdafc786-b944-430d-94ac-d65d0ec9d764",
+                "PMIC_SW3",
+                "U4.25"
+              ]
+            ]
+          },
+          {
+            "start_nm": [
+              59950000,
+              12630000
+            ],
+            "end_nm": [
+              59950000,
+              13200000
+            ],
+            "contact_depth_bound_um": 250.0,
+            "hits": [
+              [
+                "cdafc786-b944-430d-94ac-d65d0ec9d764",
+                "PMIC_SW3",
+                "U4.25"
+              ]
+            ]
+          }
+        ],
+        "number_of_starts": 286,
+        "blocker_sets": {
+          "U4.25": 86,
+          "PCB_VIA": 1
+        }
+      },
+      "50": {
+        "minimum_number_of_blockers": 1,
+        "examples": [
+          {
+            "start_nm": [
+              59950000,
+              12600000
+            ],
+            "end_nm": [
+              59950000,
+              13200000
+            ],
+            "contact_depth_bound_um": 280.0,
+            "hits": [
+              [
+                "cdafc786-b944-430d-94ac-d65d0ec9d764",
+                "PMIC_SW3",
+                "U4.25"
+              ]
+            ]
+          },
+          {
+            "start_nm": [
+              59950000,
+              12610000
+            ],
+            "end_nm": [
+              59950000,
+              13200000
+            ],
+            "contact_depth_bound_um": 270.0,
+            "hits": [
+              [
+                "cdafc786-b944-430d-94ac-d65d0ec9d764",
+                "PMIC_SW3",
+                "U4.25"
+              ]
+            ]
+          },
+          {
+            "start_nm": [
+              59950000,
+              12620000
+            ],
+            "end_nm": [
+              59950000,
+              13200000
+            ],
+            "contact_depth_bound_um": 260.0,
+            "hits": [
+              [
+                "cdafc786-b944-430d-94ac-d65d0ec9d764",
+                "PMIC_SW3",
+                "U4.25"
+              ]
+            ]
+          },
+          {
+            "start_nm": [
+              59950000,
+              12630000
+            ],
+            "end_nm": [
+              59950000,
+              13200000
+            ],
+            "contact_depth_bound_um": 250.0,
+            "hits": [
+              [
+                "cdafc786-b944-430d-94ac-d65d0ec9d764",
+                "PMIC_SW3",
+                "U4.25"
+              ]
+            ]
+          }
+        ],
+        "number_of_starts": 264,
+        "blocker_sets": {
+          "U4.25": 78
+        }
+      },
+      "75": {
+        "minimum_number_of_blockers": 1,
+        "examples": [
+          {
+            "start_nm": [
+              59950000,
+              12600000
+            ],
+            "end_nm": [
+              59950000,
+              13200000
+            ],
+            "contact_depth_bound_um": 280.0,
+            "hits": [
+              [
+                "cdafc786-b944-430d-94ac-d65d0ec9d764",
+                "PMIC_SW3",
+                "U4.25"
+              ]
+            ]
+          },
+          {
+            "start_nm": [
+              59950000,
+              12610000
+            ],
+            "end_nm": [
+              59950000,
+              13200000
+            ],
+            "contact_depth_bound_um": 270.0,
+            "hits": [
+              [
+                "cdafc786-b944-430d-94ac-d65d0ec9d764",
+                "PMIC_SW3",
+                "U4.25"
+              ]
+            ]
+          },
+          {
+            "start_nm": [
+              59950000,
+              12620000
+            ],
+            "end_nm": [
+              59950000,
+              13200000
+            ],
+            "contact_depth_bound_um": 260.0,
+            "hits": [
+              [
+                "cdafc786-b944-430d-94ac-d65d0ec9d764",
+                "PMIC_SW3",
+                "U4.25"
+              ]
+            ]
+          },
+          {
+            "start_nm": [
+              59950000,
+              12630000
+            ],
+            "end_nm": [
+              59950000,
+              13200000
+            ],
+            "contact_depth_bound_um": 250.0,
+            "hits": [
+              [
+                "cdafc786-b944-430d-94ac-d65d0ec9d764",
+                "PMIC_SW3",
+                "U4.25"
+              ]
+            ]
+          }
+        ],
+        "number_of_starts": 231,
+        "blocker_sets": {
+          "U4.25": 66
+        }
+      }
+    }
+  },
+  "interlayer_frontier": {
+    "parent_sha256": "ea93c28539a71f16e3ee3cb48dc68e038d067aaf53c0b294f98c87c8a23a12bb",
+    "network": "+1V1_LPDDR4",
+    "frontiers": [
+      {
+        "group": 1,
+        "layer": "In3.Cu",
+        "nodes": 45449
+      }
+    ],
+    "pairs": [],
+    "local_exit": {},
+    "near_via": [],
+    "candidates": []
+  },
+  "result": "U4.26 remains open. At 50 um or more nominal toe overlap, the best front launch is blocked by fixed adjacent U4.25, the BUCK3 switching node."
+}

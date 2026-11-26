@@ -1,0 +1,1187 @@
+{
+  "parent_sha256": "2e27af66ff7c7fd72d0513631b24b2b3a15d0088a489ae861d05b18afa1fb801",
+  "sha256": "377afbd0be0b5258209a877f9720cc09a04583f1d2b937f05d970023e8b78b2c",
+  "nearest_ground_mm": {
+    "before": [
+      1.152443057161611,
+      "27195f37-3d7e-44d7-a0b0-0fea8b75b487"
+    ],
+    "after": [
+      0.8517775531205316,
+      "4b16744a-fa86-44ce-a039-deaa85be8088"
+    ]
+  },
+  "direct_tap": {
+    "new_via_nm": [
+      29875000,
+      10600000
+    ],
+    "unchanged_tap_track": "ea1ce3f9-875f-4774-a477-3c12d6a1681e",
+    "tap_width_mm": 0.35,
+    "centerline_offset_mm": 0.014961135763786106,
+    "removed_front_copper_mm": 1.0949747468305833,
+    "new_inner_copper_mm": 0.9617692030835672
+  },
+  "backup_group": [
+    "C1646.1",
+    "C1647.1",
+    "C1648.1",
+    "C1649.1",
+    "C1650.1",
+    "C1651.1",
+    "C1652.1",
+    "C1653.1",
+    "C1654.1",
+    "C1655.1",
+    "C1656.1",
+    "C1657.1",
+    "C1658.1",
+    "C1659.1",
+    "C1660.1",
+    "C1661.1",
+    "C1662.1",
+    "C1663.1",
+    "C1664.1",
+    "C1665.1",
+    "C1666.1",
+    "C1667.1",
+    "C1668.1",
+    "C1669.1",
+    "C1670.1",
+    "C1671.1",
+    "C1672.1",
+    "C1673.1",
+    "C1674.1",
+    "C1675.1",
+    "C1676.1",
+    "C1677.1",
+    "C1678.1",
+    "C433.1",
+    "C443.1",
+    "L403.2",
+    "R201.2",
+    "TP7.1",
+    "U2.A4",
+    "U2.A9",
+    "U2.AA10",
+    "U2.AA3",
+    "U2.AA5",
+    "U2.AA8",
+    "U2.AB4",
+    "U2.AB9",
+    "U2.B10",
+    "U2.B3",
+    "U2.B5",
+    "U2.B8",
+    "U2.D1",
+    "U2.D12",
+    "U2.G2",
+    "U2.H1",
+    "U2.H12",
+    "U2.H5",
+    "U2.H8",
+    "U2.K1",
+    "U2.K10",
+    "U2.K12",
+    "U2.N1",
+    "U2.N10",
+    "U2.N12",
+    "U2.R1",
+    "U2.R12",
+    "U2.R5",
+    "U2.R8",
+    "U2.T2",
+    "U2.W1"
+  ],
+  "verified_pairs_count": 888,
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 8339,
+    "explicitly_replaced_copper": {
+      "350d5869-b431-4b0e-95d5-bbee1d69e884": [
+        "+1V1_LPDDR4",
+        0,
+        30350000,
+        10525000,
+        30325000,
+        10500000,
+        300000,
+        null
+      ],
+      "761e1cac-897d-4df3-b7ef-749477cc28e3": [
+        "+1V1_LPDDR4",
+        0,
+        30275000,
+        10325000,
+        30275000,
+        9900000,
+        300000,
+        null
+      ],
+      "7f873825-13b9-4b13-ade8-d02f37006529": [
+        "+1V1_LPDDR4",
+        0,
+        30325000,
+        10475000,
+        30300000,
+        10450000,
+        300000,
+        null
+      ],
+      "85403faf-a9b7-4e31-929e-3ff9d37efc53": [
+        "+1V1_LPDDR4",
+        0,
+        30275000,
+        9900000,
+        30025000,
+        9650000,
+        300000,
+        null
+      ],
+      "a529426e-e397-4538-bc90-9056ba367ef8": [
+        "+1V1_LPDDR4",
+        0,
+        30350000,
+        10550000,
+        30350000,
+        10525000,
+        300000,
+        null
+      ],
+      "a745d162-8eb6-4983-b270-eefa6d4938b6": [
+        "+1V1_LPDDR4",
+        0,
+        30375000,
+        10600000,
+        30375000,
+        10575000,
+        300000,
+        null
+      ],
+      "ac97cda0-7067-4825-95fa-b18d7d7940da": [
+        "+1V1_LPDDR4",
+        0,
+        30025000,
+        9650000,
+        30025000,
+        9650000,
+        450000,
+        200000
+      ],
+      "c052296f-27bc-4cab-a3fe-4d25cfaa39eb": [
+        "+1V1_LPDDR4",
+        0,
+        30325000,
+        10500000,
+        30325000,
+        10475000,
+        300000,
+        null
+      ],
+      "c17fed90-4268-45df-b152-fb6338b2f0ef": [
+        "+1V1_LPDDR4",
+        0,
+        30375000,
+        10575000,
+        30350000,
+        10550000,
+        300000,
+        null
+      ],
+      "cf2c598e-218f-453d-b0b1-e5fadc6bc35c": [
+        "+1V1_LPDDR4",
+        0,
+        30300000,
+        10350000,
+        30275000,
+        10325000,
+        300000,
+        null
+      ],
+      "ef7dce6e-8fdf-4d7f-8f53-208a86d26626": [
+        "+1V1_LPDDR4",
+        0,
+        30300000,
+        10450000,
+        30300000,
+        10350000,
+        300000,
+        null
+      ]
+    },
+    "added_tracks_vias": 6,
+    "existing_connected_pad_groups_preserved": 132
+  },
+  "remaining_unconnected": 318,
+  "reference_comparison": {
+    "changed_via_centers_nm": [
+      [
+        29875000,
+        10600000
+      ],
+      [
+        30025000,
+        9650000
+      ]
+    ],
+    "samples_by_net_and_layer": {
+      "+1V1_LPDDR4 F.Cu": {
+        "sampled": 633,
+        "lost": 187,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 187,
+        "lost_examples": [
+          {
+            "track": "ea1ce3f9-875f-4774-a477-3c12d6a1681e",
+            "point_nm": [
+              29477164,
+              10733210
+            ]
+          },
+          {
+            "track": "ea1ce3f9-875f-4774-a477-3c12d6a1681e",
+            "point_nm": [
+              29488275,
+              10729043
+            ]
+          },
+          {
+            "track": "ea1ce3f9-875f-4774-a477-3c12d6a1681e",
+            "point_nm": [
+              29499386,
+              10724877
+            ]
+          },
+          {
+            "track": "ea1ce3f9-875f-4774-a477-3c12d6a1681e",
+            "point_nm": [
+              29510497,
+              10720710
+            ]
+          },
+          {
+            "track": "ea1ce3f9-875f-4774-a477-3c12d6a1681e",
+            "point_nm": [
+              29571944,
+              10884568
+            ]
+          }
+        ]
+      },
+      "+1V1_LPDDR4 In2.Cu": {
+        "sampled": 392,
+        "lost": 0,
+        "gained": 112,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      },
+      "+1V8_SYS B.Cu": {
+        "sampled": 235,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      },
+      "LPDDR4_CKE0_B F.Cu": {
+        "sampled": 5,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      },
+      "LPDDR4_CLKP_B F.Cu": {
+        "sampled": 132,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      },
+      "LPDDR4_CS0N_B F.Cu": {
+        "sampled": 1,
+        "lost": 0,
+        "gained": 0,
+        "lost_in_same_rail_antipad": 0,
+        "lost_examples": []
+      }
+    },
+    "sample_pitch_mm": 0.012,
+    "via_window_radius_mm": 1.5,
+    "scope": "Center and edges of unchanged straight copper only. Local ground-fill comparison; no field or impedance simulation."
+  },
+  "new_back_profile": [
+    {
+      "id": "05010ebb-c66e-4fd4-bf82-61185b5fe123",
+      "endpoints_nm": [
+        [
+          28950000,
+          10650000
+        ],
+        [
+          30300000,
+          9300000
+        ]
+      ],
+      "length_mm": 1.9091883092036785,
+      "min_gap": [
+        [
+          218750,
+          "+1V1_LPDDR4",
+          "ac97cda0-7067-4825-95fa-b18d7d7940da"
+        ]
+      ],
+      "coverage": {
+        "samples_on_ground": 483,
+        "samples_off_ground": 0,
+        "off_near_existing_via_antipad": 0,
+        "examples": []
+      }
+    },
+    {
+      "id": "2329d8b7-f655-4fa2-a60b-ed95189af049",
+      "endpoints_nm": [
+        [
+          28500000,
+          11600000
+        ],
+        [
+          28900000,
+          11200000
+        ]
+      ],
+      "length_mm": 0.5656854249492381,
+      "min_gap": [
+        [
+          130370,
+          "LPDDR4_CS0N_B",
+          "80dc1f40-649a-45be-95b7-6d5afe8ea6b4"
+        ]
+      ],
+      "coverage": {
+        "samples_on_ground": 147,
+        "samples_off_ground": 0,
+        "off_near_existing_via_antipad": 0,
+        "examples": []
+      }
+    },
+    {
+      "id": "37d605f6-c55f-4b05-b2bf-f5b89384dfb3",
+      "endpoints_nm": [
+        [
+          28900000,
+          11150000
+        ],
+        [
+          28950000,
+          11100000
+        ]
+      ],
+      "length_mm": 0.07071067811865477,
+      "min_gap": [
+        [
+          138548,
+          "LPDDR4_CS0N_B",
+          "80dc1f40-649a-45be-95b7-6d5afe8ea6b4"
+        ]
+      ],
+      "coverage": {
+        "samples_on_ground": 21,
+        "samples_off_ground": 0,
+        "off_near_existing_via_antipad": 0,
+        "examples": []
+      }
+    },
+    {
+      "id": "3b6436b5-7928-49c2-8382-b827f37533f6",
+      "endpoints_nm": [
+        [
+          26600000,
+          11450000
+        ],
+        [
+          26650000,
+          11500000
+        ]
+      ],
+      "length_mm": 0.07071067811865477,
+      "min_gap": [
+        [
+          138548,
+          "LPDDR4_A0_B",
+          "16b5a003-bd01-4b83-afe1-cb13fbb622eb"
+        ]
+      ],
+      "coverage": {
+        "samples_on_ground": 21,
+        "samples_off_ground": 0,
+        "off_near_existing_via_antipad": 0,
+        "examples": []
+      }
+    },
+    {
+      "id": "6b993be1-70fb-4fe8-acea-bb8c3071043a",
+      "endpoints_nm": [
+        [
+          27600000,
+          11600000
+        ],
+        [
+          28500000,
+          11600000
+        ]
+      ],
+      "length_mm": 0.9,
+      "min_gap": [
+        [
+          250061,
+          "GND",
+          "63eed0b1-4688-4173-8321-b9884c8f65bf"
+        ]
+      ],
+      "coverage": {
+        "samples_on_ground": 228,
+        "samples_off_ground": 0,
+        "off_near_existing_via_antipad": 0,
+        "examples": []
+      }
+    },
+    {
+      "id": "6d825ea9-e5dc-4963-8127-3a60dae66a71",
+      "endpoints_nm": [
+        [
+          27400000,
+          11550000
+        ],
+        [
+          27550000,
+          11550000
+        ]
+      ],
+      "length_mm": 0.15,
+      "min_gap": [
+        [
+          203002,
+          "GND",
+          "63eed0b1-4688-4173-8321-b9884c8f65bf"
+        ]
+      ],
+      "coverage": {
+        "samples_on_ground": 42,
+        "samples_off_ground": 0,
+        "off_near_existing_via_antipad": 0,
+        "examples": []
+      }
+    },
+    {
+      "id": "70483ef5-0f58-4c31-9330-b378314ff209",
+      "endpoints_nm": [
+        [
+          26550000,
+          11450000
+        ],
+        [
+          26600000,
+          11450000
+        ]
+      ],
+      "length_mm": 0.05,
+      "min_gap": [
+        [
+          138548,
+          "LPDDR4_A0_B",
+          "16b5a003-bd01-4b83-afe1-cb13fbb622eb"
+        ]
+      ],
+      "coverage": {
+        "samples_on_ground": 18,
+        "samples_off_ground": 0,
+        "off_near_existing_via_antipad": 0,
+        "examples": []
+      }
+    },
+    {
+      "id": "8b3dd39c-9b71-4f8f-bfb8-c24f797d32c0",
+      "endpoints_nm": [
+        [
+          27350000,
+          11500000
+        ],
+        [
+          27400000,
+          11550000
+        ]
+      ],
+      "length_mm": 0.07071067811865477,
+      "min_gap": [
+        [
+          208373,
+          "GND",
+          "63eed0b1-4688-4173-8321-b9884c8f65bf"
+        ]
+      ],
+      "coverage": {
+        "samples_on_ground": 21,
+        "samples_off_ground": 0,
+        "off_near_existing_via_antipad": 0,
+        "examples": []
+      }
+    },
+    {
+      "id": "96e6d201-e7e6-4d35-9d08-0aa06dadd481",
+      "endpoints_nm": [
+        [
+          25200000,
+          10800000
+        ],
+        [
+          25900000,
+          10800000
+        ]
+      ],
+      "length_mm": 0.7,
+      "min_gap": [
+        [
+          512450,
+          "LPDDR4_A0_B",
+          "16b5a003-bd01-4b83-afe1-cb13fbb622eb"
+        ]
+      ],
+      "coverage": {
+        "samples_on_ground": 180,
+        "samples_off_ground": 0,
+        "off_near_existing_via_antipad": 0,
+        "examples": []
+      }
+    },
+    {
+      "id": "b7933543-c0f2-4774-a3e6-11bf6e2221ab",
+      "endpoints_nm": [
+        [
+          27550000,
+          11550000
+        ],
+        [
+          27600000,
+          11600000
+        ]
+      ],
+      "length_mm": 0.07071067811865477,
+      "min_gap": [
+        [
+          203002,
+          "GND",
+          "63eed0b1-4688-4173-8321-b9884c8f65bf"
+        ]
+      ],
+      "coverage": {
+        "samples_on_ground": 21,
+        "samples_off_ground": 0,
+        "off_near_existing_via_antipad": 0,
+        "examples": []
+      }
+    },
+    {
+      "id": "cf33d4b3-0920-4d8e-b849-eec74d707a85",
+      "endpoints_nm": [
+        [
+          25900000,
+          10800000
+        ],
+        [
+          26550000,
+          11450000
+        ]
+      ],
+      "length_mm": 0.9192388155425119,
+      "min_gap": [
+        [
+          130370,
+          "LPDDR4_A0_B",
+          "16b5a003-bd01-4b83-afe1-cb13fbb622eb"
+        ]
+      ],
+      "coverage": {
+        "samples_on_ground": 234,
+        "samples_off_ground": 0,
+        "off_near_existing_via_antipad": 0,
+        "examples": []
+      }
+    },
+    {
+      "id": "d3bfb597-96ca-45b8-82ae-f20dffaaae6a",
+      "endpoints_nm": [
+        [
+          26650000,
+          11500000
+        ],
+        [
+          27350000,
+          11500000
+        ]
+      ],
+      "length_mm": 0.7,
+      "min_gap": [
+        [
+          150023,
+          "LPDDR4_A0_B",
+          "16b5a003-bd01-4b83-afe1-cb13fbb622eb"
+        ]
+      ],
+      "coverage": {
+        "samples_on_ground": 180,
+        "samples_off_ground": 0,
+        "off_near_existing_via_antipad": 0,
+        "examples": []
+      }
+    },
+    {
+      "id": "da751c5d-684a-41f8-b2a8-27ef1ba759c1",
+      "endpoints_nm": [
+        [
+          28900000,
+          11200000
+        ],
+        [
+          28900000,
+          11150000
+        ]
+      ],
+      "length_mm": 0.05,
+      "min_gap": [
+        [
+          138548,
+          "LPDDR4_CS0N_B",
+          "80dc1f40-649a-45be-95b7-6d5afe8ea6b4"
+        ]
+      ],
+      "coverage": {
+        "samples_on_ground": 18,
+        "samples_off_ground": 0,
+        "off_near_existing_via_antipad": 0,
+        "examples": []
+      }
+    },
+    {
+      "id": "e6cc22af-026c-45a0-a2b8-0943d5d3e531",
+      "endpoints_nm": [
+        [
+          28950000,
+          11100000
+        ],
+        [
+          28950000,
+          10650000
+        ]
+      ],
+      "length_mm": 0.45,
+      "min_gap": [
+        [
+          150023,
+          "LPDDR4_CS0N_B",
+          "80dc1f40-649a-45be-95b7-6d5afe8ea6b4"
+        ]
+      ],
+      "coverage": {
+        "samples_on_ground": 117,
+        "samples_off_ground": 0,
+        "off_near_existing_via_antipad": 0,
+        "examples": []
+      }
+    }
+  ],
+  "cut_checks": {
+    "source": "L403.2",
+    "before_and_after_identical": true,
+    "results": [
+      {
+        "case": "via",
+        "source": "L403.2",
+        "old_connected_balls": 69,
+        "lost_pads": [
+          "U2.R5",
+          "U2.R8"
+        ],
+        "west_kept": false,
+        "east_kept": false,
+        "via_kept": false
+      },
+      {
+        "case": "west",
+        "source": "L403.2",
+        "old_connected_balls": 69,
+        "lost_pads": [
+          "U2.R5"
+        ],
+        "west_kept": false,
+        "east_kept": true,
+        "via_kept": true
+      },
+      {
+        "case": "east",
+        "source": "L403.2",
+        "old_connected_balls": 69,
+        "lost_pads": [
+          "U2.R8"
+        ],
+        "west_kept": true,
+        "east_kept": false,
+        "via_kept": true
+      }
+    ]
+  },
+  "all_site_rank_summary": {
+    "samples_evaluated": 88,
+    "zero_outside_own_antipad_at": [
+      [
+        29875000,
+        10600000
+      ],
+      [
+        29875000,
+        10625000
+      ]
+    ],
+    "outside_own_antipad_histogram": {
+      "0": 2,
+      "1": 3,
+      "3": 3,
+      "4": 4,
+      "5": 1,
+      "6": 7,
+      "7": 7,
+      "8": 2,
+      "9": 2,
+      "10": 4,
+      "11": 3,
+      "12": 1,
+      "13": 3,
+      "14": 2,
+      "16": 3,
+      "17": 3,
+      "18": 1,
+      "19": 1,
+      "21": 1,
+      "22": 1,
+      "23": 1,
+      "24": 1,
+      "25": 2,
+      "26": 1,
+      "27": 3,
+      "28": 3,
+      "29": 4,
+      "31": 3,
+      "32": 4,
+      "33": 1,
+      "34": 1,
+      "36": 1,
+      "37": 4,
+      "38": 3,
+      "41": 1,
+      "42": 1
+    },
+    "total_loss_range": [
+      224,
+      293
+    ],
+    "nearest_ground_range_mm": [
+      0.8255452743490208,
+      1.1174300872985299
+    ],
+    "test_matrix": "../../all-ranked.jsonl"
+  },
+  "drc_counts": {
+    "via_dangling": 121
+  },
+  "new_drc": [],
+  "assembly_ready": false,
+  "new_1v8_route_summary": {
+    "source": "L405.2",
+    "connected": "C2301.1",
+    "face": "B.Cu",
+    "positive_track_width_mm": 0.35,
+    "length_mm": 6.676955262170048,
+    "reference": "In4.Cu",
+    "all_1731_center_and_edge_samples_on_filled_ground": true,
+    "estimated_track_resistance_mohm_at_35um_and_20c": 9.39679254855605,
+    "min_foreign_copper_gap_mm": 0.13037
+  },
+  "scope_limit": "The unchanged same-rail trace attached to the moved via has 187 newly uncovered center/edge samples within its own physical via antipad. Other-net reference and external-antipad sample counts showed no loss in the measured region. SI/PI qualification remains open.",
+  "independent_inventory": {
+    "sha256": "377afbd0be0b5258209a877f9720cc09a04583f1d2b937f05d970023e8b78b2c",
+    "parent_sha256": "2e27af66ff7c7fd72d0513631b24b2b3a15d0088a489ae861d05b18afa1fb801",
+    "joins": 318,
+    "open_nets": 194,
+    "changed_groups": {
+      "+1V8_SYS": {
+        "before": [
+          [
+            "C2301.1"
+          ],
+          [
+            "C2302.1",
+            "C2303.1",
+            "C2304.1",
+            "C2305.1",
+            "C2306.1",
+            "C2307.1",
+            "C2308.1",
+            "C435.1",
+            "C445.1",
+            "L405.2",
+            "R8006.1",
+            "U2.F1",
+            "U2.F12",
+            "U4.59"
+          ],
+          [
+            "U2.G4"
+          ],
+          [
+            "U2.G9"
+          ],
+          [
+            "U2.T4"
+          ],
+          [
+            "U2.T9"
+          ],
+          [
+            "U2.U1"
+          ],
+          [
+            "U2.U12"
+          ]
+        ],
+        "after": [
+          [
+            "C2301.1",
+            "C2302.1",
+            "C2303.1",
+            "C2304.1",
+            "C2305.1",
+            "C2306.1",
+            "C2307.1",
+            "C2308.1",
+            "C435.1",
+            "C445.1",
+            "L405.2",
+            "R8006.1",
+            "U2.F1",
+            "U2.F12",
+            "U4.59"
+          ],
+          [
+            "U2.G4"
+          ],
+          [
+            "U2.G9"
+          ],
+          [
+            "U2.T4"
+          ],
+          [
+            "U2.T9"
+          ],
+          [
+            "U2.U1"
+          ],
+          [
+            "U2.U12"
+          ]
+        ]
+      }
+    },
+    "drc_findings": 121,
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 8339,
+      "explicitly_replaced_copper": {
+        "350d5869-b431-4b0e-95d5-bbee1d69e884": [
+          "+1V1_LPDDR4",
+          0,
+          30350000,
+          10525000,
+          30325000,
+          10500000,
+          300000,
+          null
+        ],
+        "761e1cac-897d-4df3-b7ef-749477cc28e3": [
+          "+1V1_LPDDR4",
+          0,
+          30275000,
+          10325000,
+          30275000,
+          9900000,
+          300000,
+          null
+        ],
+        "7f873825-13b9-4b13-ade8-d02f37006529": [
+          "+1V1_LPDDR4",
+          0,
+          30325000,
+          10475000,
+          30300000,
+          10450000,
+          300000,
+          null
+        ],
+        "85403faf-a9b7-4e31-929e-3ff9d37efc53": [
+          "+1V1_LPDDR4",
+          0,
+          30275000,
+          9900000,
+          30025000,
+          9650000,
+          300000,
+          null
+        ],
+        "a529426e-e397-4538-bc90-9056ba367ef8": [
+          "+1V1_LPDDR4",
+          0,
+          30350000,
+          10550000,
+          30350000,
+          10525000,
+          300000,
+          null
+        ],
+        "a745d162-8eb6-4983-b270-eefa6d4938b6": [
+          "+1V1_LPDDR4",
+          0,
+          30375000,
+          10600000,
+          30375000,
+          10575000,
+          300000,
+          null
+        ],
+        "ac97cda0-7067-4825-95fa-b18d7d7940da": [
+          "+1V1_LPDDR4",
+          0,
+          30025000,
+          9650000,
+          30025000,
+          9650000,
+          450000,
+          200000
+        ],
+        "c052296f-27bc-4cab-a3fe-4d25cfaa39eb": [
+          "+1V1_LPDDR4",
+          0,
+          30325000,
+          10500000,
+          30325000,
+          10475000,
+          300000,
+          null
+        ],
+        "c17fed90-4268-45df-b152-fb6338b2f0ef": [
+          "+1V1_LPDDR4",
+          0,
+          30375000,
+          10575000,
+          30350000,
+          10550000,
+          300000,
+          null
+        ],
+        "cf2c598e-218f-453d-b0b1-e5fadc6bc35c": [
+          "+1V1_LPDDR4",
+          0,
+          30300000,
+          10350000,
+          30275000,
+          10325000,
+          300000,
+          null
+        ],
+        "ef7dce6e-8fdf-4d7f-8f53-208a86d26626": [
+          "+1V1_LPDDR4",
+          0,
+          30300000,
+          10450000,
+          30300000,
+          10350000,
+          300000,
+          null
+        ]
+      },
+      "added_tracks_vias": 6,
+      "existing_connected_pad_groups_preserved": 132
+    }
+  },
+  "independent_ground_fill_difference": {
+    "In1.Cu": {
+      "ground_loss_mm2": 0.5720579501045,
+      "ground_gain_mm2": 0.5720998014445,
+      "ground_outlines_before_after": [
+        1,
+        1
+      ],
+      "loss_under_pads_tracks_vias": [
+        {
+          "layer": "F.Cu",
+          "net": "+1V1_LPDDR4",
+          "uuid": "052d3ba4-e242-490e-bbc3-e619a9710126",
+          "area_mm2": 0.0132818916115
+        },
+        {
+          "layer": "F.Cu",
+          "net": "+1V1_LPDDR4",
+          "uuid": "350d5869-b431-4b0e-95d5-bbee1d69e884",
+          "area_mm2": 0.02361227555
+        },
+        {
+          "layer": "F.Cu",
+          "net": "+1V1_LPDDR4",
+          "uuid": "761e1cac-897d-4df3-b7ef-749477cc28e3",
+          "area_mm2": 0.016726522815
+        },
+        {
+          "layer": "F.Cu",
+          "net": "+1V1_LPDDR4",
+          "uuid": "7f873825-13b9-4b13-ade8-d02f37006529",
+          "area_mm2": 0.0270841817345
+        },
+        {
+          "layer": "F.Cu",
+          "net": "+1V1_LPDDR4",
+          "uuid": "a529426e-e397-4538-bc90-9056ba367ef8",
+          "area_mm2": 0.019958473329
+        },
+        {
+          "layer": "F.Cu",
+          "net": "+1V1_LPDDR4",
+          "uuid": "a745d162-8eb6-4983-b270-eefa6d4938b6",
+          "area_mm2": 0.0141279155265
+        },
+        {
+          "layer": "F.Cu",
+          "net": "+1V1_LPDDR4",
+          "uuid": "c052296f-27bc-4cab-a3fe-4d25cfaa39eb",
+          "area_mm2": 0.024329401443
+        },
+        {
+          "layer": "F.Cu",
+          "net": "+1V1_LPDDR4",
+          "uuid": "c17fed90-4268-45df-b152-fb6338b2f0ef",
+          "area_mm2": 0.0186569998815
+        },
+        {
+          "layer": "F.Cu",
+          "net": "+1V1_LPDDR4",
+          "uuid": "cf2c598e-218f-453d-b0b1-e5fadc6bc35c",
+          "area_mm2": 0.017883893571
+        },
+        {
+          "layer": "F.Cu",
+          "net": "+1V1_LPDDR4",
+          "uuid": "ea1ce3f9-875f-4774-a477-3c12d6a1681e",
+          "area_mm2": 0.2894121855105
+        },
+        {
+          "layer": "F.Cu",
+          "net": "+1V1_LPDDR4",
+          "uuid": "ef7dce6e-8fdf-4d7f-8f53-208a86d26626",
+          "area_mm2": 0.02920264021
+        },
+        {
+          "layer": "F.Cu",
+          "net": "+1V1_LPDDR4",
+          "uuid": "f5d7b1c4-3f1f-4159-a5ea-a8eaece4c0be",
+          "area_mm2": 0.012737741418
+        }
+      ],
+      "loss_with_100um_halo": [
+        {
+          "layer": "F.Cu",
+          "net": "+1V1_LPDDR4",
+          "uuid": "052d3ba4-e242-490e-bbc3-e619a9710126",
+          "area_mm2": 0.054012025565
+        },
+        {
+          "layer": "F.Cu",
+          "net": "+1V1_LPDDR4",
+          "uuid": "350d5869-b431-4b0e-95d5-bbee1d69e884",
+          "area_mm2": 0.071077550656
+        },
+        {
+          "layer": "F.Cu",
+          "net": "+1V1_LPDDR4",
+          "uuid": "761e1cac-897d-4df3-b7ef-749477cc28e3",
+          "area_mm2": 0.0601167905815
+        },
+        {
+          "layer": "F.Cu",
+          "net": "+1V1_LPDDR4",
+          "uuid": "7f873825-13b9-4b13-ade8-d02f37006529",
+          "area_mm2": 0.0766057198985
+        },
+        {
+          "layer": "F.Cu",
+          "net": "+1V1_LPDDR4",
+          "uuid": "a529426e-e397-4538-bc90-9056ba367ef8",
+          "area_mm2": 0.065104268714
+        },
+        {
+          "layer": "F.Cu",
+          "net": "+1V1_LPDDR4",
+          "uuid": "a745d162-8eb6-4983-b270-eefa6d4938b6",
+          "area_mm2": 0.055437696733
+        },
+        {
+          "layer": "F.Cu",
+          "net": "+1V1_LPDDR4",
+          "uuid": "c052296f-27bc-4cab-a3fe-4d25cfaa39eb",
+          "area_mm2": 0.0722160149175
+        },
+        {
+          "layer": "F.Cu",
+          "net": "+1V1_LPDDR4",
+          "uuid": "c17fed90-4268-45df-b152-fb6338b2f0ef",
+          "area_mm2": 0.062937264515
+        },
+        {
+          "layer": "F.Cu",
+          "net": "+1V1_LPDDR4",
+          "uuid": "cf2c598e-218f-453d-b0b1-e5fadc6bc35c",
+          "area_mm2": 0.0618491302195
+        },
+        {
+          "layer": "F.Cu",
+          "net": "+1V1_LPDDR4",
+          "uuid": "ea1ce3f9-875f-4774-a477-3c12d6a1681e",
+          "area_mm2": 0.434088657981
+        },
+        {
+          "layer": "F.Cu",
+          "net": "+1V1_LPDDR4",
+          "uuid": "ef7dce6e-8fdf-4d7f-8f53-208a86d26626",
+          "area_mm2": 0.0803655683315
+        },
+        {
+          "layer": "F.Cu",
+          "net": "+1V1_LPDDR4",
+          "uuid": "f5d7b1c4-3f1f-4159-a5ea-a8eaece4c0be",
+          "area_mm2": 0.052732239959
+        },
+        {
+          "layer": "F.Cu",
+          "net": "",
+          "uuid": "9d46418c-ac4f-4606-9a80-d44632351be7",
+          "area_mm2": 1.43835e-08
+        }
+      ]
+    },
+    "In4.Cu": {
+      "ground_loss_mm2": 0.5720579480695,
+      "ground_gain_mm2": 0.5720997883575,
+      "ground_outlines_before_after": [
+        1,
+        1
+      ],
+      "loss_under_pads_tracks_vias": [],
+      "loss_with_100um_halo": []
+    }
+  }
+}

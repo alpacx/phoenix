@@ -1,0 +1,415 @@
+{
+  "parent_sha256": "377afbd0be0b5258209a877f9720cc09a04583f1d2b937f05d970023e8b78b2c",
+  "sha256": "7e5374630c8cbc92e3e1659d113f1c4844be57344573ea9f4bdcad389e8f8cf9",
+  "native_drc": {
+    "open_joins": 318,
+    "via_dangling": 121,
+    "difference": []
+  },
+  "source": "U15.5",
+  "target": [
+    "U17.10",
+    "U17.11",
+    "U17.12"
+  ],
+  "common_cut_evidence": [
+    {
+      "uuid": "320eb4dd-3f14-47f1-b56b-cee762cca01f",
+      "via": false,
+      "layer": "F.Cu",
+      "start_mm": [
+        8.02,
+        32.75
+      ],
+      "end_mm": [
+        7.9,
+        33.8
+      ],
+      "width_mm": 0.5,
+      "length_mm": 1.0568348972285122,
+      "lost_pads": [
+        "C1001.1",
+        "C1002.1",
+        "C1301.1",
+        "C1302.1",
+        "C1801.1",
+        "C2201.1",
+        "C2202.1",
+        "C8101.1",
+        "R1803.1",
+        "TP3.1",
+        "U10.D1",
+        "U10.D2",
+        "U10.E1",
+        "U10.E2",
+        "U17.10",
+        "U17.11",
+        "U17.12",
+        "U20.1",
+        "U26.10",
+        "U26.11",
+        "U26.12",
+        "U26.13",
+        "U8101.3",
+        "U8101.4"
+      ],
+      "cuts_U15_to_U17pin10": true
+    },
+    {
+      "uuid": "a11d2e9f-67fc-41c3-86a1-0e2c1209ba60",
+      "via": false,
+      "layer": "F.Cu",
+      "start_mm": [
+        8.02,
+        32.75
+      ],
+      "end_mm": [
+        6.95,
+        32.25
+      ],
+      "width_mm": 0.25,
+      "length_mm": 1.1810588469674153,
+      "lost_pads": [
+        "C1001.1",
+        "C1002.1",
+        "C1203.1",
+        "C1301.1",
+        "C1302.1",
+        "C1801.1",
+        "C2201.1",
+        "C2202.1",
+        "C8101.1",
+        "R1803.1",
+        "TP3.1",
+        "U10.D1",
+        "U10.D2",
+        "U10.E1",
+        "U10.E2",
+        "U17.10",
+        "U17.11",
+        "U17.12",
+        "U20.1",
+        "U26.10",
+        "U26.11",
+        "U26.12",
+        "U26.13",
+        "U8101.3",
+        "U8101.4"
+      ],
+      "cuts_U15_to_U17pin10": true
+    }
+  ],
+  "geometry": {
+    "320eb4dd-3f14-47f1-b56b-cee762cca01f": {
+      "width_mm": 0.7,
+      "squares_before": 2.1136697944570244,
+      "squares_after": 1.900964165430684,
+      "squares_saved": 0.2127056290263405,
+      "critical_minimum_before_nm": {
+        "VBUS_PROTECTED": 533934,
+        "SYS_3V3_PG": 2913573,
+        "USB_DVDT": 2547362,
+        "USB_MAIN_ENABLE": 2789062,
+        "USB_POWER_FAULT_N": 476805,
+        "USB_ILIM": 1195312,
+        "CC_VBUS_SENSE": 3000000,
+        "SYS_SW": 1632567
+      },
+      "critical_minimum_after_nm": {
+        "VBUS_PROTECTED": 533934,
+        "SYS_3V3_PG": 2913573,
+        "USB_DVDT": 2547362,
+        "USB_MAIN_ENABLE": 2789062,
+        "USB_POWER_FAULT_N": 476805,
+        "USB_ILIM": 1195312,
+        "CC_VBUS_SENSE": 3000000,
+        "SYS_SW": 1632567
+      },
+      "profile": [
+        [
+          [
+            8020000,
+            32750000
+          ],
+          [
+            7990000,
+            33012500
+          ],
+          500000
+        ],
+        [
+          [
+            7990000,
+            33012500
+          ],
+          [
+            7934659,
+            33144458
+          ],
+          500000
+        ],
+        [
+          [
+            7934659,
+            33144458
+          ],
+          [
+            7887859,
+            33553958
+          ],
+          700000
+        ],
+        [
+          [
+            7887859,
+            33553958
+          ],
+          [
+            7912000,
+            33695000
+          ],
+          500000
+        ],
+        [
+          [
+            7912000,
+            33695000
+          ],
+          [
+            7900000,
+            33800000
+          ],
+          500000
+        ]
+      ],
+      "layer": "F.Cu"
+    },
+    "a11d2e9f-67fc-41c3-86a1-0e2c1209ba60": {
+      "width_mm": 0.6,
+      "squares_before": 4.724235387869661,
+      "squares_after": 3.514282948156257,
+      "squares_saved": 1.2099524397134038,
+      "critical_minimum_before_nm": {
+        "VBUS_PROTECTED": 1007812,
+        "SYS_3V3_PG": 3000000,
+        "USB_DVDT": 2014892,
+        "USB_MAIN_ENABLE": 1733642,
+        "USB_POWER_FAULT_N": 250487,
+        "USB_ILIM": 750732,
+        "CC_VBUS_SENSE": 3000000,
+        "SYS_SW": 1757812,
+        "CC_VBUS_SERIES_2": 3000000
+      },
+      "critical_minimum_after_nm": {
+        "VBUS_PROTECTED": 1007812,
+        "SYS_3V3_PG": 3000000,
+        "USB_DVDT": 2014892,
+        "USB_MAIN_ENABLE": 1733642,
+        "USB_POWER_FAULT_N": 250487,
+        "USB_ILIM": 750732,
+        "CC_VBUS_SENSE": 3000000,
+        "SYS_SW": 1757812,
+        "CC_VBUS_SERIES_2": 3000000
+      },
+      "profile": [
+        [
+          [
+            6950000,
+            32250000
+          ],
+          [
+            7206800,
+            32370000
+          ],
+          250000
+        ],
+        [
+          [
+            7206800,
+            32370000
+          ],
+          [
+            7351755,
+            32437736
+          ],
+          250000
+        ],
+        [
+          [
+            7351755,
+            32437736
+          ],
+          [
+            7821545,
+            32657264
+          ],
+          600000
+        ],
+        [
+          [
+            7821545,
+            32657264
+          ],
+          [
+            7966500,
+            32725000
+          ],
+          250000
+        ],
+        [
+          [
+            7966500,
+            32725000
+          ],
+          [
+            8020000,
+            32750000
+          ],
+          250000
+        ]
+      ],
+      "layer": "F.Cu"
+    }
+  },
+  "reference_filled_polygons_equal": {
+    "In1.Cu": true,
+    "In4.Cu": true
+  },
+  "preserved_via_count": 694,
+  "preserved_connections": 888,
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 8354,
+    "explicitly_replaced_copper": {
+      "320eb4dd-3f14-47f1-b56b-cee762cca01f": [
+        "+5V_MAIN",
+        0,
+        8020000,
+        32750000,
+        7900000,
+        33800000,
+        500000,
+        null
+      ],
+      "a11d2e9f-67fc-41c3-86a1-0e2c1209ba60": [
+        "+5V_MAIN",
+        0,
+        8020000,
+        32750000,
+        6950000,
+        32250000,
+        250000,
+        null
+      ]
+    },
+    "added_tracks_vias": 8,
+    "existing_connected_pad_groups_preserved": 132
+  },
+  "localized_resistance": {
+    "squares_before": 6.837905182326685,
+    "squares_after": 5.4152471135869416,
+    "reduction_percent": 20.80546645216373,
+    "scenario_35um_20c_mohm_before": 3.3681567240946295,
+    "scenario_35um_20c_mohm_after": 2.6673960068068245
+  },
+  "C413_exploration": {
+    "U4_46_radial_width_mm": 0.2,
+    "no_clear_exit_by_length_mm": {
+      "0.12": 0,
+      "0.2": 0,
+      "0.3": 0,
+      "0.45": 0,
+      "0.6": 0
+    },
+    "placement": {
+      "F.Cu": {
+        "counts": {
+          "courtyard": 32,
+          "pads": 14
+        },
+        "source_anchors": {
+          "positive": 1,
+          "negative": 41
+        }
+      }
+    },
+    "dominant_obstacles": [
+      "U4.45 +3V3_SYS",
+      "U4.47 GND",
+      "nearby +3V3_SYS and GND tracks"
+    ],
+    "result": "No reference-capacitor trial adopted."
+  },
+  "assembly_ready": false,
+  "independent_inventory": {
+    "sha256": "7e5374630c8cbc92e3e1659d113f1c4844be57344573ea9f4bdcad389e8f8cf9",
+    "parent_sha256": "377afbd0be0b5258209a877f9720cc09a04583f1d2b937f05d970023e8b78b2c",
+    "joins": 318,
+    "open_nets": 194,
+    "changed_groups": {},
+    "drc_findings": 121,
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 8354,
+      "explicitly_replaced_copper": {
+        "320eb4dd-3f14-47f1-b56b-cee762cca01f": [
+          "+5V_MAIN",
+          0,
+          8020000,
+          32750000,
+          7900000,
+          33800000,
+          500000,
+          null
+        ],
+        "a11d2e9f-67fc-41c3-86a1-0e2c1209ba60": [
+          "+5V_MAIN",
+          0,
+          8020000,
+          32750000,
+          6950000,
+          32250000,
+          250000,
+          null
+        ]
+      },
+      "added_tracks_vias": 8,
+      "existing_connected_pad_groups_preserved": 132
+    }
+  },
+  "independent_geometry": {
+    "old_track_uuids": [
+      "320eb4dd-3f14-47f1-b56b-cee762cca01f",
+      "a11d2e9f-67fc-41c3-86a1-0e2c1209ba60"
+    ],
+    "removed_or_replaced": 2,
+    "new_segments": 10,
+    "original_segment_squares": 6.8379051823266845,
+    "new_segment_squares": 5.4152471135869416,
+    "local_resistance_reduction_percent": 20.805466452163724,
+    "resistivity_ohm_m_at_20C": 1.724e-08,
+    "unchanged_footprint_poses": 378
+  },
+  "independent_ground_fill_difference": {
+    "In1.Cu": {
+      "ground_loss_mm2": 0.0,
+      "ground_gain_mm2": 0.0,
+      "ground_outlines_before_after": [
+        1,
+        1
+      ],
+      "loss_under_pads_tracks_vias": [],
+      "loss_with_100um_halo": []
+    },
+    "In4.Cu": {
+      "ground_loss_mm2": 0.0,
+      "ground_gain_mm2": 0.0,
+      "ground_outlines_before_after": [
+        1,
+        1
+      ],
+      "loss_under_pads_tracks_vias": [],
+      "loss_with_100um_halo": []
+    }
+  }
+}

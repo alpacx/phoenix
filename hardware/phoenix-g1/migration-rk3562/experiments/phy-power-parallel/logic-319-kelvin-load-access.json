@@ -1,0 +1,594 @@
+{
+  "front-access": {
+    "sha256": "8ccbbccb22d0e17e20fa5dad586d12dbd094bd8a54b27361c076047dd1173778",
+    "source_pads": [
+      "U1.1G10",
+      "U1.1H10",
+      "U1.1H11",
+      "U1.1J10",
+      "U1.1J11",
+      "U1.1J12",
+      "U1.1K10"
+    ],
+    "tracks_width_mm": 0.2,
+    "u1_courtyard_bbox_mm": [
+      35.705,
+      12.705,
+      50.295,
+      27.295
+    ],
+    "samples": [
+      {
+        "grid_mm": 0.025,
+        "copper_clearance_optimistic_mm": 0.0762,
+        "foreign_hole_clearance_mm": 0.25,
+        "reach_cells": 4764,
+        "courtyard_contacts": 0,
+        "minimum_courtyard_distance_mm": 4.420000000000002,
+        "nearest_site_mm": [
+          45.875,
+          20.650000000000002
+        ],
+        "outside_examples_mm": []
+      },
+      {
+        "grid_mm": 0.025,
+        "copper_clearance_optimistic_mm": 0,
+        "foreign_hole_clearance_mm": 0,
+        "reach_cells": 70729,
+        "courtyard_contacts": 455,
+        "minimum_courtyard_distance_mm": -0.005000000000002558,
+        "nearest_site_mm": [
+          50.300000000000004,
+          19.475
+        ],
+        "outside_examples_mm": [
+          [
+            50.300000000000004,
+            19.475
+          ],
+          [
+            50.300000000000004,
+            19.5
+          ],
+          [
+            50.300000000000004,
+            19.525000000000002
+          ],
+          [
+            50.300000000000004,
+            19.55
+          ],
+          [
+            50.300000000000004,
+            19.575000000000003
+          ]
+        ]
+      },
+      {
+        "grid_mm": 0.01,
+        "copper_clearance_optimistic_mm": 0.0762,
+        "foreign_hole_clearance_mm": 0.25,
+        "reach_cells": 29047,
+        "courtyard_contacts": 0,
+        "minimum_courtyard_distance_mm": 4.414999999999999,
+        "nearest_site_mm": [
+          45.88,
+          20.650000000000002
+        ],
+        "outside_examples_mm": []
+      },
+      {
+        "grid_mm": 0.01,
+        "copper_clearance_optimistic_mm": 0,
+        "foreign_hole_clearance_mm": 0,
+        "reach_cells": 417464,
+        "courtyard_contacts": 1123,
+        "minimum_courtyard_distance_mm": -0.005000000000002558,
+        "nearest_site_mm": [
+          50.300000000000004,
+          19.48
+        ],
+        "outside_examples_mm": [
+          [
+            50.300000000000004,
+            19.48
+          ],
+          [
+            50.300000000000004,
+            19.490000000000002
+          ],
+          [
+            50.300000000000004,
+            19.5
+          ],
+          [
+            50.300000000000004,
+            19.51
+          ],
+          [
+            50.300000000000004,
+            19.52
+          ]
+        ]
+      }
+    ],
+    "assumptions": "Optimistic screen with circular pads, tracks as capsules, undersized keepout by one quarter cell and unrestricted diagonal corners. Noncircular pads, pours and mechanical keepouts omitted. A candidate reaching the exterior would require native DRC and reference checks."
+  },
+  "kelvin-access": {
+    "checkpoint": "hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/layout-lpddr-d1-feed.json",
+    "sha256": "8ccbbccb22d0e17e20fa5dad586d12dbd094bd8a54b27361c076047dd1173778",
+    "pcb": "hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/lpddr-d1-feed/phy-joint.kicad_pcb",
+    "sources": [
+      "hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/schematic-mdio/netlist.xml",
+      "hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/u22-320-two-jack-pairs-transfer/netlist.xml"
+    ],
+    "schematic_matches_pcb": true,
+    "rail_schematic_nodes": {
+      "VDD_LOGIC_COM": [
+        "C451.2",
+        "R421.2",
+        "U4.13"
+      ],
+      "VDD_LOGIC": [
+        "C1609.1",
+        "C1610.1",
+        "C1611.1",
+        "C1612.1",
+        "C1613.1",
+        "C1614.1",
+        "C1615.1",
+        "C431.1",
+        "C441.1",
+        "C451.1",
+        "L401.2",
+        "R421.1",
+        "U1.1G10",
+        "U1.1H10",
+        "U1.1H11",
+        "U1.1J10",
+        "U1.1J11",
+        "U1.1J12",
+        "U1.1K10"
+      ]
+    },
+    "pair": {
+      "C451": {
+        "schematic_value": "100n",
+        "pcb_value": "100n",
+        "position_mm": [
+          83.5,
+          30.0
+        ],
+        "layer": "F.Cu"
+      },
+      "R421": {
+        "schematic_value": "100R",
+        "pcb_value": "100R",
+        "position_mm": [
+          85.5,
+          9.0
+        ],
+        "layer": "F.Cu"
+      }
+    },
+    "terminal_connections": {
+      "R421.1": {
+        "pads": [
+          "R421.1"
+        ],
+        "copper_primitives_by_layer": {
+          "F.Cu": 0,
+          "In1.Cu": 0,
+          "In2.Cu": 0,
+          "In3.Cu": 0,
+          "In4.Cu": 0,
+          "B.Cu": 0
+        },
+        "vias": [],
+        "through_pads": [],
+        "zones": []
+      },
+      "R421.2": {
+        "pads": [
+          "R421.2"
+        ],
+        "copper_primitives_by_layer": {
+          "F.Cu": 0,
+          "In1.Cu": 0,
+          "In2.Cu": 0,
+          "In3.Cu": 0,
+          "In4.Cu": 0,
+          "B.Cu": 0
+        },
+        "vias": [],
+        "through_pads": [],
+        "zones": []
+      },
+      "C451.1": {
+        "pads": [
+          "C451.1"
+        ],
+        "copper_primitives_by_layer": {
+          "F.Cu": 0,
+          "In1.Cu": 0,
+          "In2.Cu": 0,
+          "In3.Cu": 0,
+          "In4.Cu": 0,
+          "B.Cu": 0
+        },
+        "vias": [],
+        "through_pads": [],
+        "zones": []
+      },
+      "C451.2": {
+        "pads": [
+          "C451.2"
+        ],
+        "copper_primitives_by_layer": {
+          "F.Cu": 0,
+          "In1.Cu": 0,
+          "In2.Cu": 0,
+          "In3.Cu": 0,
+          "In4.Cu": 0,
+          "B.Cu": 0
+        },
+        "vias": [],
+        "through_pads": [],
+        "zones": []
+      },
+      "U4.13": {
+        "pads": [
+          "U4.13"
+        ],
+        "copper_primitives_by_layer": {
+          "F.Cu": 0,
+          "In1.Cu": 0,
+          "In2.Cu": 0,
+          "In3.Cu": 0,
+          "In4.Cu": 0,
+          "B.Cu": 0
+        },
+        "vias": [],
+        "through_pads": [],
+        "zones": []
+      }
+    },
+    "logic_groups": {
+      "U1.1G10": {
+        "pads": [
+          "U1.1G10",
+          "U1.1H10",
+          "U1.1H11",
+          "U1.1J10",
+          "U1.1J11",
+          "U1.1J12",
+          "U1.1K10"
+        ],
+        "copper_primitives_by_layer": {
+          "F.Cu": 7,
+          "In1.Cu": 0,
+          "In2.Cu": 0,
+          "In3.Cu": 0,
+          "In4.Cu": 0,
+          "B.Cu": 0
+        },
+        "vias": [],
+        "through_pads": [],
+        "zones": []
+      },
+      "U1.1H10": {
+        "pads": [
+          "U1.1G10",
+          "U1.1H10",
+          "U1.1H11",
+          "U1.1J10",
+          "U1.1J11",
+          "U1.1J12",
+          "U1.1K10"
+        ],
+        "copper_primitives_by_layer": {
+          "F.Cu": 7,
+          "In1.Cu": 0,
+          "In2.Cu": 0,
+          "In3.Cu": 0,
+          "In4.Cu": 0,
+          "B.Cu": 0
+        },
+        "vias": [],
+        "through_pads": [],
+        "zones": []
+      },
+      "U1.1H11": {
+        "pads": [
+          "U1.1G10",
+          "U1.1H10",
+          "U1.1H11",
+          "U1.1J10",
+          "U1.1J11",
+          "U1.1J12",
+          "U1.1K10"
+        ],
+        "copper_primitives_by_layer": {
+          "F.Cu": 7,
+          "In1.Cu": 0,
+          "In2.Cu": 0,
+          "In3.Cu": 0,
+          "In4.Cu": 0,
+          "B.Cu": 0
+        },
+        "vias": [],
+        "through_pads": [],
+        "zones": []
+      },
+      "U1.1J10": {
+        "pads": [
+          "U1.1G10",
+          "U1.1H10",
+          "U1.1H11",
+          "U1.1J10",
+          "U1.1J11",
+          "U1.1J12",
+          "U1.1K10"
+        ],
+        "copper_primitives_by_layer": {
+          "F.Cu": 7,
+          "In1.Cu": 0,
+          "In2.Cu": 0,
+          "In3.Cu": 0,
+          "In4.Cu": 0,
+          "B.Cu": 0
+        },
+        "vias": [],
+        "through_pads": [],
+        "zones": []
+      },
+      "U1.1J11": {
+        "pads": [
+          "U1.1G10",
+          "U1.1H10",
+          "U1.1H11",
+          "U1.1J10",
+          "U1.1J11",
+          "U1.1J12",
+          "U1.1K10"
+        ],
+        "copper_primitives_by_layer": {
+          "F.Cu": 7,
+          "In1.Cu": 0,
+          "In2.Cu": 0,
+          "In3.Cu": 0,
+          "In4.Cu": 0,
+          "B.Cu": 0
+        },
+        "vias": [],
+        "through_pads": [],
+        "zones": []
+      },
+      "U1.1J12": {
+        "pads": [
+          "U1.1G10",
+          "U1.1H10",
+          "U1.1H11",
+          "U1.1J10",
+          "U1.1J11",
+          "U1.1J12",
+          "U1.1K10"
+        ],
+        "copper_primitives_by_layer": {
+          "F.Cu": 7,
+          "In1.Cu": 0,
+          "In2.Cu": 0,
+          "In3.Cu": 0,
+          "In4.Cu": 0,
+          "B.Cu": 0
+        },
+        "vias": [],
+        "through_pads": [],
+        "zones": []
+      },
+      "U1.1K10": {
+        "pads": [
+          "U1.1G10",
+          "U1.1H10",
+          "U1.1H11",
+          "U1.1J10",
+          "U1.1J11",
+          "U1.1J12",
+          "U1.1K10"
+        ],
+        "copper_primitives_by_layer": {
+          "F.Cu": 7,
+          "In1.Cu": 0,
+          "In2.Cu": 0,
+          "In3.Cu": 0,
+          "In4.Cu": 0,
+          "B.Cu": 0
+        },
+        "vias": [],
+        "through_pads": [],
+        "zones": []
+      },
+      "L401.2": {
+        "pads": [
+          "C431.1",
+          "C441.1",
+          "L401.2"
+        ],
+        "copper_primitives_by_layer": {
+          "F.Cu": 19,
+          "In1.Cu": 2,
+          "In2.Cu": 2,
+          "In3.Cu": 2,
+          "In4.Cu": 2,
+          "B.Cu": 4
+        },
+        "vias": [],
+        "through_pads": [],
+        "zones": []
+      },
+      "C1610.1": {
+        "pads": [
+          "C1610.1",
+          "C1611.1",
+          "C1614.1"
+        ],
+        "copper_primitives_by_layer": {
+          "F.Cu": 0,
+          "In1.Cu": 0,
+          "In2.Cu": 0,
+          "In3.Cu": 0,
+          "In4.Cu": 0,
+          "B.Cu": 2
+        },
+        "vias": [],
+        "through_pads": [],
+        "zones": []
+      },
+      "C1614.1": {
+        "pads": [
+          "C1610.1",
+          "C1611.1",
+          "C1614.1"
+        ],
+        "copper_primitives_by_layer": {
+          "F.Cu": 0,
+          "In1.Cu": 0,
+          "In2.Cu": 0,
+          "In3.Cu": 0,
+          "In4.Cu": 0,
+          "B.Cu": 2
+        },
+        "vias": [],
+        "through_pads": [],
+        "zones": []
+      }
+    },
+    "rail_vias": [
+      {
+        "uuid": "c66e2d45-cbb8-43c6-a625-bf0ed3e5f15f",
+        "position_mm": [
+          72.6,
+          9.4
+        ],
+        "physically_connected_pads": [
+          "C431.1",
+          "C441.1",
+          "L401.2"
+        ]
+      },
+      {
+        "uuid": "0220b488-5f13-4bbe-80b3-1495b67fe986",
+        "position_mm": [
+          72.6,
+          10.2
+        ],
+        "physically_connected_pads": [
+          "C431.1",
+          "C441.1",
+          "L401.2"
+        ]
+      }
+    ],
+    "rail_zones": [],
+    "comparison": {
+      "NPU_anchor": "C1622.1",
+      "NPU_anchor_group": {
+        "pads": [
+          "C1621.1",
+          "C1622.1",
+          "C1623.1",
+          "C454.1",
+          "R424.1",
+          "U1.1G3",
+          "U1.1G4",
+          "U1.1G5",
+          "U1.1H3",
+          "U1.1H4"
+        ],
+        "copper_primitives_by_layer": {
+          "F.Cu": 7,
+          "In1.Cu": 2,
+          "In2.Cu": 11,
+          "In3.Cu": 2,
+          "In4.Cu": 2,
+          "B.Cu": 30
+        },
+        "vias": [],
+        "through_pads": [],
+        "zones": []
+      }
+    },
+    "result": "No existing conductive access to the six-ball SoC group from B.Cu. Front-side exploration or a prescribed interlayer transition is required to take a load-side sample. No candidate promoted.",
+    "limits": "Connectivity and schematic audit only. No electrical qualification or new DRC execution."
+  },
+  "front-attribution": {
+    "sha256": "8ccbbccb22d0e17e20fa5dad586d12dbd094bd8a54b27361c076047dd1173778",
+    "source_pads": [
+      "U1.1G10",
+      "U1.1H10",
+      "U1.1H11",
+      "U1.1J10",
+      "U1.1J11",
+      "U1.1J12",
+      "U1.1K10"
+    ],
+    "tracks_width_mm": 0.2,
+    "u1_courtyard_bbox_mm": [
+      35.705,
+      12.705,
+      50.295,
+      27.295
+    ],
+    "samples": [
+      {
+        "grid_mm": 0.025,
+        "copper_clearance_optimistic_mm": 0.0762,
+        "foreign_hole_clearance_mm": 0,
+        "reach_cells": 4794,
+        "courtyard_contacts": 0,
+        "minimum_courtyard_distance_mm": 4.420000000000002,
+        "nearest_site_mm": [
+          45.875,
+          20.650000000000002
+        ],
+        "outside_examples_mm": []
+      },
+      {
+        "grid_mm": 0.025,
+        "copper_clearance_optimistic_mm": 0,
+        "foreign_hole_clearance_mm": 0.25,
+        "reach_cells": 45854,
+        "courtyard_contacts": 191,
+        "minimum_courtyard_distance_mm": -0.004999999999999005,
+        "nearest_site_mm": [
+          39.2,
+          27.3
+        ],
+        "outside_examples_mm": [
+          [
+            35.7,
+            22.125
+          ],
+          [
+            35.7,
+            22.1
+          ],
+          [
+            35.7,
+            22.075000000000003
+          ],
+          [
+            35.7,
+            22.05
+          ],
+          [
+            35.7,
+            22.025000000000002
+          ]
+        ]
+      }
+    ],
+    "assumptions": "Optimistic screen with circular pads, tracks as capsules, undersized keepout by one quarter cell and unrestricted diagonal corners. Noncircular pads, pours and mechanical keepouts omitted. A candidate reaching the exterior would require native DRC and reference checks."
+  }
+}

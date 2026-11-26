@@ -1,0 +1,188 @@
+{
+  "retained_checkpoint": "layout-lpddr-k12-h12-feed.json",
+  "retained_board_sha256": "ac7d9bf2684b5636b851fbb686f21ea52aa80bb2516e08ba015493c3d7550123",
+  "result": "No candidate advanced to native PCB materialization within the screened scope.",
+  "surface_checks": [
+    {
+      "anchors": "Pad centres in distinct islands",
+      "maximum_span_mm": 5.5,
+      "grid_mm": 0.025,
+      "maximum_extra_length_mm": 2.6,
+      "anchor_layer_cases": 854
+    },
+    {
+      "anchors": "Pad to connected same-net existing via",
+      "maximum_span_mm": 4.2,
+      "grid_mm": 0.025,
+      "maximum_extra_length_mm": 1.4,
+      "anchor_layer_cases": 189
+    },
+    {
+      "anchors": "Pad to connected same-net existing track endpoint",
+      "maximum_span_mm": 4.2,
+      "grid_mm": 0.025,
+      "maximum_extra_length_mm": 1.4,
+      "anchor_layer_cases": 1417
+    },
+    {
+      "anchors": "Analogue and slow-control pad centres",
+      "maximum_span_mm": 6.5,
+      "grid_mm": 0.05,
+      "maximum_extra_length_mm": 3,
+      "anchor_layer_cases": 8
+    },
+    {
+      "anchors": "DDR supply pad centres",
+      "maximum_span_mm": 3,
+      "track_width_mm": 0.25,
+      "grid_mm": 0.025,
+      "maximum_extra_length_mm": 2.6
+    }
+  ],
+  "surface_drill_to_copper_filter_mm": 0.251,
+  "control_layer_transitions": {
+    "DEBUG_TX": {
+      "single_via_candidate_count": 0,
+      "launch_sites_by_island": {
+        "0-B.Cu": 0,
+        "1-F.Cu": 0
+      }
+    },
+    "ETH_RESET_GPIO_N": {
+      "single_via_candidate_count": 0,
+      "launch_sites_by_island": {
+        "0-F.Cu": 0,
+        "1-F.Cu": 0
+      }
+    },
+    "EXP_SPI_CS1_N": {
+      "single_via_candidate_count": 0,
+      "launch_sites_by_island": {
+        "1-F.Cu": 0
+      }
+    },
+    "EXP_UART_RX": {
+      "single_via_candidate_count": 0,
+      "launch_sites_by_island": {
+        "1-F.Cu": 0
+      }
+    },
+    "EXP_UART_TX": {
+      "single_via_candidate_count": 0,
+      "launch_sites_by_island": {
+        "1-F.Cu": 0
+      }
+    },
+    "I2C0_SCL": {
+      "single_via_candidate_count": 0,
+      "launch_sites_by_island": {
+        "0-F.Cu": 55,
+        "1-F.Cu": 0
+      }
+    },
+    "I2C0_SDA": {
+      "single_via_candidate_count": 0,
+      "launch_sites_by_island": {
+        "0-F.Cu": 451
+      }
+    },
+    "LCD_RESET_N": {
+      "single_via_candidate_count": 0,
+      "launch_sites_by_island": {
+        "0-F.Cu": 280
+      }
+    },
+    "PMIC_INT_N": {
+      "single_via_candidate_count": 0,
+      "launch_sites_by_island": {
+        "0-F.Cu": 127,
+        "0-B.Cu": 127
+      }
+    },
+    "PMIC_SLEEP": {
+      "single_via_candidate_count": 0,
+      "launch_sites_by_island": {
+        "0-F.Cu": 0,
+        "1-F.Cu": 0
+      }
+    },
+    "RECOVERY_ADC": {
+      "single_via_candidate_count": 0,
+      "launch_sites_by_island": {
+        "0-B.Cu": 128,
+        "1-F.Cu": 0
+      }
+    },
+    "RESET_N": {
+      "single_via_candidate_count": 0,
+      "launch_sites_by_island": {
+        "0-F.Cu": 5170,
+        "0-B.Cu": 822,
+        "1-F.Cu": 0
+      }
+    },
+    "THERMAL_SHUTDOWN": {
+      "single_via_candidate_count": 0,
+      "launch_sites_by_island": {
+        "0-F.Cu": 0,
+        "1-F.Cu": 0
+      }
+    }
+  },
+  "ground_plane_launches": [
+    {
+      "connected": false,
+      "kind": "two through vias",
+      "legal_sites": 0,
+      "both_faces_reached": 0,
+      "source_reached": 0,
+      "sink_reached": 0,
+      "pin": "U2.T10"
+    },
+    {
+      "connected": false,
+      "kind": "two through vias",
+      "legal_sites": 0,
+      "both_faces_reached": 0,
+      "source_reached": 0,
+      "sink_reached": 0,
+      "pin": "U2.G10"
+    },
+    {
+      "connected": false,
+      "kind": "two through vias",
+      "legal_sites": 0,
+      "both_faces_reached": 0,
+      "source_reached": 0,
+      "sink_reached": 0,
+      "pin": "U8001.N5"
+    },
+    {
+      "connected": false,
+      "kind": "two through vias",
+      "legal_sites": 0,
+      "both_faces_reached": 0,
+      "source_reached": 0,
+      "sink_reached": 0,
+      "pin": "U8001.N2"
+    },
+    {
+      "connected": false,
+      "kind": "two through vias",
+      "legal_sites": 0,
+      "both_faces_reached": 0,
+      "source_reached": 0,
+      "sink_reached": 0,
+      "pin": "U8001.C4"
+    }
+  ],
+  "retained_verification": {
+    "minimum_open_joins": 325,
+    "open_nets": 195,
+    "checked_pad_pairs": 881,
+    "drc_findings": 121,
+    "introduced_drc": [],
+    "usb_selector_checked_pairs": 4
+  },
+  "assembly_ready": false
+}

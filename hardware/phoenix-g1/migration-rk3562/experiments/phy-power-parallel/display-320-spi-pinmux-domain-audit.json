@@ -1,0 +1,297 @@
+{
+  "parent_sha256": "1d7de1a64ee82a5f9f87c0a3173a4e36b15f550787a8e38416d4807ab642f65a",
+  "adopted": false,
+  "pinout_sources": [
+    "hardware/phoenix-g1/reference/rk3562-datasheet-v2.1.pdf, ball assignment pp. 18\u201322 and recommended operating conditions section 3.2, table 3-2",
+    "hardware/phoenix-g1/reference/rk3562-oomwoo-reference.pdf, domains PMUIO1 and VCCIO3/4/5/6; PMUIO1 supply default 1.8 V and annotated 3.3 V option",
+    "hardware/phoenix-g1/reference/rk3562-trm-part1.pdf, GPIO0_IOC PMUIO1 voltage source/status and VSEL controls",
+    "hardware/phoenix-g1/migration-rk3562/review/io-domain-plan.json and candidate-power-map.json"
+  ],
+  "mux_groups": {
+    "SPI1_M0": {
+      "signals": {
+        "MOSI": {
+          "pad": "AA1",
+          "net": "ETH_TXD0",
+          "connected_pads": [],
+          "copper_items": 1,
+          "pinout_pdf_page": 18
+        },
+        "MISO": {
+          "pad": "AA2",
+          "net": "ETH_TXD1",
+          "connected_pads": [],
+          "copper_items": 0,
+          "pinout_pdf_page": 18
+        },
+        "CSN0": {
+          "pad": "W2",
+          "net": "ETH_RXD2",
+          "connected_pads": [],
+          "copper_items": 0,
+          "pinout_pdf_page": 22
+        },
+        "CLK": {
+          "pad": "Y2",
+          "net": "ETH_TXCLK",
+          "connected_pads": [],
+          "copper_items": 1,
+          "pinout_pdf_page": 22
+        },
+        "CSN1": {
+          "pad": "Y3",
+          "net": "ETH_RXD3",
+          "connected_pads": [],
+          "copper_items": 0,
+          "pinout_pdf_page": 22
+        }
+      },
+      "domain": "VCCIO6",
+      "supply_balls": [
+        "1M4",
+        "1L5"
+      ],
+      "schematic_supply_net": "+3V3_IO",
+      "design_voltage_v": 3.3
+    },
+    "SPI0_M0": {
+      "signals": {
+        "CLK": {
+          "pad": "AE16",
+          "net": "EXP_SPI_CLK",
+          "connected_pads": [],
+          "copper_items": 1,
+          "pinout_pdf_page": 18
+        },
+        "MISO": {
+          "pad": "AE18",
+          "net": "EXP_SPI_MISO",
+          "connected_pads": [],
+          "copper_items": 0,
+          "pinout_pdf_page": 18
+        },
+        "CSN1": {
+          "pad": "AF15",
+          "net": "EXP_SPI_CS1_N",
+          "connected_pads": [],
+          "copper_items": 0,
+          "pinout_pdf_page": 19
+        },
+        "CSN0": {
+          "pad": "AG17",
+          "net": "EXP_SPI_CS0_N",
+          "connected_pads": [],
+          "copper_items": 1,
+          "pinout_pdf_page": 19
+        },
+        "MOSI": {
+          "pad": "AG19",
+          "net": "EXP_SPI_MOSI",
+          "connected_pads": [],
+          "copper_items": 1,
+          "pinout_pdf_page": 19
+        }
+      },
+      "domain": "PMUIO1",
+      "supply_balls": [
+        "1L11"
+      ],
+      "schematic_supply_net": "+3V3_PMU",
+      "design_voltage_v": 3.3
+    },
+    "SPI2_M1": {
+      "signals": {
+        "MOSI": {
+          "pad": "1H15",
+          "net": "",
+          "connected_pads": [],
+          "copper_items": 0,
+          "pinout_pdf_page": 19
+        },
+        "MISO": {
+          "pad": "1J15",
+          "net": "",
+          "connected_pads": [],
+          "copper_items": 0,
+          "pinout_pdf_page": 20
+        },
+        "CSN0": {
+          "pad": "V27",
+          "net": "",
+          "connected_pads": [],
+          "copper_items": 0,
+          "pinout_pdf_page": 22
+        },
+        "CLK": {
+          "pad": "W25",
+          "net": "",
+          "connected_pads": [],
+          "copper_items": 0,
+          "pinout_pdf_page": 22
+        },
+        "CSN1": {
+          "pad": "W26",
+          "net": "",
+          "connected_pads": [],
+          "copper_items": 0,
+          "pinout_pdf_page": 22
+        }
+      },
+      "domain": "VCCIO4",
+      "supply_balls": [
+        "1H14"
+      ],
+      "schematic_supply_net": "+3V3_IO",
+      "design_voltage_v": 3.3
+    },
+    "SPI0_M1": {
+      "signals": {
+        "CLK": {
+          "pad": "D1",
+          "net": "",
+          "connected_pads": [],
+          "copper_items": 0,
+          "pinout_pdf_page": 20
+        },
+        "MOSI": {
+          "pad": "F2",
+          "net": "",
+          "connected_pads": [],
+          "copper_items": 0,
+          "pinout_pdf_page": 21
+        },
+        "CSN0": {
+          "pad": "G2",
+          "net": "",
+          "connected_pads": [],
+          "copper_items": 0,
+          "pinout_pdf_page": 21
+        },
+        "CSN1": {
+          "pad": "G3",
+          "net": "",
+          "connected_pads": [],
+          "copper_items": 0,
+          "pinout_pdf_page": 21
+        },
+        "MISO": {
+          "pad": "H2",
+          "net": "",
+          "connected_pads": [],
+          "copper_items": 0,
+          "pinout_pdf_page": 21
+        }
+      },
+      "domain": "VCCIO5",
+      "supply_balls": [
+        "1K3"
+      ],
+      "schematic_supply_net": "+3V3_IO",
+      "design_voltage_v": 3.3
+    },
+    "SPI2_M0": {
+      "signals": {
+        "CSN1": {
+          "pad": "M2",
+          "net": "",
+          "connected_pads": [],
+          "copper_items": 0,
+          "pinout_pdf_page": 21
+        },
+        "CSN0": {
+          "pad": "M3",
+          "net": "LCD_CS_N",
+          "connected_pads": [],
+          "copper_items": 1,
+          "pinout_pdf_page": 21
+        },
+        "CLK": {
+          "pad": "N3",
+          "net": "LCD_SCLK",
+          "connected_pads": [],
+          "copper_items": 1,
+          "pinout_pdf_page": 21
+        },
+        "MISO": {
+          "pad": "R2",
+          "net": "",
+          "connected_pads": [],
+          "copper_items": 0,
+          "pinout_pdf_page": 21
+        },
+        "MOSI": {
+          "pad": "T3",
+          "net": "LCD_MOSI",
+          "connected_pads": [],
+          "copper_items": 0,
+          "pinout_pdf_page": 22
+        }
+      },
+      "domain": "VCCIO6",
+      "supply_balls": [
+        "1M4",
+        "1L5"
+      ],
+      "schematic_supply_net": "+3V3_IO",
+      "design_voltage_v": 3.3
+    },
+    "SPI1_M1": {
+      "signals": {
+        "CSN1": {
+          "pad": "N25",
+          "net": "",
+          "connected_pads": [],
+          "copper_items": 0,
+          "pinout_pdf_page": 21
+        },
+        "CSN0": {
+          "pad": "N26",
+          "net": "",
+          "connected_pads": [],
+          "copper_items": 0,
+          "pinout_pdf_page": 21
+        },
+        "CLK": {
+          "pad": "P27",
+          "net": "",
+          "connected_pads": [],
+          "copper_items": 0,
+          "pinout_pdf_page": 21
+        },
+        "MOSI": {
+          "pad": "R25",
+          "net": "",
+          "connected_pads": [],
+          "copper_items": 0,
+          "pinout_pdf_page": 21
+        },
+        "MISO": {
+          "pad": "R26",
+          "net": "",
+          "connected_pads": [],
+          "copper_items": 0,
+          "pinout_pdf_page": 22
+        }
+      },
+      "domain": "VCCIO3",
+      "supply_balls": [
+        "1G15"
+      ],
+      "schematic_supply_net": "+3V3_IO",
+      "design_voltage_v": 3.3
+    }
+  },
+  "display_receiver": {
+    "device": "U21 SN74LVC541APWR",
+    "supply": "U21.20 +3V0_LCD",
+    "input_pins": {
+      "MOSI": "U21.2",
+      "CLK": "U21.3",
+      "CSN0": "U21.6",
+      "dc": "U21.4",
+      "reset": "U21.5"
+    }
+  },
+  "finding": "The three alternate M1 groups have no connected tracks on MOSI, CLK or CSN0. SPI0_M0 belongs to expansion; SPI1_M0 overlaps Ethernet. The current SPI2_M0 group retains its routed SCLK and CSN0. GPIO N1/N2 provide DC/reset independently of the SPI interface. No pinmux change qualified.",
+  "voltage_review": "All evaluated bank supply nets are nominally 3.3 V on the current CAD. The datasheet v2.1 recommended operating table places PMUIO1 and VCCIO4/5/6 on the 1.8-V line, whereas the reference diagram explicitly presents a 3.3-V PMUIO1 option and describes VCCIO4/5/6 as dual-voltage. The TRM also provides PMUIO1 1.8/3.3-V mode controls with hardware-source reset selection. Confirm supported silicon revision, regulator configuration, hardware status at reset and voltage-select programming before electrical qualification. VCCIO6 supply balls 1M4/1L5 lack attached local tracks in the checkpoint."
+}

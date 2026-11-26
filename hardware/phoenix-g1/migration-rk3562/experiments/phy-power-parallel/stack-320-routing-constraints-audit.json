@@ -1,0 +1,77 @@
+{
+  "board_sha256": "1d7de1a64ee82a5f9f87c0a3173a4e36b15f550787a8e38416d4807ab642f65a",
+  "explicit_pcb_stackup": false,
+  "nominal_pcb_thickness_mm": 1.6,
+  "height_used_for_length_calcs": true,
+  "via_usage": [
+    {
+      "copper_diameter_mm": 0.45,
+      "cad_drill_mm": 0.2,
+      "first_layer": "F.Cu",
+      "last_layer": "B.Cu",
+      "count": 435
+    },
+    {
+      "copper_diameter_mm": 0.5,
+      "cad_drill_mm": 0.25,
+      "first_layer": "F.Cu",
+      "last_layer": "B.Cu",
+      "count": 1
+    },
+    {
+      "copper_diameter_mm": 0.55,
+      "cad_drill_mm": 0.3,
+      "first_layer": "F.Cu",
+      "last_layer": "B.Cu",
+      "count": 4
+    },
+    {
+      "copper_diameter_mm": 0.6,
+      "cad_drill_mm": 0.3,
+      "first_layer": "F.Cu",
+      "last_layer": "B.Cu",
+      "count": 245
+    },
+    {
+      "copper_diameter_mm": 0.65,
+      "cad_drill_mm": 0.3,
+      "first_layer": "F.Cu",
+      "last_layer": "B.Cu",
+      "count": 6
+    },
+    {
+      "copper_diameter_mm": 0.8,
+      "cad_drill_mm": 0.4,
+      "first_layer": "F.Cu",
+      "last_layer": "B.Cu",
+      "count": 3
+    }
+  ],
+  "track_elements_by_layer": {
+    "F.Cu": 3553,
+    "B.Cu": 1605,
+    "In1.Cu": 157,
+    "In2.Cu": 1197,
+    "In3.Cu": 1059,
+    "In4.Cu": 64
+  },
+  "filled_zones": [
+    [
+      "GND",
+      [
+        "In1.Cu"
+      ]
+    ],
+    [
+      "GND",
+      [
+        "In4.Cu"
+      ]
+    ]
+  ],
+  "interpretation": "Height-aware trace length is enabled, but no physical stackup is serialized. The nominal thickness and existing simulation alternatives cannot establish layer-specific delays, actual via stubs or the impedance of the fabricated board. The two existing filled GND zones occupy In1 and In4; use those documented references when evaluating the stackup proposal. The drill dimensions in this report are CAD values.",
+  "references": [
+    "usb-ddr-stack-simulation.json",
+    "../../../review/stackup-3313-candidate.json"
+  ]
+}

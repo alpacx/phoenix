@@ -1,0 +1,100 @@
+{
+  "checkpoint_sha256": "ea93c28539a71f16e3ee3cb48dc68e038d067aaf53c0b294f98c87c8a23a12bb",
+  "net": "DEBUG_RX",
+  "reference": "TP11.1",
+  "probe_center_mm": [
+    45.25,
+    28.51
+  ],
+  "host_center_mm": [
+    43.0,
+    20.0
+  ],
+  "nominal_access": {
+    "front_copper_radius_mm": 0.5,
+    "conservative_nearest_courtyard_radius_mm": 1.245,
+    "physical_fixture_verified": false
+  },
+  "centered_spreader_or_body_projection": [
+    {
+      "centered_square_side_mm": 12,
+      "probe_center_to_envelope_mm": 2.51,
+      "pad_edge_to_envelope_mm": 2.01,
+      "probe_center_overlapped": false
+    },
+    {
+      "centered_square_side_mm": 13.9,
+      "probe_center_to_envelope_mm": 1.56,
+      "pad_edge_to_envelope_mm": 1.06,
+      "probe_center_overlapped": false
+    },
+    {
+      "centered_square_side_mm": 14,
+      "probe_center_to_envelope_mm": 1.51,
+      "pad_edge_to_envelope_mm": 1.01,
+      "probe_center_overlapped": false
+    },
+    {
+      "centered_square_side_mm": 16,
+      "probe_center_to_envelope_mm": 0.51,
+      "pad_edge_to_envelope_mm": 0.01,
+      "probe_center_overlapped": false
+    },
+    {
+      "centered_square_side_mm": 20,
+      "probe_center_to_envelope_mm": 0.0,
+      "pad_edge_to_envelope_mm": -0.5,
+      "probe_center_overlapped": true
+    },
+    {
+      "centered_square_side_mm": 24,
+      "probe_center_to_envelope_mm": 0.0,
+      "pad_edge_to_envelope_mm": -0.5,
+      "probe_center_overlapped": true
+    }
+  ],
+  "nearest_front_courtyards": [
+    {
+      "reference": "L2201",
+      "probe_center_to_courtyard_mm": 1.245,
+      "pad_edge_to_courtyard_mm": 0.745
+    },
+    {
+      "reference": "U1",
+      "probe_center_to_courtyard_mm": 1.265,
+      "pad_edge_to_courtyard_mm": 0.765
+    },
+    {
+      "reference": "C2204",
+      "probe_center_to_courtyard_mm": 1.555,
+      "pad_edge_to_courtyard_mm": 1.055
+    },
+    {
+      "reference": "Y2002",
+      "probe_center_to_courtyard_mm": 3.925,
+      "pad_edge_to_courtyard_mm": 3.425
+    },
+    {
+      "reference": "U26",
+      "probe_center_to_courtyard_mm": 3.989,
+      "pad_edge_to_courtyard_mm": 3.489
+    },
+    {
+      "reference": "Y2001",
+      "probe_center_to_courtyard_mm": 5.453,
+      "pad_edge_to_courtyard_mm": 4.953
+    },
+    {
+      "reference": "C2007",
+      "probe_center_to_courtyard_mm": 5.845,
+      "pad_edge_to_courtyard_mm": 5.345
+    },
+    {
+      "reference": "R530",
+      "probe_center_to_courtyard_mm": 6.651,
+      "pad_edge_to_courtyard_mm": 6.151
+    }
+  ],
+  "scope": "Plan-view positional envelope only, measured from the saved board. Does not include component heights, enclosure, compression, probe overtravel, registration or fixture tolerances.",
+  "checkpoint": "layout-emmc-3v3-middle-bank-return-reuse.json"
+}

@@ -1,0 +1,431 @@
+{
+  "retained_checkpoint": "layout-phy-c514-off-drill.json",
+  "retained_sha256": "9ff70dd85cf1b7076fd4b8e94728795a7d62fb935caba6d65ea50a13d99983f6",
+  "retained_open_joins": 325,
+  "layout_pairs": 881,
+  "usb_selector_pairs": 4,
+  "trials": [
+    {
+      "net": "EXP_GPIO3",
+      "endpoints": [
+        "U1.L2",
+        "J3.30"
+      ],
+      "purpose": "Expose one GPIO on the expansion connector for functional bring-up.",
+      "source_coupon": "gpio-355-gpio3-referenced-native.json",
+      "historical_route_length_mm": 127.71816341189914,
+      "transfer": {
+        "base_sha256": "9ff70dd85cf1b7076fd4b8e94728795a7d62fb935caba6d65ea50a13d99983f6",
+        "coupon_sha256": "ef10eb9161b7b514fd7239c7df6868d776ce1eaa2304395e4189b76341aa4c65",
+        "added": 110,
+        "removed": 1,
+        "changed": 0,
+        "conflicts": [],
+        "moved": [],
+        "sha256": "e60bfcdfd754dcfcda5c26e6fad7310ffc30f0cd4b1e9f9eb36d3f78b32ee5bd",
+        "preservation": {
+          "existing_pad_instances_preserved": 2008,
+          "existing_tracks_vias_preserved": 8279,
+          "explicitly_replaced_copper": {
+            "e9ab9573-d5a0-40cc-8a95-7e25b2cd26e3": [
+              "+5V_ADDON",
+              8,
+              70750000,
+              3300000,
+              65350000,
+              3300000,
+              1000000,
+              null
+            ]
+          },
+          "added_tracks_vias": 109,
+          "existing_connected_pad_groups_preserved": 132
+        }
+      },
+      "trial_open_joins": 324,
+      "native_regressions": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "9839c712-a581-4b9b-b9d0-bef9f325ce12",
+            "b7022727-5b3d-45b4-979a-1f88e14c632a"
+          ],
+          "count": 1,
+          "objects": [
+            "Pista [PHY_CFG_LDO1] su F.Cu, lung. 0.0707 mm",
+            "Pista [EXP_GPIO3] su F.Cu, lung. 14.8000 mm"
+          ]
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "b3cbd800-eaba-4e3c-b87a-63abf17dadbd",
+            "b7022727-5b3d-45b4-979a-1f88e14c632a"
+          ],
+          "count": 1,
+          "objects": [
+            "Pista [PHY_CFG_LDO1] su F.Cu, lung. 0.0500 mm",
+            "Pista [EXP_GPIO3] su F.Cu, lung. 14.8000 mm"
+          ]
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "660a3165-66cd-40e6-9ee2-ceb94b22863e",
+            "b7022727-5b3d-45b4-979a-1f88e14c632a"
+          ],
+          "count": 1,
+          "objects": [
+            "Pista [PHY_CFG_LDO1] su F.Cu, lung. 2.4042 mm",
+            "Pista [EXP_GPIO3] su F.Cu, lung. 14.8000 mm"
+          ]
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "0cf4046e-8bbf-4af4-a3dc-b6181e533a37",
+            "b7022727-5b3d-45b4-979a-1f88e14c632a"
+          ],
+          "count": 1,
+          "objects": [
+            "Pista [PHY_CFG_LDO1] su F.Cu, lung. 2.0000 mm",
+            "Pista [EXP_GPIO3] su F.Cu, lung. 14.8000 mm"
+          ]
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "3f1b7833-626e-4ca4-9ef8-5c5379934b95",
+            "b7022727-5b3d-45b4-979a-1f88e14c632a"
+          ],
+          "count": 1,
+          "objects": [
+            "Pista [PHY_CFG_LDO1] su F.Cu, lung. 1.6971 mm",
+            "Pista [EXP_GPIO3] su F.Cu, lung. 14.8000 mm"
+          ]
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "b7022727-5b3d-45b4-979a-1f88e14c632a",
+            "eca17b3f-e8fa-4652-b10d-d1fd1456ab54"
+          ],
+          "count": 1,
+          "objects": [
+            "Pista [EXP_GPIO3] su F.Cu, lung. 14.8000 mm",
+            "Pista [PHY_CFG_LDO1] su F.Cu, lung. 0.0707 mm"
+          ]
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "07d5a7f9-1735-467a-8c38-102f908c4d22",
+            "640dbac4-1b5f-4b17-9b66-6b9aeac68bb3"
+          ],
+          "count": 1,
+          "objects": [
+            "Pista [EXP_GPIO3] su F.Cu, lung. 0.3536 mm",
+            "Via [VDD_GPU] su F.Cu - B.Cu"
+          ]
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "61991a01-12d7-493a-83be-7e97289b283a",
+            "c1770f9f-1d66-4b15-a3a8-2315890ab823"
+          ],
+          "count": 1,
+          "objects": [
+            "Via [VDD_GPU_COM] su F.Cu - B.Cu",
+            "Pista [EXP_GPIO3] su In3.Cu, lung. 4.6000 mm"
+          ]
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "640dbac4-1b5f-4b17-9b66-6b9aeac68bb3",
+            "b5aa094b-5271-4cc4-a90a-873a509d8949"
+          ],
+          "count": 1,
+          "objects": [
+            "Via [VDD_GPU] su F.Cu - B.Cu",
+            "Pista [EXP_GPIO3] su F.Cu, lung. 2.5456 mm"
+          ]
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "487d86a6-216b-4906-a6af-08c4407fa08c",
+            "495aab25-ded2-4326-9905-6bfe0d328722"
+          ],
+          "count": 1,
+          "objects": [
+            "Via [VDD_NPU] su F.Cu - B.Cu",
+            "Pista [EXP_GPIO3] su F.Cu, lung. 1.7000 mm"
+          ]
+        }
+      ],
+      "shorter_trunk_search": [
+        {
+          "layer": "In2.Cu",
+          "path": null,
+          "length_mm": null
+        },
+        {
+          "layer": "In3.Cu",
+          "path": null,
+          "length_mm": null
+        },
+        {
+          "layer": "B.Cu",
+          "path": null,
+          "length_mm": null
+        }
+      ],
+      "result": "REJECTED"
+    },
+    {
+      "net": "WIFI_REG_ON",
+      "endpoints": [
+        "U1.1J14",
+        "U25.12"
+      ],
+      "purpose": "Route the SoC enable signal to the Wi-Fi module.",
+      "source_screen": "wifi_reg_on-service-window.json",
+      "local_geometry": {
+        "status": "LAUNCH_ONLY",
+        "via_nm": [
+          47950000,
+          21575000
+        ],
+        "cs0_detour_mm": [
+          [
+            47.35,
+            22.150000000000002
+          ],
+          [
+            47.375,
+            22.125
+          ],
+          [
+            47.375,
+            22.1
+          ],
+          [
+            47.425000000000004,
+            22.05
+          ],
+          [
+            47.425000000000004,
+            21.400000000000002
+          ],
+          [
+            47.45,
+            21.375
+          ],
+          [
+            47.45,
+            21.35
+          ],
+          [
+            47.475,
+            21.325000000000003
+          ],
+          [
+            47.475,
+            21.3
+          ],
+          [
+            47.5,
+            21.275000000000002
+          ],
+          [
+            47.5,
+            21.25
+          ],
+          [
+            47.95,
+            20.8
+          ],
+          [
+            47.975,
+            20.8
+          ],
+          [
+            48.050000000000004,
+            20.725
+          ],
+          [
+            48.075,
+            20.725
+          ],
+          [
+            48.1,
+            20.700000000000003
+          ]
+        ],
+        "trunk_candidate_count": 0,
+        "preservation": {
+          "existing_pad_instances_preserved": 2008,
+          "existing_tracks_vias_preserved": 8278,
+          "explicitly_replaced_copper": {
+            "5ac99e3f-8170-4a62-bcbc-8ea2e9a952a6": [
+              "EXP_SPI_CS0_N",
+              8,
+              42650000,
+              26850000,
+              48100000,
+              21400000,
+              200000,
+              null
+            ],
+            "b367e4df-0999-4de9-8cfe-7337bd0e8d42": [
+              "EXP_SPI_CS0_N",
+              8,
+              48100000,
+              21400000,
+              48100000,
+              19200000,
+              200000,
+              null
+            ]
+          },
+          "added_tracks_vias": 30,
+          "existing_connected_pad_groups_preserved": 132
+        }
+      },
+      "trial_open_joins": 325,
+      "native_regressions": [
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "1fcbbd39-959a-4b5b-b097-9e1c6acc745c",
+            "c673647c-38df-46d9-a5b4-27cf5dbe75fe"
+          ],
+          "count": 1,
+          "objects": [
+            "Via [WIFI_REG_ON] su F.Cu - B.Cu",
+            "Pista [GND] su F.Cu, lung. 5.6000 mm"
+          ]
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "c1b9d558-6abc-4e21-8f60-f3095801589d",
+            "c673647c-38df-46d9-a5b4-27cf5dbe75fe"
+          ],
+          "count": 1,
+          "objects": [
+            "Pista [WIFI_REG_ON] su F.Cu, lung. 0.0250 mm",
+            "Pista [GND] su F.Cu, lung. 5.6000 mm"
+          ]
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "be71e29e-b16f-45f9-8a96-130f5fe7899f",
+            "c673647c-38df-46d9-a5b4-27cf5dbe75fe"
+          ],
+          "count": 1,
+          "objects": [
+            "Pista [WIFI_REG_ON] su F.Cu, lung. 0.1500 mm",
+            "Pista [GND] su F.Cu, lung. 5.6000 mm"
+          ]
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "814bdc8f-067f-4fa5-b53a-54e7b5a81392",
+            "c673647c-38df-46d9-a5b4-27cf5dbe75fe"
+          ],
+          "count": 1,
+          "objects": [
+            "Pista [WIFI_REG_ON] su F.Cu, lung. 0.1061 mm",
+            "Pista [GND] su F.Cu, lung. 5.6000 mm"
+          ]
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "3678d517-47a9-4967-a847-50a6571c129d",
+            "c673647c-38df-46d9-a5b4-27cf5dbe75fe"
+          ],
+          "count": 1,
+          "objects": [
+            "Pista [WIFI_REG_ON] su F.Cu, lung. 0.2250 mm",
+            "Pista [GND] su F.Cu, lung. 5.6000 mm"
+          ]
+        },
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "1fcbbd39-959a-4b5b-b097-9e1c6acc745c",
+            "4dbf893c-0c70-4f66-b995-8d85c57badfc"
+          ],
+          "count": 1,
+          "objects": [
+            "Via [WIFI_REG_ON] su F.Cu - B.Cu",
+            "Pista [+3V3_IO] su B.Cu, lung. 0.5657 mm"
+          ]
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "229ee9d9-6dd7-4338-baa7-f05d3789b547",
+            "c673647c-38df-46d9-a5b4-27cf5dbe75fe"
+          ],
+          "count": 1,
+          "objects": [
+            "Pista [WIFI_REG_ON] su F.Cu, lung. 0.0354 mm",
+            "Pista [GND] su F.Cu, lung. 5.6000 mm"
+          ]
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "1adefda6-9323-4163-9f69-02194ff2eed8",
+            "1fcbbd39-959a-4b5b-b097-9e1c6acc745c"
+          ],
+          "count": 1,
+          "objects": [
+            "Pista [+1V1_LPDDR4] su In2.Cu, lung. 8.9307 mm",
+            "Via [WIFI_REG_ON] su F.Cu - B.Cu"
+          ]
+        },
+        {
+          "type": "shorting_items",
+          "severity": "error",
+          "items": [
+            "c673647c-38df-46d9-a5b4-27cf5dbe75fe",
+            "e5cb1493-c2da-41b5-817a-ca87eb202693"
+          ],
+          "count": 1,
+          "objects": [
+            "Pista [GND] su F.Cu, lung. 5.6000 mm",
+            "Pista [WIFI_REG_ON] su F.Cu, lung. 0.1768 mm"
+          ]
+        }
+      ],
+      "result": "REJECTED"
+    }
+  ],
+  "assembly_ready": false
+}

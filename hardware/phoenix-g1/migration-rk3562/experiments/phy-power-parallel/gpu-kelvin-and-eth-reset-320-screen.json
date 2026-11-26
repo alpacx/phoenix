@@ -1,0 +1,279 @@
+{
+  "checkpoint": "layout-npu-load-feedback-pair.json",
+  "sha256": "1d7de1a64ee82a5f9f87c0a3173a4e36b15f550787a8e38416d4807ab642f65a",
+  "reloaded_baseline": {
+    "open_joins": 320,
+    "open_nets": 194,
+    "layout_pairs": 886,
+    "usb_pairs": 4,
+    "drc_findings": 121,
+    "introduced_drc": []
+  },
+  "gpu_sense": {
+    "netlist": "runs/schematic-mdio/netlist.xml",
+    "load_side": "VDD_GPU",
+    "feedback_side": "VDD_GPU_COM",
+    "filter_pair": [
+      "R422",
+      "C452"
+    ],
+    "pmic_pin": "U4.8 (FB2_8)",
+    "source_inductor": "L402.2",
+    "pose_grid_mm": 0.25,
+    "pose_half_range_mm": 6.5,
+    "tap_search_mm": 4.5,
+    "group_cases": [
+      {
+        "parent_sha256": "1d7de1a64ee82a5f9f87c0a3173a4e36b15f550787a8e38416d4807ab642f65a",
+        "anchor": "C1617.1",
+        "R_body": 860,
+        "R_legal": 80,
+        "C_body": 890,
+        "C_legal": 86,
+        "screen": {
+          "tap_poses": 8
+        },
+        "nearest_pairs": [],
+        "solutions": 0,
+        "best": []
+      },
+      {
+        "parent_sha256": "1d7de1a64ee82a5f9f87c0a3173a4e36b15f550787a8e38416d4807ab642f65a",
+        "anchor": "C1618.1",
+        "R_body": 1962,
+        "R_legal": 8,
+        "C_body": 1994,
+        "C_legal": 8,
+        "screen": {},
+        "nearest_pairs": [],
+        "solutions": 0,
+        "best": []
+      },
+      {
+        "parent_sha256": "1d7de1a64ee82a5f9f87c0a3173a4e36b15f550787a8e38416d4807ab642f65a",
+        "anchor": "C1619.1",
+        "R_body": 2000,
+        "R_legal": 464,
+        "C_body": 2220,
+        "C_legal": 517,
+        "screen": {
+          "tap_poses": 10
+        },
+        "nearest_pairs": [],
+        "solutions": 0,
+        "best": []
+      },
+      {
+        "parent_sha256": "1d7de1a64ee82a5f9f87c0a3173a4e36b15f550787a8e38416d4807ab642f65a",
+        "anchor": "C1620.1",
+        "R_body": 288,
+        "R_legal": 10,
+        "C_body": 304,
+        "C_legal": 10,
+        "screen": {
+          "tap_poses": 10
+        },
+        "nearest_pairs": [],
+        "solutions": 0,
+        "best": []
+      }
+    ],
+    "result": "No joint placement with load tap and both local connections in the screened rear windows. The existing R422.2\u2013C452.2 connection is retained."
+  },
+  "ethernet_reset": {
+    "soc": "U1.T2",
+    "series_resistor": "R515.1",
+    "connected_output_group": [
+      "R515.2",
+      "U5.12",
+      "R516.1",
+      "C501.1"
+    ],
+    "front_launch_grid_mm": 0.025,
+    "candidate_via_mm": [
+      0.45,
+      0.2
+    ],
+    "targeted_candidate": {
+      "parent_sha256": "1d7de1a64ee82a5f9f87c0a3173a4e36b15f550787a8e38416d4807ab642f65a",
+      "network": "ETH_RESET_GPIO_N",
+      "frontiers": [
+        {
+          "group": 0,
+          "layer": "F.Cu",
+          "nodes": 619
+        },
+        {
+          "group": 1,
+          "layer": "F.Cu",
+          "nodes": 1531
+        }
+      ],
+      "pairs": [],
+      "local_exit": {
+        "0-F.Cu": {
+          "sites": 0,
+          "representatives": []
+        },
+        "1-F.Cu": {
+          "sites": 0,
+          "representatives": []
+        }
+      },
+      "targeted_movable_obstructions": [],
+      "near_via": [
+        {
+          "at": [
+            36750000,
+            21000000
+          ],
+          "blockers": {
+            "453c102e-19b2-4956-a658-2c0a8dc98974": [
+              "PCB_TRACK",
+              "VDD_CPU"
+            ],
+            "77f76300-5f0c-4a95-8dee-aa02f9f77031": [
+              "PCB_TRACK",
+              "VDD_CPU"
+            ],
+            "19cca4bc-36ce-4803-95a6-baf320e8fe57": [
+              "U1.T2",
+              "ETH_RESET_GPIO_N"
+            ],
+            "40864822-f579-46dd-b703-343eab8d84a5": [
+              "C1603.1",
+              "VDD_CPU"
+            ]
+          }
+        },
+        {
+          "at": [
+            36550000,
+            21150000
+          ],
+          "blockers": {
+            "453c102e-19b2-4956-a658-2c0a8dc98974": [
+              "PCB_TRACK",
+              "VDD_CPU"
+            ],
+            "77f76300-5f0c-4a95-8dee-aa02f9f77031": [
+              "PCB_TRACK",
+              "VDD_CPU"
+            ],
+            "55aa9c4a-7b95-4026-a17e-34a8458d0bab": [
+              "U1.U1",
+              ""
+            ],
+            "ground_return_distance": [
+              "ground_return_distance",
+              ""
+            ]
+          }
+        },
+        {
+          "at": [
+            36550000,
+            21175000
+          ],
+          "blockers": {
+            "453c102e-19b2-4956-a658-2c0a8dc98974": [
+              "PCB_TRACK",
+              "VDD_CPU"
+            ],
+            "77f76300-5f0c-4a95-8dee-aa02f9f77031": [
+              "PCB_TRACK",
+              "VDD_CPU"
+            ],
+            "55aa9c4a-7b95-4026-a17e-34a8458d0bab": [
+              "U1.U1",
+              ""
+            ],
+            "ground_return_distance": [
+              "ground_return_distance",
+              ""
+            ]
+          }
+        },
+        {
+          "at": [
+            36525000,
+            21150000
+          ],
+          "blockers": {
+            "453c102e-19b2-4956-a658-2c0a8dc98974": [
+              "PCB_TRACK",
+              "VDD_CPU"
+            ],
+            "77f76300-5f0c-4a95-8dee-aa02f9f77031": [
+              "PCB_TRACK",
+              "VDD_CPU"
+            ],
+            "55aa9c4a-7b95-4026-a17e-34a8458d0bab": [
+              "U1.U1",
+              ""
+            ],
+            "ground_return_distance": [
+              "ground_return_distance",
+              ""
+            ]
+          }
+        },
+        {
+          "at": [
+            36525000,
+            21175000
+          ],
+          "blockers": {
+            "453c102e-19b2-4956-a658-2c0a8dc98974": [
+              "PCB_TRACK",
+              "VDD_CPU"
+            ],
+            "77f76300-5f0c-4a95-8dee-aa02f9f77031": [
+              "PCB_TRACK",
+              "VDD_CPU"
+            ],
+            "55aa9c4a-7b95-4026-a17e-34a8458d0bab": [
+              "U1.U1",
+              ""
+            ],
+            "ground_return_distance": [
+              "ground_return_distance",
+              ""
+            ]
+          }
+        },
+        {
+          "at": [
+            36900000,
+            20950000
+          ],
+          "blockers": {
+            "453c102e-19b2-4956-a658-2c0a8dc98974": [
+              "PCB_TRACK",
+              "VDD_CPU"
+            ],
+            "77f76300-5f0c-4a95-8dee-aa02f9f77031": [
+              "PCB_TRACK",
+              "VDD_CPU"
+            ],
+            "7eaa3314-a591-441e-837b-5c5307db538b": [
+              "U1.R2",
+              ""
+            ],
+            "19cca4bc-36ce-4803-95a6-baf320e8fe57": [
+              "U1.T2",
+              "ETH_RESET_GPIO_N"
+            ],
+            "40864822-f579-46dd-b703-343eab8d84a5": [
+              "C1603.1",
+              "VDD_CPU"
+            ]
+          }
+        }
+      ],
+      "candidates": []
+    },
+    "result": "No ordinary reachable via on either side. The historical C1603/EXP_GPIO1-only release does not reproduce on this board."
+  },
+  "assembly_ready": false
+}

@@ -1,0 +1,597 @@
+{
+  "checkpoint": "hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/layout-lpddr-c2301-1v8-bank.json",
+  "sha256": "377afbd0be0b5258209a877f9720cc09a04583f1d2b937f05d970023e8b78b2c",
+  "scope": "LPDDR4 high byte of channel A only, same-layer via-to-via routes in a finite rectangular window; geometry and nominal plane reference, no timing or impedance qualification.",
+  "windows_mm": [
+    27.05,
+    2.4,
+    43.15,
+    20.2
+  ],
+  "minimum_copper_drc": {
+    "terminal_hole_clearance_mm": 0.25,
+    "exploration_nominal_pair_width_edge_gap_mm": [
+      0.2,
+      0.25
+    ],
+    "optimistic_pair_width_edge_gap_mm": [
+      0.1,
+      0.1
+    ],
+    "other_net_clearance_in_mixed_screen_mm": 0.2,
+    "DDR_copper_clearance_mm": 0.0762,
+    "plane_endpoint_antipad_radius_mm": 0.6
+  },
+  "nets": {
+    "LPDDR4_DQS1P_A": {
+      "pads": [
+        "U1.1A1",
+        "U2.D10"
+      ],
+      "stubs_mm": [
+        0.15,
+        0.5153882032022076
+      ],
+      "via_counts": [
+        1,
+        1
+      ],
+      "via_centers_mm": [
+        [
+          38.3,
+          15.45
+        ],
+        [
+          32.4,
+          4.45
+        ]
+      ],
+      "via_distance_lower_bound_mm": 12.482387592123551,
+      "nearest_main_ground_returns_mm": [
+        [
+          0.5830951894845285,
+          "f75c478d-74d1-4cc7-8f5d-3fcc11657ad7",
+          [
+            38.0,
+            14.95
+          ]
+        ],
+        [
+          2.5706273553356627,
+          "24e3b1ee-1aa9-4104-a77e-1ed2a498f8aa",
+          [
+            34.95,
+            4.775
+          ]
+        ]
+      ]
+    },
+    "LPDDR4_DQS1N_A": {
+      "pads": [
+        "U1.1B1",
+        "U2.E10"
+      ],
+      "stubs_mm": [
+        0.15,
+        0.5153882032022076
+      ],
+      "via_counts": [
+        1,
+        1
+      ],
+      "via_centers_mm": [
+        [
+          38.3,
+          16.1
+        ],
+        [
+          32.4,
+          5.1
+        ]
+      ],
+      "via_distance_lower_bound_mm": 12.482387592123553,
+      "nearest_main_ground_returns_mm": [
+        [
+          1.1884864324004727,
+          "f75c478d-74d1-4cc7-8f5d-3fcc11657ad7",
+          [
+            38.0,
+            14.95
+          ]
+        ],
+        [
+          2.5706273553356622,
+          "24e3b1ee-1aa9-4104-a77e-1ed2a498f8aa",
+          [
+            34.95,
+            4.775
+          ]
+        ]
+      ]
+    },
+    "LPDDR4_DQ8_A": {
+      "pads": [
+        "U1.C2",
+        "U2.B11"
+      ],
+      "stubs_mm": [
+        1.4055190515423457,
+        0.5153882032022076
+      ],
+      "via_counts": [
+        1,
+        1
+      ],
+      "via_centers_mm": [
+        [
+          35.7,
+          14.25
+        ],
+        [
+          33.2,
+          3.15
+        ]
+      ],
+      "via_distance_lower_bound_mm": 11.378049041905207,
+      "nearest_main_ground_returns_mm": [
+        [
+          2.4041630560342586,
+          "f75c478d-74d1-4cc7-8f5d-3fcc11657ad7",
+          [
+            38.0,
+            14.95
+          ]
+        ],
+        [
+          1.5765865025427575,
+          "923aac68-fb36-4643-9dd3-e12ada183211",
+          [
+            32.8,
+            1.625
+          ]
+        ]
+      ]
+    },
+    "LPDDR4_DQ9_A": {
+      "pads": [
+        "U1.C1",
+        "U2.C11"
+      ],
+      "stubs_mm": [
+        0.3807886552931954,
+        0.5153882032022076
+      ],
+      "via_counts": [
+        1,
+        1
+      ],
+      "via_centers_mm": [
+        [
+          36.15,
+          14.65
+        ],
+        [
+          33.2,
+          3.8
+        ]
+      ],
+      "via_distance_lower_bound_mm": 11.243887228178696,
+      "nearest_main_ground_returns_mm": [
+        [
+          1.8741664813991323,
+          "f75c478d-74d1-4cc7-8f5d-3fcc11657ad7",
+          [
+            38.0,
+            14.95
+          ]
+        ],
+        [
+          1.7799227511327562,
+          "369afd5e-1d71-4c08-8839-2682fd250494",
+          [
+            34.95,
+            3.475
+          ]
+        ]
+      ]
+    },
+    "LPDDR4_DQ10_A": {
+      "pads": [
+        "U1.B1",
+        "U2.E11"
+      ],
+      "stubs_mm": [
+        2.703513625523247,
+        0.5153882032022076
+      ],
+      "via_counts": [
+        1,
+        1
+      ],
+      "via_centers_mm": [
+        [
+          36.05,
+          15.25
+        ],
+        [
+          33.2,
+          5.1
+        ]
+      ],
+      "via_distance_lower_bound_mm": 10.542532902486005,
+      "nearest_main_ground_returns_mm": [
+        [
+          1.972941965694889,
+          "f75c478d-74d1-4cc7-8f5d-3fcc11657ad7",
+          [
+            38.0,
+            14.95
+          ]
+        ],
+        [
+          1.7799227511327562,
+          "24e3b1ee-1aa9-4104-a77e-1ed2a498f8aa",
+          [
+            34.95,
+            4.775
+          ]
+        ]
+      ]
+    },
+    "LPDDR4_DQ11_A": {
+      "pads": [
+        "U1.B2",
+        "U2.F11"
+      ],
+      "stubs_mm": [
+        1.0546550256516727,
+        0.5153882032022076
+      ],
+      "via_counts": [
+        1,
+        1
+      ],
+      "via_centers_mm": [
+        [
+          36.05,
+          13.75
+        ],
+        [
+          33.2,
+          5.75
+        ]
+      ],
+      "via_distance_lower_bound_mm": 8.492496688253695,
+      "nearest_main_ground_returns_mm": [
+        [
+          2.2896506283710645,
+          "f75c478d-74d1-4cc7-8f5d-3fcc11657ad7",
+          [
+            38.0,
+            14.95
+          ]
+        ],
+        [
+          2.0032785627565626,
+          "24e3b1ee-1aa9-4104-a77e-1ed2a498f8aa",
+          [
+            34.95,
+            4.775
+          ]
+        ]
+      ]
+    },
+    "LPDDR4_DQ12_A": {
+      "pads": [
+        "U1.A4",
+        "U2.F9"
+      ],
+      "stubs_mm": [
+        0.20615528128088303,
+        0.5153882032022076
+      ],
+      "via_counts": [
+        1,
+        1
+      ],
+      "via_centers_mm": [
+        [
+          37.95,
+          13.3
+        ],
+        [
+          31.6,
+          5.75
+        ]
+      ],
+      "via_distance_lower_bound_mm": 9.865343379730886,
+      "nearest_main_ground_returns_mm": [
+        [
+          0.8050621094052265,
+          "3b25ac06-d4e8-4719-b80a-2b4a8b690011",
+          [
+            38.675,
+            12.95
+          ]
+        ],
+        [
+          2.080600874747487,
+          "f838e157-7bc8-47e6-9dfb-e527fd1f3fdc",
+          [
+            29.52,
+            5.8
+          ]
+        ]
+      ]
+    },
+    "LPDDR4_DQ13_A": {
+      "pads": [
+        "U1.B4",
+        "U2.E9"
+      ],
+      "stubs_mm": [
+        0,
+        0.5153882032022076
+      ],
+      "via_counts": [
+        0,
+        1
+      ]
+    },
+    "LPDDR4_DQ14_A": {
+      "pads": [
+        "U1.A3",
+        "U2.C9"
+      ],
+      "stubs_mm": [
+        0,
+        0.5153882032022076
+      ],
+      "via_counts": [
+        0,
+        1
+      ]
+    },
+    "LPDDR4_DQ15_A": {
+      "pads": [
+        "U1.B3",
+        "U2.B9"
+      ],
+      "stubs_mm": [
+        1.0552221797585506,
+        0.5153882032022076
+      ],
+      "via_counts": [
+        1,
+        1
+      ],
+      "via_centers_mm": [
+        [
+          37.25,
+          13.05
+        ],
+        [
+          31.6,
+          3.15
+        ]
+      ],
+      "via_distance_lower_bound_mm": 11.39879379583647,
+      "nearest_main_ground_returns_mm": [
+        [
+          1.4285044627161625,
+          "3b25ac06-d4e8-4719-b80a-2b4a8b690011",
+          [
+            38.675,
+            12.95
+          ]
+        ],
+        [
+          1.9405218370325001,
+          "923aac68-fb36-4643-9dd3-e12ada183211",
+          [
+            32.8,
+            1.625
+          ]
+        ]
+      ]
+    },
+    "LPDDR4_DM1_A": {
+      "pads": [
+        "U1.A2",
+        "U2.C10"
+      ],
+      "stubs_mm": [
+        0.6103277807866851,
+        0.5153882032022076
+      ],
+      "via_counts": [
+        1,
+        1
+      ],
+      "via_centers_mm": [
+        [
+          36.65,
+          13.0
+        ],
+        [
+          32.4,
+          3.8
+        ]
+      ],
+      "via_distance_lower_bound_mm": 10.134224193296692,
+      "nearest_main_ground_returns_mm": [
+        [
+          2.0256171898954634,
+          "3b25ac06-d4e8-4719-b80a-2b4a8b690011",
+          [
+            38.675,
+            12.95
+          ]
+        ],
+        [
+          2.2114757516192665,
+          "923aac68-fb36-4643-9dd3-e12ada183211",
+          [
+            32.8,
+            1.625
+          ]
+        ]
+      ]
+    }
+  },
+  "strobe_only_results": {
+    "pair_corridor_nominal_all_layers_disconnected": true,
+    "pair_corridor_narrow_all_layers_disconnected": true,
+    "mixed_clearance_single_net_all_layers_disconnected": {
+      "p-single-100um": true,
+      "n-single-100um": true,
+      "dq11-single-100um": true
+    },
+    "nearest_gap_candidates_in3": {
+      "gap_mm": 2.0635363627026693,
+      "sites_mm": [
+        [
+          38.89577022325527,
+          13.809242568351484
+        ],
+        [
+          39.23511646404611,
+          11.7738
+        ]
+      ],
+      "objects_on_gap": [
+        {
+          "net": "GND",
+          "id": "3b25ac06-d4e8-4719-b80a-2b4a8b690011",
+          "type": "via",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_DQ6_A",
+          "id": "bb915513-84fa-4415-9308-a3043f041214",
+          "type": "via",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A1_A",
+          "id": "5f689d63-3c72-4ea9-b455-ac9008a4ee62",
+          "type": "track",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_A1_A",
+          "id": "8f31e011-e6a1-4abc-94b4-5307f281e2dd",
+          "type": "track",
+          "pad": null
+        },
+        {
+          "net": "LPDDR4_DQ0_A",
+          "id": "d4c5f20b-cf27-4183-8f2e-0eb16146e219",
+          "type": "via",
+          "pad": null
+        }
+      ]
+    },
+    "local_obstacle_copper": [
+      {
+        "net": "GND",
+        "id": "3b25ac06-d4e8-4719-b80a-2b4a8b690011",
+        "type": "via",
+        "pad": null,
+        "n": "GND",
+        "k": "via",
+        "a": [
+          38.675,
+          12.95
+        ],
+        "w": 0.45,
+        "drill": 0.2
+      },
+      {
+        "net": "LPDDR4_DQ6_A",
+        "id": "bb915513-84fa-4415-9308-a3043f041214",
+        "type": "via",
+        "pad": null,
+        "n": "LPDDR4_DQ6_A",
+        "k": "via",
+        "a": [
+          39.1,
+          13.35
+        ],
+        "w": 0.45,
+        "drill": 0.2
+      },
+      {
+        "net": "LPDDR4_A1_A",
+        "id": "5f689d63-3c72-4ea9-b455-ac9008a4ee62",
+        "type": "track",
+        "pad": null,
+        "n": "LPDDR4_A1_A",
+        "k": "track",
+        "a": [
+          39.85,
+          12.1
+        ],
+        "z": [
+          39.1,
+          12.1
+        ],
+        "w": 0.2
+      },
+      {
+        "net": "LPDDR4_A1_A",
+        "id": "8f31e011-e6a1-4abc-94b4-5307f281e2dd",
+        "type": "track",
+        "pad": null,
+        "n": "LPDDR4_A1_A",
+        "k": "track",
+        "a": [
+          39.1,
+          12.1
+        ],
+        "z": [
+          36.461764,
+          9.461764
+        ],
+        "w": 0.2
+      },
+      {
+        "net": "LPDDR4_DQ0_A",
+        "id": "d4c5f20b-cf27-4183-8f2e-0eb16146e219",
+        "type": "via",
+        "pad": null,
+        "n": "LPDDR4_DQ0_A",
+        "k": "via",
+        "a": [
+          38.5,
+          13.5
+        ],
+        "w": 0.45,
+        "drill": 0.2
+      }
+    ],
+    "optimistic_independent_in3_routes_at_0p10mm": [
+      {
+        "net": "LPDDR4_DQS1P_A",
+        "centerline_mm": 20.5850288425444
+      },
+      {
+        "net": "LPDDR4_DQS1N_A",
+        "centerline_mm": 21.083556979968257
+      },
+      {
+        "net": "LPDDR4_DQ11_A",
+        "centerline_mm": 19.361195872400046
+      }
+    ],
+    "optimistic_sequential_attempts": 16,
+    "optimistic_sequential_pair_successes": 0,
+    "layer_qualification": "Optimistic tests use 0.0762 mm to all foreign copper without waiving the 0.25 mm bore separation. These routes are limiting geometry checks and were not materialized; no measured skew."
+  },
+  "native_baseline": {
+    "open_joins": 318,
+    "findings": 121,
+    "same_drc_signatures": true
+  },
+  "result": "No route promoted for DQS1P/N or the associated A-byte data. Reassess the A1_A reference crossing with the adjacent DQ6_A/DQ0_A and ground transitions in a local escape study before a joint byte route. DQ13_A and DQ14_A also need SoC-side escapes."
+}

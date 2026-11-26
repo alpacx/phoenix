@@ -1,0 +1,174 @@
+{
+  "parent_sha256": "1d7de1a64ee82a5f9f87c0a3173a4e36b15f550787a8e38416d4807ab642f65a",
+  "trial_sha256": "d79eb605a9ad96f3ee15d6455db238afa922c0fbfbc4ecc6410a6fb11550cb05",
+  "old_joins": 320,
+  "joins": 320,
+  "layout_pairs": 886,
+  "lost": [],
+  "drc_delta": [],
+  "dfm_counts": [
+    147,
+    139
+  ],
+  "removed_dfm_violations": [
+    [
+      "AB26",
+      "19f73566-aa96-4e5a-8f45-74bddf59e1c2"
+    ],
+    [
+      "AB26",
+      "1cfd8c61-5cf8-4110-aa01-d27617260b75"
+    ],
+    [
+      "AB26",
+      "30de09c5-0f29-438b-8b57-e1f72afe2f6d"
+    ],
+    [
+      "AB26",
+      "59ea1f84-83f2-4425-9b2c-6f66f02a425b"
+    ],
+    [
+      "AB26",
+      "654a5c57-96f6-4ce7-aacc-e1b956287d13"
+    ],
+    [
+      "AB26",
+      "9aaeb4a0-e39a-463b-8a0c-2a51409b38a7"
+    ],
+    [
+      "AB26",
+      "b46fc4e5-c5a8-410e-810d-39e6a807cef5"
+    ],
+    [
+      "AB26",
+      "d7dcccfe-55a0-42b9-a7fe-ee60d0c58490"
+    ]
+  ],
+  "new_dfm_violations": [],
+  "local_min_clearance_nm_before": [
+    79101,
+    79198
+  ],
+  "local_min_clearance_nm_after": [
+    95116,
+    95214
+  ],
+  "physical_preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 8321,
+    "explicitly_replaced_copper": {
+      "19f73566-aa96-4e5a-8f45-74bddf59e1c2": [
+        "GND",
+        0,
+        48950000,
+        23700000,
+        48975000,
+        23675000,
+        200000,
+        null
+      ],
+      "1cfd8c61-5cf8-4110-aa01-d27617260b75": [
+        "GND",
+        0,
+        48950000,
+        23700000,
+        48975000,
+        23675000,
+        200000,
+        null
+      ],
+      "30de09c5-0f29-438b-8b57-e1f72afe2f6d": [
+        "GND",
+        0,
+        48800000,
+        23750000,
+        48825000,
+        23750000,
+        200000,
+        null
+      ],
+      "59ea1f84-83f2-4425-9b2c-6f66f02a425b": [
+        "GND",
+        0,
+        48800000,
+        23750000,
+        48825000,
+        23750000,
+        200000,
+        null
+      ],
+      "654a5c57-96f6-4ce7-aacc-e1b956287d13": [
+        "GND",
+        0,
+        48825000,
+        23750000,
+        48875000,
+        23700000,
+        200000,
+        null
+      ],
+      "9aaeb4a0-e39a-463b-8a0c-2a51409b38a7": [
+        "GND",
+        0,
+        48875000,
+        23700000,
+        48950000,
+        23700000,
+        200000,
+        null
+      ],
+      "b46fc4e5-c5a8-410e-810d-39e6a807cef5": [
+        "GND",
+        0,
+        48825000,
+        23750000,
+        48875000,
+        23700000,
+        200000,
+        null
+      ],
+      "d7dcccfe-55a0-42b9-a7fe-ee60d0c58490": [
+        "GND",
+        0,
+        48875000,
+        23700000,
+        48950000,
+        23700000,
+        200000,
+        null
+      ]
+    },
+    "added_tracks_vias": -6,
+    "existing_connected_pad_groups_preserved": 132
+  },
+  "mount_screen": [],
+  "route_mm": [
+    [
+      48.8,
+      23.75
+    ],
+    [
+      48.875,
+      23.675
+    ],
+    [
+      48.975,
+      23.675
+    ]
+  ],
+  "route_width_mm": 0.2,
+  "route_layer": "F.Cu",
+  "local_route_from": "existing ground at (48.8, 23.75)",
+  "local_route_to": "existing ground at (48.975, 23.675)",
+  "added_segments": [
+    "b7cf51c9-5ce5-4f8a-bd17-fa148a67ab57",
+    "4e30b125-a7ab-43b4-b5a4-e80add006080"
+  ],
+  "board": "runs/dfm-320-ab26-ground-spacing/phy-joint.kicad_pcb",
+  "usb_report": "runs/dfm-320-ab26-ground-spacing/usb.json",
+  "dfm_counts_excluding_duplicate_geometry": [
+    143,
+    139
+  ],
+  "scope": "Two-track replacement for eight records representing four duplicated local GND geometries. Width and endpoints held fixed. This is a separate DFM copy."
+}

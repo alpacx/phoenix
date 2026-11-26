@@ -1,0 +1,795 @@
+{
+  "checkpoint": "layout-npu-load-feedback-pair.json",
+  "sha256": "1d7de1a64ee82a5f9f87c0a3173a4e36b15f550787a8e38416d4807ab642f65a",
+  "result": "No PCB variant adopted.",
+  "C2301": {
+    "first": {
+      "joins": 319,
+      "introduced_drc": [],
+      "changes": {
+        "rejection_counts": {
+          "outside_ground_planes": 1697,
+          "pad_margin": 4256,
+          "hole_margin": 1545,
+          "foreign_copper": 1928
+        },
+        "candidate_count": 418,
+        "best": [
+          {
+            "max_return_distance_increase_mm": 0.3594028054370715,
+            "xy_nm": [
+              27575000,
+              9500000
+            ],
+            "move_mm": 0.8591420138719792,
+            "f_arm_length_mm": 0.725,
+            "f_arm_path_nm": [
+              [
+                26850000,
+                9500000
+              ],
+              [
+                26850000,
+                9500000
+              ],
+              [
+                27575000,
+                9500000
+              ]
+            ]
+          },
+          {
+            "max_return_distance_increase_mm": 0.3594028054370715,
+            "xy_nm": [
+              27575000,
+              9525000
+            ],
+            "move_mm": 0.8558621384311844,
+            "f_arm_length_mm": 0.7254309064273454,
+            "f_arm_path_nm": [
+              [
+                26850000,
+                9500000
+              ],
+              [
+                27575000,
+                9525000
+              ]
+            ]
+          },
+          {
+            "max_return_distance_increase_mm": 0.3594028054370715,
+            "xy_nm": [
+              27600000,
+              9500000
+            ],
+            "move_mm": 0.8838834764831845,
+            "f_arm_length_mm": 0.75,
+            "f_arm_path_nm": [
+              [
+                26850000,
+                9500000
+              ],
+              [
+                26850000,
+                9500000
+              ],
+              [
+                27600000,
+                9500000
+              ]
+            ]
+          },
+          {
+            "max_return_distance_increase_mm": 0.3594028054370715,
+            "xy_nm": [
+              27600000,
+              9525000
+            ],
+            "move_mm": 0.8806957476904268,
+            "f_arm_length_mm": 0.7504165509901818,
+            "f_arm_path_nm": [
+              [
+                26850000,
+                9500000
+              ],
+              [
+                27600000,
+                9525000
+              ]
+            ]
+          },
+          {
+            "max_return_distance_increase_mm": 0.3594028054370715,
+            "xy_nm": [
+              27600000,
+              9475000
+            ],
+            "move_mm": 0.887764045228235,
+            "f_arm_length_mm": 0.7504165509901818,
+            "f_arm_path_nm": [
+              [
+                26850000,
+                9500000
+              ],
+              [
+                27600000,
+                9475000
+              ]
+            ]
+          }
+        ],
+        "power_route_points_nm": [
+          [
+            25200000,
+            10100000
+          ],
+          [
+            26250000,
+            10100000
+          ],
+          [
+            26950000,
+            9400000
+          ],
+          [
+            26950000,
+            9350000
+          ],
+          [
+            27000000,
+            9300000
+          ],
+          [
+            27000000,
+            9250000
+          ],
+          [
+            27050000,
+            9200000
+          ],
+          [
+            27050000,
+            8950000
+          ],
+          [
+            27150000,
+            8850000
+          ],
+          [
+            27150000,
+            8800000
+          ],
+          [
+            27250000,
+            8700000
+          ],
+          [
+            27250000,
+            8650000
+          ],
+          [
+            27300000,
+            8600000
+          ],
+          [
+            27300000,
+            8450000
+          ],
+          [
+            27350000,
+            8400000
+          ],
+          [
+            27350000,
+            6850000
+          ],
+          [
+            27050000,
+            6550000
+          ],
+          [
+            27000000,
+            6550000
+          ],
+          [
+            26950000,
+            6500000
+          ],
+          [
+            25900000,
+            6500000
+          ]
+        ],
+        "old_ground_stub_mm": 0.1767766952966369,
+        "old_ground_via_nm": [
+          26725000,
+          9625000
+        ],
+        "power_length_mm": 6.350609665440985,
+        "selected": {
+          "max_return_distance_increase_mm": 0.3594028054370715,
+          "xy_nm": [
+            27575000,
+            9500000
+          ],
+          "move_mm": 0.8591420138719792,
+          "f_arm_length_mm": 0.725,
+          "f_arm_path_nm": [
+            [
+              26850000,
+              9500000
+            ],
+            [
+              26850000,
+              9500000
+            ],
+            [
+              27575000,
+              9500000
+            ]
+          ]
+        },
+        "sha256": "0572e81930205592619fee039e1e4eb658caef697e00a2c7b2386ee4c0d65d1b",
+        "plane_comparison": {
+          "changed_via_centers_nm": [
+            [
+              26725000,
+              9625000
+            ],
+            [
+              27575000,
+              9500000
+            ]
+          ],
+          "samples_by_net_and_layer": {
+            "+1V1_LPDDR4 F.Cu": {
+              "sampled": 62,
+              "lost": 0,
+              "gained": 0,
+              "lost_in_same_rail_antipad": 0,
+              "lost_examples": []
+            },
+            "LPDDR4_A1_B F.Cu": {
+              "sampled": 114,
+              "lost": 0,
+              "gained": 0,
+              "lost_in_same_rail_antipad": 0,
+              "lost_examples": []
+            }
+          },
+          "sample_pitch_mm": 0.012,
+          "via_window_radius_mm": 1.0,
+          "scope": "Center and edges of unchanged straight copper only. Local ground-fill comparison; no field or impedance simulation."
+        },
+        "preservation": {
+          "existing_pad_instances_preserved": 2008,
+          "existing_tracks_vias_preserved": 8327,
+          "explicitly_replaced_copper": {
+            "2fd7295f-de1f-464e-9d2d-8de1d940ad8a": [
+              "GND",
+              0,
+              26725000,
+              9625000,
+              26725000,
+              9625000,
+              450000,
+              200000
+            ],
+            "4b67ec30-dfa3-4a0f-85b0-62f895396c9d": [
+              "GND",
+              0,
+              26850000,
+              9500000,
+              26725000,
+              9625000,
+              200000,
+              null
+            ]
+          },
+          "added_tracks_vias": 19,
+          "existing_connected_pad_groups_preserved": 132
+        }
+      },
+      "reference": {
+        "new_route_reference": {
+          "+1V8_SYS": {
+            "samples": 3885,
+            "void": 0,
+            "reference_layer": "In4.Cu",
+            "length_mm": 6.350609665440986
+          },
+          "GND": {
+            "samples": 438,
+            "void": 0,
+            "reference_layer": "In1.Cu",
+            "length_mm": 0.725
+          }
+        },
+        "nearby_non_ground_vias_increased_return_distance": [
+          {
+            "net": "LPDDR4_A1_B",
+            "xy_nm": [
+              26800000,
+              10300000
+            ],
+            "old_mm": 0.6791538853603063,
+            "new_mm": 1.0385566907973778
+          }
+        ],
+        "checked_local_return_radius_mm": 2.5,
+        "holes": [],
+        "local_group": [
+          "C2301.1",
+          "C2303.1",
+          "L405.2",
+          "U2.F1"
+        ]
+      },
+      "reason": "Nearest ground via for LPDDR4_A1_B moves from 0.679 to 1.039 mm."
+    },
+    "second": {
+      "joins": 319,
+      "introduced_drc": [],
+      "changes": {
+        "options": 88,
+        "blocker_counts": {
+          "pad_margin": 2565,
+          "via_clearance": 1950,
+          "wire_clearance": 12,
+          "hole_margin": 409
+        },
+        "best": [
+          {
+            "via_nm": [
+              30100000,
+              10375000
+            ],
+            "moves_mm": 0.7288689868556625,
+            "paths": {
+              "0": [
+                [
+                  30025000,
+                  9650000
+                ],
+                [
+                  30100000,
+                  10375000
+                ]
+              ],
+              "6": [
+                [
+                  30025000,
+                  9650000
+                ],
+                [
+                  30100000,
+                  10375000
+                ]
+              ]
+            }
+          },
+          {
+            "via_nm": [
+              30125000,
+              10375000
+            ],
+            "moves_mm": 0.7318640584152223,
+            "paths": {
+              "0": [
+                [
+                  30025000,
+                  9650000
+                ],
+                [
+                  30125000,
+                  10375000
+                ]
+              ],
+              "6": [
+                [
+                  30025000,
+                  9650000
+                ],
+                [
+                  30125000,
+                  10375000
+                ]
+              ]
+            }
+          },
+          {
+            "via_nm": [
+              30075000,
+              10400000
+            ],
+            "moves_mm": 0.7516648189186454,
+            "paths": {
+              "0": [
+                [
+                  30025000,
+                  9650000
+                ],
+                [
+                  30075000,
+                  10400000
+                ]
+              ],
+              "6": [
+                [
+                  30025000,
+                  9650000
+                ],
+                [
+                  30075000,
+                  10400000
+                ]
+              ]
+            }
+          }
+        ],
+        "power_route_mm": 6.676955262170043,
+        "selected": {
+          "via_nm": [
+            30100000,
+            10375000
+          ],
+          "moves_mm": 0.7288689868556625,
+          "paths": {
+            "0": [
+              [
+                30025000,
+                9650000
+              ],
+              [
+                30100000,
+                10375000
+              ]
+            ],
+            "6": [
+              [
+                30025000,
+                9650000
+              ],
+              [
+                30100000,
+                10375000
+              ]
+            ]
+          }
+        },
+        "front_landing_nm": [
+          30275000,
+          10325000
+        ],
+        "sha256": "5850afae2e6aba9518ad9a9f510f7edf4e234215bf0822d5d004984466f9838f",
+        "preservation": {
+          "existing_pad_instances_preserved": 2008,
+          "existing_tracks_vias_preserved": 8326,
+          "explicitly_replaced_copper": {
+            "761e1cac-897d-4df3-b7ef-749477cc28e3": [
+              "+1V1_LPDDR4",
+              0,
+              30275000,
+              10325000,
+              30275000,
+              9900000,
+              300000,
+              null
+            ],
+            "85403faf-a9b7-4e31-929e-3ff9d37efc53": [
+              "+1V1_LPDDR4",
+              0,
+              30275000,
+              9900000,
+              30025000,
+              9650000,
+              300000,
+              null
+            ],
+            "ac97cda0-7067-4825-95fa-b18d7d7940da": [
+              "+1V1_LPDDR4",
+              0,
+              30025000,
+              9650000,
+              30025000,
+              9650000,
+              450000,
+              200000
+            ]
+          },
+          "added_tracks_vias": 14,
+          "existing_connected_pad_groups_preserved": 132
+        },
+        "return_comparison": {
+          "changed_via_centers_nm": [
+            [
+              30025000,
+              9650000
+            ],
+            [
+              30100000,
+              10375000
+            ]
+          ],
+          "samples_by_net_and_layer": {
+            "+1V1_LPDDR4 F.Cu": {
+              "sampled": 540,
+              "lost": 238,
+              "gained": 0,
+              "lost_in_same_rail_antipad": 227,
+              "lost_examples": [
+                {
+                  "track": "350d5869-b431-4b0e-95d5-bbee1d69e884",
+                  "point_nm": [
+                    30243934,
+                    10631066
+                  ]
+                },
+                {
+                  "track": "350d5869-b431-4b0e-95d5-bbee1d69e884",
+                  "point_nm": [
+                    30350000,
+                    10525000
+                  ]
+                },
+                {
+                  "track": "350d5869-b431-4b0e-95d5-bbee1d69e884",
+                  "point_nm": [
+                    30456066,
+                    10418934
+                  ]
+                },
+                {
+                  "track": "350d5869-b431-4b0e-95d5-bbee1d69e884",
+                  "point_nm": [
+                    30235601,
+                    10622733
+                  ]
+                },
+                {
+                  "track": "350d5869-b431-4b0e-95d5-bbee1d69e884",
+                  "point_nm": [
+                    30341667,
+                    10516667
+                  ]
+                }
+              ]
+            },
+            "+1V1_LPDDR4 In2.Cu": {
+              "sampled": 265,
+              "lost": 0,
+              "gained": 112,
+              "lost_in_same_rail_antipad": 0,
+              "lost_examples": []
+            },
+            "+1V8_SYS B.Cu": {
+              "sampled": 59,
+              "lost": 0,
+              "gained": 0,
+              "lost_in_same_rail_antipad": 0,
+              "lost_examples": []
+            },
+            "LPDDR4_CLKP_B F.Cu": {
+              "sampled": 94,
+              "lost": 0,
+              "gained": 0,
+              "lost_in_same_rail_antipad": 0,
+              "lost_examples": []
+            }
+          },
+          "sample_pitch_mm": 0.012,
+          "via_window_radius_mm": 1.0,
+          "scope": "Center and edges of unchanged straight copper only. Local ground-fill comparison; no field or impedance simulation."
+        }
+      },
+      "reason": "238 previously covered samples underneath +1V1_LPDDR4 lose reference, including 11 outside its own nominal antipad."
+    },
+    "return_stitch_screen": {
+      "candidates": 0,
+      "best": [],
+      "counts": {
+        "pad_clearance": 1373,
+        "outside_ground": 922,
+        "copper_clearance": 26
+      }
+    }
+  },
+  "soc_io_1M4_1L5": {
+    "trial_drc_regressions": [
+      [
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "204ca8ca-5206-46fa-bf87-d56429749224",
+            "400d8b1a-5b7a-4fdf-befe-f9f2c777c8da"
+          ],
+          "count": 1
+        }
+      ],
+      [
+        {
+          "type": "clearance",
+          "severity": "error",
+          "items": [
+            "204ca8ca-5206-46fa-bf87-d56429749224",
+            "b0d1d5a8-7f00-4705-86b0-ea9e58a079a4"
+          ],
+          "count": 1
+        }
+      ]
+    ],
+    "contact_fit": {
+      "original_contacts_mm2": [
+        0.048400000000000006,
+        0.048400000000000006
+      ],
+      "options_count": 0,
+      "best": []
+    }
+  },
+  "soc_image_1L8_1M9": {
+    "trial_drc_regressions": [
+      {
+        "type": "clearance",
+        "severity": "error",
+        "items": [
+          "395250c4-4aaf-4e0b-af25-9405fd6bf66f",
+          "41e4abf4-31be-443e-8648-49c2a74b81cc"
+        ],
+        "count": 1
+      },
+      {
+        "type": "clearance",
+        "severity": "error",
+        "items": [
+          "41e4abf4-31be-443e-8648-49c2a74b81cc",
+          "e8d1d728-c5d3-4706-aa3d-7ef32401d73b"
+        ],
+        "count": 1
+      },
+      {
+        "type": "clearance",
+        "severity": "error",
+        "items": [
+          "859eb5a4-bf2b-45cf-8127-074f9729bd07",
+          "e8d1d728-c5d3-4706-aa3d-7ef32401d73b"
+        ],
+        "count": 1
+      },
+      {
+        "type": "clearance",
+        "severity": "error",
+        "items": [
+          "0e37d5de-2242-474f-94a9-04013b058932",
+          "e8d1d728-c5d3-4706-aa3d-7ef32401d73b"
+        ],
+        "count": 1
+      },
+      {
+        "type": "clearance",
+        "severity": "error",
+        "items": [
+          "d7f23954-1d41-4820-a789-5a4009bc2771",
+          "e8d1d728-c5d3-4706-aa3d-7ef32401d73b"
+        ],
+        "count": 1
+      },
+      {
+        "type": "clearance",
+        "severity": "error",
+        "items": [
+          "b90a4359-515d-441b-8f84-94363326c229",
+          "e8d1d728-c5d3-4706-aa3d-7ef32401d73b"
+        ],
+        "count": 1
+      },
+      {
+        "type": "clearance",
+        "severity": "error",
+        "items": [
+          "52a42f22-6712-4174-a471-1accc101b5f1",
+          "e8d1d728-c5d3-4706-aa3d-7ef32401d73b"
+        ],
+        "count": 1
+      },
+      {
+        "type": "clearance",
+        "severity": "error",
+        "items": [
+          "4ba47425-a2c8-45d7-aea5-df18e2101490",
+          "e8d1d728-c5d3-4706-aa3d-7ef32401d73b"
+        ],
+        "count": 1
+      }
+    ],
+    "trial": {
+      "candidate_shifts_nm": [
+        22750000,
+        22940000
+      ],
+      "length_mm": 0.7656854249492382,
+      "sha256": "ecdbb4c955d46cc4289cb0447ebe5ea546a4d34552f4fc90dbc500d6b80f0b1a",
+      "route_points_nm": [
+        [
+          43050000,
+          22050000
+        ],
+        [
+          43050000,
+          22100000
+        ],
+        [
+          43400000,
+          22450000
+        ],
+        [
+          43450000,
+          22450000
+        ],
+        [
+          43500000,
+          22500000
+        ],
+        [
+          43600000,
+          22500000
+        ]
+      ],
+      "return_comparison": {
+        "changed_via_centers_nm": [],
+        "samples_by_net_and_layer": {},
+        "sample_pitch_mm": 0.012,
+        "via_window_radius_mm": 1.0,
+        "scope": "Center and edges of unchanged straight copper only. Local ground-fill comparison; no field or impedance simulation."
+      },
+      "preservation": {
+        "existing_pad_instances_preserved": 2008,
+        "existing_tracks_vias_preserved": 8327,
+        "explicitly_replaced_copper": {
+          "395250c4-4aaf-4e0b-af25-9405fd6bf66f": [
+            "VCCA1V8_IMAGE",
+            0,
+            43575000,
+            23050000,
+            43225000,
+            22700000,
+            300000,
+            null
+          ],
+          "e8d1d728-c5d3-4706-aa3d-7ef32401d73b": [
+            "VCCA1V8_IMAGE",
+            0,
+            42350000,
+            22600000,
+            43000000,
+            22600000,
+            500000,
+            null
+          ]
+        },
+        "added_tracks_vias": 5,
+        "existing_connected_pad_groups_preserved": 132
+      }
+    }
+  },
+  "C1624": {
+    "route_context": "Rear GPU power trunk blocks the direct path. Retained its geometry.",
+    "relocation_screen": {
+      "counts": {
+        "clear_body": 6
+      },
+      "solution_count": 0,
+      "best": []
+    }
+  },
+  "retained_verification": {
+    "unions": 320,
+    "networks": 194,
+    "layout_pairs": 886,
+    "usb_pairs": 4,
+    "drc_findings": 121
+  },
+  "assembly_ready": false
+}

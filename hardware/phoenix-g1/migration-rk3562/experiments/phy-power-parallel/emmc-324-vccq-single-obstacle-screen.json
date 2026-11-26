@@ -1,0 +1,130 @@
+{
+  "checkpoint": "layout-emmc-3v3-middle-bank-return-reuse.json",
+  "sha256": "ea93c28539a71f16e3ee3cb48dc68e038d067aaf53c0b294f98c87c8a23a12bb",
+  "net": "EMMC_IO_1V8",
+  "layer": "B.Cu",
+  "bounds_mm": [
+    30.5,
+    4.5,
+    40.5,
+    14.5
+  ],
+  "grid_mm": 0.05,
+  "max_path_mm": 7,
+  "copper_search_clearance_mm": 0.202,
+  "drill_to_copper_search_clearance_mm": 0.252,
+  "movable_copper_items_per_path": 1,
+  "fixed_land_crossings_allowed": false,
+  "cases": [
+    {
+      "target_group": [
+        "U8001.P3",
+        "U8001.P5"
+      ],
+      "rows": [
+        {
+          "source": [
+            "C6"
+          ],
+          "width_mm": 0.35,
+          "states": 2,
+          "solutions": [],
+          "start_centres": 21,
+          "target_centres": 292
+        },
+        {
+          "source": [
+            "C6"
+          ],
+          "width_mm": 0.3,
+          "states": 3,
+          "solutions": [],
+          "start_centres": 21,
+          "target_centres": 292
+        },
+        {
+          "source": [
+            "C6"
+          ],
+          "width_mm": 0.25,
+          "states": 28,
+          "solutions": [],
+          "start_centres": 21,
+          "target_centres": 292
+        },
+        {
+          "source": [
+            "M4",
+            "N4"
+          ],
+          "width_mm": 0.35,
+          "states": 13,
+          "solutions": [],
+          "start_centres": 89,
+          "target_centres": 292
+        },
+        {
+          "source": [
+            "M4",
+            "N4"
+          ],
+          "width_mm": 0.3,
+          "states": 53,
+          "solutions": [],
+          "start_centres": 89,
+          "target_centres": 292
+        },
+        {
+          "source": [
+            "M4",
+            "N4"
+          ],
+          "width_mm": 0.25,
+          "states": 111,
+          "solutions": [],
+          "start_centres": 89,
+          "target_centres": 292
+        }
+      ]
+    },
+    {
+      "target_group": [
+        "U8001.M4",
+        "U8001.N4"
+      ],
+      "rows": [
+        {
+          "source": [
+            "C6"
+          ],
+          "width_mm": 0.35,
+          "states": 2,
+          "solutions": [],
+          "start_centres": 21,
+          "target_centres": 89
+        },
+        {
+          "source": [
+            "C6"
+          ],
+          "width_mm": 0.3,
+          "states": 3,
+          "solutions": [],
+          "start_centres": 21,
+          "target_centres": 89
+        },
+        {
+          "source": [
+            "C6"
+          ],
+          "width_mm": 0.25,
+          "states": 28,
+          "solutions": [],
+          "start_centres": 21,
+          "target_centres": 89
+        }
+      ]
+    }
+  ],
+  "result": "No bounded candidate clears the rear breakout with at most one movable obstacle."
+}

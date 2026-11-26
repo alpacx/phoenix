@@ -1,0 +1,380 @@
+{
+  "sha256": "b626497a158ff780ee0132b25dc3cba95d4ea05fb50b3d45c140950dc3447f72",
+  "geometry": {
+    "width_mm": 0.2,
+    "via_mm": [
+      0.45,
+      0.2
+    ],
+    "max_axial_mm": 2,
+    "center_spacing_mm": [
+      0.65,
+      0.9
+    ]
+  },
+  "results": [
+    {
+      "pair": 0,
+      "component": "U5",
+      "pair_spacing_valid": 306,
+      "viable": 0,
+      "most_common_obstacles": [
+        [
+          "+1V0_PHY",
+          2999
+        ],
+        [
+          "PHY_CFG_LDO0",
+          809
+        ],
+        [
+          "PHY_XIN",
+          700
+        ],
+        [
+          "PHY_CFG_LDO1",
+          289
+        ],
+        [
+          "U5.3",
+          278
+        ],
+        [
+          "+3V3_PHY",
+          236
+        ],
+        [
+          "U5.41",
+          153
+        ],
+        [
+          "U5.40",
+          143
+        ]
+      ],
+      "exact_net_families": [],
+      "examples": [],
+      "virtual_rail_release_best": [
+        {
+          "residual": [
+            [
+              "3431d0e4-f578-4b42-a369-c7df1b534d72",
+              "C522.1"
+            ],
+            [
+              "59608b7c-778f-4411-aea8-49d5ca02da0f",
+              "U5.3"
+            ],
+            [
+              "5b133c03-ce04-49aa-bf82-19339991d435",
+              "U5.41"
+            ],
+            [
+              "c82ace14-82be-4a45-b8e1-73607078df2c",
+              "U5.38"
+            ],
+            [
+              "e494c05e-9fa4-47b5-94f4-1b5d6bd20040",
+              "U5.37"
+            ]
+          ],
+          "removed": [
+            "2446eb45-e857-4d6d-967c-35cc1c1c0923",
+            "67c1723b-6793-460c-949b-adf8c3ff49ac",
+            "7b95ed50-568b-4dc7-bc7e-b03720247822",
+            "97d91e4a-c0a1-4463-a3dc-97a93da9606a",
+            "ff10aae3-e4e5-4337-a636-8f91c1fd64ad"
+          ],
+          "connection": [
+            {
+              "pin": "1",
+              "via": [
+                61200000,
+                31800000
+              ],
+              "path": [
+                [
+                  61200000,
+                  33400000
+                ],
+                [
+                  61200000,
+                  33400000
+                ],
+                [
+                  61200000,
+                  31800000
+                ]
+              ]
+            },
+            {
+              "pin": "2",
+              "via": [
+                62000000,
+                31800000
+              ],
+              "path": [
+                [
+                  61600000,
+                  33400000
+                ],
+                [
+                  62000000,
+                  33000000
+                ],
+                [
+                  62000000,
+                  31800000
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "residual": [
+            [
+              "3431d0e4-f578-4b42-a369-c7df1b534d72",
+              "C522.1"
+            ],
+            [
+              "59608b7c-778f-4411-aea8-49d5ca02da0f",
+              "U5.3"
+            ],
+            [
+              "5b133c03-ce04-49aa-bf82-19339991d435",
+              "U5.41"
+            ],
+            [
+              "c82ace14-82be-4a45-b8e1-73607078df2c",
+              "U5.38"
+            ],
+            [
+              "e494c05e-9fa4-47b5-94f4-1b5d6bd20040",
+              "U5.37"
+            ]
+          ],
+          "removed": [
+            "2446eb45-e857-4d6d-967c-35cc1c1c0923",
+            "67c1723b-6793-460c-949b-adf8c3ff49ac",
+            "7b95ed50-568b-4dc7-bc7e-b03720247822",
+            "97d91e4a-c0a1-4463-a3dc-97a93da9606a",
+            "ff10aae3-e4e5-4337-a636-8f91c1fd64ad"
+          ],
+          "connection": [
+            {
+              "pin": "1",
+              "via": [
+                61200000,
+                31700000
+              ],
+              "path": [
+                [
+                  61200000,
+                  33400000
+                ],
+                [
+                  61200000,
+                  33400000
+                ],
+                [
+                  61200000,
+                  31700000
+                ]
+              ]
+            },
+            {
+              "pin": "2",
+              "via": [
+                62000000,
+                31700000
+              ],
+              "path": [
+                [
+                  61600000,
+                  33400000
+                ],
+                [
+                  62000000,
+                  33000000
+                ],
+                [
+                  62000000,
+                  31700000
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "virtual_rail_release_clear": 0
+    },
+    {
+      "pair": 1,
+      "component": "U5",
+      "pair_spacing_valid": 306,
+      "viable": 0,
+      "most_common_obstacles": [
+        [
+          "+1V0_PHY",
+          3878
+        ],
+        [
+          "GND",
+          328
+        ],
+        [
+          "U5.3",
+          278
+        ],
+        [
+          "U5.6",
+          278
+        ],
+        [
+          "+3V3_PHY",
+          225
+        ],
+        [
+          "PHY_CFG_LDO1",
+          186
+        ],
+        [
+          "U5.41",
+          153
+        ],
+        [
+          "C512.2",
+          110
+        ]
+      ],
+      "exact_net_families": [],
+      "examples": [],
+      "virtual_rail_release_best": [
+        {
+          "residual": [
+            [
+              "5b133c03-ce04-49aa-bf82-19339991d435",
+              "U5.41"
+            ],
+            [
+              "7bc7d35c-9c83-4680-a8b6-bbe01838c7f3",
+              "U5.6"
+            ]
+          ],
+          "removed": [
+            "97d91e4a-c0a1-4463-a3dc-97a93da9606a",
+            "ff10aae3-e4e5-4337-a636-8f91c1fd64ad"
+          ],
+          "connection": [
+            {
+              "pin": "4",
+              "via": [
+                62400000,
+                32300000
+              ],
+              "path": [
+                [
+                  62400000,
+                  33400000
+                ],
+                [
+                  62400000,
+                  33400000
+                ],
+                [
+                  62400000,
+                  32300000
+                ]
+              ]
+            },
+            {
+              "pin": "5",
+              "via": [
+                63200000,
+                32300000
+              ],
+              "path": [
+                [
+                  62800000,
+                  33400000
+                ],
+                [
+                  63200000,
+                  33000000
+                ],
+                [
+                  63200000,
+                  32300000
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "residual": [
+            [
+              "5b133c03-ce04-49aa-bf82-19339991d435",
+              "U5.41"
+            ],
+            [
+              "7bc7d35c-9c83-4680-a8b6-bbe01838c7f3",
+              "U5.6"
+            ]
+          ],
+          "removed": [
+            "97d91e4a-c0a1-4463-a3dc-97a93da9606a",
+            "ff10aae3-e4e5-4337-a636-8f91c1fd64ad"
+          ],
+          "connection": [
+            {
+              "pin": "4",
+              "via": [
+                62400000,
+                32200000
+              ],
+              "path": [
+                [
+                  62400000,
+                  33400000
+                ],
+                [
+                  62400000,
+                  33400000
+                ],
+                [
+                  62400000,
+                  32200000
+                ]
+              ]
+            },
+            {
+              "pin": "5",
+              "via": [
+                63200000,
+                32200000
+              ],
+              "path": [
+                [
+                  62800000,
+                  33400000
+                ],
+                [
+                  63200000,
+                  33000000
+                ],
+                [
+                  63200000,
+                  32200000
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "virtual_rail_release_clear": 0
+    }
+  ],
+  "scope": "Counterfactual geometry screen on the saved 316-join coupon. Only intersections with +1V0_PHY conductors were disregarded; all fixed pads, strap copper, ground, and other rails were retained. No copper was moved or erased from disk.",
+  "decision": "A rail-only rework cannot enable either candidate pair in the tested geometry. Best MDI1 paths still intersect the fixed U5.6 and U5.41 lands. MDI0 has five fixed lands remaining in its best sampled family. A new PHY breakout or placement is required before choosing a replacement supply path.",
+  "adopted": false
+}

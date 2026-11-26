@@ -1,0 +1,609 @@
+{
+  "checkpoint": "layout-emmc-3v3-middle-bank-return-reuse.json",
+  "sha256": "ea93c28539a71f16e3ee3cb48dc68e038d067aaf53c0b294f98c87c8a23a12bb",
+  "surface_grid_mm": 0.05,
+  "maximum_path_mm": 7,
+  "local_square_half_extent_mm": 3.8,
+  "movable_copper_items_per_path": 1,
+  "fixed_land_crossings_allowed": false,
+  "drill_to_copper_search_clearance_mm": 0.252,
+  "cases": [
+    {
+      "layer": "F.Cu",
+      "net": "+1V1_LPDDR4",
+      "rows": [
+        {
+          "source": [
+            "U3"
+          ],
+          "target": [
+            "T2"
+          ],
+          "width_mm": 0.35,
+          "states": 103,
+          "solutions": [],
+          "start_centres": 26,
+          "target_centres": 2607
+        },
+        {
+          "source": [
+            "U3"
+          ],
+          "target": [
+            "T2"
+          ],
+          "width_mm": 0.3,
+          "states": 226,
+          "solutions": [],
+          "start_centres": 26,
+          "target_centres": 2607
+        },
+        {
+          "source": [
+            "U3"
+          ],
+          "target": [
+            "T2"
+          ],
+          "width_mm": 0.25,
+          "states": 358,
+          "solutions": [],
+          "start_centres": 26,
+          "target_centres": 2607
+        },
+        {
+          "source": [
+            "F3"
+          ],
+          "target": [
+            "G2"
+          ],
+          "width_mm": 0.35,
+          "states": 103,
+          "solutions": [],
+          "start_centres": 26,
+          "target_centres": 1636
+        },
+        {
+          "source": [
+            "F3"
+          ],
+          "target": [
+            "G2"
+          ],
+          "width_mm": 0.3,
+          "states": 226,
+          "solutions": [],
+          "start_centres": 26,
+          "target_centres": 1636
+        },
+        {
+          "source": [
+            "F3"
+          ],
+          "target": [
+            "G2"
+          ],
+          "width_mm": 0.25,
+          "states": 358,
+          "solutions": [],
+          "start_centres": 26,
+          "target_centres": 1636
+        },
+        {
+          "source": [
+            "D5"
+          ],
+          "target": [
+            "B5"
+          ],
+          "width_mm": 0.35,
+          "states": 25,
+          "solutions": [],
+          "start_centres": 26,
+          "target_centres": 2509
+        },
+        {
+          "source": [
+            "D5"
+          ],
+          "target": [
+            "B5"
+          ],
+          "width_mm": 0.3,
+          "states": 723,
+          "solutions": [],
+          "start_centres": 26,
+          "target_centres": 2509
+        },
+        {
+          "source": [
+            "D5"
+          ],
+          "target": [
+            "B5"
+          ],
+          "width_mm": 0.25,
+          "states": 883,
+          "solutions": [],
+          "start_centres": 26,
+          "target_centres": 2509
+        },
+        {
+          "source": [
+            "F5"
+          ],
+          "target": [
+            "H5"
+          ],
+          "width_mm": 0.35,
+          "states": 0,
+          "solutions": [],
+          "start_centres": 26,
+          "target_centres": 1936
+        },
+        {
+          "source": [
+            "F5"
+          ],
+          "target": [
+            "H5"
+          ],
+          "width_mm": 0.3,
+          "states": 5,
+          "solutions": [],
+          "start_centres": 26,
+          "target_centres": 1936
+        },
+        {
+          "source": [
+            "F5"
+          ],
+          "target": [
+            "H5"
+          ],
+          "width_mm": 0.25,
+          "states": 24,
+          "solutions": [],
+          "start_centres": 26,
+          "target_centres": 1936
+        },
+        {
+          "source": [
+            "K3"
+          ],
+          "target": [
+            "K1"
+          ],
+          "width_mm": 0.35,
+          "states": 3,
+          "solutions": [],
+          "start_centres": 26,
+          "target_centres": 2199
+        },
+        {
+          "source": [
+            "K3"
+          ],
+          "target": [
+            "K1"
+          ],
+          "width_mm": 0.3,
+          "states": 4,
+          "solutions": [],
+          "start_centres": 26,
+          "target_centres": 2199
+        },
+        {
+          "source": [
+            "K3"
+          ],
+          "target": [
+            "K1"
+          ],
+          "width_mm": 0.25,
+          "states": 15,
+          "solutions": [],
+          "start_centres": 26,
+          "target_centres": 2199
+        },
+        {
+          "source": [
+            "W12"
+          ],
+          "target": [
+            "R12"
+          ],
+          "width_mm": 0.35,
+          "states": 1391,
+          "solutions": [],
+          "start_centres": 26,
+          "target_centres": 737
+        },
+        {
+          "source": [
+            "W12"
+          ],
+          "target": [
+            "R12"
+          ],
+          "width_mm": 0.3,
+          "states": 1599,
+          "solutions": [],
+          "start_centres": 26,
+          "target_centres": 737
+        },
+        {
+          "source": [
+            "W12"
+          ],
+          "target": [
+            "R12"
+          ],
+          "width_mm": 0.25,
+          "states": 1987,
+          "solutions": [],
+          "start_centres": 26,
+          "target_centres": 737
+        },
+        {
+          "source": [
+            "D12"
+          ],
+          "target": [
+            "H12"
+          ],
+          "width_mm": 0.35,
+          "states": 209,
+          "solutions": [],
+          "start_centres": 26,
+          "target_centres": 695
+        },
+        {
+          "source": [
+            "D12"
+          ],
+          "target": [
+            "H12"
+          ],
+          "width_mm": 0.3,
+          "states": 340,
+          "solutions": [],
+          "start_centres": 26,
+          "target_centres": 695
+        },
+        {
+          "source": [
+            "D12"
+          ],
+          "target": [
+            "H12"
+          ],
+          "width_mm": 0.25,
+          "states": 5187,
+          "solutions": [],
+          "start_centres": 26,
+          "target_centres": 695
+        },
+        {
+          "source": [
+            "N3"
+          ],
+          "target": [
+            "N1"
+          ],
+          "width_mm": 0.35,
+          "states": 0,
+          "solutions": [],
+          "start_centres": 26,
+          "target_centres": 2492
+        },
+        {
+          "source": [
+            "N3"
+          ],
+          "target": [
+            "N1"
+          ],
+          "width_mm": 0.3,
+          "states": 0,
+          "solutions": [],
+          "start_centres": 26,
+          "target_centres": 2492
+        },
+        {
+          "source": [
+            "N3"
+          ],
+          "target": [
+            "N1"
+          ],
+          "width_mm": 0.25,
+          "states": 13,
+          "solutions": [],
+          "start_centres": 26,
+          "target_centres": 2492
+        },
+        {
+          "source": [
+            "U5"
+          ],
+          "target": [
+            "T2"
+          ],
+          "width_mm": 0.35,
+          "states": 25,
+          "solutions": [],
+          "start_centres": 26,
+          "target_centres": 2426
+        },
+        {
+          "source": [
+            "U5"
+          ],
+          "target": [
+            "T2"
+          ],
+          "width_mm": 0.3,
+          "states": 99,
+          "solutions": [],
+          "start_centres": 26,
+          "target_centres": 2426
+        },
+        {
+          "source": [
+            "U5"
+          ],
+          "target": [
+            "T2"
+          ],
+          "width_mm": 0.25,
+          "states": 208,
+          "solutions": [],
+          "start_centres": 26,
+          "target_centres": 2426
+        }
+      ]
+    },
+    {
+      "layer": "B.Cu",
+      "rows": [
+        {
+          "source": [
+            "C1612.1"
+          ],
+          "target": [
+            "C1614.1"
+          ],
+          "width_mm": 0.35,
+          "states": 788,
+          "solutions": [],
+          "start_centres": 135,
+          "target_centres": 713
+        },
+        {
+          "source": [
+            "C1612.1"
+          ],
+          "target": [
+            "C1614.1"
+          ],
+          "width_mm": 0.3,
+          "states": 971,
+          "solutions": [],
+          "start_centres": 135,
+          "target_centres": 713
+        },
+        {
+          "source": [
+            "C1612.1"
+          ],
+          "target": [
+            "C1614.1"
+          ],
+          "width_mm": 0.25,
+          "states": 1083,
+          "solutions": [],
+          "start_centres": 135,
+          "target_centres": 713
+        },
+        {
+          "source": [
+            "C1613.1"
+          ],
+          "target": [
+            "C1615.1"
+          ],
+          "width_mm": 0.35,
+          "states": 78337,
+          "solutions": [],
+          "start_centres": 539,
+          "target_centres": 0
+        },
+        {
+          "source": [
+            "C1613.1"
+          ],
+          "target": [
+            "C1615.1"
+          ],
+          "width_mm": 0.3,
+          "states": 79227,
+          "solutions": [],
+          "start_centres": 539,
+          "target_centres": 0
+        },
+        {
+          "source": [
+            "C1613.1"
+          ],
+          "target": [
+            "C1615.1"
+          ],
+          "width_mm": 0.25,
+          "states": 86756,
+          "solutions": [],
+          "start_centres": 539,
+          "target_centres": 0
+        },
+        {
+          "source": [
+            "C1609.1"
+          ],
+          "target": [
+            "C1612.1"
+          ],
+          "width_mm": 0.35,
+          "states": 5193,
+          "solutions": [],
+          "start_centres": 135,
+          "target_centres": 0
+        },
+        {
+          "source": [
+            "C1609.1"
+          ],
+          "target": [
+            "C1612.1"
+          ],
+          "width_mm": 0.3,
+          "states": 5430,
+          "solutions": [],
+          "start_centres": 135,
+          "target_centres": 0
+        },
+        {
+          "source": [
+            "C1609.1"
+          ],
+          "target": [
+            "C1612.1"
+          ],
+          "width_mm": 0.25,
+          "states": 5172,
+          "solutions": [],
+          "start_centres": 135,
+          "target_centres": 0
+        },
+        {
+          "source": [
+            "C1644.1"
+          ],
+          "target": [
+            "C466.1"
+          ],
+          "width_mm": 0.35,
+          "states": 25962,
+          "solutions": [],
+          "start_centres": 595,
+          "target_centres": 0
+        },
+        {
+          "source": [
+            "C1644.1"
+          ],
+          "target": [
+            "C466.1"
+          ],
+          "width_mm": 0.3,
+          "states": 30261,
+          "solutions": [],
+          "start_centres": 595,
+          "target_centres": 0
+        },
+        {
+          "source": [
+            "C1644.1"
+          ],
+          "target": [
+            "C466.1"
+          ],
+          "width_mm": 0.25,
+          "states": 32906,
+          "solutions": [],
+          "start_centres": 595,
+          "target_centres": 0
+        },
+        {
+          "source": [
+            "C1624.1"
+          ],
+          "target": [
+            "C1622.1"
+          ],
+          "width_mm": 0.35,
+          "states": 43893,
+          "solutions": [],
+          "start_centres": 539,
+          "target_centres": 0
+        },
+        {
+          "source": [
+            "C1624.1"
+          ],
+          "target": [
+            "C1622.1"
+          ],
+          "width_mm": 0.3,
+          "states": 46605,
+          "solutions": [],
+          "start_centres": 539,
+          "target_centres": 0
+        },
+        {
+          "source": [
+            "C1624.1"
+          ],
+          "target": [
+            "C1622.1"
+          ],
+          "width_mm": 0.25,
+          "states": 50753,
+          "solutions": [],
+          "start_centres": 539,
+          "target_centres": 0
+        },
+        {
+          "source": [
+            "C1616.1"
+          ],
+          "target": [
+            "C1618.1"
+          ],
+          "width_mm": 0.35,
+          "states": 56006,
+          "solutions": [],
+          "start_centres": 135,
+          "target_centres": 0
+        },
+        {
+          "source": [
+            "C1616.1"
+          ],
+          "target": [
+            "C1618.1"
+          ],
+          "width_mm": 0.3,
+          "states": 59268,
+          "solutions": [],
+          "start_centres": 135,
+          "target_centres": 0
+        },
+        {
+          "source": [
+            "C1616.1"
+          ],
+          "target": [
+            "C1618.1"
+          ],
+          "width_mm": 0.25,
+          "states": 81315,
+          "solutions": [],
+          "start_centres": 135,
+          "target_centres": 0
+        }
+      ]
+    }
+  ],
+  "result": "No bounded route was found that could be created by moving or reusing at most one copper object. No PCB candidate was materialized."
+}

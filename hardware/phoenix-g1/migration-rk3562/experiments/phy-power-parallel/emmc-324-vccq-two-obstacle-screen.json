@@ -1,0 +1,78 @@
+{
+  "base_sha256": "ea93c28539a71f16e3ee3cb48dc68e038d067aaf53c0b294f98c87c8a23a12bb",
+  "target": [
+    "U8001.P3",
+    "U8001.P5"
+  ],
+  "net": "EMMC_IO_1V8",
+  "layer": "B.Cu",
+  "movable_items": 2,
+  "grid_mm": 0.05,
+  "max_path_mm": 7,
+  "rows": [
+    {
+      "source": [
+        "C6"
+      ],
+      "width_mm": 0.35,
+      "states": 2,
+      "solutions": [],
+      "start_centres": 21,
+      "target_centres": 292
+    },
+    {
+      "source": [
+        "C6"
+      ],
+      "width_mm": 0.3,
+      "states": 8,
+      "solutions": [],
+      "start_centres": 21,
+      "target_centres": 292
+    },
+    {
+      "source": [
+        "C6"
+      ],
+      "width_mm": 0.25,
+      "states": 99,
+      "solutions": [],
+      "start_centres": 21,
+      "target_centres": 292
+    },
+    {
+      "source": [
+        "M4",
+        "N4"
+      ],
+      "width_mm": 0.35,
+      "states": 66,
+      "solutions": [],
+      "start_centres": 89,
+      "target_centres": 292
+    },
+    {
+      "source": [
+        "M4",
+        "N4"
+      ],
+      "width_mm": 0.3,
+      "states": 217,
+      "solutions": [],
+      "start_centres": 89,
+      "target_centres": 292
+    },
+    {
+      "source": [
+        "M4",
+        "N4"
+      ],
+      "width_mm": 0.25,
+      "states": 406,
+      "solutions": [],
+      "start_centres": 89,
+      "target_centres": 292
+    }
+  ],
+  "result": "No two-object release connects either VCCQ island to the bank within the search."
+}

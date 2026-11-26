@@ -1,0 +1,4102 @@
+{
+  "board_sha256": "08e2b7f173db1a7d51d9126bc320f73764df740fb8ea37f846ce05b7b11f7220",
+  "summary": {
+    "strict_ball_channel_records": 134,
+    "distinct_tracks_with_strict_ball_channel": 64,
+    "remaining_records_per_net": {
+      "LPDDR4_CLKP_B": 3
+    },
+    "bounded_balanced_gaps_nm": {
+      "86900": 134
+    }
+  },
+  "rows": [
+    {
+      "pad": "A1",
+      "pad_net": "GND",
+      "track": "1f0ca937-6c45-40c1-84c8-293c045fc9af",
+      "track_net": "LPDDR4_DQ11_A",
+      "width_nm": 76200,
+      "point_a": [
+        36550000,
+        13750000
+      ],
+      "point_z": [
+        36500000,
+        13750000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "B1",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "A1",
+      "pad_net": "GND",
+      "track": "ce0f684a-0b5a-46fb-ac04-b6751c3fd4ef",
+      "track_net": "LPDDR4_DQ11_A",
+      "width_nm": 76200,
+      "point_a": [
+        36500000,
+        13750000
+      ],
+      "point_z": [
+        36450000,
+        13750000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "B1",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "A15",
+      "pad_net": "LPDDR4_CLKN_B",
+      "track": "a02f54e4-5077-446b-b033-a12aa2a8f2e7",
+      "track_net": "LPDDR4_A0_B",
+      "width_nm": 76200,
+      "point_a": [
+        43750000,
+        13500000
+      ],
+      "point_z": [
+        43750000,
+        13450000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "A16",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "A15",
+      "pad_net": "LPDDR4_CLKN_B",
+      "track": "f6068796-1937-44a6-b598-e41482059496",
+      "track_net": "LPDDR4_A0_B",
+      "width_nm": 76200,
+      "point_a": [
+        43750000,
+        13550000
+      ],
+      "point_z": [
+        43750000,
+        13500000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "A16",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "A16",
+      "pad_net": "GND",
+      "track": "33490800-a970-4d9d-b5e5-d4d5f11b96d2",
+      "track_net": "LPDDR4_A0_B",
+      "width_nm": 76200,
+      "point_a": [
+        44050000,
+        13750000
+      ],
+      "point_z": [
+        44000000,
+        13750000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "B16",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "A16",
+      "pad_net": "GND",
+      "track": "a02f54e4-5077-446b-b033-a12aa2a8f2e7",
+      "track_net": "LPDDR4_A0_B",
+      "width_nm": 76200,
+      "point_a": [
+        43750000,
+        13500000
+      ],
+      "point_z": [
+        43750000,
+        13450000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "A15",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "A16",
+      "pad_net": "GND",
+      "track": "f6068796-1937-44a6-b598-e41482059496",
+      "track_net": "LPDDR4_A0_B",
+      "width_nm": 76200,
+      "point_a": [
+        43750000,
+        13550000
+      ],
+      "point_z": [
+        43750000,
+        13500000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "A15",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "A16",
+      "pad_net": "GND",
+      "track": "fb4e3af8-5db0-48dd-9fff-f874012fb7ed",
+      "track_net": "LPDDR4_A0_B",
+      "width_nm": 76200,
+      "point_a": [
+        44000000,
+        13750000
+      ],
+      "point_z": [
+        43950000,
+        13750000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "B16",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "A2",
+      "pad_net": "LPDDR4_DM1_A",
+      "track": "3149a901-16a1-43df-8a58-5bb54d3b5612",
+      "track_net": "LPDDR4_DQ15_A",
+      "width_nm": 76200,
+      "point_a": [
+        37250000,
+        13550000
+      ],
+      "point_z": [
+        37250000,
+        13500000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "A3",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "A2",
+      "pad_net": "LPDDR4_DM1_A",
+      "track": "f74a7cbb-772f-4493-8e7f-51a03d11f8d8",
+      "track_net": "LPDDR4_DQ15_A",
+      "width_nm": 76200,
+      "point_a": [
+        37250000,
+        13500000
+      ],
+      "point_z": [
+        37250000,
+        13450000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "A3",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "A24",
+      "pad_net": "LPDDR4_DQ12_B",
+      "track": "aecc5d21-d1fb-49ff-ad47-c66070547374",
+      "track_net": "LPDDR4_DQ15_B",
+      "width_nm": 76200,
+      "point_a": [
+        48250000,
+        13500000
+      ],
+      "point_z": [
+        48250000,
+        13450000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "A25",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "A24",
+      "pad_net": "LPDDR4_DQ12_B",
+      "track": "c1511e0c-75bc-4dd9-8a65-f056f3ddce6e",
+      "track_net": "LPDDR4_DQ15_B",
+      "width_nm": 76200,
+      "point_a": [
+        48250000,
+        13550000
+      ],
+      "point_z": [
+        48250000,
+        13500000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "A25",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "A25",
+      "pad_net": "LPDDR4_DQ14_B",
+      "track": "907f1396-71a0-4824-87c8-1f3a73464874",
+      "track_net": "LPDDR4_DQ11_B",
+      "width_nm": 76200,
+      "point_a": [
+        48750000,
+        13550000
+      ],
+      "point_z": [
+        48750000,
+        13500000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "A26",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "A25",
+      "pad_net": "LPDDR4_DQ14_B",
+      "track": "aecc5d21-d1fb-49ff-ad47-c66070547374",
+      "track_net": "LPDDR4_DQ15_B",
+      "width_nm": 76200,
+      "point_a": [
+        48250000,
+        13500000
+      ],
+      "point_z": [
+        48250000,
+        13450000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "A24",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "A25",
+      "pad_net": "LPDDR4_DQ14_B",
+      "track": "c1511e0c-75bc-4dd9-8a65-f056f3ddce6e",
+      "track_net": "LPDDR4_DQ15_B",
+      "width_nm": 76200,
+      "point_a": [
+        48250000,
+        13550000
+      ],
+      "point_z": [
+        48250000,
+        13500000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "A24",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "A25",
+      "pad_net": "LPDDR4_DQ14_B",
+      "track": "d96e50ad-5618-4d46-83a9-ded877d79f37",
+      "track_net": "LPDDR4_DQ11_B",
+      "width_nm": 76200,
+      "point_a": [
+        48750000,
+        13500000
+      ],
+      "point_z": [
+        48750000,
+        13450000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "A26",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "A26",
+      "pad_net": "LPDDR4_DM1_B",
+      "track": "907f1396-71a0-4824-87c8-1f3a73464874",
+      "track_net": "LPDDR4_DQ11_B",
+      "width_nm": 76200,
+      "point_a": [
+        48750000,
+        13550000
+      ],
+      "point_z": [
+        48750000,
+        13500000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "A25",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "A26",
+      "pad_net": "LPDDR4_DM1_B",
+      "track": "d96e50ad-5618-4d46-83a9-ded877d79f37",
+      "track_net": "LPDDR4_DQ11_B",
+      "width_nm": 76200,
+      "point_a": [
+        48750000,
+        13500000
+      ],
+      "point_z": [
+        48750000,
+        13450000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "A25",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "A3",
+      "pad_net": "LPDDR4_DQ14_A",
+      "track": "3149a901-16a1-43df-8a58-5bb54d3b5612",
+      "track_net": "LPDDR4_DQ15_A",
+      "width_nm": 76200,
+      "point_a": [
+        37250000,
+        13550000
+      ],
+      "point_z": [
+        37250000,
+        13500000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "A2",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "A3",
+      "pad_net": "LPDDR4_DQ14_A",
+      "track": "f74a7cbb-772f-4493-8e7f-51a03d11f8d8",
+      "track_net": "LPDDR4_DQ15_A",
+      "width_nm": 76200,
+      "point_a": [
+        37250000,
+        13500000
+      ],
+      "point_z": [
+        37250000,
+        13450000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "A2",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "AE15",
+      "pad_net": "EXP_I2C_SDA",
+      "track": "273233db-1257-47db-a8f9-7c2a96c6ea4d",
+      "track_net": "EXP_SPI_CLK",
+      "width_nm": 76200,
+      "point_a": [
+        43750000,
+        25750000
+      ],
+      "point_z": [
+        43250000,
+        25750000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "AF15",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "AE21",
+      "pad_net": "GND",
+      "track": "17eac454-4c41-442e-8b48-132f18344952",
+      "track_net": "EXP_I2C_SDA",
+      "width_nm": 76200,
+      "point_a": [
+        46750000,
+        25425000
+      ],
+      "point_z": [
+        46750000,
+        25625000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "AE22",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "AE22",
+      "pad_net": "",
+      "track": "1185708a-9c36-45ac-a779-9fcb0ab87ffa",
+      "track_net": "EXP_I2C_SDA",
+      "width_nm": 76200,
+      "point_a": [
+        46925000,
+        25750000
+      ],
+      "point_z": [
+        47625000,
+        25750000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "AF22",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "AE22",
+      "pad_net": "",
+      "track": "17eac454-4c41-442e-8b48-132f18344952",
+      "track_net": "EXP_I2C_SDA",
+      "width_nm": 76200,
+      "point_a": [
+        46750000,
+        25425000
+      ],
+      "point_z": [
+        46750000,
+        25625000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "AE21",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "AE23",
+      "pad_net": "I2C0_SDA",
+      "track": "1171e0dc-d84e-45cb-826c-326f6dcec041",
+      "track_net": "EXP_I2C_SDA",
+      "width_nm": 76200,
+      "point_a": [
+        47750000,
+        25575000
+      ],
+      "point_z": [
+        47750000,
+        25075000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "AE24",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "AE23",
+      "pad_net": "I2C0_SDA",
+      "track": "1185708a-9c36-45ac-a779-9fcb0ab87ffa",
+      "track_net": "EXP_I2C_SDA",
+      "width_nm": 76200,
+      "point_a": [
+        46925000,
+        25750000
+      ],
+      "point_z": [
+        47625000,
+        25750000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "AF23",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "AE24",
+      "pad_net": "",
+      "track": "1171e0dc-d84e-45cb-826c-326f6dcec041",
+      "track_net": "EXP_I2C_SDA",
+      "width_nm": 76200,
+      "point_a": [
+        47750000,
+        25575000
+      ],
+      "point_z": [
+        47750000,
+        25075000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "AE23",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "AF14",
+      "pad_net": "",
+      "track": "39eb05d7-cf4b-4ceb-bcab-03f64546d198",
+      "track_net": "EXP_SPI_CLK",
+      "width_nm": 76200,
+      "point_a": [
+        43250000,
+        25750000
+      ],
+      "point_z": [
+        43250000,
+        27150000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "AF15",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "AF15",
+      "pad_net": "EXP_SPI_CS1_N",
+      "track": "273233db-1257-47db-a8f9-7c2a96c6ea4d",
+      "track_net": "EXP_SPI_CLK",
+      "width_nm": 76200,
+      "point_a": [
+        43750000,
+        25750000
+      ],
+      "point_z": [
+        43250000,
+        25750000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "AE15",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "AF15",
+      "pad_net": "EXP_SPI_CS1_N",
+      "track": "39eb05d7-cf4b-4ceb-bcab-03f64546d198",
+      "track_net": "EXP_SPI_CLK",
+      "width_nm": 76200,
+      "point_a": [
+        43250000,
+        25750000
+      ],
+      "point_z": [
+        43250000,
+        27150000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "AF14",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "AF22",
+      "pad_net": "PMIC_INT_N",
+      "track": "1185708a-9c36-45ac-a779-9fcb0ab87ffa",
+      "track_net": "EXP_I2C_SDA",
+      "width_nm": 76200,
+      "point_a": [
+        46925000,
+        25750000
+      ],
+      "point_z": [
+        47625000,
+        25750000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "AE22",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "AF23",
+      "pad_net": "PMIC_SLEEP",
+      "track": "1185708a-9c36-45ac-a779-9fcb0ab87ffa",
+      "track_net": "EXP_I2C_SDA",
+      "width_nm": 76200,
+      "point_a": [
+        46925000,
+        25750000
+      ],
+      "point_z": [
+        47625000,
+        25750000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "AE23",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "AG14",
+      "pad_net": "",
+      "track": "39eb05d7-cf4b-4ceb-bcab-03f64546d198",
+      "track_net": "EXP_SPI_CLK",
+      "width_nm": 76200,
+      "point_a": [
+        43250000,
+        25750000
+      ],
+      "point_z": [
+        43250000,
+        27150000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "AG15",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "AG15",
+      "pad_net": "GND",
+      "track": "39eb05d7-cf4b-4ceb-bcab-03f64546d198",
+      "track_net": "EXP_SPI_CLK",
+      "width_nm": 76200,
+      "point_a": [
+        43250000,
+        25750000
+      ],
+      "point_z": [
+        43250000,
+        27150000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "AG14",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "B1",
+      "pad_net": "LPDDR4_DQ10_A",
+      "track": "1f0ca937-6c45-40c1-84c8-293c045fc9af",
+      "track_net": "LPDDR4_DQ11_A",
+      "width_nm": 76200,
+      "point_a": [
+        36550000,
+        13750000
+      ],
+      "point_z": [
+        36500000,
+        13750000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "A1",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "B1",
+      "pad_net": "LPDDR4_DQ10_A",
+      "track": "621b2504-6999-4285-87fa-fba84bfd9b6c",
+      "track_net": "LPDDR4_DQ8_A",
+      "width_nm": 76200,
+      "point_a": [
+        36550000,
+        14250000
+      ],
+      "point_z": [
+        36500000,
+        14250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C1",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "B1",
+      "pad_net": "LPDDR4_DQ10_A",
+      "track": "bbeb3e72-4ec3-48c6-b8f2-c55605e0cc4a",
+      "track_net": "LPDDR4_DQ8_A",
+      "width_nm": 76200,
+      "point_a": [
+        36500000,
+        14250000
+      ],
+      "point_z": [
+        36450000,
+        14250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C1",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "B1",
+      "pad_net": "LPDDR4_DQ10_A",
+      "track": "ce0f684a-0b5a-46fb-ac04-b6751c3fd4ef",
+      "track_net": "LPDDR4_DQ11_A",
+      "width_nm": 76200,
+      "point_a": [
+        36500000,
+        13750000
+      ],
+      "point_z": [
+        36450000,
+        13750000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "A1",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "B16",
+      "pad_net": "",
+      "track": "0ad46ec9-0cde-47dc-8e49-e8f32c229989",
+      "track_net": "LPDDR4_A0_B",
+      "width_nm": 76200,
+      "point_a": [
+        44250000,
+        14000000
+      ],
+      "point_z": [
+        44250000,
+        13950000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "B17",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "B16",
+      "pad_net": "",
+      "track": "33490800-a970-4d9d-b5e5-d4d5f11b96d2",
+      "track_net": "LPDDR4_A0_B",
+      "width_nm": 76200,
+      "point_a": [
+        44050000,
+        13750000
+      ],
+      "point_z": [
+        44000000,
+        13750000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "A16",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "B16",
+      "pad_net": "",
+      "track": "f607e8d0-fade-49d4-9459-60e5220bdda7",
+      "track_net": "LPDDR4_A0_B",
+      "width_nm": 76200,
+      "point_a": [
+        44250000,
+        14050000
+      ],
+      "point_z": [
+        44250000,
+        14000000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "B17",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "B16",
+      "pad_net": "",
+      "track": "fb4e3af8-5db0-48dd-9fff-f874012fb7ed",
+      "track_net": "LPDDR4_A0_B",
+      "width_nm": 76200,
+      "point_a": [
+        44000000,
+        13750000
+      ],
+      "point_z": [
+        43950000,
+        13750000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "A16",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "B17",
+      "pad_net": "LPDDR4_CS0N_B",
+      "track": "0ad46ec9-0cde-47dc-8e49-e8f32c229989",
+      "track_net": "LPDDR4_A0_B",
+      "width_nm": 76200,
+      "point_a": [
+        44250000,
+        14000000
+      ],
+      "point_z": [
+        44250000,
+        13950000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "B16",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "B17",
+      "pad_net": "LPDDR4_CS0N_B",
+      "track": "0c8923fd-793d-4647-a056-16a20e5de340",
+      "track_net": "LPDDR4_A0_B",
+      "width_nm": 76200,
+      "point_a": [
+        44550000,
+        14250000
+      ],
+      "point_z": [
+        44500000,
+        14250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C17",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "B17",
+      "pad_net": "LPDDR4_CS0N_B",
+      "track": "337ed758-e39f-48be-80d3-bf40c2099a0f",
+      "track_net": "LPDDR4_A0_B",
+      "width_nm": 76200,
+      "point_a": [
+        44500000,
+        14250000
+      ],
+      "point_z": [
+        44450000,
+        14250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C17",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "B17",
+      "pad_net": "LPDDR4_CS0N_B",
+      "track": "f607e8d0-fade-49d4-9459-60e5220bdda7",
+      "track_net": "LPDDR4_A0_B",
+      "width_nm": 76200,
+      "point_a": [
+        44250000,
+        14050000
+      ],
+      "point_z": [
+        44250000,
+        14000000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "B16",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "B2",
+      "pad_net": "LPDDR4_DQ11_A",
+      "track": "ceb26b7a-daaf-4f5f-96a2-d33650baf8d4",
+      "track_net": "LPDDR4_DQ10_A",
+      "width_nm": 76200,
+      "point_a": [
+        36950000,
+        14250000
+      ],
+      "point_z": [
+        37000000,
+        14250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C2",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "B2",
+      "pad_net": "LPDDR4_DQ11_A",
+      "track": "ec9fda74-78d7-4f5e-92f8-84e9d20f33ea",
+      "track_net": "LPDDR4_DQ10_A",
+      "width_nm": 76200,
+      "point_a": [
+        37000000,
+        14250000
+      ],
+      "point_z": [
+        37050000,
+        14250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C2",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "B23",
+      "pad_net": "LPDDR4_DQ5_B",
+      "track": "22b2ff6e-78a8-407b-80ab-f1ab3e4e34bc",
+      "track_net": "LPDDR4_DQ0_B",
+      "width_nm": 76200,
+      "point_a": [
+        47450000,
+        14250000
+      ],
+      "point_z": [
+        47500000,
+        14250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C23",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "B23",
+      "pad_net": "LPDDR4_DQ5_B",
+      "track": "50f2d702-04ff-4903-b7f1-1d2325308c58",
+      "track_net": "LPDDR4_DQ0_B",
+      "width_nm": 76200,
+      "point_a": [
+        47500000,
+        14250000
+      ],
+      "point_z": [
+        47550000,
+        14250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C23",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "B24",
+      "pad_net": "LPDDR4_DQ13_B",
+      "track": "d6323b3c-85ee-4dc2-9049-7719fdceaab1",
+      "track_net": "LPDDR4_DQ0_B",
+      "width_nm": 76200,
+      "point_a": [
+        47950000,
+        14250000
+      ],
+      "point_z": [
+        48000000,
+        14250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C24",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "B24",
+      "pad_net": "LPDDR4_DQ13_B",
+      "track": "e9bc7010-ff9f-40a3-99cf-04faf3ce5453",
+      "track_net": "LPDDR4_DQ0_B",
+      "width_nm": 76200,
+      "point_a": [
+        48000000,
+        14250000
+      ],
+      "point_z": [
+        48050000,
+        14250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C24",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "B25",
+      "pad_net": "LPDDR4_DQ15_B",
+      "track": "62e0523e-47c9-4edc-8e21-735e466afbde",
+      "track_net": "LPDDR4_DQ13_B",
+      "width_nm": 76200,
+      "point_a": [
+        48500000,
+        14250000
+      ],
+      "point_z": [
+        48550000,
+        14250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C25",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "B25",
+      "pad_net": "LPDDR4_DQ15_B",
+      "track": "a53569c2-ebde-411f-bbf0-0efae91e5a3b",
+      "track_net": "LPDDR4_DQ13_B",
+      "width_nm": 76200,
+      "point_a": [
+        48450000,
+        14250000
+      ],
+      "point_z": [
+        48500000,
+        14250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C25",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "B4",
+      "pad_net": "LPDDR4_DQ13_A",
+      "track": "293185dc-9035-47d7-9096-8874283dc051",
+      "track_net": "LPDDR4_DQ5_A",
+      "width_nm": 76200,
+      "point_a": [
+        38000000,
+        14250000
+      ],
+      "point_z": [
+        37950000,
+        14250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C4",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "B4",
+      "pad_net": "LPDDR4_DQ13_A",
+      "track": "d83d452c-2298-437e-a7ff-2e2ab1c945eb",
+      "track_net": "LPDDR4_DQ5_A",
+      "width_nm": 76200,
+      "point_a": [
+        38050000,
+        14250000
+      ],
+      "point_z": [
+        38000000,
+        14250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C4",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C1",
+      "pad_net": "LPDDR4_DQ9_A",
+      "track": "621b2504-6999-4285-87fa-fba84bfd9b6c",
+      "track_net": "LPDDR4_DQ8_A",
+      "width_nm": 76200,
+      "point_a": [
+        36550000,
+        14250000
+      ],
+      "point_z": [
+        36500000,
+        14250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "B1",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C1",
+      "pad_net": "LPDDR4_DQ9_A",
+      "track": "bbeb3e72-4ec3-48c6-b8f2-c55605e0cc4a",
+      "track_net": "LPDDR4_DQ8_A",
+      "width_nm": 76200,
+      "point_a": [
+        36500000,
+        14250000
+      ],
+      "point_z": [
+        36450000,
+        14250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "B1",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C14",
+      "pad_net": "GND",
+      "track": "493012dc-d553-4df5-bd52-a5751319ab5c",
+      "track_net": "LPDDR4_CLKP_B",
+      "width_nm": 76200,
+      "point_a": [
+        43250000,
+        14500000
+      ],
+      "point_z": [
+        43250000,
+        14550000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C15",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C14",
+      "pad_net": "GND",
+      "track": "62ec5520-ae7b-4132-9fe7-c125e0898c6e",
+      "track_net": "LPDDR4_CLKP_B",
+      "width_nm": 76200,
+      "point_a": [
+        43250000,
+        14450000
+      ],
+      "point_z": [
+        43250000,
+        14500000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C15",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C15",
+      "pad_net": "GND",
+      "track": "493012dc-d553-4df5-bd52-a5751319ab5c",
+      "track_net": "LPDDR4_CLKP_B",
+      "width_nm": 76200,
+      "point_a": [
+        43250000,
+        14500000
+      ],
+      "point_z": [
+        43250000,
+        14550000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C14",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C15",
+      "pad_net": "GND",
+      "track": "5c0b9e7c-5d37-4571-8a5e-caf293fe7756",
+      "track_net": "LPDDR4_CLKP_B",
+      "width_nm": 76200,
+      "point_a": [
+        43300000,
+        14350000
+      ],
+      "point_z": [
+        43250000,
+        14400000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": []
+    },
+    {
+      "pad": "C15",
+      "pad_net": "GND",
+      "track": "62ec5520-ae7b-4132-9fe7-c125e0898c6e",
+      "track_net": "LPDDR4_CLKP_B",
+      "width_nm": 76200,
+      "point_a": [
+        43250000,
+        14450000
+      ],
+      "point_z": [
+        43250000,
+        14500000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C14",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C15",
+      "pad_net": "GND",
+      "track": "77f1e9ed-bcad-4e48-bac2-f6bceb352217",
+      "track_net": "LPDDR4_CLKP_B",
+      "width_nm": 76200,
+      "point_a": [
+        43350000,
+        14300000
+      ],
+      "point_z": [
+        43300000,
+        14350000
+      ],
+      "current_gap_nm": [
+        84337,
+        84423
+      ],
+      "strict_bottleneck": []
+    },
+    {
+      "pad": "C15",
+      "pad_net": "GND",
+      "track": "f8f62861-10bc-4517-82b5-4228ae4b0a5b",
+      "track_net": "LPDDR4_CLKP_B",
+      "width_nm": 76200,
+      "point_a": [
+        43350000,
+        14250000
+      ],
+      "point_z": [
+        43350000,
+        14300000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": []
+    },
+    {
+      "pad": "C17",
+      "pad_net": "",
+      "track": "0c8923fd-793d-4647-a056-16a20e5de340",
+      "track_net": "LPDDR4_A0_B",
+      "width_nm": 76200,
+      "point_a": [
+        44550000,
+        14250000
+      ],
+      "point_z": [
+        44500000,
+        14250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "B17",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C17",
+      "pad_net": "",
+      "track": "337ed758-e39f-48be-80d3-bf40c2099a0f",
+      "track_net": "LPDDR4_A0_B",
+      "width_nm": 76200,
+      "point_a": [
+        44500000,
+        14250000
+      ],
+      "point_z": [
+        44450000,
+        14250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "B17",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C2",
+      "pad_net": "LPDDR4_DQ8_A",
+      "track": "1db60433-37db-495a-becc-137a57a29945",
+      "track_net": "LPDDR4_DQ10_A",
+      "width_nm": 76200,
+      "point_a": [
+        37050000,
+        14750000
+      ],
+      "point_z": [
+        37000000,
+        14750000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "D2",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C2",
+      "pad_net": "LPDDR4_DQ8_A",
+      "track": "3b659787-9d1a-4b6d-82ae-a554c946ab8d",
+      "track_net": "LPDDR4_DQ10_A",
+      "width_nm": 76200,
+      "point_a": [
+        37000000,
+        14750000
+      ],
+      "point_z": [
+        36950000,
+        14750000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "D2",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C2",
+      "pad_net": "LPDDR4_DQ8_A",
+      "track": "85afc18f-8901-42e2-b5d0-172304550574",
+      "track_net": "LPDDR4_DQ10_A",
+      "width_nm": 76200,
+      "point_a": [
+        37250000,
+        14450000
+      ],
+      "point_z": [
+        37250000,
+        14500000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C3",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C2",
+      "pad_net": "LPDDR4_DQ8_A",
+      "track": "93c59d70-9d2b-46e9-af49-3c6fd195249b",
+      "track_net": "LPDDR4_DQ10_A",
+      "width_nm": 76200,
+      "point_a": [
+        37250000,
+        14500000
+      ],
+      "point_z": [
+        37250000,
+        14550000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C3",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C2",
+      "pad_net": "LPDDR4_DQ8_A",
+      "track": "ceb26b7a-daaf-4f5f-96a2-d33650baf8d4",
+      "track_net": "LPDDR4_DQ10_A",
+      "width_nm": 76200,
+      "point_a": [
+        36950000,
+        14250000
+      ],
+      "point_z": [
+        37000000,
+        14250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "B2",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C2",
+      "pad_net": "LPDDR4_DQ8_A",
+      "track": "ec9fda74-78d7-4f5e-92f8-84e9d20f33ea",
+      "track_net": "LPDDR4_DQ10_A",
+      "width_nm": 76200,
+      "point_a": [
+        37000000,
+        14250000
+      ],
+      "point_z": [
+        37050000,
+        14250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "B2",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C23",
+      "pad_net": "LPDDR4_DQ4_B",
+      "track": "22b2ff6e-78a8-407b-80ab-f1ab3e4e34bc",
+      "track_net": "LPDDR4_DQ0_B",
+      "width_nm": 76200,
+      "point_a": [
+        47450000,
+        14250000
+      ],
+      "point_z": [
+        47500000,
+        14250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "B23",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C23",
+      "pad_net": "LPDDR4_DQ4_B",
+      "track": "50f2d702-04ff-4903-b7f1-1d2325308c58",
+      "track_net": "LPDDR4_DQ0_B",
+      "width_nm": 76200,
+      "point_a": [
+        47500000,
+        14250000
+      ],
+      "point_z": [
+        47550000,
+        14250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "B23",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C24",
+      "pad_net": "GND",
+      "track": "0697379b-5bf2-4968-a8ee-3de70251269d",
+      "track_net": "LPDDR4_DQ0_B",
+      "width_nm": 76200,
+      "point_a": [
+        48250000,
+        14500000
+      ],
+      "point_z": [
+        48250000,
+        14550000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C25",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C24",
+      "pad_net": "GND",
+      "track": "6cde8e24-0622-4a02-92e6-cf3ec46ec574",
+      "track_net": "LPDDR4_DQ0_B",
+      "width_nm": 76200,
+      "point_a": [
+        48250000,
+        14450000
+      ],
+      "point_z": [
+        48250000,
+        14500000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C25",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C24",
+      "pad_net": "GND",
+      "track": "d6323b3c-85ee-4dc2-9049-7719fdceaab1",
+      "track_net": "LPDDR4_DQ0_B",
+      "width_nm": 76200,
+      "point_a": [
+        47950000,
+        14250000
+      ],
+      "point_z": [
+        48000000,
+        14250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "B24",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C24",
+      "pad_net": "GND",
+      "track": "e9bc7010-ff9f-40a3-99cf-04faf3ce5453",
+      "track_net": "LPDDR4_DQ0_B",
+      "width_nm": 76200,
+      "point_a": [
+        48000000,
+        14250000
+      ],
+      "point_z": [
+        48050000,
+        14250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "B24",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C25",
+      "pad_net": "GND",
+      "track": "0092626e-4c29-4a6f-967d-dd209987e134",
+      "track_net": "LPDDR4_DQ13_B",
+      "width_nm": 76200,
+      "point_a": [
+        48750000,
+        14450000
+      ],
+      "point_z": [
+        48750000,
+        14500000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C26",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C25",
+      "pad_net": "GND",
+      "track": "0697379b-5bf2-4968-a8ee-3de70251269d",
+      "track_net": "LPDDR4_DQ0_B",
+      "width_nm": 76200,
+      "point_a": [
+        48250000,
+        14500000
+      ],
+      "point_z": [
+        48250000,
+        14550000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C24",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C25",
+      "pad_net": "GND",
+      "track": "5d8365c9-8777-4c59-a56c-562a23bd6327",
+      "track_net": "LPDDR4_DQ13_B",
+      "width_nm": 76200,
+      "point_a": [
+        48750000,
+        14500000
+      ],
+      "point_z": [
+        48750000,
+        14550000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C26",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C25",
+      "pad_net": "GND",
+      "track": "62e0523e-47c9-4edc-8e21-735e466afbde",
+      "track_net": "LPDDR4_DQ13_B",
+      "width_nm": 76200,
+      "point_a": [
+        48500000,
+        14250000
+      ],
+      "point_z": [
+        48550000,
+        14250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "B25",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C25",
+      "pad_net": "GND",
+      "track": "6cde8e24-0622-4a02-92e6-cf3ec46ec574",
+      "track_net": "LPDDR4_DQ0_B",
+      "width_nm": 76200,
+      "point_a": [
+        48250000,
+        14450000
+      ],
+      "point_z": [
+        48250000,
+        14500000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C24",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C25",
+      "pad_net": "GND",
+      "track": "a53569c2-ebde-411f-bbf0-0efae91e5a3b",
+      "track_net": "LPDDR4_DQ13_B",
+      "width_nm": 76200,
+      "point_a": [
+        48450000,
+        14250000
+      ],
+      "point_z": [
+        48500000,
+        14250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "B25",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C26",
+      "pad_net": "LPDDR4_DQ8_B",
+      "track": "0092626e-4c29-4a6f-967d-dd209987e134",
+      "track_net": "LPDDR4_DQ13_B",
+      "width_nm": 76200,
+      "point_a": [
+        48750000,
+        14450000
+      ],
+      "point_z": [
+        48750000,
+        14500000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C25",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C26",
+      "pad_net": "LPDDR4_DQ8_B",
+      "track": "5d8365c9-8777-4c59-a56c-562a23bd6327",
+      "track_net": "LPDDR4_DQ13_B",
+      "width_nm": 76200,
+      "point_a": [
+        48750000,
+        14500000
+      ],
+      "point_z": [
+        48750000,
+        14550000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C25",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C3",
+      "pad_net": "GND",
+      "track": "48cfa5e1-3f25-4c1e-9020-180a40bd4de0",
+      "track_net": "LPDDR4_DQ5_A",
+      "width_nm": 76200,
+      "point_a": [
+        37550000,
+        14750000
+      ],
+      "point_z": [
+        37500000,
+        14750000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "D3",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C3",
+      "pad_net": "GND",
+      "track": "85afc18f-8901-42e2-b5d0-172304550574",
+      "track_net": "LPDDR4_DQ10_A",
+      "width_nm": 76200,
+      "point_a": [
+        37250000,
+        14450000
+      ],
+      "point_z": [
+        37250000,
+        14500000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C2",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C3",
+      "pad_net": "GND",
+      "track": "93c59d70-9d2b-46e9-af49-3c6fd195249b",
+      "track_net": "LPDDR4_DQ10_A",
+      "width_nm": 76200,
+      "point_a": [
+        37250000,
+        14500000
+      ],
+      "point_z": [
+        37250000,
+        14550000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C2",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C3",
+      "pad_net": "GND",
+      "track": "a2d11209-bfba-499e-8d3f-dcd3dc44a781",
+      "track_net": "LPDDR4_DQ5_A",
+      "width_nm": 76200,
+      "point_a": [
+        37500000,
+        14750000
+      ],
+      "point_z": [
+        37450000,
+        14750000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "D3",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C3",
+      "pad_net": "GND",
+      "track": "a8099e7f-6859-4923-8598-e2b176939180",
+      "track_net": "LPDDR4_DQ5_A",
+      "width_nm": 76200,
+      "point_a": [
+        37750000,
+        14450000
+      ],
+      "point_z": [
+        37750000,
+        14500000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C4",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C3",
+      "pad_net": "GND",
+      "track": "b74e5798-0f40-4500-8f3e-430b32556527",
+      "track_net": "LPDDR4_DQ5_A",
+      "width_nm": 76200,
+      "point_a": [
+        37750000,
+        14500000
+      ],
+      "point_z": [
+        37750000,
+        14550000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C4",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C4",
+      "pad_net": "GND",
+      "track": "293185dc-9035-47d7-9096-8874283dc051",
+      "track_net": "LPDDR4_DQ5_A",
+      "width_nm": 76200,
+      "point_a": [
+        38000000,
+        14250000
+      ],
+      "point_z": [
+        37950000,
+        14250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "B4",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C4",
+      "pad_net": "GND",
+      "track": "a8099e7f-6859-4923-8598-e2b176939180",
+      "track_net": "LPDDR4_DQ5_A",
+      "width_nm": 76200,
+      "point_a": [
+        37750000,
+        14450000
+      ],
+      "point_z": [
+        37750000,
+        14500000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C3",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C4",
+      "pad_net": "GND",
+      "track": "b74e5798-0f40-4500-8f3e-430b32556527",
+      "track_net": "LPDDR4_DQ5_A",
+      "width_nm": 76200,
+      "point_a": [
+        37750000,
+        14500000
+      ],
+      "point_z": [
+        37750000,
+        14550000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C3",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "C4",
+      "pad_net": "GND",
+      "track": "d83d452c-2298-437e-a7ff-2e2ab1c945eb",
+      "track_net": "LPDDR4_DQ5_A",
+      "width_nm": 76200,
+      "point_a": [
+        38050000,
+        14250000
+      ],
+      "point_z": [
+        38000000,
+        14250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "B4",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "D1",
+      "pad_net": "",
+      "track": "a88a4c81-39da-4503-b6cb-690ff6bde5b3",
+      "track_net": "LPDDR4_DQ10_A",
+      "width_nm": 76200,
+      "point_a": [
+        36750000,
+        15000000
+      ],
+      "point_z": [
+        36750000,
+        15050000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "D2",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "D1",
+      "pad_net": "",
+      "track": "f4db067a-297a-4c2c-8e82-f0f0147629c4",
+      "track_net": "LPDDR4_DQ10_A",
+      "width_nm": 76200,
+      "point_a": [
+        36750000,
+        14950000
+      ],
+      "point_z": [
+        36750000,
+        15000000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "D2",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "D1",
+      "pad_net": "",
+      "track": "f9b460f8-f586-4488-a1c4-6e76a21294cc",
+      "track_net": "LPDDR4_DQ10_A",
+      "width_nm": 76200,
+      "point_a": [
+        36550000,
+        15250000
+      ],
+      "point_z": [
+        36500000,
+        15250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "E1",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "D1",
+      "pad_net": "",
+      "track": "fb0bbbce-8fa4-4a36-9352-022fbcc19166",
+      "track_net": "LPDDR4_DQ10_A",
+      "width_nm": 76200,
+      "point_a": [
+        36500000,
+        15250000
+      ],
+      "point_z": [
+        36450000,
+        15250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "E1",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "D2",
+      "pad_net": "GND",
+      "track": "1db60433-37db-495a-becc-137a57a29945",
+      "track_net": "LPDDR4_DQ10_A",
+      "width_nm": 76200,
+      "point_a": [
+        37050000,
+        14750000
+      ],
+      "point_z": [
+        37000000,
+        14750000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C2",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "D2",
+      "pad_net": "GND",
+      "track": "3b659787-9d1a-4b6d-82ae-a554c946ab8d",
+      "track_net": "LPDDR4_DQ10_A",
+      "width_nm": 76200,
+      "point_a": [
+        37000000,
+        14750000
+      ],
+      "point_z": [
+        36950000,
+        14750000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C2",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "D2",
+      "pad_net": "GND",
+      "track": "56504b5f-04fc-4cdb-b7c2-ac575a846b6d",
+      "track_net": "LPDDR4_DQ5_A",
+      "width_nm": 76200,
+      "point_a": [
+        37050000,
+        15250000
+      ],
+      "point_z": [
+        37000000,
+        15250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "E2",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "D2",
+      "pad_net": "GND",
+      "track": "a88a4c81-39da-4503-b6cb-690ff6bde5b3",
+      "track_net": "LPDDR4_DQ10_A",
+      "width_nm": 76200,
+      "point_a": [
+        36750000,
+        15000000
+      ],
+      "point_z": [
+        36750000,
+        15050000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "D1",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "D2",
+      "pad_net": "GND",
+      "track": "b0ffbe81-0204-455b-a6f2-696dafef8d5e",
+      "track_net": "LPDDR4_DQ5_A",
+      "width_nm": 76200,
+      "point_a": [
+        37250000,
+        14950000
+      ],
+      "point_z": [
+        37250000,
+        15000000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "D3",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "D2",
+      "pad_net": "GND",
+      "track": "b1bf4c31-f715-4217-bdfa-70b5a723b050",
+      "track_net": "LPDDR4_DQ5_A",
+      "width_nm": 76200,
+      "point_a": [
+        37250000,
+        15000000
+      ],
+      "point_z": [
+        37250000,
+        15050000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "D3",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "D2",
+      "pad_net": "GND",
+      "track": "d8115cdd-b24a-456f-be15-07a550d9915d",
+      "track_net": "LPDDR4_DQ5_A",
+      "width_nm": 76200,
+      "point_a": [
+        37000000,
+        15250000
+      ],
+      "point_z": [
+        36950000,
+        15250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "E2",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "D2",
+      "pad_net": "GND",
+      "track": "f4db067a-297a-4c2c-8e82-f0f0147629c4",
+      "track_net": "LPDDR4_DQ10_A",
+      "width_nm": 76200,
+      "point_a": [
+        36750000,
+        14950000
+      ],
+      "point_z": [
+        36750000,
+        15000000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "D1",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "D25",
+      "pad_net": "GND",
+      "track": "0302b3b8-b90e-4561-a332-967c3789c1c8",
+      "track_net": "LPDDR4_DQ13_B",
+      "width_nm": 76200,
+      "point_a": [
+        48750000,
+        14950000
+      ],
+      "point_z": [
+        48750000,
+        15000000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "D26",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "D25",
+      "pad_net": "GND",
+      "track": "05b1e227-c277-45d8-a182-2e0054e25bbb",
+      "track_net": "LPDDR4_DQ13_B",
+      "width_nm": 76200,
+      "point_a": [
+        48750000,
+        15000000
+      ],
+      "point_z": [
+        48750000,
+        15050000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "D26",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "D25",
+      "pad_net": "GND",
+      "track": "2f5f1766-534d-4a93-8993-2a2b341eb486",
+      "track_net": "LPDDR4_DQ13_B",
+      "width_nm": 76200,
+      "point_a": [
+        48550000,
+        15250000
+      ],
+      "point_z": [
+        48500000,
+        15250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "E25",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "D25",
+      "pad_net": "GND",
+      "track": "e0f7632c-373c-40d1-b37f-a2f8f9f4d2fb",
+      "track_net": "LPDDR4_DQ13_B",
+      "width_nm": 76200,
+      "point_a": [
+        48500000,
+        15250000
+      ],
+      "point_z": [
+        48450000,
+        15250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "E25",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "D26",
+      "pad_net": "RECOVERY_ADC",
+      "track": "0302b3b8-b90e-4561-a332-967c3789c1c8",
+      "track_net": "LPDDR4_DQ13_B",
+      "width_nm": 76200,
+      "point_a": [
+        48750000,
+        14950000
+      ],
+      "point_z": [
+        48750000,
+        15000000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "D25",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "D26",
+      "pad_net": "RECOVERY_ADC",
+      "track": "05b1e227-c277-45d8-a182-2e0054e25bbb",
+      "track_net": "LPDDR4_DQ13_B",
+      "width_nm": 76200,
+      "point_a": [
+        48750000,
+        15000000
+      ],
+      "point_z": [
+        48750000,
+        15050000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "D25",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "D3",
+      "pad_net": "",
+      "track": "48cfa5e1-3f25-4c1e-9020-180a40bd4de0",
+      "track_net": "LPDDR4_DQ5_A",
+      "width_nm": 76200,
+      "point_a": [
+        37550000,
+        14750000
+      ],
+      "point_z": [
+        37500000,
+        14750000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C3",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "D3",
+      "pad_net": "",
+      "track": "a2d11209-bfba-499e-8d3f-dcd3dc44a781",
+      "track_net": "LPDDR4_DQ5_A",
+      "width_nm": 76200,
+      "point_a": [
+        37500000,
+        14750000
+      ],
+      "point_z": [
+        37450000,
+        14750000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "C3",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "D3",
+      "pad_net": "",
+      "track": "b0ffbe81-0204-455b-a6f2-696dafef8d5e",
+      "track_net": "LPDDR4_DQ5_A",
+      "width_nm": 76200,
+      "point_a": [
+        37250000,
+        14950000
+      ],
+      "point_z": [
+        37250000,
+        15000000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "D2",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "D3",
+      "pad_net": "",
+      "track": "b1bf4c31-f715-4217-bdfa-70b5a723b050",
+      "track_net": "LPDDR4_DQ5_A",
+      "width_nm": 76200,
+      "point_a": [
+        37250000,
+        15000000
+      ],
+      "point_z": [
+        37250000,
+        15050000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "D2",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "E1",
+      "pad_net": "",
+      "track": "69e8a607-ab3a-478a-a9a2-49554fffb354",
+      "track_net": "LPDDR4_DQ5_A",
+      "width_nm": 76200,
+      "point_a": [
+        36750000,
+        15500000
+      ],
+      "point_z": [
+        36750000,
+        15550000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "E2",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "E1",
+      "pad_net": "",
+      "track": "8ec02d55-af1d-4f50-a0bf-846dcb11c254",
+      "track_net": "LPDDR4_DQ5_A",
+      "width_nm": 76200,
+      "point_a": [
+        36750000,
+        15450000
+      ],
+      "point_z": [
+        36750000,
+        15500000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "E2",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "E1",
+      "pad_net": "",
+      "track": "f9b460f8-f586-4488-a1c4-6e76a21294cc",
+      "track_net": "LPDDR4_DQ10_A",
+      "width_nm": 76200,
+      "point_a": [
+        36550000,
+        15250000
+      ],
+      "point_z": [
+        36500000,
+        15250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "D1",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "E1",
+      "pad_net": "",
+      "track": "fb0bbbce-8fa4-4a36-9352-022fbcc19166",
+      "track_net": "LPDDR4_DQ10_A",
+      "width_nm": 76200,
+      "point_a": [
+        36500000,
+        15250000
+      ],
+      "point_z": [
+        36450000,
+        15250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "D1",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "E2",
+      "pad_net": "",
+      "track": "56504b5f-04fc-4cdb-b7c2-ac575a846b6d",
+      "track_net": "LPDDR4_DQ5_A",
+      "width_nm": 76200,
+      "point_a": [
+        37050000,
+        15250000
+      ],
+      "point_z": [
+        37000000,
+        15250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "D2",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "E2",
+      "pad_net": "",
+      "track": "69e8a607-ab3a-478a-a9a2-49554fffb354",
+      "track_net": "LPDDR4_DQ5_A",
+      "width_nm": 76200,
+      "point_a": [
+        36750000,
+        15500000
+      ],
+      "point_z": [
+        36750000,
+        15550000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "E1",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "E2",
+      "pad_net": "",
+      "track": "8ec02d55-af1d-4f50-a0bf-846dcb11c254",
+      "track_net": "LPDDR4_DQ5_A",
+      "width_nm": 76200,
+      "point_a": [
+        36750000,
+        15450000
+      ],
+      "point_z": [
+        36750000,
+        15500000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "E1",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "E2",
+      "pad_net": "",
+      "track": "d8115cdd-b24a-456f-be15-07a550d9915d",
+      "track_net": "LPDDR4_DQ5_A",
+      "width_nm": 76200,
+      "point_a": [
+        37000000,
+        15250000
+      ],
+      "point_z": [
+        36950000,
+        15250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "D2",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "E25",
+      "pad_net": "GND",
+      "track": "2f5f1766-534d-4a93-8993-2a2b341eb486",
+      "track_net": "LPDDR4_DQ13_B",
+      "width_nm": 76200,
+      "point_a": [
+        48550000,
+        15250000
+      ],
+      "point_z": [
+        48500000,
+        15250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "D25",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "E25",
+      "pad_net": "GND",
+      "track": "e0f7632c-373c-40d1-b37f-a2f8f9f4d2fb",
+      "track_net": "LPDDR4_DQ13_B",
+      "width_nm": 76200,
+      "point_a": [
+        48500000,
+        15250000
+      ],
+      "point_z": [
+        48450000,
+        15250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "D25",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "J1",
+      "pad_net": "",
+      "track": "fd82d4b4-52cc-4387-aa7c-f31007b5d76f",
+      "track_net": "EXP_GPIO0",
+      "width_nm": 76200,
+      "point_a": [
+        36750000,
+        17750000
+      ],
+      "point_z": [
+        36750000,
+        17250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "J2",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "J2",
+      "pad_net": "",
+      "track": "fd82d4b4-52cc-4387-aa7c-f31007b5d76f",
+      "track_net": "EXP_GPIO0",
+      "width_nm": 76200,
+      "point_a": [
+        36750000,
+        17750000
+      ],
+      "point_z": [
+        36750000,
+        17250000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "J1",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "M2",
+      "pad_net": "",
+      "track": "58193dab-6b9b-42ce-9ac9-8d17c9457056",
+      "track_net": "EXP_GPIO1",
+      "width_nm": 76200,
+      "point_a": [
+        37250000,
+        18750000
+      ],
+      "point_z": [
+        37250000,
+        19750000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "M3",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "M3",
+      "pad_net": "LCD_CS_N",
+      "track": "58193dab-6b9b-42ce-9ac9-8d17c9457056",
+      "track_net": "EXP_GPIO1",
+      "width_nm": 76200,
+      "point_a": [
+        37250000,
+        18750000
+      ],
+      "point_z": [
+        37250000,
+        19750000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "M2",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "N2",
+      "pad_net": "LCD_RESET_N",
+      "track": "58193dab-6b9b-42ce-9ac9-8d17c9457056",
+      "track_net": "EXP_GPIO1",
+      "width_nm": 76200,
+      "point_a": [
+        37250000,
+        18750000
+      ],
+      "point_z": [
+        37250000,
+        19750000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "N3",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "N2",
+      "pad_net": "LCD_RESET_N",
+      "track": "8024dc1b-b869-4a67-8114-8202eb2cdc33",
+      "track_net": "EXP_GPIO1",
+      "width_nm": 76200,
+      "point_a": [
+        37250000,
+        19750000
+      ],
+      "point_z": [
+        36750000,
+        19750000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "P2",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "N3",
+      "pad_net": "LCD_SCLK",
+      "track": "58193dab-6b9b-42ce-9ac9-8d17c9457056",
+      "track_net": "EXP_GPIO1",
+      "width_nm": 76200,
+      "point_a": [
+        37250000,
+        18750000
+      ],
+      "point_z": [
+        37250000,
+        19750000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "N2",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "P2",
+      "pad_net": "",
+      "track": "8024dc1b-b869-4a67-8114-8202eb2cdc33",
+      "track_net": "EXP_GPIO1",
+      "width_nm": 76200,
+      "point_a": [
+        37250000,
+        19750000
+      ],
+      "point_z": [
+        36750000,
+        19750000
+      ],
+      "current_gap_nm": [
+        86816,
+        86901
+      ],
+      "strict_bottleneck": [
+        {
+          "pad": "N2",
+          "pitch_nm": 500000,
+          "balanced_gap_nm": 86900,
+          "other_observed_gap_nm": [
+            86816,
+            86901
+          ]
+        }
+      ]
+    }
+  ],
+  "scope": {
+    "candidate_board": "../dfm-320-ab26-ag21-spacing/phy-joint.kicad_pcb",
+    "total_pad_track_records": 137,
+    "geometry": "F.Cu U1 pad-to-foreign-track clearance below 90 um using native effective shapes. A strict bottleneck is recorded if the track centerline crosses the center-to-center line of two circular foreign pads for which the calculated balanced gap is below 90 um. This is a corridor bound with fixed pad diameters, center distance and track width. It does not rule out a different topology.",
+    "remaining_clock_cases": "Three serial records against U1.C15 on the same LPDDR4_CLKP_B escape, immediately adjacent to the C14-C15 constriction. Their segment lengths are 50.0 or 70.7 um. The minimum 90-um adjacent segment requirement in the fixed-end jog screen left no trial knot in this family. A different clock escape would require a joint clock and reference check.",
+    "routing_decision": "No isolated non-clock candidate remains after classifying the constrained crossings. No PCB or adoption document modified."
+  }
+}

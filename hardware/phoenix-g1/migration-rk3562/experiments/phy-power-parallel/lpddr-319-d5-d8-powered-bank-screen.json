@@ -1,0 +1,310 @@
+{
+  "checkpoint": "hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/layout-lpddr-d1-feed.json",
+  "board": "hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/runs/lpddr-d1-feed/phy-joint.kicad_pcb",
+  "sha256": "8ccbbccb22d0e17e20fa5dad586d12dbd094bd8a54b27361c076047dd1173778",
+  "kicad_version": "10.0.7",
+  "native_baseline": {
+    "unconnected_items": 319,
+    "findings": 121,
+    "findings_by_type": {
+      "via_dangling": 121
+    }
+  },
+  "scope": {
+    "net": "+1V1_LPDDR4",
+    "bank_anchor": "L403.2",
+    "includes_new_D1_copper": true,
+    "surface": "F.Cu",
+    "surface_width_mm": 0.2,
+    "surface_search_rect_mm": [
+      25,
+      0.35,
+      35,
+      9
+    ],
+    "maximum_surface_length_mm": 7,
+    "surface_search_grid_mm": [
+      0.015,
+      0.01
+    ],
+    "ground_copper_clearance_mm": 0.2,
+    "foreign_drill_clearance_mm": 0.25,
+    "package_pad_diameter_mm": 0.3,
+    "local_vertical_pitch_mm": 0.65,
+    "local_horizontal_pitch_on_tested_edges_mm": 0.8,
+    "via_search": {
+      "grid_mm": 0.05,
+      "annulus_diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "off_pad_site_distance_from_source_mm": [
+        0.36,
+        3
+      ],
+      "layer_scope": "all six copper layers with bounding-box pad keepouts and through-hole spacing",
+      "surface_stub_max_mm": 3
+    }
+  },
+  "D5": {
+    "source": "U2.D5",
+    "already_powered_destination": "U2.B5",
+    "reachable_cells": {
+      "15um": 263,
+      "10um": 589
+    },
+    "reachable_powered_centerline_samples": 0,
+    "nearest_powered_sample_at_grid_10um": {
+      "site_mm": [
+        29.05,
+        3.9
+      ],
+      "target_mm": [
+        28.8,
+        2.825
+      ],
+      "distance_mm": 1.103687,
+      "target": "U2.B5"
+    },
+    "qualified_via_sites": 0,
+    "initial_trial": {
+      "parent": "pre-D1 layout, same local obstacles",
+      "additional_violations": [
+        {
+          "kind": "clearance",
+          "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1500 mm)",
+          "items": [
+            {
+              "description": "Pista [+1V1_LPDDR4] su F.Cu, lung. 1.1000 mm",
+              "pos": {
+                "x": 29.35,
+                "y": 3.75
+              },
+              "uuid": "07d7bf51-caf3-48ab-95a1-2188a4c23ba7"
+            },
+            {
+              "description": "Via [GND] su F.Cu - B.Cu",
+              "pos": {
+                "x": 29.52,
+                "y": 4.3
+              },
+              "uuid": "935e849b-0075-4bac-93f2-6e84689ed593"
+            }
+          ]
+        },
+        {
+          "kind": "clearance",
+          "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1502 mm)",
+          "items": [
+            {
+              "description": "Via [GND] su F.Cu - B.Cu",
+              "pos": {
+                "x": 29.52,
+                "y": 4.3
+              },
+              "uuid": "935e849b-0075-4bac-93f2-6e84689ed593"
+            },
+            {
+              "description": "Pista [+1V1_LPDDR4] su F.Cu, lung. 0.6657 mm",
+              "pos": {
+                "x": 28.8,
+                "y": 4.125
+              },
+              "uuid": "acbc3fea-1526-40f3-b76b-243f29c29a18"
+            }
+          ]
+        }
+      ],
+      "scope": "trial connected D5 to D8 while both were isolated from L403.2"
+    }
+  },
+  "D8": {
+    "source": "U2.D8",
+    "already_powered_destination": "U2.B8",
+    "reachable_cells": {
+      "15um": 4209,
+      "10um": 9445
+    },
+    "reachable_powered_centerline_samples": 0,
+    "nearest_powered_sample_at_grid_10um": {
+      "site_mm": [
+        30.31,
+        3.33
+      ],
+      "target_mm": [
+        30.995,
+        2.645
+      ],
+      "distance_mm": 0.968736,
+      "target_uuid": "023df702-8218-4c01-a4dd-cfc58424c93e"
+    },
+    "qualified_via_sites": 0,
+    "initial_trial": {
+      "parent": "pre-D1 layout, same local obstacles",
+      "additional_violations": [
+        {
+          "kind": "clearance",
+          "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1787 mm)",
+          "items": [
+            {
+              "description": "Pista [+1V1_LPDDR4] su F.Cu, lung. 1.5462 mm",
+              "pos": {
+                "x": 31.2,
+                "y": 4.125
+              },
+              "uuid": "77d2dd35-7ab1-49c7-9bda-0044d0faa5e7"
+            },
+            {
+              "description": "Via [GND] su F.Cu - B.Cu",
+              "pos": {
+                "x": 29.52,
+                "y": 4.3
+              },
+              "uuid": "935e849b-0075-4bac-93f2-6e84689ed593"
+            }
+          ]
+        },
+        {
+          "kind": "clearance",
+          "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1919 mm)",
+          "items": [
+            {
+              "description": "Pista [+1V1_LPDDR4] su F.Cu, lung. 0.4500 mm",
+              "pos": {
+                "x": 29.7,
+                "y": 3.75
+              },
+              "uuid": "5bebf4ab-cd07-468a-8af6-f8bee47baf40"
+            },
+            {
+              "description": "Pista [GND] su F.Cu, lung. 0.8768 mm",
+              "pos": {
+                "x": 28.9,
+                "y": 3.475
+              },
+              "uuid": "fc462761-7011-45b7-8b1f-17b700870164"
+            }
+          ]
+        },
+        {
+          "kind": "clearance",
+          "description": "Violazione clearance (netclass \"Default\" clearance 0.2000 mm; reale 0.1853 mm)",
+          "items": [
+            {
+              "description": "Pista [+1V1_LPDDR4] su F.Cu, lung. 0.5858 mm",
+              "pos": {
+                "x": 29.25,
+                "y": 3.75
+              },
+              "uuid": "422cd459-fbec-4deb-add1-495d3294fa33"
+            },
+            {
+              "description": "Pista [GND] su F.Cu, lung. 0.8768 mm",
+              "pos": {
+                "x": 28.9,
+                "y": 3.475
+              },
+              "uuid": "fc462761-7011-45b7-8b1f-17b700870164"
+            }
+          ]
+        }
+      ],
+      "scope": "trial connected D5 to D8 while both were isolated from L403.2"
+    }
+  },
+  "blocked_sections": [
+    {
+      "source": "U2.D5",
+      "side": "west of U2.C5",
+      "at_y_mm": 3.475,
+      "via_centers_mm": [
+        [
+          28.4,
+          3.15
+        ],
+        [
+          28.4,
+          3.8
+        ]
+      ],
+      "ground_pad_center_mm": [
+        28.8,
+        3.475
+      ],
+      "via_drills_mm": 0.2,
+      "track_center_x_min_mm": 28.711247,
+      "track_center_x_max_mm": 28.45,
+      "note": "Even with the package pad clearance reduced to 0.10 mm for this calculation, the channel between drills and pad is closed."
+    },
+    {
+      "source": "U2.D8",
+      "side": "east of U2.C8",
+      "at_y_mm": 3.475,
+      "via_centers_mm": [
+        [
+          31.6,
+          3.15
+        ],
+        [
+          31.6,
+          3.8
+        ]
+      ],
+      "ground_pad_center_mm": [
+        31.2,
+        3.475
+      ],
+      "via_drills_mm": 0.2,
+      "track_center_x_max_mm": 31.288753,
+      "track_center_x_min_mm": 31.55,
+      "note": "Even with the package pad clearance reduced to 0.10 mm for this calculation, the channel between pad and drills is closed."
+    }
+  ],
+  "other_open_power_balls_10um": {
+    "F8": {
+      "reachable_cells": 164,
+      "reachable_powered_centerline_samples": 0
+    },
+    "F5": {
+      "reachable_cells": 164,
+      "reachable_powered_centerline_samples": 0
+    },
+    "K3": {
+      "reachable_cells": 154,
+      "reachable_powered_centerline_samples": 0
+    },
+    "U5": {
+      "reachable_cells": 3750,
+      "reachable_powered_centerline_samples": 0
+    },
+    "N3": {
+      "reachable_cells": 131,
+      "reachable_powered_centerline_samples": 0
+    },
+    "U8": {
+      "reachable_cells": 3750,
+      "reachable_powered_centerline_samples": 0
+    },
+    "U3": {
+      "reachable_cells": 2015,
+      "reachable_powered_centerline_samples": 0
+    },
+    "F3": {
+      "reachable_cells": 2015,
+      "reachable_powered_centerline_samples": 0
+    },
+    "F10": {
+      "reachable_cells": 3587,
+      "reachable_powered_centerline_samples": 0
+    },
+    "U10": {
+      "reachable_cells": 3592,
+      "reachable_powered_centerline_samples": 0
+    },
+    "W12": {
+      "reachable_cells": 2420,
+      "reachable_powered_centerline_samples": 0
+    }
+  },
+  "result": "No additive route to the live bank was found in the searched region or via class. No candidate board promoted.",
+  "alternative": "Study a coordinated local GND escape and D8 transition to the existing +1V1_LPDDR4 In3 bank. D8 has the larger sampled region; review the GND return near (29.52,4.30) and compare native DRC, bank continuity and GND plane before considering any change.",
+  "limits": "Grid and centerline sampling, conservative via geometry and fixed layer/width/window; this is not a global impossibility proof."
+}

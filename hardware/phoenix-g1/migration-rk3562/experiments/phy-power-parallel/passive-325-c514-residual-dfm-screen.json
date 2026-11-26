@@ -1,0 +1,307 @@
+{
+  "retained_checkpoint": "layout-phy-c514-off-drill.json",
+  "known_overlap_recheck": {
+    "sha256": "9ff70dd85cf1b7076fd4b8e94728795a7d62fb935caba6d65ea50a13d99983f6",
+    "rows": [
+      {
+        "pad": "C1304.1",
+        "via_nm": [
+          18550000,
+          38750000
+        ],
+        "overlap": true
+      },
+      {
+        "pad": "C1665.2",
+        "via_nm": [
+          23100000,
+          20000000
+        ],
+        "overlap": true
+      },
+      {
+        "pad": "C518.1",
+        "via_nm": [
+          60100000,
+          33900000
+        ],
+        "overlap": true
+      },
+      {
+        "pad": "R510.2",
+        "via_nm": [
+          68010000,
+          30100000
+        ],
+        "overlap": true
+      },
+      {
+        "pad": "C515.1",
+        "via_nm": [
+          62015000,
+          24600000
+        ],
+        "overlap": true
+      },
+      {
+        "pad": "C512.1",
+        "via_nm": [
+          62450000,
+          34500000
+        ],
+        "overlap": false
+      },
+      {
+        "pad": "C513.1",
+        "via_nm": [
+          65099999,
+          34250000
+        ],
+        "overlap": true
+      },
+      {
+        "pad": "C514.1",
+        "via_nm": [
+          66450000,
+          29100000
+        ],
+        "overlap": false
+      },
+      {
+        "pad": "C514.1",
+        "via_nm": [
+          67050000,
+          29100000
+        ],
+        "overlap": false
+      },
+      {
+        "pad": "C512.1",
+        "via_nm": [
+          61900000,
+          34500000
+        ],
+        "overlap": false
+      },
+      {
+        "pad": "C513.1",
+        "via_nm": [
+          64550000,
+          34250000
+        ],
+        "overlap": true
+      }
+    ],
+    "remaining": 7
+  },
+  "result": "No additional part placement or local via geometry cleared the bounded screens.",
+  "individual_pose_search": {
+    "offset_per_axis_mm": 0.9,
+    "translation_grid_mm": 0.075,
+    "angle_half_range_deg": 90,
+    "angular_step_deg": 15,
+    "minimum_drill_to_pad_search_mm": 0.115,
+    "results": {
+      "C513": {
+        "candidate_count": 0,
+        "courtyard_blocker_hits": {
+          "U5": 5838,
+          "C512": 395,
+          "U22": 5900,
+          "C516": 2142
+        }
+      },
+      "C1665": {
+        "candidate_count": 0,
+        "courtyard_blocker_hits": {
+          "C1648": 2972,
+          "C1646": 4303,
+          "C1649": 462,
+          "C1664": 852,
+          "C1650": 4155
+        }
+      },
+      "R510": {
+        "candidate_count": 0,
+        "courtyard_blocker_hits": {
+          "C514": 3939,
+          "U5": 1600,
+          "J2": 2506,
+          "R515": 1037
+        }
+      },
+      "C518": {
+        "candidate_count": 0,
+        "courtyard_blocker_hits": {
+          "R528": 5492,
+          "C1014": 1433,
+          "C522": 856
+        }
+      },
+      "C515": {
+        "candidate_count": 0,
+        "courtyard_blocker_hits": {
+          "C1001": 5123,
+          "R1002": 2617,
+          "U10": 375,
+          "R509": 5350,
+          "C519": 91,
+          "C517": 579,
+          "R516": 2651,
+          "R508": 8
+        }
+      }
+    }
+  },
+  "joint_pose_search": {
+    "blocker_offset_per_axis_mm": 0.25,
+    "blocker_translation_grid_mm": 0.125,
+    "results": [
+      {
+        "target": "C513.1",
+        "mobile_blocker": "C516",
+        "admissible_blocker_positions": 8,
+        "joint_candidate_count": 0,
+        "blocker_positions_nm": [
+          [
+            66900000,
+            33075000
+          ],
+          [
+            66900000,
+            33325000
+          ],
+          [
+            67025000,
+            33075000
+          ],
+          [
+            67025000,
+            33200000
+          ],
+          [
+            67025000,
+            33325000
+          ],
+          [
+            67150000,
+            33075000
+          ],
+          [
+            67150000,
+            33200000
+          ],
+          [
+            67150000,
+            33325000
+          ]
+        ]
+      },
+      {
+        "target": "R510.2",
+        "mobile_blocker": "C514",
+        "admissible_blocker_positions": 0,
+        "joint_candidate_count": 0,
+        "blocker_positions_nm": []
+      },
+      {
+        "target": "C1665.2",
+        "mobile_blocker": "C1664",
+        "admissible_blocker_positions": 16,
+        "joint_candidate_count": 0,
+        "blocker_positions_nm": [
+          [
+            24875000,
+            16750000
+          ],
+          [
+            24875000,
+            16875000
+          ],
+          [
+            24875000,
+            17000000
+          ],
+          [
+            25000000,
+            16750000
+          ],
+          [
+            25000000,
+            16875000
+          ],
+          [
+            25000000,
+            17125000
+          ],
+          [
+            25125000,
+            16750000
+          ],
+          [
+            25125000,
+            16875000
+          ],
+          [
+            25125000,
+            17000000
+          ],
+          [
+            25125000,
+            17125000
+          ],
+          [
+            25125000,
+            17250000
+          ],
+          [
+            25250000,
+            16750000
+          ],
+          [
+            25250000,
+            16875000
+          ],
+          [
+            25250000,
+            17000000
+          ],
+          [
+            25250000,
+            17125000
+          ],
+          [
+            25250000,
+            17250000
+          ]
+        ]
+      },
+      {
+        "target": "C518.1",
+        "mobile_blocker": "R528",
+        "admissible_blocker_positions": 0,
+        "joint_candidate_count": 0,
+        "blocker_positions_nm": []
+      }
+    ]
+  },
+  "c515_via_search": {
+    "base_sha256": "9ff70dd85cf1b7076fd4b8e94728795a7d62fb935caba6d65ea50a13d99983f6",
+    "target": "C515.1",
+    "counts": {
+      "pad_or_hole_margin": 1255,
+      "via_clearance": 1
+    },
+    "candidates": [],
+    "candidate_count": 0
+  },
+  "retained_verification": {
+    "minimum_open_joins": 325,
+    "open_nets": 195,
+    "checked_pad_pairs": 881,
+    "drc_findings": 121,
+    "introduced_drc": [],
+    "usb_selector_checked_pairs": 4
+  },
+  "assembly_ready": false
+}

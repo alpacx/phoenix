@@ -1,0 +1,376 @@
+{
+  "parent_sha256": "0b1c64d4b92e2eb958cbcb6c51572c9f14184fa6f5b2acadcfe419e202486209",
+  "sha256": "2e27af66ff7c7fd72d0513631b24b2b3a15d0088a489ae861d05b18afa1fb801",
+  "replacement_track": "446171a7-93e3-47d0-b92e-83918eba66f2",
+  "width_windows_mm": [
+    [
+      25.2,
+      29.5,
+      1.975
+    ],
+    [
+      29.55,
+      31.1,
+      1.325
+    ],
+    [
+      32.9,
+      34.5,
+      1.325
+    ]
+  ],
+  "segments_nm": [
+    [
+      [
+        24350000,
+        39150000
+      ],
+      [
+        25200000,
+        39150000
+      ],
+      800000
+    ],
+    [
+      [
+        25200000,
+        39150000
+      ],
+      [
+        25788500,
+        38561500
+      ],
+      800000
+    ],
+    [
+      [
+        25788500,
+        38561500
+      ],
+      [
+        28911500,
+        38561500
+      ],
+      1975000
+    ],
+    [
+      [
+        28911500,
+        38561500
+      ],
+      [
+        29500000,
+        39150000
+      ],
+      800000
+    ],
+    [
+      [
+        29500000,
+        39150000
+      ],
+      [
+        29550000,
+        39150000
+      ],
+      800000
+    ],
+    [
+      [
+        29550000,
+        39150000
+      ],
+      [
+        29813500,
+        38886500
+      ],
+      800000
+    ],
+    [
+      [
+        29813500,
+        38886500
+      ],
+      [
+        30836500,
+        38886500
+      ],
+      1325000
+    ],
+    [
+      [
+        30836500,
+        38886500
+      ],
+      [
+        31100000,
+        39150000
+      ],
+      800000
+    ],
+    [
+      [
+        31100000,
+        39150000
+      ],
+      [
+        32900000,
+        39150000
+      ],
+      800000
+    ],
+    [
+      [
+        32900000,
+        39150000
+      ],
+      [
+        33163500,
+        38886500
+      ],
+      800000
+    ],
+    [
+      [
+        33163500,
+        38886500
+      ],
+      [
+        34236500,
+        38886500
+      ],
+      1325000
+    ],
+    [
+      [
+        34236500,
+        38886500
+      ],
+      [
+        34500000,
+        39150000
+      ],
+      800000
+    ],
+    [
+      [
+        34500000,
+        39150000
+      ],
+      [
+        49000000,
+        39150000
+      ],
+      800000
+    ]
+  ],
+  "edge_mm": {
+    "before": 0.45,
+    "after": 0.45
+  },
+  "resistance": {
+    "squares_before": 30.8125,
+    "squares_after": 28.60704068730561,
+    "reduction_percent": 7.157677282578144,
+    "scenario_15p2um_mohm": {
+      "before": 34.94786184210526,
+      "after": 32.446406674286095
+    },
+    "temperature_c": 20,
+    "scope": "Only the replaced 24.65 mm long serial In4 track. Resistance is geometric estimate at 20 \u00b0C excluding vias, other rails, and narrowing effects at junctions; thickness from JLC06161H-3313 stack scenario."
+  },
+  "critical_clearance_nm": {
+    "WIFI_REG_ON": [
+      899413,
+      899413
+    ],
+    "EXP_I2C_SDA": [
+      625487,
+      625487
+    ],
+    "EXP_I2C_SCL": [
+      3000000,
+      3000000
+    ],
+    "WIFI_VBAT_PG": [
+      3000000,
+      3000000
+    ],
+    "WIFI_HOST_WAKE": [
+      1825195,
+      1825195
+    ]
+  },
+  "reference": {
+    "covered_preexisting_samples": 19564,
+    "lost_samples": 0,
+    "loss_examples": [],
+    "sampling_step_mm": 0.012,
+    "reference_plane": "In4.Cu",
+    "scope": "Center and edges of unchanged B.Cu and In3.Cu tracks within 3.8 mm of the replaced part; only samples previously on GND are tested for coverage regression."
+  },
+  "verified_layout_pairs": 887,
+  "checked_bank": [
+    "U4.4",
+    "U4.10",
+    "U4.11",
+    "U4.22",
+    "U4.24",
+    "U4.30",
+    "U4.33",
+    "U4.45",
+    "U4.54",
+    "U4.57",
+    "U4.66",
+    "TP4.1"
+  ],
+  "remaining_joins": 319,
+  "drc_by_type": {
+    "via_dangling": 121
+  },
+  "new_drc": [],
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 8337,
+    "explicitly_replaced_copper": {
+      "446171a7-93e3-47d0-b92e-83918eba66f2": [
+        "+3V3_SYS",
+        10,
+        24350000,
+        39150000,
+        49000000,
+        39150000,
+        800000,
+        null
+      ]
+    },
+    "added_tracks_vias": 12,
+    "existing_connected_pad_groups_preserved": 132
+  },
+  "assembly_ready": false,
+  "individual_track_cut": {
+    "uuid": "446171a7-93e3-47d0-b92e-83918eba66f2",
+    "via": false,
+    "layer": "In4.Cu",
+    "start_mm": [
+      24.35,
+      39.15
+    ],
+    "end_mm": [
+      49.0,
+      39.15
+    ],
+    "width_mm": 0.8,
+    "length_mm": 24.65,
+    "lost_pads": [
+      "C421.1",
+      "C422.1",
+      "C423.1",
+      "C424.1",
+      "C425.1",
+      "C480.1",
+      "C481.1",
+      "C482.1",
+      "C483.1",
+      "C484.1",
+      "C485.1",
+      "R410.1",
+      "TP4.1",
+      "U4.10",
+      "U4.11",
+      "U4.22",
+      "U4.24",
+      "U4.30",
+      "U4.33",
+      "U4.4",
+      "U4.45",
+      "U4.54",
+      "U4.57",
+      "U4.66"
+    ],
+    "cuts_C1304_to_U4pin10": true
+  },
+  "tracked_buck_group": {
+    "chosen_bank": [
+      "U4.10 VCC2",
+      "U4.11 VCC1"
+    ],
+    "source": "C1304.1 on converter output +3V3_SYS",
+    "other_inputs_maintained": true,
+    "testpoint_only_branch_excluded": "f650866e-7acc-4303-8d44-f0bd8b20690b"
+  },
+  "pcb_geometry_comparison": {
+    "board_edge_distance_mm": 0.45,
+    "in4_ground_adjacent_inland_corridor_minimum_mm": {
+      "before": 0.424,
+      "after": 0.424,
+      "x_mm": 31.950013,
+      "x_sample_spacing_mm": 0.025
+    },
+    "plane_check_report": "plane-global.json"
+  },
+  "independent_inventory": {
+    "sha256": "2e27af66ff7c7fd72d0513631b24b2b3a15d0088a489ae861d05b18afa1fb801",
+    "parent_sha256": "0b1c64d4b92e2eb958cbcb6c51572c9f14184fa6f5b2acadcfe419e202486209",
+    "joins": 319,
+    "open_nets": 194,
+    "changed_groups": {},
+    "drc_findings": 121,
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 8337,
+      "explicitly_replaced_copper": {
+        "446171a7-93e3-47d0-b92e-83918eba66f2": [
+          "+3V3_SYS",
+          10,
+          24350000,
+          39150000,
+          49000000,
+          39150000,
+          800000,
+          null
+        ]
+      },
+      "added_tracks_vias": 12,
+      "existing_connected_pad_groups_preserved": 132
+    }
+  },
+  "independent_width": {
+    "old_track_uuids": [
+      "446171a7-93e3-47d0-b92e-83918eba66f2"
+    ],
+    "removed_or_replaced": 1,
+    "new_segments": 13,
+    "original_segment_squares": 30.8125,
+    "new_segment_squares": 28.60704068730561,
+    "local_resistance_reduction_percent": 7.157677282578145,
+    "resistivity_ohm_m_at_20C": 1.724e-08,
+    "estimated_tracks_mohm_at_15p2um": [
+      34.94786184210526,
+      32.4464066742861
+    ],
+    "unchanged_footprint_poses": 378
+  },
+  "independent_ground_fill_difference": {
+    "In1.Cu": {
+      "ground_loss_mm2": 0.0,
+      "ground_gain_mm2": 0.0,
+      "ground_outlines_before_after": [
+        1,
+        1
+      ],
+      "loss_under_pads_tracks_vias": [],
+      "loss_with_100um_halo": []
+    },
+    "In4.Cu": {
+      "ground_loss_mm2": 7.756880032051,
+      "ground_gain_mm2": 5.1395e-09,
+      "ground_outlines_before_after": [
+        1,
+        1
+      ],
+      "loss_under_pads_tracks_vias": [],
+      "loss_with_100um_halo": []
+    }
+  }
+}

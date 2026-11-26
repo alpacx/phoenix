@@ -1,0 +1,357 @@
+{
+  "parent_sha256": "08e2b7f173db1a7d51d9126bc320f73764df740fb8ea37f846ce05b7b11f7220",
+  "trial_sha256": "686b8d4ac0e800488dd7cec8a59348e20556dd566f561195f18e3cd028a546ec",
+  "old_joins": 320,
+  "joins": 320,
+  "layout_pairs": 886,
+  "lost": [],
+  "drc_delta": [],
+  "dfm_counts": [
+    137,
+    136
+  ],
+  "removed_dfm_violations": [
+    [
+      "AE21",
+      "17eac454-4c41-442e-8b48-132f18344952"
+    ],
+    [
+      "AE22",
+      "17eac454-4c41-442e-8b48-132f18344952"
+    ]
+  ],
+  "new_dfm_violations": [
+    [
+      "AE21",
+      "4f982093-b352-4843-a3b6-3b94d9a3389d"
+    ]
+  ],
+  "physical_preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 8321,
+    "explicitly_replaced_copper": {
+      "17eac454-4c41-442e-8b48-132f18344952": [
+        "EXP_I2C_SDA",
+        0,
+        46750000,
+        25425000,
+        46750000,
+        25625000,
+        76200,
+        null
+      ],
+      "ccfe7f20-c38c-4d05-973d-78df6c7809f6": [
+        "EXP_I2C_SDA",
+        0,
+        46875000,
+        25725000,
+        46750000,
+        25625000,
+        76200,
+        null
+      ]
+    },
+    "added_tracks_vias": 0,
+    "existing_connected_pad_groups_preserved": 132
+  },
+  "mount_screen": [],
+  "batch": [
+    {
+      "net": "EXP_I2C_SDA",
+      "ids": [
+        "17eac454-4c41-442e-8b48-132f18344952",
+        "ccfe7f20-c38c-4d05-973d-78df6c7809f6"
+      ],
+      "before_nm": [
+        46750000,
+        25625000
+      ],
+      "fixed_nm": [
+        [
+          46750000,
+          25425000
+        ],
+        [
+          46875000,
+          25725000
+        ]
+      ],
+      "after_nm": [
+        46740000,
+        25625000
+      ],
+      "removed_pad_contacts": [
+        "AE22"
+      ],
+      "reduction": 1,
+      "move_nm": 10000.0,
+      "option_count": 133,
+      "added": [
+        "4f982093-b352-4843-a3b6-3b94d9a3389d",
+        "33bf19ab-338e-4fba-a1f8-0081ccc783af"
+      ],
+      "in1_samples_missing_before_after": [
+        [
+          117,
+          0
+        ],
+        [
+          120,
+          0
+        ]
+      ],
+      "length_mm_before_after": [
+        0.3600781059358212,
+        0.3682528201091223
+      ]
+    }
+  ],
+  "adjacent_clearance_limit_nm": 300000,
+  "adjacent_clearance_before_after": [
+    [
+      {
+        "object": "1ea8b54e-b001-4aea-9045-3ca412262e65",
+        "track": 1,
+        "shape": "copper",
+        "foreign_net": "PMIC_INT_N",
+        "bounds_nm": [
+          250268,
+          250341
+        ]
+      },
+      {
+        "object": "1ea8b54e-b001-4aea-9045-3ca412262e65",
+        "track": 1,
+        "shape": "copper",
+        "foreign_net": "PMIC_INT_N",
+        "bounds_nm": [
+          250268,
+          250341
+        ]
+      }
+    ],
+    [
+      {
+        "object": "U1.AE21",
+        "track": 0,
+        "shape": "copper",
+        "foreign_net": "GND",
+        "bounds_nm": [
+          86864,
+          86937
+        ]
+      },
+      {
+        "object": "U1.AE21",
+        "track": 0,
+        "shape": "copper",
+        "foreign_net": "GND",
+        "bounds_nm": [
+          82836,
+          82910
+        ]
+      }
+    ],
+    [
+      {
+        "object": "U1.AE21",
+        "track": 1,
+        "shape": "copper",
+        "foreign_net": "GND",
+        "bounds_nm": [
+          116381,
+          116454
+        ]
+      },
+      {
+        "object": "U1.AE21",
+        "track": 1,
+        "shape": "copper",
+        "foreign_net": "GND",
+        "bounds_nm": [
+          107445,
+          107519
+        ]
+      }
+    ],
+    [
+      {
+        "object": "U1.AE22",
+        "track": 0,
+        "shape": "copper",
+        "foreign_net": "",
+        "bounds_nm": [
+          86864,
+          86937
+        ]
+      },
+      {
+        "object": "U1.AE22",
+        "track": 0,
+        "shape": "copper",
+        "foreign_net": "",
+        "bounds_nm": [
+          90307,
+          90380
+        ]
+      }
+    ],
+    [
+      {
+        "object": "U1.AE22",
+        "track": 1,
+        "shape": "copper",
+        "foreign_net": "",
+        "bounds_nm": [
+          90673,
+          90746
+        ]
+      },
+      {
+        "object": "U1.AE22",
+        "track": 1,
+        "shape": "copper",
+        "foreign_net": "",
+        "bounds_nm": [
+          92065,
+          92138
+        ]
+      }
+    ],
+    [
+      {
+        "object": "U1.AF21",
+        "track": 0,
+        "shape": "copper",
+        "foreign_net": "",
+        "bounds_nm": [
+          287548,
+          287621
+        ]
+      },
+      {
+        "object": "U1.AF21",
+        "track": 0,
+        "shape": "copper",
+        "foreign_net": "",
+        "bounds_nm": [
+          282054,
+          282128
+        ]
+      }
+    ],
+    [
+      {
+        "object": "U1.AF21",
+        "track": 1,
+        "shape": "copper",
+        "foreign_net": "",
+        "bounds_nm": [
+          285863,
+          285937
+        ]
+      },
+      {
+        "object": "U1.AF21",
+        "track": 1,
+        "shape": "copper",
+        "foreign_net": "",
+        "bounds_nm": [
+          281030,
+          281103
+        ]
+      }
+    ],
+    [
+      {
+        "object": "U1.AF22",
+        "track": 0,
+        "shape": "copper",
+        "foreign_net": "PMIC_INT_N",
+        "bounds_nm": [
+          287548,
+          287621
+        ]
+      },
+      {
+        "object": "U1.AF22",
+        "track": 0,
+        "shape": "copper",
+        "foreign_net": "PMIC_INT_N",
+        "bounds_nm": [
+          293187,
+          293261
+        ]
+      }
+    ],
+    [
+      {
+        "object": "U1.AF22",
+        "track": 1,
+        "shape": "copper",
+        "foreign_net": "PMIC_INT_N",
+        "bounds_nm": [
+          138940,
+          139013
+        ]
+      },
+      {
+        "object": "U1.AF22",
+        "track": 1,
+        "shape": "copper",
+        "foreign_net": "PMIC_INT_N",
+        "bounds_nm": [
+          138940,
+          139013
+        ]
+      }
+    ]
+  ],
+  "local_pad_track_under_90um_before_after": [
+    [
+      [
+        "U1.AE21",
+        0,
+        0
+      ],
+      [
+        "U1.AE22",
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        "U1.AE21",
+        0,
+        0
+      ]
+    ]
+  ],
+  "adopted": false,
+  "decision": "AE22 clears 90 um with the trial move, but the minimum local clearance regresses at AE21. Reject the trade-off under the requested minimum-clearance criterion.",
+  "geometric_limit": {
+    "ball_center_pitch_um": 500,
+    "pad_diameter_um": 250,
+    "track_width_um": 76.2,
+    "best_balanced_clearance_normal_to_centers_um": 86.9,
+    "interpretation": "A centerline through the narrowest section of this two-pad channel has at most 86.9 um per side. Achieving 90 um on both requires a different path or change to the physical geometry."
+  },
+  "other_screen": {
+    "scope": "Fixed-end two-track knots on expansion and LPDDR4_DQ escapes. 5 um grid within \u00b150 um. Keep a strict subset of the original obstacle violations and improve the local minimum by at least 0.5 um. This is not an exhaustive topology search.",
+    "qualified_candidates": 0
+  },
+  "rejected_larger_move": {
+    "net": "EXP_I2C_SDA",
+    "moved_corner_original_nm": [
+      47625000,
+      25750000
+    ],
+    "moved_corner_trial_nm": [
+      47635000,
+      25785000
+    ],
+    "new_local_kicad_drc": "U1.AF23 PMIC_SLEEP clearance 0.0583 mm, rule minimum 0.0762 mm"
+  },
+  "verified_open_nets": 194
+}

@@ -1,0 +1,177 @@
+{
+  "checkpoint": "layout-npu-load-feedback-pair.json",
+  "sha256": "1d7de1a64ee82a5f9f87c0a3173a4e36b15f550787a8e38416d4807ab642f65a",
+  "heat_spreader_plate": {
+    "checkpoint": "layout-npu-load-feedback-pair.json",
+    "sha256": "1d7de1a64ee82a5f9f87c0a3173a4e36b15f550787a8e38416d4807ab642f65a",
+    "clearance_reservation_mm": 0.2,
+    "tim_contact_mm": [
+      12,
+      12
+    ],
+    "tim_center_mm": [
+      43.0,
+      20.0
+    ],
+    "bounding_method": "Axis-aligned front courtyard rectangles from saved PCB. TP11 modelled as a 1 mm circular copper land. Unrotated 12 mm contact remains centered on SoC for both cases.",
+    "cases": {
+      "16mm_square_offset": {
+        "offset_limits_mm": 0.65,
+        "grid_mm": 0.05,
+        "tested": 729,
+        "passing": 0,
+        "centered": {
+          "outline_mm": [
+            35.0,
+            12.0,
+            51.0,
+            28.0
+          ],
+          "width_mm": 16.0,
+          "height_mm": 16.0,
+          "minimum_clearance_mm": 0.0,
+          "limiting_feature": "R501",
+          "area_mm2": 256.0
+        },
+        "best": {
+          "outline_mm": [
+            35.0,
+            12.0,
+            51.0,
+            28.0
+          ],
+          "width_mm": 16.0,
+          "height_mm": 16.0,
+          "minimum_clearance_mm": 0.0,
+          "limiting_feature": "R501",
+          "area_mm2": 256.0
+        }
+      },
+      "variable_rectangular_outline": {
+        "edge_step_mm": 0.1,
+        "maximum_edge_offset_mm": 8.6,
+        "valid_cases": 46332,
+        "best": {
+          "outline_mm": [
+            35.9,
+            11.4,
+            50.0,
+            27.2
+          ],
+          "width_mm": 14.1,
+          "height_mm": 15.8,
+          "minimum_clearance_mm": 0.205,
+          "limiting_feature": "Y2001",
+          "area_mm2": 222.78
+        },
+        "area_vs_centered_13p9mm_pct": 15.3
+      }
+    },
+    "limitations": "Plan-view screening. Model does not verify thermal performance, attachment stiffness, height, tolerances, TIM compression, clamp load or enclosure clearance."
+  },
+  "native_plate_clearance_check": {
+    "native_front_courtyards_checked": 189,
+    "clearance_check_mm": 0.2,
+    "TP11_copper_edge_clearance_mm": 0.96,
+    "unmodeled_front_courtyards": []
+  },
+  "rear_support": {
+    "checkpoint": "layout-npu-load-feedback-pair.json",
+    "sha256": "1d7de1a64ee82a5f9f87c0a3173a4e36b15f550787a8e38416d4807ab642f65a",
+    "original_auxiliary_mounts_mm": {
+      "H8103": [
+        21.0,
+        3.0
+      ],
+      "H8104": [
+        20.25,
+        9.0
+      ],
+      "H8105": [
+        70.2,
+        34.0
+      ]
+    },
+    "original_contact_corners_margin_mm": -7.705,
+    "foot_placement_grid_mm": 0.5,
+    "foot_diameter_mm": 4.0,
+    "extra_keepout_mm": 0.25,
+    "minimum_contact_corners_margin_mm": 0.5,
+    "trials": [
+      {
+        "number_of_feet": 1,
+        "outline_centres": 14400,
+        "best_geometry_without_obstacles_mm": -5.62,
+        "clear_rear_centres": 342,
+        "centres_meeting_support_margin": 0,
+        "best_clear": {
+          "feet": [
+            {
+              "position_mm": [
+                2.5,
+                18.5
+              ],
+              "rear_obstacle_clearance_mm": 0.57
+            }
+          ],
+          "contact_corner_margin_mm": -5.62
+        }
+      },
+      {
+        "number_of_feet": 2,
+        "tested_clear_centres": 342,
+        "tested_pairs_enumerated": 58311,
+        "candidates_passing_static_margin": 12028,
+        "best_clear": {
+          "feet": [
+            {
+              "position_mm": [
+                26.0,
+                35.5
+              ],
+              "rear_obstacle_clearance_mm": 0.295
+            },
+            {
+              "position_mm": [
+                87.5,
+                9.0
+              ],
+              "rear_obstacle_clearance_mm": 0.344
+            }
+          ],
+          "contact_corner_margin_mm": 8.439
+        },
+        "closest_pair_meeting_margin": {
+          "feet": [
+            {
+              "position_mm": [
+                40.0,
+                36.0
+              ],
+              "rear_obstacle_clearance_mm": 0.299
+            },
+            {
+              "position_mm": [
+                76.5,
+                19.5
+              ],
+              "rear_obstacle_clearance_mm": 0.252
+            }
+          ],
+          "contact_corner_margin_mm": 2.565
+        }
+      }
+    ],
+    "scope": "Projected no-drill rear support as a geometric screen only. Rear courtyards, board outline, drills and rear pads screened by bounding boxes. Two-foot test checks pairs of clear grid sites. Mechanism, material insulation, clamping force, compressed height, tolerances, stress and enclosure remain unverified."
+  },
+  "mount_reservation_test_passed": true,
+  "native_electrical_recheck": {
+    "open_joins": 320,
+    "open_nets": 194,
+    "layout_pairs": 886,
+    "usb_pairs": 4,
+    "new_DRC": [],
+    "existing_DRC_findings": 121
+  },
+  "assembly_ready": false
+}

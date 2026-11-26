@@ -1,0 +1,111 @@
+{
+  "parent_sha256": "d79eb605a9ad96f3ee15d6455db238afa922c0fbfbc4ecc6410a6fb11550cb05",
+  "trial_sha256": "08e2b7f173db1a7d51d9126bc320f73764df740fb8ea37f846ce05b7b11f7220",
+  "old_joins": 320,
+  "joins": 320,
+  "layout_pairs": 886,
+  "lost": [],
+  "drc_delta": [],
+  "dfm_counts": [
+    139,
+    137
+  ],
+  "removed_dfm_violations": [
+    [
+      "AG21",
+      "2047d8ed-5085-4c95-93a5-163163e7e483"
+    ],
+    [
+      "AG21",
+      "bd582c20-1464-418b-b220-6a299c197459"
+    ]
+  ],
+  "new_dfm_violations": [],
+  "local_min_clearance_nm_before": [
+    82616,
+    82714
+  ],
+  "local_min_clearance_nm_after": [
+    99218,
+    99315
+  ],
+  "physical_preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 8321,
+    "explicitly_replaced_copper": {
+      "2047d8ed-5085-4c95-93a5-163163e7e483": [
+        "DEBUG_RX",
+        0,
+        46250000,
+        26700000,
+        46375000,
+        26800000,
+        200000,
+        null
+      ],
+      "bd582c20-1464-418b-b220-6a299c197459": [
+        "DEBUG_RX",
+        0,
+        46000000,
+        26100000,
+        46250000,
+        26700000,
+        200000,
+        null
+      ]
+    },
+    "added_tracks_vias": 0,
+    "existing_connected_pad_groups_preserved": 132
+  },
+  "mount_screen": [],
+  "route_mm": [
+    [
+      46.0,
+      26.1
+    ],
+    [
+      46.225,
+      26.725
+    ],
+    [
+      46.375,
+      26.8
+    ]
+  ],
+  "route_width_mm": 0.2,
+  "route_layer": "F.Cu",
+  "local_route_from": "existing debug RX at (46.0, 26.1)",
+  "local_route_to": "existing debug RX at (46.375, 26.8)",
+  "added_segments": [
+    "42dc6bbf-e4cc-4f5c-bcc8-7f52be755103",
+    "71989170-6c7b-4959-81ca-3fb2d55f4b04"
+  ],
+  "reference_coverage_in1_before_after": [
+    [
+      252,
+      0
+    ],
+    [
+      258,
+      0
+    ]
+  ],
+  "modified_section_length_mm_before_after": [
+    0.8100781059358212,
+    0.8319716110918054
+  ],
+  "board": "runs/dfm-320-ab26-ag21-spacing/phy-joint.kicad_pcb",
+  "usb_report": "runs/dfm-320-ab26-ag21-spacing/usb.json",
+  "previous_stage": "dfm-320-ab26-ground-spacing.json",
+  "cumulative_counts": {
+    "all_records": [
+      147,
+      137
+    ],
+    "excluding_duplicate_geometry": [
+      143,
+      137
+    ]
+  },
+  "scope": "Two independent changes on the same DFM copy. GND at AB26 and DEBUG_RX at AG21 preserve 0.20-mm width and original endpoints. No new sub-90 um U1 pad-to-track contacts."
+}

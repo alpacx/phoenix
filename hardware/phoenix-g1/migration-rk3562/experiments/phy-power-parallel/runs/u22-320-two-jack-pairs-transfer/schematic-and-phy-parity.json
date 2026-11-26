@@ -1,0 +1,277 @@
+{
+  "board_sha256": "b626497a158ff780ee0132b25dc3cba95d4ea05fb50b3d45c140950dc3447f72",
+  "data_sheet": "https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf",
+  "revision": "SLVSBO7O, AUGUST 2024",
+  "pinout_table": "4-2",
+  "u22_function_by_package_pin": {
+    "1": "D1+",
+    "2": "D1\u2212",
+    "3": "GND",
+    "4": "D2+",
+    "5": "D2\u2212",
+    "6": "NC, optional PCB feedthrough",
+    "7": "NC",
+    "8": "GND",
+    "9": "NC",
+    "10": "NC"
+  },
+  "u22_schematic_nets": {
+    "1": "ETH_MDI0_P",
+    "2": "ETH_MDI0_N",
+    "3": "GND",
+    "4": "ETH_MDI1_P",
+    "5": "ETH_MDI1_N",
+    "6": "ETH_MDI1_N",
+    "7": "unconnected-(U22-N.C.-Pad7)",
+    "8": "GND",
+    "9": "unconnected-(U22-N.C.-Pad9)",
+    "10": "unconnected-(U22-N.C.-Pad10)"
+  },
+  "pin_count": 1996,
+  "changed_schematic_pin_assignments": [
+    [
+      [
+        "U22",
+        "6"
+      ],
+      "unconnected-(U22-N.C.-Pad6)",
+      "ETH_MDI1_N"
+    ]
+  ],
+  "unrelated_pcb_schematic_divergences_retained": 330,
+  "matched_mdi_netlist_nodes": {
+    "ETH_MDI0_N": [
+      [
+        "J2",
+        "P3"
+      ],
+      [
+        "U22",
+        "2"
+      ],
+      [
+        "U5",
+        "2"
+      ]
+    ],
+    "ETH_MDI0_P": [
+      [
+        "J2",
+        "P2"
+      ],
+      [
+        "U22",
+        "1"
+      ],
+      [
+        "U5",
+        "1"
+      ]
+    ],
+    "ETH_MDI1_N": [
+      [
+        "J2",
+        "P7"
+      ],
+      [
+        "U22",
+        "5"
+      ],
+      [
+        "U22",
+        "6"
+      ],
+      [
+        "U5",
+        "5"
+      ]
+    ],
+    "ETH_MDI1_P": [
+      [
+        "J2",
+        "P4"
+      ],
+      [
+        "U22",
+        "4"
+      ],
+      [
+        "U5",
+        "4"
+      ]
+    ],
+    "ETH_MDI2_N": [
+      [
+        "J2",
+        "P6"
+      ],
+      [
+        "U23",
+        "2"
+      ],
+      [
+        "U5",
+        "7"
+      ]
+    ],
+    "ETH_MDI2_P": [
+      [
+        "J2",
+        "P5"
+      ],
+      [
+        "U23",
+        "1"
+      ],
+      [
+        "U5",
+        "6"
+      ]
+    ],
+    "ETH_MDI3_N": [
+      [
+        "J2",
+        "P9"
+      ],
+      [
+        "U23",
+        "5"
+      ],
+      [
+        "U5",
+        "10"
+      ]
+    ],
+    "ETH_MDI3_P": [
+      [
+        "J2",
+        "P8"
+      ],
+      [
+        "U23",
+        "4"
+      ],
+      [
+        "U5",
+        "9"
+      ]
+    ]
+  },
+  "status": "COUPON_ONLY",
+  "files": {
+    "ethernet-esd.kicad_sch": "721b563c93be0c4730f6a5067e720d899eac5d1d2f706953945be017a2e68740",
+    "Phoenix_Ethernet_ESD.kicad_sym": "1ad863ac3184c064307e2f48a7d6b18c42f0808a6dd67b995e1b03554617dfc7",
+    "netlist.xml": "6bdd0a034b53fd1e8be822fa8677ade61dd48223ca228ae258ab0a46557c9176"
+  },
+  "netlist_reproduction": "Copy runs/schematic-mdio/integrated to a temporary project, replace ethernet-esd.kicad_sch with the coupon sheet, then export the full phoenix-g1.kicad_sch as KiCad XML. The sheet embeds the experimental symbol.",
+  "phy_launch_screen": {
+    "sha256": "b626497a158ff780ee0132b25dc3cba95d4ea05fb50b3d45c140950dc3447f72",
+    "geometry": {
+      "width_mm": 0.2,
+      "via_mm": [
+        0.45,
+        0.2
+      ],
+      "max_axial_mm": 2,
+      "center_spacing_mm": [
+        0.65,
+        0.9
+      ]
+    },
+    "results": [
+      {
+        "pair": 0,
+        "component": "U5",
+        "pair_spacing_valid": 306,
+        "viable": 0,
+        "most_common_obstacles": [
+          [
+            "+1V0_PHY",
+            2999
+          ],
+          [
+            "PHY_CFG_LDO0",
+            809
+          ],
+          [
+            "PHY_XIN",
+            700
+          ],
+          [
+            "PHY_CFG_LDO1",
+            289
+          ],
+          [
+            "U5.3",
+            278
+          ],
+          [
+            "+3V3_PHY",
+            236
+          ],
+          [
+            "U5.41",
+            153
+          ],
+          [
+            "U5.40",
+            143
+          ]
+        ],
+        "exact_net_families": [],
+        "examples": [],
+        "source_pin_nets": [
+          "ETH_MDI0_P",
+          "ETH_MDI0_N"
+        ]
+      },
+      {
+        "pair": 1,
+        "component": "U5",
+        "pair_spacing_valid": 306,
+        "viable": 0,
+        "most_common_obstacles": [
+          [
+            "+1V0_PHY",
+            3878
+          ],
+          [
+            "GND",
+            328
+          ],
+          [
+            "U5.6",
+            278
+          ],
+          [
+            "U5.3",
+            278
+          ],
+          [
+            "+3V3_PHY",
+            225
+          ],
+          [
+            "PHY_CFG_LDO1",
+            186
+          ],
+          [
+            "U5.41",
+            153
+          ],
+          [
+            "C512.2",
+            110
+          ]
+        ],
+        "exact_net_families": [],
+        "examples": [],
+        "source_pin_nets": [
+          "ETH_MDI1_P",
+          "ETH_MDI1_N"
+        ]
+      }
+    ]
+  },
+  "scope": "Schematic pin assignment and on-disk PCB agreement for the eight MDI nets and the U22 package. Candidate PHY launches are screened with the populated board and ordinary vias. No PHY-side route added."
+}

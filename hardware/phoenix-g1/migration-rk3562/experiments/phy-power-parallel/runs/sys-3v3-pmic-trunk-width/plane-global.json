@@ -1,0 +1,55 @@
+{
+  "sha256": "2e27af66ff7c7fd72d0513631b24b2b3a15d0088a489ae861d05b18afa1fb801",
+  "old_zone_islands": 1,
+  "new_zone_islands": 1,
+  "removed_ground": {
+    "components": 5,
+    "area_mm2": 7.756880032051,
+    "bbox_mm": [
+      24.486419,
+      37.3735,
+      62.124094,
+      38.5495
+    ]
+  },
+  "added_ground": {
+    "components": 1,
+    "area_mm2": 5.1395e-09,
+    "bbox_mm": [
+      62.110383,
+      37.787565,
+      62.124094,
+      37.838737
+    ]
+  },
+  "existing_projected_copper_objects_in_100um_halo": [
+    [
+      "155864b5-b72c-4305-a08b-1765216b2512",
+      "WIFI_HOST_WAKE"
+    ]
+  ],
+  "complete_b_and_in3_sampling_by_layer": {
+    "B.Cu": {
+      "global_samples": 257775,
+      "within_plane_loss_box": 6703
+    },
+    "In3.Cu": {
+      "global_samples": 251847,
+      "within_plane_loss_box": 3917
+    }
+  },
+  "losses": [],
+  "minimum_adjacent_ground_corridor_mm": {
+    "before": {},
+    "after": {}
+  },
+  "pitch_mm": 0.012,
+  "corridor_scan_pitch_mm": [
+    0.02,
+    0.005
+  ],
+  "scope": "A single filled GND reference on In4; 12 \u00b5m center and edge probes for all retained B.Cu and In3 tracks, including power and GND. Exact polygon differences bound the changed area.",
+  "local_ground_removed_mm2": 7.7568800199135,
+  "outside_ground_removed_mm2": 0.0,
+  "local_overlap_with_projected_copper_plus_100um": []
+}

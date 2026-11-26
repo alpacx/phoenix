@@ -1,0 +1,404 @@
+{
+  "parent_sha256": "8ccbbccb22d0e17e20fa5dad586d12dbd094bd8a54b27361c076047dd1173778",
+  "sha256": "0b1c64d4b92e2eb958cbcb6c51572c9f14184fa6f5b2acadcfe419e202486209",
+  "width_profile": {
+    "721de874-1ddd-487f-94d9-8b71961603b9": {
+      "uuid": "721de874-1ddd-487f-94d9-8b71961603b9",
+      "original_length_mm": 4.612500236513164,
+      "original_width_mm": 0.8,
+      "original_resistance_mohm": 2.8399822884816763,
+      "new_resistance_mohm": 2.3892197219720965,
+      "critical_net_clearance_nm": {},
+      "original_edge_clearance_mm": 0.325,
+      "new_edge_clearance_mm": 0.325,
+      "profile": [
+        [
+          [
+            48100000,
+            700000
+          ],
+          [
+            48450000,
+            706250
+          ],
+          800000
+        ],
+        [
+          [
+            48450000,
+            706250
+          ],
+          [
+            48750000,
+            1100107
+          ],
+          800000
+        ],
+        [
+          [
+            48750000,
+            1100107
+          ],
+          [
+            50850000,
+            1137607
+          ],
+          1575000
+        ],
+        [
+          [
+            50850000,
+            1137607
+          ],
+          [
+            51150000,
+            754464
+          ],
+          800000
+        ],
+        [
+          [
+            51150000,
+            754464
+          ],
+          [
+            51200000,
+            755357
+          ],
+          800000
+        ],
+        [
+          [
+            51200000,
+            755357
+          ],
+          [
+            51500000,
+            886714
+          ],
+          800000
+        ],
+        [
+          [
+            51500000,
+            886714
+          ],
+          [
+            52050000,
+            896536
+          ],
+          1050000
+        ],
+        [
+          [
+            52050000,
+            896536
+          ],
+          [
+            52350000,
+            775893
+          ],
+          800000
+        ],
+        [
+          [
+            52350000,
+            775893
+          ],
+          [
+            52711765,
+            782353
+          ],
+          800000
+        ]
+      ]
+    },
+    "85573255-e687-4b6d-9a38-7b1027cb8fbf": {
+      "uuid": "85573255-e687-4b6d-9a38-7b1027cb8fbf",
+      "original_length_mm": 12.133582286619767,
+      "original_width_mm": 0.8,
+      "original_resistance_mohm": 7.470819950761598,
+      "new_resistance_mohm": 6.590804825263047,
+      "critical_net_clearance_nm": {
+        "EMMC_IO_1V8": [
+          2452879,
+          2452879
+        ]
+      },
+      "original_edge_clearance_mm": 0.325,
+      "new_edge_clearance_mm": 0.325,
+      "profile": [
+        [
+          [
+            35966667,
+            777778
+          ],
+          [
+            40200000,
+            750641
+          ],
+          800000
+        ],
+        [
+          [
+            40200000,
+            750641
+          ],
+          [
+            40500000,
+            862218
+          ],
+          800000
+        ],
+        [
+          [
+            40500000,
+            862218
+          ],
+          [
+            47200000,
+            819269
+          ],
+          1025000
+        ],
+        [
+          [
+            47200000,
+            819269
+          ],
+          [
+            47500000,
+            703846
+          ],
+          800000
+        ],
+        [
+          [
+            47500000,
+            703846
+          ],
+          [
+            48100000,
+            700000
+          ],
+          800000
+        ]
+      ]
+    }
+  },
+  "remaining_minimum_joins": 319,
+  "drc_by_type": {
+    "via_dangling": 121
+  },
+  "introduced_drc": [],
+  "ground_plane_polygon_geometry_identical": {
+    "In1.Cu": true,
+    "In4.Cu": true
+  },
+  "widened_track_sampled_on_In4": [
+    {
+      "uuid": "0399f172-6b9a-4633-8afa-7d549261a4eb",
+      "samples": 1062,
+      "void": 0,
+      "examples": []
+    },
+    {
+      "uuid": "14b9bcbf-a292-4986-884a-0b87ea7a99f7",
+      "samples": 126,
+      "void": 0,
+      "examples": []
+    },
+    {
+      "uuid": "156c26ec-5b61-4a1b-9fbc-39e8d1d64ddb",
+      "samples": 84,
+      "void": 0,
+      "examples": []
+    },
+    {
+      "uuid": "369773b6-a01b-438e-b655-2e73492130e8",
+      "samples": 531,
+      "void": 0,
+      "examples": []
+    },
+    {
+      "uuid": "48719f14-48be-4d94-b615-9587cb6d14d9",
+      "samples": 84,
+      "void": 0,
+      "examples": []
+    },
+    {
+      "uuid": "4d49d309-0b58-4014-b828-f83a907b1847",
+      "samples": 156,
+      "void": 0,
+      "examples": []
+    },
+    {
+      "uuid": "57b62ab5-29d8-40f1-aa6e-b6caa7907015",
+      "samples": 18,
+      "void": 0,
+      "examples": []
+    },
+    {
+      "uuid": "68b7f92f-2004-4e51-afef-bc5bc7610e83",
+      "samples": 96,
+      "void": 0,
+      "examples": []
+    },
+    {
+      "uuid": "6d701938-37cf-4bfa-8f9f-dd71f943f98d",
+      "samples": 129,
+      "void": 0,
+      "examples": []
+    },
+    {
+      "uuid": "7a8fe3c2-170a-4557-965b-faae17c50e67",
+      "samples": 84,
+      "void": 0,
+      "examples": []
+    },
+    {
+      "uuid": "8ebcd2c2-da20-423b-912b-569f0b6c6a21",
+      "samples": 1680,
+      "void": 0,
+      "examples": []
+    },
+    {
+      "uuid": "9e73824f-f694-47e7-be79-69f668927049",
+      "samples": 87,
+      "void": 0,
+      "examples": []
+    },
+    {
+      "uuid": "9fc67af8-7df9-4811-b3b2-3f217c9e49d5",
+      "samples": 141,
+      "void": 0,
+      "examples": []
+    },
+    {
+      "uuid": "c0bdf74c-87a4-4d9f-b3ca-d2ac288076e7",
+      "samples": 93,
+      "void": 0,
+      "examples": []
+    }
+  ],
+  "via_geometry_preserved": true,
+  "estimated_in3_serial_tracks": {
+    "before_mohm": 14.48848653447195,
+    "after_mohm": 13.157708842463819,
+    "reduction_mohm": 1.3307776920081302,
+    "reduction_percent": 9.185070427072263,
+    "copper_thickness_um": 35,
+    "copper_temperature_c": 20,
+    "copper_resistivity_ohm_mm": 1.724e-05,
+    "scope": "Estimate follows individually necessary In3 tracks. Excludes parallel and outer-layer segments plus via, pad, thermal and transient effects.",
+    "effective_squares_in3": {
+      "before": 29.41398078344074,
+      "after": 26.712285933076203,
+      "reduction": 2.701694850364536
+    },
+    "published_jlc06161h_3313_scenario": {
+      "thickness_um": 15.2,
+      "before_mohm": 33.36164662542883,
+      "after_mohm": 30.297355887252216,
+      "reduction_mohm": 3.064290738176618
+    },
+    "assumptions": "Baseline has no adopted In3 copper thickness. The 15.2 \u00b5m case uses the prior published JLC stack study. Values are estimated centerline resistance of individual serial In3 track segments only."
+  },
+  "preserved_layout_pairs": 887,
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 8324,
+    "explicitly_replaced_copper": {
+      "721de874-1ddd-487f-94d9-8b71961603b9": [
+        "+1V8_SYS",
+        8,
+        52711765,
+        782353,
+        48100000,
+        700000,
+        800000,
+        null
+      ],
+      "85573255-e687-4b6d-9a38-7b1027cb8fbf": [
+        "+1V8_SYS",
+        8,
+        48100000,
+        700000,
+        35966667,
+        777778,
+        800000,
+        null
+      ]
+    },
+    "added_tracks_vias": 12,
+    "existing_connected_pad_groups_preserved": 132
+  },
+  "assembly_ready": false,
+  "north_edge_distance_to_edge_cuts_centerline_mm": {
+    "before": 0.3,
+    "after": 0.3
+  },
+  "branch_excluded": {
+    "track": "e71fc129-097d-4dca-8677-1bd2516f9908",
+    "length_mm": 5.275060084247952,
+    "width_mm": 0.6,
+    "lost_pads_on_cut": [
+      "R8006.1"
+    ],
+    "purpose": "Rail link candidate 0 \u03a9 to EMMC_IO_1V8; U2.F1 remains connected when the branch is removed."
+  },
+  "scope_critical_clearance": "Comparisons are minima per sampled critical net within 3 mm of each replaced track; ties agree within the 1 \u00b5m binary-search resolution.",
+  "independent_net_inventory": {
+    "sha256": "0b1c64d4b92e2eb958cbcb6c51572c9f14184fa6f5b2acadcfe419e202486209",
+    "parent_sha256": "8ccbbccb22d0e17e20fa5dad586d12dbd094bd8a54b27361c076047dd1173778",
+    "joins": 319,
+    "open_nets": 194,
+    "changed_groups": {},
+    "drc_findings": 121,
+    "preservation": {
+      "existing_pad_instances_preserved": 2008,
+      "existing_tracks_vias_preserved": 8324,
+      "explicitly_replaced_copper": {
+        "721de874-1ddd-487f-94d9-8b71961603b9": [
+          "+1V8_SYS",
+          8,
+          52711765,
+          782353,
+          48100000,
+          700000,
+          800000,
+          null
+        ],
+        "85573255-e687-4b6d-9a38-7b1027cb8fbf": [
+          "+1V8_SYS",
+          8,
+          48100000,
+          700000,
+          35966667,
+          777778,
+          800000,
+          null
+        ]
+      },
+      "added_tracks_vias": 12,
+      "existing_connected_pad_groups_preserved": 132
+    }
+  },
+  "independent_replaced_trace_measurements": {
+    "old_track_uuids": [
+      "721de874-1ddd-487f-94d9-8b71961603b9",
+      "85573255-e687-4b6d-9a38-7b1027cb8fbf"
+    ],
+    "removed_or_replaced": 2,
+    "new_segments": 14,
+    "original_segment_squares": 20.932603153916162,
+    "new_segment_squares": 18.23090830355163,
+    "local_resistance_reduction_percent": 12.906635789629862,
+    "resistivity_ohm_m_at_20C": 1.724e-08,
+    "estimated_tracks_mohm_at_15p2um": [
+      23.741978840362805,
+      20.67768810218619
+    ],
+    "unchanged_footprint_poses": 378
+  }
+}

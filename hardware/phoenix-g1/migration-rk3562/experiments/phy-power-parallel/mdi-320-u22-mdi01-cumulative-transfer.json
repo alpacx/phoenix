@@ -1,0 +1,79 @@
+{
+  "parent_sha256": "1d7de1a64ee82a5f9f87c0a3173a4e36b15f550787a8e38416d4807ab642f65a",
+  "coupon_sha256": "4977fc7382da95e47c256aa2cc2b0b2635c773a8cad6d42c8bc3bc59f49afe94",
+  "trial_sha256": "b626497a158ff780ee0132b25dc3cba95d4ea05fb50b3d45c140950dc3447f72",
+  "adopted": false,
+  "board_joins": 316,
+  "drc_delta": [],
+  "verified_layout_pairs": 886,
+  "lost_pairs": [],
+  "coupon_pairs": {
+    "U22.1\u2013J2.P2": true,
+    "U22.2\u2013J2.P3": true,
+    "U22.4\u2013J2.P4": true,
+    "U22.5\u2013J2.P7": true
+  },
+  "removed_copper": [
+    "85d9158d-1901-4c75-8caa-7849efd6f77a",
+    "9b31c480-74ed-4f89-ac38-c0b499604890",
+    "f873137b-fde6-4c06-9578-ba276cace2cc"
+  ],
+  "added_copper_counts": {
+    "ETH_MDI0_N": 14,
+    "GND": 5,
+    "ETH_MDI0_P": 15,
+    "ETH_MDI1_P": 4,
+    "ETH_MDI1_N": 2
+  },
+  "pad_6_net": "ETH_MDI1_N",
+  "preservation": {
+    "existing_pad_instances_preserved": 2008,
+    "existing_tracks_vias_preserved": 8326,
+    "explicitly_replaced_copper": {
+      "85d9158d-1901-4c75-8caa-7849efd6f77a": [
+        "GND",
+        0,
+        66000000,
+        36250000,
+        66000000,
+        34620000,
+        300000,
+        null
+      ],
+      "9b31c480-74ed-4f89-ac38-c0b499604890": [
+        "GND",
+        0,
+        66000000,
+        35450000,
+        66000000,
+        35078107,
+        300000,
+        null
+      ],
+      "f873137b-fde6-4c06-9578-ba276cace2cc": [
+        "GND",
+        0,
+        66000000,
+        35078107,
+        66372781,
+        34705326,
+        300000,
+        null
+      ]
+    },
+    "added_tracks_vias": 37,
+    "existing_connected_pad_groups_preserved": 132
+  },
+  "mount_screen": [],
+  "additional_verified_checkpoint_pairs": [
+    "C511.2\u2013U22.3",
+    "C511.2\u2013U22.8",
+    "U22.6\u2013J2.P7"
+  ],
+  "board": "runs/u22-320-two-jack-pairs-transfer/phy-joint.kicad_pcb",
+  "board_drc": "runs/u22-320-two-jack-pairs-transfer/drc.json",
+  "usb_report": "runs/u22-320-two-jack-pairs-transfer/usb.json",
+  "reference_report": "runs/u22-320-two-jack-pairs-transfer/reference.json",
+  "reason": "Qualified for layout experiment only. The local U22.6 schematic variant is verified against this PCB. The PHY-side sections of both pairs, connector impedance and channel integration remain pending.",
+  "schematic_parity_report": "runs/u22-320-two-jack-pairs-transfer/schematic-and-phy-parity.json"
+}

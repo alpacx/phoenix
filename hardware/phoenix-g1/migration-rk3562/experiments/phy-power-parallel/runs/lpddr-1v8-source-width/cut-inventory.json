@@ -1,0 +1,919 @@
+{
+  "source": "L405.2",
+  "sink": "U2.F1",
+  "sha256": "8ccbbccb22d0e17e20fa5dad586d12dbd094bd8a54b27361c076047dd1173778",
+  "cuts": [
+    {
+      "uuid": "1bf06978-ff76-43e3-bb0b-5971362d44dd",
+      "via": true,
+      "layer": "F.Cu",
+      "start_mm": [
+        31.5,
+        1.5
+      ],
+      "end_mm": [
+        31.5,
+        1.5
+      ],
+      "width_mm": 0.6,
+      "length_mm": 0.0,
+      "lost_pads": [],
+      "cuts_L405_to_U2F1": false
+    },
+    {
+      "uuid": "3e3c8ceb-dbaa-4d19-921d-5ccb675f1af8",
+      "via": true,
+      "layer": "F.Cu",
+      "start_mm": [
+        57.3,
+        2.3
+      ],
+      "end_mm": [
+        57.3,
+        2.3
+      ],
+      "width_mm": 0.6,
+      "length_mm": 0.0,
+      "lost_pads": [
+        "C445.1"
+      ],
+      "cuts_L405_to_U2F1": false
+    },
+    {
+      "uuid": "a9a2845b-66bf-4644-b8f9-79655e4dcdff",
+      "via": true,
+      "layer": "F.Cu",
+      "start_mm": [
+        35.675,
+        3.725
+      ],
+      "end_mm": [
+        35.675,
+        3.725
+      ],
+      "width_mm": 0.45,
+      "length_mm": 0.0,
+      "lost_pads": [
+        "U2.F12"
+      ],
+      "cuts_L405_to_U2F1": false
+    },
+    {
+      "uuid": "aa7311b6-0d77-4c5d-9da5-700081316b1c",
+      "via": true,
+      "layer": "F.Cu",
+      "start_mm": [
+        30.9,
+        1.5
+      ],
+      "end_mm": [
+        30.9,
+        1.5
+      ],
+      "width_mm": 0.6,
+      "length_mm": 0.0,
+      "lost_pads": [],
+      "cuts_L405_to_U2F1": false
+    },
+    {
+      "uuid": "ad7f54af-9864-4a45-86fe-c632f47fefa8",
+      "via": true,
+      "layer": "F.Cu",
+      "start_mm": [
+        25.0,
+        5.325
+      ],
+      "end_mm": [
+        25.0,
+        5.325
+      ],
+      "width_mm": 0.6,
+      "length_mm": 0.0,
+      "lost_pads": [
+        "U2.F1"
+      ],
+      "cuts_L405_to_U2F1": true
+    },
+    {
+      "uuid": "b050fd70-36cb-4bdf-9094-ddf98e3808fa",
+      "via": true,
+      "layer": "F.Cu",
+      "start_mm": [
+        50.9,
+        8.3
+      ],
+      "end_mm": [
+        50.9,
+        8.3
+      ],
+      "width_mm": 0.6,
+      "length_mm": 0.0,
+      "lost_pads": [],
+      "cuts_L405_to_U2F1": false
+    },
+    {
+      "uuid": "cef52a8f-f246-4df4-93eb-8b7d1b065a2a",
+      "via": true,
+      "layer": "F.Cu",
+      "start_mm": [
+        51.7,
+        8.3
+      ],
+      "end_mm": [
+        51.7,
+        8.3
+      ],
+      "width_mm": 0.6,
+      "length_mm": 0.0,
+      "lost_pads": [],
+      "cuts_L405_to_U2F1": false
+    },
+    {
+      "uuid": "fe3c99bb-488a-4d64-ad88-7a682d87ae41",
+      "via": true,
+      "layer": "F.Cu",
+      "start_mm": [
+        58.225,
+        2.45
+      ],
+      "end_mm": [
+        58.225,
+        2.45
+      ],
+      "width_mm": 0.6,
+      "length_mm": 0.0,
+      "lost_pads": [],
+      "cuts_L405_to_U2F1": false
+    },
+    {
+      "uuid": "024a7b3e-3a42-4a21-941b-9374e6c7fab4",
+      "via": false,
+      "layer": "B.Cu",
+      "start_mm": [
+        25.45,
+        4.53
+      ],
+      "end_mm": [
+        25.45,
+        6.5
+      ],
+      "width_mm": 0.5,
+      "length_mm": 1.97,
+      "lost_pads": [
+        "C2305.1"
+      ],
+      "cuts_L405_to_U2F1": false
+    },
+    {
+      "uuid": "17b4daa5-f506-465a-8126-5c3c2510ab07",
+      "via": false,
+      "layer": "B.Cu",
+      "start_mm": [
+        26.1,
+        3.9
+      ],
+      "end_mm": [
+        25.6,
+        4.4
+      ],
+      "width_mm": 0.5,
+      "length_mm": 0.7071067811865476,
+      "lost_pads": [
+        "C2305.1",
+        "C2308.1",
+        "U2.F1"
+      ],
+      "cuts_L405_to_U2F1": true
+    },
+    {
+      "uuid": "1a2053dd-5300-4cf7-99cd-fca01599cc57",
+      "via": false,
+      "layer": "B.Cu",
+      "start_mm": [
+        29.55,
+        2.0
+      ],
+      "end_mm": [
+        27.9,
+        2.0
+      ],
+      "width_mm": 0.5,
+      "length_mm": 1.65,
+      "lost_pads": [
+        "C2303.1",
+        "C2305.1",
+        "C2308.1",
+        "U2.F1"
+      ],
+      "cuts_L405_to_U2F1": true
+    },
+    {
+      "uuid": "2c444663-b3e7-42b1-a024-4e234fe204b0",
+      "via": false,
+      "layer": "B.Cu",
+      "start_mm": [
+        50.9,
+        8.3
+      ],
+      "end_mm": [
+        51.081,
+        8.7915
+      ],
+      "width_mm": 0.6,
+      "length_mm": 0.5237683171021325,
+      "lost_pads": [
+        "R8006.1"
+      ],
+      "cuts_L405_to_U2F1": false
+    },
+    {
+      "uuid": "2c853d53-bd0a-456c-811e-5a268b4dff24",
+      "via": false,
+      "layer": "B.Cu",
+      "start_mm": [
+        30.4,
+        3.4
+      ],
+      "end_mm": [
+        30.4,
+        2.6
+      ],
+      "width_mm": 0.5,
+      "length_mm": 0.8,
+      "lost_pads": [
+        "C2303.1",
+        "C2305.1",
+        "C2308.1",
+        "U2.F1"
+      ],
+      "cuts_L405_to_U2F1": true
+    },
+    {
+      "uuid": "79e1a594-1c29-413b-b747-beda52c88237",
+      "via": false,
+      "layer": "B.Cu",
+      "start_mm": [
+        56.3,
+        3.25
+      ],
+      "end_mm": [
+        56.3,
+        4.95
+      ],
+      "width_mm": 0.4,
+      "length_mm": 1.7,
+      "lost_pads": [
+        "C445.1"
+      ],
+      "cuts_L405_to_U2F1": false
+    },
+    {
+      "uuid": "86af2bab-ac28-4c33-8f0a-147a839c8b86",
+      "via": false,
+      "layer": "B.Cu",
+      "start_mm": [
+        30.4,
+        2.6
+      ],
+      "end_mm": [
+        29.95,
+        2.15
+      ],
+      "width_mm": 0.5,
+      "length_mm": 0.6363961030678928,
+      "lost_pads": [
+        "C2303.1",
+        "C2305.1",
+        "C2308.1",
+        "U2.F1"
+      ],
+      "cuts_L405_to_U2F1": true
+    },
+    {
+      "uuid": "899c0e43-71a4-405c-9615-494893cae665",
+      "via": false,
+      "layer": "B.Cu",
+      "start_mm": [
+        56.35,
+        5.0
+      ],
+      "end_mm": [
+        56.35,
+        7.3
+      ],
+      "width_mm": 0.4,
+      "length_mm": 2.3,
+      "lost_pads": [
+        "C445.1"
+      ],
+      "cuts_L405_to_U2F1": false
+    },
+    {
+      "uuid": "a43fbe4e-9c0d-41d2-ade2-45bec216179a",
+      "via": false,
+      "layer": "B.Cu",
+      "start_mm": [
+        57.3,
+        2.3
+      ],
+      "end_mm": [
+        56.35,
+        3.25
+      ],
+      "width_mm": 0.4,
+      "length_mm": 1.3435028842544405,
+      "lost_pads": [
+        "C445.1"
+      ],
+      "cuts_L405_to_U2F1": false
+    },
+    {
+      "uuid": "a6e03f8f-e6ee-4ccf-bfa6-c1c7ddc0cfea",
+      "via": false,
+      "layer": "B.Cu",
+      "start_mm": [
+        27.35,
+        2.4
+      ],
+      "end_mm": [
+        26.55,
+        2.4
+      ],
+      "width_mm": 0.5,
+      "length_mm": 0.8,
+      "lost_pads": [
+        "C2303.1",
+        "C2305.1",
+        "C2308.1",
+        "U2.F1"
+      ],
+      "cuts_L405_to_U2F1": true
+    },
+    {
+      "uuid": "bdea241e-0c57-427e-94ff-829f5d121eb6",
+      "via": false,
+      "layer": "B.Cu",
+      "start_mm": [
+        31.188,
+        2.3667
+      ],
+      "end_mm": [
+        30.676,
+        3.2334
+      ],
+      "width_mm": 0.6,
+      "length_mm": 1.0066344371220368,
+      "lost_pads": [
+        "C2302.1",
+        "C2303.1",
+        "C2304.1",
+        "C2305.1",
+        "C2306.1",
+        "C2307.1",
+        "C2308.1",
+        "U2.F1"
+      ],
+      "cuts_L405_to_U2F1": true
+    },
+    {
+      "uuid": "c296b7fc-0f99-48dd-9b94-eeee6c6389cd",
+      "via": false,
+      "layer": "B.Cu",
+      "start_mm": [
+        30.48,
+        6.5
+      ],
+      "end_mm": [
+        30.48,
+        5.0
+      ],
+      "width_mm": 0.5,
+      "length_mm": 1.5,
+      "lost_pads": [
+        "C2302.1",
+        "C2304.1"
+      ],
+      "cuts_L405_to_U2F1": false
+    },
+    {
+      "uuid": "d1e57a1c-e32a-483a-aa67-1ec47a76eafd",
+      "via": false,
+      "layer": "B.Cu",
+      "start_mm": [
+        30.1,
+        7.4
+      ],
+      "end_mm": [
+        30.1,
+        8.2
+      ],
+      "width_mm": 0.5,
+      "length_mm": 0.8,
+      "lost_pads": [
+        "C2302.1"
+      ],
+      "cuts_L405_to_U2F1": false
+    },
+    {
+      "uuid": "e4d84052-e7be-4619-b501-c8a9ac492e17",
+      "via": false,
+      "layer": "B.Cu",
+      "start_mm": [
+        30.48,
+        5.0
+      ],
+      "end_mm": [
+        30.48,
+        3.5
+      ],
+      "width_mm": 0.5,
+      "length_mm": 1.5,
+      "lost_pads": [
+        "C2302.1",
+        "C2304.1",
+        "C2306.1"
+      ],
+      "cuts_L405_to_U2F1": false
+    },
+    {
+      "uuid": "079d7d68-83ed-4fe1-aa77-dba994fa91ff",
+      "via": false,
+      "layer": "In3.Cu",
+      "start_mm": [
+        35.966667,
+        0.777778
+      ],
+      "end_mm": [
+        33.54,
+        0.793333
+      ],
+      "width_mm": 1.0,
+      "length_mm": 2.426716853469724,
+      "lost_pads": [
+        "C2302.1",
+        "C2303.1",
+        "C2304.1",
+        "C2305.1",
+        "C2306.1",
+        "C2307.1",
+        "C2308.1",
+        "U2.F1"
+      ],
+      "cuts_L405_to_U2F1": true
+    },
+    {
+      "uuid": "1197584b-0e6e-4cc8-9595-4e56ab66d6df",
+      "via": false,
+      "layer": "In3.Cu",
+      "start_mm": [
+        50.9,
+        8.3
+      ],
+      "end_mm": [
+        51.7,
+        8.3
+      ],
+      "width_mm": 0.6,
+      "length_mm": 0.8,
+      "lost_pads": [],
+      "cuts_L405_to_U2F1": false
+    },
+    {
+      "uuid": "324fbaad-2316-4bd7-8804-d56a7dcfbeac",
+      "via": false,
+      "layer": "In3.Cu",
+      "start_mm": [
+        54.9,
+        1.3
+      ],
+      "end_mm": [
+        53.7,
+        0.8
+      ],
+      "width_mm": 1.0,
+      "length_mm": 1.3,
+      "lost_pads": [
+        "C2302.1",
+        "C2303.1",
+        "C2304.1",
+        "C2305.1",
+        "C2306.1",
+        "C2307.1",
+        "C2308.1",
+        "R8006.1",
+        "U2.F1",
+        "U2.F12"
+      ],
+      "cuts_L405_to_U2F1": true
+    },
+    {
+      "uuid": "5172c649-5ecc-4c5d-9179-3cbb364e47cd",
+      "via": false,
+      "layer": "In3.Cu",
+      "start_mm": [
+        35.7,
+        3.4
+      ],
+      "end_mm": [
+        35.8,
+        3.5
+      ],
+      "width_mm": 0.5,
+      "length_mm": 0.14142135623730953,
+      "lost_pads": [],
+      "cuts_L405_to_U2F1": false
+    },
+    {
+      "uuid": "58d2b85f-503b-48bd-bf61-f1c077e7c257",
+      "via": false,
+      "layer": "In3.Cu",
+      "start_mm": [
+        56.7,
+        2.05
+      ],
+      "end_mm": [
+        55.8,
+        1.675
+      ],
+      "width_mm": 0.6,
+      "length_mm": 0.975,
+      "lost_pads": [
+        "C2302.1",
+        "C2303.1",
+        "C2304.1",
+        "C2305.1",
+        "C2306.1",
+        "C2307.1",
+        "C2308.1",
+        "R8006.1",
+        "U2.F1",
+        "U2.F12"
+      ],
+      "cuts_L405_to_U2F1": true
+    },
+    {
+      "uuid": "5bf0a54d-cf65-4215-9e16-9de2cfe5079a",
+      "via": false,
+      "layer": "In3.Cu",
+      "start_mm": [
+        53.7,
+        0.8
+      ],
+      "end_mm": [
+        52.711765,
+        0.782353
+      ],
+      "width_mm": 1.0,
+      "length_mm": 0.9883925494630158,
+      "lost_pads": [
+        "C2302.1",
+        "C2303.1",
+        "C2304.1",
+        "C2305.1",
+        "C2306.1",
+        "C2307.1",
+        "C2308.1",
+        "R8006.1",
+        "U2.F1",
+        "U2.F12"
+      ],
+      "cuts_L405_to_U2F1": true
+    },
+    {
+      "uuid": "721de874-1ddd-487f-94d9-8b71961603b9",
+      "via": false,
+      "layer": "In3.Cu",
+      "start_mm": [
+        52.711765,
+        0.782353
+      ],
+      "end_mm": [
+        48.1,
+        0.7
+      ],
+      "width_mm": 0.8,
+      "length_mm": 4.612500236513164,
+      "lost_pads": [
+        "C2302.1",
+        "C2303.1",
+        "C2304.1",
+        "C2305.1",
+        "C2306.1",
+        "C2307.1",
+        "C2308.1",
+        "R8006.1",
+        "U2.F1",
+        "U2.F12"
+      ],
+      "cuts_L405_to_U2F1": true
+    },
+    {
+      "uuid": "7cf78ba6-a3fa-4f4c-85d3-38fdc6944909",
+      "via": false,
+      "layer": "In3.Cu",
+      "start_mm": [
+        55.5,
+        1.55
+      ],
+      "end_mm": [
+        54.9,
+        1.3
+      ],
+      "width_mm": 1.2,
+      "length_mm": 0.65,
+      "lost_pads": [],
+      "cuts_L405_to_U2F1": false
+    },
+    {
+      "uuid": "7d4075cd-80ec-4f9a-a58f-e88580fae929",
+      "via": false,
+      "layer": "In3.Cu",
+      "start_mm": [
+        33.193333,
+        0.795556
+      ],
+      "end_mm": [
+        32.5,
+        0.8
+      ],
+      "width_mm": 0.6,
+      "length_mm": 0.6933472420259563,
+      "lost_pads": [],
+      "cuts_L405_to_U2F1": false
+    },
+    {
+      "uuid": "7dc9c398-4c79-4de6-a87c-54f944576075",
+      "via": false,
+      "layer": "In3.Cu",
+      "start_mm": [
+        33.54,
+        0.793333
+      ],
+      "end_mm": [
+        33.193333,
+        0.795556
+      ],
+      "width_mm": 0.8,
+      "length_mm": 0.34667412741362746,
+      "lost_pads": [],
+      "cuts_L405_to_U2F1": false
+    },
+    {
+      "uuid": "85573255-e687-4b6d-9a38-7b1027cb8fbf",
+      "via": false,
+      "layer": "In3.Cu",
+      "start_mm": [
+        48.1,
+        0.7
+      ],
+      "end_mm": [
+        35.966667,
+        0.777778
+      ],
+      "width_mm": 0.8,
+      "length_mm": 12.133582286619767,
+      "lost_pads": [
+        "C2302.1",
+        "C2303.1",
+        "C2304.1",
+        "C2305.1",
+        "C2306.1",
+        "C2307.1",
+        "C2308.1",
+        "U2.F1",
+        "U2.F12"
+      ],
+      "cuts_L405_to_U2F1": true
+    },
+    {
+      "uuid": "97022549-b2fa-4018-8bcf-ae787fee77b5",
+      "via": false,
+      "layer": "In3.Cu",
+      "start_mm": [
+        35.735556,
+        0.779259
+      ],
+      "end_mm": [
+        35.7,
+        0.8
+      ],
+      "width_mm": 0.5,
+      "length_mm": 0.04116331154073977,
+      "lost_pads": [],
+      "cuts_L405_to_U2F1": false
+    },
+    {
+      "uuid": "a75a0e9e-9797-475b-bf1f-576c0f2569e8",
+      "via": false,
+      "layer": "In3.Cu",
+      "start_mm": [
+        32.5,
+        0.8
+      ],
+      "end_mm": [
+        31.9,
+        1.325
+      ],
+      "width_mm": 0.6,
+      "length_mm": 0.7972609359550987,
+      "lost_pads": [
+        "C2302.1",
+        "C2303.1",
+        "C2304.1",
+        "C2305.1",
+        "C2306.1",
+        "C2307.1",
+        "C2308.1",
+        "U2.F1"
+      ],
+      "cuts_L405_to_U2F1": true
+    },
+    {
+      "uuid": "bcc63eb6-041c-46c7-ad26-83bc7ef2ea94",
+      "via": false,
+      "layer": "In3.Cu",
+      "start_mm": [
+        35.8,
+        3.5
+      ],
+      "end_mm": [
+        35.8,
+        3.6
+      ],
+      "width_mm": 0.5,
+      "length_mm": 0.1,
+      "lost_pads": [],
+      "cuts_L405_to_U2F1": false
+    },
+    {
+      "uuid": "bcf049e0-724a-41d8-add5-ecdfb9d88c7a",
+      "via": false,
+      "layer": "In3.Cu",
+      "start_mm": [
+        35.7,
+        0.8
+      ],
+      "end_mm": [
+        35.7,
+        3.4
+      ],
+      "width_mm": 0.5,
+      "length_mm": 2.6,
+      "lost_pads": [
+        "U2.F12"
+      ],
+      "cuts_L405_to_U2F1": false
+    },
+    {
+      "uuid": "c092d2f4-7d88-4019-9174-7a05791c3670",
+      "via": false,
+      "layer": "In3.Cu",
+      "start_mm": [
+        49.8,
+        6.0
+      ],
+      "end_mm": [
+        50.9,
+        8.3
+      ],
+      "width_mm": 0.6,
+      "length_mm": 2.5495097567963927,
+      "lost_pads": [
+        "R8006.1"
+      ],
+      "cuts_L405_to_U2F1": false
+    },
+    {
+      "uuid": "c6c871f5-f375-4aac-84b2-55c349704641",
+      "via": false,
+      "layer": "In3.Cu",
+      "start_mm": [
+        35.8,
+        3.6
+      ],
+      "end_mm": [
+        35.675,
+        3.725
+      ],
+      "width_mm": 0.5,
+      "length_mm": 0.1767766952966369,
+      "lost_pads": [],
+      "cuts_L405_to_U2F1": false
+    },
+    {
+      "uuid": "cfe622e1-11cb-433b-8191-f72a24ec5cd4",
+      "via": false,
+      "layer": "In3.Cu",
+      "start_mm": [
+        55.8,
+        1.675
+      ],
+      "end_mm": [
+        55.5,
+        1.55
+      ],
+      "width_mm": 1.0,
+      "length_mm": 0.325,
+      "lost_pads": [],
+      "cuts_L405_to_U2F1": false
+    },
+    {
+      "uuid": "df74c3a4-3494-4b06-b14b-115b313e4371",
+      "via": false,
+      "layer": "In3.Cu",
+      "start_mm": [
+        57.3,
+        2.3
+      ],
+      "end_mm": [
+        56.7,
+        2.05
+      ],
+      "width_mm": 0.8,
+      "length_mm": 0.65,
+      "lost_pads": [
+        "C2302.1",
+        "C2303.1",
+        "C2304.1",
+        "C2305.1",
+        "C2306.1",
+        "C2307.1",
+        "C2308.1",
+        "R8006.1",
+        "U2.F1",
+        "U2.F12"
+      ],
+      "cuts_L405_to_U2F1": true
+    },
+    {
+      "uuid": "e13c826a-bb53-4ded-a561-68c93095704d",
+      "via": false,
+      "layer": "In3.Cu",
+      "start_mm": [
+        31.7,
+        1.5
+      ],
+      "end_mm": [
+        30.9,
+        1.5
+      ],
+      "width_mm": 0.6,
+      "length_mm": 0.8,
+      "lost_pads": [],
+      "cuts_L405_to_U2F1": false
+    },
+    {
+      "uuid": "e2982360-a4cc-48a7-9094-0f43f6519dc7",
+      "via": false,
+      "layer": "In3.Cu",
+      "start_mm": [
+        31.9,
+        1.325
+      ],
+      "end_mm": [
+        31.7,
+        1.5
+      ],
+      "width_mm": 0.8,
+      "length_mm": 0.26575364531836626,
+      "lost_pads": [],
+      "cuts_L405_to_U2F1": false
+    },
+    {
+      "uuid": "e71fc129-097d-4dca-8677-1bd2516f9908",
+      "via": false,
+      "layer": "In3.Cu",
+      "start_mm": [
+        49.637255,
+        0.727451
+      ],
+      "end_mm": [
+        49.8,
+        6.0
+      ],
+      "width_mm": 0.6,
+      "length_mm": 5.275060084247952,
+      "lost_pads": [
+        "R8006.1"
+      ],
+      "cuts_L405_to_U2F1": false
+    },
+    {
+      "uuid": "f5bc3314-a143-4c32-8e7c-de550d18ef9a",
+      "via": false,
+      "layer": "In3.Cu",
+      "start_mm": [
+        57.3,
+        2.3
+      ],
+      "end_mm": [
+        58.225,
+        2.45
+      ],
+      "width_mm": 0.6,
+      "length_mm": 0.9370832406995656,
+      "lost_pads": [],
+      "cuts_L405_to_U2F1": false
+    }
+  ]
+}

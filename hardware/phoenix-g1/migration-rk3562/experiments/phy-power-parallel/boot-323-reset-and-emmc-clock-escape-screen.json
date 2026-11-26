@@ -1,0 +1,71 @@
+{
+  "checkpoint": "layout-tp11-probe-spreader-margin.json",
+  "sha256": "12716a3f5fe1f9a3f0a362264ed998094bac61c3997f04afd718bffadc728f3c",
+  "retained_verification": {
+    "open_joins": 323,
+    "open_nets": 194,
+    "layout_pairs": 883,
+    "usb_pairs": 4,
+    "drc_findings": 121,
+    "introduced_drc": []
+  },
+  "reset_n": {
+    "method": "Front-copper bounded search retaining all fixed lands and allowing at most two movable copper objects.",
+    "bounds_mm": [
+      35.5,
+      19.5,
+      54,
+      36.5
+    ],
+    "grid_mm": 0.05,
+    "max_copper_length_mm": 16,
+    "drill_margin_mm": 0.252,
+    "source": [
+      "U1.1P12"
+    ],
+    "target": [
+      "U16.2"
+    ],
+    "width_mm": 0.2,
+    "states": 416,
+    "solutions": [],
+    "start_centres": 21,
+    "target_centres": 69
+  },
+  "emmc_clock_source": {
+    "front_fit": {
+      "board_sha256": "12716a3f5fe1f9a3f0a362264ed998094bac61c3997f04afd718bffadc728f3c",
+      "historical_sha256": "4434879e3c5aba8f62a14b22c930fe42c80bdd23b63bbb90926d7abff49eb7c5",
+      "source": "U1.M25",
+      "target": "R8004.1",
+      "trials": {
+        "terminations_with_contact": 6260
+      },
+      "blocked_by": {
+        "U1": 6260
+      },
+      "options": 0
+    },
+    "ordinary_through_via_fit": {
+      "source_sha256": "12716a3f5fe1f9a3f0a362264ed998094bac61c3997f04afd718bffadc728f3c",
+      "source": "U1.M25",
+      "target": "R8004.1",
+      "maximum_search_radius_mm": 1.35,
+      "grid_mm": 0.025,
+      "via_mm": [
+        0.45,
+        0.2
+      ],
+      "results": {
+        "off_land_margin": 8706,
+        "foreign_copper": 316,
+        "hole_to_hole_margin": 123
+      },
+      "candidates_count": 0,
+      "candidates": []
+    },
+    "retained_scope": "R8004 remains in its existing position. Solder-land geometry, fab process and rule set are unchanged."
+  },
+  "result": "No candidate advanced to PCB layout in these controlled escape windows.",
+  "assembly_ready": false
+}

@@ -1,0 +1,109 @@
+{
+  "reference": "C1304",
+  "retained_parent_sha256": "ac7d9bf2684b5636b851fbb686f21ea52aa80bb2516e08ba015493c3d7550123",
+  "tested_pose": [
+    [
+      19600000,
+      39550000
+    ],
+    15.0
+  ],
+  "result": "REJECTED",
+  "reason": "Both lands violate the existing 0.250 mm copper-to-board-edge clearance.",
+  "native_drc_regressions": [
+    {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "items": [
+        "1338748c-a823-48a4-b556-52ed813f512c",
+        "d03d1d32-b3b7-4bc9-a800-3300df5000f8"
+      ],
+      "count": 1
+    },
+    {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "items": [
+        "1338748c-a823-48a4-b556-52ed813f512c",
+        "b0303e1d-1962-45a4-81ac-426cfe94563c"
+      ],
+      "count": 1
+    }
+  ],
+  "alternate_via_move": {
+    "result": "REJECTED",
+    "base_checkpoint": "layout-phy-c514-off-drill.json",
+    "via_nm": [
+      [
+        18550000,
+        38750000
+      ],
+      [
+        17700000,
+        38750000
+      ]
+    ],
+    "native_drc_regressions": [],
+    "ground_fill_comparison": {
+      "changed_via_centers_nm": [
+        [
+          17700000,
+          38750000
+        ],
+        [
+          18550000,
+          38750000
+        ]
+      ],
+      "samples_by_net_and_layer": {
+        "+3V3_SYS F.Cu": {
+          "sampled": 647,
+          "lost": 115,
+          "gained": 174,
+          "lost_in_same_rail_antipad": 115,
+          "lost_examples": [
+            {
+              "track": "278cc57b-d5a8-4b2e-95ac-536a1fa37e16",
+              "point_nm": [
+                17142368,
+                38550000
+              ]
+            },
+            {
+              "track": "278cc57b-d5a8-4b2e-95ac-536a1fa37e16",
+              "point_nm": [
+                17154361,
+                38550000
+              ]
+            },
+            {
+              "track": "278cc57b-d5a8-4b2e-95ac-536a1fa37e16",
+              "point_nm": [
+                17166355,
+                38550000
+              ]
+            },
+            {
+              "track": "278cc57b-d5a8-4b2e-95ac-536a1fa37e16",
+              "point_nm": [
+                17178349,
+                38550000
+              ]
+            },
+            {
+              "track": "278cc57b-d5a8-4b2e-95ac-536a1fa37e16",
+              "point_nm": [
+                17190343,
+                38550000
+              ]
+            }
+          ]
+        }
+      },
+      "sample_pitch_mm": 0.012,
+      "via_window_radius_mm": 1.0,
+      "scope": "Center and edges of unchanged straight copper only. Local ground-fill comparison; no field or impedance simulation."
+    },
+    "reason": "Existing +3V3_SYS copper loses reference at 115 sampled points in the new same-rail hole clearance."
+  }
+}

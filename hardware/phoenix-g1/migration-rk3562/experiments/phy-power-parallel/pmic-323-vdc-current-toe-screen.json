@@ -1,0 +1,293 @@
+{
+  "source_checkpoint": "layout-tp11-probe-spreader-margin.json",
+  "source_sha256": "12716a3f5fe1f9a3f0a362264ed998094bac61c3997f04afd718bffadc728f3c",
+  "net": "PMIC_VDC",
+  "target_pin": "U4.61",
+  "historical_geometry": "parallel_vdc_joint.py",
+  "historical_neck_mm": 0.15,
+  "retained_track_width_mm": 0.2,
+  "search_clearance_mm": 0.202,
+  "drill_clearance_mm": 0.252,
+  "toe_sampling": {
+    "rows": 308,
+    "contact_groups": {
+      "25": {
+        "minimum_number_of_blockers": 2,
+        "examples": [
+          {
+            "start_nm": [
+              59650000,
+              5150000
+            ],
+            "end_nm": [
+              59650000,
+              4890000
+            ],
+            "contact_depth_bound_um": 30.0,
+            "hits": [
+              [
+                "708e156f-c7b2-426e-a247-bd3e33cf41fe",
+                "+1V8_SYS",
+                "PCB_TRACK"
+              ],
+              [
+                "caaee878-7d5f-4760-9b9d-9db8d804f657",
+                "+1V8_SYS",
+                "PCB_TRACK"
+              ]
+            ]
+          }
+        ],
+        "number_of_starts": 286,
+        "blocker_sets": {
+          "PCB_TRACK,PCB_TRACK": 1
+        }
+      },
+      "50": {
+        "minimum_number_of_blockers": 3,
+        "examples": [
+          {
+            "start_nm": [
+              59600000,
+              5170000
+            ],
+            "end_nm": [
+              59600000,
+              4890000
+            ],
+            "contact_depth_bound_um": 50.0,
+            "hits": [
+              [
+                "708e156f-c7b2-426e-a247-bd3e33cf41fe",
+                "+1V8_SYS",
+                "PCB_TRACK"
+              ],
+              [
+                "caaee878-7d5f-4760-9b9d-9db8d804f657",
+                "+1V8_SYS",
+                "PCB_TRACK"
+              ],
+              [
+                "6f91ed7d-2206-4e92-af06-d7c248a175dd",
+                "GND",
+                "U4.62"
+              ]
+            ]
+          },
+          {
+            "start_nm": [
+              59600000,
+              5180000
+            ],
+            "end_nm": [
+              59600000,
+              4890000
+            ],
+            "contact_depth_bound_um": 60.0,
+            "hits": [
+              [
+                "708e156f-c7b2-426e-a247-bd3e33cf41fe",
+                "+1V8_SYS",
+                "PCB_TRACK"
+              ],
+              [
+                "caaee878-7d5f-4760-9b9d-9db8d804f657",
+                "+1V8_SYS",
+                "PCB_TRACK"
+              ],
+              [
+                "6f91ed7d-2206-4e92-af06-d7c248a175dd",
+                "GND",
+                "U4.62"
+              ]
+            ]
+          },
+          {
+            "start_nm": [
+              59600000,
+              5190000
+            ],
+            "end_nm": [
+              59600000,
+              4890000
+            ],
+            "contact_depth_bound_um": 70.0,
+            "hits": [
+              [
+                "708e156f-c7b2-426e-a247-bd3e33cf41fe",
+                "+1V8_SYS",
+                "PCB_TRACK"
+              ],
+              [
+                "caaee878-7d5f-4760-9b9d-9db8d804f657",
+                "+1V8_SYS",
+                "PCB_TRACK"
+              ],
+              [
+                "6f91ed7d-2206-4e92-af06-d7c248a175dd",
+                "GND",
+                "U4.62"
+              ]
+            ]
+          },
+          {
+            "start_nm": [
+              59600000,
+              5200000
+            ],
+            "end_nm": [
+              59600000,
+              4890000
+            ],
+            "contact_depth_bound_um": 80.0,
+            "hits": [
+              [
+                "708e156f-c7b2-426e-a247-bd3e33cf41fe",
+                "+1V8_SYS",
+                "PCB_TRACK"
+              ],
+              [
+                "caaee878-7d5f-4760-9b9d-9db8d804f657",
+                "+1V8_SYS",
+                "PCB_TRACK"
+              ],
+              [
+                "6f91ed7d-2206-4e92-af06-d7c248a175dd",
+                "GND",
+                "U4.62"
+              ]
+            ]
+          }
+        ],
+        "number_of_starts": 264,
+        "blocker_sets": {
+          "PCB_TRACK,PCB_TRACK,U4.62": 72,
+          "PCB_TRACK,PCB_TRACK,U4.60": 80
+        }
+      },
+      "75": {
+        "minimum_number_of_blockers": 3,
+        "examples": [
+          {
+            "start_nm": [
+              59600000,
+              5200000
+            ],
+            "end_nm": [
+              59600000,
+              4890000
+            ],
+            "contact_depth_bound_um": 80.0,
+            "hits": [
+              [
+                "708e156f-c7b2-426e-a247-bd3e33cf41fe",
+                "+1V8_SYS",
+                "PCB_TRACK"
+              ],
+              [
+                "caaee878-7d5f-4760-9b9d-9db8d804f657",
+                "+1V8_SYS",
+                "PCB_TRACK"
+              ],
+              [
+                "6f91ed7d-2206-4e92-af06-d7c248a175dd",
+                "GND",
+                "U4.62"
+              ]
+            ]
+          },
+          {
+            "start_nm": [
+              59600000,
+              5210000
+            ],
+            "end_nm": [
+              59600000,
+              4890000
+            ],
+            "contact_depth_bound_um": 90.0,
+            "hits": [
+              [
+                "708e156f-c7b2-426e-a247-bd3e33cf41fe",
+                "+1V8_SYS",
+                "PCB_TRACK"
+              ],
+              [
+                "caaee878-7d5f-4760-9b9d-9db8d804f657",
+                "+1V8_SYS",
+                "PCB_TRACK"
+              ],
+              [
+                "6f91ed7d-2206-4e92-af06-d7c248a175dd",
+                "GND",
+                "U4.62"
+              ]
+            ]
+          },
+          {
+            "start_nm": [
+              59600000,
+              5220000
+            ],
+            "end_nm": [
+              59600000,
+              4890000
+            ],
+            "contact_depth_bound_um": 100.0,
+            "hits": [
+              [
+                "708e156f-c7b2-426e-a247-bd3e33cf41fe",
+                "+1V8_SYS",
+                "PCB_TRACK"
+              ],
+              [
+                "caaee878-7d5f-4760-9b9d-9db8d804f657",
+                "+1V8_SYS",
+                "PCB_TRACK"
+              ],
+              [
+                "6f91ed7d-2206-4e92-af06-d7c248a175dd",
+                "GND",
+                "U4.62"
+              ]
+            ]
+          },
+          {
+            "start_nm": [
+              59600000,
+              5230000
+            ],
+            "end_nm": [
+              59600000,
+              4890000
+            ],
+            "contact_depth_bound_um": 110.0,
+            "hits": [
+              [
+                "708e156f-c7b2-426e-a247-bd3e33cf41fe",
+                "+1V8_SYS",
+                "PCB_TRACK"
+              ],
+              [
+                "caaee878-7d5f-4760-9b9d-9db8d804f657",
+                "+1V8_SYS",
+                "PCB_TRACK"
+              ],
+              [
+                "6f91ed7d-2206-4e92-af06-d7c248a175dd",
+                "GND",
+                "U4.62"
+              ]
+            ]
+          }
+        ],
+        "number_of_starts": 231,
+        "blocker_sets": {
+          "PCB_TRACK,PCB_TRACK,U4.62": 58,
+          "PCB_TRACK,PCB_TRACK,U4.60": 66
+        }
+      }
+    }
+  },
+  "result": "At nominal axial contact overlap of at least 50 um, the best tested 0.20 mm straight lead is obstructed by two tracks and one fixed adjacent U4 pad. No PCB trial was created."
+}

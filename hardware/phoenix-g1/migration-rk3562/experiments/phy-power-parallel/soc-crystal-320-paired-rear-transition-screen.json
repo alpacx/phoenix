@@ -1,0 +1,762 @@
+{
+  "parent_sha256": "1d7de1a64ee82a5f9f87c0a3173a4e36b15f550787a8e38416d4807ab642f65a",
+  "adopted": false,
+  "scope": "Necessary escape check for a coordinated rear relocation of Y1, R1501, R1502, C1501 and C1502. Existing KiCad geometry screened in six copper layers, with native shapes and nominal clearances. No PCB modified.",
+  "off_pad_transition": {
+    "diameter_drill_mm": [
+      0.45,
+      0.2
+    ],
+    "front_width_mm": 0.2,
+    "grid_um": 50,
+    "transition_distance_mm": [
+      0.4,
+      1.2
+    ],
+    "records": [
+      {
+        "pin": "AG25",
+        "stats": {
+          "sites": 1600,
+          "fixed_blocked": 1443,
+          "fixed:C1635.2": 423,
+          "fixed:U1.AG23": 208,
+          "fixed:U1.AG24": 371,
+          "fixed:U1.AF22": 13,
+          "fixed:U1.AF23": 163,
+          "fixed:U1.AF24": 295,
+          "fixed:R1602.1": 158,
+          "fixed:U1.AE23": 57,
+          "fixed:U1.AE24": 163,
+          "fixed:C2204.1": 44,
+          "fixed:U1.AF25": 371,
+          "fixed:C1635.1": 525,
+          "fixed:U1.AE25": 208,
+          "fixed:U1.AD25": 32,
+          "test_after_copper_removal": 157,
+          "fixed:U1.AE26": 163,
+          "fixed:U1.AF26": 295,
+          "fixed:C2204.2": 44,
+          "fixed:U1.AD26": 13,
+          "fixed:U1.AG26": 371,
+          "fixed:U1.AE27": 57,
+          "fixed:U1.AF27": 163,
+          "fixed:U1.AG27": 208
+        },
+        "zero_fixed_examples": [
+          {
+            "xy_nm": [
+              48350000,
+              27600000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48400000,
+              27550000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48400000,
+              27600000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48400000,
+              27650000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48450000,
+              27500000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48450000,
+              27550000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48450000,
+              27600000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48450000,
+              27650000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          }
+        ],
+        "legal_or_only_pmic_interrupt": [
+          {
+            "xy_nm": [
+              48350000,
+              27600000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48400000,
+              27550000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48400000,
+              27600000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48400000,
+              27650000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48450000,
+              27500000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48450000,
+              27550000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48450000,
+              27600000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48450000,
+              27650000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48500000,
+              27450000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48500000,
+              27500000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48500000,
+              27550000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48500000,
+              27600000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48500000,
+              27650000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48500000,
+              27700000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48550000,
+              27400000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48550000,
+              27450000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48550000,
+              27500000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48550000,
+              27550000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48550000,
+              27600000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48550000,
+              27650000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48600000,
+              27350000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48600000,
+              27400000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48600000,
+              27450000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48600000,
+              27500000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48600000,
+              27550000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48600000,
+              27600000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48600000,
+              27650000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48650000,
+              27300000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48650000,
+              27350000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48650000,
+              27400000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48650000,
+              27450000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48650000,
+              27500000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48650000,
+              27550000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48650000,
+              27600000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48700000,
+              27300000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48700000,
+              27350000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48700000,
+              27400000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48700000,
+              27450000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48700000,
+              27500000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48700000,
+              27550000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48750000,
+              27350000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48750000,
+              27400000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48750000,
+              27450000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48750000,
+              27500000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48800000,
+              27400000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          },
+          {
+            "xy_nm": [
+              48800000,
+              27450000
+            ],
+            "movable": {
+              "030132dc-ca11-4dcf-8bef-059a895107d4": "PMIC_INT_N",
+              "8291f264-ddb7-4f18-b919-3d206fe286d9": "PMIC_INT_N",
+              "3a8c8e49-2ac1-4298-9f14-9e235110614f": "PMIC_INT_N"
+            }
+          }
+        ]
+      },
+      {
+        "pin": "AF25",
+        "stats": {
+          "sites": 1600,
+          "fixed_blocked": 1600,
+          "fixed:U1.AF22": 32,
+          "fixed:U1.AF23": 208,
+          "fixed:U1.AF24": 371,
+          "fixed:C1635.2": 358,
+          "fixed:U1.AE22": 13,
+          "fixed:U1.AE23": 163,
+          "fixed:U1.AG23": 163,
+          "fixed:U1.AE24": 295,
+          "fixed:U1.AG24": 295,
+          "fixed:R1602.1": 13,
+          "fixed:U1.AE25": 371,
+          "fixed:C1635.1": 537,
+          "fixed:U1.AG25": 371,
+          "fixed:U1.AD25": 208,
+          "fixed:U1.AD26": 163,
+          "fixed:U1.AE26": 295,
+          "fixed:U1.AG26": 295,
+          "fixed:U1.AC26": 13,
+          "fixed:U1.AF26": 371,
+          "fixed:U1.AD27": 57,
+          "fixed:U1.AE27": 163,
+          "fixed:U1.AF27": 208,
+          "fixed:U1.AG27": 163
+        },
+        "zero_fixed_examples": [],
+        "legal_or_only_pmic_interrupt": []
+      }
+    ]
+  },
+  "centered_filled_and_capped_alternative": {
+    "before_release": [
+      {
+        "pin": "AG25",
+        "stats": {
+          "sites": 1,
+          "fixed_blocked": 1,
+          "fixed:C1635.1": 1
+        },
+        "zero_fixed_examples": [],
+        "legal_or_only_pmic_interrupt": []
+      },
+      {
+        "pin": "AF25",
+        "stats": {
+          "sites": 1,
+          "fixed_blocked": 1,
+          "fixed:C1635.1": 1
+        },
+        "zero_fixed_examples": [],
+        "legal_or_only_pmic_interrupt": []
+      }
+    ],
+    "virtual_release": [
+      "C1635 with its two pads",
+      "three directly attached copper items of C1635"
+    ],
+    "after_release": [
+      {
+        "pin": "AG25",
+        "stats": {
+          "sites": 1,
+          "test_after_copper_removal": 1
+        },
+        "zero_fixed_examples": [
+          {
+            "xy_nm": [
+              48500000,
+              26500000
+            ],
+            "movable": {
+              "3a03ebeb-39c2-4669-b653-bb457f5a49d7": "GND",
+              "68510d09-a31e-49fe-b540-4d8f5972106e": "GND",
+              "594c902f-06e9-4485-8852-e229a4c41da2": "+3V58_WIFI"
+            }
+          }
+        ],
+        "legal_or_only_pmic_interrupt": []
+      },
+      {
+        "pin": "AF25",
+        "stats": {
+          "sites": 1,
+          "test_after_copper_removal": 1
+        },
+        "zero_fixed_examples": [
+          {
+            "xy_nm": [
+              48500000,
+              26000000
+            ],
+            "movable": {
+              "1112dae4-ef29-4304-99fd-578f28725543": "GND",
+              "3fd1aaca-8dd8-401a-9aea-099bf180ed7f": "GND",
+              "6793ffef-6db7-43fe-a48c-fbc25a682c05": "GND",
+              "c8a98a9f-7f2c-49d2-affc-5b802a674e2d": "GND",
+              "d4345182-ccdf-44c0-b6c3-d418b94ff716": "GND",
+              "f45f0130-c6e3-423e-91aa-855653ddfa54": "GND",
+              "fc5f0378-cb56-400a-934f-eccb6c4c813c": "GND",
+              "ff4b1c04-8e10-45d7-a51a-fc61604df864": "GND",
+              "47a3e7f2-e26d-4630-80f6-4b0ddffb9870": "GND",
+              "895b7d16-058c-49c7-a4bf-1883d6a0767e": "GND",
+              "594c902f-06e9-4485-8852-e229a4c41da2": "+3V58_WIFI"
+            }
+          }
+        ],
+        "legal_or_only_pmic_interrupt": []
+      }
+    ],
+    "classification": "This is a virtual omission to identify the next obstacles, not a physical or electrical approval. The shield and power copper remain in use."
+  },
+  "conclusion": "AF25 has no off-pad location in the tested window with a straight 0.20 mm launch. Even dual filled-and-capped via centers need C1635 plus local GND and +3V58_WIFI copper replanning. Placement of the five oscillator footprints alone cannot open the tested loop.",
+  "remaining_joins": 320
+}

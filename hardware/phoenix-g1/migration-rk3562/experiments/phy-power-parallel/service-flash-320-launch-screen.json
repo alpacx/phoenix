@@ -1,0 +1,154 @@
+{
+  "checkpoint": "layout-npu-load-feedback-pair.json",
+  "sha256": "1d7de1a64ee82a5f9f87c0a3173a4e36b15f550787a8e38416d4807ab642f65a",
+  "retained_verification": {
+    "joins": 320,
+    "open_nets": 194,
+    "layout_pairs": 886,
+    "usb_pairs": 4,
+    "drc_findings": 121,
+    "introduced_drc": []
+  },
+  "emmc_strobe": {
+    "source_sha256": "1d7de1a64ee82a5f9f87c0a3173a4e36b15f550787a8e38416d4807ab642f65a",
+    "source": "U1.L26",
+    "screen_without_unrouted_part": "R8004",
+    "maximum_search_radius_mm": 1.35,
+    "grid_mm": 0.025,
+    "via_mm": [
+      0.45,
+      0.2
+    ],
+    "results": {
+      "off_land_margin": 7173,
+      "hole_to_hole_margin": 1065,
+      "foreign_copper": 907
+    },
+    "host_sites": 0,
+    "host_examples": [],
+    "poses_with_both_requirements": 0,
+    "examples": []
+  },
+  "emmc_command": {
+    "historical_via_nm": [
+      50975000,
+      22150000
+    ],
+    "current_launch_obstacles": [
+      [
+        "014d6509-1639-458b-bcb2-5c655cda3d37",
+        "GND",
+        "F.Cu"
+      ],
+      [
+        "3a964f03-89ed-40bd-8eea-e1f9431f5092",
+        "GND",
+        "F.Cu"
+      ],
+      [
+        "3ef113a7-e108-49a3-bb1a-c970eea47fba",
+        "GND",
+        "F.Cu"
+      ],
+      [
+        "4ba15e4b-1a01-4c2c-aa0c-02a27ad76dc7",
+        "GND",
+        "F.Cu"
+      ],
+      [
+        "4e47a0e8-b585-45a3-a855-67a81fdf6b49",
+        "GND",
+        "F.Cu"
+      ],
+      [
+        "4f46628e-9a39-48bd-b0e4-e27af241c7cb",
+        "GND",
+        "F.Cu"
+      ],
+      [
+        "606584f1-03c5-4b7d-97da-0829ad6b16f2",
+        "GND",
+        "F.Cu"
+      ],
+      [
+        "834615bf-d878-4861-b6fd-172265e10b4a",
+        "GND",
+        "F.Cu"
+      ],
+      [
+        "c406f502-9059-43c8-bfbe-a0aa6c0770b5",
+        "GND",
+        "F.Cu"
+      ],
+      [
+        "db4eb41b-cedc-4a9c-b984-8a6e1b028a47",
+        "GND",
+        "F.Cu"
+      ],
+      [
+        "4c270112-7536-4976-884c-7026eed82e25",
+        "VDD_LOGIC",
+        "B.Cu"
+      ]
+    ],
+    "candidate": false
+  },
+  "expansion_miso": {
+    "launch_widths_mm": [
+      0.2,
+      0.125
+    ],
+    "results": [
+      {
+        "parent_sha256": "1d7de1a64ee82a5f9f87c0a3173a4e36b15f550787a8e38416d4807ab642f65a",
+        "network": "EXP_SPI_MISO",
+        "frontiers": [
+          {
+            "group": 0,
+            "layer": "F.Cu",
+            "nodes": 162
+          }
+        ],
+        "pairs": [],
+        "local_exit": {
+          "0-F.Cu": {
+            "sites": 0,
+            "representatives": []
+          }
+        },
+        "near_via": [],
+        "candidates": []
+      },
+      {
+        "parent_sha256": "1d7de1a64ee82a5f9f87c0a3173a4e36b15f550787a8e38416d4807ab642f65a",
+        "network": "EXP_SPI_MISO",
+        "frontiers": [
+          {
+            "group": 0,
+            "layer": "F.Cu",
+            "nodes": 300
+          },
+          {
+            "group": 1,
+            "layer": "F.Cu",
+            "nodes": 97
+          }
+        ],
+        "pairs": [],
+        "local_exit": {
+          "0-F.Cu": {
+            "sites": 0,
+            "representatives": []
+          },
+          "1-F.Cu": {
+            "sites": 0,
+            "representatives": []
+          }
+        },
+        "near_via": [],
+        "candidates": []
+      }
+    ]
+  },
+  "result": "No candidate PCB adopted. Recovering the historical eMMC launches or obtaining a through-hole site for MISO needs changes beyond the tested windows."
+}

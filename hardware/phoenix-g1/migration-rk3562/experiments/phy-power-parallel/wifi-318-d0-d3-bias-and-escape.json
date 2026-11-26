@@ -1,0 +1,169 @@
+{
+  "sha256": "377afbd0be0b5258209a877f9720cc09a04583f1d2b937f05d970023e8b78b2c",
+  "checkpoint": "layout-lpddr-c2301-1v8-bank.json",
+  "bias": {
+    "R2010": "47k from WIFI_D0 to +3V3_IO",
+    "R2013": "47k from WIFI_D3 to +3V3_IO",
+    "local_reference_R2012": "47k from WIFI_D2 to +3V3_IO",
+    "R2014": "47k from WIFI_CMD to +3V3_IO"
+  },
+  "moved_tap_fly_distance_mm": {
+    "R2010_to_U25.18": 31.678711404506338,
+    "R2013_to_U25.15": 38.68968539869508
+  },
+  "rear_pose_search": {
+    "grid_mm": 0.125,
+    "angle_deg": 15,
+    "signal_width_mm": 0.2,
+    "bias_width_mm": 0.25,
+    "paired_options": [
+      {
+        "ref": "R2013",
+        "stats": {
+          "clear_courtyard": 1826,
+          "clear_pads": 2
+        },
+        "options": 0
+      },
+      {
+        "ref": "R2010",
+        "stats": {
+          "clear_courtyard": 200
+        },
+        "options": 0
+      }
+    ]
+  },
+  "future_exits": [
+    {
+      "pin": "U25.15",
+      "signal": "WIFI_D3",
+      "layer": "B.Cu",
+      "counts": {
+        "reachable_centerlines": 19175
+      },
+      "common_single_blocker": [
+        [
+          [
+            "copper",
+            "+5V_MAIN",
+            "6d269492-05a0-4edc-8edf-f6e842c3aa90"
+          ],
+          25
+        ],
+        [
+          [
+            "pad",
+            "WIFI_D3",
+            "a0fafbd5-d22a-4385-8049-baa6abe6fd32"
+          ],
+          10
+        ]
+      ],
+      "sites": []
+    },
+    {
+      "pin": "U25.18",
+      "signal": "WIFI_D0",
+      "layer": "B.Cu",
+      "counts": {
+        "reachable_centerlines": 21976
+      },
+      "common_single_blocker": [
+        [
+          [
+            "copper",
+            "+5V_MAIN",
+            "6d269492-05a0-4edc-8edf-f6e842c3aa90"
+          ],
+          25
+        ],
+        [
+          [
+            "copper",
+            "+5V_MAIN",
+            "661062cc-5842-4edc-9a8b-d56e5622ed5e"
+          ],
+          14
+        ],
+        [
+          [
+            "copper",
+            "+3V3_PHY",
+            "fb32adca-6c7f-4197-b799-8cc87590cc07"
+          ],
+          2
+        ],
+        [
+          [
+            "copper",
+            "PHY_SW",
+            "af757493-03ec-4b52-8bf8-0738a0601add"
+          ],
+          2
+        ]
+      ],
+      "sites": []
+    },
+    {
+      "pin": "U1.T26",
+      "signal": "WIFI_D3",
+      "layer": "F.Cu",
+      "counts": {},
+      "common_single_blocker": [],
+      "sites": []
+    },
+    {
+      "pin": "U1.U26",
+      "signal": "WIFI_D0",
+      "layer": "F.Cu",
+      "counts": {
+        "reachable_centerlines": 69
+      },
+      "common_single_blocker": [],
+      "sites": []
+    }
+  ],
+  "soc_local_stubs": [
+    {
+      "pin": "U1.T26",
+      "stats": {
+        "0.12": 24,
+        "0.2": 20,
+        "0.3": 3,
+        "0.45": 1,
+        "0.6": 1
+      }
+    },
+    {
+      "pin": "U1.U26",
+      "stats": {
+        "0.12": 24,
+        "0.2": 18,
+        "0.3": 8,
+        "0.45": 2,
+        "0.6": 1
+      }
+    }
+  ],
+  "power_obstacle": {
+    "uuid": "6d269492-05a0-4edc-8edf-f6e842c3aa90",
+    "net": "+5V_MAIN",
+    "layer": "In2.Cu",
+    "width_mm": 0.8,
+    "start_mm": [
+      60.5,
+      24.5
+    ],
+    "end_mm": [
+      64.5,
+      20.5
+    ],
+    "single_obstruction_sites_per_module_terminal": 25
+  },
+  "retained_finding_counts": {
+    "minimum_joins": 318,
+    "via_dangling": 121
+  },
+  "result": "No short bias pose or off-pad module and SoC exits qualified. No reroute of the shared 5 V trunk and no PCB change."
+}

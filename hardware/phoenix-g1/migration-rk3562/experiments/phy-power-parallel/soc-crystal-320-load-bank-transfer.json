@@ -1,0 +1,64 @@
+{
+  "parent_sha256": "1d7de1a64ee82a5f9f87c0a3173a4e36b15f550787a8e38416d4807ab642f65a",
+  "trial_sha256": "695e5a572e9e93184eedd50f697d3535125c10d322dd771bd49e800bebe8ca24",
+  "adopted": false,
+  "moves_nm": {
+    "C1501": [
+      [
+        23000000,
+        37500000
+      ],
+      [
+        33140000,
+        34500000
+      ]
+    ],
+    "C1502": [
+      [
+        19000000,
+        34000000
+      ],
+      [
+        35460000,
+        29440000
+      ]
+    ]
+  },
+  "links_mm": [
+    [
+      "XTAL24_DRIVE",
+      1.499
+    ],
+    [
+      "GND",
+      0.613
+    ],
+    [
+      "XIN24M",
+      1.444
+    ]
+  ],
+  "verified_layout_pairs": 886,
+  "lost_pairs": [],
+  "connected": {
+    "C1501.1\u2013Y1.1": true,
+    "C1502.1\u2013Y1.3": true,
+    "C1501.2\u2013C1001.2": true,
+    "C1502.2\u2013C1001.2": true
+  },
+  "unconnected": 318,
+  "new_drc": [],
+  "usb_coexistence": {
+    "validated_layout_pairs": 888,
+    "validated_selector_pairs": 4,
+    "remaining_minimum_joins": 318,
+    "introduced_drc": []
+  },
+  "minimum_pad_center_distances_mm": {
+    "Y1.1_to_U1.AG25": 16.286,
+    "Y1.3_to_R1501.2_plus_R1501.1_to_U1.AF25": 23.278
+  },
+  "remaining_checkpoint": "layout-npu-load-feedback-pair.json",
+  "reason": "Local load branches reach Y1 and the ground structure, while both connections to the SoC remain open. The crystal did not move, and the long oscillator geometry is unchanged. A close placement and the complete referenced oscillator loop are pending.",
+  "reference_coupon": "soc-crystal-333-local-load-coupon.json"
+}

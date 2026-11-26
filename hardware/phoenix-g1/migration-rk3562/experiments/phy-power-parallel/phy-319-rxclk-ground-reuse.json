@@ -1,0 +1,258 @@
+{
+  "checkpoint": "hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/layout-lpddr-d1-feed.json",
+  "sha256": "8ccbbccb22d0e17e20fa5dad586d12dbd094bd8a54b27361c076047dd1173778",
+  "baseline_drc": {
+    "unconnected": 319,
+    "findings": {
+      "via_dangling": 121
+    },
+    "identical_regression_signatures": true
+  },
+  "target": {
+    "net": "PHY_RXCLK",
+    "via_uuid": "34266047-808b-4900-8d93-9403ba1ac1a9",
+    "xy_mm": [
+      63.05,
+      27.69
+    ],
+    "baseline_ground_gap_mm": 1.3626169674563722
+  },
+  "shared_ground_donor": {
+    "xy_mm": [
+      64.225,
+      27.0
+    ],
+    "rx_d1_baseline_gap_mm": 0.6731456008918131,
+    "geometry_screen": {
+      "worse_functional_signal": 6346,
+      "keeps_functional_return": 906,
+      "multiple_occupants": 906
+    }
+  },
+  "alternate_donor": {
+    "uuid": "daaf8f3c-10ad-4f07-b86b-128b39baf0d3",
+    "xy_mm": [
+      63.7,
+      31.0
+    ],
+    "preserved": true,
+    "actual_reference": {
+      "In1.Cu": {
+        "contains_via_and_rim": true,
+        "samples": 33
+      },
+      "In4.Cu": {
+        "contains_via_and_rim": true,
+        "samples": 33
+      }
+    },
+    "nearby_ground_pads": [
+      {
+        "pad": "U5.41",
+        "position_mm": [
+          63.0,
+          31.0
+        ],
+        "donor_distance_mm": 0.7,
+        "nearest_ground_vias": [
+          [
+            0.7,
+            "daaf8f3c-10ad-4f07-b86b-128b39baf0d3",
+            [
+              63.7,
+              31.0
+            ]
+          ],
+          [
+            3.269269796147146,
+            "34504188-d79c-4f52-96af-08181384a07f",
+            [
+              66.15,
+              30.125
+            ]
+          ]
+        ],
+        "physical_tracks": 1
+      },
+      {
+        "pad": "C522.2",
+        "position_mm": [
+          61.3,
+          32.58
+        ],
+        "donor_distance_mm": 2.8733952042836015,
+        "nearest_ground_vias": [
+          [
+            2.4965776575143823,
+            "d1b713af-53ef-4312-9433-e83b035b00e5",
+            [
+              58.85,
+              32.1
+            ]
+          ],
+          [
+            2.629548440322026,
+            "2a575363-a3e0-4044-bfce-896f6e5d1d64",
+            [
+              58.85,
+              31.625
+            ]
+          ]
+        ],
+        "physical_tracks": 1
+      }
+    ],
+    "straight_attached_tracks": 0,
+    "tentative_single_pad_obstacle_sites": 264
+  },
+  "R507": {
+    "original_position_mm": [
+      63.0,
+      27.0
+    ],
+    "original_layer": "B.Cu",
+    "pads": [
+      {
+        "pin": "1",
+        "net": "ETH_RXD0",
+        "position_mm": [
+          63.51,
+          27.0
+        ],
+        "track_count": 0,
+        "physical_peer_count": 0
+      },
+      {
+        "pin": "2",
+        "net": "PHY_RXD0",
+        "position_mm": [
+          62.49,
+          27.0
+        ],
+        "track_count": 0,
+        "physical_peer_count": 0
+      }
+    ],
+    "source": "U5.25",
+    "source_position_mm": [
+      63.2,
+      28.6
+    ],
+    "source_to_pad2_maximum_mm": 1.7504570831642803,
+    "rear_fine_poses": 1413,
+    "front_coarse_poses": 0,
+    "rear_fine_window_mm": [
+      -0.15,
+      0.15,
+      -0.12,
+      0.12
+    ],
+    "rear_fine_grid_mm": 0.005,
+    "rear_angle_offsets_deg": [
+      [
+        -12,
+        12,
+        2
+      ],
+      [
+        168,
+        192,
+        2
+      ]
+    ],
+    "front_coarse_max_displacement_mm": 3.3,
+    "front_coarse_grid_mm": 0.05,
+    "clearance_mm": 0.2,
+    "hole_gap_mm": 0.25,
+    "courtyard_intersection_allowed": false
+  },
+  "screened_via": {
+    "annulus_diameter_mm": 0.45,
+    "drill_mm": 0.2,
+    "grid_mm": 0.025,
+    "radius_from_clock_center_mm": [
+      0.5,
+      1.3
+    ],
+    "plane_ring_radius_mm": 0.28,
+    "plane_ring_samples": 16,
+    "clean_if_R507_removed": 429,
+    "one_track_clearance_cases": [
+      {
+        "via_mm": [
+          63.675,
+          27.365
+        ],
+        "distance_mm": 0.7044501401802685,
+        "obstacle": "cb94d987-f347-4ca5-bcf2-d2b7b7ce7fcd",
+        "nearest_regressions": []
+      },
+      {
+        "via_mm": [
+          63.675,
+          27.34
+        ],
+        "distance_mm": 0.7163274390947202,
+        "obstacle": "cb94d987-f347-4ca5-bcf2-d2b7b7ce7fcd",
+        "nearest_regressions": []
+      },
+      {
+        "via_mm": [
+          63.7,
+          27.365
+        ],
+        "distance_mm": 0.7267220926874317,
+        "obstacle": "cb94d987-f347-4ca5-bcf2-d2b7b7ce7fcd",
+        "nearest_regressions": []
+      },
+      {
+        "via_mm": [
+          63.7,
+          27.34
+        ],
+        "distance_mm": 0.73824115301167,
+        "obstacle": "cb94d987-f347-4ca5-bcf2-d2b7b7ce7fcd",
+        "nearest_regressions": []
+      },
+      {
+        "via_mm": [
+          63.7,
+          27.315
+        ],
+        "distance_mm": 0.7504165509901817,
+        "obstacle": "cb94d987-f347-4ca5-bcf2-d2b7b7ce7fcd",
+        "nearest_regressions": []
+      },
+      {
+        "via_mm": [
+          63.725,
+          27.315
+        ],
+        "distance_mm": 0.7721722605740251,
+        "obstacle": "cb94d987-f347-4ca5-bcf2-d2b7b7ce7fcd",
+        "nearest_regressions": []
+      },
+      {
+        "via_mm": [
+          63.725,
+          27.29
+        ],
+        "distance_mm": 0.7846177413237607,
+        "obstacle": "cb94d987-f347-4ca5-bcf2-d2b7b7ce7fcd",
+        "nearest_regressions": []
+      },
+      {
+        "via_mm": [
+          63.75,
+          27.265
+        ],
+        "distance_mm": 0.81891696770796,
+        "obstacle": "cb94d987-f347-4ca5-bcf2-d2b7b7ce7fcd",
+        "nearest_regressions": []
+      }
+    ],
+    "feasible_sites_with_R507_legal_pose_and_one_track_ignored": 0
+  },
+  "result": "No variant promoted. Existing copper, pad networks, drills, and plane fills retained.",
+  "limits": "Screen uses finite position, angle and via windows and conservative clearance; it does not prove absence in an unrestricted re-layout."
+}

@@ -1,0 +1,262 @@
+{
+  "checkpoint": "hardware/phoenix-g1/migration-rk3562/experiments/phy-power-parallel/layout-sys-3v3-pmic-trunk-width.json",
+  "sha256": "2e27af66ff7c7fd72d0513631b24b2b3a15d0088a489ae861d05b18afa1fb801",
+  "verified_schematic_assignments": {
+    "CPU_FB_SENSE": [
+      "C1020.2",
+      "R1001.2"
+    ],
+    "CPU_SW": [
+      "L1001.1"
+    ],
+    "GND": [
+      "C1014.2"
+    ],
+    "VDD_CPU": [
+      "C1014.1",
+      "C1020.1",
+      "L1001.2",
+      "R1001.1"
+    ]
+  },
+  "C1014": {
+    "pcb_value": "22u / 10V X5R",
+    "footprint": "0805",
+    "pose_mm": [
+      62.0,
+      36.0
+    ],
+    "pad1_copper_group": {
+      "pads": [
+        "C1014.1"
+      ],
+      "track_count": 0,
+      "via_count": 0
+    },
+    "role": "Fourth 22 uF X5R candidate from L1001.2 output to GND.",
+    "existing_gnd_stub": {
+      "track_uuid": "f022420d-e5ef-4e87-8f24-8b21d5365d89",
+      "length_mm": 0.9,
+      "via_xy_mm": [
+        62.05,
+        36.0
+      ]
+    },
+    "feedback_note": "C1020 lies between VDD_CPU and CPU_FB_SENSE in parallel with R1001; excluded as a bulk capacitor and tap anchor in thermal/power judgement.",
+    "source_group": {
+      "pads": [
+        "C1011.1",
+        "C1012.1",
+        "C1013.1",
+        "C1020.1",
+        "L1001.2",
+        "R1001.1"
+      ],
+      "track_count": 27,
+      "via_count": 0
+    }
+  },
+  "native_baseline": {
+    "remaining_unconnected": 319,
+    "same_violations": true,
+    "via_dangling": 121
+  },
+  "c1014_search": {
+    "search_250um_45deg": {
+      "counts_by_copper_face": {
+        "B.Cu": {
+          "counts": {
+            "courtyard": 174,
+            "pads": 2
+          },
+          "source_anchors": {
+            "positive": 6,
+            "negative": 31
+          }
+        },
+        "F.Cu": {
+          "counts": {
+            "courtyard": 4
+          },
+          "source_anchors": {
+            "positive": 35,
+            "negative": 32
+          }
+        }
+      },
+      "solutions": 0
+    },
+    "search_250um_30deg": {
+      "counts_by_copper_face": {
+        "B.Cu": {
+          "counts": {
+            "courtyard": 390,
+            "pads": 4
+          },
+          "source_anchors": {
+            "positive": 6,
+            "negative": 31
+          }
+        },
+        "F.Cu": {
+          "counts": {
+            "courtyard": 4
+          },
+          "source_anchors": {
+            "positive": 35,
+            "negative": 32
+          }
+        }
+      },
+      "solutions": 0
+    },
+    "search_250um_30deg_with_grid_paths": {
+      "counts_by_copper_face": {
+        "B.Cu": {
+          "counts": {
+            "courtyard": 390,
+            "pads": 4
+          },
+          "source_anchors": {
+            "positive": 6,
+            "negative": 31
+          }
+        },
+        "F.Cu": {
+          "counts": {
+            "courtyard": 4
+          },
+          "source_anchors": {
+            "positive": 35,
+            "negative": 32
+          }
+        }
+      },
+      "solutions": 0
+    },
+    "search_125um_15deg": {
+      "counts_by_copper_face": {
+        "B.Cu": {
+          "counts": {
+            "courtyard": 2696,
+            "pads": 21
+          },
+          "source_anchors": {
+            "positive": 6,
+            "negative": 31
+          }
+        },
+        "F.Cu": {
+          "counts": {
+            "courtyard": 20
+          },
+          "source_anchors": {
+            "positive": 35,
+            "negative": 32
+          }
+        }
+      },
+      "solutions": 0
+    },
+    "jog_grid_mm": 0.025,
+    "tested_track_widths_mm": [
+      0.8,
+      0.6,
+      0.5,
+      0.4
+    ],
+    "positive_max_length_mm": 4.8,
+    "negative_max_length_mm": 3,
+    "clearance_to_CPU_SW_mm": 0.7,
+    "scope": "An additive same-face route to a physically connected power anchor and existing GND via/power cap pad; both sides screened. Clearances between pad and drill checked on each face; no pad-over-via allowed."
+  },
+  "load_bank_fallback": {
+    "bank": {
+      "pads": [
+        "C1603.1",
+        "C1604.1",
+        "TP8.1"
+      ],
+      "track_count": 5,
+      "via_count": 0
+    },
+    "soc": {
+      "pads": [
+        "C1601.1",
+        "C1602.1",
+        "C1606.1",
+        "C1608.1",
+        "U1.1G8",
+        "U1.1H6",
+        "U1.1H7",
+        "U1.1H8",
+        "U1.1J6",
+        "U1.1J7"
+      ],
+      "track_count": 19,
+      "via_count": 0
+    },
+    "TP8_position_mm": [
+      35.75,
+      22.4
+    ],
+    "rear_anchor_count": [
+      34,
+      62
+    ],
+    "straight_and_one_45deg_corridors": 0,
+    "rear_grid_25um_corridors": 0,
+    "rear_grid_window_mm": [
+      34,
+      13.8,
+      44,
+      23.2
+    ],
+    "rear_max_length_mm": 8,
+    "rear_tested_widths_mm": [
+      0.8,
+      0.6,
+      0.5,
+      0.4
+    ],
+    "transition_via_sites": 0,
+    "through_via_probe": {
+      "grid_mm": 0.05,
+      "annulus_and_drill_mm": [
+        0.45,
+        0.2
+      ],
+      "pickup_strokes_max_mm": 1.9,
+      "window_mm": [
+        34.5,
+        15.5,
+        39,
+        22.4
+      ],
+      "keepouts_and_all_six_layers_checked": true
+    },
+    "alternate_C1607_placement": {
+      "counts_by_copper_face": {
+        "B.Cu": {
+          "counts": {
+            "courtyard": 4
+          },
+          "source_anchors": {
+            "positive": 36,
+            "negative": 44
+          }
+        },
+        "F.Cu": {
+          "counts": {},
+          "source_anchors": {
+            "positive": 13,
+            "negative": 40
+          }
+        }
+      },
+      "solutions": 0
+    }
+  },
+  "result": "No candidate was promoted. PCB, fitted footprints and TP8 unchanged.",
+  "limitations": "This is a bounded placement and routing study of nominal geometry. Native DRC run on the retained PCB. No electrical capacitance/ESR, regulation, PI, or accessible-fixture qualification."
+}

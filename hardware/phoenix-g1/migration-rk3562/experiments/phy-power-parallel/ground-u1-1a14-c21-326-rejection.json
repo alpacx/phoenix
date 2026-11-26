@@ -1,0 +1,124 @@
+{
+  "disposition": "REJECTED",
+  "net": "GND",
+  "endpoints": [
+    "U1.1A14",
+    "U1.C21"
+  ],
+  "retained_checkpoint": "layout-gpu-comp-debug-rx.json",
+  "retained_board_sha256": "007f405211d2c1fc4c5186074e35fabf62a30238f61652366680e6884835ad14",
+  "accessibility_evidence": "Copper-shape screen found a front detour on the retained PCB. Native DRC identified the drill clearance constraint.",
+  "attempts": [
+    {
+      "layer": "F.Cu",
+      "track_width_mm": 0.25,
+      "length_mm": 1.1571067811865414,
+      "trial_open_joins": 325,
+      "new_drc": [
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "61ed9cf1-e8d8-47e8-8f46-5e08b6ce1cac",
+            "abc115bf-895b-45e3-8884-a930ae7d065e"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "c47d2a7a-a0ad-4a85-ae3e-776f086e2d7c",
+            "d2ffed99-3181-46f9-8d1d-a21ef0e462ac"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "b3309004-8e50-4199-94aa-94facffbdab4",
+            "d2ffed99-3181-46f9-8d1d-a21ef0e462ac"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "a4cf01b0-cdc4-4a2b-841c-abee1e033a8f",
+            "d2ffed99-3181-46f9-8d1d-a21ef0e462ac"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "87eb12fd-a9ef-42e7-b3fa-d67e50e9df25",
+            "d2ffed99-3181-46f9-8d1d-a21ef0e462ac"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "55cad24a-f0c2-4943-b75b-25db3d31df71",
+            "d2ffed99-3181-46f9-8d1d-a21ef0e462ac"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "32a3aaad-76db-4266-9a9d-b06f294e74ee",
+            "d2ffed99-3181-46f9-8d1d-a21ef0e462ac"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "1f08182a-8acc-4b58-b7cd-b840ad328e1b",
+            "d2ffed99-3181-46f9-8d1d-a21ef0e462ac"
+          ],
+          "count": 1
+        },
+        {
+          "type": "hole_clearance",
+          "severity": "error",
+          "items": [
+            "17b87cd9-5d4d-44c5-9ebb-6703dcf61b13",
+            "d2ffed99-3181-46f9-8d1d-a21ef0e462ac"
+          ],
+          "count": 1
+        }
+      ],
+      "obstructing_vias": [
+        "LPDDR4_DQ3_B",
+        "LPDDR4_DQ6_B"
+      ],
+      "result": "Nine violations of the existing 0.250 mm drill-to-copper clearance."
+    },
+    {
+      "layer": "F.Cu",
+      "track_width_mm": 0.25,
+      "grid_mm": 0.025,
+      "drill_to_copper_search_clearance_mm": 0.251,
+      "detour_length_allowance_mm": 1.9,
+      "result": "No route within the bounded search after including existing drill geometry."
+    }
+  ],
+  "retained_verification": {
+    "minimum_open_joins": 326,
+    "open_nets": 195,
+    "checked_pad_pairs": 880,
+    "drc_findings": 121,
+    "introduced_drc": [],
+    "usb_selector_checked_pairs": 4
+  },
+  "assembly_ready": false
+}
