@@ -1,0 +1,106 @@
+{
+  "changed_via_centers_nm": [
+    [
+      75690000,
+      30800000
+    ],
+    [
+      77050000,
+      10350000
+    ],
+    [
+      81880000,
+      28200000
+    ],
+    [
+      82250000,
+      6800000
+    ],
+    [
+      82720000,
+      29250000
+    ],
+    [
+      82840000,
+      32100000
+    ],
+    [
+      84400000,
+      9000000
+    ],
+    [
+      84780000,
+      11600000
+    ]
+  ],
+  "samples_by_net_and_layer": {
+    "+3V3_PMU F.Cu": {
+      "sampled": 79,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "+3V3_PMU In2.Cu": {
+      "sampled": 258,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "+5V_MAIN In3.Cu": {
+      "sampled": 113,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "PMIC_INT_N In2.Cu": {
+      "sampled": 292,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "RESET_N F.Cu": {
+      "sampled": 328,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "VDD_GPU_COM B.Cu": {
+      "sampled": 127,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "VDD_GPU_COM F.Cu": {
+      "sampled": 237,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "VDD_NPU B.Cu": {
+      "sampled": 11,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "VDD_NPU F.Cu": {
+      "sampled": 339,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    }
+  },
+  "sample_pitch_mm": 0.012,
+  "via_window_radius_mm": 1.0,
+  "scope": "Center and edges of unchanged straight copper only. Local ground-fill comparison; no field or impedance simulation.",
+  "previous_sha256": "637607f782ae9fbf5b19a451fad8330dc213cd07bb53bde1ce96e40081846cbd",
+  "current_sha256": "53c1b3c9ba331b502b5d4519ecf3caf017e4d8a9aa956f487299828fce4c78c8"
+}

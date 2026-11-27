@@ -1,0 +1,36 @@
+{
+  "changed_via_centers_nm": [
+    [
+      32000000,
+      19960000
+    ]
+  ],
+  "samples_by_net_and_layer": {
+    "+3V3_IO In2.Cu": {
+      "sampled": 272,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "VDD_GPU B.Cu": {
+      "sampled": 44,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    },
+    "VDD_NPU In2.Cu": {
+      "sampled": 145,
+      "lost": 0,
+      "gained": 0,
+      "lost_in_same_rail_antipad": 0,
+      "lost_examples": []
+    }
+  },
+  "sample_pitch_mm": 0.012,
+  "via_window_radius_mm": 1.0,
+  "scope": "Center and edges of unchanged straight copper only. Local ground-fill comparison; no field or impedance simulation.",
+  "previous_sha256": "7e5374630c8cbc92e3e1659d113f1c4844be57344573ea9f4bdcad389e8f8cf9",
+  "current_sha256": "637607f782ae9fbf5b19a451fad8330dc213cd07bb53bde1ce96e40081846cbd"
+}

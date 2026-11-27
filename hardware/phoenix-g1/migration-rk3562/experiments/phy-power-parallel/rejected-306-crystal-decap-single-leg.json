@@ -1,0 +1,142 @@
+{
+ "parent_checkpoint": "layout-batch3.json",
+ "scope": "Rejected after native DRC and ground-reference checks passed; rejected on net-specific electrical constraints. Board not kept.",
+ "rejected": [
+  {
+   "net": "VDD_CPU",
+   "a": "c8f99940-d2bf-4197-80c0-d432f7e204a4",
+   "b": "246e4dae-d4e0-417a-944b-35f5eeb7951c",
+   "length_mm": 15.377,
+   "vias": [
+    [
+     37.85,
+     36.5
+    ],
+    [
+     44.9,
+     32.75
+    ]
+   ],
+   "layers": [
+    "B.Cu",
+    "In2.Cu"
+   ],
+   "reason": "decoupling capacitor C1605.1 reaches C1607.1 only through 15.4 mm of 0.20 mm track and 2 vias: continuity without useful high-frequency decoupling; occupies In2/B.Cu corridor"
+  },
+  {
+   "net": "XTAL24_DRIVE",
+   "a": "4acdc8a5-a010-4cc0-a0dd-419d61a4fcfa",
+   "b": "ba552f65-4391-491f-be03-43b00637efc1",
+   "length_mm": 20.612,
+   "vias": [
+    [
+     32.17,
+     33.2
+    ],
+    [
+     22.17,
+     32.2
+    ],
+    [
+     17.67,
+     34.0
+    ]
+   ],
+   "layers": [
+    "B.Cu",
+    "F.Cu",
+    "In2.Cu"
+   ],
+   "reason": "24 MHz SoC crystal branch 20.6 mm with 3 vias; placement-limited (see soc-crystal-320-load-bank-transfer.json, loads relocated next to Y1)"
+  },
+  {
+   "net": "XIN24M",
+   "a": "114807c7-6a09-494f-ac25-21a6c8773b59",
+   "b": "d01283d0-888f-4056-b098-9f581f6ce8e1",
+   "length_mm": 15.824,
+   "vias": [
+    [
+     31.02,
+     30.5
+    ],
+    [
+     26.27,
+     32.2
+    ],
+    [
+     22.22,
+     38.25
+    ]
+   ],
+   "layers": [
+    "F.Cu",
+    "In2.Cu",
+    "In3.Cu"
+   ],
+   "reason": "24 MHz SoC crystal branch 15.8 mm with 3 vias; placement-limited as above"
+  },
+  {
+   "net": "WIFI_XTAL_OUT",
+   "a": "05104874-15d8-4540-9a04-3a35007a22a9",
+   "b": "b8e15138-1f53-4289-a4eb-509aab5233ef",
+   "length_mm": 14.528,
+   "vias": [
+    [
+     39.21,
+     28.35
+    ],
+    [
+     30.76,
+     31.9
+    ]
+   ],
+   "layers": [
+    "F.Cu",
+    "In3.Cu"
+   ],
+   "reason": "Wi-Fi crystal branch 14.5 mm with 2 vias; load placement-limited"
+  },
+  {
+   "net": "USB_DM",
+   "a": "6489e664-cf20-4c77-b990-98105c275a99",
+   "b": "f8b74c50-9749-474d-ba0e-515144dd91c1",
+   "length_mm": 5.856,
+   "vias": [
+    [
+     8.3,
+     16.4
+    ],
+    [
+     7.2,
+     19.85
+    ]
+   ],
+   "layers": [
+    "F.Cu",
+    "In3.Cu"
+   ],
+   "reason": "single USB 2.0 D- leg J1.A7-U9.2 on In3 with 2 vias while D+ remains open: pair geometry not maintained"
+  },
+  {
+   "net": "WIFI_XIN",
+   "a": "ac9b171d-0a73-4f8b-9aed-be01d9725e20",
+   "b": "5e0ad97d-4e04-4ad6-82e5-c091ed17e6da",
+   "length_mm": 11.96,
+   "vias": [
+    [
+     73.9875,
+     22.85
+    ],
+    [
+     65.8375,
+     21.5
+    ]
+   ],
+   "layers": [
+    "B.Cu",
+    "F.Cu"
+   ],
+   "reason": "Wi-Fi crystal input 12.0 mm with 2 vias to load capacitor; load placement-limited"
+  }
+ ]
+}

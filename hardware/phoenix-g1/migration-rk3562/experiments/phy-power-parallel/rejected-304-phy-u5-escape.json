@@ -1,0 +1,18 @@
+{
+ "parent_checkpoint": "layout-batch4.json",
+ "parent_sha256": "1d85a8580428da64 (see layout-batch4.json)",
+ "result": "rejected, no PCB written",
+ "scope": "CAD feasibility with route_open_join.py (--rip/--keepout) and place_passive.py; rules unchanged (0.2 mm track/clearance, via 0.45/0.2, hole clearance 0.25).",
+ "attempts": [
+  {"joins": ["PHY_RXD0 U5.25-R507.2", "PHY_RXDV_CRS U5.26-R511.2"],
+   "hypothesis": "R507/R511 have no copper and no verified pair: rip the PHY_RXCLK F.Cu detour (U5.27 -> via 63.05,27.69 -> R512.2) and re-place R507/R511",
+   "outcome": "no_path at guard 0.7/0.45/0; place_passive: 52 free poses within 3 mm, none routable. The RXCLK via slot is the only via site between R512 (B.Cu) and C517.2/GND trace at y=27; it is <0.425 mm from R512.2 for any other net."},
+  {"joins": ["same"],
+   "hypothesis": "also park R507/R511/R512, replace the C517.2 GND trace (5acea6f2, via 6a8c8193) with a local GND via, keep F.Cu channels of pins 25/26 free and reroute RXCLK to the left",
+   "outcome": "C517.2 GND via route found (0.45 mm, via 63.48,26.75); RXCLK left via site blocked by C517.2 pad (needs y>=27.735) and +3V3_PHY pin-28 track at x=62.0 (0.525 mm via keep-off). no_path."},
+  {"joins": ["ETH_MDC U5.13", "ETH_MDIO U5.14", "PHY_TXD3..0 U5.15-18", "PHY_TXEN U5.19", "PHY_TXCLK U5.20"],
+   "hypothesis": "TX side pins have no copper; free the escape by ripping the PHY_RESET_N F.Cu loop in front of pins 13-16, the GND via 34504188 + B.Cu trace aa3d6466, and parking R510",
+   "outcome": "probe only: U5.18 -> R501.2 still no_path within 2 s (source enclosed). R510.2 carries PHY_RXD3 (not free). Requires re-placing the U5 right-side passives as a group."}
+ ],
+ "dependency": "U5 RGMII escapes need a group re-placement of R507/R509-R512/R521/C517 around the PHY (or via-in-pad / smaller vias), not single-join routing."
+}
